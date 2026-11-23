@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Explore the value created by companies linked to 100 business leaders, how many people they employ, and what those workers may earn together each year.">
+<title>The Business 100 | The Value Ledger</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script defer src="data.js"></script>
+<script defer src="globe.js"></script>
+<script defer src="amazon-distribution.js"></script>
+<script defer src="amazon-market-mask.js"></script>
+<script defer src="amazon-state-data.js"></script>
+<script defer src="amazon-state-map.js"></script>
+<script defer src="amazon-footprint.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<header class="top" id="top"><div class="wrap nav">
+<a class="brand" href="#top"><span class="logo" aria-hidden="true">VL</span><span>The Value Ledger</span></a>
+<nav aria-label="Main navigation"><a href="#ranking">The ranking</a><a href="#method">Methodology</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+<div class="hero-copy">
+<p class="eyebrow"><span></span> THE 2024–25 EDITION</p>
+<h1>The Business <em>100</em></h1>
+<p class="intro">The companies these 100 leaders helped build or lead employ millions of people. Explore the value those companies created, how many people work there, and what those workers may earn together each year.</p>
+<a class="primary" href="#ranking">Explore the ranking</a>
+</div>
+<div class="cover" id="cover" aria-label="The three highest-ranked leaders"></div>
+</div></section>
+<div class="summary"><div class="wrap stats" id="stats"></div></div>
+<section class="wrap ranking" id="ranking">
+<div class="section-head">
+<div><p class="eyebrow">THE BUSINESS 100</p><h2>The ranking</h2><p>Choose any leader to see their figures and explore company locations on a globe.</p></div>
+<a class="case-link" href="#leader/jeff-bezos/distribution"><span>AMAZON CASE STUDY</span>Who shares in the value?</a>
+</div>
+<div class="toolbar">
+<label class="search"><span aria-hidden="true">⌕</span><input id="query" type="search" placeholder="Search leaders or companies" aria-label="Search leaders or companies"></label>
+<div class="filter-group">
+<label class="sort">Industry <select id="sector"><option value="">All industries</option></select></label>
+<label class="sort">Rank by <select id="sort"><option value="cap">Value created</option><option value="jobs">People employed</option><option value="payroll">Estimated annual pay to workers</option></select></label>
+</div>
+</div>
+<div class="table-meta"><p id="result-count" aria-live="polite"></p><span>Figures in USD</span></div>
+<div class="table-shell">
+<table><thead><tr><th scope="col">Rank</th><th scope="col">Leader / Company</th><th scope="col" data-col="cap">Value created</th><th scope="col" data-col="jobs">People employed</th><th scope="col" data-col="payroll">Estimated annual pay to workers</th></tr></thead><tbody id="rows"></tbody></table>
+<p id="empty" hidden>No leaders match those filters.</p>
+</div>
+<p class="table-note">Value created uses year-end 2024 company equity values. Employment and estimated pay cover people employed directly around the world.</p>
+</section>
+<section class="method" id="method"><div class="wrap">
+<p class="eyebrow">METHODOLOGY</p><h2>How to read this list</h2>
+<div class="method-grid">
+<article><h3>Value created</h3><p>We use each company’s market capitalization at year-end 2024 as a snapshot of its equity value, sourced from CompaniesMarketCap. That figure reflects share prices and the number of shares outstanding. Many people helped build that value, and each profile highlights one leader connected to the company.</p><a href="https://youtu.be/w0oOxs0WKNk?t=1041">Discussion that inspired the list</a></article>
+<article><h3>People employed</h3><p>This counts people working directly for the company or its subsidiaries on the reporting date, including people who joined through acquisitions. Figures come from annual reports and Stock Analysis, generally from fiscal 2024 or the first half of 2025. Some people can appear in more than one company’s total where reporting overlaps. Each profile links its source.</p></article>
+<article><h3>Estimated annual pay to workers</h3><p>This estimates the total pay that supports workers’ livelihoods over a year. We multiply the number of people employed by an assumed yearly pay per person in USD. The assumption draws on the industry and, in some cases, the company’s home country. Actual pay varies by role and location. Use the slider on each profile to see how changing the assumption affects the estimate.</p></article>
+<article><h3>Operating locations</h3><p>Company globes show selected locations. Amazon’s map adds net sales by market, estimated GDP contributions and investment by U.S. state, and reported measures for selected facilities. The employment and pay figures at the top of each profile cover people worldwide. The globe geography comes from Natural Earth. U.S. state boundaries come from the Census Bureau through US Atlas. Photo credits and licenses appear on each profile.</p></article>
+</div></div></section>
+</main>
+<footer><div class="wrap"><a class="brand" href="#top"><span class="logo" aria-hidden="true">VL</span><span>The Value Ledger</span></a><span>The Business 100 · 2024–25</span></div></footer>
+<dialog id="profile" aria-labelledby="profile-title">
+<div class="profile-top"><span class="eyebrow">THE BUSINESS 100</span><button id="close" class="close" type="button" aria-label="Close profile">×</button></div>
+<div id="profile-body"></div>
+</dialog>
+</body>
+</html>

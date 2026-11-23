@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "value-for-humanity",
+  "compatibility_date": "2026-11-23",
+  "assets": {
+    "directory": "./dist"
+  },
+  "routes": [
+    { "pattern": "valueforhumanity.com", "custom_domain": true }
+  ]
+}
