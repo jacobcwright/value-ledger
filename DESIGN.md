@@ -1,0 +1,48 @@
+# Value for Humanity: design and editorial brief
+
+This brief is the shared direction for every change to the site. Read it before editing.
+
+## The pitch
+
+**Value for Humanity** publishes **The Business 100**, a ranking of 100 business builders and the companies they helped create or lead.
+
+The thesis is that building a great company is one of the most powerful ways a person can help other people. The site makes that case with evidence, not slogans:
+
+1. **Value created.** The companies on this list are worth about $35 trillion together. That value exists because customers chose to buy what these companies make.
+2. **Livelihoods.** Together they employ about 15 million people directly and pay an estimated ~$1 trillion a year in wages.
+3. **Shared ownership.** Most of the value doesn't sit with the founder. Amazon is the worked example. Jeff Bezos holds about 9% of the company. The other ~91% belongs to index funds, pension systems such as CalPERS, institutions and individuals, which in practice means the retirement savings of ordinary people. Green on the site always marks "value held by or flowing to everyone else."
+4. **Reach.** Operating footprints, sales by market and U.S. state impact show the value landing in real places.
+
+Every headline figure above must be **computed in code from `data.js` or the Amazon data files**. Never hardcode it in copy. If you need a number that doesn't already exist in the data, don't add it.
+
+## Voice
+
+- Confident, warm and optimistic. Write like a well-edited business magazine celebrating its annual list, not like a pamphlet.
+- Let the figures make the argument. Use plain verbs: built, employs, pays, owns, serves.
+- Celebrate builders without diminishing anyone else. Many people helped create each company, and the methodology already says so. Keep that nuance.
+- Avoid partisan language, attacks on critics of capitalism, and the words "billionaire", "greed", "trickle-down" and "job creators".
+- Don't use unearned superlatives such as "greatest" or "most important". Allowed: "the 100 builders on this list", "together they employ…".
+- Keep the methodology honest. Market capitalization is a snapshot of equity value, and pay is an estimate. Don't remove caveats; you can tighten their wording.
+
+## Visual direction
+
+The site is an editorial publication: warm paper, ink, serif display type, red as the brand mark, and dark map surfaces for the data. Polish it; don't redesign it.
+
+- **Tokens.** Use the custom properties in `dist/css/base.css` (`--space-*`, `--radius*`, `--shadow-*`, `--green`, `--gold`, `--map*` and others). Don't add new one-off hex colors when a token fits. If you need a token that doesn't exist, define it locally in your own file and say so in your report.
+- **Color meaning.** Red is the brand, the founder and the selected state. Green is broadly shared value. Gold is the highlight on dark map surfaces.
+- **Type.** Use Georgia for display and numbers, and the system sans for UI and body. Use tabular numerals for figures in tables and lists.
+- **Radii.** Standardize on `--radius-sm` for controls and `--radius` for cards and panels. Keep `--radius-lg` for the dialog only.
+- **Motion.** Keep it subtle (150–250ms, `--ease`) and respect `prefers-reduced-motion`.
+- **Responsiveness.** Every change must hold at 390px, 768px and 1440px wide.
+- **Accessibility.** Keep visible focus, at least AA contrast, keyboard paths for maps and globes, and the existing ARIA.
+
+## File ownership
+
+Styles are split by area in `dist/css/`, loaded in this order: `base`, `home-hero`, `home-ranking`, `home-method`, `profile`, `amazon-distribution`, `amazon-map`, `amazon-states`. Edit only the files that belong to your area.
+
+## Hard rules
+
+- Don't change any figure, source URL, portrait credit or license in `data.js` or the Amazon data files.
+- Keep every source link, photo credit and license line visible.
+- Hash routes must keep working: `#leader/<id>`, `#leader/jeff-bezos/distribution`, `#leader/jeff-bezos/footprint` and `#leader/jeff-bezos/states`.
+- Keep the stack: no build step, no frameworks, no external CDNs or trackers. The site must work from static files in `dist/`.

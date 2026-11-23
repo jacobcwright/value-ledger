@@ -1,0 +1,13 @@
+.method {padding:57px 0 65px;background:#f0e9de;border-top:1px solid var(--line)}
+.method-grid {display:grid;grid-template-columns:1fr 1fr;gap:24px 40px;margin-top:30px}
+.method article {border-top:1px solid #cabdb0;padding-top:16px}
+.method p:not(.eyebrow) {color:var(--muted);margin-bottom:10px}
+.method a {font-size:14px;color:var(--red-dark);text-underline-offset:3px}
+footer {background:var(--night);color:var(--night-text);padding:24px 0}
+footer .wrap {display:flex;justify-content:space-between;align-items:center;gap:20px}
+footer .wrap > span {font-size:14px}
+@media (max-width:760px) {
+  .method {padding-block:40px}
+  .method-grid {grid-template-columns:1fr}
+  footer .wrap {flex-wrap:wrap}
+}

@@ -1,0 +1,21 @@
+.amazon-states-view {display:grid;grid-template-columns:minmax(0,1.9fr) minmax(0,1fr)}
+.amazon-states-map {display:flex;flex-direction:column;justify-content:center;min-width:0;padding:14px 13px 9px;background:radial-gradient(ellipse at 52% 42%,#293c3e,#152124 80%)}
+.amazon-states-map svg {display:block;width:100%;height:auto;overflow:visible}
+.amazon-states-map path {cursor:pointer;fill-rule:evenodd;stroke:#162124;stroke-width:1;vector-effect:non-scaling-stroke}
+.amazon-states-map path:hover {filter:brightness(1.25)}
+.amazon-states-map path.selected {stroke:#fff4da;stroke-width:2;paint-order:fill stroke}
+.state-heat-legend {display:flex;flex-wrap:wrap;justify-content:center;gap:5px 10px;padding-top:8px;color:#d6e6df;font-size:12px}
+.state-heat-legend span {display:flex;align-items:center;gap:5px;white-space:nowrap}
+.state-heat-legend i {width:10px;height:8px;border-radius:2px;background:var(--dot)}
+.amazon-state-inset {text-align:center;margin:5px 0 0;color:#c7d8d0;font-size:12px}
+.amazon-state-panel {padding:13px;background:#1c2a2d;border-left:1px solid #394b4b;min-width:0}
+.amazon-state-panel label {display:block;color:#c7d8d0;font-size:13px;font-weight:650;margin-bottom:3px}
+.amazon-state-panel select {display:block;width:100%;margin:0 0 9px;padding:7px 8px;color:#f1f7f3;background:#27383a;border:1px solid #56716f;border-radius:4px;font-size:14px}
+.amazon-state-panel dl {margin:9px 0 6px}
+.amazon-state-panel dl > div {display:flex;justify-content:space-between;gap:6px;padding:5px 0;border-top:1px solid #475957;font-size:13px}
+.amazon-state-panel dt {color:#c7d8d0}
+.amazon-state-panel dd {margin:0;color:#f6eee1;font-weight:700;white-space:nowrap}
+@media (max-width:700px) {
+  .amazon-states-view {grid-template-columns:1fr}
+  .amazon-state-panel {border-left:0;border-top:1px solid #394b4b}
+}

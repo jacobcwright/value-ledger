@@ -1,0 +1,76 @@
+.case-link {display:flex;flex-direction:column;gap:4px;flex:none;max-width:100%;border-left:2px solid var(--red);padding:3px 0 4px 11px;font:700 19px/1.22 var(--serif);text-decoration:none}
+.case-link span {font:750 11px/1.2 var(--sans);letter-spacing:.12em;color:var(--red-dark)}
+.case-link:hover {text-decoration:underline;text-underline-offset:4px}
+.distribution {margin-bottom:20px;border:1px solid var(--line);border-radius:7px;background:#fffdf8;scroll-margin-top:69px;overflow:hidden}
+.distribution-heading {padding:22px 22px 16px;background:#f6eade}
+.distribution-heading .eyebrow {margin-bottom:6px}
+.distribution-heading h3 {font:400 clamp(31px,5.1vw,50px)/1 var(--serif);letter-spacing:-.05em;margin:0 0 8px}
+.distribution-heading p:last-child,.distribution-subhead p {margin:0;color:var(--muted)}
+.distribution-tabs {display:flex;background:#f6eade;padding:0 12px;border-bottom:1px solid var(--line)}
+.distribution-tabs button {border:0;border-bottom:3px solid transparent;color:var(--muted);background:none;font-size:14px;font-weight:700;padding:11px 13px;line-height:1.2;text-align:left}
+.distribution-tabs button:hover,.distribution-tabs button[aria-selected="true"] {color:var(--red-dark);border-bottom-color:var(--red)}
+.distribution-tabs button:focus-visible,.distribution-panel:focus-visible {outline-offset:-4px}
+.distribution-panel {padding:19px 22px 22px}
+.distribution-subhead {display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:16px}
+.distribution-subhead h4 {font:700 24px/1.15 var(--serif);letter-spacing:-.03em;margin:0 0 4px}
+.distribution-subhead p,.distribution-total span,.distribution-note {font-size:14px}
+.distribution-total {display:flex;flex-direction:column;text-align:right;flex:none}
+.distribution-total strong,.worker-totals strong {font:700 31px/1 var(--serif);letter-spacing:-.045em;color:var(--red-dark)}
+.distribution-total span,.worker-totals span {color:var(--muted)}
+.ownership-bar {display:flex;height:19px;border-radius:4px;overflow:hidden;background:#dbd2c5;margin-bottom:16px}
+.ownership-bar span {flex-basis:0;min-width:0;cursor:pointer}
+.ownership-bar span:hover {filter:brightness(.84)}
+.ownership-founder {background:#9d271f}
+.ownership-total-market {background:#42717b}
+.ownership-five-hundred {background:#6b5c8b}
+.ownership-pension {background:#c2793a}
+.ownership-other {background:#287647}
+.ownership-breakdown {display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:14px}
+.ownership-choices {display:grid;align-content:start;gap:4px}
+.ownership-choices button {display:grid;align-items:center;grid-template-columns:10px minmax(0,1fr) auto;gap:9px;width:100%;padding:7px 8px;text-align:left;border:1px solid transparent;border-radius:4px;background:none;color:var(--ink)}
+.ownership-choices button:hover,.ownership-choices button[aria-pressed="true"] {border-color:#dfc5b8;background:#f8ece5}
+.ownership-key {width:9px;height:9px;border-radius:2px}
+.holding-name,.holding-amount {display:flex;flex-direction:column;font-size:14px;line-height:1.25}
+.holding-amount {text-align:right;white-space:nowrap}
+.holding-name small,.holding-amount small {font-size:12px;color:var(--muted);margin-top:2px}
+.ownership-detail {background:#f3ece1;border:1px solid var(--line);padding:13px 14px;border-radius:5px}
+.ownership-detail h5,.distribution-timeline h5,.distribution-mini-heading {margin:0 0 7px;font:700 18px/1.15 var(--serif)}
+.ownership-share-count {font-size:14px;color:var(--red-dark)}
+.ownership-detail p {margin:6px 0 8px;font-size:14px;color:var(--muted)}
+.distribution-note {margin:14px 0 12px;color:var(--muted)}
+.distribution-panel a {color:var(--red-dark);font-size:14px;text-underline-offset:3px}
+.distribution-method {border-top:1px solid var(--line);padding-top:10px}
+.distribution-method summary {cursor:pointer;color:var(--red-dark);font-size:14px;font-weight:700}
+.distribution-method p {margin:8px 0;font-size:14px;color:var(--muted)}
+.distribution-table {display:table;width:100%;border:1px solid var(--line);font-size:14px}
+.distribution-table thead {position:static;width:auto;height:auto;overflow:visible;clip-path:none}
+.distribution-table tbody {display:table-row-group}
+.distribution-table tr {display:table-row;border-bottom:1px solid var(--line);cursor:default}
+.distribution-table th,.distribution-table td {display:table-cell;padding:8px 9px}
+.distribution-table tbody th {background:none}
+.distribution-table td:nth-child(2),.distribution-table th:nth-child(2) {text-align:right}
+.worker-totals {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}
+.worker-totals > div {display:flex;flex-direction:column;gap:4px;background:#f3ece1;padding:11px 9px;border-radius:4px}
+.worker-totals span {font-size:13px;line-height:1.3}
+.worker-equity {margin:0;padding:0;list-style:none}
+.worker-equity li {display:grid;grid-template-columns:39px minmax(0,1fr) 65px;align-items:center;gap:9px;font-size:14px;padding:4px 0}
+.worker-equity li > strong {text-align:right}
+.worker-track {background:#f0e8dd;height:9px;border-radius:3px;overflow:hidden}
+.worker-track span {height:100%;display:block;background:#a24435}
+.distribution-timeline {list-style:none;margin:15px 0 0;padding:0;border-top:1px solid var(--line)}
+.distribution-timeline li {display:grid;grid-template-columns:67px minmax(0,1fr);gap:10px;padding:12px 0;border-bottom:1px solid var(--line)}
+.distribution-timeline li:last-child {padding-bottom:0;border-bottom:0}
+.distribution-timeline time {font-size:13px;font-weight:750;color:var(--red-dark)}
+.distribution-timeline p {margin:0 0 4px;color:var(--muted);font-size:14px}
+@media (max-width:760px) {
+  .section-head:has(.case-link) {flex-wrap:wrap;gap:12px}
+  .case-link {font-size:17px}
+  .distribution-heading {padding:15px 12px 10px}
+  .distribution-tabs {padding:0 5px}
+  .distribution-tabs button {padding:9px 7px;font-size:13px}
+  .distribution-panel {padding:13px 11px 16px}
+  .distribution-subhead {flex-wrap:wrap}
+  .distribution-total {text-align:left}
+  .ownership-breakdown {grid-template-columns:1fr;gap:9px}
+  .worker-totals strong {font-size:23px}
+}
