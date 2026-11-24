@@ -17,7 +17,7 @@ function externalLink(url, label) {
   if (!url?.startsWith("https://")) return escapeHtml(label);
   return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`;
 }
-const metrics = {cap:"Market value",jobs:"People employed",payroll:"Estimated annual pay to workers"};
+const metrics = {cap:"Value created",jobs:"People employed",payroll:"Estimated annual pay to workers"};
 const sortedByCap = [...leaders].sort((a,b) => b.cap - a.cap);
 // List-wide headline figures ("$35.5 trillion", "15 million", "$985 billion"). The key line under the
 // title, the "How value spreads" story and the <head> meta copy all use this one rounding, so they always match.
@@ -29,13 +29,13 @@ function headlineFigure(value, prefix = "") {
 }
 const headlineShort = ([number,unit]) => number + {trillion:"T",billion:"B",million:"M"}[unit];
 {
-  // The key line under the title, computed from data.js: "100 builders · $35.5T market value · …".
+  // The key line under the title, computed from data.js: "100 builders · $35.5T value created · …".
   const keyLine = byId("key-line");
   if (keyLine) {
     const sum = key => leaders.reduce((total,leader) => total + leader[key],0);
     keyLine.innerHTML = [
       `${leaders.length} builders`,
-      `${headlineShort(headlineFigure(sum("cap") * 1e9,"$"))} market value`,
+      `${headlineShort(headlineFigure(sum("cap") * 1e9,"$"))} value created`,
       `${headlineShort(headlineFigure(sum("jobs")))} people employed`,
       `${headlineShort(headlineFigure(sum("payroll") * 1e9,"$"))} estimated annual pay`
     ].map(item => `<li>${item}</li>`).join("");
@@ -196,9 +196,9 @@ function openProfile(leader, section) {
   ];
   updateProfileNav(leader);
   byId("profile-body").innerHTML = `
-    <header class="profile-title">${portrait(leader,true)}<div class="profile-heading"><p class="eyebrow">NO. ${rank} BY MARKET VALUE <span aria-hidden="true">·</span> ${escapeHtml(leader.sector.toUpperCase())}</p><h2 id="profile-title">${escapeHtml(leader.name)}</h2><p class="profile-role">${escapeHtml(leader.role)} · <strong>${escapeHtml(leader.company)}</strong> <span class="profile-ticker">${escapeHtml(leader.ticker)}</span></p></div></header>
+    <header class="profile-title">${portrait(leader,true)}<div class="profile-heading"><p class="eyebrow">NO. ${rank} BY VALUE CREATED <span aria-hidden="true">·</span> ${escapeHtml(leader.sector.toUpperCase())}</p><h2 id="profile-title">${escapeHtml(leader.name)}</h2><p class="profile-role">${escapeHtml(leader.role)} · <strong>${escapeHtml(leader.company)}</strong> <span class="profile-ticker">${escapeHtml(leader.ticker)}</span></p></div></header>
     <dl class="profile-stats">${figures.map(([key,label,value,note]) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong>${value}</strong><span>${note}</span></dd></div>`).join("")}</dl>
-    <p class="profile-lenses">Market value is one lens on the value ${escapeHtml(leader.company)} created. Each lens on this page stands on its own; they are never added together. <a href="/methodology">Methodology</a></p>
+    <p class="profile-lenses">Value created is measured here as market value, which counts only what owners keep. The sections below show more of the value ${escapeHtml(leader.company)} created; each stands on its own and they are never added together. <a href="/methodology">Methodology</a></p>
     ${!isAmazon && typeof companyValueSlot === "function" ? companyValueSlot(leader) : ""}
     ${isAmazon ? '<p class="amazon-profile-links"><button type="button" id="show-amazon-map">Explore where Amazon creates value</button></p>' : ""}
     ${isAmazon ? amazonDistribution(leader) : ""}
@@ -223,7 +223,7 @@ function openProfile(leader, section) {
         <button class="scenario-reset" id="wage-reset" type="button" hidden>Reset to our estimate</button>
       </section>
       <section class="profile-sources" aria-labelledby="sources-title"><h3 id="sources-title">Sources</h3>
-        <div class="sources">${externalLink(leader.jobsUrl,"Employment source")}${externalLink(leader.capUrl,"Market value source")}${externalLink(leader.bio,"Biography")}</div>
+        <div class="sources">${externalLink(leader.jobsUrl,"Employment source")}${externalLink(leader.capUrl,"Value created source")}${externalLink(leader.bio,"Biography")}</div>
         <p class="photo-credit">Photo (cropped): ${externalLink(leader.photo,leader.artist)} · ${externalLink(leader.licenseUrl,leader.license)}</p>
       </section>
     </div>`;
