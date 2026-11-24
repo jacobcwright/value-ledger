@@ -4,11 +4,7 @@
 .top {--top-muted:#d9cdc4}             /* local token: secondary text on --night, 11:1 */
 .top .nav {display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}
 .top .brand {grid-column:2;gap:var(--space-3);font-size:22px;color:var(--night-text)}
-.top .logo {
-  width:30px;height:30px;padding:0;border-radius:var(--radius-sm);
-  font:700 14px/1 var(--serif);letter-spacing:-.04em;
-  box-shadow:inset 0 0 0 3px var(--red),inset 0 0 0 4px #fff8ef66;
-}
+.top .logo {width:30px;height:30px}
 .top nav {grid-column:3;justify-self:end;gap:var(--space-5);font-size:13px;font-weight:650}
 .top nav a {padding-block:var(--space-2);white-space:nowrap;color:var(--top-muted);transition:color .18s var(--ease)}
 .top nav a:hover {color:var(--night-text)}
@@ -45,7 +41,7 @@
 }
 @media (max-width:640px) {
   .top .brand {gap:var(--space-2);font-size:16px}
-  .top .logo {width:26px;height:26px;font-size:12px;box-shadow:inset 0 0 0 2px var(--red),inset 0 0 0 3px #fff8ef66}
+  .top .logo {width:26px;height:26px}
   .top nav {gap:var(--space-3);font-size:12px}
   .key-line {grid-template-columns:auto;gap:2px;min-height:6em;font-size:11px}
   .key-line li:nth-child(n) {justify-self:center}
@@ -54,7 +50,7 @@
 /* Phones: the ranking starts on the first screen, so its link gives way to keep the bar on one line. */
 @media (max-width:440px) {
   .top .brand {font-size:15px}
-  .top .logo {width:24px;height:24px;font-size:11px}
+  .top .logo {width:24px;height:24px}
   .top nav a[href="#ranking"] {display:none}
 }
 @media (prefers-reduced-motion:reduce) {
