@@ -6,7 +6,7 @@
       "label": "Long-lived assets",
       "unit": "currency-billions",
       "currency": "USD",
-      "period": "as of December 31, 2024",
+      "period": "as of December 31, 2025",
       "tier": "filing",
       "definition": "Right-of-use assets and furniture, equipment and leasehold improvements, net, held in the United States; no individual foreign country was more than 10% of the total."
     }
@@ -17,14 +17,14 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "longLivedAssets": 1.1
+        "longLivedAssets": 1
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, Note 19, Segment Reporting, geographic information",
-        "quote": "As of December 31, 2024 and 2023, Blackstone held long-lived assets in the United States of $ 1.1 billion."
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, Note 19, Segment Reporting, geographic information",
+        "quote": "As of December 31, 2025 and 2024, Blackstone held long-lived assets in the United States of $ 1.0 billion and $ 1.1 billion, respectively."
       }
     }
   ],
@@ -39,8 +39,8 @@
       "description": "Principal executive offices in leased office space at 345 Park Avenue.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
         "quote": "Our principal executive offices are located in leased office space at 345 Park Avenue, New York, New York."
       }
     },
@@ -53,9 +53,9 @@
       "description": "Leased office.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
-        "quote": "As of December 31, 2024, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, New Jersey, San Francisco, Singapore, Tokyo and other cities around the world."
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2025, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, Mumbai, Berkeley Heights, San Francisco, Singapore, Tokyo and other cities around the world."
       }
     },
     {
@@ -67,9 +67,9 @@
       "description": "Leased office.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
-        "quote": "As of December 31, 2024, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, New Jersey, San Francisco, Singapore, Tokyo and other cities around the world."
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2025, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, Mumbai, Berkeley Heights, San Francisco, Singapore, Tokyo and other cities around the world."
       }
     },
     {
@@ -81,23 +81,37 @@
       "description": "Leased office.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
-        "quote": "As of December 31, 2024, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, New Jersey, San Francisco, Singapore, Tokyo and other cities around the world."
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2025, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, Mumbai, Berkeley Heights, San Francisco, Singapore, Tokyo and other cities around the world."
       }
     },
     {
-      "name": "New Jersey office",
-      "place": "New Jersey",
+      "name": "Mumbai office",
+      "place": "Mumbai, India",
+      "state": null,
+      "iso2": "IN",
+      "type": "office",
+      "description": "Leased office.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2025, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, Mumbai, Berkeley Heights, San Francisco, Singapore, Tokyo and other cities around the world."
+      }
+    },
+    {
+      "name": "Berkeley Heights office",
+      "place": "Berkeley Heights, NJ",
       "state": "NJ",
       "iso2": "US",
       "type": "office",
       "description": "Leased office.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
-        "quote": "As of December 31, 2024, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, New Jersey, San Francisco, Singapore, Tokyo and other cities around the world."
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2025, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, Mumbai, Berkeley Heights, San Francisco, Singapore, Tokyo and other cities around the world."
       }
     },
     {
@@ -109,9 +123,9 @@
       "description": "Leased office.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
-        "quote": "As of December 31, 2024, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, New Jersey, San Francisco, Singapore, Tokyo and other cities around the world."
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2025, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, Mumbai, Berkeley Heights, San Francisco, Singapore, Tokyo and other cities around the world."
       }
     },
     {
@@ -123,9 +137,9 @@
       "description": "Leased office.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
-        "quote": "As of December 31, 2024, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, New Jersey, San Francisco, Singapore, Tokyo and other cities around the world."
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2025, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, Mumbai, Berkeley Heights, San Francisco, Singapore, Tokyo and other cities around the world."
       }
     },
     {
@@ -137,12 +151,12 @@
       "description": "Leased office.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
-        "quote": "As of December 31, 2024, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, New Jersey, San Francisco, Singapore, Tokyo and other cities around the world."
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2025, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, Mumbai, Berkeley Heights, San Francisco, Singapore, Tokyo and other cities around the world."
       }
     }
   ],
-  "notes": "Blackstone's own footprint is small (about 4,895 employees at its New York headquarters and around the world, per the FY2024 10-K); it publishes no state- or country-level employee, office or tax breakdown. Its wider economic reach runs through portfolio companies, but no state-by-state portfolio data was found on blackstone.com, and portfolio-company data would not be Blackstone's own footprint. The only country value in the 10-K is U.S. long-lived assets ($1.1bn); no foreign country exceeded 10%. Sites are the headquarters and the leased offices the 10-K names.",
-  "researchedAt": "2026-11-23"
+  "notes": "Blackstone's own footprint is small (approximately 5,285 people at its New York headquarters and around the world, per the FY2025 10-K); it publishes no state- or country-level employee, office or tax breakdown. Its wider economic reach runs through portfolio companies, but no state-by-state portfolio data was found on blackstone.com, and portfolio-company data would not be Blackstone's own footprint. The only country value in the 10-K is U.S. long-lived assets ($1.0bn at Dec 31, 2025); no foreign country exceeded 10%. Sites are the headquarters and the leased offices the FY2025 10-K names: it now lists Mumbai (added) and names the New Jersey office as Berkeley Heights.",
+  "researchedAt": "2026-11-24"
 }

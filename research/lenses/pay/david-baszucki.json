@@ -1,0 +1,31 @@
+{
+  "id": "david-baszucki",
+  "company": "Roblox",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 3065,
+    "asOf": "2025-12-31",
+    "basis": "full time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025 , we employed 3,065 full time employees, the majority of whom work from our San Mateo, California headquarters."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Our median employee's annual total compensation",
+    "value": 394921,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1315098/000110465926044362/rblx-20260528xdef14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "Mr. Baszucki's annual total compensation for fiscal year 2025 was $24,565,995. Our median employee's annual total compensation was $394,921, resulting in a CEO pay ratio of approximately 62.2:1."
+    }
+  },
+  "notes": "Employees: full-time head count at December 31, 2025; the 10-K adds that Roblox also had 'thousands of trust & safety agents across the globe', who are not employees and are not counted. Payroll: the 10-K discloses no total staff cost, so the proxy's CEO pay ratio median for fiscal 2025 is used; it includes equity awards.",
+  "researchedAt": "2026-11-24"
+}

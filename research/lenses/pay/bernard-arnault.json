@@ -1,0 +1,31 @@
+{
+  "id": "bernard-arnault",
+  "company": "LVMH Moët Hennessy Louis Vuitton",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "EUR",
+  "employees": {
+    "value": 213932,
+    "asOf": "2025-12-31",
+    "basis": "total workforce as of December 31 (permanent, fixed-term, non-guaranteed hours and apprenticeship and vocational training contracts)",
+    "source": {
+      "hostType": "company",
+      "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+      "label": "2025 Universal Registration Document, Sustainability report, Social, 1.2 Key data on the Group's workforce",
+      "quote": "Total workforce as of December 31, 2025, was therefore 213,932 employees (compared with 218,150 in 2024)."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Personnel costs",
+    "value": 15.218,
+    "source": {
+      "hostType": "company",
+      "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+      "label": "2025 Universal Registration Document, Note 25.2 Expenses by nature, personnel costs (EUR millions)",
+      "quote": "Salaries and social security contributions 14,887 14,993 14,082 Pensions, contribution to medical costs and expenses in respect of defined‑benefit plans (a) 166 177 150 Expenses related to bonus share and similar plans (b) 165 191 117 Personnel costs 15,218 15,361 14,349"
+    }
+  },
+  "notes": "Employees: period-end headcount at December 31, 2025, all entities in the consolidated scope, including 2,380 apprenticeship and vocational training contracts. Excluding apprentices, the URD's key-figures headcount is 211,552; the average full-time-equivalent workforce, which note 25.2 uses, was 196,647. Casual short-term contracts are not included. Payroll: note 25.2 'Personnel costs' of EUR 15,218m (salaries and social security contributions 14,887, pensions and medical 166, bonus share plans 165), billions of EUR.",
+  "researchedAt": "2026-11-24"
+}

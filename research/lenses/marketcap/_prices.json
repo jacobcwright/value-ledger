@@ -1,0 +1,1543 @@
+{
+ "asOf": "2026-11-20",
+ "about": "Closing prices on the edition date (Yahoo Finance chart data, the exchange's official close for that session) and Federal Reserve H.10 noon buying rates in New York for the same day. Pence-quoted London lines (GBp) are divided by 100.",
+ "symbols": {
+  "002594.SZ": {
+   "close": 79.68000030517578,
+   "currency": "CNY",
+   "divisor": 1,
+   "exchange": "Shenzhen",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/002594.SZ?period1=1795138200&period2=1795141800&interval=1d",
+    "label": "Yahoo Finance chart data, 002594.SZ close on 2026-11-20",
+    "quote": "\"close\":[79.68000030517578]"
+   }
+  },
+  "005930.KS": {
+   "close": 183100,
+   "currency": "KRW",
+   "divisor": 1,
+   "exchange": "KSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/005930.KS?period1=1795132800&period2=1795136400&interval=1d",
+    "label": "Yahoo Finance chart data, 005930.KS close on 2026-11-20",
+    "quote": "\"close\":[183100.0]"
+   }
+  },
+  "005935.KS": {
+   "close": 144300,
+   "currency": "KRW",
+   "divisor": 1,
+   "exchange": "KSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/005935.KS?period1=1795132800&period2=1795136400&interval=1d",
+    "label": "Yahoo Finance chart data, 005935.KS close on 2026-11-20",
+    "quote": "\"close\":[144300.0]"
+   }
+  },
+  "0700.HK": {
+   "close": 344,
+   "currency": "HKD",
+   "divisor": 1,
+   "exchange": "HKSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/0700.HK?period1=1795138200&period2=1795141800&interval=1d",
+    "label": "Yahoo Finance chart data, 0700.HK close on 2026-11-20",
+    "quote": "\"close\":[344.0]"
+   }
+  },
+  "1211.HK": {
+   "close": 62.349998474121094,
+   "currency": "HKD",
+   "divisor": 1,
+   "exchange": "HKSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/1211.HK?period1=1795138200&period2=1795141800&interval=1d",
+    "label": "Yahoo Finance chart data, 1211.HK close on 2026-11-20",
+    "quote": "\"close\":[62.349998474121094]"
+   }
+  },
+  "1810.HK": {
+   "close": 27.639999389648438,
+   "currency": "HKD",
+   "divisor": 1,
+   "exchange": "HKSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/1810.HK?period1=1795138200&period2=1795141800&interval=1d",
+    "label": "Yahoo Finance chart data, 1810.HK close on 2026-11-20",
+    "quote": "\"close\":[27.639999389648438]"
+   }
+  },
+  "2330.TW": {
+   "close": 2000,
+   "currency": "TWD",
+   "divisor": 1,
+   "exchange": "Taiwan",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/2330.TW?period1=1795136400&period2=1795140000&interval=1d",
+    "label": "Yahoo Finance chart data, 2330.TW close on 2026-11-20",
+    "quote": "\"close\":[2000.0]"
+   }
+  },
+  "6758.T": {
+   "close": 4312,
+   "currency": "JPY",
+   "divisor": 1,
+   "exchange": "Tokyo",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/6758.T?period1=1795132800&period2=1795136400&interval=1d",
+    "label": "Yahoo Finance chart data, 6758.T close on 2026-11-20",
+    "quote": "\"close\":[4312.0]"
+   }
+  },
+  "7203.T": {
+   "close": 3312,
+   "currency": "JPY",
+   "divisor": 1,
+   "exchange": "Tokyo",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/7203.T?period1=1795132800&period2=1795136400&interval=1d",
+    "label": "Yahoo Finance chart data, 7203.T close on 2026-11-20",
+    "quote": "\"close\":[3312.0]"
+   }
+  },
+  "7974.T": {
+   "close": 8832,
+   "currency": "JPY",
+   "divisor": 1,
+   "exchange": "Tokyo",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/7974.T?period1=1795132800&period2=1795136400&interval=1d",
+    "label": "Yahoo Finance chart data, 7974.T close on 2026-11-20",
+    "quote": "\"close\":[8832.0]"
+   }
+  },
+  "9984.T": {
+   "close": 3025,
+   "currency": "JPY",
+   "divisor": 1,
+   "exchange": "Tokyo",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/9984.T?period1=1795132800&period2=1795136400&interval=1d",
+    "label": "Yahoo Finance chart data, 9984.T close on 2026-11-20",
+    "quote": "\"close\":[3025.0]"
+   }
+  },
+  "9988.HK": {
+   "close": 83.3499984741211,
+   "currency": "HKD",
+   "divisor": 1,
+   "exchange": "HKSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/9988.HK?period1=1795138200&period2=1795141800&interval=1d",
+    "label": "Yahoo Finance chart data, 9988.HK close on 2026-11-20",
+    "quote": "\"close\":[83.3499984741211]"
+   }
+  },
+  "AAPL": {
+   "close": 342.55999755859375,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, AAPL close on 2026-11-20",
+    "quote": "\"close\":[342.55999755859375]"
+   }
+  },
+  "ABI.BR": {
+   "close": 73,
+   "currency": "EUR",
+   "divisor": 1,
+   "exchange": "Brussels",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ABI.BR?period1=1795161600&period2=1795165200&interval=1d",
+    "label": "Yahoo Finance chart data, ABI.BR close on 2026-11-20",
+    "quote": "\"close\":[73.0]"
+   }
+  },
+  "ABNB": {
+   "close": 170.36000061035156,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ABNB?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, ABNB close on 2026-11-20",
+    "quote": "\"close\":[170.36000061035156]"
+   }
+  },
+  "ADBE": {
+   "close": 217.7100067138672,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ADBE?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, ADBE close on 2026-11-20",
+    "quote": "\"close\":[217.7100067138672]"
+   }
+  },
+  "AMD": {
+   "close": 424.3900146484375,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMD?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, AMD close on 2026-11-20",
+    "quote": "\"close\":[424.3900146484375]"
+   }
+  },
+  "AMXB.MX": {
+   "close": 23.8700008392334,
+   "currency": "MXN",
+   "divisor": 1,
+   "exchange": "Mexico",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMXB.MX?period1=1795181400&period2=1795185000&interval=1d",
+    "label": "Yahoo Finance chart data, AMXB.MX close on 2026-11-20",
+    "quote": "\"close\":[23.8700008392334]"
+   }
+  },
+  "AMZN": {
+   "close": 246.82000732421875,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, AMZN close on 2026-11-20",
+    "quote": "\"close\":[246.82000732421875]"
+   }
+  },
+  "AVGO": {
+   "close": 304.4100036621094,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AVGO?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, AVGO close on 2026-11-20",
+    "quote": "\"close\":[304.4100036621094]"
+   }
+  },
+  "AZN": {
+   "close": 174.35000610351562,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AZN?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, AZN close on 2026-11-20",
+    "quote": "\"close\":[174.35000610351562]"
+   }
+  },
+  "BA": {
+   "close": 155.88999938964844,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BA?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, BA close on 2026-11-20",
+    "quote": "\"close\":[155.88999938964844]"
+   }
+  },
+  "BAC": {
+   "close": 47.040000915527344,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BAC?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, BAC close on 2026-11-20",
+    "quote": "\"close\":[47.040000915527344]"
+   }
+  },
+  "BIOCON.NS": {
+   "close": 364.3999938964844,
+   "currency": "INR",
+   "divisor": 1,
+   "exchange": "NSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BIOCON.NS?period1=1795146300&period2=1795149900&interval=1d",
+    "label": "Yahoo Finance chart data, BIOCON.NS close on 2026-11-20",
+    "quote": "\"close\":[364.3999938964844]"
+   }
+  },
+  "BLK": {
+   "close": 1101.719970703125,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BLK?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, BLK close on 2026-11-20",
+    "quote": "\"close\":[1101.719970703125]"
+   }
+  },
+  "BRK-A": {
+   "close": 855000,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BRK-A?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, BRK-A close on 2026-11-20",
+    "quote": "\"close\":[855000.0]"
+   }
+  },
+  "BRK-B": {
+   "close": 570,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BRK-B?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, BRK-B close on 2026-11-20",
+    "quote": "\"close\":[570.0]"
+   }
+  },
+  "BX": {
+   "close": 110.80000305175781,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BX?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, BX close on 2026-11-20",
+    "quote": "\"close\":[110.80000305175781]"
+   }
+  },
+  "C": {
+   "close": 110.62000274658203,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/C?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, C close on 2026-11-20",
+    "quote": "\"close\":[110.62000274658203]"
+   }
+  },
+  "CDNS": {
+   "close": 281.5799865722656,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CDNS?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, CDNS close on 2026-11-20",
+    "quote": "\"close\":[281.5799865722656]"
+   }
+  },
+  "CFR.SW": {
+   "close": 169,
+   "currency": "CHF",
+   "divisor": 1,
+   "exchange": "Swiss",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CFR.SW?period1=1795161600&period2=1795165200&interval=1d",
+    "label": "Yahoo Finance chart data, CFR.SW close on 2026-11-20",
+    "quote": "\"close\":[169.0]"
+   }
+  },
+  "CMCSA": {
+   "close": 24.899999618530273,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CMCSA?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, CMCSA close on 2026-11-20",
+    "quote": "\"close\":[24.899999618530273]"
+   }
+  },
+  "CMG": {
+   "close": 35.54999923706055,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CMG?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, CMG close on 2026-11-20",
+    "quote": "\"close\":[35.54999923706055]"
+   }
+  },
+  "COST": {
+   "close": 1102.1500244140625,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/COST?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, COST close on 2026-11-20",
+    "quote": "\"close\":[1102.1500244140625]"
+   }
+  },
+  "CRM": {
+   "close": 180.6199951171875,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRM?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, CRM close on 2026-11-20",
+    "quote": "\"close\":[180.6199951171875]"
+   }
+  },
+  "CRWD": {
+   "close": 229.44000244140625,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CRWD?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, CRWD close on 2026-11-20",
+    "quote": "\"close\":[229.44000244140625]"
+   }
+  },
+  "DD": {
+   "close": 145.42999267578125,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/DD?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, DD close on 2026-11-20",
+    "quote": "\"close\":[145.42999267578125]"
+   }
+  },
+  "DELL": {
+   "close": 278.0199890136719,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/DELL?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, DELL close on 2026-11-20",
+    "quote": "\"close\":[278.0199890136719]"
+   }
+  },
+  "DIS": {
+   "close": 117.9800033569336,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/DIS?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, DIS close on 2026-11-20",
+    "quote": "\"close\":[117.9800033569336]"
+   }
+  },
+  "EBAY": {
+   "close": 115.58999633789062,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/EBAY?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, EBAY close on 2026-11-20",
+    "quote": "\"close\":[115.58999633789062]"
+   }
+  },
+  "F": {
+   "close": 11.170000076293945,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/F?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, F close on 2026-11-20",
+    "quote": "\"close\":[11.170000076293945]"
+   }
+  },
+  "FMG.AX": {
+   "close": 13.4399995803833,
+   "currency": "AUD",
+   "divisor": 1,
+   "exchange": "ASX",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/FMG.AX?period1=1795129200&period2=1795132800&interval=1d",
+    "label": "Yahoo Finance chart data, FMG.AX close on 2026-11-20",
+    "quote": "\"close\":[13.4399995803833]"
+   }
+  },
+  "GE": {
+   "close": 309.6199951171875,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GE?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, GE close on 2026-11-20",
+    "quote": "\"close\":[309.6199951171875]"
+   }
+  },
+  "GM": {
+   "close": 78.70999908447266,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GM?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, GM close on 2026-11-20",
+    "quote": "\"close\":[78.70999908447266]"
+   }
+  },
+  "GOOG": {
+   "close": 264,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GOOG?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, GOOG close on 2026-11-20",
+    "quote": "\"close\":[264.0]"
+   }
+  },
+  "GOOGL": {
+   "close": 265.2900085449219,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GOOGL?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, GOOGL close on 2026-11-20",
+    "quote": "\"close\":[265.2900085449219]"
+   }
+  },
+  "GRAB": {
+   "close": 2.75,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GRAB?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, GRAB close on 2026-11-20",
+    "quote": "\"close\":[2.75]"
+   }
+  },
+  "GS": {
+   "close": 790.6900024414062,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GS?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, GS close on 2026-11-20",
+    "quote": "\"close\":[790.6900024414062]"
+   }
+  },
+  "HD": {
+   "close": 339.0400085449219,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/HD?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, HD close on 2026-11-20",
+    "quote": "\"close\":[339.0400085449219]"
+   }
+  },
+  "HOOD": {
+   "close": 62.16999816894531,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/HOOD?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, HOOD close on 2026-11-20",
+    "quote": "\"close\":[62.16999816894531]"
+   }
+  },
+  "IBM": {
+   "close": 224.44000244140625,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/IBM?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, IBM close on 2026-11-20",
+    "quote": "\"close\":[224.44000244140625]"
+   }
+  },
+  "INFY.NS": {
+   "close": 1098,
+   "currency": "INR",
+   "divisor": 1,
+   "exchange": "NSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/INFY.NS?period1=1795146300&period2=1795149900&interval=1d",
+    "label": "Yahoo Finance chart data, INFY.NS close on 2026-11-20",
+    "quote": "\"close\":[1098.0]"
+   }
+  },
+  "INTC": {
+   "close": 51.279998779296875,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/INTC?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, INTC close on 2026-11-20",
+    "quote": "\"close\":[51.279998779296875]"
+   }
+  },
+  "JNJ": {
+   "close": 270.4700012207031,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/JNJ?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, JNJ close on 2026-11-20",
+    "quote": "\"close\":[270.4700012207031]"
+   }
+  },
+  "KO": {
+   "close": 96.98999786376953,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/KO?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, KO close on 2026-11-20",
+    "quote": "\"close\":[96.98999786376953]"
+   }
+  },
+  "LLY": {
+   "close": 1347.1099853515625,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/LLY?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, LLY close on 2026-11-20",
+    "quote": "\"close\":[1347.1099853515625]"
+   }
+  },
+  "MA": {
+   "close": 625.5900268554688,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MA?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, MA close on 2026-11-20",
+    "quote": "\"close\":[625.5900268554688]"
+   }
+  },
+  "MC.PA": {
+   "close": 381.95001220703125,
+   "currency": "EUR",
+   "divisor": 1,
+   "exchange": "Paris",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MC.PA?period1=1795161600&period2=1795165200&interval=1d",
+    "label": "Yahoo Finance chart data, MC.PA close on 2026-11-20",
+    "quote": "\"close\":[381.95001220703125]"
+   }
+  },
+  "MCD": {
+   "close": 273.239990234375,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MCD?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, MCD close on 2026-11-20",
+    "quote": "\"close\":[273.239990234375]"
+   }
+  },
+  "MELI": {
+   "close": 1355,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MELI?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, MELI close on 2026-11-20",
+    "quote": "\"close\":[1355.0]"
+   }
+  },
+  "META": {
+   "close": 560.8400268554688,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/META?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, META close on 2026-11-20",
+    "quote": "\"close\":[560.8400268554688]"
+   }
+  },
+  "MSFT": {
+   "close": 484.5199890136719,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MSFT?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, MSFT close on 2026-11-20",
+    "quote": "\"close\":[484.5199890136719]"
+   }
+  },
+  "MSTR": {
+   "close": 77.80000305175781,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/MSTR?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, MSTR close on 2026-11-20",
+    "quote": "\"close\":[77.80000305175781]"
+   }
+  },
+  "NDAQ": {
+   "close": 102.91999816894531,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NDAQ?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, NDAQ close on 2026-11-20",
+    "quote": "\"close\":[102.91999816894531]"
+   }
+  },
+  "NFLX": {
+   "close": 56.72999954223633,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NFLX?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, NFLX close on 2026-11-20",
+    "quote": "\"close\":[56.72999954223633]"
+   }
+  },
+  "NKE": {
+   "close": 32.91999816894531,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NKE?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, NKE close on 2026-11-20",
+    "quote": "\"close\":[32.91999816894531]"
+   }
+  },
+  "NOVN.SW": {
+   "close": 127.76000213623047,
+   "currency": "CHF",
+   "divisor": 1,
+   "exchange": "Swiss",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NOVN.SW?period1=1795161600&period2=1795165200&interval=1d",
+    "label": "Yahoo Finance chart data, NOVN.SW close on 2026-11-20",
+    "quote": "\"close\":[127.76000213623047]"
+   }
+  },
+  "NOVO-B.CO": {
+   "close": 264.5,
+   "currency": "DKK",
+   "divisor": 1,
+   "exchange": "Copenhagen",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NOVO-B.CO?period1=1795161600&period2=1795165200&interval=1d",
+    "label": "Yahoo Finance chart data, NOVO-B.CO close on 2026-11-20",
+    "quote": "\"close\":[264.5]"
+   }
+  },
+  "NU": {
+   "close": 11.270000457763672,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NU?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, NU close on 2026-11-20",
+    "quote": "\"close\":[11.270000457763672]"
+   }
+  },
+  "NVDA": {
+   "close": 125.52999877929688,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NVDA?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, NVDA close on 2026-11-20",
+    "quote": "\"close\":[125.52999877929688]"
+   }
+  },
+  "NWS": {
+   "close": 27.8700008392334,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NWS?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, NWS close on 2026-11-20",
+    "quote": "\"close\":[27.8700008392334]"
+   }
+  },
+  "NWSA": {
+   "close": 25.049999237060547,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NWSA?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, NWSA close on 2026-11-20",
+    "quote": "\"close\":[25.049999237060547]"
+   }
+  },
+  "ORCL": {
+   "close": 101.19000244140625,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ORCL?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, ORCL close on 2026-11-20",
+    "quote": "\"close\":[101.19000244140625]"
+   }
+  },
+  "P911.DE": {
+   "close": 43.4900016784668,
+   "currency": "EUR",
+   "divisor": 1,
+   "exchange": "XETRA",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/P911.DE?period1=1795161600&period2=1795165200&interval=1d",
+    "label": "Yahoo Finance chart data, P911.DE close on 2026-11-20",
+    "quote": "\"close\":[43.4900016784668]"
+   }
+  },
+  "PANW": {
+   "close": 343.32000732421875,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PANW?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, PANW close on 2026-11-20",
+    "quote": "\"close\":[343.32000732421875]"
+   }
+  },
+  "PEP": {
+   "close": 140.5399932861328,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PEP?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, PEP close on 2026-11-20",
+    "quote": "\"close\":[140.5399932861328]"
+   }
+  },
+  "PFE": {
+   "close": 27.399999618530273,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PFE?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, PFE close on 2026-11-20",
+    "quote": "\"close\":[27.399999618530273]"
+   }
+  },
+  "PINS": {
+   "close": 16.329999923706055,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PINS?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, PINS close on 2026-11-20",
+    "quote": "\"close\":[16.329999923706055]"
+   }
+  },
+  "PLTR": {
+   "close": 143.49000549316406,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PLTR?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, PLTR close on 2026-11-20",
+    "quote": "\"close\":[143.49000549316406]"
+   }
+  },
+  "PYPL": {
+   "close": 53.290000915527344,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/PYPL?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, PYPL close on 2026-11-20",
+    "quote": "\"close\":[53.290000915527344]"
+   }
+  },
+  "QCOM": {
+   "close": 149.94000244140625,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/QCOM?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, QCOM close on 2026-11-20",
+    "quote": "\"close\":[149.94000244140625]"
+   }
+  },
+  "RBLX": {
+   "close": 46.720001220703125,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RBLX?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, RBLX close on 2026-11-20",
+    "quote": "\"close\":[46.720001220703125]"
+   }
+  },
+  "RCL": {
+   "close": 296.4800109863281,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RCL?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, RCL close on 2026-11-20",
+    "quote": "\"close\":[296.4800109863281]"
+   }
+  },
+  "RDDT": {
+   "close": 85.33000183105469,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RDDT?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, RDDT close on 2026-11-20",
+    "quote": "\"close\":[85.33000183105469]"
+   }
+  },
+  "RELIANCE.NS": {
+   "close": 1377.5,
+   "currency": "INR",
+   "divisor": 1,
+   "exchange": "NSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RELIANCE.NS?period1=1795146300&period2=1795149900&interval=1d",
+    "label": "Yahoo Finance chart data, RELIANCE.NS close on 2026-11-20",
+    "quote": "\"close\":[1377.5]"
+   }
+  },
+  "RENT": {
+   "close": 1.7899999618530273,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGM",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RENT?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, RENT close on 2026-11-20",
+    "quote": "\"close\":[1.7899999618530273]"
+   }
+  },
+  "RO.SW": {
+   "close": 402.6000061035156,
+   "currency": "CHF",
+   "divisor": 1,
+   "exchange": "Swiss",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RO.SW?period1=1795161600&period2=1795165200&interval=1d",
+    "label": "Yahoo Finance chart data, RO.SW close on 2026-11-20",
+    "quote": "\"close\":[402.6000061035156]"
+   }
+  },
+  "ROP.SW": {
+   "close": 396.79998779296875,
+   "currency": "CHF",
+   "divisor": 1,
+   "exchange": "Swiss",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ROP.SW?period1=1795161600&period2=1795165200&interval=1d",
+    "label": "Yahoo Finance chart data, ROP.SW close on 2026-11-20",
+    "quote": "\"close\":[396.79998779296875]"
+   }
+  },
+  "RYA.IR": {
+   "close": 24.440000534057617,
+   "currency": "EUR",
+   "divisor": 1,
+   "exchange": "Irish",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/RYA.IR?period1=1795161600&period2=1795165200&interval=1d",
+    "label": "Yahoo Finance chart data, RYA.IR close on 2026-11-20",
+    "quote": "\"close\":[24.440000534057617]"
+   }
+  },
+  "SAP.DE": {
+   "close": 183.67999267578125,
+   "currency": "EUR",
+   "divisor": 1,
+   "exchange": "XETRA",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SAP.DE?period1=1795161600&period2=1795165200&interval=1d",
+    "label": "Yahoo Finance chart data, SAP.DE close on 2026-11-20",
+    "quote": "\"close\":[183.67999267578125]"
+   }
+  },
+  "SBUX": {
+   "close": 103.12999725341797,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SBUX?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, SBUX close on 2026-11-20",
+    "quote": "\"close\":[103.12999725341797]"
+   }
+  },
+  "SCHW": {
+   "close": 90.16000366210938,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SCHW?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, SCHW close on 2026-11-20",
+    "quote": "\"close\":[90.16000366210938]"
+   }
+  },
+  "SHEL.L": {
+   "close": 3574.5,
+   "currency": "GBP",
+   "divisor": 100,
+   "exchange": "LSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SHEL.L?period1=1795161600&period2=1795165200&interval=1d",
+    "label": "Yahoo Finance chart data, SHEL.L close on 2026-11-20",
+    "quote": "\"close\":[3574.5]"
+   }
+  },
+  "SHOP": {
+   "close": 123.72000122070312,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SHOP?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, SHOP close on 2026-11-20",
+    "quote": "\"close\":[123.72000122070312]"
+   }
+  },
+  "SNAP": {
+   "close": 4.550000190734863,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SNAP?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, SNAP close on 2026-11-20",
+    "quote": "\"close\":[4.550000190734863]"
+   }
+  },
+  "SPCE": {
+   "close": 1.0399999618530273,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SPCE?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, SPCE close on 2026-11-20",
+    "quote": "\"close\":[1.0399999618530273]"
+   }
+  },
+  "SPOT": {
+   "close": 577.030029296875,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SPOT?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, SPOT close on 2026-11-20",
+    "quote": "\"close\":[577.030029296875]"
+   }
+  },
+  "TEAM": {
+   "close": 134.64999389648438,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TEAM?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, TEAM close on 2026-11-20",
+    "quote": "\"close\":[134.64999389648438]"
+   }
+  },
+  "TSLA": {
+   "close": 345.82000732421875,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/TSLA?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, TSLA close on 2026-11-20",
+    "quote": "\"close\":[345.82000732421875]"
+   }
+  },
+  "UBER": {
+   "close": 63.470001220703125,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/UBER?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, UBER close on 2026-11-20",
+    "quote": "\"close\":[63.470001220703125]"
+   }
+  },
+  "UBS": {
+   "close": 43.31999969482422,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/UBS?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, UBS close on 2026-11-20",
+    "quote": "\"close\":[43.31999969482422]"
+   }
+  },
+  "VOW.DE": {
+   "close": 62.099998474121094,
+   "currency": "EUR",
+   "divisor": 1,
+   "exchange": "XETRA",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VOW.DE?period1=1795161600&period2=1795165200&interval=1d",
+    "label": "Yahoo Finance chart data, VOW.DE close on 2026-11-20",
+    "quote": "\"close\":[62.099998474121094]"
+   }
+  },
+  "VOW3.DE": {
+   "close": 62.619998931884766,
+   "currency": "EUR",
+   "divisor": 1,
+   "exchange": "XETRA",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/VOW3.DE?period1=1795161600&period2=1795165200&interval=1d",
+    "label": "Yahoo Finance chart data, VOW3.DE close on 2026-11-20",
+    "quote": "\"close\":[62.619998931884766]"
+   }
+  },
+  "WFC": {
+   "close": 78.62000274658203,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/WFC?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, WFC close on 2026-11-20",
+    "quote": "\"close\":[78.62000274658203]"
+   }
+  },
+  "WMT": {
+   "close": 127.94999694824219,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/WMT?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, WMT close on 2026-11-20",
+    "quote": "\"close\":[127.94999694824219]"
+   }
+  },
+  "XYZ": {
+   "close": 69.66000366210938,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/XYZ?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, XYZ close on 2026-11-20",
+    "quote": "\"close\":[69.66000366210938]"
+   }
+  },
+  "ZM": {
+   "close": 81.26000213623047,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/ZM?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, ZM close on 2026-11-20",
+    "quote": "\"close\":[81.26000213623047]"
+   }
+  }
+ },
+ "fx": {
+  "CNY": {
+   "perUSD": 6.677,
+   "stated": 6.677,
+   "statedBasis": "CNY per USD",
+   "day": "2026-11-20",
+   "source": {
+    "hostType": "regulator",
+    "url": "https://www.federalreserve.gov/releases/h10/20261123/",
+    "label": "Federal Reserve Board, H.10 Foreign Exchange Rates, noon buying rates in New York, Nov. 20",
+    "quote": "CHINA, P.R. YUAN 6.6642 6.6659 6.6676 6.6665 6.6770"
+   }
+  },
+  "KRW": {
+   "perUSD": 1342.41,
+   "stated": 1342.41,
+   "statedBasis": "KRW per USD",
+   "day": "2026-11-20",
+   "source": {
+    "hostType": "regulator",
+    "url": "https://www.federalreserve.gov/releases/h10/20261123/",
+    "label": "Federal Reserve Board, H.10 Foreign Exchange Rates, noon buying rates in New York, Nov. 20",
+    "quote": "SOUTH KOREA WON 1335.5300 1334.7100 1332.3200 1332.4400 1342.4100"
+   }
+  },
+  "HKD": {
+   "perUSD": 7.837,
+   "stated": 7.837,
+   "statedBasis": "HKD per USD",
+   "day": "2026-11-20",
+   "source": {
+    "hostType": "regulator",
+    "url": "https://www.federalreserve.gov/releases/h10/20261123/",
+    "label": "Federal Reserve Board, H.10 Foreign Exchange Rates, noon buying rates in New York, Nov. 20",
+    "quote": "HONG KONG DOLLAR 7.8456 7.8462 7.8459 7.8441 7.8370"
+   }
+  },
+  "TWD": {
+   "perUSD": 32.97,
+   "stated": 32.97,
+   "statedBasis": "TWD per USD",
+   "day": "2026-11-20",
+   "source": {
+    "hostType": "regulator",
+    "url": "https://www.federalreserve.gov/releases/h10/20261123/",
+    "label": "Federal Reserve Board, H.10 Foreign Exchange Rates, noon buying rates in New York, Nov. 20",
+    "quote": "TAIWAN DOLLAR 32.9800 32.9300 32.9500 32.9200 32.9700"
+   }
+  },
+  "JPY": {
+   "perUSD": 158.76,
+   "stated": 158.76,
+   "statedBasis": "JPY per USD",
+   "day": "2026-11-20",
+   "source": {
+    "hostType": "regulator",
+    "url": "https://www.federalreserve.gov/releases/h10/20261123/",
+    "label": "Federal Reserve Board, H.10 Foreign Exchange Rates, noon buying rates in New York, Nov. 20",
+    "quote": "JAPAN YEN 159.6500 159.2700 159.2500 159.7600 158.7600"
+   }
+  },
+  "EUR": {
+   "perUSD": 0.910664,
+   "stated": 1.0981,
+   "statedBasis": "USD per EUR",
+   "day": "2026-11-20",
+   "source": {
+    "hostType": "regulator",
+    "url": "https://www.federalreserve.gov/releases/h10/20261123/",
+    "label": "Federal Reserve Board, H.10 Foreign Exchange Rates, noon buying rates in New York, Nov. 20",
+    "quote": "EURO 1.1004 1.1016 1.0968 1.0981 1.0981"
+   }
+  },
+  "MXN": {
+   "perUSD": 19.038,
+   "stated": 19.038,
+   "statedBasis": "MXN per USD",
+   "day": "2026-11-20",
+   "source": {
+    "hostType": "regulator",
+    "url": "https://www.federalreserve.gov/releases/h10/20261123/",
+    "label": "Federal Reserve Board, H.10 Foreign Exchange Rates, noon buying rates in New York, Nov. 20",
+    "quote": "MEXICO PESO 18.5760 18.4400 18.6850 19.0210 19.0380"
+   }
+  },
+  "INR": {
+   "perUSD": 92.67,
+   "stated": 92.67,
+   "statedBasis": "INR per USD",
+   "day": "2026-11-20",
+   "source": {
+    "hostType": "regulator",
+    "url": "https://www.federalreserve.gov/releases/h10/20261123/",
+    "label": "Federal Reserve Board, H.10 Foreign Exchange Rates, noon buying rates in New York, Nov. 20",
+    "quote": "INDIA RUPEE 93.9200 93.4700 93.4700 93.2900 92.6700"
+   }
+  },
+  "CHF": {
+   "perUSD": 0.8394,
+   "stated": 0.8394,
+   "statedBasis": "CHF per USD",
+   "day": "2026-11-20",
+   "source": {
+    "hostType": "regulator",
+    "url": "https://www.federalreserve.gov/releases/h10/20261123/",
+    "label": "Federal Reserve Board, H.10 Foreign Exchange Rates, noon buying rates in New York, Nov. 20",
+    "quote": "SWITZERLAND FRANC 0.8399 0.8386 0.8430 0.8427 0.8394"
+   }
+  },
+  "AUD": {
+   "perUSD": 1.506251,
+   "stated": 0.6639,
+   "statedBasis": "USD per AUD",
+   "day": "2026-11-20",
+   "source": {
+    "hostType": "regulator",
+    "url": "https://www.federalreserve.gov/releases/h10/20261123/",
+    "label": "Federal Reserve Board, H.10 Foreign Exchange Rates, noon buying rates in New York, Nov. 20",
+    "quote": "*AUSTRALIA DOLLAR 0.6749 0.6741 0.6714 0.6672 0.6639"
+   }
+  },
+  "DKK": {
+   "perUSD": 6.8066,
+   "stated": 6.8066,
+   "statedBasis": "DKK per USD",
+   "day": "2026-11-20",
+   "source": {
+    "hostType": "regulator",
+    "url": "https://www.federalreserve.gov/releases/h10/20261123/",
+    "label": "Federal Reserve Board, H.10 Foreign Exchange Rates, noon buying rates in New York, Nov. 20",
+    "quote": "DENMARK KRONE 6.7930 6.7859 6.8141 6.8064 6.8066"
+   }
+  },
+  "GBP": {
+   "perUSD": 0.763126,
+   "stated": 1.3104,
+   "statedBasis": "USD per GBP",
+   "day": "2026-11-20",
+   "source": {
+    "hostType": "regulator",
+    "url": "https://www.federalreserve.gov/releases/h10/20261123/",
+    "label": "Federal Reserve Board, H.10 Foreign Exchange Rates, noon buying rates in New York, Nov. 20",
+    "quote": "*UNITED KINGDOM POUND 1.3185 1.3217 1.3151 1.3114 1.3104"
+   }
+  }
+ }
+}

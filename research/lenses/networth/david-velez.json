@@ -2,18 +2,18 @@
   "id": "david-velez",
   "name": "David Vélez",
   "netWorth": {
-    "value": 10.7,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 236,
+    "value": 11.79,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 265,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"david-velez\",\"rank\":236,\"listUri\":\"billionaires\",\"visible\":true,\"position\":246,\"premiumProfile\":false,\"imageExists\":false,\"embargo\":false,\"finalWorth\":10700.0,\"finalWorthBillions\":10.7,\"category\":\"Finance & Investments\",\"otherCompensation\":0,\"person\":{\"name\":\"David Velez & family\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"david-velez\",\"rank\":265,\"listUri\":\"rtb\",\"visible\":true,\"position\":265,\"imageExists\":false,\"bio\":\"\",\"finalWorth\":11785.302,\"finalWorthBillions\":11.785302,\"person\":{\"name\":\"David Velez & family\",\"uri\":\"david-velez\",\"imageExists\":false,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/60638457e39799801c5746a7/416x416.jpg?background=000000&cropX1=20&cropX2=1334&cropY1=129&cropY2=1443\"},\"personName\":\"David Velez & family\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"David Velez & family\" at rank 236 (ranks are shared on ties), net worth $10.7B, source \"Fintech\". Forbes lists this as a family fortune (\"& family\"); the figure covers wealth Forbes attributes to him and his family, not him alone. Forbes lists him as \"David Velez & family\" (no accent).",
+  "notes": "Listed as \"David Velez & family\" at rank 265, real-time net worth $11.8B, source \"Fintech\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

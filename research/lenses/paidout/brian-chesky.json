@@ -1,121 +1,121 @@
 {
- "id": "brian-chesky",
- "company": "Airbnb",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
- "currency": "USD",
- "unit": "billions",
- "sector": "marketplace",
- "comparable": true,
- "inputs": {
-  "revenue": {
-   "value": 11.102,
-   "stated": 11102,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
-    "quote": "December 31, 2022 2023 2024 Revenue $ 8,399 $ 9,917 $ 11,102 Costs and expenses: Cost of revenue 1,499 1,703 1,878",
-    "xbrl": {
-     "cik": "0001559720",
-     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-     "end": "2024-12-31",
-     "value": 11102000000
+  "id": "brian-chesky",
+  "company": "Airbnb",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "marketplace",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 12.241,
+      "stated": 12241,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations (in millions; columns are 2023, 2024, 2025)",
+        "quote": "Year Ended December 31, 2023 2024 2025 Revenue $ 9,917 $ 11,102 $ 12,241 Costs and expenses: Cost of revenue 1,703 1,878 2,086",
+        "xbrl": {
+          "cik": "0001559720",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2025-12-31",
+          "value": 12241000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 4.646,
+      "stated": 4646,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions; columns are 2023, 2024, 2025)",
+        "quote": "Net cash provided by operating activities 3,884 4,518 4,646",
+        "xbrl": {
+          "cik": "0001559720",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2025-12-31",
+          "value": 4646000000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.033,
+      "components": [
+        "PP&E 0.033"
+      ],
+      "stated": 33,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "label": "FY2025 Form 10-K, MD&A, reconciliation of net cash provided by operating activities to FCF (in millions; columns are 2024, 2025)",
+        "quote": "Net cash provided by operating activities $ 4,518 $ 4,646 Purchases of property and equipment (34) (33) FCF $ 4,484 $ 4,613"
+      }
+    },
+    "interestPaid": {
+      "value": 0.002,
+      "stated": 2,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental disclosures of cash flow information (in millions; columns are 2023, 2024, 2025)",
+        "quote": "Cash paid for: Operating leases $ 84 $ 89 $ 87 Interest expense 55 2 2",
+        "xbrl": {
+          "cik": "0001559720",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2025-12-31",
+          "value": 2000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 0.232,
+      "stated": 232,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental disclosures of cash flow information (in millions; columns are 2023, 2024, 2025), income taxes paid by jurisdiction (2025 only)",
+        "quote": "Income taxes, net of refunds: Federal $ 65 State 46 Foreign 121 Cash paid for income taxes, net of refunds $ 232",
+        "xbrl": {
+          "cik": "0001559720",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-12-31",
+          "value": 232000000
+        }
+      }
+    },
+    "interestDividendsReceived": {
+      "value": 0.705,
+      "stated": 705,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "label": "FY2025 Form 10-K, MD&A, interest income (in millions)",
+        "quote": "2024 2025 % Change Interest income $ 818 $ 705 (14) %"
+      },
+      "derivation": "interest income from the income statement, used to size the bias: cash interest received is inside operating cash flow but not in revenue (the pilot did the same for Shopify)"
     }
-   }
   },
-  "operatingCashFlow": {
-   "value": 4.518,
-   "stated": 4518,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Net cash provided by operating activities 3,430 3,884 4,518",
-    "xbrl": {
-     "cik": "0001559720",
-     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-31",
-     "value": 4518000000
-    }
-   }
+  "paidOut": 7.628,
+  "paidOutFormula": "12.241 − 4.646 + 0.033",
+  "altPaidOut": null,
+  "salesEnabled": {
+    "value": 79.032,
+    "measure": "Gross Booking Value",
+    "measureValue": 91.273,
+    "platformRevenue": 12.241,
+    "formula": "Gross Booking Value 91.273 − revenue 12.241",
+    "source": "research/lenses/ecosystem/brian-chesky.json"
   },
-  "capex": {
-   "value": 0.034,
-   "components": [
-    "PP&E 0.034"
-   ],
-   "stated": 34,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-    "label": "FY2024 Form 10-K, management's discussion and analysis (in millions)",
-    "quote": "Net cash provided by operating activities $ 3,884 $ 4,518 Purchases of property and equipment (47) (34) Free Cash Flow $ 3,837 $ 4,484"
-   }
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": 0.705,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
   },
-  "interestPaid": {
-   "value": 0.002,
-   "stated": 2,
-   "inOCF": true,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Cash paid for: Income taxes, net of refunds $ 68 $ 132 $ 350 Interest $ 8 $ 55 $ 2",
-    "xbrl": {
-     "cik": "0001559720",
-     "concept": "us-gaap:InterestPaidNet",
-     "end": "2024-12-31",
-     "value": 2000000
-    }
-   }
-  },
-  "taxesPaid": {
-   "value": 0.35,
-   "stated": 350,
-   "inOCF": true,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Cash paid for: Income taxes, net of refunds $ 68 $ 132 $ 350 Interest $ 8 $ 55 $ 2",
-    "xbrl": {
-     "cik": "0001559720",
-     "concept": "us-gaap:IncomeTaxesPaid",
-     "end": "2024-12-31",
-     "value": 350000000
-    }
-   }
-  },
-  "interestDividendsReceived": {
-   "value": 0.818,
-   "stated": 818,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-    "label": "FY2024 Form 10-K, management's discussion and analysis (in millions)",
-    "quote": "2023 2024 % Change Interest income $ 721 $ 818 13 %"
-   },
-   "derivation": "interest income from the income statement, used to size the bias: cash interest received is inside operating cash flow but not in revenue (the pilot did the same for Shopify)"
-  }
- },
- "paidOut": 6.618,
- "paidOutFormula": "revenue 11,102 − operating cash flow 4,518 + capex 34 (USD millions, as stated)",
- "altPaidOut": null,
- "salesEnabled": {
-  "value": 70.682,
-  "measure": "Gross Booking Value",
-  "measureValue": 81.784,
-  "platformRevenue": 11.102,
-  "formula": "Gross Booking Value 81.784 − revenue 11.102",
-  "source": "research/lenses/ecosystem/brian-chesky.json"
- },
- "flags": {
-  "financeReceivablesInOCF": false,
-  "interestDividendsReceivedInOCF": 0.818,
-  "revenueIncludesExcise": false,
-  "nonCashRevenue": null
- },
- "notes": "The cash-flow statement folds capex into \"Other investing activities, net\"; the 34 comes from the free-cash-flow reconciliation in MD&A, and companyfacts has no PP&E purchase fact. Host payouts are not in revenue or operating cash flow (funds payable to hosts move in financing), so the money hosts earn is counted once, in salesEnabled.",
- "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001559720-26-000004). The cash-flow statement folds capex into \"Other investing activities, net\"; the 33 comes from the free-cash-flow reconciliation in MD&A. Income taxes paid now appear only as a 2025 total by jurisdiction under ASU 2023-09. Host payouts are not in revenue or operating cash flow (funds payable to hosts move in financing), so the money hosts earn is counted once, in salesEnabled. Interest income (0.705bn) is received inside operating cash flow but is not revenue, so it lowers paidOut.",
+  "researchedAt": "2026-11-24"
 }

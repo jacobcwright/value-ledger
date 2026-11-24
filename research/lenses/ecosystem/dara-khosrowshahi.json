@@ -1,8 +1,8 @@
 {
   "id": "dara-khosrowshahi",
   "company": "Uber",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ecosystem": {
@@ -13,27 +13,27 @@
         "quote": "We define Gross Bookings as the total dollar value, including any applicable taxes, tolls, and fees, of: Mobility rides, Delivery orders (in each case without any adjustment for consumer discounts and refunds, Driver and Merchant earnings, and Driver incentives) and Freight revenue. Gross Bookings do not include tips earned by Drivers.",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
-          "label": "FY2024 Form 10-K, Certain Key Metrics",
+          "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+          "label": "FY2025 Form 10-K, Certain Key Metrics",
           "quote": "We define Gross Bookings as the total dollar value, including any applicable taxes, tolls, and fees, of: Mobility rides, Delivery orders (in each case without any adjustment for consumer discounts and refunds, Driver and Merchant earnings, and Driver incentives) and Freight revenue. Gross Bookings do not include tips earned by Drivers."
         }
       },
-      "value": 162.773,
+      "value": 193.454,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
-        "label": "FY2024 Form 10-K, MD&A financial and operational highlights (in millions)",
-        "quote": "Gross Bookings (2) $ 137,865 $ 162,773 18 % 21 %"
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+        "label": "FY2025 Form 10-K, MD&A financial and operational highlights (in millions)",
+        "quote": "Gross Bookings (2) $ 162,773 $ 193,454 19 % 20 %"
       }
     },
     "platformRevenue": {
       "label": "Revenue",
-      "value": 43.978,
+      "value": 52.017,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
-        "quote": "Revenue $ 31,877 $ 37,281 $ 43,978"
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Revenue $ 37,281 $ 43,978 $ 52,017"
       }
     },
     "payouts": null,
@@ -44,5 +44,5 @@
     "ratioNote": "Uber presents revenue on a gross basis in markets where it is responsible for the Mobility, Delivery or Freight service, with payments to drivers and carriers in cost of revenue, so revenue ÷ Gross Bookings overstates what Uber keeps."
   },
   "notes": "",
-  "researchedAt": "2026-11-23"
+  "researchedAt": "2026-11-24"
 }

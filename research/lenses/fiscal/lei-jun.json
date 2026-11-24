@@ -1,32 +1,32 @@
 {
   "id": "lei-jun",
   "company": "Xiaomi Corporation",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "CNY",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 3.47,
+      "value": 4.67,
       "source": {
         "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "2024 Annual Report, consolidated statement of cash flows",
-        "quote": "Income tax paid (3,467,218) (3,011,748) [RMB’000, 2024 and 2023]"
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, consolidated statement of cash flows",
+        "quote": "Income tax paid (4,671,588) (3,467,218) [RMB’000, 2025 and 2024]"
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 24.05,
+      "value": 33.13,
       "source": {
         "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "2024 Annual Report, consolidated income statement",
-        "quote": "Research and development expenses 8 (24,050,484) (19,097,699) [RMB’000, 2024 and 2023]"
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, consolidated income statement",
+        "quote": "Research and development expenses 8 (33,132,201) (24,050,484) [RMB’000, 2025 and 2024]"
       }
     }
   },
-  "notes": "IFRS consolidated statements. Note 8 states no significant development expenses were capitalised in 2024.",
-  "researchedAt": "2026-11-23"
+  "notes": "IFRS consolidated statements, 2025 Annual Report. Note 8 says R&D expenses of RMB 33,132,201,000 mainly comprised employee benefit expenses of RMB 18,562,730,000.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,73 +1,70 @@
 {
   "id": "larry-page",
   "company": "Alphabet",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "sector": "tech",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 350.018,
-      "stated": 350018,
+      "value": 402.836,
+      "stated": 402836,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
-        "quote": "Revenues $ 282,836 $ 307,394 $ 350,018 Costs and expenses: [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Revenues $ 307,394 $ 350,018 $ 402,836 Costs and expenses: [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001652044",
           "concept": "us-gaap:Revenues",
-          "end": "2024-12-31",
-          "value": 350018000000
+          "end": "2025-12-31",
+          "value": 402836000000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 125.299,
-      "stated": 125299,
+      "value": 164.713,
+      "stated": 164713,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Net cash provided by operating activities 91,495 101,746 125,299 [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities 101,746 125,299 164,713 [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001652044",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": 125299000000
+          "end": "2025-12-31",
+          "value": 164713000000
         }
       }
     },
     "capex": {
-      "value": 52.535,
-      "components": [
-        "PP&E 52.535"
-      ],
-      "stated": 52535,
+      "value": 91.447,
+      "stated": 91447,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Investing activities Purchases of property and equipment ( 31,485 ) ( 32,251 ) ( 52,535 ) [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Investing activities Purchases of property and equipment ( 32,251 ) ( 52,535 ) ( 91,447 ) [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001652044",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-12-31",
-          "value": 52535000000
+          "end": "2025-12-31",
+          "value": 91447000000
         }
       },
       "excludes": [
         {
           "name": "acquisitions and purchases of intangible assets (one combined line; cannot split)",
-          "value": 2.931,
-          "stated": 2931,
+          "value": 1.592,
+          "stated": 1592,
           "source": {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
-            "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-            "quote": "Acquisitions, net of cash acquired, and purchases of intangible assets ( 6,969 ) ( 495 ) ( 2,931 ) [in millions, 2022, 2023, 2024]"
+            "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+            "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+            "quote": "Acquisitions, net of cash acquired, and purchases of intangible assets ( 495 ) ( 2,931 ) ( 1,592 ) [in millions, 2023, 2024, 2025]"
           }
         }
       ]
@@ -76,28 +73,29 @@
       "value": null,
       "inOCF": true,
       "source": null,
-      "note": "Not disclosed: Alphabet's 10-K gives no cash-paid-for-interest figure. Under US GAAP it would sit inside operating cash flow, so paidOut is unaffected."
+      "note": "Not disclosed: Alphabet's FY2025 10-K gives no cash-paid-for-interest figure. Under US GAAP it would sit inside operating cash flow, so paidOut is unaffected."
     },
     "taxesPaid": {
-      "value": 27.4,
+      "value": 21.526,
       "inOCF": true,
-      "stated": 27.4,
+      "stated": 21526,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
-        "label": "FY2024 Form 10-K, income taxes note (in billions)",
-        "quote": "Cash paid for income taxes, net of refunds, was $ 18.9 billion, $ 19.2 billion, and $ 27.4 billion as of December 31, 2022, 2023, and 2024, respectively.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 14 Income Taxes, cash paid for income taxes (in millions)",
+        "quote": "Cash paid for income taxes, net of refunds, were as follows (in millions): ... Total cash paid for income taxes, net of refunds $ 19,164 $ 27,353 $ 21,526 [2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001652044",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 27400000000
+          "end": "2025-12-31",
+          "value": 21526000000
         }
-      }
+      },
+      "note": "From FY2025 the total is in the income-tax note's table by jurisdiction (US federal 13,658, US state and local 2,919, total foreign 4,949)."
     }
   },
-  "paidOut": 277.254,
-  "paidOutFormula": "350.018 − 125.299 + 52.535",
+  "paidOut": 329.57,
+  "paidOutFormula": "402.836 − 164.713 + 91.447",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -106,6 +104,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Capex is PP&E only; intangibles purchases are combined with acquisitions in one line (2,931) and are left out. Revenue includes traffic acquisition costs paid to partners, which sit inside costs and so inside paidOut.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001652044-26-000018). Capex is PP&E only; intangibles purchases are combined with acquisitions in one line (1,592) and are left out. Revenue includes traffic acquisition costs paid to partners (59,926), which sit inside costs and so inside paidOut.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,50 @@
+{
+  "id": "evan-spiegel",
+  "company": "Snap",
+  "classes": [
+    {
+      "label": "Class A non-voting common stock",
+      "shares": 1472430589,
+      "sharesAsOf": "2026-10-31",
+      "pricedAs": "SNAP",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440826000067/snap-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "Class Number of Shares Outstanding Class A common stock, $0.00001 par value 1,472,430,589 shares outstanding as of October 31, 2026 Class B common stock, $0.00001 par value 22,519,220 shares outstanding as of October 31, 2026 Class C common stock, $0.00001 par value 231,626,943 shares outstanding as of October 31, 2026"
+      }
+    },
+    {
+      "label": "Class B voting common stock",
+      "shares": 22519220,
+      "sharesAsOf": "2026-10-31",
+      "pricedAs": "SNAP",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted and converts into Class A share for share (FY2025 10-K: 'Shares of our Class B common stock are convertible into an equivalent number of shares of our Class A common stock').",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440826000067/snap-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "Class Number of Shares Outstanding Class A common stock, $0.00001 par value 1,472,430,589 shares outstanding as of October 31, 2026 Class B common stock, $0.00001 par value 22,519,220 shares outstanding as of October 31, 2026 Class C common stock, $0.00001 par value 231,626,943 shares outstanding as of October 31, 2026"
+      }
+    },
+    {
+      "label": "Class C voting common stock",
+      "shares": 231626943,
+      "sharesAsOf": "2026-10-31",
+      "pricedAs": "SNAP",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class C is unlisted and converts into Class B share for share, which converts into Class A share for share (FY2025 10-K: 'Shares of our Class C common stock are convertible into an equivalent number of shares of our Class B common stock').",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440826000067/snap-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "Class Number of Shares Outstanding Class A common stock, $0.00001 par value 1,472,430,589 shares outstanding as of October 31, 2026 Class B common stock, $0.00001 par value 22,519,220 shares outstanding as of October 31, 2026 Class C common stock, $0.00001 par value 231,626,943 shares outstanding as of October 31, 2026"
+      }
+    }
+  ],
+  "notes": "Class A trades on the NYSE as SNAP; the FY2025 10-K says 'Our Class B common stock and Class C common stock are not listed or traded on any stock exchange.' All three classes share in net loss per share equally (the 10-K reports one net loss per share for Class A, Class B and Class C), so all are counted. Counts are from the Q3 2026 10-Q cover (filed November 5, 2026).",
+  "researchedAt": "2026-11-24"
+}

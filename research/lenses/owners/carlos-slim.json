@@ -2,18 +2,18 @@
   "id": "carlos-slim",
   "company": "América Móvil",
   "nbim": {
-    "pct": 0.29,
-    "marketValueUSD": 0.129,
-    "asOf": "2024-12-31",
+    "pct": 0,
+    "marketValueUSD": 0.003,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"vogo0lspc52h\",\"cc\":\"MX\",\"n\":\"America Movil SAB de CV\",\"a\":{\"e\":129184302,\"n\":1467191330},\"at\":0,\"o\":0.29,\"eq\":{\"vid\":\"AMXB\",\"v\":0.29,\"s\":\"Telecommunications\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"vogo0lspc52h\",\"cc\":\"MX\",\"n\":\"America Movil SAB de CV\",\"a\":{\"e\":2802963,\"n\":27736717},\"at\":0,\"o\":0,\"eq\":{\"vid\":\"AMXB\",\"v\":0,\"s\":\"Telecommunications\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": null,
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Latin America;Mexico;America Movil SAB de CV;Telecommunications;1467191330;129184302;0.29%;0.29%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of América Móvil. Holders of record: The FY2024 Form 20-F gives only 6,311 registered holders of B Share ADSs with U.S. addresses (March 31, 2025) and says it has no information on other holders; no total stated.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). It shows a residual position of about US$2.8 million and an ownership share that rounds to 0%, down from 0.29% at year-end 2024; NBIM's two other 'America Movil' rows (America Movil SAB de CV and America Movil BV) are corporate bonds and are not counted. CalPERS: its Form 13F information table for the quarter ended September 30, 2026 lists no América Móvil ADSs (searched by name). Holders of record: the FY2025 Form 20-F gives only 6,042 registered holders of B Share ADSs with addresses in the United States and says it has no information on other holders; no total is stated.",
+  "researchedAt": "2026-11-24"
 }

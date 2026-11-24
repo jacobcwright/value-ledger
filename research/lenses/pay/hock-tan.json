@@ -1,0 +1,31 @@
+{
+  "id": "hock-tan",
+  "company": "Broadcom",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-11-02",
+  "currency": "USD",
+  "employees": {
+    "value": 33000,
+    "asOf": "2025-11-02",
+    "basis": "approximately 33,000 employees worldwide",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of November 2, 2025, we had approximately 33,000 employees worldwide, with approximately 57% in research and development roles."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "median of the annual total compensation of all our employees",
+    "value": 378281,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526085691/d49254ddef14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "For fiscal 2025, the annual total compensation of our CEO, as reported in the \" Fiscal 2025 Summary Compensation Table ,\" is $205,278,006. The median of the annual total compensation of all our employees is $378,281."
+    }
+  },
+  "notes": "Employees: approximate year-end count from the FY2025 10-K. Payroll: the 10-K gives no total of salaries, benefits or personnel costs, so the proxy's CEO pay ratio median for fiscal 2025 (the same year as the head count) is used; the CEO pay ratio is 543 to 1. The median is computed the same way as the named executive officers' total compensation, so it includes the grant-date value of equity awards.",
+  "researchedAt": "2026-11-24"
+}

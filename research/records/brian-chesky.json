@@ -1,57 +1,84 @@
 {
   "id": "brian-chesky",
   "company": "Airbnb",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-04-07",
+    "asOf": "2026-04-08",
     "leader": {
       "name": "Brian Chesky",
       "relation": "co-founder",
       "status": "holds",
       "pctEconomic": null,
-      "pctVoting": 30.5,
+      "pctVoting": 31.9,
       "shares": null,
       "derived": {
-        "pctEconomic": 10.86,
-        "method": "(4,238,762 Class A + 62,917,140 Class B beneficially owned) / (433,034,896 Class A + 185,611,689 Class B outstanding at April 7, 2025) = 67,155,902 / 618,646,585. The 9,200,000 non-voting Class H shares are left out of the denominator because all are held by Airbnb's own wholly-owned subsidiary and the 10-K computes net income per share only for Class A and Class B; including them gives 10.70%. Chesky's row contains no options or RSUs (footnote 1). Computed, not stated in the filing.",
+        "pctEconomic": 11.22,
+        "method": "(4,210,326 Class A + 62,492,000 Class B beneficially owned) / (418,897,799 Class A + 175,627,453 Class B outstanding at April 8, 2026) = 66,702,326 / 594,525,252. The 9,200,000 non-voting Class H shares are left out of the denominator because all are held by Airbnb's own wholly-owned subsidiary and the 10-K computes net income per share only for Class A and Class B; including them gives 11.05%. Computed, not stated in the filing.",
         "inputs": [
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525096938/d842295ddef14a.htm",
-            "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management, Brian Chesky row",
-            "quote": "Brian Chesky(1) 4,238,762 1.0 62,917,140 33.9 — — 30.5 % [columns: Class A shares, %, Class B shares, %, Class H shares, %, % of voting power]"
+            "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+            "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management, Brian Chesky row",
+            "quote": "Brian Chesky(1) 4,210,326 1.0 % 62,492,000 35.6 % - - 31.9 % [columns: Class A shares, %, Class B shares, %, Class H shares, %, % of voting power]"
           },
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525096938/d842295ddef14a.htm",
-            "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management, share count basis",
-            "quote": "We have based percentage ownership of our common stock on 433,034,896 shares of our Class A common stock outstanding, 185,611,689 shares of our Class B common stock outstanding, and 9,200,000 shares of Class H common stock outstanding as of April 7, 2025."
+            "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+            "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management, share count basis",
+            "quote": "We have based percentage ownership of our common stock on 418,897,799 shares of our Class A common stock outstanding, 175,627,453 shares of our Class B common stock outstanding, and 9,200,000 shares of Class H common stock outstanding as of April 8, 2026."
           },
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-            "label": "FY2024 Form 10-K, Item 5, Holders of our Common Stock",
-            "quote": "•Class H common stock: All outstanding shares were held by our wholly-owned Host Endowment Fund subsidiary."
+            "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+            "label": "FY2025 Form 10-K, Item 5, Holders of our Common Stock",
+            "quote": "Class H common stock: All outstanding shares were held by our wholly-owned Host Endowment Fund subsidiary."
           }
         ]
       },
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525096938/d842295ddef14a.htm",
-        "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management",
-        "quote": "Brian Chesky(1) 4,238,762 1.0 62,917,140 33.9 — — 30.5 % ... Percentage of voting power represents voting power with respect to all shares of our Class A common stock and Class B common stock, as a single class."
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+        "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management",
+        "quote": "Brian Chesky(1) 4,210,326 1.0 % 62,492,000 35.6 % - - 31.9 % ... Percentage of voting power represents voting power with respect to all shares of our Class A common stock and Class B common stock, as a single class."
       }
     },
-    "largestHolders": null,
+    "largestHolders": [
+      {
+        "name": "The Vanguard Group",
+        "type": "asset-manager",
+        "pctEconomic": 9.1,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+          "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management (percentage is of Class A common stock only)",
+          "quote": "The Vanguard Group(14) 38,295,288 9.1 % - - - - 1.0 % ... (14) Based on a Schedule 13G/A filed with the SEC on October 30, 2025."
+        },
+        "basis": "class",
+        "classLabel": "Class A"
+      },
+      {
+        "name": "Entities affiliated with Sequoia Capital",
+        "type": "other",
+        "pctEconomic": 9.9,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+          "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management (percentage is of Class B common stock only)",
+          "quote": "Entities Affiliated with Sequoia Capital(13) 510,666 * 17,319,208 9.9 % - - 8.8 % ... (13) Based on our reports and on a Schedule 13G filed with the SEC on November 5, 2024."
+        },
+        "basis": "class",
+        "classLabel": "Class B"
+      }
+    ],
     "structure": {
       "dualClass": true,
       "controlled": false,
-      "note": "Class A shares carry one vote and Class B shares twenty votes; Class H (held by Airbnb's own subsidiary) has none. Brian Chesky holds 30.5% of the voting power, Nathan Blecharczyk 29.7% and Joe Gebbia 19.0% (2025 proxy). All three co-founders' shares are subject to a Founder Voting Agreement under which they vote for each other's election to the board. No single holder has a majority."
+      "note": "Class A shares carry one vote and Class B shares twenty votes; Class H (held by Airbnb's own subsidiary) has none. Brian Chesky holds 31.9% of the voting power, Nathan Blecharczyk 31.1% and Joseph Gebbia 17.6% (2026 proxy). The founders are parties to a voting agreement under which they vote for each other's election to the board. No single holder has a majority."
     }
   },
   "cash": {
@@ -59,40 +86,40 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 5, Dividend Policy",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 5, Dividend Policy",
         "quote": "Dividend Policy We intend to retain any future earnings and do not anticipate declaring or paying any cash dividends in the foreseeable future."
       }
     },
     "buybacks": {
-      "value": 3.43,
+      "value": 3.79,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Share repurchases (1,500) (2,252) (3,430) [Cash flows from financing activities; in millions; columns are 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Cash flows from financing activities: Share repurchases ( 2,252 ) ( 3,430 ) ( 3,789 ) [in millions; columns are 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001559720",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2024-12-31",
-          "value": 3430000000
+          "end": "2025-12-31",
+          "value": 3789000000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 1.41,
+      "value": 1.59,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Stock-based compensation expense 930 1,120 1,407 [operating activities; in millions; columns are 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation expense 1,120 1,407 1,592 [operating activities; in millions; columns are 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001559720",
           "concept": "us-gaap:ShareBasedCompensation",
-          "end": "2024-12-31",
-          "value": 1407000000
+          "end": "2025-12-31",
+          "value": 1592000000
         }
       }
     },
@@ -100,9 +127,9 @@
       "text": "Employees can buy Airbnb shares through an Employee Stock Purchase Plan.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 2, Stock-Based Compensation",
-        "quote": "Stock-based compensation expense relates to restricted stock units (“RSUs”), stock options, and the Employee Stock Purchase Plan (“ESPP”) (collectively referred to as “equity awards”)."
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 2, Stock-Based Compensation",
+        "quote": "Stock-based compensation expense relates to restricted stock units (\"RSUs\"), and stock options, and the Employee Stock Purchase Plan (\"ESPP\") (collectively referred to as \"equity awards\")."
       }
     }
   },
@@ -111,29 +138,29 @@
     "segments": [
       {
         "name": "North America",
-        "value": 5.01
+        "value": 5.2
       },
       {
         "name": "Europe, the Middle East, and Africa",
-        "value": 4.14
+        "value": 4.73
       },
       {
         "name": "Latin America",
-        "value": 0.97
+        "value": 1.16
       },
       {
         "name": "Asia Pacific",
-        "value": 0.99
+        "value": 1.16
       }
     ],
-    "total": 11.1,
+    "total": 12.24,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-      "label": "FY2024 Form 10-K, Note 3, Revenue Disaggregated by Geographic Region",
-      "quote": "The following table presents revenue disaggregated by listing location (in millions): Year Ended December 31, 2022 2023 2024 North America $ 4,210 $ 4,638 $ 5,006 Europe, the Middle East, and Africa 2,924 3,615 4,135 Latin America 643 824 969 Asia Pacific 622 840 992 Total revenue disaggregated by geographic region $ 8,399 $ 9,917 $ 11,102"
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+      "label": "FY2025 Form 10-K, Note 3, Revenue Disaggregated by Geographic Region",
+      "quote": "disaggregated by listing location (in millions): Year Ended December 31, 2023 2024 2025 North America $ 4,638 $ 5,006 $ 5,196 Europe, the Middle East, and Africa 3,615 4,135 4,729 Latin America 824 969 1,160 Asia Pacific 840 992 1,156 Total revenue disaggregated by geographic region $ 9,917 $ 11,102 $ 12,241"
     }
   },
-  "notes": "Fiscal year ended December 31, 2024. Sources: FY2024 Form 10-K (accession 0001559720-25-000010; note that its tables list years oldest first, 2022, 2023, 2024) and 2025 proxy statement (DEF 14A, accession 0001193125-25-096938, ownership as of April 7, 2025). OWNERSHIP: the proxy gives Chesky 1.0% of Class A, 33.9% of Class B and 30.5% of voting power but no percentage of all shares, so pctEconomic is null and the 10.86% economic share is in leader.derived. Excluding Class H is a judgment call, explained in derived.method; including it gives 10.70%. 5% HOLDERS: largestHolders is null because the proxy gives no figure on an all-shares basis. Its only 5% holders are Sequoia Capital entities (511,074 Class A, marked *; 21,571,316 Class B, 11.6% of Class B; 10.4% of voting power, per a Schedule 13G filed November 5, 2024) and the Airbnb Host Endowment LLC (all 9,200,000 non-voting Class H shares, a wholly-owned subsidiary), plus the co-founders Blecharczyk (61,636,357 Class B, 33.2%) and Gebbia (39,331,884 Class B, 21.2%) in the directors' table. Sequoia's class percentages cannot be converted without deriving, and the proxy lists no Class A institutional holder above 5%. No dividends have been paid, and the cash-flow statement has no dividend line. Buybacks exclude $630 million of taxes paid on equity awards.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Sources: FY2025 Form 10-K (accession 0001559720-26-000004, filed February 12, 2026; its tables list years oldest first, 2023, 2024, 2025) and 2026 proxy statement (DEF 14A, accession 0001193125-26-175062, ownership as of April 8, 2026). OWNERSHIP: the proxy gives Chesky 1.0% of Class A, 35.6% of Class B and 31.9% of voting power but no percentage of all shares, so pctEconomic is null and the 11.22% economic share is in leader.derived. Excluding Class H is a judgment call, explained in derived.method; including it gives 11.05%. Footnote (1) lists his holdings across his own name and several trusts, including 15,000,000 Class B shares in two 2026 grantor retained annuity trusts; he has no voting or dispositive power over the shares in three of the family trusts listed. 5% HOLDERS: the proxy states holder percentages only by class, so they are recorded on a class basis: The Vanguard Group 9.1% of Class A (1.0% of voting power, Schedule 13G/A of October 30, 2025) and Sequoia Capital entities 9.9% of Class B (plus 510,666 Class A, marked *; 8.8% of voting power, Schedule 13G of November 5, 2024). The proxy also lists the Airbnb Host Endowment LLC (all 9,200,000 non-voting Class H shares, a wholly-owned subsidiary) and the co-founders Blecharczyk (61,115,962 Class B, 34.8%) and Gebbia (34,569,980 Class B, 19.7%) in the directors' table. No dividends have been paid, and the cash-flow statement has no dividend line. Buybacks exclude $561 million of taxes paid on equity awards.",
+  "researchedAt": "2026-11-24"
 }

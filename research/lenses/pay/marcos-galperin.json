@@ -1,0 +1,31 @@
+{
+  "id": "marcos-galperin",
+  "company": "MercadoLibre",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 123670,
+    "asOf": "2025-12-31",
+    "basis": "number of employees by country",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1, Employees and Labor Relations",
+      "quote": "The following table shows the number of our employees by country as of December 31, 2025: Country Number of Employees Brazil 61,139 Mexico 34,336 Argentina 16,726 ... Total 123,670"
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "annual total compensation of our median employee",
+    "value": 7816,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000010/meli-20260423.htm",
+      "label": "2026 proxy statement (DEF 14A), Pay Ratio Disclosure",
+      "quote": "THE ANNUAL TOTAL COMPENSATION OF OUR CHIEF EXECUTIVE OFFICER FOR PURPOSE OF DETERMINING THE PAY RATIO WAS $13,137,927; AND THE ANNUAL TOTAL COMPENSATION OF OUR MEDIAN EMPLOYEE WAS $7,816"
+    }
+  },
+  "notes": "Employees: year-end 2025 head count by country (Brazil 61,139, Mexico 34,336, Argentina 16,726 and others). Payroll: the 10-K gives salary increases by expense line but no total staff cost, so the proxy's CEO pay ratio median for 2025 is used: base salary, annual bonus and LTRP for everyone employed on December 31, 2025, converted to U.S. dollars at December 2025 average exchange rates (ratio 1,681 to 1).",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "lee-jae-yong",
+  "company": "Samsung Electronics",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "KRW",
+  "employees": {
+    "value": 259149,
+    "asOf": "2025-12-31",
+    "basis": "number of employees as of year end (global, consolidated; excluding those dispatched by partner companies, on leave, interns and full-time students)",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.samsung.com/global/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2026_ENG.pdf",
+      "label": "Samsung Electronics Sustainability Report 2026, Employee Status",
+      "quote": "Employee Status 2023 2024 2025 ... Number of employees Individuals 267,860 262,647 259,149 ... 1) Number of employees: As of year end (excluding those dispatched by partner companies, on leave, interns, and full-time students)"
+    }
+  },
+  "payroll": null,
+  "notes": "Employees: year-end head count from the 2026 Sustainability Report (Korea 124,564, global 134,585), the only group-wide count Samsung publishes. Its scope is not stated precisely: its Korea figure is close to the business report's separate-basis domestic count (128,881), and several of the report's indicators exclude Samsung Display and Harman, so it may not cover every consolidated subsidiary. Payroll is null because no total staff cost on the same scope is disclosed. Alternatives for the coordinator: (1) the consolidated expenses-by-nature note (2025 Business Report, Note 21) reports Wages and salaries KRW 37,094,712 million, Post-employment benefit KRW 1,798,189 million and Welfare KRW 7,448,772 million as separate lines with no total, on the full consolidated scope; (2) the business report's separate-basis employee table gives 128,881 domestic employees with total compensation of KRW 19,799,762 million for 2025 (Samsung Electronics Co., Ltd. in Korea only). Samsung has no CEO pay ratio.",
+  "researchedAt": "2026-11-24"
+}

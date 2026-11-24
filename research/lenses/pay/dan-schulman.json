@@ -1,0 +1,31 @@
+{
+  "id": "dan-schulman",
+  "company": "PayPal",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 23800,
+    "asOf": "2025-12-31",
+    "basis": "approximately 23,800 people globally",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, we employed approximately 23,800 people globally, with 46% in the Americas, 42% in Asia-Pacific, and 12% in Europe and the Middle East."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "annual total compensation of our median employee",
+    "value": 114331,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000119312526145721/d59508ddef14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "We identified and calculated the elements of our median employee’s compensation for 2025 in accordance with the requirements of Item 402(c)(2)(x) of Regulation S-K, and converted the employee’s compensation from Euros to U.S. dollars using the exchange rate as of December 31, 2025, resulting in annual total compensation of $114,331."
+    }
+  },
+  "notes": "Employees: approximate year-end count from the FY2025 10-K ('predominantly full-time'). Payroll: the 10-K gives no total staff cost (only year-over-year changes in 'employee-related costs' by expense line), so the 2026 proxy's CEO pay ratio median for 2025 is used. The median employee is paid in euros and was converted at the December 31, 2025 exchange rate; the population was full-time employees worldwide (including interns) as of December 1, 2025.",
+  "researchedAt": "2026-11-24"
+}

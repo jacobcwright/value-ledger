@@ -1,0 +1,31 @@
+{
+  "id": "sam-walton",
+  "company": "Walmart",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-31",
+  "currency": "USD",
+  "employees": {
+    "value": 2100000,
+    "asOf": "2026-01-31",
+    "basis": "approximately 2.1 million associates",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+      "label": "FY2026 Form 10-K, Item 1 Business",
+      "quote": "combined with approximately 2.1 million associates as of January 31, 2026"
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "fiscal 2026 annual total compensation of our median associate",
+    "value": 30520,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+      "label": "2026 proxy statement (DEF 14A), Pay Ratio",
+      "quote": "the fiscal 2026 annual total compensation of our CEO was $29,240,930, the fiscal 2026 annual total compensation of our median associate was $30,520, and the ratio of these amounts was 958:1."
+    }
+  },
+  "notes": "Employees: approximate head count at the January 31, 2026 fiscal year end from the FY2026 10-K (about 1.6 million in the U.S. and 0.5 million internationally; in the U.S. about 92% are hourly and 68% full-time). Payroll: the 10-K discloses no total wage or staff cost, so the 2026 proxy's CEO pay ratio median for fiscal 2026 is used. The considered population was about 2.1 million full-time, part-time, seasonal and temporary associates at December 31, 2025, excluding about 100,000 associates in 26 countries; annualized gross earnings were used to find the median.",
+  "researchedAt": "2026-11-24"
+}

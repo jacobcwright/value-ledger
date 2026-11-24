@@ -1,85 +1,85 @@
 {
  "id": "david-ricks",
  "company": "Eli Lilly",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "USD",
  "unit": "billions",
  "sector": "pharma",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 45.0427,
-   "stated": 45042.7,
+   "value": 65.179,
+   "stated": 65179,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
-    "label": "FY2024 Form 10-K, notes to the consolidated financial statements (dollars in millions)",
-    "quote": "Revenue $ 45,042.7 $ 34,124.1 $ 28,541.4",
+    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of operations (dollars in millions)",
+    "quote": "Revenue $ 65,179 $ 45,043 $ 34,124 Costs, expenses, and other:",
     "xbrl": {
      "cik": "0000059478",
      "concept": "us-gaap:Revenues",
-     "end": "2024-12-31",
-     "value": 45042700000
+     "end": "2025-12-31",
+     "value": 65179000000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 8.8179,
-   "stated": 8817.9,
+   "value": 16.813,
+   "stated": 16813,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (dollars in millions)",
-    "quote": "Net Cash Provided by Operating Activities 8,817.9 4,240.1 7,585.7",
+    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (dollars in millions)",
+    "quote": "Net Cash Provided by Operating Activities 16,813 8,818 4,240",
     "xbrl": {
      "cik": "0000059478",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-31",
-     "value": 8817900000
+     "end": "2025-12-31",
+     "value": 16813000000
     }
    }
   },
   "capex": {
-   "value": 8.4036,
+   "value": 10.849,
    "components": [
-    "PP&E 5.0578",
-    "in-process R&D bought from other companies (asset acquisitions) 3.3458"
+    "PP&E 7.841",
+    "in-process R&D 3.008"
    ],
    "derived": {
     "method": "sum of the components below",
     "inputs": [
      {
       "component": "PP&E",
-      "value": 5.0578,
-      "stated": 5057.8,
+      "value": 7.841,
+      "stated": 7841,
       "source": {
        "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
-       "label": "FY2024 Form 10-K, consolidated statement of cash flows (dollars in millions)",
-       "quote": "Purchases of property and equipment ( 5,057.8 ) ( 3,447.6 ) ( 1,854.3 )",
+       "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+       "label": "FY2025 Form 10-K, consolidated statement of cash flows (dollars in millions)",
+       "quote": "Purchases of property and equipment ( 7,841 ) ( 5,058 ) ( 3,448 )",
        "xbrl": {
         "cik": "0000059478",
         "concept": "us-gaap:PaymentsToAcquireOtherPropertyPlantAndEquipment",
-        "end": "2024-12-31",
-        "value": 5057800000
+        "end": "2025-12-31",
+        "value": 7841000000
        }
       }
      },
      {
       "component": "in-process R&D bought from other companies (asset acquisitions)",
-      "value": 3.3458,
-      "stated": 3345.8,
+      "value": 3.008,
+      "stated": 3008,
       "source": {
        "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
-       "label": "FY2024 Form 10-K, consolidated statement of cash flows (dollars in millions)",
-       "quote": "Purchases of in-process research and development ( 3,345.8 ) ( 3,944.5 ) ( 1,131.0 )",
+       "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+       "label": "FY2025 Form 10-K, consolidated statement of cash flows (dollars in millions)",
+       "quote": "Purchases of in-process research and development ( 3,008 ) ( 3,346 ) ( 3,944 )",
        "xbrl": {
         "cik": "0000059478",
         "concept": "us-gaap:PaymentsToAcquireInProcessResearchAndDevelopment",
-        "end": "2024-12-31",
-        "value": 3345800000
+        "end": "2025-12-31",
+        "value": 3008000000
        }
       }
      }
@@ -87,42 +87,42 @@
    }
   },
   "interestPaid": {
-   "value": 0.5775,
-   "stated": 577.5,
+   "value": 0.633,
+   "stated": 633,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
-    "label": "FY2024 Form 10-K, notes to the consolidated financial statements (dollars in millions)",
-    "quote": "Cash payments for interest on borrowings $ 577.5 $ 404.2 $ 323.7",
+    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+    "label": "FY2025 Form 10-K, Note 11 Borrowings (dollars in millions)",
+    "quote": "Cash payments for interest on borrowings 633 578 404",
     "xbrl": {
      "cik": "0000059478",
      "concept": "us-gaap:InterestPaidNet",
-     "end": "2024-12-31",
-     "value": 577500000
+     "end": "2025-12-31",
+     "value": 633000000
     }
    }
   },
   "taxesPaid": {
-   "value": 6.5621,
-   "stated": 6562.1,
+   "value": 10.814,
+   "stated": 10814,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
-    "label": "FY2024 Form 10-K, notes to the consolidated financial statements (dollars in millions)",
-    "quote": "Cash payments of income taxes $ 6,562.1 $ 5,558.8 $ 2,672.9",
+    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+    "label": "FY2025 Form 10-K, Note 14 Income Taxes, cash payments of income taxes (dollars in millions)",
+    "quote": "Cash payments of U.S. federal, state, and foreign income taxes, net of refunds, were as follows: 2025 2024 2023 Cash payments of income taxes (1) $ 10,814 $ 6,562 $ 5,559",
     "xbrl": {
      "cik": "0000059478",
-     "concept": "us-gaap:IncomeTaxesPaid",
-     "end": "2024-12-31",
-     "value": 6562100000
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2025-12-31",
+     "value": 10814000000
     }
    }
   }
  },
- "paidOut": 44.6284,
- "paidOutFormula": "revenue 45,042.7 − operating cash flow 8,817.9 + capex 8,403.6 (USD millions, as stated)",
+ "paidOut": 59.215,
+ "paidOutFormula": "65.179 − 16.813 + 10.849",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
@@ -131,6 +131,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Judgement call: purchases of in-process R&D (3,345.8) are intangible rights bought from other companies outside business combinations, so they are included as intangible purchases. Without them paidOut would be 41.2826bn. Cash paid for acquisitions of businesses (947.7) excluded.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0000059478-26-000013). Judgement call: purchases of in-process R&D (3,008) are intangible rights bought from other companies outside business combinations, so they are included as intangible purchases. Without them paidOut would be 56.207bn. Cash paid for acquisitions, net of cash acquired (661) excluded.",
+ "researchedAt": "2026-11-24"
 }

@@ -24,7 +24,7 @@
       "iso2": "AL",
       "name": "Albania",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 54
       },
       "plus": {},
@@ -39,7 +39,7 @@
       "iso2": "DZ",
       "name": "Algeria",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -114,7 +114,7 @@
       "iso2": "BB",
       "name": "Barbados",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -158,7 +158,7 @@
       "iso2": "BO",
       "name": "Bolivia",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 15
       },
       "plus": {},
@@ -203,7 +203,7 @@
       "iso2": "BG",
       "name": "Bulgaria",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 72
       },
       "plus": {},
@@ -247,7 +247,7 @@
       "iso2": "CL",
       "name": "Chile",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -277,7 +277,7 @@
       "iso2": "CO",
       "name": "Colombia",
       "values": {
-        "taxPaid": 2.3e-05,
+        "taxPaid": 0.000023,
         "employees": 1
       },
       "plus": {},
@@ -427,7 +427,7 @@
       "iso2": "GI",
       "name": "Gibraltar",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -442,7 +442,7 @@
       "iso2": "GU",
       "name": "Guam",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -517,7 +517,7 @@
       "iso2": "IQ",
       "name": "Iraq",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 158
       },
       "plus": {},
@@ -532,7 +532,7 @@
       "iso2": "IE",
       "name": "Ireland",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -547,7 +547,7 @@
       "iso2": "IM",
       "name": "Isle of Man",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -577,7 +577,7 @@
       "iso2": "CI",
       "name": "Côte d'Ivoire",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 1
       },
       "plus": {},
@@ -607,7 +607,7 @@
       "iso2": "JO",
       "name": "Jordan",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 1
       },
       "plus": {},
@@ -652,7 +652,7 @@
       "iso2": "LY",
       "name": "Libya",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 1
       },
       "plus": {},
@@ -712,7 +712,7 @@
       "iso2": "MR",
       "name": "Mauritania",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 1
       },
       "plus": {},
@@ -757,7 +757,7 @@
       "iso2": "MZ",
       "name": "Mozambique",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -787,7 +787,7 @@
       "iso2": "NA",
       "name": "Namibia",
       "values": {
-        "taxPaid": -6.6e-05,
+        "taxPaid": -0.000066,
         "employees": 7
       },
       "plus": {},
@@ -817,7 +817,7 @@
       "iso2": "NZ",
       "name": "New Zealand",
       "values": {
-        "taxPaid": -3.9e-05,
+        "taxPaid": -0.000039,
         "employees": 0
       },
       "plus": {},
@@ -892,7 +892,7 @@
       "iso2": "PW",
       "name": "Palau",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -907,7 +907,7 @@
       "iso2": "PA",
       "name": "Panama",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -967,7 +967,7 @@
       "iso2": "PR",
       "name": "Puerto Rico",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -997,7 +997,7 @@
       "iso2": "RU",
       "name": "Russia",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 11
       },
       "plus": {},
@@ -1012,7 +1012,7 @@
       "iso2": "LC",
       "name": "Saint Lucia",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -1027,7 +1027,7 @@
       "iso2": "ST",
       "name": "Sao Tome and Principe",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -1057,7 +1057,7 @@
       "iso2": "SN",
       "name": "Senegal",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 6
       },
       "plus": {},
@@ -1162,7 +1162,7 @@
       "iso2": "SR",
       "name": "Suriname",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 1
       },
       "plus": {},
@@ -1207,7 +1207,7 @@
       "iso2": "SY",
       "name": "Syria",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -1237,7 +1237,7 @@
       "iso2": "TZ",
       "name": "Tanzania",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 15
       },
       "plus": {},
@@ -1357,7 +1357,7 @@
       "iso2": "UA",
       "name": "Ukraine",
       "values": {
-        "taxPaid": 0.0,
+        "taxPaid": 0,
         "employees": 0
       },
       "plus": {},
@@ -1440,8 +1440,8 @@
       "description": "Registered office and headquarters of Shell plc.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
-        "label": "Shell plc Form 20-F 2024",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026017024/shel-20251231.htm",
+        "label": "Shell plc Form 20-F 2025",
         "quote": "Registered Office and HQ Shell plc Shell Centre London SE1 7NA United Kingdom"
       }
     },
@@ -1451,26 +1451,26 @@
       "state": null,
       "iso2": "AU",
       "type": "facility",
-      "description": "Floating LNG facility off the coast of Australia; record production in 2024.",
+      "description": "Floating LNG facility in the Browse Basin off Western Australia; the Crux platform installed in 2025 will supply it with backfill gas.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
-        "label": "Shell plc Form 20-F 2024",
-        "quote": "Our Prelude floating LNG facility off the coast of Australia had record production in 2024"
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026017024/shel-20251231.htm",
+        "label": "Shell plc Form 20-F 2025",
+        "quote": "The platform will supply backfill gas to the Prelude FLNG facility from the Crux field, 160 kilometres north-east of Prelude."
       }
     },
     {
-      "name": "Shell QGC",
+      "name": "Queensland Curtis LNG (QCLNG)",
       "place": "Queensland, Australia",
       "state": null,
       "iso2": "AU",
       "type": "facility",
-      "description": "Leading natural gas producer in Queensland, including a two-train LNG facility.",
+      "description": "Shell-operated natural gas operations in the onshore Surat Basin supplying the QCLNG liquefaction plant and the domestic gas market.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
-        "label": "Shell plc Form 20-F 2024",
-        "quote": "Shell QGC is a leading natural gas producer in Queensland, Australia. QGC includes a two-train LNG facility (pictured), which produces LNG for international markets."
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026017024/shel-20251231.htm",
+        "label": "Shell plc Form 20-F 2025",
+        "quote": "We operate the Queensland Curtis LNG (QCLNG) venture's natural gas operations in the onshore Surat Basin."
       }
     },
     {
@@ -1479,12 +1479,12 @@
       "state": null,
       "iso2": "CA",
       "type": "facility",
-      "description": "The single largest private-sector energy investment in Canada's history; expected to initially export up to 14 million tonnes of LNG a year.",
+      "description": "New LNG facility that shipped its first cargo in June 2025.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
-        "label": "Shell plc Form 20-F 2024",
-        "quote": "in 2024, we made good progress at LNG Canada, the single largest private-sector energy investment in Canada's history. The facility is expected to initially export up to 14 million tonnes of LNG per annum"
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026017024/shel-20251231.htm",
+        "label": "Shell plc Form 20-F 2025",
+        "quote": "June 2025 saw the first cargo from the new LNG Canada facility."
       }
     },
     {
@@ -1493,12 +1493,12 @@
       "state": null,
       "iso2": "CA",
       "type": "facility",
-      "description": "Site of the Polaris carbon capture project (FID June 2024).",
+      "description": "Refinery and chemicals complex; construction of the Polaris carbon capture facility continued in 2025.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
-        "label": "Shell plc Form 20-F 2024",
-        "quote": "In June 2024, we took an FID for Polaris, a carbon capture project at the Shell Energy and Chemicals Park Scotford in Alberta, Canada."
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026017024/shel-20251231.htm",
+        "label": "Shell plc Form 20-F 2025",
+        "quote": "Construction continued at the Polaris carbon capture facility at the Shell Energy and Chemicals Park Scotford in Alberta, Canada."
       }
     },
     {
@@ -1507,12 +1507,12 @@
       "state": null,
       "iso2": "DE",
       "type": "facility",
-      "description": "Site of the bioLNG liquefaction plant Shell opened in April 2024.",
+      "description": "The Wesseling site hydrocracker stopped processing crude oil in March 2025 and is being converted to produce base oils.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
-        "label": "Shell plc Form 20-F 2024",
-        "quote": "In April 2024, we opened our bioLNG liquefaction plant at the Shell Energy and Chemicals Park Rheinland."
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026017024/shel-20251231.htm",
+        "label": "Shell plc Form 20-F 2025",
+        "quote": "In March 2025, the Wesseling site hydrocracker at the Shell Energy and Chemicals Park Rheinland in Germany stopped processing crude oil into petrol, jet fuel and diesel."
       }
     },
     {
@@ -1521,26 +1521,26 @@
       "state": null,
       "iso2": "NL",
       "type": "facility",
-      "description": "On-site construction of the biofuels facility was paused in July 2024.",
+      "description": "Shell decided in 2025 not to restart construction of the planned biofuels facility here.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
-        "label": "Shell plc Form 20-F 2024",
-        "quote": "In July 2024, we announced that we had paused on-site construction work at the biofuels facility at the Shell Energy and Chemicals Park Rotterdam in the Netherlands"
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026017024/shel-20251231.htm",
+        "label": "Shell plc Form 20-F 2025",
+        "quote": "the decision not to restart construction of the planned biofuels facility at the Shell Energy and Chemicals Park in Rotterdam"
       }
     },
     {
       "name": "Shell Polymers Monaca",
-      "place": "USA",
-      "state": null,
+      "place": "Pennsylvania, USA",
+      "state": "PA",
       "iso2": "US",
       "type": "facility",
-      "description": "Chemical plant in the USA.",
+      "description": "Pennsylvania chemical facility.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
-        "label": "Shell plc Form 20-F 2024",
-        "quote": "I also spent Safety Day with our team at the Shell Polymers Monaca chemical plant in the USA."
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026017024/shel-20251231.htm",
+        "label": "Shell plc Form 20-F 2025",
+        "quote": "Shell Polymers Monaca, our Pennsylvania chemical facility, experienced intermittent utilisation during 2025."
       }
     },
     {
@@ -1549,15 +1549,15 @@
       "state": null,
       "iso2": "QA",
       "type": "facility",
-      "description": "Gas-to-liquids plant in Qatar where catalyst improvements were made in 2024.",
+      "description": "The world's largest gas-to-liquids plant, operated by Shell (100% interest).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
-        "label": "Shell plc Form 20-F 2024",
-        "quote": "This was mainly due to catalyst improvements at Pearl GTL in Qatar"
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026017024/shel-20251231.htm",
+        "label": "Shell plc Form 20-F 2025",
+        "quote": "Pearl GTL in Qatar, the world's largest gas-to-liquids plant, has embraced smart technologies and artificial intelligence (AI) to enhance safety, efficiency and sustainability."
       }
     }
   ],
-  "notes": "Countries come from the country-by-country reporting (CbCR) table 'Our tax data by jurisdiction' in Shell's Tax Contribution Report 2024 (94 jurisdictions; India and Saudi Arabia sit at page breaks). Tax paid is corporate income tax paid (cash-flow basis) in whole dollars in the source, converted to USD millions without rounding; '–' entries (Bermuda, Cayman Islands) are omitted. Employees are average FTEs eligible for Shell's standard terms, so they do not match the 20-F year-end headcount (96,000 incl. portfolio companies). The 20-F also gives employees by region (Africa 3, Asia 36, Europe 30, North America 23, Oceania 3, South America 2, in thousands, year-end 2024) but rounded to thousands, so not repeated. Royalties and other payments to governments (Report on Payments to Governments) are not included. Shell publishes no U.S. state breakdown; the 20-F places Shell Polymers Monaca only 'in the USA', so no state is given. Sites are from the 2024 20-F.",
-  "researchedAt": "2026-11-23"
+  "notes": "Countries come from the country-by-country reporting (CbCR) table 'Our tax data by jurisdiction' in Shell's Tax Contribution Report 2024 (94 jurisdictions; India and Saudi Arabia sit at page breaks). No newer edition found (checked Nov 24, 2026): Shell's Tax Contribution Report page still lists the 2024 report as the latest; it re-issued the 2024 report on Aug 20, 2026 with a restated 'Total tax contribution' table (employer, indirect and employee taxes), which does not change the CbCR tax-paid or employee columns used here. Tax paid is corporate income tax paid (cash-flow basis) in whole dollars in the source, converted to USD millions without rounding; '–' entries (Bermuda, Cayman Islands) are omitted. Employees are 2024 average FTEs eligible for Shell's standard terms, so they do not match the 20-F year-end headcount (85,000 at Dec 31, 2025, incl. portfolio companies). The 2025 20-F also gives employees by region (Africa 2, Asia 33, Europe 26, North America 21, Oceania 3, South America 2, in thousands, year-end 2025) but rounded to thousands, so not repeated. Royalties and other payments to governments (Report on Payments to Governments) are not included. Shell publishes no U.S. state breakdown of these measures. Sites are re-sourced from the 2025 20-F: the Queensland site is now named as Shell's QCLNG operations (the 20-F no longer uses 'Shell QGC'), the Rotterdam biofuels plant will not be completed, and Monaca is placed in Pennsylvania as the 2025 20-F states.",
+  "researchedAt": "2026-11-24"
 }

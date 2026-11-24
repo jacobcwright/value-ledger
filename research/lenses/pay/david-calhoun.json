@@ -1,0 +1,31 @@
+{
+  "id": "david-calhoun",
+  "company": "Boeing",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 182000,
+    "asOf": "2025-12-31",
+    "basis": "total workforce of approximately 182,000",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, Boeing’s total workforce was approximately 182,000 with 14% located outside of the U.S."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "2025 annual total compensation of our median employee",
+    "value": 141933,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/12927/000119312526096787/d39411ddef14a.htm",
+      "label": "2026 proxy statement, CEO Pay Ratio",
+      "quote": "For 2025, the annual total compensation of our median employee was $141,933."
+    }
+  },
+  "notes": "Employees: approximate year-end total workforce from the FY2025 10-K, which includes the employees of Spirit AeroSystems, acquired in December 2025. Payroll: the FY2025 10-K discloses no total staff cost, so the proxy's CEO pay ratio median for 2025 is used (CEO pay about 166 times the median). Boeing identifies its median employee every three years; the current one was identified in 2023 (twelve months to September 30, 2023, from about 154,360 employees), and the 16,961 Spirit AeroSystems employees were excluded.",
+  "researchedAt": "2026-11-24"
+}

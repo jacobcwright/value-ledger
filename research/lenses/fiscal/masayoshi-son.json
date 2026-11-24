@@ -1,32 +1,32 @@
 {
   "id": "masayoshi-son",
   "company": "SoftBank Group",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2025-03-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2026-03-31",
   "currency": "JPY",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 215.2,
+      "value": 784.3,
       "source": {
         "hostType": "company",
-        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2025_en.pdf",
-        "label": "Annual Report 2025, Sustainability: Governance, income taxes paid on a consolidated basis (net)",
-        "quote": "Income taxes paid on a consolidated basis (net) ... Consolidated 589.3 525.9 816.8 215.2 ... 1. The amounts are the net amount of tax payments and tax refunds. [Billions of yen; fiscal 2021, 2022, 2023, 2024]"
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2026_en.pdf",
+        "label": "SoftBank Group Report 2026, Sustainability: Governance, income taxes paid on a consolidated basis (net) (p. 59)",
+        "quote": "Income taxes paid on a consolidated basis (net) ... Consolidated 589.3 525.9 816.8 215.2 784.3 ... 1. The amounts are the net amount of tax payments and tax refunds. [Billions of yen; fiscal 2021, 2022, 2023, 2024, 2025]"
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 507.59,
+      "value": 975.47,
       "source": {
         "hostType": "company",
-        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
-        "label": "Financial Report 2025, notes to consolidated financial statements (research and development costs)",
-        "quote": "Research and development costs included in “Cost of sales” and “Selling, general and administrative ... ¥ 439,971 ¥ 507,590 $ 3,394,797 [Millions of yen for fiscal years ended March 31, 2024 and 2025; thousands of U.S. dollars for FY ended March 31, 2025]"
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2026_en.pdf",
+        "label": "SoftBank Group Financial Report 2026, notes to consolidated financial statements, research and development costs (p. 51)",
+        "quote": "Research and development costs included in “Cost of sales” and “Selling, general and administrative ... Research and development costs ¥ 507,590 ¥ 975,471 $ 6,101,270 [Millions of yen for fiscal years ended March 31, 2025 and 2026; thousands of U.S. dollars for FY ended March 31, 2026]"
       }
     }
   },
-  "notes": "Taxes: net of refunds. The annual report's consolidated net figure (¥215.2bn for fiscal 2024, year ended 31 March 2025) matches the consolidated cash flow statement's 'Income taxes paid' ¥380,008m less 'Income taxes refunded' ¥164,847m (Financial Report 2025); gross paid would be 380.01. R&D: research and development costs included in cost of sales and SG&A (mostly Arm and SoftBank Corp.).",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended March 31, 2026 (SBG's 'fiscal 2025'). Taxes: net of refunds. The integrated report's consolidated net figure (¥784.3bn) matches the consolidated cash-flow statement's 'Income taxes paid' ¥821,620m less 'Income taxes refunded' ¥37,322m (Financial Report 2026); gross paid would be 821.62. By the report's breakdown, ¥699.5bn was paid in Japan (SBG and intermediate holding companies ¥463.4bn, operating companies mainly SoftBank and LY Corporation ¥236.1bn) and ¥84.8bn overseas. R&D: research and development costs included in cost of sales and SG&A, Group-wide; nearly double FY2024's ¥507,590m.",
+  "researchedAt": "2026-11-24"
 }

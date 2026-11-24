@@ -1,32 +1,75 @@
 {
   "id": "rupert-murdoch",
   "company": "News Corp",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-06-30",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-06-30",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-06-30",
+    "asOf": "2026-08-28",
     "leader": {
       "name": "Rupert Murdoch",
       "relation": "founder",
-      "status": "holds",
+      "status": "no-reported-stake",
       "pctEconomic": null,
-      "pctVoting": 41.2,
+      "pctVoting": null,
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, Item 1A Risk Factors (concentration of ownership by the Murdoch Family Trust)",
-        "quote": "the Murdoch Family Trust (“MFT”), which beneficially owns less than one percent of the Company’s outstanding Class A Common Stock and approximately 40.6% of the Company’s Class B Common Stock as of June 30, 2025 ... Thus, K. Rupert Murdoch may be deemed to beneficially own in the aggregate less than one percent of the Company’s Class A Common Stock and approximately 41.2% of the Company’s Class B Common Stock as of June 30, 2025."
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000110465926109969/tm2624691-1_def14a.htm",
+        "label": "2026 proxy statement (DEF 14A), Corporate Governance Matters (Chairman Emeritus)",
+        "quote": "Since stepping down from the Board and as Executive Chair of the Company as of November 15, 2023, Mr. K. Rupert Murdoch has served as Chairman Emeritus."
       }
     },
-    "largestHolders": null,
+    "largestHolders": [
+      {
+        "name": "LGC Holdco, LLC (trusts associated with Lachlan, Grace and Chloe Murdoch)",
+        "type": "family",
+        "basis": "class",
+        "classLabel": "Class B",
+        "pctEconomic": 34.8,
+        "asOf": "2025-09-10",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1564708/000110465926109969/tm2624691-1_def14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of News Corporation",
+          "quote": "LGC Holdco, LLC (e) c/o Maupin, Cox & Legoy 4785 Caughlin Parkway Reno, Nevada 89519 14,250 62,584,577 * 34.8 % ... (e) Beneficial ownership of 14,250 shares of Class A Common Stock is as of September 10, 2025, as reported on the Form 4 filed with the SEC on September 12, 2025. Beneficial ownership of 62,584,577 shares of Class B Common Stock is as of September 10, 2025"
+        }
+      },
+      {
+        "name": "Independent Franchise Partners",
+        "type": "asset-manager",
+        "basis": "class",
+        "classLabel": "Class A",
+        "pctEconomic": 8.9,
+        "asOf": "2026-06-30",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1564708/000110465926109969/tm2624691-1_def14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of News Corporation",
+          "quote": "Independent Franchise Partners (d) Level 1, 10 Portman Square London W1H 6AZ United Kingdom 32,074,535 9,423,928 8.9% 5.2 % ... (d) Beneficial ownership of 32,074,535 shares of Class A Common Stock is as of June 30, 2026, as reported on the Schedule 13G/A filed with the SEC by the reporting person on August 13, 2026."
+        }
+      },
+      {
+        "name": "SOF Ltd",
+        "type": "other",
+        "basis": "class",
+        "classLabel": "Class B",
+        "pctEconomic": 5.4,
+        "asOf": "2022-12-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1564708/000110465926109969/tm2624691-1_def14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of News Corporation",
+          "quote": "SOF Ltd (f) P.O. Box 309 Ugland House George Town, E9 KY1-1104 Cayman Islands - 9,781,882 - 5.4 % ... (f) Beneficial ownership of 9,781,882 shares of Class B Common Stock is as of December 31, 2022, as reported on the Schedule 13G filed with the SEC by the reporting person on February 14, 2023."
+        }
+      }
+    ],
     "structure": {
       "dualClass": true,
       "controlled": false,
-      "note": "Class A shares are non-voting except in limited circumstances; Class B shares carry one vote each. At June 30, 2025 the Murdoch Family Trust owned about 40.6% of Class B. Rupert Murdoch, who can appoint certain directors of the trust's corporate trustee, may be deemed to beneficially own about 41.2% of Class B including his own shares, and disclaims beneficial ownership of the trust's shares (FY2025 10-K). A stockholders agreement caps the trust and Murdoch family at 44% of Class B voting power. The October 2025 proxy says that in September 2025 'certain trusts established for the benefit of certain beneficiaries of the Murdoch Family Trust' sold 14,071,293 Class B shares, and its ownership table (September 10, 2025) no longer lists the trust or Rupert Murdoch; it lists LGC Holdco, LLC with 62,584,577 Class B shares (33.3% of the class), whose voting decisions are made by a managing director appointed by Lachlan Murdoch."
+      "note": "Class A shares are non-voting except in limited circumstances; Class B shares carry one vote each. After the September 2025 resolution of the Murdoch Family Trust litigation, the trust's Class A shares and most of its Class B shares went to LGC Holdco, LLC, owned equally by trusts associated with Lachlan, Grace and Chloe Murdoch; it holds 62,584,577 Class B shares (34.8% of the class at August 28, 2026; the FY2026 10-K says approximately 34.52% at June 30, 2026). Its votes are decided by a managing director whom Lachlan Murdoch appoints, so Lachlan may be deemed the beneficial owner (he disclaims it). The 10-K says the parties agreed not to let LGC Holdco, the LGC Family Trusts and the 'Murdoch Individuals' (K. Rupert, Lachlan, Grace and Chloe Murdoch) together exceed 44% of Class B voting power. No one holds a majority of votes."
     }
   },
   "cash": {
@@ -34,23 +77,23 @@
       "value": 0.11,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of equity, fiscal 2025",
-        "quote": "Balance, June 30, 2024 ... Dividends — — — — (114) — — (114) (71) (185) [columns end: News Corporation stockholders' total, Noncontrolling Interests, Total Equity; in millions]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, Item 7 Liquidity, financing activities",
+        "quote": "the Company had $641 million of repurchases of outstanding Class A and Class B Common Stock under the Stock Repurchase Programs, dividend payments of $112 million to News Corporation stockholders and $92 million to REA Group minority stockholders"
       }
     },
     "buybacks": {
-      "value": 0.15,
+      "value": 0.64,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
-        "quote": "Repurchase of shares 12 (150) (117) (243) [Financing activities; note reference, then in millions for fiscal 2025, 2024, 2023]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchase of News Corp shares 12 ( 641 ) ( 150 ) ( 117 ) [Financing activities; note reference, then in millions for fiscal 2026, 2025, 2024]",
         "xbrl": {
           "cik": "0001564708",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2025-06-30",
-          "value": 150000000
+          "end": "2026-06-30",
+          "value": 641000000
         }
       }
     }
@@ -60,14 +103,14 @@
       "value": 0.08,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, Note 13 Equity-Based Compensation",
-        "quote": "The following table summarizes the Company’s equity-based compensation expense reported in the Statements of Operations: For the fiscal years ended June 30, 2025 2024 2023 (in millions) Total equity compensation expense $ 84 $ 91 $ 87",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, Note 13 Equity-Based Compensation",
+        "quote": "The following table summarizes the Company's equity-based compensation expense reported in the Statements of Operations: For the fiscal years ended June 30, 2026 2025 2024 (in millions) Total equity compensation expense $ 77 $ 84 $ 91",
         "xbrl": {
           "cik": "0001564708",
           "concept": "us-gaap:AllocatedShareBasedCompensationExpense",
-          "end": "2025-06-30",
-          "value": 84000000
+          "end": "2026-06-30",
+          "value": 77000000
         }
       }
     },
@@ -78,25 +121,25 @@
     "segments": [
       {
         "name": "U.S. and Canada",
-        "value": 4.12
+        "value": 4.37
       },
       {
         "name": "Europe",
-        "value": 1.71
+        "value": 1.83
       },
       {
         "name": "Australasia and Other",
-        "value": 2.62
+        "value": 2.83
       }
     ],
-    "total": 8.45,
+    "total": 9.03,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-      "label": "FY2025 Form 10-K, segment note, Geographic Segments",
-      "quote": "Geographic Segments For the fiscal years ended June 30, 2025 ... Revenues:(a) U.S. and Canada(b) $ 4,121 ... Europe(c) 1,710 ... Australasia and Other(d) 2,621 ... Total Revenues $ 8,452 ... (a)Revenues are attributed to region based on location of customer."
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+      "label": "FY2026 Form 10-K, Note 20 Segment Information, Geographic Segments",
+      "quote": "Geographic Segments For the fiscal years ended June 30, 2026 2025 2024 (in millions) Revenues: (a) U.S. and Canada (b) $ 4,368 $ 4,121 $ 4,004 Europe (c) 1,830 1,710 1,734 Australasia and Other (d) 2,830 2,621 2,514 Total Revenues $ 9,028 $ 8,452 $ 8,252 (a) Revenues are attributed to region based on location of customer."
     }
   },
-  "notes": "Fiscal year ended June 30, 2025 (matches data.js fy 'Jun 2025'). Sources: FY2025 Form 10-K (accession 0001564708-25-000419) and the proxy published after it, the 2025 DEF 14A (accession 0001140361-25-037696, ownership as of September 10, 2025). OWNERSHIP AS-OF DATE, a judgment call: ownership is taken from the 10-K as of June 30, 2025, the fiscal-year end, because the October 2025 proxy's table (September 10, 2025) comes after the September 2025 sale described below and does not list Rupert Murdoch or the Murdoch Family Trust. He has been Chairman Emeritus, not a director, since November 15, 2023, he is not among the fiscal 2025 named executive officers, and he is not listed as a more-than-5% Class B holder. pctVoting is 41.2, the 10-K's percentage of Class B, the only class that generally votes (10-K Note 12: Class A votes only in limited circumstances; Class B carries one vote per share). It is approximate ('approximately 41.2%') and he disclaims beneficial ownership of the trust's shares. pctEconomic is null: the 10-K gives only class percentages and no share counts, so no economic share can be derived. On those figures it would be well under his voting share, since Class B is about a third of all shares. The trust is not listed separately (family is null) because its 40.6% is already inside Rupert's 41.2%. The September 2025 events are described in structure.note from the proxy: a sale of 14,071,293 Class B shares, and LGC Holdco, LLC with 62,584,577 Class B shares (33.3%), which Lachlan Murdoch may be deemed to beneficially own (he disclaims it). LARGEST HOLDERS is null: the proxy lists only more-than-5% holders of Class B, as % of Class B (LGC Holdco 33.3%; SOF Ltd 9,781,882 shares, 5.2%, as of December 31, 2022), not on an all-shares basis. DIVIDENDS: the cash-flow line 'Dividends paid' ($185m) includes dividends to REA Group minority holders (MD&A: 'dividend payments of $185 million to News Corporation stockholders and REA Group minority stockholders'). The equity statement splits it into $114m to News Corporation stockholders and $71m to noncontrolling interests, so $114m is recorded. No XBRL fact for the $114m was found in companyfacts. BUYBACKS: $150m repurchased Class A and Class B shares. GEOGRAPHY: U.S. alone about $4.0bn, U.K. about $1.2bn, Australia about $2.2bn (10-K footnotes). Australasia comprises Australia, Asia, Papua New Guinea and New Zealand. Revenue figures are as reported for continuing operations. No broad employee stock purchase plan was identified, so plan is null.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended June 30, 2026 (data.js fy 'Jun 2026'). Sources: FY2026 Form 10-K (accession 0001564708-26-000175, filed August 7, 2026) and the proxy published after it, the 2026 DEF 14A (accession 0001104659-26-109969, filed September 23, 2026, ownership as of August 28, 2026). LEADER: Rupert Murdoch has been Chairman Emeritus, not a director, since November 15, 2023; he is not a named executive officer and does not appear in the 2026 proxy's ownership table. The Murdoch Family Trust, through which the FY2025 10-K attributed about 41.2% of Class B to him, no longer holds the shares: the FY2026 10-K says its Class A shares and most of its Class B shares were transferred to LGC Holdco in September 2025. Neither filing reports any holding for him, so status is no-reported-stake (it was 'holds' with 41.2% of Class B votes in the FY2025 edition). The only current mention of him in the ownership context is the 10-K's 44% voting cap covering the 'Murdoch Individuals'. LARGEST HOLDERS are listed on a class basis (the proxy gives only % of Class A or of Class B, not of all shares): LGC Holdco 34.8% of Class B; Independent Franchise Partners 8.9% of Class A (it also holds 9,423,928 Class B shares, 5.2% of Class B, as of June 30, 2025); SOF Ltd 5.4% of Class B (as of December 31, 2022, so stale). Lachlan Murdoch's 62,586,041 Class B shares include LGC Holdco's, so he is not listed separately. DIVIDENDS: the cash-flow line 'Dividends paid' ($204m) includes dividends to REA Group minority holders; the MD&A splits it into $112m to News Corporation stockholders and $92m to REA Group minority stockholders, so $112m is recorded. BUYBACKS: $641m of News Corp Class A and Class B shares; REA Group's own buyback ($141m) is excluded. GEOGRAPHY: the 10-K footnotes give the U.S. alone at about $4.2bn; Australasia comprises Australia, Asia, Papua New Guinea and New Zealand. No broad employee stock purchase plan was identified, so plan is null.",
+  "researchedAt": "2026-11-24"
 }

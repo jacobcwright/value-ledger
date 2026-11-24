@@ -1,0 +1,31 @@
+{
+  "id": "evan-spiegel",
+  "company": "Snap",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 5261,
+    "asOf": "2025-12-31",
+    "basis": "full-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440826000013/snap-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, we had 5,261 full-time employees, of whom approximately 54% are in engineering roles"
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "annual total compensation of our median employee, excluding our Chief Executive Officer",
+    "value": 369894,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440826000013/snap-20251231.htm",
+      "label": "FY2025 Form 10-K, Part III Item 11, Pay Ratio Disclosure",
+      "quote": "The annual total compensation of our median employee, excluding our Chief Executive Officer, for the same period, using the same methodology used to calculate our Chief Executive Officer’s annual total compensation, was $369,894."
+    }
+  },
+  "notes": "Employees: year-end full-time count from the FY2025 10-K. Payroll: the 10-K discloses no total staff cost; Snap files no proxy and puts its CEO pay ratio in Part III of the 10-K, so that 2025 median is used. The median employee was identified from the global population at October 1, 2025 using salary, bonuses, commissions, allowances and the grant-date value of equity awards.",
+  "researchedAt": "2026-11-24"
+}

@@ -1,8 +1,8 @@
 {
   "id": "mark-zuckerberg",
   "company": "Meta Platforms",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ecosystem": {
@@ -10,17 +10,17 @@
     "measure": null,
     "platformRevenue": {
       "label": "Revenue",
-      "value": 164.5,
+      "value": 200.97,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 7 MD&A, results of operations",
-        "quote": "Revenue $ 164,501 $ 134,902 $ 116,609 [in millions; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of income",
+        "quote": "Revenue $ 200,966 $ 164,501 $ 134,902 [in millions; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001326801",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "end": "2024-12-31",
-          "value": 164501000000
+          "end": "2025-12-31",
+          "value": 200966000000
         }
       }
     },
@@ -44,8 +44,8 @@
         }
       }
     ],
-    "notes": "The 10-K has no flow measure, so measure is null. The study is Meta's own (\"a new study we conducted\", announced May 13, 2025) and covers the U.S. only. It starts from Meta's estimate that each U.S. ad dollar yields $3.71 of advertiser revenue (\"over $215 billion in business/advertisers revenues in the U.S. from Meta ads\"), then applies BEA input-output multipliers for indirect and induced activity, so the $548 billion is a modelled economic-activity figure, not money paid to businesses or creators. It includes about $2 billion of Meta's own non-advertising sales. A separate Meta study puts the EU figure at €213 billion and 1.44 million jobs in 2024; it is not added here. Meta revenue is worldwide, so it is not comparable with the U.S.-only study figure."
+    "notes": "The FY2025 10-K has no flow measure, so measure is null. The study is still Meta's own 2024 U.S. estimate: the study page, rechecked November 24, 2026, still reports 2024 figures, and no newer edition was found, so it is kept. It was announced May 13, 2025 (\"a new study we conducted\") and covers the U.S. only. It starts from Meta's estimate that each U.S. ad dollar yields $3.71 of advertiser revenue (\"over $215 billion in business/advertisers revenues in the U.S. from Meta ads\"), then applies BEA input-output multipliers for indirect and induced activity, so the $548 billion is a modelled economic-activity figure, not money paid to businesses or creators. It includes about $2 billion of Meta's own non-advertising sales. The study year (2024) is a year earlier than the platform revenue (FY2025), and Meta revenue is worldwide, so the two are not comparable."
   },
   "notes": "Ecosystem lens only.",
-  "researchedAt": "2026-11-23"
+  "researchedAt": "2026-11-24"
 }

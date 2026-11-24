@@ -1,101 +1,95 @@
 {
   "id": "richard-branson",
   "company": "Virgin Galactic Holdings",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "sector": "aerospace",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 0.007036,
-      "stated": 7036,
+      "value": 0.001544,
+      "stated": 1544,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of operations (in thousands)",
-        "quote": "(In thousands) Revenue $ 7,036 $ 6,800 Operating expenses:",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations (in thousands)",
+        "quote": "(In thousands) Revenue $ 1,544 $ 7,036 Operating expenses:",
         "xbrl": {
           "cik": "0001706946",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "end": "2024-12-31",
-          "value": 7036000
+          "end": "2025-12-31",
+          "value": 1544000
         }
       }
     },
     "operatingCashFlow": {
-      "value": -0.352703,
-      "stated": -352703,
+      "value": -0.240142,
+      "stated": -240142,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
-        "quote": "Net cash used in operating activities ( 352,703 ) ( 448,193 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Net cash used in operating activities ( 240,142 ) ( 352,703 )",
         "xbrl": {
           "cik": "0001706946",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": -352703000
+          "end": "2025-12-31",
+          "value": -240142000
         }
       }
     },
     "capex": {
-      "value": 0.121855,
+      "value": 0.198045,
       "components": [
-        "capital expenditures 0.121855"
+        "capital expenditures 0.198045"
       ],
-      "stated": 121855,
+      "stated": 198045,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
-        "quote": "Cash flows from investing activities: Capital expenditures ( 121,855 ) ( 44,309 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Cash flows from investing activities: Capital expenditures ( 198,045 ) ( 121,855 )",
         "xbrl": {
           "cik": "0001706946",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-12-31",
-          "value": 121855000
+          "end": "2025-12-31",
+          "value": 198045000
         }
       }
     },
     "interestPaid": {
-      "value": 0.010625,
+      "value": 0.008686,
       "inOCF": true,
-      "stated": 10625,
+      "stated": 8686,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in thousands)",
-        "quote": "Cash payments for: Income taxes $ 329 $ 658 Interest 10,625 15,938",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental disclosure of cash flow information (in thousands)",
+        "quote": "Supplemental disclosure of cash flow information: Cash payments for: Interest $ 8,686 $ 10,625",
         "xbrl": {
           "cik": "0001706946",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-12-31",
-          "value": 10625000
+          "end": "2025-12-31",
+          "value": 8686000
         }
       }
     },
     "taxesPaid": {
-      "value": 0.000329,
+      "value": null,
       "inOCF": true,
-      "stated": 329,
+      "stated": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in thousands)",
-        "quote": "Cash payments for: Income taxes $ 329 $ 658 Interest 10,625 15,938",
-        "xbrl": {
-          "cik": "0001706946",
-          "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 329000
-        }
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 13 Income Taxes",
+        "quote": "Cash paid for income taxes, net of refunds, was $ 0.3 million for foreign jurisdictions for the year ended December 31, 2024 and was not material for any other jurisdictions for the years ended December 31, 2025 and 2024."
       }
     }
   },
-  "paidOut": 0.481594,
-  "paidOutFormula": "0.007036 + 0.352703 + 0.121855",
+  "paidOut": 0.439731,
+  "paidOutFormula": "0.001544 + 0.240142 + 0.198045",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -104,6 +98,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Amounts in thousands. Early-stage company with little revenue: operating cash outflow (352.7m) is funded by equity and cash reserves, so paidOut (481.6m) is far above revenue (7.0m).",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001706946-26-000019). Amounts in thousands. Early-stage company with little revenue: operating cash outflow (240.1m) is funded by equity, debt and cash reserves, so paidOut (439.7m) is far above revenue (1.5m). Income taxes paid in 2025 are described only as 'not material' and no amount is given, so taxesPaid is null; it is inside operating cash flow and does not change paidOut. Interest income (21.8m, mostly on marketable securities) is received inside operating cash flow.",
+  "researchedAt": "2026-11-24"
 }

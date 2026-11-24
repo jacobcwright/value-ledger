@@ -1,0 +1,31 @@
+{
+  "id": "lisa-lutoff-perlo",
+  "company": "Royal Caribbean Group",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 108000,
+    "asOf": "2025-12-31",
+    "basis": "approximately 108,000 employees spanning across our shipboard fleet and shoreside locations",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, our three global cruise brands employed approximately 108,000 employees spanning across our shipboard fleet and shoreside locations."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "total compensation of the median employee (a crew member)",
+    "value": 19027,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000017/rcl-20260417.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "We determined that this person was a crew member whose total compensation for 2025 , calculated consistent with Item 402(c) of Regulation, was $19,027 . This figure includes shipboard pension and gratuities directly billed to our guests but excludes any cash gratuities paid directly to the employee by guests."
+    }
+  },
+  "notes": "Employees: an approximate year-end count (about 96,500 shipboard and 11,400 full-time plus 50 part-time shoreside). Payroll: the 10-K has no total staff cost. Its 'Payroll and related' line ($1,366 million in 2025) covers shipboard personnel only, with shoreside payroll inside marketing, selling and administrative expenses, so it is not used; the 2026 proxy's CEO pay ratio median for 2025 is used instead. The median was identified from gross wages at December 31, 2025, without annualizing, and is a crew member; the proxy notes shipboard employees also receive housing and meals not in this figure, and cash gratuities paid directly by guests are excluded.",
+  "researchedAt": "2026-11-24"
+}

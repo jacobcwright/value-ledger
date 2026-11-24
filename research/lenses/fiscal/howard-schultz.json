@@ -1,28 +1,28 @@
 {
   "id": "howard-schultz",
   "company": "Starbucks",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-09-29",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-09-27",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 1.37,
+      "value": 0.68,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid during the period for: ... Income taxes $ 1,373.3 $ 1,294.2 $ 1,157.6 See Notes to [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000162/sbux-20260927.htm",
+        "label": "FY2026 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid during the period for: ... Income taxes $ 684.0 $ 715.6 $ 1,373.3 See Notes to [USD millions; FY2026 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000829224",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-09-29",
-          "value": 1373300000
+          "end": "2026-09-27",
+          "value": 684000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the caption does not say whether refunds are netted. R&D not reported as a separate line in the FY2024 10-K.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: the supplemental cash-flow line 'Income taxes' (us-gaap:IncomeTaxesPaidNet); the caption does not say whether refunds are netted. R&D not reported as a separate line in the FY2026 10-K.",
+  "researchedAt": "2026-11-24"
 }

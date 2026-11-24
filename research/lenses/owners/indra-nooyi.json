@@ -2,48 +2,48 @@
   "id": "indra-nooyi",
   "company": "PepsiCo",
   "nbim": {
-    "pct": 1.29,
-    "marketValueUSD": 2.686,
-    "asOf": "2024-12-31",
+    "pct": 1.31,
+    "marketValueUSD": 2.431,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"5qoyxf3diuiz\",\"cc\":\"US\",\"n\":\"PepsiCo Inc\",\"a\":{\"e\":2686385477,\"n\":30510220096},\"at\":0,\"o\":1.29,\"eq\":{\"vid\":\"PEP\",\"v\":1.29,\"s\":\"Consumer Staples\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"5qoyxf3diuiz\",\"cc\":\"US\",\"n\":\"PepsiCo Inc\",\"a\":{\"e\":2430963611,\"n\":24055600417},\"at\":0,\"o\":1.31,\"eq\":{\"vid\":\"PEP\",\"v\":1.31,\"s\":\"Consumer Staples\"}}"
     }
   },
   "calpers": {
-    "shares": 7070236,
-    "asOf": "2024-12-31",
+    "shares": 2628978,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "PEPSICO INC COM 713448108 1075100086 7070236"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "PEPSICO INC COM 713448108 333144092 2628978"
     },
     "derived": {
-      "pct": 0.516,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.193,
+      "method": "CalPERS shares ÷ shares outstanding (2,628,978 ÷ 1,362,741,092)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "The number of shares of PepsiCo, Inc. Common Stock outstanding as of January 28, 2025 was 1,371,499,838"
+          "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000048/pep-20260905.htm",
+          "label": "Form 10-Q for the quarter ended September 5, 2026, cover page",
+          "quote": "Number of shares of Common Stock outstanding as of October 1, 2026 was 1,362,741,092."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 91097,
-    "asOf": "2025-01-28",
+    "count": 87254,
+    "asOf": "2026-01-23",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of January 28, 2025, there were approximately 91,097 shareholders of record of our common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of January 23, 2026, there were approximately 87,254 shareholders of record of our common stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;PepsiCo Inc;Consumer Staples;30510220096;2686385477;1.29%;1.29%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the third-quarter 2026 10-Q cover count at October 1, 2026, the same count used in the marketcap lens.",
+  "researchedAt": "2026-11-24"
 }

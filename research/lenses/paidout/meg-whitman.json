@@ -1,109 +1,109 @@
 {
   "id": "meg-whitman",
   "company": "eBay",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "sector": "marketplace",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 10.283,
-      "stated": 10283,
+      "value": 11.1,
+      "stated": 11100,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
-        "quote": "Net revenues $ 10,283 $ 10,112 $ 9,795",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of income (in millions)",
+        "quote": "Net revenues $ 11,100 $ 10,283 $ 10,112",
         "xbrl": {
           "cik": "0001065088",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "end": "2024-12-31",
-          "value": 10283000000
+          "end": "2025-12-31",
+          "value": 11100000000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 2.414,
-      "stated": 2414,
+      "value": 1.959,
+      "stated": 1959,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Net cash provided by continuing operating activities 2,414 2,431 2,627 Net cash used in discontinued operating activities - ( 5 ) ( 373 ) Net cash provided by operating activities 2,414 2,426 2,254",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+        "quote": "Net cash provided by continuing operating activities 2,009 2,414 2,431 Net cash used in discontinued operating activities ( 50 ) - ( 5 ) Net cash provided by operating activities 1,959 2,414 2,426",
         "xbrl": {
           "cik": "0001065088",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": 2414000000
+          "end": "2025-12-31",
+          "value": 1959000000
         }
       }
     },
     "capex": {
-      "value": 0.458,
+      "value": 0.525,
       "components": [
-        "PP&E 0.458"
+        "PP&E 0.525"
       ],
-      "stated": 458,
+      "stated": 525,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Cash flows from investing activities: Purchases of property and equipment ( 458 ) ( 456 ) ( 449 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+        "quote": "Cash flows from investing activities: Purchases of property and equipment ( 525 ) ( 458 ) ( 456 )",
         "xbrl": {
           "cik": "0001065088",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-12-31",
-          "value": 458000000
+          "end": "2025-12-31",
+          "value": 525000000
         }
       }
     },
     "interestPaid": {
-      "value": 0.264,
+      "value": 0.256,
       "inOCF": true,
-      "stated": 264,
+      "stated": 256,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid for: Interest $ 264 $ 275 $ 244 Income taxes $ 722 $ 746 $ 540",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow disclosures of continuing operations (in millions)",
+        "quote": "Supplemental cash flow disclosures of continuing operations: Cash paid for: Interest $ 256 $ 264 $ 275",
         "xbrl": {
           "cik": "0001065088",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-12-31",
-          "value": 264000000
+          "end": "2025-12-31",
+          "value": 256000000
         }
       }
     },
     "taxesPaid": {
-      "value": 0.722,
+      "value": 1.457,
       "inOCF": true,
-      "stated": 722,
+      "stated": 1457,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid for: Interest $ 264 $ 275 $ 244 Income taxes $ 722 $ 746 $ 540",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm",
+        "label": "FY2025 Form 10-K, income taxes note, cash paid for income taxes (in millions)",
+        "quote": "The following table summarizes the cash paid for income taxes for the periods indicated (in millions): Year Ended December 31, 2025 Federal (United States) $ 1,139 State 102 Foreign (International) (1) 216 Total (2) $ 1,457",
         "xbrl": {
           "cik": "0001065088",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 722000000
+          "end": "2025-12-31",
+          "value": 1457000000
         }
       }
     }
   },
-  "paidOut": 8.327,
-  "paidOutFormula": "10.283 − 2.414 + 0.458",
+  "paidOut": 9.666,
+  "paidOutFormula": "11.1 − 1.959 + 0.525",
   "altPaidOut": null,
   "salesEnabled": {
-    "value": 64.384,
+    "value": 68.509,
     "measure": "Gross Merchandise Volume (GMV)",
-    "measureValue": 74.667,
-    "platformRevenue": 10.283,
+    "measureValue": 79.609,
+    "platformRevenue": 11.1,
     "platformRevenueLabel": "Net revenues",
-    "formula": "74.667 − 10.283",
+    "formula": "79.609 − 11.1",
     "from": "research/lenses/ecosystem/meg-whitman.json"
   },
   "flags": {
@@ -112,6 +112,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "No discontinued-operations cash flow in 2024, so total and continuing operating cash flow are both 2,414.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001065088-26-000027). Operating cash flow is the total (1,959), which includes 50 of cash used in discontinued operating activities; continuing operating cash flow was 2,009. Income taxes paid (1,457, net of refunds) are from the ASU 2023-09 table in the income-tax note; they rose alongside a $985 million decrease in income taxes payable and other tax liabilities in operating cash flow.",
+  "researchedAt": "2026-11-24"
 }

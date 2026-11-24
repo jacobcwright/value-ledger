@@ -1,149 +1,149 @@
 {
-  "id": "michael-saylor",
-  "company": "Strategy",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
-  "currency": "USD",
-  "unit": "billions",
-  "sector": "tech",
-  "comparable": true,
-  "inputs": {
-    "revenue": {
-      "value": 0.463456,
-      "stated": 463456,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of operations (in thousands)",
-        "quote": "Other services 64,308 75,843 85,499 Total revenues 463,456 496,261 499,264",
-        "xbrl": {
-          "cik": "0001050446",
-          "concept": "us-gaap:Revenues",
-          "end": "2024-12-31",
-          "value": 463456000
-        }
-      }
-    },
-    "operatingCashFlow": {
-      "value": -0.053032,
-      "stated": -53032,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
-        "quote": "Net cash (used in) provided by operating activities ( 53,032 ) 12,712 3,211",
-        "xbrl": {
-          "cik": "0001050446",
-          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": -53032000
-        }
-      }
-    },
-    "capex": {
-      "value": 0.013478,
-      "components": [
-        "PP&E 0.002978",
-        "advance deposits on PP&E 0.0105"
-      ],
-      "derived": {
-        "method": "sum of components",
-        "inputs": [
-          {
-            "name": "PP&E",
-            "value": 0.002978,
-            "stated": 2978,
-            "source": {
-              "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-              "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
-              "quote": "Purchases of property and equipment ( 2,978 ) ( 2,938 ) ( 2,486 )",
-              "xbrl": {
-                "cik": "0001050446",
-                "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-                "end": "2024-12-31",
-                "value": 2978000
-              }
-            }
-          },
-          {
-            "name": "advance deposits on PP&E",
-            "value": 0.0105,
-            "stated": 10500,
-            "source": {
-              "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-              "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
-              "quote": "Advance deposits on purchases of property and equipment ( 10,500 ) 0 0"
-            }
-          }
-        ]
-      },
-      "excludes": [
-        {
-          "name": "purchases of digital assets (bitcoin): an investment, not capex",
-          "value": 22.072759,
-          "stated": 22072759,
-          "source": {
-            "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-            "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
-            "quote": "Investing activities: Purchases of digital assets ( 22,072,759 ) ( 1,902,299 ) ( 287,921 )",
-            "xbrl": {
-              "cik": "0001050446",
-              "concept": "us-gaap:PaymentsToAcquireIntangibleAssets",
-              "end": "2024-12-31",
-              "value": 22072759000
-            }
-          }
-        }
-      ]
-    },
-    "interestPaid": {
-      "value": 0.044571,
-      "inOCF": true,
-      "stated": 44571,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in thousands)",
-        "quote": "Cash paid during the year for interest $ 44,571 $ 41,229 $ 43,448 Cash paid during the year for income taxes, net of tax refunds $ 1,059 $ 30,318 $ 21,973",
-        "xbrl": {
-          "cik": "0001050446",
-          "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-12-31",
-          "value": 44571000
-        }
-      }
-    },
-    "taxesPaid": {
-      "value": 0.001059,
-      "inOCF": true,
-      "stated": 1059,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in thousands)",
-        "quote": "Cash paid during the year for interest $ 44,571 $ 41,229 $ 43,448 Cash paid during the year for income taxes, net of tax refunds $ 1,059 $ 30,318 $ 21,973",
-        "xbrl": {
-          "cik": "0001050446",
-          "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 1059000
-        }
-      }
+ "id": "michael-saylor",
+ "company": "Strategy",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 0.477233,
+   "stated": 477233,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of operations (in thousands)",
+    "quote": "Other services 57,677 64,308 75,843 Total revenues 477,233 463,456 496,261",
+    "xbrl": {
+     "cik": "0001050446",
+     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+     "end": "2025-12-31",
+     "value": 477233000
     }
+   }
   },
-  "paidOut": 0.529966,
-  "paidOutFormula": "0.463456 + 0.053032 + 0.013478",
-  "altPaidOut": null,
-  "salesEnabled": null,
-  "flags": {
-    "financeReceivablesInOCF": false,
-    "interestDividendsReceivedInOCF": null,
-    "revenueIncludesExcise": false,
-    "nonCashRevenue": null
+  "operatingCashFlow": {
+   "value": -0.067241,
+   "stated": -67241,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+    "quote": "Net cash provided by (used in) operating activities ( 67,241 ) ( 53,032 ) 12,712",
+    "xbrl": {
+     "cik": "0001050446",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2025-12-31",
+     "value": -67241000
+    }
+   }
   },
-  "notes": "Amounts in thousands. Judgement call: bitcoin purchases (22.07bn) are tagged us-gaap:PaymentsToAcquireIntangibleAssets but are treated as an investment, not capex; including them would make paidOut 22.60bn. Advance deposits on PP&E (10.5m) are counted as capex.",
-  "researchedAt": "2026-11-23"
+  "capex": {
+   "value": 0.045212,
+   "components": [
+    "PP&E 0.008212",
+    "advance deposits on PP&E 0.037"
+   ],
+   "derived": {
+    "method": "sum of components",
+    "inputs": [
+     {
+      "name": "PP&E",
+      "value": 0.008212,
+      "stated": 8212,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+       "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+       "quote": "Purchases of property and equipment ( 8,212 ) ( 2,978 ) ( 2,938 )",
+       "xbrl": {
+        "cik": "0001050446",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "end": "2025-12-31",
+        "value": 8212000
+       }
+      }
+     },
+     {
+      "name": "advance deposits on PP&E",
+      "value": 0.037,
+      "stated": 37000,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+       "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+       "quote": "Advance deposits on purchases of property and equipment ( 37,000 ) ( 10,500 ) -"
+      }
+     }
+    ]
+   },
+   "excludes": [
+    {
+     "name": "purchases of digital assets (bitcoin): an investment, not capex",
+     "value": 22.467083,
+     "stated": 22467083,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+      "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+      "quote": "Investing activities: Purchases of digital assets ( 22,467,083 ) ( 22,072,759 ) ( 1,902,299 )",
+      "xbrl": {
+       "cik": "0001050446",
+       "concept": "us-gaap:PaymentForAcquisitionCryptoAsset",
+       "end": "2025-12-31",
+       "value": 22467083000
+      }
+     }
+    }
+   ]
+  },
+  "interestPaid": {
+   "value": 0.046525,
+   "inOCF": true,
+   "stated": 46525,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+    "label": "FY2025 Form 10-K, supplemental cash flow information (in thousands)",
+    "quote": "Supplemental disclosure of cash flow information: Cash paid during the year for interest $ 46,525 $ 44,571 $ 41,229 Cash paid during the year for income taxes, net of tax refunds $ 13,132 $ 1,059 $ 30,318",
+    "xbrl": {
+     "cik": "0001050446",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2025-12-31",
+     "value": 46525000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 0.013132,
+   "inOCF": true,
+   "stated": 13132,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+    "label": "FY2025 Form 10-K, supplemental cash flow information (in thousands)",
+    "quote": "Supplemental disclosure of cash flow information: Cash paid during the year for interest $ 46,525 $ 44,571 $ 41,229 Cash paid during the year for income taxes, net of tax refunds $ 13,132 $ 1,059 $ 30,318",
+    "xbrl": {
+     "cik": "0001050446",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2025-12-31",
+     "value": 13132000
+    }
+   }
+  }
+ },
+ "paidOut": 0.589686,
+ "paidOutFormula": "0.477233 + 0.067241 + 0.045212",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001050446-26-000020). Amounts in thousands. Judgement call: bitcoin purchases (22.47bn; now tagged us-gaap:PaymentForAcquisitionCryptoAsset) are treated as an investment, not capex; including them would make paidOut 23.06bn. Advance deposits on PP&E (37.0m) are counted as capex. Preferred dividends (381.4m) are financing cash flows to investors and are not included.",
+ "researchedAt": "2026-11-24"
 }

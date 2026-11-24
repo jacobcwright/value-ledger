@@ -2,18 +2,18 @@
   "id": "brian-l-roberts",
   "name": "Brian L. Roberts",
   "netWorth": {
-    "value": 1.8,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 1947,
+    "value": 1.47,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 2603,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"brian-roberts\",\"rank\":1947,\"listUri\":\"billionaires\",\"visible\":true,\"position\":2000,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":1800.0,\"finalWorthBillions\":1.8,\"category\":\"Media & Entertainment\",\"otherCompensation\":0,\"person\":{\"name\":\"Brian Roberts\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=2000",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"brian-roberts\",\"rank\":2603,\"listUri\":\"rtb\",\"visible\":true,\"position\":2603,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":1474.746,\"finalWorthBillions\":1.4747460000000001,\"person\":{\"name\":\"Brian Roberts\",\"uri\":\"brian-roberts\",\"imageExists\":true,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/618be22a430d0dd3ba3b72d2/416x416.jpg?background=000000&cropX1=1050&cropX2=1670&cropY1=279&cropY2=898\"},\"personName\":\"Brian Roberts\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Brian Roberts\" at rank 1947 (ranks are shared on ties), net worth $1.8B, source \"Comcast\". Forbes lists him as \"Brian Roberts\" (source \"Comcast\").",
+  "notes": "Listed as \"Brian Roberts\" at rank 2603, real-time net worth $1.5B, source \"Comcast\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

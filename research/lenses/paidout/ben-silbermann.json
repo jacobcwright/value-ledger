@@ -1,61 +1,61 @@
 {
  "id": "ben-silbermann",
  "company": "Pinterest",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "USD",
  "unit": "billions",
  "sector": "tech",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 3.646166,
-   "stated": 3646166,
+   "value": 4.221767,
+   "stated": 4221767,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
-    "label": "FY2024 Form 10-K, management's discussion and analysis (in thousands)",
-    "quote": "Revenue $ 3,646,166 $ 3,055,071 $ 2,802,574",
+    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000021/pins-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of operations (in thousands)",
+    "quote": "Revenue $ 4,221,767 $ 3,646,166 $ 3,055,071 Costs and expenses: Cost of revenue 841,521",
     "xbrl": {
      "cik": "0001506293",
      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-     "end": "2024-12-31",
-     "value": 3646166000
+     "end": "2025-12-31",
+     "value": 4221767000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 0.964594,
-   "stated": 964594,
+   "value": 1.284264,
+   "stated": 1284264,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
-    "quote": "Net cash provided by operating activities 964,594 612,961 469,202",
+    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000021/pins-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (in thousands)",
+    "quote": "Net cash provided by operating activities 1,284,264 964,594 612,961",
     "xbrl": {
      "cik": "0001506293",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-31",
-     "value": 964594000
+     "end": "2025-12-31",
+     "value": 1284264000
     }
    }
   },
   "capex": {
-   "value": 0.024606,
+   "value": 0.032375,
    "components": [
-    "PP&E 0.024606"
+    "PP&E 0.032375"
    ],
-   "stated": 24606,
+   "stated": 32375,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
-    "quote": "Purchases of property and equipment ( 24,606 ) ( 8,063 ) ( 28,984 )",
+    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000021/pins-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (in thousands)",
+    "quote": "Purchases of property and equipment ( 32,375 ) ( 24,606 ) ( 8,063 )",
     "xbrl": {
      "cik": "0001506293",
      "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-     "end": "2024-12-31",
-     "value": 24606000
+     "end": "2025-12-31",
+     "value": 32375000
     }
    }
   },
@@ -63,47 +63,47 @@
    "value": null,
    "inOCF": true,
    "source": null,
-   "note": "Not disclosed in the filing or companyfacts; under US GAAP it would sit inside operating cash flow, so the formula does not need it."
+   "note": "No cash interest paid is disclosed in the FY2025 10-K (no borrowings were outstanding; the convertible notes were issued in March 2026, after the year end). Under US GAAP it would sit inside operating cash flow, so the formula does not need it."
   },
   "taxesPaid": {
-   "value": 0.025018,
-   "stated": 25018,
+   "value": 0.022376,
+   "stated": 22376,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
-    "quote": "Cash paid for income taxes, net $ 25,018 $ 19,173 $ 10,008",
+    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000021/pins-20251231.htm",
+    "label": "FY2025 Form 10-K, supplemental cash-flow information (in thousands)",
+    "quote": "Supplemental cash flow information Cash paid for income taxes, net $ 22,376 $ 25,018 $ 19,173",
     "xbrl": {
      "cik": "0001506293",
      "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-12-31",
-     "value": 25018000
+     "end": "2025-12-31",
+     "value": 22376000
     }
    }
   },
   "interestDividendsReceived": {
-   "value": 0.127003,
-   "stated": 127003,
+   "value": 0.110493,
+   "stated": 110493,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
-    "label": "FY2024 Form 10-K, management's discussion and analysis (in thousands)",
-    "quote": "Interest income (expense), net 127,003 105,439 30,235"
+    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000021/pins-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of operations (in thousands)",
+    "quote": "Income (loss) from operations 319,883 179,817 (125,678) Interest income (expense), net 110,493 127,003 105,439"
    },
    "derivation": "interest income from the income statement, used to size the bias: cash interest received is inside operating cash flow but not in revenue (the pilot did the same for Shopify)"
   }
  },
- "paidOut": 2.706178,
- "paidOutFormula": "revenue 3,646,166 − operating cash flow 964,594 + capex 24,606 (USD thousands, as stated)",
+ "paidOut": 2.969878,
+ "paidOutFormula": "revenue 4,221,767 − operating cash flow 1,284,264 + capex 32,375 (USD thousands, as stated)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
   "financeReceivablesInOCF": false,
-  "interestDividendsReceivedInOCF": 0.127003,
+  "interestDividendsReceivedInOCF": 0.110493,
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "No cash interest is disclosed (no debt outstanding) and companyfacts has no InterestPaidNet fact; it would sit inside operating cash flow, so paidOut is unaffected.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001506293-26-000021). No cash interest is disclosed (no borrowings outstanding in 2025) and it would sit inside operating cash flow, so paidOut is unaffected. Net interest income (0.110bn) is received inside operating cash flow but is not revenue, so it lowers paidOut slightly.",
+ "researchedAt": "2026-11-24"
 }

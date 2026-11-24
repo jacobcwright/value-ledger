@@ -2,18 +2,18 @@
   "id": "hasso-plattner",
   "name": "Hasso Plattner",
   "netWorth": {
-    "value": 15.2,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 141,
+    "value": 13.58,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 218,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"hasso-plattner\",\"rank\":141,\"listUri\":\"billionaires\",\"visible\":true,\"position\":142,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":15200.0,\"finalWorthBillions\":15.2,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Hasso Plattner & family\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"hasso-plattner\",\"rank\":218,\"listUri\":\"rtb\",\"visible\":true,\"position\":218,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":13581.377,\"finalWorthBillions\":13.581377,\"person\":{\"name\":\"Hasso Plattner & family\",\"uri\":\"hasso-plattner\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5e762726d8e1ae0007b71a6b/416x416.jpg?background=000000&cropX1=1757&cropX2=3583&cropY1=0&cropY2=1827\"},\"personName\":\"Hasso Plattner & family\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Hasso Plattner & family\" at rank 141 (ranks are shared on ties), net worth $15.2B, source \"Software\". Forbes lists this as a family fortune (\"& family\"); the figure covers wealth Forbes attributes to him and his family, not him alone.",
+  "notes": "Listed as \"Hasso Plattner & family\" at rank 218, real-time net worth $13.6B, source \"Software\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

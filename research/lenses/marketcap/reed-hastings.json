@@ -1,0 +1,22 @@
+{
+  "id": "reed-hastings",
+  "company": "Netflix",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 4106325903,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "NFLX",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/nflx-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of September 30, 2026, there were 4,106,325,903 shares of the registrant's common stock, par value $0.001, outstanding."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as NFLX. The count is after the ten-for-one forward stock split completed November 14, 2025.",
+  "researchedAt": "2026-11-24"
+}

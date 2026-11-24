@@ -1,0 +1,22 @@
+{
+  "id": "jensen-huang",
+  "company": "NVIDIA",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 24147000000,
+      "sharesAsOf": "2026-07-26",
+      "pricedAs": "NVDA",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+        "label": "Form 10-Q for the quarter ended July 26, 2026, condensed consolidated statement of shareholders' equity (shares in millions)",
+        "quote": "Condensed Consolidated Statements of Shareholders ' Equity ... Common Stock Outstanding ... Shares ... (In millions, except per share data) ... Balances as of Jul 26, 2026 24,147 $ 24 $ 9,828 $ ( 25 ) $ 219,157 $ 228,984"
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as NVDA. The latest 10-Q (quarter ended July 26, 2026; no later 10-Q was on EDGAR at the time of research) gives 24,147 million shares outstanding at quarter end in its statement of shareholders' equity, stated in millions; shares = 24,147 × 1,000,000. Its cover states only a rounded 24.1 billion at August 21, 2026. The 2026 proxy's precise count was 24,312,141,810 at March 23, 2026, older and since reduced by buybacks.",
+  "researchedAt": "2026-11-24"
+}

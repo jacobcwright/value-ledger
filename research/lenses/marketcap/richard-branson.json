@@ -1,0 +1,22 @@
+{
+  "id": "richard-branson",
+  "company": "Virgin Galactic Holdings",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 151681991,
+      "sharesAsOf": "2026-11-05",
+      "pricedAs": "SPCE",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000135/spce-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of November 5, 2026, there were 151,681,991 shares of the Company's common stock outstanding."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the NYSE as SPCE. The count roughly doubled during 2026 (81,409,340 at March 31, 2026) through at-the-market sales, the redemption and exchange of convertible debt for shares and pre-funded warrants, and the exercise of those warrants; the Q3 2026 equity statement shows 10,310,868 pre-funded warrants exercised in the third quarter. Any warrants still unexercised are not counted.",
+  "researchedAt": "2026-11-24"
+}

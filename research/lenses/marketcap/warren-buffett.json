@@ -1,0 +1,36 @@
+{
+  "id": "warren-buffett",
+  "company": "Berkshire Hathaway",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 480476,
+      "sharesAsOf": "2026-10-28",
+      "pricedAs": "BRK-A",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "Number of shares of common stock outstanding as of October 28, 2026: Class A - 480,476 shares Class B - 1,403,805,594 shares"
+      }
+    },
+    {
+      "label": "Class B common stock",
+      "shares": 1403805594,
+      "sharesAsOf": "2026-10-28",
+      "pricedAs": "BRK-B",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "Number of shares of common stock outstanding as of October 28, 2026: Class A - 480,476 shares Class B - 1,403,805,594 shares"
+      }
+    }
+  ],
+  "notes": "Both classes are listed on the NYSE (BRK.A and BRK.B per the FY2025 10-K; Yahoo symbols BRK-A and BRK-B) and each is priced from its own line, not converted into the other. A Class B share has 1/1,500 of a Class A share's economic rights and each Class A share converts into 1,500 Class B shares. The cover counts are shares outstanding; no preferred stock is included.",
+  "researchedAt": "2026-11-24"
+}

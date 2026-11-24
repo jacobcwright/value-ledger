@@ -1,114 +1,114 @@
 {
   "id": "john-warnock",
   "company": "Adobe",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-11-29",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-11-28",
   "currency": "USD",
   "unit": "billions",
   "sector": "tech",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 21.505,
-      "stated": 21505,
+      "value": 23.769,
+      "stated": 23769,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
-        "quote": "Total revenue 21,505 19,409 17,606",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Total revenue 23,769 21,505 19,409",
         "xbrl": {
           "cik": "0000796343",
           "concept": "us-gaap:Revenues",
-          "end": "2024-11-29",
-          "value": 21505000000
+          "end": "2025-11-28",
+          "value": 23769000000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 8.056,
-      "stated": 8056,
+      "value": 10.031,
+      "stated": 10031,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Deferred revenue 309 536 536 Net cash provided by operating activities 8,056 7,302 7,838",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities 10,031 8,056 7,302",
         "xbrl": {
           "cik": "0000796343",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-11-29",
-          "value": 8056000000
+          "end": "2025-11-28",
+          "value": 10031000000
         }
       }
     },
     "capex": {
-      "value": 0.183,
+      "value": 0.179,
       "components": [
-        "PP&E 0.183"
+        "PP&E 0.179"
       ],
-      "stated": 183,
+      "stated": 179,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Purchases of property and equipment ( 183 ) ( 360 ) ( 442 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Purchases of property and equipment ( 179 ) ( 183 ) ( 360 )",
         "xbrl": {
           "cik": "0000796343",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-11-29",
-          "value": 183000000
+          "end": "2025-11-28",
+          "value": 179000000
         }
       },
       "excludes": [
         {
           "name": "long-term investments, intangibles and other assets (mixed line)",
-          "value": 0.108,
-          "stated": 108,
+          "value": 0.134,
+          "stated": 134,
           "source": {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
-            "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-            "quote": "Purchases of long-term investments, intangibles and other assets ( 108 ) ( 53 ) ( 46 )"
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+            "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+            "quote": "Purchases of long-term investments, intangibles and other assets ( 134 ) ( 108 ) ( 53 )"
           }
         }
       ]
     },
     "interestPaid": {
-      "value": 0.143,
+      "value": 0.246,
       "inOCF": true,
-      "stated": 143,
+      "stated": 246,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Supplemental disclosures: Cash paid for income taxes, net of refunds $ 1,727 $ 1,854 $ 778 Cash paid for interest $ 143 $ 106 $ 103",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for income taxes, net of refunds $ 2,219 $ 1,727 $ 1,854 Cash paid for interest $ 246 $ 143 $ 106",
         "xbrl": {
           "cik": "0000796343",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-11-29",
-          "value": 143000000
+          "end": "2025-11-28",
+          "value": 246000000
         }
       }
     },
     "taxesPaid": {
-      "value": 1.727,
+      "value": 2.219,
       "inOCF": true,
-      "stated": 1727,
+      "stated": 2219,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Supplemental disclosures: Cash paid for income taxes, net of refunds $ 1,727 $ 1,854 $ 778 Cash paid for interest $ 143 $ 106 $ 103",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for income taxes, net of refunds $ 2,219 $ 1,727 $ 1,854 Cash paid for interest $ 246 $ 143 $ 106",
         "xbrl": {
           "cik": "0000796343",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-11-29",
-          "value": 1727000000
+          "end": "2025-11-28",
+          "value": 2219000000
         }
       }
     }
   },
-  "paidOut": 13.632,
-  "paidOutFormula": "21.505 − 8.056 + 0.183",
+  "paidOut": 13.917,
+  "paidOutFormula": "23.769 − 10.031 + 0.179",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -117,6 +117,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Fiscal year ended November 29, 2024. Capex is PP&E only; intangibles purchases are combined with long-term investments in one line (108) and are left out.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended November 28, 2025 (FY2025 Form 10-K, accession 0000796343-26-000003). Capex is PP&E only; intangibles purchases are combined with long-term investments in one line (134) and are left out. Acquisitions, net of cash acquired (17), are excluded.",
+  "researchedAt": "2026-11-24"
 }

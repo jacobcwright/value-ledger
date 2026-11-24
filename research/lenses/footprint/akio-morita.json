@@ -5,9 +5,9 @@
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "as of Mar 31, 2025",
+      "period": "as of Mar 31, 2026",
       "tier": "filing",
-      "definition": "Number of employees by region (Japan / Outside of Japan) from the 20-F table; the 2025 column is used. The 20-F gives approximate figures (total approximately 112,300)."
+      "definition": "Number of employees by region (Japan / Outside of Japan) from the 20-F table; the 2026 column is used. The 20-F gives approximate figures (total approximately 94,900, down from 112,300 mainly because the Financial Services business was deconsolidated after its partial spin-off)."
     }
   },
   "usStates": null,
@@ -16,14 +16,14 @@
       "iso2": "JP",
       "name": "Japan",
       "values": {
-        "employees": 57500
+        "employees": 42300
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2024 (Mar 2025) Form 20-F, Item 6.D Employees (Number of Employees by Segment and Region; columns 2023, 2024, 2025)",
-        "quote": "By region: Japan 56,400 57,200 57,500 Outside of Japan 56,600 55,800 54,800 Total 113,000 113,000 112,300"
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2025 (Mar 2026) Form 20-F, Item 6.D Employees (Number of Employees by Segment and Region; columns 2024, 2025, 2026)",
+        "quote": "By region: Japan 57,200 57,500 42,300 Outside of Japan 55,800 54,800 52,600 Total 113,000 112,300 94,900"
       }
     }
   ],
@@ -32,14 +32,14 @@
       "name": "Outside of Japan",
       "countries": null,
       "values": {
-        "employees": 54800
+        "employees": 52600
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2024 (Mar 2025) Form 20-F, Item 6.D Employees (Number of Employees by Segment and Region; columns 2023, 2024, 2025)",
-        "quote": "By region: Japan 56,400 57,200 57,500 Outside of Japan 56,600 55,800 54,800 Total 113,000 113,000 112,300"
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2025 (Mar 2026) Form 20-F, Item 6.D Employees (Number of Employees by Segment and Region; columns 2024, 2025, 2026)",
+        "quote": "By region: Japan 57,200 57,500 42,300 Outside of Japan 55,800 54,800 52,600 Total 113,000 112,300 94,900"
       }
     }
   ],
@@ -50,12 +50,12 @@
       "state": null,
       "iso2": "JP",
       "type": "headquarters",
-      "description": "Corporate headquarters facilities; 1,565 employees.",
+      "description": "Corporate headquarters facilities; 1,603 employees.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
-        "quote": "Headquarters (Minato-ku, Tokyo) Corporate Headquarters facilities 1,298 (18 ) 22,364 17,638 — 1,565"
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2025 (Mar 2026) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities as of March 31, 2026)",
+        "quote": "Headquarters (Minato-ku, Tokyo) Corporate Headquarters facilities 36 (0 ) 3,191 14,210 92,409 1,603"
       }
     },
     {
@@ -64,12 +64,12 @@
       "state": null,
       "iso2": "JP",
       "type": "manufacturing",
-      "description": "Production facilities for image sensors, etc.; 9,000 employees.",
+      "description": "Production facilities for image sensors, etc.; 9,300 employees.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
-        "quote": "Sony Semiconductor Manufacturing Corporation (Nagasaki TEC, etc.) (Kikuchi-gun, Kumamoto) I&SS Production facilities for image sensors, etc. 21,108 (1,002 ) 175,941 605,265 13,516 9,000"
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2025 (Mar 2026) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities as of March 31, 2026)",
+        "quote": "Sony Semiconductor Manufacturing Corporation (Nagasaki TEC, etc.) (Kikuchi-gun, Kumamoto) I&SS Production facilities for image sensors, etc. 21,603 (1,003 ) 265,099 481,520 13,210 9,300"
       }
     },
     {
@@ -78,12 +78,12 @@
       "state": null,
       "iso2": "JP",
       "type": "R&D",
-      "description": "Research facilities for image sensors, etc.; 7,500 employees.",
+      "description": "Research facilities for image sensors, etc.; 7,400 employees.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
-        "quote": "Sony Semiconductor Solutions Corporation (Atsugi-shi, Kanagawa) I&SS Research facilities for image sensors, etc. — (— ) 1,323 75,908 22,401 7,500"
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2025 (Mar 2026) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities as of March 31, 2026)",
+        "quote": "Sony Semiconductor Solutions Corporation (Atsugi-shi, Kanagawa) I&SS Research facilities for image sensors, etc. — (— ) 1,452 57,933 22,163 7,400"
       }
     },
     {
@@ -92,12 +92,12 @@
       "state": null,
       "iso2": "JP",
       "type": "R&D",
-      "description": "Research facilities for TVs, audio / video devices, cameras, broadcasting equipment and medical equipment; 7,900 employees.",
+      "description": "Research facilities for TVs, audio / video devices, cameras, broadcasting equipment and medical equipment; 7,200 employees.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
-        "quote": "Sony Corporation (Minato-ku, Tokyo) ET&S Research facilities for TVs, audio / video devices, cameras, broadcasting equipment and medical equipment — (— ) 2,141 46,583 34,342 7,900"
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2025 (Mar 2026) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities as of March 31, 2026)",
+        "quote": "Sony Corporation (Minato-ku, Tokyo) ET&S Research facilities for TVs, audio / video devices, cameras, broadcasting equipment and medical equipment — (— ) 2,013 51,279 32,521 7,200"
       }
     },
     {
@@ -106,12 +106,12 @@
       "state": null,
       "iso2": "JP",
       "type": "manufacturing",
-      "description": "Production facilities for electronic devices, etc.; 3,600 employees.",
+      "description": "Production facilities for electronic devices, etc.; 3,100 employees.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
-        "quote": "Sony Global Manufacturing & Operations Corporation (Kohda Site, etc.) (Minato-ku, Tokyo) ET&S, I&SS, All Other Production facilities for electronic devices, etc. 4,961 (386 ) 9,438 13,571 4,990 3,600"
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2025 (Mar 2026) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities as of March 31, 2026)",
+        "quote": "Sony Global Manufacturing & Operations Corporation (Kohda Site, etc.) (Minato-ku, Tokyo) ET&S, I&SS, All Other Production facilities for electronic devices, etc. 4,961 (386 ) 9,060 13,192 4,566 3,100"
       }
     },
     {
@@ -120,12 +120,12 @@
       "state": null,
       "iso2": "US",
       "type": "production facilities",
-      "description": "Production facilities for motion pictures, television programming, video software, etc.; 11,500 employees (consolidated with its subsidiaries; the filing gives Delaware as its primary location).",
+      "description": "Production facilities for motion pictures, television programming, video software, etc.; 11,300 employees (consolidated with its subsidiaries; the filing gives Delaware as its primary location).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
-        "quote": "Sony Pictures Entertainment Inc. (Delaware, United States) Pictures Production facilities for motion pictures, television programming, video software, etc. 12,594 (318 ) 87,541 806,305 89,013 11,500"
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2025 (Mar 2026) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities as of March 31, 2026)",
+        "quote": "Sony Pictures Entertainment Inc. *5 (Delaware, United States) Pictures Production facilities for motion pictures, television programming, video software, etc. 13,479 (318 ) 94,260 871,893 91,668 11,300"
       }
     },
     {
@@ -134,12 +134,12 @@
       "state": "CA",
       "iso2": "US",
       "type": "offices and cloud facilities",
-      "description": "Cloud-related facilities, etc.; 5,900 employees (consolidated with its subsidiaries).",
+      "description": "Cloud-related facilities, etc.; 6,800 employees (consolidated with its subsidiaries).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
-        "quote": "Sony Interactive Entertainment LLC *5 (California, United States) G&NS Cloud-related facilities, etc. — (— ) 15,126 193,969 86,899 5,900"
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2025 (Mar 2026) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities as of March 31, 2026)",
+        "quote": "Sony Interactive Entertainment LLC *5 (California, United States) G&NS Cloud-related facilities, etc. — (— ) 10,675 147,967 69,024 6,800"
       }
     },
     {
@@ -148,12 +148,12 @@
       "state": "NY",
       "iso2": "US",
       "type": "offices",
-      "description": "Production facilities for electronic products, etc.; 1,300 employees on the ET&S, I&SS line (consolidated with its subsidiaries).",
+      "description": "Production facilities for electronic products, etc.; 1,500 employees on the ET&S, I&SS line (consolidated with its subsidiaries).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
-        "quote": "Sony Corporation of America *5 (New York, United States) ET&S, I&SS Production facilities for electronic products, etc. 356 (112 ) 18,007 8,105 3,853 1,300"
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2025 (Mar 2026) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities as of March 31, 2026)",
+        "quote": "Sony Corporation of America *5 (New York, United States) ET&S, I&SS Production facilities for electronic products, etc. — (— ) 194 8,782 7,132 1,500"
       }
     },
     {
@@ -162,12 +162,12 @@
       "state": null,
       "iso2": "MY",
       "type": "manufacturing",
-      "description": "Production facilities for electronic devices, etc.; 4,500 employees.",
+      "description": "Production facilities for electronic devices, etc.; 3,600 employees.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
-        "quote": "Sony EMCS (Malaysia) Sdn. Bhd. (Selangor, Malaysia) ET&S Production facilities for electronic devices, etc. — (— ) 4,591 4,903 201 4,500"
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2025 (Mar 2026) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities as of March 31, 2026)",
+        "quote": "Sony EMCS (Malaysia) Sdn. Bhd. (Selangor, Malaysia) ET&S Production facilities for electronic devices, etc. — (— ) 3,429 4,276 178 3,600"
       }
     },
     {
@@ -176,12 +176,12 @@
       "state": null,
       "iso2": "TH",
       "type": "manufacturing",
-      "description": "Production facilities for electronic products, etc.; 1,300 employees.",
+      "description": "Production facilities for electronic products, etc.; 1,200 employees.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
-        "quote": "Sony Device Technology (Thailand) Co., Ltd. (Bangkadi, Thailand) I&SS Production facilities for electronic products, etc. 539 (132 ) 13,481 21,268 7 1,300"
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2025 (Mar 2026) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities as of March 31, 2026)",
+        "quote": "Sony Device Technology (Thailand) Co., Ltd. (Bangkadi, Thailand) I&SS Production facilities for electronic products, etc. 597 (132 ) 12,661 17,541 52 1,200"
       }
     },
     {
@@ -190,12 +190,12 @@
       "state": null,
       "iso2": "GB",
       "type": "offices",
-      "description": "Office buildings and sales facilities, etc.; 3,800 employees (consolidated with its subsidiaries).",
+      "description": "Office buildings and sales facilities, etc.; 2,900 employees (consolidated with its subsidiaries).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
-        "quote": "Sony Europe B.V. *5 (Surrey, United Kingdom) ET&S, I&SS, All Other Office buildings and sales facilities, etc. 2,609 (45 ) 4,094 15,822 8,772 3,800"
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2025 (Mar 2026) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities as of March 31, 2026)",
+        "quote": "Sony Europe B.V. *5 (Surrey, United Kingdom) ET&S, I&SS, All Other Office buildings and sales facilities, etc. 2,956 (45 ) 4,028 27,635 8,005 2,900"
       }
     },
     {
@@ -204,15 +204,15 @@
       "state": null,
       "iso2": "GB",
       "type": "offices and cloud facilities",
-      "description": "Cloud-related facilities, etc.; 2,800 employees (consolidated with its subsidiaries).",
+      "description": "Cloud-related facilities, etc.; 3,100 employees (consolidated with its subsidiaries).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
-        "quote": "Sony Interactive Entertainment Europe Ltd. *5 (London, United Kingdom) G&NS Cloud-related facilities, etc. — (— ) 5,444 24,640 18,173 2,800"
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2025 (Mar 2026) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities as of March 31, 2026)",
+        "quote": "Sony Interactive Entertainment Europe Ltd. *5 (London, United Kingdom) G&NS Cloud-related facilities, etc. — (— ) 4,938 30,298 23,060 3,100"
       }
     }
   ],
-  "notes": "Sony's FY2024 20-F (year ended March 31, 2025) splits employees only into Japan (57,500) and outside Japan (54,800), with no country detail. Item 4.D lists major facilities with carrying amounts and employee counts, and the sites come from that table. The last number in each site quote is the employee count; subsidiary counts are rounded to the nearest hundred and, for entities marked *5, include their subsidiaries. Sony Corporation of America's row in the table spans three segment lines (1,300, 6,700 and 1,500 employees), and only the first line is quoted. Sony Pictures' 'primary location' is given as Delaware in the filing, although its studio operations are not described there. No state-level or tax-by-country data was found in the 20-F.",
-  "researchedAt": "2026-11-23"
+  "notes": "Sony's FY2025 20-F (year ended March 31, 2026) splits employees only into Japan (42,300) and outside Japan (52,600), with no country detail; the total fell to about 94,900 from 112,300 mainly because Sony Financial Group was deconsolidated after the partial spin-off of the Financial Services business, plus ET&S restructuring in Japan and I&SS divestitures outside Japan. Item 4.D lists major facilities as of March 31, 2026 with carrying amounts and employee counts, and the sites come from that table (all twelve sites listed last year are still in it). The last number in each site quote is the employee count; subsidiary counts are rounded to the nearest hundred and, for entities marked *5, include their subsidiaries. Sony Corporation of America's row spans three segment lines (1,500, 6,700 and 1,500 employees), and only the first line is quoted. A separate corporate 'Others' row (primarily Sony City Osaki and Atsugi TEC, per the filing's footnote) is not listed as a site. Sony Pictures' 'primary location' is given as Delaware in the filing, although its studio operations are not described there. No state-level or tax-by-country data was found in the 20-F.",
+  "researchedAt": "2026-11-24"
 }

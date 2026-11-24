@@ -1,28 +1,28 @@
 {
   "id": "jack-dorsey",
   "company": "Block",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.27,
+      "value": 0.13,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes 270,314 81,376 39,045 Supplemental disclosures of non-cash [USD thousands; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 15 Income Taxes, income taxes paid",
+        "quote": "Total income taxes, net of amounts refunded $ 129,390 [USD thousands; year ended December 31, 2025]",
         "xbrl": {
           "cik": "0001512673",
           "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 270314000
+          "end": "2025-12-31",
+          "value": 129390000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line. Block reports 'Product development' ($2,914,415 thousand; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), which the 10-K describes as engineering, data science and design personnel and infrastructure costs without calling it research and development, so it is not recorded.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: the FY2025 income-tax note's table of income taxes paid by jurisdiction (federal 35,000; California 19,465; other state and local 31,869; United Kingdom 33,665; other foreign 9,391 thousand), total net of refunds; tagged us-gaap:IncomeTaxesPaid. R&D not reported as a separate line. Block reports 'Product development' ($2,907,889 thousand in 2025; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), which the 10-K describes as engineering, data science and design personnel and infrastructure costs without calling it research and development, so it is not recorded.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,8 +1,8 @@
 {
   "id": "jeff-bezos",
   "company": "Amazon",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ecosystem": {
@@ -10,64 +10,64 @@
     "measure": null,
     "platformRevenue": {
       "label": "Third-party seller services net sales (commissions, fulfillment and shipping fees, and other third-party seller services)",
-      "value": 156.146,
+      "value": 172.162,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
-        "label": "FY2024 Form 10-K, net sales by groups of similar products and services (in millions)",
-        "quote": "Third-party seller services (3) 117,716 140,053 156,146 … (3)Includes commissions and any related fulfillment and shipping fees, and other third-party seller services."
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 10, net sales by groups of similar products and services (in millions)",
+        "quote": "Third-party seller services (3) 140,053 156,146 172,162 … (3) Includes commissions and any related fulfillment and shipping fees, and other third-party seller services."
       }
     },
     "payouts": null,
     "clientAssets": null,
     "thirdPartyUnitShare": {
-      "label": "WW seller unit mix: % of worldwide paid units sold by third-party sellers, Q4 2024 only (excludes Whole Foods Market)",
-      "value": 62,
+      "label": "WW seller unit mix: % of worldwide paid units sold by third-party sellers, Q4 2025 only (excludes Whole Foods Market)",
+      "value": 61,
       "unit": "percent",
-      "period": "Q4 2024",
+      "period": "Q4 2025",
       "source": {
-        "hostType": "company",
-        "url": "https://s2.q4cdn.com/299287126/files/doc_financials/2024/q4/AMZN-Q4-2024-Earnings-Release.pdf",
-        "label": "Amazon Q4 2024 earnings release, Supplemental Financial Information and Business Metrics",
-        "quote": "WW seller unit mix -- % of WW paid units (7) 60 % 61 % 61 % 61 % 60 % 62 % N/A … (7) Excludes the impact of Whole Foods Market."
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm",
+        "label": "Amazon Q4 2025 earnings release (Form 8-K Exhibit 99.1, filed Feb 5, 2026), Supplemental Financial Information and Business Metrics",
+        "quote": "WW seller unit mix -- % of WW paid units (7) 60 % 62 % 61 % 62 % 62 % 61 % N/A … (7) Excludes the impact of Whole Foods Market."
       }
     },
     "studies": [
       {
-        "title": "2024 Small Business Empowerment Report (Special Edition: 25 years of seller success)",
+        "title": "2025 Small Business Empowerment Report",
         "publisher": "Amazon",
         "commissionedBy": "Amazon (self-published)",
-        "year": 2025,
-        "claim": "Today, more than 60% of the sales in the Amazon store come from independent sellers—most of which are small and medium-sized businesses.",
+        "year": 2026,
+        "claim": "It's a privilege to be part of their journey, and we're proud that today, more than 60% of sales in Amazon's store come from independent sellers, most of which are small and medium-sized businesses.",
         "value": null,
         "currency": "USD",
         "unit": "billions",
         "source": {
           "hostType": "company",
-          "url": "https://cdn-sellingpartners.aboutamazon.com/7f/a0/7c0de2dc48c1b769d9a8eddf7396/small-business-empowerment-report-2024.pdf",
-          "label": "Amazon 2024 Small Business Empowerment Report (published May 2025), introduction",
-          "quote": "Today, more than 60% of the sales in the Amazon store come from independent sellers—most of which are small and medium-sized businesses."
+          "url": "https://cdn-sellingpartners.aboutamazon.com/b2/13/5095e06e4689acedd33672e047d9/small-business-empowerment-report-2025.pdf",
+          "label": "Amazon 2025 Small Business Empowerment Report (published April 2026), introduction",
+          "quote": "It's a privilege to be part of their journey, and we're proud that today, more than 60% of sales in Amazon's store come from independent sellers, most of which are small and medium-sized businesses."
         }
       },
       {
-        "title": "2024 Small Business Empowerment Report (Special Edition: 25 years of seller success)",
+        "title": "2025 Small Business Empowerment Report",
         "publisher": "Amazon",
         "commissionedBy": "Amazon (self-published)",
-        "year": 2025,
-        "claim": "In 2024 alone, US-based independent sellers averaged more than $290,000 in annual sales, with over 55,000 sellers generating more than $1 million in sales in Amazon’s store.",
+        "year": 2026,
+        "claim": "Independent sellers in the US averaged more than $375,000 in annual sales in Amazon's store in 2025.",
         "value": null,
         "currency": "USD",
         "unit": "billions",
         "source": {
           "hostType": "company",
-          "url": "https://cdn-sellingpartners.aboutamazon.com/7f/a0/7c0de2dc48c1b769d9a8eddf7396/small-business-empowerment-report-2024.pdf",
-          "label": "Amazon 2024 Small Business Empowerment Report (published May 2025), introduction",
-          "quote": "In 2024 alone, US-based independent sellers averaged more than $290,000 in annual sales, with over 55,000 sellers generating more than $1 million in sales in Amazon’s store."
+          "url": "https://cdn-sellingpartners.aboutamazon.com/b2/13/5095e06e4689acedd33672e047d9/small-business-empowerment-report-2025.pdf",
+          "label": "Amazon 2025 Small Business Empowerment Report (published April 2026), 'At a glance' page and introduction",
+          "quote": "In addition, more than 75,000 independent sellers surpassed $1 million in sales … Independent sellers in the US averaged more than $375,000 in annual sales in Amazon's store in 2025."
         }
       }
     ],
-    "notes": "Amazon does not report GMV or any total value of third-party sales, so measure is null. platformRevenue is the third-party seller services net sales line (what Amazon keeps from sellers: commissions plus fulfillment and shipping fees); it excludes advertising sold to sellers (advertising services $56.214B is a separate line). The 62% unit share is a Q4 2024 quarterly figure (quarters in 2024: 61%, 61%, 60%, 62%; no full-year figure is published) and counts units, not dollars. Both study entries keep value null because the claims are a percentage and a per-seller average ($290,000), not billions. The 60% sales share and $290,000 average are Amazon's own self-published report, not an independent or commissioned study, and the 60% is stated as 'today' (report published May 2025), not as an FY2024 measurement. The same report's 'more than $2.5 trillion' is a 25-year cumulative figure and is not recorded. The release was read from Amazon's IR document CDN (s2.q4cdn.com), linked from ir.aboutamazon.com, which blocked automated access with a Cloudflare challenge."
+    "notes": "Amazon does not report GMV or any total value of third-party sales, so measure is null. platformRevenue is the third-party seller services net sales line (what Amazon keeps from sellers: commissions plus fulfillment and shipping fees); it excludes advertising sold to sellers (advertising services $68.635B is a separate line). The 61% unit share is a Q4 2025 quarterly figure (quarters in 2025: 61%, 62%, 62%, 61%; no full-year figure is published) and counts units, not dollars; it is read from the earnings release filed with the SEC as Exhibit 99.1 to the Form 8-K of Feb 5, 2026. Both study entries keep value null because the claims are a percentage, a per-seller average ($375,000) and a count of sellers, not billions. The 60% sales share, the $375,000 average and the 75,000 sellers above $1 million are Amazon's own self-published report (published April 2026), not an independent or commissioned study, and the 60% is stated as 'today', not as an FY2025 measurement."
   },
   "notes": "Schema extension: ecosystem.thirdPartyUnitShare (no slot exists for a unit share).",
-  "researchedAt": "2026-11-23"
+  "researchedAt": "2026-11-24"
 }

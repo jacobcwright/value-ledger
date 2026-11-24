@@ -1,6 +1,6 @@
 {
-  "list": "Forbes 2025 World's Billionaires",
-  "netWorthMeasuredAsOf": "2025-03-07",
+  "list": "Forbes Real-Time Billionaires",
+  "netWorthMeasuredAsOf": "2026-11-24",
   "measurementDate": {
     "value": "2025-03-07",
     "source": {
@@ -26,9 +26,11 @@
     }
   },
   "listData": {
-    "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-    "entries": 3028,
-    "notes": "Forbes' own list JSON (the endpoint its list page calls). The response's count field is 3028 and all 3,028 entries carry year 2025. Net worths are finalWorthBillions (USD billions); rank is the list rank, shared on ties. Entries carry a date field of 1743483660000 (2025-04-01, the list's publication date), except one entry (Amos Hostetter, Jr., not one of the 100). The live forbes.com/billionaires/ page now serves the 2026 list, so the 2025 methodology was read from the billionaires-2025-directory payload, whose metadata title confirms it is the 2025 list."
+    "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+    "pages": 4,
+    "entries": 3316,
+    "notes": "Forbes' real-time list JSON (the endpoint its real-time page calls), captured 2026-11-24 18:40 UTC in 4 pages of up to 1,000. Net worths are finalWorthBillions (USD billions), rounded to 0.01; rank is the real-time rank. Every entry carries the capture timestamp."
   },
-  "researchedAt": "2026-11-24"
+  "researchedAt": "2026-11-24",
+  "capturedAt": "2026-11-24T18:40:02.200Z"
 }

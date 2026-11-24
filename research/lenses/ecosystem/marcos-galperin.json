@@ -1,8 +1,8 @@
 {
   "id": "marcos-galperin",
   "company": "MercadoLibre",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ecosystem": {
@@ -10,30 +10,30 @@
     "measure": {
       "name": "Gross merchandise volume",
       "definition": {
-        "quote": "(4) Total U.S. dollar sum of all transactions completed through the Mercado Libre Marketplace, excluding Classifieds transactions.",
+        "quote": "(4) Total U.S. dollar sum of all transactions completed through the Mercado Libre Marketplace, excluding Classifieds transactions. From the second quarter of 2025 onwards, we have included food delivery transactions in the current indicator.",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-          "label": "FY2024 Form 10-K, Other Data, footnote (4)",
-          "quote": "(4) Total U.S. dollar sum of all transactions completed through the Mercado Libre Marketplace, excluding Classifieds transactions."
+          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+          "label": "FY2025 Form 10-K, Other Data, footnote (4)",
+          "quote": "(4) Total U.S. dollar sum of all transactions completed through the Mercado Libre Marketplace, excluding Classifieds transactions. From the second quarter of 2025 onwards, we have included food delivery transactions in the current indicator."
         }
       },
-      "value": 51.467,
+      "value": 65.037,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-        "label": "FY2024 Form 10-K, Other Data key performance indicators table (in millions)",
-        "quote": "Gross merchandise volume (4) $ 51,467 $ 44,749 $ 34,449"
+        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+        "label": "FY2025 Form 10-K, Other Data key performance indicators table (in millions)",
+        "quote": "Gross merchandise volume (4) $ 65,037 $ 51,467 $ 44,749"
       }
     },
     "platformRevenue": {
-      "label": "Commerce services revenues (marketplace fees, related shipping and storage fees, classifieds fees and ad sales; excludes first-party product sales)",
-      "value": 10.076,
+      "label": "Commerce services revenues (marketplace fees, related shipping and storage fees, classifieds fees, ad sales and membership subscription fees; excludes first-party product sales)",
+      "value": 12.75,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 10 Segments, net revenues and financial income disaggregated by products and services, year ended December 31, 2024 (in millions)",
-        "quote": "Commerce services (1) $ 5,695 $ 2,608 $ 1,207 $ 566 $ 10,076 Commerce products sales (2) 1,343 464 200 76 2,083 Total commerce revenues 7,038 3,072 1,407 642 12,159 … (1) Includes final value fees and flat fees paid by sellers derived from intermediation services and related shipping and storage fees, classified fees derived from classified advertising services and ad sales."
+        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 8 Segments, net revenues and financial income disaggregated by products and services, year ended December 31, 2025 (in millions)",
+        "quote": "Commerce services (1) $ 6,859 $ 3,432 $ 1,722 $ 737 $ 12,750 Commerce products sales (2) 2,325 753 312 154 3,544 Total commerce revenues 9,184 4,185 2,034 891 16,294 … (1) Includes final value fees and flat fees paid by sellers derived from intermediation services and related shipping and storage fees, classified fees derived from classified advertising services, ad sales and membership subscription fees."
       }
     },
     "secondaryMeasure": {
@@ -42,34 +42,34 @@
         "quote": "(6) Total U.S. dollar sum of all transactions paid for using Mercado Pago, including marketplace and non-marketplace transactions, excluding peer-to-peer transactions.",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-          "label": "FY2024 Form 10-K, Other Data, footnote (6)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+          "label": "FY2025 Form 10-K, Other Data, footnote (6)",
           "quote": "(6) Total U.S. dollar sum of all transactions paid for using Mercado Pago, including marketplace and non-marketplace transactions, excluding peer-to-peer transactions."
         }
       },
-      "value": 196.66,
+      "value": 277.823,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-        "label": "FY2024 Form 10-K, Other Data key performance indicators table (in millions)",
-        "quote": "Total payment volume (6) $ 196,660 $ 146,738 $ 100,585"
+        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+        "label": "FY2025 Form 10-K, Other Data key performance indicators table (in millions)",
+        "quote": "Total payment volume (6) $ 277,823 $ 196,660 $ 146,738"
       },
       "relatedRevenue": {
         "label": "Fintech net revenues and financial income",
-        "value": 8.618,
+        "value": 12.599,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-          "label": "FY2024 Form 10-K, Note 10 Segments, year ended December 31, 2024 (in millions)",
-          "quote": "Total fintech revenues 4,368 1,592 2,411 247 8,618 Total net revenues and financial income $ 11,406 $ 4,664 $ 3,818 $ 889 $ 20,777"
+          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+          "label": "FY2025 Form 10-K, Note 8 Segments, year ended December 31, 2025 (in millions)",
+          "quote": "Total fintech revenues 6,017 2,290 3,928 364 12,599 Total net revenues and financial income $ 15,201 $ 6,475 $ 5,962 $ 1,255 $ 28,893"
         }
       }
     },
     "payouts": null,
     "clientAssets": null,
     "studies": [],
-    "notes": "The two volumes overlap. TPV includes marketplace transactions paid with Mercado Pago, so TPV and GMV must never be added. platformRevenue is Commerce services revenues ($10.076B), which leaves out first-party product sales ($2.083B). It still includes classifieds fees and ad sales, while GMV excludes Classifieds, so services revenue divided by GMV slightly overstates the marketplace take. Total commerce revenues were $12.159B, and total net revenues and financial income were $20.777B (Fintech $8.618B, which includes credit revenues). secondaryMeasure is a schema extension for TPV."
+    "notes": "The two volumes overlap. TPV includes marketplace transactions paid with Mercado Pago, so TPV and GMV must never be added. GMV now includes food delivery transactions (from Q2 2025). platformRevenue is Commerce services revenues ($12.750B), which leaves out first-party product sales ($3.544B). It still includes classifieds fees, ad sales and membership fees, while GMV excludes Classifieds, so services revenue divided by GMV slightly overstates the marketplace take. Total commerce revenues were $16.294B, and total net revenues and financial income were $28.893B (Fintech $12.599B, which includes credit revenues). secondaryMeasure is a schema extension for TPV."
   },
   "notes": "Schema extension: ecosystem.secondaryMeasure (TPV).",
-  "researchedAt": "2026-11-23"
+  "researchedAt": "2026-11-24"
 }

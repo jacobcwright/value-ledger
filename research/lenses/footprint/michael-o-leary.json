@@ -5,9 +5,9 @@
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "as at March 31, 2025",
+      "period": "FY26 (year ended March 31, 2026)",
       "tier": "filing",
-      "definition": "Employee headcount by country from the Annual Report's CSRD sustainability statement (Table 34), shown only for countries with at least 50 employees representing at least 10% of the Group's 25,952 employees."
+      "definition": "Employee headcount by country from the Annual Report 2026's CSRD sustainability statement (Table 34, 'Number of employees FY26'), shown only for countries with at least 50 employees representing at least 10% of the Group's 27,081 employees. The FY26 table no longer prints a date; its FY25 column repeats the March 31, 2025 headcounts."
     }
   },
   "usStates": null,
@@ -16,56 +16,56 @@
       "iso2": "ES",
       "name": "Spain",
       "values": {
-        "employees": 8445
+        "employees": 8822
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://investor.ryanair.com/wp-content/uploads/2025/05/Ryanair-2025-Annual-Report.pdf",
-        "label": "Ryanair Group Annual Report 2025, Sustainability Statement, Table 34",
-        "quote": "Table 34 – Employee headcount as at March 31, 2025, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … Spain 8,445"
+        "url": "https://investor.ryanair.com/wp-content/uploads/2026/06/Ryanair-2026-Annual-Report.pdf",
+        "label": "Ryanair Group Annual Report 2026, Sustainability Statement, Table 34",
+        "quote": "Table 34 – Employee headcount, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … Spain 8,822 8,445 [columns: FY26 | FY25]"
       }
     },
     {
       "iso2": "GB",
       "name": "United Kingdom",
       "values": {
-        "employees": 3954
+        "employees": 3665
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://investor.ryanair.com/wp-content/uploads/2025/05/Ryanair-2025-Annual-Report.pdf",
-        "label": "Ryanair Group Annual Report 2025, Sustainability Statement, Table 34",
-        "quote": "Table 34 – Employee headcount as at March 31, 2025, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … United Kingdom 3,954"
+        "url": "https://investor.ryanair.com/wp-content/uploads/2026/06/Ryanair-2026-Annual-Report.pdf",
+        "label": "Ryanair Group Annual Report 2026, Sustainability Statement, Table 34",
+        "quote": "Table 34 – Employee headcount, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … United Kingdom 3,665 3,954 [columns: FY26 | FY25]"
       }
     },
     {
       "iso2": "IT",
       "name": "Italy",
       "values": {
-        "employees": 3245
+        "employees": 3542
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://investor.ryanair.com/wp-content/uploads/2025/05/Ryanair-2025-Annual-Report.pdf",
-        "label": "Ryanair Group Annual Report 2025, Sustainability Statement, Table 34",
-        "quote": "Table 34 – Employee headcount as at March 31, 2025, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … Italy 3,245"
+        "url": "https://investor.ryanair.com/wp-content/uploads/2026/06/Ryanair-2026-Annual-Report.pdf",
+        "label": "Ryanair Group Annual Report 2026, Sustainability Statement, Table 34",
+        "quote": "Table 34 – Employee headcount, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … Italy 3,542 3,245 [columns: FY26 | FY25]"
       }
     },
     {
       "iso2": "IE",
       "name": "Ireland",
       "values": {
-        "employees": 2941
+        "employees": 3219
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://investor.ryanair.com/wp-content/uploads/2025/05/Ryanair-2025-Annual-Report.pdf",
-        "label": "Ryanair Group Annual Report 2025, Sustainability Statement, Table 34",
-        "quote": "Table 34 – Employee headcount as at March 31, 2025, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … Ireland 2,941"
+        "url": "https://investor.ryanair.com/wp-content/uploads/2026/06/Ryanair-2026-Annual-Report.pdf",
+        "label": "Ryanair Group Annual Report 2026, Sustainability Statement, Table 34",
+        "quote": "Table 34 – Employee headcount, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … Ireland 3,219 2,941 [columns: FY26 | FY25]"
       }
     }
   ],
@@ -74,14 +74,14 @@
       "name": "Other countries",
       "countries": null,
       "values": {
-        "employees": 7367
+        "employees": 7833
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://investor.ryanair.com/wp-content/uploads/2025/05/Ryanair-2025-Annual-Report.pdf",
-        "label": "Ryanair Group Annual Report 2025, Sustainability Statement, Table 34",
-        "quote": "Table 34 – Employee headcount as at March 31, 2025, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … Other 7,367"
+        "url": "https://investor.ryanair.com/wp-content/uploads/2026/06/Ryanair-2026-Annual-Report.pdf",
+        "label": "Ryanair Group Annual Report 2026, Sustainability Statement, Table 34",
+        "quote": "Table 34 – Employee headcount, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … Other 7,833 7,367 [columns: FY26 | FY25]"
       }
     }
   ],
@@ -91,12 +91,12 @@
       "place": "Dublin, Ireland",
       "iso2": "IE",
       "type": "headquarters",
-      "description": "Freehold offices, Travel Labs Dublin, Training Center and Operations Control Center",
+      "description": "Freehold offices, Travel Labs Dublin, Training Center, Operations Control Center and engineering",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
-        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Airside Business Park, Dublin 37,752 32,409 Freehold Offices, Travel Labs Dublin, Training Center & OCC"
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2026, Item 4 Facilities",
+        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Airside Business Park, Dublin 48,174 36,517 Freehold Offices, Travel Labs Dublin, Training Center, OCC & Engineering"
       }
     },
     {
@@ -107,8 +107,8 @@
       "description": "Leasehold aircraft maintenance hangar",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2026, Item 4 Facilities",
         "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Dublin Airport (Hangar) 8,190 8,269 Leasehold Aircraft Maintenance"
       }
     },
@@ -117,12 +117,12 @@
       "place": "London Stansted, UK",
       "iso2": "GB",
       "type": "maintenance",
-      "description": "Leasehold aircraft maintenance and simulator training center",
+      "description": "Freehold aircraft maintenance and simulator training center",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
-        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Stansted Airport (Hangar) 17,262 14,302 Leasehold Aircraft Maintenance & Simulator Training Center"
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2026, Item 4 Facilities",
+        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Stansted Airport (Hangar) 17,262 14,302 Freehold Aircraft Maintenance & Simulator Training Center"
       }
     },
     {
@@ -133,8 +133,8 @@
       "description": "Leasehold aircraft maintenance hangar",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2026, Item 4 Facilities",
         "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Madrid Airport (Hangar) 22,606 16,378 Leasehold Aircraft Maintenance"
       }
     },
@@ -146,8 +146,8 @@
       "description": "Leasehold aircraft maintenance hangar",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2026, Item 4 Facilities",
         "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Prestwick Airport (Hangar) 16,022 14,295 Leasehold Aircraft Maintenance"
       }
     },
@@ -159,8 +159,8 @@
       "description": "Leasehold aircraft maintenance and training center",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2026, Item 4 Facilities",
         "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Bergamo Airport 16,647 9,563 Leasehold Aircraft Maintenance & Training Center"
       }
     },
@@ -172,8 +172,8 @@
       "description": "Leasehold aircraft maintenance hangar",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2026, Item 4 Facilities",
         "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Vienna Airport (Hangar) 12,591 7,720 Leasehold Aircraft Maintenance"
       }
     },
@@ -185,8 +185,8 @@
       "description": "Leasehold aircraft maintenance hangar",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2026, Item 4 Facilities",
         "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Seville, Spain (Hangar) 9,800 8,000 Leasehold Aircraft Maintenance"
       }
     },
@@ -198,8 +198,8 @@
       "description": "Leasehold aircraft maintenance hangar",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2026, Item 4 Facilities",
         "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Wroclaw Airport, Poland (Hangar) 8,701 7,484 Leasehold Aircraft Maintenance"
       }
     },
@@ -211,8 +211,8 @@
       "description": "Leasehold aircraft maintenance hangar",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2026, Item 4 Facilities",
         "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Porto Airport (Hangar) 8,424 5,103 Leasehold Aircraft Maintenance"
       }
     },
@@ -224,8 +224,8 @@
       "description": "Leasehold aircraft maintenance and simulator training center",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2026, Item 4 Facilities",
         "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Frankfurt (Hahn) Airport (Hangar) 5,064 5,064 Leasehold Aircraft Maintenance & Simulator Training Center"
       }
     },
@@ -237,12 +237,12 @@
       "description": "Leasehold aircraft maintenance hangar",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2026, Item 4 Facilities",
         "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Malta Airport (Hangar) 6,729 3,696 Leasehold Aircraft Maintenance"
       }
     }
   ],
-  "notes": "The FY2025 20-F lists Ryanair's 93 operating bases (as of May 16, 2025) by airport name only, with no country or per-base aircraft, passenger or staff counts. Counting bases per country would mean mapping airports to countries ourselves, so no country rows were made. Employees by country come from the FY2025 Annual Report's sustainability statement (Table 34, countries with at least 10% of staff: Spain, UK, Italy, Ireland; all others are 'Other', not broken down). No passengers-by-country or taxes-by-country disclosure was found in the 20-F, the Annual Report 2025 or the FY25 Sustainability Report (corporate.ryanair.com); revenue by country (only where above 10%) is already in the records. The Annual Report also says FY25 opened 4 new bases (Dubrovnik, Reggio Calabria, Tangier, Trieste). Sites are 12 of the 'principal facilities owned or leased by the Ryanair Group' table (site area and floor space in square meters, not recorded as values); the same table also lists East Midlands (simulator training), Travel Labs offices in Madrid and Wroclaw, and administrative offices in Warsaw, Pieta (Malta) and Vienna.",
-  "researchedAt": "2026-11-23"
+  "notes": "The FY2026 20-F lists Ryanair's 95 operating bases by airport name only, with no country or per-base aircraft, passenger or staff counts. Counting bases per country would mean mapping airports to countries ourselves, so no country rows were made. Employees by country come from the Annual Report 2026's sustainability statement (Table 34, FY26 column; countries with at least 10% of staff: Spain, UK, Italy, Ireland; all others are 'Other', not broken down); the FY26 table gives no date, and the FY25 column matches the March 31, 2025 headcounts. No passengers-by-country or taxes-by-country disclosure was found in the FY2026 20-F or the Annual Report 2026; revenue by country (only where above 10%) is already in the records. The 20-F says the Group opened 3 new bases in FY26. Sites are 12 of the 'principal facilities owned or leased by the Ryanair Group' table in the FY2026 20-F (site area and floor space in square meters, not recorded as values); the same table also lists East Midlands and Krakow (simulator training), Madrid (simulator training and Travel Labs), Travel Labs Wroclaw, and administrative offices in Warsaw, Pieta (Malta) and Vienna. Stansted is now listed as freehold.",
+  "researchedAt": "2026-11-24"
 }

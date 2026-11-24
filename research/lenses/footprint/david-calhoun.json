@@ -5,7 +5,7 @@
     "employees": {
       "label": "Boeing employees",
       "unit": "people",
-      "period": "December 2025 (newer than the FY2024 snapshot; includes Spirit AeroSystems)",
+      "period": "December 2025 (the latest edition on boeing.com, checked 2026-11-24; includes Spirit AeroSystems)",
       "tier": "company-published",
       "definition": "Employment numbers include all full-time and part-time employees, contingent labor, employees on leaves of absence 90 days or less, and the workforce of subsidiary businesses; net of additions and reductions (Boeing's own definition). Total 181,984."
     }
@@ -169,8 +169,8 @@
       "description": "Principal executive offices at 929 Long Bridge Drive.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
-        "label": "Boeing Form 10-K for fiscal year 2024",
+        "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
+        "label": "Boeing Form 10-K for fiscal year 2025, cover page",
         "quote": "929 Long Bridge Drive | Arlington, | VA | | 22202 (Address of principal executive offices)"
       }
     },
@@ -287,6 +287,6 @@
       }
     }
   ],
-  "notes": "Employees by state are from Boeing's 'December 2025 Employment by Location' table on boeing.com/company, the only edition the site now serves; it postdates the FY2024 snapshot and includes Spirit AeroSystems (acquired 2025), which inflates Kansas versus 2024. The table names 10 states; 'Other U.S. States' (15,323) is an aggregate and is not mapped; 'Global' (25,371) is the non-U.S. total. For the snapshot year the 10-K says only that the workforce was about 172,000 at Dec 31, 2024 with 15% outside the U.S.; nothing was derived from that split. Supplier spend by state: Boeing's per-state 'state cards' (boeing.com/.../state_cards/Card_XX.pdf) now return 404 for every state, and the U.S. page gives only national figures ($35B annual U.S. supplier spend, ~10,000 U.S. suppliers), so no state supplier-spend rows are recorded. Sites: corporate HQ from the FY2024 10-K cover; the eight state 'key sites' cards from Boeing's U.S. page are state-level descriptions, not single facilities. The 10-K's Item 2 lists major locations (e.g. Greater Seattle, Greater Charleston, Greater St. Louis) without figures.",
-  "researchedAt": "2026-11-23"
+  "notes": "Employees by state are from Boeing's 'December 2025 Employment by Location' table on boeing.com/company, which matches the FY2025 year end; no newer edition found (checked 2026-11-24: the page still shows December 2025). It includes Spirit AeroSystems (acquisition completed Dec 8, 2025), which raises Kansas. The table names 10 states; 'Other U.S. States' (15,323) is an aggregate and is not mapped; 'Global' (25,371) is the non-U.S. total. The FY2025 10-K says the workforce was approximately 182,000 at Dec 31, 2025 with 14% outside the U.S.; nothing was derived from that split. Supplier spend by state: Boeing's per-state 'state cards' (boeing.com/.../state_cards/Card_XX.pdf) returned 404 for every state in the earlier research (not rechecked in this refresh), and the U.S. page gives only national figures, so no state supplier-spend rows are recorded. Sites: corporate HQ from the FY2025 10-K cover; the eight state 'key sites' cards from Boeing's U.S. page (still live, checked 2026-11-24) are state-level descriptions, not single facilities. The 10-K's Item 2 lists major locations (e.g. Greater Seattle, Wichita, Greater Charleston, Greater St. Louis) without figures.",
+  "researchedAt": "2026-11-24"
 }

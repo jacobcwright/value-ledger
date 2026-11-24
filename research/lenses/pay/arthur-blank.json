@@ -1,0 +1,31 @@
+{
+  "id": "arthur-blank",
+  "company": "Home Depot",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2026-02-01",
+  "currency": "USD",
+  "employees": {
+    "value": 472400,
+    "asOf": "2026-02-01",
+    "basis": "approximately 472,400 associates at the end of fiscal 2025, of whom approximately 53,400 were salaried and the remainder hourly",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+      "label": "Fiscal 2025 Form 10-K, Item 1 Our Workforce",
+      "quote": "At the end of fiscal 2025, we employed approximately 472,400 associates, of whom approximately 53,400 were salaried, with the remainder compensated on an hourly basis."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Annual total compensation of our median-paid associate, other than our CEO (Fiscal 2025)",
+    "value": 37881,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000090/hd-20260406.htm",
+      "label": "2026 proxy statement, CEO Pay Ratio",
+      "quote": "The annual total compensation of our median-paid associate, other than our CEO, was $37,881 . Our median-paid associate for Fiscal 2025 was an hourly employee in the U.S."
+    }
+  },
+  "notes": "Employees: approximate head count at the end of fiscal 2025 (February 1, 2026), full- and part-time; 422,500 were in the U.S. Payroll: the Fiscal 2025 10-K discloses no total staff cost (it mentions only \"payroll and related costs\" in the SG&A discussion, with no amount), so the proxy's CEO pay ratio median for Fiscal 2025 is used (ratio 427 to 1). The median-paid associate was identified as of December 31, 2025 and is an hourly U.S. employee; associates in Mexico (about 17,800) and several small countries were excluded under the de minimis exception.",
+  "researchedAt": "2026-11-24"
+}

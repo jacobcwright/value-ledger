@@ -2,27 +2,27 @@
   "id": "kiran-mazumdar-shaw",
   "company": "Biocon",
   "nbim": {
-    "pct": 0.53,
+    "pct": 0.38,
     "marketValueUSD": 0.027,
-    "asOf": "2024-12-31",
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"1t0pjs0k0h8k\",\"cc\":\"IN\",\"n\":\"Biocon Ltd\",\"a\":{\"e\":27010519,\"n\":306767916},\"at\":0,\"o\":0.53,\"eq\":{\"vid\":\"532523\",\"v\":0.53,\"s\":\"Health Care\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"1t0pjs0k0h8k\",\"cc\":\"IN\",\"n\":\"Biocon Ltd\",\"a\":{\"e\":27335342,\"n\":270496876},\"at\":0,\"o\":0.38,\"eq\":{\"vid\":\"532523\",\"v\":0.38,\"s\":\"Health Care\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": {
-    "count": 470261,
-    "asOf": "2024-03-31",
+    "count": 386593,
+    "asOf": "2026-03-31",
     "source": {
       "hostType": "company",
-      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-      "label": "Integrated Annual Report FY2024, Corporate Governance Report, Distribution of Shareholding",
-      "quote": "VI. Distribution of Shareholding as on March 31, 2024: ... 100001 and above 925 0.20 1,077,162,880 89.72 TOTAL: 470,261 100.00 1,200,600,000 100.00"
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+      "label": "Integrated Annual Report FY 2026, Corporate Governance Report, Distribution of Shareholding (PDF p. 263)",
+      "quote": "IV. Distribution of Shareholding as on March 31, 2026: ... TOTAL: 386,593 100.00 1,620,907,773 100.00"
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;India;Biocon Ltd;Health Care;306767916;27010519;0.53%;0.53%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Biocon. Holders of record: Matches the record's FY24 (year ended March 31, 2024).",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); its stake fell to 0.38% from 0.53% at year-end 2024, partly because Biocon issued about 35% more shares in FY26. CalPERS: Biocon has no U.S. listing or ADRs, so it is outside Form 13F; no CalPERS row exists in the Q3 2026 information table. Holders of record: shareholders on the register at March 31, 2026, the FY26 year end (the record's fiscal year).",
+  "researchedAt": "2026-11-24"
 }

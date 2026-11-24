@@ -5,7 +5,7 @@
     "dauShare": {
       "label": "Share of daily active users",
       "unit": "percent",
-      "period": "year ended Dec 31, 2024",
+      "period": "year ended Dec 31, 2025",
       "tier": "filing",
       "definition": "Approximate share of DAUs derived from outside the U.S. and Canada region. Roblox defines a DAU as a user who has logged in and visited Roblox on a unique registered account on a given day; location is based on the IP address at registration."
     },
@@ -13,9 +13,9 @@
       "label": "Property and equipment, net",
       "unit": "currency-thousands",
       "currency": "USD",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Property and equipment, net, by geographic area (FY2024 10-K; in thousands of U.S. dollars). Mostly owned servers and network equipment in data centers, and leasehold improvements."
+      "definition": "Property and equipment, net, by geographic area (FY2025 10-K; in thousands of U.S. dollars). Mostly owned servers and network equipment in data centers, and leasehold improvements."
     }
   },
   "usStates": null,
@@ -24,14 +24,14 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "ppe": 615665
+        "ppe": 762181
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
-        "label": "FY2024 Form 10-K, property and equipment by geographic area",
-        "quote": "Property and equipment, net, by geographic area was as follows (in thousands): … United States | $ | 615,665 | $ | 646,572"
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm",
+        "label": "FY2025 Form 10-K, property and equipment by geographic area",
+        "quote": "Property and equipment, net, by geographic area was as follows (in thousands): … United States | $ | 762,181 | $ | 615,665"
       }
     }
   ],
@@ -40,28 +40,28 @@
       "name": "Outside the U.S. and Canada",
       "countries": null,
       "values": {
-        "dauShare": 79
+        "dauShare": 82
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1A (Risk Factors)",
-        "quote": "For the year ended December 31, 2024, approximately 79% of our DAUs and 37% of our revenue was derived from outside the U.S. and Canada region."
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1A (Risk Factors)",
+        "quote": "For the year ended December 31, 2025, approximately 82% of our DAUs and 39% of our revenue was derived from outside the U.S. and Canada region."
       }
     },
     {
       "name": "Rest of world (property and equipment)",
       "countries": null,
       "values": {
-        "ppe": 43924
+        "ppe": 122595
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
-        "label": "FY2024 Form 10-K, property and equipment by geographic area",
-        "quote": "Rest of world | 43,924 | 48,788 | Total | $ | 659,589"
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm",
+        "label": "FY2025 Form 10-K, property and equipment by geographic area",
+        "quote": "Rest of world | 122,595 | 43,924 | Total | $ | 884,776"
       }
     }
   ],
@@ -72,15 +72,15 @@
       "state": "CA",
       "iso2": "US",
       "type": "headquarters",
-      "description": "New leased office complex of approximately 752,546 square feet (moved in January 1, 2025).",
+      "description": "Leased office complex of approximately 806,399 square feet; the company relocated its corporate headquarters there on January 1, 2025.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2. Properties",
-        "quote": "On January 1, 2025, we relocated our corporate headquarters to a new leased office complex in San Mateo, California. As of December 31, 2024, all of our San Mateo-based employees had been re-located to the new corporate headquarters, which consists of approximately 752,546 square feet"
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "On January 1, 2025, we relocated our corporate headquarters to a new leased office complex in San Mateo, California. As of December 31, 2025, all of our San Mateo-based employees were based out of the new corporate headquarters, which consisted of approximately 806,399 square feet"
       }
     }
   ],
-  "notes": "Roblox reports DAUs, hours engaged and bookings by region (US and Canada, Europe, APAC, Rest of world), but in the FY2024 10-K and the Q4 2024 Supplemental Materials (s27.q4cdn.com, fetched) the regional values appear only inside chart images; only the year-over-year growth rates are text. Those chart values were not transcribed, because a quote must be text in the document. The one text-verifiable regional user figure is the 10-K's 'approximately 79% of our DAUs ... derived from outside the U.S. and Canada region'. The 10-K lists data centers in Florida, Georgia, Illinois, New Jersey, Texas, Virginia, California and Washington and abroad (France, Germany, Hong Kong, Japan, Singapore, the Netherlands, India, Australia, the U.K.) without sizes, so they are not sites. Revenue by region is in the records and not repeated.",
-  "researchedAt": "2026-11-23"
+  "notes": "Roblox reports DAUs, hours engaged and bookings by region (US and Canada, Europe, APAC, Rest of world), but in the FY2025 10-K the regional values appear only inside chart images (as in the FY2024 10-K and its Q4 2024 Supplemental Materials, checked last edition; the FY2025 supplemental materials were not re-checked). Those chart values were not transcribed, because a quote must be text in the document. The one text-verifiable regional user figure is the FY2025 10-K's 'approximately 82% of our DAUs ... derived from outside the U.S. and Canada region' (year ended Dec 31, 2025). Property and equipment, net by geography is at Dec 31, 2025 (U.S. $762.2 million, rest of world $122.6 million). The 10-K says over 200 of its 3,065 full-time employees were outside the U.S.; no country split is given. The 10-K describes 25 regional data centers across North America, South America, Asia-Pacific and Europe without naming or sizing them individually, so they are not sites. Besides the new headquarters, Roblox still leases about 427,271 sq ft at its prior San Mateo headquarters, partly sub-leased. Revenue by region is in the records and not repeated.",
+  "researchedAt": "2026-11-24"
 }

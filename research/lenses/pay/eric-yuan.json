@@ -1,0 +1,31 @@
+{
+  "id": "eric-yuan",
+  "company": "Zoom Communications",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-31",
+  "currency": "USD",
+  "employees": {
+    "value": 7438,
+    "asOf": "2026-01-31",
+    "basis": "full-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+      "label": "FY2026 Form 10-K, Item 1 Human Capital",
+      "quote": "As of January 31, 2026, we had 7,438 full-time employees. Of these employees, 3,457 are in the United States and 3,981 are in our international locations."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "median of the annual total compensation of all of our employees (except for our CEO) for fiscal 2026",
+    "value": 165164,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1585521/000162828026028866/zm-20260430.htm",
+      "label": "2026 proxy statement (DEF 14A), Pay Ratio",
+      "quote": "The median of the annual total compensation of all of our employees (except for our CEO) for fiscal 2026 was $165,164, resulting in a CEO to median employee pay ratio of approximately 7.8:1."
+    }
+  },
+  "notes": "Employees: year-end full-time count from the FY2026 10-K. Payroll: the 10-K gives no total of salaries, benefits or personnel costs, so the proxy's CEO pay ratio median for fiscal 2026 is used (same year as the head count). Zoom reused the median employee identified for fiscal 2025, itself a substitute with substantially similar pay for the employee first identified from the November 1, 2023 population; the measure includes base salary, bonus or commissions and the grant-date fair value of equity awards.",
+  "researchedAt": "2026-11-24"
+}

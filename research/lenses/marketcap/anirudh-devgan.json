@@ -1,0 +1,22 @@
+{
+  "id": "anirudh-devgan",
+  "company": "Cadence Design Systems",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 274379000,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "CDNS",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000121/cdns-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "On September 30, 2026, approximately 274,379,000 shares of the registrant's common stock, $0.01 par value, were outstanding."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as CDNS. The 10-Q cover count is stated as approximate (to the nearest thousand).",
+  "researchedAt": "2026-11-24"
+}

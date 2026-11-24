@@ -1,107 +1,119 @@
 {
   "id": "kiran-mazumdar-shaw",
   "company": "Biocon",
-  "fiscalYear": "FY24",
-  "fiscalYearEnd": "2024-03-31",
+  "fiscalYear": "FY26",
+  "fiscalYearEnd": "2026-03-31",
   "currency": "INR",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2024-03-31",
+    "asOf": "2026-03-31",
     "leader": {
       "name": "Kiran Mazumdar-Shaw",
       "relation": "founder",
       "status": "holds",
-      "pctEconomic": 40.36,
+      "pctEconomic": 29.9,
       "pctVoting": null,
       "shares": 484581970,
       "family": {
         "label": "Glentec International (her promoter entity)",
-        "pctEconomic": 19.76,
+        "pctEconomic": 14.63,
         "source": {
           "hostType": "company",
-          "url": "https://www.biocon.com/docs/SHP_website-r%20Ended%20on%20March%2031,%202024.pdf",
-          "label": "Biocon shareholding pattern for the quarter ended March 31, 2024 (Reg 31), Table V significant beneficial owners (PDF p. 4)",
-          "quote": "Table V - Statement showing details of Significant Beneficial Owners (SBOs) ... 1 Kiran Mazumdar Shaw XXXXXXXXXX India GLENTEC INTERNATIONAL XXXXXXXXXX Mauritius 19.76 19.76 19.76"
+          "url": "https://www.biocon.com/docs/SHP31032026.pdf",
+          "label": "Biocon shareholding pattern for the quarter ended March 31, 2026 (Reg 31), Table V significant beneficial owners",
+          "quote": "Table V - Statement showing details of Significant Beneficial Owners (SBOs) ... 1 Kiran Mazumdar Shaw India GLENTEC INTERNATIONAL Mauritius 14.63 14.63 14.63"
         },
-        "note": "Glentec International (Mauritius), a promoter entity of which Kiran Mazumdar-Shaw is the disclosed significant beneficial owner; separate from, and not included in, her direct 40.36%"
+        "note": "Glentec International (Mauritius), a promoter entity of which Kiran Mazumdar-Shaw is the disclosed significant beneficial owner; separate from, and not included in, her direct 29.90%"
       },
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-        "label": "Biocon Integrated Annual Report FY 2024, Notes to the consolidated financial statements, Note 13(a)(iii) shareholders holding more than 5% (PDF p. 331, printed p. 329)",
-        "quote": "Details of shareholders holding more than 5% shares in the Company ... March 31, 2024 ... Kiran Mazumdar-Shaw 484,581,970 40.36% 476,136,622 39.66% Glentec International Limited 237,211,164 19.76% 237,211,164 19.76%"
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+        "label": "Biocon Integrated Annual Report FY 2026, Notes to the consolidated financial statements, Note 13(a)(iii) shareholders holding more than 5% (PDF p. 372)",
+        "quote": "Details of shareholders holding more than 5% shares in the Company ... March 31, 2026 ... Kiran Mazumdar-Shaw 484,581,970 29.90% 484,581,970 40.36% Glentec International Limited 237,211,164 14.63% 237,211,164 19.76%"
       }
     },
     "largestHolders": [
       {
-        "name": "LICI Child Fortune Plus Growth Fund (Life Insurance Corporation of India)",
-        "type": "other",
-        "pctEconomic": 4.41,
-        "asOf": "2024-03-31",
+        "name": "SBI Large & Midcap Fund",
+        "type": "asset-manager",
+        "pctEconomic": 8.2,
+        "asOf": "2026-03-31",
         "source": {
           "hostType": "company",
-          "url": "https://www.biocon.com/docs/SHP_website-r%20Ended%20on%20March%2031,%202024.pdf",
-          "label": "Biocon shareholding pattern for the quarter ended March 31, 2024 (Reg 31), Table III public shareholders (PDF p. 2)",
-          "quote": "(e) Insurance Companies 14 60095563 0 0 60095563 5.01 ... LICI CHILD FORTUNE PLUS GROWTH FUND 1 52984653 0 0 52984653 4.41"
+          "url": "https://www.biocon.com/docs/SHP31032026.pdf",
+          "label": "Biocon shareholding pattern for the quarter ended March 31, 2026 (Reg 31), Table III public shareholders",
+          "quote": "(a) Mutual Funds 38 267952467 0 0 267952467 16.53 ... SBI LARGE & MIDCAP FUND 1 132991385 0 0 132991385 8.20"
         }
       },
       {
-        "name": "SBI Contra Fund",
-        "type": "asset-manager",
-        "pctEconomic": 2.74,
-        "asOf": "2024-03-31",
+        "name": "Mylan Inc. (Viatris)",
+        "type": "company",
+        "pctEconomic": 5.67,
+        "asOf": "2026-03-31",
         "source": {
           "hostType": "company",
-          "url": "https://www.biocon.com/docs/SHP_website-r%20Ended%20on%20March%2031,%202024.pdf",
-          "label": "Biocon shareholding pattern for the quarter ended March 31, 2024 (Reg 31), Table III public shareholders (PDF p. 2)",
-          "quote": "(a) Mutual Funds 27 102859138 0 0 102859138 8.57 QUANT MUTUAL FUND - QUANT MOMENTUM FUND 1 14841313 0 0 14841313 1.24 SBI CONTRA FUND 1 32863225 0 0 32863225 2.74"
+          "url": "https://www.biocon.com/docs/SHP31032026.pdf",
+          "label": "Biocon shareholding pattern for the quarter ended March 31, 2026 (Reg 31), Table III public shareholders",
+          "quote": "(k) Foreign Companies) 1 91967019 0 0 91967019 5.67 ... MYLAN INC. 1 91967019 0 0 91967019 5.67"
+        }
+      },
+      {
+        "name": "LICI New Pension Plus Growth Fund (Life Insurance Corporation of India)",
+        "type": "other",
+        "pctEconomic": 3.87,
+        "asOf": "2026-03-31",
+        "source": {
+          "hostType": "company",
+          "url": "https://www.biocon.com/docs/SHP31032026.pdf",
+          "label": "Biocon shareholding pattern for the quarter ended March 31, 2026 (Reg 31), Table III public shareholders",
+          "quote": "(e) Insurance Companies 19 99887754 0 0 99887754 6.16 ... LICI NEW PENSION PLUS GROWTH FUND 1 62793704 0 0 62793704 3.87"
         }
       }
     ],
     "structure": {
       "dualClass": false,
-      "controlled": true,
-      "note": "One class of equity shares of ₹5 each, one vote per share. The four promoters held 60.64% at March 31, 2024: Kiran Mazumdar-Shaw directly 40.36%, Glentec International 19.76% (she is its declared significant beneficial owner), her brother Ravi Mazumdar 0.44% and Dev Mazumdar 0.08%. Her late husband John Shaw's 8,445,348 shares were transmitted to her in September 2023. With over half the shares and votes held by the promoter group, Biocon is founder-controlled."
+      "controlled": false,
+      "note": "One class of equity shares of ₹5 each, one vote per share; 1,620,907,773 shares at March 31, 2026, up from 1,200,600,000 a year earlier after two qualified institutional placements (June 2025 and January 2026) and preferential allotments to Mylan Inc. and other Biocon Biologics shareholders in exchange for their Biocon Biologics shares. The four promoters held 44.92% at March 31, 2026 (60.64% a year earlier): Kiran Mazumdar-Shaw directly 29.90%, Glentec International 14.63% (she is its declared significant beneficial owner), her brother Ravi Mazumdar 0.33% and Dev Mazumdar 0.06%. With the promoter group below half of the shares and votes, Biocon is no longer majority-controlled by one person or family, though the founder remains by far the largest holder."
     }
   },
   "cash": {
     "dividends": {
-      "value": 1.8,
+      "value": 0.67,
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-        "label": "Biocon Integrated Annual Report FY 2024, Consolidated Statement of Changes in Equity, column 'Total other equity' attributable to owners (PDF p. 308, printed p. 306)",
-        "quote": "Balance at March 31, 2023 ... Dividend paid on equity shares (including to NCI) ... (1,801) ... (1,801) (226) (2,027) [Rs million; retained earnings column, then total other equity attributable to owners, non-controlling interests (NCI), total]"
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+        "label": "Biocon Integrated Annual Report FY 2026, Consolidated Statement of Changes in Equity, year ended March 31, 2026 (PDF p. 346)",
+        "quote": "Balance at March 31, 2025 ... Dividend paid on equity shares (including to NCI) ... (668) ... (668) (239) (907) [Rs million; retained earnings column, then total other equity attributable to owners, non-controlling interests (NCI), total]"
       }
     },
     "buybacks": {
       "value": 0,
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-        "label": "Biocon Integrated Annual Report FY 2024, Statement of Consolidated Cash Flows, financing activities (PDF p. 309, printed p. 307); no repurchase in FY24",
-        "quote": "III Cash flows from financing activities Purchase of treasury shares - (647) ... Dividend paid on equity shares (including to NCI) (2,030) (718) [Rs million, year ended March 31, 2024 and 2023]"
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+        "label": "Biocon Integrated Annual Report FY 2026, Notes to the consolidated financial statements, Note 13(a)(vi) (PDF p. 372); no repurchase in FY26",
+        "quote": "(vi) During the five years ended 31 March 2026, the Company has not allotted any bonus shares. No shares have been bought back by the Company."
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 1.01,
+      "value": 1.64,
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-        "label": "Biocon Integrated Annual Report FY 2024, Statement of Consolidated Cash Flows, operating adjustments (PDF p. 309, printed p. 307)",
-        "quote": "Share-based compensation expense 1,006 1,376 [Rs million, year ended March 31, 2024 and 2023]"
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+        "label": "Biocon Integrated Annual Report FY 2026, Consolidated Statement of Cash Flows, operating adjustments (PDF p. 347)",
+        "quote": "Share-based compensation expense 1,639 1,370 [Rs million, year ended March 31, 2026 and 2025]"
       }
     },
     "plan": {
       "text": "Biocon grants stock options to employees of the company and its subsidiaries under its ESOP Plan, administered through an employee welfare trust.",
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-        "label": "Biocon Integrated Annual Report FY 2024, Notes to the consolidated financial statements, Note 30 Employee stock compensation (PDF p. 342, printed p. 340)",
-        "quote": "On September 27, 2001, Biocon's Board of Directors approved the Biocon Employee Stock Option Plan ('ESOP Plan 2000') for the grant of stock options to the employees of the Company and its subsidiaries / joint venture company."
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+        "label": "Biocon Integrated Annual Report FY 2026, Notes to the consolidated financial statements, Note 30 Employee stock compensation (PDF p. 385)",
+        "quote": "On September 27, 2001, Biocon’s Board of Directors approved the Biocon Employee Stock Option Plan (‘ESOP Plan 2000’) for the grant of stock options to the employees of the Company and its subsidiaries / joint venture company."
       }
     }
   },
@@ -110,29 +122,29 @@
     "segments": [
       {
         "name": "India",
-        "value": 16.08
+        "value": 9.18
       },
       {
         "name": "United States of America",
-        "value": 64.55
+        "value": 79.95
       },
       {
         "name": "European Union (including Ireland)",
-        "value": 35.17
+        "value": 46.17
       },
       {
         "name": "Rest of the world",
-        "value": 31.76
+        "value": 33.98
       }
     ],
-    "total": 147.56,
+    "total": 169.27,
     "source": {
       "hostType": "company",
-      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-      "label": "Biocon Integrated Annual Report FY 2024, Notes to the consolidated financial statements, Note 40 Segment Reporting, Geographical segments (PDF p. 367, printed p. 365)",
-      "quote": "Geographical segments Revenue from operations Year ended March 31, 2024 ... India 16,079 16,737 United States of America 64,550 41,430 European union (incuding Ireland) 35,169 11,784 Rest of the world 31,759 41,791 Total 147,557 111,742"
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+      "label": "Biocon Integrated Annual Report FY 2026, Notes to the consolidated financial statements, Segment reporting, Geographical segments (PDF p. 412)",
+      "quote": "Geographical segments ... Revenue from operations ... India 9,178 9,765 United States of America 79,948 70,423 European Union (including Ireland) 46,167 38,481 Rest of the world 33,977 33,948 Total 169,270 152,617"
     }
   },
-  "notes": "Snapshot year is the fiscal year ended 31 March 2024 (data.js fy 'Mar 2024'), so this uses the Biocon Integrated Annual Report FY 2024 and the shareholding pattern as at 31 March 2024, not later reports. Consolidated statements are in Indian Rupees millions (÷ 1,000 = billions). OWNERSHIP: Kiran Mazumdar-Shaw's 40.36% is her direct holding as stated in the annual report (the Reg 31 shareholding pattern gives the same 48,45,81,970 shares and 40.36%). Glentec International holds a further 19.76%; the shareholding pattern names her as Glentec's significant beneficial owner, so Glentec is recorded in `family` as her vehicle rather than as an independent holder. The two figures are separate holdings and are not summed here. The disclosed promoter total is 60.64% (annual report, Corporate Governance Report, category-wise distribution as on March 31, 2024: 'Promoters (Indian & Foreign) 728,024,176 60.64'; PDF p. 230, printed p. 228); it is not used as `family` because it already contains her own 40.36%. It also includes Ravi Mazumdar's 0.44% and Dev Mazumdar's 0.08%. Shareholding-pattern percentages are of all 1,20,06,00,000 shares (there are no depository receipts; 0.32% is held by the employee welfare trust). LARGEST HOLDERS: only non-promoter holders above 1% named in the shareholding pattern are listed. The LIC line is named after the scheme as the filing prints it (insurance companies hold 5.01% in total). Quant Momentum Fund (1.24%) is the next-largest named holder. FPIs hold 5.63% in aggregate, but none is named. DIVIDENDS: ₹1,801 million paid to owners of the company, taken from the consolidated statement of changes in equity. The consolidated cash-flow line (₹2,030 million) includes dividends to non-controlling interests (₹226 million in the SOCE). BUYBACKS: no repurchase in FY24; the only purchase line, of treasury shares for the ESOP trust (₹647 million, FY23), would be excluded anyway. STOCK COMP: the consolidated cash-flow add-back, which includes Syngene and Biocon Biologics plans. The segment name 'European union (incuding Ireland)' is printed with that typo in the report and is shown corrected.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended 31 March 2026 (data.js fy 'Mar 2026'); this edition skips FY25. Figures are from the Biocon Integrated Annual Report FY 2026 (financial statements approved May 7, 2026) and the Reg 31 shareholding pattern as at 31 March 2026. Consolidated statements are in Indian Rupees millions (÷ 1,000 = billions). OWNERSHIP: Kiran Mazumdar-Shaw's 29.90% is her direct holding as stated in the consolidated notes (the shareholding pattern gives the same 484,581,970 shares and 29.90%). Her share count did not change; the percentage fell from 40.36% because the company issued 420,307,773 new shares in FY26 (two QIPs and share-swap allotments used to buy out Biocon Biologics minority holders, including Mylan Inc.). Glentec International holds a further 14.63%; the shareholding pattern names her as Glentec's significant beneficial owner, so Glentec is in `family` as her vehicle. The two are separate holdings and are not summed here. The promoter total is 44.92% (consolidated notes, shares held by promoters) and is not used as `family` because it already contains her own 29.90%. LARGEST HOLDERS are non-promoter holders named in the March 31, 2026 shareholding pattern: SBI Large & Midcap Fund 8.20% (the annual report's 5% table also lists it at 8.20%, printing 132,991,285 shares against the pattern's 132,991,385), Mylan Inc. 5.67% (allotted in the Biocon Biologics share swap; Mylan is part of Viatris, per the annual report's description of the transaction) and the LIC scheme as the filing prints it (insurance companies 6.16% in total). The Sep 30, 2026 shareholding pattern (1,629,694,135 shares) shows her at 29.73%; the fiscal-year-end figure is used here. DIVIDENDS: ₹668 million paid to owners of the company, from the consolidated statement of changes in equity; the cash-flow line (₹908 million) includes dividends to non-controlling interests (₹239 million in the SOCE). BUYBACKS: none; the only purchase line is ₹26 million of treasury shares bought by the ESOP trust, excluded. STOCK COMP: the consolidated cash-flow add-back (also in note 25 employee benefits), which includes Syngene and Biocon Biologics plans.",
+  "researchedAt": "2026-11-24"
 }

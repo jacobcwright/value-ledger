@@ -1,0 +1,31 @@
+{
+  "id": "stephen-a-schwarzman",
+  "company": "Blackstone",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 5285,
+    "asOf": "2025-12-31",
+    "basis": "approximately 5,285 people, including 268 senior managing directors",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+      "label": "FY2025 Form 10-K, Item 1 Business, Human Capital",
+      "quote": "As of December 31, 2025, we employed approximately 5,285 people, including our 268 senior managing directors, at our headquarters in New York and around the world."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Total Compensation and Benefits",
+    "value": 5.620529,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+      "label": "FY2025 Form 10-K, consolidated statements of operations (in thousands)",
+      "quote": "Expenses Compensation and Benefits Compensation 3,671,193 3,048,229 2,785,447 Incentive Fee Compensation 274,902 373,586 281,067 Performance Allocations Compensation Realized 1,297,472 1,432,217 900,859 Unrealized 376,962 140,021 ( 654,403 ) Total Compensation and Benefits 5,620,529 4,994,053 3,312,970"
+    }
+  },
+  "notes": "Employees: approximate year-end count from the FY2025 10-K. Payroll: the income statement's 'Total Compensation and Benefits' ($5,620.5 million). It includes $3,671.2 million of compensation (which includes equity-based compensation), $274.9 million of incentive fee compensation and $1,674.4 million of performance allocations compensation, of which $377.0 million is unrealized (an accrual that can reverse). Blackstone files no proxy, so there is no CEO pay ratio median.",
+  "researchedAt": "2026-11-24"
+}

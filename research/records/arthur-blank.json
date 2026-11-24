@@ -1,13 +1,13 @@
 {
   "id": "arthur-blank",
   "company": "Home Depot",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2025-02-02",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2026-02-01",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-03-07",
+    "asOf": "2026-03-06",
     "leader": {
       "name": "Arthur Blank",
       "relation": "co-founder",
@@ -22,79 +22,79 @@
       {
         "name": "The Vanguard Group, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 9.5,
+        "pctEconomic": 10.0,
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000123/hd-20250407.htm",
-          "label": "2025 proxy statement, Beneficial Ownership of Common Stock (p. 76)",
-          "quote": "The following table contains information about the number of shares of our common stock held as of December 31, 2024 by persons we understand to be the beneficial owners of more than 5% ... The Vanguard Group, Inc.(1) ... 94,458,737 9.5 % ... (1)Beneficial ownership information is based on information contained in a Schedule 13G/A filed with the SEC on February 13, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000090/hd-20260406.htm",
+          "label": "2026 proxy statement, Beneficial Ownership of Common Stock",
+          "quote": "The following table contains information about the number of shares of our common stock held as of December 31, 2025 by persons we understand to be the beneficial owners of more than 5% of our outstanding common stock. The percentage ownership is based on the number of shares of our common stock outstanding as of March 6, 2026. ... The Vanguard Group, Inc. (1) ... 100,011,247 10.0 % ... (1) Beneficial ownership information is based solely on information contained in a Schedule 13G/A filed with the SEC on December 3, 2025."
         }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 7.2,
+        "pctEconomic": 7.1,
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000123/hd-20250407.htm",
-          "label": "2025 proxy statement, Beneficial Ownership of Common Stock (p. 76)",
-          "quote": "BlackRock, Inc.(2) ... 71,124,615 7.2 % ... (2)Beneficial ownership information is based on information contained in a Schedule 13G/A filed with the SEC on January 26, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000090/hd-20260406.htm",
+          "label": "2026 proxy statement, Beneficial Ownership of Common Stock",
+          "quote": "BlackRock, Inc. (2) ... 71,124,615 7.1 % ... (2) Beneficial ownership information is based solely on information contained in a Schedule 13G/A filed with the SEC on January 26, 2024."
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock. The proxy lists only Vanguard (9.5%) and BlackRock (7.2%) as owners of more than 5%; the 25 director nominees and executive officers together own 0.10%."
+      "note": "One class of common stock. The proxy lists only Vanguard (10.0%) and BlackRock (7.1%) as owners of more than 5%; the 23 directors and executive officers together own 0.08%."
     }
   },
   "cash": {
     "dividends": {
-      "value": 8.93,
+      "value": 9.15,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
-        "label": "Fiscal 2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Cash dividends (8,929) (8,383) (7,789) [in millions, fiscal 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+        "label": "Fiscal 2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Cash dividends ( 9,152 ) ( 8,929 ) ( 8,383 ) [in millions, fiscal 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0000354950",
           "concept": "us-gaap:PaymentsOfDividendsCommonStock",
-          "end": "2025-02-02",
-          "value": 8929000000
+          "end": "2026-02-01",
+          "value": 9152000000
         }
       }
     },
     "buybacks": {
-      "value": 0.65,
+      "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
-        "label": "Fiscal 2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Repurchases of common stock (649) (7,951) (6,696) [in millions, fiscal 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+        "label": "Fiscal 2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchases of common stock — ( 649 ) ( 7,951 ) [in millions, fiscal 2025, 2024, 2023; no repurchases in fiscal 2025]",
         "xbrl": {
           "cik": "0000354950",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2025-02-02",
-          "value": 649000000
+          "end": "2026-02-01",
+          "value": 0
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.44,
+      "value": 0.52,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
-        "label": "Fiscal 2024 Form 10-K, Note 9 Stock-Based Compensation",
-        "quote": "The following table presents total stock-based compensation expense, net of estimated forfeitures, including expense related to our ESPPs ... Pre-tax stock-based compensation expense $ 444 $ 382 $ 367 [in millions, fiscal 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+        "label": "Fiscal 2025 Form 10-K, Note 9 Stock-Based Compensation",
+        "quote": "The following table presents total stock-based compensation expense, net of estimated forfeitures, including expense related to our ESPPs ... Pre-tax stock-based compensation expense $ 524 $ 444 $ 382 [in millions, fiscal 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0000354950",
           "concept": "us-gaap:AllocatedShareBasedCompensationExpense",
-          "end": "2025-02-02",
-          "value": 444000000
+          "end": "2026-02-01",
+          "value": 524000000
         }
       }
     },
@@ -102,8 +102,8 @@
       "text": "Home Depot runs employee stock purchase plans for U.S. and non-U.S. associates, priced at 85% of the stock's market value.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
-        "label": "Fiscal 2024 Form 10-K, Note 9 Stock-Based Compensation, Employee Stock Purchase Plans",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+        "label": "Fiscal 2025 Form 10-K, Note 9 Stock-Based Compensation, Employee Stock Purchase Plans",
         "quote": "We maintain two ESPPs: a U.S. and a non-U.S. plan. ... The purchase price of shares under the ESPPs is equal to 85% of the stock's fair market value on the last day of the purchase period"
       }
     }
@@ -113,21 +113,21 @@
     "segments": [
       {
         "name": "In the U.S.",
-        "value": 147.01
+        "value": 152.17
       },
       {
         "name": "Outside the U.S.",
         "value": 12.51
       }
     ],
-    "total": 159.51,
+    "total": 164.68,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
-      "label": "Fiscal 2024 Form 10-K, Note 2 Segment Reporting and Net Sales",
-      "quote": "The following table presents net sales, classified by geography: ... Net sales – in the U.S. $ 147,007 ... Net sales – outside the U.S. 12,507 ... Net sales $ 159,514 [in millions, fiscal 2024]"
+      "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+      "label": "Fiscal 2025 Form 10-K, Note 2 Segment Reporting and Net Sales",
+      "quote": "The following table presents net sales, classified by geography: ... Net sales – in the U.S. $ 152,170 ... Net sales – outside the U.S. 12,513 ... Net sales $ 164,683 [in millions, fiscal 2025]"
     }
   },
-  "notes": "Fiscal 2024 ended February 2, 2025 (Home Depot's own label; matches data.js fy 'Feb 2025'). Filings: Fiscal 2024 Form 10-K (accession 0000354950-25-000085) and 2025 proxy statement (accession 0000354950-25-000123), both read on www.sec.gov. ARTHUR BLANK: co-founder, not a director or officer; he does not appear in the proxy's beneficial ownership tables (directors, NEOs and holders over 5%), so no stake is reported. HOLDERS: the proxy says the 5% table shows shares 'held as of December 31, 2024', but its footnotes cite Schedule 13G/A filings made in January and February 2024, which normally report holdings at the end of 2023. Because of this conflict, asOf is null. Percentages use the March 7, 2025 share count. BUYBACKS: $649 million paid before Home Depot paused repurchases in March 2024 ahead of the SRS acquisition. STOCK COMP: the note total ($444 million, including ESPP expense); the cash-flow add-back is $442 million.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal 2025 ended February 1, 2026 (52 weeks; Home Depot's own label; data.js fy 'Feb 2026'). Filings: Fiscal 2025 Form 10-K (accession 0001628280-26-019436, filed March 18, 2026) and the 2026 proxy statement (accession 0000354950-26-000090, filed April 7, 2026), both read on www.sec.gov. ARTHUR BLANK: co-founder, not a director or officer; he does not appear in the 2026 proxy's beneficial ownership tables (directors, NEOs and holders over 5%), so no stake is reported. HOLDERS: the proxy says the 5% table shows shares 'held as of December 31, 2025' but bases each row 'solely' on a Schedule 13G/A filing (Vanguard December 3, 2025; BlackRock January 26, 2024, which normally reports end-2023 holdings), so asOf is null. Percentages use the March 6, 2026 share count. The proxy adds that Vanguard amended its 13G/A on March 27, 2026 for an internal realignment, after which certain Vanguard subsidiaries and divisions report separately. BUYBACKS: none in fiscal 2025; the 10-K says Home Depot paused repurchases in March 2024 in connection with the SRS acquisition and has no plans to resume them in fiscal 2026, and the 10-K shows a dash for fiscal 2025. STOCK COMP: the note total ($524 million, including ESPP expense); the equity-statement line is $522 million.",
+  "researchedAt": "2026-11-24"
 }

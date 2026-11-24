@@ -6,16 +6,16 @@
       "label": "Property and equipment, net",
       "unit": "currency-millions",
       "currency": "USD",
-      "period": "as of December 28, 2024",
+      "period": "as of December 27, 2025",
       "tier": "filing",
       "definition": "Property and equipment, net, by geographic area as reported in the 10-K property and equipment note."
     },
     "employees": {
       "label": "Employees (year-end headcount)",
       "unit": "people",
-      "period": "year-end 2024",
+      "period": "year-end 2025",
       "tier": "company-published",
-      "definition": "AMD employees by region (excluding temporary workers and contractors, which AMD reports separately); total 28,343 at year-end 2024."
+      "definition": "AMD employees by region (excluding temporary workers and contractors, which AMD reports separately); total 31,359 at year-end 2025."
     }
   },
   "usStates": null,
@@ -24,84 +24,42 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "ppe": 1312
+        "ppe": 1717
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Note 4 (Segment Reporting), Property and equipment, net by geographic areas (December 28, 2024 column first)",
-        "quote": "United States $ 1,312 $ 1,143"
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, Note 4 (Segment Reporting), Property and equipment, net by geographic areas (December 27, 2025 column first)",
+        "quote": "United States $ 1,717 $ 1,312"
       }
     },
     {
       "iso2": "SG",
       "name": "Singapore",
       "values": {
-        "ppe": 140
+        "ppe": 157
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Note 4 (Segment Reporting), Property and equipment, net by geographic areas (December 28, 2024 column first)",
-        "quote": "Singapore 140 144"
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, Note 4 (Segment Reporting), Property and equipment, net by geographic areas (December 27, 2025 column first)",
+        "quote": "Singapore 157 140"
       }
     },
     {
       "iso2": "CA",
       "name": "Canada",
       "values": {
-        "ppe": 104
+        "ppe": 142
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Note 4 (Segment Reporting), Property and equipment, net by geographic areas (December 28, 2024 column first)",
-        "quote": "Canada 104 84"
-      }
-    },
-    {
-      "iso2": "IN",
-      "name": "India",
-      "values": {
-        "ppe": 100
-      },
-      "plus": {},
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Note 4 (Segment Reporting), Property and equipment, net by geographic areas (December 28, 2024 column first)",
-        "quote": "India 100 86"
-      }
-    },
-    {
-      "iso2": "IE",
-      "name": "Ireland",
-      "values": {
-        "ppe": 46
-      },
-      "plus": {},
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Note 4 (Segment Reporting), Property and equipment, net by geographic areas (December 28, 2024 column first)",
-        "quote": "Ireland 46 46"
-      }
-    },
-    {
-      "iso2": "CN",
-      "name": "China (including Hong Kong)",
-      "values": {
-        "ppe": 38
-      },
-      "plus": {},
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Note 4 (Segment Reporting), Property and equipment, net by geographic areas (December 28, 2024 column first)",
-        "quote": "China (including Hong Kong) 38 42"
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, Note 4 (Segment Reporting), Property and equipment, net by geographic areas (December 27, 2025 column first)",
+        "quote": "Canada 142 104"
       }
     }
   ],
@@ -110,27 +68,27 @@
       "name": "Other countries",
       "countries": null,
       "values": {
-        "ppe": 62
+        "ppe": 296
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Note 4 (Segment Reporting), Property and equipment, net by geographic areas (December 28, 2024 column first)",
-        "quote": "Other countries 62 44"
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, Note 4 (Segment Reporting), Property and equipment, net by geographic areas (December 27, 2025 column first)",
+        "quote": "Other countries 296 246"
       }
     },
     {
       "name": "Americas",
       "countries": null,
       "values": {
-        "employees": 13774
+        "employees": 15062
       },
       "plus": {},
       "source": {
         "hostType": "company",
         "url": "https://www.amd.com/en/corporate/corporate-responsibility/cr-data-tables.html",
-        "label": "Corporate Responsibility data tables, Global Workforce Data, Employees By Region (columns 2022 | 2023 | 2024 | 2025; 2024 used)",
+        "label": "Corporate Responsibility data tables, Global Workforce Data, Employees By Region (columns 2022 | 2023 | 2024 | 2025; 2025 used)",
         "quote": "Americas | 11,989 | 12,590 | 13,774 | 15,062"
       }
     },
@@ -138,13 +96,13 @@
       "name": "EMEA",
       "countries": null,
       "values": {
-        "employees": 2003
+        "employees": 2288
       },
       "plus": {},
       "source": {
         "hostType": "company",
         "url": "https://www.amd.com/en/corporate/corporate-responsibility/cr-data-tables.html",
-        "label": "Corporate Responsibility data tables, Global Workforce Data, Employees By Region (columns 2022 | 2023 | 2024 | 2025; 2024 used)",
+        "label": "Corporate Responsibility data tables, Global Workforce Data, Employees By Region (columns 2022 | 2023 | 2024 | 2025; 2025 used)",
         "quote": "EMEA | 1,478 | 1,546 | 2,003 | 2,288"
       }
     },
@@ -152,13 +110,13 @@
       "name": "Asia-Pacific/China/Japan",
       "countries": null,
       "values": {
-        "employees": 12566
+        "employees": 14009
       },
       "plus": {},
       "source": {
         "hostType": "company",
         "url": "https://www.amd.com/en/corporate/corporate-responsibility/cr-data-tables.html",
-        "label": "Corporate Responsibility data tables, Global Workforce Data, Employees By Region (columns 2022 | 2023 | 2024 | 2025; 2024 used)",
+        "label": "Corporate Responsibility data tables, Global Workforce Data, Employees By Region (columns 2022 | 2023 | 2024 | 2025; 2025 used)",
         "quote": "Asia-Pacific/China/Japan | 11,058 | 11,632 | 12,566 | 14,009"
       }
     }
@@ -173,8 +131,8 @@
       "description": "Company headquarters.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
         "quote": "Our headquarters are located in Santa Clara, California, and we have significant operations in Austin, Texas; San Jose, California; Shanghai, China; Markham, Ontario, Canada; Longmont, Colorado; Dublin, Ireland; Singapore; and Bengaluru and Hyderabad, India."
       }
     },
@@ -187,8 +145,8 @@
       "description": "One of AMD's significant operations sites named in its 10-K.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
         "quote": "Our headquarters are located in Santa Clara, California, and we have significant operations in Austin, Texas; San Jose, California; Shanghai, China; Markham, Ontario, Canada; Longmont, Colorado; Dublin, Ireland; Singapore; and Bengaluru and Hyderabad, India."
       }
     },
@@ -201,8 +159,8 @@
       "description": "One of AMD's significant operations sites named in its 10-K.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
         "quote": "Our headquarters are located in Santa Clara, California, and we have significant operations in Austin, Texas; San Jose, California; Shanghai, China; Markham, Ontario, Canada; Longmont, Colorado; Dublin, Ireland; Singapore; and Bengaluru and Hyderabad, India."
       }
     },
@@ -215,8 +173,8 @@
       "description": "One of AMD's significant operations sites named in its 10-K.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
         "quote": "Our headquarters are located in Santa Clara, California, and we have significant operations in Austin, Texas; San Jose, California; Shanghai, China; Markham, Ontario, Canada; Longmont, Colorado; Dublin, Ireland; Singapore; and Bengaluru and Hyderabad, India."
       }
     },
@@ -229,8 +187,8 @@
       "description": "One of AMD's significant operations sites named in its 10-K.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
         "quote": "Our headquarters are located in Santa Clara, California, and we have significant operations in Austin, Texas; San Jose, California; Shanghai, China; Markham, Ontario, Canada; Longmont, Colorado; Dublin, Ireland; Singapore; and Bengaluru and Hyderabad, India."
       }
     },
@@ -243,8 +201,8 @@
       "description": "One of AMD's significant operations sites named in its 10-K.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
         "quote": "Our headquarters are located in Santa Clara, California, and we have significant operations in Austin, Texas; San Jose, California; Shanghai, China; Markham, Ontario, Canada; Longmont, Colorado; Dublin, Ireland; Singapore; and Bengaluru and Hyderabad, India."
       }
     },
@@ -257,8 +215,8 @@
       "description": "One of AMD's significant operations sites named in its 10-K.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
         "quote": "Our headquarters are located in Santa Clara, California, and we have significant operations in Austin, Texas; San Jose, California; Shanghai, China; Markham, Ontario, Canada; Longmont, Colorado; Dublin, Ireland; Singapore; and Bengaluru and Hyderabad, India."
       }
     },
@@ -271,8 +229,8 @@
       "description": "One of AMD's significant operations sites named in its 10-K.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
         "quote": "Our headquarters are located in Santa Clara, California, and we have significant operations in Austin, Texas; San Jose, California; Shanghai, China; Markham, Ontario, Canada; Longmont, Colorado; Dublin, Ireland; Singapore; and Bengaluru and Hyderabad, India."
       }
     },
@@ -285,8 +243,8 @@
       "description": "One of AMD's significant operations sites named in its 10-K.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
         "quote": "Our headquarters are located in Santa Clara, California, and we have significant operations in Austin, Texas; San Jose, California; Shanghai, China; Markham, Ontario, Canada; Longmont, Colorado; Dublin, Ireland; Singapore; and Bengaluru and Hyderabad, India."
       }
     },
@@ -299,12 +257,12 @@
       "description": "One of AMD's significant operations sites named in its 10-K.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
         "quote": "Our headquarters are located in Santa Clara, California, and we have significant operations in Austin, Texas; San Jose, California; Shanghai, China; Markham, Ontario, Canada; Longmont, Colorado; Dublin, Ireland; Singapore; and Bengaluru and Hyderabad, India."
       }
     }
   ],
-  "notes": "AMD publishes no state-level or country-level jobs data. Footprint by country is property and equipment, net, from the FY2024 10-K (U.S., Singapore, Canada, India, Ireland, China incl. Hong Kong, other). Employees by region come from AMD's online Corporate Responsibility data tables (the page now shows 2022–2025; the 2024 column is used and matches the 10-K's ~28,000). Regions are not defined by country list. The 10-K says AMD has about 6 million square feet worldwide but gives no square footage by site. No taxes-by-country report was found (only a UK tax strategy page).",
-  "researchedAt": "2026-11-23"
+  "notes": "AMD publishes no state-level or country-level jobs data. Footprint by country is property and equipment, net, from the FY2025 10-K, which now lists only the U.S., Singapore and Canada separately, with all other countries combined ($296M); India, Ireland and China (incl. Hong Kong), listed separately in the FY2024 10-K, are now inside 'Other countries', so their rows were removed. Employees by region come from AMD's online Corporate Responsibility data tables (columns 2022–2025; the 2025 year-end column is used, total 31,359 employees plus 14,483 temporary workers and contractors). Regions are not defined by country list. The 10-K says AMD's facilities include about 5.4 million square feet leased and 1.4 million owned worldwide but gives no square footage by site. No taxes-by-country report was found (only a UK tax strategy page).",
+  "researchedAt": "2026-11-24"
 }

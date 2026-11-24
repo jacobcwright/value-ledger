@@ -2,18 +2,18 @@
   "id": "charles-r-schwab",
   "name": "Charles R. Schwab",
   "netWorth": {
-    "value": 10.8,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 230,
+    "value": 13.45,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 223,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"charles-schwab\",\"rank\":230,\"listUri\":\"billionaires\",\"visible\":true,\"position\":233,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":10800.0,\"finalWorthBillions\":10.8,\"category\":\"Finance & Investments\",\"otherCompensation\":0,\"person\":{\"name\":\"Charles Schwab\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"charles-schwab\",\"rank\":223,\"listUri\":\"rtb\",\"visible\":true,\"position\":223,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":13446.1,\"finalWorthBillions\":13.4461,\"person\":{\"name\":\"Charles Schwab\",\"uri\":\"charles-schwab\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5d8a66976de3150009a4f8e6/416x416.jpg?background=000000&cropX1=1827&cropX2=4378&cropY1=8&cropY2=2557\"},\"personName\":\"Charles Schwab\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Charles Schwab\" at rank 230 (ranks are shared on ties), net worth $10.8B, source \"Discount brokerage\". Forbes lists him as \"Charles Schwab\" (source \"Discount brokerage\").",
+  "notes": "Listed as \"Charles Schwab\" at rank 223, real-time net worth $13.4B, source \"Discount brokerage\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,31 @@
+{
+  "id": "ben-silbermann",
+  "company": "Pinterest",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 5265,
+    "asOf": "2025-12-31",
+    "basis": "full-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000021/pins-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human capital",
+      "quote": "As of December 31, 2025, we had 5,265 full-time employees."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Median Employee annual total compensation",
+    "value": 311466,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000058/pins-20260407.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO pay ratio",
+      "quote": "for the year ended December 31, 2025 . Chief Executive Officer annual total compensation 39,312,010 Median Employee annual total compensation 311,466 Ratio of Chief Executive Officer to Median Employee annual total compensation 126.2 to 1"
+    }
+  },
+  "notes": "Employees: full-time head count at December 31, 2025 from the FY2025 10-K. Payroll: the 10-K discloses no total staff cost (expense lines are described as 'primarily personnel-related' without a total), so the proxy's CEO pay ratio median for 2025 is used. Pinterest reused the median employee it identified from its employee population at December 31, 2024, saying no change in 2025 would significantly change the ratio; the median includes equity awards.",
+  "researchedAt": "2026-11-24"
+}

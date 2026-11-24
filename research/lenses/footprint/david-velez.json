@@ -5,9 +5,9 @@
     "customers": {
       "label": "Customers",
       "unit": "people",
-      "period": "as of December 31, 2024",
+      "period": "as of December 31, 2025",
       "tier": "filing",
-      "definition": "Customers (individual consumers and SMEs) by country as stated in Nu Holdings' 2024 Form 20-F; published rounded to the nearest 0.1 million ('101.8 million', 'surpassing 10 million', '2.5 million') and stored as people."
+      "definition": "Customers (individual consumers and SMEs) by country as stated in Nu Holdings' 2025 Form 20-F; published rounded to the nearest million ('113 million', 'reached 14 million', 'surpassed 4 million') and stored as people."
     }
   },
   "usStates": null,
@@ -16,44 +16,44 @@
       "iso2": "BR",
       "name": "Brazil",
       "values": {
-        "customers": 101800000
+        "customers": 113000000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "Nu Holdings 2024 Form 20-F, Item 4 business overview",
-        "quote": "As of December 31, 2024, we had 114.2 million customers. In Brazil we had 101.8 million customers, which represented approximately 58% of the country’s population aged 18 and above. [101.8 million = 101,800,000]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "Nu Holdings 2025 Form 20-F, Item 4 business overview",
+        "quote": "As of December 31, 2025, we had 131 million customers. In Brazil we had 113 million customers, which represented approximately 62% of the country's population aged 18 and above. [113 million = 113,000,000]"
       }
     },
     {
       "iso2": "MX",
       "name": "Mexico",
       "values": {
-        "customers": 10000000
+        "customers": 14000000
       },
-      "plus": {
-        "customers": true
-      },
+      "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "Nu Holdings 2024 Form 20-F, Item 4 business overview",
-        "quote": "In Mexico, our growth momentum continued, with our customer base surpassing 10 million. [10 million = 10,000,000]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "Nu Holdings 2025 Form 20-F, Item 4 business overview",
+        "quote": "In Mexico, we reached 14 million customers, advanced our banking license process, and saw approximately half of our customers receive their first credit card through Nu, underscoring our role in expanding access to credit. [14 million = 14,000,000]"
       }
     },
     {
       "iso2": "CO",
       "name": "Colombia",
       "values": {
-        "customers": 2500000
+        "customers": 4000000
       },
-      "plus": {},
+      "plus": {
+        "customers": true
+      },
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "Nu Holdings 2024 Form 20-F, Item 4 business overview",
-        "quote": "Meanwhile, in Colombia our customer base expanded to 2.5 million customers, continuing its positive momentum following the launch of the Nu Cuenta product. [2.5 million = 2,500,000]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "Nu Holdings 2025 Form 20-F, Item 4 business overview",
+        "quote": "In Colombia, we have surpassed 4 million customers, and with the recent expansion of our credit card portfolio, we are now able to approve nearly three times more applicants with our fee-led card strategy, implemented in 2024 and expanded throughout 2025. [4 million = 4,000,000]"
       }
     }
   ],
@@ -64,11 +64,11 @@
       "place": "São Paulo, Brazil",
       "iso2": "BR",
       "type": "headquarters",
-      "description": "Principal executive offices and main operational headquarters (leased, 111,912 sq ft), home to most product development, sales, marketing and business operations.",
+      "description": "Principal executive offices and main operational headquarters (leased, 111,912 sq ft; lease expires September 2030), home to most product development, sales, marketing and business operations.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "Nu Holdings 2024 Form 20-F, Item 4.D Property, plants and equipment (offices as of December 31, 2024)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "Nu Holdings 2025 Form 20-F, Item 4.D Property, plants and equipment (offices as of December 31, 2025)",
         "quote": "HQ1 | São Paulo, Brazil | Office | Leased | 111,912"
       }
     },
@@ -80,8 +80,8 @@
       "description": "Second São Paulo headquarters office (leased, 58,364 sq ft).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "Nu Holdings 2024 Form 20-F, Item 4.D Property, plants and equipment (offices as of December 31, 2024)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "Nu Holdings 2025 Form 20-F, Item 4.D Property, plants and equipment (offices as of December 31, 2025)",
         "quote": "HQ2 | São Paulo, Brazil | Office | Leased | 58,364"
       }
     },
@@ -93,8 +93,8 @@
       "description": "Leased office, 99,868 sq ft.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "Nu Holdings 2024 Form 20-F, Item 4.D Property, plants and equipment (offices as of December 31, 2024)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "Nu Holdings 2025 Form 20-F, Item 4.D Property, plants and equipment (offices as of December 31, 2025)",
         "quote": "Spark, Vila Leopoldina | São Paulo, Brazil | Office | Leased | 99,868"
       }
     },
@@ -106,8 +106,8 @@
       "description": "Leased office in CDMX, 95,917 sq ft.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "Nu Holdings 2024 Form 20-F, Item 4.D Property, plants and equipment (offices as of December 31, 2024)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "Nu Holdings 2025 Form 20-F, Item 4.D Property, plants and equipment (offices as of December 31, 2025)",
         "quote": "Mexico – Work Polanco | CDMX, Mexico | Office | Leased | 95,917"
       }
     },
@@ -116,12 +116,12 @@
       "place": "Bogotá, Colombia",
       "iso2": "CO",
       "type": "office",
-      "description": "Leased office, 10,780 sq ft.",
+      "description": "Leased office, 23,301 sq ft.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "Nu Holdings 2024 Form 20-F, Item 4.D Property, plants and equipment (offices as of December 31, 2024)",
-        "quote": "Spaces 80 Coworking | Bogota, Colombia | Office | Leased | 10,780"
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "Nu Holdings 2025 Form 20-F, Item 4.D Property, plants and equipment (offices as of December 31, 2025)",
+        "quote": "Spaces 80 Coworking | Bogota, Colombia | Office | Leased | 23,301"
       }
     },
     {
@@ -132,12 +132,12 @@
       "description": "Leased office, 4,650 sq ft.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "Nu Holdings 2024 Form 20-F, Item 4.D Property, plants and equipment (offices as of December 31, 2024)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "Nu Holdings 2025 Form 20-F, Item 4.D Property, plants and equipment (offices as of December 31, 2025)",
         "quote": "Nu North America | Durham, USA | Office | Leased | 4,650"
       }
     }
   ],
-  "notes": "Customers by country are stated in the FY2024 Form 20-F text (total 114.2 million, nearly 95 million active). Mexico is 'surpassing 10 million', recorded as 10,000,000 with plus. The 20-F gives employees only by function (8,716 total), not by country; it says all employees were based in offices in Brazil, Mexico, Colombia, Uruguay and the United States. Sites are from the offices table in Item 4.D (Querétaro coworking and Montevideo offices omitted as minor). The Durham office is listed as 'Durham, USA' with no state, so no state code is set. No U.S. state data.",
-  "researchedAt": "2026-11-23"
+  "notes": "Customers by country are stated in the FY2025 Form 20-F text (total 131 million at Dec 31, 2025). Brazil is 113 million; Mexico 'reached 14 million' (stored as 14,000,000); Colombia 'surpassed 4 million' (stored as 4,000,000 with plus). The 20-F gives employees only by function (10,027 total), not by country; it says all employees were based in offices in Brazil, Mexico, Colombia, Uruguay and the United States. Sites are from the offices table in Item 4.D as of Dec 31, 2025 (Querétaro, Palo Alto, Montevideo and Zug coworking offices omitted as minor; the Bogotá office grew to 23,301 sq ft). The Durham office is listed as 'Durham, USA' with no state, so no state code is set. No U.S. state data.",
+  "researchedAt": "2026-11-24"
 }

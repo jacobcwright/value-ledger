@@ -1,0 +1,22 @@
+{
+  "id": "marc-benioff",
+  "company": "Salesforce",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 823000000,
+      "sharesAsOf": "2026-08-20",
+      "pricedAs": "CRM",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm",
+        "label": "Form 10-Q for the quarter ended July 31, 2026, cover page",
+        "quote": "As of August 20, 2026, there were approximately 823 million shares of the Registrant's Common Stock outstanding."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the NYSE as CRM. The 10-Q cover for the quarter ended July 31, 2026 (filed August 27, 2026) is the latest count and is rounded by the company to approximately 823 million; the proxy's exact count was 818,219,088 at March 25, 2026. Preferred stock is authorized but none is outstanding.",
+  "researchedAt": "2026-11-24"
+}

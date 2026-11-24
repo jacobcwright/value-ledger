@@ -1,0 +1,31 @@
+{
+  "id": "mukesh-ambani",
+  "company": "Reliance Industries",
+  "fiscalYear": "FY 2025-26",
+  "fiscalYearEnd": "2026-03-31",
+  "currency": "INR",
+  "employees": {
+    "value": 419000,
+    "asOf": "2026-03-31",
+    "basis": "Group headcount of 4.19 lakh+ (more than 419,000)",
+    "source": {
+      "hostType": "company",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+      "label": "RIL Integrated Annual Report 2025-26, Future-ready Workforce (PDF p. 21)",
+      "quote": "As of March 31, 2026, the Group's headcount is 4.19 lakh+ comprising 1 lakh+ new hires [1 lakh = 100,000, so 4.19 lakh = 419,000]"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Employee Benefits Expense",
+    "value": 303.18,
+    "source": {
+      "hostType": "company",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+      "label": "RIL Integrated Annual Report 2025-26, Notes to the Consolidated Financial Statements, Note 28 Employee Benefits Expense (₹ crore; PDF p. 116, printed p. 228)",
+      "quote": "28. Employee Benefits Expense Salaries and Wages 25,678 24,420 Contribution to Provident and Other Funds 2,298 1,590 Staff Welfare Expenses 2,342 2,549 Total 30,318 28,559"
+    }
+  },
+  "notes": "Employees: the report gives only a rounded group figure, '4.19 lakh+' (1 lakh = 100,000), as of March 31, 2026, recorded as 419,000; it is a lower bound, and the report does not say whether it is a head count of permanent employees only. Payroll: consolidated Employee Benefits Expense of ₹30,318 crore (₹303.18 billion) for 2025-26 (salaries and wages 25,678, contributions to provident and other funds 2,298, staff welfare 2,342).",
+  "researchedAt": "2026-11-24"
+}

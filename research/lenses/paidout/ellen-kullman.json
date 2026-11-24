@@ -1,89 +1,95 @@
 {
  "id": "ellen-kullman",
  "company": "DuPont de Nemours",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "USD",
  "unit": "billions",
  "sector": "industrial",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 12.386,
-   "stated": 12386,
+   "value": 6.849,
+   "stated": 6849,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
-    "quote": "2024 2023 2022 Net sales $ 12,386 $ 12,068 $ 13,017 Cost of sales",
+    "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of operations (in millions)",
+    "quote": "Net sales $ 6,849 $ 6,719 $ 6,614",
     "xbrl": {
      "cik": "0001666700",
      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-     "end": "2024-12-31",
-     "value": 12386000000
+     "end": "2025-12-31",
+     "value": 6849000000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 2.321,
-   "stated": 2321,
+   "value": 0.56,
+   "stated": 560,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Cash provided by operating activities - continuing operations 2,321 2,191 1,249",
+    "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Cash provided by operating activities - continuing operations $ 560 $ 765 $ 845",
     "xbrl": {
      "cik": "0001666700",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
-     "end": "2024-12-31",
-     "value": 2321000000
+     "end": "2025-12-31",
+     "value": 560000000
     }
    }
   },
   "capex": {
-   "value": 0.579,
+   "value": 0.333,
    "components": [
     "capital expenditures 0.579"
    ],
-   "stated": 579,
+   "stated": 333,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Investing Activities Capital expenditures ( 579 ) ( 619 ) ( 662 )",
+    "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Investing Activities Capital expenditures ( 333 ) ( 285 ) ( 302 )",
     "xbrl": {
      "cik": "0001666700",
      "concept": "us-gaap:PaymentsToAcquireProductiveAssets",
-     "end": "2024-12-31",
-     "value": 579000000
+     "end": "2025-12-31",
+     "value": 333000000
     }
    }
   },
   "interestPaid": {
-   "value": 0.394,
-   "stated": 394,
+   "value": 0.362,
+   "stated": 362,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Interest, net of amounts capitalized - from continuing operations $ 394 $ 408 $ 494 Income taxes, net of refunds - from continuing operations 363 360 642"
+    "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+    "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+    "quote": "Interest, net of amounts capitalized - from continuing operations $ 362 $ 394 $ 408 Income taxes, net of refunds - from continuing operations 127 184 168"
    }
   },
   "taxesPaid": {
-   "value": 0.363,
-   "stated": 363,
+   "value": 0.127,
+   "stated": 127,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Interest, net of amounts capitalized - from continuing operations $ 394 $ 408 $ 494 Income taxes, net of refunds - from continuing operations 363 360 642"
+    "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+    "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+    "quote": "Interest, net of amounts capitalized - from continuing operations $ 362 $ 394 $ 408 Income taxes, net of refunds - from continuing operations 127 184 168",
+    "xbrl": {
+     "cik": "0001666700",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2025-12-31",
+     "value": 127000000
+    }
    }
   }
  },
- "paidOut": 10.644,
- "paidOutFormula": "revenue 12,386 − operating cash flow 2,321 + capex 579 (USD millions, as stated)",
+ "paidOut": 6.622,
+ "paidOutFormula": "revenue 6,849 − operating cash flow 560 + capex 333 (USD millions, as stated)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
@@ -92,6 +98,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Continuing-operations basis throughout: net sales, operating cash flow, capex and cash interest and taxes are all for continuing operations; discontinued operations used 474 of cash and are excluded. The cited 10-K has no undimensioned companyfacts fact for continuing-operations interest or taxes paid (a later recast filing shows 184 for taxes), so those two carry no xbrl object. \"Acquisitions of property and businesses, net of cash acquired\" (321) is one combined line that includes business acquisitions, so it is excluded.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001666700-26-000013). Continuing-operations basis throughout: net sales, operating cash flow, capex and cash interest and taxes are all for continuing operations, after the November 1, 2025 Qnity (electronics) spin-off and with the Aramids business (sold April 1, 2026) in discontinued operations; discontinued operations provided 852 of operating cash and are excluded. Not comparable with the FY2024 edition, which included the electronics business. Interest paid is tagged only with a company-specific concept, so it carries no xbrl object. \"Acquisitions of property and businesses, net of cash acquired\" (55) is one combined line that includes business acquisitions, so it is excluded. The 4,100 distribution received from Electronics at spin-off is a financing inflow and does not affect the formula.",
+ "researchedAt": "2026-11-24"
 }

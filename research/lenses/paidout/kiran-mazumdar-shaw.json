@@ -1,8 +1,8 @@
 {
  "id": "kiran-mazumdar-shaw",
  "company": "Biocon",
- "fiscalYear": "FY24",
- "fiscalYearEnd": "2024-03-31",
+ "fiscalYear": "FY26",
+ "fiscalYearEnd": "2026-03-31",
  "currency": "INR",
  "unit": "billions",
  "statedUnit": "₹ million",
@@ -10,103 +10,103 @@
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 147.557,
-   "stated": 147557,
+   "value": 169.27,
+   "stated": 169270,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-    "label": "Integrated Annual Report FY 2024, consolidated statement of profit & loss (₹ million)",
-    "quote": "Revenue from operations 21 147,557 111,742 Other income 22 8,655 3,759 Total income (I) 156,212 115,501"
+    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+    "label": "Integrated Annual Report FY 2026, consolidated statement of profit & loss (₹ million)",
+    "quote": "Revenue from operations 21 169,270 152,617 Other income 22 3,425 12,082 Total income 172,695 164,699"
    }
   },
   "operatingCashFlow": {
-   "value": 29.539,
-   "stated": 29539,
+   "value": 19.94,
+   "stated": 19940,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-    "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
-    "quote": "Net cash flow generated from operating activities 29,539 18,525"
+    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+    "label": "Integrated Annual Report FY 2026, statement of consolidated cash flows (₹ million)",
+    "quote": "Net cash flow generated from operating activities 19,940 40,612"
    }
   },
   "capex": {
-   "value": 19.316,
+   "value": 19.117,
    "components": [
-    "PP&E 16.805",
-    "intangibles 2.511"
+    "PP&E 17.979",
+    "intangibles 1.138"
    ],
    "parts": [
     {
      "label": "PP&E",
-     "value": 16.805,
-     "stated": 16805,
+     "value": 17.979,
+     "stated": 17979,
      "divisor": 1000,
      "source": {
       "hostType": "company",
-      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-      "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
-      "quote": "Purchase of property, plant and equipment (16,805) (15,960) Purchase of intangible assets (2,511) (1,303)"
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+      "label": "Integrated Annual Report FY 2026, statement of consolidated cash flows (₹ million)",
+      "quote": "Purchase of property, plant and equipment (17,979) (21,366) Purchase of intangible assets (1,138) (2,067)"
      }
     },
     {
      "label": "intangibles",
-     "value": 2.511,
-     "stated": 2511,
+     "value": 1.138,
+     "stated": 1138,
      "divisor": 1000,
      "source": {
       "hostType": "company",
-      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-      "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
-      "quote": "Purchase of property, plant and equipment (16,805) (15,960) Purchase of intangible assets (2,511) (1,303)"
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+      "label": "Integrated Annual Report FY 2026, statement of consolidated cash flows (₹ million)",
+      "quote": "Purchase of property, plant and equipment (17,979) (21,366) Purchase of intangible assets (1,138) (2,067)"
      }
     }
    ],
-   "note": "Purchase of PP&E plus purchase of intangible assets. Excludes 'Consideration paid for business acquisition' (5,532)."
+   "note": "Purchase of PP&E plus purchase of intangible assets (₹19,117 million, the same 'Capital expenditure' the report states in its Financial Capital summary). Excludes purchases of Biocon Biologics equity shares (36,287) and debentures (21,715) from minority holders, which are transactions with owners in financing."
   },
   "interestPaid": {
-   "value": 8.474,
-   "stated": 8474,
+   "value": 8.654,
+   "stated": 8654,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-    "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows, financing (₹ million)",
-    "quote": "Interest paid (8,474) (4,856)"
+    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+    "label": "Integrated Annual Report FY 2026, statement of consolidated cash flows (₹ million), financing",
+    "quote": "Interest paid (8,654) (6,342)"
    },
    "inOCF": false,
    "location": "financing activities"
   },
   "taxesPaid": {
-   "value": 2.923,
-   "stated": 2923,
+   "value": 2.426,
+   "stated": 2426,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-    "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
-    "quote": "Income taxes paid (net of refunds) (2,923) (2,286)"
+    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+    "label": "Integrated Annual Report FY 2026, statement of consolidated cash flows (₹ million)",
+    "quote": "Income taxes paid (net of refunds) (2,426) (4,596)"
    },
    "inOCF": true,
    "location": "operating activities"
   },
   "leasePrincipalPaid": {
-   "value": 0.418,
-   "stated": 418,
+   "value": 0.909,
+   "stated": 909,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-    "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
-    "quote": "Repayment of lease liabilities, net (418) (114)"
+    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+    "label": "Integrated Annual Report FY 2026, statement of consolidated cash flows (₹ million)",
+    "quote": "Repayment of lease liabilities, (net) (909) (1,388)"
    },
    "added": false,
-   "note": "IFRS 16 / Ind AS 116 lease principal in financing; noted, not added (0.3% of paidOut)."
+   "note": "Ind AS 116 lease principal in financing; noted, not added (0.5% of paidOut)."
   }
  },
- "paidOut": 145.808,
- "paidOutFormula": "147,557 − 29,539 + 19,316 (16,805 PP&E + 2,511 intangibles) + 8,474 (interest paid, financing) = 145,808 ₹ million",
+ "paidOut": 177.101,
+ "paidOutFormula": "169,270 − 19,940 + 19,117 (17,979 PP&E + 1,138 intangibles) + 8,654 (interest paid, financing) = 177,101 ₹ million",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
@@ -115,6 +115,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Converted from the pilot (_pilot.json), where Biocon's own 'economic value distributed' cross-check was done: the revenue − OCF − taxes-paid bucket matched its accrual operating-plus-employee costs within 0.5%. Ind AS consolidated cash-flow statement: income taxes paid sit in operating (not added); interest paid sits in financing (added); interest received (1,446) is in investing, so no interest/dividend income inflates OCF. Revenue is revenue from operations; other income (8,655) is excluded. Excise not applicable.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended March 31, 2026 (Integrated Annual Report FY 2026). Method follows the pilot (_pilot.json), where Biocon's own 'economic value distributed' cross-check matched within 0.5%. Ind AS consolidated cash-flow statement: income taxes paid sit in operating (not added); interest paid sits in financing (added); interest received (1,480) is in investing, so no interest/dividend income inflates OCF. Revenue is revenue from operations; other income (3,425) is excluded. Excise not applicable. OCF fell to 19,940 from 40,612 in FY25, mainly on working capital (inventories −9,178, other assets −6,471).",
+ "researchedAt": "2026-11-24"
 }

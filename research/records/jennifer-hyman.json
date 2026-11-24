@@ -1,70 +1,71 @@
 {
   "id": "jennifer-hyman",
   "company": "Rent the Runway",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2025-01-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2026-01-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-05-13",
+    "asOf": "2026-05-20",
     "leader": {
       "name": "Jennifer Hyman",
       "relation": "co-founder",
       "status": "holds",
-      "pctEconomic": 3.6,
+      "pctEconomic": null,
       "pctVoting": null,
       "derived": null,
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000114036125020175/ny20043016x1_def14a.htm",
-        "label": "2025 proxy statement (annual meeting July 8, 2025), Security Ownership of Certain Beneficial Owners, Directors, and Management (pp. 38-40)",
-        "quote": "Applicable percentage ownership is based on 3,866,254 shares of Class A common stock and 155,634 shares of Class B common stock outstanding on May 13, 2025. ... Class A Class B Total ... Jennifer Hyman(3) 81,818 2.1% 63,996 41.1% 3.6%"
-      }
+        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000114036126023446/ny20064283x2_def14a.htm",
+        "label": "2026 proxy statement (annual meeting July 14, 2026), Security Ownership of Certain Beneficial Owners, Directors, and Management",
+        "quote": "Applicable percentage ownership is based on 33,483,382 shares of Class A common stock outstanding on May 20, 2026. ... Jennifer Hyman (2) 250,159 * ... * Represents beneficial ownership of less than 1%. ... (2) Includes: (i) 140,957 shares of Class A common stock held by Ms. Hyman; (ii) 6,155 shares of Class A common stock held by Ms. Hyman's spouse; and (iii) 103,047 RSUs"
+      },
+      "shares": 250159
     },
     "largestHolders": [
       {
-        "name": "Entities affiliated with Bain Capital Ventures",
-        "type": "asset-manager",
-        "pctEconomic": 10.6,
-        "asOf": null,
-        "source": {
-          "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1468327/000114036125020175/ny20043016x1_def14a.htm",
-          "label": "2025 proxy statement (annual meeting July 8, 2025), Security Ownership of Certain Beneficial Owners, Directors, and Management (pp. 38-40)",
-          "quote": "Entities affiliated with Bain Capital Ventures(14) 408,820 10.6% — — 10.6% ... (14) Based on a Schedule 13G filed with the SEC on February 14, 2022."
-        }
-      },
-      {
-        "name": "Yisroel Mordechai Goldstone",
+        "name": "CHS US Investments LLC",
         "type": "other",
-        "pctEconomic": 8.7,
+        "pctEconomic": 59.7,
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1468327/000114036125020175/ny20043016x1_def14a.htm",
-          "label": "2025 proxy statement (annual meeting July 8, 2025), Security Ownership of Certain Beneficial Owners, Directors, and Management (pp. 38-40)",
-          "quote": "Yisroel Mordechai Goldstone(15) 336,082 8.7% — — 8.7% ... (15) Based on a Schedule 13D/A filed with the SEC on March 6, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/1468327/000114036126023446/ny20064283x2_def14a.htm",
+          "label": "2026 proxy statement (annual meeting July 14, 2026), Security Ownership of Certain Beneficial Owners, Directors, and Management",
+          "quote": "Applicable percentage ownership is based on 33,483,382 shares of Class A common stock outstanding on May 20, 2026. ... CHS US Investments LLC (10) 19,983,656 59.7% ... (10) Based on a Schedule 13D/A filed with the SEC on May 13, 2026."
         }
       },
       {
-        "name": "Entities affiliated with Highland Capital",
-        "type": "asset-manager",
-        "pctEconomic": 6.6,
+        "name": "Gateway Runway LLC (Nexus Capital Management funds)",
+        "type": "other",
+        "pctEconomic": 12.8,
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1468327/000114036125020175/ny20043016x1_def14a.htm",
-          "label": "2025 proxy statement (annual meeting July 8, 2025), Security Ownership of Certain Beneficial Owners, Directors, and Management (pp. 38-40)",
-          "quote": "Entities affiliated with Highland Capital(16) 255,218 6.6% — — 6.6% ... (16) Based on a Schedule 13G/A filed with the SEC on February 14, 2025"
+          "url": "https://www.sec.gov/Archives/edgar/data/1468327/000114036126023446/ny20064283x2_def14a.htm",
+          "label": "2026 proxy statement (annual meeting July 14, 2026), Security Ownership of Certain Beneficial Owners, Directors, and Management",
+          "quote": "Applicable percentage ownership is based on 33,483,382 shares of Class A common stock outstanding on May 20, 2026. ... Gateway Runway LLC (11) 4,274,394 12.8% ... (11) Based on a Schedule 13D/A filed with the SEC on May 13, 2026."
+        }
+      },
+      {
+        "name": "S3 RR Aggregator LLC (STORY3 Capital Partners funds)",
+        "type": "other",
+        "pctEconomic": 12.8,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1468327/000114036126023446/ny20064283x2_def14a.htm",
+          "label": "2026 proxy statement (annual meeting July 14, 2026), Security Ownership of Certain Beneficial Owners, Directors, and Management",
+          "quote": "Applicable percentage ownership is based on 33,483,382 shares of Class A common stock outstanding on May 20, 2026. ... S3 RR Aggregator LLC (12) 4,274,394 12.8% ... (6) Held directly by S3 RR Aggregator LLC (\"S3 RR\"). S3 RR is jointly owned by funds managed by STORY3 Capital Partners, LLC"
         }
       }
     ],
     "structure": {
-      "dualClass": true,
-      "controlled": false,
-      "note": "Two classes: 3,866,254 Class A shares (1 vote each) and 155,634 Class B shares (20 votes each) on May 13, 2025. Jennifer Hyman holds 41.1% of Class B and co-founder Jennifer Fleiss 20.1%. The 10-K says Class B holders 'collectively' control matters put to stockholders, but no single person or entity is shown with more than 50% of votes. Hyman's figures include 6,155 Class B shares held by her spouse and 10,521 RSUs vesting within 60 days."
+      "dualClass": false,
+      "controlled": true,
+      "note": "One class of common stock since the Recapitalization Transactions of October 28, 2025: the lender, CHS US Investments LLC, contributed its remaining debt in exchange for 26,175,193 new Class A shares, and all Class B shares were converted into Class A one-for-one, so no Class B remain (stockholders eliminated the authorized Class B and preferred shares in July 2026). CHS US Investments holds 59.7% and the 10-K says the company is a 'controlled company' under Nasdaq rules; the two other members of the lender group, Gateway Runway (Nexus) and S3 RR Aggregator (STORY3), hold 12.8% each."
     }
   },
   "cash": {
@@ -72,8 +73,8 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832725000056/wdq-20250131.htm",
-        "label": "Fiscal 2024 Form 10-K, Item 5 Dividend Policy",
+        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm",
+        "label": "Fiscal 2025 Form 10-K, Item 5 Dividend Policy",
         "quote": "We have never declared or paid any cash dividends on our capital stock."
       }
     },
@@ -81,31 +82,31 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832725000056/wdq-20250131.htm",
-        "label": "Fiscal 2024 Form 10-K, Liquidity and Capital Resources, cash flows",
-        "quote": "During the year ended January 31, 2025, net cash provided by financing activities was $(0.3) million, consisting of other financing payments."
+        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm",
+        "label": "Fiscal 2025 Form 10-K, consolidated statements of cash flows (financing activities)",
+        "quote": "FINANCING ACTIVITIES Proceeds from issuance of common stock 12.5 - - Proceeds from long-term debt 20.0 - - Debt restructuring costs paid ( 11.8 ) - - Deferred financing costs paid ( 0.4 ) - - Deferred equity issuance costs paid ( 0.4 ) - - Proceeds from short-term financing agreements 1.1 2.0 1.6 Other financing payments ( 2.4 ) ( 2.3 ) ( 0.9 ) [in millions]"
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.01,
+      "value": 0.0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832725000056/wdq-20250131.htm",
-        "label": "Fiscal 2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Share-based compensation expense 9.7 26.2 25.4 [in millions, fiscal years ended January 31, 2025, 2024, 2023]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm",
+        "label": "Fiscal 2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Share-based compensation expense 4.2 9.7 26.2 [in millions, fiscal years ended January 31, 2026, 2025, 2024]",
         "xbrl": {
           "cik": "0001468327",
           "concept": "us-gaap:AllocatedShareBasedCompensationExpense",
-          "end": "2025-01-31",
-          "value": 9700000
+          "end": "2026-01-31",
+          "value": 4200000
         }
       }
     },
     "plan": null
   },
   "geography": null,
-  "notes": "Fiscal year 2024 ended January 31, 2025 (Rent the Runway's own label; matches data.js fy 'Jan 2025'). Filings: Fiscal 2024 Form 10-K (accession 0001468327-25-000056) and the proxy for the July 8, 2025 annual meeting (accession 0001140361-25-020175), both read on www.sec.gov; share counts reflect the 2024 reverse stock split. A later proxy (September 2025, for a special meeting) was not used. OWNERSHIP BASIS: the proxy's unlabeled 'Total' column is used as the economic percentage. For Hyman (3.6%) and the officer group (8.5%) it matches holdings over all Class A and Class B shares. For the Class A-only holders it repeats the Class A percentage (Bain 10.6%), which is slightly above their share of both classes combined. The figures are recorded as printed and not recomputed. pctVoting is null because no voting-power percentage is stated. The holder filings are old (Bain's 13G is from February 2022), so asOf is null. CASH: no dividends have ever been paid. Financing cash flows were only $2.0 million of short-term financing proceeds and $(2.3) million of other financing payments, with no repurchase line, so buybacks are 0. STOCK COMP: $9.7 million, shown as 0.01 billion after rounding. GEOGRAPHY is null: the 10-K reports no geographic revenue split and says 'We do not currently offer our products and services internationally', so all revenue ($306.2 million) is U.S.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year 2025 ended January 31, 2026 (Rent the Runway's own label). Filings: Fiscal 2025 Form 10-K (accession 0001468327-26-000020, filed April 14, 2026) and the proxy for the July 14, 2026 annual meeting (accession 0001140361-26-023446), both read on www.sec.gov. ROSTER: On October 28, 2025 the company completed Recapitalization Transactions in which its lender, CHS US Investments LLC, exchanged debt for 26,175,193 new Class A shares and all Class B shares converted into Class A, leaving CHS with a controlling 59.7%. Jennifer Hyman resigned as Chief Executive Officer and President and from the Board effective May 15, 2026 (proxy); Teri Bariquit served as interim CEO, and Paige Thomas became CEO on September 14, 2026 (Form 10-Q for the quarter ended July 31, 2026). LEADER: the proxy, dated after her resignation, still lists Hyman with 250,159 Class A shares (including 6,155 held by her spouse and 103,047 RSUs vesting within 60 days of May 20, 2026), marked * (less than 1%), so pctEconomic is null; relation stays 'co-founder'. HOLDERS: the three lender-group holders are shown as printed (percent of Class A, the only class); the proxy gives only the Schedule 13D/A filing date (May 13, 2026), so asOf is null. The earlier holders (Bain Capital Ventures, Yisroel Mordechai Goldstone, Highland Capital) no longer appear in the 5% table. CASH: no dividends have ever been paid, and the financing section has no repurchase line (quoted), so buybacks are 0; the $12.5 million of stock issued and the $107.6 million non-cash change in common stock from the debt restructuring are issuance, not buybacks. STOCK COMP: $4.2 million, shown as 0.00 billion after rounding. GEOGRAPHY is null: the 10-K says 'All revenue is currently generated in the United States', so all revenue ($329.8 million) is U.S.",
+  "researchedAt": "2026-11-24"
 }

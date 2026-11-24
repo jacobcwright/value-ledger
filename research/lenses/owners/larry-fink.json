@@ -2,48 +2,48 @@
   "id": "larry-fink",
   "company": "BlackRock",
   "nbim": {
-    "pct": 1.46,
-    "marketValueUSD": 2.325,
-    "asOf": "2024-12-31",
+    "pct": 1.45,
+    "marketValueUSD": 2.275,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"5t5y6q1wdneo\",\"cc\":\"US\",\"n\":\"Blackrock Inc\",\"a\":{\"e\":2325066343,\"n\":26406592225},\"at\":0,\"o\":1.46,\"eq\":{\"vid\":\"BLK\",\"v\":1.46,\"s\":\"Financials\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"5t5y6q1wdneo\",\"cc\":\"US\",\"n\":\"Blackrock Inc\",\"a\":{\"e\":2275396160,\"n\":22516182702},\"at\":0,\"o\":1.45,\"eq\":{\"vid\":\"BLK\",\"v\":1.45,\"s\":\"Financials\"}}"
     }
   },
   "calpers": {
-    "shares": 242919,
-    "asOf": "2024-12-31",
+    "shares": 255223,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "BLACKROCK INC COM 09290D101 249018696 242919"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "BLACKROCK INC COM 09290D101 270099949 255223"
     },
     "derived": {
-      "pct": 0.156,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.165,
+      "method": "CalPERS shares ÷ common shares outstanding (255,223 ÷ 154,423,421)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "As of January 31, 2025 , there were 155,253,443 shares of the registrant's common stock outstanding."
+          "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526447043/blk-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+          "quote": "As of October 31, 2026 , there were 154,423,421 shares of the registrant's common stock outstanding"
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 203,
-    "asOf": "2025-01-31",
+    "count": 216,
+    "asOf": "2026-01-31",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "At the close of business on January 31, 2025, there were 203 common stockholders of record."
+      "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "At the close of business on January 31, 2026, there were 216 common stockholders of record."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Blackrock Inc;Financials;26406592225;2325066343;1.46%;1.46%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the common shares on the Q3 2026 10-Q cover (October 31, 2026), the same count used in the marketcap lens; the Subco units are left out of the denominator.",
+  "researchedAt": "2026-11-24"
 }

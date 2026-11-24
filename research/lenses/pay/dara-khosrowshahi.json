@@ -1,0 +1,31 @@
+{
+  "id": "dara-khosrowshahi",
+  "company": "Uber",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 34000,
+    "asOf": "2025-12-31",
+    "basis": "approximately 34,000 employees globally (Uber and its subsidiaries)",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital at Uber",
+      "quote": "as of December 31, 2025, we and our subsidiaries had approximately 34,000 employees globally and operations in over 70 countries"
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Annual total compensation for the median employee (excluding our CEO), fiscal year 2025",
+    "value": 98826,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000125/uber014597-def14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "For fiscal year 2025, the annual total compensation for the median employee (excluding our CEO) was $98,826 and annual total compensation of our CEO was $35,595,826."
+    }
+  },
+  "notes": "Employees: approximate year-end count from the FY2025 10-K; drivers and couriers are independent platform users, not employees. Payroll: the FY2025 10-K discloses no total staff cost, so the proxy's CEO pay ratio median for fiscal 2025 is used (CEO pay ratio 360 to 1). The median was identified from 33,354 employees at November 1, 2025, about 99% full-time, excluding about 450 employees who joined through the DanTaxi, Trendyol Go and Segments.ai acquisitions; compensation was converted to U.S. dollars at the exchange rate on that date.",
+  "researchedAt": "2026-11-24"
+}

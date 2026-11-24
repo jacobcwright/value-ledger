@@ -1,0 +1,31 @@
+{
+  "id": "john-warnock",
+  "company": "Adobe",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-11-28",
+  "currency": "USD",
+  "employees": {
+    "value": 31360,
+    "asOf": "2025-11-28",
+    "basis": "people employed",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+      "label": "FY2025 Form 10-K, Item 1, Human Capital",
+      "quote": "As of November 28, 2025, we employed 31,360 people, of which 50% were in the United States and 50% were in our international locations."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "annual total compensation of our median compensated employee",
+    "value": 235989,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000043/adbe-20260227.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "The fiscal year 2025 annual total compensation of our CEO was $51,173,935 and the annual total compensation of our median compensated employee was $235,989"
+    }
+  },
+  "notes": "Employees: year-end count from the FY2025 10-K (people employed at November 28, 2025). Payroll: the 10-K gives no total of salaries and benefits, so the CEO pay ratio disclosure's fiscal 2025 median employee pay is used.",
+  "researchedAt": "2026-11-24"
+}

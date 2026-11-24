@@ -1,0 +1,31 @@
+{
+  "id": "indra-nooyi",
+  "company": "PepsiCo",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-27",
+  "currency": "USD",
+  "employees": {
+    "value": 306000,
+    "asOf": "2025-12-27",
+    "basis": "approximately 306,000 people worldwide",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "We employed approximately 306,000 people worldwide as of December 27, 2025, including approximately 125,000 people within the United States."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "The median employee’s total compensation",
+    "value": 53296,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/77476/000130817926000169/pep015012_def14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "The median employee’s total compensation was $53,296. ■ The total compensation was calculated in the same manner in which we determine the compensation shown for our NEOs in the Summary Compensation Table, including the value of retirement benefits."
+    }
+  },
+  "notes": "Employees: approximate year-end count from the FY2025 10-K. Payroll: the 10-K discloses no total staff cost, so the 2026 proxy's CEO pay ratio median for 2025 (the last completed fiscal year) is used; it includes the value of retirement benefits, and PepsiCo notes that employees in 79 countries and currency movements affect it.",
+  "researchedAt": "2026-11-24"
+}

@@ -2,54 +2,54 @@
   "id": "david-baszucki",
   "company": "Roblox",
   "nbim": {
-    "pct": 0.42,
-    "marketValueUSD": 0.161,
-    "asOf": "2024-12-31",
+    "pct": 0.73,
+    "marketValueUSD": 0.283,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"4syfvznla7u0\",\"cc\":\"US\",\"n\":\"ROBLOX Corp\",\"a\":{\"e\":161026579,\"n\":1828835213},\"at\":0,\"o\":0.42,\"eq\":{\"vid\":\"RBLX\",\"v\":0.18,\"s\":\"Consumer Discretionary\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"4syfvznla7u0\",\"cc\":\"US\",\"n\":\"ROBLOX Corp\",\"a\":{\"e\":283350525,\"n\":2803895117},\"at\":0,\"o\":0.73,\"eq\":{\"vid\":\"RBLX\",\"v\":0.32,\"s\":\"Consumer Discretionary\"}}"
     }
   },
   "calpers": {
-    "shares": 803641,
-    "asOf": "2024-12-31",
+    "shares": 731488,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "ROBLOX CORP CL A 771049103 46498668 803641"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "ROBLOX CORP CL A 771049103 30993147 731488"
     },
     "derived": {
-      "pct": 0.12,
-      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "pct": 0.102,
+      "method": "CalPERS shares ÷ shares outstanding, all classes (731,488 ÷ (671,330,395 Class A + 44,382,953 Class B) = 731,488 ÷ 715,713,348)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "As of February 3, 2025, the Registrant had 618,997,327 shares of Class A common stock and 48,302,658 of Class B common stock, each with a par value of $0.0001 per share, outstanding."
+          "url": "https://www.sec.gov/Archives/edgar/data/1315098/000162828026068253/rblx-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+          "quote": "As of October 15, 2026, the registrant had approximately 671,330,395 shares of Class A common stock and 44,382,953 shares of Class B common stock outstanding, each with a par value of $0.0001 per share."
         },
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
-          "label": "FY2024 Form 10-K, share class rights",
-          "quote": "Holders of Class A common stock and Class B common stock are entitled to dividends on a pro rata basis, when, as, and if declared by the Company's Board of Directors, subject to the rights of the holders of the Company's convertible preferred stock."
+          "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm",
+          "label": "FY2025 Form 10-K, Note 10 Stockholders' Equity, share class rights",
+          "quote": "Holders of Class A common stock and Class B common stock are entitled to dividends on a pro rata basis, when, as, and if declared by the Company's Board of Directors"
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 1689,
-    "asOf": "2025-02-03",
+    "count": 1556,
+    "asOf": "2026-01-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of February 3, 2025, there were 1,689 stockholders of record of our Class A common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of January 30, 2026, there were 1,556 stockholders of record of our Class A common stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;ROBLOX Corp;Consumer Discretionary;1828835213;161026579;0.18%;0.42%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds Class A; denominator is Class A plus Class B. Holders of record: Class A only.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS holds Class A; the denominator is Class A plus Class B from the Q3 2026 10-Q cover at October 15, 2026 (stated as approximate), the same count used in the marketcap lens. Holders of record: listed Class A only.",
+  "researchedAt": "2026-11-24"
 }

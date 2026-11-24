@@ -1,9 +1,11 @@
+// Net sales by country, FY2025 Form 10-K, Note 10 (USD billions).
+const amazonSalesYear = 2025;
 const amazonMarkets = [
-  {id:"US",name:"United States",lat:39,lon:-98,sales:438.015},
-  {id:"DE",name:"Germany",lat:51,lon:10.2,sales:40.856},
-  {id:"GB",name:"United Kingdom",lat:53.5,lon:-2.4,sales:37.855},
-  {id:"JP",name:"Japan",lat:36.5,lon:138,sales:27.401},
-  {id:"other",name:"Other markets",sales:93.832}
+  {id:"US",name:"United States",lat:39,lon:-98,sales:489.657},
+  {id:"DE",name:"Germany",lat:51,lon:10.2,sales:45.900},
+  {id:"GB",name:"United Kingdom",lat:53.5,lon:-2.4,sales:43.212},
+  {id:"JP",name:"Japan",lat:36.5,lon:138,sales:30.688},
+  {id:"other",name:"Other markets",sales:107.467}
 ];
 // Every site is one blue pin (--globe-pin); its type is told in words, in the row and the legend.
 const amazonSiteTypes = {
@@ -51,7 +53,7 @@ const amazonSites = [
   {
     name:"Tilbury fulfillment center",place:"Essex, UK",country:"GB",lat:51.46,lon:0.38,type:"fulfillment",
     metric:"2M sq ft",basis:"Operating space reported in 2020",
-    description:"The robotics warehouse opened in 2017 and prepares customer orders for shipment.",
+    description:"The robotics warehouse prepares customer orders for shipment. In 2020 it became the site of Amazon’s largest rooftop solar installation in Europe.",
     url:"https://www.aboutamazon.co.uk/news/sustainability/amazon-unveils-its-largest-fulfilment-centre-solar-panel-installation-in-europe"
   },
   {
@@ -106,7 +108,7 @@ function amazonFootprint() {
         <div class="amazon-map-heading">
           <p class="amazon-map-kicker">Reach</p>
           <h3 id="amazon-footprint-title">Where Amazon creates value</h3>
-          <p class="amazon-map-lede"><span id="amazon-layer-description">Amazon’s 2024 net sales by market</span></p>
+          <p class="amazon-map-lede"><span id="amazon-layer-description">Amazon’s ${amazonSalesYear} net sales by market</span></p>
           <p class="amazon-map-takeaway" id="amazon-layer-takeaway"></p>
         </div>
         <div class="amazon-map-switch" role="group" aria-label="Globe layer" style="--active:0">
@@ -131,7 +133,7 @@ function amazonFootprint() {
       ${typeof amazonStatesView === "function" ? amazonStatesView() : '<div id="amazon-states-view" class="amazon-states-view" hidden></div>'}
       <footer class="amazon-map-notes">
         <p id="amazon-map-note">Sales are by country storefront, or by selling entity for AWS. Other markets are grouped in Amazon’s filing.</p>
-        <div id="amazon-map-source" class="amazon-map-source">${externalLink(amazonSources.annual,"2024 annual report, Note 10")}</div>
+        <div id="amazon-map-source" class="amazon-map-source">${externalLink(amazonSources.annual,`${amazonSalesYear} annual report, Note 10`)}</div>
       </footer>
     </section>`;
 }
@@ -190,10 +192,10 @@ function amazonBindFootprint(root, initialLayer) {
     if (layer === "markets") {
       const share = amazonShare(item.sales);
       const color = marketHeat[item.id]?.color || marketOtherColor;
-      detail.innerHTML = `<p class="amazon-detail-kicker"><i aria-hidden="true" style="--dot:${color}"></i>2024 net sales</p>
+      detail.innerHTML = `<p class="amazon-detail-kicker"><i aria-hidden="true" style="--dot:${color}"></i>${amazonSalesYear} net sales</p>
         <h4>${item.name}</h4><strong>${compactMoney(item.sales)}</strong>
         <span class="amazon-detail-share" aria-hidden="true" style="--share:${share}%;--dot:${color}"><span></span></span>
-        <p>${decimal.format(share)}% of Amazon’s 2024 net sales.</p>
+        <p>${decimal.format(share)}% of Amazon’s ${amazonSalesYear} net sales.</p>
           <div class="amazon-detail-actions">
           ${item.id === "US" ? `<button type="button" class="map-scope-link" data-open-states>Explore all ${amazonStateData.length} states</button>` : ""}
           <button type="button" class="map-scope-link" data-sites-in="${item.id}">Explore sites in ${item.id === "other" ? "other markets" : "this market"}</button>
@@ -224,7 +226,7 @@ function amazonBindFootprint(root, initialLayer) {
   function setTakeaway(scope, scopeName) {
     if (layer === "markets") {
       const outside = amazonMarkets.filter(market => market.id !== "US").reduce((sum,market) => sum + market.sales,0);
-      takeaway.innerHTML = `<b>${compactMoney(amazonSalesTotal)}</b> in 2024 net sales, with <b>${decimal.format(amazonShare(outside))}%</b> from markets outside the United States.`;
+      takeaway.innerHTML = `<b>${compactMoney(amazonSalesTotal)}</b> in ${amazonSalesYear} net sales, with <b>${decimal.format(amazonShare(outside))}%</b> from markets outside the United States.`;
     } else if (layer === "states") {
       const key = root.querySelector("#amazon-state-metric")?.value || "gdp";
       const measure = stateMeasures[key];
@@ -262,12 +264,12 @@ function amazonBindFootprint(root, initialLayer) {
       (!scope.country || site.country === scope.country) && (!scope.state || site.state === scope.state)
     ));
     const scopeName = scope.state ? amazonStateData.find(state => state.id === scope.state).name : amazonMarkets.find(market => market.id === scope.country)?.name;
-    byId("amazon-layer-description").textContent = isMarket ? "Amazon’s 2024 net sales by market" : "Selected warehouses, cloud regions, and offices";
+    byId("amazon-layer-description").textContent = isMarket ? `Amazon’s ${amazonSalesYear} net sales by market` : "Selected warehouses, cloud regions, and offices";
     setTakeaway(scope,scopeName);
     const mapped = amazonMarkets.filter(market => marketHeat[market.id]);
     const low = Math.min(...mapped.map(market => market.sales)), high = Math.max(...mapped.map(market => market.sales));
     byId("amazon-legend").innerHTML = isMarket
-      ? `<span class="amazon-legend-title">2024 net sales</span><span class="amazon-legend-key"><span class="amazon-heat-scale"></span>
+      ? `<span class="amazon-legend-title">${amazonSalesYear} net sales</span><span class="amazon-legend-key"><span class="amazon-heat-scale"></span>
         <span class="amazon-legend-range"><span>${compactMoney(low)}</span><span>${compactMoney(high)}</span></span></span>`
       : `<span class="amazon-legend-title">Site type</span>` + Object.entries(amazonSiteTypes).map(([key,type]) => {
           const count = entries.filter(site => site.type === key).length;
@@ -276,8 +278,8 @@ function amazonBindFootprint(root, initialLayer) {
     note.textContent = isMarket
       ? "Sales are by country storefront, or by selling entity for AWS. Other markets are grouped in Amazon’s filing."
       : "Each site shows the measure Amazon disclosed, such as capacity, jobs or investment; dates and scopes differ.";
-    source.innerHTML = isMarket ? externalLink(amazonSources.annual,"2024 annual report, Note 10") : "";
-    list.setAttribute("aria-label",isMarket ? "Markets by 2024 net sales" : scopeName ? `Selected sites in ${scopeName}` : "Selected sites");
+    source.innerHTML = isMarket ? externalLink(amazonSources.annual,`${amazonSalesYear} annual report, Note 10`) : "";
+    list.setAttribute("aria-label",isMarket ? `Markets by ${amazonSalesYear} net sales` : scopeName ? `Selected sites in ${scopeName}` : "Selected sites");
     list.classList.toggle("is-markets",isMarket);
     list.classList.toggle("is-ranked",isMarket);
     current = -1;

@@ -4,7 +4,13 @@
     "matches": [
       "The Vanguard Group",
       "The Vanguard Group, Inc.",
-      "Vanguard Group, Inc."
+      "Vanguard Group, Inc.",
+      "Vanguard Capital Management LLC",
+      "Vanguard Capital Management, LLC",
+      "Vanguard Portfolio Management LLC",
+      "Vanguard Portfolio Management, LLC",
+      "Vanguard Capital Management",
+      "Vanguard Portfolio Management"
     ],
     "investsFor": "more than 50 million investors",
     "source": {
@@ -65,7 +71,8 @@
     "matches": [
       "Capital Group",
       "Capital Research Global Investors",
-      "The Capital Group Companies, Inc."
+      "The Capital Group Companies, Inc.",
+      "Capital World Investors"
     ],
     "investsFor": "millions of households around the world",
     "source": {

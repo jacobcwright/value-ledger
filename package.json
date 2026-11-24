@@ -3,9 +3,10 @@
   "private": true,
   "scripts": {
     "dev": "npm run build && npx --yes serve dist -l 8790",
-    "build:companies": "node scripts/check-values.mjs && node scripts/build-companies.mjs",
+    "build:companies": "node scripts/check-values.mjs && node scripts/build-edition.mjs --strict && node scripts/build-companies.mjs",
     "check": "node scripts/check-site.mjs",
-    "build": "npm run build:companies && npm run check"
+    "build": "npm run build:companies && npm run check",
+    "refresh:prices": "node scripts/refresh-prices.mjs $(node -p \"require('./research/edition.json').pricesAsOf\") $(node -p \"require('./research/edition.json').h10Release\")"
   },
   "engines": {
     "node": ">=22"

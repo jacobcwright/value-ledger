@@ -1,117 +1,117 @@
 {
   "id": "jack-dorsey",
   "company": "Block",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "sector": "payments",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 24.121053,
-      "stated": 24121053,
+      "value": 24.193683,
+      "stated": 24193683,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statement of operations (in thousands)",
-        "quote": "Bitcoin revenue 10,199,205 9,498,302 7,112,856 Total net revenue 24,121,053 21,915,623 17,531,587",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of operations (in thousands)",
+        "quote": "Bitcoin ecosystem revenue 8,502,787 10,357,783 9,668,322 Total net revenue 24,193,683 24,121,053 21,915,623",
         "xbrl": {
           "cik": "0001512673",
           "concept": "us-gaap:Revenues",
-          "end": "2024-12-31",
-          "value": 24121053000
+          "end": "2025-12-31",
+          "value": 24193683000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 1.70735,
-      "stated": 1707350,
+      "value": 2.579714,
+      "stated": 2579714,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
-        "quote": "Net cash provided by operating activities 1,707,350 100,961 175,903",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of cash flows (in thousands)",
+        "quote": "Net cash provided by operating activities 2,579,714 1,707,350 100,961",
         "xbrl": {
           "cik": "0001512673",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": 1707350000
+          "end": "2025-12-31",
+          "value": 2579714000
         }
       }
     },
     "capex": {
-      "value": 0.153947,
+      "value": 0.155038,
       "components": [
-        "PP&E 0.153947"
+        "PP&E 0.155038"
       ],
-      "stated": 153947,
+      "stated": 155038,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
-        "quote": "Purchases of property and equipment ( 153,947 ) ( 151,151 ) ( 170,815 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of cash flows (in thousands)",
+        "quote": "Purchases of property and equipment ( 155,038 ) ( 153,947 ) ( 151,151 )",
         "xbrl": {
           "cik": "0001512673",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-12-31",
-          "value": 153947000
+          "end": "2025-12-31",
+          "value": 155038000
         }
       }
     },
     "interestPaid": {
-      "value": 0.205776,
-      "stated": 205776,
+      "value": 0.246331,
       "inOCF": true,
+      "stated": 246331,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
-        "quote": "Cash paid for interest $ 205,776 $ 130,009 $ 84,876 Cash paid for income taxes 270,314 81,376 39,045",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 21 Supplemental Cash Flow Information (in thousands)",
+        "quote": "Cash paid for interest $ 246,331 $ 205,776 $ 130,009",
         "xbrl": {
           "cik": "0001512673",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-12-31",
-          "value": 205776000
+          "end": "2025-12-31",
+          "value": 246331000
         }
       }
     },
     "taxesPaid": {
-      "value": 0.270314,
-      "stated": 270314,
+      "value": 0.12939,
       "inOCF": true,
+      "stated": 129390,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
-        "quote": "Cash paid for interest $ 205,776 $ 130,009 $ 84,876 Cash paid for income taxes 270,314 81,376 39,045",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 15 Income Taxes, income taxes paid (in thousands)",
+        "quote": "The following is a summary of income taxes paid for the year ended December 31, 2025 (in thousands): ... Federal $ 35,000 ... Total income taxes, net of amounts refunded $ 129,390",
         "xbrl": {
           "cik": "0001512673",
           "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 270314000
+          "end": "2025-12-31",
+          "value": 129390000
         }
       }
     },
     "financeReceivablesChangeInOCF": {
-      "value": 0.797469,
-      "stated": 797469,
+      "value": 0.05729,
+      "stated": 57290,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
-        "quote": "Purchases and originations of loans ( 15,210,746 ) ( 8,586,293 ) ( 6,114,847 ) Proceeds from payments and forgiveness of loans 14,413,277 8,032,687 6,040,369"
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of cash flows (in thousands)",
+        "quote": "Purchases and originations of loans originally classified as held for sale ( 14,191,399 ) ( 15,210,746 ) ( 8,586,293 ) Proceeds from repayments of loans originally classified as held for sale 14,248,689 14,413,277 8,032,687"
       },
-      "effectOnOCF": "lowers",
-      "note": "Loan originations (−15,210,746) and repayments (+14,413,277), net −797,469, sit in operating cash flow; consumer receivables are in investing. Settlement and customer-payable swings (+1,947,849 and −1,853,872) are also inside operating cash flow.",
-      "derivation": "net of 15,210,746 and 14,413,277",
+      "effectOnOCF": "raises",
+      "note": "Originations of loans originally classified as held for sale (−14,191,399) and repayments (+14,248,689), net +57,290, sit in operating cash flow. From 2025, loans originally classified as held for investment (originations −17,629,689, repayments +14,080,787), mainly Cash App Borrow, and consumer receivables are in investing, so they do not affect OCF. Settlement and customer-payable swings (−487,316 and +373,925) are also inside operating cash flow.",
+      "derivation": "net of 14,191,399 and 14,248,689",
       "computedFrom": [
-        "15,210,746 − 14,413,277 (÷1,000,000)"
+        "14,248,689 − 14,191,399 (÷1,000,000), a net inflow"
       ]
     }
   },
-  "paidOut": 22.56765,
-  "paidOutFormula": "revenue 24,121,053 − operating cash flow 1,707,350 + capex 153,947 (USD thousands, as stated)",
+  "paidOut": 21.769007,
+  "paidOutFormula": "revenue 24,193,683 − operating cash flow 2,579,714 + capex 155,038 (USD thousands, as stated)",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -120,6 +120,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Payments company: formula with the sector flag. Revenue includes bitcoin revenue of 10,199,205 recorded gross, so the cost of the bitcoin sold counts in paidOut.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001628280-26-012254). Payments company: formula with the sector flag. Revenue includes bitcoin ecosystem revenue of 8,502,787 thousand recorded gross, so the cost of the bitcoin sold counts in paidOut. Interest and income taxes paid are inside operating cash flow; income taxes paid are from the income-tax note's table by jurisdiction (net of refunds). The held-for-sale loan flows inside OCF were a small net inflow in 2025, so the financeReceivablesInOCF bias is minor this year.",
+  "researchedAt": "2026-11-24"
 }

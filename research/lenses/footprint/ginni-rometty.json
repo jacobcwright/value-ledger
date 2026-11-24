@@ -15,8 +15,8 @@
       "description": "IBM's corporate headquarters are located at an owned site in Armonk, New York.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2 Properties",
         "quote": "IBM ’s corporate headquarters are located at an owned site in Armonk, New York."
       }
     },
@@ -35,6 +35,6 @@
       }
     }
   ],
-  "notes": "IBM publishes no employee, facility or tax figures by state, country or region in its FY2024 10-K or annual report. Item 2 gives only floor space: about 41 million square feet worldwide, about 17 million in the U.S. (9 million owned, 8 million leased) and about 24 million outside the U.S. Floor space is not recorded because the lens has no square-feet unit. The 10-K says IBM operates in more than 175 countries and had 270,300 employees at wholly owned subsidiaries. The annual report also mentions the first IBM Quantum Data Center in Europe without naming a location, so it is not listed as a site.",
-  "researchedAt": "2026-11-23"
+  "notes": "IBM publishes no employee, facility or tax figures by state, country or region in its FY2025 10-K or 2025 Annual Report. Item 2 gives only floor space at Dec 31, 2025: about 39 million square feet worldwide, about 17 million in the U.S. (8 million owned, 9 million leased) and about 22 million outside the U.S. (3 million owned, 19 million leased). Floor space is kept in these notes rather than recorded as a metric, because this refresh only updates the measures already in the file. The 10-K says IBM does business in over 175 countries, and the 2025 Annual Report gives 264,300 employees at IBM and wholly owned subsidiaries (plus 8,700 at less-than-wholly owned subsidiaries and a 13,800 complementary workforce) at Dec 31, 2025. The headquarters is re-sourced to the FY2025 10-K. The Poughkeepsie IBM Quantum Data Center is not mentioned in the 2025 Annual Report, so it stays on its 2024 Annual Report source (the report also mentions the first IBM Quantum Data Center in Europe without naming a location, so that is not listed as a site).",
+  "researchedAt": "2026-11-24"
 }

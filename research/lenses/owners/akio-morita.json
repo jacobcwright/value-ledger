@@ -2,18 +2,18 @@
   "id": "akio-morita",
   "company": "Sony",
   "nbim": {
-    "pct": 2.17,
-    "marketValueUSD": 2.862,
-    "asOf": "2024-12-31",
+    "pct": 2.01,
+    "marketValueUSD": 2.422,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"2ngnmb5a4wz4\",\"cc\":\"JP\",\"n\":\"Sony Group Corp\",\"a\":{\"e\":2861984207,\"n\":32504556330},\"at\":0,\"o\":2.17,\"eq\":{\"vid\":\"6758\",\"v\":2.17,\"s\":\"Consumer Discretionary\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"2ngnmb5a4wz4\",\"cc\":\"JP\",\"n\":\"Sony Group Corp\",\"a\":{\"e\":2421744317,\"n\":23964371857},\"at\":0,\"o\":2.01,\"eq\":{\"vid\":\"6758\",\"v\":2.01,\"s\":\"Consumer Discretionary\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": null,
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;Japan;Sony Group Corp;Consumer Discretionary;32504556330;2861984207;2.17%;2.17%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Sony. Holders of record: The FY2025 Form 20-F gives only U.S. counts (4,399 registered ADR holders and 420 registered holders of Common Stock in the U.S. as of March 31, 2025), not a total. Sony's Japanese shareholder documents could not be fetched (sony.com returned HTTP 403).",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: its Form 13F information table for the quarter ended September 30, 2026 lists no shares or ADRs of Sony (searched by issuer name). Holders of record: the FY2026 Form 20-F gives only U.S. counts (4,302 registered ADR holders and 473 registered holders of Common Stock in the U.S. as of March 31, 2026), not a total, so holdersOfRecord is null.",
+  "researchedAt": "2026-11-24"
 }

@@ -5,16 +5,16 @@
     "employees": {
       "label": "Employees (headcount)",
       "unit": "people",
-      "period": "2024 (year-end headcount)",
+      "period": "2025 (year-end headcount)",
       "tier": "company-published",
-      "definition": "Employee headcount, rounded to the nearest hundred; an employee is an individual working full time or part time, excluding interns, certain contingent workers and individuals on long-term disability. Shown only for countries with 50+ employees and 10%+ of employees (U.S. and India). Excludes Recorded Future."
+      "definition": "Employee headcount, rounded to the nearest hundred; an employee is an individual working full time or part time, excluding interns, certain contingent workers and individuals on long-term disability. Shown only for countries with 50+ employees and 10%+ of employees (U.S. and India). Includes Recorded Future from 2025."
     },
     "employeesOutsideShare": {
       "label": "Share of employees outside the U.S.",
       "unit": "percent",
-      "period": "as of December 31, 2024",
+      "period": "as of December 31, 2025",
       "tier": "filing",
-      "definition": "Approximate share of Mastercard's ~35,300 employees employed outside the U.S., in more than 90 countries (10-K human capital section)."
+      "definition": "Approximate share of Mastercard's ~39,800 employees employed outside the U.S., in more than 90 countries (10-K human capital section)."
     }
   },
   "usStates": null,
@@ -23,28 +23,28 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "employees": 11000
+        "employees": 11800
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s25.q4cdn.com/479285134/files/doc_downloads/2025/07/mastercard-impact-report-2024.pdf",
-        "label": "2024 Impact Report, Data tables: Social | Our people, geographical distribution (2024 column first)",
-        "quote": "United States of America employee headcount 11,000 11,100 10,300"
+        "url": "https://s25.q4cdn.com/479285134/files/doc_downloads/2026/07/Mastercard-2025-Impact-Report.pdf",
+        "label": "2025 Impact Report, Data tables: Social | Our people, geographical distribution (2025 column first)",
+        "quote": "United States of America employee headcount 11,800 11,000 11,100"
       }
     },
     {
       "iso2": "IN",
       "name": "India",
       "values": {
-        "employees": 7900
+        "employees": 9200
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s25.q4cdn.com/479285134/files/doc_downloads/2025/07/mastercard-impact-report-2024.pdf",
-        "label": "2024 Impact Report, Data tables: Social | Our people, geographical distribution (2024 column first)",
-        "quote": "India employee headcount 7,900 7,000 6,300"
+        "url": "https://s25.q4cdn.com/479285134/files/doc_downloads/2026/07/Mastercard-2025-Impact-Report.pdf",
+        "label": "2025 Impact Report, Data tables: Social | Our people, geographical distribution (2025 column first)",
+        "quote": "India employee headcount 9,200 7,900 7,000"
       }
     }
   ],
@@ -53,14 +53,14 @@
       "name": "Outside the U.S.",
       "countries": null,
       "values": {
-        "employeesOutsideShare": 69
+        "employeesOutsideShare": 70
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1, Our People",
-        "quote": "As of December 31, 2024, we employed approximately 35,300 persons globally, of which approximately 69% were employed outside of the U.S. in more than 90 countries."
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1, Our People",
+        "quote": "As of December 31, 2025, we employed approximately 39,800 persons globally, of which approximately 70% were employed outside of the U.S. in more than 90 countries."
       }
     }
   ],
@@ -74,9 +74,9 @@
       "description": "Owned corporate headquarters.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
-        "quote": "We own our corporate headquarters, located in Purchase, New York, and our principal technology and operations center, located in O’Fallon, Missouri."
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "We own our corporate headquarters, located in Purchase, New York, and our principal technology and operations center, located in O'Fallon, Missouri."
       }
     },
     {
@@ -88,12 +88,12 @@
       "description": "Owned principal technology and operations center.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
-        "quote": "We own our corporate headquarters, located in Purchase, New York, and our principal technology and operations center, located in O’Fallon, Missouri."
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "We own our corporate headquarters, located in Purchase, New York, and our principal technology and operations center, located in O'Fallon, Missouri."
       }
     }
   ],
-  "notes": "Mastercard publishes no state-by-state or country-by-country economic footprint. Its 2024 Impact Report data tables give headcount only for countries with 50+ employees and 10%+ of the workforce (U.S. 11,000; India 7,900; rounded to the nearest hundred) plus 93 countries with employees outside the U.S. The 10-K gives ~69% of ~35,300 employees outside the U.S. and lists no properties beyond the Purchase, NY headquarters and O'Fallon, MO technology center. No taxes-by-country disclosure was found (the Impact Report describes tax principles only). Revenue by geography is in the records and not repeated.",
-  "researchedAt": "2026-11-23"
+  "notes": "Mastercard publishes no state-by-state or country-by-country economic footprint. Its 2025 Impact Report (published July 2026) data tables give headcount only for countries with 50+ employees and 10%+ of the workforce (U.S. 11,800; India 9,200; rounded to the nearest hundred) plus 97 countries with employees outside the U.S.; from 2025 the figures include Recorded Future, which the 2024 figures excluded. The FY2025 10-K gives ~70% of ~39,800 employees outside the U.S. and lists no properties beyond the Purchase, NY headquarters and O'Fallon, MO technology center. No taxes-by-country disclosure was found. Revenue by geography is in the records and not repeated.",
+  "researchedAt": "2026-11-24"
 }

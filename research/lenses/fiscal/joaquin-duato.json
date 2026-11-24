@@ -1,44 +1,44 @@
 {
   "id": "joaquin-duato",
   "company": "Johnson & Johnson",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-29",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-28",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 6.71,
+      "value": 6.54,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Total cash taxes paid net of refunds $6,714 $8,574 $5,223 (1) Includes TCJA [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+        "label": "FY2025 Form 10-K, Note 8 Income taxes, income taxes paid net of tax refunds",
+        "quote": "Total income taxes paid net of tax refunds $ 6,539 6,714 8,574 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000200406",
           "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-29",
-          "value": 6714000000
+          "end": "2025-12-28",
+          "value": 6539000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 17.23,
+      "value": 14.67,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development expense 17,232 15,085 14,135 In-process research and development [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+        "label": "FY2025 Form 10-K, research and development expense",
+        "quote": "Research and development expense 14,665 17,232 15,085 In-process research and development impairments [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000200406",
           "concept": "us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost",
-          "end": "2024-12-29",
-          "value": 17232000000
+          "end": "2025-12-28",
+          "value": 14665000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, net of refunds as presented. R&D uses 'Research and development expense' on the income statement ($17,232m, us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost); J&J also tags $1,841m of acquired in-process R&D charges as ResearchAndDevelopmentExpense, which is excluded.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: the income-tax note's new table of income taxes paid net of tax refunds (U.S. federal 3,577, including $2.5 billion of TCJA payments on foreign undistributed earnings; U.S. state and local 169; foreign 2,793 million). R&D uses 'Research and development expense' on the income statement ($14,665m, us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost), the same line as last year; the MD&A segment table shows it fell 14.9% from $17,232m (Innovative Medicine $11,827m, MedTech $2,838m). In-process R&D impairments ($81m) are a separate line and excluded.",
+  "researchedAt": "2026-11-24"
 }

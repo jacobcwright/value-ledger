@@ -1,113 +1,113 @@
 {
  "id": "david-calhoun",
  "company": "Boeing",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "USD",
  "unit": "billions",
  "sector": "industrial",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 66.517,
-   "stated": 66517,
+   "value": 89.463,
+   "stated": 89463,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of operations (dollars in millions)",
-    "quote": "Sales of services 13,290 12,213 10,715 Total revenues 66,517 77,794 66,608",
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of operations (dollars in millions)",
+    "quote": "Sales of services 14,107 13,290 12,213 Total revenues 89,463 66,517 77,794",
     "xbrl": {
      "cik": "0000012927",
      "concept": "us-gaap:Revenues",
-     "end": "2024-12-31",
-     "value": 66517000000
+     "end": "2025-12-31",
+     "value": 89463000000
     }
    }
   },
   "operatingCashFlow": {
-   "value": -12.08,
-   "stated": -12080,
+   "value": 1.065,
+   "stated": 1065,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (dollars in millions)",
-    "quote": "Net cash (used)/provided by operating activities ( 12,080 ) 5,960 3,512",
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (dollars in millions)",
+    "quote": "Net cash provided/(used) by operating activities 1,065 ( 12,080 ) 5,960",
     "xbrl": {
      "cik": "0000012927",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-31",
-     "value": -12080000000
+     "end": "2025-12-31",
+     "value": 1065000000
     }
    }
   },
   "capex": {
-   "value": 2.23,
+   "value": 2.942,
    "components": [
-    "PP&E 2.23"
+    "PP&E 2.942"
    ],
-   "stated": 2230,
+   "stated": 2942,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (dollars in millions)",
-    "quote": "Payments to acquire property, plant and equipment ( 2,230 ) ( 1,527 ) ( 1,222 )",
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (dollars in millions)",
+    "quote": "Payments to acquire property, plant and equipment ( 2,942 ) ( 2,230 ) ( 1,527 )",
     "xbrl": {
      "cik": "0000012927",
      "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-     "end": "2024-12-31",
-     "value": 2230000000
+     "end": "2025-12-31",
+     "value": 2942000000
     }
    }
   },
   "interestPaid": {
-   "value": 2.44,
-   "stated": 2440,
+   "value": 2.63,
+   "stated": 2630,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
-    "label": "FY2024 Form 10-K, notes to the consolidated financial statements (dollars in millions)",
-    "quote": "Total Company interest payments, net of amounts capitalized, were $ 2,440 , $ 2,408 and $ 2,572 for the years ended December 31, 2024, 2023 and 2022, respectively",
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
+    "label": "FY2025 Form 10-K, Note 17 Debt (dollars in millions)",
+    "quote": "Total Company interest payments, net of amounts capitalized, were $ 2,630 , $ 2,440 and $ 2,408 for the years ended December 31, 2025, 2024 and 2023, respectively",
     "xbrl": {
      "cik": "0000012927",
      "concept": "us-gaap:InterestPaid",
-     "end": "2024-12-31",
-     "value": 2440000000
+     "end": "2025-12-31",
+     "value": 2630000000
     }
    }
   },
   "taxesPaid": {
-   "value": 0.187,
-   "stated": 187,
+   "value": 0.275,
+   "stated": 275,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
-    "label": "FY2024 Form 10-K, notes to the consolidated financial statements (dollars in millions)",
-    "quote": "Net income tax payments/(refunds) were $ 187 , $ 204 and ($ 1,317 ) in 2024, 2023 and 2022, respectively",
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
+    "label": "FY2025 Form 10-K, Note 6 Income Taxes (dollars in millions)",
+    "quote": "Net income tax payments in 2025 were as follows: Year ended December 31, 2025 U.S. federal $ 37 U.S. state ( 5 ) Non-U.S. Germany 83 Other 160 Total Non-U.S. 243 Total net income tax payments $ 275",
     "xbrl": {
      "cik": "0000012927",
      "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-12-31",
-     "value": 187000000
+     "end": "2025-12-31",
+     "value": 275000000
     }
    }
   },
   "financeReceivablesChangeInOCF": {
-   "value": 0.512,
-   "stated": 512,
+   "value": 0.274,
+   "stated": 274,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (dollars in millions)",
-    "quote": "Financing receivables and operating lease equipment, net 512 571 142"
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (dollars in millions)",
+    "quote": "Financing receivables and operating lease equipment, net 274 512 571"
    },
    "effectOnOCF": "raises",
-   "note": "Customer financing receivables and operating-lease equipment sit in operating cash flow (net +512 in 2024)."
+   "note": "Customer financing receivables and operating-lease equipment sit in operating cash flow (net +274 in 2025)."
   }
  },
- "paidOut": 80.827,
- "paidOutFormula": "revenue 66,517 − operating cash flow (-12,080) + capex 2,230 (USD millions, as stated)",
+ "paidOut": 91.34,
+ "paidOutFormula": "revenue 89,463 − operating cash flow 1,065 + capex 2,942 (USD millions, as stated)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
@@ -116,6 +116,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Operating cash flow was negative (−12,080), mainly an inventory build of 12,353, so paidOut (80.83bn) exceeds revenue: Boeing paid suppliers and staff for aircraft it had not yet delivered. Single-year noise. Supplier notes receivable (694) are investing and excluded.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001628280-26-004357). Operating cash flow was small (1,065) after a further inventory build (1,501) and lower advances (−723), so paidOut (91.34bn) slightly exceeds revenue. The $9,672 million gain on dispositions (mainly the Digital Aviation Solutions divestiture) is not in revenue and is backed out of operating cash flow as a non-cash item; the $10,585 million proceeds are investing and excluded, as are acquisitions (1,248, net of cash; the Spirit AeroSystems acquisition was paid mainly in shares) and supplier notes receivable (662).",
+ "researchedAt": "2026-11-24"
 }

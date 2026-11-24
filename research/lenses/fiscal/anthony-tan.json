@@ -1,44 +1,44 @@
 {
   "id": "anthony-tan",
   "company": "Grab Holdings",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.06,
+      "value": 0.09,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561225000013/ck0001855612-20241231.htm",
-        "label": "FY2024 Form 20-F, cash income taxes paid",
-        "quote": "Income tax paid ( 58 ) ( 45 ) ( 26 ) Net cash from/ (used [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows, income tax paid",
+        "quote": "Income tax paid ( 89 ) ( 58 ) ( 45 ) Net cash from operating activities [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001855612",
           "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
-          "end": "2024-12-31",
-          "value": 58000000
+          "end": "2025-12-31",
+          "value": 89000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 0.41,
+      "value": 0.43,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561225000013/ck0001855612-20241231.htm",
-        "label": "FY2024 Form 20-F, research and development expense",
-        "quote": "Research and development expenses 410 421 (3) % Percentage of revenue 15 % 18 % [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of profit or loss, research and development expenses",
+        "quote": "Research and development expenses 20 ( 428 ) ( 410 ) ( 421 ) [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001855612",
           "concept": "ifrs-full:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 410000000
+          "end": "2025-12-31",
+          "value": 428000000
         }
       }
     }
   },
-  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, the caption does not say whether refunds are netted.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, the caption does not say whether refunds are netted.",
+  "researchedAt": "2026-11-24"
 }

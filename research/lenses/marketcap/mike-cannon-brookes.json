@@ -1,0 +1,36 @@
+{
+  "id": "mike-cannon-brookes",
+  "company": "Atlassian",
+  "classes": [
+    {
+      "label": "Class A Common Stock",
+      "shares": 157719357,
+      "sharesAsOf": "2026-10-30",
+      "pricedAs": "TEAM",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/team-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 30, 2026, there were 157,719,357 shares of the registrant’s Class A Common Stock, $0.00001 par value per share, and 94,133,617 shares of the registrant’s Class B Common Stock, $0.00001 par value per share, outstanding."
+      }
+    },
+    {
+      "label": "Class B Common Stock",
+      "shares": 94133617,
+      "sharesAsOf": "2026-10-30",
+      "pricedAs": "TEAM",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted ('Class B Common Stock is not listed', 2026 proxy) and converts into Class A one-for-one (FY2026 10-K: 'Each share of Class B Common Stock will convert automatically into one share of Class A Common Stock' in specified circumstances); both classes have identical liquidation and dividend rights.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/team-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 30, 2026, there were 157,719,357 shares of the registrant’s Class A Common Stock, $0.00001 par value per share, and 94,133,617 shares of the registrant’s Class B Common Stock, $0.00001 par value per share, outstanding."
+      }
+    }
+  ],
+  "notes": "Class A trades on the Nasdaq Global Select Market as TEAM. Counts are from the Q1 FY2027 10-Q cover (filed November 6, 2026), newer than the FY2026 10-K cover (August 7, 2026).",
+  "researchedAt": "2026-11-24"
+}

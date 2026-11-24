@@ -1,13 +1,13 @@
 {
   "id": "irwin-m-jacobs",
   "company": "Qualcomm",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-09-29",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-09-27",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2024-12-15",
+    "asOf": "2025-12-15",
     "leader": {
       "name": "Irwin M. Jacobs",
       "relation": "co-founder",
@@ -17,102 +17,129 @@
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465925005602/tm2430012d3_def14a.htm",
-        "label": "2025 proxy statement (DEF 14A), Stock Ownership of Certain Beneficial Owners and Management (printed pp. 46-47)",
-        "quote": "The following table sets forth certain information regarding the ownership of our common stock as of December 15, 2024, unless otherwise indicated, by: (i) each stockholder known to us to have greater than a 5% ownership interest ...; (ii) each of our NEOs; (iii) each current director and nominee for director"
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926005781/tm2528704-1_def14a.htm",
+        "label": "2026 proxy statement (DEF 14A), Stock Ownership of Certain Beneficial Owners and Management",
+        "quote": "The following table sets forth certain information regarding the ownership of our common stock as of December 15, 2025, unless otherwise indicated, by: (i) each stockholder known to us to have greater than a 5% ownership interest (based solely on our review of Schedules 13D and 13G filed with the SEC); (ii) each of our NEOs; (iii) each current director and nominee for director"
       }
     },
     "largestHolders": [
       {
         "name": "The Vanguard Group",
         "type": "asset-manager",
-        "pctEconomic": 10.11,
+        "pctEconomic": 10.53,
         "asOf": "2024-05-31",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465925005602/tm2430012d3_def14a.htm",
-          "label": "2025 proxy statement (DEF 14A), Stock Ownership of Certain Beneficial Owners and Management, footnote 2",
-          "quote": "Vanguard Group Inc. (2) 111,912,584 10.11% ... 2 Represents shares of common stock beneficially owned as of May 31, 2024 based on a Schedule 13G/A filed on June 10, 2024 by The Vanguard Group."
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926005781/tm2528704-1_def14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Stock Ownership of Certain Beneficial Owners and Management, footnote 2",
+          "quote": "Vanguard Group Inc. (2) 111,912,584 10.53 % ... 2 Represents shares of common stock beneficially owned as of May 31, 2024 based on a Schedule 13G/A filed on June 10, 2024 by The Vanguard Group."
         }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 8.36,
+        "pctEconomic": 8.71,
         "asOf": "2023-12-31",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465925005602/tm2430012d3_def14a.htm",
-          "label": "2025 proxy statement (DEF 14A), Stock Ownership of Certain Beneficial Owners and Management, footnote 3",
-          "quote": "BlackRock, Inc. (3) 92,564,761 8.36% ... 3 Represents shares of common stock beneficially owned as of December 31, 2023 based on a Schedule 13G/A filed on January 25, 2024 by BlackRock, Inc."
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926005781/tm2528704-1_def14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Stock Ownership of Certain Beneficial Owners and Management, footnote 3",
+          "quote": "BlackRock, Inc. (3) 92,564,761 8.71 % ... 3 Represents shares of common stock beneficially owned as of December 31, 2023 based on a Schedule 13G/A filed on January 25, 2024 by BlackRock, Inc."
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock. The proxy lists two holders above 5%, Vanguard (10.11%) and BlackRock (8.36%). All current executive officers and directors as a group (18 persons) own less than 1%."
+      "note": "One class of common stock. The 2026 proxy lists two holders above 5%, Vanguard (10.53%) and BlackRock (8.71%), with percentages based on 1,062,916,212 shares outstanding on December 15, 2025."
     }
   },
   "cash": {
     "dividends": {
-      "value": 3.69,
+      "value": 3.85,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows, financing activities",
-        "quote": "Dividends paid (3,687) (3,462) (3,212) [in millions, fiscal 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000804328", "concept": "us-gaap:PaymentsOfOrdinaryDividends", "end": "2024-09-29", "value": 3687000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows, financing activities",
+        "quote": "Dividends paid ( 3,854 ) ( 3,805 ) ( 3,687 ) [in millions, fiscal 2026, 2025, 2024]",
+        "xbrl": {
+          "cik": "0000804328",
+          "concept": "us-gaap:PaymentsOfOrdinaryDividends",
+          "end": "2026-09-27",
+          "value": 3854000000
+        }
       }
     },
     "buybacks": {
-      "value": 4.12,
+      "value": 7.82,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows, financing activities",
-        "quote": "Repurchases and retirements of common stock (4,121) (2,973) (3,129) [in millions, fiscal 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000804328", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-09-29", "value": 4121000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows, financing activities",
+        "quote": "Repurchases and retirements of common stock ( 7,817 ) ( 8,791 ) ( 4,121 ) [in millions, fiscal 2026, 2025, 2024]",
+        "xbrl": {
+          "cik": "0000804328",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2026-09-27",
+          "value": 7817000000
+        }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 2.65,
+      "value": 3.45,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Share-based compensation expense 2,648 2,484 2,031 [in millions, fiscal 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000804328", "concept": "us-gaap:ShareBasedCompensation", "end": "2024-09-29", "value": 2648000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Share-based compensation expense 3,452 2,783 2,648 [in millions, fiscal 2026, 2025, 2024]",
+        "xbrl": {
+          "cik": "0000804328",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2026-09-27",
+          "value": 3452000000
+        }
       }
     },
     "plan": {
       "text": "Eligible Qualcomm employees can buy company stock at 85% of its value through payroll deductions under the employee stock purchase plan.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
-        "label": "FY2024 Form 10-K, Note 5 Employee Benefit Plans",
-        "quote": "Employee Stock Purchase Plan. We have an employee stock purchase plan that allows eligible employees to purchase shares of common stock at 85% of the value of our common stock on specific dates through periodic payroll deductions."
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+        "label": "FY2026 Form 10-K, Note 5 Employee Benefit Plans",
+        "quote": "Employee Stock Purchase Plan. We have an employee stock purchase plan that allows eligible employees to purchase shares of common stock at 85 % of the value of our common stock on specific dates through periodic payroll deductions."
       }
     }
   },
   "geography": {
-    "basis": "Revenues by country based on our customer's/licensee's headquarter location",
+    "basis": "Revenues by country based on our customer's/licensee's headquarters",
     "segments": [
-      { "name": "China (including Hong Kong)", "value": 17.83 },
-      { "name": "United States", "value": 9.69 },
-      { "name": "South Korea", "value": 8.0 },
-      { "name": "Other foreign", "value": 3.46 }
+      {
+        "name": "China (including Hong Kong)",
+        "value": 18.08
+      },
+      {
+        "name": "United States",
+        "value": 10.79
+      },
+      {
+        "name": "South Korea",
+        "value": 9.47
+      },
+      {
+        "name": "Other foreign",
+        "value": 4.78
+      }
     ],
-    "total": 38.96,
+    "total": 43.12,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
-      "label": "FY2024 Form 10-K, Note 8 Segment Information",
-      "quote": "Beginning in fiscal 2024, revenues by country are presented based on our customer's/licensee's headquarter location and were as follows (in millions): ... China (including Hong Kong) $ 17,826 46% ... United States 9,686 25 ... South Korea 7,995 20 ... Other foreign 3,455 9 ... $ 38,962 100% [2024]"
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+      "label": "FY2026 Form 10-K, Note 8 Segment Information",
+      "quote": "We report revenues by country based on our customer's/licensee's headquarters. ... Revenues by country were as follows (in millions, except percentages): 2026 2025 2024 China (including Hong Kong) $ 18,079 42 % ... United States 10,792 25 ... South Korea 9,467 22 ... Other foreign 4,782 11 ... $ 43,120 100 %"
     }
   },
-  "notes": "Fiscal year ended September 29, 2024 (matches data.js fy 'Sep 2024'). Financial figures are from the FY2024 Form 10-K (accession 0000804328-24-000075) and match SEC XBRL. Ownership is from the proxy for the March 2025 annual meeting (DEF 14A filed January 23, 2025, accession 0001104659-25-005602), percentages based on 1,106,603,064 shares outstanding on December 15, 2024. LEADER: Irwin M. Jacobs, co-founder, is not a current director, nominee or named executive officer and is not listed as a 5% holder, so no holding is reported. HOLDERS: Vanguard's figure refers to May 31, 2024 and BlackRock's to December 31, 2023, as the proxy footnotes state. GEOGRAPHY: from fiscal 2024 Qualcomm presents revenue by the headquarters location of the customer or licensee, not where devices are sold. The 10-K adds that on a delivery-location basis China (including Hong Kong), the United States, South Korea and Vietnam were 66%, 3%, 7% and 12% of fiscal 2024 revenue. BUYBACKS exclude $932 million of tax withholdings on vesting share awards.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended September 27, 2026 (data.js fy 'Sep 2026'); this edition skips FY2025. Financial figures are from the FY2026 Form 10-K (accession 0000804328-26-000128, filed November 4, 2026) and match SEC XBRL. Ownership is from the proxy for the March 2026 annual meeting (DEF 14A filed January 22, 2026, accession 0001104659-26-005781), the latest proxy, with percentages based on 1,062,916,212 shares outstanding on December 15, 2025. LEADER: Irwin M. Jacobs, co-founder, is not a director, nominee, named executive officer or 5% holder in the 2026 proxy (his name does not appear in it), so no holding is reported. HOLDERS: the proxy still applies Vanguard's May 31, 2024 and BlackRock's December 31, 2023 Schedule 13G/A holdings to the December 15, 2025 share count, so both are stale. GEOGRAPHY: revenue by the headquarters location of the customer or licensee, not where devices are sold. BUYBACKS exclude $1,134 million of tax withholdings on vesting share awards.",
+  "researchedAt": "2026-11-24"
 }

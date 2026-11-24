@@ -1,0 +1,31 @@
+{
+  "id": "andrew-forrest",
+  "company": "Fortescue Ltd",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-06-30",
+  "currency": "USD",
+  "employees": {
+    "value": 16154,
+    "asOf": "2026-06-30",
+    "basis": "total workforce, employees",
+    "source": {
+      "hostType": "exchange",
+      "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z36rd5jrvr6.pdf",
+      "label": "FY26 Sustainability Report (ASX, 20 August 2026), People",
+      "quote": "In FY26, Fortescue’s total workforce increased by 0.9 per cent to 16,154 employees."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Total employee benefits expense",
+    "value": 2.253,
+    "source": {
+      "hostType": "exchange",
+      "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+      "label": "FY26 Annual Report and Appendix 4E (ASX, 20 August 2026), note 06 Other expenses",
+      "quote": "Total employee benefits expense included in cost of sales, administration expenses and research expenditure is US$2,253 million (2025: US$2,098 million)."
+    }
+  },
+  "notes": "Employees: the annual report gives no head count; the FY26 Sustainability Report, lodged on the ASX with it, gives the total workforce of 16,154 employees for FY26 (it does not say whether this is a year-end head count or an average; contractors are not included). Payroll: total employee benefits expense from the annual report's notes, in US$ (it includes share-based payments).",
+  "researchedAt": "2026-11-24"
+}

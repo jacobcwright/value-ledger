@@ -1,191 +1,167 @@
 {
-  "id": "david-velez",
-  "company": "Nu Holdings (Nubank)",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
-  "currency": "USD",
-  "unit": "billions",
-  "sector": "bank",
-  "comparable": false,
-  "inputs": {
-    "revenue": {
-      "value": 11.517075,
-      "stated": 11517075,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "FY2024 Form 20-F, consolidated statement of operations (US$ thousands)",
-        "quote": "Fee and commission income 6 1,886,032 1,589,264 1,237,018 Total Revenue 11,517,075 8,028,976 4,792,231",
-        "xbrl": {
-          "cik": "0001691493",
-          "concept": "ifrs-full:Revenue",
-          "end": "2024-12-31",
-          "value": 11517075000
-        }
-      }
-    },
-    "operatingCashFlow": {
-      "value": 2.399044,
-      "stated": 2399044,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "FY2024 Form 20-F, consolidated statement of cash flows (US$ thousands)",
-        "quote": "Income tax paid ( 1,262,541 ) ( 612,447 ) ( 297,090 ) Interest received 5,820,898 3,389,331 1,573,133 Cash flows generated from operating activities 2,399,044 1,266,189 755,573",
-        "xbrl": {
-          "cik": "0001691493",
-          "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": 2399044000
-        }
-      }
-    },
-    "capex": {
-      "value": 0.17499,
-      "components": [
-        "PP&E 0.005418",
-        "intangibles (acquired and developed) 0.169572"
-      ],
-      "derived": {
-        "method": "sum of the components below",
-        "inputs": [
-          {
-            "component": "PP&E",
-            "value": 0.005418,
-            "stated": 5418,
-            "source": {
-              "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-              "label": "FY2024 Form 20-F, consolidated statement of cash flows (US$ thousands)",
-              "quote": "Acquisition of property, plant and equipment ( 5,418 ) ( 20,243 ) ( 20,001 )"
-            }
-          },
-          {
-            "component": "intangibles (acquired and developed)",
-            "value": 0.169572,
-            "stated": 169572,
-            "source": {
-              "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-              "label": "FY2024 Form 20-F, consolidated statement of cash flows (US$ thousands)",
-              "quote": "Acquisition and development of intangible assets ( 169,572 ) ( 156,760 ) ( 94,305 )"
-            }
-          }
-        ]
-      }
-    },
-    "interestPaid": {
-      "value": 0.088082,
-      "stated": 88082,
-      "inOCF": true,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "FY2024 Form 20-F, consolidated statement of cash flows (US$ thousands)",
-        "quote": "Interest paid ( 88,082 ) ( 82,904 ) ( 30,935 ) Income tax paid ( 1,262,541 ) ( 612,447 ) ( 297,090 )"
-      }
-    },
-    "taxesPaid": {
-      "value": 1.262541,
-      "stated": 1262541,
-      "inOCF": true,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "FY2024 Form 20-F, consolidated statement of cash flows (US$ thousands)",
-        "quote": "Interest paid ( 88,082 ) ( 82,904 ) ( 30,935 ) Income tax paid ( 1,262,541 ) ( 612,447 ) ( 297,090 )"
-      }
-    },
-    "financeReceivablesChangeInOCF": {
-      "value": 12.897066,
-      "stated": 12897066,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "FY2024 Form 20-F, consolidated statement of cash flows (US$ thousands)",
-        "quote": "Credit card receivables ( 5,873,063 ) ( 7,878,307 ) ( 5,213,669 ) Loans to customers ( 7,024,003 ) ( 3,577,534 ) ( 1,889,278 )"
-      },
-      "effectOnOCF": "lowers",
-      "note": "Credit-card receivables (−5,873,063) and loans (−7,024,003) grew inside operating cash flow, funded by deposits (+5,910,612).",
-      "derivation": "net of 5,873,063 and 7,024,003",
-      "computedFrom": [
-        "5,873,063 + 7,024,003 (÷1,000,000)"
-      ]
-    },
-    "noninterestExpense": {
-      "value": 2.718035,
-      "derived": {
-        "method": "sum of the components below",
-        "inputs": [
-          {
-            "component": "transactional expenses",
-            "value": 0.260324,
-            "stated": 260324,
-            "source": {
-              "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-              "label": "FY2024 Form 20-F, consolidated statement of operations (US$ thousands)",
-              "quote": "Transactional expenses 6 ( 260,324 ) ( 215,930 ) ( 176,427 )"
-            }
-          },
-          {
-            "component": "total operating expenses",
-            "value": 2.457711,
-            "stated": 2457711,
-            "source": {
-              "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-              "label": "FY2024 Form 20-F, consolidated statement of operations (US$ thousands)",
-              "quote": "Other income (expenses) 8 ( 350,586 ) ( 250,431 ) ( 150,264 ) Total operating expenses ( 2,457,711 ) ( 1,951,825 ) ( 1,971,891 )"
-            }
-          }
-        ]
-      }
-    },
-    "depreciationAmortization": {
-      "value": 0.077128,
-      "stated": 77128,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "FY2024 Form 20-F, consolidated statement of cash flows (US$ thousands)",
-        "quote": "Adjustments: Depreciation and amortization 8 77,128 62,895 35,581",
-        "xbrl": {
-          "cik": "0001691493",
-          "concept": "ifrs-full:AdjustmentsForDepreciationAndAmortisationExpense",
-          "end": "2024-12-31",
-          "value": 77128000
-        }
-      }
-    },
-    "stockComp": {
-      "value": 0.272382,
-      "stated": 272382,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "FY2024 Form 20-F, consolidated statement of cash flows (US$ thousands)",
-        "quote": "Share-based compensation 10 272,382 212,551 253,203",
-        "xbrl": {
-          "cik": "0001691493",
-          "concept": "ifrs-full:AdjustmentsForSharebasedPayments",
-          "end": "2024-12-31",
-          "value": 272382000
-        }
-      }
-    }
+ "id": "david-velez",
+ "company": "Nu Holdings (Nubank)",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "bank",
+ "comparable": false,
+ "inputs": {
+  "revenue": {
+   "value": 15.774741,
+   "stated": 15774741,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+    "label": "FY2025 Form 20-F, consolidated statements of income (US$ thousands)",
+    "quote": "Fee and commission income 6 2,340,058 1,886,032 1,589,264 Total revenue 15,774,741 11,517,075 8,028,976"
+   }
   },
-  "paidOut": null,
-  "altPaidOut": 3.631066,
-  "altPaidOutFormula": "noninterest expense 2.718035 − D&A 0.077128 − stock comp 0.272382 + income taxes paid 1.262541 (USD billions)",
-  "interestPaid": 0.088082,
-  "salesEnabled": null,
-  "flags": {
-    "financeReceivablesInOCF": true,
-    "interestDividendsReceivedInOCF": null,
-    "revenueIncludesExcise": false,
-    "nonCashRevenue": null
+  "operatingCashFlow": {
+   "value": 3.500464,
+   "stated": 3500464,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+    "label": "FY2025 Form 20-F, consolidated statements of cash flows (US$ thousands)",
+    "quote": "Income tax paid ( 1,641,663 ) ( 1,262,541 ) ( 612,447 ) Interest received 8,439,951 5,820,898 3,389,331 Cash flows generated from (used in) operating activities 3,500,464 2,399,044 1,266,189"
+   }
   },
-  "notes": "Judgement: bank rule, not the payments formula. Nu is a deposit-funded lender: its operating cash flow is dominated by growth in credit-card receivables and loans (−12.90bn) and deposits (+5.91bn), not by collecting revenue, which is the condition that makes the formula meaningless for banks. So paidOut is null (comparable: false) and altPaidOut = noninterest expense − D&A − SBC + income taxes paid. Noninterest expense = transactional expenses (260,324) + total operating expenses (2,457,711), from the income statement; credit-loss allowance expenses (3,168,983) are a provision and interest and other financial expenses (2,834,859) are interest, both excluded as at BofA. D&A, SBC and taxes paid come from the cash-flow statement. Interest paid in cash (88,082) is far below interest expense (2,834,859); the cash-flow statement does not explain the gap, so it is recorded as stated. All figures US$ thousands. Reports in USD.",
-  "researchedAt": "2026-11-23"
+  "capex": {
+   "value": 0.340769,
+   "components": [
+    "PP&E 0.007215",
+    "intangibles (acquired and developed) 0.333554"
+   ],
+   "derived": {
+    "method": "sum of the components below",
+    "inputs": [
+     {
+      "component": "PP&E",
+      "value": 0.007215,
+      "stated": 7215,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+       "label": "FY2025 Form 20-F, consolidated statements of cash flows (US$ thousands)",
+       "quote": "Acquisition of property, plant and equipment ( 7,215 ) ( 5,418 ) ( 20,243 )"
+      }
+     },
+     {
+      "component": "intangibles (acquired and developed)",
+      "value": 0.333554,
+      "stated": 333554,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+       "label": "FY2025 Form 20-F, consolidated statements of cash flows (US$ thousands)",
+       "quote": "Acquisition and development of intangible assets ( 333,554 ) ( 169,572 ) ( 156,760 )"
+      }
+     }
+    ]
+   }
+  },
+  "interestPaid": {
+   "value": 0.092292,
+   "stated": 92292,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+    "label": "FY2025 Form 20-F, consolidated statements of cash flows (US$ thousands)",
+    "quote": "Interest paid ( 92,292 ) ( 88,082 ) ( 82,904 ) Income tax paid ( 1,641,663 ) ( 1,262,541 ) ( 612,447 )"
+   }
+  },
+  "taxesPaid": {
+   "value": 1.641663,
+   "stated": 1641663,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+    "label": "FY2025 Form 20-F, consolidated statements of cash flows (US$ thousands)",
+    "quote": "Interest paid ( 92,292 ) ( 88,082 ) ( 82,904 ) Income tax paid ( 1,641,663 ) ( 1,262,541 ) ( 612,447 )"
+   }
+  },
+  "financeReceivablesChangeInOCF": {
+   "value": 22.752765,
+   "stated": 22752765,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+    "label": "FY2025 Form 20-F, consolidated statements of cash flows (US$ thousands)",
+    "quote": "Credit card receivables ( 12,445,835 ) ( 5,873,063 ) ( 7,878,307 ) Loans to customers ( 10,306,930 ) ( 7,024,003 ) ( 3,577,534 )"
+   },
+   "effectOnOCF": "lowers",
+   "note": "Credit-card receivables (−12,445,835) and loans (−10,306,930) grew inside operating cash flow, funded by deposits (+12,861,282).",
+   "derivation": "sum of 12,445,835 and 10,306,930",
+   "computedFrom": [
+    "12,445,835 + 10,306,930 (÷1,000,000)"
+   ]
+  },
+  "noninterestExpense": {
+   "value": 3.119077,
+   "derived": {
+    "method": "sum of the components below",
+    "inputs": [
+     {
+      "component": "transactional expenses",
+      "value": 0.366183,
+      "stated": 366183,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+       "label": "FY2025 Form 20-F, consolidated statements of income (US$ thousands)",
+       "quote": "Transactional expenses 6 ( 366,183 ) ( 260,324 ) ( 215,930 )"
+      }
+     },
+     {
+      "component": "total operating expenses",
+      "value": 2.752894,
+      "stated": 2752894,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+       "label": "FY2025 Form 20-F, consolidated statements of income (US$ thousands)",
+       "quote": "Other income 8 130,090 56,041 27,753 Total operating (expenses) income ( 2,752,894 ) ( 2,457,711 ) ( 1,951,825 )"
+      }
+     }
+    ]
+   }
+  },
+  "depreciationAmortization": {
+   "value": 0.097968,
+   "stated": 97968,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+    "label": "FY2025 Form 20-F, consolidated statements of cash flows (US$ thousands)",
+    "quote": "Adjustments: Depreciation and amortization 8 97,968 77,128 62,895"
+   }
+  },
+  "stockComp": {
+   "value": 0.271845,
+   "stated": 271845,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+    "label": "FY2025 Form 20-F, consolidated statements of cash flows (US$ thousands)",
+    "quote": "Share-based compensation 271,845 272,382 212,551"
+   }
+  }
+ },
+ "paidOut": null,
+ "altPaidOut": 4.390927,
+ "altPaidOutFormula": "noninterest expense 3.119077 − D&A 0.097968 − stock comp 0.271845 + income taxes paid 1.641663 (USD billions)",
+ "interestPaid": 0.092292,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": true,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 20-F). Judgement: bank rule, not the payments formula. Nu is a deposit-funded lender: its operating cash flow is dominated by growth in credit-card receivables and loans (−22.75bn) and deposits (+12.86bn), not by collecting revenue, which is the condition that makes the formula meaningless for banks. So paidOut is null (comparable: false) and altPaidOut = noninterest expense − D&A − SBC + income taxes paid. Noninterest expense = transactional expenses (366,183) + total operating (expenses) income (2,752,894, net of 130,090 other income), from the income statement; expected credit loss (4,204,876) is a provision and interest and other financial expenses (4,578,680) are interest, both excluded as at BofA. D&A, SBC and taxes paid come from the cash-flow statement. Interest paid in cash (92,292) is far below interest expense (4,578,680); the cash-flow statement does not explain the gap, so it is recorded as stated. No xbrl objects: companyfacts has no FY2025 facts for Nu. All figures US$ thousands. Reports in USD.",
+ "researchedAt": "2026-11-24"
 }

@@ -6,7 +6,7 @@
       "label": "Long-lived tangible assets (net book value)",
       "unit": "currency-billions",
       "currency": "USD",
-      "period": "as of September 29, 2024",
+      "period": "as of September 27, 2026",
       "tier": "filing",
       "definition": "Net book value of long-lived tangible assets located in the U.S. versus outside the U.S. (the majority of the latter in Taiwan and the rest of the Asia-Pacific region)."
     }
@@ -17,14 +17,14 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "longLivedTangibleAssets": 1.9
+        "longLivedTangibleAssets": 3
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
-        "label": "FY2024 Form 10-K, Note 8, Segment Information",
-        "quote": "The net book value of long-lived tangible assets located in the U.S. was $ 1.9 billion and $ 2.0 billion at September 29, 2024 and September 24, 2023, respectively."
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+        "label": "FY2026 Form 10-K, Note 8, Segment Information",
+        "quote": "The net book value of long-lived tangible assets located in the U.S. was $ 3.0 billion and $ 2.0 billion at September 27, 2026 and September 28, 2025, respectively."
       }
     }
   ],
@@ -33,14 +33,14 @@
       "name": "Outside the U.S. (mostly Taiwan and the rest of Asia-Pacific)",
       "countries": null,
       "values": {
-        "longLivedTangibleAssets": 3.5
+        "longLivedTangibleAssets": 3.8
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
-        "label": "FY2024 Form 10-K, Note 8, Segment Information",
-        "quote": "The net book value of long-lived tangible assets located outside of the U.S. (the majority of which is located in Taiwan and the rest of the Asia-Pacific region) was $ 3.5 billion and $ 3.6 billion at September 29, 2024 and September 24, 2023, respectively."
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+        "label": "FY2026 Form 10-K, Note 8, Segment Information",
+        "quote": "The net book value of long-lived tangible assets located outside of the U.S. (the majority of which is located in Taiwan and the rest of the Asia-Pacific region) was $ 3.8 billion and $ 3.4 billion at September 27, 2026 and September 28, 2025, respectively."
       }
     }
   ],
@@ -51,12 +51,12 @@
       "state": "CA",
       "iso2": "US",
       "type": "headquarters",
-      "description": "Headquarters and certain research and development and network management hub operations.",
+      "description": "Headquarters and certain research and development operations.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
-        "quote": "Our headquarters and certain of our research and development and network management hub operations are located in San Diego, California."
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+        "label": "FY2026 Form 10-K, Item 2, Properties",
+        "quote": "Our headquarters and certain of our research and development operations are located in San Diego, California."
       }
     },
     {
@@ -68,12 +68,12 @@
       "description": "Qualcomm manufacturing facility.",
       "source": {
         "hostType": "company",
-        "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/2024-qualcomm-corporate-responsibility-report.pdf",
-        "label": "2024 Corporate Responsibility Report, environmental data table, footnote 38",
-        "quote": "Based on the WRI Water Aqueduct ToolTM, the area where our manufacturing facility in Wuxi is located is high baseline for water scarcity in 2024."
+        "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/qualcomm-2025-corporate-responsibility-report.pdf",
+        "label": "2025 Corporate Responsibility Report, data tables, footnote 42",
+        "quote": "Based on the World Resource Institute (WRI) Water Aqueduct tool, the area where our manufacturing facility in Wuxi is located is high baseline for water scarcity in 2025."
       }
     }
   ],
-  "notes": "Qualcomm publishes no state, country or regional employee breakdown: the FY2024 10-K says ~49,000 workers 'working in over 150 locations in 37 different countries', and the 2024 Corporate Responsibility Report gives only a total (49,336 workers). Item 2 gives facilities only as U.S. 5.3m vs other countries 8.8m square feet (square footage is not a lens unit) and names owned and leased manufacturing in China, Germany and Singapore and R&D centers primarily in the United States, India and China, with new facilities under construction in India. The only country split with a value is long-lived tangible assets (U.S. $1.9bn vs outside the U.S. $3.5bn). Revenue by customer headquarters country is in the records and not repeated. No taxes-by-country report was found.",
-  "researchedAt": "2026-11-23"
+  "notes": "Qualcomm publishes no state, country or regional employee breakdown: the FY2026 10-K says approximately 57,000 full-time, part-time and temporary workers at September 27, 2026, working \"in over 200 locations in 38 different countries\". Item 2 no longer gives square footage; it names R&D centers and offices primarily in India, the United States and China and owned and leased manufacturing in Singapore, Germany and China. The only country split with a value is long-lived tangible assets (U.S. $3.0bn vs outside the U.S. $3.8bn at September 27, 2026, from the FY2026 10-K; the September 28, 2025 comparatives are $2.0bn and $3.4bn). Revenue by customer headquarters country is in the records and not repeated. The Wuxi manufacturing site is re-sourced to the 2025 Corporate Responsibility Report (the newest edition on qualcomm.com/company/corporate-responsibility, checked 2026-11-24), which also names a manufacturing site in Munich, Germany. No taxes-by-country report was found.",
+  "researchedAt": "2026-11-24"
 }

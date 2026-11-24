@@ -1,0 +1,31 @@
+{
+  "id": "rupert-murdoch",
+  "company": "News Corp",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-06-30",
+  "currency": "USD",
+  "employees": {
+    "value": 21700,
+    "asOf": "2026-06-30",
+    "basis": "approximately 21,700 employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+      "label": "FY2026 Form 10-K, Item 1 Human Capital",
+      "quote": "As of June 30, 2026, the Company had approximately 21,700 employees, of whom approximately 7,900 were located in the U.S., 3,900 were located in the U.K. and 5,600 were located in Australia."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Annual total compensation of the median compensated employee, other than the CEO, for fiscal 2026",
+    "value": 96277,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000110465926109969/tm2624691-1_def14a.htm",
+      "label": "2026 proxy statement (DEF 14A), Pay Ratio",
+      "quote": "Annual total compensation of the median compensated employee, other than the CEO, for fiscal 2026: $96,277 ... Annual total compensation of the CEO for fiscal 2026: $19,745,396 ... Ratio of the annual total compensation of the CEO to the annual total compensation of the median compensated employee: 205 to 1"
+    }
+  },
+  "notes": "Employees: an approximate count at the June 30, 2026 fiscal year end. Payroll: the FY2026 10-K discloses no total staff cost, so the September 2026 proxy's CEO pay ratio median for fiscal 2026 is used (same year). The proxy says it reused the median employee identified on April 15, 2024, citing no significant change in the employee population or pay programs.",
+  "researchedAt": "2026-11-24"
+}

@@ -1,134 +1,122 @@
 {
  "id": "elon-musk",
  "company": "Tesla",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "USD",
  "unit": "billions",
  "sector": "auto",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 97.69,
-   "stated": 97690,
+   "value": 94.827,
+   "stated": 94827,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
-    "quote": "Services and other 10,534 8,319 6,091 Total revenues 97,690 96,773 81,462",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of operations (in millions)",
+    "quote": "Total revenues 94,827 97,690 96,773",
     "xbrl": {
      "cik": "0001318605",
      "concept": "us-gaap:Revenues",
-     "end": "2024-12-31",
-     "value": 97690000000
+     "end": "2025-12-31",
+     "value": 94827000000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 14.923,
-   "stated": 14923,
+   "value": 14.747,
+   "stated": 14747,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Net cash provided by operating activities 14,923 13,256 14,724",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Net cash provided by operating activities 14,747 14,923 13,256",
     "xbrl": {
      "cik": "0001318605",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-31",
-     "value": 14923000000
+     "end": "2025-12-31",
+     "value": 14747000000
     }
    }
   },
   "capex": {
-   "value": 11.339,
+   "value": 8.527,
    "components": [
-    "PP&E (net of sales, excluding finance leases) 11.339",
-    "intangibles 0.0"
+    "PP&E (net of sales, excluding finance leases) 8.527"
    ],
    "derived": {
-    "method": "sum of the components below",
+    "method": "sum of the components below (the FY2025 cash-flow statement has no intangible-asset purchase line)",
     "inputs": [
      {
       "component": "PP&E (net of sales, excluding finance leases)",
-      "value": 11.339,
-      "stated": 11339,
+      "value": 8.527,
+      "stated": 8527,
       "source": {
        "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
-       "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-       "quote": "Purchases of property and equipment excluding finance leases, net of sales ( 11,339 ) ( 8,898 ) ( 7,158 )",
+       "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+       "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+       "quote": "Purchases of property and equipment excluding finance leases, net of sales ( 8,527 ) ( 11,342 ) ( 8,899 )",
        "xbrl": {
         "cik": "0001318605",
         "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "end": "2024-12-31",
-        "value": 11339000000
+        "end": "2025-12-31",
+        "value": 8527000000
        }
-      }
-     },
-     {
-      "component": "intangibles",
-      "value": 0.0,
-      "stated": 0,
-      "source": {
-       "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
-       "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-       "quote": "Purchase of intangible assets - - ( 9 )"
       }
      }
     ]
    }
   },
   "interestPaid": {
-   "value": 0.277,
-   "stated": 277,
+   "value": 0.292,
+   "stated": 292,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Cash paid during the period for interest $ 277 $ 126 $ 152 Cash paid during the period for income taxes, net of refunds $ 1,331 $ 1,119 $ 1,203",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+    "label": "FY2025 Form 10-K, supplemental cash-flow disclosures (in millions)",
+    "quote": "Cash paid during the period for interest $ 292 $ 277 $ 126",
     "xbrl": {
      "cik": "0001318605",
      "concept": "us-gaap:InterestPaidNet",
-     "end": "2024-12-31",
-     "value": 277000000
+     "end": "2025-12-31",
+     "value": 292000000
     }
    }
   },
   "taxesPaid": {
-   "value": 1.331,
-   "stated": 1331,
+   "value": 1.232,
+   "stated": 1232,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Cash paid during the period for interest $ 277 $ 126 $ 152 Cash paid during the period for income taxes, net of refunds $ 1,331 $ 1,119 $ 1,203",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+    "label": "FY2025 Form 10-K, Note 12 Income Taxes, cash paid for income taxes by jurisdiction (in millions)",
+    "quote": "cash paid for income taxes, net of refunds, during the year ended December 31, 2025 was as follows (in millions): ... Total cash paid for income taxes, net of refunds $ 1,232",
     "xbrl": {
      "cik": "0001318605",
-     "concept": "us-gaap:IncomeTaxesPaid",
-     "end": "2024-12-31",
-     "value": 1331000000
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2025-12-31",
+     "value": 1232000000
     }
    }
   },
   "financeReceivablesChangeInOCF": {
-   "value": 0.59,
-   "stated": 590,
+   "value": 0.025,
+   "stated": 25,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Operating lease vehicles ( 590 ) ( 1,952 ) ( 1,570 )"
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Operating lease vehicles ( 25 ) ( 590 ) ( 1,952 )"
    },
    "effectOnOCF": "lowers",
-   "note": "Vehicles added to the operating-lease fleet (net 590) sit inside operating cash flow, which lowers operating cash flow and raises paidOut by that amount."
+   "note": "Vehicles added to the operating-lease fleet (net 25) sit inside operating cash flow, which lowers operating cash flow and raises paidOut by that amount."
   }
  },
- "paidOut": 94.106,
- "paidOutFormula": "revenue 97,690 − operating cash flow 14,923 + capex 11,339 (USD millions, as stated)",
+ "paidOut": 88.607,
+ "paidOutFormula": "revenue 94,827 − operating cash flow 14,747 + capex 8,527 (USD millions, as stated)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
@@ -137,6 +125,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "The capex line is reported net of sales of property and equipment. Purchases of solar energy systems (3, systems leased to customers) are excluded as a lease fleet. Operating-lease vehicles are inside operating cash flow (flagged). Taxes paid: the cited 10-K tags 1,331 as IncomeTaxesPaid; a later filing shows 1,330 under IncomeTaxesPaidNet.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001628280-26-003952). The capex line is reported net of sales of property and equipment and excludes finance leases; the FY2025 cash-flow statement has no separate intangible-asset or solar-system purchase lines. Operating-lease vehicles (net 25 million in 2025) are inside operating cash flow (flagged). Taxes paid: after adopting ASU 2023-09 the 10-K moved cash taxes to the income-tax note's by-jurisdiction table ($1,232 million, tagged IncomeTaxesPaidNet).",
+ "researchedAt": "2026-11-24"
 }

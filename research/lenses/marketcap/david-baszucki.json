@@ -1,0 +1,36 @@
+{
+  "id": "david-baszucki",
+  "company": "Roblox",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 671330395,
+      "sharesAsOf": "2026-10-15",
+      "pricedAs": "RBLX",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000162828026068253/rblx-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 15, 2026, the registrant had approximately 671,330,395 shares of Class A common stock and 44,382,953 shares of Class B common stock outstanding, each with a par value of $0.0001 per share."
+      }
+    },
+    {
+      "label": "Class B common stock",
+      "shares": 44382953,
+      "sharesAsOf": "2026-10-15",
+      "pricedAs": "RBLX",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted and converts into Class A one-for-one (FY2025 10-K: \"Our Class B common stock is not listed nor traded on any stock exchange, but is convertible into shares of our Class A common stock on a one-for-one basis.\")",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000162828026068253/rblx-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 15, 2026, the registrant had approximately 671,330,395 shares of Class A common stock and 44,382,953 shares of Class B common stock outstanding, each with a par value of $0.0001 per share."
+      }
+    }
+  ],
+  "notes": "Class A is listed on the NYSE as RBLX; Class B, all held by David Baszucki, is unlisted. The 10-Q cover states the counts as approximate. No preferred stock is outstanding.",
+  "researchedAt": "2026-11-24"
+}

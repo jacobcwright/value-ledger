@@ -1,32 +1,32 @@
 {
-  "id": "severin-schwan",
-  "company": "Roche Holding",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
-  "currency": "CHF",
-  "unit": "billions",
-  "taxes": {
-    "cashTaxesPaid": {
-      "value": 3.73,
-      "source": {
-        "hostType": "company",
-        "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
-        "label": "Finance Report 2024, Roche Group consolidated statement of cash flows",
-        "quote": "Income taxes paid 5 (3,727) (3,620) [CHF million, 2024 and 2023]"
-      }
-    }
-  },
-  "rnd": {
-    "expense": {
-      "value": 15.3,
-      "source": {
-        "hostType": "company",
-        "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
-        "label": "Finance Report 2024, Roche Group consolidated income statement (IFRS)",
-        "quote": "Research and development 2 (13,299) (2,005) – (15,304) [CHF million, 2024: Pharmaceuticals, Diagnostics, Corporate, Group]"
-      }
-    }
-  },
-  "notes": "IFRS Group figure (CHF 15,304m), not the core figure (CHF 13,042m) that excludes impairments and amortisation. Taxes: 'Income taxes paid' in operating cash flows.",
-  "researchedAt": "2026-11-23"
+ "id": "severin-schwan",
+ "company": "Roche Holding",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
+ "currency": "CHF",
+ "unit": "billions",
+ "taxes": {
+  "cashTaxesPaid": {
+   "value": 3.14,
+   "source": {
+    "hostType": "company",
+    "url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf",
+    "label": "Finance Report 2025, Roche Group consolidated statement of cash flows",
+    "quote": "Income taxes paid 5 (3,139) (3,727) [CHF million, 2025 and 2024]"
+   }
+  }
+ },
+ "rnd": {
+  "expense": {
+   "value": 13.35,
+   "source": {
+    "hostType": "company",
+    "url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf",
+    "label": "Finance Report 2025, Roche Group consolidated income statement (IFRS)",
+    "quote": "Research and development 2 (11,300) (2,052) – (13,352) [CHF million, 2025: Pharmaceuticals, Diagnostics, Corporate, Group]"
+   }
+  }
+ },
+ "notes": "Fiscal year ended 31 December 2025. IFRS Group figure (CHF 13,352m), not the core figure (CHF 12,243m) that excludes impairments and amortisation. Taxes: 'Income taxes paid' in operating cash flows.",
+ "researchedAt": "2026-11-24"
 }

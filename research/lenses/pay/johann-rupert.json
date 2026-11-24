@@ -1,0 +1,31 @@
+{
+  "id": "johann-rupert",
+  "company": "Richemont",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
+  "currency": "EUR",
+  "employees": {
+    "value": 40465,
+    "asOf": "2026-03-31",
+    "basis": "permanent and temporary employees, headcount as of the end of March 2026",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.richemont.com/media/cskglbj3/richemont-non-financial-report-2026.pdf",
+      "label": "Richemont Non-Financial Report 2026, Social Data Set, Global HR Data (GRI 2-7), Table 1",
+      "quote": "(FY26 Headcount as of the end of March 2026) ... Table 1: Total Number of Employees, per Employment Type, by Gender ... Permanent and temporary employees 22 249 16 206 38 455 23 094 16 783 39 877 23 327 17 138 40 465 100%"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Employee benefits expense",
+    "value": 4.473,
+    "source": {
+      "hostType": "company",
+      "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+      "label": "Annual Report and Accounts 2026, note 27 Employee benefits expense (€m)",
+      "quote": "Wages and salaries, including termination benefits of € 44 million (2025: € 39 million) 3 544 3 400 Social security costs 588 552 Share-based compensation expense (note 32) 116 117 ... 4 473 4 283 [2026, 2025]"
+    }
+  },
+  "notes": "Employees: year-end headcount of permanent and temporary employees from the Non-Financial Report 2026 (Global HR Data), which excludes Maison Gianvito Rossi and Manufacture Miles and only partly includes Maison Vhernier; the annual report itself gives only the average number of employees from continuing operations (39,601 in FY2026). Payroll: note 27's total employee benefits expense (wages and salaries, social security, share-based compensation, long-term benefits and pensions) for the year ended 31 March 2026. Richemont has no CEO pay ratio.",
+  "researchedAt": "2026-11-24"
+}

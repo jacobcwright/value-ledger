@@ -1,0 +1,62 @@
+{
+  "id": "marcel-herrmann-telles",
+  "company": "Anheuser-Busch InBev SA/NV",
+  "classes": [
+    {
+      "label": "Ordinary shares (excluding treasury shares)",
+      "shares": 1749527247,
+      "sharesAsOf": "2026-06-30",
+      "pricedAs": "ABI.BR",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "Total shares (ordinary and restricted) at June 30, 2026",
+          "value": 2019241973,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526326285/d175040dex992.htm",
+            "label": "Interim Financial Report for the six-month period ended 30 June 2026 (Form 6-K Exhibit 99.2, filed July 30, 2026), note on changes in equity",
+            "quote": "It is represented by 2 019 241 973 shares without nominal value, of which 47 676 768 are held in treasury by AB InBev and its subsidiaries. All shares are ordinary shares, except for 222 037 958 restricted shares."
+          }
+        },
+        {
+          "label": "Restricted shares (unlisted; counted as their own class below)",
+          "value": -222037958,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526326285/d175040dex992.htm",
+            "label": "Interim Financial Report for the six-month period ended 30 June 2026 (Form 6-K Exhibit 99.2, filed July 30, 2026), note on changes in equity",
+            "quote": "It is represented by 2 019 241 973 shares without nominal value, of which 47 676 768 are held in treasury by AB InBev and its subsidiaries. All shares are ordinary shares, except for 222 037 958 restricted shares."
+          }
+        },
+        {
+          "label": "Shares held in treasury by AB InBev and its subsidiaries",
+          "value": -47676768,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526326285/d175040dex992.htm",
+            "label": "Interim Financial Report for the six-month period ended 30 June 2026 (Form 6-K Exhibit 99.2, filed July 30, 2026), note on changes in equity",
+            "quote": "It is represented by 2 019 241 973 shares without nominal value, of which 47 676 768 are held in treasury by AB InBev and its subsidiaries. All shares are ordinary shares, except for 222 037 958 restricted shares."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Restricted shares (unlisted)",
+      "shares": 222037958,
+      "sharesAsOf": "2026-06-30",
+      "pricedAs": "ABI.BR",
+      "perListedUnit": 1,
+      "pricedAsReason": "Restricted shares are unlisted and not admitted to trading; they are convertible at the holder's election into new ordinary shares one-for-one and rank equally with ordinary shares for dividends and votes",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526326285/d175040dex992.htm",
+        "label": "Interim Financial Report for the six-month period ended 30 June 2026 (Form 6-K Exhibit 99.2, filed July 30, 2026), note on changes in equity",
+        "quote": "All shares are ordinary shares, except for 222 037 958 restricted shares."
+      }
+    }
+  ],
+  "notes": "Ordinary shares priced from the primary listing on Euronext Brussels (ABI.BR) in EUR rather than the NYSE ADS (BUD, one ADS = one ordinary share). The newest stated count is the statement of capital at June 30, 2026 in the half-year interim financial report; the nine-month interim report (6-K of October 29, 2026) gives only a weighted average (1,973 million), so it is not used, and buybacks under the USD 6 billion programme continued after June 30. Ordinary shares outstanding = 2,019,241,973 total − 222,037,958 restricted − 47,676,768 treasury = 1,749,527,247 (the report states no ordinary-ex-treasury figure; treasury shares are taken as ordinary shares, as the restricted shares are held by Altria and BEVCO). Treasury shares fell from 68,489,754 at December 31, 2025 to 47,676,768 at June 30, 2026 with the total share count unchanged; the 20-F cover's 1,797,199,994 ordinary shares at December 31, 2025 include treasury shares. Restricted shares are priced through ABI.BR.",
+  "researchedAt": "2026-11-24"
+}

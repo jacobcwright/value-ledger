@@ -1,0 +1,31 @@
+{
+  "id": "nikesh-arora",
+  "company": "Palo Alto Networks",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-07-31",
+  "currency": "USD",
+  "employees": {
+    "value": 21921,
+    "asOf": "2026-07-31",
+    "basis": "employees (headcount at the end of fiscal 2026)",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000023/panw-20260731.htm",
+      "label": "FY2026 Form 10-K, Item 1A Risk Factors",
+      "quote": "from the end of fiscal 2025 to the end of fiscal 2026, our headcount increased from 16,068 to 21,921 employees, including approximately 4,223 additional headcount as a result of the CyberArk acquisition."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Median of the annual total compensation of all employees in fiscal 2026",
+    "value": 260431,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327567/000130817926000432/panw-20261027.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "The median of the annual total compensation of all employees of our Company and our consolidated subsidiaries in fiscal 2026 was approximately $260,431, excluding our Chief Executive Officer."
+    }
+  },
+  "notes": "Employees: year-end head count stated in the FY2026 10-K risk factors (the human capital section gives no number). Payroll: the FY2026 10-K discloses no total staff cost, so the proxy's CEO pay ratio median is used; it is for fiscal 2026, identified from the population of about 21,173 employees at May 1, 2026, excluding about 3,864 CyberArk employees acquired on February 11, 2026. It includes the grant-date fair value of equity awards, so it is far above cash pay.",
+  "researchedAt": "2026-11-24"
+}

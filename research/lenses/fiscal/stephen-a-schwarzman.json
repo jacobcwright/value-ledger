@@ -1,28 +1,28 @@
 {
   "id": "stephen-a-schwarzman",
   "company": "Blackstone",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.65,
+      "value": 0.56,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Payments for Income Taxes $ 646,872 $ 569,381 $ 683,171 Supplemental [USD thousands; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, supplemental cash-flow information, cash income taxes paid",
+        "quote": "Payments for Income Taxes $ 562,560 $ 646,872 $ 569,381 [USD thousands; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001393818",
           "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 646872000
+          "end": "2025-12-31",
+          "value": 562560000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line (asset manager).",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaid from the supplemental cash-flow line; the caption does not say whether refunds are netted. R&D not reported as a separate line (asset manager).",
+  "researchedAt": "2026-11-24"
 }

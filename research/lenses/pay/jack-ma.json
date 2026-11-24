@@ -1,0 +1,21 @@
+{
+  "id": "jack-ma",
+  "company": "Alibaba Group Holding",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
+  "currency": "CNY",
+  "employees": {
+    "value": 131462,
+    "asOf": "2026-03-31",
+    "basis": "full-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
+      "label": "FY2026 Form 20-F, Item 6.D Employees",
+      "quote": "As of March 31, 2024, 2025 and 2026, we had a total of 204,891, 124,320 and 131,462 full‑time employees, respectively."
+    }
+  },
+  "payroll": null,
+  "notes": "Employees: full-time employees at the March 31, 2026 fiscal year end, from the FY2026 20-F. Payroll is null: the 20-F gives no total of salaries, staff costs or employee benefits (staff costs appear only as components of cost of revenue and operating expense lines; the only aggregate is directors' and executive officers' pay of about RMB250 million), and Alibaba, a foreign private issuer, files no proxy and has no CEO pay ratio. This year's 20-F attaches no Hong Kong annual report exhibit.",
+  "researchedAt": "2026-11-24"
+}

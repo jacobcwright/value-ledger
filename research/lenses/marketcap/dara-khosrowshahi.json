@@ -1,0 +1,22 @@
+{
+  "id": "dara-khosrowshahi",
+  "company": "Uber",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 2041898070,
+      "sharesAsOf": "2026-10-30",
+      "pricedAs": "UBER",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/uber-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "The number of shares of the registrant's common stock outstanding as of October 30, 2026 was 2,041,898,070 ."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the New York Stock Exchange as UBER. The Q3 2026 10-Q cover (filed November 4, 2026) is the latest count, newer than the FY2025 10-K cover (2,058,115,983 at February 10, 2026).",
+  "researchedAt": "2026-11-24"
+}

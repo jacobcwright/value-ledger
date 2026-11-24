@@ -2,18 +2,18 @@
   "id": "phil-knight",
   "name": "Phil Knight",
   "netWorth": {
-    "value": 35.4,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 49,
+    "value": 25.1,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 97,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"phil-knight\",\"rank\":49,\"listUri\":\"billionaires\",\"visible\":true,\"position\":49,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":35400.0,\"finalWorthBillions\":35.4,\"category\":\"Fashion & Retail\",\"otherCompensation\":0,\"person\":{\"name\":\"Phil Knight & family\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"phil-knight\",\"rank\":97,\"listUri\":\"rtb\",\"visible\":true,\"position\":97,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":25098.408,\"finalWorthBillions\":25.098408,\"person\":{\"name\":\"Phil Knight & family\",\"uri\":\"phil-knight\",\"imageExists\":true,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/6488d5874961598251b12f50/416x416.jpg?background=000000&cropX1=598&cropX2=3344&cropY1=0&cropY2=2747\"},\"personName\":\"Phil Knight & family\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Phil Knight & family\" at rank 49 (ranks are shared on ties), net worth $35.4B, source \"Nike\". Forbes lists this as a family fortune (\"& family\"); the figure covers wealth Forbes attributes to him and his family, not him alone.",
+  "notes": "Listed as \"Phil Knight & family\" at rank 97, real-time net worth $25.1B, source \"Nike\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

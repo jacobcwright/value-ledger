@@ -3,37 +3,37 @@
   "company": "Boeing",
   "nbim": null,
   "calpers": {
-    "shares": 875678,
-    "asOf": "2024-12-31",
+    "shares": 984120,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "BOEING CO COM 097023105 154995006 875678"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "BOEING CO COM 097023105 183095526 984120"
     },
     "derived": {
-      "pct": 0.117,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.124,
+      "method": "CalPERS shares ÷ common shares outstanding (984,120 ÷ 792,449,940)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "The number of shares of the registrant's common stock outstanding as of January 27, 2025 was 750,074,411"
+          "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/ba-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+          "quote": "As of October 20, 2026, there were 792,449,940 shares of common stock, $5.00 par value, issued and outstanding."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 80843,
-    "asOf": "2025-01-27",
+    "count": 78957,
+    "asOf": "2026-01-23",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of January 27, 2025, there were 80,843 common shareholders of record."
+      "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of January 23, 2026, there were 78,957 common shareholders of record."
     }
   },
-  "notes": "NBIM: NBIM's year-end 2024 equity list has no line for The Boeing Company. CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: NBIM's equity holdings file at June 30, 2026 has no row for The Boeing Company (searched by name: no equity or bond row matches \"Boeing\"), so nbim is null. CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 common shares by the Q3 2026 10-Q cover count at October 20, 2026, the same count used in the marketcap lens; the mandatory convertible preferred stock is not in the denominator.",
+  "researchedAt": "2026-11-24"
 }

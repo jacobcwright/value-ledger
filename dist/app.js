@@ -17,10 +17,16 @@ function externalLink(url, label) {
   if (!url?.startsWith("https://")) return escapeHtml(label);
   return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`;
 }
-const metrics = {cap:"Value created",jobs:"People employed",paidout:"Paid out & sales enabled",payroll:"Estimated annual pay to workers"};
+const metrics = {cap:"Value created",jobs:"People employed",paidout:"Paid out & sales enabled",multiple:"Value multiple",payroll:"Annual pay to workers"};
 // The ranking's columns, in table order. Estimated pay is no longer a column: it sits inside paid out,
 // so it is shown on its own in each profile and never added to it.
-const columns = ["cap","jobs","paidout"];
+const columns = ["cap","multiple","jobs","paidout"];
+// How the pay figure was measured: reported staff costs, or the proxy's median pay × people employed.
+function payNote(leader, insidePaidOut) {
+  if (!finiteNumber(leader.payroll)) return "The company reports no staff-cost total or median pay";
+  const basis = leader.payBasis === "median-pay" ? "Median pay " + dollars.format(leader.wage) + " × people employed" : "Reported staff costs · " + dollars.format(leader.wage) + " per person";
+  return basis + (insidePaidOut ? " · part of paid out, never added to it" : "");
+}
 const sortedByCap = [...leaders].sort((a,b) => b.cap - a.cap);
 // List-wide headline figures ("$35.5 trillion", "15 million", "$985 billion"). The key line under the
 // title, the "How value spreads" story and the <head> meta copy all use this one rounding, so they always match.
@@ -35,12 +41,12 @@ const headlineShort = ([number,unit]) => number + {trillion:"T",billion:"B",mill
   // The key line under the title, computed from data.js: "100 builders · $35.5T value created · …".
   const keyLine = byId("key-line");
   if (keyLine) {
-    const sum = key => leaders.reduce((total,leader) => total + leader[key],0);
+    const sum = key => leaders.reduce((total,leader) => total + (leader[key] || 0),0);
     keyLine.innerHTML = [
       `${leaders.length} builders`,
       `${headlineShort(headlineFigure(sum("cap") * 1e9,"$"))} value created`,
       `${headlineShort(headlineFigure(sum("jobs")))} people employed`,
-      `${headlineShort(headlineFigure(sum("payroll") * 1e9,"$"))} estimated annual pay`
+      `${headlineShort(headlineFigure(sum("payroll") * 1e9,"$"))} pay to workers`
     ].map(item => `<li>${item}</li>`).join("");
   }
 }
@@ -100,7 +106,17 @@ function stakePhrase(entry) {
   if (entry.stakeBasis === "under1" && finiteNumber(entry.stakeBelowUsd)) return `Their stake under ${compactMoney(entry.stakeBelowUsd)}`;
   return "";
 }
-const metricValue = (leader,metric) => metric === "paidout" ? paidOutFor(leader)?.total ?? null : leader[metric];
+// Value multiple (headline.json): value created ÷ what the leader kept of it. Bounds ("at least") sort by their bound.
+const multipleFor = leader => headline?.[leader.id]?.valueMultiple || null;
+const multipleText = m => m.atLeast ? integer.format(m.value) + "×+" : (m.value >= 100 ? integer.format(Math.round(m.value)) : decimal.format(m.value)) + "×";
+const MULTIPLE_BASIS = {stake:"Value created ÷ their stake in the company",family:"Value created ÷ the family’s stake in the company",networth:"Value created ÷ their net worth (no stake disclosed; net worth also includes wealth from elsewhere)",bound:"A floor from the ownership disclosure"};
+function multipleCell(leader) {
+  if (!headline) return '<span class="po-pending" aria-label="Loading">…</span>';
+  const m = multipleFor(leader);
+  if (!m) return '<span class="po-none" aria-label="Not available">—</span>';
+  return `<span title="${escapeHtml(MULTIPLE_BASIS[m.basis] || "")}">${multipleText(m)}</span>` + (m.basis === "networth" ? '<sup class="po-mark" title="Based on net worth">‡</sup><span class="visually-hidden"> (based on net worth)</span>' : "");
+}
+const metricValue = (leader,metric) => metric === "paidout" ? paidOutFor(leader)?.total ?? null : metric === "multiple" ? multipleFor(leader)?.value ?? null : leader[metric];
 function paidOutCell(leader) {
   const figure = paidOutFor(leader);
   if (!paidOut) return '<span class="po-pending" aria-label="Loading">…</span>';
@@ -108,7 +124,7 @@ function paidOutCell(leader) {
   if (!figure) return '<span class="po-none" aria-label="Not available">—</span>';
   return compactMoney(figure.total) + (figure.sales ? '<sup class="po-mark" title="Includes sales enabled on its platform">†</sup><span class="visually-hidden"> (includes sales enabled)</span>' : "");
 }
-const metricFormat = {cap:leader => compactMoney(leader.cap),jobs:leader => integer.format(leader.jobs),paidout:paidOutCell};
+const metricFormat = {cap:leader => compactMoney(leader.cap),multiple:multipleCell,jobs:leader => integer.format(leader.jobs),paidout:paidOutCell};
 const searchIndex = new Map(leaders.map(leader => [leader,searchable([leader.name,leader.company,leader.ticker,leader.sector].join(" "))]));
 // Each ranking is computed from data.js (and paidout.json, once it arrives); ties fall back to market value.
 // Leaders without a figure (not comparable, or not available) sort last.
@@ -153,7 +169,7 @@ function detailLine(leader) {
     return `Paid ${compactMoney(figure.base)} to employees, suppliers, partners, lenders and governments${year}${figure.adjusted ? ", adjusted for customer lending" : ""}.`
       + (figure.sales ? ` Its platform enabled ${compactMoney(figure.sales)} in sales for others.` : "");
   }
-  return `Employs ${integer.format(leader.jobs)} people who earn an estimated ${compactMoney(leader.payroll)} a year.`;
+  return `Employs ${integer.format(leader.jobs)} people` + (finiteNumber(leader.payroll) ? ` who earn ${compactMoney(leader.payroll)} a year${leader.payBasis === "median-pay" ? " (median pay × people employed)" : ""}.` : ".");
 }
 function render() {
   const search = searchable(query.value.trim());
@@ -246,8 +262,11 @@ paidOutReady.then(() => {
   rankings.paidout = rankBy("paidout");
   render();
 });
-// headline.json fills each row panel's headline line.
-headlineReady.then(render);
+// headline.json fills each row panel's headline line and the value multiple column.
+headlineReady.then(() => {
+  rankings.multiple = rankBy("multiple");
+  render();
+});
 
 const dialog = byId("profile");
 let profileGlobe, previousHash = "#ranking", profileToken = 0;
@@ -377,7 +396,7 @@ function headlineStats(leader) {
   const entry = headline ? headline[leader.id] : null;
   const pending = '<span class="stat-pending" aria-label="Loading">…</span>';
   const cell = (key, label, value, notes, text = false) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong${text ? ' class="is-text"' : ""}>${value}</strong>${notes.filter(Boolean).map(note => `<span>${note}</span>`).join("")}</dd></div>`;
-  const cells = [cell("cap",metrics.cap,compactMoney(leader.cap),["Market capitalization, year-end 2024"])];
+  const cells = [cell("cap",metrics.cap,compactMoney(leader.cap),["Market value, " + edition.pricesAsOfLabel])];
   // Held by others: value created × the ownership headline's "Everyone else".
   if (loading) cells.push(cell("others","Held by others",pending,[""]));
   else if (entry && finiteNumber(entry.heldByOthersUsd) && entry.heldByOthersBound) {
@@ -412,6 +431,16 @@ function headlineStats(leader) {
   } else if (entry?.stakeBasis === "under1" && finiteNumber(entry.stakeBelowUsd)) {
     cells.push(cell("stake",label,`Under 1% (&lt;&nbsp;${compactMoney(entry.stakeBelowUsd)})`,["Exact stake not disclosed",netWorth],true));
   } else cells.push(cell("stake",label,"—",[escapeHtml(entry?.stakeNote || "No stake disclosed"),netWorth]));
+  // Value multiple: value created ÷ what the leader kept of it (their stake; or net worth where no stake is disclosed).
+  const m = entry?.valueMultiple;
+  if (loading) cells.push(cell("multiple",metrics.multiple,pending,[""]));
+  else if (m) {
+    const kept = m.basis === "stake" ? "their stake" : m.basis === "family" ? "the family’s stake" : m.basis === "networth" ? "their net worth" : "";
+    const note = m.basis === "bound" ? (m.value >= 100 ? `${escapeHtml(leader.name)} holds under 1%, so value created is more than 100× their stake` : `${escapeHtml(leader.name)} holds under 5%, so value created is at least 20× their stake`)
+      : `Value created for every $1 of ${kept}` + (m.basis === "networth" ? " (no stake disclosed; net worth includes wealth from elsewhere)" : "");
+    const extra = m.basis !== "networth" && finiteNumber(entry.netWorthMultiple) && entry.netWorthMultiple >= 1 ? `${multipleText({value:entry.netWorthMultiple})} their net worth` : "";
+    cells.push(cell("multiple",metrics.multiple,multipleText(m),[note,extra]));
+  } else cells.push(cell("multiple",metrics.multiple,"—",[entry?.netWorthMultiple != null && entry.netWorthMultiple < 1 ? "Their net worth is larger than this company’s value, so most of it comes from elsewhere" : "No stake or net worth to compare"]));
   return cells.join("");
 }
 
@@ -420,10 +449,10 @@ function openProfile(leader, section) {
   const token = ++profileToken;
   const isAmazon = leader.id === "jeff-bezos";
   const rank = sortedByCap.indexOf(leader) + 1;
-  // Workers, under the headline: people employed and estimated pay (inside paid out, never added to it).
+  // Workers, under the headline: people employed and pay as reported (inside paid out, never added to it).
   const workerFigures = [
     ["jobs",metrics.jobs,integer.format(leader.jobs),"Directly, worldwide · " + escapeHtml(leader.fy)],
-    ["payroll",metrics.payroll,compactMoney(leader.payroll),"At " + dollars.format(leader.wage) + " per person · part of paid out, never added to it"]
+    ["payroll",metrics.payroll,finiteNumber(leader.payroll) ? compactMoney(leader.payroll) : "Not disclosed",payNote(leader,true)]
   ];
   updateProfileNav(leader);
   dialog.dataset.leader = leader.id;
@@ -434,16 +463,9 @@ function openProfile(leader, section) {
       <dl class="profile-stats profile-stats-workers" aria-label="Workers">${workerFigures.map(([key,label,value,note]) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong>${value}</strong><span>${note}</span></dd></div>`).join("")}</dl>
       <div class="profile-overview-more">
         <div class="profile-lenses-wrap">
-          <p class="profile-lenses">Value created is measured here as market value, which counts only what owners keep. The sections below show more of the value ${escapeHtml(leader.company)} created, each on its own. Only paid out combines figures, and only its own parts; it never adds estimated pay, market value or another lens. <a href="/methodology">Methodology</a></p>
+          <p class="profile-lenses">Value created is measured here as market value, which counts only what owners keep. Everything on this page is value created through the business; ${escapeHtml(leader.name)}’s philanthropy and work outside it aren’t counted. The sections below show more of the value ${escapeHtml(leader.company)} created, each on its own. Only paid out combines figures, and only its own parts; it never adds pay to workers, market value or another lens. <a href="/methodology">Methodology</a></p>
           ${isAmazon ? '<p class="amazon-profile-links"><button type="button" id="show-amazon-map">Explore where Amazon creates value</button></p>' : ""}
         </div>
-        <section class="profile-scenario" aria-labelledby="scenario-title"><h3 id="scenario-title">What workers could earn together</h3>
-          <div class="scenario"><span>${metrics.payroll}</span><strong id="scenario-total" aria-live="polite">${compactMoney(leader.payroll)}</strong></div>
-          <label for="wage">Assumed yearly pay per person <output id="wage-label" for="wage">${dollars.format(leader.wage)}</output></label>
-          <input id="wage" type="range" min="75" max="125" step="1" value="100" style="--fill:50%" aria-valuetext="${dollars.format(leader.wage)}">
-          <div class="range-scale" aria-hidden="true"><span>−25%</span><span>Our estimate</span><span>+25%</span></div>
-          <button class="scenario-reset" id="wage-reset" type="button" hidden>Reset to our estimate</button>
-        </section>
       </div>
     </div>
     ${!isAmazon && typeof companyValueSlot === "function" ? companyValueSlot(leader) : ""}
@@ -464,7 +486,7 @@ function openProfile(leader, section) {
     </div>
     <section class="profile-section profile-sources" id="profile-sources" data-chip="Sources" aria-labelledby="sources-title">
       <h3 id="sources-title">Sources</h3>
-      <div class="sources">${externalLink(leader.jobsUrl,"Employment source")}${externalLink(leader.capUrl,"Value created source")}${externalLink(leader.bio,"Biography")}</div>
+      <div class="sources">${externalLink(leader.jobsUrl,"Employment source")}${externalLink(leader.capUrl,"Share count source")}${externalLink(leader.bio,"Biography")}</div>
       <p class="photo-credit">Photo (cropped): ${externalLink(leader.photo,leader.artist)} · ${externalLink(leader.licenseUrl,leader.license)}</p>
       <div id="profile-provenance" class="profile-provenance"></div>
     </section>`;
@@ -478,7 +500,7 @@ function openProfile(leader, section) {
     list.innerHTML = headlineStats(leader);
     // Pay sits inside paid out only where paid out is shown.
     const entry = headline[leader.id];
-    if (!(entry?.comparable && finiteNumber(entry.paidOutUsd))) document.querySelector("#profile-body .stat-payroll dd span").textContent = "At " + dollars.format(leader.wage) + " per person";
+    if (!(entry?.comparable && finiteNumber(entry.paidOutUsd))) document.querySelector("#profile-body .stat-payroll dd span").textContent = payNote(leader,false);
   };
   if (headline) fillHeadline();
   else headlineReady.then(fillHeadline);
@@ -540,23 +562,6 @@ function openProfile(leader, section) {
     });
     if (deepLink) Promise.all([valueShown,footprint]).then(([,panel]) => jump(mapSection,panel ? panel.focusTarget() : byId("profile-globe")));
   }
-  const wageInput = byId("wage"), wageReset = byId("wage-reset");
-  function updateWage() {
-    const percent = Number(wageInput.value);
-    const wage = leader.wage * percent / 100;
-    const wageText = dollars.format(wage);
-    byId("wage-label").textContent = wageText;
-    wageInput.setAttribute("aria-valuetext",wageText);
-    wageInput.style.setProperty("--fill",(percent - 75) * 2 + "%");
-    byId("scenario-total").textContent = compactMoney(leader.jobs * wage / 1e9);
-    wageReset.hidden = percent === 100;
-  }
-  wageInput.addEventListener("input",updateWage);
-  wageReset.addEventListener("click",() => {
-    wageInput.value = 100;
-    updateWage();
-    wageInput.focus();
-  });
 }
 
 // company-value.js and amazon-distribution.js are needed only inside a profile, so they load on the first

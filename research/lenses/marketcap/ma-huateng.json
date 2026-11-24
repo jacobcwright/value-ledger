@@ -1,0 +1,22 @@
+{
+  "id": "ma-huateng",
+  "company": "Tencent Holdings",
+  "classes": [
+    {
+      "label": "Ordinary shares (excluding treasury shares)",
+      "shares": 9092644829,
+      "sharesAsOf": "2026-10-31",
+      "pricedAs": "0700.HK",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501130.pdf",
+        "label": "HKEX Monthly Return for the month ended 31 October 2026 (submitted 5 November 2026), II. Movements in Issued Shares",
+        "quote": "Number of issued shares (excluding treasury shares) ... Balance at close of the month 9,092,644,829 0"
+      }
+    }
+  ],
+  "notes": "One class of ordinary shares, priced from the primary listing on the Hong Kong Stock Exchange (0700.HK, HKD). The same shares also trade on an RMB counter (80700); the HKD counter is used. The U.S. ADRs (TCEHY, OTC) are not used. The monthly return reports zero treasury shares at 31 October 2026.",
+  "researchedAt": "2026-11-24"
+}

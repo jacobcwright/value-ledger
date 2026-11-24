@@ -1,0 +1,31 @@
+{
+  "id": "bill-gates",
+  "company": "Microsoft",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-06-30",
+  "currency": "USD",
+  "employees": {
+    "value": 223000,
+    "asOf": "2026-06-30",
+    "basis": "approximately 223,000 people on a full-time basis",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "label": "FY2026 Form 10-K, Item 1 Human Capital Resources",
+      "quote": "As of June 30, 2026, we employed approximately 223,000 people on a full-time basis, 121,000 in the U.S. and 102,000 internationally."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "annual total compensation for the median employee of the Company (other than our CEO)",
+    "value": 215057,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427849/d61756ddef14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "For fiscal year 2026, the annual total compensation for the median employee of the Company (other than our CEO) was $215,057 and the annual total compensation of our CEO was $90,628,977."
+    }
+  },
+  "notes": "Employees: approximate full-time count at the June 30, 2026 fiscal year end, from the FY2026 10-K. Payroll: the 10-K discloses no total staff cost, so the October 2026 proxy's CEO pay ratio median is used; it is for fiscal 2026, the same year. The proxy reuses the median employee identified from the June 30, 2025 population (selected for the 2025 proxy), and the median's pay includes the value of stock awards granted.",
+  "researchedAt": "2026-11-24"
+}

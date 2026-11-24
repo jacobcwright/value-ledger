@@ -1,0 +1,21 @@
+{
+  "id": "jennifer-hyman",
+  "company": "Rent the Runway",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2026-01-31",
+  "currency": "USD",
+  "employees": {
+    "value": 942,
+    "asOf": "2026-01-31",
+    "basis": "full-time employees in the United States and Ireland (plus 73 part-time employees, not counted here)",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm",
+      "label": "Fiscal 2025 Form 10-K, Item 1 Employees and Human Capital Resources",
+      "quote": "As of January 31, 2026, we had a total of 942 full-time employees and 73 part-time employees in the United States and Ireland"
+    }
+  },
+  "payroll": null,
+  "notes": "Employees: the 942 full-time employees at January 31, 2026; the same sentence adds 73 part-time employees, which are not added because the 10-K states no combined total. Payroll is null: the 10-K gives no total of salaries, wages or personnel costs (payroll is described only as a component of fulfillment, technology, marketing and G&A expenses), and the 2026 proxy contains no CEO pay ratio or median employee pay (no such disclosure was found in it).",
+  "researchedAt": "2026-11-24"
+}

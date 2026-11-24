@@ -95,3 +95,7 @@
 @media (prefers-reduced-motion:reduce) {
   .mp-toc a {transition:none}
 }
+
+/* The business-only disclaimer at the top of "What value created means here". */
+.mp-callout {padding:var(--space-4) var(--space-5);border:1px solid var(--line);border-left:3px solid var(--share-rest);border-radius:var(--radius);background:var(--card)}
+@media (max-width:760px) { .mp-callout {padding:var(--space-4)} }

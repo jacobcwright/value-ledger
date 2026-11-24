@@ -1,0 +1,38 @@
+{
+  "id": "akio-morita",
+  "company": "Sony",
+  "classes": [
+    {
+      "label": "Common stock (shares issued less treasury stock)",
+      "shares": 5828637297,
+      "sharesAsOf": "2026-10-31",
+      "pricedAs": "6758.T",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "Total number of shares issued at October 31, 2026",
+          "value": 5965316326,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/313838/000110465926125990/tm2629459d1_6k.htm",
+            "label": "Report on status of share repurchase for October 2026 (Form 6-K, November 12, 2026), 3. Status of Shares Held in Treasury",
+            "quote": "3. Status of Shares Held in Treasury (as of October 31, 2026) Status as of the end of the reporting month Number of Shares Total number of shares issued 5,965,316,326 Number of treasury stock 136,679,029"
+          }
+        },
+        {
+          "label": "Treasury stock at October 31, 2026 (subtracted)",
+          "value": -136679029,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/313838/000110465926125990/tm2629459d1_6k.htm",
+            "label": "Report on status of share repurchase for October 2026 (Form 6-K, November 12, 2026), 3. Status of Shares Held in Treasury",
+            "quote": "3. Status of Shares Held in Treasury (as of October 31, 2026) Status as of the end of the reporting month Number of Shares Total number of shares issued 5,965,316,326 Number of treasury stock 136,679,029"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "One class of common stock, priced from its primary listing on the Tokyo Stock Exchange (6758.T) rather than the NYSE ADS (SONY, 1 ADS = 1 share). Shares = 5,965,316,326 issued − 136,679,029 treasury = 5,828,637,297 at October 31, 2026, from Sony's monthly share-repurchase status report filed on Form 6-K on November 12, 2026, which states both parts but not the difference. The 20-F count (6,149,810,645 issued including 242,144,891 treasury at March 31, 2026) is stale: Sony cancelled 184,494 thousand treasury shares on May 29, 2026 and has bought 86,065,800 shares under its program of up to 230 million shares or ¥500 billion running May 11, 2026 to May 10, 2027, so the edition-date count is slightly lower than recorded.",
+  "researchedAt": "2026-11-24"
+}

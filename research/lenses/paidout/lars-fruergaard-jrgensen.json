@@ -1,131 +1,130 @@
 {
- "id": "lars-fruergaard-jrgensen",
- "company": "Novo Nordisk A/S",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
- "currency": "DKK",
- "unit": "billions",
- "statedUnit": "DKK million",
- "sector": "pharma",
- "comparable": true,
- "inputs": {
-  "revenue": {
-   "value": 290.403,
-   "stated": 290403,
-   "divisor": 1000,
-   "source": {
-    "hostType": "company",
-    "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-    "label": "Annual Report 2024, consolidated income statement (DKK million)",
-    "quote": "Net sales 2.1, 2.2 290,403 232,261 176,954"
-   }
-  },
-  "operatingCashFlow": {
-   "value": 120.968,
-   "stated": 120968,
-   "divisor": 1000,
-   "source": {
-    "hostType": "company",
-    "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-    "label": "Annual Report 2024, consolidated cash flow statement (DKK million)",
-    "quote": "Net cash flows from operating activities 120,968 108,908 78,887"
-   }
-  },
-  "capex": {
-   "value": 51.309,
-   "components": [
-    "PP&E 47.164",
-    "intangibles 4.145"
-   ],
-   "parts": [
-    {
-     "label": "PP&E",
-     "value": 47.164,
-     "stated": 47164,
-     "divisor": 1000,
-     "source": {
-      "hostType": "company",
-      "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-      "label": "Annual Report 2024, consolidated cash flow statement (DKK million)",
-      "quote": "Purchase of property, plant and equipment 3.2 (47,164) (25,806) (12,146)"
-     }
+  "id": "lars-fruergaard-jrgensen",
+  "company": "Novo Nordisk A/S",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "DKK",
+  "unit": "billions",
+  "statedUnit": "DKK million",
+  "sector": "pharma",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 309.064,
+      "stated": 309064,
+      "divisor": 1000,
+      "source": {
+        "hostType": "company",
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Annual Report 2025, consolidated income statement (DKK million)",
+        "quote": "Net sales 2.1, 2.2 309,064 290,403 232,261"
+      }
     },
-    {
-     "label": "intangibles",
-     "value": 4.145,
-     "stated": 4145,
-     "divisor": 1000,
-     "source": {
-      "hostType": "company",
-      "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-      "label": "Annual Report 2024, consolidated cash flow statement (DKK million)",
-      "quote": "Purchase of intangible assets 3.1 (4,145) (13,090) (2,607)"
-     }
+    "operatingCashFlow": {
+      "value": 119.102,
+      "stated": 119102,
+      "divisor": 1000,
+      "source": {
+        "hostType": "company",
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Annual Report 2025, consolidated cash flow statement (DKK million)",
+        "quote": "Net cash flows from operating activities 119,102 120,968 108,908"
+      }
+    },
+    "capex": {
+      "value": 90.113,
+      "components": [
+        "PP&E 60.140",
+        "intangibles 29.973"
+      ],
+      "parts": [
+        {
+          "label": "PP&E",
+          "value": 60.14,
+          "stated": 60140,
+          "divisor": 1000,
+          "source": {
+            "hostType": "company",
+            "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+            "label": "Annual Report 2025, consolidated cash flow statement (DKK million)",
+            "quote": "Purchase of property, plant and equipment 3.3 (60,140) (47,164) (25,806)"
+          }
+        },
+        {
+          "label": "intangibles",
+          "value": 29.973,
+          "stated": 29973,
+          "divisor": 1000,
+          "source": {
+            "hostType": "company",
+            "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+            "label": "Annual Report 2025, consolidated cash flow statement (DKK million)",
+            "quote": "Purchase of intangible assets 3.1 (29,973) (4,145) (13,090)"
+          }
+        }
+      ]
+    },
+    "interestPaid": {
+      "value": 3.419,
+      "stated": 3419,
+      "divisor": 1000,
+      "source": {
+        "hostType": "company",
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Annual Report 2025, consolidated cash flow statement (DKK million)",
+        "quote": "Interest received 1,398 1,884 1,072 Interest paid (3,419) (612) (491)"
+      },
+      "inOCF": true,
+      "location": "operating activities"
+    },
+    "taxesPaid": {
+      "value": 32.014,
+      "stated": 32014,
+      "divisor": 1000,
+      "source": {
+        "hostType": "company",
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Annual Report 2025, consolidated cash flow statement (DKK million)",
+        "quote": "Income taxes paid 2.6 (32,014) (29,636) (25,897) Net cash flows from operating activities 119,102"
+      },
+      "inOCF": true,
+      "location": "operating activities"
+    },
+    "leasePrincipalPaid": {
+      "value": 1.503,
+      "stated": 1503,
+      "divisor": 1000,
+      "source": {
+        "hostType": "company",
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Annual Report 2025, free cash flow reconciliation (DKK million)",
+        "quote": "Repayment of lease liabilities IFRS (1,503) (1,417) (1,448)"
+      },
+      "added": false,
+      "note": "IFRS 16 lease principal, inside 'Repayment of borrowings' (79,188) in financing; noted, not added (0.5% of paidOut)."
     }
-   ],
-   "note": "Excludes 'Cash used for acquisition of businesses' (82,163, mainly the Catalent fill-finish sites)."
   },
-  "interestPaid": {
-   "value": 0.612,
-   "stated": 612,
-   "divisor": 1000,
-   "source": {
-    "hostType": "company",
-    "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-    "label": "Annual Report 2024, consolidated cash flow statement (DKK million)",
-    "quote": "Interest received 1,884 1,072 276 Interest paid (612) (491) (272)"
-   },
-   "inOCF": true,
-   "location": "operating activities"
+  "paidOut": 280.075,
+  "paidOutFormula": "309,064 − 119,102 + 90,113 (60,140 PP&E + 29,973 intangibles) = 280,075 DKK million (interest and taxes paid are inside OCF)",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": {
+      "value": 1.398,
+      "stated": 1398,
+      "divisor": 1000,
+      "source": {
+        "hostType": "company",
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Annual Report 2025, consolidated cash flow statement (DKK million)",
+        "quote": "Interest received 1,398 1,884 1,072 Interest paid (3,419) (612) (491)"
+      },
+      "note": "Interest received sits in operating cash flow, lowering paidOut by this amount (0.5%)."
+    },
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
   },
-  "taxesPaid": {
-   "value": 29.636,
-   "stated": 29636,
-   "divisor": 1000,
-   "source": {
-    "hostType": "company",
-    "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-    "label": "Annual Report 2024, consolidated cash flow statement (DKK million)",
-    "quote": "Income taxes paid 2.6 (29,636) (25,897) (14,515) Net cash flows from operating activities 120,968"
-   },
-   "inOCF": true,
-   "location": "operating activities"
-  },
-  "leasePrincipalPaid": {
-   "value": 1.417,
-   "stated": 1417,
-   "divisor": 1000,
-   "source": {
-    "hostType": "company",
-    "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-    "label": "Annual Report 2024, free cash flow reconciliation (DKK million)",
-    "quote": "Repayment on lease liabilities IFRS (1,417) (1,448) (998)"
-   },
-   "added": false,
-   "note": "IFRS 16 lease principal, inside 'Repayment of borrowings' (6,335) in financing; noted, not added (0.6% of paidOut)."
-  }
- },
- "paidOut": 220.744,
- "paidOutFormula": "290,403 − 120,968 + 51,309 (47,164 PP&E + 4,145 intangibles) = 220,744 DKK million (interest and taxes paid are inside OCF)",
- "altPaidOut": null,
- "salesEnabled": null,
- "flags": {
-  "financeReceivablesInOCF": false,
-  "interestDividendsReceivedInOCF": {
-   "value": 1.884,
-   "stated": 1884,
-   "divisor": 1000,
-   "source": {
-    "hostType": "company",
-    "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-    "label": "Annual Report 2024, consolidated cash flow statement (DKK million)",
-    "quote": "Interest received 1,884 1,072 276 Interest paid (612) (491) (272)"
-   },
-   "note": "Interest received sits in operating cash flow, lowering paidOut by this amount (0.9%)."
-  },
-  "revenueIncludesExcise": false,
-  "nonCashRevenue": null
- },
- "notes": "IFRS. Interest received, interest paid and income taxes paid are all classified inside operating activities, so nothing is added. Capex is gross purchases of PP&E and intangibles; the 82,163 business acquisition (Catalent sites) is excluded.",
- "researchedAt": "2026-11-23"
+  "notes": "IFRS, Annual Report 2025 (fiscal year ended 31 December 2025). Interest received, interest paid and income taxes paid are all classified inside operating activities, so nothing is added. Capex is gross purchases of PP&E and intangibles. Judgement: the intangibles line (29,973) includes the Akero Therapeutics purchase, which Novo booked as an intangible-asset purchase rather than an acquisition of businesses; the annual report says 'Capital expenditure related to intangible assets was DKK 30.0 billion in 2025 compared with DKK 4.1 billion in 2024, reflecting business development activities, mainly related to the acquisition of Akero Therapeutics, Inc.' It is kept in capex as reported, since the filing gives no separate Akero amount. No 'acquisition of businesses' cash outflow in 2025 (a 1,004 settlement inflow for the prior year's acquisition is excluded).",
+  "researchedAt": "2026-11-24"
 }

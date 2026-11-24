@@ -1,0 +1,31 @@
+{
+  "id": "jensen-huang",
+  "company": "NVIDIA",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-25",
+  "currency": "USD",
+  "employees": {
+    "value": 42000,
+    "asOf": "2026-01-25",
+    "basis": "approximately 42,000 employees in 38 countries",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "label": "FY2026 Form 10-K, Item 1 Human Capital Management",
+      "quote": "As of the end of fiscal year 2026, we had approximately 42,000 employees in 38 countries; 31,000 were engaged in research and development and 11,000 were engaged in sales, marketing, operations, and administrative positions."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "median employee's total compensation for Fiscal 2026",
+    "value": 282050,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "Our median employee's total compensation for Fiscal 2026 was $282,050. Our CEO's Fiscal 2026 total compensation was $36,343,830. Therefore, our Fiscal 2026 CEO to median employee pay ratio was 129:1."
+    }
+  },
+  "notes": "Employees: approximate count at the end of fiscal 2026 (January 25, 2026), from the FY2026 10-K. Payroll: the 10-K discloses no total staff cost, so the 2026 proxy's CEO pay ratio median is used; it is for fiscal 2026, the same year as the head count. NVIDIA reused the median employee identified for fiscal 2024, stating there were no changes to its employee population or compensation arrangements that would significantly affect the disclosure.",
+  "researchedAt": "2026-11-24"
+}

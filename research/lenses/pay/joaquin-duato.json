@@ -1,0 +1,31 @@
+{
+  "id": "joaquin-duato",
+  "company": "Johnson & Johnson",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-28",
+  "currency": "USD",
+  "employees": {
+    "value": 140800,
+    "asOf": "2025-12-28",
+    "basis": "approximately 140,800 employees (individuals working full-time or part-time, excluding fixed term employees, interns and co-op employees); 138,200 full-time equivalent positions",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+      "label": "FY2025 Form 10-K, Item 1 Employees and human capital management",
+      "quote": "As of December 28, 2025 and December 29, 2024 the number of employees was approximately: 2025 2024 Employees (1) 140,800 139,800 Full-time equivalent (FTE) positions (2) 138,200 138,100"
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "annual total compensation of our median-paid employee on a worldwide basis for 2025",
+    "value": 91000,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000063/jnj-20260309.htm",
+      "label": "2026 proxy statement (DEF 14A), Ratio of the annual total compensation of the median-paid employee to the CEO",
+      "quote": "The annual total compensation of our median-paid employee on a worldwide basis for 2025 was $91,000. The annual total compensation of our Chief Executive Officer for 2025 was $32,784,511. The ratio of the two amounts for 2025 is 360 to 1 ."
+    }
+  },
+  "notes": "Employees: the 10-K's head count of individual employees at December 28, 2025 (140,800); it also reports 138,200 full-time equivalent positions, the figure used in its business description. Contingent workers are excluded. Payroll: the 10-K discloses no total staff cost, so the 2026 proxy's CEO pay ratio median for 2025 is used (same year as the head count); J&J says it assumed the 8% of employees missing from its compensation database are paid less than the median.",
+  "researchedAt": "2026-11-24"
+}

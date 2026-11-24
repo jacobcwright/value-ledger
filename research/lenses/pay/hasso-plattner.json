@@ -1,0 +1,37 @@
+{
+  "id": "hasso-plattner",
+  "company": "SAP SE",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "EUR",
+  "employees": {
+    "value": 110650,
+    "asOf": "2025-12-31",
+    "basis": "full-time equivalents (SAP Group, December 31)",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/sap-20251231x20f.htm",
+      "label": "FY2025 Form 20-F, Note (B.1) Number of Employees",
+      "quote": "Number of Employees by Region and Function 12/31/2025 12/31/2024 12/31/2023 Full-time equivalents ... SAP Group (December 31) 50,837 27,760 32,053 110,650"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Employee benefits expenses",
+    "value": 16.478,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/sap-20251231x20f.htm",
+      "label": "FY2025 Form 20-F, Note (B.2) Employee Benefits Expenses",
+      "quote": "Employee Benefits Expenses € millions 2025 2024 2023 Salaries 12,066 12,244 12,128 Social security expenses 1,981 2,003 1,919 Share-based payment expenses 1,695 2,385 2,220 Pension expenses 495 435 438 Employee-related restructuring expenses 3 3,143 222 Termination benefits outside of restructuring plans 238 68 64 Employee benefits expenses 16,478 20,278 16,992",
+      "xbrl": {
+        "cik": "0001000184",
+        "concept": "ifrs-full:EmployeeBenefitsExpense",
+        "end": "2025-12-31",
+        "value": 16478000000
+      }
+    }
+  },
+  "notes": "Employees: SAP reports head count in full-time equivalents; 110,650 FTEs at December 31, 2025 (months'-end average 109,211). Payroll: Note (B.2) 'Employee benefits expenses' of €16,478 million as reported, which includes salaries, social security, share-based payment (€1,695 million), pension, restructuring and termination-benefit expenses. Billions of EUR.",
+  "researchedAt": "2026-11-24"
+}

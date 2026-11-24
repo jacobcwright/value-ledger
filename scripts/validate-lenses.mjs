@@ -168,7 +168,7 @@ async function verifyFact(f) {
 // These two lenses have their own file shapes, so they are validated here but not through lensDirs and
 // fileLenses (whose header rules and one-key-per-lens layout they don't follow). The build publishes them
 // with its own functions; the arithmetic helpers below are shared so the validator and the build agree.
-export const extraLensDirs = {paidout: path.join(root, "research/lenses/paidout"), owners: path.join(root, "research/lenses/owners"), networth: path.join(root, "research/lenses/networth")};
+export const extraLensDirs = {paidout: path.join(root, "research/lenses/paidout"), owners: path.join(root, "research/lenses/owners"), networth: path.join(root, "research/lenses/networth"), marketcap: path.join(root, "research/lenses/marketcap"), pay: path.join(root, "research/lenses/pay")};
 const fxFile = path.join(extraLensDirs.paidout, "_fx.json");
 const managersFile = path.join(extraLensDirs.owners, "_managers.json");
 const BANK_LIKE = ["bank", "broker", "insurer"];
@@ -464,6 +464,73 @@ export function validateNetworthFile(id) {
 }
 
 // The shared files: FX rates and the asset-manager list.
+// Market value inputs: shares outstanding per share class, each priced from one listed line on the edition date.
+// The build computes value = Σ shares × perListedUnit × close(pricedAs) ÷ FX, using _prices.json.
+export function validateMarketcapFile(id) {
+  const file = path.join(extraLensDirs.marketcap, id + ".json");
+  const result = {dirKey: "marketcap", id, file, exists: fs.existsSync(file), errs: [], warns: [], facts: [], links: []};
+  if (!result.exists) return result;
+  const {errs, warns, facts} = result, links = new Set();
+  let rec;
+  try { rec = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { errs.push(`invalid JSON (${e.message})`); return result; }
+  result.record = rec;
+  if (!ids.has(rec.id)) errs.push(`id "${rec.id}" not in data.js`);
+  if (path.basename(file, ".json") !== rec.id) errs.push("file name must equal id");
+  if (!Array.isArray(rec.classes) || !rec.classes.length) errs.push("classes must be a non-empty array");
+  for (const [i, c] of (rec.classes || []).entries()) {
+    const w = `classes[${i}]`;
+    if (!c.label) errs.push(`${w}.label missing`);
+    num(c.shares, `${w}.shares`, errs, {nullable: false, min: 1, max: 1e13});
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(c.sharesAsOf || "")) errs.push(`${w}.sharesAsOf must be YYYY-MM-DD`);
+    else if (c.sharesAsOf < "2025-12-01") warns.push(`${w}.sharesAsOf ${c.sharesAsOf} is old: use the latest filing cover page or exchange return`);
+    if (!c.pricedAs || typeof c.pricedAs !== "string") errs.push(`${w}.pricedAs missing (the market symbol whose close prices this class)`);
+    num(c.perListedUnit ?? 1, `${w}.perListedUnit`, errs, {nullable: false, min: 1e-6, max: 1e6});
+    if (c.pricedAs && c.pricedAsReason == null && c.perListedUnit != null && c.perListedUnit !== 1) warns.push(`${w}: perListedUnit ≠ 1 without pricedAsReason`);
+    if (c.computedFrom) { if (!Array.isArray(c.computedFrom) || c.computedFrom.length < 2) errs.push(`${w}.computedFrom must list the quoted parts`); else c.computedFrom.forEach((part, k) => checkSource(part.source, `${w}.computedFrom[${k}]`, errs, facts, links)); }
+    else checkSource(c.source, w, errs, facts, links);
+  }
+  for (const key of Object.keys(rec)) if (!["id", "company", "classes", "notes", "researchedAt"].includes(key)) warns.push(`unknown key ${key}`);
+  result.links = [...links];
+  return result;
+}
+
+// Employees and pay. payroll.method: "personnel-expense" (total staff costs as reported, billions of currency)
+// or "median-pay" (the CEO pay ratio disclosure's median employee pay, in units of currency; the build multiplies it by employees).
+const PAY_METHODS = ["personnel-expense", "median-pay"];
+export function validatePayFile(id) {
+  const file = path.join(extraLensDirs.pay, id + ".json");
+  const result = {dirKey: "pay", id, file, exists: fs.existsSync(file), errs: [], warns: [], facts: [], links: []};
+  if (!result.exists) return result;
+  const {errs, warns, facts} = result, links = new Set();
+  let rec;
+  try { rec = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { errs.push(`invalid JSON (${e.message})`); return result; }
+  result.record = rec;
+  if (!ids.has(rec.id)) errs.push(`id "${rec.id}" not in data.js`);
+  if (path.basename(file, ".json") !== rec.id) errs.push("file name must equal id");
+  for (const k of ["company", "fiscalYear", "fiscalYearEnd", "currency", "researchedAt"]) if (rec[k] == null) errs.push(`missing ${k}`);
+  const e = rec.employees;
+  if (!e) errs.push("employees missing");
+  else {
+    num(e.value, "employees.value", errs, {nullable: false, min: 1, max: 1e8});
+    if (!e.basis) errs.push("employees.basis missing (the company's own wording, e.g. 'full-time equivalent employees')");
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(e.asOf || "")) errs.push("employees.asOf must be YYYY-MM-DD");
+    checkSource(e.source, "employees", errs, facts, links);
+  }
+  const p = rec.payroll;
+  if (p != null) {
+    if (!PAY_METHODS.includes(p.method)) errs.push(`payroll.method must be one of ${PAY_METHODS.join("|")}`);
+    if (!p.label) errs.push("payroll.label missing (the line's own name)");
+    if (p.method === "personnel-expense") num(p.value, "payroll.value", errs, {nullable: false, min: 0.0001, max: 1e7});
+    if (p.method === "median-pay") num(p.value, "payroll.value", errs, {nullable: false, min: 1000, max: 1e9});
+    if (p.period != null && !/^FY/.test(String(p.period))) warns.push("payroll.period should be the fiscal-year label, e.g. FY2025");
+    if (p.computedFrom) { if (!Array.isArray(p.computedFrom) || p.computedFrom.length < 2) errs.push("payroll.computedFrom must list the quoted parts"); else p.computedFrom.forEach((part, k) => checkSource(part.source, `payroll.computedFrom[${k}]`, errs, facts, links)); }
+    else checkSource(p.source, "payroll", errs, facts, links);
+  } else if (!rec.notes) errs.push("payroll is null without notes saying why");
+  for (const key of Object.keys(rec)) if (!["id", "company", "fiscalYear", "fiscalYearEnd", "currency", "employees", "payroll", "notes", "researchedAt"].includes(key)) warns.push(`unknown key ${key}`);
+  result.links = [...links];
+  return result;
+}
+
 export function validateSharedFiles() {
   const out = [];
   for (const [label, file, check] of [
@@ -545,7 +612,7 @@ async function main() {
       }
     }
     // Paid out, owners and net worth: one lens per file.
-    for (const [dirKey, validate] of [["paidout", validatePaidoutFile], ["owners", validateOwnersFile], ["networth", validateNetworthFile]]) {
+    for (const [dirKey, validate] of [["paidout", validatePaidoutFile], ["owners", validateOwnersFile], ["networth", validateNetworthFile], ["marketcap", validateMarketcapFile], ["pay", validatePayFile]]) {
       const r = validate(id);
       if (!r.exists) continue;
       files++;

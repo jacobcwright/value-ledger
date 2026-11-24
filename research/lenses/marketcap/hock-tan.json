@@ -1,0 +1,22 @@
+{
+  "id": "hock-tan",
+  "company": "Broadcom",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 4773629865,
+      "sharesAsOf": "2026-08-28",
+      "pricedAs": "AVGO",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+        "label": "Form 10-Q for the quarter ended August 2, 2026, cover page",
+        "quote": "As of August 28, 2026, there were 4,773,629,865 shares of our common stock outstanding."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as AVGO. The 10-Q cover for the quarter ended August 2, 2026 (filed September 10, 2026) is the latest count; the FY2026 10-K (year ended about November 1, 2026) had not been filed by November 24, 2026. Preferred stock is authorized but none is issued.",
+  "researchedAt": "2026-11-24"
+}

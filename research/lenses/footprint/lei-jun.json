@@ -5,40 +5,40 @@
     "employees": {
       "label": "Full-time employees",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Full-time employees based in mainland China, from the annual report's employee section (43,688 full-time in total; the rest 'primarily based in India', number not given)."
+      "definition": "Full-time employees based in the Chinese Mainland, from the annual report's Employee and Remuneration Policy section (56,531 full-time in total)."
     },
     "employeesByRegion": {
       "label": "Full-time employees by region",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Full-time employees by geographic region, from the Key Social Indicators table of the ESG section of the 2024 annual report; Africa and Oceania show 0."
+      "definition": "Full-time employees by geographic region, from the Key Social Indicators table of the ESG section of the 2025 annual report (2025 column first); Africa shows 0."
     },
     "retailStores": {
-      "label": "Offline retail stores (nearly)",
+      "label": "Xiaomi stores (approximately)",
       "unit": "count",
-      "period": "as of Dec 31, 2024",
+      "period": "as of December 2025",
       "tier": "filing",
-      "definition": "Number of Xiaomi offline retail stores in mainland China; the report says it 'reached nearly 15,000' (an approximate figure, stored as 15,000)."
+      "definition": "Number of Xiaomi stores in the Chinese Mainland; the report says it 'reached approximately 18,000' (an approximate figure, stored as 18,000)."
     }
   },
   "usStates": null,
   "countries": [
     {
       "iso2": "CN",
-      "name": "Mainland China",
+      "name": "Chinese Mainland",
       "values": {
-        "employees": 41492,
-        "retailStores": 15000
+        "employees": 53901,
+        "retailStores": 18000
       },
       "plus": {},
       "source": {
         "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "2024 Annual Report, business review and Employee and Remuneration Policy",
-        "quote": "As of December 31, 2024, the number of our offline retail stores in mainland China reached nearly 15,000. … As of December 31, 2024, we had 43,688 full-time employees, 41,492 of whom were based in mainland China, primarily at our headquarters in Beijing, with the rest primarily based in India."
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "2025 Annual Report, business review and Employee and Remuneration Policy",
+        "quote": "As of December 2025, the total number of our Xiaomi stores in the Chinese Mainland reached approximately 18,000, with a net addition of more than 3,000 during 2025. … As of December 31, 2025, we had 56,531 full-time employees, 53,901 of whom were based in the Chinese Mainland, primarily at our headquarters in Beijing."
       }
     }
   ],
@@ -52,70 +52,84 @@
         "TW"
       ],
       "values": {
-        "employeesByRegion": 41643
+        "employeesByRegion": 54122
       },
       "plus": {},
       "source": {
         "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "2024 Annual Report, ESG section, Key Social Indicators: full-time employees by geographic region",
-        "quote": "Chinese Mainland, Hong Kong, Macao and Taiwan person 41,643"
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "2025 Annual Report, ESG section, Key Social Indicators: full-time employees by geographic region (columns 2025 | 2024 | 2023)",
+        "quote": "Chinese Mainland, Hong Kong, Macao and Taiwan Person 54,122 41,643 31,671"
       }
     },
     {
       "name": "Other Asian Countries and Regions",
       "countries": null,
       "values": {
-        "employeesByRegion": 1401
+        "employeesByRegion": 1507
       },
       "plus": {},
       "source": {
         "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "2024 Annual Report, ESG section, Key Social Indicators: full-time employees by geographic region",
-        "quote": "Other Asian Countries and Regions person 1,401"
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "2025 Annual Report, ESG section, Key Social Indicators: full-time employees by geographic region (columns 2025 | 2024 | 2023)",
+        "quote": "Other Asian Countries and Regions Person 1,507 1,401 1,361"
       }
     },
     {
-      "name": "European Countries and Regions",
+      "name": "Europe",
       "countries": null,
       "values": {
-        "employeesByRegion": 531
+        "employeesByRegion": 735
       },
       "plus": {},
       "source": {
         "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "2024 Annual Report, ESG section, Key Social Indicators: full-time employees by geographic region",
-        "quote": "European Countries and Regions person 531"
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "2025 Annual Report, ESG section, Key Social Indicators: full-time employees by geographic region (columns 2025 | 2024 | 2023)",
+        "quote": "Europe Person 735 531 534"
       }
     },
     {
-      "name": "North American Countries and Regions",
+      "name": "North America",
       "countries": null,
       "values": {
-        "employeesByRegion": 54
+        "employeesByRegion": 66
       },
       "plus": {},
       "source": {
         "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "2024 Annual Report, ESG section, Key Social Indicators: full-time employees by geographic region",
-        "quote": "North American Countries and Regions person 54"
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "2025 Annual Report, ESG section, Key Social Indicators: full-time employees by geographic region (columns 2025 | 2024 | 2023)",
+        "quote": "North America Person 66 54 47"
       }
     },
     {
-      "name": "South American Countries and Regions",
+      "name": "South America",
       "countries": null,
       "values": {
-        "employeesByRegion": 59
+        "employeesByRegion": 97
       },
       "plus": {},
       "source": {
         "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "2024 Annual Report, ESG section, Key Social Indicators: full-time employees by geographic region",
-        "quote": "South American Countries and Regions person 59"
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "2025 Annual Report, ESG section, Key Social Indicators: full-time employees by geographic region (columns 2025 | 2024 | 2023)",
+        "quote": "South America Person 97 59 14"
+      }
+    },
+    {
+      "name": "Oceania",
+      "countries": null,
+      "values": {
+        "employeesByRegion": 4
+      },
+      "plus": {},
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "2025 Annual Report, ESG section, Key Social Indicators: full-time employees by geographic region (columns 2025 | 2024 | 2023)",
+        "quote": "Oceania Person 4 0 0"
       }
     }
   ],
@@ -126,12 +140,12 @@
       "state": null,
       "iso2": "CN",
       "type": "headquarters",
-      "description": "Headquarters in Beijing, where most of the 41,492 mainland-China employees are based",
+      "description": "Headquarters in Beijing, where most of the 53,901 Chinese Mainland employees are based",
       "source": {
         "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "2024 Annual Report, Management Discussion and Analysis, Employee and Remuneration Policy",
-        "quote": "As of December 31, 2024, we had 43,688 full-time employees, 41,492 of whom were based in mainland China, primarily at our headquarters in Beijing, with the rest primarily based in India."
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "2025 Annual Report, Management Discussion and Analysis, Employee and Remuneration Policy",
+        "quote": "As of December 31, 2025, we had 56,531 full-time employees, 53,901 of whom were based in the Chinese Mainland, primarily at our headquarters in Beijing."
       }
     },
     {
@@ -154,7 +168,7 @@
       "state": null,
       "iso2": "CN",
       "type": "plant",
-      "description": "First smart home appliance factory; ground broken in 2024",
+      "description": "First smart home appliance factory; ground broken in 2024 (the 2025 annual report calls it newly constructed in the year)",
       "source": {
         "hostType": "exchange",
         "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
@@ -163,6 +177,6 @@
       }
     }
   ],
-  "notes": "All figures from the 2024 Annual Report on HKEXnews. Two employee bases overlap and are kept under separate metrics: the MD&A says 41,492 full-time employees were in mainland China, while the ESG table counts 41,643 in 'Chinese Mainland, Hong Kong, Macao and Taiwan' (the report names these four, so that region carries a country list). India is named as the main location outside mainland China but no number is given; Africa and Oceania (0) are omitted. Retail store count is 'nearly 15,000' (approximate). The Xiaomi EV Factory (completed 2024) is described in the report without a location, so it is not listed as a site. No U.S. state data.",
-  "researchedAt": "2026-11-23"
+  "notes": "All figures from the 2025 Annual Report on HKEXnews (published April 28, 2026). Two employee bases overlap and are kept under separate metrics: the MD&A says 53,901 full-time employees were in the Chinese Mainland, while the ESG table counts 54,122 in 'Chinese Mainland, Hong Kong, Macao and Taiwan' (the report names these four, so that region carries a country list). The 2025 report no longer names India as the main location outside the Chinese Mainland, and the ESG table renamed its regions (Europe, North America, South America, Oceania); Oceania shows 4 and Africa 0 (omitted). The store count is 'approximately 18,000' Xiaomi stores in the Chinese Mainland as of December 2025; the roughly 450 overseas stores across 23 markets are not mapped because no country split is given. Sites: the Beijing headquarters is re-sourced to the 2025 report; the Changping smartphone factory and the Wuhan smart home appliance factory keep their 2024 Annual Report sources, because the 2025 report mentions both factories but not their locations. The Xiaomi EV Factory is described without a location, so it is not listed as a site. No U.S. state data.",
+  "researchedAt": "2026-11-24"
 }

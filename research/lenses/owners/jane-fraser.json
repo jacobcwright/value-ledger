@@ -2,48 +2,48 @@
   "id": "jane-fraser",
   "company": "Citigroup",
   "nbim": {
-    "pct": 1.43,
-    "marketValueUSD": 1.908,
-    "asOf": "2024-12-31",
+    "pct": 1.13,
+    "marketValueUSD": 2.654,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"676q5w2au9t4\",\"cc\":\"US\",\"n\":\"Citigroup Inc\",\"a\":{\"e\":1907949810,\"n\":21669253773},\"at\":0,\"o\":1.43,\"eq\":{\"vid\":\"C\",\"v\":1.43,\"s\":\"Financials\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"676q5w2au9t4\",\"cc\":\"US\",\"n\":\"Citigroup Inc\",\"a\":{\"e\":2653654196,\"n\":26259235100},\"at\":0,\"o\":1.13,\"eq\":{\"vid\":\"C\",\"v\":1.13,\"s\":\"Financials\"}}"
     }
   },
   "calpers": {
-    "shares": 3317586,
-    "asOf": "2024-12-31",
+    "shares": 5581583,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "CITIGROUP INC COM NEW 172967424 233524879 3317586"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "CITIGROUP INC COM NEW 172967424 722703367 5581583"
     },
     "derived": {
-      "pct": 0.176,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.337,
+      "method": "CalPERS shares ÷ shares outstanding (5,581,583 ÷ 1,655,204,519)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "Number of shares of Citigroup Inc. common stock outstanding on January 31, 2025: 1,884,479,551"
+          "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000056/c-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+          "quote": "Number of shares of Citigroup Inc. common stock outstanding on September 30, 2026: 1,655,204,519"
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 58273,
-    "asOf": "2025-01-31",
+    "count": 55540,
+    "asOf": "2026-01-31",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm",
-      "label": "FY2024 Form 10-K, corporate information",
-      "quote": "Citigroup's common stock is listed on the NYSE under the ticker symbol \"C\" and held by 58,273 registered common stockholders of record as of January 31, 2025."
+      "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/c-20251231.htm",
+      "label": "FY2025 Form 10-K, corporate information",
+      "quote": "Citigroup's common stock is listed on the NYSE under the ticker symbol \"C\" and held by 55,540 registered common stockholders of record as of January 31, 2026."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Citigroup Inc;Financials;21669253773;1907949810;1.43%;1.43%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); NBIM also holds Citigroup bonds in separate rows that are not counted. CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026; Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the Q3 2026 10-Q cover count at September 30, 2026, the same count used in the marketcap lens.",
+  "researchedAt": "2026-11-24"
 }

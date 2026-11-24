@@ -1,8 +1,8 @@
 {
  "id": "severin-schwan",
  "company": "Roche Holding",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "CHF",
  "unit": "billions",
  "statedUnit": "CHF million",
@@ -10,105 +10,105 @@
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 62.395,
-   "stated": 62395,
+   "value": 63.356,
+   "stated": 63356,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
-    "label": "Finance Report 2024, Roche Group consolidated income statement (millions of CHF)",
-    "quote": "Sales2, 3 46,171 14,324 – 60,495 Other revenue2, 3 1,871 29 – 1,900 Revenue2, 3 48,042 14,353 – 62,395"
+    "url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf",
+    "label": "Finance Report 2025, Roche Group consolidated income statement (millions of CHF)",
+    "quote": "Sales 2, 3 47,669 13,847 – 61,516 Other revenue 2, 3 1,782 58 – 1,840 Revenue 2, 3 49,451 13,905 – 63,356"
    },
-   "note": "Total revenue = sales 60,495 + other revenue 1,900 (royalties, milestones)."
+   "note": "Total revenue = sales 61,516 + other revenue 1,840 (royalties, milestones)."
   },
   "operatingCashFlow": {
-   "value": 20.094,
-   "stated": 20094,
+   "value": 18.852,
+   "stated": 18852,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
-    "label": "Finance Report 2024, Roche Group consolidated statement of cash flows (millions of CHF)",
-    "quote": "Income taxes paid5 (3,727) (3,620) Total cash flows from operating activities 20,094 16,095"
+    "url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf",
+    "label": "Finance Report 2025, Roche Group consolidated statement of cash flows (millions of CHF)",
+    "quote": "Income taxes paid 5 (3,139) (3,727) Total cash flows from operating activities 18,852 20,094"
    }
   },
   "capex": {
-   "value": 5.009,
+   "value": 5.779,
    "components": [
-    "PP&E 3.529",
-    "intangibles 1.48"
+    "PP&E 3.748",
+    "intangibles 2.031"
    ],
    "parts": [
     {
      "label": "PP&E",
-     "value": 3.529,
-     "stated": 3529,
+     "value": 3.748,
+     "stated": 3748,
      "divisor": 1000,
      "source": {
       "hostType": "company",
-      "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
-      "label": "Finance Report 2024, Roche Group consolidated statement of cash flows (millions of CHF)",
-      "quote": "Purchase of property, plant and equipment (3,529) (3,742)"
+      "url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf",
+      "label": "Finance Report 2025, Roche Group consolidated statement of cash flows (millions of CHF)",
+      "quote": "Purchase of property, plant and equipment (3,748) (3,529)"
      }
     },
     {
      "label": "intangibles",
-     "value": 1.48,
-     "stated": 1480,
+     "value": 2.031,
+     "stated": 2031,
      "divisor": 1000,
      "source": {
       "hostType": "company",
-      "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
-      "label": "Finance Report 2024, Roche Group consolidated statement of cash flows (millions of CHF)",
-      "quote": "Purchase of intangible assets (1,480) (907)"
+      "url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf",
+      "label": "Finance Report 2025, Roche Group consolidated statement of cash flows (millions of CHF)",
+      "quote": "Purchase of intangible assets (2,031) (1,480)"
      }
     }
    ],
-   "note": "Excludes business combinations (2,836) and asset acquisitions (283)."
+   "note": "Excludes business combinations (911) and asset acquisitions (2,167)."
   },
   "interestPaid": {
-   "value": 1.145,
-   "stated": 1145,
+   "value": 1.189,
+   "stated": 1189,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
-    "label": "Finance Report 2024, Roche Group consolidated statement of cash flows (millions of CHF)",
-    "quote": "Hedging and collateral arrangements 30 155 Interest paid (1,145) (770) Principal portion of lease liabilities paid30 (350) (339)"
+    "url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf",
+    "label": "Finance Report 2025, Roche Group consolidated statement of cash flows (millions of CHF)",
+    "quote": "Hedging and collateral arrangements (288) 30 Interest paid (1,189) (1,145) Principal portion of lease liabilities paid 30 (364) (350)"
    },
    "inOCF": false,
    "location": "financing activities",
-   "note": "Financing 'Interest paid' includes interest on lease liabilities: note 'Cash flows from financing activities include the payment of interest and the principal portion of lease liabilities'; lease interest expense was 40."
+   "note": "Financing 'Interest paid' includes interest on lease liabilities (the report states cash flows from lease payments are included within financing activities)."
   },
   "taxesPaid": {
-   "value": 3.727,
-   "stated": 3727,
+   "value": 3.139,
+   "stated": 3139,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
-    "label": "Finance Report 2024, Roche Group consolidated statement of cash flows (millions of CHF)",
-    "quote": "Income taxes paid5 (3,727) (3,620) Total cash flows from operating activities 20,094 16,095"
+    "url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf",
+    "label": "Finance Report 2025, Roche Group consolidated statement of cash flows (millions of CHF)",
+    "quote": "Income taxes paid 5 (3,139) (3,727) Total cash flows from operating activities 18,852 20,094"
    },
    "inOCF": true,
    "location": "operating activities"
   },
   "leasePrincipalPaid": {
-   "value": 0.35,
-   "stated": 350,
+   "value": 0.364,
+   "stated": 364,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
-    "label": "Finance Report 2024, Roche Group consolidated statement of cash flows (millions of CHF)",
-    "quote": "Principal portion of lease liabilities paid30 (350) (339)"
+    "url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf",
+    "label": "Finance Report 2025, Roche Group consolidated statement of cash flows (millions of CHF)",
+    "quote": "Principal portion of lease liabilities paid 30 (364) (350)"
    },
    "added": false,
-   "note": "IFRS 16 lease principal in financing; noted, not added (0.5% of paidOut)."
+   "note": "IFRS 16 lease principal in financing; noted, not added (0.7% of paidOut)."
   }
  },
- "paidOut": 48.455,
- "paidOutFormula": "62,395 − 20,094 + 5,009 (3,529 PP&E + 1,480 intangibles) + 1,145 (interest paid, financing) = 48,455 CHF million",
+ "paidOut": 51.472,
+ "paidOutFormula": "63,356 − 18,852 + 5,779 (3,748 PP&E + 2,031 intangibles) + 1,189 (interest paid, financing) = 51,472 CHF million",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
@@ -117,6 +117,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "IFRS. Income taxes paid sit in operating (not added). Interest paid (1,145, including lease interest) sits in financing, so it is added. 'Interest received (paid) and dividends received on marketable securities and other investments' (232 net) sits in investing, so OCF is not inflated by interest or dividend income. Revenue is total revenue including other revenue (royalties and milestones). Lease principal (350) noted, not added.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended 31 December 2025 (Finance Report 2025). IFRS. Income taxes paid sit in operating (not added). Interest paid (1,189, including lease interest) sits in financing, so it is added. 'Interest received (paid) and dividends received on marketable securities and other investments' (167 net) sits in investing, so OCF is not inflated by interest or dividend income. Revenue is total revenue including other revenue (royalties and milestones). Lease principal (364) noted, not added.",
+ "researchedAt": "2026-11-24"
 }

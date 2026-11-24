@@ -1,0 +1,22 @@
+{
+  "id": "mukesh-ambani",
+  "company": "Reliance Industries",
+  "classes": [
+    {
+      "label": "Equity shares of ₹10 each (fully paid up)",
+      "shares": 13532472634,
+      "sharesAsOf": "2026-03-31",
+      "pricedAs": "RELIANCE.NS",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "company",
+        "url": "https://rilstaticasset.akamaized.net/sites/default/files/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+        "label": "RIL Integrated Annual Report 2025-26, Notes to the Consolidated Financial Statements, Note 14 Share Capital (PDF p. 111, printed p. 219)",
+        "quote": "Paid Up Capital: ... 13,53,24,72,634 Equity Shares of ... 10 each, Fully Paid Up 13,532 13,532"
+      }
+    }
+  ],
+  "notes": "One class of equity shares, listed on NSE (RELIANCE) and BSE (500325); the NSE line in INR is used. 13,53,24,72,634 = 13,532,472,634 shares at March 31, 2026, including 24,12,87,828 shares (1.78%) held by the custodian against GDRs (the GDRs, listed outside India, are not priced separately). No partly paid shares remain (the last were forfeited in 2024-25), and there was no bonus issue or split in 2025-26; the year's only change was 99,736 shares issued on exercise of employee stock options. 7,33,866 shares held by associates are not deducted (associates are not subsidiaries, so these are not treasury shares). A newer count from the September 30, 2026 shareholding pattern could not be read: the PDF (https://rilstaticasset.akamaized.net/sites/default/files/2026-10/SHP30092026.pdf) returned HTTP 503 on every attempt on November 24, 2026; changes since March are limited to ESOS allotments.",
+  "researchedAt": "2026-11-24"
+}

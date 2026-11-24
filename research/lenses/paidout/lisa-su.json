@@ -1,101 +1,103 @@
 {
   "id": "lisa-su",
   "company": "AMD",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-28",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-27",
   "currency": "USD",
   "unit": "billions",
   "sector": "tech",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 25.785,
-      "stated": 25785,
+      "value": 34.639,
+      "stated": 34639,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
-        "quote": "Net revenue $ 25,785 $ 22,680 $ 23,601",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Net revenue $ 34,639 $ 25,785 $ 22,680",
         "xbrl": {
           "cik": "0000002488",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "end": "2024-12-28",
-          "value": 25785000000
+          "end": "2025-12-27",
+          "value": 34639000000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 3.041,
-      "stated": 3041,
+      "value": 6.493,
+      "stated": 6493,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Net cash provided by operating activities 3,041 1,667 3,565",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities of continuing operations 6,493 3,041 1,667 Net cash provided by operating activities of discontinued operations 1,216 - - Net cash provided by operating activities 7,709 3,041 1,667",
         "xbrl": {
           "cik": "0000002488",
-          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-28",
-          "value": 3041000000
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+          "end": "2025-12-27",
+          "value": 6493000000
         }
-      }
+      },
+      "note": "Continuing operations only (6,493), to match continuing-operations revenue; total operating cash flow including the discontinued ZT Systems manufacturing business is 7,709."
     },
     "capex": {
-      "value": 0.636,
+      "value": 0.974,
       "components": [
-        "PP&E 0.636"
+        "PP&E 0.974"
       ],
-      "stated": 636,
+      "stated": 974,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Cash flows from investing activities: Purchases of property and equipment ( 636 ) ( 546 ) ( 450 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Cash flows from investing activities: Purchases of property and equipment ( 974 ) ( 636 ) ( 546 )",
         "xbrl": {
           "cik": "0000002488",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-12-28",
-          "value": 636000000
+          "end": "2025-12-27",
+          "value": 974000000
         }
-      }
+      },
+      "note": "Continuing operations; the discontinued operations' purchases of property and equipment (38) are excluded."
     },
     "interestPaid": {
-      "value": 0.072,
+      "value": 0.091,
       "inOCF": true,
-      "stated": 72,
+      "stated": 91,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid during the year for: Interest $ 72 $ 84 $ 85 Income taxes, net of refund $ 1,386 $ 523 $ 685",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid during the year for: Interest $ 91 $ 72 $ 84 Income taxes, net of refund $ 884 $ 1,386 $ 523",
         "xbrl": {
           "cik": "0000002488",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-12-28",
-          "value": 72000000
+          "end": "2025-12-27",
+          "value": 91000000
         }
       }
     },
     "taxesPaid": {
-      "value": 1.386,
+      "value": 0.884,
       "inOCF": true,
-      "stated": 1386,
+      "stated": 884,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid during the year for: Interest $ 72 $ 84 $ 85 Income taxes, net of refund $ 1,386 $ 523 $ 685",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid during the year for: Interest $ 91 $ 72 $ 84 Income taxes, net of refund $ 884 $ 1,386 $ 523",
         "xbrl": {
           "cik": "0000002488",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-28",
-          "value": 1386000000
+          "end": "2025-12-27",
+          "value": 884000000
         }
       }
     }
   },
-  "paidOut": 23.38,
-  "paidOutFormula": "25.785 − 3.041 + 0.636",
+  "paidOut": 29.12,
+  "paidOutFormula": "34.639 − 6.493 + 0.974",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -104,6 +106,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Fiscal year ended December 28, 2024.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 27, 2025 (FY2025 Form 10-K, accession 0000002488-26-000018). Revenue, operating cash flow and capex are continuing operations; AMD sold the ZT Systems manufacturing business in 2025 and reports it as discontinued operations (operating cash flow 1,216, capex 38, both excluded). Interest and income taxes paid are inside operating cash flow (US GAAP).",
+  "researchedAt": "2026-11-24"
 }

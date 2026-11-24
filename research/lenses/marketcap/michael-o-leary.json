@@ -1,0 +1,22 @@
+{
+  "id": "michael-o-leary",
+  "company": "Ryanair",
+  "classes": [
+    {
+      "label": "Ordinary Shares",
+      "shares": 1035847831,
+      "sharesAsOf": "2026-10-31",
+      "pricedAs": "RYA.IR",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000165495426009364/a4816b.htm",
+        "label": "Form 6-K, Total Voting Rights announcement (filed November 2, 2026)",
+        "quote": "Ryanair announces that as at 31 October 2026: Ryanair's issued share capital consisted of 1,035,847,831 Ordinary Shares of nominal value ... each. Ryanair does not hold any Ordinary Shares in treasury."
+      }
+    }
+  ],
+  "notes": "One class of Ordinary Shares, priced on the primary Euronext Dublin line (RYA.IR) in euro rather than the Nasdaq ADR (RYAAY). The count is from Ryanair's monthly total-voting-rights announcement at October 31, 2026, filed on Form 6-K; it is lower than the 20-F count (1,043,931,708 at March 31, 2026) because of continuing buybacks, and Ryanair holds no treasury shares.",
+  "researchedAt": "2026-11-24"
+}

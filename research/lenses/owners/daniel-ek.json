@@ -2,39 +2,39 @@
   "id": "daniel-ek",
   "company": "Spotify",
   "nbim": {
-    "pct": 0.17,
-    "marketValueUSD": 0.418,
-    "asOf": "2024-12-31",
+    "pct": 0.26,
+    "marketValueUSD": 0.624,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"1nandafv85ls\",\"cc\":\"US\",\"n\":\"Spotify Technology SA\",\"a\":{\"e\":418146401,\"n\":4749035031},\"at\":0,\"o\":0.17,\"eq\":{\"vid\":\"SPOT\",\"v\":0.17,\"s\":\"Consumer Discretionary\",\"icc\":\"LU\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"1nandafv85ls\",\"cc\":\"US\",\"n\":\"Spotify Technology SA\",\"a\":{\"e\":624386038,\"n\":6178612042},\"at\":0,\"o\":0.26,\"eq\":{\"vid\":\"SPOT\",\"v\":0.26,\"s\":\"Consumer Discretionary\",\"icc\":\"LU\"}}"
     }
   },
   "calpers": {
-    "shares": 249982,
-    "asOf": "2024-12-31",
+    "shares": 216380,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "SPOTIFY TECHNOLOGY S A COM L8681T102 111836947 249982"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "SPOTIFY TECHNOLOGY S A SHS L8681T102 105459284 216380"
     },
     "derived": {
-      "pct": 0.123,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.105,
+      "method": "CalPERS shares ÷ ordinary shares outstanding at September 30, 2026 (216,380 ÷ (210,741,268 issued − 5,215,814 treasury) = 216,380 ÷ 205,525,454)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm",
-          "label": "FY2024 Form 20-F, cover page",
-          "quote": "Indicate the number of outstanding shares of each of the issuer's classes of capital or common stock as of the close of the period covered by the annual report: 203,844,409 Ordinary Shares, par value €0.000625 per share."
+          "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026066889/spot-20260930x6xk.htm",
+          "label": "Form 6-K, interim condensed consolidated financial statements for the nine months ended September 30, 2026, Note 13 Equity and other reserves",
+          "quote": "As of September 30, 2026 and December 31, 2025, the Company had 210,741,268 and 209,485,215 ordinary shares issued and fully paid, respectively, with 5,215,814 and 3,652,688 ordinary shares held as treasury shares, respectively."
         }
       ]
     }
   },
   "holdersOfRecord": null,
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Spotify Technology SA;Consumer Discretionary;4749035031;418146401;0.17%;0.17%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Form 20-F cover page, as of December 31, 2024. Holders of record: The FY2024 Form 20-F gives only U.S. record holders (436 record holders in the United States as of December 31, 2024), not a total.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026; Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides by issued minus treasury shares at September 30, 2026 from the Q3 2026 6-K, the same count used in the marketcap lens. Holders of record: the FY2025 Form 20-F gives only U.S. record holders (443 record holders in the United States holding 177,613,882 ordinary shares as of December 31, 2025), not a total, so holdersOfRecord is null.",
+  "researchedAt": "2026-11-24"
 }

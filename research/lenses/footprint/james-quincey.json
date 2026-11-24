@@ -6,56 +6,56 @@
       "label": "Coca-Cola system economic activity",
       "unit": "currency-billions",
       "currency": "USD",
-      "period": "calendar 2025 (Steward Redqueen 2026 assessment; newer than the Dec 2024 snapshot)",
+      "period": "calendar 2025 (Steward Redqueen 2026 assessment)",
       "tier": "company-commissioned",
       "definition": "Modeled contribution to GDP (value added) of The Coca-Cola Company plus its independent U.S. bottlers (\"the Coca-Cola system\"), including suppliers, distributors, retailers and re-spending of wages, from a Multi-Regional Input-Output model by consultancy Steward Redqueen. Published rounded ($2B, $443M); values in millions are converted to billions in the bracketed note."
     },
     "jobsSupported": {
       "label": "Jobs supported by the Coca-Cola system",
       "unit": "people",
-      "period": "calendar 2025 (newer than snapshot)",
+      "period": "calendar 2025",
       "tier": "company-commissioned",
       "definition": "Direct, supplier, value-chain and induced jobs the Coca-Cola system supports in the state, modeled by Steward Redqueen; published rounded as \"23K+\"."
     },
     "directEmployees": {
       "label": "Direct Coca-Cola system employees",
       "unit": "people",
-      "period": "calendar 2025 (newer than snapshot)",
+      "period": "calendar 2025",
       "tier": "company-commissioned",
       "definition": "Direct employees of The Coca-Cola Company and its independent bottlers in the state, per the study; published rounded as \"3K+\". Most are bottler employees, not TCCC employees."
     },
     "employees": {
       "label": "Company employees",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
       "definition": "Employees of The Coca-Cola Company located in the country (approximately)"
     },
     "concentratePlantsOwned": {
       "label": "Principal concentrate and/or syrup plants, owned",
       "unit": "count",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
       "definition": "Owned principal concentrate and/or syrup plants in the operating segment"
     },
     "concentratePlantsLeased": {
       "label": "Principal concentrate and/or syrup plants, leased",
       "unit": "count",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
       "definition": "Leased principal concentrate and/or syrup plants in the operating segment"
     },
     "bottlingPlantsOwned": {
       "label": "Principal beverage manufacturing/bottling plants, owned",
       "unit": "count",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
       "definition": "Owned principal beverage manufacturing/bottling plants in the operating segment (company-owned only; independent bottlers' plants are not included)"
     },
     "bottlingPlantsLeased": {
       "label": "Principal beverage manufacturing/bottling plants, leased",
       "unit": "count",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
       "definition": "Leased principal beverage manufacturing/bottling plants in the operating segment"
     }
@@ -990,9 +990,9 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
-        "label": "The Coca-Cola Company Form 10-K for fiscal 2024, Human Capital Management",
-        "quote": "As of December 31, 2024 and 2023, our Company had approximately 69,700 and 79,100 employees, respectively, of which approximately 8,900 and 9,000, respectively, were located in the United States."
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+        "label": "The Coca-Cola Company Form 10-K for fiscal 2025, Human Capital Management",
+        "quote": "As of December 31, 2025 and 2024, our Company had approximately 65,900 and 69,700 employees, respectively, of which approximately 8,900 were located in the United States."
       }
     }
   ],
@@ -1001,7 +1001,7 @@
       "name": "Europe, Middle East & Africa",
       "countries": null,
       "values": {
-        "concentratePlantsOwned": 5,
+        "concentratePlantsOwned": 6,
         "concentratePlantsLeased": 0,
         "bottlingPlantsOwned": 2,
         "bottlingPlantsLeased": 0
@@ -1009,9 +1009,9 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
-        "label": "The Coca-Cola Company Form 10-K for fiscal 2024, Item 2. Properties (facilities by operating segment)",
-        "quote": "The following table summarizes our principal production facilities, distribution and storage facilities, and retail stores by operating segment and Corporate as of December 31, 2024 … Europe, Middle East & Africa 5 - 2 - 7 27 - 13 [first four columns: concentrate/syrup plants owned, leased; bottling plants owned, leased; a dash means none (0)]"
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+        "label": "The Coca-Cola Company Form 10-K for fiscal 2025, Item 2. Properties (facilities by operating segment)",
+        "quote": "The following table summarizes our principal production facilities, distribution and storage facilities, and retail stores by operating segment and Corporate as of December 31, 2025 … EMEA 6 - 2 - - 7 - 1,379 [first four columns: concentrate/syrup plants owned, leased; bottling plants owned, leased; a dash means none (0)]"
       }
     },
     {
@@ -1026,26 +1026,26 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
-        "label": "The Coca-Cola Company Form 10-K for fiscal 2024, Item 2. Properties (facilities by operating segment)",
-        "quote": "The following table summarizes our principal production facilities, distribution and storage facilities, and retail stores by operating segment and Corporate as of December 31, 2024 … Latin America 5 - - - 2 5 - - [first four columns: concentrate/syrup plants owned, leased; bottling plants owned, leased; a dash means none (0)]"
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+        "label": "The Coca-Cola Company Form 10-K for fiscal 2025, Item 2. Properties (facilities by operating segment)",
+        "quote": "The following table summarizes our principal production facilities, distribution and storage facilities, and retail stores by operating segment and Corporate as of December 31, 2025 … Latin America 5 - - - 2 3 - - [first four columns: concentrate/syrup plants owned, leased; bottling plants owned, leased; a dash means none (0)]"
       }
     },
     {
       "name": "North America",
       "countries": null,
       "values": {
-        "concentratePlantsOwned": 10,
+        "concentratePlantsOwned": 9,
         "concentratePlantsLeased": 0,
-        "bottlingPlantsOwned": 6,
-        "bottlingPlantsLeased": 3
+        "bottlingPlantsOwned": 7,
+        "bottlingPlantsLeased": 1
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
-        "label": "The Coca-Cola Company Form 10-K for fiscal 2024, Item 2. Properties (facilities by operating segment)",
-        "quote": "The following table summarizes our principal production facilities, distribution and storage facilities, and retail stores by operating segment and Corporate as of December 31, 2024 … North America 10 - 6 3 - 29 - 5 [first four columns: concentrate/syrup plants owned, leased; bottling plants owned, leased; a dash means none (0)]"
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+        "label": "The Coca-Cola Company Form 10-K for fiscal 2025, Item 2. Properties (facilities by operating segment)",
+        "quote": "The following table summarizes our principal production facilities, distribution and storage facilities, and retail stores by operating segment and Corporate as of December 31, 2025 … North America 9 - 7 1 - 28 - - [first four columns: concentrate/syrup plants owned, leased; bottling plants owned, leased; a dash means none (0)]"
       }
     },
     {
@@ -1054,15 +1054,15 @@
       "values": {
         "concentratePlantsOwned": 6,
         "concentratePlantsLeased": 1,
-        "bottlingPlantsOwned": 3,
+        "bottlingPlantsOwned": 1,
         "bottlingPlantsLeased": 0
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
-        "label": "The Coca-Cola Company Form 10-K for fiscal 2024, Item 2. Properties (facilities by operating segment)",
-        "quote": "The following table summarizes our principal production facilities, distribution and storage facilities, and retail stores by operating segment and Corporate as of December 31, 2024 … Asia Pacific 6 1 3 - 3 4 - - [first four columns: concentrate/syrup plants owned, leased; bottling plants owned, leased; a dash means none (0)]"
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+        "label": "The Coca-Cola Company Form 10-K for fiscal 2025, Item 2. Properties (facilities by operating segment)",
+        "quote": "The following table summarizes our principal production facilities, distribution and storage facilities, and retail stores by operating segment and Corporate as of December 31, 2025 … Asia Pacific 6 1 1 - 1 3 - - [first four columns: concentrate/syrup plants owned, leased; bottling plants owned, leased; a dash means none (0)]"
       }
     }
   ],
@@ -1076,12 +1076,12 @@
       "description": "Our worldwide headquarters is located on a 35-acre complex in Atlanta, Georgia.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
-        "label": "The Coca-Cola Company Form 10-K for fiscal 2024, Item 2. Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+        "label": "The Coca-Cola Company Form 10-K for fiscal 2025, Item 2. Properties",
         "quote": "Our worldwide headquarters is located on a 35-acre complex in Atlanta, Georgia. The complex includes several office buildings which are used by Corporate employees and North America operating segment employees."
       }
     }
   ],
-  "notes": "State rows come from The Coca-Cola Company's U.S. Economic & Community Impact map (company-hosted table for 50 states, DC, Puerto Rico and cities), a study by consultancy Steward Redqueen (\"Steward Redqueen 2026 Assessment\"; \"reflective of the calendar year 2025\"), so tier is company-commissioned and the period is newer than the Dec 2024 snapshot. An earlier Steward Redqueen study covered 2022 ($57.8B nationally, press release Sept 2023), but its state figures are no longer published; the live map shows only the 2025 study. All state figures cover the whole Coca-Cola system (TCCC plus independent bottlers), not the company alone, and are rounded by the source; Puerto Rico and city rows are left out; goods-and-services purchased and community investment columns not recorded. Regions: the 10-K facility table by operating segment; only the four geographic segments are recorded. Bottling Investments (61 owned and 4 leased bottling plants), Global Ventures (mostly 1,508 owned Costa retail stores) and Corporate are not geographic and are left out; distribution and retail columns not recorded. U.S. company employees 8,900 of ~69,700 total (10-K). No employees-by-state or taxes-by-country found.",
-  "researchedAt": "2026-11-23"
+  "notes": "State rows come from The Coca-Cola Company's U.S. Economic & Community Impact map (company-hosted table for 50 states, DC, Puerto Rico and cities), a study by consultancy Steward Redqueen (\"Steward Redqueen 2026 Assessment\"; \"reflective of the calendar year 2025\"), so tier is company-commissioned. No newer edition found (checked Nov 24, 2026): the live map still shows the same figures for all 51 rows. The study attribution and the 'calendar year 2025' wording are carried over from the earlier fetch; they are not in the HTML served on Nov 24, 2026, which holds only the table. An earlier Steward Redqueen study covered 2022 ($57.8B nationally, press release Sept 2023), but its state figures are no longer published. All state figures cover the whole Coca-Cola system (TCCC plus independent bottlers), not the company alone, and are rounded by the source; Puerto Rico and city rows are left out; goods-and-services purchased and community investment columns not recorded. Regions: the FY2025 10-K facility table by operating segment (Dec 31, 2025); only the four geographic segments are recorded (the 10-K now labels the first one 'EMEA'). Bottling Investments (56 owned and 5 leased bottling plants) and Corporate are not geographic and are left out; the FY2025 table no longer has a Global Ventures row, and its 1,379 leased retail stores now sit in the EMEA row; distribution, storage and retail columns are not recorded. U.S. company employees approximately 8,900 of ~65,900 total at Dec 31, 2025 (10-K; the decrease is attributed to 2025 divestitures). No employees-by-state or taxes-by-country found.",
+  "researchedAt": "2026-11-24"
 }

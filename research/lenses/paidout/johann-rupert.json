@@ -1,8 +1,8 @@
 {
  "id": "johann-rupert",
  "company": "Compagnie Financière Richemont",
- "fiscalYear": "FY2025",
- "fiscalYearEnd": "2025-03-31",
+ "fiscalYear": "FY2026",
+ "fiscalYearEnd": "2026-03-31",
  "currency": "EUR",
  "unit": "billions",
  "statedUnit": "€m",
@@ -10,187 +10,175 @@
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 23.278,
+   "value": 22.502,
    "components": [
-    "continuing operations (as reported) 21.399",
-    "discontinued operations (YNAP) 1.879"
+    "continuing operations (as reported) 22.42",
+    "discontinued operations (YNAP) 0.082"
    ],
    "parts": [
     {
      "label": "continuing operations (as reported)",
-     "value": 21.399,
-     "stated": 21399,
+     "value": 22.42,
+     "stated": 22420,
      "divisor": 1000,
      "source": {
       "hostType": "company",
-      "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-      "label": "Annual Report and Accounts 2025, consolidated statement of comprehensive income (€m)",
-      "quote": "Notes €m €m Revenue 24 21 399 20 616 Cost of sales (7 080) (6 580)"
+      "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+      "label": "Annual Report and Accounts 2026, consolidated statement of comprehensive income (€m)",
+      "quote": "Revenue 24 22 420 21 399 [Notes, 2026 €m, 2025 €m]"
      }
     },
     {
      "label": "discontinued operations (YNAP)",
-     "value": 1.879,
-     "stated": 1879,
+     "value": 0.082,
+     "stated": 82,
      "divisor": 1000,
      "source": {
       "hostType": "company",
-      "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-      "label": "Annual Report and Accounts 2025, note 17 Assets and disposal group held for sale and discontinued operations (YNAP) (€m)",
-      "quote": "The results of the discontinued operations included in profit for the period are set out below. 2025 2024 €m €m Revenue 1 879 2 170"
+      "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+      "label": "Annual Report and Accounts 2026, note 17 Assets and disposal group held for sale and discontinued operations (YNAP) (€m)",
+      "quote": "The results of the discontinued operations included in profit for the year are set out below. 2026 2025 €m €m Revenue 82 1 879"
      }
     }
    ],
-   "note": "Judgement call: the reported revenue line (21,399) is continuing operations only, but the group cash-flow statement, including operating cash flow and capex, covers YNAP (discontinued, sold to Mytheresa in April 2025; YNAP operating cash flow −326). YNAP's revenue (1,879) is added so revenue and OCF cover the same businesses. Using continuing revenue alone would give paidOut 18,122 € million.",
+   "note": "Judgement call kept from the previous edition: the reported revenue line (22,420) is continuing operations only, but the group cash-flow statement covers YNAP until its sale on 23 April 2025 (YNAP operating cash flow −5). YNAP's revenue (82) is added so revenue and OCF cover the same businesses. Using continuing revenue alone would give paidOut 18,579 € million.",
    "evidence": {
     "hostType": "company",
-    "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-    "label": "Annual Report and Accounts 2025, note 17 Assets and disposal group held for sale and discontinued operations (YNAP) (€m)",
-    "quote": "Cash flows from/(used in) discontinued operations are as follows: 2025 2024 €m €m Net cash used in operating activities (326) (152)"
+    "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+    "label": "Annual Report and Accounts 2026, note 17 Assets and disposal group held for sale and discontinued operations (YNAP) (€m)",
+    "quote": "Cash flows generated from/(used in) discontinued operations are as follows: 2026 2025 €m €m Net cash used in operating activities (5) (326)"
    }
   },
   "operatingCashFlow": {
-   "value": 4.443,
-   "stated": 4443,
+   "value": 4.88,
+   "stated": 4880,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-    "label": "Annual Report and Accounts 2025, consolidated statement of cash flows (€m)",
-    "quote": "Taxation paid (937) (834) Net cash generated from operating activities 4 443 4 696"
+    "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+    "label": "Annual Report and Accounts 2026, consolidated statement of cash flows (€m)",
+    "quote": "Taxation paid (913) (937) Net cash generated from operating activities 4 880 4 443"
    },
-   "note": "Group total including discontinued operations; note 17 shows YNAP 'Net cash used in operating activities (326)'. This is after tax and interest, not 'Cash flow generated from operations' (5,417)."
+   "note": "Group total including discontinued operations; note 17 shows YNAP 'Net cash used in operating activities (5)'. This is after tax and interest, not 'Cash flow generated from operations' (5,867)."
   },
   "capex": {
-   "value": 1.166,
+   "value": 1.039,
    "components": [
-    "PP&E 1.04",
-    "intangibles 0.126"
+    "PP&E 0.962",
+    "intangibles 0.077"
    ],
    "parts": [
     {
      "label": "PP&E",
-     "value": 1.04,
-     "stated": 1040,
+     "value": 0.962,
+     "stated": 962,
      "divisor": 1000,
      "source": {
       "hostType": "company",
-      "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-      "label": "Annual Report and Accounts 2025, consolidated statement of cash flows (€m)",
-      "quote": "Acquisition of property, plant and equipment (1 040) (873)"
+      "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+      "label": "Annual Report and Accounts 2026, consolidated statement of cash flows (€m)",
+      "quote": "Acquisition of property, plant and equipment (962) (1 040)"
      }
     },
     {
      "label": "intangibles",
-     "value": 0.126,
-     "stated": 126,
+     "value": 0.077,
+     "stated": 77,
      "divisor": 1000,
      "source": {
       "hostType": "company",
-      "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-      "label": "Annual Report and Accounts 2025, consolidated statement of cash flows (€m)",
-      "quote": "Acquisition of intangible assets (126) (137)"
+      "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+      "label": "Annual Report and Accounts 2026, consolidated statement of cash flows (€m)",
+      "quote": "Acquisition of intangible assets (77) (126)"
      }
     }
    ],
-   "note": "Excludes acquisition of subsidiaries (135), investment property (187) and 'Payments capitalised as right of use assets' (14)."
+   "note": "Excludes acquisition of subsidiaries (3), the cash outflow on disposal of subsidiaries (640) and 'Payments capitalised as right of use assets' (41)."
   },
   "interestPaid": {
-   "value": 0.488,
-   "stated": 488,
+   "value": 0.301,
+   "stated": 301,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-    "label": "Annual Report and Accounts 2025, consolidated statement of cash flows (€m)",
-    "quote": "Cash flow generated from operations 5 417 5 567 Interest received 440 413 Interest paid (488) (451)"
+    "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+    "label": "Annual Report and Accounts 2026, consolidated statement of cash flows (€m)",
+    "quote": "Cash flow generated from operations 5 867 5 417 Interest received 219 440 Interest paid (301) (488)"
    },
    "inOCF": true,
    "location": "operating activities"
   },
   "taxesPaid": {
-   "value": 0.937,
-   "stated": 937,
+   "value": 0.913,
+   "stated": 913,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-    "label": "Annual Report and Accounts 2025, consolidated statement of cash flows (€m)",
-    "quote": "Taxation paid (937) (834) Net cash generated from operating activities 4 443 4 696"
+    "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+    "label": "Annual Report and Accounts 2026, consolidated statement of cash flows (€m)",
+    "quote": "Taxation paid (913) (937) Net cash generated from operating activities 4 880 4 443"
    },
    "inOCF": true,
    "location": "operating activities"
   },
   "leasePrincipalPaid": {
-   "value": 0.81,
-   "stated": 810,
+   "value": 0.78,
+   "stated": 780,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-    "label": "Annual Report and Accounts 2025, consolidated statement of cash flows (€m)",
-    "quote": "Lease payments – principal (810) (762) Net cash used in financing activities (2 550) (1 822)"
+    "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+    "label": "Annual Report and Accounts 2026, consolidated statement of cash flows (€m)",
+    "quote": "Lease payments – principal (780) (810) Net cash used in financing activities (4 331) (2 550)"
    },
    "added": false,
-   "note": "IFRS 16 lease principal in financing; noted, not added (4.0% of paidOut). Lease interest is not shown separately in financing, so it is inside 'Interest paid' in operating."
+   "note": "IFRS 16 lease principal in financing; noted, not added (4.2% of paidOut). Lease interest is not shown separately in financing, so it is inside 'Interest paid' in operating."
   }
  },
- "paidOut": 20.001,
- "paidOutFormula": "(21,399 continuing + 1,879 YNAP discontinued) − 4,443 + 1,166 (1,040 PP&E + 126 intangibles) = 20,001 €m (interest and taxes paid are inside OCF)",
+ "paidOut": 18.661,
+ "paidOutFormula": "(22,420 continuing + 82 YNAP discontinued) − 4,880 + 1,039 (962 PP&E + 77 intangibles) = 18,661 €m (interest and taxes paid are inside OCF)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
   "financeReceivablesInOCF": false,
   "interestDividendsReceivedInOCF": {
-   "value": 0.451,
+   "value": 0.227,
    "components": [
-    "interest received 0.44",
-    "dividends from equity-accounted investments 0.004",
-    "income from other investments 0.007"
+    "interest received 0.219",
+    "dividends from equity-accounted investments 0.0",
+    "income from other investments 0.008"
    ],
    "parts": [
     {
      "label": "interest received",
-     "value": 0.44,
-     "stated": 440,
+     "value": 0.219,
+     "stated": 219,
      "divisor": 1000,
      "source": {
       "hostType": "company",
-      "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-      "label": "Annual Report and Accounts 2025, consolidated statement of cash flows (€m)",
-      "quote": "Cash flow generated from operations 5 417 5 567 Interest received 440 413"
-     }
-    },
-    {
-     "label": "dividends from equity-accounted investments",
-     "value": 0.004,
-     "stated": 4,
-     "divisor": 1000,
-     "source": {
-      "hostType": "company",
-      "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-      "label": "Annual Report and Accounts 2025, consolidated statement of cash flows (€m)",
-      "quote": "Dividends from equity-accounted investments 11 4 1"
+      "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+      "label": "Annual Report and Accounts 2026, consolidated statement of cash flows (€m)",
+      "quote": "Cash flow generated from operations 5 867 5 417 Interest received 219 440"
      }
     },
     {
      "label": "income from other investments",
-     "value": 0.007,
-     "stated": 7,
+     "value": 0.008,
+     "stated": 8,
      "divisor": 1000,
      "source": {
       "hostType": "company",
-      "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-      "label": "Annual Report and Accounts 2025, consolidated statement of cash flows (€m)",
-      "quote": "Income from other investments 7 –"
+      "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+      "label": "Annual Report and Accounts 2026, consolidated statement of cash flows (€m)",
+      "quote": "Income from other investments 8 7"
      }
     }
    ],
-   "note": "Inside OCF, lowering paidOut by this amount (2.3%)."
+   "note": "Inside OCF, lowering paidOut by this amount (1.2%). Dividends from equity-accounted investments were nil in FY2026."
   },
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "IFRS, fiscal year ended 31 March 2025, reported in euros. Interest received, interest paid, dividends received and taxation paid all sit in operating activities, so nothing is added. Revenue includes YNAP (discontinued) so that it matches the group-wide cash-flow statement; see the revenue note. Lease principal (810) in financing noted, not added.",
- "researchedAt": "2026-11-23"
+ "notes": "IFRS, fiscal year ended 31 March 2026, reported in euros (Annual Report and Accounts 2026). Interest received, interest paid, dividends received and taxation paid all sit in operating activities, so nothing is added. Revenue includes YNAP (discontinued, sold 23 April 2025) so that it matches the group-wide cash-flow statement; see the revenue note. Lease principal (780) in financing noted, not added.",
+ "researchedAt": "2026-11-24"
 }

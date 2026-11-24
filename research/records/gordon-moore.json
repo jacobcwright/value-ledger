@@ -1,13 +1,13 @@
 {
   "id": "gordon-moore",
   "company": "Intel",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-28",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-27",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-03-19",
+    "asOf": "2026-03-20",
     "leader": {
       "name": "Gordon Moore",
       "relation": "co-founder",
@@ -20,49 +20,61 @@
     },
     "largestHolders": [
       {
-        "name": "The Vanguard Group, Inc.",
-        "type": "asset-manager",
-        "pctEconomic": 8.85,
-        "asOf": null,
+        "name": "U.S. government (United States Department of Commerce)",
+        "type": "government",
+        "pctEconomic": 8.4,
+        "asOf": "2026-03-20",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (p. 33)",
-          "quote": "The table also sets forth the stock-based holdings of beneficial owners of more than 5% of our common stock as of December 31, 2024. ... The Vanguard Group, Inc. ... 385,750,808 8.85 % ... Information based solely on SEC Filing Schedule 13G/A ... Filing date February 13, 2024"
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+          "label": "2026 proxy statement, Security Ownership of 5% Beneficial Owners (p. 27)",
+          "quote": "The following table sets forth the stock-based holdings of beneficial owners of more than 5% of our common stock as of March 20, 2026 for the U.S. government and as of December 31, 2025 with respect to the other stockholders. ... U.S. government 1800 F Street NW Washington, DC 20405 433,323,000 8.4 % ... Company stock registry ... Shareholding is in the name of the United States Department of Commerce and assumes full release of 149,438,785 shares held in escrow"
+        }
+      },
+      {
+        "name": "The Vanguard Group, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 8.1,
+        "asOf": "2025-12-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+          "label": "2026 proxy statement, Security Ownership of 5% Beneficial Owners (p. 27)",
+          "quote": "The Vanguard Group, Inc. 100 Vanguard Blvd., Malvern, PA 19355 404,520,480 8.1 % ... Schedule 13G/A filed January 30, 2026"
         }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 7.82,
+        "pctEconomic": 6.8,
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (p. 33)",
-          "quote": "BlackRock, Inc. ... 341,067,967 7.82 % ... Filing date February 13, 2024 January 25, 2024 [columns: Vanguard, BlackRock]"
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+          "label": "2026 proxy statement, Security Ownership of 5% Beneficial Owners (p. 27)",
+          "quote": "BlackRock, Inc. 50 Hudson Yards New York, NY 10001 341,067,967 6.8 % 309,980,092 — 341,067,967 — Schedule 13G/A filed January 25, 2024"
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock. The proxy lists only Vanguard (8.85%) and BlackRock (7.82%) as owners of more than 5%; every director and executive officer, and the group of 18, is marked * (less than 1%)."
+      "note": "One class of common stock. The proxy lists the U.S. government (8.4%, held by the Department of Commerce, assuming full release of 149,438,785 escrowed shares), Vanguard (8.1%) and BlackRock (6.8%) as owners of more than 5%; each director and named executive officer, and the group, owns not more than 1%. The U.S. government also holds warrants, not counted, that become exercisable only if Intel ceased to own at least 51% of its Intel Foundry business."
     }
   },
   "cash": {
     "dividends": {
-      "value": 1.6,
+      "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Payment of dividends to stockholders (1,599) (3,088) (5,997) [in millions, years ended Dec 28, 2024, Dec 30, 2023, Dec 31, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Payment of dividends to stockholders — ( 1,599 ) ( 3,088 ) [in millions, years ended Dec 27, 2025, Dec 28, 2024, Dec 30, 2023; none paid in 2025]",
         "xbrl": {
           "cik": "0000050863",
           "concept": "us-gaap:PaymentsOfDividendsCommonStock",
-          "end": "2024-12-28",
-          "value": 1599000000
+          "end": "2025-12-27",
+          "value": 0
         }
       }
     },
@@ -70,25 +82,25 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "FY2024 Form 10-K, Item 1 capital allocation",
-        "quote": "Our capital allocation strategy historically included returning excess cash to stockholders through dividends and stock repurchases. Our most recent stock repurchase was in the first quarter of 2021 and we suspended the declaration of quarterly dividends starting with the fourth quarter of 2024."
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "FY2025 Form 10-K, Issuer Purchases of Equity Securities",
+        "quote": "Our last share repurchase under this authorization occurred in Q1 2021, and no shares were repurchased during the fiscal year ending December 27, 2025."
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 3.41,
+      "value": 2.43,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows and Note 3 Operating Segments (corporate unallocated expenses)",
-        "quote": "Share-based compensation 3,410 3,229 3,128 [in millions, 2024, 2023, 2022; operating activities adjustments] ... Share-based compensation 875 2,535 3,410 [cost of sales, operating expenses, total; Dec 28, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Share-based compensation 2,434 3,410 3,229 [in millions, 2025, 2024, 2023; operating activities adjustments]",
         "xbrl": {
           "cik": "0000050863",
           "concept": "us-gaap:ShareBasedCompensation",
-          "end": "2024-12-28",
-          "value": 3410000000
+          "end": "2025-12-27",
+          "value": 2434000000
         }
       }
     },
@@ -96,8 +108,8 @@
       "text": "Intel's pay package includes broad-based stock grants and an employee stock purchase plan.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "FY2024 Form 10-K, Item 1 Human Capital",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "FY2025 Form 10-K, Item 1 People, Compensation and Benefits",
         "quote": "Our total rewards package includes market-competitive pay, broad-based stock grants and bonuses, an employee stock purchase plan, healthcare and retirement benefits"
       }
     }
@@ -106,34 +118,34 @@
     "basis": "Net revenue by region, based on the billing location of the customer",
     "segments": [
       {
-        "name": "China",
-        "value": 15.53
+        "name": "United States",
+        "value": 15.76
       },
       {
-        "name": "United States",
-        "value": 12.99
+        "name": "China",
+        "value": 12.69
       },
       {
         "name": "Singapore",
-        "value": 10.19
+        "value": 9.54
       },
       {
         "name": "Taiwan",
-        "value": 7.8
+        "value": 7.67
       },
       {
         "name": "Other regions",
-        "value": 6.58
+        "value": 7.2
       }
     ],
-    "total": 53.1,
+    "total": 52.85,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-      "label": "FY2024 Form 10-K, Note 3 Operating Segments, net revenue by region",
-      "quote": "Net revenue by region, based on the billing location of the customer, was as follows: ... China $ 15,532 ... United States 12,994 ... Singapore 10,187 ... Taiwan 7,804 ... Other regions 6,584 ... Total net revenue $ 53,101 [in millions, year ended Dec 28, 2024]"
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+      "label": "FY2025 Form 10-K, Note 3 Operating Segments, net revenue by region",
+      "quote": "Net revenue by region, based on the billing location of the customer, was as follows: Years Ended (In Millions) Dec 27, 2025 Dec 28, 2024 Dec 30, 2023 United States $ 15,757 $ 12,994 $ 13,958 China 12,694 15,532 14,854 Singapore 9,535 10,187 8,602 Taiwan 7,672 7,804 6,867 Other regions 7,195 6,584 9,947 Total net revenue $ 52,853 $ 53,101 $ 54,228"
     }
   },
-  "notes": "Fiscal year ended December 28, 2024 (matches data.js fy 'Dec 2024'). Filings: FY2024 Form 10-K (accession 0000050863-25-000009) and 2025 proxy statement (accession 0000050863-25-000054), both read on www.sec.gov. GORDON MOORE is deceased. The 2025 proxy's ownership table lists only directors, NEOs, Vanguard and BlackRock; it shows no Moore estate, trust or Gordon and Betty Moore Foundation holding, and 'Moore' appears in the 10-K only as Moore's Law. Family is therefore null. BUYBACKS: zero. The cash-flow statement has no repurchase line for 2024, and the 10-K says the last repurchase was in Q1 2021. The only share-related outflow, $631 million of restricted stock unit withholdings, is not a buyback. DIVIDENDS: Intel suspended its dividend from Q4 2024. STOCK COMP: Intel tags no separate note total; the $3,410 million is the cash-flow add-back, matching the total of the share-based compensation line in the segment note. HOLDERS: the proxy says the 5% holdings are 'as of December 31, 2024', but it cites 13G/A filings dated January and February 2024, which normally report end-of-2023 holdings. Because of this conflict, asOf is null.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 27, 2025. Filings: FY2025 Form 10-K (accession 0000050863-26-000011, filed January 23, 2026) and the 2026 proxy statement (accession 0000050863-26-000061, filed March 23, 2026), both read on www.sec.gov. GORDON MOORE is deceased. The 2026 proxy's ownership tables list only directors, NEOs and three 5% holders; the word 'Moore' does not appear in the proxy, and in the 10-K it appears only as Moore's Law. No Moore estate, trust or foundation holding is disclosed, so family is null. HOLDERS: new this year is the U.S. government (Department of Commerce), whose shares are in the name of the Department of Commerce (the 10-K attributes proceeds from the U.S. government to common stock, warrants and Escrowed Shares issued in 2025); its 8.4% assumes the full release of shares held in escrow under the Secure Enclave program. Vanguard's 8.1% is as of December 31, 2025 (13G/A filed January 30, 2026). BlackRock's 6.8% rests on a 13G/A filed January 25, 2024, which conflicts with the table's December 31, 2025 date, so its asOf is null. The proxy does not state the share count behind the percentages. BUYBACKS: zero; the 10-K says the last repurchase was in Q1 2021. DIVIDENDS: none paid in 2025 (suspended from Q4 2024). STOCK COMP: the $2,434 million cash-flow add-back. GEOGRAPHY: by customer billing location; the United States overtook China as the largest region in 2025.",
+  "researchedAt": "2026-11-24"
 }

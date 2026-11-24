@@ -2,27 +2,27 @@
   "id": "akio-toyoda",
   "company": "Toyota",
   "nbim": {
-    "pct": 1.2,
-    "marketValueUSD": 3.802,
-    "asOf": "2024-12-31",
+    "pct": 1.25,
+    "marketValueUSD": 3.052,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"3qlvv4k1tl6i\",\"cc\":\"JP\",\"n\":\"Toyota Motor Corp\",\"a\":{\"e\":3802076822,\"n\":43181517199},\"at\":0,\"o\":1.2,\"eq\":{\"vid\":\"7203\",\"v\":1.2,\"s\":\"Consumer Discretionary\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"3qlvv4k1tl6i\",\"cc\":\"JP\",\"n\":\"Toyota Motor Corp\",\"a\":{\"e\":3051523509,\"n\":30196352101},\"at\":0,\"o\":1.25,\"eq\":{\"vid\":\"7203\",\"v\":1.25,\"s\":\"Consumer Discretionary\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": {
-    "count": 1184935,
-    "asOf": "2025-03-31",
+    "count": 1272096,
+    "asOf": "2026-03-31",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-      "label": "FY2025 Form 20-F, Item 7.A major shareholders",
-      "quote": "According to Toyota's register of shareholders, as of March 31, 2025, there were 1,184,935 holders of common stock of record worldwide."
+      "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+      "label": "FY2026 Form 20-F, Item 7.A major shareholders",
+      "quote": "According to Toyota's register of shareholders, as of March 31, 2026, there were 1,272,096 holders of common stock of record worldwide."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;Japan;Toyota Motor Corp;Consumer Discretionary;43181517199;3802076822;1.2%;1.2%\". NBIM: Matched to Toyota Motor Corp (7203), not Toyota Industries. CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Toyota. Holders of record: Worldwide holders of record per Toyota's own share register (not the U.S.-only ADS count also given).",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); matched to Toyota Motor Corp (7203), not Toyota Industries. CalPERS: its Form 13F information table for the quarter ended September 30, 2026 lists no shares or ADRs of Toyota (searched by name and ADR CUSIP). Holders of record: worldwide holders of record per Toyota's own share register at March 31, 2026 (not the U.S.-only ADS count of 1,679 holders of record also given).",
+  "researchedAt": "2026-11-24"
 }

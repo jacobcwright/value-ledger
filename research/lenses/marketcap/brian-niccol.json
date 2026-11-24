@@ -1,0 +1,22 @@
+{
+  "id": "brian-niccol",
+  "company": "Chipotle",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 1264975000,
+      "sharesAsOf": "2026-10-26",
+      "pricedAs": "CMG",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000104/cmg-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 26, 2026, there were 1,264,975 shares (in thousands) of the registrant's common stock, par value of $0.01 per share, outstanding."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the NYSE as CMG. The 10-Q cover for the quarter ended September 30, 2026 is the latest count and is stated in thousands (1,264,975 thousand = 1,264,975,000 shares). The 50-for-1 split took effect in June 2024, before both counts.",
+  "researchedAt": "2026-11-24"
+}

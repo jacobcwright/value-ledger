@@ -5,9 +5,9 @@
     "employees": {
       "label": "Full-time employees",
       "unit": "people",
-      "period": "as of December 31, 2024",
+      "period": "as of December 31, 2025",
       "tier": "filing",
-      "definition": "Full-time employees (11,372 worldwide); temporary employees and consultants excluded."
+      "definition": "Full-time employees (10,205 worldwide); temporary employees and consultants excluded."
     }
   },
   "usStates": null,
@@ -17,14 +17,14 @@
       "name": "Outside the US",
       "countries": null,
       "values": {
-        "employees": 2627
+        "employees": 2472
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "Block, Inc. Form 10-K for fiscal year 2024",
-        "quote": "As of December 31, 2024, we had 11,372 full-time employees worldwide with 2,627 full-time employees outside the US."
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "Block, Inc. Form 10-K for fiscal year 2025, Item 1 Human Capital",
+        "quote": "As of December 31, 2025, we had 10,205 full-time employees worldwide with 2,472 full-time employees outside the US."
       }
     }
   ],
@@ -38,9 +38,9 @@
       "description": "Office space for general corporate purposes; Block does not designate a headquarters because it uses a distributed work model.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "Block, Inc. Form 10-K for fiscal year 2024",
-        "quote": "We do not designate a headquarters location as we have adopted a distributed work model. We lease space in New York, New York for a product development, sales, and business operations office under a lease that expires in 2028 and office space in Oakland, California for general corporate purposes"
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "Block, Inc. Form 10-K for fiscal year 2025, Item 2 Properties",
+        "quote": "We do not designate a headquarters location as we have adopted a distributed work model. We lease space in New York, New York for a product development, sales, and business operations office under a lease that expires in 2028 and office space in Oakland, California for general corporate purposes under a lease that expires in 2031."
       }
     },
     {
@@ -52,8 +52,8 @@
       "description": "Product development, sales, and business operations office.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "Block, Inc. Form 10-K for fiscal year 2024",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "Block, Inc. Form 10-K for fiscal year 2025, Item 2 Properties",
         "quote": "We lease space in New York, New York for a product development, sales, and business operations office under a lease that expires in 2028"
       }
     },
@@ -66,12 +66,12 @@
       "description": "Business operations office.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "Block, Inc. Form 10-K for fiscal year 2024",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "Block, Inc. Form 10-K for fiscal year 2025, Item 2 Properties",
         "quote": "We also lease space in St Louis, Missouri, for a business operations office under a lease that expires in 2036"
       }
     }
   ],
-  "notes": "FY2024 10-K only. Block gives a single non-U.S. headcount (2,627 of 11,372); the U.S. figure was not derived. No state, country or tax-by-country breakdown is published in the 10-K. Block names no headquarters (distributed work model); its cover-page principal executive office is in Oakland.",
-  "researchedAt": "2026-11-23"
+  "notes": "From the FY2025 10-K (year ended Dec 31, 2025). Block gives a single non-U.S. headcount (2,472 of 10,205 full-time employees); the U.S. figure was not derived. The same section says that in February 2026 Block announced a workforce reduction plan expected to cut its workforce by more than 40%, substantially complete by the end of Q2 2026, so the year-end 2025 counts predate it. No state, country or tax-by-country breakdown is published in the 10-K. Block names no headquarters (distributed work model); its Item 2 lists leased offices in New York, Oakland and St. Louis.",
+  "researchedAt": "2026-11-24"
 }

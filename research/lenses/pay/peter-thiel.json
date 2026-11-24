@@ -1,0 +1,31 @@
+{
+  "id": "peter-thiel",
+  "company": "Palantir Technologies",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 4429,
+    "asOf": "2025-12-31",
+    "basis": "full-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, we had 4,429 full-time employees, 28% of whom are employed outside of the United States."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "The median employee’s total annual compensation in 2025",
+    "value": 235115,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000019/pltr-20260423.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "The median employee’s total annual compensation in 2025 (as determined using the methodology described below) was $235,115."
+    }
+  },
+  "notes": "Employees: year-end full-time count from the FY2025 10-K (Palantir also uses part-time employees, contractors and third-party personnel, not counted). Payroll: the 10-K discloses no total staff cost, so the 2026 proxy's CEO pay ratio median for 2025 is used; the median is identified using base pay, cash incentives and the grant-date value of equity awards made in 2025, and total compensation is calculated as for the named executives.",
+  "researchedAt": "2026-11-24"
+}

@@ -1,1060 +1,148 @@
 {
-  "generatedAt": "2026-11-24T17:11:57.756Z",
+  "generatedAt": "2026-11-24T19:52:49.243Z",
   "sources": {
     "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf": {
       "ok": true,
-      "reason": "all 34 quotes found (fragments, numbers-in-context, exact, fuzzy)",
-      "quotes": 34,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1120193/000119312525100786/d862158ddef14a.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm": {
-      "ok": true,
-      "reason": "all 15 quotes found (squashed, fragments, exact)",
-      "quotes": 15,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000078/ma-20250428.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm": {
-      "ok": true,
-      "reason": "all 21 quotes found (squashed, exact, fragments, numbers-in-context)",
-      "quotes": 21,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm": {
-      "ok": true,
-      "reason": "all 31 quotes found (fragments, exact, squashed)",
-      "quotes": 31,
-      "failed": []
-    },
-    "https://global.toyota/pages/global_toyota/ir/stock/2025_shareholders_meeting_convocation_en.pdf": {
-      "ok": true,
-      "reason": "all 2 quotes found (numbers-in-context, fragments)",
-      "quotes": 2,
+      "reason": "all 19 quotes found (exact)",
+      "quotes": 19,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm": {
       "ok": true,
-      "reason": "all 44 quotes found (squashed, fragments, exact)",
-      "quotes": 44,
+      "reason": "all 14 quotes found (exact)",
+      "quotes": 14,
       "failed": []
     },
-    "https://www.sec.gov/Archives/edgar/data/78003/000007800325000062/pfe-20250313.htm": {
+    "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf": {
       "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
       "failed": []
     },
-    "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm": {
-      "ok": true,
-      "reason": "all 17 quotes found (squashed, exact, fragments)",
-      "quotes": 17,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000092/rddt-20250428.htm": {
+    "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf": {
       "ok": true,
       "reason": "all 1 quotes found (fragments)",
       "quotes": 1,
       "failed": []
     },
-    "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000018/rddt-20241231.htm": {
-      "ok": true,
-      "reason": "all 13 quotes found (squashed, exact, fragments)",
-      "quotes": 13,
-      "failed": []
-    },
-    "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf": {
-      "ok": true,
-      "reason": "all 27 quotes found (fragments, exact)",
-      "quotes": 27,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/813672/000119312525062605/d877390ddef14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm": {
-      "ok": true,
-      "reason": "all 16 quotes found (exact, squashed, fragments)",
-      "quotes": 16,
-      "failed": []
-    },
-    "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf": {
-      "ok": true,
-      "reason": "all 26 quotes found (exact, fragments)",
-      "quotes": 26,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/354950/000035495025000123/hd-20250407.htm": {
-      "ok": true,
-      "reason": "all 2 quotes found (fragments)",
-      "quotes": 2,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm": {
-      "ok": true,
-      "reason": "all 114 quotes found (squashed, fragments, exact)",
-      "quotes": 114,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000084/pins-20250408.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (exact, fragments, squashed)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm": {
-      "ok": true,
-      "reason": "all 15 quotes found (exact, fragments, squashed)",
-      "quotes": 15,
-      "failed": []
-    },
-    "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf": {
-      "ok": true,
-      "reason": "all 50 quotes found (fragments, squashed, exact)",
-      "quotes": 50,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/789019/000119312524242883/d858775ddef14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm": {
-      "ok": true,
-      "reason": "all 20 quotes found (squashed, exact, fragments)",
-      "quotes": 20,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1559720/000119312525096938/d842295ddef14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (exact, fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm": {
-      "ok": true,
-      "reason": "all 20 quotes found (exact, squashed)",
-      "quotes": 20,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1166691/000130817925000504/cmcsa012438-def14a.htm": {
-      "ok": true,
-      "reason": "all 5 quotes found (fragments, exact)",
-      "quotes": 5,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm": {
-      "ok": true,
-      "reason": "all 29 quotes found (squashed, exact, fragments)",
-      "quotes": 29,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/70858/000119312525050578/d897280ddef14a.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
-      "failed": []
-    },
     "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm": {
       "ok": true,
-      "reason": "all 27 quotes found (squashed, fragments, exact)",
-      "quotes": 27,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1058090/000114036125015614/ny20039347x771_def14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm": {
-      "ok": true,
-      "reason": "all 17 quotes found (exact, squashed, fragments)",
-      "quotes": 17,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm": {
-      "ok": true,
-      "reason": "all 39 quotes found (fragments, exact, squashed)",
-      "quotes": 39,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/316709/000119312525072811/d897057ddef14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm": {
-      "ok": true,
-      "reason": "all 30 quotes found (fragments, squashed, exact)",
-      "quotes": 30,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/72971/000007297125000090/wfc-20250317.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231_d2.htm": {
-      "ok": true,
-      "reason": "all 11 quotes found (squashed, fragments, exact)",
-      "quotes": 11,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1633917/000119312525087307/d905217ddef14a.htm": {
-      "ok": true,
-      "reason": "all 2 quotes found (fragments)",
-      "quotes": 2,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm": {
-      "ok": true,
-      "reason": "all 23 quotes found (exact, squashed, fragments)",
-      "quotes": 23,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm": {
-      "ok": true,
-      "reason": "all 28 quotes found (fragments, exact, squashed, numbers-in-context)",
-      "quotes": 28,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
+      "reason": "all 9 quotes found (exact)",
+      "quotes": 9,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm": {
-      "ok": true,
-      "reason": "all 32 quotes found (exact, squashed, fragments)",
-      "quotes": 32,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1315098/000155837025004962/rblx-20250529xdef14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (exact, fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm": {
-      "ok": true,
-      "reason": "all 24 quotes found (exact, fragments)",
-      "quotes": 24,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/12927/000119312525049921/d816992ddef14a.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm": {
-      "ok": true,
-      "reason": "all 16 quotes found (exact, fragments)",
-      "quotes": 16,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/59478/000005947825000107/lly-20250321.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm": {
-      "ok": true,
-      "reason": "all 16 quotes found (squashed, exact, fragments)",
-      "quotes": 16,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm": {
-      "ok": true,
-      "reason": "all 33 quotes found (exact, fragments, squashed)",
-      "quotes": 33,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1666700/000119312525071813/d862604ddef14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (exact, fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm": {
-      "ok": true,
-      "reason": "all 19 quotes found (squashed, exact, fragments)",
-      "quotes": 19,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm": {
-      "ok": true,
-      "reason": "all 21 quotes found (exact, fragments, squashed)",
-      "quotes": 21,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1585521/000114036125016910/edge20045033x1_def14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (exact, squashed, fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm": {
-      "ok": true,
-      "reason": "all 20 quotes found (exact, squashed, fragments)",
-      "quotes": 20,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm": {
-      "ok": true,
-      "reason": "all 20 quotes found (exact, fragments, squashed)",
-      "quotes": 20,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1535527/000110465925045047/tm252455-2_def14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm": {
-      "ok": true,
-      "reason": "all 20 quotes found (exact, fragments)",
-      "quotes": 20,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/51143/000110465925022186/tm2430706-6_def14aseq1.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (exact, fragments)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm": {
-      "ok": true,
-      "reason": "all 15 quotes found (squashed, fragments, exact)",
-      "quotes": 15,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/50863/000005086325000054/intc-20250327.htm": {
-      "ok": true,
-      "reason": "all 2 quotes found (fragments)",
-      "quotes": 2,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm": {
-      "ok": true,
-      "reason": "all 38 quotes found (squashed, exact, fragments, fuzzy)",
-      "quotes": 38,
-      "failed": []
-    },
-    "https://www.sap.com/docs/download/investors/2024/sap-2024-integrated-report.pdf": {
-      "ok": true,
-      "reason": "all 4 quotes found (exact)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf": {
-      "ok": true,
-      "reason": "all 14 quotes found (fragments, exact)",
-      "quotes": 14,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/37996/000110465925029100/tm2416981-6_def14a.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments, numbers-in-context)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm": {
-      "ok": true,
-      "reason": "all 23 quotes found (exact, squashed, fragments)",
-      "quotes": 23,
-      "failed": []
-    },
-    "https://uploads.vw-mms.de/system/production/documents/cws/002/931/file_en/953dcbb8e57270df70ca288218092dba4721fd63/2025-03-11-volkswagen-group-annual-report-2024-en.pdf": {
-      "ok": true,
-      "reason": "all 89 quotes found (exact)",
-      "quotes": 89,
-      "failed": []
-    },
-    "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf": {
-      "ok": true,
-      "reason": "all 15 quotes found (fragments, exact)",
-      "quotes": 15,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1730168/000119312525044112/d861439ddef14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm": {
-      "ok": true,
-      "reason": "all 22 quotes found (squashed, fragments, exact)",
-      "quotes": 22,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/829224/000121390025006516/ea0224926-02.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (exact, fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm": {
-      "ok": true,
-      "reason": "all 35 quotes found (squashed, exact, fragments)",
-      "quotes": 35,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/77476/000130817925000289/pep4354281-def14a.htm": {
-      "ok": true,
-      "reason": "all 2 quotes found (fragments)",
-      "quotes": 2,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm": {
-      "ok": true,
-      "reason": "all 27 quotes found (squashed, exact, fragments)",
-      "quotes": 27,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/804328/000110465925005602/tm2430012d3_def14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm": {
-      "ok": true,
-      "reason": "all 17 quotes found (squashed, exact, fragments)",
-      "quotes": 17,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1512673/000095017025058701/sq-20250425.htm": {
-      "ok": true,
-      "reason": "all 5 quotes found (exact, fragments)",
-      "quotes": 5,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm": {
-      "ok": true,
-      "reason": "all 23 quotes found (exact, squashed, fragments)",
-      "quotes": 23,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-ex15_5.htm": {
-      "ok": true,
-      "reason": "all 2 quotes found (fragments, exact)",
-      "quotes": 2,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm": {
-      "ok": true,
-      "reason": "all 11 quotes found (squashed, fragments, exact)",
-      "quotes": 11,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm": {
-      "ok": true,
-      "reason": "all 19 quotes found (squashed, exact, fragments)",
-      "quotes": 19,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/909832/000090983224000072/cost-20241209.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (squashed, fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm": {
-      "ok": true,
-      "reason": "all 28 quotes found (squashed, fragments, exact)",
-      "quotes": 28,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/831001/000114544325000075/citi4405291-def14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm": {
-      "ok": true,
-      "reason": "all 18 quotes found (squashed, fragments, exact)",
-      "quotes": 18,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1468327/000114036125020175/ny20043016x1_def14a.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1468327/000146832725000056/wdq-20250131.htm": {
       "ok": true,
       "reason": "all 13 quotes found (exact)",
       "quotes": 13,
       "failed": []
     },
-    "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm": {
+    "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm": {
       "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
       "failed": []
     },
-    "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm": {
+    "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm": {
       "ok": true,
-      "reason": "all 16 quotes found (squashed, exact, fragments)",
-      "quotes": 16,
+      "reason": "all 13 quotes found (exact)",
+      "quotes": 13,
       "failed": []
     },
-    "https://www.sec.gov/Archives/edgar/data/200406/000020040625000099/jnj-20250311.htm": {
+    "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm": {
       "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm": {
-      "ok": true,
-      "reason": "all 20 quotes found (squashed, exact, fragments)",
-      "quotes": 20,
+      "reason": "all 2 quotes found (fragments)",
+      "quotes": 2,
       "failed": []
     },
     "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf": {
       "ok": true,
-      "reason": "all 22 quotes found (exact, squashed, fragments)",
-      "quotes": 22,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/796343/000079634325000048/adbe-20250227.htm": {
-      "ok": true,
-      "reason": "all 2 quotes found (fragments)",
-      "quotes": 2,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm": {
-      "ok": true,
-      "reason": "all 20 quotes found (exact, squashed)",
-      "quotes": 20,
-      "failed": []
-    },
-    "https://www.biocon.com/docs/SHP_website-r%20Ended%20on%20March%2031,%202024.pdf": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments, numbers-in-context)",
-      "quotes": 3,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
       "failed": []
     },
     "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf": {
       "ok": true,
-      "reason": "all 38 quotes found (fragments, exact)",
-      "quotes": 38,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/40545/000130817925000114/ge4356871-def14a.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm": {
-      "ok": true,
-      "reason": "all 16 quotes found (squashed, exact, fragments)",
+      "reason": "all 16 quotes found (exact)",
       "quotes": 16,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1341439/000119312524226139/d860928ddef14a.htm": {
-      "ok": true,
-      "reason": "all 2 quotes found (fragments)",
-      "quotes": 2,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm": {
-      "ok": true,
-      "reason": "all 23 quotes found (squashed, fragments, exact)",
-      "quotes": 23,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/2012383/000130817925000388/ny-20250404.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm": {
-      "ok": true,
-      "reason": "all 31 quotes found (fragments, squashed, exact)",
-      "quotes": 31,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1652044/000130817925000511/goog012701-def14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments, exact)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm": {
-      "ok": true,
-      "reason": "all 19 quotes found (squashed, exact, fragments)",
-      "quotes": 19,
-      "failed": []
-    },
-    "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-remuneration-report-2024.pdf": {
-      "ok": true,
-      "reason": "all 1 quotes found (fragments)",
-      "quotes": 1,
-      "failed": []
-    },
-    "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf": {
-      "ok": true,
-      "reason": "all 22 quotes found (fragments, exact)",
-      "quotes": 22,
       "failed": []
     },
     "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf": {
       "ok": true,
-      "reason": "all 31 quotes found (fragments, squashed, exact)",
-      "quotes": 31,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
       "failed": []
     },
     "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf": {
       "ok": true,
-      "reason": "all 28 quotes found (exact, fragments)",
-      "quotes": 28,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/884887/000088488725000087/rcl-20250418.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (exact, fragments)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm": {
-      "ok": true,
-      "reason": "all 18 quotes found (fragments, exact, squashed)",
-      "quotes": 18,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/2488/000119312525067170/d869673ddef14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm": {
-      "ok": true,
-      "reason": "all 31 quotes found (fragments, squashed, exact)",
-      "quotes": 31,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/886982/000119312525054559/d863231ddef14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm": {
-      "ok": true,
-      "reason": "all 23 quotes found (squashed, fragments, exact)",
-      "quotes": 23,
-      "failed": []
-    },
-    "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf": {
-      "ok": true,
-      "reason": "all 18 quotes found (fragments, exact)",
-      "quotes": 18,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm": {
-      "ok": true,
-      "reason": "all 16 quotes found (squashed, exact, fragments)",
-      "quotes": 16,
-      "failed": []
-    },
-    "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e": {
-      "ok": true,
-      "reason": "all 17 quotes found (exact, fragments)",
-      "quotes": 17,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000020/meli-20250428.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm": {
-      "ok": true,
-      "reason": "all 38 quotes found (exact, squashed, fragments)",
-      "quotes": 38,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm": {
-      "ok": true,
-      "reason": "all 6 quotes found (squashed, exact, fragments)",
-      "quotes": 6,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm": {
-      "ok": true,
-      "reason": "all 19 quotes found (squashed, exact, fragments)",
-      "quotes": 19,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000084/gm-20250422.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm": {
       "ok": true,
-      "reason": "all 29 quotes found (squashed, fragments, exact)",
-      "quotes": 29,
-      "failed": []
-    },
-    "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2025_en.pdf": {
-      "ok": true,
-      "reason": "all 6 quotes found (fragments, exact)",
-      "quotes": 6,
-      "failed": []
-    },
-    "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf": {
-      "ok": true,
-      "reason": "all 19 quotes found (exact, fragments)",
-      "quotes": 19,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1065088/000110465925042545/tm2424429-2_def14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm": {
-      "ok": true,
-      "reason": "all 19 quotes found (squashed, fragments, exact)",
-      "quotes": 19,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1571996/000119312525121698/d835807ddef14a.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm": {
-      "ok": true,
-      "reason": "all 16 quotes found (squashed, exact, fragments)",
-      "quotes": 16,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm": {
-      "ok": true,
-      "reason": "all 26 quotes found (fragments, squashed, exact)",
-      "quotes": 26,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1050446/000119312525100720/d908609ddef14a.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (exact, squashed, fragments)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm": {
-      "ok": true,
-      "reason": "all 20 quotes found (exact, fragments)",
-      "quotes": 20,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000058/team-20251014.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments, exact)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm": {
-      "ok": true,
-      "reason": "all 20 quotes found (exact, squashed, fragments)",
-      "quotes": 20,
-      "failed": []
-    },
-    "https://investor.tsmc.com/sites/ir/sec-filings/2024%2020-F.pdf": {
-      "ok": true,
-      "reason": "all 14 quotes found (exact, fragments)",
-      "quotes": 14,
-      "failed": []
-    },
-    "https://investor.tsmc.com/sites/ir/annual-report/2024/2024-Annual%20Report-E.pdf": {
-      "ok": true,
-      "reason": "all 2 quotes found (fragments, exact)",
-      "quotes": 2,
-      "failed": []
-    },
-    "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-25.pdf": {
-      "ok": true,
-      "reason": "all 6 quotes found (numbers-in-context, fragments, exact)",
-      "quotes": 6,
-      "failed": []
-    },
-    "https://www.infosys.com/investors/reports-filings/annual-report/form20f/documents/form20f-2025.pdf": {
-      "ok": true,
-      "reason": "all 11 quotes found (fragments, exact)",
-      "quotes": 11,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1327567/000130817924000770/panw4345341-def14a.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000029/panw-20240731.htm": {
-      "ok": true,
-      "reason": "all 17 quotes found (exact, fragments)",
-      "quotes": 17,
-      "failed": []
-    },
-    "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf": {
-      "ok": true,
-      "reason": "all 18 quotes found (numbers-in-context, fragments, exact, squashed)",
-      "quotes": 18,
+      "reason": "all 12 quotes found (exact)",
+      "quotes": 12,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm": {
       "ok": true,
-      "reason": "all 37 quotes found (fragments, exact, numbers-in-context, fuzzy)",
-      "quotes": 37,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231x20f.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (exact)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000057/pltr-20250424.htm": {
-      "ok": true,
-      "reason": "all 5 quotes found (squashed, fragments)",
-      "quotes": 5,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm": {
-      "ok": true,
-      "reason": "all 20 quotes found (exact, squashed, fragments)",
-      "quotes": 20,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/320187/000032018725000048/nke-20250717.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments, exact)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm": {
-      "ok": true,
-      "reason": "all 35 quotes found (squashed, exact, fragments)",
-      "quotes": 35,
+      "reason": "all 6 quotes found (fuzzy, exact, fragments)",
+      "quotes": 6,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/63908/000155837025004544/mcd-20250520xdef14a.htm": {
       "ok": true,
-      "reason": "all 3 quotes found (exact, fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/63908/000006390825000012/mcd-20241231.htm": {
-      "ok": true,
-      "reason": "all 14 quotes found (squashed, exact)",
-      "quotes": 14,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1065280/000119312525084425/d867701ddef14a.htm": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm": {
       "ok": true,
-      "reason": "all 21 quotes found (exact, squashed, fragments)",
-      "quotes": 21,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000063/spce-20250415.htm": {
-      "ok": true,
-      "reason": "all 1 quotes found (fragments)",
-      "quotes": 1,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm": {
-      "ok": true,
-      "reason": "all 15 quotes found (squashed, exact, fragments)",
-      "quotes": 15,
+      "reason": "all 4 quotes found (exact)",
+      "quotes": 4,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm": {
       "ok": true,
-      "reason": "all 27 quotes found (fragments, squashed, exact)",
-      "quotes": 27,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments, exact)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm": {
-      "ok": true,
-      "reason": "all 14 quotes found (squashed, exact, fragments)",
-      "quotes": 14,
+      "reason": "all 8 quotes found (exact)",
+      "quotes": 8,
       "failed": []
     },
     "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf": {
       "ok": true,
-      "reason": "all 18 quotes found (fragments, exact)",
-      "quotes": 18,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
       "failed": []
     },
     "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf": {
       "ok": true,
-      "reason": "all 12 quotes found (exact, fragments)",
-      "quotes": 12,
-      "failed": []
-    },
-    "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf": {
-      "ok": true,
-      "reason": "all 14 quotes found (exact, fragments)",
-      "quotes": 14,
-      "failed": []
-    },
-    "https://www.nintendo.co.jp/ir/pdf/2025/convocation_notice2506e.pdf": {
-      "ok": true,
-      "reason": "all 2 quotes found (fragments, exact)",
-      "quotes": 2,
-      "failed": []
-    },
-    "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf": {
-      "ok": true,
-      "reason": "all 19 quotes found (fragments, exact, numbers-in-context)",
-      "quotes": 19,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm": {
-      "ok": true,
-      "reason": "all 26 quotes found (fragments, exact, squashed)",
-      "quotes": 26,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/320193/000130817925000008/aapl4359751-def14a.htm": {
-      "ok": true,
-      "reason": "all 2 quotes found (fragments)",
-      "quotes": 2,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm": {
-      "ok": true,
-      "reason": "all 14 quotes found (squashed, exact, fragments)",
-      "quotes": 14,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000039/shop-20241231.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (exact, squashed)",
-      "quotes": 3,
+      "reason": "all 5 quotes found (exact)",
+      "quotes": 5,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm": {
       "ok": true,
-      "reason": "all 30 quotes found (exact, fragments)",
-      "quotes": 30,
-      "failed": []
-    },
-    "https://www.novartis.com/sites/novartis_com/files/novartis-20-f-2024.pdf": {
-      "ok": true,
-      "reason": "all 20 quotes found (fragments, exact)",
-      "quotes": 20,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000134/hood-20250425.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (squashed, exact, fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm": {
-      "ok": true,
-      "reason": "all 23 quotes found (exact, squashed, fragments)",
-      "quotes": 23,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm": {
-      "ok": true,
-      "reason": "all 27 quotes found (fragments, numbers-in-context, squashed, exact)",
-      "quotes": 27,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000059/dis-20250123.htm": {
-      "ok": true,
-      "reason": "all 2 quotes found (fragments)",
-      "quotes": 2,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm": {
-      "ok": true,
-      "reason": "all 24 quotes found (fragments, squashed, exact)",
-      "quotes": 24,
+      "reason": "all 12 quotes found (exact)",
+      "quotes": 12,
       "failed": []
     },
     "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf": {
       "ok": true,
-      "reason": "all 20 quotes found (fragments, exact, squashed)",
-      "quotes": 20,
+      "reason": "all 1 quotes found (squashed)",
+      "quotes": 1,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1067983/000119312525054877/d812428ddef14a.htm": {
       "ok": true,
-      "reason": "all 4 quotes found (fragments, exact)",
-      "quotes": 4,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm": {
       "ok": true,
-      "reason": "all 39 quotes found (exact, squashed, fragments)",
-      "quotes": 39,
+      "reason": "all 12 quotes found (exact)",
+      "quotes": 12,
       "failed": []
     },
     "https://www.nber.org/system/files/working_papers/w10433/w10433.pdf": {
@@ -1063,40 +151,10 @@
       "quotes": 1,
       "failed": []
     },
-    "https://www.sec.gov/Archives/edgar/data/1855612/000185561225000013/ck0001855612-20241231.htm": {
-      "ok": true,
-      "reason": "all 7 quotes found (exact)",
-      "quotes": 7,
-      "failed": []
-    },
     "https://blogs.microsoft.com/blog/2025/03/24/microsoft-at-50-the-journey-and-future-of-the-partner-ecosystem/": {
       "ok": true,
       "reason": "all 1 quotes found (fragments)",
       "quotes": 1,
-      "failed": []
-    },
-    "https://newsroom.spotify.com/2025-03-12/beyond-profits-how-the-music-industrys-cultural-and-financial-impact-define-its-success-in-2025/": {
-      "ok": true,
-      "reason": "all 1 quotes found (exact)",
-      "quotes": 1,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm": {
-      "ok": true,
-      "reason": "all 11 quotes found (fragments, exact)",
-      "quotes": 11,
-      "failed": []
-    },
-    "https://s2.q4cdn.com/299287126/files/doc_financials/2024/q4/AMZN-Q4-2024-Earnings-Release.pdf": {
-      "ok": true,
-      "reason": "all 1 quotes found (fragments)",
-      "quotes": 1,
-      "failed": []
-    },
-    "https://cdn-sellingpartners.aboutamazon.com/7f/a0/7c0de2dc48c1b769d9a8eddf7396/small-business-empowerment-report-2024.pdf": {
-      "ok": true,
-      "reason": "all 2 quotes found (exact)",
-      "quotes": 2,
       "failed": []
     },
     "https://services.google.com/fh/files/misc/progress_impact_us_exec_summary.pdf": {
@@ -1128,54 +186,6 @@
           "why": "unfetched"
         }
       ]
-    },
-    "https://www.apple.com/newsroom/pdfs/2024-Apple-Global-Ecosystem-Report-June2025.pdf": {
-      "ok": true,
-      "reason": "all 2 quotes found (fragments, exact)",
-      "quotes": 2,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1000184/000110465925017815/sap-20241224x20f.htm": {
-      "ok": true,
-      "reason": "all 9 quotes found (exact)",
-      "quotes": 9,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm": {
-      "ok": true,
-      "reason": "all 8 quotes found (exact, fragments)",
-      "quotes": 8,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1046179/000119312525083423/d896993d20f.htm": {
-      "ok": true,
-      "reason": "all 26 quotes found (exact, fragments)",
-      "quotes": 26,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm": {
-      "ok": true,
-      "reason": "all 18 quotes found (exact)",
-      "quotes": 18,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1610520/000161052025000023/ubs-20241231.htm": {
-      "ok": true,
-      "reason": "all 10 quotes found (exact)",
-      "quotes": 10,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm": {
-      "ok": true,
-      "reason": "all 18 quotes found (exact)",
-      "quotes": 18,
-      "failed": []
-    },
-    "https://flo.uri.sh/visualisation/23490266/embed": {
-      "ok": true,
-      "reason": "all 50 quotes found (fragments)",
-      "quotes": 50,
-      "failed": []
     },
     "https://research.facebook.com/file/1010243070450876/Alabama.pdf": {
       "ok": true,
@@ -1477,24 +487,6 @@
       "quotes": 1,
       "failed": []
     },
-    "https://www.nasdaq.com/nasdaq-2024-sustainability-report": {
-      "ok": true,
-      "reason": "all 42 quotes found (fragments, exact)",
-      "quotes": 42,
-      "failed": []
-    },
-    "https://s25.q4cdn.com/479285134/files/doc_downloads/2025/07/mastercard-impact-report-2024.pdf": {
-      "ok": true,
-      "reason": "all 2 quotes found (exact)",
-      "quotes": 2,
-      "failed": []
-    },
-    "https://www.toyota.com/content/dam/tusa/assets/pdfs/toyota-operations-map-fall-2023.pdf": {
-      "ok": true,
-      "reason": "all 1 quotes found (fragments)",
-      "quotes": 1,
-      "failed": []
-    },
     "https://pressroom.toyota.com/facility/toyota-motor-manufacturing-texas/": {
       "ok": true,
       "reason": "all 1 quotes found (fragments)",
@@ -1529,12 +521,6 @@
       "ok": true,
       "reason": "all 26 quotes found (exact)",
       "quotes": 26,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000020/q4-24xpressrelease.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (exact)",
-      "quotes": 3,
       "failed": []
     },
     "https://local.microsoft.com/wp-content/uploads/2025/10/Microsoft-datacenters-in-Arizona.pdf": {
@@ -1651,12 +637,6 @@
       "quotes": 1,
       "failed": []
     },
-    "https://news.airbnb.com/airbnb-has-generated-13-5b-in-tourism-taxes-for-communities-around-the-world/": {
-      "ok": true,
-      "reason": "all 20 quotes found (fragments)",
-      "quotes": 20,
-      "failed": []
-    },
     "https://www.airbnb.com/e/ppap_australiaimpact": {
       "ok": true,
       "reason": "all 1 quotes found (exact)",
@@ -1709,18 +689,6 @@
       "ok": true,
       "reason": "all 1 quotes found (exact)",
       "quotes": 1,
-      "failed": []
-    },
-    "https://news.airbnb.com/en-ca/economic-impact-2024-canada/": {
-      "ok": true,
-      "reason": "all 1 quotes found (exact)",
-      "quotes": 1,
-      "failed": []
-    },
-    "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0": {
-      "ok": true,
-      "reason": "all 39 quotes found (exact)",
-      "quotes": 39,
       "failed": []
     },
     "https://resources.bankofamerica.com/local-market/fact-sheet/arkansas": {
@@ -1786,36 +754,6 @@
     "https://resources.bankofamerica.com/local-market/fact-sheet/wisconsin": {
       "ok": true,
       "reason": "all 1 quotes found (fragments)",
-      "quotes": 1,
-      "failed": []
-    },
-    "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60": {
-      "ok": true,
-      "reason": "all 40 quotes found (exact)",
-      "quotes": 40,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm": {
-      "ok": true,
-      "reason": "all 16 quotes found (exact, fragments)",
-      "quotes": 16,
-      "failed": []
-    },
-    "https://newsroom.spotify.com/2025-03-26/svenska-artister-genererar-rekordutbetalningar-fran-spotify-19-miljarder-under-2024/": {
-      "ok": true,
-      "reason": "all 1 quotes found (exact)",
-      "quotes": 1,
-      "failed": []
-    },
-    "https://newsroom.spotify.com/2025-05-28/how-spotify-continues-to-supercharge-brazils-music-industry/": {
-      "ok": true,
-      "reason": "all 1 quotes found (exact)",
-      "quotes": 1,
-      "failed": []
-    },
-    "https://newsroom.spotify.com/2025-06-04/canadian-artists-are-thriving-on-spotify-and-the-world-is-listening/": {
-      "ok": true,
-      "reason": "all 1 quotes found (exact)",
       "quotes": 1,
       "failed": []
     },
@@ -1927,52 +865,16 @@
       "quotes": 1,
       "failed": []
     },
-    "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2024-Update.pdf": {
-      "ok": true,
-      "reason": "all 4 quotes found (exact)",
-      "quotes": 4,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000016/snap-202524xexx991pressrel.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (fragments)",
-      "quotes": 3,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231.htm": {
-      "ok": true,
-      "reason": "all 3 quotes found (exact)",
-      "quotes": 3,
-      "failed": []
-    },
     "https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2025-04/chips-design-manufacturing-fact-sheet.pdf": {
       "ok": true,
       "reason": "all 4 quotes found (fragments)",
       "quotes": 4,
       "failed": []
     },
-    "https://www.intel.com/content/www/us/en/corporate/usa-chipmaking/home.html": {
-      "ok": true,
-      "reason": "all 4 quotes found (exact)",
-      "quotes": 4,
-      "failed": []
-    },
     "https://corporate.ford.com/operations/locations/global-plants.html": {
       "ok": true,
-      "reason": "all 11 quotes found (exact)",
-      "quotes": 11,
-      "failed": []
-    },
-    "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/2024-qualcomm-corporate-responsibility-report.pdf": {
-      "ok": true,
-      "reason": "all 1 quotes found (exact)",
-      "quotes": 1,
-      "failed": []
-    },
-    "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0626/2025062601088.pdf": {
-      "ok": true,
-      "reason": "all 3 quotes found (exact, fragments)",
-      "quotes": 3,
+      "reason": "all 10 quotes found (exact)",
+      "quotes": 10,
       "failed": []
     },
     "https://www.coca-colacompany.com/about-us/us-economic-impact-map": {
@@ -1981,39 +883,15 @@
       "quotes": 51,
       "failed": []
     },
-    "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf": {
-      "ok": true,
-      "reason": "all 48 quotes found (fragments)",
-      "quotes": 48,
-      "failed": []
-    },
-    "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0": {
-      "ok": true,
-      "reason": "all 13 quotes found (exact)",
-      "quotes": 13,
-      "failed": []
-    },
-    "https://images.nvidia.com/aem-dam/Solutions/documents/NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf": {
-      "ok": true,
-      "reason": "all 7 quotes found (fragments, exact)",
-      "quotes": 7,
-      "failed": []
-    },
     "https://healthforhumanityreport.jnj.com/2025/_assets/downloads/consolidated-2025-health-for-humanity-report-jnj.pdf?h=qt9wSHOx": {
       "ok": true,
       "reason": "all 4 quotes found (fragments)",
       "quotes": 4,
       "failed": []
     },
-    "https://www.richemont.com/media/3vwfatyf/richemont-non-financial-report-2025.pdf": {
-      "ok": true,
-      "reason": "all 5 quotes found (exact)",
-      "quotes": 5,
-      "failed": []
-    },
     "https://www.richemont.com/about-us/global-presence/": {
       "ok": true,
-      "reason": "all 6 quotes found (exact, fuzzy)",
+      "reason": "all 6 quotes found (exact, fragments)",
       "quotes": 6,
       "failed": []
     },
@@ -2023,34 +901,10 @@
       "quotes": 4,
       "failed": []
     },
-    "https://www.biocon.com/docs/Biocon_BRSR_GRI_ESG_Databook_2024.pdf": {
-      "ok": true,
-      "reason": "all 2 quotes found (exact)",
-      "quotes": 2,
-      "failed": []
-    },
     "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024": {
       "ok": true,
-      "reason": "all 11 quotes found (exact)",
-      "quotes": 11,
-      "failed": []
-    },
-    "https://storage.googleapis.com/eir-national-report/2024.pdf": {
-      "ok": true,
-      "reason": "all 62 quotes found (fragments, exact)",
-      "quotes": 62,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/353278/000162828025003920/nvo-20241231.htm": {
-      "ok": true,
-      "reason": "all 12 quotes found (fragments, exact)",
-      "quotes": 12,
-      "failed": []
-    },
-    "https://www.samsung.com/global/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2025_ENG.pdf": {
-      "ok": true,
-      "reason": "all 9 quotes found (fragments, squashed, exact)",
-      "quotes": 9,
+      "reason": "all 4 quotes found (exact)",
+      "quotes": 4,
       "failed": []
     },
     "https://www.amd.com/en/corporate/corporate-responsibility/cr-data-tables.html": {
@@ -2061,8 +915,8 @@
     },
     "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800679.pdf": {
       "ok": true,
-      "reason": "all 3 quotes found (exact, fragments)",
-      "quotes": 3,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
       "failed": []
     },
     "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/white-papers/salesforce-fy25-stakeholder-impact-report.pdf": {
@@ -2081,42 +935,6 @@
       "ok": true,
       "reason": "all 12 quotes found (fragments, exact)",
       "quotes": 12,
-      "failed": []
-    },
-    "https://investor.ryanair.com/wp-content/uploads/2025/05/Ryanair-2025-Annual-Report.pdf": {
-      "ok": true,
-      "reason": "all 5 quotes found (fragments)",
-      "quotes": 5,
-      "failed": []
-    },
-    "https://www.ril.com/reports/BRSR202425.pdf": {
-      "ok": true,
-      "reason": "all 2 quotes found (fragments)",
-      "quotes": 2,
-      "failed": []
-    },
-    "https://www.ril.com/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf": {
-      "ok": true,
-      "reason": "all 12 quotes found (exact, fragments)",
-      "quotes": 12,
-      "failed": []
-    },
-    "https://newsroom.porsche.com/files/Combined_Management_Report_2024_Porsche_AG.pdf": {
-      "ok": true,
-      "reason": "all 12 quotes found (exact)",
-      "quotes": 12,
-      "failed": []
-    },
-    "https://newsroom.porsche.com/files/Non-financial_Statement_(part_of_the_Combined_Management_Report)_2024_Porsche_AG.pdf": {
-      "ok": true,
-      "reason": "all 5 quotes found (fragments)",
-      "quotes": 5,
-      "failed": []
-    },
-    "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf": {
-      "ok": true,
-      "reason": "all 98 quotes found (exact)",
-      "quotes": 98,
       "failed": []
     },
     "https://about.netflix.com/en/news/expanding-our-west-coast-production-hub-in-albuquerque": {
@@ -2143,18 +961,6 @@
       "quotes": 51,
       "failed": []
     },
-    "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf": {
-      "ok": true,
-      "reason": "all 18 quotes found (exact)",
-      "quotes": 18,
-      "failed": []
-    },
-    "https://www.nintendo.co.jp/ir/pdf/2025/250508_4e.pdf": {
-      "ok": true,
-      "reason": "all 4 quotes found (fragments)",
-      "quotes": 4,
-      "failed": []
-    },
     "https://www.apple.com/job-creation/": {
       "ok": true,
       "reason": "all 56 quotes found (exact)",
@@ -2169,14 +975,14 @@
     },
     "https://shopify-assets.shopifycdn.com/static/the-entrepreneur-effect/the-entrepreneur-effect-report.pdf": {
       "ok": true,
-      "reason": "all 50 quotes found (exact)",
-      "quotes": 50,
+      "reason": "all 59 quotes found (exact)",
+      "quotes": 59,
       "failed": []
     },
     "https://cdn.shopify.com/b/shopify-brochure2-assets/1a7388bb-7844-43e3-9a44-8b865afa133d": {
       "ok": true,
-      "reason": "all 18 quotes found (exact)",
-      "quotes": 18,
+      "reason": "all 9 quotes found (exact)",
+      "quotes": 9,
       "failed": []
     },
     "https://www.shell.com/what-we-do/our-strategy/sustainability/our-approach/tax-transparency/tax-contribution-report/_jcr_content/root/main/section_1586444069/promo_1019535086.multi.stream/1763622125479/4aee700cf367de98d85b0041cb6b78086e36cb50/tax-contribution-report-2024-our-tax-data.pdf": {
@@ -2187,8 +993,8 @@
     },
     "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401244.pdf": {
       "ok": true,
-      "reason": "all 4 quotes found (exact)",
-      "quotes": 4,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
       "failed": []
     },
     "https://corporate.vanguard.com/content/corporatesite/us/en/corp/why-vanguard/who-we-are/facts-and-figures.html": {
@@ -2239,28 +1045,10 @@
       "quotes": 1,
       "failed": []
     },
-    "https://www.nbim.no/api/investments/v2/2024-12-31.json": {
-      "ok": true,
-      "reason": "all 97 quotes found (exact)",
-      "quotes": 97,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml": {
-      "ok": true,
-      "reason": "all 65 quotes found (exact, fragments)",
-      "quotes": 65,
-      "failed": []
-    },
-    "https://www.sec.gov/Archives/edgar/data/1327567/000132756725000010/panw-20250131.htm": {
-      "ok": true,
-      "reason": "all 1 quotes found (exact)",
-      "quotes": 1,
-      "failed": []
-    },
     "https://www.federalreserve.gov/releases/g5a/20260105/": {
       "ok": true,
-      "reason": "all 10 quotes found (fragments)",
-      "quotes": 10,
+      "reason": "all 19 quotes found (fragments)",
+      "quotes": 19,
       "failed": []
     },
     "https://bacon.forbes.com/bacon-forbes-prd/billionaires-2025-directory/payload.json": {
@@ -2269,10 +1057,2572 @@
       "quotes": 3,
       "failed": []
     },
-    "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100": {
+    "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0": {
       "ok": true,
-      "reason": "all 53 quotes found (exact)",
-      "quotes": 53,
+      "reason": "all 39 quotes found (exact)",
+      "quotes": 39,
+      "failed": []
+    },
+    "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=2000": {
+      "ok": true,
+      "reason": "all 6 quotes found (exact)",
+      "quotes": 6,
+      "failed": []
+    },
+    "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=1000": {
+      "ok": true,
+      "reason": "all 11 quotes found (exact)",
+      "quotes": 11,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1120193/000162828026027245/ndaq-20260424.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm": {
+      "ok": true,
+      "reason": "all 16 quotes found (exact, fragments, squashed)",
+      "quotes": 16,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000021/ma-20260427.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm": {
+      "ok": true,
+      "reason": "all 22 quotes found (exact, fragments)",
+      "quotes": 22,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm": {
+      "ok": true,
+      "reason": "all 32 quotes found (fragments, exact)",
+      "quotes": 32,
+      "failed": []
+    },
+    "https://global.toyota/pages/global_toyota/ir/stock/2026_shareholders_meeting_convocation_en.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm": {
+      "ok": true,
+      "reason": "all 32 quotes found (squashed, exact, fragments)",
+      "quotes": 32,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/78003/000007800326000033/pfe-20260312.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (fragments, exact)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm": {
+      "ok": true,
+      "reason": "all 17 quotes found (exact, fragments)",
+      "quotes": 17,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000060/rddt-20260423.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000022/rddt-20251231.htm": {
+      "ok": true,
+      "reason": "all 14 quotes found (exact, fragments)",
+      "quotes": 14,
+      "failed": []
+    },
+    "https://announcements.asx.com.au/asxpdf/20261111/pdf/076h2j5mnq1wj0.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf": {
+      "ok": true,
+      "reason": "all 27 quotes found (exact, squashed)",
+      "quotes": 27,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/813672/000119312526124264/d932644ddef14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm": {
+      "ok": true,
+      "reason": "all 16 quotes found (exact, fragments)",
+      "quotes": 16,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm": {
+      "ok": true,
+      "reason": "all 31 quotes found (exact, fragments)",
+      "quotes": 31,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/354950/000035495026000090/hd-20260406.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments, exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm": {
+      "ok": true,
+      "reason": "all 114 quotes found (exact, fragments, squashed)",
+      "quotes": 114,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000058/pins-20260407.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (exact, fragments)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000021/pins-20251231.htm": {
+      "ok": true,
+      "reason": "all 15 quotes found (exact, squashed)",
+      "quotes": 15,
+      "failed": []
+    },
+    "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf": {
+      "ok": true,
+      "reason": "all 52 quotes found (fragments, exact, squashed)",
+      "quotes": 52,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/789019/000119312526427849/d61756ddef14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm": {
+      "ok": true,
+      "reason": "all 20 quotes found (squashed, exact)",
+      "quotes": 20,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm": {
+      "ok": true,
+      "reason": "all 6 quotes found (exact, fragments)",
+      "quotes": 6,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm": {
+      "ok": true,
+      "reason": "all 20 quotes found (exact)",
+      "quotes": 20,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1166691/000119312526177138/cmcsa-20260424.htm": {
+      "ok": true,
+      "reason": "all 7 quotes found (fragments, exact)",
+      "quotes": 7,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm": {
+      "ok": true,
+      "reason": "all 28 quotes found (exact)",
+      "quotes": 28,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/70858/000119312526118929/d43888ddef14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm": {
+      "ok": true,
+      "reason": "all 19 quotes found (squashed, fragments, exact)",
+      "quotes": 19,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1058090/000114036126017294/ny20063214x1_def14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (exact, fragments)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm": {
+      "ok": true,
+      "reason": "all 17 quotes found (exact, fragments)",
+      "quotes": 17,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1129137/000114036126017486/ef20060642_20f.htm": {
+      "ok": true,
+      "reason": "all 40 quotes found (fragments, exact)",
+      "quotes": 40,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/316709/000119312526142826/d930509ddef14a.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (fragments)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm": {
+      "ok": true,
+      "reason": "all 31 quotes found (fragments, exact)",
+      "quotes": 31,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/72971/000007297126000200/wfc-20260318.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/wfc-20251231.htm": {
+      "ok": true,
+      "reason": "all 12 quotes found (exact, fragments)",
+      "quotes": 12,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1633917/000119312526145721/d59508ddef14a.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments, exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm": {
+      "ok": true,
+      "reason": "all 23 quotes found (squashed, exact)",
+      "quotes": 23,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm": {
+      "ok": true,
+      "reason": "all 27 quotes found (fragments, exact)",
+      "quotes": 27,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1543151/000130817926000125/uber014597-def14a.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (fragments, exact)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm": {
+      "ok": true,
+      "reason": "all 19 quotes found (exact, fragments)",
+      "quotes": 19,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1315098/000110465926044362/rblx-20260528xdef14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (exact, fragments)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm": {
+      "ok": true,
+      "reason": "all 24 quotes found (exact, fragments)",
+      "quotes": 24,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/12927/000119312526096787/d39411ddef14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm": {
+      "ok": true,
+      "reason": "all 16 quotes found (exact, fragments)",
+      "quotes": 16,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/59478/000005947826000029/lly-20260317.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (fragments, exact)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm": {
+      "ok": true,
+      "reason": "all 16 quotes found (exact)",
+      "quotes": 16,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm": {
+      "ok": true,
+      "reason": "all 33 quotes found (exact, fragments, squashed)",
+      "quotes": 33,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1666700/000119312526151204/d11932ddef14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (exact, fragments)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm": {
+      "ok": true,
+      "reason": "all 20 quotes found (exact, fragments)",
+      "quotes": 20,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments, exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm": {
+      "ok": true,
+      "reason": "all 20 quotes found (exact, fragments)",
+      "quotes": 20,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1585521/000162828026028866/zm-20260430.htm": {
+      "ok": true,
+      "reason": "all 7 quotes found (exact, fragments)",
+      "quotes": 7,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm": {
+      "ok": true,
+      "reason": "all 20 quotes found (exact, fragments)",
+      "quotes": 20,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1564408/000156440826000013/snap-20251231.htm": {
+      "ok": true,
+      "reason": "all 22 quotes found (exact, fragments, squashed)",
+      "quotes": 22,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1535527/000110465926055599/tm2532333-4_def14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm": {
+      "ok": true,
+      "reason": "all 20 quotes found (exact, fragments)",
+      "quotes": 20,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/51143/000005114326000025/ibm-20260306.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm": {
+      "ok": true,
+      "reason": "all 15 quotes found (exact, squashed)",
+      "quotes": 15,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm": {
+      "ok": true,
+      "reason": "all 24 quotes found (exact, fragments)",
+      "quotes": 24,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/sap-20251231x20f.htm": {
+      "ok": true,
+      "reason": "all 23 quotes found (exact, fragments)",
+      "quotes": 23,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/37996/000155278126000164/e26003_f-def14a.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (fragments, exact)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm": {
+      "ok": true,
+      "reason": "all 23 quotes found (exact, fragments)",
+      "quotes": 23,
+      "failed": []
+    },
+    "https://uploads.vw-mms.de/system/production/documents/cws/003/212/file_en/41966a4270c8a0a4185b3ab69eaa433cf6892168/2026-03-10-volkswagen-group-annual-report-2025-en.pdf": {
+      "ok": true,
+      "reason": "all 92 quotes found (exact, squashed)",
+      "quotes": 92,
+      "failed": []
+    },
+    "https://uploads.vw-mms.de/system/production/documents/cws/003/215/file_en/d46cfd6dd3241543d5edf0869a321ea70642902e/2026-03-10-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2023-en.pdf": {
+      "ok": true,
+      "reason": "all 18 quotes found (exact)",
+      "quotes": 18,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1730168/000119312526085691/d49254ddef14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm": {
+      "ok": true,
+      "reason": "all 22 quotes found (exact, fragments)",
+      "quotes": 22,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/829224/000121390026007780/ea0270973-01.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (exact, fragments, squashed)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/829224/000082922426000162/sbux-20260927.htm": {
+      "ok": true,
+      "reason": "all 38 quotes found (squashed, exact, fragments)",
+      "quotes": 38,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/77476/000130817926000169/pep015012_def14a.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments, exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm": {
+      "ok": true,
+      "reason": "all 25 quotes found (squashed, exact, fragments)",
+      "quotes": 25,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/804328/000110465926005781/tm2528704-1_def14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (exact, fragments)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm": {
+      "ok": true,
+      "reason": "all 19 quotes found (exact, fragments, squashed)",
+      "quotes": 19,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1512673/000162828026027203/sq-20260423.htm": {
+      "ok": true,
+      "reason": "all 7 quotes found (exact, fragments)",
+      "quotes": 7,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm": {
+      "ok": true,
+      "reason": "all 23 quotes found (exact, fragments)",
+      "quotes": 23,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm": {
+      "ok": true,
+      "reason": "all 14 quotes found (exact, squashed)",
+      "quotes": 14,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (fragments, exact)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm": {
+      "ok": true,
+      "reason": "all 19 quotes found (exact, fragments)",
+      "quotes": 19,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (exact, fragments)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm": {
+      "ok": true,
+      "reason": "all 30 quotes found (exact, fragments)",
+      "quotes": 30,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/831001/000120677426000185/citi4583461-def14a.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/c-20251231.htm": {
+      "ok": true,
+      "reason": "all 17 quotes found (exact, fragments)",
+      "quotes": 17,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1468327/000114036126023446/ny20064283x2_def14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm": {
+      "ok": true,
+      "reason": "all 16 quotes found (exact, fragments)",
+      "quotes": 16,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm": {
+      "ok": true,
+      "reason": "all 15 quotes found (exact, fragments)",
+      "quotes": 15,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/200406/000020040626000063/jnj-20260309.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (fragments, exact)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm": {
+      "ok": true,
+      "reason": "all 18 quotes found (exact, fragments)",
+      "quotes": 18,
+      "failed": []
+    },
+    "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf": {
+      "ok": true,
+      "reason": "all 24 quotes found (exact, fragments)",
+      "quotes": 24,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/796343/000079634326000043/adbe-20260227.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments, exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm": {
+      "ok": true,
+      "reason": "all 20 quotes found (exact)",
+      "quotes": 20,
+      "failed": []
+    },
+    "https://www.biocon.com/docs/SHP31032026.pdf": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf": {
+      "ok": true,
+      "reason": "all 24 quotes found (fragments, exact)",
+      "quotes": 24,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/40545/000004054526000018/ge-20260312.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (fragments, exact)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/ge-20251231.htm": {
+      "ok": true,
+      "reason": "all 16 quotes found (exact, fragments)",
+      "quotes": 16,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm": {
+      "ok": true,
+      "reason": "all 23 quotes found (exact, fragments)",
+      "quotes": 23,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm": {
+      "ok": true,
+      "reason": "all 32 quotes found (exact, fragments)",
+      "quotes": 32,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm": {
+      "ok": true,
+      "reason": "all 6 quotes found (fragments, exact)",
+      "quotes": 6,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm": {
+      "ok": true,
+      "reason": "all 19 quotes found (exact, fragments, squashed)",
+      "quotes": 19,
+      "failed": []
+    },
+    "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-remuneration-report-2025.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf": {
+      "ok": true,
+      "reason": "all 25 quotes found (exact, fragments)",
+      "quotes": 25,
+      "failed": []
+    },
+    "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf": {
+      "ok": true,
+      "reason": "all 32 quotes found (exact, fragments)",
+      "quotes": 32,
+      "failed": []
+    },
+    "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf": {
+      "ok": true,
+      "reason": "all 29 quotes found (exact, fragments)",
+      "quotes": 29,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/884887/000088488726000017/rcl-20260417.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (exact, fragments)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm": {
+      "ok": true,
+      "reason": "all 19 quotes found (exact, fragments)",
+      "quotes": 19,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/2488/000119312526129057/d85856ddef14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm": {
+      "ok": true,
+      "reason": "all 28 quotes found (fragments, exact)",
+      "quotes": 28,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/886982/000119312526117433/gs-20260319.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm": {
+      "ok": true,
+      "reason": "all 24 quotes found (exact)",
+      "quotes": 24,
+      "failed": []
+    },
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901231.pdf": {
+      "ok": true,
+      "reason": "all 19 quotes found (fragments, exact)",
+      "quotes": 19,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (fragments, exact)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm": {
+      "ok": true,
+      "reason": "all 16 quotes found (exact, fragments)",
+      "quotes": 16,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm": {
+      "ok": true,
+      "reason": "all 28 quotes found (exact, fragments)",
+      "quotes": 28,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000010/meli-20260423.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm": {
+      "ok": true,
+      "reason": "all 38 quotes found (exact, fragments, squashed)",
+      "quotes": 38,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm": {
+      "ok": true,
+      "reason": "all 6 quotes found (exact, fragments)",
+      "quotes": 6,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm": {
+      "ok": true,
+      "reason": "all 19 quotes found (exact)",
+      "quotes": 19,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000022/gm-20260420.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm": {
+      "ok": true,
+      "reason": "all 19 quotes found (exact, fragments)",
+      "quotes": 19,
+      "failed": []
+    },
+    "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2026_en.pdf": {
+      "ok": true,
+      "reason": "all 7 quotes found (fragments, exact)",
+      "quotes": 7,
+      "failed": []
+    },
+    "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2026_en.pdf": {
+      "ok": true,
+      "reason": "all 22 quotes found (exact, fragments)",
+      "quotes": 22,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1065088/000155278126000285/e26002_ebay-def14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm": {
+      "ok": true,
+      "reason": "all 19 quotes found (exact, fragments)",
+      "quotes": 19,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1571996/000119312526226734/d132444ddef14a.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (fragments, exact)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm": {
+      "ok": true,
+      "reason": "all 16 quotes found (exact, fragments)",
+      "quotes": 16,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm": {
+      "ok": true,
+      "reason": "all 28 quotes found (fragments, exact)",
+      "quotes": 28,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1050446/000119312526413159/d503578ddef14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (exact, fragments)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm": {
+      "ok": true,
+      "reason": "all 20 quotes found (exact, fragments)",
+      "quotes": 20,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000044/team-20261013.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm": {
+      "ok": true,
+      "reason": "all 20 quotes found (exact, squashed, fragments)",
+      "quotes": 20,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm": {
+      "ok": true,
+      "reason": "all 43 quotes found (exact, fragments)",
+      "quotes": 43,
+      "failed": []
+    },
+    "https://rilstaticasset.akamaized.net/sites/default/files/reports/RIL-Integrated-Annual-Report-2025-26.pdf": {
+      "ok": true,
+      "reason": "all 18 quotes found (fragments, exact)",
+      "quotes": 18,
+      "failed": []
+    },
+    "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-26.pdf": {
+      "ok": true,
+      "reason": "all 6 quotes found (fragments, exact)",
+      "quotes": 6,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1067491/000119312526270520/infy-20260331.htm": {
+      "ok": true,
+      "reason": "all 31 quotes found (exact)",
+      "quotes": 31,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1327567/000130817926000432/panw-20261027.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000023/panw-20260731.htm": {
+      "ok": true,
+      "reason": "all 18 quotes found (exact, fragments)",
+      "quotes": 18,
+      "failed": []
+    },
+    "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2025/q4/annual-and-sustainability-report-2025-porsche-ag-consolidated-financial-statements-ifrs.pdf": {
+      "ok": true,
+      "reason": "all 21 quotes found (exact, fragments, squashed)",
+      "quotes": 21,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/901832/000110465926019130/azn-20251231xex15d1.htm": {
+      "ok": true,
+      "reason": "all 35 quotes found (fragments, exact)",
+      "quotes": 35,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000019/pltr-20260423.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (squashed, exact, fragments)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm": {
+      "ok": true,
+      "reason": "all 21 quotes found (exact, squashed, fragments)",
+      "quotes": 21,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/320187/000032018726000089/nke-20260715.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (fragments, exact)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/nke-20260531.htm": {
+      "ok": true,
+      "reason": "all 35 quotes found (exact, fragments)",
+      "quotes": 35,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/63908/000119312526145548/mcd-20260407.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm": {
+      "ok": true,
+      "reason": "all 14 quotes found (exact)",
+      "quotes": 14,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (fragments, exact)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm": {
+      "ok": true,
+      "reason": "all 21 quotes found (exact, fragments)",
+      "quotes": 21,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000046/spce-20260421.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact, squashed)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm": {
+      "ok": true,
+      "reason": "all 16 quotes found (exact, fragments)",
+      "quotes": 16,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1564708/000110465926109969/tm2624691-1_def14a.htm": {
+      "ok": true,
+      "reason": "all 5 quotes found (exact, fragments)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm": {
+      "ok": true,
+      "reason": "all 19 quotes found (exact)",
+      "quotes": 19,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments, exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm": {
+      "ok": true,
+      "reason": "all 14 quotes found (squashed, exact)",
+      "quotes": 14,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm": {
+      "ok": true,
+      "reason": "all 28 quotes found (exact, fragments)",
+      "quotes": 28,
+      "failed": []
+    },
+    "https://assets.roche.com/f/176343/x/fa3c863601/ar25e.pdf": {
+      "ok": true,
+      "reason": "all 8 quotes found (exact, fragments, squashed)",
+      "quotes": 8,
+      "failed": []
+    },
+    "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf": {
+      "ok": true,
+      "reason": "all 15 quotes found (exact, fragments)",
+      "quotes": 15,
+      "failed": []
+    },
+    "https://www.nintendo.co.jp/ir/pdf/2026/convocation_notice2606e.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (fragments)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf": {
+      "ok": true,
+      "reason": "all 20 quotes found (fragments, exact)",
+      "quotes": 20,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm": {
+      "ok": true,
+      "reason": "all 30 quotes found (fragments, exact)",
+      "quotes": 30,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments, exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm": {
+      "ok": true,
+      "reason": "all 16 quotes found (squashed, exact, fragments)",
+      "quotes": 16,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000011/shop-20251231.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact, squashed)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm": {
+      "ok": true,
+      "reason": "all 19 quotes found (exact, squashed, fragments)",
+      "quotes": 19,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm": {
+      "ok": true,
+      "reason": "all 40 quotes found (fragments, exact)",
+      "quotes": 40,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000053/hood-20260422.htm": {
+      "ok": true,
+      "reason": "all 6 quotes found (exact, fragments)",
+      "quotes": 6,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm": {
+      "ok": true,
+      "reason": "all 23 quotes found (exact, fragments)",
+      "quotes": 23,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1306965/000162828026017024/shel-20251231.htm": {
+      "ok": true,
+      "reason": "all 29 quotes found (fragments, exact)",
+      "quotes": 29,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000013/dis-20260122.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments, exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm": {
+      "ok": true,
+      "reason": "all 26 quotes found (fragments, exact)",
+      "quotes": 26,
+      "failed": []
+    },
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032703008.pdf": {
+      "ok": true,
+      "reason": "all 21 quotes found (fragments, exact)",
+      "quotes": 21,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1067983/000119312526106253/d882687ddef14a.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments, exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm": {
+      "ok": true,
+      "reason": "all 27 quotes found (exact, fragments)",
+      "quotes": 27,
+      "failed": []
+    },
+    "https://newsroom.spotify.com/2026-03-11/loud-and-clear-music-economics-highlights/": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm": {
+      "ok": true,
+      "reason": "all 11 quotes found (fragments, exact)",
+      "quotes": 11,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://cdn-sellingpartners.aboutamazon.com/b2/13/5095e06e4689acedd33672e047d9/small-business-empowerment-report-2025.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (squashed, fragments)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.apple.com/newsroom/pdfs/Apples_Global_App_Store_Ecosystem_and_Its_Growth_2025.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (fragments, exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.nasdaq.com/nasdaq-2025-sustainability-report": {
+      "ok": true,
+      "reason": "all 41 quotes found (fragments, exact)",
+      "quotes": 41,
+      "failed": []
+    },
+    "https://s25.q4cdn.com/479285134/files/doc_downloads/2026/07/Mastercard-2025-Impact-Report.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://global.toyota/pages/global_toyota/sustainability/contribution/2026_contribution_us_02.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://pressroom.toyota.com/facility/toyota-motor-manufacturing-indiana/": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000019/q4-25xpressrelease.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://flo.uri.sh/visualisation/28451407/embed": {
+      "ok": true,
+      "reason": "all 51 quotes found (fragments)",
+      "quotes": 51,
+      "failed": []
+    },
+    "https://flo.uri.sh/visualisation/28356861/embed": {
+      "ok": true,
+      "reason": "all 51 quotes found (fragments)",
+      "quotes": 51,
+      "failed": []
+    },
+    "https://news.airbnb.com/en-ca/travel-boom-2025-was-a-record-year-for-canadian-domestic-travel/": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.airbnb.com/e/ppap_vietnamimpact": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0": {
+      "ok": true,
+      "reason": "all 39 quotes found (exact)",
+      "quotes": 39,
+      "failed": []
+    },
+    "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60": {
+      "ok": true,
+      "reason": "all 40 quotes found (exact)",
+      "quotes": 40,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/wfc-20251231_d2.htm": {
+      "ok": true,
+      "reason": "all 16 quotes found (exact, fragments)",
+      "quotes": 16,
+      "failed": []
+    },
+    "https://newsroom.spotify.com/2026-04-27/svenska-artister-genererade-nara-2-miljarder-kronor-fran-spotify-under-2025/": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://newsroom.spotify.com/2026-05-11/artistas-brasileiros-alto-e-claro/": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://newsroom.spotify.com/2026-03-24/canadian-artists-loud-and-clear/": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf": {
+      "ok": true,
+      "reason": "all 4 quotes found (exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1564408/000156440826000011/snap-20260204xexx991pressr.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.intel.com/content/www/us/en/corporate/usa-chipmaking.html": {
+      "ok": true,
+      "reason": "all 4 quotes found (exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sap.com/docs/download/investors/2025/sap-2025-integrated-report.pdf": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/qualcomm-2025-corporate-responsibility-report.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0618/2026061800880.pdf": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact, fragments)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf": {
+      "ok": true,
+      "reason": "all 48 quotes found (fragments)",
+      "quotes": 48,
+      "failed": []
+    },
+    "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0": {
+      "ok": true,
+      "reason": "all 13 quotes found (exact)",
+      "quotes": 13,
+      "failed": []
+    },
+    "https://images.nvidia.com/aem-dam/Solutions/documents/NVIDIA-Sustainability-Report-Fiscal-Year-2026.pdf": {
+      "ok": true,
+      "reason": "all 8 quotes found (exact)",
+      "quotes": 8,
+      "failed": []
+    },
+    "https://www.richemont.com/media/cskglbj3/richemont-non-financial-report-2026.pdf": {
+      "ok": true,
+      "reason": "all 6 quotes found (exact, fragments)",
+      "quotes": 6,
+      "failed": []
+    },
+    "https://www.biocon.com/docs/Biocon_BRSR_GRI_ESG_Databook_2026.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-another-1b-us-manufacturing": {
+      "ok": true,
+      "reason": "all 6 quotes found (exact)",
+      "quotes": 6,
+      "failed": []
+    },
+    "https://storage.googleapis.com/eir-national-report/2025.pdf": {
+      "ok": true,
+      "reason": "all 62 quotes found (fragments, exact)",
+      "quotes": 62,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/nvo-20251231.htm": {
+      "ok": true,
+      "reason": "all 12 quotes found (fragments, exact)",
+      "quotes": 12,
+      "failed": []
+    },
+    "https://www.samsung.com/global/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2026_ENG.pdf": {
+      "ok": true,
+      "reason": "all 10 quotes found (fragments, squashed, exact)",
+      "quotes": 10,
+      "failed": []
+    },
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901285.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://investor.ryanair.com/wp-content/uploads/2026/06/Ryanair-2026-Annual-Report.pdf": {
+      "ok": true,
+      "reason": "all 5 quotes found (fragments)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://www.ril.com/sites/default/files/reports/BRSR202526.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (fragments)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf": {
+      "ok": true,
+      "reason": "all 12 quotes found (exact, squashed, fragments)",
+      "quotes": 12,
+      "failed": []
+    },
+    "https://newsroom.porsche.com/assets/uploads/documents/Combined_Management_Report_2025_Porsche_AG.pdf": {
+      "ok": true,
+      "reason": "all 11 quotes found (exact)",
+      "quotes": 11,
+      "failed": []
+    },
+    "https://newsroom.porsche.com/assets/uploads/documents/Non-financial_Statement_(part_of_the_Combined_Management_Report)_2025_Porsche_AG.pdf": {
+      "ok": true,
+      "reason": "all 5 quotes found (fragments)",
+      "quotes": 5,
+      "failed": []
+    },
+    "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf": {
+      "ok": true,
+      "reason": "all 97 quotes found (exact, squashed)",
+      "quotes": 97,
+      "failed": []
+    },
+    "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf": {
+      "ok": true,
+      "reason": "all 18 quotes found (exact)",
+      "quotes": 18,
+      "failed": []
+    },
+    "https://www.nintendo.co.jp/ir/pdf/2026/260508_4e.pdf": {
+      "ok": true,
+      "reason": "all 4 quotes found (fragments)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702828.pdf": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/002594.SZ?period1=1795138200&period2=1795141800&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/005930.KS?period1=1795132800&period2=1795136400&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/005935.KS?period1=1795132800&period2=1795136400&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/0700.HK?period1=1795138200&period2=1795141800&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/1211.HK?period1=1795138200&period2=1795141800&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/1810.HK?period1=1795138200&period2=1795141800&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/2330.TW?period1=1795136400&period2=1795140000&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/6758.T?period1=1795132800&period2=1795136400&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/7203.T?period1=1795132800&period2=1795136400&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/7974.T?period1=1795132800&period2=1795136400&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/9984.T?period1=1795132800&period2=1795136400&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/9988.HK?period1=1795138200&period2=1795141800&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/ABI.BR?period1=1795161600&period2=1795165200&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/ABNB?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/ADBE?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/AMD?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/AMXB.MX?period1=1795181400&period2=1795185000&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/AVGO?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/AZN?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/BA?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/BAC?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/BIOCON.NS?period1=1795146300&period2=1795149900&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/BLK?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/BRK-A?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/BRK-B?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/BX?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/C?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/CDNS?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/CFR.SW?period1=1795161600&period2=1795165200&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/CMCSA?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/CMG?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/COST?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/CRM?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/CRWD?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/DD?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/DELL?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/DIS?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/EBAY?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/F?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/FMG.AX?period1=1795129200&period2=1795132800&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/GE?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/GM?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/GOOG?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/GOOGL?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/GRAB?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/GS?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/HD?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/HOOD?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/IBM?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/INFY.NS?period1=1795146300&period2=1795149900&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/INTC?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/JNJ?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/KO?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/LLY?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/MA?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/MC.PA?period1=1795161600&period2=1795165200&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/MCD?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/MELI?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/META?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/MSFT?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/MSTR?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/NDAQ?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/NFLX?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/NKE?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/NOVN.SW?period1=1795161600&period2=1795165200&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/NOVO-B.CO?period1=1795161600&period2=1795165200&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/NU?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/NVDA?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/NWS?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/NWSA?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/ORCL?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/P911.DE?period1=1795161600&period2=1795165200&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/PANW?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/PEP?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/PFE?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/PINS?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/PLTR?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/PYPL?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/QCOM?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/RBLX?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/RCL?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/RDDT?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/RELIANCE.NS?period1=1795146300&period2=1795149900&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/RENT?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/RO.SW?period1=1795161600&period2=1795165200&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/ROP.SW?period1=1795161600&period2=1795165200&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/RYA.IR?period1=1795161600&period2=1795165200&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/SAP.DE?period1=1795161600&period2=1795165200&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/SBUX?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/SCHW?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/SHEL.L?period1=1795161600&period2=1795165200&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/SHOP?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/SNAP?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/SPCE?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/SPOT?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/TEAM?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/TSLA?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/UBER?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/UBS?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/VOW.DE?period1=1795161600&period2=1795165200&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/VOW3.DE?period1=1795161600&period2=1795165200&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/WFC?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/WMT?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/XYZ?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/ZM?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.federalreserve.gov/releases/h10/20261123/": {
+      "ok": true,
+      "reason": "all 12 quotes found (exact)",
+      "quotes": 12,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1120193/000112019326000020/ndaq-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/313838/000110465926125990/tm2629459d1_6k.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://global.toyota/pages/global_toyota/ir/financial-results/2027_2q_summary_en.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/pfe-20260927.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000116/rddt-20260930.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/813672/000081367226000121/cdns-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000148/a2026q3-earningspressrelea.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/354950/000162828026075287/hd-20261101.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000153/pins-20260930.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (squashed)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://lvmh-com.cdn.prismic.io/lvmh-com/HIwWIoK1stxsKN2S_Droitsdevote31octobre2026.pdf": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments, exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (squashed)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1166691/000162828026066863/cmcsa-20260930.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000104/cmg-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1129137/000114036126040507/ef20084200_6k.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/schw-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/72971/000007297126000327/wfc-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1639920/000162828026066889/spot-20260930x6xk.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/uber-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1315098/000162828026068253/rblx-20260930.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/ba-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1691493/000129281426005272/nufs3q26_6k.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000060/dd-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000121/zm-20260731.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1564408/000156440826000067/snap-20260930.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000038/crwd-20261031.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/51143/000005114326000095/ibm-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1000184/000110465926087251/tm2621275d1_ex99-2.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (fragments)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/37996/000003799626000191/f-20260930.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/77476/000007747626000048/pep-20260905.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (squashed)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069524/xyz-20260930.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501539.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/21344/000162828026067844/ko-20261002.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/831001/000083100126000056/c-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000088/rent-20260731.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (fragments)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/200406/000020040626000197/jnj-20260927.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/796343/000079634326000156/adbe-20260828.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.biocon.com/docs/SHP-Website-Q2-FY27.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (fragments)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/40545/000004054526000064/ge-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/2012383/000119312526447043/blk-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/353278/000117184326007637/f6k_112326.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-form-20-f-2025.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_Half_Interim_Report.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (fragments)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500734.pdf": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments, exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/884887/000088488726000044/rcl-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/886982/000088698226000532/gs-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501130.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1668717/000119312526326285/d175040dex992.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000029/meli-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000059/gm-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/financial_reports/financial-report_q2fy2026_01_en.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000212/ebay-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1038683/000165495426009364/a4816b.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000060/mstr-20260930.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/team-20260930.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (squashed)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/a2026q3consolidatedreport-.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1067491/000106749126000044/exv99w07.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000033/panw-20261031.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2026/q2/half-year-financial-report-2026-en.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/901832/000165495426009357/a2825b.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm": {
+      "ok": true,
+      "reason": "all 4 quotes found (exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/320187/000032018726000193/nke-20260831.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/63908/000006390826000083/mcd-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/nflx-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000135/spce-20260930.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000250/nws-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000106/edgar3q26ubsgroup.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://assets.roche.com/f/176343/x/8a0b362d66/hy26e.pdf": {
+      "ok": true,
+      "reason": "all 4 quotes found (exact)",
+      "quotes": 4,
+      "failed": []
+    },
+    "https://www.nintendo.co.jp/ir/pdf/2026/261105e.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1393818/000119312526451802/d179995d10q.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000068/shop-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (squashed)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000014/a261027-99_2.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000167/hood-20260930.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1306965/000162828026068044/quarterlyexhibit992-q32026.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1101/2026110100057.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (fragments)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm": {
+      "ok": true,
+      "reason": "all 3 quotes found (exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.nbim.no/api/investments/v2/2026-06-30.json": {
+      "ok": true,
+      "reason": "all 96 quotes found (exact)",
+      "quotes": 96,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml": {
+      "ok": true,
+      "reason": "all 66 quotes found (exact, fragments)",
+      "quotes": 66,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/901832/000110465926019130/azn-20251231x20f.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z36rd5jrvr6.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1050446/000119312526186895/d944734ddef14a.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
       "failed": []
     }
   }

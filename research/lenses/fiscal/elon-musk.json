@@ -1,44 +1,44 @@
 {
   "id": "elon-musk",
   "company": "Tesla",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 1.33,
+      "value": 1.23,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid during the period for income taxes, net of refunds $ 1,331 $ 1,119 $ 1,203 The accompanying notes [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 12 Income Taxes, cash paid for income taxes by jurisdiction",
+        "quote": "Total cash paid for income taxes, net of refunds $ 1,232 [USD millions, year ended December 31, 2025]",
         "xbrl": {
           "cik": "0001318605",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 1331000000
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-12-31",
+          "value": 1232000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 4.54,
+      "value": 6.41,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 4,540 3,969 3,075 Selling, general and administrative [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations, research and development expense",
+        "quote": "Research and development 6,411 4,540 3,969 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001318605",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 4540000000
+          "end": "2025-12-31",
+          "value": 6411000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the income-tax note's ASU 2023-09 jurisdiction table (federal 28, California 86, other states 65, China 751, other countries 302).",
+  "researchedAt": "2026-11-24"
 }

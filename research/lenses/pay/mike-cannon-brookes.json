@@ -1,0 +1,31 @@
+{
+  "id": "mike-cannon-brookes",
+  "company": "Atlassian",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-06-30",
+  "currency": "USD",
+  "employees": {
+    "value": 13301,
+    "asOf": "2026-06-30",
+    "basis": "full-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm",
+      "label": "FY2026 Form 10-K, Item 1 Human Capital",
+      "quote": "As of June 30, 2026, we had 13,301 full-time employees."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "fiscal year 2026 total compensation of the median employee",
+    "value": 252071,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000044/team-20261013.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "The fiscal year 2026 total compensation of the median employee, based on the compensation of all employees who were employed as of June 30, 2026, other than our CEO, was $252,071."
+    }
+  },
+  "notes": "Employees: year-end full-time count from the FY2026 10-K (temporary employees and consultants are not counted). Payroll: the 10-K discloses no total staff cost, so the October 2026 proxy's CEO pay ratio median for fiscal 2026 is used, the same year as the head count. The CEO, Mike Cannon-Brookes, took fiscal 2026 total compensation of $57,337.",
+  "researchedAt": "2026-11-24"
+}

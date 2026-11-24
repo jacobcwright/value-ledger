@@ -1,44 +1,32 @@
 {
   "id": "n-r-narayana-murthy",
   "company": "Infosys",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-03-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.66,
+      "value": 0.97,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
-        "label": "FY2025 Form 20-F, cash income taxes paid",
-        "quote": "Income taxes paid (net) 2.18 ( 662 ) ( 1,114 ) ( 1,088 ) [USD millions; note 2.18; FY2025 is the 1st figure in the row]",
-        "xbrl": {
-          "cik": "0001067491",
-          "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
-          "end": "2025-03-31",
-          "value": 662000000
-        }
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000119312526270520/infy-20260331.htm",
+        "label": "FY2026 Form 20-F, consolidated statements of cash flows, income taxes paid",
+        "quote": "Income taxes paid 2.18 ( 973 ) ( 662 ) ( 1,114 ) [USD millions; note 2.18; FY2026 is the 1st figure in the row]"
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 0.15,
+      "value": 0.21,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
-        "label": "FY2025 Form 20-F, research and development expense",
-        "quote": "Research and development expense recognized in the consolidated statement of comprehensive income, for fiscal 2025, 2024 and 2023 was $ 153 million, $ 135 million and $ 129 million, respectively.",
-        "xbrl": {
-          "cik": "0001067491",
-          "concept": "ifrs-full:ResearchAndDevelopmentExpense",
-          "end": "2025-03-31",
-          "value": 153000000
-        }
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000119312526270520/infy-20260331.htm",
+        "label": "FY2026 Form 20-F, notes, research and development expense",
+        "quote": "Research and development expense recognized in the consolidated statement of comprehensive income, for fiscal 2026, 2025 and 2024 was $ 207 million, $ 153 million and $ 135 million, respectively."
       }
     }
   },
-  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, net of refunds as presented. R&D is the research and development expense recognised in the consolidated statement of comprehensive income (IFRS).",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended March 31, 2026. Taxes: income taxes paid as presented in operating activities, net of refunds ($408 million of refunds for earlier years were received in fiscal 2026). R&D is the research and development expense recognised in the consolidated statement of comprehensive income (IFRS). The 20-F's new-year XBRL facts are not in companyfacts, so no xbrl objects are given.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,44 +1,44 @@
 {
   "id": "mike-cannon-brookes",
   "company": "Atlassian",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-06-30",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-06-30",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.18,
+      "value": 0.16,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
-        "label": "FY2025 Form 10-K, cash income taxes paid",
-        "quote": "Income taxes paid, net of refunds $ 180,470 $ 253,828 $ 102,156 Interest paid [USD thousands; FY2025 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm",
+        "label": "FY2026 Form 10-K, cash income taxes paid",
+        "quote": "Income taxes paid, net of refunds $ 160,706 $ 180,470 $ 253,828 Interest paid [USD thousands; FY2026 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001650372",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2025-06-30",
-          "value": 180470000
+          "end": "2026-06-30",
+          "value": 160706000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 2.67,
+      "value": 3.27,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
-        "label": "FY2025 Form 10-K, research and development expense",
-        "quote": "Research and development 2,669,312 51 2,184,111 50 Marketing and sales 1,134,535 22 [USD thousands; FY2025 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm",
+        "label": "FY2026 Form 10-K, results of operations, research and development expense",
+        "quote": "Research and development 3,269,257 50 2,669,312 51 Marketing and sales 1,541,178 24 [USD thousands and % of revenue; FY2026 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001650372",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2025-06-30",
-          "value": 2669312000
+          "end": "2026-06-30",
+          "value": 3269257000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented (the FY2026 10-K still prints the supplemental cash-flow line).",
+  "researchedAt": "2026-11-24"
 }

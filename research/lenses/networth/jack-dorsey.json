@@ -2,18 +2,18 @@
   "id": "jack-dorsey",
   "name": "Jack Dorsey",
   "netWorth": {
-    "value": 3.9,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 929,
+    "value": 6.95,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 577,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"jack-dorsey\",\"rank\":929,\"listUri\":\"billionaires\",\"visible\":true,\"position\":932,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":3900.0,\"finalWorthBillions\":3.9,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Jack Dorsey\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"jack-dorsey\",\"rank\":577,\"listUri\":\"rtb\",\"visible\":true,\"position\":577,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":6953.414,\"finalWorthBillions\":6.9534139999999995,\"person\":{\"name\":\"Jack Dorsey\",\"uri\":\"jack-dorsey\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5d8aca3e6de3150009a505c1/416x416.jpg?background=000000&cropX1=114&cropX2=2537&cropY1=240&cropY2=2662\"},\"personName\":\"Jack Dorsey\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Jack Dorsey\" at rank 929 (ranks are shared on ties), net worth $3.9B, source \"Twitter, Square\".",
+  "notes": "Listed as \"Jack Dorsey\" at rank 577, real-time net worth $7.0B, source \"Twitter, Square\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

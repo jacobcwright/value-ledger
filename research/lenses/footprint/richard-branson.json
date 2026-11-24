@@ -15,8 +15,8 @@
       "description": "About 100,000 sq ft of office space housing management, research, design, development, marketing, finance and administration.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-        "label": "Virgin Galactic FY2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+        "label": "Virgin Galactic FY2025 Form 10-K, Item 2 Properties",
         "quote": "Our design and engineering center located in Tustin, California encompasses approximately 100,000 square feet of office space and also functions as our corporate headquarters."
       }
     },
@@ -29,8 +29,8 @@
       "description": "Commercial operations base; Virgin Galactic is the anchor tenant of the world's first purpose-built commercial spaceport and home of its Gateway to Space terminal.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-        "label": "Virgin Galactic FY2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+        "label": "Virgin Galactic FY2025 Form 10-K, Item 2 Properties",
         "quote": "We conduct our commercial operations at Spaceport America in Sierra County, New Mexico. … Spaceport America is the world’s first purpose-built commercial spaceport and is home to the Virgin Galactic Gateway to Space terminal."
       }
     },
@@ -40,11 +40,11 @@
       "state": "AZ",
       "iso2": "US",
       "type": "manufacturing",
-      "description": "Two hangars of about 150,000 sq ft completed in July 2024 to assemble the next-generation Delta Class spaceships and motherships.",
+      "description": "Two hangars of about 150,000 sq ft in the Phoenix-Mesa area, completed in July 2024, used to assemble next-generation spaceships and launch vehicles.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-        "label": "Virgin Galactic FY2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+        "label": "Virgin Galactic FY2025 Form 10-K, Item 2 Properties",
         "quote": "In July 2024, we completed our final assembly facility in Arizona, which consists of two hangars with an aggregate of approximately 150,000 square feet."
       }
     },
@@ -54,15 +54,15 @@
       "state": "CA",
       "iso2": "US",
       "type": "manufacturing",
-      "description": "More than 200,000 sq ft of manufacturing and operations facilities housing office, test and rocket motor production.",
+      "description": "More than 200,000 sq ft of manufacturing and operations facilities, four main operational buildings housing office, rocket motor design and test.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-        "label": "Virgin Galactic FY2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+        "label": "Virgin Galactic FY2025 Form 10-K, Item 2 Properties",
         "quote": "We maintain more than 200,000 square feet of manufacturing and operations facilities at the Mojave Air and Space Port in Mojave, California."
       }
     }
   ],
-  "notes": "Virgin Galactic is a small, U.S.-only operation (744 employees at Dec 31, 2024, per the FY2024 10-K, with no split by location). The 10-K describes its four locations in California, New Mexico and Arizona, recorded as sites, but gives no per-state employees, investment or taxes, and no other company document with state figures was checked, so usStates, countries and regions are null and no metrics are defined. New Mexico's state and local governments, not Virgin Galactic, invested more than $200 million in Spaceport America, where the company is anchor tenant under a lease expiring in 2028.",
-  "researchedAt": "2026-11-23"
+  "notes": "Virgin Galactic is a small, U.S.-based operation (694 employees at Dec 31, 2025, 'across the globe', per the FY2025 10-K, with no split by location). The FY2025 10-K describes the same four locations in California, New Mexico and Arizona, recorded as sites, but gives no per-state employees, investment or taxes, and no other company document with state figures was found, so usStates, countries and regions are null and no metrics are defined. New Mexico's state and local governments, not Virgin Galactic, invested more than $200 million in Spaceport America, where the company is anchor tenant under a lease expiring in 2028.",
+  "researchedAt": "2026-11-24"
 }

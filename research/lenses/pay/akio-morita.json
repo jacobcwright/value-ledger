@@ -1,0 +1,31 @@
+{
+  "id": "akio-morita",
+  "company": "Sony",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
+  "currency": "JPY",
+  "employees": {
+    "value": 94900,
+    "asOf": "2026-03-31",
+    "basis": "approximately 94,900 employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+      "label": "FY2026 Form 20-F (fiscal year ended March 31, 2026), Item 6.D Employees",
+      "quote": "As of March 31, 2026, Sony had approximately 94,900 employees, a decrease of approximately 17,400 employees from March 31, 2025. This decrease was mainly attributable to the deconsolidation of SFGI following the Partial Spin-off of the Financial Services business"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Total employee benefits expenses",
+    "value": 1784.569,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+      "label": "FY2026 Form 20-F (fiscal year ended March 31, 2026), Note 17 Employee benefits, (3) Employee benefits expenses",
+      "quote": "Employee benefits expenses included in cost of sales, selling, general and administrative, and net income (loss) from discontinued operations in the consolidated statements of income for the fiscal years ended March 31, 2024, 2025 and 2026 are as follows: Yen in millions Fiscal year ended March 31 2024 2025 2026 Total employee benefits expenses 1,743,936 1,840,803 1,784,569"
+    }
+  },
+  "notes": "Employees: approximate year-end head count at March 31, 2026 (112,300 a year earlier); it excludes the Financial Services business, deconsolidated after the Partial Spin-off. Payroll: 'Total employee benefits expenses' of ¥1,784,569 million as reported, which includes the Financial Services business's employee costs up to its deconsolidation (the note includes amounts in net income from discontinued operations), so it covers more people than the year-end head count. Billions of JPY.",
+  "researchedAt": "2026-11-24"
+}

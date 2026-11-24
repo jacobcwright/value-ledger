@@ -1,13 +1,13 @@
 {
   "id": "lloyd-blankfein",
   "company": "Goldman Sachs",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-02-24",
+    "asOf": "2026-03-02",
     "leader": {
       "name": "Lloyd Blankfein",
       "relation": "former-ceo",
@@ -20,37 +20,37 @@
       {
         "name": "The Vanguard Group",
         "type": "asset-manager",
-        "pctEconomic": 9.19,
+        "pctEconomic": 9.68,
         "asOf": "2024-02-13",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312525054559/d863231ddef14a.htm",
-          "label": "2025 proxy statement, Beneficial Owners of More than Five Percent (printed p. 98)",
-          "quote": "Based on filings made under Section 13(d) and Section 13(g) of the Exchange Act, as of February 24, 2025 the only persons known by us to be beneficial owners of more than 5% of Common Stock were as follows: ... The Vanguard Group 100 Vanguard Blvd. Malvern, Pennsylvania 19355 28,546,582(c) 9.19 ... Amendment No. 8 to such filing filed with the SEC on February 13, 2024 by The Vanguard Group and certain subsidiaries"
+          "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526117433/gs-20260319.htm",
+          "label": "2026 proxy statement, Beneficial Owners of More than Five Percent",
+          "quote": "Based on filings made under Section 13(d) and Section 13(g) of the Exchange Act, as of March 2, 2026 the only persons known by us to be beneficial owners of more than 5% of Common Stock were as follows: ... The Vanguard Group 100 Vanguard Blvd. Malvern, Pennsylvania 19355 28,546,582 (c) 9.68 ... Amendment No. 8 to such filing filed with the SEC on February 13, 2024 by The Vanguard Group and certain subsidiaries"
         }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 7.4,
+        "pctEconomic": 7.8,
         "asOf": "2024-01-26",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312525054559/d863231ddef14a.htm",
-          "label": "2025 proxy statement, Beneficial Owners of More than Five Percent (printed p. 98)",
-          "quote": "Based on filings made under Section 13(d) and Section 13(g) of the Exchange Act, as of February 24, 2025 the only persons known by us to be beneficial owners of more than 5% of Common Stock were as follows: ... BlackRock, Inc. 50 Hudson Yards New York, NY 10001 23,010,145(a) 7.40 ... Amendment No. 11 to such filing filed with the SEC on January 26, 2024 by BlackRock, Inc."
+          "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526117433/gs-20260319.htm",
+          "label": "2026 proxy statement, Beneficial Owners of More than Five Percent",
+          "quote": "Based on filings made under Section 13(d) and Section 13(g) of the Exchange Act, as of March 2, 2026 the only persons known by us to be beneficial owners of more than 5% of Common Stock were as follows: ... BlackRock, Inc. 50 Hudson Yards New York, NY 10001 23,010,145 (a) 7.80 ... Amendment No. 11 to such filing filed with the SEC on January 26, 2024 by BlackRock, Inc."
         }
       },
       {
         "name": "State Street Corporation",
         "type": "asset-manager",
-        "pctEconomic": 6.31,
+        "pctEconomic": 6.65,
         "asOf": "2024-01-30",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312525054559/d863231ddef14a.htm",
-          "label": "2025 proxy statement, Beneficial Owners of More than Five Percent (printed p. 98)",
-          "quote": "Based on filings made under Section 13(d) and Section 13(g) of the Exchange Act, as of February 24, 2025 the only persons known by us to be beneficial owners of more than 5% of Common Stock were as follows: ... State Street Corporation State Street Financial Center 1 Congress Street, Suite 1 Boston, Massachusetts 02114 19,616,360(b) 6.31 ... Amendment No. 3 to such filing filed with the SEC on January 30, 2024 by State Street Corporation and certain subsidiaries"
+          "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526117433/gs-20260319.htm",
+          "label": "2026 proxy statement, Beneficial Owners of More than Five Percent",
+          "quote": "Based on filings made under Section 13(d) and Section 13(g) of the Exchange Act, as of March 2, 2026 the only persons known by us to be beneficial owners of more than 5% of Common Stock were as follows: ... State Street Corporation State Street Financial Center 1 Congress Street, Suite 1 Boston, Massachusetts 02114 19,616,360 (b) 6.65 ... Amendment No. 3 to such filing filed with the SEC on January 30, 2024 by State Street Corporation and certain subsidiaries"
         }
       }
     ],
@@ -62,44 +62,44 @@
   },
   "cash": {
     "dividends": {
-      "value": 4.5,
+      "value": 5.28,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Dividends and dividend equivalents paid on common stock, preferred stock and share-based awards (4,497) (4,189) (3,682) [in millions, 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Dividends and dividend equivalents paid on common stock, preferred stock and share-based awards ( 5,277 ) ( 4,497 ) ( 4,189 ) [in millions, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0000886982",
           "concept": "us-gaap:PaymentsOfDividends",
-          "end": "2024-12-31",
-          "value": 4497000000
+          "end": "2025-12-31",
+          "value": 5277000000
         }
       }
     },
     "buybacks": {
-      "value": 8.0,
+      "value": 12.36,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Common stock repurchased (8,000) (5,796) (3,500) [in millions, 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Common stock repurchased ( 12,360 ) ( 8,000 ) ( 5,796 ) [in millions, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0000886982",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2024-12-31",
-          "value": 8000000000
+          "end": "2025-12-31",
+          "value": 12360000000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 2.77,
+      "value": 3.62,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 29 Employee Incentive Plans",
-        "quote": "The table below presents the share-based compensation and the related excess tax benefit. ... Share-based compensation $ 2,772 $ 2,098 $ 4,107 [in millions, 2024, 2023, 2022]"
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 29 Employee Incentive Plans",
+        "quote": "The table below presents the share-based compensation and the related excess tax benefit. Year Ended December $ in millions 2025 2024 2023 Share-based compensation $ 3,624 $ 2,772 $ 2,098"
       }
     },
     "plan": null
@@ -109,25 +109,25 @@
     "segments": [
       {
         "name": "Americas",
-        "value": 34.45
+        "value": 36.55
       },
       {
         "name": "EMEA",
-        "value": 12.25
+        "value": 14.16
       },
       {
         "name": "Asia",
-        "value": 6.81
+        "value": 7.58
       }
     ],
-    "total": 53.51,
+    "total": 58.28,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
-      "label": "FY2024 Form 10-K, Note 25 Business Segments, geographic information",
-      "quote": "The table below presents total net revenues, pre-tax earnings and net earnings by geographic region. ... Americas $ 34,448 64 % $ 29,335 64 % $ 28,669 61 % EMEA 12,250 23 % 11,744 25 % 12,860 27 % Asia 6,814 13 % 5,175 11 % 5,836 12 % Total net revenues $ 53,512 100 % $ 46,254 100 % $ 47,365 100 % [2024, 2023, 2022]"
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+      "label": "FY2025 Form 10-K, Note 25 Business Segments, geographic information",
+      "quote": "The table below presents total net revenues, pre-tax earnings and net earnings by geographic region. $ in millions 2025 2024 2023 Year Ended December Americas $ 36,548 63 % $ 34,448 64 % $ 29,335 64 % EMEA 14,155 24 % 12,250 23 % 11,744 25 % Asia 7,580 13 % 6,814 13 % 5,175 11 % Total net revenues $ 58,283 100 %"
     }
   },
-  "notes": "Fiscal year ended December 31, 2024. Documents read on sec.gov: FY2024 Form 10-K (accession 0000886982-25-000005) and 2025 proxy statement (DEF 14A, accession 0001193125-25-054559). LLOYD BLANKFEIN (former CEO) does not appear anywhere in the 2025 proxy, including its beneficial-ownership table, so status is no-reported-stake. HOLDERS: percentages are as the proxy states them, derived from each holder's Schedule 13G filings; asOf is the date of the latest amendment the proxy cites (the filing date, not the event date), so they date from early 2024. DIVIDENDS: the cash-flow statement reports a single line covering common stock, preferred stock and dividend equivalents on share-based awards ($4,497 million), and the 10-K gives no separate cash-paid figure for common only, so the combined figure is used. Preferred dividends recognized in 2024 were $717 million (XBRL DividendsPreferredStock). BUYBACKS: common stock only; the $2,200 million 'Preferred stock redemption' and $1,331 million of shares withheld to settle employee tax obligations are excluded. STOCK COMP: $2,772 million is the share-based compensation expense in Note 29. The cash-flow non-cash adjustment is $2,663 million (XBRL ShareBasedCompensation); the Note 29 figure is not tagged with a standard XBRL concept, so no xbrl object is given. GEOGRAPHY: the note says substantially all Americas amounts are attributable to the U.S. and Asia includes Australia and New Zealand. The 10-K text contains no mention of an employee stock purchase plan, so plan is null.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Documents read on sec.gov: FY2025 Form 10-K (accession 0000886982-26-000091, filed February 25, 2026) and 2026 proxy statement (DEF 14A, accession 0001193125-26-117433, filed March 20, 2026). LLOYD BLANKFEIN (former CEO) does not appear anywhere in the 2026 proxy, including its beneficial-ownership table, so status is no-reported-stake. HOLDERS: percentages are as the proxy states them (as of March 2, 2026), derived from each holder's Schedule 13G filings; the share counts are unchanged from the 2025 proxy and rest on amendments filed in early 2024, so only the percentages moved, because Goldman's share count fell. asOf is the date of the latest amendment the proxy cites (the filing date, not the event date). DIVIDENDS: the cash-flow statement reports a single line covering common stock, preferred stock and dividend equivalents on share-based awards ($5,277 million), and the 10-K gives no separate cash-paid figure for common only, so the combined figure is used; preferred stock dividends in the income statement were $876 million. BUYBACKS: common stock only ($12,360 million); the $2,156 million of share-based awards settled to satisfy withholding tax are excluded. STOCK COMP: $3,624 million is the share-based compensation in Note 29; the cash-flow non-cash adjustment is $3,445 million (XBRL ShareBasedCompensation); the Note 29 figure is not tagged with a standard XBRL concept, so no xbrl object is given. GEOGRAPHY: the note says substantially all Americas amounts are attributable to the U.S. and Asia includes Australia and New Zealand. The 10-K mentions no employee stock purchase plan, so plan is null.",
+  "researchedAt": "2026-11-24"
 }

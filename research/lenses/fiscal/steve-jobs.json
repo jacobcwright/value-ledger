@@ -1,44 +1,44 @@
 {
   "id": "steve-jobs",
   "company": "Apple",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-09-28",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-09-26",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 26.1,
+      "value": 34.59,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes, net $ 26,102 $ 18,679 $ 19,573 See accompanying [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+        "label": "FY2026 Form 10-K, Note 8 Income Taxes, Cash Paid for Income Taxes (in millions)",
+        "quote": "Cash paid for income taxes, net in 2026 consisted of the following (in millions): ... Total $ 34,588",
         "xbrl": {
           "cik": "0000320193",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-09-28",
-          "value": 26102000000
+          "end": "2026-09-26",
+          "value": 34588000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 31.37,
+      "value": 45.77,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 31,370 29,915 26,251 Selling, general and administrative [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of operations, research and development expense",
+        "quote": "Operating expenses: Research and development 45,765 34,550 31,370 [USD millions; FY2026 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000320193",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-09-28",
-          "value": 31370000000
+          "end": "2026-09-26",
+          "value": 45765000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended September 26, 2026. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the income-tax note (federal 19,011, state and local 1,669, foreign 13,908 (Ireland 4,956, Singapore 3,253, other 5,699); total 34,588 million).",
+  "researchedAt": "2026-11-24"
 }

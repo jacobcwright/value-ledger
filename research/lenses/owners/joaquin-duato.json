@@ -3,47 +3,47 @@
   "company": "Johnson & Johnson",
   "nbim": {
     "pct": 1.24,
-    "marketValueUSD": 4.318,
-    "asOf": "2024-12-31",
+    "marketValueUSD": 7.585,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"1wxcpxjmypqj\",\"cc\":\"US\",\"n\":\"Johnson \\u0026 Johnson\",\"a\":{\"e\":4317773129,\"n\":49038460649},\"at\":0,\"o\":1.24,\"eq\":{\"vid\":\"JNJ\",\"v\":1.24,\"s\":\"Health Care\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"1wxcpxjmypqj\",\"cc\":\"US\",\"n\":\"Johnson \\u0026 Johnson\",\"a\":{\"e\":7585428403,\"n\":75061606766},\"at\":0,\"o\":1.24,\"eq\":{\"vid\":\"JNJ\",\"v\":1.24,\"s\":\"Health Care\"}}"
     }
   },
   "calpers": {
-    "shares": 8710892,
-    "asOf": "2024-12-31",
+    "shares": 5641232,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "JOHNSON & JOHNSON COM 478160104 1259769201 8710892"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "JOHNSON & JOHNSON COM 478160104 1493459760 5641232"
     },
     "derived": {
-      "pct": 0.362,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.234,
+      "method": "CalPERS shares ÷ shares outstanding (5,641,232 ÷ 2,407,310,266)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "On February 6, 2025, there were 2,407,616,693 shares of Common Stock outstanding."
+          "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000197/jnj-20260927.htm",
+          "label": "Form 10-Q for the quarter ended September 27, 2026, cover page",
+          "quote": "On October 15, 2026, 2,407,310,266 shares of Common Stock, $1.00 par value, were outstanding."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 114147,
-    "asOf": "2025-02-06",
+    "count": 108358,
+    "asOf": "2026-02-04",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of February 6, 2025, there were 114,147 record holders of common stock of the Company."
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of February 4, 2026, there were 108,358 record holders of common stock of the Company."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Johnson & Johnson;Health Care;49038460649;4317773129;1.24%;1.24%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026; Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares (the XML encodes the ampersand as &amp;; the NBIM quote keeps the file's own escape, \\u0026). The CalPERS percentage divides its September 30, 2026 shares by the Q3 2026 10-Q cover count at October 15, 2026, the same count used in the marketcap lens.",
+  "researchedAt": "2026-11-24"
 }

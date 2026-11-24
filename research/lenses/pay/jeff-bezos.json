@@ -1,0 +1,31 @@
+{
+  "id": "jeff-bezos",
+  "company": "Amazon",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 1576000,
+    "asOf": "2025-12-31",
+    "basis": "approximately 1,576,000 full-time and part-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, we employed approximately 1,576,000 full-time and part-time employees."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "2025 annual total compensation of our median compensated employee",
+    "value": 40206,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+      "label": "2026 proxy statement (DEF 14A), Pay Ratio Disclosure",
+      "quote": "The 2025 annual total compensation of our median compensated employee (identified from all full- and part-time permanent and temporary employees worldwide, excluding our CEO) was $40,206"
+    }
+  },
+  "notes": "Employees: a year-end count of full-time and part-time employees; the 10-K says Amazon also uses independent contractors and temporary personnel, who are not counted. Payroll: the FY2025 10-K discloses no total staff cost (payroll sits inside cost of sales, fulfillment, technology and infrastructure and other expense lines), so the 2026 proxy's CEO pay ratio median is used. It is the worldwide median for 2025, identified from all full- and part-time permanent and temporary employees as of October 1, 2025, using salary, bonus and the grant-date fair value of restricted stock units granted in the year, with annualized pay for employees who did not work the full year (except seasonal or temporary employees). The proxy also gives a U.S. full-time median of $53,211, which is not used because it covers only part of the workforce.",
+  "researchedAt": "2026-11-24"
+}

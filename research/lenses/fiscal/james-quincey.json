@@ -1,28 +1,22 @@
 {
   "id": "james-quincey",
   "company": "The Coca-Cola Company",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 3.26,
+      "value": 2.87,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "We made income tax payments of $ 3,262 million, $ 2,580 million and $ 2,403 million in 2024, 2023 and 2022, respectively",
-        "xbrl": {
-          "cik": "0000021344",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 3262000000
-        }
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 15 Income Taxes, income taxes paid by jurisdiction",
+        "quote": "Net income tax payments after the prospective adoption of ASU 2023-09, as described in Note 1, consisted of the following (in millions): Year Ended December 31, 2025 United States - federal 1 $ 1,291 United States - state and local 127 International: Brazil 238 India 265 Mexico 280 Other foreign 672 Total income taxes paid, net of refunds $ 2,873 [USD millions]"
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line; the 10-K mentions R&D only qualitatively.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: total income taxes paid, net of refunds, from the by-jurisdiction table in the income-tax note (ASU 2023-09); the 10-K no longer states it in the old 'income tax payments' sentence for 2025, and no XBRL fact was found at the new year end, so there is no xbrl object. R&D: the 10-K reports no research and development expense line, so rnd is null.",
+  "researchedAt": "2026-11-24"
 }

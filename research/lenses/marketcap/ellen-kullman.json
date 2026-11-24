@@ -1,0 +1,22 @@
+{
+  "id": "ellen-kullman",
+  "company": "DuPont de Nemours",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 132532338,
+      "sharesAsOf": "2026-10-30",
+      "pricedAs": "DD",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000060/dd-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "The registrant had 132,532,338 shares of common stock, $0.01 par value, outstanding at October 30, 2026."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the NYSE as DD. The count is after the 1-for-3 reverse stock split effective June 24, 2026 (the FY2025 10-K cover showed 408,923,857 shares before it) and after the November 1, 2025 spin-off of Qnity Electronics, which is a separate company and not included.",
+  "researchedAt": "2026-11-24"
+}

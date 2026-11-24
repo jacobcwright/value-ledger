@@ -1,44 +1,54 @@
-// Amazon case study. Ownership and company reporting figures are fixed snapshots.
+// Amazon case study. Ownership and company reporting figures are fixed snapshots; each holding has its own as-of date.
 const amazonSources = {
-  annual:"https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
-  founder:"https://www.sec.gov/Archives/edgar/data/1043298/000104329824000002/xslF345X05/wk-form4_1732226837.xml",
-  proxy:"https://www.sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm",
-  totalMarket:"https://www.sec.gov/Archives/edgar/data/36405/000175272425048292/xslFormNPORT-P_X01/primary_doc.xml",
-  fiveHundred:"https://www.sec.gov/Archives/edgar/data/36405/000175272425048295/xslFormNPORT-P_X01/primary_doc.xml",
-  pension:"https://www.sec.gov/Archives/edgar/data/919079/000091907925000003/xslForm13F_X02/informationtable.xml",
+  annual:"https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+  quarterly:"https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+  founder:"https://www.sec.gov/Archives/edgar/data/1043298/000101872426000044/xslF345X06/wk-form4_1794864240.xml",
+  founderSale:"https://www.sec.gov/Archives/edgar/data/1043298/000101872426000028/xslF345X06/wk-form4_1785962062.xml",
+  proxy:"https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+  totalMarket:"https://www.sec.gov/Archives/edgar/data/36405/000003640526000480/xslFormNPORT-P_X01/primary_doc.xml",
+  fiveHundred:"https://www.sec.gov/Archives/edgar/data/36405/000003640526000473/xslFormNPORT-P_X01/primary_doc.xml",
+  pension:"https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
   ipo:"https://www.sec.gov/Archives/edgar/data/1018724/000089102097000868/0000891020-97-000868.txt"
 };
 const amazonOwnership = {
-  sharesOutstanding:10_593_000_000,
-  yearEndPrice:219.39,
-  registeredShareholders:12_135,
+  // Form 10-Q for the quarter ended Sep 30, 2026, cover page: shares outstanding as of Oct 21, 2026 (the marketcap lens uses the same count).
+  sharesOutstanding:10_813_138_306,
+  sharesAsOf:"October 21, 2026",
+  // Stamped by scripts/build-edition.mjs from research/lenses/marketcap/_prices.json (symbols.AMZN.close).
+  // 219.39 is the old Dec 31, 2024 close, kept only as a placeholder until then.
+  price:246.82,
+  priceAsOf:"November 20, 2026",
+  registeredShareholders:12_165,
+  registeredAsOf:"January 28, 2026",
   holders:[
     {
-      name:"Jeff Bezos", type:"Founder’s direct shares", shares:909_709_895, color:"founder",
-      description:"Bezos reported this direct stake in November 2024. His separately disclosed voting authority over shares held by someone else is excluded from his stake here.",
-      sources:[[amazonSources.founder,"Bezos’s Form 4"],[amazonSources.proxy,"Amazon’s proxy statement, footnote 1"]]
+      name:"Jeff Bezos", type:"Founder’s direct shares", shares:878_551_932, color:"founder",
+      description:"Bezos reported this direct stake as of November 13, 2026. Since the 2026 proxy he has sold 1,209,649 shares under a trading plan (August 2026) and given shares to non-profit organizations. Shares held by trusts and a company he manages, which he disclaims, and his separately disclosed voting authority over shares held by someone else are excluded from his stake here.",
+      sources:[[amazonSources.founder,"Bezos’s Form 4, November 2026"],[amazonSources.founderSale,"Bezos’s Form 4, August 2026 sale"],[amazonSources.proxy,"Amazon’s 2026 proxy statement, footnote 1"]]
     },
     {
-      name:"Vanguard Total Stock Market Index Fund", type:"Index fund", shares:296_490_142, color:"total-market",
-      description:"The fund held Amazon stock alongside thousands of other U.S. companies. People who own this fund have indirect exposure to its Amazon stake, including through retirement accounts.",
-      sources:[[amazonSources.totalMarket,"Fund holdings filing"]]
+      name:"Vanguard Total Stock Market Index Fund", type:"Index fund", shares:307_350_499, color:"total-market",
+      description:"The fund held Amazon stock alongside thousands of other U.S. companies, as of June 30, 2026. People who own this fund have indirect exposure to its Amazon stake, including through retirement accounts.",
+      sources:[[amazonSources.totalMarket,"Fund holdings filing, June 30, 2026"]]
     },
     {
-      name:"Vanguard 500 Index Fund", type:"Index fund", shares:253_323_924, color:"five-hundred",
-      description:"The fund tracks the S&P 500. Its reported holding is the fund’s Amazon position. The filing gives the size of the position without a breakdown by type of investor.",
-      sources:[[amazonSources.fiveHundred,"Fund holdings filing"]]
+      name:"Vanguard 500 Index Fund", type:"Index fund", shares:253_676_369, color:"five-hundred",
+      description:"The fund tracks the S&P 500. Its reported holding is the fund’s Amazon position as of June 30, 2026. The filing gives the size of the position without a breakdown by type of investor.",
+      sources:[[amazonSources.fiveHundred,"Fund holdings filing, June 30, 2026"]]
     },
     {
-      name:"CalPERS", type:"Public pension system", shares:16_319_369, color:"pension",
-      description:"The California Public Employees’ Retirement System reported this Amazon position under its own investment discretion. It is one example of how retirement savings can be exposed to Amazon’s share price.",
-      sources:[[amazonSources.pension,"CalPERS Form 13F holdings"]]
+      name:"CalPERS", type:"Public pension system", shares:20_601_682, color:"pension",
+      description:"The California Public Employees’ Retirement System reported this Amazon position under its own investment discretion as of September 30, 2026. It is one example of how retirement savings can be exposed to Amazon’s share price.",
+      sources:[[amazonSources.pension,"CalPERS Form 13F holdings, September 30, 2026"]]
     }
   ]
 };
+// FY2025 Form 10-K: no buybacks or dividends in 2023–2025 ("There were no repurchases of our common stock in 2023, 2024, or 2025."),
+// stock-based compensation expense in USD billions, restricted stock units vested in millions.
 const amazonHistory = [
-  {year:2022,buybacks:6,dividends:0,stockPay:19.621,unitsVested:113.3},
   {year:2023,buybacks:0,dividends:0,stockPay:24.023,unitsVested:139.9},
-  {year:2024,buybacks:0,dividends:0,stockPay:22.011,unitsVested:209.7}
+  {year:2024,buybacks:0,dividends:0,stockPay:22.011,unitsVested:209.7},
+  {year:2025,buybacks:0,dividends:0,stockPay:19.467,unitsVested:138.1}
 ];
 // [key, section label, short chip label]: each is its own section of the profile, with a chip.
 const distributionViews = [
@@ -56,7 +66,7 @@ function distributionMoney(billions) {
 }
 
 function amazonDistribution(leader) {
-  const {sharesOutstanding,yearEndPrice,registeredShareholders,holders} = amazonOwnership;
+  const {sharesOutstanding,sharesAsOf,price,priceAsOf,registeredShareholders,registeredAsOf,holders} = amazonOwnership;
   const founder = holders[0];
   const otherShares = sharesOutstanding - holders.reduce((sum,holder) => sum + holder.shares,0);
   const outsideFounder = sharesOutstanding - founder.shares;
@@ -65,7 +75,7 @@ function amazonDistribution(leader) {
     description:"This remainder includes other funds and institutions, individuals, and any employees or former employees who still hold shares. The filings here do not identify the people behind these holdings.",
     sources:[[amazonSources.annual,"Amazon’s annual report"]]
   }];
-  const equityValue = shares => distributionMoney(shares * yearEndPrice / 1e9);
+  const equityValue = shares => distributionMoney(shares * price / 1e9);
   const percent = shares => (100 * shares / sharesOutstanding).toFixed(2) + "%";
   const roundPercent = shares => (100 * shares / sharesOutstanding).toFixed(1) + "%";
   const sources = links => links.map(([url,label]) => externalLink(url,label)).join("");
@@ -90,6 +100,7 @@ function amazonDistribution(leader) {
   const buybackYears = amazonHistory.filter(row => row.buybacks > 0);
   const cashSummary = [
     dividendsPaid === 0 ? `Amazon paid no cash dividends in ${years}.` : "",
+    buybackYears.length === 0 ? `It bought back no stock in these years.` : "",
     buybackYears.length === 1 ? `Its only buyback spending in these years was ${distributionMoney(buybackYears[0].buybacks)} in ${buybackYears[0].year}.` : ""
   ].join(" ").trim();
   const highestStockPay = Math.max(...amazonHistory.map(year => year.stockPay));
@@ -103,11 +114,11 @@ function amazonDistribution(leader) {
       </header>
       <section ${distributionPanel("ownership")}
         <div class="distribution-subhead">
-          <div><h4>Who held Amazon shares?</h4><p>Year-end 2024 · ${equityValue(sharesOutstanding)} equity value (reported shares × year-end price). The ${compactMoney(leader.cap)} market value above is CompaniesMarketCap’s estimate.</p></div>
+          <div><h4>Who held Amazon shares?</h4><p>Shares outstanding as of ${sharesAsOf} · ${equityValue(sharesOutstanding)} equity value (reported shares × the ${priceAsOf} close).</p></div>
         </div>
         <div class="ownership-takeaway">
           <p class="ownership-headline"><span>Jeff Bezos held <strong class="is-founder">${roundPercent(founder.shares)}</strong> of Amazon directly.</span> <span>Everyone else held <strong>${roundPercent(outsideFounder)}</strong>.</span></p>
-          <p>Worth <strong>${equityValue(outsideFounder)}</strong> at the year-end price, held by index funds, pension systems such as CalPERS, other institutions, individuals, and employees or former employees who still hold shares.</p>
+          <p>Worth <strong>${equityValue(outsideFounder)}</strong> at the ${priceAsOf} close, held by index funds, pension systems such as CalPERS, other institutions, individuals, and employees or former employees who still hold shares.</p>
         </div>
         <div class="ownership-figure" aria-hidden="true">
           <span class="ownership-marker"></span>
@@ -137,10 +148,10 @@ function amazonDistribution(leader) {
             </div>`).join("")}
           </div>
         </div>
-        <p class="distribution-note"><strong>${integer.format(registeredShareholders)} registered shareholders</strong> as of January 29, 2025. One brokerage can be a single registered holder for many customers, so more people hold indirect stakes. ${externalLink(amazonSources.annual,"Amazon’s annual report")}</p>
+        <p class="distribution-note"><strong>${integer.format(registeredShareholders)} registered shareholders</strong> as of ${registeredAsOf}. One brokerage can be a single registered holder for many customers, so more people hold indirect stakes. ${externalLink(amazonSources.annual,"Amazon’s annual report")}</p>
         <details class="distribution-method"><summary>Method</summary>
-          <p>Reported share counts × the December 31 price of ${'$' + yearEndPrice.toFixed(2)}, with about ${(sharesOutstanding / 1e9).toFixed(3)} billion shares outstanding at year-end. The founder’s stake is from his November 2024 Form 4, confirmed by the following proxy after excluding voting-only shares. Each fund or pension shows its reported position only, at one point in time.</p>
-          <div class="sources">${sources([[amazonSources.annual,"Shares outstanding"],[amazonSources.fiveHundred,"Year-end fund valuation"]])}</div>
+          <p>Reported share counts × the ${priceAsOf} closing price of ${'$' + price.toFixed(2)}, with ${integer.format(sharesOutstanding)} shares outstanding as of ${sharesAsOf}. The founder’s stake is his direct holding after his last reported transaction on November 13, 2026; the 2026 proxy reported 950,434,581 shares as of February 24, 2026, including 68,232,131 voting-only shares, which are excluded here. Each fund or pension shows its reported position only, on its own date: June 30, 2026 for the Vanguard funds and September 30, 2026 for CalPERS.</p>
+          <div class="sources">${sources([[amazonSources.quarterly,"Shares outstanding"]])}</div>
         </details>
       </section>
       <section ${distributionPanel("cash")}
@@ -162,11 +173,11 @@ function amazonDistribution(leader) {
           <div><h4>How did workers participate?</h4></div>
         </div>
         <div class="worker-totals">
-          <div><strong>${integer.format(leader.jobs)}</strong><span>People employed at year-end 2024</span></div>
+          <div><strong>${integer.format(leader.jobs)}</strong><span>People employed at year-end ${last.year}</span></div>
           <div><strong>${distributionMoney(leader.payroll)}</strong><span>${metrics.payroll}</span></div>
-          <div><strong>${distributionMoney(last.stockPay)}</strong><span>Stock-based compensation expense in 2024</span></div>
+          <div><strong>${distributionMoney(last.stockPay)}</strong><span>Stock-based compensation expense in ${last.year}</span></div>
         </div>
-        <p class="distribution-note">Pay is our estimate (people employed × assumed yearly pay); stock-based compensation is Amazon’s recorded expense. The bases differ, and what an employee received depends on what vested and when they sold.</p>
+        <p class="distribution-note">Pay is people employed × the median employee’s ${last.year} pay of $40,206 from Amazon’s 2026 proxy; stock-based compensation is Amazon’s recorded expense. The bases differ, and what an employee received depends on what vested and when they sold.</p>
         <div class="worker-equity-head">
           <h5 class="distribution-mini-heading">Stock-based compensation expense</h5>
           <p>${distributionMoney(totalStockPay)} over ${years}</p>
@@ -178,7 +189,7 @@ function amazonDistribution(leader) {
         <ol class="distribution-timeline" aria-label="Selected moments in Amazon’s employee equity history">
           <li><time datetime="1994">1994</time><div><h5>Stock options for early employees</h5><p>Amazon’s 1994 plan let employees and other eligible contributors share in the company’s growth through options. By May 1997, holders had exercised options covering about 1.8 million shares under that plan.</p>${externalLink(amazonSources.ipo,"IPO prospectus, employee benefit plans")}</div></li>
           <li><time datetime="1997-05">May 1997</time><div><h5>Amazon goes public</h5><p>The IPO priced shares at $18 before later stock splits. Some early holders faced a 180-day lockup.</p>${externalLink(amazonSources.ipo,"IPO prospectus, shares eligible for future sale")}</div></li>
-          <li><time datetime="2024">2024</time><div><h5>${decimal.format(last.unitsVested)} million restricted stock units vested</h5><p>Company-wide totals don’t show individual employees’ holdings or what they received when they sold.</p>${externalLink(amazonSources.annual,"Amazon’s annual report, stock-based compensation")}</div></li>
+          <li><time datetime="${last.year}">${last.year}</time><div><h5>${decimal.format(last.unitsVested)} million restricted stock units vested</h5><p>Company-wide totals don’t show individual employees’ holdings or what they received when they sold.</p>${externalLink(amazonSources.annual,"Amazon’s annual report, stock-based compensation")}</div></li>
         </ol>
       </section>
     </section>`;

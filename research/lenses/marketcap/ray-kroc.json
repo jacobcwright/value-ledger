@@ -1,0 +1,22 @@
+{
+  "id": "ray-kroc",
+  "company": "McDonald’s",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 705784744,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "MCD",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000083/mcd-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "705,784,744 (Number of shares of common stock outstanding as of September 30, 2026 )"
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the NYSE as MCD. No preferred stock is outstanding.",
+  "researchedAt": "2026-11-24"
+}

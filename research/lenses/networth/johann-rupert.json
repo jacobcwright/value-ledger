@@ -2,18 +2,18 @@
   "id": "johann-rupert",
   "name": "Johann Rupert",
   "netWorth": {
-    "value": 14.0,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 165,
+    "value": 15.53,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 190,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"johann-rupert\",\"rank\":165,\"listUri\":\"billionaires\",\"visible\":true,\"position\":167,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":14000.0,\"finalWorthBillions\":14.0,\"category\":\"Fashion & Retail\",\"otherCompensation\":0,\"person\":{\"name\":\"Johann Rupert & family\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"johann-rupert\",\"rank\":190,\"listUri\":\"rtb\",\"visible\":true,\"position\":190,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":15533.769,\"finalWorthBillions\":15.533769,\"person\":{\"name\":\"Johann Rupert & family\",\"uri\":\"johann-rupert\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5e77abf210380d0006fbc437/416x416.jpg?background=000000&cropX1=69&cropX2=901&cropY1=177&cropY2=1009\"},\"personName\":\"Johann Rupert & family\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Johann Rupert & family\" at rank 165 (ranks are shared on ties), net worth $14.0B, source \"Luxury goods\". Forbes lists this as a family fortune (\"& family\"); the figure covers wealth Forbes attributes to him and his family, not him alone.",
+  "notes": "Listed as \"Johann Rupert & family\" at rank 190, real-time net worth $15.5B, source \"Luxury goods\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

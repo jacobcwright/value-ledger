@@ -1,61 +1,61 @@
 {
   "id": "peter-thiel",
   "company": "Palantir Technologies",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "sector": "tech",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 2.865507,
-      "stated": 2865507,
+      "value": 4.475446,
+      "stated": 4475446,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of operations (in thousands)",
-        "quote": "Revenue $ 2,865,507 $ 2,225,012 $ 1,905,871",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations (in thousands)",
+        "quote": "Revenue $ 4,475,446 $ 2,865,507 $ 2,225,012",
         "xbrl": {
           "cik": "0001321655",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "end": "2024-12-31",
-          "value": 2865507000
+          "end": "2025-12-31",
+          "value": 4475446000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 1.153865,
-      "stated": 1153865,
+      "value": 2.134473,
+      "stated": 2134473,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
-        "quote": "Net cash provided by operating activities 1,153,865 712,183 223,737",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Net cash provided by operating activities 2,134,473 1,153,865 712,183",
         "xbrl": {
           "cik": "0001321655",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": 1153865000
+          "end": "2025-12-31",
+          "value": 2134473000
         }
       }
     },
     "capex": {
-      "value": 0.012634,
+      "value": 0.033882,
       "components": [
-        "PP&E 0.012634"
+        "PP&E 0.033882"
       ],
-      "stated": 12634,
+      "stated": 33882,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
-        "quote": "Investing activities Purchases of property and equipment ( 12,634 ) ( 15,114 ) ( 40,027 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Investing activities Purchases of property and equipment (33,882) (12,634) (15,114)",
         "xbrl": {
           "cik": "0001321655",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-12-31",
-          "value": 12634000
+          "end": "2025-12-31",
+          "value": 33882000
         }
       }
     },
@@ -63,28 +63,28 @@
       "value": null,
       "inOCF": true,
       "source": null,
-      "note": "Not disclosed: the supplemental disclosures give income taxes paid only (the 10-K reports no outstanding debt balances at year end). Under US GAAP interest would sit inside operating cash flow, so paidOut is unaffected."
+      "note": "Not disclosed: the FY2025 10-K gives cash taxes only (in the income-tax note) and reports no outstanding debt. Under US GAAP interest would sit inside operating cash flow, so paidOut is unaffected."
     },
     "taxesPaid": {
-      "value": 0.016179,
+      "value": 0.021686,
       "inOCF": true,
-      "stated": 16179,
+      "stated": 21686,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in thousands)",
-        "quote": "Cash paid for income taxes $ 16,179 $ 13,515 $ 2,904",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 11 Taxes, cash taxes (in thousands)",
+        "quote": "The amounts of cash taxes for the year ended December 31, 2025 included the following, subsequent to the adoption of ASU 2023-09 (in thousands): Year Ended December 31, 2025 Federal $ — State 2,500 Foreign Korea 5,771 Japan 4,796 France 2,843 Germany 1,724 All other foreign 4,052 Income taxes, net of amounts refunded $ 21,686",
         "xbrl": {
           "cik": "0001321655",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 16179000
+          "end": "2025-12-31",
+          "value": 21686000
         }
       }
     }
   },
-  "paidOut": 1.724276,
-  "paidOutFormula": "2.865507 − 1.153865 + 0.012634",
+  "paidOut": 2.374855,
+  "paidOutFormula": "4.475446 − 2.134473 + 0.033882",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -93,6 +93,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Amounts in thousands.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001321655-26-000011). Income taxes paid moved from the supplemental cash-flow lines to the income-tax note's ASU 2023-09 table; the same table shows $364.7 million of employment taxes, which are not income taxes.",
+  "researchedAt": "2026-11-24"
 }

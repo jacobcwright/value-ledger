@@ -1,0 +1,32 @@
+{
+  "id": "walt-disney",
+  "company": "The Walt Disney Company",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-10-03",
+  "currency": "USD",
+  "employees": {
+    "value": 234000,
+    "asOf": "2026-10-03",
+    "basis": "approximately 234,000 people employed as of fiscal year end 2026 (about 77% full-time, 15% part-time and 8% seasonal)",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+      "label": "FY2026 Form 10-K, Item 1 Human Capital",
+      "quote": "The Company employed approximately 234,000 people as of fiscal year end 2026, of which approximately 173,000 were employed in the U.S. and approximately 61,000 were employed outside the U.S."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Median employee's total annual compensation for fiscal 2025",
+    "value": 56932,
+    "period": "FY2025",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000013/dis-20260122.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "The median Disney employee works in a full-time hourly role in parks and has been with the Company for over eight years. For fiscal 2025, the median employee’s total annual compensation was $56,932."
+    }
+  },
+  "notes": "Employees: approximate head count at fiscal year end 2026 (October 3, 2026), including part-time and seasonal staff. Payroll: the FY2026 10-K discloses no total staff cost, so the CEO pay ratio median from the January 2026 proxy is used. It is the median for fiscal 2025 (workforce reviewed as of September 26, 2025; base salary, overtime and the company's health-insurance contribution); the fiscal 2026 median will appear only in the proxy due in January 2027. The CEO pay ratio for fiscal 2025 was 805:1.",
+  "researchedAt": "2026-11-24"
+}

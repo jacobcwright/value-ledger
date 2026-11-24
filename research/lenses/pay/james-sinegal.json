@@ -1,0 +1,32 @@
+{
+  "id": "james-sinegal",
+  "company": "Costco",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-08-30",
+  "currency": "USD",
+  "employees": {
+    "value": 355000,
+    "asOf": "2026-08-30",
+    "basis": "employees worldwide (United States 232,000, Canada 58,000, Other International 65,000)",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+      "label": "FY2026 Form 10-K, Item 1 Human Capital, Employee Base",
+      "quote": "At the end of 2026, we employed 355,000 employees worldwide. ... Total employees 355,000 341,000 333,000"
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Total compensation of the median employee in the considered population",
+    "value": 49186,
+    "period": "FY2025",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+      "label": "2026 proxy statement (DEF 14A, filed December 4, 2025), CEO Pay Ratio",
+      "quote": "The median employee in the considered population had a total compensation of $49,186."
+    }
+  },
+  "notes": "Employees: year-end count for fiscal 2026, including part-time employees (the 10-K says Costco targets at least 50% full-time and also uses seasonal employees). Payroll: the 10-K says compensation and benefits are its largest expense after merchandise but gives no total, so the CEO pay ratio median is used. It comes from the proxy filed December 4, 2025 and covers fiscal 2025 (median identified on June 30, 2025 from about 323,800 full-time, part-time, seasonal and temporary employees; ratio 283:1), a year behind the head count; the proxy for fiscal 2026 was not yet filed.",
+  "researchedAt": "2026-11-24"
+}

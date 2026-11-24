@@ -1,44 +1,44 @@
 {
   "id": "dara-khosrowshahi",
   "company": "Uber",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.32,
+      "value": 0.35,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for: ... Income taxes, net of refunds 175 234 324 Non-cash investing and financing [USD millions; FY2024 is the 3rd figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 11 Income Taxes, cash paid for income taxes (in millions)",
+        "quote": "The following is the cash paid for income taxes for the year ended December 31, 2025 (in millions): ... US federal $ 12 US state and local 81 Foreign 252 Total income taxes paid, net of refunds $ 345",
         "xbrl": {
           "cik": "0001543151",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 324000000
+          "end": "2025-12-31",
+          "value": 345000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 3.11,
+      "value": 3.4,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 3,164 3,109 General and administrative 2,682 3,639 [USD millions; FY2024 is the 2nd figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+        "label": "FY2025 Form 10-K, MD&A costs and expenses, research and development expense",
+        "quote": "Research and development 3,109 3,402 General and administrative 3,639 3,241 [USD millions; FY2025 is the 2nd figure in the row]",
         "xbrl": {
           "cik": "0001543151",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 3109000000
+          "end": "2025-12-31",
+          "value": 3402000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the income-tax note's by-jurisdiction table (also in the supplemental cash-flow disclosures). R&D from the MD&A two-year table (2024, 2025).",
+  "researchedAt": "2026-11-24"
 }

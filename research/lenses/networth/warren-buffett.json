@@ -2,18 +2,18 @@
   "id": "warren-buffett",
   "name": "Warren Buffett",
   "netWorth": {
-    "value": 154.0,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 6,
+    "value": 158.67,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 7,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"warren-buffett\",\"rank\":6,\"listUri\":\"billionaires\",\"visible\":true,\"position\":6,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":154000.0,\"finalWorthBillions\":154.0,\"category\":\"Finance & Investments\",\"otherCompensation\":0,\"person\":{\"name\":\"Warren Buffett\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"warren-buffett\",\"rank\":7,\"listUri\":\"rtb\",\"visible\":true,\"position\":7,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":158672.193,\"finalWorthBillions\":158.672193,\"person\":{\"name\":\"Warren Buffett\",\"uri\":\"warren-buffett\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5babb7f1a7ea4342a948b79a/416x416.jpg?background=000000&cropX1=748&cropX2=3075&cropY1=1753&cropY2=4082\"},\"personName\":\"Warren Buffett\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Warren Buffett\" at rank 6 (ranks are shared on ties), net worth $154.0B, source \"Berkshire Hathaway\".",
+  "notes": "Listed as \"Warren Buffett\" at rank 7, real-time net worth $158.7B, source \"Berkshire Hathaway\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

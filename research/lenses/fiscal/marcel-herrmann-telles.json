@@ -1,28 +1,38 @@
 {
   "id": "marcel-herrmann-telles",
   "company": "Anheuser-Busch InBev SA/NV",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 3.13,
+      "value": 3.24,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
-        "label": "FY2024 Form 20-F, cash income taxes paid",
-        "quote": "Income tax paid ( 3 134 ) ( 2 696 ) ( 2 582 ) Cash flow [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows, cash income taxes paid",
+        "quote": "Income tax paid ( 3 240 ) ( 3 134 ) ( 2 696 ) Cash flow from/(used in) operating activities [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001668717",
           "concept": "ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities",
-          "end": "2024-12-31",
-          "value": 3134000000
+          "end": "2025-12-31",
+          "value": 3240000000
         }
       }
     }
   },
-  "rnd": null,
-  "notes": "Taxes: ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities, the caption does not say whether refunds are netted. R&D not reported as a separate line; the 20-F describes R&D activities without an expense figure.",
-  "researchedAt": "2026-11-23"
+  "rnd": {
+    "expense": {
+      "value": 0.19,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "FY2025 Form 20-F, Note 15 Intangible assets, research expensed",
+        "quote": "In 2025, the company expensed 194 m US dollar in research, compared to 222 m US dollar in 2024, 256 m US dollar in 2023. The spend focused on product innovations, market research, as well as process optimization and product development"
+      }
+    }
+  },
+  "notes": "Fiscal year ended 31 December 2025. Taxes: ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities, inside operating cash flow; the caption does not say whether refunds are netted. R&D: the income statement has no R&D line; the intangible-assets note states research expensed of 194 m US dollar in 2025 (222 m in 2024), which the 20-F says focused on product innovations, market research, process optimization and product development, so it is broader than technical R&D. No XBRL fact is attached.",
+  "researchedAt": "2026-11-24"
 }

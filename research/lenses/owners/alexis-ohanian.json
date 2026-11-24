@@ -2,27 +2,48 @@
   "id": "alexis-ohanian",
   "company": "Reddit",
   "nbim": {
-    "pct": 0.25,
-    "marketValueUSD": 0.072,
-    "asOf": "2024-12-31",
+    "pct": 0.93,
+    "marketValueUSD": 0.311,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"2k3eoo1p2jpc\",\"cc\":\"US\",\"n\":\"Reddit Inc\",\"a\":{\"e\":72017221,\"n\":817924784},\"at\":0,\"o\":0.25,\"eq\":{\"vid\":\"RDDT\",\"v\":0.06,\"s\":\"Technology\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"2k3eoo1p2jpc\",\"cc\":\"US\",\"n\":\"Reddit Inc\",\"a\":{\"e\":310968570,\"n\":3077189484},\"at\":0,\"o\":0.93,\"eq\":{\"vid\":\"RDDT\",\"v\":0.28,\"s\":\"Technology\"}}"
     }
   },
-  "calpers": null,
-  "holdersOfRecord": {
-    "count": 34,
-    "asOf": "2024-12-31",
+  "calpers": {
+    "shares": 153970,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000018/rddt-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of December 31, 2024, there were approximately 34 stockholders of record of our Class A common stock, 37 stockholders of record of our Class B common stock, and no stockholders of record of our Class C common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "REDDIT INC CL A 75734B100 21931487 153970"
+    },
+    "derived": {
+      "pct": 0.08,
+      "method": "CalPERS shares ÷ shares outstanding, all classes (153,970 ÷ (146,942,127 Class A + 46,151,604 Class B) = 153,970 ÷ 193,093,731)",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000116/rddt-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+          "quote": "As of October 28, 2026, the registrant had outstanding 146,942,127 shares of Class A common stock, 46,151,604 shares of Class B common stock, and no shares of Class C common stock, each with a par value of $0.0001."
+        }
+      ]
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Reddit Inc;Technology;817924784;72017221;0.06%;0.25%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Reddit. Holders of record: Listed Class A only; the 10-K also gives 37 holders of record of Class B.",
-  "researchedAt": "2026-11-23"
+  "holdersOfRecord": {
+    "count": 28,
+    "asOf": "2025-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000022/rddt-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of December 31, 2025, there were approximately 28 stockholders of record of our Class A common stock, 27 stockholders of record of our Class B common stock, and no stockholders of record of our Class C common stock."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the information table of CalPERS's Form 13F for the quarter ended September 30, 2026 lists Reddit Class A shares (issuer 'REDDIT INC', class 'CL A'; the prefill had missed it). Form 13F covers only U.S.-listed securities. The percentage divides its September 30, 2026 shares by all Class A and Class B shares on the 10-Q cover at October 28, 2026, the same counts used in the marketcap lens. Holders of record: listed Class A only; the 10-K also gives 27 holders of record of Class B.",
+  "researchedAt": "2026-11-24"
 }

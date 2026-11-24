@@ -1,0 +1,31 @@
+{
+  "id": "charles-scharf",
+  "company": "Wells Fargo",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 205000,
+    "asOf": "2025-12-31",
+    "basis": "approximately 205,000 active employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/wfc-20251231_d2.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "At December 31, 2025, we had approximately 205,000 active employees, with approximately 76% based in the United States."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Personnel",
+    "value": 36.281,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/wfc-20251231.htm",
+      "label": "FY2025 Annual Report (Form 10-K financial section), consolidated statement of income, noninterest expense (in millions)",
+      "quote": "Noninterest expense Personnel 36,281 35,729 35,829 [2025, 2024, 2023]"
+    }
+  },
+  "notes": "Employees: approximate count of active employees at year end, from the FY2025 10-K. Payroll: the income statement's 'Personnel' noninterest expense (salaries, incentive compensation, employee benefits and stock-based compensation), which in 2025 included a special award to employees tied to the removal of the asset cap. The 2026 proxy also reports a 2025 median employee annual total compensation of $82,044; it is not used because a total is disclosed.",
+  "researchedAt": "2026-11-24"
+}

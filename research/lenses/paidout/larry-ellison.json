@@ -1,101 +1,101 @@
 {
   "id": "larry-ellison",
   "company": "Oracle",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-05-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-05-31",
   "currency": "USD",
   "unit": "billions",
   "sector": "tech",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 52.961,
-      "stated": 52961,
+      "value": 67.357,
+      "stated": 67357,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
-        "quote": "Services 5,431 5,594 3,205 Total revenues 52,961 49,954 42,440",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Services 5,743 5,233 5,431 Total revenues 67,357 57,399 52,961",
         "xbrl": {
           "cik": "0001341439",
           "concept": "us-gaap:Revenues",
-          "end": "2024-05-31",
-          "value": 52961000000
+          "end": "2026-05-31",
+          "value": 67357000000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 18.673,
-      "stated": 18673,
+      "value": 31.977,
+      "stated": 31977,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Increase in deferred revenues 656 781 7 Net cash provided by operating activities 18,673 17,165 9,539",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Increase in other deferred revenues 50 154 656 Net cash provided by operating activities 31,977 20,821 18,673",
         "xbrl": {
           "cik": "0001341439",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-05-31",
-          "value": 18673000000
+          "end": "2026-05-31",
+          "value": 31977000000
         }
       }
     },
     "capex": {
-      "value": 6.866,
+      "value": 55.663,
       "components": [
-        "capital expenditures 6.866"
+        "capital expenditures 55.663"
       ],
-      "stated": 6866,
+      "stated": 55663,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Capital expenditures ( 6,866 ) ( 8,695 ) ( 4,511 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Capital expenditures ( 55,663 ) ( 21,215 ) ( 6,866 )",
         "xbrl": {
           "cik": "0001341439",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-05-31",
-          "value": 6866000000
+          "end": "2026-05-31",
+          "value": 55663000000
         }
       }
     },
     "interestPaid": {
-      "value": 3.655,
+      "value": 3.896,
       "inOCF": true,
-      "stated": 3655,
+      "stated": 3896,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid for income taxes $ 3,560 $ 3,009 $ 2,567 Cash paid for interest $ 3,655 $ 3,250 $ 2,735",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "label": "FY2026 Form 10-K, supplemental schedule of cash flow data (in millions)",
+        "quote": "Supplemental schedule of cash flow data: Cash paid for income taxes $ 3,704 $ 4,020 $ 3,560 Cash paid for interest $ 3,896 $ 3,374 $ 3,655",
         "xbrl": {
           "cik": "0001341439",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-05-31",
-          "value": 3655000000
+          "end": "2026-05-31",
+          "value": 3896000000
         }
       }
     },
     "taxesPaid": {
-      "value": 3.56,
+      "value": 3.704,
       "inOCF": true,
-      "stated": 3560,
+      "stated": 3704,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid for income taxes $ 3,560 $ 3,009 $ 2,567 Cash paid for interest $ 3,655 $ 3,250 $ 2,735",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "label": "FY2026 Form 10-K, supplemental schedule of cash flow data (in millions)",
+        "quote": "Supplemental schedule of cash flow data: Cash paid for income taxes $ 3,704 $ 4,020 $ 3,560 Cash paid for interest $ 3,896 $ 3,374 $ 3,655",
         "xbrl": {
           "cik": "0001341439",
           "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-05-31",
-          "value": 3560000000
+          "end": "2026-05-31",
+          "value": 3704000000
         }
       }
     }
   },
-  "paidOut": 41.154,
-  "paidOutFormula": "52.961 − 18.673 + 6.866",
+  "paidOut": 91.043,
+  "paidOutFormula": "67.357 − 31.977 + 55.663",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -104,6 +104,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Fiscal year ended May 31, 2024.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended May 31, 2026 (FY2026 Form 10-K, accession 0001193125-26-277521). Capex is the cash-flow line 'Capital expenditures' (mostly cloud data-center build-out); a further $5,279 million of capital expenditures was unpaid at year end and is not included. Operating cash flow includes a $4,592 million increase in deferred revenues from customer prepayments with a significant financing component, which raises OCF and lowers paidOut.",
+  "researchedAt": "2026-11-24"
 }

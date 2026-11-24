@@ -1,0 +1,22 @@
+{
+  "id": "larry-ellison",
+  "company": "Oracle",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 3031501149,
+      "sharesAsOf": "2026-09-21",
+      "pricedAs": "ORCL",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+        "label": "2026 proxy statement (DEF 14A), Questions and answers, record date share count",
+        "quote": "We had 3,031,501,149 shares of common stock outstanding and entitled to vote on the record date, September 21, 2026."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the NYSE as ORCL. The count is the 2026 proxy's record-date figure (September 21, 2026), newer than the Q1 FY2027 10-Q cover (3,023,736,000 at September 7, 2026); both include the 141 million shares issued through the at-the-market program in the quarter ended August 31, 2026. The 50,000 shares of 6.50% Series D Mandatory Convertible Preferred Stock (issued February 5, 2026) are preferred stock and are left out.",
+  "researchedAt": "2026-11-24"
+}

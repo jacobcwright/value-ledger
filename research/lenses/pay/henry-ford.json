@@ -1,0 +1,31 @@
+{
+  "id": "henry-ford",
+  "company": "Ford Motor Company",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 169000,
+    "asOf": "2025-12-31",
+    "basis": "approximate number of individuals employed by Ford and consolidated entities, in thousands (Total Company 169)",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Employment Data (in thousands)",
+      "quote": "The approximate number of individuals employed by us and entities that we consolidated as of December 31 was as follows (in thousands): 2024 2025 United States 87 87 Rest of World 78 76 Company excluding Ford Credit 165 163 Ford Credit 6 6 Total Company 171 169"
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Median of the annual total compensation of all our employees (other than the CEO), 2025 fiscal year",
+    "value": 93397,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/37996/000155278126000164/e26003_f-def14a.htm",
+      "label": "2026 proxy statement, CEO Pay Ratio",
+      "quote": "the median of the annual total compensation of all our employees (other than the CEO) was $93,397;"
+    }
+  },
+  "notes": "Employees: year-end count stated in thousands in the FY2025 10-K (169 thousand; 87 thousand in the U.S.). Payroll: the FY2025 10-K discloses no total staff cost, so the proxy's CEO pay ratio median for 2025 is used (ratio 295 to 1). Ford may use the same median employee for three years under SEC rules; the proxy says it does not believe its employee population or compensation arrangements changed in a way that would significantly change the ratio.",
+  "researchedAt": "2026-11-24"
+}

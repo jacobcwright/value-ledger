@@ -1,0 +1,22 @@
+{
+  "id": "carlos-slim",
+  "company": "América Móvil",
+  "classes": [
+    {
+      "label": "B Shares",
+      "shares": 59700000000,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "AMXB.MX",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036126040507/ef20084200_6k.htm",
+        "label": "Third-quarter 2026 results (Form 6-K furnished October 22, 2026), share data table",
+        "quote": "Shares Outstanding End of Period (billion) 59.7 60.3 [3Q26, 3Q25]"
+      }
+    }
+  ],
+  "notes": "One series of B Shares, priced from the primary listing on the Mexican Stock Exchange (AMXB.MX, MXN) rather than the NYSE ADSs (AMX, 20 B Shares each). The count is the third-quarter 2026 results' 'Shares Outstanding End of Period' of 59.7 billion at September 30, 2026, which is stated only to one decimal (so it is precise to about ±50 million shares). The FY2025 20-F gives an exact 60,195 million B Shares at March 31, 2026; the company has kept buying back shares since, so the newer, rounded figure is used.",
+  "researchedAt": "2026-11-24"
+}

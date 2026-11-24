@@ -1,0 +1,31 @@
+{
+  "id": "anirudh-devgan",
+  "company": "Cadence Design Systems",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 13800,
+    "asOf": "2025-12-31",
+    "basis": "approximately 13,800 employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1, Human Capital, Employees",
+      "quote": "As of December 31, 2025, we had approximately 13,800 employees."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "median of the annual total compensation of all of Cadence's employees, other than Dr. Devgan",
+    "value": 95689,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/813672/000119312526124264/d932644ddef14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "The median of the annual total compensation of all of Cadence's employees, other than Dr. Devgan, was $95,689."
+    }
+  },
+  "notes": "Employees: approximate year-end count from the FY2025 10-K; the proxy says the same 13,800 includes full-time and part-time employees, temporary employees and interns. Payroll: the 10-K gives no total of salaries and benefits, so the CEO pay ratio disclosure's fiscal 2025 median employee pay (median employee identified December 31, 2025) is used.",
+  "researchedAt": "2026-11-24"
+}

@@ -5,7 +5,7 @@
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
       "definition": "Approximate number of Uber employees located outside the United States (10-K)."
     },
@@ -183,14 +183,14 @@
       "name": "Outside the United States",
       "countries": null,
       "values": {
-        "employees": 18000
+        "employees": 20300
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
-        "label": "Uber Technologies Form 10-K for fiscal year ended December 31, 2024, Item 1A Risk Factors",
-        "quote": "As of December 31, 2024, we had approximately 31,100 global employees, of whom approximately 18,000 were located outside the United States."
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+        "label": "Uber Technologies Form 10-K for fiscal year ended December 31, 2025, Item 1A Risk Factors",
+        "quote": "As of December 31, 2025, we had approximately 34,000 global employees, of whom approximately 20,300 were located outside the United States."
       }
     }
   ],
@@ -201,15 +201,15 @@
       "state": "CA",
       "iso2": "US",
       "type": "headquarters",
-      "description": "2.1 million square feet for the corporate headquarters, within 8.8 million sq ft of leased and owned offices worldwide",
+      "description": "1.8 million square feet for the corporate headquarters, within 9.3 million sq ft of leased and owned offices worldwide",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
-        "label": "Uber Technologies Form 10-K for fiscal year ended December 31, 2024, Item 2 Properties",
-        "quote": "As of December 31, 2024, we leased and owned office facilities around the world totaling 8.8 million square feet, including 2.1 million square feet for our corporate headquarters in the San Francisco Bay Area, California."
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+        "label": "Uber Technologies Form 10-K for fiscal year ended December 31, 2025, Item 2 Properties",
+        "quote": "As of December 31, 2025, we leased and owned office facilities around the world totaling 9.3 million square feet, including 1.8 million square feet for our corporate headquarters in the San Francisco Bay Area, California."
       }
     }
   ],
-  "notes": "No U.S. state breakdown for 2024 exists on uber.com. Checked: Uber's us_en and global_en sitemaps and all 111 English-locale country sitemaps for impact, economic and economy pages (other hits were older country reports, e.g. Canada 2022 and 2023, British Columbia 2023, Bangladesh 2021, plus Uber Eats 2023 merchant reports); /us/en/impact/ has only New York City and Los Angeles city pages, both '2025 in review' (city-level and after the snapshot, so not used; NYC says drivers made close to $4 billion in 2025); state posts on the newsroom date from 2015-2018 (e.g., Florida 2017 earnings) or are advocacy pieces; the U.S. 'Uber in the economy' page cites an undated EDR Group study ($17 billion GDP, $5.7 billion driver value-add 'per year over the study period'), not used. Country rows are Public First estimates commissioned by Uber, each in its own currency, so they are separate metrics and not comparable. CA and NZ amounts appear only as '$' on the local pages and are read as local dollars. India's 'INR 36,000 crores' is a forecast for Auto and Moto only and was skipped. The 18,000 outside-U.S. employees is a region; no U.S. figure was derived.",
-  "researchedAt": "2026-11-23"
+  "notes": "No U.S. state breakdown exists on uber.com. Checked 2026-11-24: Uber's sitemap index and the us_en, global_en, ca_en, nz_en, bd_en, gb_en, lk_en and zh-tw sitemaps for impact, economic and economy newsroom pages. The commissioned country reports are unchanged because no newer edition was found (checked 2026-11-24): Canada's newest is the 2024 report (older ones are 2022 and 2023, plus British Columbia 2023), New Zealand's is 2024, Bangladesh's is 2024 (older: 2021), Sri Lanka's is the 2024 report cited in the Dec 2025 post (older: 2021), Taiwan's is the year ending September 2024 (older: 2023), and the UK's newest is the Sep 2023 post about 2022. The U.S. Uber Eats figures come from the 2025 U.S. Merchant Impact Report (2024 data); no 2026 edition was found. State posts on the U.S. newsroom date from 2015-2018 or are advocacy pieces, and the U.S. 'Uber in the economy' page cites an undated EDR Group study, not used. Country rows are Public First estimates commissioned by Uber, each in its own currency, so they are separate metrics and not comparable. CA and NZ amounts appear only as '$' on the local pages and are read as local dollars. India's 'INR 36,000 crores' is a forecast for Auto and Moto only and was skipped. Employees: the FY2025 10-K gives ~34,000 global employees at Dec 31, 2025, of whom ~20,300 were outside the U.S.; that is stored as a region and no U.S. figure was derived.",
+  "researchedAt": "2026-11-24"
 }

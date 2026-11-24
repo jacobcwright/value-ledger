@@ -1,0 +1,22 @@
+{
+  "id": "larry-fink",
+  "company": "BlackRock",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 154423421,
+      "sharesAsOf": "2026-10-31",
+      "pricedAs": "BLK",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526447043/blk-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 31, 2026 , there were 154,423,421 shares of the registrant's common stock outstanding ( 162,030,348 on a fully diluted basis, including 7,606,927 Class B-2 common units of a consolidated subsidiary, BlackRock Saturn Subco, LLC, which are exchangeable on a one-for-one basis into common stock of the registrant)."
+      }
+    }
+  ],
+  "notes": "Common stock only, listed on the NYSE as BLK. Left out: 7,606,927 Class B-2 common units of a consolidated subsidiary, BlackRock Saturn Subco, LLC ('Subco Units', issued as HPS acquisition consideration), which the 10-Q cover counts in a fully diluted total of 162,030,348 and which are exchangeable one-for-one into common stock. They are equity of a subsidiary (redeemable noncontrolling interest), not BlackRock common stock, so they are excluded under the common-equity-only rule; including them would add 4.9% to the count. BlackRock has no preferred stock outstanding.",
+  "researchedAt": "2026-11-24"
+}

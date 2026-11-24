@@ -1,0 +1,31 @@
+{
+  "id": "pascal-soriot",
+  "company": "AstraZeneca",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 96100,
+    "asOf": "2025-12-31",
+    "basis": "number of people employed by the Group at the end of 2025",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465926019130/azn-20251231xex15d1.htm",
+      "label": "Annual Report and Form 20-F Information 2025 (Exhibit 15.1 to FY2025 Form 20-F), Note 29 Employee costs and share plans for employees",
+      "quote": "The number of people employed by the Group at the end of 2025 was 96,100 (2024: 94,300; 2023: 89,900)."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Employee costs: total (wages and salaries, social security costs, pension costs, other employment costs)",
+    "value": 14.548,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465926019130/azn-20251231xex15d1.htm",
+      "label": "Annual Report and Form 20-F Information 2025 (Exhibit 15.1 to FY2025 Form 20-F), Note 29 Employee costs and share plans for employees ($m)",
+      "quote": "The costs incurred during the year in respect of these employees were: 2025 2024 2023 $m $m $m Wages and salaries 10,974 10,340 9,341 Social security costs 1,348 1,224 1,100 Pension costs 618 614 537 Other employment costs 1,608 1,531 1,357 Total 14,548 13,709 12,335"
+    }
+  },
+  "notes": "Employees: year-end head count from Note 29 (the monthly average was 95,100, including part-time employees). Payroll: Note 29's total employee costs for 2025 ($14,548 million: wages and salaries $10,974 million, social security $1,348 million, pensions $618 million, other $1,608 million). Severance costs of $190 million are not included in that total, and the share-based payment charge ($719 million) is reported separately.",
+  "researchedAt": "2026-11-24"
+}

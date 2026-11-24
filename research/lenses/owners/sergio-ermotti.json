@@ -2,27 +2,27 @@
   "id": "sergio-ermotti",
   "company": "UBS",
   "nbim": {
-    "pct": 5.27,
-    "marketValueUSD": 5.583,
-    "asOf": "2024-12-31",
+    "pct": 2.9,
+    "marketValueUSD": 4.729,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"1bglfodnndmh\",\"cc\":\"CH\",\"n\":\"UBS Group AG\",\"a\":{\"e\":5582607488,\"n\":63403627152},\"at\":0,\"o\":5.27,\"eq\":{\"vid\":\"UBSG\",\"v\":5.27,\"s\":\"Financials\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"1bglfodnndmh\",\"cc\":\"CH\",\"n\":\"UBS Group AG\",\"a\":{\"e\":4728589482,\"n\":46791757223},\"at\":0,\"o\":2.9,\"eq\":{\"vid\":\"UBSG\",\"v\":2.9,\"s\":\"Financials\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": {
-    "count": 242204,
-    "asOf": "2024-12-31",
+    "count": 229388,
+    "asOf": "2025-12-31",
     "source": {
-      "hostType": "company",
-      "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
-      "label": "Annual Report 2024 (Form 20-F), Distribution of UBS Group AG shares",
-      "quote": "Distribution of UBS Group AG shares As of 31 December 2024 ... Total shares registered 242,204 100.0"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm",
+      "label": "FY2025 Form 20-F (Annual Report 2025), Distribution of UBS Group AG shares",
+      "quote": "Distribution of UBS Group AG shares As of 31 December 2025 Shareholders registered Shares registered ... Total shares registered 229,388 100.0 1,415,015,852 2 42.3"
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Europe;Switzerland;UBS Group AG;Financials;63403627152;5582607488;5.27%;5.27%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of UBS. Holders of record: Registered shareholders in the UBS share register only; the same table says 60.0% of shares issued were not registered, so the true number of holders is larger.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); NBIM also holds UBS Group AG and subsidiary bonds in separate rows, not counted. NBIM's 2.9% matches the February 17, 2026 FMIA notification of a holding below 3%. CalPERS: the information table of its Form 13F for the quarter ended September 30, 2026 lists no UBS shares (searched by issuer name). Holders of record: registered shareholders in the UBS share register only (229,388 holding 1,415,015,852 shares, 42.3% of shares issued); 57.7% of shares issued were not registered, so the true number of holders is larger.",
+  "researchedAt": "2026-11-24"
 }

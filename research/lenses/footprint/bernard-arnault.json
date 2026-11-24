@@ -5,24 +5,24 @@
     "stores": {
       "label": "Stores",
       "unit": "count",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Number of stores in the Group's store network by geographic region, as reported in the Universal Registration Document (§6.2.4)."
+      "definition": "Number of stores in the Group's store network by geographic region, as reported in the 2025 Universal Registration Document (§6.2, 'As of December 31, 2025, the Group's store network broke down as follows'). Total 6,283."
     },
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Number of employees by geographic region: total permanent and fixed-term contracts and non-guaranteed-hours contracts, not including apprenticeships and vocational training (Sustainability Report workforce table). Total 215,637."
+      "definition": "Number of employees by geographic region: total permanent and fixed-term contracts and non-guaranteed-hours contracts, not including apprenticeships and vocational training (Sustainability Report workforce table, 2025 row). Total 211,552."
     },
     "operatingInvestments": {
       "label": "Operating investments",
       "unit": "currency-millions",
       "currency": "EUR",
-      "period": "FY2024",
+      "period": "FY2025",
       "tier": "filing",
-      "definition": "Operating investments by geographic region, from note 24.2 of the consolidated financial statements. Total EUR 5,531 million."
+      "definition": "Operating investments by geographic region, from note 24.2 of the 2025 consolidated financial statements. Total EUR 4,567 million."
     }
   },
   "usStates": null,
@@ -31,126 +31,126 @@
       "iso2": "FR",
       "name": "France",
       "values": {
-        "stores": 553
+        "stores": 539
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6.2.4 store network as of Dec 31, 2024 (columns 2024, 2023, 2022)",
-        "quote": "France 553 550 518"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6.2 Distribution, store network as of Dec 31, 2025 (columns 2025, 2024, 2023)",
+        "quote": "France 539 553 550"
       }
     },
     {
       "iso2": "FR",
       "name": "France",
       "values": {
-        "employees": 39856
+        "employees": 40357
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, Sustainability Report, workforce breakdown by contract type and geographic region (columns France, Europe excl. France, United States, Japan, Asia excl. Japan, Other markets, Total)",
-        "quote": "Number of employees 39,856 48,736 44,870 11,299 48,719 22,158 215,637"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, Sustainability Report, workforce breakdown by contract type and geographic region (columns France, Europe excl. France, United States, Japan, Asia excl. Japan, Other markets, Total)",
+        "quote": "Number of employees 2025 40,357 49,145 43,193 11,294 44,459 23,103 211,552"
       }
     },
     {
       "iso2": "FR",
       "name": "France",
       "values": {
-        "operatingInvestments": 1653
+        "operatingInvestments": 1536
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, consolidated financial statements note 24.2, operating investments by geographic region (EUR millions; columns 2024, 2023, 2022)",
-        "quote": "France 1,653 3,575 1,891"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, consolidated financial statements note 24.2, operating investments by geographic region (EUR millions; columns 2025, 2024, 2023)",
+        "quote": "France 1,536 1,653 3,575"
       }
     },
     {
       "iso2": "JP",
       "name": "Japan",
       "values": {
-        "stores": 510
+        "stores": 520
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6.2.4 store network as of Dec 31, 2024 (columns 2024, 2023, 2022)",
-        "quote": "Japan 510 497 496"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6.2 Distribution, store network as of Dec 31, 2025 (columns 2025, 2024, 2023)",
+        "quote": "Japan 520 510 497"
       }
     },
     {
       "iso2": "JP",
       "name": "Japan",
       "values": {
-        "employees": 11299
+        "employees": 11294
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, Sustainability Report, workforce breakdown by contract type and geographic region (columns France, Europe excl. France, United States, Japan, Asia excl. Japan, Other markets, Total)",
-        "quote": "Number of employees 39,856 48,736 44,870 11,299 48,719 22,158 215,637"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, Sustainability Report, workforce breakdown by contract type and geographic region (columns France, Europe excl. France, United States, Japan, Asia excl. Japan, Other markets, Total)",
+        "quote": "Number of employees 2025 40,357 49,145 43,193 11,294 44,459 23,103 211,552"
       }
     },
     {
       "iso2": "JP",
       "name": "Japan",
       "values": {
-        "operatingInvestments": 473
+        "operatingInvestments": 328
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, consolidated financial statements note 24.2, operating investments by geographic region (EUR millions; columns 2024, 2023, 2022)",
-        "quote": "Japan 473 202 133"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, consolidated financial statements note 24.2, operating investments by geographic region (EUR millions; columns 2025, 2024, 2023)",
+        "quote": "Japan 328 473 202"
       }
     },
     {
       "iso2": "US",
       "name": "United States",
       "values": {
-        "stores": 1193
+        "stores": 1232
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6.2.4 store network as of Dec 31, 2024 (columns 2024, 2023, 2022)",
-        "quote": "United States 1,193 1,128 1,054"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6.2 Distribution, store network as of Dec 31, 2025 (columns 2025, 2024, 2023)",
+        "quote": "United States 1,232 1,193 1,128"
       }
     },
     {
       "iso2": "US",
       "name": "United States",
       "values": {
-        "employees": 44870
+        "employees": 43193
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, Sustainability Report, workforce breakdown by contract type and geographic region (columns France, Europe excl. France, United States, Japan, Asia excl. Japan, Other markets, Total)",
-        "quote": "Number of employees 39,856 48,736 44,870 11,299 48,719 22,158 215,637"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, Sustainability Report, workforce breakdown by contract type and geographic region (columns France, Europe excl. France, United States, Japan, Asia excl. Japan, Other markets, Total)",
+        "quote": "Number of employees 2025 40,357 49,145 43,193 11,294 44,459 23,103 211,552"
       }
     },
     {
       "iso2": "US",
       "name": "United States",
       "values": {
-        "operatingInvestments": 999
+        "operatingInvestments": 763
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, consolidated financial statements note 24.2, operating investments by geographic region (EUR millions; columns 2024, 2023, 2022)",
-        "quote": "United States 999 1,095 955"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, consolidated financial statements note 24.2, operating investments by geographic region (EUR millions; columns 2025, 2024, 2023)",
+        "quote": "United States 763 999 1,095"
       }
     }
   ],
@@ -159,126 +159,126 @@
       "name": "Asia (excl. Japan)",
       "countries": null,
       "values": {
-        "stores": 2019
+        "stores": 1905
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6.2.4 store network as of Dec 31, 2024 (columns 2024, 2023, 2022)",
-        "quote": "Asia (excl. Japan) 2,019 2,003 1,829"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6.2 Distribution, store network as of Dec 31, 2025 (columns 2025, 2024, 2023)",
+        "quote": "Asia (excl. Japan) 1,905 2,019 2,003"
       }
     },
     {
       "name": "Asia (excl. Japan)",
       "countries": null,
       "values": {
-        "employees": 48719
+        "employees": 44459
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, Sustainability Report, workforce breakdown by contract type and geographic region (columns France, Europe excl. France, United States, Japan, Asia excl. Japan, Other markets, Total)",
-        "quote": "Number of employees 39,856 48,736 44,870 11,299 48,719 22,158 215,637"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, Sustainability Report, workforce breakdown by contract type and geographic region (columns France, Europe excl. France, United States, Japan, Asia excl. Japan, Other markets, Total)",
+        "quote": "Number of employees 2025 40,357 49,145 43,193 11,294 44,459 23,103 211,552"
       }
     },
     {
       "name": "Asia (excl. Japan)",
       "countries": null,
       "values": {
-        "operatingInvestments": 918
+        "operatingInvestments": 668
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, consolidated financial statements note 24.2, operating investments by geographic region (EUR millions; columns 2024, 2023, 2022)",
-        "quote": "Asia (excl. Japan) 918 844 761"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, consolidated financial statements note 24.2, operating investments by geographic region (EUR millions; columns 2025, 2024, 2023)",
+        "quote": "Asia (excl. Japan) 668 918 844"
       }
     },
     {
       "name": "Europe (excl. France)",
       "countries": null,
       "values": {
-        "stores": 1254
+        "stores": 1255
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6.2.4 store network as of Dec 31, 2024 (columns 2024, 2023, 2022)",
-        "quote": "Europe (excl. France) 1,254 1,213 1,108"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6.2 Distribution, store network as of Dec 31, 2025 (columns 2025, 2024, 2023)",
+        "quote": "Europe (excl. France) 1,255 1,254 1,213"
       }
     },
     {
       "name": "Europe (excl. France)",
       "countries": null,
       "values": {
-        "employees": 48736
+        "employees": 49145
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, Sustainability Report, workforce breakdown by contract type and geographic region (columns France, Europe excl. France, United States, Japan, Asia excl. Japan, Other markets, Total)",
-        "quote": "Number of employees 39,856 48,736 44,870 11,299 48,719 22,158 215,637"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, Sustainability Report, workforce breakdown by contract type and geographic region (columns France, Europe excl. France, United States, Japan, Asia excl. Japan, Other markets, Total)",
+        "quote": "Number of employees 2025 40,357 49,145 43,193 11,294 44,459 23,103 211,552"
       }
     },
     {
       "name": "Europe (excl. France)",
       "countries": null,
       "values": {
-        "operatingInvestments": 1062
+        "operatingInvestments": 948
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, consolidated financial statements note 24.2, operating investments by geographic region (EUR millions; columns 2024, 2023, 2022)",
-        "quote": "Europe (excl. France) 1,062 1,318 905"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, consolidated financial statements note 24.2, operating investments by geographic region (EUR millions; columns 2025, 2024, 2023)",
+        "quote": "Europe (excl. France) 948 1,062 1,318"
       }
     },
     {
       "name": "Other countries",
       "countries": null,
       "values": {
-        "operatingInvestments": 425
+        "operatingInvestments": 324
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, consolidated financial statements note 24.2, operating investments by geographic region (EUR millions; columns 2024, 2023, 2022)",
-        "quote": "Other countries 425 444 324"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, consolidated financial statements note 24.2, operating investments by geographic region (EUR millions; columns 2025, 2024, 2023)",
+        "quote": "Other countries 324 425 444"
       }
     },
     {
       "name": "Other markets",
       "countries": null,
       "values": {
-        "stores": 778
+        "stores": 832
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6.2.4 store network as of Dec 31, 2024 (columns 2024, 2023, 2022)",
-        "quote": "Other markets 778 706 659"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6.2 Distribution, store network as of Dec 31, 2025 (columns 2025, 2024, 2023)",
+        "quote": "Other markets 832 778 706"
       }
     },
     {
       "name": "Other markets",
       "countries": null,
       "values": {
-        "employees": 22158
+        "employees": 23103
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, Sustainability Report, workforce breakdown by contract type and geographic region (columns France, Europe excl. France, United States, Japan, Asia excl. Japan, Other markets, Total)",
-        "quote": "Number of employees 39,856 48,736 44,870 11,299 48,719 22,158 215,637"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, Sustainability Report, workforce breakdown by contract type and geographic region (columns France, Europe excl. France, United States, Japan, Asia excl. Japan, Other markets, Total)",
+        "quote": "Number of employees 2025 40,357 49,145 43,193 11,294 44,459 23,103 211,552"
       }
     }
   ],
@@ -292,8 +292,8 @@
       "description": "The Group owns the building housing its headquarters on Avenue Montaigne in Paris.",
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6 Main locations and properties",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6 Main locations and properties",
         "quote": "owns the building housing its headquarters on Avenue Montaigne in Paris."
       }
     },
@@ -306,8 +306,8 @@
       "description": "Buildings housing Perfumes and Cosmetics R&D and Parfums Christian Dior manufacturing and distribution, around 171,100 square meters.",
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6 Main locations and properties",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6 Main locations and properties",
         "quote": "are owned by Parfums Christian Dior and total around 171,100 square meters."
       }
     },
@@ -317,12 +317,12 @@
       "state": null,
       "iso2": "FR",
       "type": "vineyards",
-      "description": "1,868 hectares owned in the Champagne appellation, 1,665 under production.",
+      "description": "1,872 hectares owned in the Champagne appellation, 1,684 under production.",
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6 Main locations and properties",
-        "quote": "Champagne appellation 1,868 1,665 1,870 1,650"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6 Main locations and properties",
+        "quote": "Champagne appellation 1,872 1,684 1,868 1,665"
       }
     },
     {
@@ -331,12 +331,12 @@
       "state": null,
       "iso2": "FR",
       "type": "store",
-      "description": "Le Bon Marché owns its stores, which total approximately 79,700 square meters.",
+      "description": "Le Bon Marché owns its stores, which total approximately 77,400 square meters.",
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6 Main locations and properties",
-        "quote": "Le Bon Marché owns its stores, which total approximately 79,700 square meters."
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6 Main locations and properties",
+        "quote": "Le Bon Marché owns its stores, which total approximately 77,400 square meters."
       }
     },
     {
@@ -348,8 +348,8 @@
       "description": "La Samaritaine owns its store of around 30,700 square meters in Paris.",
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6 Main locations and properties",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6 Main locations and properties",
         "quote": "La Samaritaine owns the store with around 30,700 square meters"
       }
     },
@@ -362,9 +362,9 @@
       "description": "Major Louis Vuitton leather goods workshops in California.",
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6 Main locations and properties",
-        "quote": "Most of them are in France, but there are also major workshops located in Spain (near Barcelona), Portugal (near Porto), Italy (in Fiesso) and the United States (in San Dimas and Irwindale, California, and Alvarado, Texas)."
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6 Main locations and properties",
+        "quote": "While most are located in France, major workshops are also located in Spain (near Barcelona), Portugal (near Porto), Italy (in Fiesso) and the United States (in San Dimas and Irwindale, California, and Alvarado, Texas)."
       }
     },
     {
@@ -376,9 +376,9 @@
       "description": "Major Louis Vuitton leather goods workshop in Texas.",
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6 Main locations and properties",
-        "quote": "Most of them are in France, but there are also major workshops located in Spain (near Barcelona), Portugal (near Porto), Italy (in Fiesso) and the United States (in San Dimas and Irwindale, California, and Alvarado, Texas)."
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6 Main locations and properties",
+        "quote": "While most are located in France, major workshops are also located in Spain (near Barcelona), Portugal (near Porto), Italy (in Fiesso) and the United States (in San Dimas and Irwindale, California, and Alvarado, Texas)."
       }
     },
     {
@@ -387,12 +387,12 @@
       "state": "CA",
       "iso2": "US",
       "type": "vineyards",
-      "description": "644 hectares owned in California, 466 under production.",
+      "description": "614 hectares owned in California, 423 under production.",
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6 Main locations and properties",
-        "quote": "California (United States) 644 466 623 454"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6 Main locations and properties",
+        "quote": "California (United States) 614 423 644 466"
       }
     },
     {
@@ -404,8 +404,8 @@
       "description": "Fendi owns its leather goods and shoe manufacturing facilities near Florence and in Fermo, Italy.",
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6 Main locations and properties",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6 Main locations and properties",
         "quote": "Fendi owns its leather goods and shoe manufacturing facilities near Florence and in Fermo, Italy, as well as the Palazzo Fendi"
       }
     },
@@ -418,8 +418,8 @@
       "description": "Zenith owns the manufacture which houses its movement and watch manufacturing facilities in Le Locle.",
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6 Main locations and properties",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6 Main locations and properties",
         "quote": "Zenith owns the manufacture which houses its movement and watch manufacturing facilities in Le Locle, Switzerland."
       }
     },
@@ -432,8 +432,8 @@
       "description": "TAG Heuer has two workshops in Switzerland, in Cornol and Chevenez.",
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6 Main locations and properties",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6 Main locations and properties",
         "quote": "TAG Heuer has two workshops in Switzerland, one in Cornol"
       }
     },
@@ -443,15 +443,15 @@
       "state": null,
       "iso2": "AR",
       "type": "vineyards",
-      "description": "1,525 hectares owned in Argentina, 849 under production.",
+      "description": "1,525 hectares owned in Argentina, 865 under production.",
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §6 Main locations and properties",
-        "quote": "Argentina 1,525 849 1,714 919"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, §6 Main locations and properties",
+        "quote": "Argentina 1,525 865 1,525 849"
       }
     }
   ],
-  "notes": "All figures come from LVMH's 2024 Universal Registration Document, filed with the AMF. LVMH reports three single countries (France, United States, Japan), which are in countries, and three remainder regions (Europe excl. France, Asia excl. Japan, Other markets), whose country lists the filing does not define. Each table is its own row, so France, the U.S. and Japan appear three times (stores, employees, operating investments) with different metric keys. The investment table calls the last region 'Other countries', not 'Other markets', and the name is kept as filed. The workforce total (215,637, including temporary and non-guaranteed-hours contracts) differs from the 200,518 headcount on the site, which is a different measure. Store counts include Sephora (2,175 stores). The URD has no U.S. state breakdown, and no taxes-by-country table: a search for 'country-by-country', 'taxes paid' and 'tax contribution' found nothing. A separate LVMH tax report was not checked. Vineyard areas are in hectares and appear only in site descriptions. Some site quotes are shortened to text that is contiguous in the PDF's two-column layout.",
-  "researchedAt": "2026-11-23"
+  "notes": "All figures come from LVMH's 2025 Universal Registration Document (fiscal year ended Dec 31, 2025), filed with the AMF. LVMH reports three single countries (France, United States, Japan), which are in countries, and three remainder regions (Europe excl. France, Asia excl. Japan, Other markets), whose country lists the filing does not define. Each table is its own row, so France, the U.S. and Japan appear three times (stores, employees, operating investments) with different metric keys. The investment table calls the last region 'Other countries', not 'Other markets', and the name is kept as filed. The workforce total (211,552 at Dec 31, 2025, including temporary and non-guaranteed-hours contracts) is a different measure from headcounts reported elsewhere; the URD notes a rationalization of the non-guaranteed-hours workforce in the United States in 2025. Store counts include Sephora (2,242 stores). The URD has no U.S. state breakdown and no taxes-by-country table (a search of the 2025 URD for 'country-by-country', 'tax contribution' and 'taxes paid' found nothing); a separate LVMH tax report was not checked. Vineyard areas are in hectares and appear only in site descriptions. Some site quotes are shortened to text that is contiguous in the PDF's two-column layout.",
+  "researchedAt": "2026-11-24"
 }

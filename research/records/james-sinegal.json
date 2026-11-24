@@ -1,13 +1,13 @@
 {
   "id": "james-sinegal",
   "company": "Costco Wholesale",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-09-01",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-08-30",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2024-11-15",
+    "asOf": "2025-11-07",
     "leader": {
       "name": "James Sinegal",
       "relation": "co-founder",
@@ -17,74 +17,89 @@
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000072/cost-20241209.htm",
-        "label": "2025 proxy statement (DEF 14A), Principal Shareholders and directors' and officers' ownership table (printed pp. 11-12)",
-        "quote": "The following table sets forth the shares of the common stock owned on November 15, 2024 by each director, each nominee for election as a director, the executive officers named in the Summary Compensation Table, and all directors and executive officers as a group."
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+        "label": "2026 proxy statement (DEF 14A, filed December 4, 2025), Principal Shareholders and directors' and officers' ownership table",
+        "quote": "The following table sets forth the shares of the common stock owned on November 7, 2025 by each director, each nominee for election as a director, the executive officers named in the Summary Compensation Table, and all directors and executive officers as a group ."
       }
     },
     "largestHolders": [
       {
         "name": "Vanguard Group, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 9.4,
+        "pctEconomic": 9.79,
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000072/cost-20241209.htm",
-          "label": "2025 proxy statement (DEF 14A), Principal Shareholders: based on a Form 13F-HR filed November 13, 2024",
-          "quote": "Vanguard Group, Inc. 41,746,567(2) 9.40% ... (1) Based on 443,960,469 shares of common stock outstanding. ... (2) Information based on Form 13F-HR filed with the SEC by Vanguard Group, Inc. on November 13, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+          "label": "2026 proxy statement (DEF 14A, filed December 4, 2025), Principal Shareholders: based on a Form 13F-HR filed November 7, 2025",
+          "quote": "Vanguard Group, Inc. 43,455,368 (2) 9.79% ... (1) Based on 443,957,682 shares of common stock outstanding. ... (2) Information based on Form 13F-HR filed with the SEC by Vanguard Group, Inc. on November 7, 2025."
         }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 7.56,
+        "pctEconomic": 7.83,
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000072/cost-20241209.htm",
-          "label": "2025 proxy statement (DEF 14A), Principal Shareholders: based on a Form 13F-HR filed November 13, 2024",
-          "quote": "BlackRock, Inc. 33,555,577(3) 7.56% ... (3) Information based on Form 13F-HR filed with the SEC by BlackRock, Inc. on November 13, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000159/cost-20251204.htm",
+          "label": "2026 proxy statement (DEF 14A, filed December 4, 2025), Principal Shareholders: based on a Form 13F-HR filed November 12, 2025",
+          "quote": "BlackRock, Inc. 34,781,929 (3) 7.83% ... (3) Information based on Form 13F-HR filed with the SEC by BlackRock, Inc. on November 12, 2025."
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock. The proxy lists only two holders above 5%, Vanguard (9.40%) and BlackRock (7.56%); all directors and executive officers as a group own less than 1%."
+      "note": "One class of common stock. The proxy lists only two holders above 5%, Vanguard (9.79%) and BlackRock (7.83%); all directors and executive officers as a group own less than 1%."
     }
   },
   "cash": {
     "dividends": {
-      "value": 9.04,
+      "value": 2.46,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Cash dividend payments (9,041) (1,251) (1,498) [in millions, fiscal 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000909832", "concept": "us-gaap:PaymentsOfDividendsCommonStock", "end": "2024-09-01", "value": 9041000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Cash dividend payments ( 2,458 ) ( 2,183 ) ( 9,041 ) [in millions, fiscal 2026, 2025, 2024]",
+        "xbrl": {
+          "cik": "0000909832",
+          "concept": "us-gaap:PaymentsOfDividendsCommonStock",
+          "end": "2026-08-30",
+          "value": 2458000000
+        }
       }
     },
     "buybacks": {
-      "value": 0.7,
+      "value": 0.85,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Repurchases of common stock (700) (676) (439) [in millions, fiscal 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000909832", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-09-01", "value": 700000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchases of common stock ( 848 ) ( 903 ) ( 700 ) [in millions, fiscal 2026, 2025, 2024]",
+        "xbrl": {
+          "cik": "0000909832",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2026-08-30",
+          "value": 848000000
+        }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.82,
+      "value": 0.92,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 7 Stock-Based Compensation",
-        "quote": "The following table summarizes stock-based compensation expense and the related tax benefits: ... Stock-based compensation expense $ 818 $ 774 $ 724 [in millions, fiscal 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000909832", "concept": "us-gaap:ShareBasedCompensation", "end": "2024-09-01", "value": 818000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 7 Stock-Based Compensation",
+        "quote": "The following table summarizes stock-based compensation expense and the related tax benefits: 2026 2025 2024 Stock-based compensation expense $ 924 $ 860 $ 818 [in millions]",
+        "xbrl": {
+          "cik": "0000909832",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2026-08-30",
+          "value": 924000000
+        }
       }
     },
     "plan": null
@@ -92,18 +107,27 @@
   "geography": {
     "basis": "Total revenue by reportable segment (segments are largely based on geographic locations)",
     "segments": [
-      { "name": "United States", "value": 184.14 },
-      { "name": "Canada", "value": 34.87 },
-      { "name": "Other International", "value": 35.44 }
+      {
+        "name": "United States",
+        "value": 219.82
+      },
+      {
+        "name": "Canada",
+        "value": 40.56
+      },
+      {
+        "name": "Other International",
+        "value": 42.77
+      }
     ],
-    "total": 254.45,
+    "total": 303.15,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-      "label": "FY2024 Form 10-K, Note 11 Segment Reporting",
-      "quote": "Reportable segments are largely based on management's organization of the operating segments for operational decisions and assessments of financial performance, which considers geographic locations. ... 2024 Total revenue $ 184,143 $ 34,874 $ 35,436 $ 254,453 [United States, Canada, Other International, Total; in millions]"
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+      "label": "FY2026 Form 10-K, Note 11 Segment Reporting",
+      "quote": "The following table provides the revenue, significant expenses, and operating income for the Company's reportable segments: 2026 2025 2024 United States Total revenue $ 219,823 ... Canada Total revenue $ 40,561 ... Other International Total revenue $ 42,770 ... Total Total revenue $ 303,154 [in millions]"
     }
   },
-  "notes": "Fiscal year ended September 1, 2024 (Costco's fiscal 2024; matches data.js fy 'Sep 2024'). Financial figures are from the FY2024 Form 10-K (accession 0000909832-24-000049) and match SEC XBRL. Ownership is from the proxy for the January 2025 annual meeting (DEF 14A filed December 11, 2024, accession 0000909832-24-000072), the first proxy after that fiscal year. LEADER: James Sinegal, co-founder and former CEO, is not a director or named executive officer and does not appear in either ownership table (5% holders, or directors and officers), so his holding, if any, is not reported. HOLDERS: both 5% rows are based on Form 13F-HR filings made November 13, 2024; the proxy gives only the filing date, so asOf is null. The percentages use 443,960,469 shares outstanding on November 15, 2024. DIVIDENDS: cash paid of $9,041 million includes a special dividend of $15 per share; the 10-K says 'Dividends in 2024 included a special dividend of $15 per share, resulting in a payment of approximately $6,655.' Dividends declared in fiscal 2024 were $8,589 million; the record uses cash paid. No dividends to noncontrolling interests were paid in fiscal 2024. BUYBACKS exclude $315 million of tax withholdings on stock-based awards. PLAN: the 10-K mentions an employee stock ownership plan (ESOP) only as a line in the income-tax rate reconciliation and describes no employee stock purchase plan, so plan is null.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended August 30, 2026 (Costco's 52-week fiscal 2026). Financial figures are from the FY2026 Form 10-K (accession 0000909832-26-000093, filed October 7, 2026) and match SEC XBRL. Ownership is from the proxy for the January 2026 annual meeting (DEF 14A filed December 4, 2025, accession 0000909832-25-000159), the latest proxy on file at November 24, 2026; the proxy for the January 2027 meeting had not yet been filed, so ownership is as of November 7, 2025, before fiscal 2026 ended. LEADER: James Sinegal, co-founder and former CEO, is not a director or named executive officer and does not appear in either ownership table (5% holders, or directors and officers), so his holding, if any, is not reported. HOLDERS: both 5% rows are based on Form 13F-HR filings made November 7 and November 12, 2025; the proxy gives only the filing dates, so asOf is null. The percentages use 443,957,682 shares outstanding. DIVIDENDS: cash paid of $2,458 million equals dividends declared in fiscal 2026 ($5.54 per share); there was no special dividend in fiscal 2026. BUYBACKS exclude $361 million of tax withholdings on stock-based awards. PLAN: the 10-K mentions an employee stock ownership plan (ESOP) only as a line in the income-tax rate reconciliation and describes no employee stock purchase plan, so plan is null.",
+  "researchedAt": "2026-11-24"
 }

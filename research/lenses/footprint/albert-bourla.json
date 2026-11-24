@@ -6,9 +6,9 @@
       "label": "Property, plant and equipment, net",
       "unit": "currency-millions",
       "currency": "USD",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Property, plant and equipment, net by geographic area (FY2024 Form 10-K, Note 9). Pfizer reports the U.S. and two international groups, Developed Markets and Emerging Markets."
+      "definition": "Property, plant and equipment, net by geographic area (FY2025 Form 10-K, Note 9). Pfizer reports the U.S. and two international groups, Developed Markets and Emerging Markets."
     }
   },
   "usStates": null,
@@ -17,14 +17,14 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "ppe": 9748
+        "ppe": 9680
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 9, PP&E by geographic area",
-        "quote": "The following provides Property, plant and equipment, net by geographic area: … United States | $ | 9,748 | $ | 10,674"
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 9, Property, plant and equipment, net by geographic area",
+        "quote": "The following provides Property, plant and equipment, net by geographic area: … United States | $ | 9,680 | $ | 9,748"
       }
     }
   ],
@@ -33,28 +33,28 @@
       "name": "International: Developed Markets",
       "countries": null,
       "values": {
-        "ppe": 7187
+        "ppe": 8180
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 9, PP&E by geographic area",
-        "quote": "International: | Developed Markets | 7,187 | 6,713"
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 9, Property, plant and equipment, net by geographic area",
+        "quote": "International: | Developed Markets | 8,180 | 7,187"
       }
     },
     {
       "name": "International: Emerging Markets",
       "countries": null,
       "values": {
-        "ppe": 1458
+        "ppe": 1457
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 9, PP&E by geographic area",
-        "quote": "Emerging Markets | 1,458 | 1,554 | Property, plant and equipment, net | $ | 18,393"
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 9, Property, plant and equipment, net by geographic area",
+        "quote": "Emerging Markets | 1,457 | 1,458 | Property, plant and equipment, net | $ | 19,317"
       }
     }
   ],
@@ -65,12 +65,12 @@
       "state": "NY",
       "iso2": "US",
       "type": "headquarters",
-      "description": "Global headquarters in New York City; Pfizer had 251 owned and leased properties worldwide (about 37 million square feet) at end-2024.",
+      "description": "Global headquarters in New York City; Pfizer had 245 owned and leased properties worldwide (about 36 million square feet) at end-2025.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2. Properties",
-        "quote": "Our global headquarters are located in New York City. … As of December 31, 2024, we had 251 owned and leased properties worldwide, amounting to approximately 37 million square feet."
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "Our global headquarters are located in New York City. … As of December 31, 2025, we had 245 owned and leased properties worldwide, amounting to approximately 36 million square feet."
       }
     },
     {
@@ -214,6 +214,6 @@
       }
     }
   ],
-  "notes": "Pfizer's 10-K gives only company-wide facility counts (251 properties; Pfizer Global Supply responsible for 37 plants, 'including in Belgium, Germany, India, Ireland, Italy, Japan, Singapore and the U.S.') and PP&E for the U.S. versus two international groups; the 10-K does not say which countries are Developed or Emerging Markets. No state or country breakdown of employees, investment or taxes was found: the 10-K gives only 'approximately 81,000 people worldwide', and the 2024 Impact Report Performance Data file has no headcount by geography. pfizer.com's U.S. Manufacturing Sites page (undated, read Nov 2026) says 11 manufacturing sites and 2 distribution centers and 'More than 10,000 U.S. colleagues dedicated to manufacturing and supply operations', with no per-site headcount; ten of its sites are listed here; Sanford North NC is left out because the page describes it as not yet operational ('Once operational, the Sanford North facility will have the capabilities for producing biologics'). Revenue by geography is in the records and not repeated.",
-  "researchedAt": "2026-11-23"
+  "notes": "Pfizer's FY2025 10-K gives only company-wide facility counts (245 properties; Pfizer Global Supply responsible for 36 manufacturing plants, 'including in Belgium, Germany, India, Ireland, Italy, Japan, Singapore and the U.S.') and PP&E for the U.S. versus two international groups. Its glossary describes Developed Markets and Emerging Markets only non-exhaustively ('Includes, but is not limited to, the following markets: ...'), so no country list is attached to either region. No state or country breakdown of employees, investment or taxes was found: the 10-K gives only 'approximately 75,000 people worldwide', and the 2024 Impact Report Performance Data file had no headcount by geography (no newer Impact Report was checked for this edition). pfizer.com's U.S. Manufacturing Sites page (undated, re-read 2026-11-24 and unchanged) says 11 manufacturing sites and 2 distribution centers and 'More than 10,000 U.S. colleagues dedicated to manufacturing and supply operations', with no per-site headcount; ten of its sites are listed here; Sanford North NC is left out because the page describes it as not yet operational ('Once operational, the Sanford North facility will have the capabilities for producing biologics'). Revenue by geography is in the records and not repeated.",
+  "researchedAt": "2026-11-24"
 }

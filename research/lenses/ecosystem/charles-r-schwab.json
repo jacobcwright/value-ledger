@@ -1,8 +1,8 @@
 {
   "id": "charles-r-schwab",
   "company": "Charles Schwab",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ecosystem": {
@@ -10,35 +10,35 @@
     "measure": null,
     "platformRevenue": {
       "label": "Total net revenues",
-      "value": 19.61,
+      "value": 23.92,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 7 MD&A, client and financial metrics",
-        "quote": "Total net revenues 4% $ 19,606 $ 18,837 $ 20,762 [in millions; % change, 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 7 MD&A, company financial information and metrics",
+        "quote": "Total net revenues 22 % $ 23,921 $ 19,606 $ 18,837 [in millions; % change, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0000316709",
           "concept": "us-gaap:Revenues",
-          "end": "2024-12-31",
-          "value": 19606000000
+          "end": "2025-12-31",
+          "value": 23921000000
         }
       }
     },
     "payouts": null,
     "clientAssets": {
       "label": "Client assets",
-      "value": 10101.3,
-      "asOf": "2024-12-31",
+      "value": 11903.0,
+      "asOf": "2025-12-31",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 7 MD&A, client metrics",
-        "quote": "Client assets (in billions, at year end) 19% $ 10,101.3 $ 8,516.6 $ 7,049.8"
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 7 MD&A, client metrics",
+        "quote": "Client assets (in billions, at year end) 18 % $ 11,903.0 $ 10,101.3 $ 8,516.6"
       }
     },
     "studies": [],
-    "notes": "Client assets are a stock, defined in the 10-K glossary as \"The market value, as of the end of the reporting period, of all client assets in our custody, BDA balances, and proprietary products, which includes both cash and securities.\" No take rate is computed on them. The 10-K also reports net new client assets of $361.6 billion in 2024 (core: $366.9 billion); that is net client money moved onto the platform, not volume transacted through it, so it is not used as a measure. Total net revenues include net interest revenue ($9.1 billion in 2024)."
+    "notes": "Client assets are a stock (the market value at period end of all client assets in Schwab's custody, BDA balances and proprietary products, cash and securities). No take rate is computed on them. The 10-K also reports net new client assets of $498.6 billion in 2025 (core: $519.4 billion); that is net client money moved onto the platform, not volume transacted through it, so it is not used as a measure. Total net revenues include net interest revenue ($11.75 billion in 2025)."
   },
   "notes": "Ecosystem lens only.",
-  "researchedAt": "2026-11-23"
+  "researchedAt": "2026-11-24"
 }

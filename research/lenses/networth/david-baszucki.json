@@ -2,18 +2,18 @@
   "id": "david-baszucki",
   "name": "David Baszucki",
   "netWorth": {
-    "value": 3.7,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 979,
+    "value": 3.69,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 1119,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"david-baszucki\",\"rank\":979,\"listUri\":\"billionaires\",\"visible\":true,\"position\":982,\"premiumProfile\":false,\"imageExists\":false,\"embargo\":false,\"finalWorth\":3700.0,\"finalWorthBillions\":3.7,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"David Baszucki\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=1000",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"david-baszucki\",\"rank\":1119,\"listUri\":\"rtb\",\"visible\":true,\"position\":1119,\"imageExists\":false,\"bio\":\"\",\"finalWorth\":3690.401,\"finalWorthBillions\":3.690401,\"person\":{\"name\":\"David Baszucki\",\"uri\":\"david-baszucki\",\"imageExists\":false,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/615e05efefba96ce189bcce9/416x416.jpg?background=000000&cropX1=881&cropX2=2461&cropY1=69&cropY2=1648\"},\"personName\":\"David Baszucki\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"David Baszucki\" at rank 979 (ranks are shared on ties), net worth $3.7B, source \"Online games\".",
+  "notes": "Listed as \"David Baszucki\" at rank 1119, real-time net worth $3.7B, source \"Online games\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

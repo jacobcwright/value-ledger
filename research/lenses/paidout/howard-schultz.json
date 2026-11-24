@@ -1,119 +1,119 @@
 {
  "id": "howard-schultz",
  "company": "Starbucks",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-09-29",
+ "fiscalYear": "FY2026",
+ "fiscalYearEnd": "2026-09-27",
  "currency": "USD",
  "unit": "billions",
  "sector": "restaurants",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 36.1762,
-   "stated": 36176.2,
+   "value": 37.9106,
+   "stated": 37910.6,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
-    "quote": "Total net revenues 36,176.2 35,975.6 32,250.3",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000162/sbux-20260927.htm",
+    "label": "FY2026 Form 10-K, consolidated statement of earnings (in millions)",
+    "quote": "Total net revenues 37,910.6 37,184.4 36,176.2",
     "xbrl": {
      "cik": "0000829224",
      "concept": "us-gaap:Revenues",
-     "end": "2024-09-29",
-     "value": 36176200000
+     "end": "2026-09-27",
+     "value": 37910600000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 6.0956,
-   "stated": 6095.6,
+   "value": 4.9884,
+   "stated": 4988.4,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Net cash provided by operating activities 6,095.6 6,008.7 4,397.3",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000162/sbux-20260927.htm",
+    "label": "FY2026 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Net cash provided by/(used in) operating activities 4,988.4 4,747.5 6,095.6",
     "xbrl": {
      "cik": "0000829224",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-09-29",
-     "value": 6095600000
+     "end": "2026-09-27",
+     "value": 4988400000
     }
    }
   },
   "capex": {
-   "value": 2.7775,
+   "value": 1.2636,
    "components": [
-    "PP&E 2.7775"
+    "PP&E 1.2636"
    ],
-   "stated": 2777.5,
+   "stated": 1263.6,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Additions to property, plant and equipment ( 2,777.5 ) ( 2,333.6 ) ( 1,841.3 )",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000162/sbux-20260927.htm",
+    "label": "FY2026 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Additions to property, plant and equipment (1,263.6) (2,305.5) (2,777.5)",
     "xbrl": {
      "cik": "0000829224",
      "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-     "end": "2024-09-29",
-     "value": 2777500000
+     "end": "2026-09-27",
+     "value": 1263600000
     }
    }
   },
   "interestPaid": {
-   "value": 0.5707,
-   "stated": 570.7,
+   "value": 0.603,
+   "stated": 603.0,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Cash paid during the period for: Interest, net of capitalized interest $ 570.7 $ 524.3 $ 474.7 Income taxes $ 1,373.3 $ 1,294.2 $ 1,157.6",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000162/sbux-20260927.htm",
+    "label": "FY2026 Form 10-K, supplemental cash-flow information (in millions)",
+    "quote": "Cash paid during the period for: Interest, net of capitalized interest $ 603.0 $ 588.3 $ 570.7 Income taxes $ 684.0 $ 715.6 $ 1,373.3",
     "xbrl": {
      "cik": "0000829224",
      "concept": "us-gaap:InterestPaidNet",
-     "end": "2024-09-29",
-     "value": 570700000
+     "end": "2026-09-27",
+     "value": 603000000
     }
    }
   },
   "taxesPaid": {
-   "value": 1.3733,
-   "stated": 1373.3,
+   "value": 0.684,
+   "stated": 684.0,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Cash paid during the period for: Interest, net of capitalized interest $ 570.7 $ 524.3 $ 474.7 Income taxes $ 1,373.3 $ 1,294.2 $ 1,157.6",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000162/sbux-20260927.htm",
+    "label": "FY2026 Form 10-K, supplemental cash-flow information (in millions)",
+    "quote": "Cash paid during the period for: Interest, net of capitalized interest $ 603.0 $ 588.3 $ 570.7 Income taxes $ 684.0 $ 715.6 $ 1,373.3",
     "xbrl": {
      "cik": "0000829224",
      "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-09-29",
-     "value": 1373300000
+     "end": "2026-09-27",
+     "value": 684000000
     }
    }
   },
   "interestDividendsReceived": {
-   "value": 0.3333,
-   "stated": 333.3,
+   "value": 0.1879,
+   "stated": 187.9,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Distributions received from equity method investees 333.3 222.8 231.2"
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000162/sbux-20260927.htm",
+    "label": "FY2026 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Distributions received from equity method investees 187.9 294.4 333.3"
    }
   }
  },
- "paidOut": 32.8581,
- "paidOutFormula": "revenue 36,176.2 − operating cash flow 6,095.6 + capex 2,777.5 (USD millions, as stated)",
+ "paidOut": 34.1858,
+ "paidOutFormula": "revenue 37,910.6 − operating cash flow 4,988.4 + capex 1,263.6 (USD millions, as stated)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
   "financeReceivablesInOCF": false,
-  "interestDividendsReceivedInOCF": 0.3333,
+  "interestDividendsReceivedInOCF": 0.1879,
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Fiscal year ended September 29, 2024. Distributions from equity-method investees (333.3) sit in operating cash flow.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended September 27, 2026 (FY2026 Form 10-K, accession 0000829224-26-000162). Distributions from equity-method investees (187.9) sit in operating cash flow. The $2,544.2 million net proceeds from divesting the China retail operations are in investing activities and are not part of the formula; revenue includes China retail only until the third-quarter divestiture.",
+ "researchedAt": "2026-11-24"
 }

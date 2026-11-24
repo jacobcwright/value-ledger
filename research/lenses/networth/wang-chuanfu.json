@@ -2,18 +2,18 @@
   "id": "wang-chuanfu",
   "name": "Wang Chuanfu",
   "netWorth": {
-    "value": 26.4,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 76,
+    "value": 19.21,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 144,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"wang-chuanfu\",\"rank\":76,\"listUri\":\"billionaires\",\"visible\":true,\"position\":76,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":26400.0,\"finalWorthBillions\":26.4,\"category\":\"Automotive\",\"otherCompensation\":0,\"person\":{\"name\":\"Wang Chuanfu\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"wang-chuanfu\",\"rank\":144,\"listUri\":\"rtb\",\"visible\":true,\"position\":144,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":19209.836,\"finalWorthBillions\":19.209836,\"person\":{\"name\":\"Wang Chuanfu\",\"uri\":\"wang-chuanfu\",\"imageExists\":true,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/6902404b2ffc12e03e0d702e/416x416.jpg?background=000000&cropX1=201&cropX2=1643&cropY1=58&cropY2=1500\"},\"personName\":\"Wang Chuanfu\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Wang Chuanfu\" at rank 76 (ranks are shared on ties), net worth $26.4B, source \"Batteries, automobiles\".",
+  "notes": "Listed as \"Wang Chuanfu\" at rank 144, real-time net worth $19.2B, source \"Batteries, automobiles\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

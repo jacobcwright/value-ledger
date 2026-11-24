@@ -2,18 +2,18 @@
   "id": "marcel-herrmann-telles",
   "company": "AB InBev",
   "nbim": {
-    "pct": 0.99,
-    "marketValueUSD": 0.996,
-    "asOf": "2024-12-31",
+    "pct": 0.96,
+    "marketValueUSD": 1.609,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"58fekcb34egf\",\"cc\":\"BE\",\"n\":\"Anheuser-Busch InBev SA/NV\",\"a\":{\"e\":996240955,\"n\":11314657212},\"at\":0,\"o\":0.99,\"eq\":{\"vid\":\"ABI\",\"v\":0.99,\"s\":\"Consumer Staples\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"58fekcb34egf\",\"cc\":\"BE\",\"n\":\"Anheuser-Busch InBev SA/NV\",\"a\":{\"e\":1609208349,\"n\":15923921235},\"at\":0,\"o\":0.96,\"eq\":{\"vid\":\"ABI\",\"v\":0.96,\"s\":\"Consumer Staples\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": null,
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Europe;Belgium;Anheuser-Busch InBev SA/NV;Consumer Staples;11314657212;996240955;0.99%;0.99%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of AB InBev. Holders of record: The 2024 Form 20-F says AB InBev is 'not aware of the identity of all our shareholders' (dematerialized shares) and gives only U.S. record holders (4). No total stated.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: its Form 13F information table for the quarter ended September 30, 2026 (1,043 rows) has no AB InBev row; a search for 'Anheuser', 'Busch', 'InBev' and the ADS CUSIP 03524A108 found nothing, so calpers is null. Holders of record: the FY2025 Form 20-F says AB InBev is 'not aware of the identity of all our shareholders' because shares are dematerialized, and gives only U.S. record holders (4, holding 34,006,926 registered Ordinary Shares and 125,115,701 registered Restricted Shares at December 31, 2025). No total is stated.",
+  "researchedAt": "2026-11-24"
 }

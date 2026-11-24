@@ -1,8 +1,8 @@
 {
   "id": "david-baszucki",
   "company": "Roblox",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
@@ -10,35 +10,35 @@
       "value": 0.0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes, net $ 1,141 $ 3,145 $ 953 Supplemental disclosure [USD thousands; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 15 Income Taxes, net cash paid for income taxes",
+        "quote": "Total income taxes paid (net of refunds) $ 3,118 $ 1,141 $ 3,145 [USD thousands; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001315098",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 1141000
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-12-31",
+          "value": 3118000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 1.44,
+      "value": 1.57,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 1,444,207 1,253,598 873,477 General and administrative 407,507 [USD thousands; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations",
+        "quote": "Research and development 1,567,747 1,444,207 1,253,598 General and administrative 580,114 [USD thousands; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001315098",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 1444207000
+          "end": "2025-12-31",
+          "value": 1567747000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, net of refunds as presented. Taxes: 1,141,000 USD as filed, which rounds to 0.00 billion.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet ($3.118 million, net of refunds), from the by-jurisdiction table in the income-tax note (ASU 2023-09); it rounds to 0.00 billion.",
+  "researchedAt": "2026-11-24"
 }

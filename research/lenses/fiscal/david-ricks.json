@@ -1,44 +1,44 @@
 {
   "id": "david-ricks",
   "company": "Eli Lilly",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 6.56,
+      "value": 10.81,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash payments of U.S. federal, state, and foreign income taxes, net of refunds, were as follows: ... Cash payments of income taxes $ 6,562.1 $ 5,558.8 $ 2,672.9 As of December 31, [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 14 Income Taxes, cash payments of income taxes (dollars in millions)",
+        "quote": "Cash payments of U.S. federal, state, and foreign income taxes, net of refunds, were as follows: 2025 2024 2023 Cash payments of income taxes (1) $ 10,814 $ 6,562 $ 5,559",
         "xbrl": {
           "cik": "0000059478",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 6562100000
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-12-31",
+          "value": 10814000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 10.99,
+      "value": 13.34,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 10,990.6 9,313.4 7,190.8 Marketing, selling, and administrative [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations, research and development expense",
+        "quote": "Research and development 13,337 10,991 9,313 Marketing, selling, and administrative [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000059478",
           "concept": "us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost",
-          "end": "2024-12-31",
-          "value": 10990600000
+          "end": "2025-12-31",
+          "value": 13337000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: cash payments of income taxes net of refunds, from the income-tax note; 2025 included U.S. federal cash payments of $3.3 billion and cash payments to Ireland of $6.6 billion. R&D excludes acquired in-process R&D (2,910), which Lilly reports on a separate line.",
+  "researchedAt": "2026-11-24"
 }

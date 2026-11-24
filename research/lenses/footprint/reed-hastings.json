@@ -5,16 +5,16 @@
     "paidMemberships": {
       "label": "Paid memberships",
       "unit": "count",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2024 (last year Netflix reported memberships by region)",
       "tier": "filing",
       "definition": "Paid memberships at end of period (the 10-K table is in thousands; stored here as whole memberships). Netflix: a paid membership 'is defined as a membership that has the right to receive Netflix service following sign-up and a method of payment being provided, and that is not part of a free trial or certain other promotions'; extra member sub accounts are not included."
     },
     "employees": {
       "label": "Full-time employees",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Approximate full-time employees by location, from the 10-K Human Capital section (about 14,000 in total); excludes production staff who are part-time or temporary."
+      "definition": "Approximate full-time employees by location, from the FY2025 10-K Human Capital section (about 16,000 in total); excludes production staff who are part-time or temporary."
     }
   },
   "usStates": null,
@@ -27,60 +27,115 @@
         "CA"
       ],
       "values": {
-        "paidMemberships": 89625000,
-        "employees": 9600
+        "employees": 10900
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Human Capital",
+        "quote": "As of December 31, 2025, we had approximately 16,000 full-time employees. Of these, approximately 10,900 (68%) were located in the United States and Canada, 2,500 (16%) in Europe, Middle East, and Africa, 1,900 (12%) in Asia-Pacific and 700 (4%) in Latin America."
+      }
+    },
+    {
+      "name": "United States and Canada (UCAN)",
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "values": {
+        "paidMemberships": 89625000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 1 membership by region; Item 1 Human Capital",
-        "quote": "United States and Canada (UCAN) As of/Year Ended December 31, 2024 2023 2022 (in thousands) Streaming revenues $ 17,359,369 $ 14,873,783 $ 14,084,643 Paid net membership additions (losses) 9,497 5,832 ( 919 ) Paid memberships at end of period (1) 89,625 … Of these, approximately 9,600 (69%) were located in the United States and Canada, 2,200 (16%) in Europe, Middle East, and Africa, 600 (4%) in Latin America and 1,600 (11%) in Asia-Pacific."
+        "label": "FY2024 Form 10-K, Note 1 membership by region",
+        "quote": "United States and Canada (UCAN) As of/Year Ended December 31, 2024 2023 2022 (in thousands) Streaming revenues $ 17,359,369 $ 14,873,783 $ 14,084,643 Paid net membership additions (losses) 9,497 5,832 ( 919 ) Paid memberships at end of period (1) 89,625"
       }
     },
     {
       "name": "Europe, Middle East, and Africa (EMEA)",
       "countries": null,
       "values": {
-        "paidMemberships": 101133000,
-        "employees": 2200
+        "employees": 2500
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Human Capital",
+        "quote": "As of December 31, 2025, we had approximately 16,000 full-time employees. Of these, approximately 10,900 (68%) were located in the United States and Canada, 2,500 (16%) in Europe, Middle East, and Africa, 1,900 (12%) in Asia-Pacific and 700 (4%) in Latin America."
+      }
+    },
+    {
+      "name": "Europe, Middle East, and Africa (EMEA)",
+      "countries": null,
+      "values": {
+        "paidMemberships": 101133000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 1 membership by region; Item 1 Human Capital",
-        "quote": "Europe, Middle East, and Africa (EMEA) As of/Year Ended December 31, 2024 2023 2022 (in thousands) Streaming revenues $ 12,387,035 $ 10,556,487 $ 9,745,015 Paid net membership additions 12,320 12,084 2,693 Paid memberships at end of period (1) 101,133 … Of these, approximately 9,600 (69%) were located in the United States and Canada, 2,200 (16%) in Europe, Middle East, and Africa, 600 (4%) in Latin America and 1,600 (11%) in Asia-Pacific."
+        "label": "FY2024 Form 10-K, Note 1 membership by region",
+        "quote": "Europe, Middle East, and Africa (EMEA) As of/Year Ended December 31, 2024 2023 2022 (in thousands) Streaming revenues $ 12,387,035 $ 10,556,487 $ 9,745,015 Paid net membership additions 12,320 12,084 2,693 Paid memberships at end of period (1) 101,133"
       }
     },
     {
       "name": "Latin America (LATAM)",
       "countries": null,
       "values": {
-        "paidMemberships": 53327000,
-        "employees": 600
+        "employees": 700
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Human Capital",
+        "quote": "As of December 31, 2025, we had approximately 16,000 full-time employees. Of these, approximately 10,900 (68%) were located in the United States and Canada, 2,500 (16%) in Europe, Middle East, and Africa, 1,900 (12%) in Asia-Pacific and 700 (4%) in Latin America."
+      }
+    },
+    {
+      "name": "Latin America (LATAM)",
+      "countries": null,
+      "values": {
+        "paidMemberships": 53327000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 1 membership by region; Item 1 Human Capital",
-        "quote": "Latin America (LATAM) As of/Year Ended December 31, 2024 2023 2022 (in thousands) Streaming revenues $ 4,839,816 $ 4,446,461 $ 4,069,973 Paid net membership additions 7,330 4,298 1,738 Paid memberships at end of period (1) 53,327 … Of these, approximately 9,600 (69%) were located in the United States and Canada, 2,200 (16%) in Europe, Middle East, and Africa, 600 (4%) in Latin America and 1,600 (11%) in Asia-Pacific."
+        "label": "FY2024 Form 10-K, Note 1 membership by region",
+        "quote": "Latin America (LATAM) As of/Year Ended December 31, 2024 2023 2022 (in thousands) Streaming revenues $ 4,839,816 $ 4,446,461 $ 4,069,973 Paid net membership additions 7,330 4,298 1,738 Paid memberships at end of period (1) 53,327"
       }
     },
     {
       "name": "Asia-Pacific (APAC)",
       "countries": null,
       "values": {
-        "paidMemberships": 57541000,
-        "employees": 1600
+        "employees": 1900
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Human Capital",
+        "quote": "As of December 31, 2025, we had approximately 16,000 full-time employees. Of these, approximately 10,900 (68%) were located in the United States and Canada, 2,500 (16%) in Europe, Middle East, and Africa, 1,900 (12%) in Asia-Pacific and 700 (4%) in Latin America."
+      }
+    },
+    {
+      "name": "Asia-Pacific (APAC)",
+      "countries": null,
+      "values": {
+        "paidMemberships": 57541000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 1 membership by region; Item 1 Human Capital",
-        "quote": "Asia-Pacific (APAC) As of/Year Ended December 31, 2024 2023 2022 (in thousands) Streaming revenues $ 4,414,746 $ 3,763,727 $ 3,570,221 Paid net membership additions 12,203 7,315 5,391 Paid memberships at end of period (1) 57,541 … Of these, approximately 9,600 (69%) were located in the United States and Canada, 2,200 (16%) in Europe, Middle East, and Africa, 600 (4%) in Latin America and 1,600 (11%) in Asia-Pacific."
+        "label": "FY2024 Form 10-K, Note 1 membership by region",
+        "quote": "Asia-Pacific (APAC) As of/Year Ended December 31, 2024 2023 2022 (in thousands) Streaming revenues $ 4,414,746 $ 3,763,727 $ 3,570,221 Paid net membership additions 12,203 7,315 5,391 Paid memberships at end of period (1) 57,541"
       }
     }
   ],
@@ -94,8 +149,8 @@
       "description": "Leased principal property; location of the corporate headquarters",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2 Properties",
         "quote": "We have leased principal properties in both Los Gatos, California, which is the location of our corporate headquarters, and in Los Angeles, California."
       }
     },
@@ -108,8 +163,8 @@
       "description": "Leased principal property",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2 Properties",
         "quote": "We have leased principal properties in both Los Gatos, California, which is the location of our corporate headquarters, and in Los Angeles, California."
       }
     },
@@ -156,6 +211,6 @@
       }
     }
   ],
-  "notes": "Netflix reports memberships and employees only by its four regions (UCAN, EMEA, LATAM, APAC); no country or state figures. Each region row joins two passages of the same 10-K with ' … ': the Note 1 membership table and the Item 1 employee sentence. Memberships are printed in thousands and stored multiplied by 1,000 (301.6 million in total). Only UCAN carries a country list because the filing names it 'United States and Canada'; the other regions' member countries are not defined in the filing. Sites: HQ and LA from 10-K Item 2 (which gives no production-hub list); production hubs from Netflix's own news pages (Albuquerque 2024, Shepperton 2019, Tres Cantos 2022). Other hubs (e.g. Toronto, Fort Monmouth NJ plans) were not checked against a company page and are omitted.",
-  "researchedAt": "2026-11-23"
+  "notes": "Netflix reports employees and (through FY2024) memberships only by its four regions (UCAN, EMEA, LATAM, APAC); no country or state figures. Employees come from the FY2025 10-K Human Capital section (approximately 16,000 full-time employees at Dec 31, 2025). The FY2025 10-K no longer prints paid memberships by region (its MD&A says 'During the year ended December 31, 2025, we discontinued the reporting of membership numbers'), so the membership rows stay on the FY2024 10-K Note 1 table, as of Dec 31, 2024: printed in thousands and stored multiplied by 1,000 (301.6 million in total). Each region therefore has two rows, one per source and period. Only UCAN carries a country list because the filing names it 'United States and Canada'; the other regions' member countries are not defined in the filing. Sites: HQ and LA from the FY2025 10-K Item 2 (which gives no production-hub list); production hubs from Netflix's own news pages (Albuquerque 2024, Shepperton 2019, Tres Cantos 2022), all still live (checked 2026-11-24). Other hubs (e.g. Toronto, Fort Monmouth NJ plans) were not checked against a company page and are omitted.",
+  "researchedAt": "2026-11-24"
 }

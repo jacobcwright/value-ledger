@@ -1,0 +1,38 @@
+{
+  "id": "daniel-ek",
+  "company": "Spotify Technology",
+  "classes": [
+    {
+      "label": "Ordinary shares",
+      "shares": 205525454,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "SPOT",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "Ordinary shares issued and fully paid at September 30, 2026",
+          "value": 210741268,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026066889/spot-20260930x6xk.htm",
+            "label": "Form 6-K (Q3 2026 interim financial statements), Note 13 Equity and other reserves",
+            "quote": "As of September 30, 2026 and December 31, 2025, the Company had 210,741,268 and 209,485,215 ordinary shares issued and fully paid, respectively, with 5,215,814 and 3,652,688 ordinary shares held as treasury shares, respectively."
+          }
+        },
+        {
+          "label": "Less ordinary shares held as treasury shares at September 30, 2026",
+          "value": -5215814,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026066889/spot-20260930x6xk.htm",
+            "label": "Form 6-K (Q3 2026 interim financial statements), Note 13 Equity and other reserves",
+            "quote": "As of September 30, 2026 and December 31, 2025, the Company had 210,741,268 and 209,485,215 ordinary shares issued and fully paid, respectively, with 5,215,814 and 3,652,688 ordinary shares held as treasury shares, respectively."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Spotify's ordinary shares are listed on the NYSE as SPOT (its only listing; not an ADR). No document states shares outstanding after September 30, 2026, so the count is computed from the Q3 2026 6-K (filed October 22, 2026): 210,741,268 issued minus 5,215,814 treasury shares. The FY2025 20-F cover gave 205,832,527 outstanding at December 31, 2025. Beneficiary certificates (309,932,980 at December 31, 2025) carry votes but no economic rights and are left out.",
+  "researchedAt": "2026-11-24"
+}

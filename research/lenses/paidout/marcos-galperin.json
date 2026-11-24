@@ -1,168 +1,168 @@
 {
-  "id": "marcos-galperin",
-  "company": "MercadoLibre",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
-  "currency": "USD",
-  "unit": "billions",
-  "sector": "marketplace",
-  "comparable": true,
-  "inputs": {
-    "revenue": {
-      "value": 20.777,
-      "stated": 20777,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
-        "quote": "Net service revenues and financial income $ 18,638 $ 13,617 $ 9,685 Net product revenues 2,139 1,490 1,095 Net revenues and financial income 20,777 15,107 10,780",
-        "xbrl": {
-          "cik": "0001099590",
-          "concept": "us-gaap:Revenues",
-          "end": "2024-12-31",
-          "value": 20777000000
-        }
-      },
-      "note": "Includes Fintech revenues (including credit revenues) and net product revenues (2,139)."
-    },
-    "operatingCashFlow": {
-      "value": 7.918,
-      "stated": 7918,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Interest received from investments 229 255 123 Net cash provided by operating activities 7,918 5,140 2,940",
-        "xbrl": {
-          "cik": "0001099590",
-          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": 7918000000
-        }
-      }
-    },
-    "capex": {
-      "value": 0.86,
-      "components": [
-        "property and equipment and intangible assets (combined line) 0.86"
-      ],
-      "stated": 860,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Investments of property and equipment and intangibles assets ( 860 ) ( 509 ) ( 455 )",
-        "xbrl": {
-          "cik": "0001099590",
-          "concept": "us-gaap:PaymentsToAcquireProductiveAssets",
-          "end": "2024-12-31",
-          "value": 860000000
-        }
-      }
-    },
-    "interestPaid": {
-      "value": 0.456,
-      "inOCF": true,
-      "stated": 456,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Supplemental cash flow information: Cash paid for interest $ 456 $ 608 $ 247 Cash paid for income tax 1,052 651 437",
-        "xbrl": {
-          "cik": "0001099590",
-          "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-12-31",
-          "value": 456000000
-        }
-      }
-    },
-    "taxesPaid": {
-      "value": 1.052,
-      "inOCF": true,
-      "stated": 1052,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Supplemental cash flow information: Cash paid for interest $ 456 $ 608 $ 247 Cash paid for income tax 1,052 651 437",
-        "xbrl": {
-          "cik": "0001099590",
-          "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 1052000000
-        }
-      }
-    },
-    "otherNamedItems": {
-      "fundsPayableToCustomersInOCF": {
-        "value": 3.605,
-        "stated": 3605,
-        "source": {
-          "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-          "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-          "quote": "Funds payable to customers 3,605 1,502 1,044"
-        },
-        "note": "Growth in Mercado Pago customer balances raises operating cash flow and so lowers paidOut."
-      },
-      "loansReceivableChangeInInvesting": {
-        "value": -4.688,
-        "stated": -4688,
-        "source": {
-          "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-          "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-          "quote": "Changes in loans receivable, net ( 4,688 ) ( 2,047 ) ( 1,701 )"
-        },
-        "note": "Credit-book growth is classified in investing, not operating, cash flow, so financeReceivablesInOCF is false."
-      }
+ "id": "marcos-galperin",
+ "company": "MercadoLibre",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "marketplace",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 28.893,
+   "stated": 28893,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of income (in millions)",
+    "quote": "Net service revenues and financial income $ 25,286 $ 18,638 $ 13,617 Net product revenues 3,607 2,139 1,490 Net revenues and financial income 28,893 20,777 15,107",
+    "xbrl": {
+     "cik": "0001099590",
+     "concept": "us-gaap:Revenues",
+     "end": "2025-12-31",
+     "value": 28893000000
     }
+   },
+   "note": "Includes Fintech revenues (including credit revenues) and net product revenues (2,139)."
   },
-  "paidOut": 13.719,
-  "paidOutFormula": "20.777 − 7.918 + 0.86",
-  "altPaidOut": null,
-  "salesEnabled": {
-    "value": 39.308,
-    "measure": "Gross merchandise volume",
-    "measureValue": 51.467,
-    "platformRevenue": 10.076,
-    "platformRevenueLabel": "Commerce services revenues (marketplace fees, related shipping and storage fees, classifieds fees and ad sales; excludes first-party product sales)",
-    "formula": "51.467 − 10.076 − 2.083 (first-party product sales)",
-    "from": "research/lenses/ecosystem/marcos-galperin.json",
-    "firstPartySales": {
-      "value": 2.083,
-      "stated": 2083,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-        "label": "FY2024 Form 10-K, revenue table (in millions)",
-        "quote": "Commerce services (1) $ 5,695 $ 2,608 $ 1,207 $ 566 $ 10,076 Commerce products sales (2) 1,343 464 200 76 2,083 Total commerce revenues 7,038 3,072 1,407 642 12,159"
-      },
-      "definition": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-        "label": "FY2024 Form 10-K, note 2, revenue disaggregation footnote (2)",
-        "quote": "(2) Includes revenues from inventory sales and related shipping fees."
-      },
-      "inMeasure": {
-        "source": {
-          "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-          "label": "FY2024 Form 10-K, Item 1, Business",
-          "quote": "Third-party sellers (\"3P\") account for most of the GMV transacted on the Marketplace. We complement this by selling directly to consumers on a first-party basis (\"1P\") in selected categories where we can enhance price competitiveness and assortment; this accounts for less than 10% of GMV."
-        }
-      }
+  "operatingCashFlow": {
+   "value": 12.116,
+   "stated": 12116,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Interest received from investments 584 229 255 Net cash provided by operating activities 12,116 7,918 5,140",
+    "xbrl": {
+     "cik": "0001099590",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2025-12-31",
+     "value": 12116000000
+    }
+   }
+  },
+  "capex": {
+   "value": 1.343,
+   "components": [
+    "property and equipment, intangible assets and intangible assets at fair value (combined line) 1.343"
+   ],
+   "stated": 1343,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Investments in property and equipment, intangible assets and intangible assets at fair value ( 1,343 ) ( 860 ) ( 509 )",
+    "xbrl": {
+     "cik": "0001099590",
+     "concept": "us-gaap:PaymentsToAcquireProductiveAssets",
+     "end": "2025-12-31",
+     "value": 1343000000
+    }
+   }
+  },
+  "interestPaid": {
+   "value": 0.611,
+   "inOCF": true,
+   "stated": 611,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Supplemental cash flow information: Cash paid for interest $ 611 $ 456 $ 608 Cash paid for income tax 1,013 1,052 651",
+    "xbrl": {
+     "cik": "0001099590",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2025-12-31",
+     "value": 611000000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 1.013,
+   "inOCF": true,
+   "stated": 1013,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Supplemental cash flow information: Cash paid for interest $ 611 $ 456 $ 608 Cash paid for income tax 1,013 1,052 651",
+    "xbrl": {
+     "cik": "0001099590",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2025-12-31",
+     "value": 1013000000
+    }
+   }
+  },
+  "otherNamedItems": {
+   "fundsPayableToCustomersInOCF": {
+    "value": 5.341,
+    "stated": 5341,
+    "source": {
+     "hostType": "sec",
+     "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+     "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+     "quote": "Funds payable to customers 5,341 3,605 1,502"
     },
-    "valueBeforeFirstParty": 41.391,
-    "note": "The 10-K says GMV includes first-party (1P) sales (\"less than 10% of GMV\") and states 1P product-sales revenue: \"Commerce products sales\" of 2,083, defined as revenues from inventory sales and related shipping fees. That stated amount is subtracted, since 1P sales are MercadoLibre's own sales, not third parties'. The 1P GMV is not stated as such; the revenue figure is used as the stated amount. Without the subtraction salesEnabled would be 41.391bn."
+    "note": "Growth in Mercado Pago customer balances raises operating cash flow and so lowers paidOut."
+   },
+   "loansReceivableChangeInInvesting": {
+    "value": -6.659,
+    "stated": -6659,
+    "source": {
+     "hostType": "sec",
+     "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+     "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+     "quote": "Changes in loans receivable, net ( 6,659 ) ( 4,688 ) ( 2,047 )"
+    },
+    "note": "Credit-book growth is classified in investing, not operating, cash flow, so financeReceivablesInOCF is false."
+   }
+  }
+ },
+ "paidOut": 18.12,
+ "paidOutFormula": "28.893 − 12.116 + 1.343",
+ "altPaidOut": null,
+ "salesEnabled": {
+  "value": 48.743,
+  "measure": "Gross merchandise volume",
+  "measureValue": 65.037,
+  "platformRevenue": 12.75,
+  "platformRevenueLabel": "Commerce services revenues (marketplace fees, related shipping and storage fees, classifieds fees and ad sales; excludes first-party product sales)",
+  "formula": "65.037 − 12.75 − 3.544 (first-party product sales)",
+  "from": "research/lenses/ecosystem/marcos-galperin.json",
+  "firstPartySales": {
+   "value": 3.544,
+   "stated": 3544,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+    "label": "FY2025 Form 10-K, Note 8 Segments, revenue table (in millions)",
+    "quote": "Commerce services (1) $ 6,859 $ 3,432 $ 1,722 $ 737 $ 12,750 Commerce products sales (2) 2,325 753 312 154 3,544 Total commerce revenues 9,184 4,185 2,034 891 16,294"
+   },
+   "definition": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+    "label": "FY2025 Form 10-K, Note 8 Segments, revenue disaggregation footnote (2)",
+    "quote": "(2) Includes revenues from inventory sales and related shipping fees."
+   },
+   "inMeasure": {
+    "source": {
+     "hostType": "sec",
+     "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+     "label": "FY2025 Form 10-K, Item 1, Business",
+     "quote": "Third-party sellers (\"3P\") account for most of the GMV transacted on the Marketplace. We complement this by selling directly to consumers on a first-party basis (\"1P\") in selected categories where we can enhance price competitiveness and assortment; this accounts for less than 10% of GMV."
+    }
+   }
   },
-  "flags": {
-    "financeReceivablesInOCF": false,
-    "interestDividendsReceivedInOCF": 0.229,
-    "revenueIncludesExcise": false,
-    "nonCashRevenue": null
-  },
-  "notes": "Financial-services heavy (Mercado Pago credit): provisions for doubtful accounts are non-cash add-backs and loan growth sits in investing (other.loansReceivableChangeInInvesting), so it does not inflate paidOut. Interest received from investments (229) is inside operating cash flow.",
-  "researchedAt": "2026-11-23"
+  "valueBeforeFirstParty": 52.287,
+  "note": "The 10-K says GMV includes first-party (1P) sales (\"less than 10% of GMV\") and states 1P product-sales revenue: \"Commerce products sales\" of 3,544, defined as revenues from inventory sales and related shipping fees. That stated amount is subtracted, since 1P sales are MercadoLibre's own sales, not third parties'. The 1P GMV is not stated as such; the revenue figure is used as the stated amount. Without the subtraction salesEnabled would be 52.287bn. From Q2 2025 GMV includes food delivery transactions."
+ },
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": 0.584,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001099590-26-000006). Financial-services heavy (Mercado Pago credit): provisions for doubtful accounts (3,091) are non-cash add-backs and loan growth sits in investing (otherNamedItems.loansReceivableChangeInInvesting), so it does not inflate paidOut; growth in funds payable to customers (5,341) does raise operating cash flow and so lowers paidOut. Interest received from investments (584) is inside operating cash flow. Capex is one combined line (property and equipment, intangible assets and intangible assets at fair value).",
+ "researchedAt": "2026-11-24"
 }

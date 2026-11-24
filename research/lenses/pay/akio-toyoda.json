@@ -1,0 +1,31 @@
+{
+  "id": "akio-toyoda",
+  "company": "Toyota Motor Corporation",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
+  "currency": "JPY",
+  "employees": {
+    "value": 390927,
+    "asOf": "2026-03-31",
+    "basis": "total number of Toyota employees, on a consolidated basis",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+      "label": "FY2026 Form 20-F, Item 6.D Employees",
+      "quote": "The total number of Toyota employees, on a consolidated basis, was 390,927 as of March 31, 2026, 383,853 as of March 31, 2025, and 380,793 as of March 31, 2024."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Payroll expenses",
+    "value": 5081.96,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+      "label": "FY2026 Form 20-F, note 23 Employee benefits, (9) Payroll expenses",
+      "quote": "Payroll expenses included in “Cost of products sold” and “Selling, general and administrative” in the consolidated statement of income (including expenses for post-employment benefit plans) for the years ended March 31, 2024, 2025 and 2026 are ¥4,385,112 million, ¥4,794,497 million and ¥5,081,959 million, respectively."
+    }
+  },
+  "notes": "Employees: year-end head count at March 31, 2026, consolidated. It excludes temporary employees, whose average number during fiscal 2026 was 99,032 (20-F Item 6.D). Payroll: note 23(9) 'Payroll expenses' of ¥5,081,959 million, as reported: the payroll included in cost of products sold and SG&A, including post-employment benefit plan costs. Payroll in the cost of financial services, if any, is not stated separately. Billions of JPY.",
+  "researchedAt": "2026-11-24"
+}

@@ -1,32 +1,32 @@
 {
   "id": "johann-rupert",
   "company": "Compagnie Financière Richemont",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-03-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
   "currency": "EUR",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.94,
+      "value": 0.91,
       "source": {
         "hostType": "company",
-        "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-        "label": "FY25 Annual Report, consolidated statement of cash flows",
-        "quote": "Taxation paid (937) (834) [€m, years ended 31 March 2025 and 2024]"
+        "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+        "label": "FY26 Annual Report, consolidated statement of cash flows",
+        "quote": "Taxation paid (913) (937) [€m, years ended 31 March 2026 and 2025]"
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 0.09,
+      "value": 0.1,
       "source": {
         "hostType": "company",
-        "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-        "label": "FY25 Annual Report, note 26 Operating profit (items of expense)",
-        "quote": "Research and development costs 85 90 [€m, years ended 31 March 2025 and 2024]"
+        "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+        "label": "FY26 Annual Report, note 26 Operating profit (items of expense)",
+        "quote": "Research and development costs 102 85 [€m, years ended 31 March 2026 and 2025]"
       }
     }
   },
-  "notes": "Taxes: 'Taxation paid' in the consolidated cash flow statement (covers continuing and discontinued YNAP operations). R&D: no R&D line on the income statement; note 26 lists research and development costs of €85m among items included in operating profit (continuing operations); printed €85m rounds to 0.09.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: 'Taxation paid' in the consolidated cash flow statement (group-wide, including the few weeks of YNAP before its sale). R&D: no R&D line on the income statement; note 26 lists research and development costs of €102m among items included in operating profit; printed €102m rounds to 0.10.",
+  "researchedAt": "2026-11-24"
 }

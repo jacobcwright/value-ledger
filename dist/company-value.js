@@ -3,12 +3,12 @@
 // research/lenses (see research/SCHEMA.md and research/LENSES.md). Values are billions of the stated currency.
 // Each lens is shown on its own and never added to another or to market value. Paid out is the one lens
 // that adds figures together, and only its own parts (revenue − operating cash flow + capex, then sales
-// enabled for marketplaces); estimated pay is inside it and never added to it.
+// enabled for marketplaces); pay to workers is inside it and never added to it.
 // Amazon keeps its bespoke case study; its file carries only the added lenses (ecosystem, taxes, R&D),
 // which mount as a small standalone section after the case study.
 // Defensive by design: every figure is shown only when it has a number and an https source, and never
 // when it is not-sourced. A leader with no publishable file still gets the provenance block for the
-// ranking's own figures (market value, people employed, estimated pay).
+// ranking's own figures (market value, people employed, pay to workers).
 const companyValueRecords = new Map();
 // The mirror/aggregator list and allowed host types (same as scripts/validate-records.mjs) live in
 // ownership-headline.js, which loads first: never link a researched figure to a mirror.
@@ -363,10 +363,10 @@ function cvWorkers(record, leader) {
     html:`${cvPanelHead(`How did ${cvPossessive(escapeHtml(leader.company))} workers share?`,cvYearLine(record,Boolean(stock)))}
       <div class="cv-totals">
         ${stock ? `<div><strong>${cvMoney(stock.value,record.currency)}</strong><span>Stock-based compensation expense, ${escapeHtml(record.fiscalYear || "")}</span></div>` : ""}
-        <div><strong>${compactMoney(leader.payroll)}</strong><span>${metrics.payroll}</span></div>
+        <div><strong>${finiteNumber(leader.payroll) ? compactMoney(leader.payroll) : "Not disclosed"}</strong><span>${metrics.payroll}${leader.payBasis === "median-pay" ? " (median pay × people employed)" : ""}</span></div>
       </div>
       ${planShown ? `<p class="cv-plan">${escapeHtml(planShown.text)}</p>` : ""}
-      ${stock ? `<p class="distribution-note">Pay is our ${record.currency === "USD" ? "" : "USD "}estimate; stock pay is ${cvPossessive(escapeHtml(leader.company))} reported expense${record.currency === "USD" ? "" : " in " + escapeHtml(record.currency)}. The bases differ.</p>` : ""}`
+      ${stock ? `<p class="distribution-note">Pay is ${leader.payBasis === "median-pay" ? "median pay × people employed" : "reported staff costs"}, in USD; stock pay is ${cvPossessive(escapeHtml(leader.company))} reported expense${record.currency === "USD" ? "" : " in " + escapeHtml(record.currency)}. The bases differ.</p>` : ""}`
   };
 }
 
@@ -715,19 +715,27 @@ function cvPaidout(record, leader) {
       <ol class="cv-po-steps" aria-label="How paid out is calculated">${steps.join("")}</ol>
       ${sales ? `<p class="distribution-note">Sales enabled is the part of ${measureName} that ${company} didn’t keep as revenue: sales made by others on its platform. It is the one addition beyond what ${company} itself paid.</p>` : ""}
       ${caveats.length ? `<ul class="cv-po-caveats" aria-label="Caveats">${caveats.map(item => `<li><span class="cv-tier">Caveat</span> ${item.text}</li>`).join("")}</ul>` : ""}
-      <p class="distribution-note">Estimated pay to workers (${compactMoney(leader.payroll)}) is already inside paid out and is never added to it. Paid out is never totaled across the list: one company’s payment is another’s revenue.</p>`
+      <p class="distribution-note">Pay to workers${finiteNumber(leader.payroll) ? " (" + compactMoney(leader.payroll) + ")" : ""} is already inside paid out and is never added to it. Paid out is never totaled across the list: one company’s payment is another’s revenue.</p>`
   };
 }
 
-// The ranking's own figures (dist/data.js). They are not filings: market value is market data, the
-// employment count comes from the linked source, and pay is our estimate.
-function cvRankingProof(leader) {
-  const jobsTier = /sec\.gov/.test(leader.jobsUrl || "") ? "record" : "market";
-  const link = (url, label) => url && /^https:\/\//.test(url) ? [{url,label,quote:""}] : [];
+// The ranking's own figures (dist/data.js, stamped by scripts/build-edition.mjs from the record's `ranking`):
+// market value = reported shares × the edition-date close (÷ FX); people employed and pay as reported.
+function cvRankingProof(leader, record) {
+  const r = record?.ranking || {};
+  const src = s => s?.url ? [{url:s.url,label:s.label || "",quote:s.quote || ""}] : [];
+  const mc = r.marketcap, pay = r.pay;
+  const shareSources = mc ? mc.classes.flatMap(c => c.computedFrom ? c.computedFrom.flatMap(part => src(part.source)) : src(c.source)) : [];
+  const priceSources = mc ? [...mc.prices.flatMap(p => src(p.source)),...mc.fx.flatMap(f => src(f.source))] : [];
+  const classes = mc ? mc.classes.map(c => `${integer.format(c.shares)} ${escapeHtml(c.label)} (as of ${cvDate(c.sharesAsOf) || c.sharesAsOf}) priced as ${escapeHtml(c.pricedAs)}${(c.perListedUnit ?? 1) !== 1 ? " × " + c.perListedUnit : ""}`).join("; ") : "";
+  const payText = !finiteNumber(leader.payroll) ? "The company reports no staff-cost total, and no median pay."
+    : leader.payBasis === "median-pay" ? `${integer.format(leader.jobs)} people × ${dollars.format(leader.wage)} median pay (the proxy statement’s CEO pay ratio disclosure). The median is not an average, so this understates total pay where pay is skewed.`
+    : `Total staff costs as reported (${escapeHtml(pay?.payroll?.label || "personnel expense")}), converted to USD at the fiscal year’s average rate.`;
   return [
-    cvProof(metrics.cap,compactMoney(leader.cap),"Year-end 2024","market",link(leader.capUrl,"CompaniesMarketCap"),"Market capitalization: shares outstanding × share price at year-end 2024. A snapshot of what owners hold."),
-    cvProof(metrics.jobs,integer.format(leader.jobs),leader.fy,jobsTier,link(leader.jobsUrl,"Employment source"),"Direct employees worldwide, as reported."),
-    cvProof(metrics.payroll,compactMoney(leader.payroll),leader.fy,"estimate",[],`${integer.format(leader.jobs)} people × ${dollars.format(leader.wage)} assumed yearly pay per person. An estimate, not a reported figure.`)
+    cvProof(metrics.cap,compactMoney(leader.cap),edition.pricesAsOfLabel,mc ? "derived" : "market",[...shareSources,...priceSources],
+      mc ? `Market value: shares outstanding × closing price on ${edition.pricesAsOfLabel}, in USD at that day’s Federal Reserve rate. ${classes}.` : "Market capitalization."),
+    cvProof(metrics.jobs,integer.format(leader.jobs),leader.fy,"record",pay ? src(pay.employees.source) : [],pay ? `${escapeHtml(pay.employees.basis || "Employees")}, as reported.` : "Direct employees worldwide, as reported."),
+    cvProof(metrics.payroll,finiteNumber(leader.payroll) ? compactMoney(leader.payroll) : "Not disclosed",pay?.payroll?.period || leader.fy,finiteNumber(leader.payroll) ? (leader.payBasis === "median-pay" ? "derived" : "record") : "record",pay?.payroll ? src(pay.payroll.source) : [],payText)
   ];
 }
 // Net worth (research/lenses/networth): a third-party estimate of the leader's personal wealth, from the list's
@@ -743,7 +751,7 @@ function cvNetworthProof(record) {
   // No quote: the list's raw record is checked by verify-quotes but not reprinted (it carries the publisher's own bio).
   const source = {url,label:`${publisher}${year ? " " + year : ""} list data`,quote:""};
   return [cvProof(nw.withFamily ? "Net worth (with family)" : "Net worth",compactMoney(nw.value),monthYear(nw.asOf),"third-party",[source],
-    [`${publisher}’s estimate${year ? " in its " + year + " list" : ""}, measured as of ${cvDate(nw.asOf) || nw.asOf}.`,
+    [`${publisher}’s ${/real-time/i.test(nw.list || "") ? "real-time " : ""}estimate${year ? " in its " + year + " list" : ""}, measured as of ${cvDate(nw.asOf) || nw.asOf}.`,
       nw.withFamily ? "The list names this entry “& family”, so it covers wealth it attributes to the family, not one person alone." : "",
       "A third-party estimate of personal wealth, not a company filing. Shown beside the stake, never added to value created or to any lens."].filter(Boolean).join(" "))];
 }
@@ -774,7 +782,7 @@ function cvRender(record, leader) {
   const views = record ? companyValueViews.filter(([key]) => allowed.includes(key)).map(([key,label,chip]) => ({key,label,chip,panel:cvPanels[key](record,leader)})).filter(view => view.panel) : [];
   // The footprint panel (company-footprint.js) sits further down the profile; its figures are listed here too.
   const footprint = record && !lensOnly && typeof companyFootprintProof === "function" ? companyFootprintProof(record,leader) : [];
-  const provenance = cvProvenance([{label:"The ranking",proof:cvRankingProof(leader)},...views.map(view => ({label:view.label,proof:view.panel.proof || []})),...footprint,{label:"Net worth",proof:cvNetworthProof(record)}]);
+  const provenance = cvProvenance([{label:"The ranking",proof:cvRankingProof(leader,record)},...views.map(view => ({label:view.label,proof:view.panel.proof || []})),...footprint,{label:"Net worth",proof:cvNetworthProof(record)}]);
   if (!views.length) return {body:"",provenance};
   const company = escapeHtml(leader.company);
   return {provenance,body:`

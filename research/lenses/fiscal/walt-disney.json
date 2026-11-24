@@ -1,28 +1,28 @@
 {
   "id": "walt-disney",
   "company": "The Walt Disney Company",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-09-28",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-10-03",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 3.96,
+      "value": 3.92,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Income taxes paid $ 3,963 $ 1,193 $ 1,097 See Notes to [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, Note 9 Income Taxes, income taxes paid (in millions)",
+        "quote": "Income Taxes Paid Cash paid for income taxes, net of refunds received, by jurisdiction is as follows: 2026 U.S. federal $ 2,262 ... Cash paid for income taxes, net of refunds received $ 3,916 [USD millions, fiscal 2026]",
         "xbrl": {
           "cik": "0001744489",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-09-28",
-          "value": 3963000000
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2026-10-03",
+          "value": 3916000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line in the FY2024 10-K.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: cash paid for income taxes, net of refunds, from the FY2026 10-K income-tax note by jurisdiction (U.S. federal 2,262, California 207, other state 315, United Kingdom 315, other foreign 817; total 3,916 million). It includes a $1.8 billion payment of fiscal 2025 and part of fiscal 2024 U.S. federal and California taxes deferred under 2025 California wildfire relief, so fiscal 2026 is unusually high. R&D is not reported as a separate line in the FY2026 10-K.",
+  "researchedAt": "2026-11-24"
 }

@@ -3,18 +3,32 @@
   "company": "Biocon",
   "metrics": {
     "plants": {
-      "label": "Manufacturing locations",
+      "label": "Manufacturing locations (Biocon Limited)",
       "unit": "count",
-      "period": "FY2024 (Apr 2023 – Mar 2024)",
+      "period": "FY2026 (Apr 2025 – Mar 2026)",
       "tier": "filing",
-      "definition": "'Number of plants' in BRSR Section A item 18 ('Number of locations where plants and/or operations/offices of the entity are situated'): India 5 (2 Bengaluru, 1 Hyderabad, 2 Visakhapatnam); international 2 (Malaysia, New Jersey). Boundary: Biocon Limited and Biocon Biologics (India and Malaysia), excluding Syngene."
+      "definition": "BRSR Section A item 18 ('Number of locations where plants and/or operations/offices of the entity are situated'), FY2026, which reports Biocon Limited and Biocon Biologics in separate tables (Syngene excluded). 'Number of Plants' in the Biocon Limited table. Do not add to the Biocon Biologics counts; the BRSR does not say whether locations overlap."
     },
     "offices": {
-      "label": "Offices",
+      "label": "Offices (Biocon Limited)",
       "unit": "count",
-      "period": "FY2024 (Apr 2023 – Mar 2024)",
+      "period": "FY2026 (Apr 2025 – Mar 2026)",
       "tier": "filing",
-      "definition": "'Number of offices' in the same BRSR item; same boundary (excludes Syngene)."
+      "definition": "BRSR Section A item 18 ('Number of locations where plants and/or operations/offices of the entity are situated'), FY2026, which reports Biocon Limited and Biocon Biologics in separate tables (Syngene excluded). 'Number of Offices' in the Biocon Limited table."
+    },
+    "biologicsPlants": {
+      "label": "Manufacturing locations (Biocon Biologics)",
+      "unit": "count",
+      "period": "FY2026 (Apr 2025 – Mar 2026)",
+      "tier": "filing",
+      "definition": "BRSR Section A item 18 ('Number of locations where plants and/or operations/offices of the entity are situated'), FY2026, which reports Biocon Limited and Biocon Biologics in separate tables (Syngene excluded). 'Number of Plants' in the Biocon Biologics table (India and Malaysia operations of Biocon Biologics Limited)."
+    },
+    "biologicsOffices": {
+      "label": "Offices (Biocon Biologics)",
+      "unit": "count",
+      "period": "FY2026 (Apr 2025 – Mar 2026)",
+      "tier": "filing",
+      "definition": "BRSR Section A item 18 ('Number of locations where plants and/or operations/offices of the entity are situated'), FY2026, which reports Biocon Limited and Biocon Biologics in separate tables (Syngene excluded). 'Number of Offices' in the Biocon Biologics table."
     }
   },
   "usStates": null,
@@ -24,14 +38,16 @@
       "name": "India",
       "values": {
         "plants": 5,
-        "offices": 18
+        "offices": 1,
+        "biologicsPlants": 2,
+        "biologicsOffices": 1
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_BRSR_GRI_ESG_Databook_2024.pdf",
-        "label": "FY2024 BRSR (Supplementary Data Book to the Integrated Annual Report FY2024), Section A.III.18",
-        "quote": "National 5 Manufacturing Locations (2 plant - Bengaluru, 1 plant - Hyderabad, 2 plant -Visakhapatnam) 18 23"
+        "url": "https://www.biocon.com/docs/Biocon_BRSR_GRI_ESG_Databook_2026.pdf",
+        "label": "FY2026 BRSR (Business Responsibility and Sustainability Report, Integrated Annual Report FY2026 data book), Section A.III.18",
+        "quote": "Biocon Limited Location Number of Plants Number of Offices Total National 5 1 6 International 1 6 7 Biocon Biologics Location Number of Plants Number of Offices Total National 2 1 3 International 1 17 18"
       }
     }
   ],
@@ -40,15 +56,17 @@
       "name": "International (outside India)",
       "countries": null,
       "values": {
-        "plants": 2,
-        "offices": 12
+        "plants": 1,
+        "offices": 6,
+        "biologicsPlants": 1,
+        "biologicsOffices": 17
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_BRSR_GRI_ESG_Databook_2024.pdf",
-        "label": "FY2024 BRSR (Supplementary Data Book to the Integrated Annual Report FY2024), Section A.III.18",
-        "quote": "International 2 Manufacturing Locations (Malaysia, New, Jersey) 12 14"
+        "url": "https://www.biocon.com/docs/Biocon_BRSR_GRI_ESG_Databook_2026.pdf",
+        "label": "FY2026 BRSR (Business Responsibility and Sustainability Report, Integrated Annual Report FY2026 data book), Section A.III.18",
+        "quote": "Biocon Limited Location Number of Plants Number of Offices Total National 5 1 6 International 1 6 7 Biocon Biologics Location Number of Plants Number of Offices Total National 2 1 3 International 1 17 18"
       }
     }
   ],
@@ -59,40 +77,40 @@
       "state": null,
       "iso2": "IN",
       "type": "headquarters",
-      "description": "Headquarters, marked 'HQ' on the report's Our Global Presence map",
+      "description": "Headquarters, marked 'HQ' in the report",
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-        "label": "Integrated Annual Report FY2024, Our Global Presence",
-        "quote": "Bengaluru, India(HQ)"
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+        "label": "Integrated Annual Report FY2026, global presence",
+        "quote": "Bengaluru, India (HQ)"
       }
     },
     {
-      "name": "Biocon Park peptide facility",
+      "name": "Biocon Park generics APIs facility",
       "place": "Bengaluru, Karnataka, India",
       "state": null,
       "iso2": "IN",
       "type": "plant",
-      "description": "New peptide facility at Biocon Park; process validation completed in FY2024",
+      "description": "APIs (anti-diabetes, cardiovascular, immunosuppressants) using fermentation, peptides, HPAPIs and chemical synthesis",
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-        "label": "Integrated Annual Report FY2024, Biocon Limited highlights",
-        "quote": "Successfully completed process validation at our new peptide facility at Biocon Park in Bengaluru."
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+        "label": "Integrated Annual Report FY2026, Advanced manufacturing capabilities (Generics)",
+        "quote": "Biocon Park, Bengaluru, India APIs – Anti-diabetes, Cardiovascular, Immunosuppressants"
       }
     },
     {
-      "name": "Hyderabad synthetic APIs facility",
+      "name": "Hyderabad APIs facility",
       "place": "Hyderabad, India",
       "state": null,
       "iso2": "IN",
       "type": "plant",
-      "description": "New synthetic APIs facility; process validation initiated in FY2024",
+      "description": "APIs (anti-diabetes, cardiovascular, multiple sclerosis treatment, anti-fungal) using chemical synthesis and peptides",
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-        "label": "Integrated Annual Report FY2024, Biocon Limited highlights",
-        "quote": "Initiated process validation at our new synthetic APIs facility in Hyderabad."
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+        "label": "Integrated Annual Report FY2026, Advanced manufacturing capabilities (Generics)",
+        "quote": "Hyderabad, India APIs – Anti-diabetes, Cardiovascular"
       }
     },
     {
@@ -101,12 +119,12 @@
       "state": null,
       "iso2": "IN",
       "type": "plant",
-      "description": "New immunosuppressants facility; process validation completed in FY2024",
+      "description": "APIs (immunosuppressants, anti-cancer, anti-diabetes), plus an immunosuppressants API site in the Visakhapatnam SEZ",
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-        "label": "Integrated Annual Report FY2024, Biocon Limited highlights",
-        "quote": "process validation at our new immunosuppressants facility in Visakhapatnam"
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+        "label": "Integrated Annual Report FY2026, Advanced manufacturing capabilities (Generics)",
+        "quote": "Visakhapatnam, India APIs – Immunosuppressants, Anti-Cancer … Visakhapatnam SEZ, India APIs – Immunosuppressants"
       }
     },
     {
@@ -118,8 +136,8 @@
       "description": "Asia's largest integrated insulins manufacturing facility, in the BioXcell biotechnology park",
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-        "label": "Integrated Annual Report FY2024, notes on subsidiaries",
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+        "label": "Integrated Annual Report FY2026, notes on subsidiaries",
         "quote": "is located within BioXcell, a biotechnology park in Iskandar Puteri, Johor. The facility is Asia’s largest integrated insulins manufacturing facility"
       }
     },
@@ -129,15 +147,15 @@
       "state": "NJ",
       "iso2": "US",
       "type": "plant",
-      "description": "Oral solid dosage manufacturing facility, acquired for USD 7.7 million",
+      "description": "Oral solid dosage facility; second phase of validation completed for two vertically integrated statin products, marking readiness for commercial-scale manufacturing",
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-        "label": "Integrated Annual Report FY2024, significant events",
-        "quote": "acquired an Oral solid dosage manufacturing facility, located in Cranbury, New Jersey, for USD 7.7 million."
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+        "label": "Integrated Annual Report FY2026, Biocon Limited highlights",
+        "quote": "completed the second phase of validation for two vertically integrated statin products at our Oral Solid Dosage facility in Cranbury, New Jersey, U.S., marking readiness for commercial-scale manufacturing."
       }
     }
   ],
-  "notes": "Snapshot FY2024 (year ended Mar 31, 2024). The BRSR is the SEBI-mandated Business Responsibility and Sustainability Report, released by Biocon as a Supplementary Data Book with the Integrated Annual Report FY2024 (tier filing); its boundary is Biocon Limited plus Biocon Biologics (India and Malaysia) and excludes Syngene. It gives only national vs international counts, so international plants/offices are a region row (the plants are named as Malaysia and New Jersey, offices are not). The BRSR says Biocon serves 120+ countries but gives no per-country counts; its workforce table is by nationality, not location, so it is not used. No employees or taxes by country found. Sites come from the Integrated Annual Report's own descriptions; Syngene's sites (Bengaluru, Mangaluru, Hyderabad) are not listed.",
-  "researchedAt": "2026-11-23"
+  "notes": "Snapshot FY2026 (year ended Mar 31, 2026). The BRSR is the SEBI-mandated Business Responsibility and Sustainability Report, released by Biocon as a data book with the Integrated Annual Report FY2026 (tier filing); its boundary is Biocon Limited plus Biocon Biologics Limited (India and Malaysia) and excludes Syngene. Unlike the FY2024 edition, which gave one combined table naming the plants, the FY2026 BRSR gives separate national/international tables for Biocon Limited (5 plants, 1 office in India; 1 plant, 6 offices abroad) and Biocon Biologics (2 plants, 1 office in India; 1 plant, 17 offices abroad) without naming locations, so each entity is its own metric and the counts are not added (the BRSR doesn't say whether locations overlap). International counts are a region row. The BRSR says Biocon Limited serves 60+ countries and Biocon Biologics 120+, with no per-country counts. No employees or taxes by country found. Sites come from the FY2026 Integrated Annual Report's own descriptions (the generics manufacturing table, the subsidiary notes and highlights); the report also lists Biocon Campus, Bengaluru, and Biocon Generics Inc in New Jersey, and Biocon Biologics' biosimilars network in India and Malaysia. Syngene's sites are not listed.",
+  "researchedAt": "2026-11-24"
 }

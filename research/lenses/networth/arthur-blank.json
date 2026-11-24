@@ -2,18 +2,18 @@
   "id": "arthur-blank",
   "name": "Arthur Blank",
   "netWorth": {
-    "value": 9.0,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 329,
+    "value": 13.63,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 217,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"arthur-blank\",\"rank\":329,\"listUri\":\"billionaires\",\"visible\":true,\"position\":331,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":9000.0,\"finalWorthBillions\":9.0,\"category\":\"Sports\",\"otherCompensation\":0,\"person\":{\"name\":\"Arthur Blank\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"arthur-blank\",\"rank\":217,\"listUri\":\"rtb\",\"visible\":true,\"position\":217,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":13627.563,\"finalWorthBillions\":13.627563,\"person\":{\"name\":\"Arthur Blank\",\"uri\":\"arthur-blank\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5d8a8cc56de3150009a50133/416x416.jpg?background=000000&cropX1=310&cropX2=4009&cropY1=16&cropY2=3712\"},\"personName\":\"Arthur Blank\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Arthur Blank\" at rank 329 (ranks are shared on ties), net worth $9.0B, source \"Home Depot\".",
+  "notes": "Listed as \"Arthur Blank\" at rank 217, real-time net worth $13.6B, source \"Home Depot\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

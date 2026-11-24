@@ -1,0 +1,22 @@
+{
+  "id": "steve-jobs",
+  "company": "Apple",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 14532182000,
+      "sharesAsOf": "2026-10-23",
+      "pricedAs": "AAPL",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+        "label": "FY2026 Form 10-K, cover page",
+        "quote": "14,532,182,000 shares of common stock were issued and outstanding as of October 23, 2026."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as AAPL. The FY2026 10-K cover (filed November 3, 2026) is the latest count; the most recent 10-Q is for the quarter ended June 27, 2026, so it is older.",
+  "researchedAt": "2026-11-24"
+}

@@ -4,15 +4,15 @@
   "nbim": null,
   "calpers": null,
   "holdersOfRecord": {
-    "count": 129,
-    "asOf": "2025-04-11",
+    "count": 134,
+    "asOf": "2026-04-02",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832725000056/wdq-20250131.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of April 11, 2025, there were approximately 129 stockholders of record of our Class A common stock and seven stockholders of record of our Class B common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm",
+      "label": "Fiscal 2025 Form 10-K, Item 5",
+      "quote": "As of April 2, 2026, there were approximately 134 stockholders of record of our Class A common stock and zero stockholders of record of our Class B common stock."
     }
   },
-  "notes": "NBIM: NBIM's year-end 2024 equity list has no line for Rent the Runway. CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Rent the Runway. Holders of record: Listed Class A only; the 10-K also gives seven holders of record of Class B.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: NBIM's June 30, 2026 equity holdings file has no line for Rent the Runway (searched by name). CalPERS: its Form 13F information table for the quarter ended September 30, 2026 lists no Rent the Runway shares (searched by name). Holders of record: Class A only; the 10-K gives zero holders of record of Class B, which was eliminated in the October 2025 recapitalization.",
+  "researchedAt": "2026-11-24"
 }

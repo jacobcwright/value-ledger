@@ -1,13 +1,13 @@
 {
   "id": "sam-walton",
   "company": "Walmart",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-01-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-04-11",
+    "asOf": "2026-04-10",
     "leader": {
       "name": "Sam Walton",
       "relation": "founder",
@@ -16,88 +16,75 @@
       "pctVoting": null,
       "family": {
         "label": "Walton family (Walton Enterprises, LLC, including shares of the Walton Family Holdings Trust it votes)",
-        "pctEconomic": 44.8,
+        "pctEconomic": 44.11,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
-          "label": "2025 proxy statement, Holdings of Major Shareholders",
-          "quote": "The following table lists the beneficial owners of greater than 5% of the Shares outstanding as of April 11, 2025. ... Walton Enterprises, LLC(1) 3,002,673,393 (4) N/A 3,584,603,851 (4) 44.80 %"
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+          "label": "2026 proxy statement, Holdings of Major Shareholders",
+          "quote": "The following table lists the beneficial owners of greater than 5% of the Shares outstanding as of April 10, 2026. As of April 10, 2026, there were 7,970,990,515 Shares outstanding. ... Walton Enterprises, LLC(1) 3,002,673,393 (3) N/A 3,516,197,849 (3) 44.11%"
         }
       },
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
-        "label": "2025 proxy statement, Board Leadership Structure",
-        "quote": "approximately 45% of our company's Shares are held by entities related to the family of Sam Walton, our company's founder."
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+        "label": "2026 proxy statement, Board Leadership Structure",
+        "quote": "approximately 44% of our company’s Shares are held by entities related to the family of Sam Walton, our company’s founder."
       },
       "shares": null,
       "derived": null
     },
-    "largestHolders": [
-      {
-        "name": "The Vanguard Group",
-        "type": "asset-manager",
-        "pctEconomic": 5.16,
-        "asOf": "2023-12-29",
-        "source": {
-          "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000055/wmt-20250424.htm",
-          "label": "2025 proxy statement, Holdings of Major Shareholders (footnote 6)",
-          "quote": "The Vanguard Group(3) N/A N/A 412,539,774 (6) 5.16 % ... (6)Based solely on the Schedule 13G filed by The Vanguard Group on February 13, 2024 reflecting ownership as of December 29, 2023, as adjusted to reflect the Company's 3-for-1 forward split"
-        }
-      }
-    ],
+    "largestHolders": [],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock. Walton Enterprises, LLC, managed by four WELLCO Mgmt Trusts whose trustees are Walton family members, holds 3,002,673,393 shares and votes another 581,930,458 shares owned by the Walton Family Holdings Trust under an irrevocable proxy, for 44.80% in total. The proxy calls this 'approximately 45%' held by entities related to Sam Walton's family. That is below 50%, so the company is not majority-controlled on these figures."
+      "note": "One class of common stock. Walton Enterprises, LLC, managed by four WELLCO Mgmt Trusts whose trustees are Walton family members, holds 3,002,673,393 shares and votes another 513,524,456 shares owned by the Walton Family Holdings Trust under an irrevocable proxy, for 44.11% in total. The proxy calls this 'approximately 44%' held by entities related to Sam Walton's family. That is below 50%, so the company is not majority-controlled on these figures."
     }
   },
   "cash": {
     "dividends": {
-      "value": 6.69,
+      "value": 7.51,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
-        "quote": "Dividends paid (6,688) (6,140) (6,114) [amounts in millions, fiscal 2025, 2024, 2023]",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Dividends paid (7,507) (6,688) (6,140) Purchase of Company stock (8,088) (4,494) (2,779) [fiscal 2026, 2025, 2024, amounts in millions]",
         "xbrl": {
           "cik": "0000104169",
           "concept": "us-gaap:PaymentsOfDividendsCommonStock",
-          "end": "2025-01-31",
-          "value": 6688000000
+          "end": "2026-01-31",
+          "value": 7507000000
         }
       }
     },
     "buybacks": {
-      "value": 4.49,
+      "value": 8.09,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
-        "quote": "Purchase of Company stock (4,494) (2,779) (9,920) [amounts in millions, fiscal 2025, 2024, 2023]",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Purchase of Company stock (8,088) (4,494) (2,779) Dividends paid to noncontrolling interest (439) (576) (763) [fiscal 2026, 2025, 2024, amounts in millions]",
         "xbrl": {
           "cik": "0000104169",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2025-01-31",
-          "value": 4494000000
+          "end": "2026-01-31",
+          "value": 8088000000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 2.77,
+      "value": 3.6,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
-        "label": "FY2025 Form 10-K, Note 3 Shareholders' Equity, Share-Based Compensation",
-        "quote": "Share-based compensation expense $ 2,769 $ 2,093 $ 1,578 [amounts in millions, fiscal 2025, 2024, 2023]",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+        "label": "FY2026 Form 10-K, Note 3 Shareholders' Equity, Share-Based Compensation",
+        "quote": "Share-based compensation expense $ 3,603 $ 2,769 $ 2,093 [amounts in millions, fiscal 2026, 2025, 2024]",
         "xbrl": {
           "cik": "0000104169",
           "concept": "us-gaap:AllocatedShareBasedCompensationExpense",
-          "end": "2025-01-31",
-          "value": 2769000000
+          "end": "2026-01-31",
+          "value": 3603000000
         }
       }
     },
@@ -105,9 +92,9 @@
       "text": "U.S. associates receive a company match through the Associate Stock Purchase Plan.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
-        "label": "FY2025 Form 10-K, Item 1 Human Capital Management",
-        "quote": "In the U.S., this includes company-paid benefits such as 401(k) match, family building benefits, maternity leave, fertility benefits, a paid parental leave program to all full-time associates, paid time off, Associate Stock Purchase Plan match"
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+        "label": "FY2026 Form 10-K, Item 1 Human Capital Management",
+        "quote": "In the U.S., these benefits include a 401(k) match, Associate Stock Purchase Plan match, associate discounts, predictable scheduling practices, paid time off, life insurance, medical coverage"
       }
     }
   },
@@ -116,21 +103,21 @@
     "segments": [
       {
         "name": "U.S. operations",
-        "value": 557.62
+        "value": 581.18
       },
       {
         "name": "Non-U.S. operations",
-        "value": 123.36
+        "value": 131.99
       }
     ],
-    "total": 680.99,
+    "total": 713.16,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
-      "label": "FY2025 Form 10-K, Note 12 Segments and Disaggregated Revenue",
-      "quote": "Total revenues and long-lived assets ... aggregated by the Company's U.S. and non-U.S. operations, are as follows: ... Revenues U.S. operations $ 557,622 ... Non-U.S. operations 123,363 ... Total revenues $ 680,985 [fiscal 2025, amounts in millions]"
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+      "label": "FY2026 Form 10-K, Note 11 Segments and Disaggregated Revenue",
+      "quote": "Fiscal Years Ended January 31, (Amounts in millions) 2026 2025 2024 Revenues U.S. operations $ 581,175 $ 557,622 $ 532,076 Non-U.S. operations 131,988 123,363 116,049 Total revenues $ 713,163"
     }
   },
-  "notes": "Fiscal year ended January 31, 2025 (Walmart calls it fiscal 2025; matches data.js fy 'Jan 2025'). Filings are the FY2025 Form 10-K (accession 0000104169-25-000021) and the 2025 proxy statement (accession 0000104169-25-000055), as of April 11, 2025 with 8,000,886,911 Shares outstanding. All figures were re-read from those EDGAR documents on www.sec.gov on 2026-11-23 (replacing the pilot's stock.walmart.com PDF renderings); cash and stock-comp values are cross-checked against SEC XBRL. FAMILY HOLDING: the proxy lists Walton Enterprises, LLC at 44.80% and the Walton Family Holdings Trust at 7.27%, but the 44.80% already includes the trust's 581,930,458 shares (footnote 4: Walton Enterprises has sole voting power over them by irrevocable proxy). The trust is therefore not listed as a separate holder; adding it would double-count. Individual Walton family members' own holdings (e.g. directors Greg Penner and Steuart Walton in the officers-and-directors table) are not added, because the proxy does not give an aggregate for them and they may overlap with the family entities. VANGUARD: the 5.16% is stale. The proxy bases it solely on a Schedule 13G reporting ownership as of December 29, 2023, split-adjusted, while the percentage uses the April 11, 2025 share count. DIVIDENDS exclude $576 million paid to noncontrolling interest. STOCK COMP: the cash-flow statement has no separate share-based compensation line; the figure is the note total ($2,769 million, which the note also rounds to $2.8 billion), including plans of consolidated subsidiaries granted in their own stock.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended January 31, 2026 (Walmart calls it fiscal 2026; matches data.js fy 'Jan 2026'). Filings are the FY2026 Form 10-K (accession 0000104169-26-000055, filed March 13, 2026) and the 2026 proxy statement (accession 0001193125-26-173673, filed April 23, 2026), as of April 10, 2026 with 7,970,990,515 Shares outstanding. Cash and stock-comp values are cross-checked against SEC XBRL. FAMILY HOLDING: the proxy lists Walton Enterprises, LLC at 44.11% and the Walton Family Holdings Trust at 6.44%, but the 44.11% already includes the trust's 513,524,456 shares (footnote 3: Walton Enterprises has sole voting power over them by irrevocable proxy). The trust is therefore not listed as a separate holder; adding it would double-count. Individual Walton family members' own holdings (e.g. directors Greg Penner and Steuart Walton in the officers-and-directors table) are not added, because the proxy does not give an aggregate for them and they may overlap with the family entities. HOLDERS: the 2026 proxy's 5% table lists only the two Walton entities; Vanguard, listed at 5.16% in 2025, is no longer in it, so largestHolders is empty. DIVIDENDS exclude $439 million paid to noncontrolling interest. STOCK COMP: the cash-flow statement has no separate share-based compensation line; the figure is the note total ($3,603 million), including plans of consolidated subsidiaries granted in their own stock. LISTING: since December 9, 2025 the stock trades on the Nasdaq Global Select Market (previously NYSE), still as WMT.",
+  "researchedAt": "2026-11-24"
 }

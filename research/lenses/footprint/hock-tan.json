@@ -5,9 +5,9 @@
     "employeeShare": {
       "label": "Share of employees",
       "unit": "percent",
-      "period": "as of Nov 3, 2024",
+      "period": "as of Nov 2, 2025",
       "tier": "filing",
-      "definition": "Approximate share of Broadcom's ~37,000 employees located in each region, as stated in the 10-K Human Capital section."
+      "definition": "Approximate share of Broadcom's ~33,000 employees located in each region, as stated in the 10-K Human Capital section."
     }
   },
   "usStates": null,
@@ -17,14 +17,14 @@
       "name": "North America",
       "countries": null,
       "values": {
-        "employeeShare": 48
+        "employeeShare": 49
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-        "label": "FY2024 Form 10-K, Item 1, Human Capital",
-        "quote": "By geography, approximately 48% of our employees are located in North America, 36% in Asia, and 16% in Europe, the Middle East and Africa."
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+        "label": "FY2025 Form 10-K, Item 1, Human Capital",
+        "quote": "By geography, approximately 49% of our employees are located in North America, 36% in Asia, and 15% in Europe, the Middle East and Africa."
       }
     },
     {
@@ -36,23 +36,23 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-        "label": "FY2024 Form 10-K, Item 1, Human Capital",
-        "quote": "By geography, approximately 48% of our employees are located in North America, 36% in Asia, and 16% in Europe, the Middle East and Africa."
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+        "label": "FY2025 Form 10-K, Item 1, Human Capital",
+        "quote": "By geography, approximately 49% of our employees are located in North America, 36% in Asia, and 15% in Europe, the Middle East and Africa."
       }
     },
     {
       "name": "Europe, the Middle East and Africa",
       "countries": null,
       "values": {
-        "employeeShare": 16
+        "employeeShare": 15
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-        "label": "FY2024 Form 10-K, Item 1, Human Capital",
-        "quote": "By geography, approximately 48% of our employees are located in North America, 36% in Asia, and 16% in Europe, the Middle East and Africa."
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+        "label": "FY2025 Form 10-K, Item 1, Human Capital",
+        "quote": "By geography, approximately 49% of our employees are located in North America, 36% in Asia, and 15% in Europe, the Middle East and Africa."
       }
     }
   ],
@@ -66,8 +66,8 @@
       "description": "Corporate headquarters",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+        "label": "FY2025 Form 10-K, Item 2 Properties",
         "quote": "We are headquartered in Palo Alto, California and our primary warehouse is located in Malaysia."
       }
     },
@@ -80,8 +80,8 @@
       "description": "Primary warehouse",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+        "label": "FY2025 Form 10-K, Item 2 Properties",
         "quote": "We are headquartered in Palo Alto, California and our primary warehouse is located in Malaysia."
       }
     },
@@ -91,12 +91,12 @@
       "state": "CO",
       "iso2": "US",
       "type": "manufacturing",
-      "description": "Sole source of the FBAR components used in many of its wireless devices",
+      "description": "Sole source of the FBAR filters used in many of its wireless devices",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-        "label": "FY2024 Form 10-K, Item 1A Risk Factors",
-        "quote": "Our Fort Collins and Breinigsville facilities are the sole sources for the FBAR components used in many of our wireless devices and for the InP-based wafers used in our fibre optics products, respectively."
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+        "label": "FY2025 Form 10-K, Item 1A Risk Factors",
+        "quote": "Our Fort Collins and Breinigsville facilities are the sole sources for the FBAR filters used in many of our wireless devices and for the InP-based wafers used in our fibre optics products, respectively."
       }
     },
     {
@@ -108,9 +108,9 @@
       "description": "Sole source of the InP-based wafers used in its fibre optics products",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-        "label": "FY2024 Form 10-K, Item 1A Risk Factors",
-        "quote": "Our Fort Collins and Breinigsville facilities are the sole sources for the FBAR components used in many of our wireless devices and for the InP-based wafers used in our fibre optics products, respectively."
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+        "label": "FY2025 Form 10-K, Item 1A Risk Factors",
+        "quote": "Our Fort Collins and Breinigsville facilities are the sole sources for the FBAR filters used in many of our wireless devices and for the InP-based wafers used in our fibre optics products, respectively."
       }
     },
     {
@@ -122,12 +122,12 @@
       "description": "One of the own manufacturing facilities Broadcom relies on",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-        "label": "FY2024 Form 10-K, Item 1A Risk Factors",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+        "label": "FY2025 Form 10-K, Item 1A Risk Factors",
         "quote": "Although we operate a primarily outsourced manufacturing business model, we also rely on our own manufacturing facilities, in particular in Fort Collins, Colorado, Singapore, and Breinigsville, Pennsylvania."
       }
     }
   ],
-  "notes": "The FY2024 10-K gives employees only as regional percentages (North America 48%, Asia 36%, EMEA 16% of ~37,000); headcounts were not derived. Item 2 splits facilities over 100,000 sq ft only into United States (3,769,028 sq ft) and Other Countries (3,283,661 sq ft), so no country rows. The 10-K also says a significant majority of R&D personnel are in the Czech Republic, India, Israel and the U.S., without numbers. Broadcom publishes EU public country-by-country tax reports (with employees by jurisdiction) on investors.broadcom.com, but that host returned 403 Access Denied to every fetch this session, so they are not used; worth a retry with a browser. No state-level data found. Sites are from the 10-K's own descriptions; the Singapore row cites the manufacturing sentence because its description is the company's generic wording.",
-  "researchedAt": "2026-11-23"
+  "notes": "The FY2025 10-K (year ended Nov 2, 2025) gives employees only as regional percentages (North America 49%, Asia 36%, EMEA 15% of ~33,000); headcounts were not derived. Item 2 splits facilities over 100,000 sq ft only into United States (3,655,412 sq ft) and Other Countries (2,810,573 sq ft), so no country rows. The 10-K also says a significant majority of R&D personnel are in the U.S. and India, without numbers. Broadcom publishes EU public country-by-country tax reports (with employees by jurisdiction) on investors.broadcom.com, but that host returned 403 Access Denied to every fetch when this lens was first built, so they are not used. No state-level data found. Sites are from the FY2025 10-K's own descriptions; the Singapore row cites the manufacturing sentence because its description is the company's generic wording.",
+  "researchedAt": "2026-11-24"
 }

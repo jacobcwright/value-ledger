@@ -1,0 +1,36 @@
+{
+  "id": "mark-zuckerberg",
+  "company": "Meta Platforms",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 2214472367,
+      "sharesAsOf": "2026-10-16",
+      "pricedAs": "META",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "Class A Common Stock $0.000006 par value 2,214,472,367 shares outstanding as of October 16, 2026"
+      }
+    },
+    {
+      "label": "Class B common stock",
+      "shares": 341768886,
+      "sharesAsOf": "2026-10-16",
+      "pricedAs": "META",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted and converts into Class A one-for-one (FY2025 10-K: \"Shares of our Class B common stock are convertible into an equivalent number of shares of our Class A common stock\"; \"Our Class B common stock is not listed on any stock exchange nor traded on any public market.\")",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "Class B Common Stock $0.000006 par value 341,768,886 shares outstanding as of October 16, 2026"
+      }
+    }
+  ],
+  "notes": "Class A trades on the Nasdaq Global Select Market as META. Class B is unlisted, carries ten votes and has the same liquidation and dividend rights as Class A, so it is priced through META. Meta has no preferred stock outstanding.",
+  "researchedAt": "2026-11-24"
+}

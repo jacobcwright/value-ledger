@@ -1,0 +1,31 @@
+{
+  "id": "marcel-herrmann-telles",
+  "company": "Anheuser-Busch InBev SA/NV",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 136805,
+    "asOf": "2025-12-31",
+    "basis": "full-time employees at the end of the period (note 9 of the financial statements calls the same total 'full-time equivalents')",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+      "label": "FY2025 Form 20-F, Item 6.D Employees",
+      "quote": "The table below sets out the number of full-time employees at the end of each relevant period in our business segments. ... Total 136,805 143,885 154,540 [As of 31 December 2025, 2024, 2023]"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Payroll and related benefits",
+    "value": 7.835,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+      "label": "FY2025 Form 20-F, note 9 Payroll and related benefits (million US dollar)",
+      "quote": "Wages and salaries ( 5 393 ) ( 5 285 ) ( 5 164 ) Social security contributions ( 797 ) ( 770 ) ( 804 ) Other personnel cost ( 702 ) ( 683 ) ( 689 ) Share-based payment expense ( 625 ) ( 644 ) ( 570 ) ... Payroll and related benefits ( 7 835 ) ( 7 715 ) ( 7 544 )"
+    }
+  },
+  "notes": "Employees: year-end full-time employees at December 31, 2025 by segment (Item 6.D); the 20-F text rounds it to 'approximately 137,000 employees' (approximately 144,000 at December 31, 2024), and note 9 gives the same 136,805 as the total number of FTE. Payroll: note 9 'Payroll and related benefits' of USD 7,835 million (wages and salaries 5,393, social security 797, other personnel cost 702, share-based payment 625, defined-contribution pensions 178, defined-benefit pensions 139), billions of USD.",
+  "researchedAt": "2026-11-24"
+}

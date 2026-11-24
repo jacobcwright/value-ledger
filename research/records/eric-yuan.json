@@ -1,56 +1,104 @@
 {
   "id": "eric-yuan",
   "company": "Zoom Communications",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-01-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-03-31",
+    "asOf": "2026-03-31",
     "leader": {
       "name": "Eric Yuan",
       "relation": "founder",
       "status": "holds",
       "pctEconomic": null,
-      "pctVoting": 31.6,
-      "sharesByClass": { "classA": 83548, "classAPct": null, "classB": 21620585, "classBPct": 51.1 },
+      "pctVoting": 37.7,
+      "sharesByClass": {
+        "classA": 74914,
+        "classAPct": null,
+        "classB": 20837285,
+        "classBPct": 72.6
+      },
       "derived": {
-        "pctEconomic": 7.13,
-        "method": "(83,548 Class A issuable on RSU settlement + 21,620,585 Class B) / (261,833,697 Class A + 42,294,470 Class B outstanding at March 31, 2025 + his 83,548 RSU shares, which SEC rules deem outstanding for his own percentage) = 21,704,133 / 304,211,715. Computed, not stated in the filing.",
+        "pctEconomic": 7.11,
+        "method": "(74,914 Class A issuable on RSU settlement + 20,837,285 Class B) / (265,368,026 Class A + 28,703,589 Class B outstanding at March 31, 2026 + his 74,914 RSU shares, which SEC rules deem outstanding for his own percentage) = 20,912,199 / 294,146,529. Computed, not stated in the filing.",
         "inputs": [
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1585521/000114036125016910/edge20045033x1_def14a.htm",
-            "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management, share counts",
-            "quote": "We have based percentage ownership of our capital stock on 261,833,697 shares of our Class A common stock and 42,294,470 shares of our Class B common stock outstanding on March 31, 2025."
+            "url": "https://www.sec.gov/Archives/edgar/data/1585521/000162828026028866/zm-20260430.htm",
+            "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management, share counts",
+            "quote": "We have based percentage ownership of our capital stock on 265,368,026 shares of our Class A common stock and 28,703,589 shares of our Class B common stock outstanding on March 31, 2026."
           },
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1585521/000114036125016910/edge20045033x1_def14a.htm",
-            "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management, Yuan row",
-            "quote": "Eric S. Yuan(5) 83,548 * 21,620,585 51.1% 31.6%"
+            "url": "https://www.sec.gov/Archives/edgar/data/1585521/000162828026028866/zm-20260430.htm",
+            "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management, Yuan row",
+            "quote": "Eric S. Yuan (4) 74,914 * 20,837,285 72.6 % 37.7 %"
           }
         ]
       },
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000114036125016910/edge20045033x1_def14a.htm",
-        "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
-        "quote": "Eric S. Yuan(5) 83,548 * 21,620,585 51.1% 31.6% ... (5) Consists of 83,548 shares of Class A common stock issuable upon the settlement of RSUs within 60 days of March 31, 2025, and (iii) 21,620,585 shares of Class B common stock held of record by Zheng Yuan and Hongyu Zhang, cotrustees of the 2018 Yuan and Zhang Revocable Trust"
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000162828026028866/zm-20260430.htm",
+        "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+        "quote": "Eric S. Yuan (4) 74,914 * 20,837,285 72.6 % 37.7 % ... (4) Consists of (i) 74,914 shares of Class A common stock issuable upon the settlement of RSUs within 60 days of March 31, 2026, and (ii) 20,837,285 shares of Class B common stock held of record by Zheng Yuan and Hongyu Zhang, cotrustees of the 2018 Yuan and Zhang Revocable Trust"
       }
     },
-    "largestHolders": [],
+    "largestHolders": [
+      {
+        "name": "The Vanguard Group",
+        "type": "asset-manager",
+        "pctEconomic": 10.2,
+        "basis": "class",
+        "classLabel": "Class A",
+        "asOf": "2025-12-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1585521/000162828026028866/zm-20260430.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "The Vanguard Group (1) 26,967,154 10.2% - - 4.9 % ... (1) Information regarding The Vanguard Group (\"Vanguard\") is based solely upon Schedule 13G/A filed by Vanguard with the SEC on January 7, 2026 reporting its beneficial ownership as of December 31, 2025."
+        }
+      },
+      {
+        "name": "Entities affiliated with Emergence Capital Partners",
+        "type": "other",
+        "pctEconomic": 10.2,
+        "basis": "class",
+        "classLabel": "Class B",
+        "asOf": "2026-03-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1585521/000162828026028866/zm-20260430.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "Entities affiliated with Emergence Capital Partners (3) - - 2,928,046 10.2 % 5.3 % ... (3) Consists of 2,928,046 shares of Class B common stock held of record by Emergence Capital Partners III, L.P. (\"ECP III\")."
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 6.6,
+        "basis": "class",
+        "classLabel": "Class A",
+        "asOf": "2024-12-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1585521/000162828026028866/zm-20260430.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "BlackRock, Inc (2) 17,464,094 6.6% - - 3.2 % ... (2) Information regarding BlackRock, Inc. is based solely upon a Schedule 13G/A filed with the SEC on February 2, 2025 reporting their beneficial ownership as of December 31, 2024."
+        }
+      }
+    ],
     "structure": {
       "dualClass": true,
       "controlled": false,
-      "note": "Class A has one vote per share and Class B ten; Class B converts into Class A share-for-share. Yuan's 51.1% of Class B gives him 31.6% of total voting power, so no single holder has a majority; the 10-K says holders of Class B together held 61.8% of the voting power on January 31, 2025.",
+      "note": "Class A has one vote per share and Class B ten; Class B converts into Class A share-for-share. Yuan's 72.6% of Class B gives him 37.7% of total voting power, so no single holder has a majority; the 10-K says holders of Class B together held 51.8% of the voting power on January 31, 2026.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-        "label": "FY2025 Form 10-K, Item 1A Risk Factors",
-        "quote": "Our Class B common stock has 10 votes per share and our Class A common stock has one vote per share. As of January 31, 2025, the holders of our outstanding Class B common stock held 61.8% of the voting power of our outstanding capital stock"
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+        "label": "FY2026 Form 10-K, Item 1A Risk Factors",
+        "quote": "Our Class B common stock has 10 votes per share and our Class A common stock has one vote per share. As of January 31, 2026, the holders of our outstanding Class B common stock held 51.8% of the voting power of our outstanding capital stock"
       }
     }
   },
@@ -59,58 +107,77 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-        "label": "FY2025 Form 10-K, Item 5, Dividend Policy",
-        "quote": "We have never declared or paid any cash dividends on our capital stock."
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+        "label": "FY2026 Form 10-K, Item 1A Risk Factors",
+        "quote": "We have never declared nor paid cash dividends on our capital stock."
       }
     },
     "buybacks": {
-      "value": 1.09,
+      "value": 1.62,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
-        "quote": "Cash paid for repurchases of common stock (1,093,878) — (1,000,003) [in thousands, fiscal years ended January 31, 2025, 2024, 2023]",
-        "xbrl": { "cik": "0001585521", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2025-01-31", "value": 1093878000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Cash paid for repurchases of common stock, including excise taxes ( 1,620,691 ) ( 1,093,878 ) - [in thousands, fiscal years ended January 31, 2026, 2025, 2024]",
+        "xbrl": {
+          "cik": "0001585521",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2026-01-31",
+          "value": 1620691000
+        }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.93,
+      "value": 0.76,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
-        "quote": "Stock-based compensation expense 931,309 1,057,161 1,285,752 [in thousands, fiscal years ended January 31, 2025, 2024, 2023]",
-        "xbrl": { "cik": "0001585521", "concept": "us-gaap:ShareBasedCompensation", "end": "2025-01-31", "value": 931309000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation expense 760,776 931,309 1,057,161 [in thousands, fiscal years ended January 31, 2026, 2025, 2024]",
+        "xbrl": {
+          "cik": "0001585521",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2026-01-31",
+          "value": 760776000
+        }
       }
     },
     "plan": {
       "text": "Zoom's 2019 Employee Stock Purchase Plan lets participating employees buy Class A shares at 85% of market value (the lower of the price at the start of the offering or on the purchase date).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-        "label": "FY2025 Form 10-K, Note 10 Stockholders’ Equity and Equity Incentive Plans, 2019 Employee Stock Purchase Plan",
-        "quote": "Under our current ESPP, Class A common stock will be purchased for the accounts of employees participating in the ESPP at a price per share equal to the lesser of (1) 85% of the fair market value of a share of our Class A common stock on the first date of an offering or (2) 85% of the fair market value of a share of our Class A common stock on the date of purchase."
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+        "label": "FY2026 Form 10-K, Note 10 Stockholders' Equity and Equity Incentive Plans, 2019 Employee Stock Purchase Plan",
+        "quote": "Under our current ESPP, Class A common stock will be purchased for the accounts of employees participating in the ESPP at a price per share equal to the lesser of (1) 85 % of the fair market value of a share of our Class A common stock on the first date of an offering or (2) 85 % of the fair market value of a share of our Class A common stock on the date of purchase."
       }
     }
   },
   "geography": {
     "basis": "Revenue by region based on the billing address of customers",
     "segments": [
-      { "name": "Americas", "value": 3.35 },
-      { "name": "APAC", "value": 0.57 },
-      { "name": "EMEA", "value": 0.74 }
+      {
+        "name": "Americas",
+        "value": 3.51
+      },
+      {
+        "name": "APAC",
+        "value": 0.59
+      },
+      {
+        "name": "EMEA",
+        "value": 0.77
+      }
     ],
-    "total": 4.67,
+    "total": 4.87,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-      "label": "FY2025 Form 10-K, Note 2 Revenue Recognition, Disaggregation of Revenue",
-      "quote": "The following table summarizes revenue by region based on the billing address of customers: ... (in thousands, except percentages) Americas $ 3,351,286 71.8 % ... APAC 571,443 12.2 % ... EMEA 742,704 16.0 % ... Total $ 4,665,433 100.0 % [fiscal 2025]"
+      "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+      "label": "FY2026 Form 10-K, Note 2 Revenue Recognition, Disaggregation of Revenue",
+      "quote": "The following table summarizes revenue by region based on the billing address of customers: ... (in thousands, except percentages) Americas $ 3,508,148 72.1 % ... APAC 590,710 12.1 % ... EMEA 769,911 15.8 % ... Total $ 4,868,769 100.0 % [fiscal 2026]"
     }
   },
-  "notes": "Fiscal year ended January 31, 2025 (Zoom's fiscal 2025; matches data.js fy 'Jan 2025'). Sources: FY2025 Form 10-K (accession 0001585521-25-000042) and 2025 proxy statement (DEF 14A, accession 0001140361-25-016910), read on EDGAR. LEADER: the proxy gives Yuan's class percentages and 31.6% of total voting power but no percentage of all shares, so pctEconomic is null and the economic share is in leader.derived (7.13%). His Class B shares are held by the 2018 Yuan and Zhang Revocable Trust, of which he and his spouse are cotrustees; his Class A figure is RSUs settling within 60 days. HOLDERS left empty: the proxy gives the other large holders only as a percentage of one class (Vanguard 8.9% of Class A, as of December 29, 2023; BlackRock 6.7% of Class A, as of December 31, 2024; Puccini World Limited 22.2% of Class B; Emergence Capital Partners 12.0% of Class B), not of all shares, so they are omitted rather than converted. Rounded geography segments sum to 4.66 against the 4.67 total.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended January 31, 2026 (Zoom's fiscal 2026; data.js fy 'Jan 2026'). Sources: FY2026 Form 10-K (accession 0001585521-26-000030) and 2026 proxy statement (DEF 14A, accession 0001628280-26-028866), read on EDGAR. LEADER: Eric Yuan is founder, President and CEO. The proxy gives his class percentages and 37.7% of total voting power but no percentage of all shares, so pctEconomic is null and the economic share is in leader.derived (7.11%); the 10-K separately says Yuan and his affiliates held approximately 7.1% of outstanding capital stock at January 31, 2026. His Class B shares are held by the 2018 Yuan and Zhang Revocable Trust, of which he and his spouse are cotrustees; his Class A figure is RSUs settling within 60 days. HOLDERS: the proxy gives the other large holders only as a percentage of one class, so they are recorded with basis 'class' and never used to compute everyone else: Vanguard 10.2% and BlackRock 6.6% of Class A (BlackRock's from a 13G/A reporting holdings at December 31, 2024, so stale), and Emergence Capital Partners 10.2% of Class B (held of record at the proxy date; director Santiago Subotovsky shares control of it). Buybacks include excise taxes, as the cash-flow line says. Rounded geography segments sum to 4.87.",
+  "researchedAt": "2026-11-24"
 }

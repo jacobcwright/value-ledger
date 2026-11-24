@@ -1,0 +1,22 @@
+{
+  "id": "larry-culp",
+  "company": "GE Aerospace",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 1033351921,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "GE",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000064/ge-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "There were 1,033,351,921 shares of common stock with a par value of $0.01 per share outstanding at September 30, 2026."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the NYSE as GE. The Q3 2026 10-Q cover is newer than the FY2025 10-K cover (1,048,813,612 shares at January 15, 2026).",
+  "researchedAt": "2026-11-24"
+}

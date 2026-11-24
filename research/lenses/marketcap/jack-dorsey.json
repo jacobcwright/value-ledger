@@ -1,0 +1,36 @@
+{
+  "id": "jack-dorsey",
+  "company": "Block",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 544546000,
+      "sharesAsOf": "2026-10-30",
+      "pricedAs": "XYZ",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069524/xyz-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page (shares in thousands)",
+        "quote": "As of October 30, 2026, the number of shares (in thousands) of the registrant's Class A and Class B common stock outstanding were 544,546 and 59,976 , respectively."
+      }
+    },
+    {
+      "label": "Class B common stock",
+      "shares": 59976000,
+      "sharesAsOf": "2026-10-30",
+      "pricedAs": "XYZ",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted and converts into Class A one-for-one (2026 proxy: \"The Class B common stock is convertible at any time by the holder into shares of Class A common stock on a share-for-share basis\"); both classes have identical liquidation and dividend rights.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069524/xyz-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page (shares in thousands)",
+        "quote": "As of October 30, 2026, the number of shares (in thousands) of the registrant's Class A and Class B common stock outstanding were 544,546 and 59,976 , respectively."
+      }
+    }
+  ],
+  "notes": "Class A trades on the NYSE as XYZ. The 10-Q cover states counts in thousands (544,546 and 59,976), so shares are those figures × 1,000. Block has preferred stock authorized but none issued.",
+  "researchedAt": "2026-11-24"
+}

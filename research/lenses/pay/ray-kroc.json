@@ -1,0 +1,31 @@
+{
+  "id": "ray-kroc",
+  "company": "McDonald’s",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 150000,
+    "asOf": "2025-12-31",
+    "basis": "Company employees (corporate and other offices and Company-owned and operated restaurants), stated as 'over 150,000'",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 People",
+      "quote": "Company employees, which include those in the Company's corporate and other offices as well as in Company-owned and operated restaurants, totaled over 150,000 worldwide as of year-end 2025, of which approximately 70% were based outside of the U.S."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Median employee total compensation",
+    "value": 19020,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000119312526145548/mcd-20260407.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO pay ratio",
+      "quote": "Our median employee for 2025 is a restaurant crew employee located in Poland and in 2025 had total compensation of $19,020 as calculated in accordance with the Summary Compensation Table rules."
+    }
+  },
+  "notes": "Employees: the 10-K gives a floor ('over 150,000'), recorded as 150,000; it excludes the over two million people who work in franchised restaurants. Payroll: the income statement's 'Payroll & employee benefits' (2,905 million) covers only Company-owned and operated restaurants (support-staff payroll sits in SG&A), so it is not a total staff cost and the proxy's CEO pay ratio median for 2025 is used: a part-time-inclusive restaurant crew employee in Poland, identified by annualizing one month's wages for employees on October 1, 2025 (CEO pay ratio 1,082:1).",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "anthony-tan",
+  "company": "Grab Holdings",
+  "classes": [
+    {
+      "label": "Class A ordinary shares (outstanding)",
+      "shares": 3942000000,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "GRAB",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000148/a2026q3-earningspressrelea.htm",
+        "label": "Third quarter 2026 results press release (Form 6-K Exhibit 99.1, furnished November 3, 2026), notes to the share data",
+        "quote": "The number of outstanding Class A and Class B ordinary shares was 3,942 million and 95 million as of September 30, 2026"
+      }
+    },
+    {
+      "label": "Class B ordinary shares",
+      "shares": 95000000,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "GRAB",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted and convertible into Class A one-for-one (FY2025 20-F: \"Each Class B Ordinary Share will be convertible into one Class A Ordinary Share at any time by the holder thereof.\")",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000148/a2026q3-earningspressrelea.htm",
+        "label": "Third quarter 2026 results press release (Form 6-K Exhibit 99.1, furnished November 3, 2026), notes to the share data",
+        "quote": "The number of outstanding Class A and Class B ordinary shares was 3,942 million and 95 million as of September 30, 2026"
+      }
+    }
+  ],
+  "notes": "Class A trades on Nasdaq as GRAB (directly, not as ADSs). Counts are from the third-quarter 2026 results release (furnished November 3, 2026), which states outstanding Class A and Class B ordinary shares of 3,942 million and 95 million at September 30, 2026, rounded to the nearest million. The interim report for the six months ended June 30, 2026 gives 3,973,517 thousand Class A and 117,785 thousand Class B in issue at June 30, 2026 (Class B including restricted shares not yet vested). Grab repurchased $400 million of shares in September and October 2026 and announced on September 15, 2026 that it intends to execute the remaining roughly $900 million of authorized repurchases over 12 months, so the edition-date count is likely lower. Warrants and the convertible notes are excluded.",
+  "researchedAt": "2026-11-24"
+}

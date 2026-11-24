@@ -1,0 +1,31 @@
+{
+  "id": "lisa-su",
+  "company": "AMD",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-27",
+  "currency": "USD",
+  "employees": {
+    "value": 31000,
+    "asOf": "2025-12-27",
+    "basis": "approximately 31,000 employees in our global workforce",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 27, 2025, we had approximately 31,000 employees in our global workforce."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Annual total compensation for the median employee of the Company (other than our Chief Executive Officer)",
+    "value": 161780,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526129057/d85856ddef14a.htm",
+      "label": "2026 proxy statement (DEF 14A), Chief Executive Officer Pay Ratio",
+      "quote": "For 2025: • the annual total compensation for the median employee of the Company (other than our Chief Executive Officer) was $161,780; and"
+    }
+  },
+  "notes": "Employees: approximate year-end count from the FY2025 10-K. Payroll: the FY2025 10-K discloses no total of salaries, wages and benefits, so the 2026 proxy's CEO pay ratio median employee annual total compensation for 2025 ($161,780; ratio 341 to 1) is used. It is a median of total compensation including equity awards, not an average wage.",
+  "researchedAt": "2026-11-24"
+}

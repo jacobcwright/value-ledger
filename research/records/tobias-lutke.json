@@ -1,58 +1,58 @@
 {
   "id": "tobias-lutke",
   "company": "Shopify",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-04-07",
+    "asOf": "2026-04-21",
     "leader": {
       "name": "Tobias Lütke",
       "relation": "co-founder",
       "status": "holds",
       "pctEconomic": null,
-      "pctVoting": 40.03,
+      "pctVoting": 40.02,
       "shares": null,
       "sharesByClass": {
-        "classA": 631611,
-        "classAPct": 0.05,
-        "classB": 78918520,
-        "classBPct": 99.56,
+        "classA": 1548000,
+        "classAPct": 0.13,
+        "classB": 77750132,
+        "classBPct": 99.59,
         "founderShare": 1
       },
       "derived": {
-        "pctEconomic": 6.13,
-        "method": "(631,611 Class A + 78,918,520 Class B shares owned, controlled or directed) / (1,217,781,463 Class A + 79,265,812 Class B shares issued and outstanding at April 7, 2025) = 79,550,131 / 1,297,047,275. The single Founder Share is ignored. Computed, not stated in the filing.",
+        "pctEconomic": 6.11,
+        "method": "(1,548,000 Class A + 77,750,132 Class B shares owned, controlled or directed) / (1,220,302,290 Class A + 78,073,584 Class B shares issued and outstanding at April 21, 2026) = 79,298,132 / 1,298,375,874. The single Founder Share is ignored. Computed, not stated in the filing.",
         "inputs": [
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000039/shop-20241231.htm",
-            "label": "FY2024 Form 10-K/A (Amendment No. 1), Item 12, Principal Shareholders: shares outstanding",
-            "quote": "As at April 7, 2025, 1,217,781,463 Class A subordinate voting shares, 79,265,812 Class B restricted voting shares, one Founder Share and no preferred shares were issued and outstanding."
+            "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000011/shop-20251231.htm",
+            "label": "FY2025 Form 10-K/A (Amendment No. 1), Item 12, Principal Shareholders: shares outstanding",
+            "quote": "As at April 21, 2026, 1,220,302,290 Class A subordinate voting shares, 78,073,584 Class B restricted voting shares, one Founder Share and no preferred shares were issued and outstanding."
           },
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000039/shop-20241231.htm",
-            "label": "FY2024 Form 10-K/A (Amendment No. 1), Item 12, Principal Shareholders: Lütke holdings",
-            "quote": "Class A Subordinate Voting Shares 631,611(1) 0.05% 0.03% Class B Restricted Voting Shares 78,918,520(2) 99.56% 38.77% Founder Share(3) 1 100% 1.23%"
+            "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000011/shop-20251231.htm",
+            "label": "FY2025 Form 10-K/A (Amendment No. 1), Item 12, Principal Shareholders: Lütke holdings",
+            "quote": "Class A Subordinate Voting Shares 1,548,000(1) 0.13% 0.08% Class B Restricted Voting Shares 77,750,132(2) 99.59% 38.16% Founder Share(3) 1 100% 1.78%"
           }
         ]
       },
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000039/shop-20241231.htm",
-        "label": "FY2024 Form 10-K/A (Amendment No. 1), Item 12, Principal Shareholders",
-        "quote": "Class A Subordinate Voting Shares 631,611(1) 0.05% 0.03% Class B Restricted Voting Shares 78,918,520(2) 99.56% 38.77% Founder Share(3) 1 100% 1.23% Aggregate voting power attached to all of the Company's outstanding voting shares 40.03%"
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000011/shop-20251231.htm",
+        "label": "FY2025 Form 10-K/A (Amendment No. 1), Item 12, Principal Shareholders",
+        "quote": "Class A Subordinate Voting Shares 1,548,000(1) 0.13% 0.08% Class B Restricted Voting Shares 77,750,132(2) 99.59% 38.16% Founder Share(3) 1 100% 1.78% Aggregate voting power attached to all of the Company's outstanding voting shares 40.02%"
       }
     },
     "largestHolders": [],
     "structure": {
       "dualClass": true,
       "controlled": false,
-      "note": "Three classes (per the FY2024 10-K): Class A subordinate voting shares with one vote per share, Class B restricted voting shares with 10 votes per share (convertible into Class A) and one Founder Share held by Tobias Lütke. The Founder Share carries a variable number of votes that brings Lütke, his immediate family and affiliates to at least 40% of total voting power, capped at 49.9%. At April 7, 2025 he held 40.03% of the votes, below a majority."
+      "note": "Three classes (per the FY2025 10-K): Class A subordinate voting shares with one vote per share, Class B restricted voting shares with 10 votes per share (convertible into Class A one-for-one) and one Founder Share held by Tobias Lütke. The Founder Share carries a variable number of votes that brings Lütke, his immediate family and affiliates to at least 40% of total voting power, capped at 49.9%. At April 21, 2026 he held 40.02% of the votes, below a majority."
     }
   },
   "cash": {
@@ -60,8 +60,8 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1A Risk Factors",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1A Risk Factors",
         "quote": "We have never declared or paid any dividends on our securities."
       }
     },
@@ -69,21 +69,26 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (p. 79)",
-        "quote": "Cash flows from financing activities Proceeds from the exercise of stock options 61 60 18 Net cash provided by financing activities 61 60 18 [US $ millions, 2024, 2023, 2022]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (US $ millions)",
+        "quote": "Cash flows from financing activities Proceeds from the exercise of stock options 232 61 60 Maturities of convertible senior notes (1,043) — — Net cash (used in) provided by financing activities (811) 61 60 [US $ millions, 2025, 2024, 2023]"
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.43,
+      "value": 0.45,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (p. 79)",
-        "quote": "Consolidated Statements of Cash Flows (Expressed in US $ millions) ... Stock-based compensation 430 615 549 [2024, 2023, 2022]",
-        "xbrl": { "cik": "0001594805", "concept": "us-gaap:AllocatedShareBasedCompensationExpense", "end": "2024-12-31", "value": 430000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (US $ millions)",
+        "quote": "Stock-based compensation 449 430 615 [US $ millions, 2025, 2024, 2023]",
+        "xbrl": {
+          "cik": "0001594805",
+          "concept": "us-gaap:AllocatedShareBasedCompensationExpense",
+          "end": "2025-12-31",
+          "value": 449000000
+        }
       }
     },
     "plan": null
@@ -91,20 +96,35 @@
   "geography": {
     "basis": "Total external revenues by geographic location, based on the location of the Company's merchants",
     "segments": [
-      { "name": "United States", "value": 5.71 },
-      { "name": "Canada", "value": 0.48 },
-      { "name": "EMEA", "value": 1.71 },
-      { "name": "APAC", "value": 0.89 },
-      { "name": "Latin America", "value": 0.1 }
+      {
+        "name": "United States",
+        "value": 7.33
+      },
+      {
+        "name": "Canada",
+        "value": 0.57
+      },
+      {
+        "name": "EMEA",
+        "value": 2.43
+      },
+      {
+        "name": "APAC",
+        "value": 1.13
+      },
+      {
+        "name": "Latin America",
+        "value": 0.1
+      }
     ],
-    "total": 8.88,
+    "total": 11.56,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
-      "label": "FY2024 Form 10-K, Note 23 Segment and Geographical Information",
-      "quote": "total external revenues by geographic location, based on the location of the Company's merchants: ... (in US $ millions) North America United States 5,708 64 % ... Canada 483 6 % ... EMEA 1,707 19 % ... APAC 885 10 % ... Latin America 97 1 % ... Total Revenue 8,880 100 %"
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+      "label": "FY2025 Form 10-K, Note 23 Segment and Geographical Information",
+      "quote": "total external revenues by geographic location, based on the location of the Company’s merchants: ... (in US $ millions, except percentages) North America United States 7,331 63 % ... Canada 567 5 % ... EMEA 2,426 21 % ... APAC 1,128 10 % ... Latin America 104 1 % ... Total Revenue 11,556 100 %"
     }
   },
-  "notes": "Fiscal year ended December 31, 2024. Shopify filed a Form 10-K, not a 40-F, for FY2024 (accession 0001594805-25-000012, filed February 11, 2025), reporting in US dollars; it filed no DEF 14A, and its security ownership disclosure is Item 12 of the Form 10-K/A Amendment No. 1 (accession 0001594805-25-000039, filed April 29, 2025), as at April 7, 2025. LEADER: the filing states class percentages (0.05% of Class A, 99.56% of Class B, the one Founder Share) and 40.03% of aggregate voting power, but no percentage of all shares, so pctEconomic is null and the 6.13% is in leader.derived. It counts shares owned, controlled or directed, including 335,442 Class A and 67,298,750 Class B held by 7910240 Canada Inc., which Lütke is deemed to own; the beneficial-ownership table, which also counts 1,305,750 Class A shares from options and RSUs within 60 days, shows him with 1,937,361 Class A shares (less than 1% of Class A). On the SEC beneficial-ownership basis (those option and RSU shares added to numerator and denominator) the derived figure would be 6.23% rather than 6.13%. HOLDERS: the filing says Lütke is the only person or entity known to own more than 5% of any class, so largestHolders is empty (no other 5% holder is disclosed). CASH: no dividends have ever been paid, and the cash-flow statement's only financing line is option-exercise proceeds, so there were no buybacks. STOCK COMP: the cash-flow add-back equals the XBRL-tagged stock-based compensation expense ($430 million).",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Financial figures are from the original FY2025 Form 10-K (accession 0001594805-26-000007, filed February 11, 2026), reporting in US dollars. Shopify files no DEF 14A; its security ownership disclosure is Item 12 of the Form 10-K/A Amendment No. 1 (accession 0001594805-26-000011, filed April 29, 2026), which adds Part III only and does not restate the financial statements, as at April 21, 2026. LEADER: Tobias Lütke is CEO. The filing states class percentages (0.13% of Class A, 99.59% of Class B, the one Founder Share) and 40.02% of aggregate voting power, but no percentage of all shares, so pctEconomic is null and the 6.11% is in leader.derived. It counts shares owned, controlled or directed: 1,290,000 Class A and 66,130,362 Class B held by 7910240 Canada Inc. and 258,000 Class A held by Thistledown Foundation, which Lütke is deemed to own, plus 11,619,770 Class B held directly. The beneficial-ownership table, which also counts 786,822 Class A shares from options and RSUs (exercisable or vesting within 60 days), shows him with 2,334,822 Class A shares (less than 1% of Class A); on that SEC basis (option and RSU shares added to numerator and denominator) the derived figure would be 6.16% rather than 6.11%. HOLDERS: the filing says Lütke is the only person or entity known to own more than 5% of any class, so largestHolders is empty. CASH: no dividends have ever been paid; the FY2025 financing section shows only option-exercise proceeds and the $1,043 million maturity of convertible notes, and Item 5 reports no issuer purchases of equity securities, so buybacks are 0. The board authorized a repurchase program of up to $2 billion of Class A shares in February 2026, after the fiscal year. STOCK COMP: the cash-flow add-back equals the XBRL-tagged stock-based compensation expense ($449 million).",
+  "researchedAt": "2026-11-24"
 }

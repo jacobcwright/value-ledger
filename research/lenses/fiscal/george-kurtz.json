@@ -1,44 +1,44 @@
 {
   "id": "george-kurtz",
   "company": "CrowdStrike",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-01-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.02,
+      "value": 0.05,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
-        "label": "FY2025 Form 10-K, cash income taxes paid",
-        "quote": "Income taxes paid, net of refunds received $ 19,022 $ 22,608 $ 11,943 Supplemental [USD thousands; FY2025 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm",
+        "label": "FY2026 Form 10-K, cash income taxes paid",
+        "quote": "Income taxes paid, net of refunds received $ 51,464 $ 19,022 $ 22,608 [USD thousands; FY2026 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001535527",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2025-01-31",
-          "value": 19022000
+          "end": "2026-01-31",
+          "value": 51464000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 1.08,
+      "value": 1.38,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
-        "label": "FY2025 Form 10-K, research and development expense",
-        "quote": "Research and development 1,076,901 768,497 608,364 General and administrative 482,316 [USD thousands; FY2025 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm",
+        "label": "FY2026 Form 10-K, research and development expense",
+        "quote": "Research and development 1,384,770 1,075,587 780,319 [USD thousands; FY2026 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001535527",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2025-01-31",
-          "value": 1076901000
+          "end": "2026-01-31",
+          "value": 1384770000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented. R&D: the FY2026 10-K revised the fiscal 2025 figure to $1,075,587 thousand for an immaterial stock-compensation timing error (Note 16).",
+  "researchedAt": "2026-11-24"
 }

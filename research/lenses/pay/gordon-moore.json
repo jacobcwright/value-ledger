@@ -1,0 +1,31 @@
+{
+  "id": "gordon-moore",
+  "company": "Intel",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-27",
+  "currency": "USD",
+  "employees": {
+    "value": 85100,
+    "asOf": "2025-12-27",
+    "basis": "workforce of 85,100 people, including the core Intel workforce and employees at Mobileye and other subsidiaries",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+      "label": "FY2025 Form 10-K, Item 1 People",
+      "quote": "We invest in our highly skilled workforce, which was comprised of 85,100 1 people as of December 27, 2025 ... 1 Employee headcount includes our core Intel workforce as well as employees at Mobileye and other subsidiaries."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "2025 annual total compensation of our median compensated employee",
+    "value": 114900,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+      "label": "2026 proxy statement, CEO Pay Ratio",
+      "quote": "The 2025 annual total compensation of our CEO Mr. Tan is $93,244,700, the 2025 annual total compensation of our median compensated employee is $114,900, and the ratio of these amounts is 812 to 1."
+    }
+  },
+  "notes": "Employees: year-end head count from the FY2025 10-K. The 10-K says the 2025 Restructuring Plan cut the core Intel workforce by about 15% by the end of fiscal 2025 compared with the Q2 2025 head count. Payroll: the FY2025 10-K discloses no total staff cost, so the proxy's CEO pay ratio median for 2025 is used.",
+  "researchedAt": "2026-11-24"
+}

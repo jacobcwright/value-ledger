@@ -2,45 +2,39 @@
   "id": "anthony-tan",
   "company": "Grab",
   "nbim": {
-    "pct": 0.8,
-    "marketValueUSD": 0.151,
-    "asOf": "2024-12-31",
+    "pct": 0.84,
+    "marketValueUSD": 0.129,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"67doauhz3hhi\",\"cc\":\"US\",\"n\":\"Grab Holdings Ltd\",\"a\":{\"e\":151194032,\"n\":1717163545},\"at\":0,\"o\":0.8,\"eq\":{\"vid\":\"\",\"v\":0.35,\"s\":\"Consumer Discretionary\",\"icc\":\"KY\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"67doauhz3hhi\",\"cc\":\"US\",\"n\":\"Grab Holdings Ltd\",\"a\":{\"e\":128918577,\"n\":1275713778},\"at\":0,\"o\":0.84,\"eq\":{\"vid\":\"GRAB\",\"v\":0.39,\"s\":\"Consumer Discretionary\",\"icc\":\"KY\"}}"
     }
   },
   "calpers": {
-    "shares": 4325271,
-    "asOf": "2024-12-31",
+    "shares": 3281461,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "GRAB HOLDINGS LIMITED CLASS A ORD G4124C109 20415279 4325271"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "GRAB HOLDINGS LIMITED CLASS A ORD G4124C109 10205344 3281461"
     },
     "derived": {
-      "pct": 0.106,
-      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "pct": 0.081,
+      "method": "CalPERS Class A shares ÷ Class A plus Class B outstanding (3,281,461 ÷ 4,037,000,000, at September 30, 2026, stated in millions)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561225000013/ck0001855612-20241231.htm",
-          "label": "FY2024 Form 20-F, cover page",
-          "quote": "Indicate the number of outstanding shares of each of the issuer's classes of capital or common stock as of the close of business covered by the annual report: 3,950,498,976 Class A ordinary shares, 119,798,676 Class B ordinary shares, and 25,999,981 warrants, as of December 31, 2024."
-        },
-        {
-          "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561225000013/ck0001855612-20241231.htm",
-          "label": "FY2024 Form 20-F, share class rights",
-          "quote": "GHL Class B ordinary shares have a par value of $ 0.000001 and are ranked equally with GHL Class A ordinary shares with regard to GHL's residual assets."
+          "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000148/a2026q3-earningspressrelea.htm",
+          "label": "Third quarter 2026 results press release (Form 6-K Exhibit 99.1, furnished November 3, 2026), notes to the share data",
+          "quote": "The number of outstanding Class A and Class B ordinary shares was 3,942 million and 95 million as of September 30, 2026"
         }
       ]
     }
   },
   "holdersOfRecord": null,
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Grab Holdings Ltd;Consumer Discretionary;1717163545;151194032;0.35%;0.8%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Form 20-F cover page. CalPERS holds Class A; denominator is Class A plus Class B (warrants excluded). Holders of record: The FY2024 annual report (Form 20-F) gives only U.S. record holders (24 for Class A, 2 for Class B as of February 15, 2025), not a total.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership % of all shares, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026 (Class A ordinary shares, CUSIP G4124C109); Form 13F covers only U.S.-listed securities. The CalPERS percentage divides its Class A shares by Class A plus Class B outstanding at September 30, 2026 from the Q3 2026 results release (warrants excluded), the same count used in the marketcap lens. Holders of record: null; the FY2025 20-F gives only U.S. record holders (15 for Class A and three for Class B as of January 31, 2026), not a total.",
+  "researchedAt": "2026-11-24"
 }

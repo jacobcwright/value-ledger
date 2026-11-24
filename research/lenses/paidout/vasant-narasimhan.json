@@ -1,8 +1,8 @@
 {
  "id": "vasant-narasimhan",
  "company": "Novartis AG",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "USD",
  "unit": "billions",
  "statedUnit": "USD million",
@@ -10,149 +10,148 @@
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 51.722,
+   "value": 56.674,
    "components": [
-    "net sales 50.317",
-    "other revenues 1.405"
+    "net sales 54.532",
+    "other revenues 2.142"
    ],
    "parts": [
     {
      "label": "net sales",
-     "value": 50.317,
-     "stated": 50317,
+     "value": 54.532,
+     "stated": 54532,
      "divisor": 1000,
      "source": {
-      "hostType": "company",
-      "url": "https://www.novartis.com/sites/novartis_com/files/novartis-20-f-2024.pdf",
-      "label": "Form 20-F 2024, consolidated income statements (USD millions)",
-      "quote": "Net sales from continuing operations 4 50 317 45 440 42 206"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+      "label": "FY2025 Form 20-F, consolidated income statements (USD millions)",
+      "quote": "Net sales from continuing operations 4 54 532 50 317 45 440"
      }
     },
     {
      "label": "other revenues",
-     "value": 1.405,
-     "stated": 1405,
+     "value": 2.142,
+     "stated": 2142,
      "divisor": 1000,
      "source": {
-      "hostType": "company",
-      "url": "https://www.novartis.com/sites/novartis_com/files/novartis-20-f-2024.pdf",
-      "label": "Form 20-F 2024, consolidated income statements (USD millions)",
-      "quote": "Other revenues 4 1 405 1 220 1 255"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+      "label": "FY2025 Form 20-F, consolidated income statements (USD millions)",
+      "quote": "Other revenues 4 2 142 1 405 1 220"
      }
     }
    ],
    "note": "Novartis prints no total-revenue line; revenue = net sales from continuing operations + other revenues (both reported revenue lines on the income statement)."
   },
   "operatingCashFlow": {
-   "value": 17.619,
-   "stated": 17619,
-   "divisor": 1000,
+   "value": 19.144,
+   "stated": 19144,
    "source": {
-    "hostType": "company",
-    "url": "https://www.novartis.com/sites/novartis_com/files/novartis-20-f-2024.pdf",
-    "label": "Form 20-F 2024, consolidated statements of cash flows (USD millions)",
-    "quote": "Net cash flows from operating activities from continuing operations 17 619 14 220 13 039"
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+    "label": "FY2025 Form 20-F, consolidated statements of cash flows (USD millions)",
+    "quote": "Net cash flows from operating activities from continuing operations 19 144 17 619 14 220"
    },
-   "note": "Continuing operations; there were no discontinued-operations operating cash flows in 2024 (total net cash flows from operating activities also 17,619)."
+   "note": "Continuing operations; there were no discontinued-operations operating cash flows in 2025 (total net cash flows from operating activities also 19,144)."
   },
   "capex": {
-   "value": 3.814,
+   "value": 3.9,
    "components": [
-    "PP&E 1.366",
-    "intangibles 2.448"
+    "PP&E 1.548",
+    "intangibles 2.352"
    ],
    "parts": [
     {
      "label": "PP&E",
-     "value": 1.366,
-     "stated": 1366,
+     "value": 1.548,
+     "stated": 1548,
      "divisor": 1000,
      "source": {
-      "hostType": "company",
-      "url": "https://www.novartis.com/sites/novartis_com/files/novartis-20-f-2024.pdf",
-      "label": "Form 20-F 2024, consolidated statements of cash flows (USD millions)",
-      "quote": "Purchases of property, plant and equipment – 1 366 – 1 060 – 916"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+      "label": "FY2025 Form 20-F, consolidated statements of cash flows (USD millions)",
+      "quote": "Purchases of property, plant and equipment - 1 548 - 1 366 - 1 060"
      }
     },
     {
      "label": "intangibles",
-     "value": 2.448,
-     "stated": 2448,
+     "value": 2.352,
+     "stated": 2352,
      "divisor": 1000,
      "source": {
-      "hostType": "company",
-      "url": "https://www.novartis.com/sites/novartis_com/files/novartis-20-f-2024.pdf",
-      "label": "Form 20-F 2024, consolidated statements of cash flows (USD millions)",
-      "quote": "Purchases of intangible assets – 2 448 – 1 693 – 1 323"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+      "label": "FY2025 Form 20-F, consolidated statements of cash flows (USD millions)",
+      "quote": "Purchases of intangible assets - 2 352 - 2 448 - 1 693"
      }
     }
    ],
-   "note": "Gross purchases. Excludes 'Acquisitions and divestments of businesses, net' (3,911). Intangible purchases include in-licensed product rights and milestones."
+   "note": "Gross purchases. Excludes 'Acquisitions of businesses' (147) and 'Acquisitions applying the optional concentration test' (2,769), which are acquisitions. Intangible purchases include in-licensed product rights and milestones."
   },
   "interestPaid": {
-   "value": 0.855,
-   "stated": 855,
-   "divisor": 1000,
-   "source": {
-    "hostType": "company",
-    "url": "https://www.novartis.com/sites/novartis_com/files/novartis-20-f-2024.pdf",
-    "label": "Form 20-F 2024, consolidated statements of cash flows (USD millions)",
-    "quote": "Interest received 489 645 252 Interest paid – 855 – 751 – 667"
-   },
+   "value": 0.981,
    "inOCF": true,
-   "location": "operating activities",
-   "note": "Lease interest is also in operating: 'Interest payments for amounts included in lease liabilities classified as cash flows from operating activities'."
+   "stated": 981,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+    "label": "FY2025 Form 20-F, consolidated statements of cash flows (USD millions)",
+    "quote": "Interest received 310 489 645 Interest paid - 981 - 855 - 751"
+   },
+   "note": "Lease interest is also in operating cash flow."
   },
   "taxesPaid": {
-   "value": 2.258,
-   "stated": 2258,
-   "divisor": 1000,
-   "source": {
-    "hostType": "company",
-    "url": "https://www.novartis.com/sites/novartis_com/files/novartis-20-f-2024.pdf",
-    "label": "Form 20-F 2024, consolidated statements of cash flows (USD millions)",
-    "quote": "Income taxes paid 23.2 – 2 258 – 2 787 – 1 702"
-   },
+   "value": 2.562,
    "inOCF": true,
-   "location": "operating activities"
+   "stated": 2562,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+    "label": "FY2025 Form 20-F, consolidated statements of cash flows (USD millions)",
+    "quote": "Income taxes paid 23.2 - 2 562 - 2 258 - 2 787",
+    "xbrl": {
+     "cik": "0001114448",
+     "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+     "end": "2025-12-31",
+     "value": 2562000000
+    }
+   }
   },
   "leasePrincipalPaid": {
-   "value": 0.262,
-   "stated": 262,
-   "divisor": 1000,
+   "value": 0.281,
+   "stated": 281,
    "source": {
-    "hostType": "company",
-    "url": "https://www.novartis.com/sites/novartis_com/files/novartis-20-f-2024.pdf",
-    "label": "Form 20-F 2024, consolidated statements of cash flows (USD millions)",
-    "quote": "Payments of lease liabilities 23.5 – 262 – 258 – 262"
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+    "label": "FY2025 Form 20-F, consolidated statements of cash flows (USD millions)",
+    "quote": "Payments of lease liabilities 23.7 - 281 - 262 - 258"
    },
-   "added": false,
    "note": "IFRS 16 lease principal in financing; noted, not added (0.7% of paidOut)."
   }
  },
- "paidOut": 37.917,
- "paidOutFormula": "51,722 (50,317 net sales + 1,405 other revenues) − 17,619 + 3,814 (1,366 PP&E + 2,448 intangibles) = 37,917 USD million (interest and taxes paid are inside OCF)",
+ "paidOut": 41.43,
+ "paidOutFormula": "56,674 (54,532 net sales + 2,142 other revenues) − 19,144 + 3,900 (1,548 PP&E + 2,352 intangibles) = 41,430 USD million (interest and taxes paid are inside OCF)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
   "financeReceivablesInOCF": false,
   "interestDividendsReceivedInOCF": {
-   "value": 0.49,
+   "value": 0.311,
    "components": [
-    "interest received 0.489",
+    "interest received 0.310",
     "dividends received from associates and others 0.001"
    ],
    "parts": [
     {
      "label": "interest received",
-     "value": 0.489,
-     "stated": 489,
+     "value": 0.31,
+     "stated": 310,
      "divisor": 1000,
      "source": {
-      "hostType": "company",
-      "url": "https://www.novartis.com/sites/novartis_com/files/novartis-20-f-2024.pdf",
-      "label": "Form 20-F 2024, consolidated statements of cash flows (USD millions)",
-      "quote": "Interest received 489 645 252 Interest paid – 855 – 751 – 667"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+      "label": "FY2025 Form 20-F, consolidated statements of cash flows (USD millions)",
+      "quote": "Interest received 310 489 645 Interest paid - 981 - 855 - 751"
      }
     },
     {
@@ -161,18 +160,18 @@
      "stated": 1,
      "divisor": 1000,
      "source": {
-      "hostType": "company",
-      "url": "https://www.novartis.com/sites/novartis_com/files/novartis-20-f-2024.pdf",
-      "label": "Form 20-F 2024, consolidated statements of cash flows (USD millions)",
-      "quote": "Dividends received from associated companies and others 1 2 1"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+      "label": "FY2025 Form 20-F, consolidated statements of cash flows (USD millions)",
+      "quote": "Dividends received from associated companies and others 1 1 2"
      }
     }
    ],
-   "note": "Inside operating cash flow, lowering paidOut by this amount (1.3%)."
+   "note": "Inside operating cash flow, lowering paidOut by this amount (0.8%)."
   },
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "IFRS, USD. Interest received, dividends received, interest paid (including lease interest) and income taxes paid all sit inside operating cash flow, so nothing is added. 'Other financial payments' (116) also sit in OCF. Continuing operations only (Sandoz was spun off in 2023; no discontinued cash flows in 2024).",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 31, 2025 (Form 20-F 2025, accession 0001114448-26-000004). IFRS, USD. Interest received, dividends received, interest paid (including lease interest) and income taxes paid all sit inside operating cash flow, so nothing is added. 'Other financial receipts' (266) and 'Other financial payments' (26) also sit in OCF. Continuing operations only (no discontinued cash flows in 2025).",
+ "researchedAt": "2026-11-24"
 }

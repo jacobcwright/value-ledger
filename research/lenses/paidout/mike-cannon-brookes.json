@@ -1,101 +1,101 @@
 {
   "id": "mike-cannon-brookes",
   "company": "Atlassian",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-06-30",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-06-30",
   "currency": "USD",
   "unit": "billions",
   "sector": "tech",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 5.215304,
-      "stated": 5215304,
+      "value": 6.572308,
+      "stated": 6572308,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of operations (in thousands)",
-        "quote": "Total revenues 5,215,304 4,358,603 3,534,647",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of operations (in thousands)",
+        "quote": "Total revenues 6,572,308 5,215,304 4,358,603",
         "xbrl": {
           "cik": "0001650372",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "end": "2025-06-30",
-          "value": 5215304000
+          "end": "2026-06-30",
+          "value": 6572308000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 1.460393,
-      "stated": 1460393,
+      "value": 1.353135,
+      "stated": 1353135,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
-        "quote": "Net cash provided by operating activities 1,460,393 1,448,159 868,111",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Net cash provided by operating activities 1,353,135 1,460,393 1,448,159",
         "xbrl": {
           "cik": "0001650372",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2025-06-30",
-          "value": 1460393000
+          "end": "2026-06-30",
+          "value": 1353135000
         }
       }
     },
     "capex": {
-      "value": 0.04485,
+      "value": 0.03406,
       "components": [
-        "PP&E 0.04485"
+        "PP&E 0.03406"
       ],
-      "stated": 44850,
+      "stated": 34060,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
-        "quote": "Purchases of property and equipment ( 44,850 ) ( 33,112 ) ( 25,812 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Purchases of property and equipment (34,060) (44,850) (33,112)",
         "xbrl": {
           "cik": "0001650372",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2025-06-30",
-          "value": 44850000
+          "end": "2026-06-30",
+          "value": 34060000
         }
       }
     },
     "interestPaid": {
-      "value": 0.054268,
+      "value": 0.05432,
       "inOCF": true,
-      "stated": 54268,
+      "stated": 54320,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
-        "label": "FY2025 Form 10-K, supplemental cash flow information (in thousands)",
-        "quote": "Income taxes paid, net of refunds $ 180,470 $ 253,828 $ 102,156 Interest paid 54,268 61,339 46,247",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm",
+        "label": "FY2026 Form 10-K, supplemental cash flow information (in thousands)",
+        "quote": "Income taxes paid, net of refunds $ 160,706 $ 180,470 $ 253,828 Interest paid 54,320 54,268 61,339",
         "xbrl": {
           "cik": "0001650372",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2025-06-30",
-          "value": 54268000
+          "end": "2026-06-30",
+          "value": 54320000
         }
       }
     },
     "taxesPaid": {
-      "value": 0.18047,
+      "value": 0.160706,
       "inOCF": true,
-      "stated": 180470,
+      "stated": 160706,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
-        "label": "FY2025 Form 10-K, supplemental cash flow information (in thousands)",
-        "quote": "Income taxes paid, net of refunds $ 180,470 $ 253,828 $ 102,156 Interest paid 54,268 61,339 46,247",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm",
+        "label": "FY2026 Form 10-K, supplemental cash flow information (in thousands)",
+        "quote": "Income taxes paid, net of refunds $ 160,706 $ 180,470 $ 253,828 Interest paid 54,320 54,268 61,339",
         "xbrl": {
           "cik": "0001650372",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2025-06-30",
-          "value": 180470000
+          "end": "2026-06-30",
+          "value": 160706000
         }
       }
     }
   },
-  "paidOut": 3.799761,
-  "paidOutFormula": "5.215304 − 1.460393 + 0.04485",
+  "paidOut": 5.253233,
+  "paidOutFormula": "6.572308 − 1.353135 + 0.03406",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -104,6 +104,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Fiscal year ended June 30, 2025; amounts in thousands.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended June 30, 2026; amounts in thousands (FY2026 Form 10-K, accession 0001650372-26-000036). Business combinations (1,228,875, net of cash acquired) are excluded from capex.",
+  "researchedAt": "2026-11-24"
 }

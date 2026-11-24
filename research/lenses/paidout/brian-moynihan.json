@@ -1,142 +1,142 @@
 {
  "id": "brian-moynihan",
  "company": "Bank of America",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "USD",
  "unit": "billions",
  "sector": "bank",
  "comparable": false,
  "inputs": {
   "revenue": {
-   "value": 101.887,
-   "stated": 101887,
+   "value": 113.097,
+   "stated": 113097,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of income (in millions)",
-    "quote": "Total revenue, net of interest expense 101,887 98,581",
+    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of income (in millions)",
+    "quote": "Total revenue, net of interest expense 113,097 105,856 102,769",
     "xbrl": {
      "cik": "0000070858",
      "concept": "us-gaap:Revenues",
-     "end": "2024-12-31",
-     "value": 101887000000
+     "end": "2025-12-31",
+     "value": 113097000000
     }
    },
-   "note": "Net of interest expense of 90,547."
+   "note": "Net of interest expense of 78,470."
   },
   "operatingCashFlow": {
-   "value": -8.805,
-   "stated": -8805,
+   "value": 12.613,
+   "stated": 12613,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Net cash provided by (used in) operating activities ( 8,805 ) 44,982 ( 6,327 )",
+    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Net cash provided by (used in) operating activities 12,613 (8,805) 44,982",
     "xbrl": {
      "cik": "0000070858",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-31",
-     "value": -8805000000
+     "end": "2025-12-31",
+     "value": 12613000000
     }
    }
   },
   "capex": {
    "value": null,
    "source": null,
-   "note": "No premises-and-equipment purchase line in the cash-flow statement, and no PaymentsToAcquire* PP&E concept in companyfacts for this 10-K (only loans and securities). Not derived."
+   "note": "No premises-and-equipment purchase line in the FY2025 cash-flow statement, and no PaymentsToAcquire* PP&E concept in the prefill leads for this 10-K. Not derived."
   },
   "interestPaid": {
-   "value": 89.687,
-   "stated": 89687,
+   "value": 79.065,
+   "stated": 79065,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash flow disclosures (in millions)",
-    "quote": "Supplemental cash flow disclosures Interest paid $ 89,687 $ 69,604 $ 18,526 Income taxes paid, net 3,822 3,405 2,288",
+    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+    "label": "FY2025 Form 10-K, supplemental cash flow disclosures (in millions)",
+    "quote": "Supplemental cash flow disclosures Interest paid $ 79,065 $ 89,687 $ 69,604",
     "xbrl": {
      "cik": "0000070858",
      "concept": "us-gaap:InterestPaidNet",
-     "end": "2024-12-31",
-     "value": 89687000000
+     "end": "2025-12-31",
+     "value": 79065000000
     }
    },
    "note": "inside operating cash flow (US GAAP)"
   },
   "taxesPaid": {
-   "value": 3.822,
-   "stated": 3822,
+   "value": 3.93,
+   "stated": 3930,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash flow disclosures (in millions)",
-    "quote": "Supplemental cash flow disclosures Interest paid $ 89,687 $ 69,604 $ 18,526 Income taxes paid, net 3,822 3,405 2,288",
+    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+    "label": "FY2025 Form 10-K, Note 19 Income Taxes, Income Taxes Paid (in millions)",
+    "quote": "Income Taxes Paid (Dollars in millions) 2025 2024 2023 ... Total income taxes paid $ 3,930 $ 3,822 $ 3,405",
     "xbrl": {
      "cik": "0000070858",
      "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-12-31",
-     "value": 3822000000
+     "end": "2025-12-31",
+     "value": 3930000000
     }
    },
-   "note": "inside operating cash flow (US GAAP)"
+   "note": "inside operating cash flow (US GAAP); from FY2025 the total is in the income-tax note's table by jurisdiction, not the supplemental cash-flow disclosures."
   },
   "noninterestExpense": {
-   "value": 66.812,
-   "stated": 66812,
+   "value": 69.727,
+   "stated": 69727,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of income (in millions)",
-    "quote": "Other general operating 3,991 5,950 4,021 Total noninterest expense 66,812 65,845 61,438",
+    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of income (in millions)",
+    "quote": "Other general operating 3,772 3,991 5,950 Total noninterest expense 69,727 66,812 65,845",
     "xbrl": {
      "cik": "0000070858",
      "concept": "us-gaap:NoninterestExpense",
-     "end": "2024-12-31",
-     "value": 66812000000
+     "end": "2025-12-31",
+     "value": 69727000000
     }
    },
-   "note": "Noninterest expense only; interest expense (90,547) is netted in revenue and the provision for credit losses (5,821) is a separate non-cash line."
+   "note": "Noninterest expense only; interest expense (78,470) is netted in revenue and the provision for credit losses (5,675) is a separate non-cash line."
   },
   "depreciationAmortization": {
-   "value": 2.189,
-   "stated": 2189,
+   "value": 2.314,
+   "stated": 2314,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Depreciation and amortization 2,189 2,057 1,978",
+    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Depreciation and amortization 2,314 2,189 2,057",
     "xbrl": {
      "cik": "0000070858",
      "concept": "us-gaap:DepreciationDepletionAndAmortization",
-     "end": "2024-12-31",
-     "value": 2189000000
+     "end": "2025-12-31",
+     "value": 2314000000
     }
    }
   },
   "stockComp": {
-   "value": 3.433,
-   "stated": 3433,
+   "value": 4.001,
+   "stated": 4001,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Amortization of stock-based compensation 3,433 2,942 2,862",
+    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Amortization of stock-based compensation 4,001 3,433 2,942",
     "xbrl": {
      "cik": "0000070858",
      "concept": "us-gaap:ShareBasedCompensation",
-     "end": "2024-12-31",
-     "value": 3433000000
+     "end": "2025-12-31",
+     "value": 4001000000
     }
    },
-   "note": "Cash-flow add-back used for consistency; the note states compensation cost of $3.6 billion (us-gaap:AllocatedShareBasedCompensationExpense 3,600)."
+   "note": "Cash-flow add-back used for consistency; the note states compensation cost of $4.2 billion (us-gaap:AllocatedShareBasedCompensationExpense 4,200)."
   }
  },
  "paidOut": null,
- "altPaidOut": 65.012,
- "altPaidOutFormula": "noninterest expense 66.812 − D&A 2.189 − stock comp 3.433 + income taxes paid 3.822 (USD billions)",
- "interestPaid": 89.687,
+ "altPaidOut": 67.342,
+ "altPaidOutFormula": "noninterest expense 69.727 − D&A 2.314 − stock comp 4.001 + income taxes paid 3.930 (USD billions)",
+ "interestPaid": 79.065,
  "salesEnabled": null,
  "flags": {
   "financeReceivablesInOCF": false,
@@ -144,6 +144,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Inputs copied from the pilot. Bank: operating cash flow (−8,805) is driven by trading assets, loans held for sale and funding flows, so paidOut is null and altPaidOut = noninterest expense − D&A − SBC + income taxes paid. Interest paid (89,687) is shown separately. No premises-and-equipment purchase line, so capex is null. Revenue is net of interest expense (90,547).",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0000070858-26-000157). Bank: operating cash flow (12,613) is driven by trading assets, loans held for sale and funding flows, so paidOut is null and altPaidOut = noninterest expense − D&A − SBC + income taxes paid. Interest paid (79,065) is shown separately. No premises-and-equipment purchase line, so capex is null. Revenue is net of interest expense (78,470).",
+ "researchedAt": "2026-11-24"
 }

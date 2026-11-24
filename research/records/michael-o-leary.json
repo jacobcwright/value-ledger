@@ -1,130 +1,137 @@
 {
   "id": "michael-o-leary",
   "company": "Ryanair",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-03-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
   "currency": "EUR",
   "unit": "billions",
-
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-03-31",
+    "asOf": "2026-03-31",
     "leader": {
       "name": "Michael O'Leary",
       "relation": "ceo",
       "status": "holds",
-      "pctEconomic": 4.1,
+      "pctEconomic": 4,
       "pctVoting": null,
-      "shares": 44099892,
+      "shares": 42199999,
       "derived": null,
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "FY2025 Form 20-F, Item 7 Major Shareholders",
-        "quote": "As of March 31, 2025, there were 1,063,868,001 Ordinary Shares outstanding. ... holdings of those shareholders holding 3% or more of the Ordinary Shares ... Michael O’Leary 44,099,892 4.1 %"
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "FY2026 Form 20-F, Item 7 Major Shareholders",
+        "quote": "As of March 31, 2026, there were 1,043,931,708 Ordinary Shares outstanding. Based on information available to Ryanair Holdings, the following table summarizes holdings of those shareholders holding 3% or more of the Ordinary Shares as of March 31, 2026 ... Michael O'Leary 42,199,999 4.0 %"
       }
     },
     "largestHolders": [
       {
         "name": "Capital Group",
         "type": "asset-manager",
-        "pctEconomic": 13.0,
-        "asOf": "2025-03-31",
+        "pctEconomic": 14.6,
+        "asOf": "2026-03-31",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-          "label": "FY2025 Form 20-F, Item 7 Major Shareholders (as of March 31, 2025)",
-          "quote": "Based on information available to Ryanair Holdings, the following table summarizes holdings of those shareholders holding 3% or more of the Ordinary Shares as of March 31, 2025 ... Capital Group 138,163,341 13.0 %"
+          "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+          "label": "FY2026 Form 20-F, Item 7 Major Shareholders (as of March 31, 2026)",
+          "quote": "As of March 31, 2026, there were 1,043,931,708 Ordinary Shares outstanding. Based on information available to Ryanair Holdings, the following table summarizes holdings of those shareholders holding 3% or more of the Ordinary Shares as of March 31, 2026 ... Capital Group 152,622,128 14.6 %"
         }
       },
       {
-        "name": "HSBC Holdings PLC",
-        "type": "other",
-        "pctEconomic": 10.9,
-        "asOf": "2025-03-31",
-        "source": {
-          "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-          "label": "FY2025 Form 20-F, Item 7 Major Shareholders (as of March 31, 2025)",
-          "quote": "As of March 31, 2025 ... No. of Shares ... HSBC Holdings PLC 116,323,327 10.9 %"
-        }
-      },
-      {
-        "name": "Parvus Asset Management Europe",
+        "name": "MFS",
         "type": "asset-manager",
-        "pctEconomic": 9.4,
-        "asOf": "2025-03-31",
+        "pctEconomic": 4.7,
+        "asOf": "2026-03-31",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-          "label": "FY2025 Form 20-F, Item 7 Major Shareholders (as of March 31, 2025)",
-          "quote": "As of March 31, 2025 ... No. of Shares ... Parvus Asset Management Europe 100,012,268 9.4 %"
+          "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+          "label": "FY2026 Form 20-F, Item 7 Major Shareholders (as of March 31, 2026)",
+          "quote": "As of March 31, 2026, there were 1,043,931,708 Ordinary Shares outstanding. Based on information available to Ryanair Holdings, the following table summarizes holdings of those shareholders holding 3% or more of the Ordinary Shares as of March 31, 2026 ... MFS 49,064,790 4.7 %"
+        }
+      },
+      {
+        "name": "Artisan Partners",
+        "type": "asset-manager",
+        "pctEconomic": 4.5,
+        "asOf": "2026-03-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+          "label": "FY2026 Form 20-F, Item 7 Major Shareholders (as of March 31, 2026)",
+          "quote": "As of March 31, 2026, there were 1,043,931,708 Ordinary Shares outstanding. Based on information available to Ryanair Holdings, the following table summarizes holdings of those shareholders holding 3% or more of the Ordinary Shares as of March 31, 2026 ... Artisan Partners 46,768,071 4.5 %"
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of Ordinary Shares, with ADRs on Nasdaq (about 42% of the Ordinary Shares were held as ADRs in the United States at March 31, 2025). Ryanair's Articles let the Directors limit the shares in which non-EU nationals have an interest, and the exercise of their rights, including voting, where that could protect the licences it needs to operate air services. The 20-F lists holders of 3% or more: Capital Group 13.0%, HSBC Holdings 10.9%, Parvus 9.4%, BNP Paribas 8.0%, MFS 5.5%, Baillie Gifford 4.8%, Michael O'Leary 4.1%, Fidelity 3.5%, Rothschild & Co 3.3%."
+      "note": "One class of Ordinary Shares, with ADRs on Nasdaq (211,986,932 ADRs representing 423,973,864 Ordinary Shares, over 40% of the total, were held of record in the United States at March 31, 2026). Ryanair's Articles let the Directors limit the shares in which non-EU nationals have an interest, and the exercise of their rights, including voting, where that could protect the licences it needs to operate air services. The 20-F lists holders of 3% or more at March 31, 2026: Capital Group 14.6%, MFS 4.7%, Artisan Partners 4.5%, Michael O'Leary 4.0%, BlackRock 4.0% and Fidelity 3.3%."
     }
   },
-
   "cash": {
     "dividends": {
       "value": 0.44,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "FY2025 Form 20-F, Consolidated Statement of Cash Flows",
-        "quote": "Dividends paid 24 (437.7) (199.5) — [€M, years ended March 31, 2025, 2024, 2023]",
-        "xbrl": { "cik": "0001038683", "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities", "end": "2025-03-31", "value": 437700000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "FY2026 Form 20-F, Consolidated Statement of Cash Flows",
+        "quote": "Dividends paid 24 ( 443.3 ) ( 437.7 ) ( 199.5 ) [€M, years ended March 31, 2026, 2025, 2024]"
       }
     },
     "buybacks": {
-      "value": 1.48,
+      "value": 0.54,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "FY2025 Form 20-F, Consolidated Statement of Cash Flows",
-        "quote": "Share buyback (1,477.8) — — [€M, years ended March 31, 2025, 2024, 2023]",
-        "xbrl": { "cik": "0001038683", "concept": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares", "end": "2025-03-31", "value": 1477800000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "FY2026 Form 20-F, Consolidated Statement of Cash Flows",
+        "quote": "Share buyback ( 536.5 ) ( 1,477.8 ) - [€M, years ended March 31, 2026, 2025, 2024]"
       }
     }
   },
-
   "workers": {
     "stockComp": {
-      "value": 0.01,
+      "value": 0.02,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "FY2025 Form 20-F, Note 17 Staff numbers and costs",
-        "quote": "Share based payments 12.8 (3.9) 16.2 [€M, years ended March 31, 2025, 2024, 2023]",
-        "xbrl": { "cik": "0001038683", "concept": "ifrs-full:ExpenseFromSharebasedPaymentTransactionsWithEmployees", "end": "2025-03-31", "value": 12800000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "FY2026 Form 20-F, Note 17 Staff numbers and costs",
+        "quote": "Share based payments 15.0 12.8 ( 3.9 ) [€M, years ended March 31, 2026, 2025, 2024]"
       }
     },
     "plan": null
   },
-
   "geography": {
     "basis": "Total revenue by primary geographical market (country of origin where above 10% of total revenue; Ireland as country of domicile)",
     "segments": [
-      { "name": "Italy", "value": 2.97 },
-      { "name": "Spain", "value": 2.48 },
-      { "name": "United Kingdom", "value": 2.04 },
-      { "name": "Ireland", "value": 0.76 },
-      { "name": "Other", "value": 5.70 }
+      {
+        "name": "Italy",
+        "value": 3.36
+      },
+      {
+        "name": "Spain",
+        "value": 2.7
+      },
+      {
+        "name": "United Kingdom",
+        "value": 2.27
+      },
+      {
+        "name": "Ireland",
+        "value": 0.9
+      },
+      {
+        "name": "Other",
+        "value": 6.32
+      }
     ],
-    "total": 13.95,
+    "total": 15.54,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-      "label": "FY2025 Form 20-F, Note 16 Analysis of operating revenues and segmental analysis",
-      "quote": "The following table disaggregates total revenue by primary geographical market. ... Italy 2,969.4 ... Spain 2,476.5 ... United Kingdom 2,044.6 ... Ireland 757.4 ... Other 5,700.6 ... Total revenue 13,948.5 [€M, year ended March 31, 2025]"
+      "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+      "label": "FY2026 Form 20-F, Note 16 Analysis of operating revenues and segmental analysis",
+      "quote": "The following table disaggregates total revenue by primary geographical market. ... Italy 3,360.7 2,969.4 2,853.3 Spain 2,698.8 2,476.5 2,416.2 United Kingdom 2,272.9 2,044.6 2,031.0 Ireland 896.6 757.4 791.0 Other 6,315.3 5,700.6 5,352.3 Total revenue 15,544.3 13,948.5 13,443.8 [€M, years ended March 31, 2026, 2025, 2024]"
     }
   },
-
-  "notes": "Fiscal year ended March 31, 2025 (Ryanair's FY25; matches data.js fy 'Mar 2025'). Source is Ryanair Holdings plc's FY2025 Form 20-F as filed with the SEC (filed May 19, 2025), which reports in euro, so currency is EUR. OWNERSHIP: the 20-F's major-shareholder table is as of March 31, 2025 and is 'based on information available to Ryanair Holdings'. It does not cite individual holder filings, so each holder's asOf is the table date. Percentages are '% of Class' of the 1,063,868,001 Ordinary Shares outstanding. O'LEARY: 44,099,892 Ordinary Shares (4.1%); the Directors as a group held 44,774,182 shares, about 4%. His relation is 'ceo' (Group CEO; data.js role 'Group CEO'). HSBC Holdings PLC is typed 'other' because the 20-F does not say whether it holds for its own account or as custodian or nominee. STOCK COMP: €12.8m, which rounds to 0.01 billion; FY2024 was a credit of €3.9m. Share awards are made under Option Plan 2013 and LTIP 2019, which the 20-F describes in terms of senior employees, managers and directors; no broad employee share purchase plan was found in the 20-F, so plan is null. DIVIDENDS: €437.7m paid in FY2025 (Note 24). BUYBACKS: €1,477.8m in FY2025 under the €700m program launched in May 2024 and the €800m follow-on launched in August 2024.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended March 31, 2026 (Ryanair's FY26; matches data.js fy 'Mar 2026'). Source is Ryanair Holdings plc's FY2026 Form 20-F as filed with the SEC (accession 0001104659-26-076131, filed June 22, 2026), which reports in euro, so currency is EUR. OWNERSHIP: the 20-F's major-shareholder table is as of March 31, 2026 and is 'based on information available to Ryanair Holdings'. It does not cite individual holder filings, so each holder's asOf is the table date. Percentages are '% of Class' of the 1,043,931,708 Ordinary Shares outstanding. HSBC, Parvus and BNP Paribas, large holders a year earlier, are no longer listed. O'LEARY: 42,199,999 Ordinary Shares (4.0%; the directors' table prints 4.00%), down from 44,099,892; he also holds 10,000,000 share options, which are not counted. His relation is 'ceo' (Group CEO). STOCK COMP: €15.0m, which rounds to 0.02 billion. Share awards are made under Option Plan 2013 and LTIP 2019 for senior employees, managers and directors; no broad employee share purchase plan was found in the 20-F, so plan is null. DIVIDENDS: €443.3m paid in FY2026 (Note 24). BUYBACKS: €536.5m of share buybacks in FY2026. XBRL: companyfacts carries no FY2026 financial facts for Ryanair (only the cover share count), so no xbrl objects are given.",
+  "researchedAt": "2026-11-24"
 }

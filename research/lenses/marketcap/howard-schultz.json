@@ -1,0 +1,22 @@
+{
+  "id": "howard-schultz",
+  "company": "Starbucks",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 1140100000,
+      "sharesAsOf": "2026-11-05",
+      "pricedAs": "SBUX",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000162/sbux-20260927.htm",
+        "label": "FY2026 Form 10-K, cover page",
+        "quote": "As of November 5, 2026, there were 1,140.1 million shares of the registrant’s Common Stock outstanding."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as SBUX. The FY2026 10-K cover (filed November 12, 2026) is newer than the last 10-Q (quarter ended June 28, 2026); it states the count rounded to 0.1 million (1,140.1 million).",
+  "researchedAt": "2026-11-24"
+}

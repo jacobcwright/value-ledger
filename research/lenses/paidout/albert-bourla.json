@@ -1,109 +1,109 @@
 {
- "id": "albert-bourla",
- "company": "Pfizer",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
- "currency": "USD",
- "unit": "billions",
- "sector": "pharma",
- "comparable": true,
- "inputs": {
-  "revenue": {
-   "value": 63.627,
-   "stated": 63627,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of operations (millions)",
-    "quote": "Alliance revenues 8,388 7,582 8,537 Royalty revenues (a) 1,423 1,058 845 Total revenues 63,627 59,553 101,175",
-    "xbrl": {
-     "cik": "0000078003",
-     "concept": "us-gaap:Revenues",
-     "end": "2024-12-31",
-     "value": 63627000000
+  "id": "albert-bourla",
+  "company": "Pfizer",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "pharma",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 62.579,
+      "stated": 62579,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Alliance revenues 9,266 8,388 7,582 Royalty revenues 1,650 1,423 1,058 Total revenues 62,579 63,627 59,553",
+        "xbrl": {
+          "cik": "0000078003",
+          "concept": "us-gaap:Revenues",
+          "end": "2025-12-31",
+          "value": 62579000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 11.704,
+      "stated": 11704,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by/(used in) operating activities 11,704 12,744 8,700",
+        "xbrl": {
+          "cik": "0000078003",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2025-12-31",
+          "value": 11704000000
+        }
+      }
+    },
+    "capex": {
+      "value": 2.629,
+      "components": [
+        "PP&E 2.629"
+      ],
+      "stated": 2629,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Purchases of property, plant and equipment ( 2,629 ) ( 2,909 ) ( 3,907 )",
+        "xbrl": {
+          "cik": "0000078003",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2025-12-31",
+          "value": 2629000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 2.739,
+      "stated": 2739,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid/(received) during the period for: Income taxes $ 4,688 $ 3,605 $ 3,147 Interest paid 2,739 3,227 2,215",
+        "xbrl": {
+          "cik": "0000078003",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2025-12-31",
+          "value": 2739000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 4.688,
+      "stated": 4688,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid/(received) during the period for: Income taxes $ 4,688 $ 3,605 $ 3,147 Interest paid 2,739 3,227 2,215",
+        "xbrl": {
+          "cik": "0000078003",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-12-31",
+          "value": 4688000000
+        }
+      }
     }
-   }
   },
-  "operatingCashFlow": {
-   "value": 12.744,
-   "stated": 12744,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (millions)",
-    "quote": "Net cash provided by/(used in) operating activities 12,744 8,700 29,267",
-    "xbrl": {
-     "cik": "0000078003",
-     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-31",
-     "value": 12744000000
-    }
-   }
+  "paidOut": 53.504,
+  "paidOutFormula": "revenue 62,579 − operating cash flow 11,704 + capex 2,629 (USD millions, as stated)",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
   },
-  "capex": {
-   "value": 2.909,
-   "components": [
-    "PP&E 2.909"
-   ],
-   "stated": 2909,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (millions)",
-    "quote": "Purchases of property, plant and equipment ( 2,909 ) ( 3,907 ) ( 3,236 )",
-    "xbrl": {
-     "cik": "0000078003",
-     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-     "end": "2024-12-31",
-     "value": 2909000000
-    }
-   }
-  },
-  "interestPaid": {
-   "value": 3.227,
-   "stated": 3227,
-   "inOCF": true,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (millions)",
-    "quote": "Cash paid/(received) during the period for: Income taxes $ 3,605 $ 3,147 $ 7,867 Interest paid 3,227 2,215 1,442",
-    "xbrl": {
-     "cik": "0000078003",
-     "concept": "us-gaap:InterestPaidNet",
-     "end": "2024-12-31",
-     "value": 3227000000
-    }
-   }
-  },
-  "taxesPaid": {
-   "value": 3.605,
-   "stated": 3605,
-   "inOCF": true,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (millions)",
-    "quote": "Cash paid/(received) during the period for: Income taxes $ 3,605 $ 3,147 $ 7,867 Interest paid 3,227 2,215 1,442",
-    "xbrl": {
-     "cik": "0000078003",
-     "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-12-31",
-     "value": 3605000000
-    }
-   }
-  }
- },
- "paidOut": 53.792,
- "paidOutFormula": "revenue 63,627 − operating cash flow 12,744 + capex 2,909 (USD millions, as stated)",
- "altPaidOut": null,
- "salesEnabled": null,
- "flags": {
-  "financeReceivablesInOCF": false,
-  "interestDividendsReceivedInOCF": null,
-  "revenueIncludesExcise": false,
-  "nonCashRevenue": null
- },
- "notes": "No separate intangible-asset purchase line in the cash-flow statement (only acquisitions of businesses, none in 2024, and other investing, net). Proceeds from the Haleon share sales (7,040) are investing and do not enter the formula.",
- "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0000078003-26-000026). No separate intangible-asset purchase line in the cash-flow statement. Acquisitions of businesses (6,927 net of cash acquired, mainly Metsera, acquired November 2025) are excluded from capex. Proceeds from the Haleon share sales (6,311) are investing and do not enter the formula.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,32 +1,32 @@
 {
   "id": "ma-huateng",
   "company": "Tencent Holdings",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "CNY",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 46.18,
+      "value": 44.7,
       "source": {
         "hostType": "exchange",
-        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
-        "label": "2024 Annual Report, consolidated statement of cash flows",
-        "quote": "Income tax paid (46,184) (34,729) [RMB million, 2024 and 2023]"
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901231.pdf",
+        "label": "Tencent Annual Report 2025, consolidated statement of cash flows",
+        "quote": "Income tax paid (44,699) (46,184) [RMB million, 2025 and 2024]"
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 70.69,
+      "value": 85.75,
       "source": {
         "hostType": "exchange",
-        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
-        "label": "2024 Annual Report, note on expenses by nature (research and development)",
-        "quote": "During the year ended 31 December 2024, the Group had incurred expenses for the purpose of research and development of approximately RMB70,686 million (2023: RMB64,078 million)"
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901231.pdf",
+        "label": "Tencent Annual Report 2025, note on expenses by nature (research and development)",
+        "quote": "During the year ended 31 December 2025, the Group had incurred expenses for the purpose of R&D of approximately RMB85,747 million (2024: RMB70,686 million)"
       }
     }
   },
-  "notes": "Taxes: 'Income tax paid' in operating cash flows (net line as presented). R&D: Tencent's income statement has no separate R&D line; the expenses-by-nature note discloses R&D expenses incurred of RMB70,686 million and says no significant development expenses were capitalised.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: 'Income tax paid' in operating cash flows (net line as presented). R&D: Tencent's income statement has no separate R&D line; the expenses-by-nature note discloses R&D expenses incurred of about RMB85,747 million (mainly employee benefits of about RMB63,620 million) and says no significant development expenditures were capitalised.",
+  "researchedAt": "2026-11-24"
 }

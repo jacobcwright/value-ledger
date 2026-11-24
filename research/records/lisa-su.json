@@ -1,26 +1,26 @@
 {
   "id": "lisa-su",
   "company": "AMD",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-28",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-27",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-03-19",
+    "asOf": "2026-03-19",
     "leader": {
       "name": "Lisa Su",
       "relation": "ceo",
       "status": "holds",
       "pctEconomic": null,
       "pctVoting": null,
-      "shares": 4736062,
+      "shares": 4305973,
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312525067170/d869673ddef14a.htm",
-        "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management",
-        "quote": "The table below shows the number of shares of our common stock beneficially owned as of March 19, 2025 ... Lisa T. Su 4,736,062 * ... * Less than one percent"
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526129057/d85856ddef14a.htm",
+        "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+        "quote": "The table below shows the number of shares of our common stock beneficially owned as of March 19, 2026 ... Lisa T. Su 4,305,973 * ... * Less than one percent"
       }
     },
     "largestHolders": [
@@ -28,29 +28,31 @@
         "name": "The Vanguard Group",
         "type": "asset-manager",
         "pctEconomic": 8.8,
+        "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312525067170/d869673ddef14a.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management",
-          "quote": "The Vanguard Group(5) 142,442,745 8.8% ... (5) All information regarding The Vanguard Group and its subsidiaries (“Vanguard”) is based solely on information disclosed in Amendment No. 12 of Schedule 13G filed with the SEC on February 13, 2024 by Vanguard."
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526129057/d85856ddef14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "The Vanguard Group (5) 142,442,745 8.8% ... (5) All information regarding The Vanguard Group and its subsidiaries (\"Vanguard\") is based solely on information disclosed in Amendment No. 12 of Schedule 13G filed with the SEC on February 13, 2024 by Vanguard."
         }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
         "pctEconomic": 7.7,
+        "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312525067170/d869673ddef14a.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management",
-          "quote": "BlackRock, Inc.(6) 124,945,206 7.7% ... (6) All information regarding BlackRock Inc. and its subsidiaries (“BlackRock”) is based solely on information disclosed in Amendment No. 8 of Schedule 13G filed with the SEC on February 1, 2024 by BlackRock."
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526129057/d85856ddef14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "BlackRock, Inc. (6) 124,945,206 7.7% ... (6) All information regarding BlackRock Inc. and its subsidiaries (\"BlackRock\") is based solely on information disclosed in Amendment No. 8 of Schedule 13G filed with the SEC on February 1, 2024 by BlackRock."
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock; percentages are based on 1,616,297,522 shares outstanding as of March 19, 2025. Vanguard and BlackRock are the only holders above 5%; every director and officer is under 1%."
+      "note": "One class of common stock; percentages are based on 1,630,338,779 shares outstanding as of March 19, 2026. Vanguard and BlackRock are the only holders above 5%; every director and officer is under 1%."
     }
   },
   "cash": {
@@ -58,40 +60,40 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (financing activities)",
-        "quote": "Cash flows from financing activities: Proceeds from debt, net of issuance costs — ... Repayment of debt (750) ... Proceeds from sales of common stock through employee equity plans 279 ... Repurchases of common stock (862) ... Stock repurchases for tax withholding on employee equity plans (728) ... Other (1) ... Net cash used in financing activities (2,062) [2024, in millions]"
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (financing activities)",
+        "quote": "Cash flows from financing activities: Proceeds from debt and commercial paper issuance, net of issuance costs 2,441 ... Repayment of debt and commercial paper ( 950 ) ... Proceeds from sales of common stock through employee equity plans 285 ... Repurchases of common stock ( 1,316 ) ... Stock repurchases for tax withholding on employee equity plans ( 607 ) ... Settlement of contingent consideration liability ( 284 ) ... Net cash used in financing activities ( 431 ) [2025, in millions]"
       }
     },
     "buybacks": {
-      "value": 0.86,
+      "value": 1.32,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Repurchases of common stock (862) (985) (3,702) [in millions; years ended December 28, 2024, December 30, 2023, December 31, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchases of common stock ( 1,316 ) ( 862 ) ( 985 ) [in millions; years ended December 27, 2025, December 28, 2024, December 30, 2023]",
         "xbrl": {
           "cik": "0000002488",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2024-12-28",
-          "value": 862000000
+          "end": "2025-12-27",
+          "value": 1316000000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 1.41,
+      "value": 1.64,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Stock-based compensation 1,407 1,384 1,081 [Operating activities; in millions; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation 1,638 1,407 1,384 [Operating activities; in millions; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0000002488",
           "concept": "us-gaap:ShareBasedCompensation",
-          "end": "2024-12-28",
-          "value": 1407000000
+          "end": "2025-12-27",
+          "value": 1638000000
         }
       }
     },
@@ -99,9 +101,9 @@
       "text": "Employees can buy AMD shares through the company's Employee Stock Purchase Plan.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, notes, stock-based compensation accounting policy",
-        "quote": "The Company estimates the grant-date fair value of stock to be issued under the Company’s Employee Stock Purchase plan (ESPP) using the Black-Scholes model."
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, notes, stock-based compensation accounting policy",
+        "quote": "The Company estimates the grant-date fair value of stock to be issued under the Company's Employee Stock Purchase plan (ESPP) using the Black-Scholes model."
       }
     }
   },
@@ -110,41 +112,33 @@
     "segments": [
       {
         "name": "United States",
-        "value": 8.69
+        "value": 11.36
       },
       {
         "name": "China (including Hong Kong)",
-        "value": 6.23
-      },
-      {
-        "name": "Singapore",
-        "value": 3.61
+        "value": 7.75
       },
       {
         "name": "Taiwan",
-        "value": 3.3
+        "value": 5.19
       },
       {
-        "name": "Japan",
-        "value": 1.77
-      },
-      {
-        "name": "Europe",
-        "value": 1.63
+        "name": "Singapore",
+        "value": 4.28
       },
       {
         "name": "Other regions",
-        "value": 0.55
+        "value": 6.06
       }
     ],
-    "total": 25.79,
+    "total": 34.64,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-      "label": "FY2024 Form 10-K, segment note, sales by geographic region",
-      "quote": "The following table summarizes sales to external customers by geographic regions based on billing location of the customer: ... United States 8,693 ... China (including Hong Kong) 6,231 ... Singapore 3,614 ... Taiwan 3,301 ... Japan 1,767 ... Europe 1,625 ... Other regions 554 ... Total sales to external customers $ 25,785 [2024, in millions]"
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+      "label": "FY2025 Form 10-K, segment note, sales by geographic region",
+      "quote": "The following table summarizes sales to external customers by geographic regions based on billing location of the customer: ... (In millions) United States $ 11,363 $ 8,693 $ 7,837 China (including Hong Kong) 7,751 6,231 3,417 Taiwan 5,186 3,301 1,841 Singapore 4,284 3,614 2,231 Other regions 6,055 3,946 7,354 Total sales to external customers $ 34,639 $ 25,785 $ 22,680"
     }
   },
-  "notes": "Fiscal year ended December 28, 2024 (AMD's 52-week fiscal 2024; matches data.js fy 'Dec 2024'). Sources: FY2024 Form 10-K (accession 0000002488-25-000012) and 2025 proxy statement (DEF 14A, accession 0001193125-25-067170, ownership as of March 19, 2025). Lisa Su beneficially owns 4,736,062 shares, less than 1% (marked * in the proxy), so pctEconomic is null; the figure includes 553,902 shares under options exercisable within 60 days. 5% HOLDERS: the proxy cites only the Schedule 13G filing dates (February 2024), not the ownership dates, so holder asOf is omitted; the share counts are stale relative to the March 2025 denominator. DIVIDENDS are 0: the cash-flow statement has no dividend line in financing activities (quoted in full), and the stock-option valuation notes use expected dividends of zero. Buybacks exclude $728 million of stock repurchased for tax withholding on employee equity plans. GEOGRAPHY is by customer billing location, as AMD reports it.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 27, 2025 (AMD's 52-week fiscal 2025). Sources: FY2025 Form 10-K (accession 0000002488-26-000018, filed February 4, 2026) and 2026 proxy statement (DEF 14A, accession 0001193125-26-129057, ownership as of March 19, 2026). Lisa Su, Chair and CEO, beneficially owns 4,305,973 shares, less than 1% (marked * in the proxy), so pctEconomic is null; the figure includes 413,529 shares under options exercisable within 60 days. 5% HOLDERS: the 2026 proxy still cites the same Schedule 13G filings of February 2024 (Vanguard Amendment No. 12, BlackRock Amendment No. 8), with percentages computed on the March 19, 2026 count of 1,630,338,779 shares; it gives no ownership dates, so holder asOf is null, and the share counts are stale. DIVIDENDS are 0: the cash-flow statement has no dividend line in financing activities (quoted), and the stock-option notes say the Company does not expect to pay dividends in the near future. Buybacks exclude $607 million of stock repurchased for tax withholding on employee equity plans. GEOGRAPHY is by customer billing location, as AMD reports it; in FY2025 AMD reports four named countries plus 'Other regions' (Japan and Europe are no longer shown separately). AMD sold the ZT Systems manufacturing business in 2025 and reports it as discontinued operations; the geographic table covers continuing net revenue.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,21 @@
+{
+  "id": "shigeru-miyamoto",
+  "company": "Nintendo",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
+  "currency": "JPY",
+  "employees": {
+    "value": 8666,
+    "asOf": "2026-03-31",
+    "basis": "number of persons employed (group), including part-time workers hired on a regular basis",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf",
+      "label": "Nintendo Annual Report 2026 (translation of the Annual Securities Report), IV.5 Employees, (2)(i) Information about group",
+      "quote": "(i) Information about group As of March 31, 2026 Number of employees (persons) 8,666 (Note) Number of employees represents the number of persons employed, excluding persons seconded from the Company group to outside the Company group"
+    }
+  },
+  "payroll": null,
+  "notes": "Employees: group head count at March 31, 2026, including part-time workers hired on a regular basis. Payroll is null: the J-GAAP report gives no total personnel expense. It lists only 'Salaries, allowances and bonuses' within selling, general and administrative expenses (¥57,828m), which excludes staff costs in manufacturing and other lines, and an average annual salary for the parent company's employees only; neither is a total of staff costs. As a Japanese filer Nintendo publishes no CEO pay ratio.",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "herbert-diess",
+  "company": "Volkswagen AG",
+  "classes": [
+    {
+      "label": "Ordinary shares (voting)",
+      "shares": 295089818,
+      "sharesAsOf": "2025-12-31",
+      "pricedAs": "VOW.DE",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "company",
+        "url": "https://uploads.vw-mms.de/system/production/documents/cws/003/215/file_en/d46cfd6dd3241543d5edf0869a321ea70642902e/2026-03-10-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2023-en.pdf",
+        "label": "Consolidated Financial Statements 2025, note 24 Equity",
+        "quote": "The subscribed capital is composed of 295,089,818 no-par value ordinary shares (previous year: 295,089,818) and 206,205,445 no-par value preferred shares (previous year: 206,205,445), and amounts to €1,283,315,873"
+      }
+    },
+    {
+      "label": "Preferred shares (non-voting)",
+      "shares": 206205445,
+      "sharesAsOf": "2025-12-31",
+      "pricedAs": "VOW3.DE",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "company",
+        "url": "https://uploads.vw-mms.de/system/production/documents/cws/003/215/file_en/d46cfd6dd3241543d5edf0869a321ea70642902e/2026-03-10-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2023-en.pdf",
+        "label": "Consolidated Financial Statements 2025, note 24 Equity",
+        "quote": "The subscribed capital is composed of 295,089,818 no-par value ordinary shares (previous year: 295,089,818) and 206,205,445 no-par value preferred shares (previous year: 206,205,445), and amounts to €1,283,315,873"
+      }
+    }
+  ],
+  "notes": "Both classes are listed on Xetra/Frankfurt in euros (ordinary VOW, preferred VOW3) and each is priced from its own line. JUDGMENT CALL: Volkswagen's preferred shares are included although the pilot rule leaves out preferred stock, because they are German non-voting preference shares (Vorzugsaktien) that make up 41% of subscribed capital, share fully in profits (with a €0.06 higher dividend) and are the company's most traded line; the shareholder percentages in the record are of subscribed capital including them. The count is the subscribed capital at December 31, 2025. The Q3 2026 interim report (October 29, 2026) shows the same 295,089,818 ordinary and 206,205,445 preferred shares as the weighted average for the third quarter of 2026, and no purchases of own shares or capital increases are reported, so the count is taken as current.",
+  "researchedAt": "2026-11-24"
+}

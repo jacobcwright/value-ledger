@@ -1,51 +1,66 @@
 {
   "id": "lei-jun",
   "company": "Xiaomi Corporation",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "CNY",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2024-12-31",
+    "asOf": "2025-12-31",
     "leader": {
       "name": "Lei Jun",
       "relation": "co-founder",
       "status": "holds",
       "pctEconomic": null,
-      "pctVoting": 61.9,
+      "pctVoting": 61.0,
       "shares": null,
       "derived": {
-        "pctEconomic": 24.12,
-        "method": "(4,068,513,104 Class A + 1,985,666,534 Class B shares in which Lei Jun is interested) / (4,517,510,134 Class A + 20,581,641,676 Class B shares in issue at 31 December 2024). Computed, not stated: the report gives his holdings only as % of each class (90.06% of Class A; 9.65% of Class B via Smart Mobile 8.91%, Smart Player 0.29% and Team Guide 0.45%).",
+        "pctEconomic": 23.25,
+        "method": "(4,063,148,182 Class A + 1,993,631,456 Class B shares in which Lei Jun is interested) / (4,511,553,144 Class A + 21,535,682,134 Class B shares in issue at 31 December 2025) = 6,056,779,638 / 26,047,235,278. Computed, not stated: the report gives his holdings only as % of each class (90.06% of Class A; 9.26% of Class B via Smart Mobile 8.54%, Smart Player 0.27% and Team Guide 0.44%).",
         "inputs": [
           {
             "hostType": "exchange",
-            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-            "label": "Xiaomi 2024 Annual Report, Directors' Report, Directors' and Chief Executive's Interests (PDF p. 68)",
-            "quote": "Lei Jun(3) Beneficiary, founder ARK Trust (Hong Kong) 4,068,513,104 90.06% and settlor of a Limited Class A Shares Trust(L) 1,985,666,534 9.65% Class B Shares"
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+            "label": "Xiaomi 2025 Annual Report, Directors' Report, Directors' and Chief Executive's Interests",
+            "quote": "Lei Jun(3) Beneficiary, founder and settlor of a trust(L) ARK Trust (Hong Kong) Limited 4,063,148,182 Class A Shares 90.06% 1,993,631,456 Class B Shares 9.26%"
           },
           {
             "hostType": "exchange",
-            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-            "label": "Xiaomi 2024 Annual Report, Note 25 Share capital and treasury shares (PDF p. 341)",
-            "quote": "As of December 31, 2024, the number of issued share capital of Class A and Class B Share is 4,517,510,134 and 20,581,641,676, respectively."
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+            "label": "Xiaomi 2025 Annual Report, Note 25 Share capital and treasury shares",
+            "quote": "As of December 31, 2025, the number of issued share capital of Class A and Class B Share is 4,511,553,144 and 21,535,682,134, respectively."
           }
         ]
       },
       "family": null,
       "source": {
         "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "Xiaomi 2024 Annual Report, Directors' Report, Directors' and Chief Executive's Interests (PDF p. 68) and Weighted Voting Rights (PDF p. 85)",
-        "quote": "Lei Jun(3) Beneficiary, founder ARK Trust (Hong Kong) 4,068,513,104 90.06% ... 1,985,666,534 9.65% Class B Shares ... Lei Jun beneficially owns 4,068,513,104 Class A Shares, representing approximately 61.9% of the voting rights in the Company with respect to shareholder resolutions relating to matters other than the Reserved Matters."
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, Directors' Report, Directors' and Chief Executive's Interests and Weighted Voting Rights",
+        "quote": "Lei Jun(3) Beneficiary, founder and settlor of a trust(L) ARK Trust (Hong Kong) Limited 4,063,148,182 Class A Shares 90.06% 1,993,631,456 Class B Shares 9.26% ... Lei Jun beneficially owns 4,063,148,182 Class A Shares, representing approximately 61.0% of the voting rights in the Company with respect to shareholder resolutions relating to matters other than the Reserved Matters."
       }
     },
-    "largestHolders": [],
+    "largestHolders": [
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 5.16,
+        "basis": "class",
+        "classLabel": "Class B",
+        "asOf": "2025-12-31",
+        "source": {
+          "hostType": "exchange",
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+          "label": "Xiaomi 2025 Annual Report, Directors' Report, Substantial Shareholders' Interests",
+          "quote": "Class B Shares ... BlackRock, Inc.(5) Interest in controlled corporations (L) 1,111,591,304 5.16% ... (2) The calculation is based on the total number of relevant class of Shares in issue as at December 31, 2025."
+        }
+      }
+    ],
     "structure": {
       "dualClass": true,
       "controlled": true,
-      "note": "Weighted voting rights: each Class A share has 10 votes and each Class B share one vote, except on a limited number of Reserved Matters where every share has one vote. The report says 'The Company is controlled through weighted voting rights.' The WVR beneficiaries are Lei Jun (4,068,513,104 Class A shares, about 61.9% of votes on ordinary matters) and co-founder Lin Bin (448,997,030 Class A shares, about 6.8%). All Class A shares together equal 18.0% of issued share capital excluding treasury shares. Lei Jun's shares are held through trusts he settled for the benefit of himself and his family (ARK Trust (Hong Kong) Limited as trustee)."
+      "note": "Weighted voting rights: each Class A share has 10 votes and each Class B share one vote, except on a limited number of Reserved Matters where every share has one vote. The WVR beneficiaries at 31 December 2025 were Lei Jun (4,063,148,182 Class A shares, about 61.0% of votes on ordinary matters) and co-founder Lin Bin (448,404,962 Class A shares, about 6.7%). Lei Jun's shares are held through trusts he settled for the benefit of himself and his family (ARK Trust (Hong Kong) Limited as trustee). When Xiaomi repurchases Class B shares, the WVR beneficiaries convert Class A into Class B shares one-for-one so the WVR proportion does not rise."
     }
   },
   "cash": {
@@ -53,38 +68,38 @@
       "value": 0,
       "source": {
         "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "Xiaomi 2024 Annual Report, Note 27 Dividends (PDF p. 346)",
-        "quote": "No dividends have been paid or declared by the Company during the years ended December 31, 2024 and 2023."
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, Note 27 Dividends",
+        "quote": "No dividends have been paid or declared by the Company during the years ended December 31, 2025 and 2024."
       }
     },
     "buybacks": {
-      "value": 4.05,
+      "value": 6.17,
       "source": {
         "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "Xiaomi 2024 Annual Report, consolidated statement of cash flows (PDF p. 238)",
-        "quote": "Payments for shares repurchase (4,047,876) (1,356,825) [RMB'000, 2024 and 2023]"
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, consolidated statement of cash flows",
+        "quote": "Payments for shares repurchase (6,172,545) (4,047,876) [RMB'000, 2025 and 2024]"
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 3.73,
+      "value": 5.37,
       "source": {
         "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "Xiaomi 2024 Annual Report, Note 9 Employee benefit expenses (PDF p. 300)",
-        "quote": "Share-based compensation expenses (Note 28) 3,726,085 3,378,670 [RMB'000, 2024 and 2023]"
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, Note 9 Employee benefit expenses",
+        "quote": "Wages, salaries and bonuses 19,300,796 14,963,862 Share-based compensation expenses (Note 28) 5,365,075 3,726,085 [RMB'000, 2025 and 2024]"
       }
     },
     "plan": {
-      "text": "At the end of 2024, 14,268 of Xiaomi's 43,688 full-time employees held share-based awards.",
+      "text": "At the end of 2025, 16,572 of Xiaomi's 56,531 full-time employees held share-based awards.",
       "source": {
         "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "Xiaomi 2024 Annual Report, Management Discussion and Analysis, Employee and Remuneration Policy (PDF p. 34)",
-        "quote": "As of December 31, 2024, we had 43,688 full-time employees ... As of December 31, 2024, 14,268 employees held share-based awards."
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, Management Discussion and Analysis, Employee and Remuneration Policy",
+        "quote": "As of December 31, 2025, we had 56,531 full-time employees ... As of December 31, 2025, 16,572 employees held share-based awards."
       }
     }
   },
@@ -92,22 +107,22 @@
     "basis": "Geographical information on the total revenues",
     "segments": [
       {
-        "name": "Mainland China",
-        "value": 212.56
+        "name": "Chinese Mainland",
+        "value": 306.22
       },
       {
         "name": "Rest of the world",
-        "value": 153.34
+        "value": 151.06
       }
     ],
-    "total": 365.91,
+    "total": 457.29,
     "source": {
       "hostType": "exchange",
-      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-      "label": "Xiaomi 2024 Annual Report, Note 5 Segment information, geographical information (PDF p. 297)",
-      "quote": "the geographical information on the total revenues is as follows: ... Mainland China 212,562,449 58.1 149,189,720 55.1 Rest of the world (Note (a)) 153,343,901 41.9 121,780,421 44.9 365,906,350 270,970,141 ... Revenues outside mainland China are mainly from Europe and India. [RMB'000]"
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+      "label": "Xiaomi 2025 Annual Report, Note 5 Segment information and revenue, geographical information",
+      "quote": "the geographical information on the total revenues is as follows: ... Chinese Mainland 306,223,141 67.0 212,562,449 58.1 Rest of the world (Note (a)) 151,063,546 33.0 153,343,901 41.9 457,286,687 365,906,350 ... Revenues outside the Chinese Mainland are mainly from Europe and India. [RMB'000]"
     }
   },
-  "notes": "No SEC filings; all figures come from the Xiaomi 2024 Annual Report as published on HKEXnews (24 April 2025), reporting in RMB (ISO CNY). The same document is mirrored at ir.mi.com but the HKEX copy is cited. OWNERSHIP is as at 31 December 2024 from the SFO Part XV registers. The report states Lei Jun's interests only as % of each share class, so leader.derived computes 24.12% of all issued shares (Class A plus Class B); pctEconomic is null. The denominators are the same class totals the report's own class percentages use (1,985,666,534 / 20,581,641,676 = 9.65%). pctVoting 61.9% is the report's figure for his Class A shares only on non-reserved matters; the report does not state a voting % that includes his Class B shares. The substantial-shareholder register lists only Lei Jun's own holding vehicles (Smart Mobile, Sunrise Vision, Parkway Global, ARK Trust); ARK Trust's 10.55% of Class B also includes 184,740,432 Class B shares held for other trusts, which is not added. LARGEST HOLDERS is empty: no other holder has a disclosed percentage of all shares. Co-founder and director Lin Bin is disclosed only per class (448,997,030 Class A, 9.94% of Class A, held by Apex Star LLC; plus Class B interests of 8.29%, 0.45%, 0.25% and 0.15% of Class B), and combining them would be a derivation the schema does not allow for holders. The 2024 Annual Report shows no other 5% holder. DIVIDENDS: none paid; the Board also resolved not to declare a final dividend for 2024. The RMB 23,286k paid to non-controlling interests is excluded. BUYBACKS: the cash-flow line 'Payments for shares repurchase' (RMB 4,047,876k). The treasury-share note shows RMB 3,531,531k of shares repurchased in 2024 on a trade basis; the cash-flow figure is used. STOCK COMP: the Note 9 employee benefit line (RMB 3,726,085k).",
-  "researchedAt": "2026-11-23"
+  "notes": "No SEC filings; all figures come from the Xiaomi 2025 Annual Report as published on HKEXnews (28 April 2026), reporting in RMB (ISO CNY). OWNERSHIP is as at 31 December 2025 from the SFO Part XV registers. The report states Lei Jun's interests only as % of each share class, so leader.derived computes 23.25% of all issued shares (Class A plus Class B); pctEconomic is null. The denominators are the class totals the report's own class percentages use (based on shares in issue at 31 December 2025; note 25(b) shows 133,607 thousand repurchased shares not yet cancelled at that date, while the Directors' Report says no treasury shares were held). pctVoting 61.0% is the report's figure for his Class A shares only on non-reserved matters; the report does not state a voting % that includes his Class B shares. ARK Trust's 9.98% of Class B also includes 156,252,115 Class B shares held for other trusts, which is not added. LARGEST HOLDERS: BlackRock is listed at 5.16% of Class B only (basis 'class'), so it is not used for 'everyone else'. Co-founder and director Lin Bin is disclosed only per class (448,404,962 Class A, 9.94%, via Apex Star LLC; Class B interests of 7.93%, 0.43%, 0.24% and 0.14%), and combining them would be a derivation the schema does not allow for holders. DIVIDENDS: none paid; the Board resolved not to declare a final dividend for 2025. The RMB 1,964k paid to non-controlling interests is excluded. BUYBACKS: the cash-flow line 'Payments for shares repurchase' (RMB 6,172,545k); the treasury-share note shows RMB 6,585,318k of shares repurchased in 2025 on a trade basis. In March 2025 Xiaomi also placed 800,000,000 new Class B shares (HK$42.6 billion gross). STOCK COMP: the Note 9 employee benefit line (RMB 5,365,075k).",
+  "researchedAt": "2026-11-24"
 }

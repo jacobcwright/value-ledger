@@ -1,0 +1,32 @@
+{
+  "id": "irwin-m-jacobs",
+  "company": "Qualcomm",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-09-27",
+  "currency": "USD",
+  "employees": {
+    "value": 57000,
+    "asOf": "2026-09-27",
+    "basis": "approximately 57,000 full-time, part-time and temporary workers, the overwhelming majority of which were full-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+      "label": "FY2026 Form 10-K, Item 1 Human Capital",
+      "quote": "At September 27, 2026, we had approximately 57,000 full-time, part-time and temporary workers, the overwhelming majority of which were full-time employees."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "period": "FY2025",
+    "label": "annual total compensation of our median employee",
+    "value": 101639,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926005781/tm2528704-1_def14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "For fiscal 2025, our last completed fiscal year: • the annual total compensation of our CEO, as shown in the Summary Compensation Table, was $29,701,097; • the annual total compensation of our median employee, calculated as described below, was $101,639; and • the resulting ratio was 292 : 1."
+    }
+  },
+  "notes": "Employees: Qualcomm reports an approximate count of all full-time, part-time and temporary workers at its fiscal year end. Payroll: the FY2026 10-K discloses no total staff cost, so the CEO pay ratio median from the January 2026 proxy is used; it is the fiscal 2025 median (employee population of approximately 52,000 at September 28, 2025), a year behind the head count. The fiscal 2026 median will appear only in the proxy due in January 2027.",
+  "researchedAt": "2026-11-24"
+}

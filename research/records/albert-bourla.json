@@ -1,26 +1,26 @@
 {
   "id": "albert-bourla",
   "company": "Pfizer",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-01-31",
+    "asOf": "2026-01-31",
     "leader": {
       "name": "Albert Bourla",
       "relation": "ceo",
       "status": "holds",
       "pctEconomic": null,
       "pctVoting": null,
-      "shares": 337340,
+      "shares": 378551,
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000062/pfe-20250313.htm",
-        "label": "2025 proxy statement (DEF 14A), Securities Ownership",
-        "quote": "The table below shows the number of shares of our common stock beneficially owned (as of the close of business on January 31, 2025) ... Albert Bourla, DVM, Ph.D. 337,340 (3) 1,070,737 (5) ... (1)Individuals beneficially own less than one percent (1%) of our common stock outstanding."
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000033/pfe-20260312.htm",
+        "label": "2026 proxy statement, Securities Ownership",
+        "quote": "The table below shows the number of shares of our common stock beneficially owned as of January 31, 2026 ... Albert Bourla, DVM, Ph.D. 378,551 (3) 1,072,649 (5) ... (1) Individuals beneficially own less than one percent (1%) of our common stock outstanding."
       }
     },
     "largestHolders": [
@@ -31,9 +31,9 @@
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000062/pfe-20250313.htm",
-          "label": "2025 proxy statement (DEF 14A), Securities Ownership, beneficial owners of more than 5%",
-          "quote": "The Vanguard Group(1) 100 Vanguard Boulevard Malvern, PA 19355 506,479,807(1) 8.97 % ... (1)The information is based solely on a Schedule 13G/A filed by Vanguard on February 13, 2024 (the Vanguard 13G/A)."
+          "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000033/pfe-20260312.htm",
+          "label": "2026 proxy statement, Securities Ownership, beneficial owners of more than 5%",
+          "quote": "The Vanguard Group (1) 100 Vanguard Boulevard Malvern, PA 19355 506,479,807 (1) 8.97 % ... (1) The information is based solely on a Schedule 13G/A filed by Vanguard on February 13, 2024 (the Vanguard 13G/A)."
         }
       },
       {
@@ -43,9 +43,9 @@
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000062/pfe-20250313.htm",
-          "label": "2025 proxy statement (DEF 14A), Securities Ownership, beneficial owners of more than 5%",
-          "quote": "BlackRock, Inc.(2) 50 Hudson Yards New York, NY 10001 434,748,255(2) 7.70 % ... (2)The information is based solely on a Schedule 13G/A filed by BlackRock on January 26, 2024 (the BlackRock 13G/A)."
+          "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000033/pfe-20260312.htm",
+          "label": "2026 proxy statement, Securities Ownership, beneficial owners of more than 5%",
+          "quote": "BlackRock, Inc. (2) 50 Hudson Yards New York, NY 10001 434,748,255 (2) 7.70 %"
         }
       },
       {
@@ -55,68 +55,86 @@
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000062/pfe-20250313.htm",
-          "label": "2025 proxy statement (DEF 14A), Securities Ownership, beneficial owners of more than 5%",
-          "quote": "State Street Corporation(3) State Street Financial Center One Congress Street, Suite 1 Boston, MA 02114 287,875,814(3) 5.10 % ... (3)The information is based solely on a Schedule 13G/A filed by State Street on January 29, 2024 (the State Street 13G/A)."
+          "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000033/pfe-20260312.htm",
+          "label": "2026 proxy statement, Securities Ownership, beneficial owners of more than 5%",
+          "quote": "State Street Corporation (3) State Street Financial Center One Congress Street, Suite 1 Boston, MA 02114 287,875,814 (3) 5.10 %"
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock. The proxy lists three holders of more than 5% (Vanguard, BlackRock, State Street); directors and executive officers together beneficially own less than 1%."
+      "note": "One class of common stock. The 2026 proxy lists three holders of more than 5% (Vanguard, BlackRock, State Street); directors and executive officers together beneficially own less than 1%."
     }
   },
   "cash": {
     "dividends": {
-      "value": 9.51,
+      "value": 9.77,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Cash dividends paid (9,512) (9,247) (8,983) [in millions, 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000078003", "concept": "us-gaap:PaymentsOfOrdinaryDividends", "end": "2024-12-31", "value": 9512000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Cash dividends paid ( 9,771 ) ( 9,512 ) ( 9,247 ) [in millions, 2025, 2024, 2023]",
+        "xbrl": {
+          "cik": "0000078003",
+          "concept": "us-gaap:PaymentsOfOrdinaryDividends",
+          "end": "2025-12-31",
+          "value": 9771000000
+        }
       }
     },
     "buybacks": {
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Purchases of common stock — — (2,000) [in millions, 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000078003", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-12-31", "value": 0 }
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 12 Equity, share purchase plans",
+        "quote": "We did not purchase shares of our common stock under our publicly announced share-purchase plan in any of the periods presented."
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.88,
+      "value": 0.8,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Share-based compensation expense 877 525 872 [in millions, 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000078003", "concept": "us-gaap:ShareBasedCompensation", "end": "2024-12-31", "value": 877000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Share-based compensation expense 799 877 525 [in millions, 2025, 2024, 2023]",
+        "xbrl": {
+          "cik": "0000078003",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2025-12-31",
+          "value": 799000000
+        }
       }
     },
     "plan": null
   },
   "geography": {
-    "basis": "Revenues by geographic area",
+    "basis": "Revenues by geographic area, primarily attributed to countries based on the location of the customer",
     "segments": [
-      { "name": "United States", "value": 38.69 },
-      { "name": "International: Developed Markets", "value": 16.06 },
-      { "name": "International: Emerging Markets", "value": 8.88 }
+      {
+        "name": "United States",
+        "value": 37.08
+      },
+      {
+        "name": "International: Developed Markets",
+        "value": 16.19
+      },
+      {
+        "name": "International: Emerging Markets",
+        "value": 9.31
+      }
     ],
-    "total": 63.63,
+    "total": 62.58,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-      "label": "FY2024 Form 10-K, Note 17B Geographic Information",
-      "quote": "The following summarizes revenues by geographic area: ... (MILLIONS) 2024 2023 2022 United States $ 38,691 $ 28,145 $ 43,317 International: Developed Markets 16,057 20,910 40,534 Emerging Markets 8,879 10,498 17,324 Total revenues $ 63,627 $ 59,553 $ 101,175"
+      "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+      "label": "FY2025 Form 10-K, Note 17 Segment, Geographic and Other Revenue Information",
+      "quote": "summarizes revenues by geographic area: Year Ended December 31, (MILLIONS) 2025 2024 2023 United States $ 37,078 $ 38,691 $ 28,145 International: Developed Markets 16,188 16,057 20,910 Emerging Markets 9,313 8,879 10,498 Total revenues (a) $ 62,579 $ 63,627 $ 59,553 (a) Revenues are primarily attributed to countries based on the location of the customer."
     }
   },
-  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). Sources: FY2024 Form 10-K (accession 0000078003-25-000054) and 2025 proxy statement (DEF 14A, accession 0000078003-25-000062), read on EDGAR. LEADER: Bourla is a hired CEO. He beneficially owns 337,340 shares of common stock as of January 31, 2025 (including shares credited under the Pfizer Savings Plan and deferred shares from vested awards), which the proxy says is less than 1% of shares outstanding, so pctEconomic is null. A further 1,070,737 stock units, some settled in cash after separation, are shown in a separate column and are not counted as shares. HOLDERS: the proxy gives only the filing dates of the Schedule 13G/A reports behind the 5% holders (Vanguard February 13, 2024; BlackRock January 26, 2024; State Street January 29, 2024), not the as-of dates, so asOf is null; the figures are more than a year old. BUYBACKS: Pfizer bought back no stock in 2024 (dash in the cash-flow line; XBRL fact 0). No ESPP or broad-based grant program was recorded.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Sources: FY2025 Form 10-K (accession 0000078003-26-000026, filed February 26, 2026) and 2026 proxy statement (DEF 14A, accession 0000078003-26-000033, filed March 12, 2026), read on EDGAR. LEADER: Bourla is a hired CEO (Chairman and Chief Executive Officer). He beneficially owns 378,551 shares of common stock as of January 31, 2026 (including shares credited under the Pfizer Savings Plan and deferred shares from vested awards), which the proxy says is less than 1% of shares outstanding, so pctEconomic is null. A further 1,072,649 stock units, some settled in cash after separation, are shown in a separate column and are not counted as shares; 5,984,997 TSRUs are also excluded. HOLDERS: the 2026 proxy repeats the 2025 proxy's 5% holders and figures, still based on Schedule 13G/A reports filed in early 2024 (Vanguard February 13, 2024; BlackRock January 26, 2024; State Street January 29, 2024); it gives only filing dates, so asOf is null, and the figures are about two years old. BUYBACKS: Pfizer bought back no stock in 2025; the cash-flow statement no longer has a share-purchase line, and the equity note says no shares were purchased under the program in any period presented. No ESPP or broad-based grant program was recorded.",
+  "researchedAt": "2026-11-24"
 }

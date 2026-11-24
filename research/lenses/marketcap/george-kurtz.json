@@ -1,0 +1,22 @@
+{
+  "id": "george-kurtz",
+  "company": "CrowdStrike",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 1030596521,
+      "sharesAsOf": "2026-11-19",
+      "pricedAs": "CRWD",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000038/crwd-20261031.htm",
+        "label": "Form 10-Q for the quarter ended October 31, 2026, cover page",
+        "quote": "As of November 19, 2026, the number of shares of the registrant's common stock outstanding was 1,030,596,521 ."
+      }
+    }
+  ],
+  "notes": "Class A common stock, listed on Nasdaq as CRWD; no Class B shares have been outstanding since December 2024. The count (10-Q filed November 23, 2026) is after the four-for-one stock split in the form of a stock dividend, distributed after the close of business on July 1, 2026 to holders of record on June 25, 2026.",
+  "researchedAt": "2026-11-24"
+}

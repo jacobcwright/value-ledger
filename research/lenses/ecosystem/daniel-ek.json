@@ -1,8 +1,8 @@
 {
   "id": "daniel-ek",
   "company": "Spotify Technology",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "EUR",
   "unit": "billions",
   "ecosystem": {
@@ -10,17 +10,17 @@
     "measure": null,
     "platformRevenue": {
       "label": "Revenue",
-      "value": 15.67,
+      "value": 17.19,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm",
-        "label": "FY2024 Form 20-F, consolidated statement of operations",
-        "quote": "Revenue 4 15,673 13,247 11,727 [in € millions; Note 4; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of operations",
+        "quote": "Revenue 4 17,186 15,673 13,247 [in € millions; Note 4; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001639920",
           "concept": "ifrs-full:Revenue",
-          "end": "2024-12-31",
-          "value": 15673000000
+          "end": "2025-12-31",
+          "value": 17186000000
         }
       }
     },
@@ -28,24 +28,24 @@
     "clientAssets": null,
     "studies": [
       {
-        "title": "Loud & Clear 2025",
+        "title": "Loud & Clear 2026",
         "publisher": "Spotify",
         "commissionedBy": "Spotify (self-published)",
-        "year": 2025,
-        "claim": "In 2024, Spotify alone paid out $10 billion to the music industry—more than any single company has ever contributed in one year.",
-        "value": 10,
+        "year": 2026,
+        "claim": "For another year, Spotify was the highest-paying retailer globally, paying the music industry more than $11 billion in 2025 and bringing our all-time total to nearly $70 billion.",
+        "value": 11,
         "currency": "USD",
         "unit": "billions",
         "source": {
           "hostType": "company",
-          "url": "https://newsroom.spotify.com/2025-03-12/beyond-profits-how-the-music-industrys-cultural-and-financial-impact-define-its-success-in-2025/",
-          "label": "Spotify newsroom, Loud & Clear 2025 post (Mar 12, 2025); company-reported, not in the 20-F. The live Loud & Clear site now shows 2025 data (more than $11 billion paid in 2025).",
-          "quote": "In 2024, Spotify alone paid out $10 billion to the music industry—more than any single company has ever contributed in one year."
+          "url": "https://newsroom.spotify.com/2026-03-11/loud-and-clear-music-economics-highlights/",
+          "label": "Spotify newsroom, Loud & Clear 2026 highlights post (Mar 11, 2026); company-reported, not in the 20-F",
+          "quote": "For another year, Spotify was the highest-paying retailer globally, paying the music industry more than $11 billion in 2025 and bringing our all-time total to nearly $70 billion."
         }
       }
     ],
-    "notes": "The 20-F states no total for royalties paid to rights holders: it says \"Cost of revenue consists predominantly of royalty and distribution costs related to content streaming\" but does not break royalties out, so payouts is null. The $10 billion is Spotify's own figure from its Loud & Clear 2025 report, in US dollars (the filing reports in euros), and is money paid to the music industry as a whole (rights holders such as labels and publishers, not only artists; the Loud & Clear site says its lifetime total \"includes both recording and publishing royalties\"). It is not audited filing data. No volume measure exists, so measure is null."
+    "notes": "The 20-F states no total for royalties paid to rights holders (cost of revenue consists predominantly of royalty and distribution costs related to content streaming, but royalties are not broken out), so payouts is null. The study figure is Spotify's own from its Loud & Clear 2026 report, in US dollars (the filing reports in euros), stated as 'more than $11 billion', so 11 is a lower bound; it is money paid to the music industry as a whole (rights holders such as labels and publishers, not only artists). It is not audited filing data. It replaces the Loud & Clear 2025 figure ($10 billion for 2024). No volume measure exists, so measure is null."
   },
   "notes": "Ecosystem lens only. The Loud & Clear figure is stored under studies because it is company-reported and in USD, while the filing is in EUR.",
-  "researchedAt": "2026-11-23"
+  "researchedAt": "2026-11-24"
 }

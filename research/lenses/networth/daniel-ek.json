@@ -2,18 +2,18 @@
   "id": "daniel-ek",
   "name": "Daniel Ek",
   "netWorth": {
-    "value": 7.8,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 401,
+    "value": 13.53,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 222,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"daniel-ek\",\"rank\":401,\"listUri\":\"billionaires\",\"visible\":true,\"position\":402,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"bio\":\"When Daniel Ek joined the inaugural Forbes Under 30 class in 2012, his music streaming experiment Spotify had 10 million active users, was worth $2 billion and had just entered the U.S. Today, Spotify, which recently had a market cap of $50 billion, streams 70 million songs to nearly 400 million users across 184 markets. Ek, who is personally worth more than $4 billion, is now moving Spotify past pop-stars and opening his super streamer to storytelling, live talk and a new breed of audio creators in a bid to own the world's digital eardrums.\\r\\n\",\"finalWorth\":7800.0,\"finalWorthBillions\":7.8,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Daniel Ek\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"daniel-ek\",\"rank\":222,\"listUri\":\"rtb\",\"visible\":true,\"position\":222,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":13529.103,\"finalWorthBillions\":13.529103,\"person\":{\"name\":\"Daniel Ek\",\"uri\":\"daniel-ek\",\"imageExists\":true,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/619e6309d734b7239959f54f/416x416.jpg?background=000000&cropX1=607&cropX2=2136&cropY1=186&cropY2=1716\"},\"personName\":\"Daniel Ek\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Daniel Ek\" at rank 401 (ranks are shared on ties), net worth $7.8B, source \"Spotify\".",
+  "notes": "Listed as \"Daniel Ek\" at rank 222, real-time net worth $13.5B, source \"Spotify\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

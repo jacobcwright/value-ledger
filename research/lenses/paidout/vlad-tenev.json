@@ -1,174 +1,174 @@
 {
   "id": "vlad-tenev",
   "company": "Robinhood",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "sector": "broker",
   "comparable": false,
   "inputs": {
     "revenue": {
-      "value": 2.951,
-      "stated": 2951,
+      "value": 4.473,
+      "stated": 4473,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
-        "quote": "Revenues: Transaction-based revenues $ 814 $ 785 $ 1,647 Net interest revenues 424 929 1,109 Other revenues 120 151 195 Total net revenues 1,358 1,865 2,951 [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Other revenues 151 195 331 Total net revenues 1,865 2,951 4,473 [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001783879",
           "concept": "us-gaap:Revenues",
-          "end": "2024-12-31",
-          "value": 2951000000
+          "end": "2025-12-31",
+          "value": 4473000000
         }
       },
-      "note": "Includes net interest revenues of 1,109."
+      "note": "Includes net interest revenues of 1,514."
     },
     "operatingCashFlow": {
-      "value": -0.157,
-      "stated": -157,
+      "value": 1.638,
+      "stated": 1638,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Net cash provided by (used in) operating activities ( 852 ) 1,181 ( 157 ) [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by (used in) operating activities 1,181 ( 157 ) 1,638 [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001783879",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": -157000000
+          "end": "2025-12-31",
+          "value": 1638000000
         }
       }
     },
     "capex": {
-      "value": 0.05,
+      "value": 0.054,
       "components": [
-        "property, software and equipment 0.013",
-        "capitalized internally developed software 0.037"
+        "property, software and equipment 0.015",
+        "capitalized internally developed software 0.039"
       ],
       "derived": {
         "method": "sum of components",
         "inputs": [
           {
             "name": "property, software and equipment",
-            "value": 0.013,
-            "stated": 13,
+            "value": 0.015,
+            "stated": 15,
             "source": {
               "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-              "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-              "quote": "Purchases of property, software, and equipment ( 28 ) ( 2 ) ( 13 ) [in millions, 2022, 2023, 2024]",
+              "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+              "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+              "quote": "Purchases of property, software, and equipment ( 2 ) ( 13 ) ( 15 ) [in millions, 2023, 2024, 2025]",
               "xbrl": {
                 "cik": "0001783879",
                 "concept": "us-gaap:PaymentsToAcquireOtherProductiveAssets",
-                "end": "2024-12-31",
-                "value": 13000000
+                "end": "2025-12-31",
+                "value": 15000000
               }
             }
           },
           {
             "name": "capitalized internally developed software",
-            "value": 0.037,
-            "stated": 37,
+            "value": 0.039,
+            "stated": 39,
             "source": {
               "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-              "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-              "quote": "Capitalization of internally developed software ( 29 ) ( 19 ) ( 37 ) [in millions, 2022, 2023, 2024]"
+              "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+              "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+              "quote": "Capitalization of internally developed software ( 19 ) ( 37 ) ( 39 ) [in millions, 2023, 2024, 2025]"
             }
           }
         ]
       }
     },
     "interestPaid": {
-      "value": 0.016,
+      "value": 0.031,
       "inOCF": true,
-      "stated": 16,
+      "stated": 31,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Supplemental disclosures: Cash paid for interest $ 12 $ 12 $ 16 Cash paid for income taxes, net of refund received $ 4 $ 9 $ 18 [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Supplemental disclosures: Cash paid for interest $ 12 $ 16 $ 31 Cash paid for income taxes, net of refund received $ 9 $ 18 $ 95 [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001783879",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-12-31",
-          "value": 16000000
+          "end": "2025-12-31",
+          "value": 31000000
         }
       }
     },
     "taxesPaid": {
-      "value": 0.018,
+      "value": 0.095,
       "inOCF": true,
-      "stated": 18,
+      "stated": 95,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Supplemental disclosures: Cash paid for interest $ 12 $ 12 $ 16 Cash paid for income taxes, net of refund received $ 4 $ 9 $ 18 [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Supplemental disclosures: Cash paid for interest $ 12 $ 16 $ 31 Cash paid for income taxes, net of refund received $ 9 $ 18 $ 95 [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001783879",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 18000000
+          "end": "2025-12-31",
+          "value": 95000000
         }
       }
     },
     "noninterestExpense": {
-      "value": 1.897,
-      "stated": 1897,
+      "value": 2.379,
+      "stated": 2379,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, management's discussion and analysis (in millions)",
-        "quote": "Provision for credit losses 36 43 76 Marketing 103 122 272 General and administrative 924 1,169 455 Total operating expenses 2,369 2,401 1,897 [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Provision for credit losses 43 76 114 Marketing 122 272 399 General and administrative 1,169 455 628 Total operating expenses 2,401 1,897 2,379 [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001783879",
           "concept": "us-gaap:OperatingExpenses",
-          "end": "2024-12-31",
-          "value": 1897000000
+          "end": "2025-12-31",
+          "value": 2379000000
         }
       },
-      "note": "Robinhood has no \"noninterest expense\" caption; total operating expenses is used. Unlike Citi and Goldman, it includes the provision for credit losses (76)."
+      "note": "Robinhood has no \"noninterest expense\" caption; total operating expenses is used. Unlike Citi and Goldman, it includes the provision for credit losses (114)."
     },
     "da": {
-      "value": 0.077,
-      "stated": 77,
+      "value": 0.086,
+      "stated": 86,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Depreciation and amortization 61 71 77 Impairment of long-lived assets 45 5 2 [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Depreciation and amortization 71 77 86 Provision for credit losses 43 76 114 [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001783879",
           "concept": "us-gaap:DepreciationDepletionAndAmortization",
-          "end": "2024-12-31",
-          "value": 77000000
+          "end": "2025-12-31",
+          "value": 86000000
         }
       }
     },
     "stockComp": {
-      "value": 0.304,
-      "stated": 304,
+      "value": 0.305,
+      "stated": 305,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Share-based compensation 654 871 304 [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Share-based compensation 871 304 305 [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001783879",
           "concept": "us-gaap:ShareBasedCompensation",
-          "end": "2024-12-31",
-          "value": 304000000
+          "end": "2025-12-31",
+          "value": 305000000
         }
       }
     }
   },
   "paidOut": null,
-  "altPaidOut": 1.534,
-  "altPaidOutFormula": "1.897 − 0.077 − 0.304 + 0.018",
-  "interestPaidSeparately": 0.016,
+  "altPaidOut": 2.083,
+  "altPaidOutFormula": "2.379 − 0.086 − 0.305 + 0.095",
+  "interestPaidSeparately": 0.031,
   "salesEnabled": null,
   "flags": {
     "financeReceivablesInOCF": false,
@@ -176,6 +176,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Broker: paidOut not comparable (operating cash flow is driven by user payables, securities lending and receivables from users). altPaidOut = total operating expenses − D&A − stock comp + income taxes paid; interest paid (16m) shown separately.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001783879-26-000023). Broker: paidOut not comparable (operating cash flow is driven by user payables, securities lending and receivables from users). altPaidOut = total operating expenses − D&A − stock comp + income taxes paid; interest paid (31m) shown separately. Business and asset acquisitions (399, including Bitstamp, acquired in June 2025) are excluded from capex.",
+  "researchedAt": "2026-11-24"
 }

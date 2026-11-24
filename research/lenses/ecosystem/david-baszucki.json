@@ -1,8 +1,8 @@
 {
   "id": "david-baszucki",
   "company": "Roblox",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ecosystem": {
@@ -13,57 +13,57 @@
         "quote": "Bookings represent the sales activity in a given period without giving effect to certain non-cash adjustments, as detailed below. Substantially all of our bookings are generated from sales of virtual currency, which can ultimately be converted to virtual items on the platform.",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
-          "label": "FY2024 Form 10-K, Item 1, key metrics",
+          "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm",
+          "label": "FY2025 Form 10-K, Item 1, key metrics",
           "quote": "Bookings represent the sales activity in a given period without giving effect to certain non-cash adjustments, as detailed below."
         }
       },
-      "value": 4.37,
+      "value": 6.79,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 7, reconciliation of revenue to bookings (non-GAAP)",
-        "quote": "Revenue $ 3,601,979 $ 2,799,274 ... Change in deferred revenue 792,434 742,308 ... Other (25,317) (20,802) ... Bookings $ 4,369,096 $ 3,520,780 [in thousands; 2024, 2023]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 7, reconciliation of revenue to bookings (non-GAAP)",
+        "quote": "Reconciliation of revenue to bookings: Revenue $ 4,890,551 $ 3,601,979 Add (deduct): Change in deferred revenue 1,933,954 792,434 Other (36,075) (25,317) Bookings $ 6,788,430 $ 4,369,096 [in thousands; 2025, 2024]"
       }
     },
     "platformRevenue": {
       "label": "Revenue",
-      "value": 3.6,
+      "value": 4.89,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of operations",
-        "quote": "Revenue $ 3,601,979 $ 2,799,274 $ 2,225,052 [in thousands; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations",
+        "quote": "Revenue $ 4,890,551 $ 3,601,979 $ 2,799,274 [in thousands; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001315098",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "end": "2024-12-31",
-          "value": 3601979000
+          "end": "2025-12-31",
+          "value": 4890551000
         }
       }
     },
     "payouts": {
       "label": "Developer exchange fees paid to creators",
-      "value": 0.92,
+      "value": 1.5,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of operations",
-        "quote": "Developer exchange fees 922,821 740,752 623,855 [in thousands; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations",
+        "quote": "Developer exchange fees 1,503,106 922,821 740,752 [in thousands; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001315098",
           "concept": "us-gaap:ExchangeFees",
-          "end": "2024-12-31",
-          "value": 922821000
+          "end": "2025-12-31",
+          "value": 1503106000
         }
       }
     },
     "clientAssets": null,
     "studies": [],
-    "notes": "Bookings is a non-GAAP measure (sales of Robux and subscriptions, before deferral). Roblox records revenue gross, as principal, so Revenue includes the money later paid to developers; developer exchange fees are an expense line, defined as \"the amount earned by developers and creators on the Roblox Platform that are qualified and registered in the Developer Exchange Program.\" Revenue / Bookings therefore overstates what Roblox keeps. Developer exchange fees are the expense recognised in 2024, not necessarily cash paid in 2024.",
+    "notes": "Bookings is a non-GAAP measure (sales of Robux and subscriptions, before deferral). Roblox records revenue gross, as principal, so Revenue includes the money later paid to developers; developer exchange fees are an expense line, recognised 'as earned Robux are accumulated by creators that are qualified and registered in the Developer Exchange Program'. Revenue / Bookings therefore overstates what Roblox keeps. Developer exchange fees are the expense recognised in 2025, not necessarily cash paid in 2025.",
     "ratioComparable": false,
     "ratioNote": "Roblox records revenue gross, so revenue already includes amounts later paid to developers; the share would understate what creators receive."
   },
   "notes": "Ecosystem lens only.",
-  "researchedAt": "2026-11-23"
+  "researchedAt": "2026-11-24"
 }

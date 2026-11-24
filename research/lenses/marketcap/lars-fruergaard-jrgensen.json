@@ -1,0 +1,62 @@
+{
+  "id": "lars-fruergaard-jrgensen",
+  "company": "Novo Nordisk A/S",
+  "classes": [
+    {
+      "label": "B shares (issued less treasury shares)",
+      "shares": 3331372869,
+      "sharesAsOf": "2026-11-20",
+      "pricedAs": "NOVO-B.CO",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "Total A and B shares including treasury shares",
+          "value": 4465000000,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/353278/000117184326007637/f6k_112326.htm",
+            "label": "Share repurchase programme announcement (Form 6-K, November 23, 2026)",
+            "quote": "With the transactions stated above, Novo Nordisk owns a total of 58,755,131 B shares of DKK 0.10 as treasury shares, corresponding to 1.3% of the share capital. The total amount of A and B shares in the company is 4,465,000,000 including treasury shares."
+          }
+        },
+        {
+          "label": "A shares (subtracted; unchanged, all held by Novo Holdings A/S)",
+          "value": -1074872000,
+          "source": {
+            "hostType": "company",
+            "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-form-20-f-2025.pdf",
+            "label": "Form 20-F 2025, cover page",
+            "quote": "A shares, nominal value DKK 0.10 each: 1,074,872,000"
+          }
+        },
+        {
+          "label": "Treasury B shares (subtracted)",
+          "value": -58755131,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/353278/000117184326007637/f6k_112326.htm",
+            "label": "Share repurchase programme announcement (Form 6-K, November 23, 2026)",
+            "quote": "With the transactions stated above, Novo Nordisk owns a total of 58,755,131 B shares of DKK 0.10 as treasury shares, corresponding to 1.3% of the share capital. The total amount of A and B shares in the company is 4,465,000,000 including treasury shares."
+          }
+        }
+      ]
+    },
+    {
+      "label": "A shares (unlisted, held by Novo Holdings A/S)",
+      "shares": 1074872000,
+      "sharesAsOf": "2025-12-31",
+      "pricedAs": "NOVO-B.CO",
+      "perListedUnit": 1,
+      "pricedAsReason": "A shares are not listed and, under the Novo Nordisk Foundation's articles, cannot be divested; the filings state no conversion right into B shares. They are priced at the B share price because both classes have the same DKK 0.10 nominal value and, per the Annual Report 2025, 'in practice, A and B shares receive the same amount of dividend per share'. This is a valuation convention, not a conversion.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-form-20-f-2025.pdf",
+        "label": "Form 20-F 2025, cover page",
+        "quote": "A shares, nominal value DKK 0.10 each: 1,074,872,000"
+      }
+    }
+  ],
+  "notes": "B shares are priced from the primary listing on Nasdaq Copenhagen (NOVO-B.CO, DKK) rather than the NYSE ADR (NVO, 1 ADR = 1 B share). B shares = 4,465,000,000 total A and B shares − 1,074,872,000 A shares − 58,755,131 treasury B shares = 3,331,372,869 at November 20, 2026, from Novo Nordisk's weekly buyback announcement filed on Form 6-K on November 23, 2026 (which states the total and the treasury holding but not the B count) and the 20-F cover's A-share count. Novo has been buying back B shares under a programme of up to DKK 15 billion running from February 4, 2026, so the 20-F count (3,390,128,000 B shares including treasury) is stale. Judgment call for review: the unlisted A shares are included at the B price; leaving them out would cut the value by about a quarter.",
+  "researchedAt": "2026-11-24"
+}

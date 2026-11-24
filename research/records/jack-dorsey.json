@@ -1,80 +1,94 @@
 {
   "id": "jack-dorsey",
   "company": "Block",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-03-31",
+    "asOf": "2026-03-31",
     "leader": {
       "name": "Jack Dorsey",
       "relation": "co-founder",
       "status": "holds",
       "pctEconomic": null,
-      "pctVoting": 41.3,
+      "pctVoting": 42.2,
       "shares": null,
       "derived": {
-        "pctEconomic": 7.88,
-        "method": "(1,000,000 Class A + 47,844,566 Class B beneficially owned) / (559,548,869 Class A + 60,048,763 Class B outstanding at March 31, 2025) = 48,844,566 / 619,597,632. Class B converts one-for-one into Class A, and the 10-K says holders of both classes are entitled to dividends when declared by the board; the classes differ in votes (one versus ten). Dorsey's row contains no options or RSUs (footnote 3). Computed, not stated in the filing.",
+        "pctEconomic": 8.2,
+        "method": "(1,000,000 Class A + 47,844,566 Class B beneficially owned) / (535,370,474 Class A + 59,991,242 Class B outstanding at March 31, 2026) = 48,844,566 / 595,361,716. Class B converts one-for-one into Class A, and the 10-K says holders of both classes are entitled to dividends when declared by the board; the classes differ in votes (one versus ten). Dorsey's row contains no options or RSUs (footnote 4). Computed, not stated in the filing.",
         "inputs": [
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1512673/000095017025058701/sq-20250425.htm",
-            "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management, Jack Dorsey row",
-            "quote": "Jack Dorsey⁽³⁾ 1,000,000 * 47,844,566 79.7 % 41.3 % [columns: Class A number, percent, Class B number, percent, percent of total voting power]"
+            "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026027203/sq-20260423.htm",
+            "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management, Jack Dorsey row",
+            "quote": "Jack Dorsey⁽⁴⁾ 1,000,000 * 47,844,566 79.8 % 42.2 % [columns: Class A number, percent, Class B number, percent, percent of total voting power]"
           },
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1512673/000095017025058701/sq-20250425.htm",
-            "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management, share count basis",
-            "quote": "We have based our calculation of the percentage of beneficial ownership on 559,548,869 shares of our Class A common stock and 60,048,763 shares of our Class B common stock outstanding as of March 31, 2025."
+            "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026027203/sq-20260423.htm",
+            "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management, share count basis",
+            "quote": "We have based our calculation of the percentage of beneficial ownership on 535,370,474 shares of our Class A common stock and 59,991,242 shares of our Class B common stock outstanding as of March 31, 2026."
           }
         ]
       },
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000095017025058701/sq-20250425.htm",
-        "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management",
-        "quote": "Jack Dorsey⁽³⁾ 1,000,000 * 47,844,566 79.7 % 41.3 % ... (3) Consists of (i) 603,969 shares of Class A common stock held of record by The Jack Dorsey 2024 Annuity Trust ... (iii) 35,763,992 shares of Class B common stock held of record by the Jack Dorsey Revocable Trust ... and (iv) 12,080,574 shares of Class B common stock held of record by Start Small, LLC"
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026027203/sq-20260423.htm",
+        "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+        "quote": "Jack Dorsey⁽⁴⁾ 1,000,000 * 47,844,566 79.8 % 42.2 % ... (iv) 35,763,992 shares of Class B common stock held of record by the Jack Dorsey Revocable Trust U/A/D 12/8/10, for which Mr. Dorsey serves as trustee, and (v) 12,080,574 shares of Class B common stock held of record by Start Small, LLC"
       }
     },
     "largestHolders": [
       {
         "name": "The Vanguard Group",
         "type": "asset-manager",
-        "pctEconomic": 9.6,
-        "asOf": "2024-09-30",
+        "pctEconomic": 12.8,
+        "asOf": "2025-09-30",
+        "basis": "class",
+        "classLabel": "Class A",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1512673/000095017025058701/sq-20250425.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (percentage is of Class A common stock only)",
-          "quote": "The Vanguard Group⁽¹⁾ 53,575,478 9.6 % — * 4.6 % ... (1) Based solely on a Schedule 13G/A, reporting beneficial ownership as of September 30, 2024, filed with the SEC on November 12, 2024"
-        },
+          "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026027203/sq-20260423.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "The Vanguard Group⁽¹⁾ 68,436,549 12.8 % - * 6.0 % ... (1) Based solely on a Schedule 13G/A, reporting beneficial ownership as of September 30, 2025, filed with the SEC on October 30, 2025"
+        }
+      },
+      {
+        "name": "T. Rowe Price Associates, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 8.8,
+        "asOf": "2025-06-30",
         "basis": "class",
-        "classLabel": "Class A"
+        "classLabel": "Class A",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026027203/sq-20260423.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "T.Rowe Price Associates⁽²⁾ 47,532,186 8.8 % - * 4.2 % ... (2) Based solely on a Schedule 13G, reporting beneficial ownership as of June 30, 2025, filed with the SEC on August 14, 2025"
+        }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 5.2,
-        "asOf": "2025-03-31",
+        "pctEconomic": 7.3,
+        "asOf": "2025-09-30",
+        "basis": "class",
+        "classLabel": "Class A",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1512673/000095017025058701/sq-20250425.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (percentage is of Class A common stock only)",
-          "quote": "BlackRock, Inc.⁽²⁾ 29,075,247 5.2 % — * 2.5 % ... (2) Based solely on a Schedule 13G, reporting beneficial ownership as of March 31, 2025, filed with the SEC on April 17, 2025"
-        },
-        "basis": "class",
-        "classLabel": "Class A"
+          "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026027203/sq-20260423.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "BlackRock, Inc.⁽³⁾ 38,928,405 7.3 % - * 3.4 % ... (3) Based solely on a Schedule 13G/A, reporting beneficial ownership as of September 30, 2025, filed with the SEC on October 17, 2025"
+        }
       }
     ],
     "structure": {
       "dualClass": true,
       "controlled": false,
-      "note": "Class A shares carry one vote and Class B shares ten votes (10-K). Jack Dorsey holds 79.7% of Class B and 41.3% of total voting power (2025 proxy), which is below a majority."
+      "note": "Class A shares carry one vote and Class B shares ten votes (10-K). Jack Dorsey holds 79.8% of Class B and 42.2% of total voting power (2026 proxy), which is below a majority; all current executive officers and directors as a group hold 53.3% of the voting power."
     }
   },
   "cash": {
@@ -82,50 +96,50 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 5, Dividend Policy",
-        "quote": "Dividend Policy We have never declared nor paid any cash dividends on our capital stock."
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 5, Dividend Policy",
+        "quote": "We have never declared nor paid any cash dividends on our capital stock."
       }
     },
     "buybacks": {
-      "value": 1.17,
+      "value": 2.33,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Repurchases of common stock (1,170,339) (156,812) — [Cash flows from financing activities; in thousands; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchases of common stock ( 2,330,661 ) ( 1,170,339 ) ( 156,812 ) [Cash flows from financing activities; in thousands; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001512673",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2024-12-31",
-          "value": 1170339000
+          "end": "2025-12-31",
+          "value": 2330661000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 1.27,
+      "value": 1.22,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Share-based compensation 1,272,779 1,276,097 1,071,278 [operating activities; in thousands; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Share-based compensation 1,215,480 1,272,779 1,276,097 [operating activities; in thousands; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001512673",
           "concept": "us-gaap:ShareBasedCompensation",
-          "end": "2024-12-31",
-          "value": 1272779000
+          "end": "2025-12-31",
+          "value": 1215480000
         }
       }
     },
     "plan": {
-      "text": "Employees can buy Block shares through the 2015 Employee Stock Purchase Plan.",
+      "text": "Employees can buy Block Class A shares at a discount through the Amended and Restated 2015 Employee Stock Purchase Plan.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 1, Share-based Compensation",
-        "quote": "Share-based compensation expense relates to stock options, restricted stock units (\"RSUs\"), and purchases under the Company’s 2015 Employee Stock Purchase Plan (\"ESPP\"), which is measured based on the grant-date fair value."
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 16 Stockholders' Equity, Employee Stock Purchase Plan",
+        "quote": "The ESPP allows eligible employees to purchase shares of the Company's Class A common stock at a discount through payroll deductions of up to 25 % of eligible compensation"
       }
     }
   },
@@ -134,21 +148,21 @@
     "segments": [
       {
         "name": "United States",
-        "value": 22.35
+        "value": 22.19
       },
       {
         "name": "International",
-        "value": 1.77
+        "value": 2.01
       }
     ],
-    "total": 24.12,
+    "total": 24.19,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-      "label": "FY2024 Form 10-K, Note 20 Segment and Geographical Information",
-      "quote": "Revenue by geography is based on the addresses of the sellers or customers. The following table details revenue by geographic area (in thousands): ... United States $ 22,351,832 ... International 1,769,221 ... Total $ 24,121,053 [2024]"
+      "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+      "label": "FY2025 Form 10-K, Note 20 Segment and Geographical Information",
+      "quote": "Revenue by geography is based on the addresses of the sellers or customers. The following table details revenue by geographic area (in thousands): ... United States $ 22,186,575 $ 22,351,832 $ 20,416,462 International 2,007,108 1,769,221 1,499,161 Total $ 24,193,683 $ 24,121,053 $ 21,915,623"
     }
   },
-  "notes": "Fiscal year ended December 31, 2024. Sources: FY2024 Form 10-K (accession 0001628280-25-007376) and 2025 proxy statement (DEF 14A, accession 0000950170-25-058701, ownership as of March 31, 2025). OWNERSHIP: the proxy gives Dorsey 1,000,000 Class A shares (marked *), 47,844,566 Class B shares (79.7% of Class B) and 41.3% of total voting power but no percentage of all shares, so pctEconomic is null and the 7.88% economic share is in leader.derived. He holds through two grantor retained annuity trusts, the Jack Dorsey Revocable Trust and Start Small, LLC. 5% HOLDERS: the proxy states Vanguard (9.6%) and BlackRock (5.2%) as % of Class A only; on an all-shares basis they would be lower (Class A is about 90.3% of all shares). They are recorded as stated, not recomputed. Their total-voting-power percentages are 4.6% and 2.5%. Vanguard's figure is as of September 30, 2024 and BlackRock's as of March 31, 2025. No dividends: Block has never paid any. Stock comp of $1,272.8 million is the cash-flow add-back; XBRL also carries $1,272.6 million as the expense allocated in the income statement, and the difference is immaterial.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Sources: FY2025 Form 10-K (accession 0001628280-26-012254, filed February 26, 2026) and 2026 proxy statement (DEF 14A, accession 0001628280-26-027203, ownership as of March 31, 2026). OWNERSHIP: the proxy gives Dorsey 1,000,000 Class A shares (marked *), 47,844,566 Class B shares (79.8% of Class B) and 42.2% of total voting power but no percentage of all shares, so pctEconomic is null and the 8.2% economic share is in leader.derived. He holds through two grantor retained annuity trusts, a trust in which he has a pecuniary interest, the Jack Dorsey Revocable Trust and Start Small, LLC. 5% HOLDERS: the proxy states Vanguard (12.8%), T. Rowe Price (8.8%) and BlackRock (7.3%) as % of Class A only; on an all-shares basis they would be lower (Class A is about 89.9% of all shares). They are recorded as stated, not recomputed. Their total-voting-power percentages are 6.0%, 4.2% and 3.4%. The Vanguard and BlackRock figures are as of September 30, 2025 and T. Rowe Price's as of June 30, 2025. The proxy adds that on March 26, 2026 The Vanguard Group filed a 13G/A saying that, after an internal realignment, certain subsidiaries and divisions will report beneficial ownership separately; the 12.8% is kept as the proxy's table states it. No dividends: Block has never paid any. Stock comp of $1,215.5 million is the cash-flow add-back. Geography: United States and International sum to total net revenue.",
+  "researchedAt": "2026-11-24"
 }

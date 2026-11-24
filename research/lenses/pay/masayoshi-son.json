@@ -1,0 +1,31 @@
+{
+  "id": "masayoshi-son",
+  "company": "SoftBank Group",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2026-03-31",
+  "currency": "JPY",
+  "employees": {
+    "value": 73677,
+    "asOf": "2026-03-31",
+    "basis": "Number of employees (consolidated basis)",
+    "source": {
+      "hostType": "company",
+      "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2026_en.pdf",
+      "label": "SoftBank Group Report 2026, Financial Section, eleven-year summary, Others (p. 69)",
+      "quote": "Number of employees (consolidated basis) 58,786 59,721 63,339 65,352 67,229 73,677 [FY2020 to FY2025; FY2025 = year ended March 31, 2026]"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Employees benefit cost",
+    "value": 1590.544,
+    "source": {
+      "hostType": "company",
+      "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2026_en.pdf",
+      "label": "SoftBank Group Financial Report 2026, Note 38 Cost of sales and selling, general and administrative expenses (p. 123)",
+      "quote": "Employees benefit cost (1,011,881) (1,590,544) (9,948,361) [millions of yen FY ended March 31, 2025 and 2026; thousands of U.S. dollars FY ended March 31, 2026]"
+    }
+  },
+  "notes": "Employees: SBG's consolidated employee count for fiscal 2025 (year ended March 31, 2026) from the integrated report's multi-year summary, which gives one figure per fiscal year; it is taken as the year-end count (the report does not state whether temporary staff are included). It rose from 67,229 a year earlier. Payroll: 'Employees benefit cost' in Note 38, the component of cost of sales and SG&A, as reported, ¥1,590,544 million (billions of JPY here); up from ¥1,011,881 million. The note does not break the line down further.",
+  "researchedAt": "2026-11-24"
+}

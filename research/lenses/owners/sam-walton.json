@@ -2,48 +2,48 @@
   "id": "sam-walton",
   "company": "Walmart",
   "nbim": {
-    "pct": 0.78,
-    "marketValueUSD": 5.656,
-    "asOf": "2024-12-31",
+    "pct": 0.69,
+    "marketValueUSD": 6.245,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"3w2ir8rwmyaa\",\"cc\":\"US\",\"n\":\"Walmart Inc\",\"a\":{\"e\":5656241494,\"n\":64239914334},\"at\":0,\"o\":0.78,\"eq\":{\"vid\":\"WMT\",\"v\":0.78,\"s\":\"Consumer Discretionary\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"3w2ir8rwmyaa\",\"cc\":\"US\",\"n\":\"Walmart Inc\",\"a\":{\"e\":6244519652,\"n\":61792644219},\"at\":0,\"o\":0.69,\"eq\":{\"vid\":\"WMT\",\"v\":0.69,\"s\":\"Consumer Discretionary\"}}"
     }
   },
   "calpers": {
-    "shares": 13923847,
-    "asOf": "2024-12-31",
+    "shares": 10428060,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "WALMART INC COM 931142103 1258019576 13923847"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "WALMART INC COM 931142103 1083683995 10428060"
     },
     "derived": {
-      "pct": 0.174,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.131,
+      "method": "CalPERS shares ÷ shares outstanding (10,428,060 ÷ 7,933,746,241)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
-          "label": "FY2025 Form 10-K, cover page",
-          "quote": "The registrant had 8,016,849,444 shares of common stock outstanding as of March 12, 2025."
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm",
+          "label": "Form 10-Q for the quarter ended July 31, 2026, cover page",
+          "quote": "The registrant had 7,933,746,241 shares of common stock outstanding as of August 26, 2026."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 194162,
-    "asOf": "2025-03-12",
+    "count": 185190,
+    "asOf": "2026-03-11",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
-      "label": "FY2025 Form 10-K, Item 5",
-      "quote": "As of March 12, 2025, there were 194,162 holders of record of Walmart's common stock, although there is a much larger number of beneficial owners."
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+      "label": "FY2026 Form 10-K, Item 5",
+      "quote": "As of March 11, 2026, there were 185,190 holders of record of Walmart's common stock, although there is a much larger number of beneficial owners."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Walmart Inc;Consumer Discretionary;64239914334;5656241494;0.78%;0.78%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the Q2 FY2027 10-Q cover count at August 26, 2026, the same count used in the marketcap lens.",
+  "researchedAt": "2026-11-24"
 }

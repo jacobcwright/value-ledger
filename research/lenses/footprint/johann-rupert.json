@@ -5,9 +5,9 @@
     "employees": {
       "label": "Employees (headcount)",
       "unit": "people",
-      "period": "as of end of March 2025 (FY25)",
+      "period": "as of end of March 2026 (FY26)",
       "tier": "company-published",
-      "definition": "Permanent and temporary employees by region, headcount at the end of March 2025. Excludes YNAP, Gianvito Rossi, Manufacture Miles and Vhernier (per the report's scope note). Total 39,877."
+      "definition": "Permanent and temporary employees by region, headcount at the end of March 2026 (FY26), Non-Financial Report 2026 Table 2. Total 40,465. Unlike FY24 and FY25, the FY26 column carries no scope exclusion note."
     }
   },
   "usStates": null,
@@ -16,14 +16,14 @@
       "iso2": "JP",
       "name": "Japan",
       "values": {
-        "employees": 2434
+        "employees": 2524
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.richemont.com/media/3vwfatyf/richemont-non-financial-report-2025.pdf",
-        "label": "Non-Financial Report 2025, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY23 | FY24 | FY25; columns Americas, Asia Pacific, Europe, Japan, Middle East India & Africa, Total; FY25 used)",
-        "quote": "Employees 3 776 8 622 19 896 2 115 1 410 35 819 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877"
+        "url": "https://www.richemont.com/media/cskglbj3/richemont-non-financial-report-2026.pdf",
+        "label": "Non-Financial Report 2026, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY24 | FY25 | FY26; columns Americas, Asia Pacific, Europe, Japan, Middle East India Africa & Türkiye, Total; FY26 used)",
+        "quote": "employees 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877 4 588 8 786 22 768 2 524 1 799 40 465"
       }
     }
   ],
@@ -32,56 +32,56 @@
       "name": "Americas",
       "countries": null,
       "values": {
-        "employees": 4339
+        "employees": 4588
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.richemont.com/media/3vwfatyf/richemont-non-financial-report-2025.pdf",
-        "label": "Non-Financial Report 2025, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY23 | FY24 | FY25; columns Americas, Asia Pacific, Europe, Japan, Middle East India & Africa, Total; FY25 used)",
-        "quote": "Employees 3 776 8 622 19 896 2 115 1 410 35 819 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877"
+        "url": "https://www.richemont.com/media/cskglbj3/richemont-non-financial-report-2026.pdf",
+        "label": "Non-Financial Report 2026, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY24 | FY25 | FY26; columns Americas, Asia Pacific, Europe, Japan, Middle East India Africa & Türkiye, Total; FY26 used)",
+        "quote": "employees 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877 4 588 8 786 22 768 2 524 1 799 40 465"
       }
     },
     {
       "name": "Asia Pacific",
       "countries": null,
       "values": {
-        "employees": 9196
+        "employees": 8786
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.richemont.com/media/3vwfatyf/richemont-non-financial-report-2025.pdf",
-        "label": "Non-Financial Report 2025, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY23 | FY24 | FY25; columns Americas, Asia Pacific, Europe, Japan, Middle East India & Africa, Total; FY25 used)",
-        "quote": "Employees 3 776 8 622 19 896 2 115 1 410 35 819 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877"
+        "url": "https://www.richemont.com/media/cskglbj3/richemont-non-financial-report-2026.pdf",
+        "label": "Non-Financial Report 2026, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY24 | FY25 | FY26; columns Americas, Asia Pacific, Europe, Japan, Middle East India Africa & Türkiye, Total; FY26 used)",
+        "quote": "employees 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877 4 588 8 786 22 768 2 524 1 799 40 465"
       }
     },
     {
       "name": "Europe",
       "countries": null,
       "values": {
-        "employees": 22193
+        "employees": 22768
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.richemont.com/media/3vwfatyf/richemont-non-financial-report-2025.pdf",
-        "label": "Non-Financial Report 2025, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY23 | FY24 | FY25; columns Americas, Asia Pacific, Europe, Japan, Middle East India & Africa, Total; FY25 used)",
-        "quote": "Employees 3 776 8 622 19 896 2 115 1 410 35 819 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877"
+        "url": "https://www.richemont.com/media/cskglbj3/richemont-non-financial-report-2026.pdf",
+        "label": "Non-Financial Report 2026, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY24 | FY25 | FY26; columns Americas, Asia Pacific, Europe, Japan, Middle East India Africa & Türkiye, Total; FY26 used)",
+        "quote": "employees 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877 4 588 8 786 22 768 2 524 1 799 40 465"
       }
     },
     {
-      "name": "Middle East, India & Africa",
+      "name": "Middle East, India, Africa & Türkiye",
       "countries": null,
       "values": {
-        "employees": 1715
+        "employees": 1799
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.richemont.com/media/3vwfatyf/richemont-non-financial-report-2025.pdf",
-        "label": "Non-Financial Report 2025, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY23 | FY24 | FY25; columns Americas, Asia Pacific, Europe, Japan, Middle East India & Africa, Total; FY25 used)",
-        "quote": "Employees 3 776 8 622 19 896 2 115 1 410 35 819 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877"
+        "url": "https://www.richemont.com/media/cskglbj3/richemont-non-financial-report-2026.pdf",
+        "label": "Non-Financial Report 2026, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY24 | FY25 | FY26; columns Americas, Asia Pacific, Europe, Japan, Middle East India Africa & Türkiye, Total; FY26 used)",
+        "quote": "employees 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877 4 588 8 786 22 768 2 524 1 799 40 465"
       }
     }
   ],
@@ -95,9 +95,9 @@
       "description": "Compagnie Financière Richemont SA's registered office.",
       "source": {
         "hostType": "company",
-        "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
-        "label": "FY25 Annual Report, Corporate governance, Group structure",
-        "quote": "The Company is a Swiss company with its registered office at 50, chemin de la Chênaie, 1293 Bellevue, Geneva, Switzerland."
+        "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+        "label": "FY26 Annual Report, Corporate governance, Group structure",
+        "quote": "The Company is a Swiss company with its registered office at 50 chemin de la Chênaie, 1293 Bellevue, Geneva, Switzerland."
       }
     },
     {
@@ -181,7 +181,7 @@
         "hostType": "company",
         "url": "https://www.richemont.com/about-us/global-presence/",
         "label": "Richemont website, Global presence (regional headquarters; current page, 2026)",
-        "quote": "Our regional Middle East, India, Africa & Türkiye headquarters are located in the heart of Dubai with our operations centre strategically located at the Dubai Airport Free Zone."
+        "quote": "Our regional Middle East, India, Africa & … headquarters are located in the heart of Dubai with our operations centre strategically located at the Dubai Airport Free Zone."
       }
     },
     {
@@ -199,6 +199,6 @@
       }
     }
   ],
-  "notes": "Boutiques by region: not found. The FY25 Annual Report and Non-Financial Report give only group totals (2,463 boutiques in the Richemont network, 1,392 directly operated), and the FY25 annual results presentation and the current Global presence page (2,357 monobrand boutiques) give no regional split, so no boutique rows were recorded. Employees by region come from the Non-Financial Report 2025 (headcount at end of March 2025); Japan is a reporting region that is a single country, so it is a country row. Regions are not defined by a country list in that table. No U.S. state data or taxes-by-country report was found. Regional headquarters are from the current (2026) Global presence page, newer than the FY25 snapshot.",
-  "researchedAt": "2026-11-23"
+  "notes": "Boutiques by region: not found. The FY26 Annual Report and Non-Financial Report 2026 give only group totals (2,376 boutiques in the Richemont network, 1,393 directly operated) and no regional split, so no boutique rows were recorded. Employees by region come from the Non-Financial Report 2026 (headcount at end of March 2026, total 40,465; the FY26 column has no scope exclusion note, while FY25 excluded YNAP, Gianvito Rossi, Manufacture Miles and Vhernier); Japan is a reporting region that is a single country, so it is a country row. The table's last region is now named Middle East, India, Africa & Türkiye; regions are not defined by a country list in that table. No U.S. state data or taxes-by-country report was found. Regional headquarters are from the current Global presence page (re-read 2026-11-24); the registered office is from the FY26 Annual Report; the Cartier Valenza site keeps its FY25 Annual Report description.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,101 +1,101 @@
 {
   "id": "marc-benioff",
   "company": "Salesforce",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-01-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-31",
   "currency": "USD",
   "unit": "billions",
   "sector": "tech",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 37.895,
-      "stated": 37895,
+      "value": 41.525,
+      "stated": 41525,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of operations (in millions)",
-        "quote": "Total revenues 37,895 34,857 31,352",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Total revenues 41,525 37,895 34,857",
         "xbrl": {
           "cik": "0001108524",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "end": "2025-01-31",
-          "value": 37895000000
+          "end": "2026-01-31",
+          "value": 41525000000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 13.092,
-      "stated": 13092,
+      "value": 14.996,
+      "stated": 14996,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Net cash provided by operating activities 13,092 10,234 7,111",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities 14,996 13,092 10,234",
         "xbrl": {
           "cik": "0001108524",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2025-01-31",
-          "value": 13092000000
+          "end": "2026-01-31",
+          "value": 14996000000
         }
       }
     },
     "capex": {
-      "value": 0.658,
+      "value": 0.594,
       "components": [
-        "capital expenditures 0.658"
+        "capital expenditures 0.594"
       ],
-      "stated": 658,
+      "stated": 594,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Capital expenditures ( 658 ) ( 736 ) ( 798 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Capital expenditures ( 594 ) ( 658 ) ( 736 )",
         "xbrl": {
           "cik": "0001108524",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2025-01-31",
-          "value": 658000000
+          "end": "2026-01-31",
+          "value": 594000000
         }
       }
     },
     "interestPaid": {
-      "value": 0.233,
+      "value": 0.276,
       "inOCF": true,
-      "stated": 233,
+      "stated": 276,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
-        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid during the period for: Interest $ 233 $ 254 $ 275 Income taxes, net of tax refunds $ 2,061 $ 1,027 $ 510",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "label": "FY2026 Form 10-K, supplemental cash flow disclosure (in millions)",
+        "quote": "Cash paid during the period for: Interest $ 276 $ 233 $ 254 Income taxes, net of tax refunds $ 1,282 $ 2,061 $ 1,027",
         "xbrl": {
           "cik": "0001108524",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2025-01-31",
-          "value": 233000000
+          "end": "2026-01-31",
+          "value": 276000000
         }
       }
     },
     "taxesPaid": {
-      "value": 2.061,
+      "value": 1.282,
       "inOCF": true,
-      "stated": 2061,
+      "stated": 1282,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
-        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid during the period for: Interest $ 233 $ 254 $ 275 Income taxes, net of tax refunds $ 2,061 $ 1,027 $ 510",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "label": "FY2026 Form 10-K, supplemental cash flow disclosure (in millions)",
+        "quote": "Cash paid during the period for: Interest $ 276 $ 233 $ 254 Income taxes, net of tax refunds $ 1,282 $ 2,061 $ 1,027",
         "xbrl": {
           "cik": "0001108524",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2025-01-31",
-          "value": 2061000000
+          "end": "2026-01-31",
+          "value": 1282000000
         }
       }
     }
   },
-  "paidOut": 25.461,
-  "paidOutFormula": "37.895 − 13.092 + 0.658",
+  "paidOut": 27.123,
+  "paidOutFormula": "41.525 − 14.996 + 0.594",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -104,6 +104,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Fiscal year ended January 31, 2025.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended January 31, 2026 (FY2026 Form 10-K). Capex is the cash-flow line 'Capital expenditures'; the $9,268 million paid for business combinations (mainly Informatica) is an acquisition and is excluded.",
+  "researchedAt": "2026-11-24"
 }

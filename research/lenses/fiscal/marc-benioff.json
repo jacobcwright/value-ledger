@@ -1,44 +1,44 @@
 {
   "id": "marc-benioff",
   "company": "Salesforce",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-01-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 2.06,
+      "value": 1.28,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
-        "label": "FY2025 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid during the period for: ... Income taxes, net of tax refunds $ 2,061 $ 1,027 $ 510 See accompanying Notes. [USD millions; FY2025 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "label": "FY2026 Form 10-K, supplemental cash flow disclosure, cash income taxes paid",
+        "quote": "Cash paid during the period for: Interest $ 276 $ 233 $ 254 Income taxes, net of tax refunds $ 1,282 $ 2,061 $ 1,027 [USD millions; FY2026 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001108524",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2025-01-31",
-          "value": 2061000000
+          "end": "2026-01-31",
+          "value": 1282000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 5.49,
+      "value": 5.99,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
-        "label": "FY2025 Form 10-K, research and development expense",
-        "quote": "Research and development 5,493 15 4,906 14 5,055 16 Sales and marketing 13,257 35 12,877 [USD millions; FY2025 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of operations, research and development expense",
+        "quote": "Operating expenses (1)(2): Research and development 5,993 5,493 4,906 [USD millions; FY2026 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001108524",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2025-01-31",
-          "value": 5493000000
+          "end": "2026-01-31",
+          "value": 5993000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended January 31, 2026. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented in the supplemental cash flow disclosure.",
+  "researchedAt": "2026-11-24"
 }

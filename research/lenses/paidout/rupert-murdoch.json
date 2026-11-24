@@ -1,103 +1,100 @@
 {
   "id": "rupert-murdoch",
   "company": "News Corp",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-06-30",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-06-30",
   "currency": "USD",
   "unit": "billions",
   "sector": "media",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 8.452,
-      "stated": 8452,
+      "value": 9.028,
+      "stated": 9028,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, segment note (in millions)",
-        "quote": "Total Revenues $ 8,452 $ 8,252 $ 8,012",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, segment note (in millions)",
+        "quote": "Total Revenues $ 9,028 $ 8,452 $ 8,252",
         "xbrl": {
           "cik": "0001564708",
           "concept": "us-gaap:Revenues",
-          "end": "2025-06-30",
-          "value": 8452000000
+          "end": "2026-06-30",
+          "value": 9028000000
         }
       },
       "note": "Continuing operations (Foxtel, sold on April 2, 2025, is classified as discontinued operations)."
     },
     "operatingCashFlow": {
-      "value": 0.978,
-      "stated": 978,
+      "value": 1.237,
+      "stated": 1237,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Net cash provided by operating activities from continuing operations 978 897 777",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities from continuing operations 1,237 978 897",
         "xbrl": {
           "cik": "0001564708",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
-          "end": "2025-06-30",
-          "value": 978000000
+          "end": "2026-06-30",
+          "value": 1237000000
         }
       },
-      "note": "Continuing operations, to match revenue; discontinued operations added 156."
+      "note": "Continuing operations, to match revenue."
     },
     "capex": {
-      "value": 0.407,
-      "components": [
-        "capital expenditures 0.407"
-      ],
-      "stated": 407,
+      "value": 0.426,
+      "stated": 426,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Investing activities: Capital expenditures ( 407 ) ( 357 ) ( 347 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Investing activities: Capital expenditures ( 426 ) ( 407 ) ( 357 )",
         "xbrl": {
           "cik": "0001564708",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2025-06-30",
-          "value": 407000000
+          "end": "2026-06-30",
+          "value": 426000000
         }
       }
     },
     "interestPaid": {
-      "value": 0.093,
+      "value": 0.09,
       "inOCF": true,
-      "stated": 93,
+      "stated": 90,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid for interest $ 93 $ 97 $ 61 Cash paid for taxes 208 156 149",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for interest $ 90 $ 93 $ 97 Cash paid for taxes 274 208 156",
         "xbrl": {
           "cik": "0001564708",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2025-06-30",
-          "value": 93000000
+          "end": "2026-06-30",
+          "value": 90000000
         }
       }
     },
     "taxesPaid": {
-      "value": 0.208,
+      "value": 0.274,
       "inOCF": true,
-      "stated": 208,
+      "stated": 274,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid for interest $ 93 $ 97 $ 61 Cash paid for taxes 208 156 149",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for interest $ 90 $ 93 $ 97 Cash paid for taxes 274 208 156",
         "xbrl": {
           "cik": "0001564708",
           "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2025-06-30",
-          "value": 208000000
+          "end": "2026-06-30",
+          "value": 274000000
         }
       }
     }
   },
-  "paidOut": 7.881,
-  "paidOutFormula": "8.452 − 0.978 + 0.407",
+  "paidOut": 8.217,
+  "paidOutFormula": "9.028 − 1.237 + 0.426",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -106,6 +103,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Fiscal year ended June 30, 2025. Continuing-operations basis (Foxtel discontinued).",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended June 30, 2026 (FY2026 Form 10-K, accession 0001564708-26-000175). Continuing-operations basis (Foxtel discontinued). Acquisitions, net of cash acquired (122) excluded.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,22 @@
+{
+  "id": "james-sinegal",
+  "company": "Costco",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 443129349,
+      "sharesAsOf": "2026-09-29",
+      "pricedAs": "COST",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, cover page",
+        "quote": "The number of shares outstanding of the registrant's common stock as of September 29, 2026, was 443,129,349 ."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as COST; no preferred shares are issued. The FY2026 10-K cover (September 29, 2026) is newer than the latest 10-Q (quarter ended May 10, 2026), so it is used.",
+  "researchedAt": "2026-11-24"
+}

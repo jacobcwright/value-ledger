@@ -2,18 +2,18 @@
   "id": "meg-whitman",
   "name": "Meg Whitman",
   "netWorth": {
-    "value": 3.7,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 979,
+    "value": 4.37,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 960,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"meg-whitman\",\"rank\":979,\"listUri\":\"billionaires\",\"visible\":true,\"position\":1010,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":3700.0,\"finalWorthBillions\":3.7,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Meg Whitman\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"meg-whitman\",\"rank\":960,\"listUri\":\"rtb\",\"visible\":true,\"position\":960,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":4367.748,\"finalWorthBillions\":4.367748,\"person\":{\"name\":\"Meg Whitman\",\"uri\":\"meg-whitman\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5e8b63cae2bb040006428af5/416x416.jpg?background=000000&cropX1=0&cropX2=4162&cropY1=394&cropY2=4560\"},\"personName\":\"Meg Whitman\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Meg Whitman\" at rank 979 (ranks are shared on ties), net worth $3.7B, source \"EBay\".",
+  "notes": "Listed as \"Meg Whitman\" at rank 960, real-time net worth $4.4B, source \"EBay\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

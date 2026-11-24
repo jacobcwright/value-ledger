@@ -6,3 +6,5 @@ node_modules/
 .claude/
 research/.cache/
 .vercel
+research/refresh-prefill/
+research/snapshots/

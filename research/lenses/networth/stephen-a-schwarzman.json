@@ -2,18 +2,18 @@
   "id": "stephen-a-schwarzman",
   "name": "Stephen A. Schwarzman",
   "netWorth": {
-    "value": 44.4,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 31,
+    "value": 42.03,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 45,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"stephen-schwarzman\",\"rank\":31,\"listUri\":\"billionaires\",\"visible\":true,\"position\":31,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":44400.0,\"finalWorthBillions\":44.4,\"category\":\"Finance & Investments\",\"otherCompensation\":0,\"person\":{\"name\":\"Stephen Schwarzman\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"stephen-schwarzman\",\"rank\":45,\"listUri\":\"rtb\",\"visible\":true,\"position\":45,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":42029.749,\"finalWorthBillions\":42.029749,\"person\":{\"name\":\"Stephen Schwarzman\",\"uri\":\"stephen-schwarzman\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5d89f4d318444200084e5265/416x416.jpg?background=000000&cropX1=1911&cropX2=5305&cropY1=26&cropY2=3418\"},\"personName\":\"Stephen Schwarzman\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Stephen Schwarzman\" at rank 31 (ranks are shared on ties), net worth $44.4B, source \"Investments\". Forbes lists him as \"Stephen Schwarzman\".",
+  "notes": "Listed as \"Stephen Schwarzman\" at rank 45, real-time net worth $42.0B, source \"Investments\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

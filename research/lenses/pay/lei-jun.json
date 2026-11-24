@@ -1,0 +1,31 @@
+{
+  "id": "lei-jun",
+  "company": "Xiaomi Corporation",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "CNY",
+  "employees": {
+    "value": 56531,
+    "asOf": "2025-12-31",
+    "basis": "full-time employees",
+    "source": {
+      "hostType": "exchange",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+      "label": "Xiaomi 2025 Annual Report, Management Discussion and Analysis, Employee and Remuneration Policy",
+      "quote": "As of December 31, 2025, we had 56,531 full-time employees, 53,901 of whom were based in the Chinese Mainland"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Employee benefit expenses",
+    "value": 30.470678,
+    "source": {
+      "hostType": "exchange",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+      "label": "Xiaomi 2025 Annual Report, Note 9 Employee benefit expenses",
+      "quote": "Wages, salaries and bonuses 19,300,796 14,963,862 Share-based compensation expenses (Note 28) 5,365,075 3,726,085 Contributions to pension plans 2,170,020 1,650,417 Other social security costs, housing benefits and other employee benefits 3,634,787 2,562,176 30,470,678 22,902,540 [RMB'000, 2025 and 2024]"
+    }
+  },
+  "notes": "Employees: full-time employees at 31 December 2025 (the ESG section separately cites 71,342 employees including part-time staff and interns). Payroll: Note 9 total employee benefit expenses of RMB 30,470,678 thousand as reported (wages, share-based compensation, pensions and other social costs). Billions of CNY.",
+  "researchedAt": "2026-11-24"
+}

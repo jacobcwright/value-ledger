@@ -1,0 +1,31 @@
+{
+  "id": "marc-benioff",
+  "company": "Salesforce",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-31",
+  "currency": "USD",
+  "employees": {
+    "value": 83334,
+    "asOf": "2026-01-31",
+    "basis": "employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+      "label": "FY2026 Form 10-K, Item 1 Human Capital Management",
+      "quote": "As of January 31, 2026, we had 83,334 employees."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "fiscal 2026 total compensation of our median employee",
+    "value": 166753,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+      "label": "2026 proxy statement (DEF 14A), Fiscal 2026 CEO Pay Ratio",
+      "quote": "The fiscal 2026 total compensation of our median employee, based on the compensation of all employees who were employed as of November 1, 2025, other than our CEO, was $166,753."
+    }
+  },
+  "notes": "Employees: year-end count from the FY2026 10-K. Payroll: the 10-K gives no total of salaries, benefits or personnel costs (it describes employee-related costs only as components of cost of revenues and operating expenses), so the proxy's CEO pay ratio median is used. It is for fiscal 2026, the same year as the head count, and uses salary, cash bonuses, equity compensation and commissions to identify the median employee (CEO pay ratio approximately 296 to 1).",
+  "researchedAt": "2026-11-24"
+}

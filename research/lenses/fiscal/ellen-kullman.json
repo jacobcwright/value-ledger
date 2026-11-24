@@ -1,28 +1,44 @@
 {
   "id": "ellen-kullman",
   "company": "DuPont",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
-  "taxes": null,
-  "rnd": {
-    "expense": {
-      "value": 0.53,
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 0.13,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and Development Expense (\"R&D\") R&D expense was $531 million for the year ended December 31, 2024",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information, continuing operations",
+        "quote": "Income taxes, net of refunds - from continuing operations 127 184 168 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001666700",
-          "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 531000000
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-12-31",
+          "value": 127000000
         }
       }
     }
   },
-  "notes": "Cash income taxes paid are not disclosed in the FY2024 10-K that the snapshot uses. The FY2025 10-K later reports $184 million for 2024, restated for discontinued operations (Qnity spin-off); that is a different document and basis, so it is not used.",
-  "researchedAt": "2026-11-23"
+  "rnd": {
+    "expense": {
+      "value": 0.19,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+        "label": "FY2025 Form 10-K, research and development expense (continuing operations)",
+        "quote": "Research and development expenses 193 203 192 [USD millions; FY2025 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001666700",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2025-12-31",
+          "value": 193000000
+        }
+      }
+    }
+  },
+  "notes": "Continuing operations only, after the Qnity spin-off (November 1, 2025) and with the Aramids business in discontinued operations. Taxes: income taxes paid net of refunds from continuing operations ($127 million); the supplemental cash-flow information shows a further $204 million paid from discontinued operations, not included. R&D: continuing-operations line ($193 million), not comparable with the FY2024 edition's $531 million, which included the electronics business.",
+  "researchedAt": "2026-11-24"
 }

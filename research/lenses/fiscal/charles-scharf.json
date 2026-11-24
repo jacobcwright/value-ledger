@@ -1,28 +1,28 @@
 {
   "id": "charles-scharf",
   "company": "Wells Fargo",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 1.66,
+      "value": 1.42,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231_d2.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Net cash paid (refunded) for income taxes 1,664 ( 1,786 ) 3,376 Significant non-cash [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/wfc-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 22 Income Taxes, Table 22.8 Net Cash Paid (Refunded) for Income Taxes",
+        "quote": "Table 22.8: Net Cash Paid (Refunded) for Income Taxes ... Net cash paid (refunded) $ 1,419 1,664 ( 1,786 ) [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000072971",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 1664000000
+          "end": "2025-12-31",
+          "value": 1419000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented. R&D not reported as a separate line (bank).",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the income-tax note's table by jurisdiction (U.S. federal 560; U.S. state and local and non-U.S. the rest; total 1,419 million); from FY2025 it no longer appears in the supplemental cash-flow disclosures. R&D not reported as a separate line (bank).",
+  "researchedAt": "2026-11-24"
 }

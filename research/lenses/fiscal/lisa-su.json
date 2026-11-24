@@ -1,44 +1,44 @@
 {
   "id": "lisa-su",
   "company": "AMD",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-28",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-27",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 1.39,
+      "value": 0.88,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid during the year for: ... Income taxes, net of refund $ 1,386 $ 523 $ 685 Non-cash investing and [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid during the year for: Interest $ 91 $ 72 $ 84 Income taxes, net of refund $ 884 $ 1,386 $ 523 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000002488",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-28",
-          "value": 1386000000
+          "end": "2025-12-27",
+          "value": 884000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 6.46,
+      "value": 8.09,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 6,456 5,872 Marketing, general and administrative [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations, research and development expense",
+        "quote": "Research and development 8,091 6,456 5,872 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000002488",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-28",
-          "value": 6456000000
+          "end": "2025-12-27",
+          "value": 8091000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 27, 2025. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the supplemental cash flow information.",
+  "researchedAt": "2026-11-24"
 }

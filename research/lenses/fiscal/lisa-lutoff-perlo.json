@@ -1,12 +1,12 @@
 {
   "id": "lisa-lutoff-perlo",
   "company": "Royal Caribbean Group",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": null,
   "rnd": null,
-  "notes": "Cash income taxes paid are not disclosed: the FY2024 10-K supplemental cash-flow disclosure lists only interest paid, and no income-tax payment figure appears elsewhere (most ship-operating income is exempt from U.S. tax under Section 883). R&D not reported as a separate line in the FY2024 10-K.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Cash income taxes paid are not disclosed as an amount: the FY2025 10-K supplemental cash-flow disclosure lists only interest paid, and the income-tax note, despite adopting ASU 2023-09 for 2025, says only that 'For the year ended December 31, 2025, there were no individual jurisdictions with material cash taxes paid' (most ship-operating income is exempt from U.S. tax under Section 883; the 2025 provision for income taxes was $82 million). R&D not reported as a separate line in the FY2025 10-K.",
+  "researchedAt": "2026-11-24"
 }

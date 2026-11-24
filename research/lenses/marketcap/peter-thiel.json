@@ -1,0 +1,50 @@
+{
+  "id": "peter-thiel",
+  "company": "Palantir Technologies",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 2306705341,
+      "sharesAsOf": "2026-10-26",
+      "pricedAs": "PLTR",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 26, 2026, there were 2,306,705,341 shares of the registrant’s Class A common stock outstanding, 101,787,133 shares of the registrant’s Class B common stock outstanding, and 1,005,000 shares of the registrant’s Class F common stock outstanding."
+      }
+    },
+    {
+      "label": "Class B common stock",
+      "shares": 101787133,
+      "sharesAsOf": "2026-10-26",
+      "pricedAs": "PLTR",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted and converts one-for-one into Class A (2026 proxy: each share of Class B common stock 'is convertible at any time, at the option of the holder thereof, into one share of Class A common stock'); all classes have identical dividend and liquidation rights.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 26, 2026, there were 2,306,705,341 shares of the registrant’s Class A common stock outstanding, 101,787,133 shares of the registrant’s Class B common stock outstanding, and 1,005,000 shares of the registrant’s Class F common stock outstanding."
+      }
+    },
+    {
+      "label": "Class F common stock",
+      "shares": 1005000,
+      "sharesAsOf": "2026-10-26",
+      "pricedAs": "PLTR",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class F is unlisted and held in the Founder Voting Trust; each share converts into one share of Class B (FY2025 10-K: 'each share of Class F common stock is convertible at any time, at the option of the holder thereof, into one share of Class B common stock'), which converts one-for-one into Class A; all classes have identical dividend and liquidation rights.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 26, 2026, there were 2,306,705,341 shares of the registrant’s Class A common stock outstanding, 101,787,133 shares of the registrant’s Class B common stock outstanding, and 1,005,000 shares of the registrant’s Class F common stock outstanding."
+      }
+    }
+  ],
+  "notes": "Class A trades on Nasdaq as PLTR; the FY2025 10-K says 'Our Class B common stock and Class F common stock are not listed on any stock exchange nor traded on any public market.' Class F is included because it shares the same dividend and liquidation rights as the other classes (it is not a nominal voting share). Counts are from the Q3 2026 10-Q cover (filed November 3, 2026).",
+  "researchedAt": "2026-11-24"
+}

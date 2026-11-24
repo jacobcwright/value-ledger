@@ -5,9 +5,9 @@
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "as of Jun 30, 2025",
+      "period": "as of Jun 30, 2026",
       "tier": "filing",
-      "definition": "Approximate employees located in each country, 10-K Item 1 Employees (company total approximately 22,300)."
+      "definition": "Approximate employees located in each country, 10-K Item 1 Employees (company total approximately 21,700)."
     }
   },
   "usStates": null,
@@ -21,9 +21,9 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, Item 1, Employees",
-        "quote": "As of June 30, 2025, the Company had approximately 22,300 employees, of whom approximately 7,900 were located in the U.S., 3,900 were located in the U.K. and 5,800 were located in Australia."
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, Item 1, Employees",
+        "quote": "As of June 30, 2026, the Company had approximately 21,700 employees, of whom approximately 7,900 were located in the U.S., 3,900 were located in the U.K. and 5,600 were located in Australia."
       }
     },
     {
@@ -35,23 +35,23 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, Item 1, Employees",
-        "quote": "As of June 30, 2025, the Company had approximately 22,300 employees, of whom approximately 7,900 were located in the U.S., 3,900 were located in the U.K. and 5,800 were located in Australia."
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, Item 1, Employees",
+        "quote": "As of June 30, 2026, the Company had approximately 21,700 employees, of whom approximately 7,900 were located in the U.S., 3,900 were located in the U.K. and 5,600 were located in Australia."
       }
     },
     {
       "iso2": "AU",
       "name": "Australia",
       "values": {
-        "employees": 5800
+        "employees": 5600
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, Item 1, Employees",
-        "quote": "As of June 30, 2025, the Company had approximately 22,300 employees, of whom approximately 7,900 were located in the U.S., 3,900 were located in the U.K. and 5,800 were located in Australia."
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, Item 1, Employees",
+        "quote": "As of June 30, 2026, the Company had approximately 21,700 employees, of whom approximately 7,900 were located in the U.S., 3,900 were located in the U.K. and 5,600 were located in Australia."
       }
     }
   ],
@@ -63,12 +63,12 @@
       "state": "NY",
       "iso2": "US",
       "type": "headquarters",
-      "description": "Leased U.S. headquarters; executive and corporate offices, and executive and editorial offices of Dow Jones and the Post",
+      "description": "Leased office space for the corporate headquarters and the executive and editorial offices of Dow Jones and the New York Post",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, Item 2, Properties",
-        "quote": "The leased U.S. headquarters of the Company, located at 1211 Avenue of the Americas, New York, New York."
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, Item 2, Properties",
+        "quote": "The Company leases office space at 1211 Avenue of the Americas, New York, New York for its corporate headquarters and the executive and editorial offices of Dow Jones and the New York Post."
       }
     },
     {
@@ -121,9 +121,9 @@
       "description": "Leased headquarters and editorial offices of the London operations of News UK, Dow Jones and HarperCollins, and the broadcast studios for the U.K. radio stations",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, Item 2, Properties",
-        "quote": "The leased headquarters and editorial offices of the London operations of News UK, Dow Jones and HarperCollins and the broadcast studios for the Company’s U.K. radio stations at The News Building, 1 London Bridge Street, London, England"
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, Item 2, Properties",
+        "quote": "The Company leases office space at The News Building, 1 London Bridge Street, London, England for the headquarters and editorial offices of the London operations of News UK, Dow Jones and HarperCollins and the broadcast studios for the Company’s U.K. radio stations."
       }
     },
     {
@@ -153,16 +153,16 @@
       }
     },
     {
-      "name": "Sydney print center",
-      "place": "Sydney, NSW",
+      "name": "2 Holt Street (News Corp Australia headquarters)",
+      "place": "2 Holt Street, Sydney, NSW",
       "iso2": "AU",
-      "type": "printing plant",
-      "description": "Company-owned print center and office building at which The Australian, The Daily Telegraph and The Sunday Telegraph are printed and published",
+      "type": "headquarters",
+      "description": "Company-owned office space housing the headquarters of News Corp Australia, printing and publishing operations for The Australian, The Daily Telegraph and The Sunday Telegraph, and broadcast studios for News24",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, Item 2, Properties",
-        "quote": "A Company-owned print center and an office building in Sydney, Australia at which The Australian, The Daily Telegraph and The Sunday Telegraph are printed and published, respectively"
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, Item 2, Properties",
+        "quote": "The Company owns office space at 2 Holt Street, Sydney, Australia, which houses the headquarters of News Corp Australia, printing and publishing operations for The Australian , The Daily Telegraph and The Sunday Telegraph and broadcast studios for News24."
       }
     },
     {
@@ -183,12 +183,12 @@
       "place": "Adelaide, SA",
       "iso2": "AU",
       "type": "printing plant",
-      "description": "Company-owned print center and office building at which The Advertiser and Sunday Mail are printed and published",
+      "description": "Company-owned print center and office building",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-        "label": "FY2025 Form 10-K, Item 2, Properties",
-        "quote": "A Company-owned print center and an office building in Adelaide, Australia at which The Advertiser and Sunday Mail are printed and published, respectively"
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+        "label": "FY2026 Form 10-K, Item 2, Properties",
+        "quote": "owns a print center and office building in Adelaide, Australia."
       }
     },
     {
@@ -218,6 +218,6 @@
       }
     }
   ],
-  "notes": "Employees by country from the FY2025 Form 10-K (Jun 30, 2025, the site's snapshot year): U.S. ~7,900, U.K. ~3,900, Australia ~5,800 of ~22,300; the remaining ~4,700 are not broken out. Sites are the principal properties listed in Item 2 (U.K. print plants in Knowsley and North Lanarkshire and offices in Peterborough, Dublin and Glasgow City Centre are also listed but left out to stay within 12). No state or tax-by-country data in the 10-K.",
-  "researchedAt": "2026-11-23"
+  "notes": "Employees by country from the FY2026 Form 10-K (Jun 30, 2026): U.S. ~7,900, U.K. ~3,900, Australia ~5,600 of ~21,700; the remaining ~4,300 are not broken out. The FY2026 10-K's Item 2 is much shorter than FY2025's: it names only the New York headquarters at 1211 Avenue of the Americas, The News Building in London, 2 Holt Street in Sydney and the Adelaide print center and office building, and otherwise says the Company owns interests in publishing and printing facilities in England and Scotland leased to its joint venture with DMG Media and leases other space across the U.S., Europe, Australia and Asia. Those four sites are re-sourced to the FY2026 10-K; the Sydney entry now follows the FY2026 wording (2 Holt Street, which houses News Corp Australia's headquarters and the printing and publishing operations for The Australian, The Daily Telegraph and The Sunday Telegraph). The other sites (HarperCollins U.S. in New York, the South Brunswick campus, Move in Austin, the Broxbourne printing facility, HarperCollins Glasgow, the Melbourne print center, REA Group in Melbourne and Dow Jones Hong Kong) are not named in the FY2026 10-K but it does not say they were sold or closed, so they stay on their FY2025 10-K source. No state or tax-by-country data in the 10-K.",
+  "researchedAt": "2026-11-24"
 }

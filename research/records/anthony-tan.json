@@ -1,26 +1,26 @@
 {
   "id": "anthony-tan",
   "company": "Grab Holdings",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-02-15",
+    "asOf": "2026-01-31",
     "leader": {
       "name": "Anthony Tan Ping Yeow",
       "relation": "co-founder",
       "status": "holds",
-      "pctEconomic": 3.7,
-      "pctVoting": 63.2,
-      "shares": 151123290,
+      "pctEconomic": 3.2,
+      "pctVoting": 59.9,
+      "shares": 131835048,
       "family": null,
       "source": {
-        "hostType": "company",
-        "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-        "label": "FY2024 Form 20-F (2024 Annual Report), Item 7.A Major Shareholders (printed p. 162)",
-        "quote": "Anthony Tan Ping Yeow * 151,123,290 3.7% 63.2% [Class A Ordinary Shares; Class B Ordinary Shares; % of Total Ordinary Shares; % of Voting Power, as of February 15, 2025]"
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+        "label": "FY2025 Form 20-F, Item 7.A Major Shareholders (as of January 31, 2026)",
+        "quote": "Anthony Tan Ping Yeow * 131,835,048 (3) 3.2% 59.9% [Class A Ordinary Shares; Class B Ordinary Shares; % of Total Ordinary Shares; % of Voting Power]"
       },
       "caveat": "Includes shares he is deemed to own under Grab’s Shareholders’ Deed, not only his own."
     },
@@ -28,94 +28,94 @@
       {
         "name": "Uber Technologies, Inc.",
         "type": "company",
-        "pctEconomic": 13.2,
-        "asOf": "2025-02-15",
+        "pctEconomic": 13.1,
+        "asOf": "2024-05-08",
         "source": {
-          "hostType": "company",
-          "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-          "label": "FY2024 Form 20-F (2024 Annual Report), Item 7.A Major Shareholders (printed p. 162)",
-          "quote": "Uber Technologies, Inc. 535,902,982 — 13.2% 5.7%"
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+          "label": "FY2025 Form 20-F, Item 7.A Major Shareholders",
+          "quote": "Uber Technologies, Inc. (6) 535,902,982 - 13.1% 5.5% ... (6) Based on the Schedule 13D filed by Uber Technologies, Inc. with the SEC on May 8, 2024."
         }
       },
       {
         "name": "SB Investment Advisers (UK) Limited (SoftBank Vision Fund adviser)",
         "type": "asset-manager",
-        "pctEconomic": 9.9,
-        "asOf": "2025-02-14",
+        "pctEconomic": 9.8,
+        "asOf": "2026-02-18",
         "source": {
-          "hostType": "company",
-          "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-          "label": "FY2024 Form 20-F (2024 Annual Report), Item 7.A Major Shareholders and footnote 4 (printed pp. 162-163)",
-          "quote": "SB Investment Advisers (UK) Limited(4) 401,796,672 — 9.9% 4.3% ... (4) The number of Class A Ordinary Shares beneficially owned was reported in the Form 13F filed by SB Investment Advisers (UK) Limited on February 14, 2025."
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+          "label": "FY2025 Form 20-F, Item 7.A Major Shareholders and footnote 5",
+          "quote": "SB Investment Advisers (UK) Limited (5) 401,796,672 - 9.8% 4.1% ... (5) Based on the report on Form 13F filed by SB Investment Advisers (UK) Limited with the SEC on February 18, 2026."
         }
       },
       {
         "name": "Toyota Motor Corp",
         "type": "company",
-        "pctEconomic": 5.5,
-        "asOf": "2025-02-15",
+        "pctEconomic": 5.4,
+        "asOf": "2026-01-31",
         "source": {
-          "hostType": "company",
-          "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-          "label": "FY2024 Form 20-F (2024 Annual Report), Item 7.A Major Shareholders (printed p. 162)",
-          "quote": "Toyota Motor Corp 222,906,079 — 5.5% 2.4%"
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+          "label": "FY2025 Form 20-F, Item 7.A Major Shareholders",
+          "quote": "Toyota Motor Corp 222,906,079 - 5.4% 2.3%"
         }
       }
     ],
     "structure": {
       "dualClass": true,
       "controlled": true,
-      "note": "Two classes: each Class A Ordinary Share carries one vote and each Class B Ordinary Share carries 45 votes. Under the Shareholders' Deed, co-founder Tan Hooi Ling, executive Mr. Maa and related entities irrevocably appoint Anthony Tan as proxy to vote their Class B shares, so the 20-F attributes 63.2% of total voting power to him at 15 February 2025 (about 63.4% after March 2025 proxies from other executive officers), more than half."
+      "note": "Two classes: each Class A Ordinary Share carries one vote; each Class B Ordinary Share carried 45 votes at January 31, 2026. Under the Shareholders' Deed and the Voting Proxy Deeds, co-founder Tan Hooi Ling, former President Maa Ming-Hokng and other executive officers irrevocably appoint Anthony Tan as proxy to vote their Class B shares, so the 20-F attributes 59.9% of total voting power to him (59.1% 'after giving effect to the Key Executive Proxies and Exco Proxies'), more than half. On March 24, 2026 shareholders approved new articles; the 20-F says the proposal raised each Class B share's votes from 45 to 90, which it said would give him about 74.9% of the voting power."
     }
   },
   "cash": {
     "dividends": {
       "value": 0,
       "source": {
-        "hostType": "company",
-        "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-        "label": "FY2024 Form 20-F (2024 Annual Report), Item 8.A Dividend Policy (printed p. 171)",
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+        "label": "FY2025 Form 20-F, Item 8.A Dividend Policy",
         "quote": "We have never declared or paid any cash dividend on our Class A Ordinary Shares. We currently intend to retain any future earnings and do not expect to pay any dividends in the foreseeable future."
       }
     },
     "buybacks": {
-      "value": 0.23,
+      "value": 0.27,
       "source": {
-        "hostType": "company",
-        "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-        "label": "FY2024 Form 20-F (2024 Annual Report), consolidated statement of cash flows (printed F-11)",
-        "quote": "Repurchase and retirement of ordinary shares (226) — — [in $ millions, 2024, 2023, 2022]",
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows (in $ millions; 2025, 2024, 2023)",
+        "quote": "Repurchase and retirement of ordinary shares ( 274 ) ( 226 ) - [in $ millions, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001855612",
           "concept": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares",
-          "end": "2024-12-31",
-          "value": 226000000
+          "end": "2025-12-31",
+          "value": 274000000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.28,
+      "value": 0.24,
       "source": {
-        "hostType": "company",
-        "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-        "label": "FY2024 Form 20-F (2024 Annual Report), consolidated statement of cash flows (printed F-10)",
-        "quote": "Equity-settled share-based payments 19 279 304 412 [Note 19; in $ millions, 2024, 2023, 2022]",
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows (in $ millions; 2025, 2024, 2023)",
+        "quote": "Equity-settled share-based payments 18 241 279 304 [Note 18; in $ millions, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001855612",
           "concept": "ifrs-full:AdjustmentsForSharebasedPayments",
-          "end": "2024-12-31",
-          "value": 279000000
+          "end": "2025-12-31",
+          "value": 241000000
         }
       }
     },
     "plan": {
       "text": "Eligible employees can buy Grab Class A shares through payroll deductions of 1% to 15% of pay under the 2021 Employee Stock Purchase Plan.",
       "source": {
-        "hostType": "company",
-        "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-        "label": "FY2024 Form 20-F (2024 Annual Report), Item 6.B, 2021 Equity Stock Purchase Plan (printed p. 157)",
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+        "label": "FY2025 Form 20-F, Item 6.B, 2021 Equity Stock Purchase Plan",
         "quote": "Employees will enroll under the ESPP by completing a payroll deduction form permitting the deduction from their compensation of at least 1% of their compensation but not more than 15% of their compensation."
       }
     }
@@ -125,41 +125,41 @@
     "segments": [
       {
         "name": "Indonesia",
-        "value": 0.64
+        "value": 0.72
       },
       {
         "name": "Malaysia",
-        "value": 0.82
+        "value": 1.04
       },
       {
         "name": "Philippines",
-        "value": 0.27
+        "value": 0.32
       },
       {
         "name": "Singapore",
-        "value": 0.58
+        "value": 0.73
       },
       {
         "name": "Thailand",
-        "value": 0.25
+        "value": 0.29
       },
       {
         "name": "Vietnam",
-        "value": 0.23
+        "value": 0.26
       },
       {
         "name": "Rest of Southeast Asia",
-        "value": 0.02
+        "value": 0.03
       }
     ],
-    "total": 2.8,
+    "total": 3.37,
     "source": {
-      "hostType": "company",
-      "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-      "label": "FY2024 Form 20-F (2024 Annual Report), notes to consolidated financial statements, Note 20 Revenue, ii) Geographic information",
-      "quote": "Geographic information 2024 2023 2022 (in $ millions) ... Indonesia 643 605 275 Malaysia 816 673 509 Philippines 265 200 125 Singapore 578 480 302 Thailand 252 205 109 Vietnam 228 185 108 Rest of Southeast Asia 15 11 5 2,797 2,359 1,433"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+      "label": "FY2025 Form 20-F, notes to consolidated financial statements, Note 19 Revenue, ii) Geographic information",
+      "quote": "ii) Geographic information 2025 2024 2023 (in $ millions) $ $ $ Indonesia 715 643 605 Malaysia 1,039 816 673 Philippines 316 265 200 Singapore 727 578 480 Thailand 288 252 205 Vietnam 255 228 185 Rest of Southeast Asia 30 15 11 3,370 2,797 2,359"
     }
   },
-  "notes": "All figures from Grab's FY2024 Form 20-F (fiscal year ended 31 December 2024), read as the '2024 Annual Report' PDF linked from investors.grab.com's Quarterly Results page. The file is hosted on s205.q4cdn.com, Grab's investor-relations host (Q4 Inc.), not on sec.gov. USD throughout. OWNERSHIP (as stated, not recomputed): Anthony Tan 3.7% of total ordinary shares and 63.2% of voting power at 15 February 2025, on 3,954,639,393 Class A and 119,498,676 Class B shares. His 151,123,290 Class B shares include 71,873,096 he holds himself; 19,492,330 held by Hibiscus Worldwide Ltd.; 15,206,161 he may acquire within 60 days from options and RSUs; 21,917,952 held by co-founder Tan Hooi Ling plus 7,243,301 she may acquire; and 6,215,298 held by Mr. Maa and the Maa Trusts plus 9,175,152 he may acquire. All of these are deemed beneficially owned by Anthony Tan under the Shareholders' Deed (proxy voting). The 3.7% therefore includes other people's shares that he votes, not only his own economic stake. The 20-F gives no separate percentage for his own shares, and none is derived. The table also excludes 1,111,904 Class B shares covered by March 2025 Voting Proxy Deeds; with those, footnote 3 says he controlled about 63.4% of voting power. HOLDERS: SB Investment Advisers' 9.9% is based on a Form 13F filed 14 February 2025 (footnote 4); asOf is that filing date. Uber and Toyota are as of the table date. DIVIDENDS: none; the cash-flow statement has no dividend line and the 20-F says Grab has never declared or paid a cash dividend. BUYBACKS: $226 million for 67 million Class A shares repurchased and cancelled in 2024 under the $500 million programme authorised in February 2024. STOCK COMP: $279 million equity-settled share-based payments (the 20-F also gives 'share-based compensation expense of $279 million' for 2024). GEOGRAPHY: Note 20 of the financial statements by country. At two decimals in billions the segments sum to 2.81 against a stated total of 2.80 (US$2,797 million), a rounding difference only.",
-  "researchedAt": "2026-11-23"
+  "notes": "All figures from Grab's FY2025 Form 20-F (fiscal year ended 31 December 2025; accession 0001855612-26-000020, filed March 6, 2026), read on sec.gov. USD throughout. OWNERSHIP (as stated, not recomputed): Anthony Tan, co-founder and CEO, 3.2% of total ordinary shares and 59.9% of voting power at January 31, 2026, on 3,972,725,983 Class A and 127,755,800 Class B shares. His 131,835,048 Class B shares include 81,099,260 he holds himself; 19,492,330 held by Hibiscus Worldwide Ltd.; 2,139,531 he may acquire within 60 days; 16,147,952 held by co-founder Tan Hooi Ling; 9,904,354 held by former President Maa Ming-Hokng and the Maa Trusts; and 3,051,621 held by or acquirable by other executive officers, all deemed beneficially owned by him under the Shareholders' Deed and Voting Proxy Deeds. The 3.2% therefore includes other people's shares that he votes, not only his own economic stake; no separate percentage for his own shares is given or derived. HOLDERS: SB Investment Advisers' 9.8% rests on a Form 13F filed February 18, 2026 (asOf is that filing date); Uber's rests on a Schedule 13D filed May 8, 2024 (asOf is that filing date); Toyota is dated as of the table. VOTING CHANGE: on March 24, 2026 an EGM approved new articles raising Class B votes from 45 to 90 per share (Form 6-K of March 24, 2026 and the 20-F's description of the proposal); the 59.9% predates it. DIVIDENDS: none. BUYBACKS: $274 million of Class A shares repurchased and retired in 2025, substantially completing the $500 million programme of February 2024; a new $500 million programme followed in February 2026 and a $750 million one in August 2026. STOCK COMP: $241 million equity-settled share-based payments. GEOGRAPHY: Note 19 of the financial statements by country; at two decimals in billions the segments sum to 3.39 against the stated total of 3.37 (US$3,370 million), a rounding difference only.",
+  "researchedAt": "2026-11-24"
 }

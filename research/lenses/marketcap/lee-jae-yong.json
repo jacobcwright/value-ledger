@@ -1,0 +1,36 @@
+{
+  "id": "lee-jae-yong",
+  "company": "Samsung Electronics",
+  "classes": [
+    {
+      "label": "Common shares",
+      "shares": 5764191903,
+      "sharesAsOf": "2026-06-30",
+      "pricedAs": "005930.KS",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_Half_Interim_Report.pdf",
+        "label": "Samsung Electronics 2026 Half-year Business Report, I.4.A Total number of shares",
+        "quote": "As of the same date, issued shares and shares outstanding totaled 5,764,191,903 for common shares and 802,371,203 for preferred shares. ... V. Treasury shares 82,086,705 - 82,086,705 - VI. Outstanding shares 5,764,191,903 802,371,203 6,566,563,106 -"
+      }
+    },
+    {
+      "label": "Preferred shares (non-voting, participating)",
+      "shares": 802371203,
+      "sharesAsOf": "2026-06-30",
+      "pricedAs": "005935.KS",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_Half_Interim_Report.pdf",
+        "label": "Samsung Electronics 2026 Half-year Business Report, I.4.A Total number of shares",
+        "quote": "As of the same date, issued shares and shares outstanding totaled 5,764,191,903 for common shares and 802,371,203 for preferred shares. ... VI. Outstanding shares 5,764,191,903 802,371,203 6,566,563,106 -"
+      }
+    }
+  ],
+  "notes": "Two classes, each priced on its own Korea Exchange line in KRW: common shares as 005930.KS and non-voting preferred shares as 005935.KS. Counts are shares outstanding (net of 82,086,705 common treasury shares; no preferred treasury shares) from the 2026 half-year business report (June 30, 2026), the latest Samsung has published in English (no third-quarter report is on its IR site yet). The preferred shares are included under the coordinator rule for participating non-voting shares (as for Volkswagen, Porsche and Roche): they have no fixed or limited claim, receive the common dividend plus an extra 1% of par per year, and share in profits like common stock. Preferred stock with a fixed or limited claim would be left out.",
+  "researchedAt": "2026-11-24"
+}

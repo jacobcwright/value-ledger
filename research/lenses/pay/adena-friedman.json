@@ -1,0 +1,31 @@
+{
+  "id": "adena-friedman",
+  "company": "Nasdaq",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 9525,
+    "asOf": "2025-12-31",
+    "basis": "full and part-time employees, including employees of non-wholly owned consolidated subsidiaries",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, Nasdaq had 9,525 full and part-time employees, including employees of non-wholly owned consolidated subsidiaries."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Compensation and benefits",
+    "value": 1.392,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm",
+      "label": "FY2025 Form 10-K, consolidated statements of income, operating expenses (in millions)",
+      "quote": "Compensation and benefits 1,392 1,324 1,082 [2025, 2024, 2023]"
+    }
+  },
+  "notes": "Employees: year-end head count of full and part-time employees from the FY2025 10-K. Payroll: the income statement's 'Compensation and benefits' operating expense for 2025 (it includes share-based compensation, which the 10-K says is primarily recorded in this line). The 2026 proxy also has a CEO pay ratio disclosure; it is not used because a total is disclosed.",
+  "researchedAt": "2026-11-24"
+}

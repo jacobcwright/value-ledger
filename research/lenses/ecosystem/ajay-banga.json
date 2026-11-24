@@ -1,8 +1,8 @@
 {
   "id": "ajay-banga",
   "company": "Mastercard",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ecosystem": {
@@ -10,39 +10,39 @@
     "measure": {
       "name": "Gross Dollar Volume (GDV)",
       "definition": {
-        "quote": "Gross Dollar Volume (“GDV”)1 measures dollar volume of activity, including both domestic and cross-border volume, on cards carrying our brands during the period, on a local currency basis and U.S. dollar-converted basis. GDV represents purchase volume plus cash volume",
+        "quote": "Gross Dollar Volume (“GDV”) 1 measures dollar volume of activity, including both domestic and cross-border volume, on cards carrying our brands during the period, on a local currency basis and U.S. dollar-converted basis. GDV represents purchase volume plus cash volume",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
-          "label": "FY2024 Form 10-K, MD&A Key Drivers",
-          "quote": "Gross Dollar Volume (“GDV”)1 measures dollar volume of activity, including both domestic and cross-border volume, on cards carrying our brands during the period, on a local currency basis and U.S. dollar-converted basis. GDV represents purchase volume plus cash volume"
+          "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+          "label": "FY2025 Form 10-K, MD&A Key Drivers",
+          "quote": "Gross Dollar Volume (“GDV”) 1 measures dollar volume of activity, including both domestic and cross-border volume, on cards carrying our brands during the period, on a local currency basis and U.S. dollar-converted basis. GDV represents purchase volume plus cash volume"
         }
       },
-      "value": 9800,
+      "value": 10600,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1 2024 highlights graphic (stated rounded, $9.8T)",
-        "quote": "Gross dollar volume (growth on a local currency basis) … $9.8T"
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 2025 highlights graphic (stated rounded, $10.6T)",
+        "quote": "Gross dollar volume (growth on a local currency basis) … $10.6T"
       }
     },
     "platformRevenue": {
       "label": "Net revenue",
-      "value": 28.167,
+      "value": 32.791,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
-        "label": "FY2024 Form 10-K, MD&A financial results overview (in millions)",
-        "quote": "Net revenue $ 28,167 $ 25,098 $ 22,237 12% 13%"
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "label": "FY2025 Form 10-K, MD&A financial results overview (in millions)",
+        "quote": "Net revenue $ 32,791 $ 28,167 $ 25,098 16% 12%"
       }
     },
     "payouts": null,
     "clientAssets": null,
     "studies": [],
-    "notes": "The 10-K states GDV rounded, as $9.8T. It also gives three program rows (Consumer Credit, Consumer Debit and Prepaid, Commercial Credit and Debit), which were not added up. GDV is the spend on Mastercard-branded cards, and the 10-K notes that the GDV data is 'provided by Mastercard customers'. Mastercard is a network, not a marketplace: issuing banks, acquirers and merchants keep most of the economics, so net revenue divided by GDV is a network fee rate, not a share of the sale. GDV excludes Maestro and Cirrus.",
+    "notes": "The FY2025 10-K states GDV rounded, as $10.6T. It also gives three program rows for 2025 (Consumer Credit $3,878B, Consumer Debit and Prepaid $5,349B, Commercial Credit and Debit $1,405B), which were not added up. GDV is the spend on Mastercard-branded cards, and the 10-K notes that the GDV data is 'provided by Mastercard customers'. Mastercard is a network, not a marketplace: issuing banks, acquirers and merchants keep most of the economics, so net revenue divided by GDV is a network fee rate, not a share of the sale. GDV excludes Maestro and Cirrus.",
     "ratioComparable": false,
     "ratioNote": "Mastercard net revenue includes value-added services and solutions that are not charged on gross dollar volume, so net revenue ÷ GDV is not a like-for-like share."
   },
   "notes": "",
-  "researchedAt": "2026-11-23"
+  "researchedAt": "2026-11-24"
 }

@@ -1,27 +1,27 @@
 {
   "id": "sergio-ermotti",
   "company": "UBS Group AG",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2024-12-31",
+    "asOf": "2025-12-31",
     "leader": {
       "name": "Sergio Ermotti",
       "relation": "ceo",
       "status": "holds",
       "pctEconomic": null,
       "pctVoting": null,
-      "shares": 1732094,
+      "shares": 2255862,
       "derived": null,
       "family": null,
       "source": {
-        "hostType": "company",
-        "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
-        "label": "Annual Report 2024 (Form 20-F), Compensation, share ownership / entitlements of GEB members (PDF p. 260)",
-        "quote": "Share ownership / entitlements of GEB members1 ... Sergio Ermotti, Group Chief Executive Officer 2024 1,023,411 1,732,094 2,755,505 0.215 [on 31 December; number of unvested shares / at risk; number of vested shares; total number of shares; potentially conferred voting rights in %]"
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm",
+        "label": "FY2025 Form 20-F (Annual Report 2025), Compensation, share ownership / entitlements of GEB members",
+        "quote": "Share ownership / entitlements of GEB members 1 Name, function on 31 December Number of unvested shares / at risk 2 Number of vested shares Total number of shares Potentially conferred voting rights in % Sergio P. Ermotti, Group Chief Executive Officer 2025 675,066 2,255,862 2,930,928 0.222"
       }
     },
     "largestHolders": [
@@ -31,74 +31,62 @@
         "pctEconomic": 5.01,
         "asOf": "2023-11-30",
         "source": {
-          "hostType": "company",
-          "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
-          "label": "Annual Report 2024 (Form 20-F), Corporate governance, Significant shareholders (PDF p. 187)",
-          "quote": "on 31 December 2024, the following entities held more than 3% of the total voting rights of UBS Group AG: Norges Bank, Oslo, which disclosed a holding of 5.00% on 12 December 2024; and BlackRock Inc., New York, which disclosed a holding of 5.01% on 30 November 2023."
-        }
-      },
-      {
-        "name": "Norges Bank (Central Bank of Norway)",
-        "type": "sovereign",
-        "pctEconomic": 5.0,
-        "asOf": "2024-12-12",
-        "source": {
-          "hostType": "company",
-          "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
-          "label": "Annual Report 2024 (Form 20-F), Corporate governance, Significant shareholders (PDF p. 187)",
-          "quote": "Norges Bank, Oslo, which disclosed a holding of 5.00% on 12 December 2024 ... On 22 January 2025, Norges Bank, Oslo, disclosed a holding of 4.90% of the total share capital of UBS Group AG."
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm",
+          "label": "FY2025 Form 20-F (Annual Report 2025), Corporate governance, Shareholders subject to FMIA disclosure notifications",
+          "quote": "on 31 December 2025, the following entities held more than 3% of the total voting rights of UBS Group AG: Norges Bank, Oslo, which disclosed a holding of 4.90% on 22 January 2025; and BlackRock Inc., New York, which disclosed a holding of 5.01% on 30 November 2023."
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of registered shares (3,462,087,722 issued at end-2024, nominal USD 0.10). The only holders above 3% of the voting rights under FMIA notifications were Norges Bank (5.00%, 12 December 2024; 4.90% on 22 January 2025) and BlackRock (5.01%, 30 November 2023). Registration is optional and a 5% voting limit applies to registered shareholders other than securities clearing organizations. UBS held 287,262,471 treasury shares at year end."
+      "note": "One class of registered shares (3,341,581,714 issued at end-2025, including 249,882,523 treasury shares; nominal USD 0.10), listed on the SIX Swiss Exchange and, as global registered shares, on the NYSE. The only holders above 3% of the voting rights under FMIA notifications at year end were BlackRock (5.01%, 30 November 2023) and Norges Bank (4.90%, 22 January 2025); on 17 February 2026 Norges Bank disclosed a holding below 3%. Registration is optional and a 5% voting limit applies to registered shareholders other than securities clearing organizations."
     }
   },
   "cash": {
     "dividends": {
-      "value": 2.26,
+      "value": 2.87,
       "source": {
-        "hostType": "company",
-        "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
-        "label": "Annual Report 2024 (Form 20-F), consolidated statement of cash flows, financing activities (PDF p. 286)",
-        "quote": "Distributions paid on UBS shares (2,256) (1,679) (1,668) [USD m, 31.12.24, 31.12.23, 31.12.22]",
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm",
+        "label": "FY2025 Form 20-F (Annual Report 2025), UBS Group AG consolidated statement of cash flows, financing activities",
+        "quote": "Distributions paid on UBS Group AG shares ( 2,866 ) ( 2,256 ) ( 1,679 ) [USD m, 31.12.25, 31.12.24, 31.12.23]",
         "xbrl": {
           "cik": "0001610520",
           "concept": "ifrs-full:DividendsPaidToEquityHoldersOfParentClassifiedAsFinancingActivities",
-          "end": "2024-12-31",
-          "value": 2256000000
+          "end": "2025-12-31",
+          "value": 2866000000
         }
       }
     },
     "buybacks": {
-      "value": 1.0,
+      "value": 3,
       "source": {
-        "hostType": "company",
-        "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
-        "label": "Annual Report 2024 (Form 20-F), Equity (balance sheet section) (PDF p. 177)",
-        "quote": "This was predominantly due to the purchasing of USD 1,981m of shares in relation to employee share-based compensation plans and share repurchases with an acquisition cost of USD 1,000m under our 2024 share repurchase program."
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm",
+        "label": "FY2025 Form 20-F (Annual Report 2025), Balance sheet, Equity",
+        "quote": "This was predominantly due to share repurchases with an acquisition cost of USD 3,000m under our 2024 and 2025 share repurchase programs and the purchasing of USD 2,365m of shares in relation to employee share-based compensation plans."
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 1.12,
+      "value": 1.1,
       "source": {
-        "hostType": "company",
-        "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
-        "label": "Annual Report 2024 (Form 20-F), Note 27 Employee benefits: variable compensation, footnote 4 (PDF p. 381)",
-        "quote": "Total personnel expense related to share-based equity-settled ... compensation excluding social security was USD 1,118m."
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm",
+        "label": "FY2025 Form 20-F (Annual Report 2025), Note 26 Employee benefits: variable compensation, footnote 4",
+        "quote": "Total personnel expense related to share-based equity-settled compensation excluding social security was USD 1,095 m."
       }
     },
     "plan": {
       "text": "Under UBS's voluntary Equity Plus Plan, eligible employees buy UBS shares at market value and receive one free notional share for every three bought, vesting after up to three years.",
       "source": {
-        "hostType": "company",
-        "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
-        "label": "Annual Report 2024 (Form 20-F), Corporate governance, employee share ownership (PDF p. 190)",
-        "quote": "Our Equity Plus Plan is a voluntary plan that provides eligible employees with the opportunity to purchase UBS Group AG shares at market value and receive, at no additional cost, one notional UBS Group AG share for every three shares purchased."
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm",
+        "label": "FY2025 Form 20-F (Annual Report 2025), Corporate governance, employee share ownership",
+        "quote": "Equity Plus Plan is a voluntary plan that provides eligible employees with the opportunity to purchase UBS Group AG shares at market value and receive, at no additional cost, one notional UBS Group AG share for every three shares purchased."
       }
     }
   },
@@ -107,33 +95,29 @@
     "segments": [
       {
         "name": "Americas",
-        "value": 16.8
+        "value": 17.6
       },
       {
         "name": "Asia Pacific",
-        "value": 6.8
+        "value": 8
       },
       {
-        "name": "Europe, Middle East and Africa (excluding Switzerland)",
-        "value": 7.7
+        "name": "EMEA (excluding Switzerland)",
+        "value": 8.5
       },
       {
         "name": "Switzerland",
-        "value": 15.1
-      },
-      {
-        "name": "Global",
-        "value": 2.2
+        "value": 15.8
       }
     ],
-    "total": 48.6,
+    "total": 49.6,
     "source": {
-      "hostType": "company",
-      "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
-      "label": "Annual Report 2024 (Form 20-F), Note 3b Segment reporting by geographic location (PDF p. 311)",
-      "quote": "For the year ended 31 December 2024 Total revenues Total non-current assets USD bn Share % USD bn Share % Americas1 16.8 35 8.6 35 Asia Pacific 6.8 14 1.4 6 Europe, Middle East and Africa (excluding Switzerland) 7.7 16 3.1 12 Switzerland 15.1 31 11.6 47 Global2 2.2 5 0.0 0 Total 48.6 100 24.7 100"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm",
+      "label": "FY2025 Form 20-F (Annual Report 2025), Note 2b Segment reporting by geographic location",
+      "quote": "For the year ended 31 December 2025 Total revenues Total non-current assets USD bn Share % USD bn Share % Americas 1 17.6 36 8.5 34 Asia Pacific 8.0 16 1.3 5 EMEA (excluding Switzerland) 8.5 17 3.2 12 Switzerland 15.8 32 12.3 49 Global 2 ( 0.4 ) ( 1 ) 0.0 0 Total 49.6 100 25.3 100"
     }
   },
-  "notes": "Fiscal year ended 31 December 2024. Source is the UBS Group AG Annual Report 2024 as filed on Form 20-F, downloaded from the SEC filings page of ubs.com (www.sec.gov not contacted). Dividends are cross-checked against SEC XBRL companyfacts (CIK 0001610520). UBS reports in USD; values in USD bn (geography is reported only to one decimal in USD bn). LEADER: Sergio Ermotti (Group CEO since 2023, also 2011-2020) held 1,732,094 vested shares plus 1,023,411 unvested/at-risk shares (2,755,505 in total, including related parties) at 31 December 2024; shares records the vested figure. The table's 'potentially conferred voting rights' column shows 0.215%, which counts unvested shares and is a voting-rights measure, so it is not used as pctEconomic. No economic percentage is disclosed, so pctEconomic is null. HOLDERS: FMIA notifications measure % of 'the voting rights associated with the total share capital ... at the time of the respective disclosure notification'; with one share class this is equivalent to share of capital. Dates are the notification dates (BlackRock's is from 30 November 2023). Norges Bank fell to 4.90% on 22 January 2025. DTC (Cede & Co.) is registered with 6.48% but is a clearing nominee, not a beneficial owner. BUYBACKS: 1.00 = shares bought under the 2024 share repurchase program (acquisition cost USD 1,000m, about 33m shares, all intended for cancellation); no shares were bought under the concluded 2022 program in 2024. Excluded: USD 1,981m of shares bought by Group Treasury to hedge employee share-based compensation, and Investment Bank market-making. The cash-flow line 'Net movements in treasury shares and own equity derivative activity' (USD 2,923m outflow) is net and mixes these with market-making and derivatives, so it is not used. Note this differs from records where the only purchases were plan-hedging purchases (see report). DIVIDENDS: USD 2,256m distributions paid on UBS shares (USD 0.70 per share; 50% paid out of retained earnings and the balance out of the capital contribution reserve). STOCK COMP: USD 1,118m total personnel expense for share-based equity-settled compensation excluding social security (Note 27 footnote 4). The same footnote gives USD 1,128m of share-based compensation inside variable compensation (the XBRL ExpenseFromSharebasedPaymentTransactionsWithEmployees fact) plus USD 134m in other categories; the equity-settled total is used.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended 31 December 2025. Source is the UBS Group AG Annual Report 2025 as filed on Form 20-F (accession 0001610520-26-000023, filed March 9, 2026), read on www.sec.gov. Dividends are cross-checked against SEC XBRL companyfacts (CIK 0001610520). UBS reports in USD; values in USD bn (geography is reported only to one decimal in USD bn). GEOGRAPHY: the four regions are recorded; the 'Global' line (revenues not attributed to a region) was negative in 2025 (USD -0.4bn) and is left out of segments because a negative share cannot be shown, so the regions add to USD 49.9bn against the reported total of USD 49.6bn. LEADER: Sergio Ermotti (Group CEO since 2023, also 2011-2020) held 2,255,862 vested shares plus 675,066 unvested/at-risk shares (2,930,928 in total, including related parties) at 31 December 2025; shares records the vested figure. The table's 'potentially conferred voting rights' column shows 0.222%, which counts unvested shares and is a voting-rights measure, so it is not used as pctEconomic. No economic percentage is disclosed, so pctEconomic is null. HOLDERS: FMIA notifications measure % of 'the voting rights associated with the total share capital ... at the time of the respective disclosure notification'; with one share class this is equivalent to share of capital. Dates are the notification dates (BlackRock's is from 30 November 2023). Norges Bank (4.90% at year end) is left out because it disclosed a holding below 3% on 17 February 2026; NBIM's own file shows 2.9% at June 30, 2026 (owners lens). DTC (Cede & Co.) is registered with 7.69% but is a clearing nominee, not a beneficial owner. BUYBACKS: 3.00 = shares bought under the 2024 and 2025 share repurchase programs (acquisition cost USD 3,000m; the 2024 program concluded May 23, 2025 and the 2025 program November 20, 2025, with the shares intended for cancellation). Excluded: USD 2,365m of shares bought to hedge employee share-based compensation, and Investment Bank market-making. The cash-flow line 'Net movements in treasury shares and own equity derivative activity' (USD 5,178m outflow) is net and mixes these with market-making and derivatives, so it is not used. DIVIDENDS: USD 2,866m distributions paid on UBS Group AG shares. STOCK COMP: USD 1,095m total personnel expense for share-based equity-settled compensation excluding social security (Note 26 footnote 4); the statement of changes in equity credits USD 1,107m of share-based compensation expensed in the income statement.",
+  "researchedAt": "2026-11-24"
 }

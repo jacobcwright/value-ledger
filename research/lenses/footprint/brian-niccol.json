@@ -5,16 +5,16 @@
     "restaurants": {
       "label": "Company-owned restaurants",
       "unit": "count",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Chipotle restaurants the company owned and operated (excludes the three international licensed restaurants)."
+      "definition": "Chipotle restaurants the company owned and operated (excludes the 14 international partner-operated restaurants)."
     },
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Employees by work location as stated in the 10-K human capital section (excludes 1,328 contract workers)."
+      "definition": "Employees by work location as stated in the 10-K human capital section (excludes 1,233 contract workers)."
     }
   },
   "usStates": null,
@@ -23,28 +23,28 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "restaurants": 3644
+        "restaurants": 3938
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1 Business",
-        "quote": "As of December 31, 2024, we owned and operated 3,644 Chipotle restaurants throughout the United States (“U.S.”) and 82 international Chipotle restaurants."
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Business",
+        "quote": "As of December 31, 2025, we owned 3,938 Chipotle restaurants throughout the United States (\"U.S.\") and 104 international Chipotle restaurants."
       }
     },
     {
       "iso2": "US",
       "name": "United States",
       "values": {
-        "employees": 127820
+        "employees": 127116
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1 Human Capital",
-        "quote": "Of our employees, 127,820 worked in the United States, and 2,684 worked internationally across Canada, France, Germany, and the United Kingdom."
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Human Capital",
+        "quote": "Of our employees, 127,116 worked in the United States, and 3,185 worked internationally across Canada, France, Germany, and the United Kingdom."
       }
     }
   ],
@@ -53,14 +53,14 @@
       "name": "International",
       "countries": null,
       "values": {
-        "restaurants": 82
+        "restaurants": 104
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1 Business",
-        "quote": "As of December 31, 2024, we owned and operated 3,644 Chipotle restaurants throughout the United States (“U.S.”) and 82 international Chipotle restaurants."
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Business",
+        "quote": "As of December 31, 2025, we owned 3,938 Chipotle restaurants throughout the United States (\"U.S.\") and 104 international Chipotle restaurants."
       }
     },
     {
@@ -72,14 +72,14 @@
         "GB"
       ],
       "values": {
-        "employees": 2684
+        "employees": 3185
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1 Human Capital",
-        "quote": "Of our employees, 127,820 worked in the United States, and 2,684 worked internationally across Canada, France, Germany, and the United Kingdom."
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Human Capital",
+        "quote": "Of our employees, 127,116 worked in the United States, and 3,185 worked internationally across Canada, France, Germany, and the United Kingdom."
       }
     }
   ],
@@ -93,12 +93,12 @@
       "description": "Our main office is located at 610 Newport Center Drive, Suite 1100, Newport Beach.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2 Properties",
         "quote": "Our main office is located at 610 Newport Center Drive, Suite 1100, Newport Beach, CA 92660"
       }
     }
   ],
-  "notes": "No restaurant table by state or country appears in the FY2024 10-K, or in the FY2023, FY2022 and FY2019 10-Ks, which were also checked: Item 2 gives only the total (3,726 restaurants) and Item 1 splits them into 3,644 U.S. and 82 international company-owned restaurants, plus three international licensed restaurants (spelled out as 'three', so not recorded as a value). The Q4 2024 earnings release (8-K exhibit 99.1) also has no state breakdown; it lists the countries (U.S., Canada, U.K., France, Germany, Kuwait, UAE) without counts. So usStates is null. Employees: 127,820 in the U.S. and 2,684 internationally, a region the filing itself defines as Canada, France, Germany and the United Kingdom. The 82 international restaurants are not assigned to countries in the filing, so that region's countries list is null. Rows from different sentences of the 10-K are kept as separate rows, so the U.S. appears twice (restaurants, employees) with different metric keys.",
-  "researchedAt": "2026-11-23"
+  "notes": "No restaurant table by state or country appears in the FY2025 10-K (nor in the FY2024, FY2023, FY2022 and FY2019 10-Ks checked earlier): Item 2 gives only the total (4,042 restaurants owned and operated) and Item 1 splits them into 3,938 U.S. and 104 international company-owned restaurants, plus 14 international partner-operated restaurants (not recorded, as they are not company-owned). So usStates is null. Employees at Dec 31, 2025: 127,116 in the U.S. and 3,185 internationally, a region the filing itself defines as Canada, France, Germany and the United Kingdom (130,301 in total, plus 1,233 contract workers). The 104 international restaurants are not assigned to countries in the filing, so that region's countries list is null. Rows from different sentences of the 10-K are kept as separate rows, so the U.S. appears twice (restaurants, employees) with different metric keys.",
+  "researchedAt": "2026-11-24"
 }

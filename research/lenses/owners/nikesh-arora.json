@@ -2,48 +2,48 @@
   "id": "nikesh-arora",
   "company": "Palo Alto Networks",
   "nbim": {
-    "pct": 0.8,
-    "marketValueUSD": 0.958,
-    "asOf": "2024-12-31",
+    "pct": 1.22,
+    "marketValueUSD": 3.377,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"ibhox2d5li64\",\"cc\":\"US\",\"n\":\"Palo Alto Networks Inc\",\"a\":{\"e\":957698786,\"n\":10876920313},\"at\":0,\"o\":0.8,\"eq\":{\"vid\":\"PANW\",\"v\":0.8,\"s\":\"Technology\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"ibhox2d5li64\",\"cc\":\"US\",\"n\":\"Palo Alto Networks Inc\",\"a\":{\"e\":3377130950,\"n\":33418399312},\"at\":0,\"o\":1.22,\"eq\":{\"vid\":\"PANW\",\"v\":1.22,\"s\":\"Technology\"}}"
     }
   },
   "calpers": {
-    "shares": 1087682,
-    "asOf": "2024-12-31",
+    "shares": 1757922,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "PALO ALTO NETWORKS INC COM 697435105 197914617 1087682"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "PALO ALTO NETWORKS INC COM 697435105 698439990 1757922"
     },
     "derived": {
-      "pct": 0.164,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.214,
+      "method": "CalPERS shares ÷ shares outstanding (1,757,922 ÷ 821,000,000)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756725000010/panw-20250131.htm",
-          "label": "Form 10-Q for the quarter ended January 31, 2025, cover page",
-          "quote": "The number of shares outstanding of the registrant's common stock as of February 7, 2025 was 662.1 million."
+          "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000033/panw-20261031.htm",
+          "label": "Form 10-Q for the quarter ended October 31, 2026, cover page",
+          "quote": "The number of shares outstanding of the registrant's common stock as of November 11, 2026 was 821 million."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 502,
-    "asOf": "2024-08-19",
+    "count": 585,
+    "asOf": "2026-08-31",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000029/panw-20240731.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of August 19, 2024, there were 502 holders of record of our common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000023/panw-20260731.htm",
+      "label": "FY2026 Form 10-K, Item 5",
+      "quote": "As of August 31, 2026, there were 585 holders of record of our common stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Palo Alto Networks Inc;Technology;10876920313;957698786;0.8%;0.8%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Palo Alto's FY2024 10-K cover (325.6 million shares, August 19, 2024) predates its two-for-one stock split of December 12, 2024, while CalPERS's December 31, 2024 holding is post-split, so the denominator is the cover page of the next post-split filing, the 10-Q for the quarter ended January 31, 2025 (rounded to 662.1 million).",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the Q1 FY2027 10-Q cover count at November 11, 2026 (rounded to 821 million on the cover), the same count used in the marketcap lens.",
+  "researchedAt": "2026-11-24"
 }

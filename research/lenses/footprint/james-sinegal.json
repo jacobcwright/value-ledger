@@ -5,21 +5,21 @@
     "warehouses": {
       "label": "Warehouses",
       "unit": "count",
-      "period": "as of Dec 31, 2024",
+      "period": "projected as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Costco membership warehouses by state, from the location pages of the 2024 Annual Report ('897 locations as of December 31, 2024'), a later date than the fiscal year-end count."
+      "definition": "Costco membership warehouses by state, from the location pages of the 2025 Annual Report ('923 locations projected as of December 31, 2025'), a later date than the FY2025 fiscal year-end and earlier than the FY2026 year-end (Aug 30, 2026)."
     },
     "warehousesFY": {
       "label": "Warehouses",
       "unit": "count",
-      "period": "as of Sep 1, 2024 (fiscal year-end)",
+      "period": "as of Aug 30, 2026 (fiscal year-end)",
       "tier": "filing",
-      "definition": "Membership warehouses operated at fiscal year-end by country (10-K: 'Costco operated 890 warehouses worldwide'). The U.S. figure includes Puerto Rico."
+      "definition": "Membership warehouses operated at fiscal year-end by country (10-K: 'Costco operated 939 warehouses worldwide'). The U.S. figure includes Puerto Rico."
     },
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "end of fiscal 2024",
+      "period": "end of fiscal 2026",
       "tier": "filing",
       "definition": "Total number of employees by segment (10-K Item 1). The United States segment includes Puerto Rico."
     }
@@ -33,8 +33,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … ALASKA – 5"
       }
     },
@@ -46,8 +46,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … ALABAMA – 5"
       }
     },
@@ -59,8 +59,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … ARKANSAS – 1"
       }
     },
@@ -72,22 +72,22 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … ARIZONA – 20"
       }
     },
     {
       "state": "CA",
       "values": {
-        "warehouses": 140
+        "warehouses": 142
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
-        "quote": "UNITED STATES … CALIFORNIA – 140"
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
+        "quote": "UNITED STATES … CALIFORNIA – 142"
       }
     },
     {
@@ -98,8 +98,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … COLORADO – 16"
       }
     },
@@ -111,8 +111,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … CONNECTICUT – 8"
       }
     },
@@ -124,8 +124,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … WASHINGTON, D.C. – 1"
       }
     },
@@ -137,22 +137,22 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … DELAWARE – 1"
       }
     },
     {
       "state": "FL",
       "values": {
-        "warehouses": 33
+        "warehouses": 35
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
-        "quote": "UNITED STATES … FLORIDA – 33"
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
+        "quote": "UNITED STATES … FLORIDA – 35"
       }
     },
     {
@@ -163,8 +163,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … GEORGIA – 17"
       }
     },
@@ -176,8 +176,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … HAWAII – 7"
       }
     },
@@ -189,8 +189,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … IOWA – 4"
       }
     },
@@ -202,22 +202,22 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … IDAHO – 7"
       }
     },
     {
       "state": "IL",
       "values": {
-        "warehouses": 23
+        "warehouses": 24
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
-        "quote": "UNITED STATES … ILLINOIS – 23"
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
+        "quote": "UNITED STATES … ILLINOIS – 24"
       }
     },
     {
@@ -228,8 +228,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … INDIANA – 9"
       }
     },
@@ -241,8 +241,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … KANSAS – 3"
       }
     },
@@ -254,8 +254,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … KENTUCKY – 4"
       }
     },
@@ -267,22 +267,22 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … LOUISIANA – 4"
       }
     },
     {
       "state": "MA",
       "values": {
-        "warehouses": 6
+        "warehouses": 7
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
-        "quote": "UNITED STATES … MASSACHUSETTS – 6"
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
+        "quote": "UNITED STATES … MASSACHUSETTS – 7"
       }
     },
     {
@@ -293,8 +293,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … MARYLAND – 11"
       }
     },
@@ -306,22 +306,22 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … MAINE – 1"
       }
     },
     {
       "state": "MI",
       "values": {
-        "warehouses": 17
+        "warehouses": 19
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
-        "quote": "UNITED STATES … MICHIGAN – 17"
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
+        "quote": "UNITED STATES … MICHIGAN – 19"
       }
     },
     {
@@ -332,8 +332,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … MINNESOTA – 14"
       }
     },
@@ -345,8 +345,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … MISSOURI – 9"
       }
     },
@@ -358,8 +358,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … MISSISSIPPI – 1"
       }
     },
@@ -371,8 +371,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … MONTANA – 5"
       }
     },
@@ -384,8 +384,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … NORTH CAROLINA – 10"
       }
     },
@@ -397,8 +397,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … NORTH DAKOTA – 2"
       }
     },
@@ -410,8 +410,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … NEBRASKA – 4"
       }
     },
@@ -423,8 +423,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … NEW HAMPSHIRE – 1"
       }
     },
@@ -436,8 +436,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … NEW JERSEY – 21"
       }
     },
@@ -449,22 +449,22 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … NEW MEXICO – 3"
       }
     },
     {
       "state": "NV",
       "values": {
-        "warehouses": 8
+        "warehouses": 9
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
-        "quote": "UNITED STATES … NEVADA – 8"
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
+        "quote": "UNITED STATES … NEVADA – 9"
       }
     },
     {
@@ -475,8 +475,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … NEW YORK – 19"
       }
     },
@@ -488,8 +488,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … OHIO – 13"
       }
     },
@@ -501,8 +501,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … OKLAHOMA – 4"
       }
     },
@@ -514,35 +514,35 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … OREGON – 13"
       }
     },
     {
       "state": "PA",
       "values": {
-        "warehouses": 11
+        "warehouses": 12
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
-        "quote": "UNITED STATES … PENNSYLVANIA – 11"
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
+        "quote": "UNITED STATES … PENNSYLVANIA – 12"
       }
     },
     {
       "state": "SC",
       "values": {
-        "warehouses": 6
+        "warehouses": 7
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
-        "quote": "UNITED STATES … SOUTH CAROLINA – 6"
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
+        "quote": "UNITED STATES … SOUTH CAROLINA – 7"
       }
     },
     {
@@ -553,8 +553,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … SOUTH DAKOTA – 1"
       }
     },
@@ -566,22 +566,22 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … TENNESSEE – 8"
       }
     },
     {
       "state": "TX",
       "values": {
-        "warehouses": 40
+        "warehouses": 44
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
-        "quote": "UNITED STATES … TEXAS – 40"
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
+        "quote": "UNITED STATES … TEXAS – 44"
       }
     },
     {
@@ -592,8 +592,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … UTAH – 14"
       }
     },
@@ -605,8 +605,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … VIRGINIA – 17"
       }
     },
@@ -618,22 +618,22 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … VERMONT – 1"
       }
     },
     {
       "state": "WA",
       "values": {
-        "warehouses": 34
+        "warehouses": 35
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
-        "quote": "UNITED STATES … WASHINGTON – 34"
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
+        "quote": "UNITED STATES … WASHINGTON – 35"
       }
     },
     {
@@ -644,8 +644,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf",
-        "label": "Costco 2024 Annual Report, warehouse locations as of December 31, 2024",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf",
+        "label": "Costco 2025 Annual Report, warehouse locations projected as of December 31, 2025",
         "quote": "UNITED STATES … WISCONSIN – 11"
       }
     }
@@ -655,58 +655,58 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "warehousesFY": 614,
-        "employees": 219000
+        "warehousesFY": 647,
+        "employees": 232000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 1 and Item 1 (Employees)",
-        "quote": "614 in the United States (U.S.) located in 47 states, Washington, D.C., and Puerto Rico … United States | 219,000 | 208,000 | 202,000"
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 1 and Item 1 (Employees)",
+        "quote": "647 in the United States (U.S.) located in 47 states, Washington, D.C., and Puerto Rico … The total number of employees by segment was: 2026 2025 2024 … United States 232,000 223,000 219,000"
       }
     },
     {
       "iso2": "CA",
       "name": "Canada",
       "values": {
-        "warehousesFY": 108,
-        "employees": 53000
+        "warehousesFY": 115,
+        "employees": 58000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 1 and Item 1 (Employees)",
-        "quote": "108 in Canada, 40 in Mexico … Canada | 53,000 | 51,000 | 50,000"
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 1 and Item 1 (Employees)",
+        "quote": "115 in Canada, 43 in Mexico … The total number of employees by segment was: 2026 2025 2024 … Canada 58,000 55,000 53,000"
       }
     },
     {
       "iso2": "MX",
       "name": "Mexico",
       "values": {
-        "warehousesFY": 40
+        "warehousesFY": 43
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 1 (Description of Business)",
-        "quote": "108 in Canada, 40 in Mexico, 35 in Japan"
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 1 (Description of Business)",
+        "quote": "115 in Canada, 43 in Mexico, 37 in Japan"
       }
     },
     {
       "iso2": "JP",
       "name": "Japan",
       "values": {
-        "warehousesFY": 35
+        "warehousesFY": 37
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 1 (Description of Business)",
-        "quote": "40 in Mexico, 35 in Japan, 29 in the U.K."
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 1 (Description of Business)",
+        "quote": "43 in Mexico, 37 in Japan, 29 in the U.K."
       }
     },
     {
@@ -718,23 +718,23 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 1 (Description of Business)",
-        "quote": "35 in Japan, 29 in the U.K., 19 in Korea"
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 1 (Description of Business)",
+        "quote": "37 in Japan, 29 in the U.K., 20 in Korea"
       }
     },
     {
       "iso2": "KR",
       "name": "South Korea",
       "values": {
-        "warehousesFY": 19
+        "warehousesFY": 20
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 1 (Description of Business)",
-        "quote": "29 in the U.K., 19 in Korea, 15 in Australia"
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 1 (Description of Business)",
+        "quote": "29 in the U.K., 20 in Korea, 15 in Australia"
       }
     },
     {
@@ -746,9 +746,9 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 1 (Description of Business)",
-        "quote": "19 in Korea, 15 in Australia, 14 in Taiwan"
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 1 (Description of Business)",
+        "quote": "20 in Korea, 15 in Australia, 14 in Taiwan"
       }
     },
     {
@@ -760,8 +760,8 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 1 (Description of Business)",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 1 (Description of Business)",
         "quote": "15 in Australia, 14 in Taiwan, seven in China"
       }
     },
@@ -774,37 +774,37 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 1 (Description of Business)",
-        "quote": "14 in Taiwan, seven [7] in China, four in Spain"
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 1 (Description of Business)",
+        "quote": "14 in Taiwan, seven [7] in China, five in Spain"
       }
     },
     {
       "iso2": "ES",
       "name": "Spain",
       "values": {
-        "warehousesFY": 4
+        "warehousesFY": 5
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 1 (Description of Business)",
-        "quote": "seven in China, four [4] in Spain, two in France"
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 1 (Description of Business)",
+        "quote": "seven in China, five [5] in Spain, three in France"
       }
     },
     {
       "iso2": "FR",
       "name": "France",
       "values": {
-        "warehousesFY": 2
+        "warehousesFY": 3
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 1 (Description of Business)",
-        "quote": "four in Spain, two [2] in France, and one each in Iceland, New Zealand, and Sweden"
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 1 (Description of Business)",
+        "quote": "five in Spain, three [3] in France, two in Sweden"
       }
     },
     {
@@ -816,9 +816,9 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 1 (Description of Business)",
-        "quote": "two in France, and one each [1] in Iceland, New Zealand, and Sweden"
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 1 (Description of Business)",
+        "quote": "two in Sweden, and one each [1] in Iceland and New Zealand"
       }
     },
     {
@@ -830,23 +830,23 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 1 (Description of Business)",
-        "quote": "two in France, and one each [1] in Iceland, New Zealand, and Sweden"
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 1 (Description of Business)",
+        "quote": "two in Sweden, and one each [1] in Iceland and New Zealand"
       }
     },
     {
       "iso2": "SE",
       "name": "Sweden",
       "values": {
-        "warehousesFY": 1
+        "warehousesFY": 2
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Note 1 (Description of Business)",
-        "quote": "two in France, and one each [1] in Iceland, New Zealand, and Sweden"
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 1 (Description of Business)",
+        "quote": "three in France, two [2] in Sweden, and one each in Iceland and New Zealand"
       }
     }
   ],
@@ -855,14 +855,14 @@
       "name": "Other International",
       "countries": null,
       "values": {
-        "employees": 61000
+        "employees": 65000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, Item 1 (Employees)",
-        "quote": "The total number of employees by segment was: … Other International | 61,000 | 57,000 | 52,000"
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Item 1 (Employees)",
+        "quote": "The total number of employees by segment was: 2026 2025 2024 … Other International 65,000 63,000 61,000"
       }
     }
   ],
@@ -876,12 +876,12 @@
       "description": "Corporate headquarters, 999 Lake Drive, Issaquah, WA 98027.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, cover page",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, cover page",
         "quote": "999 Lake Drive, Issaquah, WA 98027"
       }
     }
   ],
-  "notes": "usStates: warehouse counts by state from the location pages of Costco's 2024 Annual Report (as of December 31, 2024, 897 locations: 617 in the United States and Puerto Rico); 47 states plus DC, and Puerto Rico (4) is left out of usStates because it is not a state. States with no warehouse (e.g. Rhode Island, West Virginia, Wyoming) have no row. The 10-K itself gives warehouses only by country, at fiscal year-end (Sep 1, 2024: 890), so country rows use the 10-K count and differ slightly from the annual report's later map (e.g. Canada 109, Mexico 41, Japan 36, Spain 5). Employees are by segment only (U.S., Canada, Other International); the 10-K does not list which countries 'Other International' covers, so the region has no country list. The 10-K says California 'comprised 27% of U.S. net sales in 2024'; revenue by geography is in the records and not repeated. Sites: only the home office is described in the filing; depots and plants are not itemized.",
-  "researchedAt": "2026-11-23"
+  "notes": "usStates: warehouse counts by state from the location pages of Costco's 2025 Annual Report, the newest edition (checked 2026-11-24; the 2026 Annual Report is not yet published), which shows '923 locations projected as of December 31, 2025' (633 in the United States and Puerto Rico). The page itself says 'projected', so the counts include openings scheduled through that date. 47 states plus DC; Puerto Rico (4) is left out of usStates because it is not a state, and states with no warehouse (e.g. Rhode Island, West Virginia, Wyoming) have no row. The FY2026 10-K itself gives warehouses only by country, at fiscal year-end (Aug 30, 2026: 939; Item 2 splits them only into U.S. and Puerto Rico 647, Canada 115 and Other International 177), so country rows use the 10-K count and are later than the state map (e.g. U.S. 647 vs 633). Employees are by segment only (U.S. 232,000, Canada 58,000, Other International 65,000; total 355,000); the 10-K does not list which countries 'Other International' covers, so the region has no country list. The 10-K says California 'comprised 26% of U.S. net sales in 2026'; revenue by geography is in the records and not repeated. Sites: only the home office is described in the filing; depots and plants are not itemized.",
+  "researchedAt": "2026-11-24"
 }

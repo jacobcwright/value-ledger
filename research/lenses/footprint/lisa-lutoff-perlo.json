@@ -5,28 +5,28 @@
     "shoresideEmployees": {
       "label": "Shoreside employees",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
       "definition": "Shoreside operations employees (full time and part-time) by U.S.-based vs international, 10-K workforce table."
     },
     "shipboardEmployees": {
       "label": "Shipboard employees",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
       "definition": "Shipboard employees, 10-K workforce table (all classed as international)."
     },
     "destinationEmployees": {
       "label": "Private destination employees",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Employees at private destinations (CocoCay, Labadee and Galapagos), 10-K workforce table."
+      "definition": "Employees at private destinations (the Perfect Day and Royal Beach Club Collections, and Labadee), 10-K workforce table."
     },
     "shoresideShare": {
       "label": "Share of shoreside workforce based in country",
       "unit": "percent",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
       "definition": "Share of the shoreside workforce based in each country, 10-K Human Capital."
     }
@@ -37,43 +37,43 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "shoresideEmployees": 4250,
-        "shoresideShare": 47
+        "shoresideEmployees": 4450,
+        "shoresideShare": 45
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1, Human Capital",
-        "quote": "Shoreside Operations(1) | 4,250 | 4,850 … Our shoreside workforce is primarily based out of the U.S. (47%)"
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1, Human Capital",
+        "quote": "Shoreside Operations (1) | 4,450 | 5,450 … Our shoreside workforce is primarily based out of the U.S. (45%), Philippines (37%), Mexico (5%), and U.K. (4%)."
       }
     },
     {
       "iso2": "PH",
       "name": "Philippines",
       "values": {
-        "shoresideShare": 34
+        "shoresideShare": 37
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1, Human Capital",
-        "quote": "Our shoreside workforce is primarily based out of the U.S. (47%), Philippines (34%), Mexico (6%), and U.K. (4%)."
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1, Human Capital",
+        "quote": "Our shoreside workforce is primarily based out of the U.S. (45%), Philippines (37%), Mexico (5%), and U.K. (4%)."
       }
     },
     {
       "iso2": "MX",
       "name": "Mexico",
       "values": {
-        "shoresideShare": 6
+        "shoresideShare": 5
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1, Human Capital",
-        "quote": "Our shoreside workforce is primarily based out of the U.S. (47%), Philippines (34%), Mexico (6%), and U.K. (4%)."
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1, Human Capital",
+        "quote": "Our shoreside workforce is primarily based out of the U.S. (45%), Philippines (37%), Mexico (5%), and U.K. (4%)."
       }
     },
     {
@@ -85,9 +85,9 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1, Human Capital",
-        "quote": "Our shoreside workforce is primarily based out of the U.S. (47%), Philippines (34%), Mexico (6%), and U.K. (4%)."
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1, Human Capital",
+        "quote": "Our shoreside workforce is primarily based out of the U.S. (45%), Philippines (37%), Mexico (5%), and U.K. (4%)."
       }
     }
   ],
@@ -96,16 +96,16 @@
       "name": "International (outside the U.S.)",
       "countries": null,
       "values": {
-        "shoresideEmployees": 4850,
-        "shipboardEmployees": 95150,
-        "destinationEmployees": 1750
+        "shoresideEmployees": 5450,
+        "shipboardEmployees": 96500,
+        "destinationEmployees": 1600
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1, Human Capital",
-        "quote": "Shoreside Operations(1) | 4,250 | 4,850 | Shipboard Employees | — | 95,150 | Private Destinations (2) | — | 1,750"
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1, Human Capital",
+        "quote": "Shoreside Operations (1) | 4,450 | 5,450 | Shipboard Employees | — | 96,500 | Private Destinations (2) | — | 1,600"
       }
     }
   ],
@@ -119,8 +119,8 @@
       "description": "Our principal executive office and principal shoreside operations are located in leased office buildings at the Port of Miami, Florida.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
         "quote": "Our principal executive office and principal shoreside operations are located in leased office buildings at the Port of Miami, Florida."
       }
     },
@@ -129,12 +129,12 @@
       "place": "CocoCay, The Bahamas",
       "iso2": "BS",
       "type": "private destination",
-      "description": "An island we own in the Bahamas; includes a water park, zip line, pools and, since January 2024, the adults-only Hideaway Beach",
+      "description": "An island we own in the Bahamas that we call Perfect Day at CocoCay",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
-        "quote": "We also operate two private destinations which we utilize as ports-of-call on certain itineraries: (i) an island we own in the Bahamas that we call CocoCay; and (ii) Labadee, a secluded peninsula that we lease on the north coast of Haiti."
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "We also operate three exclusive private destinations which we utilize as ports-of-call on certain itineraries: (i) an island we own in the Bahamas that we call Perfect Day at CocoCay; (ii) Labadee, a secluded peninsula that we lease on the north coast of Haiti; and (iii) Paradise Island, the first Royal Beach Club in the Bahamas, which opened in December 2025."
       }
     },
     {
@@ -145,12 +145,25 @@
       "description": "A secluded peninsula that we lease on the north coast of Haiti",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
-        "quote": "We also operate two private destinations which we utilize as ports-of-call on certain itineraries: (i) an island we own in the Bahamas that we call CocoCay; and (ii) Labadee, a secluded peninsula that we lease on the north coast of Haiti."
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "We also operate three exclusive private destinations which we utilize as ports-of-call on certain itineraries: (i) an island we own in the Bahamas that we call Perfect Day at CocoCay; (ii) Labadee, a secluded peninsula that we lease on the north coast of Haiti; and (iii) Paradise Island, the first Royal Beach Club in the Bahamas, which opened in December 2025."
+      }
+    },
+    {
+      "name": "Royal Beach Club Paradise Island",
+      "place": "Paradise Island, The Bahamas",
+      "iso2": "BS",
+      "type": "private destination",
+      "description": "Paradise Island, the first Royal Beach Club in the Bahamas, which opened in December 2025",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "We also operate three exclusive private destinations which we utilize as ports-of-call on certain itineraries: (i) an island we own in the Bahamas that we call Perfect Day at CocoCay; (ii) Labadee, a secluded peninsula that we lease on the north coast of Haiti; and (iii) Paradise Island, the first Royal Beach Club in the Bahamas, which opened in December 2025."
       }
     }
   ],
-  "notes": "Workforce from the FY2024 10-K (Dec 31, 2024): ~106,000 employees, of which 4,250 shoreside staff are U.S.-based and everyone else (4,850 shoreside, 95,150 shipboard, 1,750 at private destinations) is international, recorded as one region. Country shares are of the shoreside workforce (U.S. 47%, Philippines 34%, Mexico 6%, U.K. 4%). The 10-K also says the shipboard crew comes mostly from the Philippines (33%), Indonesia (17%) and India (15%); that is crew nationality, not where people work, so it is kept out of the rows. The 10-K describes two operating private destinations (CocoCay, owned; Labadee, leased); planned ones not open in FY2024 (Royal Beach Club Paradise Island, Nassau, expected 2025; Royal Beach Club Cozumel, 2026; Perfect Day Mexico, 2027; a Silversea hotel in Puerto Williams, Chile) and terminal interests (20% of the PortMiami terminal entity; iCON partnership terminals in Italy and Spain) are left out of sites. No state data.",
-  "researchedAt": "2026-11-23"
+  "notes": "Workforce from the FY2025 10-K (Dec 31, 2025): approximately 108,000 employees, of which 4,450 shoreside staff are U.S.-based and everyone else (5,450 shoreside, 96,500 shipboard, 1,600 at private destinations) is international, recorded as one region. Country shares are of the shoreside workforce (U.S. 45%, Philippines 37%, Mexico 5%, U.K. 4%). The 10-K also says the shipboard crew comes mostly from the Philippines (34%), Indonesia (17%) and India (16%); that is crew nationality, not where people work, so it is kept out of the rows. The FY2025 10-K describes three operating private destinations (Perfect Day at CocoCay, owned; Labadee, leased; and Royal Beach Club Paradise Island, opened December 2025), all listed as sites. Terminal interests and destinations not yet open at Dec 31, 2025 are left out of sites. Sites re-sourced to the FY2025 10-K. No state data.",
+  "researchedAt": "2026-11-24"
 }

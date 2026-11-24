@@ -1,0 +1,31 @@
+{
+  "id": "anthony-tan",
+  "company": "Grab Holdings",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 12012,
+    "asOf": "2025-12-31",
+    "basis": "full-time employees (excluding 1,242 fixed-term contract employees and 3,956 temporary agency workers)",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+      "label": "FY2025 Form 20-F, Item 6.D Employees",
+      "quote": "The following table indicates the distribution of our full-time employees by function a s of December 31, 2025: ... Total (1) 12,012"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Staff costs",
+    "value": 1.046,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+      "label": "FY2025 Form 20-F, Note 20 Expenses (in $ millions)",
+      "quote": "Total cost of revenue, sales and marketing expenses, general and administrative expenses and research and development expenses include expenses of the following nature: 2025 2024 2023 (in $ millions) $ $ $ Staff costs 1,046 1,029 1,113"
+    }
+  },
+  "notes": "Employees: full-time employees at December 31, 2025, including 865 at Everrise (a Malaysian supermarket chain acquired in March 2025) and 22 at Infermove; the 20-F also reports 1,242 fixed-term contract employees and 3,956 temporary agency workers, not counted. Payroll: Note 20's 'Staff costs' across cost of revenue, sales and marketing, G&A and R&D, as reported; whether it includes share-based payments is not stated in that table. Driver- and merchant-partners are not employees and are not in either figure.",
+  "researchedAt": "2026-11-24"
+}

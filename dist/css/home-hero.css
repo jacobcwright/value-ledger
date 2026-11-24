@@ -78,3 +78,8 @@
 @media (prefers-reduced-motion:reduce) {
   .top nav a,.top nav a::after {transition:none}
 }
+
+/* The business-only disclaimer under the key line: one quiet sentence, never louder than the figures above it. */
+.hero-note {max-width:60ch;margin:var(--space-3) auto 0;font:400 var(--text-sm)/1.5 var(--sans);color:var(--muted);text-wrap:balance}
+.hero-note a {color:inherit;text-decoration:underline;text-underline-offset:2px}
+.hero-note a:hover {color:var(--ink)}

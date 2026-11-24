@@ -1,0 +1,22 @@
+{
+  "id": "charles-r-schwab",
+  "company": "Charles Schwab",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 1726007705,
+      "sharesAsOf": "2026-10-30",
+      "pricedAs": "SCHW",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/schw-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "1,726,007,705 shares of $.01 par value Common Stock outstanding as of October 30, 2026"
+      }
+    }
+  ],
+  "notes": "Common stock only, listed on the NYSE as SCHW; the nonvoting common stock was eliminated in February 2025. Schwab's several series of preferred stock (some listed as depositary shares) are fixed-claim securities, not common equity, and are left out.",
+  "researchedAt": "2026-11-24"
+}

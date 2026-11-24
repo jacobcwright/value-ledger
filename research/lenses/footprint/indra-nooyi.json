@@ -5,9 +5,9 @@
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "as of December 28, 2024",
+      "period": "as of December 27, 2025",
       "tier": "filing",
-      "definition": "People employed within the United States, per the 2024 Form 10-K (approximately)."
+      "definition": "People employed within the United States, per the 2025 Form 10-K (approximately)."
     }
   },
   "usStates": null,
@@ -16,14 +16,14 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "employees": 134000
+        "employees": 125000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-        "label": "PepsiCo 2024 Form 10-K, Item 1 Human Capital",
-        "quote": "We employed approximately 319,000 people worldwide as of December 28, 2024, including approximately 134,000 people within the United States."
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+        "label": "PepsiCo 2025 Form 10-K, Item 1 Human Capital",
+        "quote": "We employed approximately 306,000 people worldwide as of December 27, 2025, including approximately 125,000 people within the United States."
       }
     }
   ],
@@ -37,37 +37,37 @@
       "description": "Owned principal executive office; with Plano, Texas, PepsiCo's most significant corporate properties.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+        "label": "PepsiCo 2025 Form 10-K, Item 2 Properties",
         "quote": "Our principal executive office located in Purchase, New York and our facilities located in Plano, Texas, all of which we own, are our most significant corporate properties."
       },
       "state": "NY"
     },
     {
-      "name": "Frito-Lay North America R&D facility",
+      "name": "PepsiCo Foods North America R&D facility",
       "place": "Plano, TX",
       "iso2": "US",
       "type": "research",
-      "description": "Owned research and development facility (FLNA).",
+      "description": "Owned research and development facility (PFNA).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
-        "quote": "FLNA | Research and development facility | Plano, Texas | Owned"
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+        "label": "PepsiCo 2025 Form 10-K, Item 2 Properties",
+        "quote": "PFNA | Research and development facility | Plano, Texas | Owned"
       },
       "state": "TX"
     },
     {
-      "name": "Quaker convenient food plant",
+      "name": "Convenient food plant",
       "place": "Cedar Rapids, IA",
       "iso2": "US",
       "type": "plant",
-      "description": "Owned convenient food plant (QFNA).",
+      "description": "Owned convenient food plant (PFNA).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
-        "quote": "QFNA | Convenient food plant | Cedar Rapids, Iowa | Owned"
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+        "label": "PepsiCo 2025 Form 10-K, Item 2 Properties",
+        "quote": "PFNA | Convenient food plant | Cedar Rapids, Iowa | Owned"
       },
       "state": "IA"
     },
@@ -79,8 +79,8 @@
       "description": "Owned research and development facility (PBNA).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+        "label": "PepsiCo 2025 Form 10-K, Item 2 Properties",
         "quote": "PBNA | Research and development facility | Valhalla, New York | Owned"
       },
       "state": "NY"
@@ -93,8 +93,8 @@
       "description": "Owned concentrate plant (PBNA).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+        "label": "PepsiCo 2025 Form 10-K, Item 2 Properties",
         "quote": "PBNA | Concentrate plant | Arlington, Texas | Owned"
       },
       "state": "TX"
@@ -104,12 +104,12 @@
       "place": "Celaya, Mexico",
       "iso2": "MX",
       "type": "plant",
-      "description": "Owned convenient food plant (LatAm).",
+      "description": "Owned convenient food plant (LatAm Foods).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
-        "quote": "LatAm | Convenient food plant | Celaya, Mexico | Owned"
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+        "label": "PepsiCo 2025 Form 10-K, Item 2 Properties",
+        "quote": "LatAm Foods | Convenient food plant | Celaya, Mexico | Owned"
       }
     },
     {
@@ -117,38 +117,12 @@
       "place": "Leicester, United Kingdom",
       "iso2": "GB",
       "type": "plant",
-      "description": "Owned convenient food plant on leased land (Europe).",
+      "description": "Owned convenient food plant on leased land (EMEA).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
-        "quote": "Europe | Convenient food plant | Leicester, United Kingdom | Owned (a)"
-      }
-    },
-    {
-      "name": "Convenient food plant",
-      "place": "Shanghai, China",
-      "iso2": "CN",
-      "type": "plant",
-      "description": "Owned convenient food plant on leased land (APAC).",
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
-        "quote": "APAC | Convenient food plant | Shanghai, China | Owned (a)"
-      }
-    },
-    {
-      "name": "Convenient food plant",
-      "place": "Riyadh, Saudi Arabia",
-      "iso2": "SA",
-      "type": "plant",
-      "description": "Owned convenient food plant on leased land (AMESA).",
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
-        "quote": "AMESA | Convenient food plant | Riyadh, Saudi Arabia | Owned (a)"
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+        "label": "PepsiCo 2025 Form 10-K, Item 2 Properties",
+        "quote": "EMEA | Convenient food plant | Leicester, United Kingdom | Owned (a)"
       }
     },
     {
@@ -156,12 +130,12 @@
       "place": "Cork, Ireland",
       "iso2": "IE",
       "type": "plant",
-      "description": "Two owned concentrate plants serving PBNA, Europe and AMESA.",
+      "description": "Two owned concentrate plants serving PBNA, IB Franchise and EMEA.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
-        "quote": "PBNA, Europe, AMESA | Two concentrate plants | Cork, Ireland | Owned"
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+        "label": "PepsiCo 2025 Form 10-K, Item 2 Properties",
+        "quote": "PBNA, IB Franchise, EMEA | Two concentrate plants | Cork, Ireland | Owned"
       }
     },
     {
@@ -169,12 +143,12 @@
       "place": "Mexico City, Mexico",
       "iso2": "MX",
       "type": "office",
-      "description": "Leased shared service center for FLNA, QFNA, PBNA, LatAm and Corporate.",
+      "description": "Leased shared service center for all segments.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
-        "quote": "FLNA, QFNA, PBNA, LatAm, Corporate | Shared service center | Mexico City, Mexico | Leased"
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+        "label": "PepsiCo 2025 Form 10-K, Item 2 Properties",
+        "quote": "All segments | Shared service center | Mexico City, Mexico | Leased"
       }
     },
     {
@@ -182,15 +156,15 @@
       "place": "Hyderabad, India",
       "iso2": "IN",
       "type": "office",
-      "description": "Leased shared service center for all divisions.",
+      "description": "Leased shared service center for all segments.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
-        "quote": "All divisions | Shared service center | Hyderabad, India | Leased"
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+        "label": "PepsiCo 2025 Form 10-K, Item 2 Properties",
+        "quote": "All segments | Shared service center | Hyderabad, India | Leased"
       }
     }
   ],
-  "notes": "No state rows. pepsico.com hosts a 2024 U.S. economic impact page (pepsico.com/about/economic-impact) and a PDF ('PepsiCo_2024_US-impact.pdf') that web search describes as an Oxford Economics study with state-level results; neither could be read, because pepsico.com's Imperva bot protection returned 403 / 'Access denied, Error 15' to curl, WebFetch and a headless browser on 2026-11-23. Its contents are unverified and nothing from it is recorded; a run from a normal browser may be able to add a company-commissioned state set. The 10-K gives ~319,000 employees with ~134,000 in the U.S. (US country row) and no other country or state split. Item 2 lists significant properties by division without counts by state or country; 12 of its 18 rows are used as sites (Russia plants, Israel, Vallejo, Colonia and Singapore omitted).",
-  "researchedAt": "2026-11-23"
+  "notes": "No state rows. pepsico.com hosts a 2024 U.S. economic impact page (pepsico.com/about/economic-impact) and a PDF ('PepsiCo_2024_US-impact.pdf') that web search describes as an Oxford Economics study with state-level results; it could not be read (pepsico.com's bot protection returned 403 to curl, WebFetch and a headless browser on 2026-11-23, and to curl and WebFetch again on 2026-11-24), so neither its contents nor whether a newer edition exists could be checked, and nothing from it is recorded. The 2025 10-K gives ~306,000 employees with ~125,000 in the U.S. as of Dec 27, 2025 (US country row) and no other country or state split. Item 2 now lists significant properties under the new segments (PFNA, PBNA, IB Franchise, EMEA, LatAm Foods) in 15 rows without counts by state or country; 10 are used as sites (Russia plants, Lehavim (Israel), Vallejo, Colonia and Singapore omitted, as before). The Shanghai and Riyadh plants used last year are no longer in the table and were removed.",
+  "researchedAt": "2026-11-24"
 }

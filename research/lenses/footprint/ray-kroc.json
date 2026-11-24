@@ -5,9 +5,9 @@
     "restaurants": {
       "label": "McDonald's restaurants (systemwide)",
       "unit": "count",
-      "period": "at year-end 2024",
+      "period": "at year-end 2025",
       "tier": "company-published",
-      "definition": "McDonald's Systemwide Restaurants at year-end: restaurants owned and operated by the Company and by franchisees, developmental licensees and affiliates (43,477 total)."
+      "definition": "McDonald's Systemwide Restaurants at year-end: restaurants owned and operated by the Company and by franchisees, developmental licensees and affiliates (45,356 total)."
     }
   },
   "usStates": null,
@@ -16,112 +16,112 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "restaurants": 13557
+        "restaurants": 13706
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] United States(a) 13,557 13,457"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] United States(a) 13,706 13,557"
       }
     },
     {
       "iso2": "AU",
       "name": "Australia",
       "values": {
-        "restaurants": 1068
+        "restaurants": 1092
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Australia (b) 1,068 1,049"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Australia(b) 1,092 1,068"
       }
     },
     {
       "iso2": "AT",
       "name": "Austria",
       "values": {
-        "restaurants": 206
+        "restaurants": 212
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Austria 206 199"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Austria 212 206"
       }
     },
     {
       "iso2": "BE",
       "name": "Belgium",
       "values": {
-        "restaurants": 119
+        "restaurants": 128
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Belgium 119 111"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Belgium 128 119"
       }
     },
     {
       "iso2": "CA",
       "name": "Canada",
       "values": {
-        "restaurants": 1489
+        "restaurants": 1520
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Canada 1,489 1,466"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Canada 1,520 1,489"
       }
     },
     {
       "iso2": "CZ",
       "name": "Czech Republic",
       "values": {
-        "restaurants": 128
+        "restaurants": 140
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Czech Republic 128 119"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Czech Republic 140 128"
       }
     },
     {
       "iso2": "FR",
       "name": "France",
       "values": {
-        "restaurants": 1589
+        "restaurants": 1630
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] France (c) 1,589 1,560"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] France(c) 1,630 1,589"
       }
     },
     {
       "iso2": "DE",
       "name": "Germany",
       "values": {
-        "restaurants": 1367
+        "restaurants": 1382
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Germany 1,367 1,385"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Germany 1,382 1,367"
       }
     },
     {
@@ -133,415 +133,415 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Ireland 95 95"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Ireland 95 95"
       }
     },
     {
       "iso2": "IT",
       "name": "Italy",
       "values": {
-        "restaurants": 755
+        "restaurants": 805
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Italy 755 709"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Italy 805 755"
       }
     },
     {
       "iso2": "LU",
       "name": "Luxembourg",
       "values": {
-        "restaurants": 12
+        "restaurants": 11
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Luxembourg 12 12"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Luxembourg 11 12"
       }
     },
     {
       "iso2": "NL",
       "name": "Netherlands",
       "values": {
-        "restaurants": 263
+        "restaurants": 266
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Netherlands 263 263"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Netherlands 266 263"
       }
     },
     {
       "iso2": "NZ",
       "name": "New Zealand",
       "values": {
-        "restaurants": 172
+        "restaurants": 176
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] New Zealand 172 170"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] New Zealand 176 172"
       }
     },
     {
       "iso2": "PL",
       "name": "Poland",
       "values": {
-        "restaurants": 580
+        "restaurants": 618
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Poland 580 546"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Poland 618 580"
       }
     },
     {
       "iso2": "PT",
       "name": "Portugal",
       "values": {
-        "restaurants": 209
+        "restaurants": 220
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Portugal 209 199"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Portugal 220 209"
       }
     },
     {
       "iso2": "SK",
       "name": "Slovakia",
       "values": {
-        "restaurants": 47
+        "restaurants": 54
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Slovakia 47 43"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Slovakia 54 47"
       }
     },
     {
       "iso2": "ES",
       "name": "Spain",
       "values": {
-        "restaurants": 635
+        "restaurants": 665
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Spain(d) 635 605"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Spain(d) 665 635"
       }
     },
     {
       "iso2": "CH",
       "name": "Switzerland",
       "values": {
-        "restaurants": 184
+        "restaurants": 189
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Switzerland (e) 184 179"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Switzerland(e) 189 184"
       }
     },
     {
       "iso2": "GB",
       "name": "United Kingdom",
       "values": {
-        "restaurants": 1470
+        "restaurants": 1507
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] United Kingdom(f) 1,470 1,436"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] United Kingdom(f) 1,507 1,470"
       }
     },
     {
       "iso2": "UA",
       "name": "Ukraine",
       "values": {
-        "restaurants": 124
+        "restaurants": 135
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Ukraine 124 117"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Ukraine 135 124"
       }
     },
     {
       "iso2": "BN",
       "name": "Brunei",
       "values": {
-        "restaurants": 6
+        "restaurants": 7
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Brunei(1) 6 5"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Brunei(1) 7 6"
       }
     },
     {
       "iso2": "IN",
       "name": "India",
       "values": {
-        "restaurants": 665
+        "restaurants": 757
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] India(1) 665 581"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] India(1) 757 665"
       }
     },
     {
       "iso2": "ID",
       "name": "Indonesia",
       "values": {
-        "restaurants": 318
+        "restaurants": 314
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Indonesia(1) 318 312"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Indonesia(1) 314 318"
       }
     },
     {
       "iso2": "MY",
       "name": "Malaysia",
       "values": {
-        "restaurants": 373
+        "restaurants": 372
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Malaysia(1) 373 371"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Malaysia(1) 372 373"
       }
     },
     {
       "iso2": "PH",
       "name": "Philippines",
       "values": {
-        "restaurants": 792
+        "restaurants": 851
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Philippines(1) 792 740"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Philippines(1) 851 792"
       }
     },
     {
       "iso2": "SG",
       "name": "Singapore",
       "values": {
-        "restaurants": 152
+        "restaurants": 153
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Singapore(1) 152 151"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Singapore(1) 153 152"
       }
     },
     {
       "iso2": "KR",
       "name": "South Korea",
       "values": {
-        "restaurants": 398
+        "restaurants": 401
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] South Korea(1) 398 399"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] South Korea(1) 401 398"
       }
     },
     {
       "iso2": "TW",
       "name": "Taiwan",
       "values": {
-        "restaurants": 417
+        "restaurants": 430
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Taiwan(1) 417 409"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Taiwan(1) 430 417"
       }
     },
     {
       "iso2": "TH",
       "name": "Thailand",
       "values": {
-        "restaurants": 236
+        "restaurants": 242
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Thailand(1) 236 230"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Thailand(1) 242 236"
       }
     },
     {
       "iso2": "VN",
       "name": "Vietnam",
       "values": {
-        "restaurants": 37
+        "restaurants": 45
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Vietnam(1) 37 33"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Vietnam(1) 45 37"
       }
     },
     {
       "iso2": "MO",
       "name": "Macau",
       "values": {
-        "restaurants": 39
+        "restaurants": 41
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Macau 39 39"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Macau 41 39"
       }
     },
     {
       "iso2": "HK",
       "name": "Hong Kong",
       "values": {
-        "restaurants": 260
+        "restaurants": 266
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Hong Kong 260 254"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Hong Kong 266 260"
       }
     },
     {
       "iso2": "CN",
       "name": "China",
       "values": {
-        "restaurants": 6820
+        "restaurants": 7740
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Mainland China 6,820 5,903"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Mainland China 7,740 6,820"
       }
     },
     {
       "iso2": "JP",
       "name": "Japan",
       "values": {
-        "restaurants": 2989
+        "restaurants": 3025
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Japan 2,989 2,982"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Japan 3,025 2,989"
       }
     },
     {
       "iso2": "AZ",
       "name": "Azerbaijan",
       "values": {
-        "restaurants": 29
+        "restaurants": 34
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Azerbaijan(1) 29 22"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Azerbaijan(1) 34 29"
       }
     },
     {
       "iso2": "BG",
       "name": "Bulgaria",
       "values": {
-        "restaurants": 43
+        "restaurants": 47
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Bulgaria(1) 43 42"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Bulgaria(1) 47 43"
       }
     },
     {
       "iso2": "HR",
       "name": "Croatia",
       "values": {
-        "restaurants": 47
+        "restaurants": 49
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Croatia(1) 47 46"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Croatia(1) 49 47"
       }
     },
     {
       "iso2": "DK",
       "name": "Denmark",
       "values": {
-        "restaurants": 113
+        "restaurants": 121
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Denmark(1) 113 107"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Denmark(1) 121 113"
       }
     },
     {
@@ -553,79 +553,79 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Estonia(1) 11 11"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Estonia(1) 11 11"
       }
     },
     {
       "iso2": "FI",
       "name": "Finland",
       "values": {
-        "restaurants": 81
+        "restaurants": 90
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Finland(1) 81 75"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Finland(1) 90 81"
       }
     },
     {
       "iso2": "GE",
       "name": "Georgia",
       "values": {
-        "restaurants": 25
+        "restaurants": 27
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Georgia(1) 25 23"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Georgia(1) 27 25"
       }
     },
     {
       "iso2": "GR",
       "name": "Greece",
       "values": {
-        "restaurants": 35
+        "restaurants": 34
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Greece(1) 35 32"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Greece(1) 34 35"
       }
     },
     {
       "iso2": "HU",
       "name": "Hungary",
       "values": {
-        "restaurants": 115
+        "restaurants": 123
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Hungary(1) 115 111"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Hungary(1) 123 115"
       }
     },
     {
       "iso2": "IL",
       "name": "Israel",
       "values": {
-        "restaurants": 230
+        "restaurants": 235
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Israel 230 226"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Israel 235 230"
       }
     },
     {
@@ -637,37 +637,37 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Latvia(1) 14 14"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Latvia(1) 14 14"
       }
     },
     {
       "iso2": "LT",
       "name": "Lithuania",
       "values": {
-        "restaurants": 18
+        "restaurants": 19
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Lithuania(1) 18 17"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Lithuania(1) 19 18"
       }
     },
     {
       "iso2": "MT",
       "name": "Malta",
       "values": {
-        "restaurants": 9
+        "restaurants": 10
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Malta(1) 9 9"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Malta(1) 10 9"
       }
     },
     {
@@ -679,107 +679,107 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Moldova(1) 11 9"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Moldova(1) 11 11"
       }
     },
     {
       "iso2": "MA",
       "name": "Morocco",
       "values": {
-        "restaurants": 75
+        "restaurants": 80
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Morocco(1) 75 70"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Morocco(1) 80 75"
       }
     },
     {
       "iso2": "NO",
       "name": "Norway",
       "values": {
-        "restaurants": 85
+        "restaurants": 95
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Norway(1) 85 79"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Norway(1) 95 85"
       }
     },
     {
       "iso2": "RO",
       "name": "Romania",
       "values": {
-        "restaurants": 106
+        "restaurants": 114
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Romania(1) 106 102"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Romania(1) 114 106"
       }
     },
     {
       "iso2": "RS",
       "name": "Serbia",
       "values": {
-        "restaurants": 36
+        "restaurants": 39
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Serbia(1) 36 33"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Serbia(1) 39 36"
       }
     },
     {
       "iso2": "SI",
       "name": "Slovenia",
       "values": {
-        "restaurants": 28
+        "restaurants": 29
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Slovenia(1) 28 23"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Slovenia(1) 29 28"
       }
     },
     {
       "iso2": "SE",
       "name": "Sweden",
       "values": {
-        "restaurants": 199
+        "restaurants": 205
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Sweden(1) 199 196"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Sweden(1) 205 199"
       }
     },
     {
       "iso2": "AR",
       "name": "Argentina",
       "values": {
-        "restaurants": 226
+        "restaurants": 231
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Argentina(1) 226 223"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Argentina(1) 231 226"
       }
     },
     {
@@ -791,9 +791,9 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Aruba(1) 3 3"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Aruba(1) 3 3"
       }
     },
     {
@@ -805,65 +805,65 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Bahamas(1) 3 3"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Bahamas(1) 3 3"
       }
     },
     {
       "iso2": "BR",
       "name": "Brazil",
       "values": {
-        "restaurants": 1173
+        "restaurants": 1230
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Brazil(1) 1,173 1,130"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Brazil(1) 1,230 1,173"
       }
     },
     {
       "iso2": "CL",
       "name": "Chile",
       "values": {
-        "restaurants": 112
+        "restaurants": 125
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Chile(1) 112 97"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Chile(1) 125 112"
       }
     },
     {
       "iso2": "CO",
       "name": "Colombia",
       "values": {
-        "restaurants": 72
+        "restaurants": 73
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Colombia(1) 72 76"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Colombia(1) 73 72"
       }
     },
     {
       "iso2": "CR",
       "name": "Costa Rica",
       "values": {
-        "restaurants": 76
+        "restaurants": 79
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Costa Rica(1) 76 73"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Costa Rica(1) 79 76"
       }
     },
     {
@@ -875,51 +875,51 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Curacao(1) 5 5"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Curacao(1) 5 5"
       }
     },
     {
       "iso2": "DO",
       "name": "Dominican Republic",
       "values": {
-        "restaurants": 23
+        "restaurants": 25
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Dominican Republic(1) 23 23"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Dominican Republic(1) 25 23"
       }
     },
     {
       "iso2": "EC",
       "name": "Ecuador",
       "values": {
-        "restaurants": 35
+        "restaurants": 36
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Ecuador(1) 35 33"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Ecuador(1) 36 35"
       }
     },
     {
       "iso2": "SV",
       "name": "El Salvador",
       "values": {
-        "restaurants": 25
+        "restaurants": 28
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] El Salvador(1) 25 22"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] El Salvador(1) 28 25"
       }
     },
     {
@@ -931,9 +931,9 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] French Guiana(1) 3 3"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] French Guiana(1) 3 3"
       }
     },
     {
@@ -945,37 +945,37 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Guadeloupe(1) 9 9"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Guadeloupe(1) 9 9"
       }
     },
     {
       "iso2": "GT",
       "name": "Guatemala",
       "values": {
-        "restaurants": 115
+        "restaurants": 124
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Guatemala(1) 115 110"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Guatemala(1) 124 115"
       }
     },
     {
       "iso2": "HN",
       "name": "Honduras",
       "values": {
-        "restaurants": 13
+        "restaurants": 16
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Honduras(1) 13 10"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Honduras(1) 16 13"
       }
     },
     {
@@ -987,65 +987,65 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Martinique(1) 10 10"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Martinique(1) 10 10"
       }
     },
     {
       "iso2": "MX",
       "name": "Mexico",
       "values": {
-        "restaurants": 374
+        "restaurants": 380
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Mexico(1) 374 369"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Mexico(1) 380 374"
       }
     },
     {
       "iso2": "NI",
       "name": "Nicaragua",
       "values": {
-        "restaurants": 9
+        "restaurants": 10
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Nicaragua(1) 9 8"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Nicaragua(1) 10 9"
       }
     },
     {
       "iso2": "PA",
       "name": "Panama",
       "values": {
-        "restaurants": 81
+        "restaurants": 84
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Panama(1) 81 81"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Panama(1) 84 81"
       }
     },
     {
       "iso2": "PY",
       "name": "Paraguay",
       "values": {
-        "restaurants": 27
+        "restaurants": 30
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Paraguay(1) 27 24"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Paraguay(1) 30 27"
       }
     },
     {
@@ -1057,9 +1057,9 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Peru(1) 30 29"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Peru(1) 30 30"
       }
     },
     {
@@ -1071,9 +1071,9 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Puerto Rico(1) 94 95"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Puerto Rico(1) 94 94"
       }
     },
     {
@@ -1085,9 +1085,9 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Suriname(1) 2 2"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Suriname(1) 2 2"
       }
     },
     {
@@ -1099,51 +1099,51 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Trinidad/Tobago(1) 4 4"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Trinidad/Tobago(1) 4 4"
       }
     },
     {
       "iso2": "UY",
       "name": "Uruguay",
       "values": {
-        "restaurants": 34
+        "restaurants": 35
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Uruguay(1) 34 33"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Uruguay(1) 35 34"
       }
     },
     {
       "iso2": "VE",
       "name": "Venezuela",
       "values": {
-        "restaurants": 80
+        "restaurants": 79
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Venezuela(1) 80 83"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Venezuela(1) 79 80"
       }
     },
     {
       "iso2": "BH",
       "name": "Bahrain",
       "values": {
-        "restaurants": 33
+        "restaurants": 32
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Bahrain(1) 33 33"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Bahrain(1) 32 33"
       }
     },
     {
@@ -1155,51 +1155,51 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Cyprus(1) 23 24"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Cyprus(1) 23 23"
       }
     },
     {
       "iso2": "EG",
       "name": "Egypt",
       "values": {
-        "restaurants": 190
+        "restaurants": 194
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Egypt(1) 190 189"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Egypt(1) 194 190"
       }
     },
     {
       "iso2": "JO",
       "name": "Jordan",
       "values": {
-        "restaurants": 46
+        "restaurants": 45
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Jordan(1) 46 46"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Jordan(1) 45 46"
       }
     },
     {
       "iso2": "KW",
       "name": "Kuwait",
       "values": {
-        "restaurants": 91
+        "restaurants": 89
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Kuwait(1) 91 87"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Kuwait(1) 89 91"
       }
     },
     {
@@ -1211,23 +1211,23 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Lebanon(1) 23 23"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Lebanon(1) 23 23"
       }
     },
     {
       "iso2": "MU",
       "name": "Mauritius",
       "values": {
-        "restaurants": 17
+        "restaurants": 18
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Mauritius(1) 17 16"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Mauritius(1) 18 17"
       }
     },
     {
@@ -1239,37 +1239,37 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Oman(1) 35 34"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Oman(1) 35 35"
       }
     },
     {
       "iso2": "PK",
       "name": "Pakistan",
       "values": {
-        "restaurants": 69
+        "restaurants": 70
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Pakistan(1) 69 78"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Pakistan(1) 70 69"
       }
     },
     {
       "iso2": "QA",
       "name": "Qatar",
       "values": {
-        "restaurants": 79
+        "restaurants": 78
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Qatar(1) 79 75"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Qatar(1) 78 79"
       }
     },
     {
@@ -1281,79 +1281,65 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Reunion Island(1) 18 16"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Reunion Island(1) 18 18"
       }
     },
     {
       "iso2": "SA",
       "name": "Saudi Arabia",
       "values": {
-        "restaurants": 441
+        "restaurants": 458
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Saudi Arabia(1) 441 412"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Saudi Arabia(1) 458 441"
       }
     },
     {
       "iso2": "ZA",
       "name": "South Africa",
       "values": {
-        "restaurants": 401
+        "restaurants": 407
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] South Africa(1) 401 377"
-      }
-    },
-    {
-      "iso2": "LK",
-      "name": "Sri Lanka",
-      "values": {
-        "restaurants": 0
-      },
-      "plus": {},
-      "source": {
-        "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Sri Lanka(1) 0 12"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] South Africa(1) 407 401"
       }
     },
     {
       "iso2": "TR",
       "name": "Türkiye",
       "values": {
-        "restaurants": 274
+        "restaurants": 306
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Turkey(1) 274 255"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Turkey(1) 306 274"
       }
     },
     {
       "iso2": "AE",
       "name": "United Arab Emirates",
       "values": {
-        "restaurants": 210
+        "restaurants": 222
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] United Arab Emirates(1) 210 203"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] United Arab Emirates(1) 222 210"
       }
     }
   ],
@@ -1367,9 +1353,9 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] St. Marten(1) 3 3"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] St. Marten(1) 3 3"
       }
     },
     {
@@ -1381,9 +1367,9 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202024.pdf",
-        "label": "McDonald's Restaurants by Market 2024 (investor relations)",
-        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2024 2023] Virgin Islands(1) 5 5"
+        "url": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+        "label": "McDonald's Restaurants by Market 2025 (investor relations)",
+        "quote": "[McDonald's Systemwide Restaurants (at year-end), columns 2025 2024] Virgin Islands(1) 5 5"
       }
     }
   ],
@@ -1397,12 +1383,12 @@
       "description": "Principal executive offices at 110 North Carpenter Street, Chicago.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000012/mcd-20241231.htm",
-        "label": "McDonald's Form 10-K for fiscal year 2024",
+        "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+        "label": "McDonald's Form 10-K for fiscal year 2025",
         "quote": "110 North Carpenter Street, | Chicago, | Illinois | 60607 (Address of principal executive offices)"
       }
     }
   ],
-  "notes": "Restaurant counts by market come from McDonald's 'Restaurants by Market 2024' PDF (investor relations, published with the FY2024 results); 97 markets covering 114 countries. Several markets consolidate other countries: United States includes Cuba, Guam and Saipan; Australia includes American Samoa, Fiji, New Caledonia, Tahiti and Western Samoa; France includes Monaco; Spain includes Andorra and Gibraltar; Switzerland includes Liechtenstein; United Kingdom includes the Isle of Man and Jersey. 'St. Marten' and 'Virgin Islands' are kept as unnamed-country regions because the document does not say which territory (Dutch Sint Maarten vs. French Saint-Martin; U.S. vs. British Virgin Islands) is meant. Sri Lanka shows 0 at year-end 2024 (12 in 2023). No restaurant count by U.S. state was found in the 10-K or in the investor-relations restaurant-count document, so usStates is null. The 10-K says company employees totaled over 150,000 with about 70% outside the U.S.; no country split was derived. Segment subtotals (IOM 10,512; IDL 19,408) were not repeated as regions.",
-  "researchedAt": "2026-11-23"
+  "notes": "Restaurant counts by market come from McDonald's 'Restaurants by Market 2025' PDF (investor relations; year-end 2025, 45,356 restaurants); 97 markets covering 114 countries. Several markets consolidate other countries: United States includes Cuba, Guam and Saipan; Australia includes American Samoa, Fiji, New Caledonia, Tahiti and Western Samoa; France includes Monaco; Spain includes Andorra and Gibraltar; Switzerland includes Liechtenstein; United Kingdom includes the Isle of Man, Jersey, Northern Ireland, Scotland and Wales. 'St. Marten' and 'Virgin Islands' are kept as unnamed-country regions because the document does not say which territory (Dutch Sint Maarten vs. French Saint-Martin; U.S. vs. British Virgin Islands) is meant. Sri Lanka, which showed 0 restaurants at year-end 2024, is no longer listed in the 2025 edition, so its row was removed. No restaurant count by U.S. state was found in the FY2025 10-K or in the restaurant-count document, so usStates is null. The FY2025 10-K says company employees totaled over 150,000 at year-end 2025, about 70% outside the U.S.; no country split was derived. Segment subtotals (IOM 10,845; IDL 20,805) were not repeated as regions.",
+  "researchedAt": "2026-11-24"
 }

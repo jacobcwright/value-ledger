@@ -2,18 +2,18 @@
   "id": "lisa-su",
   "name": "Lisa Su",
   "netWorth": {
-    "value": null,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": null,
+    "value": 2.41,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 1646,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": null
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=1000",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"lisa-su\",\"rank\":1646,\"listUri\":\"rtb\",\"visible\":true,\"position\":1646,\"imageExists\":false,\"bio\":\"\",\"finalWorth\":2411.469,\"finalWorthBillions\":2.411469,\"person\":{\"name\":\"Lisa Su\",\"uri\":\"lisa-su\",\"imageExists\":false,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/6a0484ae41ae6169b6145685/416x416.jpg?background=000000&cropX1=500&cropX2=1460&cropY1=49&cropY2=1008\"},\"personName\":\"Lisa Su\""
     }
   },
-  "reason": "not on the 2025 list",
-  "notes": "No entry among the 3,028 people on the list; searched name tokens and the source/organization/employment fields for the company.",
+  "reason": null,
+  "notes": "Listed as \"Lisa Su\" at rank 1646, real-time net worth $2.4B, source \"Semiconductors\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

@@ -1,69 +1,56 @@
 {
   "id": "mark-zuckerberg",
   "company": "Meta Platforms",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-04-01",
+    "asOf": "2026-04-01",
     "leader": {
       "name": "Mark Zuckerberg",
       "relation": "co-founder",
       "status": "holds",
       "pctEconomic": null,
-      "pctVoting": 61,
+      "pctVoting": 60.8,
       "shares": null,
       "derived": {
-        "pctEconomic": 13.58,
-        "method": "(141,000 Class A + 342,606,985 Class B beneficially owned) / (2,181,270,402 Class A + 343,179,151 Class B outstanding at April 1, 2025) = 342,747,985 / 2,524,449,553. Both classes have the same economic rights per share; computed from the proxy's class counts, not stated in the filing.",
+        "pctEconomic": 13.49,
+        "method": "(639,347 Class A + 341,823,978 Class B beneficially owned) / (2,196,045,588 Class A + 342,377,716 Class B outstanding at April 1, 2026) = 342,463,325 / 2,538,423,304. Both classes have the same economic rights per share; computed from the proxy's class counts, not stated in the filing.",
         "inputs": [
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
-            "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management, Mark Zuckerberg row",
-            "quote": "Mark Zuckerberg(2) 141,000 * 342,606,985 99.8 61.0 [columns: Class A shares, %, Class B shares, %, % of total voting power]"
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+            "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management, Mark Zuckerberg row",
+            "quote": "Mark Zuckerberg (2) 639,347 * 341,823,978 99.8 60.8 [columns: Class A shares, %, Class B shares, %, % of total voting power]"
           },
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
-            "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management, share count basis",
-            "quote": "Applicable percentage ownership is based on 2,181,270,402 shares of Class A common stock and 343,179,151 shares of Class B common stock outstanding at April 1, 2025."
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+            "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management, share count basis",
+            "quote": "Applicable percentage ownership is based on 2,196,045,588 shares of Class A common stock and 342,377,716 shares of Class B common stock outstanding as of April 1, 2026."
           }
         ]
       },
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
-        "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management",
-        "quote": "Mark Zuckerberg(2) 141,000 * 342,606,985 99.8 61.0 ... (1)Percentage of total voting power represents voting power with respect to all shares of our Class A common stock and Class B common stock, as a single class."
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+        "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management",
+        "quote": "Mark Zuckerberg (2) 639,347 * 341,823,978 99.8 60.8 ... (1) Percentage of total voting power represents voting power with respect to all shares of our Class A common stock and Class B common stock, as a single class."
       }
     },
     "largestHolders": [
-      {
-        "name": "The Vanguard Group",
-        "type": "asset-manager",
-        "pctEconomic": 8.5,
-        "source": {
-          "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (percentage is of Class A common stock only)",
-          "quote": "Entities affiliated with Vanguard(22) 186,347,527 8.5 — — 3.3 ... (22)Based on information reported by The Vanguard Group on Schedule 13G/A filed with the SEC on February 13, 2024"
-        },
-        "basis": "class",
-        "classLabel": "Class A"
-      },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
         "pctEconomic": 7.2,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (percentage is of Class A common stock only)",
-          "quote": "Entities affiliated with BlackRock(20) 157,849,942 7.2 — — 2.8 ... (20)Based on information reported by BlackRock, Inc. on Schedule 13G/A filed with the SEC on February 12, 2024"
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management (percentage is of Class A common stock only)",
+          "quote": "Entities affiliated with BlackRock (22) 157,849,942 7.2 - - 2.8 ... (22) Based on information reported by BlackRock, Inc. on Schedule 13G/A filed with the SEC on February 12, 2024"
         },
         "basis": "class",
         "classLabel": "Class A"
@@ -74,9 +61,9 @@
         "pctEconomic": 6.1,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (percentage is of Class A common stock only)",
-          "quote": "Entities affiliated with FMR LLC(21) 134,012,721 6.1 — — 2.4 ... (21)Based on information reported by FMR LLC on Schedule 13G/A filed with the SEC on February 9, 2024"
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management (percentage is of Class A common stock only)",
+          "quote": "Entities affiliated with FMR LLC (23) 134,555,687 6.1 - - 2.4"
         },
         "basis": "class",
         "classLabel": "Class A"
@@ -85,54 +72,54 @@
     "structure": {
       "dualClass": true,
       "controlled": true,
-      "note": "Class A shares carry one vote and Class B shares ten votes. Mark Zuckerberg holds 99.8% of Class B and 61.0% of total voting power (2025 proxy), and the proxy states: \"Because Mr. Zuckerberg controls a majority of our outstanding voting power, we are a 'controlled company' under the corporate governance rules of Nasdaq.\""
+      "note": "Class A shares carry one vote and Class B shares ten votes. Mark Zuckerberg holds 99.8% of Class B and 60.8% of total voting power (2026 proxy), and the proxy states: \"Because Mr. Zuckerberg controls a majority of our outstanding voting power, we are a 'controlled company' under the corporate governance rules of Nasdaq.\""
     }
   },
   "cash": {
     "dividends": {
-      "value": 5.07,
+      "value": 5.32,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Payments for dividends and dividend equivalents (5,072) — — [in millions; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Payments for dividends and dividend equivalents ( 5,324 ) ( 5,072 ) - [in millions; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001326801",
           "concept": "us-gaap:PaymentsOfDividends",
-          "end": "2024-12-31",
-          "value": 5072000000
+          "end": "2025-12-31",
+          "value": 5324000000
         }
       }
     },
     "buybacks": {
-      "value": 30.13,
+      "value": 26.25,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Repurchases of Class A common stock (30,125) (19,774) (27,956) [in millions; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchases of Class A common stock ( 26,248 ) ( 30,125 ) ( 19,774 ) [in millions; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001326801",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2024-12-31",
-          "value": 30125000000
+          "end": "2025-12-31",
+          "value": 26248000000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 16.69,
+      "value": 20.43,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Share-based compensation 16,690 14,027 11,992 [in millions; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Share-based compensation 20,427 16,690 14,027 [in millions; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001326801",
           "concept": "us-gaap:ShareBasedCompensation",
-          "end": "2024-12-31",
-          "value": 16690000000
+          "end": "2025-12-31",
+          "value": 20427000000
         }
       }
     },
@@ -143,29 +130,29 @@
     "segments": [
       {
         "name": "United States and Canada",
-        "value": 63.21
+        "value": 78.87
       },
       {
         "name": "Europe",
-        "value": 38.36
+        "value": 46.57
       },
       {
         "name": "Asia-Pacific",
-        "value": 45.01
+        "value": 53.82
       },
       {
         "name": "Rest of World",
-        "value": 17.92
+        "value": 21.71
       }
     ],
-    "total": 164.5,
+    "total": 200.97,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-      "label": "FY2024 Form 10-K, Note 2 Revenue",
-      "quote": "Revenue disaggregated by geography, based on the addresses of our customers, consists of the following (in millions): ... 2024 ... United States and Canada (1) $ 63,207 ... Europe (3) 38,361 ... Asia-Pacific (2) 45,009 ... Rest of World (3) 17,924 ... Total revenue $ 164,501"
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "label": "FY2025 Form 10-K, Note 2 Revenue",
+      "quote": "Revenue disaggregated by geography, based on the addresses of our customers, consists of the following (in millions): Year Ended December 31, 2025 2024 2023 United States and Canada (1) $ 78,866 $ 63,207 $ 52,888 Europe (2) 46,569 38,361 31,210 Asia-Pacific 53,817 45,009 36,154 Rest of World (2) 21,714 17,924 14,650 Total revenue $ 200,966 $ 164,501 $ 134,902"
     }
   },
-  "notes": "Fiscal year ended December 31, 2024. All figures were read this session from the EDGAR documents themselves: the FY2024 Form 10-K (accession 0001326801-25-000017) and the 2025 proxy statement (DEF 14A, accession 0001326801-25-000040, record date April 1, 2025); this replaces the pilot's unverified WebFetch summary and the investor-CDN PDF. OWNERSHIP: the proxy gives Zuckerberg 141,000 Class A shares (marked * for less than 1% of Class A), 342,606,985 Class B shares (99.8% of Class B) and 61.0% of total voting power, but no percentage of all shares, so pctEconomic is null and the 13.58% economic share is in leader.derived (both class counts quoted). Footnote (2): the holding consists of 3,388,097 Class B shares held by the Mark Zuckerberg Trust; 192,874,288 Class B held by CZI Holdings, LLC; 34,344,500 by Chan Zuckerberg Holdings LLC; 12,000,000 by CZI Holdings I, LLC (pledged as collateral for indebtedness); 50,000,000 each by Chan Zuckerberg Holdings II and III, LLC; 100 by CZ Management, LLC; and 141,000 Class A held by the Chan Zuckerberg Initiative Foundation, over which he has sole voting and investment power 'but no pecuniary interest'. No options or RSUs are included. A shareholder proposal printed in the proxy says he owns '14% of the economic value'; that is the proponent's statement, not the company's, and is not used. 5% HOLDERS: the proxy states their percentages as % of Class A only (Vanguard 8.5%, BlackRock 7.2%, FMR 6.1%), and those are the figures recorded in pctEconomic. On an all-shares basis they would be lower (Class B is about 13.6% of all shares); they are not recomputed, per the no-derivation rule. Their total-voting-power percentages are 3.3%, 2.8% and 2.4%. The proxy footnotes cite only the Schedule 13G/A filing dates (Feb 9-13, 2024), not the ownership dates, so holder asOf is omitted; the share counts are stale relative to the April 1, 2025 denominator. CASH: buybacks are cash paid in 2024 ($30,125m); the equity statement's value of shares repurchased ($29,754m) is a different basis. Dividends include dividend equivalents on RSUs. GEOGRAPHY: Europe includes Russia and Turkey; Rest of World includes Africa, Latin America and the Middle East (10-K footnote 3); United States alone was $59.73 billion (footnote 1). No employee stock purchase plan appears in the 10-K, so plan is null.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Financial figures are from the FY2025 Form 10-K (accession 0001628280-26-003942, filed January 29, 2026); ownership is from the 2026 proxy statement (DEF 14A, accession 0001628280-26-025532, filed April 16, 2026, record date April 1, 2026). OWNERSHIP: the proxy gives Zuckerberg 639,347 Class A shares (marked * for less than 1% of Class A), 341,823,978 Class B shares (99.8% of Class B) and 60.8% of total voting power, but no percentage of all shares, so pctEconomic is null and the 13.49% economic share is in leader.derived (both class counts quoted). Footnote (2): the Class A shares are held by Chan Zuckerberg Biohub, Inc., over which he has sole voting and investment power 'but no pecuniary interest'; the Class B shares are held by the Mark Zuckerberg Trust (3,388,097), CZI Holdings, LLC (109,373,980), Chan Zuckerberg Holdings, LLC (17,061,801), CZI Holdings I, LLC (12,000,000, pledged as collateral for indebtedness), Chan Zuckerberg Holdings II, III, IV and V, LLC (50,000,000 each) and CZ Management, LLC (100). No options or RSUs are included. 5% HOLDERS: the proxy lists only BlackRock (7.2%) and FMR (6.1%), as % of Class A only, and those are the figures recorded; on an all-shares basis they would be lower (Class B is about 13.5% of all shares), and they are not recomputed. Their total-voting-power percentages are 2.8% and 2.4%. Both rest on old Schedule 13G/A filings (BlackRock February 12, 2024), so holder asOf is omitted. Vanguard, listed at 8.5% of Class A in the 2025 proxy, is gone: footnote (21) says its Schedule 13G/A of March 27, 2026 reported no beneficial ownership after an internal realignment on January 12, 2026 under which its subsidiaries report separately, and none of them had filed by the proxy date. CASH: buybacks are cash paid for Class A repurchases in 2025 ($26,248m). Dividends include dividend equivalents on RSUs. GEOGRAPHY: Europe includes Russia and Turkey; Rest of World includes Africa, Latin America and the Middle East (10-K footnote 2); United States alone was $74.78 billion (footnote 1). No employee stock purchase plan appears in the 10-K, so plan is null.",
+  "researchedAt": "2026-11-24"
 }

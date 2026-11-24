@@ -2,48 +2,48 @@
   "id": "george-kurtz",
   "company": "CrowdStrike",
   "nbim": {
-    "pct": 1.3,
-    "marketValueUSD": 1.095,
-    "asOf": "2024-12-31",
+    "pct": 1.27,
+    "marketValueUSD": 2.471,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"1uifx49kwle4\",\"cc\":\"US\",\"n\":\"Crowdstrike Holdings Inc\",\"a\":{\"e\":1095180596,\"n\":12438349337},\"at\":0,\"o\":1.3,\"eq\":{\"vid\":\"CRWD\",\"v\":0.89,\"s\":\"Technology\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"1uifx49kwle4\",\"cc\":\"US\",\"n\":\"Crowdstrike Holdings Inc\",\"a\":{\"e\":2470954217,\"n\":24451327454},\"at\":0,\"o\":1.27,\"eq\":{\"vid\":\"CRWD\",\"v\":1.27,\"s\":\"Technology\"}}"
     }
   },
   "calpers": {
-    "shares": 360277,
-    "asOf": "2024-12-31",
+    "shares": 1602151,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "CROWDSTRIKE HLDGS INC CL A 22788C105 123272378 360277"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "CROWDSTRIKE HLDGS INC CL A 22788C105 424169477 1602151"
     },
     "derived": {
-      "pct": 0.145,
-      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "pct": 0.155,
+      "method": "CalPERS shares ÷ shares outstanding (1,602,151 ÷ 1,030,596,521; both after the July 2026 four-for-one split)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
-          "label": "FY2025 Form 10-K, cover page",
-          "quote": "As of February 28, 2025, the number of shares of the registrant's Class A common stock outstanding was 247,873,415 , and the number of shares of the registrant's Class B common stock outstanding was 0 ."
+          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000038/crwd-20261031.htm",
+          "label": "Form 10-Q for the quarter ended October 31, 2026, cover page",
+          "quote": "As of November 19, 2026, the number of shares of the registrant's common stock outstanding was 1,030,596,521 ."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 95,
-    "asOf": "2025-01-31",
+    "count": 82,
+    "asOf": "2026-01-31",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
-      "label": "FY2025 Form 10-K, Item 5",
-      "quote": "As of January 31, 2025, we had 95 holders of record of our Class A common stock and zero holders of record of our Class B common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm",
+      "label": "FY2026 Form 10-K, Item 5",
+      "quote": "As of January 31, 2026, we had 82 holders of record of our Class A common stock and zero holders of record of our Class B common stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Crowdstrike Holdings Inc;Technology;12438349337;1095180596;0.89%;1.3%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. Holders of record: Class A; no Class B holders.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026; Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. Both the 13F (September 30, 2026) and the Q3 FY2027 10-Q cover count (November 19, 2026) are after the four-for-one stock split effected July 1, 2026; the cover count is the same one used in the marketcap lens. Holders of record: Class A; no Class B holders.",
+  "researchedAt": "2026-11-24"
 }

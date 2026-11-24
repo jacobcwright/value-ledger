@@ -1,14 +1,13 @@
 {
   "id": "stephen-a-schwarzman",
   "company": "Blackstone",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
-
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-02-21",
+    "asOf": "2026-02-20",
     "leader": {
       "name": "Stephen A. Schwarzman",
       "relation": "co-founder",
@@ -16,85 +15,118 @@
       "pctEconomic": null,
       "pctVoting": null,
       "shares": null,
-      "sharesByClass": { "commonStock": 0, "holdingsPartnershipUnits": 231924793, "holdingsPartnershipUnitsPct": 51.8 },
+      "sharesByClass": {
+        "commonStock": 0,
+        "holdingsPartnershipUnits": 231924793,
+        "holdingsPartnershipUnitsPct": 52.2
+      },
       "derived": {
-        "pctEconomic": 19.84,
-        "method": "231,924,793 Blackstone Holdings Partnership Units / (729,415,925 shares of common stock outstanding + 439,589,683 Blackstone Holdings Partnership Units owned by limited partners, both as of February 21, 2025) = 19.84%. Computed, not stated in the filing. Basis: Blackstone Inc. common stock plus the partnership units of Blackstone Holdings held by its limited partners (Blackstone personnel and others), which are exchangeable for common stock one-for-one; together these are the whole economic interest in Blackstone Holdings. Caveats: the 10-K's own '51.8% of class' for his units implies a larger unit denominator (about 448 million, probably including unvested units) than the 439,589,683 units it reports as outstanding, and the 10-K does not state that denominator; using its year-end total of 1,221,159,186 vested and unvested shares and units (December 31, 2024) instead would give about 19.0%.",
+        "pctEconomic": 19.42,
+        "method": "231,924,793 Blackstone Holdings Partnership Units (February 20, 2026) / (748,688,068 shares of common stock outstanding + 445,586,312 participating Blackstone Holdings Partnership Units, both at December 31, 2025) = 19.42%. Computed, not stated in the filing. Basis: Blackstone Inc. common stock plus the partnership units of Blackstone Holdings held by its limited partners (Blackstone personnel and others), which are exchangeable for common stock one-for-one and share in distributions; together these are the whole economic interest in Blackstone Holdings. The FY2025 10-K gives no unit count at the Item 12 date, so the December 31, 2025 dividend-eligibility table is used; the 10-K's own 52.2% of class for his units implies about 444 million units, consistent with it. Adding the 34,494,942 unvested participating common shares to the denominator (total 1,228,769,322) would give about 18.9%.",
         "inputs": [
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-            "label": "FY2024 Form 10-K, Item 12 Security Ownership of Certain Beneficial Owners and Management (as of February 21, 2025)",
-            "quote": "Shares of Common Stock Beneficially Owned ... Blackstone Holdings Partnership Units Beneficially Owned (a) ... Stephen A. Schwarzman (f)(g) — — 231,924,793 51.8 %"
+            "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+            "label": "FY2025 Form 10-K, Item 12 Security Ownership of Certain Beneficial Owners and Management (as of February 20, 2026), Schwarzman row",
+            "quote": "Shares of Common Stock Beneficially Owned Blackstone Holdings Partnership Units Beneficially Owned (a) ... Stephen A. Schwarzman (f)(g) - - 231,924,793 52.2 %"
           },
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-            "label": "FY2024 Form 10-K, cover page",
-            "quote": "As of February 21, 2025, there were 729,415,925 shares of common stock of the registrant outstanding."
-          },
-          {
-            "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-            "label": "FY2024 Form 10-K, Item 1A Risk Factors",
-            "quote": "Limited partners of Blackstone Holdings owned an aggregate of 439,589,683 Blackstone Holdings Partnership Units outstanding as of February 21, 2025."
+            "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+            "label": "FY2025 Form 10-K, Note 15 Earnings Per Share and Stockholders' Equity, shares eligible for dividends and distributions",
+            "quote": "Shares Eligible for Dividends and Distributions As of December 31, 2025, the total shares of common stock and Blackstone Holdings Partnership Units entitled to participate in dividends and distributions were as follows: Shares/Units Common Stock Outstanding 748,688,068 Unvested Participating Common Stock 34,494,942 Total Participating Common Stock 783,183,010 Participating Blackstone Holdings Partnership Units 445,586,312 1,228,769,322"
           }
         ]
       },
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, Item 12 Security Ownership of Certain Beneficial Owners and Management",
-        "quote": "Stephen A. Schwarzman (f)(g) — — 231,924,793 51.8 % ... (a) Subject to certain requirements and restrictions, the partnership units of Blackstone Holdings are exchangeable for shares of our common stock on a one-for-one basis."
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, Item 12 Security Ownership of Certain Beneficial Owners and Management (as of February 20, 2026)",
+        "quote": "Stephen A. Schwarzman (f)(g) - - 231,924,793 52.2 % ... (a) Subject to certain requirements and restrictions, the partnership units of Blackstone Holdings are exchangeable for shares of our common stock on a one-for-one basis."
       }
     },
-    "largestHolders": null,
+    "largestHolders": [
+      {
+        "name": "The Vanguard Group, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 8.5,
+        "basis": "class",
+        "classLabel": "Common stock",
+        "asOf": "2024-02-13",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+          "label": "FY2025 Form 10-K, Item 12 Security Ownership of Certain Beneficial Owners and Management (as of February 20, 2026)",
+          "quote": "The Vanguard Group, Inc. (b) 62,972,154 8.5 % - - ... (b) Reflects shares of common stock beneficially owned by The Vanguard Group, Inc. and its subsidiaries based on the amended Schedule 13G filed by The Vanguard Group, Inc. on February 13, 2024."
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 6.2,
+        "basis": "class",
+        "classLabel": "Common stock",
+        "asOf": "2024-01-29",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+          "label": "FY2025 Form 10-K, Item 12 Security Ownership of Certain Beneficial Owners and Management (as of February 20, 2026)",
+          "quote": "BlackRock, Inc. (c) 45,986,530 6.2 % - - ... (c) Reflects shares of common stock beneficially owned by BlackRock, Inc. and its subsidiaries based on the Schedule 13G filed by BlackRock, Inc. on January 29, 2024."
+        }
+      }
+    ],
     "structure": {
       "dualClass": true,
       "controlled": true,
-      "note": "Blackstone Inc. common stock is listed; Blackstone personnel and others also hold partnership units of the Blackstone Holdings partnerships, exchangeable one-for-one for common stock. Stephen A. Schwarzman holds no common stock but 231,924,793 partnership units (51.8% of that class). The single share of Series I preferred stock, owned by Blackstone Partners L.L.C. (controlled by Mr. Schwarzman), carries votes equal to all partnership units held by limited partners, about 38.5% of the combined vote as of February 21, 2025. The Series II preferred stockholder, Blackstone Group Management L.L.C. (also controlled by Mr. Schwarzman), holds more than 50% of the voting power for the election of directors, and the 10-K says Blackstone is therefore a 'controlled company' under NYSE rules."
+      "note": "Blackstone Inc. common stock is listed; Blackstone personnel and others also hold partnership units of the Blackstone Holdings partnerships, exchangeable one-for-one for common stock. Stephen A. Schwarzman holds no common stock but 231,924,793 partnership units (52.2% of that class). The single share of Series I preferred stock, owned by Blackstone Partners L.L.C. (controlled by Mr. Schwarzman), carries votes equal to all vested and unvested partnership units held by limited partners, about 37.5% of the combined vote as of February 20, 2026. The Series II preferred stockholder holds more than 50% of the voting power for the election of directors, and the 10-K says Blackstone is therefore a 'controlled company' under NYSE rules."
     }
   },
-
   "cash": {
     "dividends": {
-      "value": 2.63,
+      "value": 3.64,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, Consolidated Statement of Changes in Equity, 2024, Blackstone Inc. retained earnings column",
-        "quote": "Capital Distributions — — — (2,629,163) — (2,629,163) (579,631) (1,806,608) (5,015,402) (284,875) [dollars in thousands: Retained Earnings, Total Stockholders' Equity, NCI in Consolidated Entities, NCI in Blackstone Holdings, Total Equity, Redeemable NCI]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, Consolidated Statement of Changes in Equity, 2025, Blackstone Inc. retained earnings column",
+        "quote": "Capital Distributions - - - ( 3,635,652 ) - ( 3,635,652 ) ( 832,617 ) ( 2,394,070 ) ( 6,862,339 ) ( 202,694 ) [dollars in thousands: Retained Earnings, Total Stockholders' Equity, NCI in Consolidated Entities, NCI in Blackstone Holdings, Total Equity, Redeemable NCI]"
       }
     },
     "buybacks": {
-      "value": 0.52,
+      "value": 0.12,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, Item 7 Liquidity and Capital Resources, Share Repurchase Program",
-        "quote": "During the year ended December 31, 2024, Blackstone repurchased 4.0 million shares of common stock at a total cost of $520.4 million.",
-        "xbrl": { "cik": "0001393818", "concept": "us-gaap:PartnersCapitalAccountTreasuryUnitsPurchases", "end": "2024-12-31", "value": 520429000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, Item 7 Liquidity and Capital Resources, Share Repurchase Program",
+        "quote": "During the year ended December 31, 2025, Blackstone repurchased 0.8 million shares of common stock at a total cost of $122.6 million.",
+        "xbrl": {
+          "cik": "0001393818",
+          "concept": "us-gaap:PartnersCapitalAccountTreasuryUnitsPurchases",
+          "end": "2025-12-31",
+          "value": 122590000
+        }
       }
     }
   },
-
   "workers": {
     "stockComp": {
-      "value": 1.17,
+      "value": 1.45,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Equity-Based Compensation Expense 1,168,435 987,549 846,349 [dollars in thousands, 2024, 2023, 2022]",
-        "xbrl": { "cik": "0001393818", "concept": "us-gaap:ShareBasedCompensation", "end": "2024-12-31", "value": 1168435000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Equity-Based Compensation Expense 1,445,352 1,168,435 987,549 [dollars in thousands, 2025, 2024, 2023]",
+        "xbrl": {
+          "cik": "0001393818",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2025-12-31",
+          "value": 1445352000
+        }
       }
     },
     "plan": null
   },
-
   "geography": null,
-
-  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). Blackstone files no DEF 14A; ownership is from Item 12 of the FY2024 Form 10-K (filed February 28, 2025), as of February 21, 2025. BASIS: Mr. Schwarzman owns no Blackstone Inc. common stock, so his share of the listed common stock alone is 0%. His economic interest is in Blackstone Holdings partnership units, which share in Blackstone's earnings alongside the common stock and can be exchanged for it one-for-one. The record therefore uses a derived figure of 19.84% of common stock plus limited partners' units (see derived.method; about 19.0% on the year-end vested-plus-unvested count). The units he holds include 3,686,266 units in family trusts for which he is investment trustee (beneficial ownership disclaimed) and 1,438,529 units held by a separate entity he controls; he also holds a further 364,278 units in each of Blackstone Holdings II, III and IV L.P., and the table excludes units held by his children or family trusts over which he has no control. pctVoting is null because the filing gives no personal voting percentage: the 38.5% Series I vote belongs to Blackstone Partners L.L.C., which he controls, and board elections are controlled by the Series II preferred stockholder, which he also controls. HOLDERS: left empty because the only other 5% holders the 10-K lists, The Vanguard Group (8.6%, based on a Schedule 13G/A reporting holdings as of December 29, 2023: https://www.sec.gov/Archives/edgar/data/1393818/000110465924020021/tv0029-blackstoneinc.htm) and BlackRock (6.3%, Schedule 13G as of December 31, 2023: https://www.sec.gov/Archives/edgar/data/1393818/000108636424005138/us09260d1072_012924.txt), are measured as % of common stock only, a different basis from the leader's derived figure, and may not be converted. Jonathan D. Gray holds 41,293,901 units (9.2% of units). DIVIDENDS: $2,629.2m of capital distributions to Blackstone Inc. common stockholders in 2024, from the equity statement. The cash-flow line 'Dividends/Distributions to Stockholders and Unitholders' is $4,424.2m (tagged us-gaap:PaymentsOfDividendsCommonStock in XBRL) and also includes distributions to Blackstone Holdings unitholders, which are non-controlling interests ($1,806.6m in the equity statement), so it is not used. On the derived ownership basis, which includes the units, about $4.42 billion went to stockholders and unitholders together. BUYBACKS: $520.4m of common stock repurchases. The cash-flow line 'Net Settlement of Vested Common Stock and Repurchase of Common Stock' ($661.1m) also includes net settlement of vested awards. STOCK COMP: matches Note 16, which reports compensation expense of $1.2 billion for equity-based awards. PLAN: null; no broad employee stock purchase plan is described in the 10-K. GEOGRAPHY: null because Note 19 gives only percentages of total GAAP revenues by region, attributed by the geography of investments held: Americas 76%, Europe, Middle East and Africa 16%, Asia-Pacific 8% (2024). It also says domestically generated revenues were 68% of total GAAP revenues. Total revenues were $13,229,968 thousand. No dollar amounts by region are given, so none are derived.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025 (data.js fy 'Dec 2025'). Blackstone files no DEF 14A; ownership is from Item 12 of the FY2025 Form 10-K (accession 0001193125-26-082531, filed February 27, 2026), as of February 20, 2026. Mr. Schwarzman is Co-Founder, Chairman and CEO. BASIS: he owns no Blackstone Inc. common stock, so his share of the listed common stock alone is 0%. His economic interest is in Blackstone Holdings partnership units, which share in Blackstone's earnings alongside the common stock and can be exchanged for it one-for-one. The record therefore uses a derived figure of 19.42% of common stock plus limited partners' participating units (see derived.method; about 18.9% if unvested participating common stock is added). The units he holds include 3,686,266 units in trusts for which he is investment trustee (beneficial ownership disclaimed) and 12,368,074 vested units held back under minimum retained ownership requirements. pctVoting is null because the filing gives no personal voting percentage: the 37.5% Series I vote belongs to Blackstone Partners L.L.C., which he controls, and the Series II holder's majority vote for directors belongs to Blackstone Group Management L.L.C. HOLDERS: Vanguard (8.5%) and BlackRock (6.2%), from 2024 Schedule 13G filings, are measured as % of common stock only, so they are recorded with basis 'class' and never used to compute everyone else. Jonathan D. Gray holds 41,293,901 units (9.3% of units) and 2,270,041 shares. DIVIDENDS: $3,635.7m of capital distributions to Blackstone Inc. common stockholders in 2025, from the equity statement. The cash-flow line 'Dividends/Distributions to Stockholders and Unitholders' is $6,013.4m and also includes distributions to Blackstone Holdings unitholders, which are non-controlling interests ($2,394.1m in the equity statement), so it is not used; on the derived ownership basis, which includes the units, about $6.01 billion went to stockholders and unitholders together. BUYBACKS: $122.6m of common stock repurchases (0.8 million shares). STOCK COMP: the cash-flow add-back for equity-based compensation. PLAN: null; no broad employee stock purchase plan is described in the 10-K. GEOGRAPHY: null because the segment note gives only percentages of total GAAP revenues by region, attributed by the geography of investments held: Americas 80%, Europe, Middle East and Africa 13%, Asia-Pacific 7% (2025); domestically generated revenues were 68% of total GAAP revenues. No dollar amounts by region are given, so none are derived.",
+  "researchedAt": "2026-11-24"
 }

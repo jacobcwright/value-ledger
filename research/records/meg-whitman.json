@@ -1,13 +1,13 @@
 {
   "id": "meg-whitman",
   "company": "eBay",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-04-15",
+    "asOf": "2026-04-15",
     "leader": {
       "name": "Meg Whitman",
       "relation": "former-ceo",
@@ -20,46 +20,46 @@
     },
     "largestHolders": [
       {
-        "name": "The Vanguard Group",
-        "type": "asset-manager",
-        "pctEconomic": 13.09,
-        "asOf": "2024-09-30",
-        "source": {
-          "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065088/000110465925042545/tm2424429-2_def14a.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (pp. 89-90)",
-          "quote": "The Vanguard Group(2) 60,491,362 13.09% ... (2) Based on a Schedule 13G/A filed with the SEC on November 12, 2024, reporting ownership as of September 30, 2024"
-        }
-      },
-      {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 9.5,
+        "pctEconomic": 9.86,
         "asOf": "2023-12-31",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065088/000110465925042545/tm2424429-2_def14a.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (pp. 89-90)",
-          "quote": "BlackRock, Inc.(3) 43,874,025 9.50% ... (3) Based on a Schedule 13G/A filed with the SEC on January 25, 2024, reporting ownership as of December 31, 2023"
+          "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278126000285/e26002_ebay-def14a.htm",
+          "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "BlackRock, Inc. (2) 43,874,025 9.86% ... (2) Based on a Schedule 13G/A filed with the SEC on January 25, 2024, reporting ownership as of December 31, 2023"
         }
       },
       {
-        "name": "Ameriprise Financial, Inc.",
+        "name": "Vanguard Capital Management LLC",
         "type": "asset-manager",
-        "pctEconomic": 5.53,
-        "asOf": "2024-09-30",
+        "pctEconomic": 7.59,
+        "asOf": "2026-03-31",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065088/000110465925042545/tm2424429-2_def14a.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (pp. 89-90)",
-          "quote": "Ameriprise Financial, Inc.(4) 25,548,804 5.53% ... (4) Based on a Schedule 13G filed with the SEC on November 14, 2024, reporting ownership as of September 30, 2024"
+          "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278126000285/e26002_ebay-def14a.htm",
+          "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "Vanguard Capital Management LLC (3) 33,728,890 7.59% ... (3) Based on a Schedule 13G filed with the SEC on April 29, 2026, reporting ownership as of March 31, 2026"
+        }
+      },
+      {
+        "name": "State Street Corporation",
+        "type": "asset-manager",
+        "pctEconomic": 5.49,
+        "asOf": "2024-12-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278126000285/e26002_ebay-def14a.htm",
+          "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "State Street Corporation (4) 24,437,654 5.49% ... (4) Based on a Schedule 13G filed with the SEC on February 5, 2025, reporting ownership as of December 31, 2024"
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock. Holders of more than 5% on April 15, 2025: Vanguard 13.09%, BlackRock 9.50%, Ameriprise 5.53% and State Street 5.29%. All 16 directors and executive officers together hold less than 1%."
+      "note": "One class of common stock. Holders of more than 5% in the 2026 proxy (445,011,181 shares outstanding on April 15, 2026): BlackRock 9.86%, Vanguard Capital Management 7.59%, State Street 5.49% and Vanguard Portfolio Management 5.27%. All 18 directors and executive officers together hold less than 1%."
     }
   },
   "cash": {
@@ -67,46 +67,46 @@
       "value": 0.53,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Payments for dividends (533) (528) (489) [in millions, 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of cash flows",
+        "quote": "Payments for dividends ( 531 ) ( 533 ) ( 528 ) [in millions, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001065088",
           "concept": "us-gaap:PaymentsOfDividends",
-          "end": "2024-12-31",
-          "value": 533000000
+          "end": "2025-12-31",
+          "value": 531000000
         }
       }
     },
     "buybacks": {
-      "value": 3.15,
+      "value": 2.5,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Repurchases of common stock (3,149) (1,401) (3,143) [in millions, 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of cash flows",
+        "quote": "Repurchases of common stock ( 2,500 ) ( 3,149 ) ( 1,401 ) [in millions, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001065088",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2024-12-31",
-          "value": 3149000000
+          "end": "2025-12-31",
+          "value": 2500000000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.59,
+      "value": 0.61,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 14 Employee Benefit Plans, stock-based compensation expense",
-        "quote": "The following table presents stock-based compensation expense for the periods indicated (in millions): ... Total stock-based compensation expense $ 588 $ 575 $ 494 [2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 13 Employee Benefit Plans, stock-based compensation expense",
+        "quote": "The following table presents stock-based compensation expense for the periods indicated (in millions): Year Ended December 31, 2025 2024 2023 ... Total stock-based compensation expense $ 607 $ 588 $ 575",
         "xbrl": {
           "cik": "0001065088",
           "concept": "us-gaap:AllocatedShareBasedCompensationExpense",
-          "end": "2024-12-31",
-          "value": 588000000
+          "end": "2025-12-31",
+          "value": 607000000
         }
       }
     },
@@ -114,44 +114,44 @@
       "text": "Eligible employees can buy eBay stock at 85% of market value through the Employee Stock Purchase Plan.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
-        "label": "FY2024 Form 10-K, Employee Stock Purchase Plan",
-        "quote": "We have an Employee Stock Purchase Plan (\"ESPP\") for eligible employees. Under the ESPP, shares of our common stock may be purchased over an offering period with a maximum duration of two years at 85% of the lower of the fair market value"
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm",
+        "label": "FY2025 Form 10-K, Employee Stock Purchase Plan",
+        "quote": "Employee Stock Purchase Plan (\"ESPP\") for eligible employees. Under the ESPP, shares of our common stock may be purchased over an offering period with a maximum duration of two years at 85 % of the lower of the fair market value"
       }
     }
   },
   "geography": {
-    "basis": "Net revenues based on geography, attributed primarily based upon the country in which the seller, platform that displays advertising, other service provider, or customer is located",
+    "basis": "Net revenues based on geography, attributed primarily based upon the country in which the customer is located",
     "segments": [
       {
         "name": "United States",
-        "value": 5.24
+        "value": 5.79
       },
       {
         "name": "United Kingdom",
-        "value": 1.51
+        "value": 1.57
       },
       {
         "name": "China",
-        "value": 1.17
+        "value": 1.25
       },
       {
         "name": "Germany",
-        "value": 0.97
+        "value": 0.98
       },
       {
         "name": "Rest of world",
-        "value": 1.4
+        "value": 1.52
       }
     ],
-    "total": 10.28,
+    "total": 11.1,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
-      "label": "FY2024 Form 10-K, Note 5 Segments, net revenues by geography",
-      "quote": "The following table summarizes the allocation of net revenues based on geography ... United States $ 5,238 ... United Kingdom 1,508 ... China 1,169 ... Germany 972 ... Rest of world 1,396 ... Total net revenues $ 10,283 [in millions, 2024]"
+      "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm",
+      "label": "FY2025 Form 10-K, Note 4 Segments, net revenues by geography",
+      "quote": "Net revenues, inclusive of the effects of foreign exchange during each period, are attributed to the United States and international geographies primarily based upon the country in which the customer is located. ... Year Ended December 31, 2025 2024 2023 United States $ 5,789 $ 5,238 $ 5,073 United Kingdom 1,565 1,508 1,609 China 1,253 1,169 1,029 Germany 978 972 971 Rest of world 1,515 1,396 1,430 Total net revenues $ 11,100 $ 10,283 $ 10,112"
     }
   },
-  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). Filings: FY2024 Form 10-K filed Feb 27, 2025 (accession 0001065088-25-000037) and 2025 proxy statement (accession 0001104659-25-042545), both read on www.sec.gov. A later 10-K/A (May 30, 2025) was not needed for these figures. MEG WHITMAN: former CEO; she is not a director or officer and does not appear anywhere in the 2025 proxy, so no stake is reported. HOLDERS: State Street (5.29%) is left out by the three-holder limit. BUYBACKS exclude $188 million of payments for taxes on net share settlement of equity awards. STOCK COMP: the note total ($588 million); the equity statement shows $590 million credited to paid-in capital. GEOGRAPHY: revenue is attributed mainly by the seller's country; the 10-K's risk factors refer to 'cross-border business from greater China'.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Filings: FY2025 Form 10-K filed February 19, 2026 (accession 0001065088-26-000027) and 2026 proxy statement (DEF 14A, accession 0001552781-26-000285, filed April 30, 2026, shares as of April 15, 2026), both read on www.sec.gov. MEG WHITMAN: former CEO; she is not a director or officer and does not appear anywhere in the 2026 proxy, so no stake is reported. HOLDERS: Vanguard now reports through separate entities after its internal realignment; the proxy lists Vanguard Capital Management LLC (7.59%) and Vanguard Portfolio Management LLC (5.27%) separately, each from a Schedule 13G of April 29, 2026. Vanguard Portfolio Management is left out by the three-holder limit; the two are not added together. BlackRock's 9.86% rests on a Schedule 13G/A as of December 31, 2023 and is stale. BUYBACKS exclude $273 million of payments for taxes on net share settlement of equity awards. STOCK COMP: the note total ($607 million). GEOGRAPHY: the FY2025 10-K attributes net revenues 'primarily based upon the country in which the customer is located'.",
+  "researchedAt": "2026-11-24"
 }

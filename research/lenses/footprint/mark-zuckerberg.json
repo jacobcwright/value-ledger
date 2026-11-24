@@ -28,9 +28,9 @@
       "label": "Long-lived assets",
       "unit": "currency-millions",
       "currency": "USD",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Long-lived assets by geographic area, which consist of property and equipment, net and operating lease right-of-use assets (FY2024 Form 10-K)."
+      "definition": "Long-lived assets by geographic area, which consist of property and equipment, net and operating lease right-of-use assets (FY2025 Form 10-K)."
     }
   },
   "usStates": [
@@ -790,14 +790,14 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "longLivedAssets": 117478
+        "longLivedAssets": 173390
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-        "label": "FY2024 Form 10-K, long-lived assets by geographic area",
-        "quote": "United States | $ | 117,478 | $ | 91,940"
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "label": "FY2025 Form 10-K, long-lived assets by geographic area",
+        "quote": "United States | $ | 173,390 | $ | 117,478"
       }
     }
   ],
@@ -806,14 +806,14 @@
       "name": "Rest of the world",
       "countries": null,
       "values": {
-        "longLivedAssets": 18790
+        "longLivedAssets": 23414
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-        "label": "FY2024 Form 10-K, long-lived assets by geographic area",
-        "quote": "Rest of the world (1) | 18,790 | 17,941 | Total long-lived assets | $ | 136,268"
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "label": "FY2025 Form 10-K, long-lived assets by geographic area",
+        "quote": "Rest of the world (1) | 23,414 | 18,790 | Total long-lived assets | $ | 196,804"
       }
     }
   ],
@@ -824,12 +824,12 @@
       "state": "CA",
       "iso2": "US",
       "type": "headquarters",
-      "description": "Approximately 11 million square feet of office and building space for our corporate headquarters and in the surrounding areas.",
+      "description": "Approximately 10 million square feet of office and building space for our corporate headquarters and in the surrounding areas.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2. Properties",
-        "quote": "Our corporate headquarters are located in Menlo Park, California. As of December 31, 2024, we owned and leased approximately 11 million square feet of office and building space for our corporate headquarters and in the surrounding areas"
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "Our corporate headquarters are located in Menlo Park, California. As of December 31, 2025, we owned and leased approximately 10 million square feet of office and building space for our corporate headquarters and in the surrounding areas"
       }
     },
     {
@@ -987,6 +987,6 @@
       }
     }
   ],
-  "notes": "usStates: one row per state from Meta's own 'Meta in <State>' fact sheets (research.facebook.com/economiccontribution, 50 states; no DC sheet), each read in full. Output and jobs are Meta's modelled estimates of activity at advertisers and their supply chains linked to Meta ads (BEA input-output multipliers), not Meta payroll or spending; the national sheet gives $547.6 billion and 3,400,000 jobs. research.facebook.com refuses scripted requests, so the 50 PDFs were opened in a real browser (each redirects to a signed fbcdn.net copy, downloaded and read); source.url is the stable research.facebook.com/file/... address, which the automated quote checker cannot fetch. Sites: corporate HQ from the 10-K (which says Meta owns 27 data center locations), plus data centers from datacenters.atmeta.com (page read Nov 2026, undated, and it lists sites announced after FY2024). Selection rule: every data center outside North America, and the seven U.S. data centers with the largest stated investment, limited to sites that broke ground in 2024 or earlier; newer announced sites (Lebanon IN, El Paso TX, Bowling Green OH, Beaver Dam WI, Tulsa OK, Sturgeon County AB) are left out. Several states host more than one data center (AL, IN, OH, TX), so data-center figures are not summed into states. Long-lived assets: the 10-K discloses only the U.S. and the rest of the world. Revenue by geography is in the records and not repeated.",
-  "researchedAt": "2026-11-23"
+  "notes": "usStates: one row per state from Meta's own 'Meta in <State>' fact sheets (research.facebook.com/economiccontribution, 50 states; no DC sheet), each read in full. They carry 2024 data (published 2025); no newer edition found (checked 2026-11-24: the economiccontribution page still gives the 2024 national figures, $548 billion and 3.4 million jobs). Output and jobs are Meta's modelled estimates of activity at advertisers and their supply chains linked to Meta ads (BEA input-output multipliers), not Meta payroll or spending. research.facebook.com refuses scripted requests, so the 50 PDFs were opened in a real browser (each redirects to a signed fbcdn.net copy, downloaded and read); source.url is the stable research.facebook.com/file/... address, which the automated quote checker cannot fetch. Long-lived assets are from the FY2025 10-K, which discloses only the U.S. and the rest of the world (no other country above 10%). Sites: corporate HQ from the FY2025 10-K (about 10 million square feet, including about two million unoccupied; the 10-K says Meta owns 30 data center locations globally), plus data centers from datacenters.atmeta.com (re-read 2026-11-24, undated; all 11 quoted entries unchanged). Selection rule, kept from the last edition: every data center outside North America, and the seven U.S. data centers with the largest stated investment among sites that broke ground in 2024 or earlier. Sites listed as breaking ground in 2025 or later (El Paso TX, $10 billion+, and Bowling Green OH and Beaver Dam WI, 2025; Lebanon IN, $10 billion+, Tulsa OK and Sturgeon County AB, 2026) are left out to stay within 12. Several states host more than one data center (AL, IN, OH, TX), so data-center figures are not summed into states. Revenue by geography is in the records and not repeated.",
+  "researchedAt": "2026-11-24"
 }

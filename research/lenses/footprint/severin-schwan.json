@@ -3,11 +3,11 @@
   "company": "Roche",
   "metrics": {
     "employees": {
-      "label": "Employees (full-time equivalents)",
+      "label": "Employees (headcount)",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Employees by region from the Annual Report 2024 chart \"103,249 employees* by region\"; the page footnote reads \"Number of employees expressed in full-time equivalents, on 31 December 2024\"."
+      "definition": "Employees by region from the Annual Report 2025 map \"Employees worldwide* 112,774\"; the footnote reads \"Number of employees based on headcount\". The report says the 2025 headcount includes apprentices, interns and individuals on unpaid leave and is not comparable with the 2024 figure of 103,249 full-time equivalents."
     }
   },
   "usStates": null,
@@ -17,70 +17,70 @@
       "name": "Europe",
       "countries": null,
       "values": {
-        "employees": 45528
+        "employees": 53638
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
-        "label": "Roche Annual Report 2024, Diversity, equity and inclusion – Culture and people (employees by region)",
-        "quote": "103,249 employees* by region … Europe … 45,528"
+        "url": "https://assets.roche.com/f/176343/x/fa3c863601/ar25e.pdf",
+        "label": "Roche Annual Report 2025, 2025 highlights (employees worldwide by region map)",
+        "quote": "Employees worldwide* 112,774 … Europe  53,638"
       }
     },
     {
       "name": "North America",
       "countries": null,
       "values": {
-        "employees": 26869
+        "employees": 27594
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
-        "label": "Roche Annual Report 2024, Diversity, equity and inclusion – Culture and people (employees by region)",
-        "quote": "103,249 employees* by region … North America … 26,869"
+        "url": "https://assets.roche.com/f/176343/x/fa3c863601/ar25e.pdf",
+        "label": "Roche Annual Report 2025, 2025 highlights (employees worldwide by region map)",
+        "quote": "Employees worldwide* 112,774 … North America  27,594"
       }
     },
     {
       "name": "Asia",
       "countries": null,
       "values": {
-        "employees": 24073
+        "employees": 24442
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
-        "label": "Roche Annual Report 2024, Diversity, equity and inclusion – Culture and people (employees by region)",
-        "quote": "103,249 employees* by region … Asia … 24,073"
+        "url": "https://assets.roche.com/f/176343/x/fa3c863601/ar25e.pdf",
+        "label": "Roche Annual Report 2025, 2025 highlights (employees worldwide by region map)",
+        "quote": "Employees worldwide* 112,774 … Asia  24,442"
       }
     },
     {
       "name": "Latin America",
       "countries": null,
       "values": {
-        "employees": 4938
+        "employees": 5200
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
-        "label": "Roche Annual Report 2024, Diversity, equity and inclusion – Culture and people (employees by region)",
-        "quote": "103,249 employees* by region … Latin America … 4,938"
+        "url": "https://assets.roche.com/f/176343/x/fa3c863601/ar25e.pdf",
+        "label": "Roche Annual Report 2025, 2025 highlights (employees worldwide by region map)",
+        "quote": "Employees worldwide* 112,774 … Latin America  5,200"
       }
     },
     {
       "name": "Africa",
       "countries": null,
       "values": {
-        "employees": 1223
+        "employees": 1274
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
-        "label": "Roche Annual Report 2024, Diversity, equity and inclusion – Culture and people (employees by region)",
-        "quote": "103,249 employees* by region … Africa … 1,223"
+        "url": "https://assets.roche.com/f/176343/x/fa3c863601/ar25e.pdf",
+        "label": "Roche Annual Report 2025, 2025 highlights (employees worldwide by region map)",
+        "quote": "Employees worldwide* 112,774 … Africa  1,274"
       }
     },
     {
@@ -90,14 +90,14 @@
         "NZ"
       ],
       "values": {
-        "employees": 618
+        "employees": 626
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
-        "label": "Roche Annual Report 2024, Diversity, equity and inclusion – Culture and people (employees by region)",
-        "quote": "103,249 employees* by region … Australia/New Zealand … 618"
+        "url": "https://assets.roche.com/f/176343/x/fa3c863601/ar25e.pdf",
+        "label": "Roche Annual Report 2025, 2025 highlights (employees worldwide by region map)",
+        "quote": "Employees worldwide* 112,774 … Australia / New Zealand  626"
       }
     }
   ],
@@ -171,6 +171,6 @@
       }
     }
   ],
-  "notes": "Roche publishes employees by region only (Annual Report 2024 chart; FTEs at Dec 31, 2024, total 103,249). The regions are Roche's own groupings with no country list, except Australia/New Zealand. No country or U.S. state breakdown of employees, sites or taxes was found in the Annual Report or the Finance Report 2024 (the Finance Report gives only group income taxes paid, CHF 3,727 million). Roche does not file with the SEC. The Annual Report PDF is served from Roche's asset CDN (assets.roche.com), linked from roche.com/investors/annualreport24. Sites are those the report itself names; Roche does not list its major facilities in the Annual Report. State codes for the U.S. sites come from the place names (the report says only \"(US)\"). Genentech's Investing in America page (gene.com) gives national post-2025 commitment figures ($50B, 28 facilities), not per-state values for FY2024, so it was not used.",
-  "researchedAt": "2026-11-23"
+  "notes": "Roche publishes employees by region (Annual Report 2025 highlights map; headcount at Dec 31, 2025, total 112,774). The 2025 figures are headcounts under the broader ESRS scope (including apprentices, interns and individuals on unpaid leave), so they are not comparable with the 2024 FTE figures (103,249); Roche says the underlying workforce was broadly unchanged. The regions are Roche's own groupings with no country list, except Australia/New Zealand. The Annual Report 2025 sustainability table also gives headcount for two selected countries (Germany 18,768; Switzerland 17,752; others 76,254); these were not added as rows because they overlap the Europe region and are a new breakdown. No U.S. state breakdown, or country breakdown of sites or taxes, was found in the Annual Report 2025. Roche does not file with the SEC. The Annual Report PDFs are served from Roche's asset CDN (assets.roche.com). Sites are those the Annual Report 2024 names (that PDF is still online); the 2025 report does not repeat most of them, and Roche does not list its major facilities in either report. State codes for the U.S. sites come from the place names (the report says only \"(US)\").",
+  "researchedAt": "2026-11-24"
 }

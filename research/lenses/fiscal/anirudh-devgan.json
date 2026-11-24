@@ -1,44 +1,44 @@
 {
   "id": "anirudh-devgan",
   "company": "Cadence Design Systems",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.51,
+      "value": 0.25,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes, net 509,979 253,700 233,235 See notes to consolidated financial [USD thousands; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 8 Income Taxes, Cash Taxes Paid",
+        "quote": "Total income taxes paid (net of refunds) for fiscal 2025 include: 2025 (In thousands) U.S. Federal $ 76,724 U.S. State & Local 29,980 Foreign 140,663 Total $ 247,367 [USD thousands]",
         "xbrl": {
           "cik": "0000813672",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 509979000
+          "end": "2025-12-31",
+          "value": 247367000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 1.55,
+      "value": 1.77,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 1,549,093 1,441,796 1,251,544 General and administrative 282,283 [USD thousands; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated income statements, research and development expense",
+        "quote": "Research and development 1,768,772 1,549,093 1,441,796 [USD thousands; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000813672",
           "concept": "us-gaap:ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost",
-          "end": "2024-12-31",
-          "value": 1549093000
+          "end": "2025-12-31",
+          "value": 1768772000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the ASU 2023-09 jurisdiction table in the income-tax note (fiscal 2024 was $510.0 million).",
+  "researchedAt": "2026-11-24"
 }

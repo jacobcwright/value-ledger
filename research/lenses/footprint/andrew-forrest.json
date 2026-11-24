@@ -405,67 +405,67 @@
     },
     {
       "name": "Cloudbreak mine (Chichester Hub)",
-      "place": "Chichester Range, Pilbara, WA",
+      "place": "Chichester Hub, Pilbara, WA",
       "iso2": "AU",
       "type": "mine",
-      "description": "Part of the Chichester Hub (around 100Mtpa with Christmas Creek); trial mining commenced in 2005, first shipment in 2008",
+      "description": "Founded in 2007; part of the Chichester Hub with Christmas Creek; produces over 40 million tonnes of iron ore per year (capacity 38-41 Mtpa)",
       "source": {
         "hostType": "exchange",
-        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-        "label": "FY25 Appendix 4E and Annual Report (ASX), operations overview",
-        "quote": "Trial mining at Cloudbreak commenced in 2005, with the first shipment occurring in 2008."
+        "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+        "label": "FY26 Appendix 4E and Annual Report (ASX, Aug 20, 2026), operations overview",
+        "quote": "Founded in 2007, Cloudbreak forms part of our Chichester Hub - alongside our Christmas Creek site - and produces over 40 million tonnes of iron ore per year."
       }
     },
     {
       "name": "Christmas Creek mine (Chichester Hub)",
-      "place": "Chichester Range, Pilbara, WA",
+      "place": "Chichester Hub, Pilbara, WA",
       "iso2": "AU",
       "type": "mine",
-      "description": "Part of the Chichester Hub; home to Fortescue's Green Energy Hub and the Green Metal Project",
+      "description": "Produces over 50 million tonnes of iron ore per year; home to Fortescue's Green Energy Hub",
       "source": {
         "hostType": "exchange",
-        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-        "label": "FY25 Appendix 4E and Annual Report (ASX), operations overview",
-        "quote": "Christmas Creek is now home to Fortescue’s Green Energy Hub and hosts the Green Metal Project."
+        "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+        "label": "FY26 Appendix 4E and Annual Report (ASX, Aug 20, 2026), operations overview",
+        "quote": "Christmas Creek produces over 50 million tonnes of iron ore per year and is home to Fortescue's Green Energy Hub which pilots several green energy projects designed to support decarbonisation of operations."
       }
     },
     {
       "name": "Solomon mine (Western Hub)",
-      "place": "about 60km north of Tom Price, Pilbara, WA",
+      "place": "Western Hub, Pilbara, WA",
       "iso2": "AU",
       "type": "mine",
-      "description": "Western Hub mine near the Hamersley Ranges; commenced operation in 2012",
+      "description": "Produces over 68 million tonnes of iron ore per year; two ore processing facilities, Kings and Firetail",
       "source": {
         "hostType": "exchange",
-        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-        "label": "FY25 Appendix 4E and Annual Report (ASX), operations overview",
-        "quote": "Solomon commenced operation in 2012, followed by the commissioning of Eliwana in 2020, situated approximately 140km west of Solomon."
+        "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+        "label": "FY26 Appendix 4E and Annual Report (ASX, Aug 20, 2026), operations overview",
+        "quote": "Our Solomon site produces over 68 million tonnes of iron ore per year. The operation comprises two ore processing facilities, Kings and Firetail."
       }
     },
     {
       "name": "Eliwana mine (Western Hub)",
-      "place": "about 140km west of Solomon, Pilbara, WA",
+      "place": "Western Hub, Pilbara, WA",
       "iso2": "AU",
       "type": "mine",
-      "description": "Commissioned in 2020; capacity to direct load up to 9,000t per hour. The Western Hub contributes around 100Mtpa",
+      "description": "First ore in late 2020; produces over 30 million tonnes of iron ore per year, railed 428 km to Herb Elliott Port",
       "source": {
         "hostType": "exchange",
-        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-        "label": "FY25 Appendix 4E and Annual Report (ASX), operations overview",
-        "quote": "With its innovative low profile designed OPF and dual stacker reclaimer, Eliwana has the capacity to direct load up to 9,000t per hour."
+        "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+        "label": "FY26 Appendix 4E and Annual Report (ASX, Aug 20, 2026), operations overview",
+        "quote": "Eliwana produced its first ore in late 2020 and produces over 30 million tonnes of iron ore per year."
       }
     },
     {
       "name": "Iron Bridge",
-      "place": "around 145km south of Port Hedland, WA",
+      "place": "Pilbara, WA",
       "iso2": "AU",
       "type": "mine",
-      "description": "Fortescue's first magnetite mining operation; unincorporated joint venture (FMG Magnetite 69 per cent, Formosa Steel IB 31 per cent)",
+      "description": "Magnetite operation; high-grade wet concentrate piped 135 km to Port Hedland; unincorporated joint venture (Fortescue 69%, Formosa Steel 31%)",
       "source": {
         "hostType": "exchange",
-        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-        "label": "FY25 Appendix 4E and Annual Report (ASX), operations overview",
-        "quote": "Iron Bridge is Fortescue’s first magnetite mining operation and is located around 145km south of Port Hedland."
+        "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+        "label": "FY26 Appendix 4E and Annual Report (ASX, Aug 20, 2026), operations overview",
+        "quote": "Our Iron Bridge facility produces a high-grade wet concentrate product which is transported to Port Hedland through a 135-kilometre-long specialist slurry pipeline."
       }
     },
     {
@@ -473,12 +473,12 @@
       "place": "Port Hedland, WA",
       "iso2": "AU",
       "type": "port",
-      "description": "Five operating berths, approved to export up to 210mtpa of iron ore",
+      "description": "Capacity over 200 Mtpa; 1,000 carriers loaded and shipped in FY26",
       "source": {
         "hostType": "exchange",
-        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-        "label": "FY25 Appendix 4E and Annual Report (ASX), operations overview",
-        "quote": "The port comprises five operating berths and is currently approved to export up to 210mtpa of iron ore."
+        "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+        "label": "FY26 Appendix 4E and Annual Report (ASX, Aug 20, 2026), operations overview",
+        "quote": "Location: Port Hedland, Western Australia (WA), Australia Ownership: 100% Capacity: >200 million tonnes per annum (Mtpa) … We operate the Herb Elliott Port Facility and Judith Street Harbour towage infrastructure. During FY26, we loaded and shipped 1000 carriers from Herb Elliott Port to send to our customers globally."
       }
     },
     {
@@ -486,15 +486,15 @@
       "place": "north-east Gabon",
       "iso2": "GA",
       "type": "project",
-      "description": "Iron ore project in north-east Gabon",
+      "description": "One of the world's largest undeveloped high-grade hematite deposits; operated by Ivindo Iron SA, 72% owned by Fortescue",
       "source": {
         "hostType": "exchange",
-        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-        "label": "FY25 Appendix 4E and Annual Report (ASX), Fortescue Energy and projects",
-        "quote": "The Belinga Project in north-east Gabon is potentially one of the largest"
+        "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+        "label": "FY26 Appendix 4E and Annual Report (ASX, Aug 20, 2026), Fortescue Energy and projects",
+        "quote": "The Belinga Project in north-east Gabon is one of the world's largest undeveloped high grade hematite deposits and represents a significant long-term growth opportunity for Fortescue."
       }
     }
   ],
-  "notes": "Country rows come from Fortescue's FY2025 Country-by-Country Report (GRI 207-4, company-hosted; FY ended Jun 30, 2025, the site's snapshot year): employees and corporate income tax paid in cash by tax jurisdiction. Only jurisdictions with employees or cash tax paid are listed; dashes (nil) are omitted, not recorded as 0. 6 employees working where Fortescue has no local entity ('Other countries') are not in the rows. The large U.K. headcount (1,182) is Fortescue's U.K. operations, which the report shows with losses. Cash tax excludes Western Australian state royalties; no royalty breakdown by jurisdiction was recorded. No state or regional data. Sites are the Pilbara (Western Australia) mines, the port and the Perth HQ as the FY25 annual report (lodged with the ASX with the Appendix 4E) describes them, plus the Belinga project in Gabon; the mines connect to Port Hedland via 760km of rail.",
-  "researchedAt": "2026-11-23"
+  "notes": "Country rows come from Fortescue's FY2025 Country-by-Country Report (GRI 207-4, company-hosted; FY ended Jun 30, 2025): employees and corporate income tax paid in cash by tax jurisdiction. No newer edition found (checked 2026-11-24): the FY26 sustainability site's report library still lists the FY2025 CbC report, and the FY26 Sustainability Report refers only to 'our latest available public Country-by-Country Report'. Only jurisdictions with employees or cash tax paid are listed; dashes (nil) are omitted, not recorded as 0. 6 employees working where Fortescue has no local entity ('Other countries') are not in the rows. The large U.K. headcount (1,182) is Fortescue's U.K. operations, which the report shows with losses. Cash tax excludes Western Australian state royalties; no royalty breakdown by jurisdiction was recorded. No state or regional data. Sites are re-read from the FY26 annual report (lodged with the ASX with the Appendix 4E on Aug 20, 2026): the Pilbara (Western Australia) mines, Iron Bridge, Herb Elliott Port and the Belinga project in Gabon; the mines connect to Port Hedland via 760km of rail. The FY26 report does not restate the headquarters address, so the Perth HQ (the Fortescue Hive at 256 St Georges Terrace) is still cited from the FY25 annual report.",
+  "researchedAt": "2026-11-24"
 }

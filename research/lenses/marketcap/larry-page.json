@@ -1,0 +1,50 @@
+{
+  "id": "larry-page",
+  "company": "Alphabet",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 5888000000,
+      "sharesAsOf": "2026-10-21",
+      "pricedAs": "GOOGL",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 21, 2026, there were 5,888 million shares of Alphabet's Class A stock outstanding, 827 million shares of Alphabet's Class B stock outstanding, and 5,579 million shares of Alphabet's Class C stock outstanding."
+      }
+    },
+    {
+      "label": "Class B common stock",
+      "shares": 827000000,
+      "sharesAsOf": "2026-10-21",
+      "pricedAs": "GOOGL",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted and converts 1:1 into Class A; all classes have identical economic rights",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 21, 2026, there were 5,888 million shares of Alphabet's Class A stock outstanding, 827 million shares of Alphabet's Class B stock outstanding, and 5,579 million shares of Alphabet's Class C stock outstanding."
+      }
+    },
+    {
+      "label": "Class C capital stock",
+      "shares": 5579000000,
+      "sharesAsOf": "2026-10-21",
+      "pricedAs": "GOOG",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 21, 2026, there were 5,888 million shares of Alphabet's Class A stock outstanding, 827 million shares of Alphabet's Class B stock outstanding, and 5,579 million shares of Alphabet's Class C stock outstanding."
+      }
+    }
+  ],
+  "notes": "Three classes from the Q3 2026 Form 10-Q cover (filed October 29, 2026), which states counts rounded to millions. Class A trades on Nasdaq as GOOGL and Class C as GOOG; Class B (ten votes) is unlisted and is priced through GOOGL.",
+  "researchedAt": "2026-11-24"
+}

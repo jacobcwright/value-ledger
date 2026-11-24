@@ -1,28 +1,28 @@
 {
   "id": "brian-l-roberts",
   "company": "Comcast",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 7.1,
+      "value": 0.76,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Payments of income taxes (7,096) (5,107) Proceeds from investments and [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+        "label": "FY2025 Form 10-K, income tax note, Cash Payments for Income Taxes",
+        "quote": "Cash Payments for Income Taxes Year ended December 31 (in millions) 2025 2024 2023 Federal (a)(b) $ ( 89 ) $ 6,011 $ 4,208 State 380 742 596 Foreign (c) 464 342 302 Cash payments for income taxes $ 755 $ 7,096 $ 5,107 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001166691",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 7096000000
+          "end": "2025-12-31",
+          "value": 755000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the caption does not say whether refunds are netted. R&D not reported as a separate line in the FY2024 10-K.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet from the income-tax note's table of cash payments by jurisdiction (federal is a net refund of 89 million); it includes $0.6 billion paid for third-party transferable tax credits. R&D not reported as a separate line in the FY2025 10-K.",
+  "researchedAt": "2026-11-24"
 }

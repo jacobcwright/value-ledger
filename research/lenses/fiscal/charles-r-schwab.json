@@ -1,28 +1,28 @@
 {
   "id": "charles-r-schwab",
   "company": "Charles Schwab",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 1.49,
+      "value": 1.58,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid during the period for: ... Income taxes $ 1,491 $ 1,620 $ 2,130 Amounts included in [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 22 Taxes on Income, income taxes paid",
+        "quote": "The components of income taxes paid (net of refunds received) are as follows: Year Ended December 31, 2025 2024 2023 Federal $ 1,089 $ 1,281 $ 1,345 State (1) 480 199 272 Foreign 6 11 3 Income taxes paid (net of refunds received) $ 1,575 $ 1,491 $ 1,620 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000316709",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 1491000000
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-12-31",
+          "value": 1575000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line (broker/bank).",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: income taxes paid, net of refunds received (us-gaap:IncomeTaxesPaidNet), from the income-tax note's table by jurisdiction (federal 1,089, state 480, foreign 6; California 216). R&D not reported as a separate line (broker/bank).",
+  "researchedAt": "2026-11-24"
 }

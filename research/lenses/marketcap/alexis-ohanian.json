@@ -1,0 +1,36 @@
+{
+  "id": "alexis-ohanian",
+  "company": "Reddit",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 146942127,
+      "sharesAsOf": "2026-10-28",
+      "pricedAs": "RDDT",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000116/rddt-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 28, 2026, the registrant had outstanding 146,942,127 shares of Class A common stock, 46,151,604 shares of Class B common stock, and no shares of Class C common stock, each with a par value of $0.0001."
+      }
+    },
+    {
+      "label": "Class B common stock",
+      "shares": 46151604,
+      "sharesAsOf": "2026-10-28",
+      "pricedAs": "RDDT",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted (FY2025 10-K: \"Our Class B common stock and Class C common stock are not listed or traded on any stock exchange.\") and converts into Class A one-for-one (\"each share of Class B common stock will convert automatically into one share of Class A common stock\" on transfer; holders may convert at any time).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000116/rddt-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 28, 2026, the registrant had outstanding 146,942,127 shares of Class A common stock, 46,151,604 shares of Class B common stock, and no shares of Class C common stock, each with a par value of $0.0001."
+      }
+    }
+  ],
+  "notes": "Class A trades on the NYSE as RDDT. Class B (ten votes per share) is unlisted and priced through Class A, into which it converts one-for-one. No Class C or preferred shares are outstanding. Reddit began repurchasing Class A shares in 2026 under its $1 billion program.",
+  "researchedAt": "2026-11-24"
+}

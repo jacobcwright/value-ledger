@@ -1,28 +1,28 @@
 {
   "id": "marcos-galperin",
   "company": "MercadoLibre",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 1.05,
+      "value": 1.01,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income tax 1,052 651 437 Non-cash financing activities: Finance [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information",
+        "quote": "Cash paid for income tax 1,013 1,052 651 Non-cash financing activities: Finance [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001099590",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 1052000000
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-12-31",
+          "value": 1013000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line. MercadoLibre reports 'Product and technology development' ($1,934 million; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), which the 10-K describes as engineering/web-development staff, D&A, export-duty withholdings and other costs without calling it research and development, so it is not recorded.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: 'Cash paid for income tax' in the supplemental cash-flow information (tagged us-gaap:IncomeTaxesPaidNet); the caption does not say whether refunds are netted. R&D not reported as a separate line. MercadoLibre reports 'Product and technology development' ($2,269 million in 2025; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), which the 10-K describes as salaries, technology maintenance and other costs without calling it research and development, so it is not recorded.",
+  "researchedAt": "2026-11-24"
 }

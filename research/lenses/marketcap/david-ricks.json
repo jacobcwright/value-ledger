@@ -1,0 +1,22 @@
+{
+  "id": "david-ricks",
+  "company": "Eli Lilly",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 940745031,
+      "sharesAsOf": "2026-10-26",
+      "pricedAs": "LLY",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "The number of shares of common stock outstanding as of October 26, 2026: Class Number of Shares Outstanding Common 940,745,031"
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the NYSE as LLY. The Q3 2026 Form 10-Q cover (filed October 29, 2026) is newer than the FY2025 10-K cover (943,357,420 shares at February 9, 2026).",
+  "researchedAt": "2026-11-24"
+}

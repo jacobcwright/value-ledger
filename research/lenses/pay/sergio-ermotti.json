@@ -1,0 +1,31 @@
+{
+  "id": "sergio-ermotti",
+  "company": "UBS Group AG",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 103177,
+    "asOf": "2025-12-31",
+    "basis": "full-time equivalents (personnel by region)",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm",
+      "label": "FY2025 Form 20-F (Annual Report 2025), Our employees, personnel by region",
+      "quote": "Personnel by region As of % change from Full-time equivalents 31.12.25 31.12.24 31.12.23 31.12.24 ... Switzerland 33,216 34,182 34,880 (3) Total 103,177 108,648 112,842 (5)"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Total personnel expenses",
+    "value": 27.861,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/ubs-20251231.htm",
+      "label": "FY2025 Form 20-F (Annual Report 2025), Note 6 Personnel expenses (USD m)",
+      "quote": "Note 6 Personnel expenses Personnel expenses For the year ended USD m 31.12.25 31.12.24 31.12.23 Salaries 1 11,904 12,178 10,997 Variable compensation 2 11,434 10,870 9,845 ... Total personnel expenses 27,861 27,318 24,899"
+    }
+  },
+  "notes": "Employees: UBS reports full-time equivalents, not a head count (103,177 FTE at December 31, 2025, down from 108,648 as the Credit Suisse integration continued). Payroll: Note 6 total personnel expenses for 2025 (salaries, variable compensation including financial advisor pay, contractors, social security, post-employment benefits and other personnel expenses).",
+  "researchedAt": "2026-11-24"
+}

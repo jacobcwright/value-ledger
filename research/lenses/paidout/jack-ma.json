@@ -1,79 +1,79 @@
 {
  "id": "jack-ma",
  "company": "Alibaba Group Holding",
- "fiscalYear": "FY2025",
- "fiscalYearEnd": "2025-03-31",
+ "fiscalYear": "FY2026",
+ "fiscalYearEnd": "2026-03-31",
  "currency": "CNY",
  "unit": "billions",
  "sector": "retail",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 996.347,
-   "stated": 996347,
+   "value": 1023.67,
+   "stated": 1023670,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
-    "label": "FY2025 Form 20-F, consolidated statement of operations (RMB in millions)",
-    "quote": "Notes Revenue 5, 24 868,687 941,168 996,347 137,300",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
+    "label": "FY2026 Form 20-F, consolidated income statements (RMB in millions)",
+    "quote": "Notes Revenue 5, 25 941,168 996,347 1,023,670 148,401",
     "xbrl": {
      "cik": "0001577552",
      "concept": "us-gaap:Revenues",
-     "end": "2025-03-31",
-     "value": 996347000000
+     "end": "2026-03-31",
+     "value": 1023670000000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 163.509,
-   "stated": 163509,
+   "value": 76.213,
+   "stated": 76213,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
-    "label": "FY2025 Form 20-F, consolidated statement of cash flows (RMB in millions)",
-    "quote": "Net cash provided by operating activities 199,752 182,593 163,509 22,532",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
+    "label": "FY2026 Form 20-F, Item 5 liquidity, cash flows (RMB in millions)",
+    "quote": "Net cash provided by operating activities 182,593 163,509 76,213 11,049 Net cash used in investing activities",
     "xbrl": {
      "cik": "0001577552",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2025-03-31",
-     "value": 163509000000
+     "end": "2026-03-31",
+     "value": 76213000000
     }
    }
   },
   "capex": {
-   "value": 85.972,
+   "value": 126.937,
    "components": [
-    "land use rights, property and equipment 85.972",
-    "intangibles 0.0"
+    "land use rights, property and equipment 126.063",
+    "intangibles 0.874"
    ],
    "derived": {
     "method": "sum of the components below",
     "inputs": [
      {
       "component": "land use rights, property and equipment",
-      "value": 85.972,
-      "stated": 85972,
+      "value": 126.063,
+      "stated": 126063,
       "source": {
        "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
-       "label": "FY2025 Form 20-F, consolidated statement of cash flows (RMB in millions)",
-       "quote": "Acquisitions of: Land use rights, property and equipment ( 34,330 ) ( 32,087 ) ( 85,972 ) ( 11,847 )"
+       "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
+       "label": "FY2026 Form 20-F, consolidated statements of cash flows (RMB in millions)",
+       "quote": "Acquisitions of: Land use rights, property and equipment (32,087 ) (85,972 ) (126,063 ) (18,275 )"
       }
      },
      {
       "component": "intangibles",
-      "value": 0.0,
-      "stated": 0,
+      "value": 0.874,
+      "stated": 874,
       "source": {
        "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
-       "label": "FY2025 Form 20-F, consolidated statement of cash flows (RMB in millions)",
-       "quote": "Intangible assets ( 22 ) ( 842 ) - -",
+       "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
+       "label": "FY2026 Form 20-F, consolidated statements of cash flows (RMB in millions)",
+       "quote": "Intangible assets (842 ) — (874 ) (127 )",
        "xbrl": {
         "cik": "0001577552",
         "concept": "us-gaap:PaymentsToAcquireIntangibleAssets",
-        "end": "2025-03-31",
-        "value": 0
+        "end": "2026-03-31",
+        "value": 874000000
        }
       }
      }
@@ -81,42 +81,42 @@
    }
   },
   "interestPaid": {
-   "value": 8.866,
-   "stated": 8866,
+   "value": 9.384,
+   "stated": 9384,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
-    "label": "FY2025 Form 20-F, notes to the consolidated financial statements (RMB in millions)",
-    "quote": "Interest paid was RMB 5,637 million, RMB 7,832 million and RMB 8,866 million for the years ended March 31, 2023, 2024 and 2025, respectively",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
+    "label": "FY2026 Form 20-F, consolidated statements of cash flows, supplemental disclosures (RMB in millions)",
+    "quote": "Interest paid was RMB7,832 million, RMB8,866 million and RMB9,384 million for the years ended March 31, 2024, 2025 and 2026, respectively.",
     "xbrl": {
      "cik": "0001577552",
      "concept": "us-gaap:InterestPaidNet",
-     "end": "2025-03-31",
-     "value": 8866000000
+     "end": "2026-03-31",
+     "value": 9384000000
     }
    }
   },
   "taxesPaid": {
-   "value": 33.409,
-   "stated": 33409,
+   "value": 34.013,
+   "stated": 34013,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
-    "label": "FY2025 Form 20-F, notes to the consolidated financial statements (RMB in millions)",
-    "quote": "Income tax paid was RMB 26,476 million, RMB 32,486 million and RMB 33,409 million for the years ended March 31, 2023, 2024 and 2025, respectively",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
+    "label": "FY2026 Form 20-F, Note 7 Income tax expenses (RMB in millions)",
+    "quote": "Composition of cash paid for income tax, net of refunds received The composition of cash paid for income tax, net of refunds received for the year ended March 31, 2026 is as follows: Year ended March 31, 2026 RMB (in millions) Chinese mainland 30,729 Non-Chinese mainland 3,284 34,013",
     "xbrl": {
      "cik": "0001577552",
-     "concept": "us-gaap:IncomeTaxesPaid",
-     "end": "2025-03-31",
-     "value": 33409000000
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2026-03-31",
+     "value": 34013000000
     }
    }
   }
  },
- "paidOut": 918.81,
- "paidOutFormula": "revenue 996,347 − operating cash flow 163,509 + capex 85,972 (CNY millions, as stated)",
+ "paidOut": 1074.394,
+ "paidOutFormula": "revenue 1,023,670 − operating cash flow 76,213 + capex 126,937 (CNY millions, as stated)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
@@ -125,6 +125,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Alibaba files its 20-F under US GAAP, so interest and income taxes paid are inside operating cash flow and nothing is added back. Capex is land use rights plus property and equipment (85,972; no companyfacts fact for this combined line); intangible purchases were nil. Alibaba is not an admitted marketplace for salesEnabled. The USD column is a convenience translation and is not used. Fiscal year ended March 31, 2025; FX: the calendar-2024 average covers 9 of its 12 months.",
- "researchedAt": "2026-11-23"
+ "notes": "Alibaba files its 20-F under US GAAP, so interest and income taxes paid are inside operating cash flow and nothing is added back. Capex is land use rights plus property and equipment (126,063; no companyfacts fact for this combined line) plus intangible assets (874). Income tax paid is now in the income-tax note's composition table (net of refunds, ASU 2023-09). Alibaba is not an admitted marketplace for salesEnabled. The USD column is a convenience translation and is not used. Fiscal year ended March 31, 2026; FX: the calendar-2025 average covers 9 of its 12 months.",
+ "researchedAt": "2026-11-24"
 }

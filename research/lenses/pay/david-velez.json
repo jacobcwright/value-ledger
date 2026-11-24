@@ -1,0 +1,31 @@
+{
+  "id": "david-velez",
+  "company": "Nu Holdings (Nubank)",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 10027,
+    "asOf": "2025-12-31",
+    "basis": "employees (full-time personnel)",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+      "label": "FY2025 Form 20-F, Item 6.D Employees",
+      "quote": "As of December 31, 2025, 2024 and 2023, we had 10,027, 8,716, and 7,686 employees, respectively."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Salaries and associated benefits",
+    "value": 0.506838,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+      "label": "FY2025 Form 20-F, Note 8 Operating (expenses) income, schedule of operating expenses 2025",
+      "quote": "Salaries and associated benefits ( 77,729 ) ( 409,300 ) ( 19,809 ) - - ( 506,838 ) [2025; customer support and operations, G&A, marketing, other expenses, other income, total; US$ thousands]"
+    }
+  },
+  "notes": "Employees: year-end count at December 31, 2025 from the 20-F (it breaks them down as full-time personnel by function). Payroll: Note 8's 'Salaries and associated benefits' line, total column, as reported (US$506.8 million). The same schedule shows share-based compensation (329,456) and 'Other personnel costs' (95,375) as separate lines; they are not added, since the filing gives no single staff-cost total. Nu is a foreign private issuer with no CEO pay ratio.",
+  "researchedAt": "2026-11-24"
+}

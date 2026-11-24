@@ -1,28 +1,28 @@
 {
   "id": "jeff-bezos",
   "company": "Amazon",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 12.31,
+      "value": 8.3,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes, net of refunds $ 6,035 $ 11,179 $ 12,308 Assets acquired under operating leases [USD millions; FY2024 is the 3rd figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 9 Income Taxes, components of cash paid for income taxes (in millions)",
+        "quote": "U.S. Federal $ 7,435 $ 7,630 $ 2,751 U.S. State 2,070 2,450 2,125 International 1,674 2,228 3,419 Total cash taxes paid, net of refunds $ 11,179 $ 12,308 $ 8,295 [USD millions; FY2025 is the 3rd figure in the row]",
         "xbrl": {
           "cik": "0001018724",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 12308000000
+          "end": "2025-12-31",
+          "value": 8295000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented. R&D not reported as a separate line. Amazon reports 'Technology and infrastructure' expense, which the 10-K says includes payroll for employees involved in research and development alongside store maintenance, AWS infrastructure and other costs; the filing does not call the line R&D, so it is not recorded.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the income-tax note's table of cash taxes paid (U.S. federal 2,751, U.S. state 2,125, international 3,419; total 8,295 million); the supplemental cash-flow lines show the same 8,295. The 10-K says the 2025 Tax Act (accelerated depreciation, immediate expensing of domestic R&D) significantly decreased cash taxes in 2025. R&D not reported as a separate line. Amazon reports 'Technology and infrastructure' expense (108,521 million in 2025), which the 10-K says includes payroll for employees involved in research and development alongside store maintenance, AWS infrastructure and other costs; the filing does not call the line R&D, so it is not recorded.",
+  "researchedAt": "2026-11-24"
 }

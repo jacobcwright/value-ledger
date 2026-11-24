@@ -1,8 +1,8 @@
 {
   "id": "bill-gates",
   "company": "Microsoft",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-06-30",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-06-30",
   "currency": "USD",
   "unit": "billions",
   "ecosystem": {
@@ -29,8 +29,8 @@
         }
       }
     ],
-    "notes": "Microsoft's FY2024 10-K has no flow measure for its partner ecosystem, so measure and platformRevenue are null. The only figure is an IDC multiplier (partner revenue per $1 of Microsoft revenue), which is a ratio, so value is null and both ratios are kept in the claim. The IDC study could not be fetched. The Microsoft partner-blog article that presented it (partner.microsoft.com/.../ai-value-for-partners) now 302-redirects to an author page. commissionedBy is null because no fetched document states who paid for the study. The Microsoft blog cites only the IDC title. A Microsoft Tech Community post fetched this session calls it 'A March 2025 IDC study', which conflicts with other dating, so year is null. The IDC multiplier is partner revenue, not money paid by Microsoft."
+    "notes": "Microsoft's FY2026 10-K, like the FY2024 one, has no flow measure for its partner ecosystem, so measure and platformRevenue are null. The only figure is an IDC multiplier (partner revenue per $1 of Microsoft revenue), which is a ratio, so value is null and both ratios are kept in the claim. The IDC study could not be fetched. The Microsoft partner-blog article that presented it (partner.microsoft.com/.../ai-value-for-partners) now 302-redirects to an author page. commissionedBy is null because no fetched document states who paid for the study. The Microsoft blog cites only the IDC title. A Microsoft Tech Community post fetched this session calls it 'A March 2025 IDC study', which conflicts with other dating, so year is null. The IDC multiplier is partner revenue, not money paid by Microsoft."
   },
-  "notes": "",
-  "researchedAt": "2026-11-23"
+  "notes": "The IDC study from the earlier edition is kept unchanged; the FY2026 10-K adds no ecosystem flow measure.",
+  "researchedAt": "2026-11-24"
 }

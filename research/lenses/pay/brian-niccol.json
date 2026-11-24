@@ -1,0 +1,31 @@
+{
+  "id": "brian-niccol",
+  "company": "Chipotle",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 130301,
+    "asOf": "2025-12-31",
+    "basis": "people employed worldwide (excludes 1,233 contract workers)",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, Chipotle employed 130,301 people worldwide and 1,233 contract workers. Of our employees, 127,116 worked in the United States"
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "annual total compensation of our median employee for 2025",
+    "value": 17446,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1058090/000114036126017294/ny20063214x1_def14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "This resulted in identification of a median employee with annual total compensation for 2025 of $17,446, which is the compensation for an hourly part-time employee who works roughly 24 hours per week at one of our restaurants in Texas"
+    }
+  },
+  "notes": "Employees: year-end head count from the FY2025 10-K, excluding 1,233 contract workers. Payroll: the income statement's 'Labor' line ($2,991.7 million in 2025) is restaurant labor only, a component of restaurant operating costs; salaries in general and administrative expenses are not included and no company-wide staff-cost total is disclosed, so it is not used. The proxy's CEO pay ratio median for 2025 (same year as the head count) is used instead; Chipotle says its median employee is an hourly part-time restaurant worker (about 24 hours a week), so the figure is not a full-time wage.",
+  "researchedAt": "2026-11-24"
+}

@@ -5,9 +5,9 @@
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "as of Sep 28, 2024",
+      "period": "as of Oct 3, 2026 (fiscal year end 2026)",
       "tier": "filing",
-      "definition": "'The Company employed approximately 233,000 people as of September 28, 2024, of which approximately 171,000 were employed in the U.S. and approximately 62,000 were employed outside the U.S.' Includes full-time, part-time and seasonal employees."
+      "definition": "'The Company employed approximately 234,000 people as of fiscal year end 2026, of which approximately 173,000 were employed in the U.S. and approximately 61,000 were employed outside the U.S.' Includes full-time (77%), part-time (15%) and seasonal (8%) employees."
     }
   },
   "usStates": null,
@@ -16,14 +16,14 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "employees": 171000
+        "employees": 173000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, Item 1 (Human Capital)",
-        "quote": "The Company employed approximately 233,000 people as of September 28, 2024, of which approximately 171,000 were employed in the U.S."
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, Item 1 (Human Capital)",
+        "quote": "The Company employed approximately 234,000 people as of fiscal year end 2026, of which approximately 173,000 were employed in the U.S."
       }
     }
   ],
@@ -32,14 +32,14 @@
       "name": "Outside the U.S.",
       "countries": null,
       "values": {
-        "employees": 62000
+        "employees": 61000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, Item 1 (Human Capital)",
-        "quote": "approximately 171,000 were employed in the U.S. and approximately 62,000 were employed outside the U.S."
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, Item 1 (Human Capital)",
+        "quote": "approximately 173,000 were employed in the U.S. and approximately 61,000 were employed outside the U.S."
       }
     }
   ],
@@ -50,12 +50,12 @@
       "state": "FL",
       "iso2": "US",
       "type": "theme park resort",
-      "description": "About 25,000 acres southwest of Orlando: Magic Kingdom, EPCOT, Disney's Hollywood Studios and Disney's Animal Kingdom; 18 owned resort hotels and vacation club properties with about 23,000 rooms.",
+      "description": "About 25,000 acres southwest of Orlando: Magic Kingdom, EPCOT, Disney's Hollywood Studios and Disney's Animal Kingdom; 18 owned resort hotels and vacation club properties with about 23,000 rooms and 3,900 vacation club units.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, Item 1 (Experiences)",
-        "quote": "The Walt Disney World Resort is located approximately 20 miles southwest of Orlando, Florida, on approximately 25,000 acres of land. … the Company owned and operated 18 resort hotels and vacation club properties at the Walt Disney World Resort, with approximately 23,000 rooms"
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, Item 1 (Experiences)",
+        "quote": "The Walt Disney World Resort is located approximately 20 miles southwest of Orlando, Florida, on approximately 25,000 acres of land. … As of October 3, 2026, the Company owned and operated 18 resort hotels and vacation club properties at the Walt Disney World Resort, with approximately 23,000 rooms and 3,900 vacation club units."
       }
     },
     {
@@ -64,12 +64,12 @@
       "state": "CA",
       "iso2": "US",
       "type": "theme park resort",
-      "description": "About 550 acres in Anaheim with Disneyland and Disney California Adventure, three resort hotels and Downtown Disney.",
+      "description": "About 550 acres in Anaheim with Disneyland and Disney California Adventure, hotels (three resort hotels and vacation club properties, about 2,400 rooms) and Downtown Disney.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, Item 1 (Experiences)",
-        "quote": "The Disneyland Resort is located in Anaheim, California on approximately 550 acres of land. The Disneyland Resort includes two theme parks (Disneyland and Disney California Adventure), three resort hotels and a retail, dining and entertainment complex (Downtown Disney)."
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, Item 1 (Experiences)",
+        "quote": "The Disneyland Resort is located in Anaheim, California on approximately 550 acres of land. The resort includes two theme parks (Disneyland and Disney California Adventure); hotels; and a retail, dining and entertainment complex (Downtown Disney). … As of October 3, 2026, the Company owned and operated three resort hotels and vacation club properties at the Disneyland Resort, with approximately 2,400 rooms and 180 vacation club units."
       }
     },
     {
@@ -81,9 +81,9 @@
       "description": "Family resort on a 21 acre oceanfront property with about 350 hotel rooms and about 480 vacation club units.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, Item 1 (Experiences)",
-        "quote": "Aulani, a Disney Resort & Spa is a family resort on a 21 acre oceanfront property on Oahu, Hawaii featuring approximately 350 hotel rooms"
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, Item 1 (Experiences)",
+        "quote": "Aulani, a Disney Resort & Spa, is a family resort on a 21 acre oceanfront property on Oahu, Hawaii featuring approximately 480 vacation club units, 350 hotel rooms"
       }
     },
     {
@@ -92,12 +92,12 @@
       "state": null,
       "iso2": "FR",
       "type": "theme park resort",
-      "description": "About 5,200 acres east of Paris with Disneyland Park, Walt Disney Studios Park and seven themed resort hotels (about 5,750 rooms).",
+      "description": "A 5,200-acre site east of Paris with Disneyland Park, Disney Adventure World and seven resort hotels (about 5,750 rooms).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, Item 1 (Experiences)",
-        "quote": "Disneyland Paris is located approximately 20 miles east of Paris, France in Marne-la-Vallée, on approximately 5,200 acres. … Disneyland Paris operates seven resort hotels, with approximately 5,750 rooms"
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, Item 1 (Experiences)",
+        "quote": "Disneyland Paris is located approximately 20 miles east of Paris, France in Marne-la-Vallée on a 5,200-acre site … Disneyland Paris' operations include two theme parks (Disneyland Park and Disney Adventure World) … Disneyland Paris operates seven resort hotels, with approximately 5,750 rooms"
       }
     },
     {
@@ -106,12 +106,12 @@
       "state": null,
       "iso2": "HK",
       "type": "theme park resort",
-      "description": "48% owned by Disney (52% by the HKSAR Government); one theme park and three themed hotels on 310 acres.",
+      "description": "48% owned by Disney (52% by the HKSAR Government); a theme park and hotels on about 310 acres.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, Item 1 (Experiences)",
-        "quote": "The Company owns a 48% interest in Hong Kong Disneyland Resort and the Government of the Hong Kong Special Administrative Region (HKSAR) owns a 52% interest. The resort is located on Lantau Island on 310 acres"
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, Item 1 (Experiences)",
+        "quote": "The Company owns a 48% interest in Hong Kong Disneyland Resort and the Government of the Hong Kong Special Administrative Region (HKSAR) owns a 52% interest. The resort is located on Lantau Island on approximately 310 acres of land"
       }
     },
     {
@@ -120,11 +120,11 @@
       "state": null,
       "iso2": "CN",
       "type": "theme park resort",
-      "description": "43% owned by Disney (57% by Shendi); Shanghai Disneyland, two themed hotels and Disneytown on about 1,000 acres.",
+      "description": "43% owned by Disney (57% by Shendi); Shanghai Disneyland, hotels and Disneytown on about 1,000 acres.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, Item 1 (Experiences)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, Item 1 (Experiences)",
         "quote": "The Company owns a 43% interest in Shanghai Disney Resort and Shanghai Shendi (Group) Co., Ltd (Shendi) owns a 57% interest. The resort is located in the Pudong district of Shanghai on approximately 1,000 acres of land"
       }
     },
@@ -134,26 +134,26 @@
       "state": null,
       "iso2": "JP",
       "type": "licensed theme park resort",
-      "description": "Owned and operated by Oriental Land Co., a third party; Disney earns royalties. Tokyo Disneyland and Tokyo DisneySea on 494 acres.",
+      "description": "Owned and operated by Oriental Land Co., a third party; Disney earns royalties. Tokyo Disneyland and Tokyo DisneySea on about 500 acres.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, Item 1 (Experiences)",
-        "quote": "Tokyo Disney Resort is located on 494 acres of land, six miles east of downtown Tokyo, Japan. The Company earns royalties on revenues generated by the Tokyo Disney Resort, which is owned and operated by Oriental Land Co., Ltd. (OLC)"
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, Item 1 (Experiences)",
+        "quote": "Tokyo Disney Resort is located six miles east of downtown Tokyo, Japan, on approximately 500 acres of land. The Company earns royalties on revenues generated by the Tokyo Disney Resort, which is owned and operated by Oriental Land Co., Ltd. (OLC)"
       }
     },
     {
-      "name": "Disney's Castaway Cay",
+      "name": "Disney Castaway Cay",
       "place": "The Bahamas",
       "state": null,
       "iso2": "BS",
       "type": "cruise destination",
-      "description": "A 1,000-acre private Bahamian island visited by many Disney Cruise Line sailings (six-ship fleet).",
+      "description": "A 1,000-acre private Bahamian island visited by many Disney Cruise Line sailings (eight-ship fleet).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, Item 1 (Experiences)",
-        "quote": "Disney Cruise Line is a six-ship vacation cruise line … Many cruise vacations include a visit to Disney’s Castaway Cay, a 1,000-acre private Bahamian island"
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, Item 1 (Experiences)",
+        "quote": "Disney Cruise Line operates eight ships … Many cruises include a visit to Disney Castaway Cay, a 1,000-acre private Bahamian island"
       }
     },
     {
@@ -162,15 +162,15 @@
       "state": "CA",
       "iso2": "US",
       "type": "headquarters",
-      "description": "Owned land (201 acres) and buildings (4,733,000 square feet) in Burbank and surrounding cities: office, production and warehouse.",
+      "description": "Owned land (182 acres) and buildings (4,733,000 square feet) in Burbank and surrounding cities: office, production and warehouse.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, Item 2. Properties",
-        "quote": "Burbank, CA & surrounding cities(1) | Land (201 acres) & Buildings (4,733,000 ft2) | Owned Office/Production/Warehouse"
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, Item 2. Properties",
+        "quote": "Burbank, CA & surrounding cities (1) | Land (182 acres) & Buildings (4,733,000 ft 2 ) | Owned Office/Production/Warehouse"
       }
     }
   ],
-  "notes": "Disney's 10-K gives employees only as U.S. versus outside the U.S.; it does not break out employees, investment or taxes by state or country. Sites are the parks and resorts as described in the FY2024 10-K (Item 1, Experiences) plus the Burbank property from Item 2. Hong Kong and Shanghai are joint ventures (Disney 48% and 43%); Tokyo Disney Resort is licensed and owned by Oriental Land Co. Not checked: Disney-commissioned economic impact studies of individual resorts (e.g. Walt Disney World in Florida), which would be tier company-commissioned. Revenue by geography is in the records and not repeated.",
-  "researchedAt": "2026-11-23"
+  "notes": "Disney's FY2026 10-K (fiscal year ended Oct 3, 2026) gives employees only as U.S. versus outside the U.S. (173,000 and 61,000 of about 234,000); it does not break out employees, investment or taxes by state or country. Sites are the parks and resorts as described in the FY2026 10-K (Item 1, Experiences) plus the Burbank property from Item 2. Hong Kong and Shanghai are joint ventures (Disney 48% and 43%); Tokyo Disney Resort is licensed and owned by Oriental Land Co. The 10-K also names Disney Lookout Cay at Lighthouse Point (about 600 acres on Eleuthera, Bahamas) and a planned Miral-built, Disney-licensed resort in Abu Dhabi; neither is listed as a site. Not checked: Disney-commissioned economic impact studies of individual resorts (e.g. Walt Disney World in Florida), which would be tier company-commissioned. Revenue by geography is in the records and not repeated.",
+  "researchedAt": "2026-11-24"
 }

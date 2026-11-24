@@ -1,13 +1,13 @@
 {
   "id": "walt-disney",
   "company": "The Walt Disney Company",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-09-28",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-10-03",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-01-16",
+    "asOf": "2026-01-15",
     "leader": {
       "name": "Walt Disney",
       "relation": "co-founder",
@@ -22,108 +22,108 @@
       {
         "name": "The Vanguard Group",
         "type": "asset-manager",
-        "pctEconomic": 8.4,
+        "pctEconomic": 8.5,
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000059/dis-20250123.htm",
-          "label": "Notice of 2025 Annual Meeting and Proxy Statement, Other Information, Stock Ownership (p. 95)",
-          "quote": "Applicable percentage ownership is based on 1,808,091,976 shares outstanding as of January 16, 2025. ... The Vanguard Group ... 151,434,588 1 8.4% [footnote 1: according to Vanguard's Schedule 13G/A filing with the SEC]"
+          "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000013/dis-20260122.htm",
+          "label": "Notice of 2026 Annual Meeting and Proxy Statement, Other Information, Stock Ownership",
+          "quote": "Applicable percentage ownership is based on 1,771,884,175 shares outstanding as of January 15, 2026. ... The Vanguard Group ... 151,434,588 1 8.5% [footnote 1: according to Vanguard's Schedule 13G/A filing with the SEC]"
         }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 6.8,
+        "pctEconomic": 6.9,
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000059/dis-20250123.htm",
-          "label": "Notice of 2025 Annual Meeting and Proxy Statement, Other Information, Stock Ownership (p. 95)",
-          "quote": "Blackrock, Inc. ... 122,883,021 2 6.8% [footnote 2: according to Blackrock's Schedule 13G/A filing with the SEC]"
+          "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000013/dis-20260122.htm",
+          "label": "Notice of 2026 Annual Meeting and Proxy Statement, Other Information, Stock Ownership",
+          "quote": "Blackrock, Inc. ... 122,883,021 2 6.9% [footnote 2: according to Blackrock's Schedule 13G/A filing with the SEC]"
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock; 1,808,091,976 shares were outstanding on January 16, 2025. Vanguard (8.4%) and BlackRock (6.8%) are the only holders of more than 5%. All directors, nominees and executive officers as a group hold less than 1%."
+      "note": "One class of common stock; 1,771,884,175 shares were outstanding on January 15, 2026. Vanguard (8.5%) and BlackRock (6.9%) are the only holders of more than 5%. All directors, nominees and executive officers as a group (15 persons) hold less than 1%."
     }
   },
   "cash": {
     "dividends": {
-      "value": 1.37,
+      "value": 2.63,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "FINANCING ACTIVITIES ... Dividends (1,366) — — [in millions, 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "FINANCING ACTIVITIES ... Dividends ( 2,634 ) ( 1,803 ) ( 1,366 ) [in millions, 2026, 2025, 2024]",
         "xbrl": {
           "cik": "0001744489",
           "concept": "us-gaap:PaymentsOfDividendsCommonStock",
-          "end": "2024-09-28",
-          "value": 1366000000
+          "end": "2026-10-03",
+          "value": 2634000000
         }
       }
     },
     "buybacks": {
-      "value": 2.99,
+      "value": 9.0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Repurchases of common stock (2,992) — — [in millions, 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchases of common stock ( 9,000 ) ( 3,500 ) ( 2,992 ) [in millions, 2026, 2025, 2024]",
         "xbrl": {
           "cik": "0001744489",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2024-09-28",
-          "value": 2992000000
+          "end": "2026-10-03",
+          "value": 9000000000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 1.37,
+      "value": 1.65,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-        "label": "FY2024 Form 10-K, Note 12 Equity-Based Compensation",
-        "quote": "Total equity-based compensation expense(1) 1,366 1,143 977 [in millions, 2024, 2023, 2022] ... (1)Equity-based compensation expense is net of capitalized equity-based compensation and estimated forfeitures",
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, Note 12 Equity-Based Compensation",
+        "quote": "Total equity-based compensation expense (1) 1,645 1,363 1,366 [in millions, 2026, 2025, 2024] ... (1) Equity-based compensation expense is net of capitalized equity-based compensation and estimated forfeitures",
         "xbrl": {
           "cik": "0001744489",
           "concept": "us-gaap:AllocatedShareBasedCompensationExpense",
-          "end": "2024-09-28",
-          "value": 1366000000
+          "end": "2026-10-03",
+          "value": 1645000000
         }
       }
     },
     "plan": null
   },
   "geography": {
-    "basis": "Revenues by geographical markets",
+    "basis": "Revenues by primary geographical markets (generally based on where rights have been granted for exploitation or the physical location of the revenue-generating activity)",
     "segments": [
       {
         "name": "Americas",
-        "value": 72.16
+        "value": 82.07
       },
       {
         "name": "Europe",
-        "value": 10.28
+        "value": 12.49
       },
       {
         "name": "Asia Pacific",
-        "value": 8.92
+        "value": 7.79
       }
     ],
-    "total": 91.36,
+    "total": 102.34,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
-      "label": "FY2024 Form 10-K, Note 1 Description of the Business and Segment Information, revenues by geographical markets",
-      "quote": "The following table presents our revenues and segment operating income by geographical markets: 2024 2023 2022 Revenues Americas $ 72,162 $ 71,205 $ 68,218 Europe 10,279 9,533 8,680 Asia Pacific 8,920 8,160 6,847 $ 91,361 $ 88,898 $ 83,745"
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+      "label": "FY2026 Form 10-K, Note 3 Revenues, revenues by segment and primary geographical markets (Total column, fiscal 2026)",
+      "quote": "The following table presents our revenues by segment and primary geographical markets, which is generally based on where rights have been granted for exploitation or the physical location of the revenue-generating activity, as applicable: 2026 Entertainment Sports Experiences Eliminations Total Americas (1) $ 36,526 $ 18,253 $ 29,708 $ ( 2,416 ) $ 82,071 Europe 7,236 301 4,951 — 12,488 Asia Pacific 2,800 78 4,907 — 7,785"
     }
   },
-  "notes": "Fiscal year ended September 28, 2024 (matches data.js fy 'Sep 2024'). Filings: FY2024 Form 10-K (accession 0001744489-24-000276) and the 2025 proxy statement filed January 23, 2025 (accession 0001744489-25-000059), both read on www.sec.gov. WALT DISNEY is deceased. The proxy's stock ownership section lists only Vanguard and BlackRock as 5% holders and no Disney family member, trust or foundation, so family is null. HOLDER DATES: the proxy cites each firm's Schedule 13G/A without giving its date or as-of date, so asOf is null. DIVIDENDS: Disney resumed dividends in fiscal 2024 after paying none in fiscal 2023 and 2022. The dividend and stock-comp figures are both $1,366 million; this is a coincidence of the filing, and each was checked separately. STOCK COMP is net of $201 million capitalized. GEOGRAPHY: the fiscal 2024 total of $91,361 million matches consolidated revenue; the 2022 column in the same table shows a separate content-license early-termination adjustment.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended October 3, 2026, a 53-week year (the 10-K: 'Fiscal 2026 results include the benefit from a fifty-third week of operations'); data.js fy reads 'Sep 2026'. This edition skips fiscal 2025. Filings: FY2026 Form 10-K (accession 0001744489-26-000066, filed November 17, 2026) and the 2026 proxy statement filed January 22, 2026 (accession 0001744489-26-000013), the latest proxy, both read on www.sec.gov. WALT DISNEY is deceased. The proxy's stock ownership section lists only Vanguard and BlackRock as 5% holders and no Disney family member, trust or foundation, so family is null. HOLDER DATES: the proxy cites each firm's Schedule 13G/A without giving its date or as-of date, so asOf is null; the share counts are unchanged from the 2025 proxy, so the filings are probably stale. BUYBACKS were $9.0 billion ($3.5 billion in fiscal 2025); dividends were $2.6 billion. STOCK COMP is net of $199 million capitalized. GEOGRAPHY: the Total column of the revenue note (Americas, of which over 90% is the United States; Europe; Asia Pacific), summing to total revenues of $102,344 million. Robert Iger was CEO until Joshua D'Amaro was appointed effective March 18, 2026 (10-K executive officers list).",
+  "researchedAt": "2026-11-24"
 }
