@@ -1,0 +1,161 @@
+{
+  "id": "lloyd-blankfein",
+  "company": "Goldman Sachs",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "bank",
+  "comparable": false,
+  "inputs": {
+    "revenue": {
+      "value": 53.512,
+      "stated": 53512,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Interest expense 73,341 62,164 21,346 Net interest income 8,056 6,351 7,678 Total net revenues 53,512 46,254 47,365 Provision for credit losses 1,348 1,028 2,715",
+        "xbrl": {
+          "cik": "0000886982",
+          "concept": "us-gaap:RevenuesNetOfInterestExpense",
+          "end": "2024-12-31",
+          "value": 53512000000
+        }
+      },
+      "note": "Net of interest expense (73,341)."
+    },
+    "operatingCashFlow": {
+      "value": -13.212,
+      "stated": -13212,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by/(used for) operating activities ( 13,212 ) ( 12,587 ) 8,708",
+        "xbrl": {
+          "cik": "0000886982",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": -13212000000
+        }
+      }
+    },
+    "capex": {
+      "value": 2.091,
+      "components": [
+        "property, leasehold improvements and equipment 2.091"
+      ],
+      "stated": 2091,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Purchase of property, leasehold improvements and equipment ( 2,091 ) ( 2,316 ) ( 3,748 )",
+        "xbrl": {
+          "cik": "0000886982",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-12-31",
+          "value": 2091000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 72.623,
+      "inOCF": true,
+      "stated": 72623,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Supplemental disclosures: Cash payments for interest, net of capitalized interest $ 72,623 $ 60,026 $ 19,022 Cash payments for income taxes, net $ 3,673 $ 2,389 $ 4,555",
+        "xbrl": {
+          "cik": "0000886982",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-12-31",
+          "value": 72623000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 3.673,
+      "inOCF": true,
+      "stated": 3673,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Supplemental disclosures: Cash payments for interest, net of capitalized interest $ 72,623 $ 60,026 $ 19,022 Cash payments for income taxes, net $ 3,673 $ 2,389 $ 4,555",
+        "xbrl": {
+          "cik": "0000886982",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 3673000000
+        }
+      }
+    },
+    "noninterestExpense": {
+      "value": 33.767,
+      "stated": 33767,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Other expenses 2,683 3,210 2,716 Total operating expenses 33,767 34,487 31,164",
+        "xbrl": {
+          "cik": "0000886982",
+          "concept": "us-gaap:NoninterestExpense",
+          "end": "2024-12-31",
+          "value": 33767000000
+        }
+      },
+      "note": "Goldman's \"Total operating expenses\" is its noninterest expense; the provision for credit losses (1,348) is a separate line."
+    },
+    "da": {
+      "value": 2.392,
+      "stated": 2392,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Depreciation and amortization 2,392 4,856 2,455",
+        "xbrl": {
+          "cik": "0000886982",
+          "concept": "us-gaap:DepreciationAndAmortization",
+          "end": "2024-12-31",
+          "value": 2392000000
+        }
+      }
+    },
+    "stockComp": {
+      "value": 2.663,
+      "stated": 2663,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Share-based compensation 2,663 2,085 4,083",
+        "xbrl": {
+          "cik": "0000886982",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2024-12-31",
+          "value": 2663000000
+        }
+      },
+      "note": "Cash-flow add-back, as in the BofA pilot; Note 29 states share-based compensation of 2,772 (used in research/records)."
+    }
+  },
+  "paidOut": null,
+  "altPaidOut": 32.385,
+  "altPaidOutFormula": "33.767 − 2.392 − 2.663 + 3.673",
+  "interestPaidSeparately": 72.623,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Bank/broker: paidOut not comparable. altPaidOut = noninterest expense − D&A − stock comp + income taxes paid; interest paid (72.6bn) shown separately.",
+  "researchedAt": "2026-11-23"
+}

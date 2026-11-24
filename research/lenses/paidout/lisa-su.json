@@ -1,0 +1,109 @@
+{
+  "id": "lisa-su",
+  "company": "AMD",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-28",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "tech",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 25.785,
+      "stated": 25785,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Net revenue $ 25,785 $ 22,680 $ 23,601",
+        "xbrl": {
+          "cik": "0000002488",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2024-12-28",
+          "value": 25785000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 3.041,
+      "stated": 3041,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities 3,041 1,667 3,565",
+        "xbrl": {
+          "cik": "0000002488",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-28",
+          "value": 3041000000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.636,
+      "components": [
+        "PP&E 0.636"
+      ],
+      "stated": 636,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Cash flows from investing activities: Purchases of property and equipment ( 636 ) ( 546 ) ( 450 )",
+        "xbrl": {
+          "cik": "0000002488",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-12-28",
+          "value": 636000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.072,
+      "inOCF": true,
+      "stated": 72,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid during the year for: Interest $ 72 $ 84 $ 85 Income taxes, net of refund $ 1,386 $ 523 $ 685",
+        "xbrl": {
+          "cik": "0000002488",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-12-28",
+          "value": 72000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 1.386,
+      "inOCF": true,
+      "stated": 1386,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid during the year for: Interest $ 72 $ 84 $ 85 Income taxes, net of refund $ 1,386 $ 523 $ 685",
+        "xbrl": {
+          "cik": "0000002488",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-28",
+          "value": 1386000000
+        }
+      }
+    }
+  },
+  "paidOut": 23.38,
+  "paidOutFormula": "25.785 − 3.041 + 0.636",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Fiscal year ended December 28, 2024.",
+  "researchedAt": "2026-11-23"
+}

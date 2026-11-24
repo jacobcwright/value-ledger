@@ -1,0 +1,198 @@
+{
+ "id": "herbert-diess",
+ "company": "Volkswagen AG",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "EUR",
+ "unit": "billions",
+ "statedUnit": "€ million",
+ "sector": "industrial",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 324.656,
+   "stated": 324656,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+    "label": "Consolidated Financial Statements 2024, income statement of the Volkswagen Group (€ million)",
+    "quote": "Sales revenue 1 324,656 322,284"
+   }
+  },
+  "operatingCashFlow": {
+   "value": 17.151,
+   "stated": 17151,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+    "label": "Consolidated Financial Statements 2024, cash flow statement of the Volkswagen Group (€ million)",
+    "quote": "Change in lease assets –19,358 –14,964 Change in financial services receivables –9,061 –13,332 Cash flows from operating activities 17,151 19,356"
+   }
+  },
+  "capex": {
+   "value": 27.446,
+   "components": [
+    "PP&E, investment property and intangibles excl. development costs (one combined line) 17.202",
+    "capitalised development costs 10.244"
+   ],
+   "parts": [
+    {
+     "label": "PP&E, investment property and intangibles excl. development costs (one combined line)",
+     "value": 17.202,
+     "stated": 17202,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+      "label": "Consolidated Financial Statements 2024, cash flow statement of the Volkswagen Group (€ million)",
+      "quote": "Investments in intangible assets (excluding development costs), property, plant and equipment, and investment property –17,202 –14,653"
+     }
+    },
+    {
+     "label": "capitalised development costs",
+     "value": 10.244,
+     "stated": 10244,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+      "label": "Consolidated Financial Statements 2024, cash flow statement of the Volkswagen Group (€ million)",
+      "quote": "Additions to capitalized development costs –10,244 –11,142"
+     }
+    }
+   ],
+   "note": "PP&E and non-development intangibles are reported only as one combined line (it also includes investment property). Capitalised development costs are added as intangibles. Excludes acquisitions of subsidiaries (284) and other equity investments (2,152). Lease-fleet additions are not in investing at all: VW books them in operating cash flow as 'Change in lease assets' (see flags)."
+  },
+  "interestPaid": {
+   "value": 8.78,
+   "stated": 8780,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+    "label": "Consolidated Financial Statements 2024, note 35 Cash flow statement (€ million)",
+    "quote": "In the fiscal year, cash flows from operating activities include interest received amounting to €14,943 million (previous year: €12,567 million) and interest paid amounting to €8,780 million"
+   },
+   "inOCF": true,
+   "location": "operating activities (note 35)"
+  },
+  "taxesPaid": {
+   "value": 6.187,
+   "stated": 6187,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+    "label": "Consolidated Financial Statements 2024, cash flow statement of the Volkswagen Group (€ million)",
+    "quote": "Income taxes paid –6,187 –7,716"
+   },
+   "inOCF": true,
+   "location": "operating activities"
+  },
+  "leasePrincipalPaid": {
+   "value": 1.334,
+   "stated": 1334,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+    "label": "Consolidated Financial Statements 2024, cash flow statement of the Volkswagen Group (€ million)",
+    "quote": "Repayments of lease liabilities –1,334 –1,190 Cash flows from financing activities 11,140 16,008"
+   },
+   "added": false,
+   "note": "IFRS 16 lease principal (VW as lessee) in financing; noted, not added (0.4% of paidOut)."
+  }
+ },
+ "paidOut": 334.951,
+ "paidOutFormula": "324,656 − 17,151 + 27,446 (17,202 PP&E/intangibles/investment property + 10,244 capitalised development) = 334,951 € million (interest and taxes paid are inside OCF)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": {
+   "value": 28.419,
+   "components": [
+    "change in lease assets 19.358",
+    "change in financial services receivables 9.061"
+   ],
+   "parts": [
+    {
+     "label": "change in lease assets (vehicles leased out)",
+     "value": 19.358,
+     "stated": 19358,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+      "label": "Consolidated Financial Statements 2024, cash flow statement of the Volkswagen Group (€ million)",
+      "quote": "Change in lease assets –19,358 –14,964"
+     }
+    },
+    {
+     "label": "change in financial services receivables",
+     "value": 9.061,
+     "stated": 9061,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+      "label": "Consolidated Financial Statements 2024, cash flow statement of the Volkswagen Group (€ million)",
+      "quote": "Change in financial services receivables –9,061 –13,332"
+     }
+    }
+   ],
+   "divisional": {
+    "value": 15.832,
+    "stated": 15832,
+    "divisor": 1000,
+    "source": {
+     "hostType": "company",
+     "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+     "label": "Consolidated Financial Statements 2024 (group management report section), cash flow statement by division: Group, Automotive, Financial Services (€ million)",
+     "quote": "Cash flows from operating activities 17,151 19,356 32,983 37,851 –15,832 –18,495"
+    },
+    "note": "Group 17,151 = Automotive 32,983 + Financial Services −15,832 (2024). Financial Services' negative OCF is mostly lease-fleet and loan growth."
+   },
+   "note": "VW books growth in leased-out vehicles and in financial-services loans inside operating cash flow (note 35: OCF 'also include changes in lease assets and in financial services receivables'). These 28,419 € million of outflows lower OCF and so raise paidOut by 8.5% of paidOut; they are financing assets, not payments to others. This is why paidOut exceeds revenue. Recorded, not adjusted."
+  },
+  "interestDividendsReceivedInOCF": {
+   "value": 17.557,
+   "components": [
+    "interest received 14.943",
+    "dividends from joint ventures and associates 2.614"
+   ],
+   "parts": [
+    {
+     "label": "interest received",
+     "value": 14.943,
+     "stated": 14943,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+      "label": "Consolidated Financial Statements 2024, note 35 Cash flow statement (€ million)",
+      "quote": "cash flows from operating activities include interest received amounting to €14,943 million"
+     }
+    },
+    {
+     "label": "dividends received from joint ventures and associates",
+     "value": 2.614,
+     "stated": 2614,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+      "label": "Consolidated Financial Statements 2024, note 35 Cash flow statement (€ million)",
+      "quote": "Cash flows from operating activities also include dividend payments (net of withholding tax) received from joint ventures and associates of €2,614 million"
+     }
+    }
+   ],
+   "note": "Inside OCF, lowering paidOut by this amount (5.2%). Much of the interest received is Financial Services' lending income, which is also partly in sales revenue."
+  },
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "IFRS. Interest paid (8,780) and interest received (14,943) are classified in operating activities per note 35; income taxes paid are in operating. Nothing is added. Two large captive-finance biases run in opposite directions: lease-asset and financial-services-receivable growth in OCF (+28,419 to paidOut) and interest/dividends received in OCF (−17,557). Sales revenue includes Financial Services revenue (58,769, mostly leasing and interest income). Not like-for-like with automakers that book lease fleets in investing (e.g. GM).",
+ "researchedAt": "2026-11-23"
+}

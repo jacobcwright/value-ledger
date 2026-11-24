@@ -1,0 +1,109 @@
+{
+ "id": "james-quincey",
+ "company": "The Coca-Cola Company",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "consumer",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 47.061,
+   "stated": 47061,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
+    "quote": "Net Operating Revenues $ 47,061 $ 45,754 $ 43,004 Cost of goods sold",
+    "xbrl": {
+     "cik": "0000021344",
+     "concept": "us-gaap:Revenues",
+     "end": "2024-12-31",
+     "value": 47061000000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 6.805,
+   "stated": 6805,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Net change in operating assets and liabilities ( 6,234 ) ( 846 ) ( 605 ) Net Cash Provided by Operating Activities 6,805 11,599 11,018",
+    "xbrl": {
+     "cik": "0000021344",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 6805000000
+    }
+   }
+  },
+  "capex": {
+   "value": 2.064,
+   "components": [
+    "PP&E 2.064"
+   ],
+   "stated": 2064,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Purchases of property, plant and equipment ( 2,064 ) ( 1,852 ) ( 1,484 )",
+    "xbrl": {
+     "cik": "0000021344",
+     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+     "end": "2024-12-31",
+     "value": 2064000000
+    }
+   }
+  },
+  "interestPaid": {
+   "value": 1.669,
+   "stated": 1669,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
+    "label": "FY2024 Form 10-K, notes to the consolidated financial statements (in millions)",
+    "quote": "interest paid was $ 1,669 million, $ 1,415 million and $ 848 million in 2024, 2023 and 2022, respectively",
+    "xbrl": {
+     "cik": "0000021344",
+     "concept": "us-gaap:InterestPaid",
+     "end": "2024-12-31",
+     "value": 1669000000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 3.262,
+   "stated": 3262,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
+    "label": "FY2024 Form 10-K, notes to the consolidated financial statements (in millions)",
+    "quote": "We made income tax payments of $ 3,262 million, $ 2,580 million and $ 2,403 million in 2024, 2023 and 2022, respectively",
+    "xbrl": {
+     "cik": "0000021344",
+     "concept": "us-gaap:IncomeTaxesPaid",
+     "end": "2024-12-31",
+     "value": 3262000000
+    }
+   }
+  }
+ },
+ "paidOut": 42.32,
+ "paidOutFormula": "revenue 47,061 − operating cash flow 6,805 + capex 2,064 (USD millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Operating cash flow fell to 6,805 from 11,599 in 2023 (net change in operating assets and liabilities −6,234), so the single-year figure is high relative to a normal year. Acquisitions of businesses and equity investments (315) excluded.",
+ "researchedAt": "2026-11-23"
+}

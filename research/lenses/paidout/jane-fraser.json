@@ -1,0 +1,173 @@
+{
+  "id": "jane-fraser",
+  "company": "Citigroup",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "bank",
+  "comparable": false,
+  "inputs": {
+    "revenue": {
+      "value": 81.139,
+      "stated": 81139,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Total non-interest revenues $ 27,044 $ 23,562 $ 26,670 Total revenues, net of interest expense $ 81,139 $ 78,462 $ 75,338",
+        "xbrl": {
+          "cik": "0000831001",
+          "concept": "us-gaap:Revenues",
+          "end": "2024-12-31",
+          "value": 81139000000
+        }
+      },
+      "note": "Net of interest expense. companyfacts also carries 80,722 for this date from the FY2025 10-K (recast); the FY2024 10-K value is used."
+    },
+    "operatingCashFlow": {
+      "value": -19.669,
+      "stated": -19669,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by (used in) operating activities of continuing operations $ ( 19,669 ) $ ( 73,416 ) $ 25,069",
+        "xbrl": {
+          "cik": "0000831001",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": -19669000000
+        }
+      }
+    },
+    "capex": {
+      "value": 6.5,
+      "components": [
+        "premises, equipment and capitalized software (combined line) 6.5"
+      ],
+      "stated": 6500,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Capital expenditures on premises and equipment and capitalized software ( 6,500 ) ( 6,583 ) ( 5,632 )",
+        "xbrl": {
+          "cik": "0000831001",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-12-31",
+          "value": 6500000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 88.027,
+      "inOCF": true,
+      "stated": 88027,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid during the year for income taxes (3) $ 5,798 $ 5,727 $ 3,733 Cash paid during the year for interest 88,027 72,989 22,615",
+        "xbrl": {
+          "cik": "0000831001",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-12-31",
+          "value": 88027000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 5.798,
+      "inOCF": true,
+      "stated": 5798,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid during the year for income taxes (3) $ 5,798 $ 5,727 $ 3,733 Cash paid during the year for interest 88,027 72,989 22,615",
+        "xbrl": {
+          "cik": "0000831001",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 5798000000
+        }
+      }
+    },
+    "noninterestExpense": {
+      "value": 53.984,
+      "stated": 53984,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Total provisions for credit losses and for benefits and claims (1) $ 10,109 $ 9,186 $ 5,239 Operating expenses Compensation and benefits $ 28,542 $ 29,232 $ 26,655 Technology/communication 9,035 9,106 8,587 Transactional and tax charges 3,574 3,218 2,848 Premises and equipment 2,438 2,508 2,320 Professional services 2,016 2,078 2,481 Advertising and marketing 1,113 1,393 1,556 Restructuring 259 781 - Other operating 7,007 8,050 6,845 Total operating expenses $ 53,984 $ 56,366 $ 51,292",
+        "xbrl": {
+          "cik": "0000831001",
+          "concept": "us-gaap:NoninterestExpense",
+          "end": "2024-12-31",
+          "value": 53984000000
+        }
+      },
+      "note": "Citi labels noninterest expense \"Total operating expenses\"; provisions for credit losses (10,109) are a separate line above it. companyfacts also carries 53,567 for this date from the FY2025 10-K (recast); the FY2024 10-K value is used."
+    },
+    "da": {
+      "value": 4.311,
+      "stated": 4311,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Depreciation and amortization 4,311 4,560 4,262",
+        "xbrl": {
+          "cik": "0000831001",
+          "concept": "us-gaap:DepreciationAmortizationAndAccretionNet",
+          "end": "2024-12-31",
+          "value": 4311000000
+        }
+      }
+    },
+    "stockComp": {
+      "value": 0.848,
+      "derived": {
+        "method": "immediately vested stock award expense + amortization of restricted and deferred stock awards (the two lines of the incentive-compensation table that are stock awards)",
+        "inputs": [
+          {
+            "value": 0.13,
+            "stated": 130,
+            "source": {
+              "hostType": "sec",
+              "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm",
+              "label": "FY2024 Form 10-K, incentive compensation note (in millions)",
+              "quote": "Charges for estimated awards to retirement-eligible employees $ 741 $ 663 $ 742 Amortization of deferred cash awards, deferred cash stock units and performance stock units 186 340 463 Immediately vested stock award expense (1) 130 127 101 Amortization of restricted and deferred stock awards (2) 718 689 533"
+            }
+          },
+          {
+            "value": 0.718,
+            "stated": 718,
+            "source": {
+              "hostType": "sec",
+              "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm",
+              "label": "FY2024 Form 10-K, incentive compensation note (in millions)",
+              "quote": "Charges for estimated awards to retirement-eligible employees $ 741 $ 663 $ 742 Amortization of deferred cash awards, deferred cash stock units and performance stock units 186 340 463 Immediately vested stock award expense (1) 130 127 101 Amortization of restricted and deferred stock awards (2) 718 689 533"
+            }
+          }
+        ]
+      },
+      "note": "Citi does not state a single share-based compensation figure, its cash-flow statement has no stock-comp add-back, and companyfacts has no ShareBasedCompensation fact for FY2024. Two other lines of the same table mix cash and stock: charges for estimated awards to retirement-eligible employees (741) and amortization of deferred cash awards, deferred cash stock units and performance stock units (186). If all of both were stock, altPaidOut would be 0.927bn lower."
+    }
+  },
+  "paidOut": null,
+  "altPaidOut": 54.623,
+  "altPaidOutFormula": "53.984 − 4.311 − 0.848 + 5.798",
+  "interestPaidSeparately": 88.027,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Bank: paidOut not comparable. altPaidOut = noninterest expense − D&A − stock comp + income taxes paid; interest paid (88.0bn, mostly to depositors and funding counterparties) is shown separately. Noninterest expense includes transactional and tax charges (3,574).",
+  "researchedAt": "2026-11-23"
+}

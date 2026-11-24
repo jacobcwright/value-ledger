@@ -1,0 +1,109 @@
+{
+  "id": "phil-knight",
+  "company": "Nike",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-05-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "apparel",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 46.309,
+      "stated": 46309,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Revenues $ 46,309 $ 51,362 $ 51,217",
+        "xbrl": {
+          "cik": "0000320187",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2025-05-31",
+          "value": 46309000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 3.698,
+      "stated": 3698,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Cash provided (used) by operations 3,698 7,429 5,841",
+        "xbrl": {
+          "cik": "0000320187",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2025-05-31",
+          "value": 3698000000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.43,
+      "components": [
+        "PP&E 0.43"
+      ],
+      "stated": 430,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Additions to property, plant and equipment ( 430 ) ( 812 ) ( 969 )",
+        "xbrl": {
+          "cik": "0000320187",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2025-05-31",
+          "value": 430000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.389,
+      "inOCF": true,
+      "stated": 389,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid during the year for: Interest, net of capitalized interest $ 389 $ 381 $ 347 Income taxes 1,226 1,299 1,517",
+        "xbrl": {
+          "cik": "0000320187",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2025-05-31",
+          "value": 389000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 1.226,
+      "inOCF": true,
+      "stated": 1226,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid during the year for: Interest, net of capitalized interest $ 389 $ 381 $ 347 Income taxes 1,226 1,299 1,517",
+        "xbrl": {
+          "cik": "0000320187",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-05-31",
+          "value": 1226000000
+        }
+      }
+    }
+  },
+  "paidOut": 43.041,
+  "paidOutFormula": "46.309 − 3.698 + 0.43",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Fiscal year ended May 31, 2025.",
+  "researchedAt": "2026-11-23"
+}

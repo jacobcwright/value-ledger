@@ -1,0 +1,113 @@
+{
+ "id": "hasso-plattner",
+ "company": "SAP SE",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "EUR",
+ "unit": "billions",
+ "statedUnit": "€ millions",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 34.176,
+   "stated": 34176,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf",
+    "label": "SAP 2024 Annual Report on Form 20-F, consolidated income statements (€ millions)",
+    "quote": "Total revenue (A.1), (C.2) 34,176 31,207 29,520"
+   }
+  },
+  "operatingCashFlow": {
+   "value": 5.22,
+   "stated": 5220,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf",
+    "label": "SAP 2024 Annual Report on Form 20-F, consolidated statements of cash flows (€ millions)",
+    "quote": "Net cash flows from operating activities – discontinued operations (D.1) 0 122 –29 Net cash flows from operating activities1 5,220 6,332 5,647"
+   },
+   "note": "Continuing and discontinued operations; discontinued was 0 in 2024."
+  },
+  "capex": {
+   "value": 0.797,
+   "stated": 797,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf",
+    "label": "SAP 2024 Annual Report on Form 20-F, consolidated statements of cash flows (€ millions)",
+    "quote": "Purchase of intangible assets and property, plant, and equipment –797 –785 –877"
+   },
+   "components": [
+    "PP&E and intangibles (one combined line) 0.797"
+   ],
+   "note": "SAP reports PP&E and intangible purchases only as one combined line. Excludes business combinations (1,114)."
+  },
+  "interestPaid": {
+   "value": 0.55,
+   "stated": 550,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf",
+    "label": "SAP 2024 Annual Report on Form 20-F, consolidated statements of cash flows (€ millions)",
+    "quote": "Interest paid –550 –393 –244 Interest received 563 469 156"
+   },
+   "inOCF": true,
+   "location": "operating activities (2024; SAP says it moves interest paid to financing from 2025)"
+  },
+  "taxesPaid": {
+   "value": 2.277,
+   "stated": 2277,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf",
+    "label": "SAP 2024 Annual Report on Form 20-F, consolidated statements of cash flows (€ millions)",
+    "quote": "Income taxes paid, net of refunds2 –2,277 –2,161 –1,642 Net cash flows from operating activities – continuing operations 5,220 6,210 5,675"
+   },
+   "inOCF": true,
+   "location": "operating activities"
+  },
+  "leasePrincipalPaid": {
+   "value": 0.31,
+   "stated": 310,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf",
+    "label": "SAP 2024 Annual Report on Form 20-F, consolidated statements of cash flows (€ millions)",
+    "quote": "Payments of lease liabilities –310 –332 –410"
+   },
+   "added": false,
+   "note": "IFRS 16 lease principal in financing; noted, not added (1.0% of paidOut)."
+  }
+ },
+ "paidOut": 29.753,
+ "paidOutFormula": "34,176 − 5,220 + 797 (PP&E and intangibles, combined line) = 29,753 € millions (interest and taxes paid are inside OCF)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": {
+   "value": 0.563,
+   "stated": 563,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf",
+    "label": "SAP 2024 Annual Report on Form 20-F, consolidated statements of cash flows (€ millions)",
+    "quote": "Interest paid –550 –393 –244 Interest received 563 469 156"
+   },
+   "note": "Interest received sits in operating cash flow in 2024, lowering paidOut by this amount (1.9%)."
+  },
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "IFRS, from the Form 20-F (EUR). In 2024 interest paid, interest received and income taxes paid all sit in operating activities, so nothing is added (SAP says that from 2025 it will present interest paid in financing and interest received in investing). Cash-settled share-based payments (1,282) are paid to employees inside OCF and so count in paidOut; the non-cash share-based expense (2,385) is added back and does not. Lease principal (310) noted, not added.",
+ "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,186 @@
+{
+ "id": "oliver-blume",
+ "company": "Dr. Ing. h.c. F. Porsche AG",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "EUR",
+ "unit": "billions",
+ "statedUnit": "€ million",
+ "sector": "industrial",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 40.083,
+   "stated": 40083,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+    "label": "Annual and Sustainability Report 2024, consolidated income statement (€ million)",
+    "quote": "Sales revenue 1 40,083 40,530"
+   }
+  },
+  "operatingCashFlow": {
+   "value": 6.353,
+   "stated": 6353,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+    "label": "Annual and Sustainability Report 2024, consolidated statement of cash flows (€ million)",
+    "quote": "Change in leased assets –1,852 –1,322 Change in financial services receivables –399 –645 Cashflowsfromoperatingactivities 6,353 7,023"
+   }
+  },
+  "capex": {
+   "value": 3.757,
+   "components": [
+    "PP&E and intangibles excl. development costs (one combined line) 2.174",
+    "capitalised development costs 1.583"
+   ],
+   "parts": [
+    {
+     "label": "PP&E and intangibles excl. development costs (one combined line)",
+     "value": 2.174,
+     "stated": 2174,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+      "label": "Annual and Sustainability Report 2024, consolidated statement of cash flows (€ million)",
+      "quote": "Investments in intangible assets (excluding capitalized development costs) and property, plant and equipment –2,174 –2,016"
+     }
+    },
+    {
+     "label": "capitalised development costs",
+     "value": 1.583,
+     "stated": 1583,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+      "label": "Annual and Sustainability Report 2024, consolidated statement of cash flows (€ million)",
+      "quote": "Additions to capitalized development costs –1,583 –2,081"
+     }
+    }
+   ],
+   "note": "PP&E and non-development intangibles are one combined line. Capitalised development costs added as intangibles. Excludes acquisitions of subsidiaries (34) and other equity investments (346). Leased-out vehicles are booked in operating cash flow ('Change in leased assets'), not in investing (see flags)."
+  },
+  "interestPaid": {
+   "value": 0.462,
+   "stated": 462,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+    "label": "Annual and Sustainability Report 2024, notes, statement of cash flows: items included in operating cash flow (€ million)",
+    "quote": "Cash flows from operating activities presented in the statement of cash flows include: € million Dec. 31, 2024 Dec. 31, 2023 Interest paid 462 312 Interest received 676 592"
+   },
+   "inOCF": true,
+   "location": "operating activities (notes)"
+  },
+  "taxesPaid": {
+   "value": 1.454,
+   "stated": 1454,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+    "label": "Annual and Sustainability Report 2024, consolidated statement of cash flows (€ million)",
+    "quote": "Profit before tax 5,227 7,375 Income taxes paid –1,454 –2,190"
+   },
+   "inOCF": true,
+   "location": "operating activities"
+  },
+  "leasePrincipalPaid": {
+   "value": 0.123,
+   "stated": 123,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+    "label": "Annual and Sustainability Report 2024, consolidated statement of cash flows (€ million)",
+    "quote": "Repayments of lease liabilities –123 –113"
+   },
+   "added": false,
+   "note": "IFRS 16 lease principal (Porsche as lessee) in financing; noted, not added (0.3% of paidOut)."
+  }
+ },
+ "paidOut": 37.487,
+ "paidOutFormula": "40,083 − 6,353 + 3,757 (2,174 PP&E/intangibles + 1,583 capitalised development) = 37,487 € million (interest and taxes paid are inside OCF)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": {
+   "value": 2.251,
+   "components": [
+    "change in leased assets 1.852",
+    "change in financial services receivables 0.399"
+   ],
+   "parts": [
+    {
+     "label": "change in leased assets (vehicles leased out)",
+     "value": 1.852,
+     "stated": 1852,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+      "label": "Annual and Sustainability Report 2024, consolidated statement of cash flows (€ million)",
+      "quote": "Change in leased assets –1,852 –1,322"
+     }
+    },
+    {
+     "label": "change in financial services receivables",
+     "value": 0.399,
+     "stated": 399,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+      "label": "Annual and Sustainability Report 2024, consolidated statement of cash flows (€ million)",
+      "quote": "Change in financial services receivables –399 –645"
+     }
+    }
+   ],
+   "note": "Growth in leased-out vehicles and financial-services receivables sits inside operating cash flow, lowering OCF and raising paidOut by 6.0% of paidOut. Recorded, not adjusted."
+  },
+  "interestDividendsReceivedInOCF": {
+   "value": 0.681,
+   "components": [
+    "interest received 0.676",
+    "dividends received 0.005"
+   ],
+   "parts": [
+    {
+     "label": "interest received",
+     "value": 0.676,
+     "stated": 676,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+      "label": "Annual and Sustainability Report 2024, notes, statement of cash flows: items included in operating cash flow (€ million)",
+      "quote": "Interest paid 462 312 Interest received 676 592"
+     }
+    },
+    {
+     "label": "dividends received",
+     "value": 0.005,
+     "stated": 5,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+      "label": "Annual and Sustainability Report 2024, notes, statement of cash flows: items included in operating cash flow (€ million)",
+      "quote": "Interest received 676 592 Dividends received¹ 5 4"
+     }
+    }
+   ],
+   "note": "Inside OCF, lowering paidOut by this amount (1.8%). The notes say interest paid and received also contain financial-services interest reported in cost of sales or sales revenue."
+  },
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "IFRS. Interest paid, interest received, dividends received and income taxes paid all sit in operating activities, so nothing is added. Captive-finance growth (leased assets, FS receivables) is inside OCF, as at Volkswagen, so paidOut is inflated by 2,251 € million. Lease principal (123) in financing noted, not added.",
+ "researchedAt": "2026-11-23"
+}

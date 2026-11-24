@@ -1,0 +1,131 @@
+{
+  "id": "mary-barra",
+  "company": "General Motors",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "automotive",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 187.442,
+      "stated": 187442,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated income statement (in millions)",
+        "quote": "Total net sales and revenue (Note 3) 187,442 171,842 156,735",
+        "xbrl": {
+          "cik": "0001467858",
+          "concept": "us-gaap:Revenues",
+          "end": "2024-12-31",
+          "value": 187442000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 20.129,
+      "stated": 20129,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by (used in) operating activities 20,129 20,930 16,043",
+        "xbrl": {
+          "cik": "0001467858",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": 20129000000
+        }
+      }
+    },
+    "capex": {
+      "value": 10.83,
+      "components": [
+        "PP&E 10.83"
+      ],
+      "stated": 10830,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Cash flows from investing activities Expenditures for property ( 10,830 ) ( 10,970 ) ( 9,238 )",
+        "xbrl": {
+          "cik": "0001467858",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-12-31",
+          "value": 10830000000
+        }
+      },
+      "excludes": {
+        "leasedVehiclePurchases": {
+          "value": 15.279,
+          "stated": 15279,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+            "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+            "quote": "Purchases of leased vehicles ( 15,279 ) ( 13,640 ) ( 11,949 )",
+            "xbrl": {
+              "cik": "0001467858",
+              "concept": "us-gaap:PaymentsToAcquireLeasesHeldForInvestment",
+              "end": "2024-12-31",
+              "value": 15279000000
+            }
+          }
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 6.183,
+      "inOCF": true,
+      "stated": 6183,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 8, cash paid for income taxes and interest (in millions)",
+        "quote": "Cash paid for interest (net of amounts capitalized) - Automotive $ 777 $ 863 $ 933 Cash paid for interest (net of amounts capitalized) - GM Financial 5,406 4,652 2,673 Total cash paid for interest (net of amounts capitalized) $ 6,183",
+        "xbrl": {
+          "cik": "0001467858",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-12-31",
+          "value": 6183000000
+        }
+      },
+      "components": {
+        "automotive": 0.777,
+        "gmFinancial": 5.406
+      }
+    },
+    "taxesPaid": {
+      "value": 1.475,
+      "inOCF": true,
+      "stated": 1475,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 8, cash paid for income taxes and interest (in millions)",
+        "quote": "Cash paid for income taxes and interest Cash paid for income taxes, net $ 1,475 $ 1,726 $ 1,191",
+        "xbrl": {
+          "cik": "0001467858",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 1475000000
+        }
+      }
+    }
+  },
+  "paidOut": 178.143,
+  "paidOutFormula": "187.442 − 20.129 + 10.83",
+  "altPaidOut": null,
+  "notes": "Inputs reused from the pilot. Capex is \"Expenditures for property\" only; purchases of leased vehicles by GM Financial (15.279bn, lease fleet) are excluded. GM Financial finance-receivable originations are in investing, not operating, cash flow, so financeReceivablesInOCF is false (unlike Toyota). Revenue includes GM Financial revenue.",
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "researchedAt": "2026-11-23"
+}

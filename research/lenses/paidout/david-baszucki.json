@@ -1,0 +1,147 @@
+{
+ "id": "david-baszucki",
+ "company": "Roblox",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 3.601979,
+   "stated": 3601979,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of operations (in thousands)",
+    "quote": "2024 2023 2022 Revenue $ 3,601,979 $ 2,799,274 $ 2,225,052 Costs and expenses: Cost of revenue (1) 801,162 649,115",
+    "xbrl": {
+     "cik": "0001315098",
+     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+     "end": "2024-12-31",
+     "value": 3601979000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 0.822316,
+   "stated": 822316,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+    "quote": "Net cash and cash equivalents provided by operating activities 822,316 458,180 369,296",
+    "xbrl": {
+     "cik": "0001315098",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 822316000
+    }
+   }
+  },
+  "capex": {
+   "value": 0.181016,
+   "components": [
+    "PP&E 0.179646",
+    "intangibles 0.00137"
+   ],
+   "derived": {
+    "method": "sum of the components below",
+    "inputs": [
+     {
+      "component": "PP&E",
+      "value": 0.179646,
+      "stated": 179646,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+       "quote": "Acquisition of property and equipment ( 179,646 ) ( 320,667 ) ( 426,163 )",
+       "xbrl": {
+        "cik": "0001315098",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "end": "2024-12-31",
+        "value": 179646000
+       }
+      }
+     },
+     {
+      "component": "intangibles",
+      "value": 0.00137,
+      "stated": 1370,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+       "quote": "Purchases of intangible assets ( 1,370 ) ( 13,500 ) ( 1,500 )",
+       "xbrl": {
+        "cik": "0001315098",
+        "concept": "us-gaap:PaymentsToAcquireIntangibleAssets",
+        "end": "2024-12-31",
+        "value": 1370000
+       }
+      }
+     }
+    ]
+   }
+  },
+  "interestPaid": {
+   "value": 0.03875,
+   "stated": 38750,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
+    "quote": "Cash paid for interest $ 38,750 $ 38,750 $ 38,965 Cash paid for income taxes, net $ 1,141 $ 3,145 $ 953",
+    "xbrl": {
+     "cik": "0001315098",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2024-12-31",
+     "value": 38750000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 0.001141,
+   "stated": 1141,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
+    "quote": "Cash paid for interest $ 38,750 $ 38,750 $ 38,965 Cash paid for income taxes, net $ 1,141 $ 3,145 $ 953",
+    "xbrl": {
+     "cik": "0001315098",
+     "concept": "us-gaap:IncomeTaxesPaid",
+     "end": "2024-12-31",
+     "value": 1141000
+    }
+   }
+  },
+  "interestDividendsReceived": {
+   "value": 0.179531,
+   "stated": 179531,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
+    "label": "FY2024 Form 10-K, management's discussion and analysis (in thousands)",
+    "quote": "Interest income $ 179,531 $ 141,818 27 %"
+   },
+   "derivation": "interest income from the income statement, used to size the bias: cash interest received is inside operating cash flow but not in revenue (the pilot did the same for Shopify)"
+  }
+ },
+ "paidOut": 2.960679,
+ "paidOutFormula": "revenue 3,601,979 − operating cash flow 822,316 + capex 181,016 (USD thousands, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": 0.179531,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Revenue is recognized over the paying user's estimated lifetime, so cash collected runs ahead of revenue: deferred revenue rose 795,422 and deferred cost of revenue 165,697 inside operating cash flow, which lowers paidOut for the year. Not an admitted marketplace for salesEnabled.",
+ "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "larry-fink",
+  "company": "BlackRock",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "asset-manager",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 20.407,
+      "stated": 20407,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Advisory and other revenue 224 159 163 Total revenue 20,407 17,859 17,873",
+        "xbrl": {
+          "cik": "0002012383",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2024-12-31",
+          "value": 20407000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 4.956,
+      "stated": 4956,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Other liabilities ( 382 ) 375 ( 481 ) Net cash provided by/(used in) operating activities 4,956 4,165 4,956",
+        "xbrl": {
+          "cik": "0002012383",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": 4956000000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.255,
+      "components": [
+        "PP&E 0.255"
+      ],
+      "stated": 255,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Purchases of property and equipment ( 255 ) ( 344 ) ( 533 )",
+        "xbrl": {
+          "cik": "0002012383",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-12-31",
+          "value": 255000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.289,
+      "inOCF": true,
+      "stated": 289,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for: Interest $ 289 $ 200 $ 177 Income taxes (net of refunds) $ 1,699 $ 1,392 $ 1,067",
+        "xbrl": {
+          "cik": "0002012383",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-12-31",
+          "value": 289000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 1.699,
+      "inOCF": true,
+      "stated": 1699,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for: Interest $ 289 $ 200 $ 177 Income taxes (net of refunds) $ 1,699 $ 1,392 $ 1,067",
+        "xbrl": {
+          "cik": "0002012383",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 1699000000
+        }
+      }
+    },
+    "otherNamedItems": {
+      "cipImpactOnOCF": {
+        "value": -2.311,
+        "stated": -2311,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
+          "label": "FY2024 Form 10-K, management's discussion and analysis (in millions)",
+          "quote": "Net cash provided by/(used in) operating activities 4,956 (2,311 ) 7,267"
+        },
+        "note": "GAAP operating cash flow 4,956 includes -2,311 from consolidated investment products (CIPs); excluding CIPs it is 7,267, which would lower paidOut by 2.311bn."
+      }
+    }
+  },
+  "paidOut": 15.706,
+  "paidOutFormula": "20.407 − 4.956 + 0.255",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Asset manager: normal formula, sector flagged. Revenue uses the total (20,407); companyfacts us-gaap:Revenues (12,794) is a sub-total, not the total. Operating cash flow is the GAAP figure, which includes consolidated investment products (see other.cipImpactOnOCF). Revenue includes distribution fees passed to distributors.",
+  "researchedAt": "2026-11-23"
+}

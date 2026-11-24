@@ -1,0 +1,136 @@
+{
+ "id": "david-ricks",
+ "company": "Eli Lilly",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "pharma",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 45.0427,
+   "stated": 45042.7,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
+    "label": "FY2024 Form 10-K, notes to the consolidated financial statements (dollars in millions)",
+    "quote": "Revenue $ 45,042.7 $ 34,124.1 $ 28,541.4",
+    "xbrl": {
+     "cik": "0000059478",
+     "concept": "us-gaap:Revenues",
+     "end": "2024-12-31",
+     "value": 45042700000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 8.8179,
+   "stated": 8817.9,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (dollars in millions)",
+    "quote": "Net Cash Provided by Operating Activities 8,817.9 4,240.1 7,585.7",
+    "xbrl": {
+     "cik": "0000059478",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 8817900000
+    }
+   }
+  },
+  "capex": {
+   "value": 8.4036,
+   "components": [
+    "PP&E 5.0578",
+    "in-process R&D bought from other companies (asset acquisitions) 3.3458"
+   ],
+   "derived": {
+    "method": "sum of the components below",
+    "inputs": [
+     {
+      "component": "PP&E",
+      "value": 5.0578,
+      "stated": 5057.8,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statement of cash flows (dollars in millions)",
+       "quote": "Purchases of property and equipment ( 5,057.8 ) ( 3,447.6 ) ( 1,854.3 )",
+       "xbrl": {
+        "cik": "0000059478",
+        "concept": "us-gaap:PaymentsToAcquireOtherPropertyPlantAndEquipment",
+        "end": "2024-12-31",
+        "value": 5057800000
+       }
+      }
+     },
+     {
+      "component": "in-process R&D bought from other companies (asset acquisitions)",
+      "value": 3.3458,
+      "stated": 3345.8,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statement of cash flows (dollars in millions)",
+       "quote": "Purchases of in-process research and development ( 3,345.8 ) ( 3,944.5 ) ( 1,131.0 )",
+       "xbrl": {
+        "cik": "0000059478",
+        "concept": "us-gaap:PaymentsToAcquireInProcessResearchAndDevelopment",
+        "end": "2024-12-31",
+        "value": 3345800000
+       }
+      }
+     }
+    ]
+   }
+  },
+  "interestPaid": {
+   "value": 0.5775,
+   "stated": 577.5,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
+    "label": "FY2024 Form 10-K, notes to the consolidated financial statements (dollars in millions)",
+    "quote": "Cash payments for interest on borrowings $ 577.5 $ 404.2 $ 323.7",
+    "xbrl": {
+     "cik": "0000059478",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2024-12-31",
+     "value": 577500000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 6.5621,
+   "stated": 6562.1,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
+    "label": "FY2024 Form 10-K, notes to the consolidated financial statements (dollars in millions)",
+    "quote": "Cash payments of income taxes $ 6,562.1 $ 5,558.8 $ 2,672.9",
+    "xbrl": {
+     "cik": "0000059478",
+     "concept": "us-gaap:IncomeTaxesPaid",
+     "end": "2024-12-31",
+     "value": 6562100000
+    }
+   }
+  }
+ },
+ "paidOut": 44.6284,
+ "paidOutFormula": "revenue 45,042.7 − operating cash flow 8,817.9 + capex 8,403.6 (USD millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Judgement call: purchases of in-process R&D (3,345.8) are intangible rights bought from other companies outside business combinations, so they are included as intangible purchases. Without them paidOut would be 41.2826bn. Cash paid for acquisitions of businesses (947.7) excluded.",
+ "researchedAt": "2026-11-23"
+}

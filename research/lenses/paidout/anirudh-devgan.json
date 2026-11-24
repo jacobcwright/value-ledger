@@ -1,0 +1,136 @@
+{
+ "id": "anirudh-devgan",
+ "company": "Cadence Design Systems",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 4.641264,
+   "stated": 4641264,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of operations (in thousands)",
+    "quote": "Services 427,755 255,627 221,521 Total revenue 4,641,264 4,089,986 3,561,718",
+    "xbrl": {
+     "cik": "0000813672",
+     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+     "end": "2024-12-31",
+     "value": 4641264000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 1.260551,
+   "stated": 1260551,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+    "quote": "Net cash provided by operating activities 1,260,551 1,349,176 1,241,894",
+    "xbrl": {
+     "cik": "0000813672",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 1260551000
+    }
+   }
+  },
+  "capex": {
+   "value": 0.142542,
+   "components": [
+    "PP&E 0.142542",
+    "intangibles 0.0"
+   ],
+   "derived": {
+    "method": "sum of the components below",
+    "inputs": [
+     {
+      "component": "PP&E",
+      "value": 0.142542,
+      "stated": 142542,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+       "quote": "Purchases of property, plant and equipment ( 142,542 ) ( 102,337 ) ( 123,215 )",
+       "xbrl": {
+        "cik": "0000813672",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "end": "2024-12-31",
+        "value": 142542000
+       }
+      }
+     },
+     {
+      "component": "intangibles",
+      "value": 0.0,
+      "stated": 0,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+       "quote": "Purchases of intangible assets - ( 166 ) ( 1,000 )",
+       "xbrl": {
+        "cik": "0000813672",
+        "concept": "us-gaap:PaymentsToAcquireIntangibleAssets",
+        "end": "2024-12-31",
+        "value": 0
+       }
+      }
+     }
+    ]
+   }
+  },
+  "interestPaid": {
+   "value": 0.043219,
+   "stated": 43219,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
+    "quote": "Cash paid for interest $ 43,219 $ 34,934 $ 21,122 Cash paid for income taxes, net 509,979 253,700 233,235",
+    "xbrl": {
+     "cik": "0000813672",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2024-12-31",
+     "value": 43219000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 0.509979,
+   "stated": 509979,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
+    "quote": "Cash paid for interest $ 43,219 $ 34,934 $ 21,122 Cash paid for income taxes, net 509,979 253,700 233,235",
+    "xbrl": {
+     "cik": "0000813672",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2024-12-31",
+     "value": 509979000
+    }
+   }
+  }
+ },
+ "paidOut": 3.523255,
+ "paidOutFormula": "revenue 4,641,264 − operating cash flow 1,260,551 + capex 142,542 (USD thousands, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Business combinations (737,574) excluded.",
+ "researchedAt": "2026-11-23"
+}

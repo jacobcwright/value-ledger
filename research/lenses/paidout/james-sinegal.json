@@ -1,0 +1,109 @@
+{
+  "id": "james-sinegal",
+  "company": "Costco Wholesale",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-09-01",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "retail",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 254.453,
+      "stated": 254453,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "REVENUE Net sales $ 249,625 $ 237,710 $ 222,730 Membership fees 4,828 4,580 4,224 Total revenue 254,453 242,290 226,954",
+        "xbrl": {
+          "cik": "0000909832",
+          "concept": "us-gaap:Revenues",
+          "end": "2024-09-01",
+          "value": 254453000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 11.339,
+      "stated": 11339,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities 11,339 11,068 7,392 CASH FLOWS FROM INVESTING ACTIVITIES",
+        "xbrl": {
+          "cik": "0000909832",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-09-01",
+          "value": 11339000000
+        }
+      }
+    },
+    "capex": {
+      "value": 4.71,
+      "components": [
+        "PP&E 4.71"
+      ],
+      "stated": 4710,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Additions to property and equipment ( 4,710 ) ( 4,323 ) ( 3,891 )",
+        "xbrl": {
+          "cik": "0000909832",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-09-01",
+          "value": 4710000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.129,
+      "inOCF": true,
+      "stated": 129,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid during the year for: Interest $ 129 $ 125 $ 145 Income taxes, net $ 2,319 $ 2,234 $ 1,940",
+        "xbrl": {
+          "cik": "0000909832",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-09-01",
+          "value": 129000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 2.319,
+      "inOCF": true,
+      "stated": 2319,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid during the year for: Interest $ 129 $ 125 $ 145 Income taxes, net $ 2,319 $ 2,234 $ 1,940",
+        "xbrl": {
+          "cik": "0000909832",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2024-09-01",
+          "value": 2319000000
+        }
+      }
+    }
+  },
+  "paidOut": 247.824,
+  "paidOutFormula": "254.453 − 11.339 + 4.71",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "52-week fiscal year ended September 1, 2024. Revenue includes membership fees (4.828bn). Capex is the single \"Additions to property and equipment\" line; Costco reports no separate intangibles line.",
+  "researchedAt": "2026-11-23"
+}

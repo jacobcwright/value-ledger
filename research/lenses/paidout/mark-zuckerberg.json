@@ -1,0 +1,122 @@
+{
+  "id": "mark-zuckerberg",
+  "company": "Meta Platforms",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "tech",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 164.501,
+      "stated": 164501,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Revenue $ 164,501 $ 134,902 $ 116,609 Costs and expenses:",
+        "xbrl": {
+          "cik": "0001326801",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2024-12-31",
+          "value": 164501000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 91.328,
+      "stated": 91328,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities 91,328 71,113 50,475",
+        "xbrl": {
+          "cik": "0001326801",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": 91328000000
+        }
+      }
+    },
+    "capex": {
+      "value": 37.256,
+      "components": [
+        "PP&E 37.256"
+      ],
+      "stated": 37256,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Cash flows from investing activities Purchases of property and equipment ( 37,256 ) ( 27,045 ) ( 31,186 )",
+        "xbrl": {
+          "cik": "0001326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-12-31",
+          "value": 37256000000
+        }
+      },
+      "excludes": [
+        {
+          "name": "acquisitions of businesses and intangible assets (one combined line)",
+          "value": 0.27,
+          "stated": 270,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+            "quote": "Acquisitions of businesses and intangible assets ( 270 ) ( 629 ) ( 1,312 )"
+          }
+        }
+      ]
+    },
+    "interestPaid": {
+      "value": 0.486,
+      "inOCF": true,
+      "stated": 486,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Supplemental cash flow data Cash paid for income taxes, net $ 10,554 $ 6,607 $ 6,407 Cash paid for interest, net of amounts capitalized $ 486 $ 448 $ -",
+        "xbrl": {
+          "cik": "0001326801",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-12-31",
+          "value": 486000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 10.554,
+      "inOCF": true,
+      "stated": 10554,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Supplemental cash flow data Cash paid for income taxes, net $ 10,554 $ 6,607 $ 6,407 Cash paid for interest, net of amounts capitalized $ 486 $ 448 $ -",
+        "xbrl": {
+          "cik": "0001326801",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 10554000000
+        }
+      }
+    }
+  },
+  "paidOut": 110.429,
+  "paidOutFormula": "164.501 − 91.328 + 37.256",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Capex is PP&E only; intangibles are combined with business acquisitions in one line (270) and left out.",
+  "researchedAt": "2026-11-23"
+}

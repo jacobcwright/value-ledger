@@ -1,0 +1,133 @@
+{
+  "id": "akio-morita",
+  "company": "Sony Group",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-03-31",
+  "currency": "JPY",
+  "unit": "billions",
+  "sector": "tech",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 12957.064,
+      "stated": 12957064,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of operations (yen in millions)",
+        "quote": "Total sales and financial services revenue 10,974,373 13,020,768 12,957,064",
+        "xbrl": {
+          "cik": "0000313838",
+          "concept": "ifrs-full:Revenue",
+          "end": "2025-03-31",
+          "value": 12957064000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 2321.675,
+      "stated": 2321675,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+        "quote": "Income taxes paid 25 ( 297,881 ) ( 293,997 ) ( 300,529 ) Other ( 97,372 ) ( 80,237 ) 24,301 Net cash provided by operating activities 314,691 1,373,213 2,321,675",
+        "xbrl": {
+          "cik": "0000313838",
+          "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+          "end": "2025-03-31",
+          "value": 2321675000000
+        }
+      }
+    },
+    "capex": {
+      "value": 647.527,
+      "components": [
+        "PP&E and other intangible assets (one combined line) 647.527"
+      ],
+      "stated": 647527,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+        "quote": "Payments for property, plant and equipment and other intangible assets ( 613,635 ) ( 623,946 ) ( 647,527 )",
+        "xbrl": {
+          "cik": "0000313838",
+          "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets",
+          "end": "2025-03-31",
+          "value": 647527000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 113.26,
+      "stated": 113260,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2025 Form 20-F, notes to the consolidated financial statements (yen in millions)",
+        "quote": "Interest paid Financial services expenses 27,352 74,857 91,431 Financial expenses 11,663 22,667 21,829 The above are items presented in the consolidated statements of income, which include cash flows for interest and dividends. Sony classifies the cash flows from interest and dividends of the above as cash flows from operating activities"
+      },
+      "derivation": "financial services interest paid 91,431 + other interest paid 21,829",
+      "computedFrom": [
+        "91,431 + 21,829 (÷1,000)"
+      ]
+    },
+    "taxesPaid": {
+      "value": 300.529,
+      "stated": 300529,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+        "quote": "Income taxes paid 25 ( 297,881 ) ( 293,997 ) ( 300,529 )",
+        "xbrl": {
+          "cik": "0000313838",
+          "concept": "ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities",
+          "end": "2025-03-31",
+          "value": 300529000000
+        }
+      }
+    },
+    "financeReceivablesChangeInOCF": {
+      "value": 824.443,
+      "stated": 824443,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2025 Form 20-F, management's discussion and analysis (yen in millions)",
+        "quote": "(Increase) decrease in investments and advances in the Financial Services segment (1,748,913 ) (824,443 ) - - (1,748,913 ) (824,443 )"
+      },
+      "effectOnOCF": "lowers",
+      "note": "Financial Services segment flows inside operating cash flow: investments and advances −824,443, insurance contract liabilities +573,749, bank deposits +401,014. The 20-F split shows operating cash flow of 350,326 for Financial Services and 1,972,439 for Sony without Financial Services."
+    },
+    "interestDividendsReceived": {
+      "value": 50.972,
+      "stated": 50972,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2025 Form 20-F, notes to the consolidated financial statements (yen in millions)",
+        "quote": "Interest received Financial services revenue 224,137 244,292 260,725 Financial income 20,872 36,295 49,582 Dividends received Financial services revenue 23,409 52,760 41,214 Financial income 3,488 1,138 1,390"
+      },
+      "derivation": "interest 49,582 + dividends 1,390 received outside revenue (financial income); the 260,725 interest and 41,214 dividends of the Financial Services segment are inside revenue",
+      "computedFrom": [
+        "49,582 + 1,390 (÷1,000)"
+      ]
+    }
+  },
+  "paidOut": 11282.916,
+  "paidOutFormula": "revenue 12,957,064 − operating cash flow 2,321,675 + capex 647,527 (JPY millions, as stated)",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": true,
+    "interestDividendsReceivedInOCF": 50.972,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "IFRS filer that classifies interest and dividends paid and received in operating activities (stated in the 20-F), and income taxes in operating, so nothing is added back. Capex is one combined line for PP&E and other intangible assets; acquisitions of businesses (294,417) excluded. Revenue and operating cash flow include the Financial Services segment: its insurance and bank flows sit inside operating cash flow, so the single-year figure carries that noise. Content-asset spending (683,388) is inside operating cash flow and so counts as paid out. FX: fiscal year ends March 2025; the calendar-2024 average covers 9 of its 12 months.",
+  "researchedAt": "2026-11-23"
+}

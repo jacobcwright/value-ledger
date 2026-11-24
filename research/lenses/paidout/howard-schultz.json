@@ -1,0 +1,119 @@
+{
+ "id": "howard-schultz",
+ "company": "Starbucks",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-09-29",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "restaurants",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 36.1762,
+   "stated": 36176.2,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
+    "quote": "Total net revenues 36,176.2 35,975.6 32,250.3",
+    "xbrl": {
+     "cik": "0000829224",
+     "concept": "us-gaap:Revenues",
+     "end": "2024-09-29",
+     "value": 36176200000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 6.0956,
+   "stated": 6095.6,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Net cash provided by operating activities 6,095.6 6,008.7 4,397.3",
+    "xbrl": {
+     "cik": "0000829224",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-09-29",
+     "value": 6095600000
+    }
+   }
+  },
+  "capex": {
+   "value": 2.7775,
+   "components": [
+    "PP&E 2.7775"
+   ],
+   "stated": 2777.5,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Additions to property, plant and equipment ( 2,777.5 ) ( 2,333.6 ) ( 1,841.3 )",
+    "xbrl": {
+     "cik": "0000829224",
+     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+     "end": "2024-09-29",
+     "value": 2777500000
+    }
+   }
+  },
+  "interestPaid": {
+   "value": 0.5707,
+   "stated": 570.7,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
+    "quote": "Cash paid during the period for: Interest, net of capitalized interest $ 570.7 $ 524.3 $ 474.7 Income taxes $ 1,373.3 $ 1,294.2 $ 1,157.6",
+    "xbrl": {
+     "cik": "0000829224",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2024-09-29",
+     "value": 570700000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 1.3733,
+   "stated": 1373.3,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
+    "quote": "Cash paid during the period for: Interest, net of capitalized interest $ 570.7 $ 524.3 $ 474.7 Income taxes $ 1,373.3 $ 1,294.2 $ 1,157.6",
+    "xbrl": {
+     "cik": "0000829224",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2024-09-29",
+     "value": 1373300000
+    }
+   }
+  },
+  "interestDividendsReceived": {
+   "value": 0.3333,
+   "stated": 333.3,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Distributions received from equity method investees 333.3 222.8 231.2"
+   }
+  }
+ },
+ "paidOut": 32.8581,
+ "paidOutFormula": "revenue 36,176.2 − operating cash flow 6,095.6 + capex 2,777.5 (USD millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": 0.3333,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Fiscal year ended September 29, 2024. Distributions from equity-method investees (333.3) sit in operating cash flow.",
+ "researchedAt": "2026-11-23"
+}

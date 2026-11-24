@@ -1,0 +1,98 @@
+{
+  "id": "peter-thiel",
+  "company": "Palantir Technologies",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "tech",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 2.865507,
+      "stated": 2865507,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of operations (in thousands)",
+        "quote": "Revenue $ 2,865,507 $ 2,225,012 $ 1,905,871",
+        "xbrl": {
+          "cik": "0001321655",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2024-12-31",
+          "value": 2865507000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 1.153865,
+      "stated": 1153865,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Net cash provided by operating activities 1,153,865 712,183 223,737",
+        "xbrl": {
+          "cik": "0001321655",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": 1153865000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.012634,
+      "components": [
+        "PP&E 0.012634"
+      ],
+      "stated": 12634,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Investing activities Purchases of property and equipment ( 12,634 ) ( 15,114 ) ( 40,027 )",
+        "xbrl": {
+          "cik": "0001321655",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-12-31",
+          "value": 12634000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": null,
+      "inOCF": true,
+      "source": null,
+      "note": "Not disclosed: the supplemental disclosures give income taxes paid only (the 10-K reports no outstanding debt balances at year end). Under US GAAP interest would sit inside operating cash flow, so paidOut is unaffected."
+    },
+    "taxesPaid": {
+      "value": 0.016179,
+      "inOCF": true,
+      "stated": 16179,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in thousands)",
+        "quote": "Cash paid for income taxes $ 16,179 $ 13,515 $ 2,904",
+        "xbrl": {
+          "cik": "0001321655",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 16179000
+        }
+      }
+    }
+  },
+  "paidOut": 1.724276,
+  "paidOutFormula": "2.865507 − 1.153865 + 0.012634",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Amounts in thousands.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,103 @@
+{
+ "id": "shigeru-miyamoto",
+ "company": "Nintendo",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-03-31",
+ "currency": "JPY",
+ "unit": "billions",
+ "statedUnit": "¥ million",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 1164.922,
+   "stated": 1164922,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
+    "label": "Nintendo Annual Report 2025 (Annual Securities Report translation), consolidated statements of income (millions of yen; previous FY, current FY to March 31, 2025; millions of dollars)",
+    "quote": "Net sales 1,671,865 1,164,922 7,818"
+   }
+  },
+  "operatingCashFlow": {
+   "value": 12.069,
+   "stated": 12069,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
+    "label": "Nintendo Annual Report 2025 (Annual Securities Report translation), consolidated statements of cash flows (millions of yen; previous FY, current FY to March 31, 2025; millions of dollars)",
+    "quote": "Interest and dividends received 52,822 60,644 407 Interest paid (166) (193) (1) Income taxes paid (183,415) (148,184) (994) Net cash provided by (used in) operating activities 462,097 12,069 81"
+   }
+  },
+  "capex": {
+   "value": 19.008,
+   "stated": 19008,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
+    "label": "Nintendo Annual Report 2025 (Annual Securities Report translation), consolidated statements of cash flows (millions of yen; previous FY, current FY to March 31, 2025; millions of dollars)",
+    "quote": "Purchase of property, plant and equipment and intangible assets (16,123) (19,008) (127)"
+   },
+   "components": [
+    "PP&E and intangible assets (one combined line) 19.008"
+   ],
+   "note": "PP&E and intangibles are reported only as one combined line. Excludes purchases of investment securities (1,118,834) and payments into time deposits (1,787,231), which are treasury movements, not capex."
+  },
+  "interestPaid": {
+   "value": 0.193,
+   "stated": 193,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
+    "label": "Nintendo Annual Report 2025 (Annual Securities Report translation), consolidated statements of cash flows (millions of yen; previous FY, current FY to March 31, 2025; millions of dollars)",
+    "quote": "Interest and dividends received 52,822 60,644 407 Interest paid (166) (193) (1)"
+   },
+   "inOCF": true,
+   "location": "operating activities"
+  },
+  "taxesPaid": {
+   "value": 148.184,
+   "stated": 148184,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
+    "label": "Nintendo Annual Report 2025 (Annual Securities Report translation), consolidated statements of cash flows (millions of yen; previous FY, current FY to March 31, 2025; millions of dollars)",
+    "quote": "Interest paid (166) (193) (1) Income taxes paid (183,415) (148,184) (994)"
+   },
+   "inOCF": true,
+   "location": "operating activities"
+  },
+  "leasePrincipalPaid": {
+   "value": null,
+   "note": "Japanese GAAP; no separate lease-liability repayment line in financing (only dividends paid and 'Other, net' (1,934))."
+  }
+ },
+ "paidOut": 1171.861,
+ "paidOutFormula": "1,164,922 − 12,069 + 19,008 = 1,171,861 ¥ million (interest and taxes paid are inside OCF)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": {
+   "value": 60.644,
+   "stated": 60644,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
+    "label": "Nintendo Annual Report 2025 (Annual Securities Report translation), consolidated statements of cash flows (millions of yen; previous FY, current FY to March 31, 2025; millions of dollars)",
+    "quote": "Interest and dividends received 52,822 60,644 407 Interest paid (166) (193) (1)"
+   },
+   "note": "Interest and dividends received (including from equity-method associates such as The Pokémon Company) sit inside OCF, lowering paidOut by this amount (5.2%)."
+  },
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Japanese GAAP (Annual Securities Report). paidOut exceeds revenue because FY2025 OCF was only 12,069: the company built inventory ahead of the Nintendo Switch 2 launch (increase in inventories 333,837), i.e. cash paid to suppliers in this year for goods sold later. Single-year paidOut is therefore inflated by a working-capital swing (it was 1,671,865 − 462,097 + 16,123 = 1,225,891 in FY2024 on far higher sales). Interest paid, interest and dividends received and income taxes paid are all inside OCF. Time-deposit and securities movements are in investing and are excluded from capex.",
+ "researchedAt": "2026-11-23"
+}

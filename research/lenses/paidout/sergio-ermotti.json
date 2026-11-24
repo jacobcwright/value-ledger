@@ -1,0 +1,124 @@
+{
+ "id": "sergio-ermotti",
+ "company": "UBS Group AG",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "statedUnit": "USD million",
+ "sector": "bank",
+ "comparable": false,
+ "inputs": {
+  "noninterestExpense": {
+   "value": 41.239,
+   "stated": 41239,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
+    "label": "Annual Report 2024 (Form 20-F), UBS Group AG consolidated income statement (USD m)",
+    "quote": "Personnel expenses 7 27,318 24,899 17,680 General and administrative expenses 8 10,124 10,156 5,189 Depreciation, amortization and impairment of non-financial assets 12, 13 3,798 3,750 2,061 Operating expenses 41,239 38,806 24,930"
+   },
+   "note": "UBS 'Operating expenses' (personnel 27,318 + G&A 10,124 + D&A and impairment 3,798). Excludes credit loss expense (551), which UBS shows separately."
+  },
+  "da": {
+   "value": 3.798,
+   "stated": 3798,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
+    "label": "Annual Report 2024 (Form 20-F), UBS Group AG consolidated income statement (USD m)",
+    "quote": "Depreciation, amortization and impairment of non-financial assets 12, 13 3,798 3,750 2,061"
+   },
+   "note": "Includes impairment: note 12 shows depreciation 3,605 and impairment 52 on property, equipment and software; the rest is intangible amortization."
+  },
+  "stockComp": {
+   "value": 1.104,
+   "stated": 1104,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
+    "label": "Annual Report 2024 (Form 20-F), statement of changes in equity (USD m)",
+    "quote": "Share-based compensation expensed in the income statement 1,104"
+   },
+   "note": "Equity-settled share-based compensation credited to share premium (the non-cash part). Note 27 also reports 1,128 of share-based compensation inside variable compensation plus 134 in other categories, and 1,118 total equity-settled excluding social security."
+  },
+  "taxesPaid": {
+   "value": 1.938,
+   "stated": 1938,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
+    "label": "Annual Report 2024 (Form 20-F), UBS Group AG consolidated statement of cash flows (USD m)",
+    "quote": "Provisions and other non-financial assets and liabilities (116) 3,920 257 Income taxes paid, net of refunds (1,938) (1,852) (1,582)"
+   },
+   "inOCF": true,
+   "location": "operating activities"
+  },
+  "interestPaid": {
+   "value": 48.252,
+   "stated": 48252,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
+    "label": "Annual Report 2024 (Form 20-F), UBS Group AG consolidated statement of cash flows (USD m)",
+    "quote": "Net cash flow from / (used in) operating activities includes: Interest received in cash 53,498 44,581 15,718 Interest paid in cash 48,252 35,969 8,198"
+   },
+   "inOCF": true,
+   "location": "operating activities (additional information)",
+   "note": "Money paid to depositors, bondholders and other funding counterparties; shown separately, not in altPaidOut. Interest received in cash was 53,498."
+  },
+  "revenue": {
+   "value": 48.611,
+   "stated": 48611,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
+    "label": "Annual Report 2024 (Form 20-F), UBS Group AG consolidated income statement (USD m)",
+    "quote": "Other income 6 675 384 1,459 Total revenues 48,611 40,834 34,563"
+   },
+   "note": "Context only. Net of interest expense (35,947 on amortized-cost instruments) and fee expense."
+  },
+  "operatingCashFlow": {
+   "value": 3.279,
+   "statedAsPrinted": "3,2793 (USD 3,279m followed by footnote marker 3)",
+   "source": {
+    "hostType": "company",
+    "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
+    "label": "Annual Report 2024 (Form 20-F), UBS Group AG consolidated statement of cash flows (USD m)",
+    "quote": "Income taxes paid, net of refunds (1,938) (1,852) (1,582) Net cash flow from / (used in) operating activities 3,2793"
+   },
+   "note": "Context only: bank operating cash flow is driven by loan, deposit and trading-book movements (e.g. customer deposits −15,072, loans +27,019), so the formula is not meaningful. Footnote 3: includes 13,210 of cash receipts from the sale of loans in Non-core and Legacy."
+  },
+  "capex": {
+   "value": 2.008,
+   "stated": 2008,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.ubs.com/global/en/investor-relations/financial-information/sec-filings/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/tabteaser/tabteasersplit_2037369950/innergrid_2025441247/col_1/linklist/link_667226045_copy__440878923.1694701589.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvaW52ZXN0b3ItcmVsYXRpb25zL3F1YXJ0ZXJsaWVzLzIwMjQvNHEyNC8yMGYtYW5udWFsLXJlcG9ydC11YnMtZ3JvdXAtMjAyNC5wZGY=/20f-annual-report-ubs-group-2024.pdf",
+    "label": "Annual Report 2024 (Form 20-F), UBS Group AG consolidated statement of cash flows (USD m)",
+    "quote": "Purchase of property, equipment and software (2,008) (1,685) (1,643)"
+   },
+   "note": "Context only; not part of altPaidOut per PAIDOUT.md."
+  }
+ },
+ "paidOut": null,
+ "paidOutFormula": null,
+ "altPaidOut": 38.275,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": null,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Bank: paidOut is null and not comparable (operating cash flow is dominated by balance-sheet funding flows). altPaidOut per PAIDOUT.md = noninterest (operating) expenses − D&A − stock comp + income taxes paid. Interest paid in cash (48,252), mostly to depositors and funding counterparties, is recorded separately and not added. Capex (2,008 property, equipment and software) is recorded for context but not added, per the PAIDOUT.md bank formula. FY2024 still includes Credit Suisse integration costs inside operating expenses.",
+ "researchedAt": "2026-11-23",
+ "altPaidOutFormula": "operating expenses 41,239 − D&A and impairment 3,798 − share-based compensation 1,104 + income taxes paid 1,938 = 38,275 USD million; interest paid to depositors and lenders (48,252) shown separately"
+}

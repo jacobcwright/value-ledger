@@ -1,0 +1,109 @@
+{
+  "id": "larry-ellison",
+  "company": "Oracle",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-05-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "tech",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 52.961,
+      "stated": 52961,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Services 5,431 5,594 3,205 Total revenues 52,961 49,954 42,440",
+        "xbrl": {
+          "cik": "0001341439",
+          "concept": "us-gaap:Revenues",
+          "end": "2024-05-31",
+          "value": 52961000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 18.673,
+      "stated": 18673,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Increase in deferred revenues 656 781 7 Net cash provided by operating activities 18,673 17,165 9,539",
+        "xbrl": {
+          "cik": "0001341439",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-05-31",
+          "value": 18673000000
+        }
+      }
+    },
+    "capex": {
+      "value": 6.866,
+      "components": [
+        "capital expenditures 6.866"
+      ],
+      "stated": 6866,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Capital expenditures ( 6,866 ) ( 8,695 ) ( 4,511 )",
+        "xbrl": {
+          "cik": "0001341439",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-05-31",
+          "value": 6866000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 3.655,
+      "inOCF": true,
+      "stated": 3655,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for income taxes $ 3,560 $ 3,009 $ 2,567 Cash paid for interest $ 3,655 $ 3,250 $ 2,735",
+        "xbrl": {
+          "cik": "0001341439",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-05-31",
+          "value": 3655000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 3.56,
+      "inOCF": true,
+      "stated": 3560,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for income taxes $ 3,560 $ 3,009 $ 2,567 Cash paid for interest $ 3,655 $ 3,250 $ 2,735",
+        "xbrl": {
+          "cik": "0001341439",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2024-05-31",
+          "value": 3560000000
+        }
+      }
+    }
+  },
+  "paidOut": 41.154,
+  "paidOutFormula": "52.961 − 18.673 + 6.866",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Fiscal year ended May 31, 2024.",
+  "researchedAt": "2026-11-23"
+}

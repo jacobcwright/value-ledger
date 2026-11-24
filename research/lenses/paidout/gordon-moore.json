@@ -1,0 +1,112 @@
+{
+ "id": "gordon-moore",
+ "company": "Intel",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-28",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 53.101,
+   "stated": 53101,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+    "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
+    "quote": "Net revenue $ 53,101 $ 54,228 $ 63,054 Cost of sales 35,756 32,517 36,188",
+    "xbrl": {
+     "cik": "0000050863",
+     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+     "end": "2024-12-28",
+     "value": 53101000000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 8.288,
+   "stated": 8288,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+    "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Net cash provided by (used for) operating activities 8,288 11,471 15,433",
+    "xbrl": {
+     "cik": "0000050863",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-28",
+     "value": 8288000000
+    }
+   }
+  },
+  "capex": {
+   "value": 23.944,
+   "components": [
+    "PP&E 23.944"
+   ],
+   "stated": 23944,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+    "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Additions to property, plant, and equipment ( 23,944 ) ( 25,750 ) ( 24,844 ) Proceeds from capital-related government incentives 1,936 1,011 246",
+    "xbrl": {
+     "cik": "0000050863",
+     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+     "end": "2024-12-28",
+     "value": 23944000000
+    }
+   },
+   "note": "Gross; not netted against 1,936 of capital-related government incentives received."
+  },
+  "interestPaid": {
+   "value": 0.987,
+   "stated": 987,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow disclosure (in millions)",
+    "quote": "Cash paid during the year for: Interest, net of capitalized interest $ 987 $ 613 $ 459 Income taxes, net of refunds $ 2,202 $ 2,621 $ 4,282",
+    "xbrl": {
+     "cik": "0000050863",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2024-12-28",
+     "value": 987000000
+    }
+   },
+   "note": "inside operating cash flow (US GAAP)"
+  },
+  "taxesPaid": {
+   "value": 2.202,
+   "stated": 2202,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow disclosure (in millions)",
+    "quote": "Cash paid during the year for: Interest, net of capitalized interest $ 987 $ 613 $ 459 Income taxes, net of refunds $ 2,202 $ 2,621 $ 4,282",
+    "xbrl": {
+     "cik": "0000050863",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2024-12-28",
+     "value": 2202000000
+    }
+   },
+   "note": "inside operating cash flow (US GAAP)"
+  }
+ },
+ "paidOut": 68.757,
+ "paidOutFormula": "revenue 53,101 − operating cash flow 8,288 + capex 23,944 (USD millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Inputs copied from the pilot. Fiscal year ended December 28, 2024. Capex is gross additions to PP&E (23,944), not netted against 1,936 of capital-related government incentives received. Intel reports no separate intangible-purchase line. Interest and taxes paid are inside operating cash flow (US GAAP).",
+ "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,152 @@
+{
+ "id": "carlos-slim",
+ "company": "América Móvil",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "MXN",
+ "unit": "billions",
+ "sector": "telecom",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 869.220584,
+   "stated": 869220584,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+    "label": "FY2024 Form 20-F, consolidated statement of operations (thousands of Mexican pesos)",
+    "quote": "Ps. 844,501,397 Ps. 816,012,844 Ps. 869,220,584 US$ 42,886 Operating costs and expenses: Cost of sales and services",
+    "xbrl": {
+     "cik": "0001129137",
+     "concept": "ifrs-full:Revenue",
+     "end": "2024-12-31",
+     "value": 869220584000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 239.341121,
+   "stated": 239341121,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+    "label": "FY2024 Form 20-F, consolidated statement of cash flows (thousands of Mexican pesos)",
+    "quote": "Net cash flows provided by continuing operating activities Ps. 225,287,031 Ps. 248,092,195 Ps. 239,341,121 US$ 11,808",
+    "xbrl": {
+     "cik": "0001129137",
+     "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 239341121000
+    }
+   }
+  },
+  "capex": {
+   "value": 130.835027,
+   "components": [
+    "PP&E 113.083319",
+    "intangibles (licences and other) 17.751708"
+   ],
+   "derived": {
+    "method": "sum of the components below",
+    "inputs": [
+     {
+      "component": "PP&E",
+      "value": 113.083319,
+      "stated": 113083319,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+       "label": "FY2024 Form 20-F, consolidated statement of cash flows (thousands of Mexican pesos)",
+       "quote": "Purchase of property, plant and equipment ( 146,192,426 ) ( 131,101,509 ) ( 113,083,319 ) ( 5,579 )",
+       "xbrl": {
+        "cik": "0001129137",
+        "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+        "end": "2024-12-31",
+        "value": 113083319000
+       }
+      }
+     },
+     {
+      "component": "intangibles (licences and other)",
+      "value": 17.751708,
+      "stated": 17751708,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+       "label": "FY2024 Form 20-F, consolidated statement of cash flows (thousands of Mexican pesos)",
+       "quote": "Acquisition of intangibles ( 11,661,530 ) ( 25,237,297 ) ( 17,751,708 ) ( 876 )",
+       "xbrl": {
+        "cik": "0001129137",
+        "concept": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities",
+        "end": "2024-12-31",
+        "value": 17751708000
+       }
+      }
+     }
+    ]
+   }
+  },
+  "interestPaid": {
+   "value": 31.082117,
+   "stated": 31082117,
+   "inOCF": false,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+    "label": "FY2024 Form 20-F, consolidated statement of cash flows (thousands of Mexican pesos)",
+    "quote": "Interest paid ( 26,882,181 ) ( 29,031,855 ) ( 31,082,117 ) ( 1,534 )",
+    "xbrl": {
+     "cik": "0001129137",
+     "concept": "ifrs-full:InterestPaidClassifiedAsFinancingActivities",
+     "end": "2024-12-31",
+     "value": 31082117000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 48.089,
+   "stated": 48089000,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+    "label": "FY2024 Form 20-F, consolidated statement of cash flows (thousands of Mexican pesos)",
+    "quote": "Income taxes paid ( 62,015,057 ) ( 49,466,056 ) ( 48,089,000 ) ( 2,374 )",
+    "xbrl": {
+     "cik": "0001129137",
+     "concept": "ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities",
+     "end": "2024-12-31",
+     "value": 48089000000
+    }
+   }
+  },
+  "interestDividendsReceived": {
+   "value": 3.4896,
+   "stated": 3489600,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+    "label": "FY2024 Form 20-F, consolidated statement of cash flows (thousands of Mexican pesos)",
+    "quote": "Interest received 2,652,195 4,882,509 3,489,600 172",
+    "xbrl": {
+     "cik": "0001129137",
+     "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+     "end": "2024-12-31",
+     "value": 3489600000
+    }
+   }
+  }
+ },
+ "paidOut": 791.796607,
+ "paidOutFormula": "revenue 869,220,584 − operating cash flow 239,341,121 + capex 130,835,027 + interest paid in financing 31,082,117 (MXN thousands, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": 3.4896,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "IFRS filer that classifies interest paid in financing, so it is added back (31,082,117); income taxes paid are in operating. Lease payments (45,285,610, \"Payment of liability related to right-of-use of assets\") are in financing. Interest expense on lease liabilities was 16,594,964 in 2024 (lease note), but the 20-F does not say whether the cash paid for it sits in \"Interest paid\" or in the right-of-use payment line, so nothing more is added; if it is in the latter, paidOut is understated by up to about 2%. Interest received (3,489,600) sits in operating; dividends received are in investing. Acquisition of business was a net inflow in 2024 and is excluded. The USD column in the 20-F is a convenience translation and is not used; FX: calendar-2024 average.",
+ "researchedAt": "2026-11-23"
+}

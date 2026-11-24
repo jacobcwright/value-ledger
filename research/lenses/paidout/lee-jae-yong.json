@@ -1,0 +1,151 @@
+{
+ "id": "lee-jae-yong",
+ "company": "Samsung Electronics",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "KRW",
+ "unit": "billions",
+ "statedUnit": "KRW million",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 300870.903,
+   "stated": 300870903,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+    "label": "2024 Business Report, consolidated statements of profit or loss (KRW million)",
+    "quote": "Revenue 29 300,870,903 258,935,494 220,726,499 189,961,623 [KRW 2024, 2023; USD thousands 2024, 2023]"
+   }
+  },
+  "operatingCashFlow": {
+   "value": 72982.621,
+   "stated": 72982621,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+    "label": "2024 Business Report, consolidated statements of cash flows (KRW million)",
+    "quote": "Income tax paid (6,450,044) (6,620,950) (4,731,914) (4,857,296) Net cash provided by operating activities 72,982,621 44,137,427 53,541,896 32,380,332 [KRW 2024, 2023; USD thousands 2024, 2023]"
+   }
+  },
+  "capex": {
+   "value": 53741.639,
+   "components": [
+    "PP&E 51406.355",
+    "intangibles 2335.284"
+   ],
+   "parts": [
+    {
+     "label": "PP&E",
+     "value": 51406.355,
+     "stated": 51406355,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+      "label": "2024 Business Report, consolidated statements of cash flows (KRW million)",
+      "quote": "Acquisition of property, plant and equipment (51,406,355) (57,611,292) (37,713,001) (42,265,100) [KRW 2024, 2023; USD thousands 2024, 2023]"
+     }
+    },
+    {
+     "label": "intangibles",
+     "value": 2335.284,
+     "stated": 2335284,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+      "label": "2024 Business Report, consolidated statements of cash flows (KRW million)",
+      "quote": "Acquisition of intangible assets (2,335,284) (2,922,875) (1,713,223) (2,144,295) [KRW 2024, 2023; USD thousands 2024, 2023]"
+     }
+    }
+   ],
+   "note": "Gross acquisitions of PP&E and intangibles. Excludes business combinations (142,156), associates/JVs and financial instruments."
+  },
+  "interestPaid": {
+   "value": 675.049,
+   "stated": 675049,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+    "label": "2024 Business Report, consolidated statements of cash flows (KRW million)",
+    "quote": "Interest received 4,008,359 4,786,010 2,940,633 3,511,138 Interest paid (675,049) (844,691) (495,233) (619,687) [KRW 2024, 2023; USD thousands 2024, 2023]"
+   },
+   "inOCF": true,
+   "location": "operating activities"
+  },
+  "taxesPaid": {
+   "value": 6450.044,
+   "stated": 6450044,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+    "label": "2024 Business Report, consolidated statements of cash flows (KRW million)",
+    "quote": "Dividends received 268,482 269,169 196,965 197,469 Income tax paid (6,450,044) (6,620,950) (4,731,914) (4,857,296) [KRW 2024, 2023; USD thousands 2024, 2023]"
+   },
+   "inOCF": true,
+   "location": "operating activities"
+  },
+  "leasePrincipalPaid": {
+   "value": null,
+   "added": false,
+   "note": "Not separately disclosed: Samsung presents lease liabilities within 'current portion of long-term liabilities' or 'long-term borrowings', so lease principal sits unsplit inside 'Repayment of debentures and long-term borrowings' (1,364,508) in financing.",
+   "source": {
+    "hostType": "company",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+    "label": "2024 Business Report, notes, accounting policies: leases",
+    "quote": "the lease liability is presented as ‘current portion of long-term liabilities’ or ‘long-term borrowings.’"
+   }
+  }
+ },
+ "paidOut": 281629.921,
+ "paidOutFormula": "300,870,903 − 72,982,621 + 53,741,639 (51,406,355 PP&E + 2,335,284 intangibles) = 281,629,921 KRW million (interest and taxes paid are inside OCF)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": {
+   "value": 4.276841,
+   "components": [
+    "interest received 4.008359",
+    "dividends received 0.268482"
+   ],
+   "parts": [
+    {
+     "label": "interest received",
+     "value": 4008.359,
+     "stated": 4008359,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+      "label": "2024 Business Report, consolidated statements of cash flows (KRW million)",
+      "quote": "Interest received 4,008,359 4,786,010 2,940,633 3,511,138 [KRW 2024, 2023; USD thousands 2024, 2023]"
+     }
+    },
+    {
+     "label": "dividends received",
+     "value": 268.482,
+     "stated": 268482,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+      "label": "2024 Business Report, consolidated statements of cash flows (KRW million)",
+      "quote": "Dividends received 268,482 269,169 196,965 197,469 [KRW 2024, 2023; USD thousands 2024, 2023]"
+     }
+    }
+   ],
+   "note": "Interest and dividends received sit in operating cash flow, lowering paidOut by this amount (1.5%)."
+  },
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Korean IFRS consolidated statements in the 2024 Business Report (the record's cited file; its statements are headed 'interim consolidated' but cover the full year ended December 31, 2024). Interest received, interest paid, dividends received and income tax paid all sit inside operating activities, so nothing is added. The US$ columns are a convenience translation, not used.",
+ "researchedAt": "2026-11-23"
+}

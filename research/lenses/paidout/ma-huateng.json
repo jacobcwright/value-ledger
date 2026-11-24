@@ -1,0 +1,135 @@
+{
+ "id": "ma-huateng",
+ "company": "Tencent Holdings",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "CNY",
+ "unit": "billions",
+ "statedUnit": "RMB million",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 660.257,
+   "stated": 660257,
+   "divisor": 1000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+    "label": "Annual Report 2024, consolidated income statement (RMB million)",
+    "quote": "FinTech and Business Services 211,956 203,763 Others 7,759 5,395 6 660,257 609,015"
+   }
+  },
+  "operatingCashFlow": {
+   "value": 258.521,
+   "stated": 258521,
+   "divisor": 1000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+    "label": "Annual Report 2024, consolidated statement of cash flows (RMB million)",
+    "quote": "Income tax paid (46,184) (34,729) Net cash flows generated from operating activities 258,521 221,962"
+   },
+   "note": "Net cash flows after income tax; 'Cash generated from operations' (304,705) is pre-tax and not used."
+  },
+  "capex": {
+   "value": 96.048,
+   "components": [
+    "PP&E, construction in progress and investment properties 62.927",
+    "intangibles 26.394",
+    "land use rights 6.727"
+   ],
+   "parts": [
+    {
+     "label": "PP&E, construction in progress and investment properties",
+     "value": 62.927,
+     "stated": 62927,
+     "divisor": 1000,
+     "source": {
+      "hostType": "exchange",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+      "label": "Annual Report 2024, consolidated statement of cash flows (RMB million)",
+      "quote": "Purchase of/prepayments for property, plant and equipment, construction in progress and investment properties (62,927) (21,008)"
+     }
+    },
+    {
+     "label": "intangibles",
+     "value": 26.394,
+     "stated": 26394,
+     "divisor": 1000,
+     "source": {
+      "hostType": "exchange",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+      "label": "Annual Report 2024, consolidated statement of cash flows (RMB million)",
+      "quote": "Purchase of/prepayments for intangible assets (26,394) (26,042)"
+     }
+    },
+    {
+     "label": "land use rights",
+     "value": 6.727,
+     "stated": 6727,
+     "divisor": 1000,
+     "source": {
+      "hostType": "exchange",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+      "label": "Annual Report 2024, consolidated statement of cash flows (RMB million)",
+      "quote": "Purchase of/prepayments for land use rights (6,727) (357)"
+     }
+    }
+   ],
+   "note": "Gross purchases including prepayments. Intangibles are largely content licences (video, music, game rights), counted as intangible purchases per PAIDOUT.md. PP&E line also includes investment properties (one combined line). Excludes business combinations (7,847), investments in associates/JVs and financial assets."
+  },
+  "interestPaid": {
+   "value": 12.417,
+   "stated": 12417,
+   "divisor": 1000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+    "label": "Annual Report 2024, consolidated statement of cash flows (RMB million)",
+    "quote": "Principal elements of lease payments (6,369) (6,652) Interest paid (12,417) (11,478)"
+   },
+   "inOCF": false,
+   "location": "financing activities",
+   "note": "Includes lease interest of about RMB838 million (leases note: total financing lease outflow 7,207 = principal 6,369 + interest 838)."
+  },
+  "taxesPaid": {
+   "value": 46.184,
+   "stated": 46184,
+   "divisor": 1000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+    "label": "Annual Report 2024, consolidated statement of cash flows (RMB million)",
+    "quote": "Cash generated from operations 43(a) 304,705 256,691 Income tax paid (46,184) (34,729)"
+   },
+   "inOCF": true,
+   "location": "operating activities"
+  },
+  "leasePrincipalPaid": {
+   "value": 6.369,
+   "stated": 6369,
+   "divisor": 1000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+    "label": "Annual Report 2024, consolidated statement of cash flows (RMB million)",
+    "quote": "Principal elements of lease payments (6,369) (6,652)"
+   },
+   "added": false,
+   "note": "IFRS 16 lease principal in financing; noted, not added (1.2% of paidOut)."
+  }
+ },
+ "paidOut": 510.201,
+ "paidOutFormula": "660,257 − 258,521 + 96,048 (62,927 PP&E/CIP/investment properties + 26,394 intangibles + 6,727 land use rights) + 12,417 (interest paid, financing) = 510,201 RMB million",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": false,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "IFRS (HKEX annual report). Income tax paid is inside operating activities (not added); interest paid (incl. ~838 lease interest) is in financing (added). Interest received (14,913) and dividends received (3,521) are in investing, so they do not lower OCF. OCF includes a 16,533 rise in deferred revenue (customer prepayments for games/subscriptions), which lowers this single-year figure. FinTech: the cash-flow reconciliation shows no customer-funds or loan-book lines in working capital (WeBank is an associate, not consolidated), so financeReceivablesInOCF is false.",
+ "researchedAt": "2026-11-23"
+}

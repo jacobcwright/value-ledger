@@ -1,0 +1,125 @@
+{
+  "id": "dan-schulman",
+  "company": "PayPal",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "payments",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 31.797,
+      "stated": 31797,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
+        "quote": "Net revenues $ 31,797 $ 29,771 $ 27,518 Operating expenses",
+        "xbrl": {
+          "cik": "0001633917",
+          "concept": "us-gaap:Revenues",
+          "end": "2024-12-31",
+          "value": 31797000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 7.45,
+      "stated": 7450,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities 7,450 4,843 5,813 Cash flows from investing activities",
+        "xbrl": {
+          "cik": "0001633917",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": 7450000000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.683,
+      "components": [
+        "PP&E 0.683"
+      ],
+      "stated": 683,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+        "quote": "Purchases of property and equipment ( 683 ) ( 623 ) ( 706 )",
+        "xbrl": {
+          "cik": "0001633917",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-12-31",
+          "value": 683000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.366,
+      "stated": 366,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
+        "quote": "Cash paid for interest $ 366 $ 331 $ 280 Cash paid for income taxes, net $ 1,027 $ 2,118 $ 878",
+        "xbrl": {
+          "cik": "0001633917",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-12-31",
+          "value": 366000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 1.027,
+      "stated": 1027,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
+        "quote": "Cash paid for interest $ 366 $ 331 $ 280 Cash paid for income taxes, net $ 1,027 $ 2,118 $ 878",
+        "xbrl": {
+          "cik": "0001633917",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 1027000000
+        }
+      }
+    },
+    "financeReceivablesChangeInOCF": {
+      "value": 0.146,
+      "stated": 146,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+        "quote": "Originations of loans receivable, held for sale ( 24,498 ) ( 11,470 ) - Proceeds from repayments and sales of loans receivable, originally classified as held for sale 24,352 10,795 -"
+      },
+      "effectOnOCF": "lowers",
+      "note": "Held-for-sale loans (originations −24,498, repayments and sales +24,352, net −146) sit in operating cash flow; held-for-investment loans and funds receivable are in investing.",
+      "derivation": "net of 24,498 and 24,352",
+      "computedFrom": [
+        "24,498 − 24,352 (÷1,000)"
+      ]
+    }
+  },
+  "paidOut": 25.03,
+  "paidOutFormula": "revenue 31,797 − operating cash flow 7,450 + capex 683 (USD millions, as stated)",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": true,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Payments company: normal operating cash flow, formula with the sector flag. Customer balances (funds payable) are in financing and funds receivable in investing, so they do not distort operating cash flow. Total net revenues include 2.1bn that is not revenue from contracts with customers (ASC 606).",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,125 @@
+{
+  "id": "jack-dorsey",
+  "company": "Block",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "payments",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 24.121053,
+      "stated": 24121053,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of operations (in thousands)",
+        "quote": "Bitcoin revenue 10,199,205 9,498,302 7,112,856 Total net revenue 24,121,053 21,915,623 17,531,587",
+        "xbrl": {
+          "cik": "0001512673",
+          "concept": "us-gaap:Revenues",
+          "end": "2024-12-31",
+          "value": 24121053000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 1.70735,
+      "stated": 1707350,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+        "quote": "Net cash provided by operating activities 1,707,350 100,961 175,903",
+        "xbrl": {
+          "cik": "0001512673",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": 1707350000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.153947,
+      "components": [
+        "PP&E 0.153947"
+      ],
+      "stated": 153947,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+        "quote": "Purchases of property and equipment ( 153,947 ) ( 151,151 ) ( 170,815 )",
+        "xbrl": {
+          "cik": "0001512673",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-12-31",
+          "value": 153947000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.205776,
+      "stated": 205776,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
+        "quote": "Cash paid for interest $ 205,776 $ 130,009 $ 84,876 Cash paid for income taxes 270,314 81,376 39,045",
+        "xbrl": {
+          "cik": "0001512673",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-12-31",
+          "value": 205776000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 0.270314,
+      "stated": 270314,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
+        "quote": "Cash paid for interest $ 205,776 $ 130,009 $ 84,876 Cash paid for income taxes 270,314 81,376 39,045",
+        "xbrl": {
+          "cik": "0001512673",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2024-12-31",
+          "value": 270314000
+        }
+      }
+    },
+    "financeReceivablesChangeInOCF": {
+      "value": 0.797469,
+      "stated": 797469,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+        "quote": "Purchases and originations of loans ( 15,210,746 ) ( 8,586,293 ) ( 6,114,847 ) Proceeds from payments and forgiveness of loans 14,413,277 8,032,687 6,040,369"
+      },
+      "effectOnOCF": "lowers",
+      "note": "Loan originations (−15,210,746) and repayments (+14,413,277), net −797,469, sit in operating cash flow; consumer receivables are in investing. Settlement and customer-payable swings (+1,947,849 and −1,853,872) are also inside operating cash flow.",
+      "derivation": "net of 15,210,746 and 14,413,277",
+      "computedFrom": [
+        "15,210,746 − 14,413,277 (÷1,000,000)"
+      ]
+    }
+  },
+  "paidOut": 22.56765,
+  "paidOutFormula": "revenue 24,121,053 − operating cash flow 1,707,350 + capex 153,947 (USD thousands, as stated)",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": true,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Payments company: formula with the sector flag. Revenue includes bitcoin revenue of 10,199,205 recorded gross, so the cost of the bitcoin sold counts in paidOut.",
+  "researchedAt": "2026-11-23"
+}

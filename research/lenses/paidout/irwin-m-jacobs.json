@@ -1,0 +1,103 @@
+{
+ "id": "irwin-m-jacobs",
+ "company": "Qualcomm",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-09-29",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 38.962,
+   "stated": 38962,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
+    "quote": "Licensing 6,171 5,792 7,029 Total revenues 38,962 35,820 44,200",
+    "xbrl": {
+     "cik": "0000804328",
+     "concept": "us-gaap:Revenues",
+     "end": "2024-09-29",
+     "value": 38962000000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 12.202,
+   "stated": 12202,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Net cash used by operating activities from discontinued operations ( 91 ) ( 399 ) ( 170 ) Net cash provided by operating activities 12,202 11,299 9,096",
+    "xbrl": {
+     "cik": "0000804328",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-09-29",
+     "value": 12202000000
+    }
+   }
+  },
+  "capex": {
+   "value": 1.041,
+   "components": [
+    "capital expenditures 1.041"
+   ],
+   "stated": 1041,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Investing Activities: Capital expenditures ( 1,041 ) ( 1,450 ) ( 2,262 )",
+    "xbrl": {
+     "cik": "0000804328",
+     "concept": "us-gaap:PaymentsToAcquireProductiveAssets",
+     "end": "2024-09-29",
+     "value": 1041000000
+    }
+   }
+  },
+  "interestPaid": {
+   "value": 0.656,
+   "stated": 656,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
+    "label": "FY2024 Form 10-K, notes to the consolidated financial statements (in millions)",
+    "quote": "Cash interest paid related to our commercial paper program and long-term debt was $ 656 million, $ 614 million and $ 491 million during fiscal 2024, 2023 and 2022, respectively"
+   }
+  },
+  "taxesPaid": {
+   "value": 3.3,
+   "stated": 3.3,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
+    "label": "FY2024 Form 10-K, notes to the consolidated financial statements",
+    "quote": "Cash amounts paid for income taxes, net of refunds received, were $ 3.3 billion, $ 1.4 billion and $ 2.1 billion for fiscal 2024, 2023 and 2022, respectively",
+    "xbrl": {
+     "cik": "0000804328",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2024-09-29",
+     "value": 3300000000
+    }
+   }
+  }
+ },
+ "paidOut": 27.801,
+ "paidOutFormula": "revenue 38,962 − operating cash flow 12,202 + capex 1,041 (USD millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Fiscal year ended September 29, 2024. Operating cash flow includes discontinued operations (−91) while revenue is continuing operations; immaterial. Acquisitions and other investments (254) excluded.",
+ "researchedAt": "2026-11-23"
+}

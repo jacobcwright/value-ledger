@@ -1,0 +1,118 @@
+{
+ "id": "wang-chuanfu",
+ "company": "BYD Company Limited",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "CNY",
+ "unit": "billions",
+ "statedUnit": "RMB thousand",
+ "sector": "industrial",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 777.102455,
+   "stated": 777102455,
+   "divisor": 1000000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
+    "label": "2024 annual results announcement (Annual Report 2024 text), consolidated income statement (RMB'000)",
+    "quote": "I. Operating revenue 44 777,102,455 602,315,354"
+   }
+  },
+  "operatingCashFlow": {
+   "value": 133.453873,
+   "stated": 133453873,
+   "divisor": 1000000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
+    "label": "2024 annual results announcement (Annual Report 2024 text), consolidated cash flow statement (RMB'000)",
+    "quote": "Net cash flow from operating activities 61 133,453,873 169,725,025"
+   },
+   "note": "Direct method (PRC Accounting Standards for Business Enterprises)."
+  },
+  "capex": {
+   "value": 97.359768,
+   "stated": 97359768,
+   "divisor": 1000000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
+    "label": "2024 annual results announcement (Annual Report 2024 text), consolidated cash flow statement (RMB'000)",
+    "quote": "Cash paid for purchase and construction of fixed assets, intangible assets and other long-term assets 97,359,768 122,093,509"
+   },
+   "components": [
+    "fixed assets, intangible assets and other long-term assets (one combined line) 97.359768"
+   ],
+   "note": "Reported only as one combined line (PP&E, construction, intangibles incl. land use rights, other long-term assets). Excludes acquisitions of subsidiaries (125,437) and investments."
+  },
+  "interestPaid": {
+   "value": null,
+   "inOCF": false,
+   "location": "financing activities, merged with dividends",
+   "mergedLine": {
+    "value": 10.051081,
+    "stated": 10051081,
+    "divisor": 1000000,
+    "source": {
+     "hostType": "exchange",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
+     "label": "2024 annual results announcement (Annual Report 2024 text), consolidated cash flow statement (RMB'000)",
+     "quote": "Cash payments for distribution of dividends, profits or interest expenses 10,051,081 4,101,617"
+    }
+   },
+   "note": "BYD reports interest paid only inside one financing line with dividends and profit distributions (10,051,081, of which 415,066 to minority shareholders). The notes do not split out interest, so nothing is added; paidOut is understated by the unknown cash interest (finance costs in the OCF reconciliation were 1,907,942, an accrual net figure)."
+  },
+  "taxesPaid": {
+   "value": 52.697132,
+   "stated": 52697132,
+   "divisor": 1000000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
+    "label": "2024 annual results announcement (Annual Report 2024 text), consolidated cash flow statement (RMB'000)",
+    "quote": "Cash paid for various types of taxes 52,697,132 29,528,359"
+   },
+   "inOCF": true,
+   "location": "operating activities",
+   "note": "All taxes paid (income tax, VAT and other taxes), not income tax alone; inside OCF, so not added. Operating inflows also include tax rebates received of 12,073,925."
+  },
+  "leasePrincipalPaid": {
+   "value": 2.570565,
+   "stated": 2570565,
+   "divisor": 1000000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
+    "label": "2024 annual results announcement, note V.60 notes to cash flow statement (RMB'000)",
+    "quote": "Repurchase of ordinary shares 400,028 – Payment of lease liabilities 2,570,565 1,280,633"
+   },
+   "added": false,
+   "note": "Lease payments inside 'Cash paid for other activities relating to financing'; noted, not added (0.3% of paidOut)."
+  }
+ },
+ "paidOut": 741.00835,
+ "paidOutFormula": "777,102,455 − 133,453,873 + 97,359,768 = 741,008,350 RMB thousand (interest paid is merged with dividends in financing and not added; taxes paid are inside OCF)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": null,
+  "interestDividendsReceivedInOCF": {
+   "value": 2.256777,
+   "stated": 2256777,
+   "divisor": 1000000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
+    "label": "2024 annual results announcement, note V.60 notes to cash flow statement (RMB'000)",
+    "quote": "Interest income 利息收入 2,256,777 2,430,367"
+   },
+   "note": "Interest income received sits in 'cash received from other activities relating to operations', lowering paidOut by this amount (0.3%)."
+  },
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Statements prepared under PRC Accounting Standards for Business Enterprises (CASBE), direct-method cash flow. Interest paid cannot be separated from dividends (null, not added), so paidOut omits cash interest to lenders. Operating cash inflows also include government subsidies of 19,600,017 and tax rebates of 12,073,925 (both lower paidOut; not adjusted). financeReceivablesInOCF left null: the statement does not show whether auto-finance receivables move through 'operating receivables'. Capex is the single combined CASBE line.",
+ "researchedAt": "2026-11-23"
+}

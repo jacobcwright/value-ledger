@@ -1,0 +1,130 @@
+{
+ "id": "bill-gates",
+ "company": "Microsoft",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-06-30",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 245.122,
+   "stated": 245122,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
+    "quote": "Total revenue 245,122 211,915 198,270",
+    "xbrl": {
+     "cik": "0000789019",
+     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+     "end": "2024-06-30",
+     "value": 245122000000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 118.548,
+   "stated": 118548,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Net cash from operations 118,548 87,582 89,035",
+    "xbrl": {
+     "cik": "0000789019",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-06-30",
+     "value": 118548000000
+    }
+   }
+  },
+  "capex": {
+   "value": 44.477,
+   "components": [
+    "PP&E 44.477"
+   ],
+   "stated": 44477,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Additions to property and equipment ( 44,477 ) ( 28,107 ) ( 23,886 )",
+    "xbrl": {
+     "cik": "0000789019",
+     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+     "end": "2024-06-30",
+     "value": 44477000000
+    }
+   },
+   "excluded": {
+    "value": 69.132,
+    "stated": 69132,
+    "source": {
+     "hostType": "sec",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+     "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+     "quote": "Acquisition of companies, net of cash acquired, and purchases of intangible and other assets ( 69,132 ) ( 1,670 ) ( 22,038 )"
+    }
+   }
+  },
+  "interestPaid": {
+   "value": 1.7,
+   "stated": 1.7,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+    "label": "FY2024 Form 10-K, notes to the consolidated financial statements",
+    "quote": "Cash paid for interest on our debt for fiscal years 2024, 2023, and 2022 was $ 1.7 billion, $ 1.7 billion, and $ 1.9 billion, respectively",
+    "xbrl": {
+     "cik": "0000789019",
+     "concept": "us-gaap:InterestPaid",
+     "end": "2024-06-30",
+     "value": 1700000000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 23.4,
+   "stated": 23.4,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+    "label": "FY2024 Form 10-K, notes to the consolidated financial statements",
+    "quote": "Income taxes paid, net of refunds, were $ 23.4 billion, $ 23.1 billion, and $ 16.0 billion in fiscal years 2024, 2023, and 2022, respectively",
+    "xbrl": {
+     "cik": "0000789019",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2024-06-30",
+     "value": 23400000000
+    }
+   }
+  },
+  "interestDividendsReceived": {
+   "value": 3.157,
+   "stated": 3157,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+    "label": "FY2024 Form 10-K, management's discussion and analysis (in millions)",
+    "quote": "Interest and dividends income $ 3,157 $ 2,994"
+   },
+   "derivation": "interest and dividends income from MD&A, used to size the bias as the pilot did for Shopify"
+  }
+ },
+ "paidOut": 171.051,
+ "paidOutFormula": "revenue 245,122 − operating cash flow 118,548 + capex 44,477 (USD millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": 3.157,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Fiscal year ended June 30, 2024. Intangible-asset purchases are reported only combined with acquisitions of companies (69,132), so they cannot be split out and are excluded with the acquisitions; capex is PP&E additions only, which slightly understates paidOut.",
+ "researchedAt": "2026-11-23"
+}

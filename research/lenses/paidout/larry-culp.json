@@ -1,0 +1,130 @@
+{
+  "id": "larry-culp",
+  "company": "GE Aerospace",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "industrial",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 38.702,
+      "stated": 38702,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Services revenue 24,847 22,641 18,345 Insurance revenue 3,581 3,389 2,957 Total revenue $ 38,702 $ 35,348 $ 29,139",
+        "xbrl": {
+          "cik": "0000040545",
+          "concept": "us-gaap:Revenues",
+          "end": "2024-12-31",
+          "value": 38702000000
+        }
+      },
+      "note": "Continuing operations (GE completed the separation of GE Vernova on April 2, 2024; its results are discontinued operations). Includes 3,581 of run-off insurance revenue."
+    },
+    "operatingCashFlow": {
+      "value": 5.817,
+      "stated": 5817,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Cash from (used for) operating activities - continuing operations 5,817 4,609 4,027",
+        "xbrl": {
+          "cik": "0000040545",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+          "end": "2024-12-31",
+          "value": 5817000000
+        }
+      },
+      "note": "Continuing operations, to match revenue. Total including discontinued operations is 4,710."
+    },
+    "capex": {
+      "value": 1.032,
+      "components": [
+        "PP&E and internal-use software (combined line, continuing operations) 1.032"
+      ],
+      "stated": 1032,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Additions to property, plant and equipment and internal-use software ( 1,032 ) ( 862 ) ( 662 )",
+        "xbrl": {
+          "cik": "0000040545",
+          "concept": "us-gaap:PaymentsToAcquireProductiveAssets",
+          "end": "2024-12-31",
+          "value": 1032000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.969,
+      "inOCF": true,
+      "stated": 969,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Supplemental disclosure of cash flows information Cash paid during the year for interest $ ( 969 ) $ ( 1,067 ) $ ( 1,561 )",
+        "xbrl": {
+          "cik": "0000040545",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-12-31",
+          "value": 969000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 0.852,
+      "inOCF": true,
+      "stated": 852,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+        "label": "FY2024 Form 10-K, income taxes note (in millions)",
+        "quote": "Cash income taxes paid(a) 852 994 1,128 (a) Included taxes paid to taxing authorities including those related to discontinued operations.",
+        "xbrl": {
+          "cik": "0000040545",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 852000000
+        }
+      },
+      "note": "Includes taxes related to discontinued operations."
+    },
+    "otherNamedItems": {
+      "operatingCashFlowIncludingDiscontinued": {
+        "value": 4.71,
+        "stated": 4710,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+          "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+          "quote": "Cash from (used for) operating activities - discontinued operations ( 1,107 ) 580 1,889 Cash from (used for) operating activities 4,710 5,189 5,917",
+          "xbrl": {
+            "cik": "0000040545",
+            "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+            "end": "2024-12-31",
+            "value": 4710000000
+          }
+        }
+      }
+    }
+  },
+  "paidOut": 33.917,
+  "paidOutFormula": "38.702 − 5.817 + 1.032",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Continuing-operations basis throughout: revenue, operating cash flow (5,817) and capex are all GE Aerospace continuing operations. Using total operating cash flow (4,710, including GE Vernova until the spin) would give 35.024bn.",
+  "researchedAt": "2026-11-23"
+}

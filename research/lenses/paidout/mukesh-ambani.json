@@ -1,0 +1,103 @@
+{
+ "id": "mukesh-ambani",
+ "company": "Reliance Industries",
+ "fiscalYear": "FY 2024-25",
+ "fiscalYearEnd": "2025-03-31",
+ "currency": "INR",
+ "unit": "billions",
+ "statedUnit": "₹ crore (1 crore = 0.01 billion)",
+ "sector": "conglomerate",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 9801.36,
+   "stated": 980136,
+   "divisor": 100,
+   "source": {
+    "hostType": "company",
+    "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+    "label": "Integrated Annual Report 2024-25, consolidated statement of profit and loss (₹ crore)",
+    "quote": "Value of Sales & Services (Revenue) 10,71,174 10,00,122 Other Comprehensive Income Attributable to: Less: GST Recovered 91,038 85,650 a) Owners of the Company (2,433) 3,567 Revenue from Operations 25 9,80,136 9,14,472"
+   },
+   "note": "Revenue from Operations: net of GST (91,038) but including excise duty (15,443, also an expense). Gross value of sales and services was 10,71,174."
+  },
+  "operatingCashFlow": {
+   "value": 1787.03,
+   "stated": 178703,
+   "divisor": 100,
+   "source": {
+    "hostType": "company",
+    "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+    "label": "Integrated Annual Report 2024-25, consolidated statement of cash flows (₹ crore)",
+    "quote": "Taxes Paid (Net) (11,925) (11,961) Partner Partner Company Secretary DIN: 00012144 Membership No. 102912 Membership No. 047841 Net Cash Flow from Operating Activities * 1,78,703 1,58,788"
+   }
+  },
+  "capex": {
+   "value": 1399.67,
+   "stated": 139967,
+   "divisor": 100,
+   "source": {
+    "hostType": "company",
+    "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+    "label": "Integrated Annual Report 2024-25, consolidated statement of cash flows (₹ crore)",
+    "quote": "Expenditure for Property, Plant and Equipment, Spectrum and Other Intangible Assets (1,39,967) (1,52,883)"
+   },
+   "components": [
+    "PP&E, spectrum and other intangibles (one combined line) 1399.67"
+   ],
+   "note": "Includes spectrum and intangibles. Separate 'Payment of Deferred Payment Liabilities' (4,574, deferred spectrum) is excluded. It is not stated whether capitalised interest (18,283) is in this line or only in 'Interest Paid'; the risk of overlap is noted."
+  },
+  "interestPaid": {
+   "value": 410.24,
+   "stated": 41024,
+   "divisor": 100,
+   "source": {
+    "hostType": "company",
+    "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+    "label": "Integrated Annual Report 2024-25, consolidated statement of cash flows, financing activities (₹ crore)",
+    "quote": "Payment of Dividend to Non-Controlling Interest (414) - Interest Paid (41,024) (37,173) Net Cash Flow Used in Financing Activities (31,891) (16,646)"
+   },
+   "inOCF": false,
+   "location": "financing activities",
+   "note": "Exceeds finance costs (24,269) because it includes interest capitalised (18,283)."
+  },
+  "taxesPaid": {
+   "value": 119.25,
+   "stated": 11925,
+   "divisor": 100,
+   "source": {
+    "hostType": "company",
+    "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+    "label": "Integrated Annual Report 2024-25, consolidated statement of cash flows (₹ crore)",
+    "quote": "Cash Generated from Operations 1,90,628 1,70,749 Abhijit A. Damle Sandesh Ladha Savithri Parekh P.M.S. Prasad Directors Taxes Paid (Net) (11,925) (11,961)"
+   },
+   "inOCF": true,
+   "location": "operating activities"
+  },
+  "leasePrincipalPaid": {
+   "value": 29.56,
+   "stated": 2956,
+   "divisor": 100,
+   "source": {
+    "hostType": "company",
+    "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+    "label": "Integrated Annual Report 2024-25, consolidated statement of cash flows, financing (₹ crore)",
+    "quote": "Payment of Lease Liabilities (2,956) (2,483)"
+   },
+   "added": false,
+   "note": "Ind AS 116 lease principal in financing; noted, not added (0.3% of paidOut)."
+  }
+ },
+ "paidOut": 9824.24,
+ "paidOutFormula": "9,80,136 − 1,78,703 + 1,39,967 + 41,024 (interest paid, financing) = 9,82,424 ₹ crore",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": false,
+  "revenueIncludesExcise": true,
+  "nonCashRevenue": null
+ },
+ "notes": "Converted from the pilot (_pilot.json). Revenue from operations is net of GST but includes excise duty of ₹15,443 crore (also an expense), so revenueIncludesExcise. Interest paid (financing, added) includes interest capitalised of ₹18,283 crore; the statement does not say whether the capex line also contains capitalised interest, so up to 1.9% of paidOut may be double counted. Interest income (15,833) and dividend income are in investing, not OCF. Lease principal (2,956) noted, not added.",
+ "researchedAt": "2026-11-23"
+}

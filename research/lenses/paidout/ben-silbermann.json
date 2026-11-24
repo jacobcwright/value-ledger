@@ -1,0 +1,109 @@
+{
+ "id": "ben-silbermann",
+ "company": "Pinterest",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 3.646166,
+   "stated": 3646166,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
+    "label": "FY2024 Form 10-K, management's discussion and analysis (in thousands)",
+    "quote": "Revenue $ 3,646,166 $ 3,055,071 $ 2,802,574",
+    "xbrl": {
+     "cik": "0001506293",
+     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+     "end": "2024-12-31",
+     "value": 3646166000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 0.964594,
+   "stated": 964594,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+    "quote": "Net cash provided by operating activities 964,594 612,961 469,202",
+    "xbrl": {
+     "cik": "0001506293",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 964594000
+    }
+   }
+  },
+  "capex": {
+   "value": 0.024606,
+   "components": [
+    "PP&E 0.024606"
+   ],
+   "stated": 24606,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+    "quote": "Purchases of property and equipment ( 24,606 ) ( 8,063 ) ( 28,984 )",
+    "xbrl": {
+     "cik": "0001506293",
+     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+     "end": "2024-12-31",
+     "value": 24606000
+    }
+   }
+  },
+  "interestPaid": {
+   "value": null,
+   "inOCF": true,
+   "source": null,
+   "note": "Not disclosed in the filing or companyfacts; under US GAAP it would sit inside operating cash flow, so the formula does not need it."
+  },
+  "taxesPaid": {
+   "value": 0.025018,
+   "stated": 25018,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
+    "quote": "Cash paid for income taxes, net $ 25,018 $ 19,173 $ 10,008",
+    "xbrl": {
+     "cik": "0001506293",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2024-12-31",
+     "value": 25018000
+    }
+   }
+  },
+  "interestDividendsReceived": {
+   "value": 0.127003,
+   "stated": 127003,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
+    "label": "FY2024 Form 10-K, management's discussion and analysis (in thousands)",
+    "quote": "Interest income (expense), net 127,003 105,439 30,235"
+   },
+   "derivation": "interest income from the income statement, used to size the bias: cash interest received is inside operating cash flow but not in revenue (the pilot did the same for Shopify)"
+  }
+ },
+ "paidOut": 2.706178,
+ "paidOutFormula": "revenue 3,646,166 − operating cash flow 964,594 + capex 24,606 (USD thousands, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": 0.127003,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "No cash interest is disclosed (no debt outstanding) and companyfacts has no InterestPaidNet fact; it would sit inside operating cash flow, so paidOut is unaffected.",
+ "researchedAt": "2026-11-23"
+}

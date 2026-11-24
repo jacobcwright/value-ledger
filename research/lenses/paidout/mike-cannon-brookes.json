@@ -1,0 +1,109 @@
+{
+  "id": "mike-cannon-brookes",
+  "company": "Atlassian",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-06-30",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "tech",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 5.215304,
+      "stated": 5215304,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations (in thousands)",
+        "quote": "Total revenues 5,215,304 4,358,603 3,534,647",
+        "xbrl": {
+          "cik": "0001650372",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2025-06-30",
+          "value": 5215304000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 1.460393,
+      "stated": 1460393,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Net cash provided by operating activities 1,460,393 1,448,159 868,111",
+        "xbrl": {
+          "cik": "0001650372",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2025-06-30",
+          "value": 1460393000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.04485,
+      "components": [
+        "PP&E 0.04485"
+      ],
+      "stated": 44850,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Purchases of property and equipment ( 44,850 ) ( 33,112 ) ( 25,812 )",
+        "xbrl": {
+          "cik": "0001650372",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2025-06-30",
+          "value": 44850000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.054268,
+      "inOCF": true,
+      "stated": 54268,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in thousands)",
+        "quote": "Income taxes paid, net of refunds $ 180,470 $ 253,828 $ 102,156 Interest paid 54,268 61,339 46,247",
+        "xbrl": {
+          "cik": "0001650372",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2025-06-30",
+          "value": 54268000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 0.18047,
+      "inOCF": true,
+      "stated": 180470,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in thousands)",
+        "quote": "Income taxes paid, net of refunds $ 180,470 $ 253,828 $ 102,156 Interest paid 54,268 61,339 46,247",
+        "xbrl": {
+          "cik": "0001650372",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-06-30",
+          "value": 180470000
+        }
+      }
+    }
+  },
+  "paidOut": 3.799761,
+  "paidOutFormula": "5.215304 − 1.460393 + 0.04485",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Fiscal year ended June 30, 2025; amounts in thousands.",
+  "researchedAt": "2026-11-23"
+}

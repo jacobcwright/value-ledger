@@ -1,0 +1,129 @@
+{
+  "id": "henry-ford",
+  "company": "Ford Motor Company",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "auto",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 184.992,
+      "stated": 184992,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
+        "quote": "Ford Credit 8,978 10,290 12,286 Total revenues (Note 4) 158,057 176,191 184,992",
+        "xbrl": {
+          "cik": "0000037996",
+          "concept": "us-gaap:Revenues",
+          "end": "2024-12-31",
+          "value": 184992000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 15.423,
+      "stated": 15423,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+        "quote": "Net cash provided by/(used in) operating activities 6,853 14,918 15,423",
+        "xbrl": {
+          "cik": "0000037996",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": 15423000000
+        }
+      }
+    },
+    "capex": {
+      "value": 8.684,
+      "components": [
+        "capital spending 8.684"
+      ],
+      "stated": 8684,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+        "quote": "Cash flows from investing activities Capital spending ( 6,866 ) ( 8,236 ) ( 8,684 )",
+        "xbrl": {
+          "cik": "0000037996",
+          "concept": "us-gaap:PaymentsToAcquireProductiveAssets",
+          "end": "2024-12-31",
+          "value": 8684000000
+        }
+      },
+      "excluded": {
+        "value": 59.72,
+        "stated": 59720,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+          "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+          "quote": "Acquisitions of finance receivables and operating leases ( 45,533 ) ( 54,505 ) ( 59,720 )"
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 8.1,
+      "stated": 8.1,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+        "label": "FY2024 Form 10-K, notes to the consolidated financial statements",
+        "quote": "Cash paid for interest was $ 1.2 billion, $ 1.3 billion, and $ 1.1 billion in 2022, 2023, and 2024, respectively, on Company excluding Ford Credit debt | Cash paid for interest was $ 3.2 billion, $ 5.8 billion, and $ 7.0 billion in 2022, 2023, and 2024, respectively, on Ford Credit debt"
+      },
+      "derivation": "Company excluding Ford Credit 1.1 + Ford Credit 7.0",
+      "computedFrom": [
+        "1.1 + 7"
+      ]
+    },
+    "taxesPaid": {
+      "value": 1.218,
+      "stated": 1218,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+        "label": "FY2024 Form 10-K, notes to the consolidated financial statements (in millions)",
+        "quote": "Cash paid for income taxes was $ 801 million, $ 1,027 million, and $ 1,218 million in 2022, 2023, and 2024, respectively",
+        "xbrl": {
+          "cik": "0000037996",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 1218000000
+        }
+      }
+    },
+    "financeReceivablesChangeInOCF": {
+      "value": 4.299,
+      "stated": 4299,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+        "quote": "Decrease/(Increase) in finance receivables (wholesale and other) ( 10,560 ) ( 4,827 ) ( 4,299 )"
+      },
+      "effectOnOCF": "lowers",
+      "note": "Growth in Ford Credit wholesale and other finance receivables, 4,299, sits inside operating cash flow; retail loans and the lease fleet are in investing."
+    }
+  },
+  "paidOut": 178.253,
+  "paidOutFormula": "revenue 184,992 − operating cash flow 15,423 + capex 8,684 (USD millions, as stated)",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": true,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Revenue includes Ford Credit revenue (12,286). Capex is \"Capital spending\" (PP&E and tooling); \"Acquisitions of finance receivables and operating leases\" (59,720, Ford Credit retail loans and the lease fleet) is excluded as financing assets. Wholesale finance receivables are inside operating cash flow (flagged, like Toyota); GM books the equivalent in investing.",
+  "researchedAt": "2026-11-23"
+}

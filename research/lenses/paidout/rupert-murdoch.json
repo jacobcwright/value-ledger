@@ -1,0 +1,111 @@
+{
+  "id": "rupert-murdoch",
+  "company": "News Corp",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-06-30",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "media",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 8.452,
+      "stated": 8452,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, segment note (in millions)",
+        "quote": "Total Revenues $ 8,452 $ 8,252 $ 8,012",
+        "xbrl": {
+          "cik": "0001564708",
+          "concept": "us-gaap:Revenues",
+          "end": "2025-06-30",
+          "value": 8452000000
+        }
+      },
+      "note": "Continuing operations (Foxtel, sold on April 2, 2025, is classified as discontinued operations)."
+    },
+    "operatingCashFlow": {
+      "value": 0.978,
+      "stated": 978,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities from continuing operations 978 897 777",
+        "xbrl": {
+          "cik": "0001564708",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+          "end": "2025-06-30",
+          "value": 978000000
+        }
+      },
+      "note": "Continuing operations, to match revenue; discontinued operations added 156."
+    },
+    "capex": {
+      "value": 0.407,
+      "components": [
+        "capital expenditures 0.407"
+      ],
+      "stated": 407,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Investing activities: Capital expenditures ( 407 ) ( 357 ) ( 347 )",
+        "xbrl": {
+          "cik": "0001564708",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2025-06-30",
+          "value": 407000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.093,
+      "inOCF": true,
+      "stated": 93,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for interest $ 93 $ 97 $ 61 Cash paid for taxes 208 156 149",
+        "xbrl": {
+          "cik": "0001564708",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2025-06-30",
+          "value": 93000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 0.208,
+      "inOCF": true,
+      "stated": 208,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for interest $ 93 $ 97 $ 61 Cash paid for taxes 208 156 149",
+        "xbrl": {
+          "cik": "0001564708",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2025-06-30",
+          "value": 208000000
+        }
+      }
+    }
+  },
+  "paidOut": 7.881,
+  "paidOutFormula": "8.452 − 0.978 + 0.407",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Fiscal year ended June 30, 2025. Continuing-operations basis (Foxtel discontinued).",
+  "researchedAt": "2026-11-23"
+}

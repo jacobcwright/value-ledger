@@ -1,0 +1,122 @@
+{
+  "id": "john-warnock",
+  "company": "Adobe",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-11-29",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "tech",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 21.505,
+      "stated": 21505,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Total revenue 21,505 19,409 17,606",
+        "xbrl": {
+          "cik": "0000796343",
+          "concept": "us-gaap:Revenues",
+          "end": "2024-11-29",
+          "value": 21505000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 8.056,
+      "stated": 8056,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Deferred revenue 309 536 536 Net cash provided by operating activities 8,056 7,302 7,838",
+        "xbrl": {
+          "cik": "0000796343",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-11-29",
+          "value": 8056000000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.183,
+      "components": [
+        "PP&E 0.183"
+      ],
+      "stated": 183,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Purchases of property and equipment ( 183 ) ( 360 ) ( 442 )",
+        "xbrl": {
+          "cik": "0000796343",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-11-29",
+          "value": 183000000
+        }
+      },
+      "excludes": [
+        {
+          "name": "long-term investments, intangibles and other assets (mixed line)",
+          "value": 0.108,
+          "stated": 108,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+            "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+            "quote": "Purchases of long-term investments, intangibles and other assets ( 108 ) ( 53 ) ( 46 )"
+          }
+        }
+      ]
+    },
+    "interestPaid": {
+      "value": 0.143,
+      "inOCF": true,
+      "stated": 143,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Supplemental disclosures: Cash paid for income taxes, net of refunds $ 1,727 $ 1,854 $ 778 Cash paid for interest $ 143 $ 106 $ 103",
+        "xbrl": {
+          "cik": "0000796343",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-11-29",
+          "value": 143000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 1.727,
+      "inOCF": true,
+      "stated": 1727,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Supplemental disclosures: Cash paid for income taxes, net of refunds $ 1,727 $ 1,854 $ 778 Cash paid for interest $ 143 $ 106 $ 103",
+        "xbrl": {
+          "cik": "0000796343",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-11-29",
+          "value": 1727000000
+        }
+      }
+    }
+  },
+  "paidOut": 13.632,
+  "paidOutFormula": "21.505 − 8.056 + 0.183",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Fiscal year ended November 29, 2024. Capex is PP&E only; intangibles purchases are combined with long-term investments in one line (108) and are left out.",
+  "researchedAt": "2026-11-23"
+}

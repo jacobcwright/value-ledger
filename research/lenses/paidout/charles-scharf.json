@@ -1,0 +1,144 @@
+{
+ "id": "charles-scharf",
+ "company": "Wells Fargo",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "bank",
+ "comparable": false,
+ "inputs": {
+  "revenue": {
+   "value": 82.296,
+   "stated": 82296,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231_d2.htm",
+    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of operations (in millions)",
+    "quote": "Total noninterest income 34,620 30,222 29,418 Total revenue 82,296 82,597 74,368",
+    "xbrl": {
+     "cik": "0000072971",
+     "concept": "us-gaap:RevenuesNetOfInterestExpense",
+     "end": "2024-12-31",
+     "value": 82296000000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 3.035,
+   "stated": 3035,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231_d2.htm",
+    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of cash flows (in millions)",
+    "quote": "Net cash provided by operating activities 3,035 40,358 27,048",
+    "xbrl": {
+     "cik": "0000072971",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 3035000000
+    }
+   }
+  },
+  "capex": {
+   "value": null,
+   "source": null,
+   "note": "No PP&E or intangible purchase line in the cash-flow statement and no PaymentsToAcquire* PP&E fact in companyfacts for this filing."
+  },
+  "interestPaid": {
+   "value": 43.619,
+   "stated": 43619,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231_d2.htm",
+    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), supplemental cash-flow information (in millions)",
+    "quote": "Cash paid for interest $ 43,619 30,431 8,289 Net cash paid (refunded) for income taxes 1,664 ( 1,786 ) 3,376",
+    "xbrl": {
+     "cik": "0000072971",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2024-12-31",
+     "value": 43619000000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 1.664,
+   "stated": 1664,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231_d2.htm",
+    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), supplemental cash-flow information (in millions)",
+    "quote": "Cash paid for interest $ 43,619 30,431 8,289 Net cash paid (refunded) for income taxes 1,664 ( 1,786 ) 3,376",
+    "xbrl": {
+     "cik": "0000072971",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2024-12-31",
+     "value": 1664000000
+    }
+   }
+  },
+  "noninterestExpense": {
+   "value": 54.598,
+   "stated": 54598,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231_d2.htm",
+    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of operations (in millions)",
+    "quote": "Other 4,001 5,849 3,932 Total noninterest expense 54,598 55,562 57,205",
+    "xbrl": {
+     "cik": "0000072971",
+     "concept": "us-gaap:NoninterestExpense",
+     "end": "2024-12-31",
+     "value": 54598000000
+    }
+   }
+  },
+  "depreciationAmortization": {
+   "value": 1.4,
+   "stated": 1.4,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231_d2.htm",
+    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), notes to the consolidated financial statements",
+    "quote": "Depreciation and amortization expense for premises and equipment was $ 1.4 billion in 2024, $ 1.3 billion in 2023, and $ 1.2 billion in 2022",
+    "xbrl": {
+     "cik": "0000072971",
+     "concept": "us-gaap:DepreciationAndAmortization",
+     "end": "2024-12-31",
+     "value": 1400000000
+    }
+   }
+  },
+  "stockComp": {
+   "value": 1.281,
+   "stated": 1281,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231_d2.htm",
+    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), notes to the consolidated financial statements (in millions)",
+    "quote": "Stock-based compensation 1,281 1,122 1,002 Stock issued for employee plans, net ( 1,162 ) ( 986 ) ( 900 )",
+    "xbrl": {
+     "cik": "0000072971",
+     "concept": "us-gaap:ShareBasedCompensation",
+     "end": "2024-12-31",
+     "value": 1281000000
+    }
+   }
+  }
+ },
+ "paidOut": null,
+ "altPaidOut": 53.581,
+ "altPaidOutFormula": "noninterest expense 54.598 − D&A 1.4 − stock comp 1.281 + income taxes paid 1.664 (USD billions)",
+ "interestPaid": 43.619,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Bank: paidOut null, altPaidOut = noninterest expense − D&A − SBC + income taxes paid. D&A is premises-and-equipment depreciation (1.4bn, the DepreciationAndAmortization fact); the cash-flow add-back \"Depreciation, amortization and accretion\" (7,558) includes securities and loan accretion and is not comparable, so it is not used. SBC is the stock-based compensation credited to paid-in capital (1,281, the ShareBasedCompensation fact). The cash-flow statement has no premises-and-equipment purchase line, so capex is null. Interest paid (43,619) is shown separately.",
+ "researchedAt": "2026-11-23"
+}

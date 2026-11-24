@@ -1,0 +1,166 @@
+{
+ "id": "akio-toyoda",
+ "company": "Toyota Motor Corporation",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-03-31",
+ "currency": "JPY",
+ "unit": "billions",
+ "sector": "industrial",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 48036.704,
+   "stated": 48036704,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+    "label": "FY2025 Form 20-F, consolidated statement of income (yen in millions)",
+    "quote": "Sales revenues Sales of products 26 34,367,619 41,648,130 43,598,877 Financial services 26 2,786,679 3,447,195 4,437,827 Total sales revenues 26 37,154,298 45,095,325 48,036,704",
+    "xbrl": {
+     "cik": "0001094517",
+     "concept": "ifrs-full:Revenue",
+     "end": "2025-03-31",
+     "value": 48036704000000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 3696.934,
+   "stated": 3696934,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+    "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+    "quote": "Income taxes paid, net of refunds ( 1,297,224 ) ( 1,124,322 ) ( 2,501,315 ) Net cash provided by (used in) operating activities 2,955,076 4,206,373 3,696,934",
+    "xbrl": {
+     "cik": "0001094517",
+     "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+     "end": "2025-03-31",
+     "value": 3696934000000
+    }
+   }
+  },
+  "capex": {
+   "value": 2261.007,
+   "components": [
+    "fixed assets excluding equipment leased to others 1906.811",
+    "intangible assets 354.196"
+   ],
+   "stated": 2261007,
+   "derived": {
+    "method": "fixed assets excluding equipment leased to others + intangible assets (IFRS capitalised development costs and software)",
+    "inputs": [
+     {
+      "value": 1906.811,
+      "stated": 1906811,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+       "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+       "quote": "Additions to fixed assets excluding equipment leased to others ( 1,450,196 ) ( 1,846,447 ) ( 1,906,811 )"
+      }
+     },
+     {
+      "value": 354.196,
+      "stated": 354196,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+       "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+       "quote": "Additions to intangible assets ( 348,280 ) ( 334,287 ) ( 354,196 )",
+       "xbrl": {
+        "cik": "0001094517",
+        "concept": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities",
+        "end": "2025-03-31",
+        "value": 354196000000
+       }
+      }
+     }
+    ]
+   },
+   "excludes": {
+    "equipmentLeasedToOthers": {
+     "value": 2996.92,
+     "stated": 2996920,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+      "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+      "quote": "Additions to equipment leased to others ( 1,907,356 ) ( 2,867,660 ) ( 2,996,920 )"
+     }
+    }
+   }
+  },
+  "interestPaid": {
+   "value": 1609.083,
+   "stated": 1609083,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+    "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+    "quote": "Dividends received 460,351 587,259 623,295 Interest paid ( 593,216 ) ( 1,148,392 ) ( 1,609,083 )",
+    "xbrl": {
+     "cik": "0001094517",
+     "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+     "end": "2025-03-31",
+     "value": 1609083000000
+    }
+   },
+   "note": "inside operating cash flow (Toyota elects operating classification under IFRS)"
+  },
+  "taxesPaid": {
+   "value": 2501.315,
+   "stated": 2501315,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+    "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+    "quote": "Income taxes paid, net of refunds ( 1,297,224 ) ( 1,124,322 ) ( 2,501,315 )",
+    "xbrl": {
+     "cik": "0001094517",
+     "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+     "end": "2025-03-31",
+     "value": 2501315000000
+    }
+   },
+   "note": "inside operating cash flow"
+  },
+  "financeReceivablesChangeInOCF": {
+   "value": 2389.665,
+   "stated": 2389665,
+   "effectOnOCF": "lowers",
+   "note": "Growth in financial-services (captive finance) receivables, 2,389,665, sits inside operating cash flow; equipment leased to others is in investing and excluded from capex.",
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+    "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+    "quote": "(Increase) decrease in receivables related to financial services ( 1,760,288 ) ( 3,398,434 ) ( 2,389,665 )"
+   }
+  },
+  "interestDividendsReceived": {
+   "value": 623.295,
+   "stated": 623295,
+   "derivation": "dividends received only; interest received (2,672,724) is mostly financial-services interest that is part of revenue",
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+    "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+    "quote": "Interest received 1,516,404 2,292,156 2,672,724 Dividends received 460,351 587,259 623,295"
+   }
+  }
+ },
+ "paidOut": 46600.777,
+ "paidOutFormula": "revenue 48,036,704 − operating cash flow 3,696,934 + capex 2,261,007 (JPY millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": true,
+  "interestDividendsReceivedInOCF": 623.295,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Inputs copied from the pilot (research/lenses/paidout/_pilot.json). IFRS filer that elects to classify interest paid (1,609,083) and income taxes paid in operating activities, so nothing is added back. Capex = additions to fixed assets excluding equipment leased to others (1,906,811) + additions to intangible assets (354,196); additions to equipment leased to others (2,996,920) are a lease fleet and excluded. Financial-services receivables growth (2,389,665) inside operating cash flow inflates paidOut by about 5% (flagged); dividends received (623,295) inside operating cash flow lower it. FX: fiscal year ends March 2025; the calendar-2024 average covers 9 of its 12 months.",
+ "researchedAt": "2026-11-23"
+}

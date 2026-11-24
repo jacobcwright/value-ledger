@@ -1,0 +1,166 @@
+{
+  "id": "wael-sawan",
+  "company": "Shell",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "energy",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 284.312,
+      "stated": 284312,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
+        "label": "FY2024 Form 20-F, revenue table (in millions)",
+        "quote": "Revenue from contracts with customers 274,347 301,013 369,606 Revenue from other sources 9,965 15,607 11,708 Total revenue 284,312 316,620 381,314",
+        "xbrl": {
+          "cik": "0001306965",
+          "concept": "ifrs-full:Revenue",
+          "end": "2024-12-31",
+          "value": 284312000000
+        }
+      },
+      "excisePolicy": {
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
+          "label": "FY2024 Form 20-F, accounting policies, revenue recognition (in millions)",
+          "quote": "Revenue from sales of oil, natural gas, chemicals and other products is recognised at the transaction price to which Shell expects to be entitled, after deducting sales taxes, excise duties and similar levies."
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 54.687,
+      "stated": 54687,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
+        "label": "FY2024 Form 20-F, consolidated statements of cash flows (in millions)",
+        "quote": "Tax paid ( 12,002 ) ( 13,712 ) ( 13,120 ) Cash flow from operating activities 54,687 54,191 68,414",
+        "xbrl": {
+          "cik": "0001306965",
+          "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": 54687000000
+        }
+      }
+    },
+    "capex": {
+      "value": 19.601,
+      "components": [
+        "capital expenditure (PP&E, intangibles and exploration; one line) 19.601"
+      ],
+      "stated": 19601,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
+        "label": "FY2024 Form 20-F, consolidated statements of cash flows (in millions)",
+        "quote": "Capital expenditure 7 ( 19,601 ) ( 22,993 ) ( 22,600 )",
+        "xbrl": {
+          "cik": "0001306965",
+          "concept": "ifrs-full:PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities",
+          "end": "2024-12-31",
+          "value": 19601000000
+        }
+      },
+      "excludes": [
+        {
+          "name": "investments in joint ventures and associates (part of Shell's \"cash capital expenditure\" 21,085)",
+          "value": 1.404,
+          "stated": 1404,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
+            "label": "FY2024 Form 20-F, consolidated statements of cash flows (in millions)",
+            "quote": "Investments in joint ventures and associates 7 ( 1,404 ) ( 1,202 ) ( 1,973 )",
+            "xbrl": {
+              "cik": "0001306965",
+              "concept": "ifrs-full:PurchaseOfInterestsInInvestmentsAccountedForUsingEquityMethod",
+              "end": "2024-12-31",
+              "value": 1404000000
+            }
+          }
+        },
+        {
+          "name": "investments in equity securities",
+          "value": 0.08,
+          "stated": 80,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
+            "label": "FY2024 Form 20-F, consolidated statements of cash flows (in millions)",
+            "quote": "Investments in equity securities 7 ( 80 ) ( 197 ) ( 260 )",
+            "xbrl": {
+              "cik": "0001306965",
+              "concept": "ifrs-full:PurchaseOfFinancialInstrumentsClassifiedAsInvestingActivities",
+              "end": "2024-12-31",
+              "value": 80000000
+            }
+          }
+        }
+      ]
+    },
+    "interestPaid": {
+      "value": 4.557,
+      "inOCF": false,
+      "stated": 4557,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
+        "label": "FY2024 Form 20-F, consolidated statements of cash flows (in millions)",
+        "quote": "Repayments ( 9,672 ) ( 10,650 ) ( 8,459 ) Interest paid ( 4,557 ) ( 4,441 ) ( 3,677 )",
+        "xbrl": {
+          "cik": "0001306965",
+          "concept": "ifrs-full:InterestPaidClassifiedAsFinancingActivities",
+          "end": "2024-12-31",
+          "value": 4557000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 12.002,
+      "inOCF": true,
+      "stated": 12002,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
+        "label": "FY2024 Form 20-F, consolidated statements of cash flows (in millions)",
+        "quote": "Tax paid ( 12,002 ) ( 13,712 ) ( 13,120 ) Cash flow from operating activities 54,687 54,191 68,414",
+        "xbrl": {
+          "cik": "0001306965",
+          "concept": "ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities",
+          "end": "2024-12-31",
+          "value": 12002000000
+        }
+      }
+    },
+    "otherNamedItems": {
+      "dividendsFromJointVenturesInOCF": {
+        "value": 3.632,
+        "stated": 3632,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
+          "label": "FY2024 Form 20-F, consolidated statements of cash flows (in millions)",
+          "quote": "Dividends received from joint ventures and associates 3,632 3,674 4,398"
+        },
+        "note": "Inside operating cash flow but not revenue, so it lowers paidOut. Interest received is in investing."
+      }
+    }
+  },
+  "paidOut": 253.783,
+  "paidOutFormula": "284.312 − 54.687 + 19.601 + 4.557 (interest paid, classified in financing)",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": 3.632,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "IFRS filer. Interest paid (4,557) is classified in financing, so it is added back. Revenue is stated after deducting sales taxes and excise duties. Revenue includes trading volumes.",
+  "researchedAt": "2026-11-23"
+}

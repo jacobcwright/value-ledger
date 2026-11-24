@@ -1,0 +1,160 @@
+{
+  "id": "pascal-soriot",
+  "company": "AstraZeneca",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "pharma",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 54.073,
+      "stated": 54073,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+        "label": "FY2024 Annual Report and Form 20-F (Exhibit 15.1), consolidated statements of income (in millions)",
+        "quote": "Total Revenue 54,073 45,811 44,351",
+        "xbrl": {
+          "cik": "0000901832",
+          "concept": "ifrs-full:Revenue",
+          "end": "2024-12-31",
+          "value": 54073000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 11.861,
+      "stated": 11861,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+        "label": "FY2024 Annual Report and Form 20-F (Exhibit 15.1), consolidated statements of cash flows (in millions)",
+        "quote": "Cash generated from operations 15,924 13,792 12,280 Interest paid (1,313) (1,081) (849) Tax paid (2,750) (2,366) (1,623) Net cash inflow from operating activities 11,861 10,345 9,808",
+        "xbrl": {
+          "cik": "0000901832",
+          "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": 11861000000
+        }
+      }
+    },
+    "capex": {
+      "value": 4.586,
+      "components": [
+        "PP&E 1.924",
+        "intangibles 2.662"
+      ],
+      "derived": {
+        "method": "sum of components",
+        "inputs": [
+          {
+            "name": "PP&E",
+            "value": 1.924,
+            "stated": 1924,
+            "source": {
+              "hostType": "sec",
+              "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+              "label": "FY2024 Annual Report and Form 20-F (Exhibit 15.1), consolidated statements of cash flows (in millions)",
+              "quote": "Purchase of property, plant and equipment (1,924) (1,361) (1,091)",
+              "xbrl": {
+                "cik": "0000901832",
+                "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+                "end": "2024-12-31",
+                "value": 1924000000
+              }
+            }
+          },
+          {
+            "name": "intangibles",
+            "value": 2.662,
+            "stated": 2662,
+            "source": {
+              "hostType": "sec",
+              "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+              "label": "FY2024 Annual Report and Form 20-F (Exhibit 15.1), consolidated statements of cash flows (in millions)",
+              "quote": "Purchase of intangible assets (2,662) (2,417) (1,480)",
+              "xbrl": {
+                "cik": "0000901832",
+                "concept": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities",
+                "end": "2024-12-31",
+                "value": 2662000000
+              }
+            }
+          }
+        ]
+      },
+      "excludes": [
+        {
+          "name": "acquisitions",
+          "value": 2.771,
+          "stated": 2771,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+            "label": "FY2024 Annual Report and Form 20-F (Exhibit 15.1), consolidated statements of cash flows (in millions)",
+            "quote": "Acquisition of subsidiaries, net of cash acquired 27 (2,771) (189) (48)"
+          }
+        },
+        {
+          "name": "contingent consideration on past business combinations",
+          "value": 1.008,
+          "stated": 1008,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+            "label": "FY2024 Annual Report and Form 20-F (Exhibit 15.1), consolidated statements of cash flows (in millions)",
+            "quote": "Payment of contingent consideration from business combinations 20 (1,008) (826) (772)"
+          }
+        }
+      ]
+    },
+    "interestPaid": {
+      "value": 1.313,
+      "inOCF": true,
+      "stated": 1313,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+        "label": "FY2024 Annual Report and Form 20-F (Exhibit 15.1), consolidated statements of cash flows (in millions)",
+        "quote": "Cash generated from operations 15,924 13,792 12,280 Interest paid (1,313) (1,081) (849) Tax paid (2,750) (2,366) (1,623) Net cash inflow from operating activities 11,861 10,345 9,808",
+        "xbrl": {
+          "cik": "0000901832",
+          "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+          "end": "2024-12-31",
+          "value": 1313000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 2.75,
+      "inOCF": true,
+      "stated": 2750,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+        "label": "FY2024 Annual Report and Form 20-F (Exhibit 15.1), consolidated statements of cash flows (in millions)",
+        "quote": "Cash generated from operations 15,924 13,792 12,280 Interest paid (1,313) (1,081) (849) Tax paid (2,750) (2,366) (1,623) Net cash inflow from operating activities 11,861 10,345 9,808",
+        "xbrl": {
+          "cik": "0000901832",
+          "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+          "end": "2024-12-31",
+          "value": 2750000000
+        }
+      }
+    }
+  },
+  "paidOut": 46.798,
+  "paidOutFormula": "54.073 − 11.861 + 4.586",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "IFRS filer reporting in US dollars. Interest paid and tax paid are both inside operating cash flow, so nothing is added back; interest received is in investing. Intangibles purchases (2,662) are largely in-licensing and milestone payments.",
+  "researchedAt": "2026-11-23"
+}

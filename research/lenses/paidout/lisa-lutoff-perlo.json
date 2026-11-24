@@ -1,0 +1,98 @@
+{
+  "id": "lisa-lutoff-perlo",
+  "company": "Royal Caribbean Group",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "travel",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 16.484,
+      "stated": 16484,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Total revenues 16,484 13,900 8,840",
+        "xbrl": {
+          "cik": "0000884887",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2024-12-31",
+          "value": 16484000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 5.265,
+      "stated": 5265,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Increase in customer deposits 186 1,143 1,007 Other, net ( 80 ) 18 ( 57 ) Net cash provided by operating activities 5,265 4,477 481",
+        "xbrl": {
+          "cik": "0000884887",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": 5265000000
+        }
+      }
+    },
+    "capex": {
+      "value": 3.268,
+      "components": [
+        "PP&E (ships and other) 3.268"
+      ],
+      "stated": 3268,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Investing Activities Purchases of property and equipment ( 3,268 ) ( 3,897 ) ( 2,710 )",
+        "xbrl": {
+          "cik": "0000884887",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-12-31",
+          "value": 3268000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 1.21,
+      "inOCF": true,
+      "stated": 1210,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Supplemental Disclosures Cash paid during the year for: Interest, net of amount capitalized $ 1,210 $ 1,442 $ 960",
+        "xbrl": {
+          "cik": "0000884887",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-12-31",
+          "value": 1210000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": null,
+      "inOCF": true,
+      "source": null,
+      "note": "Not disclosed: the supplemental disclosures give interest paid only (most ship income is exempt from US tax under Section 883). Under US GAAP taxes would sit inside operating cash flow, so paidOut is unaffected."
+    }
+  },
+  "paidOut": 14.487,
+  "paidOutFormula": "16.484 − 5.265 + 3.268",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Operating cash flow includes a 186m increase in customer deposits (advance bookings).",
+  "researchedAt": "2026-11-23"
+}

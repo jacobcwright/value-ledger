@@ -1,0 +1,120 @@
+{
+ "id": "evan-spiegel",
+ "company": "Snap",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 5.361398,
+   "stated": 5361398,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of operations (in thousands)",
+    "quote": "Year Ended December 31, 2024 2023 2022 Revenue $ 5,361,398 $ 4,606,115 $ 4,601,847 Costs",
+    "xbrl": {
+     "cik": "0001564408",
+     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+     "end": "2024-12-31",
+     "value": 5361398000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 0.41348,
+   "stated": 413480,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+    "quote": "Net cash provided by (used in) operating activities 413,480 246,521 184,614 Cash flows from investing activities",
+    "xbrl": {
+     "cik": "0001564408",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 413480000
+    }
+   }
+  },
+  "capex": {
+   "value": 0.194826,
+   "components": [
+    "PP&E 0.194826"
+   ],
+   "stated": 194826,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+    "quote": "Purchases of property and equipment ( 194,826 ) ( 211,727 ) ( 129,306 )",
+    "xbrl": {
+     "cik": "0001564408",
+     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+     "end": "2024-12-31",
+     "value": 194826000
+    }
+   }
+  },
+  "interestPaid": {
+   "value": 0.010284,
+   "stated": 10284,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
+    "quote": "Cash paid for income taxes, net $ 24,686 $ 30,924 $ 12,087 Cash paid for interest $ 10,284 $ 10,244 $ 8,873",
+    "xbrl": {
+     "cik": "0001564408",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2024-12-31",
+     "value": 10284000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 0.024686,
+   "stated": 24686,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
+    "quote": "Cash paid for income taxes, net $ 24,686 $ 30,924 $ 12,087 Cash paid for interest $ 10,284 $ 10,244 $ 8,873",
+    "xbrl": {
+     "cik": "0001564408",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2024-12-31",
+     "value": 24686000
+    }
+   }
+  },
+  "interestDividendsReceived": {
+   "value": 0.153466,
+   "stated": 153466,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
+    "label": "FY2024 Form 10-K, management's discussion and analysis (in thousands)",
+    "quote": "Interest Income $ 153,466 $ 168,394 $ 58,597"
+   },
+   "derivation": "interest income from the income statement, used to size the bias: cash interest received is inside operating cash flow but not in revenue (the pilot did the same for Shopify)"
+  }
+ },
+ "paidOut": 5.142744,
+ "paidOutFormula": "revenue 5,361,398 − operating cash flow 413,480 + capex 194,826 (USD thousands, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": 0.153466,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "",
+ "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,121 @@
+{
+ "id": "david-calhoun",
+ "company": "Boeing",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "industrial",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 66.517,
+   "stated": 66517,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of operations (dollars in millions)",
+    "quote": "Sales of services 13,290 12,213 10,715 Total revenues 66,517 77,794 66,608",
+    "xbrl": {
+     "cik": "0000012927",
+     "concept": "us-gaap:Revenues",
+     "end": "2024-12-31",
+     "value": 66517000000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": -12.08,
+   "stated": -12080,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (dollars in millions)",
+    "quote": "Net cash (used)/provided by operating activities ( 12,080 ) 5,960 3,512",
+    "xbrl": {
+     "cik": "0000012927",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": -12080000000
+    }
+   }
+  },
+  "capex": {
+   "value": 2.23,
+   "components": [
+    "PP&E 2.23"
+   ],
+   "stated": 2230,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (dollars in millions)",
+    "quote": "Payments to acquire property, plant and equipment ( 2,230 ) ( 1,527 ) ( 1,222 )",
+    "xbrl": {
+     "cik": "0000012927",
+     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+     "end": "2024-12-31",
+     "value": 2230000000
+    }
+   }
+  },
+  "interestPaid": {
+   "value": 2.44,
+   "stated": 2440,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
+    "label": "FY2024 Form 10-K, notes to the consolidated financial statements (dollars in millions)",
+    "quote": "Total Company interest payments, net of amounts capitalized, were $ 2,440 , $ 2,408 and $ 2,572 for the years ended December 31, 2024, 2023 and 2022, respectively",
+    "xbrl": {
+     "cik": "0000012927",
+     "concept": "us-gaap:InterestPaid",
+     "end": "2024-12-31",
+     "value": 2440000000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 0.187,
+   "stated": 187,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
+    "label": "FY2024 Form 10-K, notes to the consolidated financial statements (dollars in millions)",
+    "quote": "Net income tax payments/(refunds) were $ 187 , $ 204 and ($ 1,317 ) in 2024, 2023 and 2022, respectively",
+    "xbrl": {
+     "cik": "0000012927",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2024-12-31",
+     "value": 187000000
+    }
+   }
+  },
+  "financeReceivablesChangeInOCF": {
+   "value": 0.512,
+   "stated": 512,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (dollars in millions)",
+    "quote": "Financing receivables and operating lease equipment, net 512 571 142"
+   },
+   "effectOnOCF": "raises",
+   "note": "Customer financing receivables and operating-lease equipment sit in operating cash flow (net +512 in 2024)."
+  }
+ },
+ "paidOut": 80.827,
+ "paidOutFormula": "revenue 66,517 − operating cash flow (-12,080) + capex 2,230 (USD millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": true,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Operating cash flow was negative (−12,080), mainly an inventory build of 12,353, so paidOut (80.83bn) exceeds revenue: Boeing paid suppliers and staff for aircraft it had not yet delivered. Single-year noise. Supplier notes receivable (694) are investing and excluded.",
+ "researchedAt": "2026-11-23"
+}

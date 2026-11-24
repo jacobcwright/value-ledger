@@ -1,0 +1,165 @@
+{
+ "id": "george-kurtz",
+ "company": "CrowdStrike",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-01-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 3.953624,
+   "stated": 3953624,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of operations (in thousands)",
+    "quote": "Professional services 192,144 184,998 129,576 Total revenue 3,953,624 3,055,555 2,241,236",
+    "xbrl": {
+     "cik": "0001535527",
+     "concept": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
+     "end": "2025-01-31",
+     "value": 3953624000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 1.381727,
+   "stated": 1381727,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (in thousands)",
+    "quote": "Net cash provided by operating activities 1,381,727 1,166,207 941,007",
+    "xbrl": {
+     "cik": "0001535527",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2025-01-31",
+     "value": 1381727000
+    }
+   }
+  },
+  "capex": {
+   "value": 0.313821,
+   "components": [
+    "PP&E 0.254852",
+    "capitalized internal-use software 0.058969",
+    "intangibles 0.0"
+   ],
+   "derived": {
+    "method": "sum of the components below",
+    "inputs": [
+     {
+      "component": "PP&E",
+      "value": 0.254852,
+      "stated": 254852,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
+       "label": "FY2025 Form 10-K, consolidated statement of cash flows (in thousands)",
+       "quote": "Purchases of property and equipment ( 254,852 ) ( 176,529 ) ( 235,019 )",
+       "xbrl": {
+        "cik": "0001535527",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "end": "2025-01-31",
+        "value": 254852000
+       }
+      }
+     },
+     {
+      "component": "capitalized internal-use software",
+      "value": 0.058969,
+      "stated": 58969,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
+       "label": "FY2025 Form 10-K, consolidated statement of cash flows (in thousands)",
+       "quote": "Capitalized internal-use software and website development costs ( 58,969 ) ( 49,457 ) ( 29,095 )",
+       "xbrl": {
+        "cik": "0001535527",
+        "concept": "us-gaap:PaymentsToDevelopSoftware",
+        "end": "2025-01-31",
+        "value": 58969000
+       }
+      }
+     },
+     {
+      "component": "intangibles",
+      "value": 0.0,
+      "stated": 0,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
+       "label": "FY2025 Form 10-K, consolidated statement of cash flows (in thousands)",
+       "quote": "Purchases of intangible assets - ( 11,126 ) ( 2,323 )",
+       "xbrl": {
+        "cik": "0001535527",
+        "concept": "us-gaap:PaymentsToAcquireIntangibleAssets",
+        "end": "2025-01-31",
+        "value": 0
+       }
+      }
+     }
+    ]
+   }
+  },
+  "interestPaid": {
+   "value": 0.0225,
+   "stated": 22500,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
+    "label": "FY2025 Form 10-K, supplemental cash-flow information (in thousands)",
+    "quote": "Interest paid $ 22,500 $ 22,500 $ 22,551 Income taxes paid, net of refunds received $ 19,022 $ 22,608 $ 11,943",
+    "xbrl": {
+     "cik": "0001535527",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2025-01-31",
+     "value": 22500000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 0.019022,
+   "stated": 19022,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
+    "label": "FY2025 Form 10-K, supplemental cash-flow information (in thousands)",
+    "quote": "Interest paid $ 22,500 $ 22,500 $ 22,551 Income taxes paid, net of refunds received $ 19,022 $ 22,608 $ 11,943",
+    "xbrl": {
+     "cik": "0001535527",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2025-01-31",
+     "value": 19022000
+    }
+   }
+  },
+  "interestDividendsReceived": {
+   "value": 0.196174,
+   "stated": 196174,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
+    "label": "FY2025 Form 10-K, management's discussion and analysis (in thousands)",
+    "quote": "Interest expense (26,311) (25,756) (25,319) Interest income 196,174 148,930 52,495"
+   },
+   "derivation": "interest income from the income statement, used to size the bias: cash interest received is inside operating cash flow but not in revenue (the pilot did the same for Shopify)"
+  }
+ },
+ "paidOut": 2.885718,
+ "paidOutFormula": "revenue 3,953,624 − operating cash flow 1,381,727 + capex 313,821 (USD thousands, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": 0.196174,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Fiscal year ended January 31, 2025. Deferred revenue rose 669,264 inside operating cash flow (subscriptions billed ahead of revenue), which lowers paidOut. Business acquisitions (310,257) excluded.",
+ "researchedAt": "2026-11-23"
+}

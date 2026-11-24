@@ -1,0 +1,178 @@
+{
+ "id": "charles-r-schwab",
+ "company": "Charles Schwab",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "broker",
+ "comparable": false,
+ "inputs": {
+  "revenue": {
+   "value": 19.606,
+   "stated": 19606,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+    "label": "FY2024 Form 10-K, segment results (in millions)",
+    "quote": "Total net revenues 6% 15,558 14,650 15,846 (3)% 4,048 4,187 4,916 4% 19,606 18,837 20,762",
+    "xbrl": {
+     "cik": "0000316709",
+     "concept": "us-gaap:Revenues",
+     "end": "2024-12-31",
+     "value": 19606000000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 2.67,
+   "stated": 2670,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Net cash provided by (used for) operating activities 2,670 19,587 2,057",
+    "xbrl": {
+     "cik": "0000316709",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 2670000000
+    }
+   }
+  },
+  "capex": {
+   "value": 0.62,
+   "components": [
+    "equipment, office facilities and property 0.62"
+   ],
+   "stated": 620,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Purchases of equipment, office facilities, and property ( 620 ) ( 700 ) ( 971 )",
+    "xbrl": {
+     "cik": "0000316709",
+     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+     "end": "2024-12-31",
+     "value": 620000000
+    }
+   }
+  },
+  "interestPaid": {
+   "value": 6.655,
+   "stated": 6655,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
+    "quote": "Cash paid during the period for: Interest $ 6,655 $ 5,623 $ 1,355 Income taxes $ 1,491 $ 1,620 $ 2,130",
+    "xbrl": {
+     "cik": "0000316709",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2024-12-31",
+     "value": 6655000000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 1.491,
+   "stated": 1491,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
+    "quote": "Cash paid during the period for: Interest $ 6,655 $ 5,623 $ 1,355 Income taxes $ 1,491 $ 1,620 $ 2,130",
+    "xbrl": {
+     "cik": "0000316709",
+     "concept": "us-gaap:IncomeTaxesPaid",
+     "end": "2024-12-31",
+     "value": 1491000000
+    }
+   }
+  },
+  "noninterestExpense": {
+   "value": 11.914,
+   "stated": 11914,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
+    "quote": "Other 937 921 714 Total expenses excluding interest 11,914 12,459 11,374",
+    "xbrl": {
+     "cik": "0000316709",
+     "concept": "us-gaap:NoninterestExpense",
+     "end": "2024-12-31",
+     "value": 11914000000
+    }
+   }
+  },
+  "depreciationAmortization": {
+   "value": 1.435,
+   "derived": {
+    "method": "sum of the components below",
+    "inputs": [
+     {
+      "component": "depreciation and amortization",
+      "value": 0.916,
+      "stated": 916,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
+       "quote": "Communications 591 629 588 Depreciation and amortization 916 804 652 Amortization of acquired intangible assets 519 534 596 Regulatory fees and assessments 398 547 262"
+      }
+     },
+     {
+      "component": "amortization of acquired intangible assets",
+      "value": 0.519,
+      "stated": 519,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
+       "quote": "Communications 591 629 588 Depreciation and amortization 916 804 652 Amortization of acquired intangible assets 519 534 596 Regulatory fees and assessments 398 547 262",
+       "xbrl": {
+        "cik": "0000316709",
+        "concept": "us-gaap:AmortizationOfIntangibleAssets",
+        "end": "2024-12-31",
+        "value": 519000000
+       }
+      }
+     }
+    ]
+   }
+  },
+  "stockComp": {
+   "value": 0.337,
+   "stated": 337,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Share-based compensation 337 320 366 Depreciation and amortization 916 804 652",
+    "xbrl": {
+     "cik": "0000316709",
+     "concept": "us-gaap:ShareBasedCompensation",
+     "end": "2024-12-31",
+     "value": 337000000
+    }
+   }
+  }
+ },
+ "paidOut": null,
+ "altPaidOut": 11.633,
+ "altPaidOutFormula": "noninterest expense 11.914 − D&A 1.435 − stock comp 0.337 + income taxes paid 1.491 (USD billions)",
+ "interestPaid": 6.655,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Broker with a bank (Charles Schwab Bank): operating cash flow is driven by client receivables and payables and segregated investments, not by revenue collection, so paidOut is null and altPaidOut = noninterest expense − D&A − SBC + income taxes paid (PAIDOUT.md). D&A is both income-statement lines inside total expenses excluding interest: depreciation and amortization (916) and amortization of acquired intangible assets (519). Interest paid (6,655) is shown separately. Capex (620; a PaymentsToAcquireProductiveAssets fact of 607 also exists, the cash-flow line is 620) is recorded for reference and is not in altPaidOut. Revenue is net of interest expense.",
+ "researchedAt": "2026-11-23"
+}

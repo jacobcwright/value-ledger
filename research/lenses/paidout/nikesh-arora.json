@@ -1,0 +1,104 @@
+{
+  "id": "nikesh-arora",
+  "company": "Palo Alto Networks",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-07-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "tech",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 8.0275,
+      "stated": 8027.5,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000029/panw-20240731.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Total revenue 8,027.5 6,892.7 5,501.5",
+        "xbrl": {
+          "cik": "0001327567",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2024-07-31",
+          "value": 8027500000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 3.2576,
+      "stated": 3257.6,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000029/panw-20240731.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities 3,257.6 2,777.5 1,984.7",
+        "xbrl": {
+          "cik": "0001327567",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-07-31",
+          "value": 3257600000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.1568,
+      "components": [
+        "property, equipment and other assets (combined line) 0.1568"
+      ],
+      "stated": 156.8,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000029/panw-20240731.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Purchases of property, equipment, and other assets ( 156.8 ) ( 146.3 ) ( 192.8 )",
+        "xbrl": {
+          "cik": "0001327567",
+          "concept": "us-gaap:PaymentsToAcquireProductiveAssets",
+          "end": "2024-07-31",
+          "value": 156800000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.0056,
+      "inOCF": true,
+      "stated": 5.6,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000029/panw-20240731.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for income taxes $ 342.3 $ 147.1 $ 34.6 Cash paid for contractual interest $ 5.6 $ 20.2 $ 20.2"
+      },
+      "note": "No companyfacts InterestPaidNet fact for this year."
+    },
+    "taxesPaid": {
+      "value": 0.3423,
+      "inOCF": true,
+      "stated": 342.3,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000029/panw-20240731.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for income taxes $ 342.3 $ 147.1 $ 34.6 Cash paid for contractual interest $ 5.6 $ 20.2 $ 20.2",
+        "xbrl": {
+          "cik": "0001327567",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-07-31",
+          "value": 342300000
+        }
+      }
+    }
+  },
+  "paidOut": 4.9267,
+  "paidOutFormula": "8.0275 − 3.2576 + 0.1568",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Fiscal year ended July 31, 2024. companyfacts carries both rounded (8,027,000,000) and exact values for several lines; the exact filed values are used.",
+  "researchedAt": "2026-11-23"
+}

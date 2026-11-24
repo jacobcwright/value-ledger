@@ -1,0 +1,123 @@
+{
+  "id": "walt-disney",
+  "company": "The Walt Disney Company",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-09-28",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "media",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 91.361,
+      "stated": 91361,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Revenues: Services $ 81,841 $ 79,562 $ 74,200 Products 9,520 9,336 8,522 Total revenues 91,361 88,898 82,722",
+        "xbrl": {
+          "cik": "0001744489",
+          "concept": "us-gaap:Revenues",
+          "end": "2024-09-28",
+          "value": 91361000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 13.971,
+      "stated": 13971,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Cash provided by operations - continuing operations 13,971 9,866 6,002",
+        "xbrl": {
+          "cik": "0001744489",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-09-28",
+          "value": 13971000000
+        }
+      }
+    },
+    "capex": {
+      "value": 5.412,
+      "components": [
+        "parks, resorts and other property 5.412"
+      ],
+      "stated": 5412,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "INVESTING ACTIVITIES Investments in parks, resorts and other property ( 5,412 ) ( 4,969 ) ( 4,943 )",
+        "xbrl": {
+          "cik": "0001744489",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-09-28",
+          "value": 5412000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 2.134,
+      "inOCF": true,
+      "stated": 2134,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Supplemental disclosure of cash flow information: Interest paid $ 2,134 $ 2,110 $ 1,685 Income taxes paid $ 3,963 $ 1,193 $ 1,097",
+        "xbrl": {
+          "cik": "0001744489",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-09-28",
+          "value": 2134000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 3.963,
+      "inOCF": true,
+      "stated": 3963,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Supplemental disclosure of cash flow information: Interest paid $ 2,134 $ 2,110 $ 1,685 Income taxes paid $ 3,963 $ 1,193 $ 1,097",
+        "xbrl": {
+          "cik": "0001744489",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2024-09-28",
+          "value": 3963000000
+        }
+      },
+      "note": "companyfacts also has IncomeTaxesPaidNet 4,000,000,000 (rounded note figure); the statement value is used."
+    },
+    "otherNamedItems": {
+      "equityInvesteeDistributionsInOCF": {
+        "value": 0.437,
+        "stated": 437,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
+          "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+          "quote": "Cash distributions received from equity investees 437 720 779"
+        },
+        "note": "Inside operating cash flow but not revenue, so it lowers paidOut."
+      }
+    }
+  },
+  "paidOut": 82.802,
+  "paidOutFormula": "91.361 − 13.971 + 5.412",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": 0.437,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Fiscal year ended September 28, 2024. Film and TV content spending is inside operating cash flow.",
+  "researchedAt": "2026-11-23"
+}

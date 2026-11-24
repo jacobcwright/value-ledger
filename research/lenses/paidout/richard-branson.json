@@ -1,0 +1,109 @@
+{
+  "id": "richard-branson",
+  "company": "Virgin Galactic Holdings",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "aerospace",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 0.007036,
+      "stated": 7036,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of operations (in thousands)",
+        "quote": "(In thousands) Revenue $ 7,036 $ 6,800 Operating expenses:",
+        "xbrl": {
+          "cik": "0001706946",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2024-12-31",
+          "value": 7036000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": -0.352703,
+      "stated": -352703,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Net cash used in operating activities ( 352,703 ) ( 448,193 )",
+        "xbrl": {
+          "cik": "0001706946",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": -352703000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.121855,
+      "components": [
+        "capital expenditures 0.121855"
+      ],
+      "stated": 121855,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Cash flows from investing activities: Capital expenditures ( 121,855 ) ( 44,309 )",
+        "xbrl": {
+          "cik": "0001706946",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-12-31",
+          "value": 121855000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.010625,
+      "inOCF": true,
+      "stated": 10625,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in thousands)",
+        "quote": "Cash payments for: Income taxes $ 329 $ 658 Interest 10,625 15,938",
+        "xbrl": {
+          "cik": "0001706946",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-12-31",
+          "value": 10625000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 0.000329,
+      "inOCF": true,
+      "stated": 329,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in thousands)",
+        "quote": "Cash payments for: Income taxes $ 329 $ 658 Interest 10,625 15,938",
+        "xbrl": {
+          "cik": "0001706946",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 329000
+        }
+      }
+    }
+  },
+  "paidOut": 0.481594,
+  "paidOutFormula": "0.007036 + 0.352703 + 0.121855",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Amounts in thousands. Early-stage company with little revenue: operating cash outflow (352.7m) is funded by equity and cash reserves, so paidOut (481.6m) is far above revenue (7.0m).",
+  "researchedAt": "2026-11-23"
+}

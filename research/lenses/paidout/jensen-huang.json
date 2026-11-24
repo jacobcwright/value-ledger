@@ -1,0 +1,109 @@
+{
+  "id": "jensen-huang",
+  "company": "NVIDIA",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-01-26",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "tech",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 130.497,
+      "stated": 130497,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Revenue $ 130,497 $ 60,922 $ 26,974",
+        "xbrl": {
+          "cik": "0001045810",
+          "concept": "us-gaap:Revenues",
+          "end": "2025-01-26",
+          "value": 130497000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 64.089,
+      "stated": 64089,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities 64,089 28,090 5,641",
+        "xbrl": {
+          "cik": "0001045810",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2025-01-26",
+          "value": 64089000000
+        }
+      }
+    },
+    "capex": {
+      "value": 3.236,
+      "components": [
+        "property and equipment and intangible assets (combined line) 3.236"
+      ],
+      "stated": 3236,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Purchases related to property and equipment and intangible assets ( 3,236 ) ( 1,069 ) ( 1,833 )",
+        "xbrl": {
+          "cik": "0001045810",
+          "concept": "us-gaap:PaymentsToAcquireProductiveAssets",
+          "end": "2025-01-26",
+          "value": 3236000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.246,
+      "inOCF": true,
+      "stated": 246,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for income taxes, net $ 15,118 $ 6,549 $ 1,404 Cash paid for interest $ 246 $ 252 $ 254",
+        "xbrl": {
+          "cik": "0001045810",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2025-01-26",
+          "value": 246000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 15.118,
+      "inOCF": true,
+      "stated": 15118,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for income taxes, net $ 15,118 $ 6,549 $ 1,404 Cash paid for interest $ 246 $ 252 $ 254",
+        "xbrl": {
+          "cik": "0001045810",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-01-26",
+          "value": 15118000000
+        }
+      }
+    }
+  },
+  "paidOut": 69.644,
+  "paidOutFormula": "130.497 − 64.089 + 3.236",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Fiscal year ended January 26, 2025. Capex is reported as one combined property, equipment and intangible assets line.",
+  "researchedAt": "2026-11-23"
+}

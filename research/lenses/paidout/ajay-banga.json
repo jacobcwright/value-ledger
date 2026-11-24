@@ -1,0 +1,136 @@
+{
+ "id": "ajay-banga",
+ "company": "Mastercard",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "payments",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 28.167,
+   "stated": 28167,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
+    "quote": "Net Revenue $ 28,167 $ 25,098 $ 22,237 Operating Expenses: General and administrative 10,193 8,927 8,078",
+    "xbrl": {
+     "cik": "0001141391",
+     "concept": "us-gaap:Revenues",
+     "end": "2024-12-31",
+     "value": 28167000000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 14.78,
+   "stated": 14780,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Net cash provided by operating activities 14,780 11,980 11,195",
+    "xbrl": {
+     "cik": "0001141391",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 14780000000
+    }
+   }
+  },
+  "capex": {
+   "value": 1.194,
+   "components": [
+    "PP&E 0.474",
+    "capitalized software 0.72"
+   ],
+   "derived": {
+    "method": "sum of the components below",
+    "inputs": [
+     {
+      "component": "PP&E",
+      "value": 0.474,
+      "stated": 474,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+       "quote": "Purchases of property and equipment ( 474 ) ( 371 ) ( 442 )",
+       "xbrl": {
+        "cik": "0001141391",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "end": "2024-12-31",
+        "value": 474000000
+       }
+      }
+     },
+     {
+      "component": "capitalized software",
+      "value": 0.72,
+      "stated": 720,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+       "quote": "Capitalized software ( 720 ) ( 717 ) ( 655 )",
+       "xbrl": {
+        "cik": "0001141391",
+        "concept": "us-gaap:PaymentsToAcquireSoftware",
+        "end": "2024-12-31",
+        "value": 720000000
+       }
+      }
+     }
+    ]
+   }
+  },
+  "interestPaid": {
+   "value": 0.571,
+   "stated": 571,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
+    "quote": "Cash paid for income taxes, net of refunds $ 3,252 $ 2,746 $ 2,506 Cash paid for interest 571 477 414",
+    "xbrl": {
+     "cik": "0001141391",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2024-12-31",
+     "value": 571000000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 3.252,
+   "stated": 3252,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
+    "quote": "Cash paid for income taxes, net of refunds $ 3,252 $ 2,746 $ 2,506 Cash paid for interest 571 477 414",
+    "xbrl": {
+     "cik": "0001141391",
+     "concept": "us-gaap:IncomeTaxesPaid",
+     "end": "2024-12-31",
+     "value": 3252000000
+    }
+   }
+  }
+ },
+ "paidOut": 14.581,
+ "paidOutFormula": "revenue 28,167 − operating cash flow 14,780 + capex 1,194 (USD millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Payment network: formula applies with the sector flag. Net revenue is after rebates and incentives granted to customers (contra-revenue), so those payments to issuers and merchants are not in paidOut; operating cash flow carries them through prepaid expenses (−3,225) and amortization of customer incentives (1,830). Acquisitions of businesses (2,511) excluded.",
+ "researchedAt": "2026-11-23"
+}

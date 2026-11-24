@@ -1,0 +1,122 @@
+{
+  "id": "michael-dell",
+  "company": "Dell Technologies",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-01-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "tech",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 95.567,
+      "stated": 95567,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Services 24,147 24,072 23,051 Total net revenue 95,567 88,425 102,301",
+        "xbrl": {
+          "cik": "0001571996",
+          "concept": "us-gaap:Revenues",
+          "end": "2025-01-31",
+          "value": 95567000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 4.521,
+      "stated": 4521,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Deferred revenue ( 2,497 ) ( 1,022 ) 3,209 Change in cash from operating activities 4,521 8,676 3,565",
+        "xbrl": {
+          "cik": "0001571996",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2025-01-31",
+          "value": 4521000000
+        }
+      }
+    },
+    "capex": {
+      "value": 2.652,
+      "components": [
+        "capital expenditures and capitalized software (combined line; includes equipment under operating leases) 2.652"
+      ],
+      "stated": 2652,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Capital expenditures and capitalized software development costs ( 2,652 ) ( 2,756 ) ( 3,003 )",
+        "xbrl": {
+          "cik": "0001571996",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2025-01-31",
+          "value": 2652000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 1.304,
+      "inOCF": true,
+      "stated": 1304,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Income tax paid $ 555 $ 1,379 $ 1,208 Interest paid $ 1,304 $ 1,438 $ 1,169",
+        "xbrl": {
+          "cik": "0001571996",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2025-01-31",
+          "value": 1304000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 0.555,
+      "inOCF": true,
+      "stated": 555,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Income tax paid $ 555 $ 1,379 $ 1,208 Interest paid $ 1,304 $ 1,438 $ 1,169",
+        "xbrl": {
+          "cik": "0001571996",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2025-01-31",
+          "value": 555000000
+        }
+      }
+    },
+    "otherNamedItems": {
+      "financingReceivablesChangeInOCF": {
+        "value": -0.951,
+        "stated": -951,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+          "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+          "quote": "Financing receivables ( 951 ) 309 ( 461 )"
+        },
+        "note": "Dell Financial Services sales-type-lease and loan originations net of collections sit in operating cash flow; growth of 951 lowers OCF and so raises paidOut by about 0.95bn."
+      }
+    }
+  },
+  "paidOut": 93.698,
+  "paidOutFormula": "95.567 − 4.521 + 2.652",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": true,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Fiscal year ended January 31, 2025. The capex line combines PP&E, capitalized software and equipment bought for DFS operating leases (lease fleet); the 10-K does not split the lease-fleet part in the cash-flow statement, so the combined line is used.",
+  "researchedAt": "2026-11-23"
+}

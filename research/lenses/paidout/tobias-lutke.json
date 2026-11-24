@@ -1,0 +1,136 @@
+{
+  "id": "tobias-lutke",
+  "company": "Shopify",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "marketplace",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 8.88,
+      "stated": 8880,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+        "label": "FY2024 Form 10-K, revenues table (in US $ millions)",
+        "quote": "Subscription solutions 2,350 28 % 1,837 23 % 1,488 Merchant solutions 6,530 25 % 5,223 27 % 4,112 Total revenues 8,880 26 % 7,060 26 % 5,600",
+        "xbrl": {
+          "cik": "0001594805",
+          "concept": "us-gaap:Revenues",
+          "end": "2024-12-31",
+          "value": 8880000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 1.616,
+      "stated": 1616,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (US $ millions)",
+        "quote": "Net cash provided by operating activities 1,616 944 ( 136 )",
+        "xbrl": {
+          "cik": "0001594805",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": 1616000000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.019,
+      "components": [
+        "PP&E 0.019"
+      ],
+      "stated": 19,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (US $ millions)",
+        "quote": "Cash flows from investing activities Purchases of property and equipment ( 19 ) ( 39 ) ( 50 )",
+        "xbrl": {
+          "cik": "0001594805",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-12-31",
+          "value": 19000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.001,
+      "inOCF": true,
+      "stated": 1,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (US $ millions)",
+        "quote": "Supplemental cash flow information: Cash paid for income taxes, net 116 50 27 Cash paid for interest 1 1 1",
+        "xbrl": {
+          "cik": "0001594805",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-12-31",
+          "value": 1000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 0.116,
+      "inOCF": true,
+      "stated": 116,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (US $ millions)",
+        "quote": "Supplemental cash flow information: Cash paid for income taxes, net 116 50 27 Cash paid for interest 1 1 1",
+        "xbrl": {
+          "cik": "0001594805",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 116000000
+        }
+      }
+    },
+    "otherNamedItems": {
+      "interestIncome": {
+        "value": 0.308,
+        "stated": 308,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+          "label": "FY2024 Form 10-K, MD&A, other income (expense)",
+          "quote": "Additionally, we had interest income of $308 million and a net loss of $138 million on our equity method investment.",
+          "xbrl": {
+            "cik": "0001594805",
+            "concept": "us-gaap:InterestIncomeExpenseNonoperatingNet",
+            "end": "2024-12-31",
+            "value": 308000000
+          }
+        },
+        "note": "Cash interest received on cash and securities is inside operating cash flow but not inside revenue, so it lowers A."
+      }
+    }
+  },
+  "paidOut": 7.283,
+  "paidOutFormula": "8.88 − 1.616 + 0.019",
+  "altPaidOut": null,
+  "notes": "Inputs reused from the pilot. Interest income (0.308bn) is received inside operating cash flow but is not revenue, so it lowers paidOut by about 4%.",
+  "salesEnabled": {
+    "value": 283.395,
+    "measure": "Gross Merchandise Volume",
+    "measureValue": 292.275,
+    "platformRevenue": 8.88,
+    "platformRevenueLabel": "Total revenues",
+    "formula": "292.275 − 8.88",
+    "from": "research/lenses/ecosystem/tobias-lutke.json"
+  },
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": 0.308,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "researchedAt": "2026-11-23"
+}

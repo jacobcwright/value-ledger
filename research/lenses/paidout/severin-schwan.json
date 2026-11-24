@@ -1,0 +1,122 @@
+{
+ "id": "severin-schwan",
+ "company": "Roche Holding",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "CHF",
+ "unit": "billions",
+ "statedUnit": "CHF million",
+ "sector": "pharma",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 62.395,
+   "stated": 62395,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
+    "label": "Finance Report 2024, Roche Group consolidated income statement (millions of CHF)",
+    "quote": "Sales2, 3 46,171 14,324 – 60,495 Other revenue2, 3 1,871 29 – 1,900 Revenue2, 3 48,042 14,353 – 62,395"
+   },
+   "note": "Total revenue = sales 60,495 + other revenue 1,900 (royalties, milestones)."
+  },
+  "operatingCashFlow": {
+   "value": 20.094,
+   "stated": 20094,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
+    "label": "Finance Report 2024, Roche Group consolidated statement of cash flows (millions of CHF)",
+    "quote": "Income taxes paid5 (3,727) (3,620) Total cash flows from operating activities 20,094 16,095"
+   }
+  },
+  "capex": {
+   "value": 5.009,
+   "components": [
+    "PP&E 3.529",
+    "intangibles 1.48"
+   ],
+   "parts": [
+    {
+     "label": "PP&E",
+     "value": 3.529,
+     "stated": 3529,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
+      "label": "Finance Report 2024, Roche Group consolidated statement of cash flows (millions of CHF)",
+      "quote": "Purchase of property, plant and equipment (3,529) (3,742)"
+     }
+    },
+    {
+     "label": "intangibles",
+     "value": 1.48,
+     "stated": 1480,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
+      "label": "Finance Report 2024, Roche Group consolidated statement of cash flows (millions of CHF)",
+      "quote": "Purchase of intangible assets (1,480) (907)"
+     }
+    }
+   ],
+   "note": "Excludes business combinations (2,836) and asset acquisitions (283)."
+  },
+  "interestPaid": {
+   "value": 1.145,
+   "stated": 1145,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
+    "label": "Finance Report 2024, Roche Group consolidated statement of cash flows (millions of CHF)",
+    "quote": "Hedging and collateral arrangements 30 155 Interest paid (1,145) (770) Principal portion of lease liabilities paid30 (350) (339)"
+   },
+   "inOCF": false,
+   "location": "financing activities",
+   "note": "Financing 'Interest paid' includes interest on lease liabilities: note 'Cash flows from financing activities include the payment of interest and the principal portion of lease liabilities'; lease interest expense was 40."
+  },
+  "taxesPaid": {
+   "value": 3.727,
+   "stated": 3727,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
+    "label": "Finance Report 2024, Roche Group consolidated statement of cash flows (millions of CHF)",
+    "quote": "Income taxes paid5 (3,727) (3,620) Total cash flows from operating activities 20,094 16,095"
+   },
+   "inOCF": true,
+   "location": "operating activities"
+  },
+  "leasePrincipalPaid": {
+   "value": 0.35,
+   "stated": 350,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://assets.roche.com/f/176343/x/38d96ed8ec/fb24e.pdf",
+    "label": "Finance Report 2024, Roche Group consolidated statement of cash flows (millions of CHF)",
+    "quote": "Principal portion of lease liabilities paid30 (350) (339)"
+   },
+   "added": false,
+   "note": "IFRS 16 lease principal in financing; noted, not added (0.5% of paidOut)."
+  }
+ },
+ "paidOut": 48.455,
+ "paidOutFormula": "62,395 − 20,094 + 5,009 (3,529 PP&E + 1,480 intangibles) + 1,145 (interest paid, financing) = 48,455 CHF million",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": false,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "IFRS. Income taxes paid sit in operating (not added). Interest paid (1,145, including lease interest) sits in financing, so it is added. 'Interest received (paid) and dividends received on marketable securities and other investments' (232 net) sits in investing, so OCF is not inflated by interest or dividend income. Revenue is total revenue including other revenue (royalties and milestones). Lease principal (350) noted, not added.",
+ "researchedAt": "2026-11-23"
+}

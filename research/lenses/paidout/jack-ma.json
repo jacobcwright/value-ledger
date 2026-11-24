@@ -1,0 +1,130 @@
+{
+ "id": "jack-ma",
+ "company": "Alibaba Group Holding",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-03-31",
+ "currency": "CNY",
+ "unit": "billions",
+ "sector": "retail",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 996.347,
+   "stated": 996347,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
+    "label": "FY2025 Form 20-F, consolidated statement of operations (RMB in millions)",
+    "quote": "Notes Revenue 5, 24 868,687 941,168 996,347 137,300",
+    "xbrl": {
+     "cik": "0001577552",
+     "concept": "us-gaap:Revenues",
+     "end": "2025-03-31",
+     "value": 996347000000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 163.509,
+   "stated": 163509,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
+    "label": "FY2025 Form 20-F, consolidated statement of cash flows (RMB in millions)",
+    "quote": "Net cash provided by operating activities 199,752 182,593 163,509 22,532",
+    "xbrl": {
+     "cik": "0001577552",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2025-03-31",
+     "value": 163509000000
+    }
+   }
+  },
+  "capex": {
+   "value": 85.972,
+   "components": [
+    "land use rights, property and equipment 85.972",
+    "intangibles 0.0"
+   ],
+   "derived": {
+    "method": "sum of the components below",
+    "inputs": [
+     {
+      "component": "land use rights, property and equipment",
+      "value": 85.972,
+      "stated": 85972,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
+       "label": "FY2025 Form 20-F, consolidated statement of cash flows (RMB in millions)",
+       "quote": "Acquisitions of: Land use rights, property and equipment ( 34,330 ) ( 32,087 ) ( 85,972 ) ( 11,847 )"
+      }
+     },
+     {
+      "component": "intangibles",
+      "value": 0.0,
+      "stated": 0,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
+       "label": "FY2025 Form 20-F, consolidated statement of cash flows (RMB in millions)",
+       "quote": "Intangible assets ( 22 ) ( 842 ) - -",
+       "xbrl": {
+        "cik": "0001577552",
+        "concept": "us-gaap:PaymentsToAcquireIntangibleAssets",
+        "end": "2025-03-31",
+        "value": 0
+       }
+      }
+     }
+    ]
+   }
+  },
+  "interestPaid": {
+   "value": 8.866,
+   "stated": 8866,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
+    "label": "FY2025 Form 20-F, notes to the consolidated financial statements (RMB in millions)",
+    "quote": "Interest paid was RMB 5,637 million, RMB 7,832 million and RMB 8,866 million for the years ended March 31, 2023, 2024 and 2025, respectively",
+    "xbrl": {
+     "cik": "0001577552",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2025-03-31",
+     "value": 8866000000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 33.409,
+   "stated": 33409,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
+    "label": "FY2025 Form 20-F, notes to the consolidated financial statements (RMB in millions)",
+    "quote": "Income tax paid was RMB 26,476 million, RMB 32,486 million and RMB 33,409 million for the years ended March 31, 2023, 2024 and 2025, respectively",
+    "xbrl": {
+     "cik": "0001577552",
+     "concept": "us-gaap:IncomeTaxesPaid",
+     "end": "2025-03-31",
+     "value": 33409000000
+    }
+   }
+  }
+ },
+ "paidOut": 918.81,
+ "paidOutFormula": "revenue 996,347 − operating cash flow 163,509 + capex 85,972 (CNY millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Alibaba files its 20-F under US GAAP, so interest and income taxes paid are inside operating cash flow and nothing is added back. Capex is land use rights plus property and equipment (85,972; no companyfacts fact for this combined line); intangible purchases were nil. Alibaba is not an admitted marketplace for salesEnabled. The USD column is a convenience translation and is not used. Fiscal year ended March 31, 2025; FX: the calendar-2024 average covers 9 of its 12 months.",
+ "researchedAt": "2026-11-23"
+}

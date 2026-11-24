@@ -1,0 +1,119 @@
+{
+ "id": "daniel-ek",
+ "company": "Spotify Technology",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "EUR",
+ "unit": "billions",
+ "sector": "media",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 15.673,
+   "stated": 15673,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm",
+    "label": "FY2024 Form 20-F, consolidated statement of operations (€ millions)",
+    "quote": "Note 2024 2023 2022 Revenue 4 15,673 13,247 11,727",
+    "xbrl": {
+     "cik": "0001639920",
+     "concept": "ifrs-full:Revenue",
+     "end": "2024-12-31",
+     "value": 15673000000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 2.301,
+   "stated": 2301,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm",
+    "label": "FY2024 Form 20-F, consolidated statement of cash flows (€ millions)",
+    "quote": "Income tax paid ( 53 ) ( 43 ) ( 43 ) Net cash flows from operating activities 2,301 680 46",
+    "xbrl": {
+     "cik": "0001639920",
+     "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 2301000000
+    }
+   }
+  },
+  "capex": {
+   "value": 0.017,
+   "components": [
+    "PP&E 0.017"
+   ],
+   "stated": 17,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm",
+    "label": "FY2024 Form 20-F, consolidated statement of cash flows (€ millions)",
+    "quote": "Purchases of property and equipment 11 ( 17 ) ( 6 ) ( 25 )",
+    "xbrl": {
+     "cik": "0001639920",
+     "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+     "end": "2024-12-31",
+     "value": 17000000
+    }
+   }
+  },
+  "interestPaid": {
+   "value": 0.036,
+   "stated": 36,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm",
+    "label": "FY2024 Form 20-F, consolidated statement of cash flows (€ millions)",
+    "quote": "Interest paid on lease liabilities ( 36 ) ( 38 ) ( 53 ) Interest received 216 111 37 Income tax paid ( 53 ) ( 43 ) ( 43 )"
+   }
+  },
+  "taxesPaid": {
+   "value": 0.053,
+   "stated": 53,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm",
+    "label": "FY2024 Form 20-F, consolidated statement of cash flows (€ millions)",
+    "quote": "Interest paid on lease liabilities ( 36 ) ( 38 ) ( 53 ) Interest received 216 111 37 Income tax paid ( 53 ) ( 43 ) ( 43 )",
+    "xbrl": {
+     "cik": "0001639920",
+     "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+     "end": "2024-12-31",
+     "value": 53000000
+    }
+   }
+  },
+  "interestDividendsReceived": {
+   "value": 0.216,
+   "stated": 216,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm",
+    "label": "FY2024 Form 20-F, consolidated statement of cash flows (€ millions)",
+    "quote": "Interest paid on lease liabilities ( 36 ) ( 38 ) ( 53 ) Interest received 216 111 37 Income tax paid ( 53 ) ( 43 ) ( 43 )",
+    "xbrl": {
+     "cik": "0001639920",
+     "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+     "end": "2024-12-31",
+     "value": 216000000
+    }
+   }
+  }
+ },
+ "paidOut": 13.389,
+ "paidOutFormula": "revenue 15,673 − operating cash flow 2,301 + capex 17 (EUR millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": 0.216,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "IFRS filer, but it classifies interest paid (lease interest, the only cash interest line; the financing section has no interest line) and income taxes in operating activities, so nothing is added back. Interest received (216) sits in operating cash flow; dividends received (19) are in investing. No intangible-purchase line. FX: calendar-2024 average.",
+ "researchedAt": "2026-11-23"
+}

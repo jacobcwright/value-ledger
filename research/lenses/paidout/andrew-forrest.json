@@ -1,0 +1,152 @@
+{
+ "id": "andrew-forrest",
+ "company": "Fortescue Ltd",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-06-30",
+ "currency": "USD",
+ "unit": "billions",
+ "statedUnit": "US$ million",
+ "sector": "mining",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 15.541,
+   "stated": 15541,
+   "divisor": 1000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+    "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated income statement (US$m; 2025, 2024)",
+    "quote": "Operating sales revenue 3 15,541 18,220"
+   }
+  },
+  "operatingCashFlow": {
+   "value": 6.474,
+   "stated": 6474,
+   "divisor": 1000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+    "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
+    "quote": "Interest received 174 238 Interest paid (326) (343) Income tax paid (1,641) (2,665) Net cash inflow from operating activities 9(c) 6,474 7,919"
+   }
+  },
+  "capex": {
+   "value": 3.263,
+   "components": [
+    "PP&E - Fortescue 3.028",
+    "PP&E - joint operations 0.235"
+   ],
+   "parts": [
+    {
+     "label": "PP&E - Fortescue",
+     "value": 3.028,
+     "stated": 3028,
+     "divisor": 1000,
+     "source": {
+      "hostType": "exchange",
+      "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+      "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
+      "quote": "Payments for property, plant and equipment - Fortescue (3,028) (2,547)"
+     }
+    },
+    {
+     "label": "PP&E - joint operations",
+     "value": 0.235,
+     "stated": 235,
+     "divisor": 1000,
+     "source": {
+      "hostType": "exchange",
+      "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+      "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
+      "quote": "Payments for property, plant and equipment - joint operations (235) (287)"
+     }
+    }
+   ],
+   "note": "Gross of 'Receipt of government grants' (3). No separate intangibles line. Excludes 'Payments for asset acquisition' (170), 'Payments of deposits' (457), equity-accounted investments (19) and financial assets (21). Fortescue's own 'capital expenditure' (3,930) adds investments, asset acquisitions and financial assets, so it is not used."
+  },
+  "interestPaid": {
+   "value": 0.035,
+   "components": [
+    "finance costs paid (financing) 0.035"
+   ],
+   "parts": [
+    {
+     "label": "finance costs paid (financing)",
+     "value": 0.035,
+     "stated": 35,
+     "divisor": 1000,
+     "source": {
+      "hostType": "exchange",
+      "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+      "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
+      "quote": "Repayment of leases (406) (135) Finance costs paid (35) (38) Dividends paid (2,851) (4,140)"
+     }
+    }
+   ],
+   "inOCF": false,
+   "location": "Interest paid (326) is in operating activities; only 'Finance costs paid' (35) is in financing and is added",
+   "inOCFPortion": {
+    "value": 0.326,
+    "stated": 326,
+    "divisor": 1000,
+    "source": {
+     "hostType": "exchange",
+     "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+     "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
+     "quote": "Interest received 174 238 Interest paid (326) (343) Income tax paid (1,641) (2,665)"
+    }
+   },
+   "note": "Judgement call: 'Finance costs paid' sits in financing and is treated as a payment to lenders outside OCF, so it is added (0.3% of paidOut). Interest paid of 326 (incl. lease interest) is inside OCF and is already counted."
+  },
+  "taxesPaid": {
+   "value": 1.641,
+   "stated": 1641,
+   "divisor": 1000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+    "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
+    "quote": "Interest paid (326) (343) Income tax paid (1,641) (2,665) Net cash inflow from operating activities 9(c) 6,474 7,919"
+   },
+   "inOCF": true,
+   "location": "operating activities"
+  },
+  "leasePrincipalPaid": {
+   "value": 0.406,
+   "stated": 406,
+   "divisor": 1000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+    "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
+    "quote": "Repayment of leases (406) (135) Finance costs paid (35) (38)"
+   },
+   "added": false,
+   "note": "AASB 16 lease principal in financing (ore carriers etc.); noted, not added (3.3% of paidOut)."
+  }
+ },
+ "paidOut": 12.365,
+ "paidOutFormula": "15,541 − 6,474 + 3,263 (3,028 PP&E Fortescue + 235 PP&E joint operations) + 35 (finance costs paid, financing) = 12,365 US$ million",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": {
+   "value": 0.174,
+   "stated": 174,
+   "divisor": 1000,
+   "source": {
+    "hostType": "exchange",
+    "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+    "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
+    "quote": "Interest received 174 238 Interest paid (326) (343)"
+   },
+   "note": "Interest received sits inside OCF, lowering paidOut by this amount (1.4%)."
+  },
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "AASB/IFRS, reported in US$. Direct-method cash-flow statement: interest received, interest paid and income tax paid are inside operating activities. 'Finance costs paid' (35) in financing is added as interest outside OCF (judgement call). Revenue is operating sales revenue (other income of 82 excluded). Lease principal (406) noted, not added.",
+ "researchedAt": "2026-11-23"
+}

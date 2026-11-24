@@ -1,0 +1,109 @@
+{
+ "id": "adena-friedman",
+ "company": "Nasdaq",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "exchange",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 7.4,
+   "stated": 7400,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
+    "quote": "Other revenues 36 39 48 Total revenues 7,400 6,064 6,226 Transaction-based expenses: Transaction rebates ( 2,026 ) ( 1,838 ) ( 2,092 )",
+    "xbrl": {
+     "cik": "0001120193",
+     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+     "end": "2024-12-31",
+     "value": 7400000000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 1.939,
+   "stated": 1939,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Net cash provided by operating activities 1,939 1,696 1,706",
+    "xbrl": {
+     "cik": "0001120193",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 1939000000
+    }
+   }
+  },
+  "capex": {
+   "value": 0.207,
+   "components": [
+    "PP&E 0.207"
+   ],
+   "stated": 207,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Purchases of property and equipment ( 207 ) ( 158 ) ( 152 )",
+    "xbrl": {
+     "cik": "0001120193",
+     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+     "end": "2024-12-31",
+     "value": 207000000
+    }
+   }
+  },
+  "interestPaid": {
+   "value": 0.405,
+   "stated": 405,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
+    "quote": "Supplemental Disclosure Cash Flow Information Interest paid $ 405 $ 177 $ 116 Income taxes paid, net of refund $ 358 $ 254 $ 274",
+    "xbrl": {
+     "cik": "0001120193",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2024-12-31",
+     "value": 405000000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 0.358,
+   "stated": 358,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
+    "quote": "Supplemental Disclosure Cash Flow Information Interest paid $ 405 $ 177 $ 116 Income taxes paid, net of refund $ 358 $ 254 $ 274",
+    "xbrl": {
+     "cik": "0001120193",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2024-12-31",
+     "value": 358000000
+    }
+   }
+  }
+ },
+ "paidOut": 5.668,
+ "paidOutFormula": "revenue 7,400 − operating cash flow 1,939 + capex 207 (USD millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Exchange operator: normal operating cash flow, so the formula applies with the sector flag. Total revenues (7,400) are gross of transaction-based expenses paid to market participants (transaction rebates 2,026; brokerage, clearance and exchange fees 725); revenues less transaction-based expenses were 4,649. Those rebates and fees are payments to others, so they stay in. Default-fund and margin-deposit flows of the clearing house sit in investing and financing, not operating. No separate intangible-purchase line; acquisitions of businesses (none in 2024) excluded.",
+ "researchedAt": "2026-11-23"
+}

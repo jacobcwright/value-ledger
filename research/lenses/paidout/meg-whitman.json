@@ -1,0 +1,117 @@
+{
+  "id": "meg-whitman",
+  "company": "eBay",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "marketplace",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 10.283,
+      "stated": 10283,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Net revenues $ 10,283 $ 10,112 $ 9,795",
+        "xbrl": {
+          "cik": "0001065088",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2024-12-31",
+          "value": 10283000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 2.414,
+      "stated": 2414,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by continuing operating activities 2,414 2,431 2,627 Net cash used in discontinued operating activities - ( 5 ) ( 373 ) Net cash provided by operating activities 2,414 2,426 2,254",
+        "xbrl": {
+          "cik": "0001065088",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": 2414000000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.458,
+      "components": [
+        "PP&E 0.458"
+      ],
+      "stated": 458,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Cash flows from investing activities: Purchases of property and equipment ( 458 ) ( 456 ) ( 449 )",
+        "xbrl": {
+          "cik": "0001065088",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-12-31",
+          "value": 458000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.264,
+      "inOCF": true,
+      "stated": 264,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for: Interest $ 264 $ 275 $ 244 Income taxes $ 722 $ 746 $ 540",
+        "xbrl": {
+          "cik": "0001065088",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-12-31",
+          "value": 264000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 0.722,
+      "inOCF": true,
+      "stated": 722,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
+        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for: Interest $ 264 $ 275 $ 244 Income taxes $ 722 $ 746 $ 540",
+        "xbrl": {
+          "cik": "0001065088",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 722000000
+        }
+      }
+    }
+  },
+  "paidOut": 8.327,
+  "paidOutFormula": "10.283 − 2.414 + 0.458",
+  "altPaidOut": null,
+  "salesEnabled": {
+    "value": 64.384,
+    "measure": "Gross Merchandise Volume (GMV)",
+    "measureValue": 74.667,
+    "platformRevenue": 10.283,
+    "platformRevenueLabel": "Net revenues",
+    "formula": "74.667 − 10.283",
+    "from": "research/lenses/ecosystem/meg-whitman.json"
+  },
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "No discontinued-operations cash flow in 2024, so total and continuing operating cash flow are both 2,414.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,120 @@
+{
+ "id": "kiran-mazumdar-shaw",
+ "company": "Biocon",
+ "fiscalYear": "FY24",
+ "fiscalYearEnd": "2024-03-31",
+ "currency": "INR",
+ "unit": "billions",
+ "statedUnit": "₹ million",
+ "sector": "pharma",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 147.557,
+   "stated": 147557,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+    "label": "Integrated Annual Report FY 2024, consolidated statement of profit & loss (₹ million)",
+    "quote": "Revenue from operations 21 147,557 111,742 Other income 22 8,655 3,759 Total income (I) 156,212 115,501"
+   }
+  },
+  "operatingCashFlow": {
+   "value": 29.539,
+   "stated": 29539,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+    "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
+    "quote": "Net cash flow generated from operating activities 29,539 18,525"
+   }
+  },
+  "capex": {
+   "value": 19.316,
+   "components": [
+    "PP&E 16.805",
+    "intangibles 2.511"
+   ],
+   "parts": [
+    {
+     "label": "PP&E",
+     "value": 16.805,
+     "stated": 16805,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+      "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
+      "quote": "Purchase of property, plant and equipment (16,805) (15,960) Purchase of intangible assets (2,511) (1,303)"
+     }
+    },
+    {
+     "label": "intangibles",
+     "value": 2.511,
+     "stated": 2511,
+     "divisor": 1000,
+     "source": {
+      "hostType": "company",
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+      "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
+      "quote": "Purchase of property, plant and equipment (16,805) (15,960) Purchase of intangible assets (2,511) (1,303)"
+     }
+    }
+   ],
+   "note": "Purchase of PP&E plus purchase of intangible assets. Excludes 'Consideration paid for business acquisition' (5,532)."
+  },
+  "interestPaid": {
+   "value": 8.474,
+   "stated": 8474,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+    "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows, financing (₹ million)",
+    "quote": "Interest paid (8,474) (4,856)"
+   },
+   "inOCF": false,
+   "location": "financing activities"
+  },
+  "taxesPaid": {
+   "value": 2.923,
+   "stated": 2923,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+    "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
+    "quote": "Income taxes paid (net of refunds) (2,923) (2,286)"
+   },
+   "inOCF": true,
+   "location": "operating activities"
+  },
+  "leasePrincipalPaid": {
+   "value": 0.418,
+   "stated": 418,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+    "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
+    "quote": "Repayment of lease liabilities, net (418) (114)"
+   },
+   "added": false,
+   "note": "IFRS 16 / Ind AS 116 lease principal in financing; noted, not added (0.3% of paidOut)."
+  }
+ },
+ "paidOut": 145.808,
+ "paidOutFormula": "147,557 − 29,539 + 19,316 (16,805 PP&E + 2,511 intangibles) + 8,474 (interest paid, financing) = 145,808 ₹ million",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": false,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Converted from the pilot (_pilot.json), where Biocon's own 'economic value distributed' cross-check was done: the revenue − OCF − taxes-paid bucket matched its accrual operating-plus-employee costs within 0.5%. Ind AS consolidated cash-flow statement: income taxes paid sit in operating (not added); interest paid sits in financing (added); interest received (1,446) is in investing, so no interest/dividend income inflates OCF. Revenue is revenue from operations; other income (8,655) is excluded. Excise not applicable.",
+ "researchedAt": "2026-11-23"
+}

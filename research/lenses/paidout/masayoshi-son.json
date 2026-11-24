@@ -1,0 +1,141 @@
+{
+ "id": "masayoshi-son",
+ "company": "SoftBank Group",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2025-03-31",
+ "currency": "JPY",
+ "unit": "billions",
+ "statedUnit": "¥ million",
+ "sector": "conglomerate",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 7243.752,
+   "stated": 7243752,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
+    "label": "SoftBank Group Financial Report 2025, consolidated statement of profit or loss (millions of yen; FY ended March 31, 2024, 2025; thousands of US$)",
+    "quote": "Net sales 36 ¥6,756,500 ¥ 7,243,752 $ 48,446,709"
+   },
+   "note": "Consolidated net sales: SoftBank (telecom, enterprise, distribution, media & EC, financial) segment 6,541,357, Arm 590,168, other 112,227. Investment gains (3,701,107 total gain on investments) are below net sales and not in revenue."
+  },
+  "operatingCashFlow": {
+   "value": 203.58,
+   "stated": 203580,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
+    "label": "SoftBank Group Financial Report 2025, consolidated statement of cash flows (millions of yen; FY ended March 31, 2024, 2025; thousands of US$)",
+    "quote": "Interest and dividends received 256,083 299,714 2,004,508 Interest paid (430,422) (482,111) (3,224,391) Income taxes paid 44 (885,617) (380,008) (2,541,520) Income taxes refunded 44 68,839 164,847 1,102,508 Net cash provided by operating activities ¥ 250,547 ¥ 203,580 $ 1,361,557"
+   }
+  },
+  "capex": {
+   "value": 854.173,
+   "stated": 854173,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
+    "label": "SoftBank Group Financial Report 2025, consolidated statement of cash flows (millions of yen; FY ended March 31, 2024, 2025; thousands of US$)",
+    "quote": "Purchase of property, plant and equipment, and intangible assets 44 (622,612) (854,173) (5,712,768)"
+   },
+   "components": [
+    "PP&E and intangible assets (one combined line, incl. long-term prepaid expenses) 854.173"
+   ],
+   "note": "PP&E and intangibles are reported only as one combined line, which per Note 44 also includes cash outflows for long-term prepaid expenses. Excludes acquisitions of control over subsidiaries (194,216, mainly Graphcore and SBE Global), investment purchases, loans and time deposits.",
+   "scopeSource": {
+    "hostType": "company",
+    "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
+    "label": "SoftBank Group Financial Report 2025, Note 44 Supplemental information to the consolidated statement of cash flows",
+    "quote": "“Purchase of property, plant and equipment, and intangible assets” includes cash outflows from long-term prepaid expenses that are included in “Other non-current assets” in the consolidated statement of financial position."
+   }
+  },
+  "interestPaid": {
+   "value": 482.111,
+   "stated": 482111,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
+    "label": "SoftBank Group Financial Report 2025, consolidated statement of cash flows (millions of yen; FY ended March 31, 2024, 2025; thousands of US$)",
+    "quote": "Interest and dividends received 256,083 299,714 2,004,508 Interest paid (430,422) (482,111) (3,224,391)"
+   },
+   "inOCF": true,
+   "location": "operating activities"
+  },
+  "taxesPaid": {
+   "value": 380.008,
+   "stated": 380008,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
+    "label": "SoftBank Group Financial Report 2025, consolidated statement of cash flows (millions of yen; FY ended March 31, 2024, 2025; thousands of US$)",
+    "quote": "Income taxes paid 44 (885,617) (380,008) (2,541,520) Income taxes refunded 44 68,839 164,847 1,102,508"
+   },
+   "inOCF": true,
+   "location": "operating activities",
+   "note": "Gross income taxes paid; income taxes refunded (164,847) is a separate operating line. Both inside OCF, so neither is added."
+  },
+  "leasePrincipalPaid": {
+   "value": 186.441,
+   "stated": 186441,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
+    "label": "SoftBank Group Financial Report 2025, consolidated statement of cash flows (millions of yen; FY ended March 31, 2024, 2025; thousands of US$)",
+    "quote": "Repayment of lease liabilities (211,231) (186,441) (1,246,930)"
+   },
+   "added": false,
+   "note": "IFRS 16 lease principal in financing; noted, not added (2.4% of paidOut)."
+  }
+ },
+ "paidOut": 7894.345,
+ "paidOutFormula": "7,243,752 − 203,580 + 854,173 = 7,894,345 ¥ million (interest and taxes paid are inside OCF)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": {
+   "value": null,
+   "note": "SoftBank segment's financial business (PayPay, PayPay Bank, PayPay Card; net sales 255,662) is consolidated, and the cash-flow statement shows no separate line for banking deposits or card/loan receivables of that business, so their movements presumably sit inside OCF working-capital lines ('Increase in trade and other receivables' (508,544), 'Other'). Amount not disclosed. Separately, 'Payments for loan receivables' (36,538) and collections (119,384) are in investing.",
+   "source": {
+    "hostType": "company",
+    "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
+    "label": "SoftBank Group Financial Report 2025, Note 36 Net sales (millions of yen; FY ended March 31, 2024, 2025; thousands of US$)",
+    "quote": "Financial business 215,862 255,662 1,709,885"
+   }
+  },
+  "investmentPurchasesInOCF": {
+   "value": 769.572,
+   "stated": 769572,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
+    "label": "SoftBank Group Financial Report 2025, consolidated statement of cash flows (millions of yen; FY ended March 31, 2024, 2025; thousands of US$)",
+    "quote": "Increase in investments from asset management subsidiaries (230,986) (769,572) (5,146,950)"
+   },
+   "note": "Securities bought by asset-management subsidiaries are classified inside OCF. This is investment, not payment for goods or services, and it lowers OCF, so it inflates paidOut by about ¥0.77 trillion (9.7%)."
+  },
+  "interestDividendsReceivedInOCF": {
+   "value": 299.714,
+   "stated": 299714,
+   "divisor": 1000,
+   "source": {
+    "hostType": "company",
+    "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
+    "label": "SoftBank Group Financial Report 2025, consolidated statement of cash flows (millions of yen; FY ended March 31, 2024, 2025; thousands of US$)",
+    "quote": "Interest and dividends received 256,083 299,714 2,004,508 Interest paid (430,422) (482,111) (3,224,391)"
+   },
+   "note": "Interest and dividends received sit inside OCF, lowering paidOut by this amount (3.8%)."
+  },
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "IFRS. Formula applied as-is; treat with caution, it is not like-for-like with operating companies. (1) Revenue is mostly the telecom and internet business (SoftBank Corp. / LY Corp.) and Arm; the SoftBank Vision Funds and Investment Business of Holding Companies book their results as gains on investments below net sales, and their buying and selling of investments sits in investing (e.g. payments for acquisition of investments 1,625,245; SVF 578,927), so the investment arms barely enter paidOut except through their operating costs and the holding company's interest. (2) Interest paid (482,111) is inside OCF, so it is already in paidOut via revenue − OCF; much of it is holding-company interest on debt that funds investments, not on the operating business. (3) OCF is lowered by 769,572 of investment purchases by asset-management subsidiaries (flag investmentPurchasesInOCF), inflating paidOut by about 9.7%. (4) Banking and card finance flows of PayPay Bank / PayPay Card presumably sit in OCF but are not separately disclosed (flag financeReceivablesInOCF, amount null). (5) Net sales include ¥202,964 million of non-IFRS 15 revenue such as lease contracts in the Finance and Enterprise businesses. Taxes paid are gross of 164,847 refunds; both in OCF. Lease principal (186,441) noted, not added.",
+ "researchedAt": "2026-11-23"
+}

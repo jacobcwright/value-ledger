@@ -1,0 +1,109 @@
+{
+  "id": "michael-o-leary",
+  "company": "Ryanair",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-03-31",
+  "currency": "EUR",
+  "unit": "billions",
+  "sector": "airline",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 13.9485,
+      "stated": 13948.5,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statements of income (in millions)",
+        "quote": "Total operating revenues 16 13,948.5 13,443.8 10,775.2",
+        "xbrl": {
+          "cik": "0001038683",
+          "concept": "ifrs-full:Revenue",
+          "end": "2025-03-31",
+          "value": 13948500000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 3.4157,
+      "stated": 3415.7,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statements of cash flows (in millions)",
+        "quote": "Income tax (paid) 12 ( 84.9 ) ( 49.1 ) ( 4.1 ) Net cash from operating activities 3,415.7 3,157.9 3,891.0",
+        "xbrl": {
+          "cik": "0001038683",
+          "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+          "end": "2025-03-31",
+          "value": 3415700000
+        }
+      }
+    },
+    "capex": {
+      "value": 1.5525,
+      "components": [
+        "PP&E (aircraft, pre-delivery deposits, capitalized maintenance) 1.5525"
+      ],
+      "stated": 1552.5,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statements of cash flows (in millions)",
+        "quote": "Capital expenditure - purchase of property, plant and equipment ( 1,552.5 ) ( 2,391.9 ) ( 1,914.7 )",
+        "xbrl": {
+          "cik": "0001038683",
+          "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+          "end": "2025-03-31",
+          "value": 1552500000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.0697,
+      "inOCF": true,
+      "stated": 69.7,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "FY2025 Form 20-F, cash flow statement, amounts included in operating activities (in millions)",
+        "quote": "Included in the cash flows from operating activities for the year are the following amounts: Interest income received 19 135.9 148.4 52.7 Interest expense paid 19 ( 69.7 ) ( 88.7 ) ( 75.0 )",
+        "xbrl": {
+          "cik": "0001038683",
+          "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+          "end": "2025-03-31",
+          "value": 69700000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 0.0849,
+      "inOCF": true,
+      "stated": 84.9,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statements of cash flows (in millions)",
+        "quote": "Income tax (paid) 12 ( 84.9 ) ( 49.1 ) ( 4.1 ) Net cash from operating activities 3,415.7 3,157.9 3,891.0",
+        "xbrl": {
+          "cik": "0001038683",
+          "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+          "end": "2025-03-31",
+          "value": 84900000
+        }
+      }
+    }
+  },
+  "paidOut": 12.0853,
+  "paidOutFormula": "13.9485 − 3.4157 + 1.5525",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": 0.1359,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "IFRS filer. Interest paid (69.7) and interest received (135.9) are both classified in operating activities, so nothing is added back. Fiscal year April 1, 2024 to March 31, 2025, in euro (€m). For a USD ranking use the calendar-2024 annual-average rate (2024 covers 9 of the 12 months) from _fx.json.",
+  "researchedAt": "2026-11-23"
+}

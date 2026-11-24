@@ -1,0 +1,98 @@
+{
+ "id": "alexis-ohanian",
+ "company": "Reddit",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 1.300205,
+   "stated": 1300205,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000018/rddt-20241231.htm",
+    "label": "FY2024 Form 10-K, management's discussion and analysis (in thousands)",
+    "quote": "Consolidated Statements of Operations Data: Revenue $ 1,300,205 $ 804,029 $ 666,701",
+    "xbrl": {
+     "cik": "0001713445",
+     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+     "end": "2024-12-31",
+     "value": 1300205000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 0.222068,
+   "stated": 222068,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000018/rddt-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+    "quote": "Net cash provided by (used in) operating activities $ 222,068 $ ( 75,114 ) $ ( 94,021 )",
+    "xbrl": {
+     "cik": "0001713445",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 222068000
+    }
+   }
+  },
+  "capex": {
+   "value": 0.006248,
+   "components": [
+    "PP&E 0.006248"
+   ],
+   "stated": 6248,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000018/rddt-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
+    "quote": "Purchases of property and equipment ( 6,248 ) ( 9,724 ) ( 6,233 )",
+    "xbrl": {
+     "cik": "0001713445",
+     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+     "end": "2024-12-31",
+     "value": 6248000
+    }
+   }
+  },
+  "interestPaid": {
+   "value": null,
+   "inOCF": true,
+   "source": null,
+   "note": "Not disclosed in the filing or companyfacts; under US GAAP it would sit inside operating cash flow, so the formula does not need it."
+  },
+  "taxesPaid": {
+   "value": null,
+   "inOCF": true,
+   "source": null,
+   "note": "Not disclosed in the filing or companyfacts; under US GAAP it would sit inside operating cash flow, so the formula does not need it."
+  },
+  "interestDividendsReceived": {
+   "value": 0.075361,
+   "stated": 75361,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000018/rddt-20241231.htm",
+    "label": "FY2024 Form 10-K, management's discussion and analysis (in thousands)",
+    "quote": "Other income (expense), net, consists primarily of interest income | Other income (expense), net 75,361 53,138 14,234"
+   },
+   "derivation": "other income, net, which the 10-K says consists primarily of interest income; used to size the bias as the pilot did for Shopify"
+  }
+ },
+ "paidOut": 1.084385,
+ "paidOutFormula": "revenue 1,300,205 − operating cash flow 222,068 + capex 6,248 (USD thousands, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": 0.075361,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "The 10-K gives no supplemental cash paid for interest or income taxes, and companyfacts has no InterestPaidNet or IncomeTaxesPaidNet fact for FY2024; both would sit inside operating cash flow (US GAAP), so paidOut is unaffected. Acquisitions (17,137) excluded.",
+ "researchedAt": "2026-11-23"
+}

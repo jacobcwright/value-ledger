@@ -1,0 +1,142 @@
+{
+ "id": "ginni-rometty",
+ "company": "IBM",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "tech",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 62.753,
+   "stated": 62753,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
+    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of operations (in millions)",
+    "quote": "Total revenue C 62,753 61,860 60,530",
+    "xbrl": {
+     "cik": "0000051143",
+     "concept": "us-gaap:Revenues",
+     "end": "2024-12-31",
+     "value": 62753000000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 13.445,
+   "stated": 13445,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
+    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of cash flows (in millions)",
+    "quote": "Net cash provided by operating activities 13,445 13,931 10,435",
+    "xbrl": {
+     "cik": "0000051143",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 13445000000
+    }
+   }
+  },
+  "capex": {
+   "value": 1.685,
+   "components": [
+    "PP&E 1.048",
+    "investment in software 0.637"
+   ],
+   "derived": {
+    "method": "sum of the components below",
+    "inputs": [
+     {
+      "component": "PP&E",
+      "value": 1.048,
+      "stated": 1048,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
+       "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of cash flows (in millions)",
+       "quote": "Payments for property, plant and equipment ( 1,048 ) ( 1,245 ) ( 1,346 )",
+       "xbrl": {
+        "cik": "0000051143",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "end": "2024-12-31",
+        "value": 1048000000
+       }
+      }
+     },
+     {
+      "component": "investment in software",
+      "value": 0.637,
+      "stated": 637,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
+       "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of cash flows (in millions)",
+       "quote": "Investment in software ( 637 ) ( 565 ) ( 626 )"
+      }
+     }
+    ]
+   }
+  },
+  "interestPaid": {
+   "value": 1.978,
+   "stated": 1978,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
+    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), supplemental cash-flow information (in millions)",
+    "quote": "Income taxes paid-net of refunds received $ 1,723 $ 1,564 $ 1,865 Interest paid on debt $ 1,978 $ 1,668 $ 1,401",
+    "xbrl": {
+     "cik": "0000051143",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2024-12-31",
+     "value": 1978000000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 1.723,
+   "stated": 1723,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
+    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), supplemental cash-flow information (in millions)",
+    "quote": "Income taxes paid-net of refunds received $ 1,723 $ 1,564 $ 1,865 Interest paid on debt $ 1,978 $ 1,668 $ 1,401",
+    "xbrl": {
+     "cik": "0000051143",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2024-12-31",
+     "value": 1723000000
+    }
+   }
+  },
+  "financeReceivablesChangeInOCF": {
+   "value": 0.374,
+   "stated": 374,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
+    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of cash flows (in millions)",
+    "quote": "Receivables (including financing receivables) ( 374 ) 725 ( 539 )"
+   },
+   "effectOnOCF": "lowers",
+   "note": "IBM Financing receivables are inside operating cash flow, combined with trade receivables (net −374 in 2024)."
+  }
+ },
+ "paidOut": 50.993,
+ "paidOutFormula": "revenue 62,753 − operating cash flow 13,445 + capex 1,685 (USD millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": true,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Capex includes investment in software (637, capitalized software; no companyfacts fact). Acquisition of businesses (3,289) excluded.",
+ "researchedAt": "2026-11-23"
+}

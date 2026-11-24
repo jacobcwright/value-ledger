@@ -1,0 +1,118 @@
+{
+ "id": "dara-khosrowshahi",
+ "company": "Uber",
+ "fiscalYear": "FY2024",
+ "fiscalYearEnd": "2024-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "marketplace",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 43.978,
+   "stated": 43978,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
+    "quote": "Revenue $ 31,877 $ 37,281 $ 43,978",
+    "xbrl": {
+     "cik": "0001543151",
+     "concept": "us-gaap:Revenues",
+     "end": "2024-12-31",
+     "value": 43978000000
+    }
+   }
+  },
+  "operatingCashFlow": {
+   "value": 7.137,
+   "stated": 7137,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Net cash provided by operating activities 642 3,585 7,137",
+    "xbrl": {
+     "cik": "0001543151",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2024-12-31",
+     "value": 7137000000
+    }
+   }
+  },
+  "capex": {
+   "value": 0.242,
+   "components": [
+    "PP&E 0.242"
+   ],
+   "stated": 242,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+    "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Cash flows from investing activities Purchases of property and equipment ( 252 ) ( 223 ) ( 242 )",
+    "xbrl": {
+     "cik": "0001543151",
+     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+     "end": "2024-12-31",
+     "value": 242000000
+    }
+   }
+  },
+  "interestPaid": {
+   "value": 0.475,
+   "stated": 475,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow disclosures (in millions)",
+    "quote": "Cash paid for: Interest, net of amount capitalized $ 513 $ 629 $ 475 Income taxes, net of refunds 175 234 324",
+    "xbrl": {
+     "cik": "0001543151",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2024-12-31",
+     "value": 475000000
+    }
+   },
+   "note": "inside operating cash flow (US GAAP)"
+  },
+  "taxesPaid": {
+   "value": 0.324,
+   "stated": 324,
+   "inOCF": true,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+    "label": "FY2024 Form 10-K, supplemental cash-flow disclosures (in millions)",
+    "quote": "Cash paid for: Interest, net of amount capitalized $ 513 $ 629 $ 475 Income taxes, net of refunds 175 234 324",
+    "xbrl": {
+     "cik": "0001543151",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2024-12-31",
+     "value": 324000000
+    }
+   },
+   "note": "inside operating cash flow (US GAAP)"
+  }
+ },
+ "paidOut": 37.083,
+ "paidOutFormula": "revenue 43,978 − operating cash flow 7,137 + capex 242 (USD millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": {
+  "value": 118.795,
+  "measure": "Gross Bookings",
+  "measureValue": 162.773,
+  "platformRevenue": 43.978,
+  "formula": "Gross Bookings 162.773 − revenue 43.978",
+  "source": "research/lenses/ecosystem/dara-khosrowshahi.json"
+ },
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Inputs copied from the pilot. Marketplace: salesEnabled = Gross Bookings − revenue. In gross (principal) markets and Freight the fare is in both Gross Bookings and revenue and nets to zero, and driver pay is counted once, through paidOut; in agent markets driver earnings sit outside revenue and are counted once, through salesEnabled. Gross Bookings include taxes, tolls and fees and are before consumer discounts (overstates). Single-year paidOut is about 7% below the accrual cross-check because accrued insurance reserves rose 2.82bn inside operating cash flow.",
+ "researchedAt": "2026-11-23"
+}

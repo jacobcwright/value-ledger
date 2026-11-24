@@ -1,0 +1,109 @@
+{
+  "id": "reed-hastings",
+  "company": "Netflix",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "media",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 39.000966,
+      "stated": 39000966,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of operations (in thousands)",
+        "quote": "Revenues $ 39,000,966 $ 33,723,297 $ 31,615,550",
+        "xbrl": {
+          "cik": "0001065280",
+          "concept": "us-gaap:Revenues",
+          "end": "2024-12-31",
+          "value": 39000966000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 7.361364,
+      "stated": 7361364,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Net cash provided by operating activities 7,361,364 7,274,301 2,026,257",
+        "xbrl": {
+          "cik": "0001065280",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2024-12-31",
+          "value": 7361364000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.439538,
+      "components": [
+        "PP&E 0.439538"
+      ],
+      "stated": 439538,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Cash flows from investing activities: Purchases of property and equipment ( 439,538 ) ( 348,552 ) ( 407,729 )",
+        "xbrl": {
+          "cik": "0001065280",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2024-12-31",
+          "value": 439538000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 0.674502,
+      "inOCF": true,
+      "stated": 674502,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Supplemental disclosure: Income taxes paid $ 1,641,530 $ 1,154,973 $ 811,720 Interest paid 674,502 684,504 701,693",
+        "xbrl": {
+          "cik": "0001065280",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2024-12-31",
+          "value": 674502000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 1.64153,
+      "inOCF": true,
+      "stated": 1641530,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Supplemental disclosure: Income taxes paid $ 1,641,530 $ 1,154,973 $ 811,720 Interest paid 674,502 684,504 701,693",
+        "xbrl": {
+          "cik": "0001065280",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2024-12-31",
+          "value": 1641530000
+        }
+      }
+    }
+  },
+  "paidOut": 32.07914,
+  "paidOutFormula": "39.000966 − 7.361364 + 0.439538",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Amounts in thousands. Content spending (payments for content assets) is inside operating cash flow, so it is counted in paidOut through revenue − OCF, not capex.",
+  "researchedAt": "2026-11-23"
+}
