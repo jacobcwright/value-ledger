@@ -1,16 +1,13 @@
-.case-link {display:flex;flex-direction:column;gap:4px;flex:none;max-width:100%;border-left:2px solid var(--red);padding:3px 0 4px 11px;font:700 19px/1.22 var(--serif);text-decoration:none}
-.case-link span {font:750 11px/1.2 var(--sans);letter-spacing:.12em;color:var(--red-dark)}
-.case-link:hover {text-decoration:underline;text-underline-offset:4px}
 
 /* Amazon case study: "Who shares in the value?"
-   Local tokens: the founder is red; every other holder is a shade of green,
-   because green marks value held by everyone else. */
+   Ownership colors come from the shared --share-* palette in base.css: the founder is a recessive gray,
+   named holders are violet, amber and pink, and everyone else is blue. */
 .distribution {
-  --own-founder:var(--red);
-  --own-total-market:#1b5233;
-  --own-five-hundred:#4f9468;
-  --own-pension:#8fbc95;
-  --own-other:var(--green);
+  --own-founder:var(--share-self);
+  --own-total-market:var(--share-1);
+  --own-five-hundred:var(--share-2);
+  --own-pension:var(--share-3);
+  --own-other:var(--share-rest);
   margin-bottom:var(--space-5);border:1px solid var(--line);border-radius:var(--radius);background:var(--card);scroll-margin-top:var(--space-1);overflow:hidden;box-shadow:var(--shadow-1)
 }
 .ownership-founder {--own:var(--own-founder)}
@@ -28,7 +25,7 @@
 .distribution-tabs::-webkit-scrollbar {display:none}
 .distribution-tabs button {flex:none;margin-bottom:-1px;border:0;border-bottom:3px solid transparent;border-radius:var(--radius-sm) var(--radius-sm) 0 0;color:var(--muted);background:none;font-size:14px;font-weight:700;padding:12px 12px 10px;line-height:1.2;text-align:left;transition:color 150ms var(--ease),border-color 150ms var(--ease),background-color 150ms var(--ease)}
 .distribution-tabs button:hover {color:var(--ink);background:#25201e0a}
-.distribution-tabs button[aria-selected="true"] {color:var(--red-dark);border-bottom-color:var(--red);background:var(--card)}
+.distribution-tabs button[aria-selected="true"] {color:var(--ink);border-bottom-color:var(--ink);background:var(--card)}
 .distribution-tabs button:focus-visible,.distribution-panel:focus-visible {outline-offset:-4px}
 .distribution-panel {padding:var(--space-5)}
 
@@ -43,8 +40,8 @@
 /* Ownership: takeaway */
 .ownership-takeaway {margin-bottom:var(--space-4)}
 .ownership-headline {max-width:24em;margin:0 0 var(--space-2);font:400 clamp(24px,3.1vw,33px)/1.14 var(--serif);letter-spacing:-.035em;color:var(--ink)}
-.ownership-headline strong {color:var(--green);font-weight:700;white-space:nowrap}
-.ownership-headline strong.is-founder {color:var(--red-dark)}
+.ownership-headline strong {color:var(--share-rest-ink);font-weight:700;white-space:nowrap}
+.ownership-headline strong.is-founder {color:var(--muted)}
 .ownership-headline span {display:block}
 .ownership-takeaway p:last-child {max-width:46em;margin:0;font-size:15px;color:var(--muted)}
 .ownership-takeaway p:last-child strong {color:var(--ink);font-variant-numeric:tabular-nums}
@@ -62,14 +59,14 @@
 .ownership-scale > div::after {right:0}
 .ownership-scale span {display:block;white-space:nowrap}
 .ownership-scale b {font-weight:800;font-variant-numeric:tabular-nums}
-.scale-founder {color:var(--red-dark)}
-.scale-others {color:var(--green);text-align:right}
+.scale-founder {color:var(--muted)}
+.scale-others {color:var(--share-rest-ink);text-align:right}
 
 /* Ownership: holdings list and detail */
 .ownership-breakdown {display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:var(--space-4);align-items:start}
 .ownership-choices {display:grid;align-content:start;gap:2px}
-.ownership-group {display:flex;justify-content:space-between;align-items:baseline;gap:var(--space-2);margin:0;padding:0 10px 4px;font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--red-dark)}
-.ownership-group-others {margin-top:var(--space-3);padding-top:var(--space-3);border-top:1px solid var(--line);color:var(--green)}
+.ownership-group {display:flex;justify-content:space-between;align-items:baseline;gap:var(--space-2);margin:0;padding:0 10px 4px;font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.ownership-group-others {margin-top:var(--space-3);padding-top:var(--space-3);border-top:1px solid var(--line);color:var(--share-rest-ink)}
 .ownership-group span + span {letter-spacing:0;text-transform:none;font-variant-numeric:tabular-nums}
 .ownership-choices button {display:grid;align-items:center;grid-template-columns:10px minmax(0,1fr) auto;gap:10px;width:100%;padding:8px 10px;text-align:left;border:1px solid transparent;border-radius:var(--radius-sm);background:none;color:var(--ink);transition:background-color 150ms var(--ease),border-color 150ms var(--ease)}
 .ownership-choices button:hover,.ownership-choices button.is-lit {background:var(--paper-2)}
@@ -85,8 +82,8 @@
 .ownership-detail h5,.distribution-timeline h5,.distribution-mini-heading {margin:0 0 7px;font:700 18px/1.15 var(--serif)}
 .ownership-detail h5 {font-size:20px;margin-bottom:var(--space-2)}
 .ownership-detail-figures {display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:0 0 2px!important}
-.ownership-detail-figures strong {font:700 28px/1 var(--serif);letter-spacing:-.04em;color:var(--green);font-variant-numeric:tabular-nums}
-.ownership-founder .ownership-detail-figures strong {color:var(--red-dark)}
+.ownership-detail-figures strong {font:700 28px/1 var(--serif);letter-spacing:-.04em;color:var(--ink);font-variant-numeric:tabular-nums}
+.ownership-founder .ownership-detail-figures strong {color:var(--ink)}
 .ownership-detail-figures span {font-size:14px;color:var(--ink)}
 .ownership-detail .ownership-share-count {margin:0 0 var(--space-3);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
 .ownership-detail p {margin:6px 0 10px;font-size:14px;color:var(--muted)}
@@ -121,8 +118,8 @@
 
 /* How workers shared */
 .worker-totals {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-2)}
-.worker-totals > div {display:flex;flex-direction:column;gap:6px;background:var(--green-soft);padding:14px;border-radius:var(--radius)}
-.worker-totals strong {font:700 31px/1 var(--serif);letter-spacing:-.045em;color:var(--green);font-variant-numeric:tabular-nums}
+.worker-totals > div {display:flex;flex-direction:column;gap:6px;background:var(--share-rest-soft);padding:14px;border-radius:var(--radius)}
+.worker-totals strong {font:700 31px/1 var(--serif);letter-spacing:-.045em;color:var(--ink);font-variant-numeric:tabular-nums}
 .worker-totals span {font-size:13px;line-height:1.3;color:var(--ink)}
 .worker-equity-head {display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:4px var(--space-3);margin-top:var(--space-5);padding-bottom:var(--space-2);border-bottom:1px solid var(--line)}
 .worker-equity-head .distribution-mini-heading {margin:0}
@@ -132,20 +129,18 @@
 .worker-year {color:var(--muted);font-weight:650}
 .worker-equity li > strong {text-align:right}
 .worker-track {background:var(--paper-2);height:12px;border-radius:var(--radius-sm);overflow:hidden}
-.worker-track span {height:100%;display:block;background:var(--green);border-radius:var(--radius-sm)}
+.worker-track span {height:100%;display:block;background:var(--share-rest);border-radius:var(--radius-sm)}
 
 /* Employee equity timeline */
 .distribution-timeline-heading {margin-top:var(--space-6)!important;padding-bottom:var(--space-2);border-bottom:1px solid var(--line)}
 .distribution-timeline {list-style:none;margin:0;padding:0}
 .distribution-timeline li {display:grid;grid-template-columns:76px minmax(0,1fr);gap:var(--space-3)}
-.distribution-timeline li > div {position:relative;padding:14px 0 14px var(--space-5);border-left:2px solid var(--green-soft)}
-.distribution-timeline li > div::before {content:"";position:absolute;left:-7px;top:19px;width:12px;height:12px;border-radius:50%;background:var(--green);box-shadow:0 0 0 3px var(--card)}
-.distribution-timeline time {padding-top:16px;font-size:13px;font-weight:750;color:var(--green);font-variant-numeric:tabular-nums}
+.distribution-timeline li > div {position:relative;padding:14px 0 14px var(--space-5);border-left:2px solid var(--share-rest-soft)}
+.distribution-timeline li > div::before {content:"";position:absolute;left:-7px;top:19px;width:12px;height:12px;border-radius:50%;background:var(--share-rest);box-shadow:0 0 0 3px var(--card)}
+.distribution-timeline time {padding-top:16px;font-size:13px;font-weight:750;color:var(--share-rest-ink);font-variant-numeric:tabular-nums}
 .distribution-timeline p {margin:0 0 6px;color:var(--muted);font-size:14px}
 
 @media (max-width:760px) {
-  .section-head:has(.case-link) {flex-wrap:wrap;gap:12px}
-  .case-link {font-size:17px}
   .distribution-heading {padding:var(--space-4) var(--space-4) var(--space-3)}
   .distribution-tabs {padding:0 var(--space-2)}
   .distribution-tabs button {padding:10px 9px 8px;font-size:13px}
@@ -164,7 +159,7 @@
   .worker-totals > div {flex-direction:row;align-items:baseline;justify-content:space-between;gap:var(--space-3);padding:12px}
   .worker-totals span {text-align:right}
   .distribution-timeline li {grid-template-columns:1fr;gap:0}
-  .distribution-timeline time {padding:14px 0 0 var(--space-5);border-left:2px solid var(--green-soft)}
+  .distribution-timeline time {padding:14px 0 0 var(--space-5);border-left:2px solid var(--share-rest-soft)}
   .distribution-timeline li > div {padding-top:4px}
   .distribution-timeline li > div::before {top:-14px}
   .distribution-table th,.distribution-table td,.distribution-table tbody th,.distribution-table tbody td {padding:9px 10px}

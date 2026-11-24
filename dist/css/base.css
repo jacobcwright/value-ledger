@@ -8,6 +8,10 @@
   --card:#fffdf8;           /* raised card surface */
   --green:#287647;          /* value that is shared widely: workers, savers, "everyone else" */
   --green-soft:#e3efe6;
+  /* Ownership palette (validated for color-vision deficiency): the individual is a recessive warm gray;
+     named holders and "everyone else" carry the color, so the majority reads first. No red/green. */
+  --share-self:#7d736c; --share-1:#6250d6; --share-2:#eda100; --share-3:#e87ba4; --share-rest:#2a78d6;
+  --share-rest-soft:#e8f0fb; --share-rest-ink:#1d5aa6;
   --gold:#ffd298;           /* highlight on dark map surfaces */
   --map:#142023; --map-2:#1c2a2d; --map-line:#394b4b;
   --radius-sm:4px; --radius:8px; --radius-lg:12px;

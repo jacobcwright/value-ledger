@@ -10,7 +10,7 @@ The thesis is that building a great company is one of the most powerful ways a p
 
 1. **Value created.** The companies on this list are worth about $35 trillion together. That value exists because customers chose to buy what these companies make.
 2. **Livelihoods.** Together they employ about 15 million people directly and pay an estimated ~$1 trillion a year in wages.
-3. **Shared ownership.** Most of the value doesn't sit with the founder. Amazon is the worked example. Jeff Bezos holds about 9% of the company. The other ~91% belongs to index funds, pension systems such as CalPERS, institutions and individuals, which in practice means the retirement savings of ordinary people. Green on the site always marks "value held by or flowing to everyone else."
+3. **Shared ownership.** Most of the value doesn't sit with the founder. Amazon is the worked example. Jeff Bezos holds about 9% of the company. The other ~91% belongs to index funds, pension systems such as CalPERS, institutions and individuals, which in practice means the retirement savings of ordinary people. Blue on the site always marks "value held by or flowing to everyone else."
 4. **Reach.** Operating footprints, sales by market and U.S. state impact show the value landing in real places.
 
 Every headline figure above must be **computed in code from `data.js` or the Amazon data files**. Never hardcode it in copy. If you need a number that doesn't already exist in the data, don't add it.
@@ -35,7 +35,7 @@ The home page follows the Forbes list model. It has a slim header, a centered ti
 The site is an editorial publication: warm paper, ink, serif display type, red as the brand mark, and dark map surfaces for the data. Polish it; don't redesign it.
 
 - **Tokens.** Use the custom properties in `dist/css/base.css` (`--space-*`, `--radius*`, `--shadow-*`, `--green`, `--gold`, `--map*` and others). Don't add new one-off hex colors when a token fits. If you need a token that doesn't exist, define it locally in your own file and say so in your report.
-- **Color meaning.** Red is the brand, the founder and the selected state. Green is broadly shared value. Gold is the highlight on dark map surfaces.
+- **Color meaning.** Red is brand chrome only: the mark, eyebrows and links. Ownership and value-sharing visuals never use red or green. The individual is a recessive warm gray (`--share-self`); named holders are violet, amber and pink (`--share-1..3`, in that fixed order); "everyone else" is blue (`--share-rest`), the visual hero. Gold is the highlight on dark map surfaces. This palette passes the CVD validator; keep a visible label on every segment because amber and pink are low-contrast.
 - **Type.** Use Georgia for display and numbers, and the system sans for UI and body. Use tabular numerals for figures in tables and lists.
 - **Radii.** Standardize on `--radius-sm` for controls and `--radius` for cards and panels. Keep `--radius-lg` for the dialog only.
 - **Motion.** Keep it subtle (150–250ms, `--ease`) and respect `prefers-reduced-motion`.
