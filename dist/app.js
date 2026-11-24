@@ -20,18 +20,33 @@ function externalLink(url, label) {
 const metrics = {cap:"Value created",jobs:"People employed",payroll:"Estimated annual pay to workers"};
 const sortedByCap = [...leaders].sort((a,b) => b.cap - a.cap);
 byId("cover").innerHTML = sortedByCap.slice(0,3).map((leader,index) => `
-  <a href="#leader/${leader.id}" class="cover-card">
+  <a href="#leader/${leader.id}" class="cover-card" aria-label="Number ${index + 1}: ${escapeHtml(leader.name)}, ${escapeHtml(leader.company)}, ${compactMoney(leader.cap)} value created">
     ${portrait(leader,true)}
     <span class="cover-rank">${index + 1}</span>
-    <span class="cover-caption"><strong>${escapeHtml(leader.name)}</strong><small>${escapeHtml(leader.company)}</small></span>
+    <span class="cover-caption"><strong>${escapeHtml(leader.name)}</strong><small>${escapeHtml(leader.company)} <span>${compactMoney(leader.cap)}</span></small></span>
   </a>`).join("");
-const stats = [
-  [leaders.length,"Leaders profiled"],
-  [compactMoney(leaders.reduce((total,leader) => total + leader.cap,0)),"Combined value created"],
-  [decimal.format(leaders.reduce((total,leader) => total + leader.jobs,0) / 1e6) + "M",metrics.jobs],
-  [compactMoney(leaders.reduce((total,leader) => total + leader.payroll,0)),metrics.payroll]
-];
-byId("stats").innerHTML = stats.map(([value,label]) => `<div class="stat"><strong>${value}</strong><span>${label}</span></div>`).join("");
+{
+  // Headline figures for the dark band, all computed from the data files.
+  const sum = key => leaders.reduce((total,leader) => total + leader[key],0);
+  const oneDecimal = value => value.toFixed(1).replace(/\.0$/,"");
+  const scaled = (value, prefix = "") => value >= 1e12 ? [prefix + oneDecimal(value / 1e12),"trillion"]
+    : value >= 1e9 ? [prefix + Math.round(value / 1e9),"billion"]
+    : [prefix + oneDecimal(value / 1e6),"million"];
+  const figure = ([number,unit]) => `${number}<small> ${unit}</small>`;
+  const stats = [
+    {value:figure(scaled(sum("cap") * 1e9,"$")),label:"in value created, at year-end 2024"},
+    {value:figure(scaled(sum("jobs"))),label:"people employed directly"},
+    {value:figure(scaled(sum("payroll") * 1e9,"$")),label:"estimated pay to workers each year"}
+  ];
+  const founder = typeof amazonOwnership !== "undefined" && amazonOwnership.holders.find(holder => holder.color === "founder");
+  if (founder) {
+    const outside = 100 * (1 - founder.shares / amazonOwnership.sharesOutstanding);
+    stats.push({value:outside.toFixed(1) + "%",label:"of Amazon held outside Jeff Bezos’s direct stake",href:"#leader/jeff-bezos/distribution",kicker:"Amazon case study"});
+  }
+  byId("stats").innerHTML = stats.map(({value,label,href,kicker}) => href
+    ? `<a class="stat stat-shared" href="${href}"><span class="stat-kicker">${kicker}</span><strong>${value}</strong><span>${label}</span><span class="stat-more">Read the case study <span aria-hidden="true">→</span></span></a>`
+    : `<div class="stat"><strong>${value}</strong><span>${label}</span></div>`).join("");
+}
 
 const rows = byId("rows"), query = byId("query"), sort = byId("sort"), sector = byId("sector");
 for (const industry of [...new Set(leaders.map(leader => leader.sector))].sort()) {
