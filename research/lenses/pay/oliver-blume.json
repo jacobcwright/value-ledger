@@ -1,0 +1,31 @@
+{
+  "id": "oliver-blume",
+  "company": "Dr. Ing. h.c. F. Porsche AG",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "EUR",
+  "employees": {
+    "value": 41780,
+    "asOf": "2025-12-31",
+    "basis": "number of employees at the Porsche AG Group as of the reporting date",
+    "source": {
+      "hostType": "company",
+      "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2025/q4/annual-and-sustainability-report-2025-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+      "label": "Annual and Sustainability Report 2025, combined management report, Personnel",
+      "quote": "As of the reporting date, the number of employees at the Porsche AG Group fell to 41,780 (2024: 42,615 employees). On average, the Porsche AG Group had 42,066 employees (2024: 42,703 employees) in the fiscal year 2025."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Personnel expenses",
+    "value": 5.054,
+    "source": {
+      "hostType": "company",
+      "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2025/q4/annual-and-sustainability-report-2025-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+      "label": "Annual and Sustainability Report 2025, notes, 41. Personnel expenses (€ million)",
+      "quote": "41. PERSONNEL EXPENSES € million 2025 2024 Wages and salaries 4,232 4,318 Social security contributions 631 613 Pension and other benefit costs 191 207 5,054 5,138"
+    }
+  },
+  "notes": "Employees: Porsche AG Group head count at December 31, 2025 (41,780, down from 42,615). The average for 2025 was 42,066, including 741 trainees and 1,010 employees in the release phase of partial retirement (note 42). Payroll: note 41 total personnel expenses of €5,054m (wages and salaries 4,232, social security contributions 631, pension and other benefit costs 191), in billions of EUR. This is the IFRS group figure; the €2,743m 'personnel expenses' in the management report is the parent company Porsche AG alone under HGB and is not used.",
+  "researchedAt": "2026-11-24"
+}

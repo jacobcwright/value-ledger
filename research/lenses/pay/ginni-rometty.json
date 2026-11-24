@@ -1,0 +1,31 @@
+{
+  "id": "ginni-rometty",
+  "company": "IBM",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 264300,
+    "asOf": "2025-12-31",
+    "basis": "employees of IBM/wholly owned subsidiaries (in thousands: 264.3)",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
+      "label": "2025 Annual Report (Form 10-K Exhibit 13), Management Discussion, Human Capital",
+      "quote": "The table below presents the company's employees and related workforce at December 31, 2025. (In thousands) For the year ended December 31: 2025 IBM/wholly owned subsidiaries 264.3 Less-than-wholly owned subsidiaries 8.7"
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "annual total compensation of the median employee",
+    "value": 49630,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000025/ibm-20260306.htm",
+      "label": "2026 proxy statement (DEF 14A), Pay ratio",
+      "quote": "The ratio of the Chairman, President and CEO's annual total compensation to that of the median employee's annual total compensation is 765:1. This ratio is based on annual total compensation of $37,989,685 for the Chairman, President and CEO (as reported in the Summary Compensation Table) and $49,630 for the median employee."
+    }
+  },
+  "notes": "Employees: IBM reports its workforce in thousands at December 31, 2025: 264.3 thousand at IBM and wholly owned subsidiaries (used here), plus 8.7 thousand at less-than-wholly owned subsidiaries and a 13.8 thousand complementary workforce (an approximation of full-time equivalents hired under temporary, part-time and limited-term arrangements), which are not added. Payroll: the FY2025 10-K and Annual Report disclose no total staff cost, so the 2026 proxy's CEO pay ratio median is used; it is the 2025 median (identified October 1, 2025 using annual base pay, all currencies converted to U.S. dollars; the median employee's base salary was $48,001).",
+  "researchedAt": "2026-11-24"
+}

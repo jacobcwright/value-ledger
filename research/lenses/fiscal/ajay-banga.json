@@ -1,28 +1,28 @@
 {
   "id": "ajay-banga",
   "company": "Mastercard",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 3.25,
+      "value": 3.02,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes, net of refunds $ 3,252 $ 2,746 $ 2,506 Cash paid for interest [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 19 Income Tax, Income Taxes Paid (in millions)",
+        "quote": "The Company paid income taxes, net of refunds, by jurisdiction for the years ended December 31, as follows: ... Total $ 3,020 $ 3,252 $ 2,746 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001141391",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 3252000000
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-12-31",
+          "value": 3020000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, net of refunds as presented. R&D not reported as a separate line in the FY2024 10-K.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: income taxes paid, net of refunds, from the FY2025 10-K income-tax note by jurisdiction (federal 1,359, state 95, foreign: Belgium 668, United Kingdom 330, Brazil 168, other 400; total 3,020 million). R&D is not reported as a separate line in the FY2025 10-K.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,127 +1,127 @@
 {
   "id": "marc-benioff",
   "company": "Salesforce",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-01-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-03-31",
+    "asOf": "2026-03-25",
     "leader": {
       "name": "Marc Benioff",
       "relation": "co-founder",
       "status": "holds",
-      "pctEconomic": 2.4,
+      "pctEconomic": 2.8,
       "pctVoting": null,
-      "shares": 22796932,
+      "shares": 22791882,
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm",
-        "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (printed p. 90)",
-        "quote": "applicable percentage ownership in the following table is based on 961,389,205 shares of Salesforce common stock outstanding as of March 31, 2025 ... Marc Benioff(4) 22,796,932 2.4 ... 4.Includes (i) 827,475 shares issuable upon the exercise of options ... and (ii) 10,000,000 shares held by the Marc Benioff Fund LLC. All other shares are held in the Marc R. Benioff Revocable Trust."
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+        "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management (printed p. 95)",
+        "quote": "applicable percentage ownership in the following table is based on 818,219,088 shares of Salesforce common stock outstanding as of March 25, 2026 ... Marc Benioff (4) 22,791,882 2.8 ... 4. Includes (i) 880,310 shares issuable upon the exercise of options vested and exercisable as of March 25, 2026 ... and (ii) 10,000,000 shares held by the Marc Benioff Fund LLC. All other shares are held in the Marc R. Benioff Revocable Trust."
       }
     },
     "largestHolders": [
       {
         "name": "The Vanguard Group",
         "type": "asset-manager",
-        "pctEconomic": 8.7,
+        "pctEconomic": 10.2,
         "asOf": "2024-02-13",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (printed p. 90)",
-          "quote": "applicable percentage ownership in the following table is based on 961,389,205 shares of Salesforce common stock outstanding as of March 31, 2025 ... The Vanguard Group(1) ... 83,624,885 8.7 ... 1.Based upon a Schedule 13G/A filed with the SEC on February 13, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management (printed pp. 95-96)",
+          "quote": "applicable percentage ownership in the following table is based on 818,219,088 shares of Salesforce common stock outstanding as of March 25, 2026 ... The Vanguard Group (1) 100 Vanguard Boulevard, Malvern, Pennsylvania 19355 83,624,885 10.2 ... 1. Based upon a Schedule 13G/A filed with the SEC on February 13, 2024."
         }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 7.6,
+        "pctEconomic": 8.9,
         "asOf": "2024-01-26",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (printed p. 90)",
-          "quote": "applicable percentage ownership in the following table is based on 961,389,205 shares of Salesforce common stock outstanding as of March 31, 2025 ... BlackRock, Inc.(2) ... 72,882,619 7.6 ... 2.Based upon a Schedule 13G/A filed with the SEC on January 26, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management (printed pp. 95-96)",
+          "quote": "applicable percentage ownership in the following table is based on 818,219,088 shares of Salesforce common stock outstanding as of March 25, 2026 ... BlackRock, Inc. (2) 50 Hudson Yards, New York, New York 10001 72,882,619 8.9 ... 2. Based upon a Schedule 13G/A filed with the SEC on January 26, 2024."
         }
       },
       {
         "name": "State Street Corporation",
         "type": "asset-manager",
-        "pctEconomic": 5.1,
+        "pctEconomic": 6,
         "asOf": "2024-10-16",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm",
-          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (printed p. 90)",
-          "quote": "applicable percentage ownership in the following table is based on 961,389,205 shares of Salesforce common stock outstanding as of March 31, 2025 ... State Street Corporation(3) ... 49,018,644 5.1 ... 3.Based upon a Schedule 13G filed with the SEC on October 16, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000085/crm-20260416.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management (printed pp. 95-96)",
+          "quote": "applicable percentage ownership in the following table is based on 818,219,088 shares of Salesforce common stock outstanding as of March 25, 2026 ... State Street Corporation (3) 1 Congress Street, Suite 1, Boston, Massachusetts 02114 49,018,644 6.0 ... 3. Based upon a Schedule 13G filed with the SEC on October 16, 2024."
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock. The largest disclosed holders are index and asset managers; Marc Benioff, Chair and CEO, beneficially owns 2.4%."
+      "note": "One class of common stock. The largest disclosed holders are index and asset managers; Marc Benioff, Chair of the Board, CEO and co-Founder, beneficially owns 2.8% of the 818,219,088 shares outstanding at March 25, 2026."
     }
   },
   "cash": {
     "dividends": {
-      "value": 1.54,
+      "value": 1.59,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
-        "quote": "Payments of dividends (1,537) 0 0 [in millions, fiscal 2025, 2024, 2023]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Payments of dividends and dividend equivalents ( 1,587 ) ( 1,537 ) 0 [in millions, fiscal 2026, 2025, 2024]",
         "xbrl": {
           "cik": "0001108524",
           "concept": "us-gaap:PaymentsOfDividends",
-          "end": "2025-01-31",
-          "value": 1537000000
+          "end": "2026-01-31",
+          "value": 1587000000
         }
       }
     },
     "buybacks": {
-      "value": 7.83,
+      "value": 12.6,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
-        "quote": "Repurchases of common stock (7,829) (7,620) (4,000) [in millions, fiscal 2025, 2024, 2023]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchases of common stock ( 12,596 ) ( 7,829 ) ( 7,620 ) [in millions, fiscal 2026, 2025, 2024]",
         "xbrl": {
           "cik": "0001108524",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2025-01-31",
-          "value": 7829000000
+          "end": "2026-01-31",
+          "value": 12596000000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 3.18,
+      "value": 3.51,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
-        "quote": "Stock-based compensation expense 3,183 2,787 3,279 [in millions, fiscal 2025, 2024, 2023]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation expense 3,509 3,183 2,787 [in millions, fiscal 2026, 2025, 2024]",
         "xbrl": {
           "cik": "0001108524",
           "concept": "us-gaap:ShareBasedCompensation",
-          "end": "2025-01-31",
-          "value": 3183000000
+          "end": "2026-01-31",
+          "value": 3509000000
         }
       }
     },
     "plan": {
-      "text": "Employees can buy Salesforce stock at a 15% discount through the Employee Stock Purchase Plan.",
+      "text": "Eligible employees can buy Salesforce stock at a 15% discount through the Employee Stock Purchase Plan.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
-        "label": "FY2025 Form 10-K, Note 1 Summary of Significant Accounting Policies, Stock-Based Compensation Expense",
-        "quote": "The ESPP allows employees to purchase shares of the Company's common stock at a 15 percent discount from the lower of the Company’s stock price on (i) the first day of the offering period or on (ii) the last day of the purchase period."
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "label": "FY2026 Form 10-K, Item 1 Human Capital Management",
+        "quote": "Eligible employees are also able to participate in our Employee Stock Purchase Plan, which allows employees to purchase our stock at a 15 percent discount up to U.S. Internal Revenue Code limits."
       }
     }
   },
@@ -130,25 +130,25 @@
     "segments": [
       {
         "name": "Americas",
-        "value": 25.14
+        "value": 27.19
       },
       {
         "name": "Europe",
-        "value": 8.89
+        "value": 10.02
       },
       {
         "name": "Asia Pacific",
-        "value": 3.86
+        "value": 4.32
       }
     ],
-    "total": 37.9,
+    "total": 41.53,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
-      "label": "FY2025 Form 10-K, Note 2 Revenues, Total Revenue by Geographic Locations",
-      "quote": "Americas $ 25,143 ... Europe 8,891 ... Asia Pacific 3,861 ... $ 37,895 [fiscal 2025, in millions] ... Revenues by geography are determined based on the region of the Company's contracting entity, which may be different than the region of the customer."
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+      "label": "FY2026 Form 10-K, Note 2 Revenues, Total Revenue by Geographic Locations",
+      "quote": "Fiscal Year Ended January 31, 2026 2025 2024 Americas $ 27,193 $ 25,143 $ 23,289 Europe 10,017 8,891 8,128 Asia Pacific 4,315 3,861 3,440 $ 41,525 $ 37,895 $ 34,857 ... Revenues by geography are determined based on the region of the Company's contracting entity, which may be different than the region of the customer."
     }
   },
-  "notes": "Fiscal year ended January 31, 2025 (Salesforce calls it fiscal 2025; matches data.js fy 'Jan 2025'). Documents read on sec.gov: FY2025 Form 10-K (accession 0001108524-25-000006) and 2025 proxy statement (DEF 14A, accession 0001108524-25-000009). Salesforce paid its first dividends in fiscal 2025. XBRL also carries $1,549 million of dividends declared (DividendsCommonStockCash); the cash-flow figure of $1,537 million paid is used. Benioff's 22,796,932 shares include 827,475 shares from options and PRSUs vesting within 60 days and 10,000,000 shares held by the Marc Benioff Fund LLC. Holder asOf dates are the Schedule 13G filing dates the proxy cites; it does not give event dates. The Vanguard and BlackRock figures date from early 2024. GEOGRAPHY: the 10-K says Americas revenue attributed to the United States was about 93% in each year.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended January 31, 2026 (Salesforce calls it fiscal 2026; data.js fy 'Jan 2026'). Documents read on sec.gov: FY2026 Form 10-K (accession 0001108524-26-000060, filed March 2, 2026) and 2026 proxy statement (DEF 14A, accession 0001108524-26-000085, filed April 16, 2026). Dividends include dividend equivalents, as the cash-flow line says; XBRL also carries $1,605 million of dividends and equivalents declared, but the $1,587 million paid is used. Buybacks are the $12,596 million cash-flow line for fiscal 2026; the larger March 2026 accelerated share repurchase falls in fiscal 2027. Benioff's 22,791,882 shares include 880,310 shares from options and PRSUs vesting within 60 days and 10,000,000 shares held by the Marc Benioff Fund LLC; the proxy's 2.8% uses the 818,219,088 shares outstanding at March 25, 2026, after the accelerated repurchase. Holder asOf dates are the Schedule 13G filing dates the proxy cites; it gives no event dates. The Vanguard, BlackRock and State Street figures are from 2024 filings, so their percentages are stale share counts set against the smaller 2026 share base; the proxy also notes Vanguard now reports on a disaggregated basis. Salesforce completed its acquisition of Informatica in November 2025 (fiscal 2026 business combinations, net of cash acquired: $9,268 million). GEOGRAPHY: the 10-K says Americas revenue attributed to the United States was approximately 93% in each year.",
+  "researchedAt": "2026-11-24"
 }

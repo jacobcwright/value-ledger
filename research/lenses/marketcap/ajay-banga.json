@@ -1,0 +1,36 @@
+{
+  "id": "ajay-banga",
+  "company": "Mastercard",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 864657109,
+      "sharesAsOf": "2026-10-26",
+      "pricedAs": "MA",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 26, 2026, there were 864,657,109 shares outstanding of the registrant’s Class A common stock, par value $0.0001 per share; and 6,519,005 shares outstanding of the registrant’s Class B common stock, par value $0.0001 per share."
+      }
+    },
+    {
+      "label": "Class B common stock",
+      "shares": 6519005,
+      "sharesAsOf": "2026-10-26",
+      "pricedAs": "MA",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is not publicly traded or listed on any exchange; the FY2025 10-K says \"Shares of Class B common stock are convertible on a one-for-one basis into shares of Class A common stock\", so it is priced as Class A (MA).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 26, 2026, there were 864,657,109 shares outstanding of the registrant’s Class A common stock, par value $0.0001 per share; and 6,519,005 shares outstanding of the registrant’s Class B common stock, par value $0.0001 per share."
+      }
+    }
+  ],
+  "notes": "Class A is listed on the New York Stock Exchange as MA. Class B is non-voting, held only by certain customers and unlisted (2026 proxy: \"Mastercard’s Class B common stock is not publicly traded or listed on any exchange or dealer quotation system\"); it converts one-for-one into Class A. Counts are from the Q3 2026 10-Q cover (filed October 29, 2026), newer than the FY2025 10-K cover (February 6, 2026). Treasury shares are excluded.",
+  "researchedAt": "2026-11-24"
+}

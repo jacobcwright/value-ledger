@@ -1,8 +1,8 @@
 {
   "id": "marc-benioff",
   "company": "Salesforce",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-01-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-31",
   "currency": "USD",
   "unit": "billions",
   "ecosystem": {
@@ -10,17 +10,17 @@
     "measure": null,
     "platformRevenue": {
       "label": "Total revenues",
-      "value": 37.9,
+      "value": 41.53,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of operations",
-        "quote": "Total revenues 37,895 34,857 31,352 [in millions; FY2025, FY2024, FY2023]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of operations",
+        "quote": "Total revenues 41,525 37,895 34,857 [in millions; FY2026, FY2025, FY2024]",
         "xbrl": {
           "cik": "0001108524",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "end": "2025-01-31",
-          "value": 37895000000
+          "end": "2026-01-31",
+          "value": 41525000000
         }
       }
     },
@@ -60,8 +60,8 @@
         }
       }
     ],
-    "notes": "The 10-K has no flow measure, so measure is null. Both studies are IDC white papers sponsored by Salesforce and are model-based forecasts, not measured flows. The December 2023 paper estimates new revenue generated for Salesforce customers from AI-powered Salesforce clouds (it also gives $312 billion for 2022, rising to a forecast $948 billion in 2028); the $2.02 trillion is cumulative over 2022–2028. The September 2021 paper is the one that sizes the partner ecosystem itself (add-on apps, IT services, consulting, hardware and more sold around Salesforce), as a ratio to Salesforce's own revenue ($4.96 per $1 in 2021); it has no single money value, so value is null. IDC notes \"the ecosystem may include companies that are not formal business partners of Salesforce\". Neither study covers FY2025 actuals."
+    "notes": "The 10-K has no flow measure, so measure is null. Both studies are IDC white papers sponsored by Salesforce and are model-based forecasts, not measured flows. The December 2023 paper estimates new revenue generated for Salesforce customers from AI-powered Salesforce clouds (it also gives $312 billion for 2022, rising to a forecast $948 billion in 2028); the $2.02 trillion is cumulative over 2022–2028. The September 2021 paper is the one that sizes the partner ecosystem itself (add-on apps, IT services, consulting, hardware and more sold around Salesforce), as a ratio to Salesforce's own revenue ($4.96 per $1 in 2021); it has no single money value, so value is null. IDC notes \"the ecosystem may include companies that are not formal business partners of Salesforce\". Neither study covers FY2026 actuals; no newer Salesforce-commissioned ecosystem study was used."
   },
   "notes": "Ecosystem lens only.",
-  "researchedAt": "2026-11-23"
+  "researchedAt": "2026-11-24"
 }

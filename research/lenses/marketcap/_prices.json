@@ -1,0 +1,72 @@
+{
+ "asOf": "2026-11-20",
+ "about": "Closing prices on the edition date (Yahoo Finance chart data, the exchange's official close for that session) and Federal Reserve H.10 noon buying rates in New York for the same day. Pence-quoted London lines (GBp) are divided by 100.",
+ "symbols": {
+  "7203.T": {
+   "close": 3312,
+   "currency": "JPY",
+   "divisor": 1,
+   "exchange": "Tokyo",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/7203.T?period1=1795132800&period2=1795136400&interval=1d",
+    "label": "Yahoo Finance chart data, 7203.T close on 2026-11-20",
+    "quote": "\"close\":[3312.0]"
+   }
+  },
+  "AAPL": {
+   "close": 342.55999755859375,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, AAPL close on 2026-11-20",
+    "quote": "\"close\":[342.55999755859375]"
+   }
+  },
+  "BAC": {
+   "close": 47.040000915527344,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NYSE",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/BAC?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, BAC close on 2026-11-20",
+    "quote": "\"close\":[47.040000915527344]"
+   }
+  },
+  "SHOP": {
+   "close": 123.72000122070312,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SHOP?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, SHOP close on 2026-11-20",
+    "quote": "\"close\":[123.72000122070312]"
+   }
+  }
+ },
+ "fx": {
+  "JPY": {
+   "perUSD": 158.76,
+   "stated": 158.76,
+   "statedBasis": "JPY per USD",
+   "day": "2026-11-20",
+   "source": {
+    "hostType": "regulator",
+    "url": "https://www.federalreserve.gov/releases/h10/20261123/",
+    "label": "Federal Reserve Board, H.10 Foreign Exchange Rates, noon buying rates in New York, Nov. 20",
+    "quote": "JAPAN YEN 159.6500 159.2700 159.2500 159.7600 158.7600"
+   }
+  }
+ }
+}

@@ -2,48 +2,48 @@
   "id": "lisa-su",
   "company": "AMD",
   "nbim": {
-    "pct": 1.45,
-    "marketValueUSD": 2.837,
-    "asOf": "2024-12-31",
+    "pct": 1.3,
+    "marketValueUSD": 12.357,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"pesqsg2ibegm\",\"cc\":\"US\",\"n\":\"Advanced Micro Devices Inc\",\"a\":{\"e\":2837356134,\"n\":32224846685},\"at\":0,\"o\":1.45,\"eq\":{\"vid\":\"AMD\",\"v\":1.45,\"s\":\"Technology\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"pesqsg2ibegm\",\"cc\":\"US\",\"n\":\"Advanced Micro Devices Inc\",\"a\":{\"e\":12356895031,\"n\":122277654784},\"at\":0,\"o\":1.3,\"eq\":{\"vid\":\"AMD\",\"v\":1.3,\"s\":\"Technology\"}}"
     }
   },
   "calpers": {
-    "shares": 2939174,
-    "asOf": "2024-12-31",
+    "shares": 3236233,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "ADVANCED MICRO DEVICES INC COM 007903107 355022827 2939174"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "ADVANCED MICRO DEVICES INC COM 007903107 1979797900 3236233"
     },
     "derived": {
-      "pct": 0.181,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.197,
+      "method": "CalPERS shares ÷ shares outstanding (3,236,233 ÷ 1,640,087,251 at October 28, 2026)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "1,620,477,962 shares of common stock, $0.01 par value per share, as of January 30, 2025."
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+          "label": "Form 10-Q for the quarter ended September 26, 2026, cover page",
+          "quote": "Number of shares outstanding of the registrant's common stock, $0.01 par value per share, as of October 28, 2026: 1,640,087,251"
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 5028,
-    "asOf": "2025-01-24",
+    "count": 5094,
+    "asOf": "2026-01-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "On January 24, 2025, there were 5,028 registered holders of our common stock, and the closing price of our common stock was $122.84 per share as reported on NASDAQ."
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "On January 30, 2026, there were 5,094 registered holders of our common stock, and the closing price of our common stock was $236.73 per share as reported on NASDAQ."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Advanced Micro Devices Inc;Technology;32224846685;2837356134;1.45%;1.45%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026; Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the Q3 2026 10-Q cover count at October 28, 2026, the same count used in the marketcap lens. Holders of record are from the FY2025 10-K.",
+  "researchedAt": "2026-11-24"
 }

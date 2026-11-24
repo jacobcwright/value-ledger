@@ -1,0 +1,22 @@
+{
+  "id": "elon-musk",
+  "company": "Tesla",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 3952757946,
+      "sharesAsOf": "2026-10-15",
+      "pricedAs": "TSLA",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 15, 2026, there were 3,952,757,946 shares of the registrant's common stock outstanding."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as TSLA; no preferred stock is outstanding. The 10-Q cover count is used as stated. It includes the 423,743,904 shares of performance-based restricted stock granted to Elon Musk under the 2025 CEO Performance Award, which the 10-Q balance sheet counts among the 3,953 million shares issued and outstanding even though they are unearned and voted proportionately; the 2026 proxy excludes them when computing his ownership percentage.",
+  "researchedAt": "2026-11-24"
+}

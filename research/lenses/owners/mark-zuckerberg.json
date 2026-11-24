@@ -2,54 +2,54 @@
   "id": "mark-zuckerberg",
   "company": "Meta",
   "nbim": {
-    "pct": 1.34,
-    "marketValueUSD": 19.751,
-    "asOf": "2024-12-31",
+    "pct": 1.19,
+    "marketValueUSD": 17.048,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"5motenr1507l\",\"cc\":\"US\",\"n\":\"Meta Platforms Inc\",\"a\":{\"e\":19750530468,\"n\":224313687214},\"at\":0,\"o\":1.34,\"eq\":{\"vid\":\"META\",\"v\":0.6,\"s\":\"Technology\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"5motenr1507l\",\"cc\":\"US\",\"n\":\"Meta Platforms Inc\",\"a\":{\"e\":17047898622,\"n\":168697480817},\"at\":0,\"o\":1.19,\"eq\":{\"vid\":\"META\",\"v\":0.54,\"s\":\"Technology\"}}"
     }
   },
   "calpers": {
-    "shares": 4937618,
-    "asOf": "2024-12-31",
+    "shares": 6077114,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "META PLATFORMS INC CL A 30303M102 2891024715 4937618"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "META PLATFORMS INC CL A 30303M102 4407001531 6077114"
     },
     "derived": {
-      "pct": 0.195,
-      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "pct": 0.238,
+      "method": "CalPERS shares ÷ shares outstanding, all classes (6,077,114 ÷ (2,214,472,367 Class A + 341,768,886 Class B) = 6,077,114 ÷ 2,556,241,253)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "On January 24, 2025, the registrant had 2,189,898,148 shares of Class A common stock and 343,761,117 shares of Class B common stock outstanding."
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+          "quote": "Class A Common Stock $0.000006 par value 2,214,472,367 shares outstanding as of October 16, 2026 Class B Common Stock $0.000006 par value 341,768,886 shares outstanding as of October 16, 2026"
         },
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-          "label": "FY2024 Form 10-K, share class rights",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "label": "FY2025 Form 10-K, share class rights",
           "quote": "The holders of our Class A and Class B common stock (together, \"common stock\") have identical liquidation and dividend rights but different voting rights."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 2931,
-    "asOf": "2024-12-31",
+    "count": 2533,
+    "asOf": "2025-12-31",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of December 31, 2024, there were 2,931 stockholders of record of our Class A common stock, and the closing price of our Class A common stock was $585.51 per share as reported on the Nasdaq Global Select Market."
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of December 31, 2025, there were 2,533 stockholders of record of our Class A common stock, and the closing price of our Class A common stock was $660.09 per share as reported on the Nasdaq Global Select Market."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Meta Platforms Inc;Technology;224313687214;19750530468;0.6%;1.34%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds the listed Class A; the denominator is Class A plus unlisted Class B. Holders of record: Class A only; the 10-K also gives 24 holders of record of Class B.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS holds the listed Class A; the denominator is Class A plus unlisted Class B from the Q3 2026 10-Q cover (October 16, 2026), the same count used in the marketcap lens. Holders of record: Class A only; the 10-K also gives 25 holders of record of Class B at December 31, 2025.",
+  "researchedAt": "2026-11-24"
 }

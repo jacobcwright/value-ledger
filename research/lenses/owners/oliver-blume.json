@@ -2,18 +2,18 @@
   "id": "oliver-blume",
   "company": "Porsche AG",
   "nbim": {
-    "pct": 0.78,
-    "marketValueUSD": 0.427,
-    "asOf": "2024-12-31",
+    "pct": 0.71,
+    "marketValueUSD": 0.322,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"5t919a5yynwy\",\"cc\":\"DE\",\"n\":\"Dr Ing hc F Porsche AG\",\"a\":{\"e\":427338478,\"n\":4853432663},\"at\":0,\"o\":0.78,\"eq\":{\"vid\":\"P911\",\"v\":0,\"s\":\"Consumer Discretionary\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"5t919a5yynwy\",\"cc\":\"DE\",\"n\":\"Dr Ing hc F Porsche AG\",\"a\":{\"e\":321882921,\"n\":3185192449},\"at\":0,\"o\":0.71,\"eq\":{\"vid\":\"P911\",\"v\":0,\"s\":\"Consumer Discretionary\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": null,
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Europe;Germany;Dr Ing hc F Porsche AG;Consumer Discretionary;4853432663;427338478;0%;0.78%\". NBIM: Matched to Dr Ing hc F Porsche AG (P911), not Porsche Automobil Holding SE. CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Porsche AG. Holders of record: Porsche AG's capital is no-par bearer shares (2024 annual and sustainability report). The report gives shareholder composition by percentage only, with no count of holders.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). Voting % is 0 because NBIM holds only the listed nonvoting preferred shares. Matched to Dr Ing hc F Porsche AG (P911), not Porsche Automobil Holding SE, which has its own row. CalPERS: its Form 13F information table for the quarter ended September 30, 2026 (https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml) has no Porsche row; Form 13F covers only U.S.-listed securities and Porsche AG has none. Holders of record: Porsche AG's capital is no-par bearer shares (Annual and Sustainability Report 2025), and the report gives shareholder composition by percentage only, with no count of holders.",
+  "researchedAt": "2026-11-24"
 }

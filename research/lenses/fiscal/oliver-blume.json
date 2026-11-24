@@ -1,32 +1,32 @@
 {
   "id": "oliver-blume",
   "company": "Dr. Ing. h.c. F. Porsche AG",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "EUR",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 1.45,
+      "value": 0.32,
       "source": {
         "hostType": "company",
-        "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
-        "label": "Annual and Sustainability Report 2024, consolidated financial statements, consolidated statement of cash flows",
-        "quote": "Income taxes paid –1,454 –2,190 [€ million, 2024 and 2023]"
+        "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2025/q4/annual-and-sustainability-report-2025-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+        "label": "Annual and Sustainability Report 2025, consolidated financial statements, consolidated statement of cash flows",
+        "quote": "Income taxes paid –317 –1,454 [€ million, 2025 and 2024]"
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 2.03,
+      "value": 3.15,
       "source": {
         "hostType": "company",
-        "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
-        "label": "Annual and Sustainability Report 2024, notes to the consolidated financial statements, note 13 Intangible assets",
-        "quote": "Research and development costs recognized in the income statement 2,033 1,712 18.8 [€ million, 2024, 2023, % change]"
+        "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2025/q4/annual-and-sustainability-report-2025-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+        "label": "Annual and Sustainability Report 2025, notes to the consolidated financial statements, note 2 Cost of sales",
+        "quote": "In the fiscal year 2025, research and development costs in the Porsche AG Group recognized through profit or loss amounted to €3,146 million (2024: €2,033 million)."
       }
     }
   },
-  "notes": "R&D: amount recognised in the income statement (€2,033m = total R&D costs €2,515m less capitalised development €1,583m plus amortisation of capitalised development €1,101m), not total R&D spend.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. R&D: the amount recognised through profit or loss (€3,146m), which includes amortisation and impairment of capitalised development costs and excludes the €963m capitalised in 2025, so it is not total R&D spend; it rose from €2,033m mainly on impairments tied to the product-strategy realignment (automotive amortisation of capitalised development costs €1,830m vs €1,101m). Taxes: income taxes paid in operating cash flow (€317m).",
+  "researchedAt": "2026-11-24"
 }

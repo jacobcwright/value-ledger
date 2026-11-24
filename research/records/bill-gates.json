@@ -1,13 +1,13 @@
 {
   "id": "bill-gates",
   "company": "Microsoft",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-06-30",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-06-30",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2024-09-30",
+    "asOf": "2026-09-30",
     "leader": {
       "name": "Bill Gates",
       "relation": "co-founder",
@@ -19,22 +19,22 @@
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242883/d858775ddef14a.htm",
-        "label": "2024 proxy statement (DEF 14A), Principal Shareholders and Stock Ownership Information",
-        "quote": "Principal Shareholders This table lists all entities that are the beneficial owner of more than 5% of Microsoft common stock. ... Stock Ownership Information As of September 30, 2024, this table describes the number of shares of our common stock beneficially owned ... by each director, director nominee, Named Executive, and all directors and executive officers as a group"
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427849/d61756ddef14a.htm",
+        "label": "2026 proxy statement (DEF 14A), Principal Shareholders and Stock Ownership Information",
+        "quote": "Principal Shareholders This table lists all entities that are the beneficial owner of more than 5% of Microsoft common stock. ... Stock Ownership Information As of September 30, 2026, this table describes the number of shares of our common stock beneficially owned, and the additional underlying shares or stock units held, by each director, director nominee, Named Executive, and all directors and executive officers as a group"
       }
     },
     "largestHolders": [
       {
-        "name": "The Vanguard Group, Inc.",
+        "name": "Vanguard Capital Management LLC",
         "type": "asset-manager",
-        "pctEconomic": 8.95,
+        "pctEconomic": 7.48,
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242883/d858775ddef14a.htm",
-          "label": "2024 proxy statement (DEF 14A), Principal Shareholders (p. 66)",
-          "quote": "The Vanguard Group, Inc. 100 Vanguard Blvd., Malvern, PA 19355 664,882,153¹ 8.95% ... (1) All information about The Vanguard Group, Inc. is based on a Schedule 13G/A filed with the SEC on February 13, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427849/d61756ddef14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Principal Shareholders (p. 61)",
+          "quote": "Vanguard Capital Management LLC 100 Vanguard Blvd., Malvern, PA 19355 555,988,240¹ 7.48% ... (1) All information about Vanguard Capital Management LLC is based on a Schedule 13G filed with the SEC on April 30, 2026."
         }
       },
       {
@@ -44,57 +44,72 @@
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242883/d858775ddef14a.htm",
-          "label": "2024 proxy statement (DEF 14A), Principal Shareholders (p. 66)",
-          "quote": "BlackRock, Inc. 50 Hudson Yards, New York, NY 10001 540,020,228² 7.30% ... (2) All information about BlackRock, Inc. is based on a Schedule 13G/A filed with the SEC on February 13, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427849/d61756ddef14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Principal Shareholders (p. 61)",
+          "quote": "BlackRock, Inc. 50 Hudson Yards, New York, NY 10001 540,020,228² 7.30% (1) ... (2) All information about BlackRock, Inc. is based on a Schedule 13G/A filed with the SEC on February 13, 2024."
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock. The proxy's 5% table lists only The Vanguard Group (8.95%) and BlackRock (7.30%); no individual or family is listed above 5%."
+      "note": "One class of common stock. The 2026 proxy's 5% table lists only Vanguard Capital Management LLC (7.48%) and BlackRock (7.30%); no individual or family is listed above 5%."
     }
   },
   "cash": {
     "dividends": {
-      "value": 21.77,
+      "value": 26.45,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-        "label": "FY2024 Form 10-K, cash flows statements",
-        "quote": "Common stock cash dividends paid (21,771) (19,800) (18,135) [In millions, Year Ended June 30, 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000789019", "concept": "us-gaap:PaymentsOfDividendsCommonStock", "end": "2024-06-30", "value": 21771000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "label": "FY2026 Form 10-K, cash flows statements",
+        "quote": "Common stock cash dividends paid (26,445 ) (24,082 ) (21,771 ) [In millions, Year Ended June 30, 2026, 2025, 2024]",
+        "xbrl": {
+          "cik": "0000789019",
+          "concept": "us-gaap:PaymentsOfDividendsCommonStock",
+          "end": "2026-06-30",
+          "value": 26445000000
+        }
       }
     },
     "buybacks": {
-      "value": 17.25,
+      "value": 22.27,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-        "label": "FY2024 Form 10-K, cash flows statements",
-        "quote": "Common stock repurchased (17,254) (22,245) (32,696) [In millions, Year Ended June 30, 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000789019", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-06-30", "value": 17254000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "label": "FY2026 Form 10-K, cash flows statements",
+        "quote": "Common stock repurchased (22,271 ) (18,420 ) (17,254 ) [In millions, Year Ended June 30, 2026, 2025, 2024]",
+        "xbrl": {
+          "cik": "0000789019",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2026-06-30",
+          "value": 22271000000
+        }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 10.73,
+      "value": 12.41,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-        "label": "FY2024 Form 10-K, cash flows statements",
-        "quote": "Stock-based compensation expense 10,734 9,611 7,502 [In millions, Year Ended June 30, 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000789019", "concept": "us-gaap:ShareBasedCompensation", "end": "2024-06-30", "value": 10734000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "label": "FY2026 Form 10-K, cash flows statements",
+        "quote": "Stock-based compensation expense 12,405 11,974 10,734 Net recognized losses (gains) on investments and derivatives [In millions, Year Ended June 30, 2026, 2025, 2024]",
+        "xbrl": {
+          "cik": "0000789019",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2026-06-30",
+          "value": 12405000000
+        }
       }
     },
     "plan": {
       "text": "All eligible employees can buy Microsoft shares through an employee stock purchase plan at 90% of the market price.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-        "label": "FY2024 Form 10-K, Note 18 Employee Stock and Savings Plans",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "label": "FY2026 Form 10-K, Note 18 Employee Stock and Savings Plans",
         "quote": "Employee Stock Purchase Plan We have an ESPP for all eligible employees. Shares of our common stock may be purchased by employees at three-month intervals at 90% of the fair market value on the last trading day of each three-month period."
       }
     }
@@ -102,17 +117,23 @@
   "geography": {
     "basis": "Revenue, classified by the major geographic areas in which our customers were located",
     "segments": [
-      { "name": "United States", "value": 124.7 },
-      { "name": "Other countries", "value": 120.42 }
+      {
+        "name": "United States",
+        "value": 170.79
+      },
+      {
+        "name": "Other countries",
+        "value": 161.05
+      }
     ],
-    "total": 245.12,
+    "total": 331.84,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-      "label": "FY2024 Form 10-K, Note 19 Segment Information and Geographic Data",
-      "quote": "Revenue, classified by the major geographic areas in which our customers were located, was as follows: (In millions) Year Ended June 30, 2024 ... United States (a) $ 124,704 ... Other countries 120,418 ... Total $ 245,122"
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "label": "FY2026 Form 10-K, Note 19 Segment Information and Geographic Data",
+      "quote": "Revenue, classified by the major geographic areas in which our customers were located, was as follows: (In millions) Year Ended June 30, 2026 2025 2024 United States (a) $ 170,794 $ 144,546 $ 124,704 Other countries 161,045 137,178 120,418 Total $ 331,839"
     }
   },
-  "notes": "Fiscal year ended June 30, 2024 (matches data.js fy 'Jun 2024'). Financial figures are from the FY2024 Form 10-K (accession 0000950170-24-087843) and checked against SEC XBRL. OWNERSHIP: the proxy published after that fiscal year (DEF 14A filed October 24, 2024, accession 0001193125-24-242883) lists beneficial ownership only for current directors, nominees and named executives, plus holders above 5%. Bill Gates is in neither table (he is not a director or named executive), so his stake is not reported in the company's filings: status no-reported-stake, values null. Nothing is filled from other sources. The two 5% holders' percentages are the proxy's 'Percent of Class to be Voted During the Meeting', based on Schedule 13G/A filings dated February 13, 2024; the proxy gives the filing date but not the date those holdings refer to, so asOf is null. Directors and executive officers as a group held 2,330,484 shares (less than 1%). BUYBACKS: the $17,254 million cash-flow line includes about $5.3 billion of shares repurchased to settle employee tax withholding on vesting stock awards; the 10-K's repurchase-program table, which excludes those, totals $11,960 million for fiscal 2024. GEOGRAPHY: 'United States' includes billings to OEMs and certain multinational organizations (10-K footnote a).",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended June 30, 2026 (data.js fy 'Jun 2026'); this edition skips FY2025. Financial figures are from the FY2026 Form 10-K (accession 0001193125-26-323660, filed July 29, 2026) and match SEC XBRL. OWNERSHIP: the proxy published after that fiscal year (DEF 14A filed October 21, 2026, accession 0001193125-26-427849, for the December 8, 2026 annual meeting) lists beneficial ownership only for current directors, nominees and named executives (as of September 30, 2026), plus holders above 5%. Bill Gates is in neither table (he is not a director or named executive), so his stake is not reported in the company's filings: status no-reported-stake, values null. Nothing is filled from other sources. The two 5% holders' percentages are the proxy's 'Percent of Class to be Voted During the Meeting'. Vanguard is now reported as Vanguard Capital Management LLC (Schedule 13G filed April 30, 2026); BlackRock's figure still rests on a Schedule 13G/A filed February 13, 2024, so it is stale. The proxy gives filing dates, not the dates the holdings refer to, so asOf is null. BUYBACKS: the $22,271 million cash-flow line includes shares repurchased to settle employee tax withholding on vesting stock awards; the 10-K's repurchase-program table, which excludes those, totals $16,719 million (36 million shares) for fiscal 2026. GEOGRAPHY: 'United States' includes billings to OEMs and certain multinational organizations (10-K footnote a).",
+  "researchedAt": "2026-11-24"
 }

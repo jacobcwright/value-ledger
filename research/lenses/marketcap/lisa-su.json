@@ -1,0 +1,22 @@
+{
+  "id": "lisa-su",
+  "company": "AMD",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 1640087251,
+      "sharesAsOf": "2026-10-28",
+      "pricedAs": "AMD",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+        "label": "Form 10-Q for the quarter ended September 26, 2026, cover page",
+        "quote": "Number of shares outstanding of the registrant's common stock, $0.01 par value per share, as of October 28, 2026: 1,640,087,251"
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as AMD. The count is from the cover page of the Form 10-Q for the quarter ended September 26, 2026 (filed November 4, 2026), newer than the FY2025 10-K cover (1,630,410,843 shares at January 30, 2026).",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "elon-musk",
+  "company": "Tesla",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 134785,
+    "asOf": "2025-12-31",
+    "basis": "employee headcount worldwide",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital Resources",
+      "quote": "As of December 31, 2025, our employee headcount worldwide was 134,785."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "median 2025 annual total compensation of all other qualifying employees",
+    "value": 62786,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm",
+      "label": "2026 proxy statement (DEF 14A), 2025 Pay Ratio Disclosure",
+      "quote": "the median 2025 annual total compensation of all other qualifying employees, as determined pursuant to the methodology set forth below, was $62,786."
+    }
+  },
+  "notes": "Employees: worldwide headcount at December 31, 2025 from the FY2025 10-K. Payroll: the 10-K gives no total of salaries and benefits, so the CEO pay ratio disclosure's median employee pay for 2025 (identified as of December 31, 2025) is used.",
+  "researchedAt": "2026-11-24"
+}

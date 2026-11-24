@@ -1,0 +1,31 @@
+{
+  "id": "ajay-banga",
+  "company": "Mastercard",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 39800,
+    "asOf": "2025-12-31",
+    "basis": "approximately 39,800 persons employed globally",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Our People",
+      "quote": "As of December 31, 2025, we employed approximately 39,800 persons globally, of which approximately 70% were employed outside of the U.S. in more than 90 countries."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Personnel (general and administrative expenses)",
+    "value": 7.251,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "label": "FY2025 Form 10-K, MD&A, general and administrative expenses table ($ in millions)",
+      "quote": "Personnel $ 7,251 $ 6,673 $ 6,022 9% 11% [2025, 2024, 2023]"
+    }
+  },
+  "notes": "Employees: approximate year-end count from the FY2025 10-K; the 10-K says the employee base is predominantly full-time and that Mastercard also had about 6,000 contingent workers, who are not counted. Payroll: the Personnel line of general and administrative expenses in the MD&A. The 10-K's human-capital section separately states \"The total cost of our workforce for the year ended December 31, 2025 was $7.3 billion, which primarily consists of compensation, benefits and other personnel-related costs.\" The 2026 proxy reports a 2025 median employee annual total compensation of $124,650 (CEO pay ratio 284 to 1), not used because a total is disclosed.",
+  "researchedAt": "2026-11-24"
+}

@@ -1,130 +1,130 @@
 {
  "id": "bill-gates",
  "company": "Microsoft",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-06-30",
+ "fiscalYear": "FY2026",
+ "fiscalYearEnd": "2026-06-30",
  "currency": "USD",
  "unit": "billions",
  "sector": "tech",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 245.122,
-   "stated": 245122,
+   "value": 331.839,
+   "stated": 331839,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
-    "quote": "Total revenue 245,122 211,915 198,270",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+    "label": "FY2026 Form 10-K, consolidated income statements (in millions)",
+    "quote": "Total revenue 331,839 281,724 245,122",
     "xbrl": {
      "cik": "0000789019",
      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-     "end": "2024-06-30",
-     "value": 245122000000
+     "end": "2026-06-30",
+     "value": 331839000000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 118.548,
-   "stated": 118548,
+   "value": 182.935,
+   "stated": 182935,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Net cash from operations 118,548 87,582 89,035",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+    "label": "FY2026 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Net cash from operations 182,935 136,162 118,548",
     "xbrl": {
      "cik": "0000789019",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-06-30",
-     "value": 118548000000
+     "end": "2026-06-30",
+     "value": 182935000000
     }
    }
   },
   "capex": {
-   "value": 44.477,
+   "value": 115.948,
    "components": [
-    "PP&E 44.477"
+    "PP&E 115.948"
    ],
-   "stated": 44477,
+   "stated": 115948,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Additions to property and equipment ( 44,477 ) ( 28,107 ) ( 23,886 )",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+    "label": "FY2026 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Additions to property and equipment (115,948 ) (64,551 ) (44,477 )",
     "xbrl": {
      "cik": "0000789019",
      "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-     "end": "2024-06-30",
-     "value": 44477000000
+     "end": "2026-06-30",
+     "value": 115948000000
     }
    },
    "excluded": {
-    "value": 69.132,
-    "stated": 69132,
+    "value": 1.743,
+    "stated": 1743,
     "source": {
      "hostType": "sec",
-     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-     "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-     "quote": "Acquisition of companies, net of cash acquired, and purchases of intangible and other assets ( 69,132 ) ( 1,670 ) ( 22,038 )"
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+     "label": "FY2026 Form 10-K, consolidated statement of cash flows (in millions)",
+     "quote": "Acquisition of companies, net of cash acquired and divestitures, and purchases of intangible and other assets (1,743 ) (5,978 ) (69,132 )"
     }
    }
   },
   "interestPaid": {
-   "value": 1.7,
-   "stated": 1.7,
+   "value": 1.5,
+   "stated": 1.5,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-    "label": "FY2024 Form 10-K, notes to the consolidated financial statements",
-    "quote": "Cash paid for interest on our debt for fiscal years 2024, 2023, and 2022 was $ 1.7 billion, $ 1.7 billion, and $ 1.9 billion, respectively",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+    "label": "FY2026 Form 10-K, Note 11 Debt",
+    "quote": "Cash paid for interest on our debt for fiscal years 2026, 2025, and 2024 was $1.5 billion, $1.6 billion, and $1.7 billion, respectively.",
     "xbrl": {
      "cik": "0000789019",
      "concept": "us-gaap:InterestPaid",
-     "end": "2024-06-30",
-     "value": 1700000000
+     "end": "2026-06-30",
+     "value": 1500000000
     }
    }
   },
   "taxesPaid": {
-   "value": 23.4,
-   "stated": 23.4,
+   "value": 21.188,
+   "stated": 21188,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-    "label": "FY2024 Form 10-K, notes to the consolidated financial statements",
-    "quote": "Income taxes paid, net of refunds, were $ 23.4 billion, $ 23.1 billion, and $ 16.0 billion in fiscal years 2024, 2023, and 2022, respectively",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+    "label": "FY2026 Form 10-K, Note 12 Income Taxes, income taxes paid by jurisdiction (in millions)",
+    "quote": "Income taxes paid, net of refunds, pursuant to the disclosure requirements of ASU 2023-09 in fiscal year 2026 were as follows: (In millions) Year Ended June 30 2026 U.S. federal $ 6,246 U.S. state and local 2,917 Foreign Ireland 6,495 Other 5,530 Income taxes paid, net of refunds $ 21,188",
     "xbrl": {
      "cik": "0000789019",
      "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-06-30",
-     "value": 23400000000
+     "end": "2026-06-30",
+     "value": 21188000000
     }
    }
   },
   "interestDividendsReceived": {
-   "value": 3.157,
-   "stated": 3157,
+   "value": 3.301,
+   "stated": 3301,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-    "label": "FY2024 Form 10-K, management's discussion and analysis (in millions)",
-    "quote": "Interest and dividends income $ 3,157 $ 2,994"
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+    "label": "FY2026 Form 10-K, management's discussion and analysis, other income (expense), net (in millions)",
+    "quote": "Interest and dividends income $ 3,301 $ 2,647"
    },
    "derivation": "interest and dividends income from MD&A, used to size the bias as the pilot did for Shopify"
   }
  },
- "paidOut": 171.051,
- "paidOutFormula": "revenue 245,122 − operating cash flow 118,548 + capex 44,477 (USD millions, as stated)",
+ "paidOut": 264.852,
+ "paidOutFormula": "revenue 331,839 − operating cash flow 182,935 + capex 115,948 (USD millions, as stated)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
   "financeReceivablesInOCF": false,
-  "interestDividendsReceivedInOCF": 3.157,
+  "interestDividendsReceivedInOCF": 3.301,
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Fiscal year ended June 30, 2024. Intangible-asset purchases are reported only combined with acquisitions of companies (69,132), so they cannot be split out and are excluded with the acquisitions; capex is PP&E additions only, which slightly understates paidOut.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended June 30, 2026 (FY2026 Form 10-K, accession 0001193125-26-323660). Intangible-asset purchases are reported only combined with acquisitions of companies and divestitures (1,743), so they cannot be split out and are excluded with the acquisitions; capex is PP&E additions only, which slightly understates paidOut. Income taxes paid now sit in the income-tax note's ASU 2023-09 table by jurisdiction.",
+ "researchedAt": "2026-11-24"
 }

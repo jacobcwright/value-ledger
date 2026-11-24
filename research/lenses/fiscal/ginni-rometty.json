@@ -1,44 +1,44 @@
 {
   "id": "ginni-rometty",
   "company": "IBM",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 1.72,
+      "value": 1.95,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Income taxes paid—net of refunds received $ 1,723 $ 1,564 $ 1,865 Interest paid on debt [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
+        "label": "FY2025 Annual Report (Exhibit 13 to Form 10-K), supplemental cash-flow data and Note G Taxes, income taxes paid by jurisdiction",
+        "quote": "Income taxes paid-net of refunds received $ 1,948 $ 1,723 $ 1,564 Interest paid on debt [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000051143",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 1723000000
+          "end": "2025-12-31",
+          "value": 1948000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 7.48,
+      "value": 8.32,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research, development and engineering 7,479 6,775 6,567 Intellectual property and custom [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
+        "label": "FY2025 Annual Report (Exhibit 13 to Form 10-K), consolidated income statement, research and development expense",
+        "quote": "Research and development 8,316 7,479 6,775 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000051143",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 7479000000
+          "end": "2025-12-31",
+          "value": 8316000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented. R&D line is IBM's 'Research, development and engineering'.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented; the tax note's new by-jurisdiction table (U.S. federal 218, U.S. state and local 92, non-U.S. the rest) totals the same 1,948 million. R&D: the income statement line 'Research and development' (IBM renamed it from 'Research, development and engineering').",
+  "researchedAt": "2026-11-24"
 }

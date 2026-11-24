@@ -81,6 +81,9 @@ You are moving a set of companies in "Value for Humanity: The Business 100" from
 - **NBIM:** some companies also have a bond row under the same name. Use the equity row (it has an `eq` object). CalPERS issuer names can change (e.g. "BANK OF AMER CORP").
 - **Quote self-check:** `node scripts/tools/qcheck.mjs <urlmap.json> <your json files…>` runs verify-quotes' matching against your local copies (urlmap: `{"<url>": "/abs/path/to/local/file"}`) without touching shared files.
 - **grep:** the local `grep` is ugrep and fails on long context patterns. Use `grep -F` with short strings, or node/python.
+- **Stale share counts (pilot 2):** a 20-F or annual-report cover count can be badly out of date after a tender offer, buyback or split. Toyota's was about 11% too high. Before using it, check subsequent events and the latest interim or semi-annual report. Recent splits: Netflix 10-for-1 (Nov 2025), CrowdStrike 4-for-1 (Jul 2026), DuPont 1-for-3 reverse (Jun 2026), SoftBank 4-for-1 (Jan 2026), and BYD's bonus issue (Jun 2025). AstraZeneca's U.S. line is now NYSE ordinary shares, not ADSs.
+- **`computedFrom`:** when no document states the count you need (e.g. shares excluding treasury), use `"computedFrom": [{"label": "...", "value": <number>, "source": {...}}, …]` in place of `source`. Each part is quoted, and subtracted parts carry a negative `value`. The parts must add up to `shares` (or `value`). Say how in `notes`.
+- **Thin XBRL for some IFRS 20-F filers:** Toyota's new-year facts are missing from companyfacts, so `--xbrl` checks 0 facts. Read the 20-F itself and drop or refresh `xbrl` objects so they match the new year.
 - **Pace:** the pilot took about 3 minutes per SEC company once its tools were in place.
 
 Rewrite every `notes` field so it describes the new year. Remove statements that were true only of the old year, and set `researchedAt` to today. Keep each file's shape. Don't add keys the schemas don't list.
@@ -106,3 +109,17 @@ For each company:
 - anything left null, with the reason;
 - judgment calls;
 - **roster facts**: whether the leader's role, status or the company's identity changed (rename, merger, delisting, split), as stated in the filings.
+
+## Footprint wave (separate agents; only `research/lenses/footprint/<id>.json`)
+`research/FOOTPRINT.md` is the binding spec. Its one changed rule is the period: use the newest edition, no longer "FY2024".
+- **Filing-tier metrics** (10-K Item 2 property tables, annual-report employees by country, stores by state or country): re-read them from the new annual report named in `dist/data.js` `fy` (the prefill `annual` URL for SEC filers). Then update `period`, every affected row and its `source`.
+- **Company-published or company-commissioned metrics** (impact reports, state fact sheets, tax-contribution reports): replace them only if the company has published a newer edition than the one cited. Check the company's site for the newest one. If none exists, keep the rows and say "no newer edition found (checked <date>)" in `notes`.
+- **Regulator metrics** (e.g. FDIC deposits by state for banks): use the newest release. The FDIC Summary of Deposits as of June 30, 2026 is out.
+- **Sites:** keep them unless the company has closed or replaced the site, or the cited page is gone. Fix a dead link with the company's current page for the same site.
+- Don't add new kinds of data. This wave updates what exists, plus a state map only where a company has newly published state-by-state data.
+- Validate: `node scripts/validate-footprint.mjs <ids…>` and `node scripts/check-values.mjs 2>&1 | grep -E "footprint/(<id1>|<id2>…)"`. Self-check quotes with `scripts/tools/qcheck.mjs`.
+- SEC pacing for this wave: at least 3 seconds between SEC requests, because 20 agents are running.
+- Report per company:
+  - which metrics moved to which period;
+  - which reports had no newer edition;
+  - any rows you removed, and why.

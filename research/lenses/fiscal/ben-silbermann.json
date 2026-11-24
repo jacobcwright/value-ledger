@@ -1,44 +1,44 @@
 {
   "id": "ben-silbermann",
   "company": "Pinterest",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.03,
+      "value": 0.02,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes, net $ 25,018 $ 19,173 $ 10,008 Non-cash investing [USD thousands; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000021/pins-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash-flow information",
+        "quote": "Supplemental cash flow information Cash paid for income taxes, net $ 22,376 $ 25,018 $ 19,173 [USD thousands; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001506293",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 25018000
+          "end": "2025-12-31",
+          "value": 22376000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 1.24,
+      "value": 1.43,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 1,240,564 1,068,416 948,980 Sales and marketing 1,011,772 911,166 [USD thousands; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000021/pins-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations",
+        "quote": "Research and development 1,427,447 1,240,564 1,068,416 Sales and marketing 1,166,705 [USD thousands; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001506293",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 1240564000
+          "end": "2025-12-31",
+          "value": 1427447000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, as presented in the supplemental cash-flow information.",
+  "researchedAt": "2026-11-24"
 }

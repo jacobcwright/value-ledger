@@ -1,0 +1,36 @@
+{
+  "id": "oliver-blume",
+  "company": "Dr. Ing. h.c. F. Porsche AG",
+  "classes": [
+    {
+      "label": "Preferred shares (nonvoting, listed)",
+      "shares": 455500000,
+      "sharesAsOf": "2026-06-30",
+      "pricedAs": "P911.DE",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "company",
+        "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2026/q2/half-year-financial-report-2026-en.pdf",
+        "label": "Half-Year Financial Report 2026 (six months ended June 30, 2026), notes, 8. Equity",
+        "quote": "Porsche AG’s subscribed capital amounts to €911 million and is divided into 455,500,000 no-par value ordinary shares and 455,500,000 no-par value preferred shares."
+      }
+    },
+    {
+      "label": "Ordinary shares (voting, unlisted)",
+      "shares": 455500000,
+      "sharesAsOf": "2026-06-30",
+      "pricedAs": "P911.DE",
+      "perListedUnit": 1,
+      "pricedAsReason": "The ordinary shares are not listed (Annual and Sustainability Report 2025: '455.5 million are unlisted ordinary shares and 455.5 million are listed nonvoting preferred shares') and are all held by Volkswagen AG and Porsche SE, so they are priced through the preferred line; the two classes have the same €1 interest in share capital and differ only by voting rights and a €0.01 higher dividend on the preferred share. They do not convert.",
+      "source": {
+        "hostType": "company",
+        "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2026/q2/half-year-financial-report-2026-en.pdf",
+        "label": "Half-Year Financial Report 2026 (six months ended June 30, 2026), notes, 8. Equity",
+        "quote": "Porsche AG’s subscribed capital amounts to €911 million and is divided into 455,500,000 no-par value ordinary shares and 455,500,000 no-par value preferred shares."
+      }
+    }
+  ],
+  "notes": "Both classes are counted. Porsche's preferred shares (Vorzugsaktien) are not fixed-claim preferred stock: they share in profits like ordinary shares, carry 'the right to an additional dividend that is €0.01 higher than the ordinary shares, but are non-voting' (Half-Year Financial Report 2026), and each class is half of the €911 million share capital, so the brief's rule to leave out preferred stock is read as not applying. The preferred shares trade on the Frankfurt Stock Exchange (Xetra symbol P911, Yahoo P911.DE, EUR); there is no ADR. Pricing the controlling ordinary block at the nonvoting preferred price is a judgment call: no market price exists for it. The count is from the latest report with a share count, the Half-Year Financial Report 2026 (June 30, 2026); the Q3 2026 quarterly statement gives none, and the count has been 455,500,000 of each class since the 2022 IPO, with no treasury shares.",
+  "researchedAt": "2026-11-24"
+}

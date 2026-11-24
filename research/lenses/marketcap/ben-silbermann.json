@@ -1,0 +1,36 @@
+{
+  "id": "ben-silbermann",
+  "company": "Pinterest",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 500526454,
+      "sharesAsOf": "2026-10-23",
+      "pricedAs": "PINS",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000153/pins-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 23, 2026, there were 500,526,454 shares of the Registrant's Class A common stock, $.00001 par value per share, outstanding, and 72,981,386 shares of the Registrant's Class B common stock outstanding."
+      }
+    },
+    {
+      "label": "Class B common stock",
+      "shares": 72981386,
+      "sharesAsOf": "2026-10-23",
+      "pricedAs": "PINS",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B has no public trading market (FY2025 10-K: \"There is no public trading market for our Class B common stock\"); it has identical economic rights to Class A (\"identical rights except with respect to voting, conversion and transfer rights and therefore share equally in our net income or losses\") and converts into Class A on most transfers, so it is priced through the listed Class A line.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000153/pins-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 23, 2026, there were 500,526,454 shares of the Registrant's Class A common stock, $.00001 par value per share, outstanding, and 72,981,386 shares of the Registrant's Class B common stock outstanding."
+      }
+    }
+  ],
+  "notes": "Class A is listed on the NYSE as PINS. Class B is unlisted. The filings searched (FY2025 10-K, Q3 2026 10-Q, 2026 proxy) do not state the conversion ratio in words; pricing Class B at one Class A share rests on the equal per-share rights and on the diluted EPS calculation, which 'assumes the conversion of our Class B common stock to Class A common stock'. No preferred stock is outstanding. The Class A count is lower than at the 10-K cover date because of the March 2026 accelerated share repurchase.",
+  "researchedAt": "2026-11-24"
+}

@@ -1,13 +1,13 @@
 {
   "id": "brian-l-roberts",
   "company": "Comcast",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-02-28",
+    "asOf": "2026-01-23",
     "leader": {
       "name": "Brian L. Roberts",
       "relation": "ceo",
@@ -16,48 +16,48 @@
       "pctVoting": 33.33,
       "shares": null,
       "sharesByClass": {
-        "classA": 31639412,
+        "classA": 30897450,
         "classAPct": null,
         "classB": 9444375,
         "classBPct": 100
       },
       "derived": {
-        "pctEconomic": 1.1,
-        "method": "(31,639,412 Class A beneficially owned + 9,444,375 Class B) / (3,729,400,000 Class A + 9,444,375 Class B outstanding at the April 8, 2025 record date) = 1.10%. Computed, not stated in the filing. Caveats: his holdings are as of February 28, 2025 while the share counts are as of April 8, 2025; his Class A figure includes 6,726,161 shares under options exercisable within 60 days and 392,106 shares under stock units vesting within 60 days, which are not in the outstanding count; and it includes shares owned by his spouse, a family charitable foundation and family trusts. Cross-check: proxy footnote 8 says that if he converted his Class B into Class A 'he would beneficially own approximately 1% of the Class A common stock.'",
+        "pctEconomic": 1.13,
+        "method": "(30,897,450 Class A beneficially owned + 9,444,375 Class B) / (3,564,377,095 Class A + 9,444,375 Class B outstanding at the April 8, 2026 record date) = 1.13%. Computed, not stated in the filing. Caveats: his holdings are as of January 23, 2026 while the share counts are as of April 8, 2026; his Class A figure includes 7,124,993 shares under options exercisable within 60 days and 563,317 shares under stock units vesting within 60 days, which are not in the outstanding count; and it includes shares owned by his spouse, a family charitable foundation and family trusts. Cross-check: proxy footnote 7 says that if he converted his Class B into Class A 'he would beneficially own approximately 1% of the Class A common stock.'",
         "inputs": [
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1166691/000130817925000504/cmcsa012438-def14a.htm",
-            "label": "2025 proxy statement, Security Ownership of Directors and Executive Officers (as of February 28, 2025)",
-            "quote": "Brian L. Roberts 31,639,412 (8) 9,444,375 (9) * 100 % ... if he were to convert the Class B common stock into Class A common stock, he would beneficially own approximately 1% of the Class A common stock."
+            "url": "https://www.sec.gov/Archives/edgar/data/1166691/000119312526177138/cmcsa-20260424.htm",
+            "label": "2026 proxy statement (DEF 14A), Security Ownership of Directors and Executive Officers (as of January 23, 2026)",
+            "quote": "Brian L. Roberts 30,897,450 (7) 9,444,375 (8) * 100 % ... if he were to convert the Class B common stock into Class A common stock, he would beneficially own approximately 1% of the Class A common stock."
           },
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1166691/000130817925000504/cmcsa012438-def14a.htm",
-            "label": "2025 proxy statement, Outstanding Shares and Voting Rights",
-            "quote": "At the close of business on April 8, 2025, the record date, we had outstanding 3,729,400,000 shares of Class A common stock and 9,444,375 shares of Class B common stock."
+            "url": "https://www.sec.gov/Archives/edgar/data/1166691/000119312526177138/cmcsa-20260424.htm",
+            "label": "2026 proxy statement (DEF 14A), Outstanding Shares and Voting Rights",
+            "quote": "At the close of business on April 8, 2026, the record date, we had outstanding 3,564,377,095 shares of Class A common stock and 9,444,375 shares of Class B common stock."
           }
         ]
       },
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000130817925000504/cmcsa012438-def14a.htm",
-        "label": "2025 proxy statement, Principal Shareholders (footnote 3)",
-        "quote": "Class B common stock Brian L. Roberts ... 9,444,375 (3) 100% ... The shares of Class B common stock beneficially owned by Mr. Roberts represent 33 1/3% of the combined voting power of the two classes of our voting common stock, which percentage is generally non-dilutable"
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000119312526177138/cmcsa-20260424.htm",
+        "label": "2026 proxy statement (DEF 14A), Principal Shareholders (footnote 4)",
+        "quote": "Class B common stock Brian L. Roberts One Comcast Center, Philadelphia, PA 19103 9,444,375 (4) 100% ... The shares of Class B common stock beneficially owned by Mr. Roberts represent 33 1/3% of the combined voting power of the two classes of our voting common stock, which percentage is generally non-dilutable"
       }
     },
     "largestHolders": [
       {
         "name": "The Vanguard Group",
         "type": "asset-manager",
-        "pctEconomic": 9.4,
-        "asOf": "2023-12-31",
+        "pctEconomic": 10.0,
+        "asOf": "2025-05-30",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1166691/000130817925000504/cmcsa012438-def14a.htm",
-          "label": "2025 proxy statement, Principal Shareholders (footnote 1); percent of Class A",
-          "quote": "Class A common stock The Vanguard Group 100 Vanguard Blvd., Malvern, PA 19355 378,000,220 (1) 9.4% ... based upon a Schedule 13G/A filing with the SEC on February 13, 2024 made by The Vanguard Group setting forth information as of December 31, 2023."
+          "url": "https://www.sec.gov/Archives/edgar/data/1166691/000119312526177138/cmcsa-20260424.htm",
+          "label": "2026 proxy statement (DEF 14A), Principal Shareholders (footnote 1); percent of Class A",
+          "quote": "Class A common stock The Vanguard Group 100 Vanguard Blvd., Malvern, PA 19355 373,581,278 (1) 10.0% ... (1) This information is based upon a Schedule 13G/A filing with the SEC on June 5, 2025 made by The Vanguard Group setting forth information as of May 30, 2025."
         },
         "basis": "class",
         "classLabel": "Class A"
@@ -69,9 +69,23 @@
         "asOf": "2023-12-31",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1166691/000130817925000504/cmcsa012438-def14a.htm",
-          "label": "2025 proxy statement, Principal Shareholders (footnote 2); percent of Class A",
-          "quote": "Class A common stock BlackRock, Inc. 55 East 52nd Street, New York, NY 10055 298,215,422 (2) 7.4% ... based upon a Schedule 13G/A filing with the SEC on February 13, 2024 made by BlackRock, Inc. setting forth information as of December 31, 2023."
+          "url": "https://www.sec.gov/Archives/edgar/data/1166691/000119312526177138/cmcsa-20260424.htm",
+          "label": "2026 proxy statement (DEF 14A), Principal Shareholders (footnote 2); percent of Class A",
+          "quote": "Class A common stock BlackRock, Inc. 55 East 52nd Street, New York, NY 10055 298,215,422 (2) 7.4% ... (2) This information is based upon a Schedule 13G/A filing with the SEC on February 13, 2024 made by BlackRock, Inc. setting forth information as of December 31, 2023."
+        },
+        "basis": "class",
+        "classLabel": "Class A"
+      },
+      {
+        "name": "State Street Corporation",
+        "type": "asset-manager",
+        "pctEconomic": 5.1,
+        "asOf": "2025-12-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1166691/000119312526177138/cmcsa-20260424.htm",
+          "label": "2026 proxy statement (DEF 14A), Principal Shareholders (footnote 3); percent of Class A",
+          "quote": "Class A common stock State Street Corporation One Congress Street, Suite 1, Boston, MA 02114 186,826,370 (3) 5.1% ... (3) This information is based upon a Schedule 13G filing with the SEC on February 9, 2026 made by State Street Corporation setting forth information as of December 31, 2025."
         },
         "basis": "class",
         "classLabel": "Class A"
@@ -80,37 +94,37 @@
     "structure": {
       "dualClass": true,
       "controlled": false,
-      "note": "Two voting classes. Holders of Class A common stock have 66 2/3% of the voting power and holders of Class B common stock have 33 1/3%, which is generally non-dilutable. Each Class B share has 15 votes; at the April 8, 2025 record date each Class A share had 0.07597 votes. Brian L. Roberts beneficially owns all 9,444,375 Class B shares through a limited liability company of which he is the managing member, giving him 33 1/3% of the combined vote. That is below 50%, so the company is not majority-controlled on these figures. Class B is convertible share for share into Class A."
+      "note": "Two voting classes. Holders of Class A common stock have 66 2/3% of the voting power and holders of Class B common stock have 33 1/3%, which is generally non-dilutable. Each Class B share has 15 votes; Brian L. Roberts beneficially owns all 9,444,375 Class B shares through a limited liability company of which he is the managing member, giving him 33 1/3% of the combined vote. That is below 50%, so the company is not majority-controlled on these figures. Class B is convertible share for share into Class A."
     }
   },
   "cash": {
     "dividends": {
-      "value": 4.81,
+      "value": 4.89,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statement of cash flows",
-        "quote": "Dividends paid (4,814) (4,766) (4,741) [in millions, year ended December 31, 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of cash flows",
+        "quote": "Dividends paid ( 4,894 ) ( 4,814 ) ( 4,766 ) [in millions, year ended December 31, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001166691",
           "concept": "us-gaap:PaymentsOfDividends",
-          "end": "2024-12-31",
-          "value": 4814000000
+          "end": "2025-12-31",
+          "value": 4894000000
         }
       }
     },
     "buybacks": {
-      "value": 9.1,
+      "value": 7.16,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statement of cash flows",
-        "quote": "Repurchases of common stock under repurchase program and employee plans (9,103) (11,291) (13,328) [in millions, 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of cash flows",
+        "quote": "Repurchases of common stock under repurchase program and employee plans ( 7,155 ) ( 9,103 ) ( 11,291 ) [in millions, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001166691",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2024-12-31",
-          "value": 9103000000
+          "end": "2025-12-31",
+          "value": 7155000000
         }
       }
     }
@@ -120,13 +134,13 @@
       "value": 1.29,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statement of cash flows",
-        "quote": "Share-based compensation 1,288 1,241 1,336 [in millions, 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of cash flows",
+        "quote": "Share-based compensation 1,288 1,288 1,241 [in millions, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001166691",
           "concept": "us-gaap:ShareBasedCompensation",
-          "end": "2024-12-31",
+          "end": "2025-12-31",
           "value": 1288000000
         }
       }
@@ -135,9 +149,9 @@
       "text": "Most full-time and part-time employees in the United States, United Kingdom, India and several other European countries can buy Comcast stock at a discount through employee stock purchase plans.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1 Human Capital Resources",
-        "quote": "We have employee stock purchase plans in the United States, United Kingdom, India and several other European countries where most of our full-time and part-time employees can purchase our stock at a discount."
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Human Capital Resources",
+        "quote": "We have employee stock purchase plans in the United States, the United Kingdom, India and several other European countries where most of our full-time and part-time employees can purchase our stock at a discount."
       }
     }
   },
@@ -146,25 +160,25 @@
     "segments": [
       {
         "name": "United States",
-        "value": 96.24
+        "value": 95.14
       },
       {
         "name": "United Kingdom",
-        "value": 14.19
+        "value": 15.18
       },
       {
         "name": "Other",
-        "value": 13.3
+        "value": 13.38
       }
     ],
-    "total": 123.73,
+    "total": 123.71,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
-      "label": "FY2024 Form 10-K, Note 3 Revenue",
-      "quote": "The table below summarizes our consolidated revenue from customers in certain geographic locations. ... United States $ 96,237 ... United Kingdom 14,194 ... Other 13,300 ... Total revenue $ 123,731 [in millions, 2024]"
+      "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+      "label": "FY2025 Form 10-K, Note 3 Revenue",
+      "quote": "The table below summarizes our consolidated revenue from customers in certain geographic locations. Year ended December 31 (in millions) 2025 2024 2023 United States $ 95,143 $ 96,237 $ 94,375 United Kingdom 15,182 14,194 13,364 Other 13,382 13,300 13,833 Total revenue $ 123,707 $ 123,731 $ 121,572"
     }
   },
-  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). Ownership is from the 2025 proxy (filed April 25, 2025). ROBERTS: the proxy gives his Class A stake only as '*' (less than 1% of Class A), his Class B as 100% of the class, and 33 1/3% of combined voting power, so pctVoting is 33.33 and the all-shares figure is the documented derived 1.10% (see derived.method). His 31,639,412 Class A shares include 286,044 owned by his spouse, 1,032,645 owned by a family charitable foundation of which his spouse is a trustee, and 16,767,579 owned by certain family trusts. Relation is 'ceo' (data.js role 'Chair and CEO'); the filings read here do not describe him as a founder. HOLDERS: the Vanguard and BlackRock percentages are of Class A common stock, not of all shares; Class B is 9,444,375 shares against 3,729,400,000 Class A at the record date, so the difference is small, but the figures are not recomputed. Both rest on Schedule 13G/A filings reporting holdings as of December 31, 2023, so they are stale. BUYBACKS: the cash-flow line ($9,103m) includes repurchases under employee plans and excise tax; the 10-K says Comcast repurchased 212 million Class A shares for $8.6 billion under its authorization in 2024. STOCK COMP: the cash-flow add-back is $1,288m; Note 12 reports share-based compensation expense of $1,069m. The cash-flow figure is used for consistency with the other records; the note does not reconcile the two.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Financial figures are from the FY2025 Form 10-K (accession 0001628280-26-004994); ownership is from the 2026 proxy (DEF 14A, accession 0001193125-26-177138), beneficial ownership as of January 23, 2026. ROBERTS: the proxy gives his Class A stake only as '*' (less than 1% of Class A), his Class B as 100% of the class, and 33 1/3% of combined voting power, so pctVoting is 33.33 and the all-shares figure is the documented derived 1.13% (see derived.method). His 30,897,450 Class A shares include 286,044 owned by his spouse, 1,333,950 owned by a family charitable foundation of which his spouse is a trustee, and 15,772,421 owned by certain family trusts. Relation is 'ceo': the 2026 proxy is signed by him as 'Chairman and Co-CEO' and says that in early 2026 Comcast 'promoted Mike Cavanagh to Co-CEO' (effective January 2, 2026), so he now shares the CEO role; the filings read here do not describe him as a founder. HOLDERS: the Vanguard, BlackRock and State Street percentages are of Class A common stock, not of all shares; Class B is 9,444,375 shares against 3,564,377,095 Class A at the record date, so the difference is small, but the figures are not recomputed. BlackRock's figure rests on a Schedule 13G/A reporting holdings as of December 31, 2023 and is stale. BUYBACKS: the cash-flow line ($7,155m) includes repurchases under employee plans. STOCK COMP: the cash-flow add-back is $1,288m; Note 13 reports share-based compensation expense of $1,108m. The cash-flow figure is used for consistency with the other records. On January 2, 2026, after the fiscal year, Comcast completed the separation of Versant Media Group (most of its cable networks) into an independent public company (Nasdaq: VSNT); FY2025 figures still include those networks.",
+  "researchedAt": "2026-11-24"
 }

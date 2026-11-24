@@ -1,0 +1,22 @@
+{
+  "id": "ginni-rometty",
+  "company": "IBM",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 945120805,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "IBM",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000095/ibm-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "The registrant had 945,120,805 shares of common stock outstanding at September 30, 2026."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the NYSE as IBM. The Q3 2026 Form 10-Q cover (filed October 22, 2026) is newer than the FY2025 10-K cover (938,034,404 shares at February 10, 2026).",
+  "researchedAt": "2026-11-24"
+}

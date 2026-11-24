@@ -1,114 +1,114 @@
 {
   "id": "mark-zuckerberg",
   "company": "Meta Platforms",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "sector": "tech",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 164.501,
-      "stated": 164501,
+      "value": 200.966,
+      "stated": 200966,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
-        "quote": "Revenue $ 164,501 $ 134,902 $ 116,609 Costs and expenses:",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Revenue $ 200,966 $ 164,501 $ 134,902 Costs and expenses:",
         "xbrl": {
           "cik": "0001326801",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "end": "2024-12-31",
-          "value": 164501000000
+          "end": "2025-12-31",
+          "value": 200966000000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 91.328,
-      "stated": 91328,
+      "value": 115.8,
+      "stated": 115800,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Net cash provided by operating activities 91,328 71,113 50,475",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities 115,800 91,328 71,113",
         "xbrl": {
           "cik": "0001326801",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": 91328000000
+          "end": "2025-12-31",
+          "value": 115800000000
         }
       }
     },
     "capex": {
-      "value": 37.256,
+      "value": 69.691,
       "components": [
-        "PP&E 37.256"
+        "PP&E 69.691"
       ],
-      "stated": 37256,
+      "stated": 69691,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Cash flows from investing activities Purchases of property and equipment ( 37,256 ) ( 27,045 ) ( 31,186 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Cash flows from investing activities Purchases of property and equipment ( 69,691 ) ( 37,256 ) ( 27,045 )",
         "xbrl": {
           "cik": "0001326801",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-12-31",
-          "value": 37256000000
+          "end": "2025-12-31",
+          "value": 69691000000
         }
       },
       "excludes": [
         {
           "name": "acquisitions of businesses and intangible assets (one combined line)",
-          "value": 0.27,
-          "stated": 270,
+          "value": 4.231,
+          "stated": 4231,
           "source": {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-            "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-            "quote": "Acquisitions of businesses and intangible assets ( 270 ) ( 629 ) ( 1,312 )"
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+            "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+            "quote": "Acquisitions of businesses and intangible assets ( 4,231 ) ( 270 ) ( 629 )"
           }
         }
       ]
     },
     "interestPaid": {
-      "value": 0.486,
+      "value": 0.696,
       "inOCF": true,
-      "stated": 486,
+      "stated": 696,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Supplemental cash flow data Cash paid for income taxes, net $ 10,554 $ 6,607 $ 6,407 Cash paid for interest, net of amounts capitalized $ 486 $ 448 $ -",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow data (in millions)",
+        "quote": "Supplemental cash flow data Cash paid for income taxes, net $ 7,578 $ 10,554 $ 6,607 Cash paid for interest, net of amounts capitalized $ 696 $ 486 $ 448",
         "xbrl": {
           "cik": "0001326801",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-12-31",
-          "value": 486000000
+          "end": "2025-12-31",
+          "value": 696000000
         }
       }
     },
     "taxesPaid": {
-      "value": 10.554,
+      "value": 7.578,
       "inOCF": true,
-      "stated": 10554,
+      "stated": 7578,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Supplemental cash flow data Cash paid for income taxes, net $ 10,554 $ 6,607 $ 6,407 Cash paid for interest, net of amounts capitalized $ 486 $ 448 $ -",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow data (in millions)",
+        "quote": "Supplemental cash flow data Cash paid for income taxes, net $ 7,578 $ 10,554 $ 6,607 Cash paid for interest, net of amounts capitalized $ 696 $ 486 $ 448",
         "xbrl": {
           "cik": "0001326801",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 10554000000
+          "end": "2025-12-31",
+          "value": 7578000000
         }
       }
     }
   },
-  "paidOut": 110.429,
-  "paidOutFormula": "164.501 − 91.328 + 37.256",
+  "paidOut": 154.857,
+  "paidOutFormula": "200.966 − 115.8 + 69.691",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -117,6 +117,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Capex is PP&E only; intangibles are combined with business acquisitions in one line (270) and left out.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001628280-26-003942). Capex is purchases of property and equipment only; intangibles are combined with business acquisitions in one line (4,231 in 2025) and left out. Principal payments on finance leases (2,524) are in financing activities and are not added.",
+  "researchedAt": "2026-11-24"
 }

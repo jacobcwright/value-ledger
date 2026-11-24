@@ -1,0 +1,31 @@
+{
+  "id": "mark-zuckerberg",
+  "company": "Meta Platforms",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 78865,
+    "asOf": "2025-12-31",
+    "basis": "global workforce of 78,865 employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "We had a global workforce of 78,865 employees as of December 31, 2025, and we have offices in more than 90 cities around the world."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "the median of the annual total compensation of all employees of our company (other than our CEO)",
+    "value": 388200,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "For the year ended December 31, 2025: • the median of the annual total compensation of all employees of our company (other than our CEO) was $388,200; and • the annual total compensation of our CEO was $25,125,904."
+    }
+  },
+  "notes": "Employees: year-end count from the FY2025 10-K. Payroll: the 10-K gives no total of salaries, benefits or personnel costs (it describes headcount-related costs only as parts of each expense line), so the 2026 proxy's CEO pay ratio median for 2025 is used. Meta identified its median employee using total direct compensation (salary, bonus or commission and the value of equity awards granted in 2025), with the employee population determined at October 31, 2025; the CEO pay ratio is 65:1.",
+  "researchedAt": "2026-11-24"
+}

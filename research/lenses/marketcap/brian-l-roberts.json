@@ -1,0 +1,36 @@
+{
+  "id": "brian-l-roberts",
+  "company": "Comcast",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 3541561960,
+      "sharesAsOf": "2026-10-15",
+      "pricedAs": "CMCSA",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026066863/cmcsa-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 15, 2026, there were 3,541,561,960 shares of Comcast Corporation Class A common stock and 9,444,375 shares of Class B common stock outstanding."
+      }
+    },
+    {
+      "label": "Class B common stock",
+      "shares": 9444375,
+      "sharesAsOf": "2026-10-15",
+      "pricedAs": "CMCSA",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted (all held by Brian L. Roberts) and converts share for share into Class A (FY2025 10-K: \"Class B common stock can be converted, on a share for share basis, into Class A common stock.\")",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026066863/cmcsa-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 15, 2026, there were 3,541,561,960 shares of Comcast Corporation Class A common stock and 9,444,375 shares of Class B common stock outstanding."
+      }
+    }
+  ],
+  "notes": "Class A trades on Nasdaq as CMCSA. Counts are from the cover page of the Form 10-Q for the quarter ended September 30, 2026. Versant Media Group, spun off on January 2, 2026, is a separate company and is not included.",
+  "researchedAt": "2026-11-24"
+}

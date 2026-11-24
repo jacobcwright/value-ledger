@@ -1,140 +1,140 @@
 {
  "id": "brian-l-roberts",
  "company": "Comcast",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "USD",
  "unit": "billions",
  "sector": "telecom",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 123.731,
-   "stated": 123731,
+   "value": 123.707,
+   "stated": 123707,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
-    "quote": "Revenue $ 123,731 $ 121,572 $ 121,427 Costs and Expenses",
+    "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of income (in millions)",
+    "quote": "Revenue $ 123,707 $ 123,731 $ 121,572 Costs and Expenses:",
     "xbrl": {
      "cik": "0001166691",
      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-     "end": "2024-12-31",
-     "value": 123731000000
+     "end": "2025-12-31",
+     "value": 123707000000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 27.673,
-   "stated": 27673,
+   "value": 33.643,
+   "stated": 33643,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Net cash provided by operating activities 27,673 28,501 26,413",
+    "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Net cash provided by operating activities 33,643 27,673 28,501",
     "xbrl": {
      "cik": "0001166691",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-31",
-     "value": 27673000000
+     "end": "2025-12-31",
+     "value": 33643000000
     }
    }
   },
   "capex": {
-   "value": 15.246,
+   "value": 14.419,
    "components": [
-    "PP&E 12.181",
-    "intangibles 2.949",
-    "Universal Beijing Resort construction 0.116"
+    "PP&E 11.750",
+    "intangibles 2.658",
+    "Universal Beijing Resort construction 0.011"
    ],
    "derived": {
     "method": "sum of the components below",
     "inputs": [
      {
       "component": "PP&E",
-      "value": 12.181,
-      "stated": 12181,
+      "value": 11.75,
+      "stated": 11750,
       "source": {
        "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
-       "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-       "quote": "Investing Activities Capital expenditures ( 12,181 ) ( 12,242 ) ( 10,626 )",
+       "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+       "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+       "quote": "Investing Activities Capital expenditures ( 11,750 ) ( 12,181 ) ( 12,242 )",
        "xbrl": {
         "cik": "0001166691",
         "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "end": "2024-12-31",
-        "value": 12181000000
+        "end": "2025-12-31",
+        "value": 11750000000
        }
       }
      },
      {
       "component": "intangibles",
-      "value": 2.949,
-      "stated": 2949,
+      "value": 2.658,
+      "stated": 2658,
       "source": {
        "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
-       "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-       "quote": "Cash paid for intangible assets ( 2,949 ) ( 3,298 ) ( 3,141 )",
+       "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+       "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+       "quote": "Cash paid for intangible assets ( 2,658 ) ( 2,949 ) ( 3,298 )",
        "xbrl": {
         "cik": "0001166691",
         "concept": "us-gaap:PaymentsToAcquireIntangibleAssets",
-        "end": "2024-12-31",
-        "value": 2949000000
+        "end": "2025-12-31",
+        "value": 2658000000
        }
       }
      },
      {
       "component": "Universal Beijing Resort construction",
-      "value": 0.116,
-      "stated": 116,
+      "value": 0.011,
+      "stated": 11,
       "source": {
        "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
-       "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-       "quote": "Construction of Universal Beijing Resort ( 116 ) ( 137 ) ( 330 )"
+       "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+       "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+       "quote": "Construction of Universal Beijing Resort ( 11 ) ( 116 ) ( 137 )"
       }
      }
     ]
    }
   },
   "interestPaid": {
-   "value": 3.657,
-   "stated": 3657,
+   "value": 3.871,
+   "stated": 3871,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Interest $ 3,657 $ 3,711 $ 3,413 Income taxes (a)(b) $ 7,096 $ 5,107 $ 5,265",
+    "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+    "label": "FY2025 Form 10-K, Note 14 Supplemental Financial Information (in millions)",
+    "quote": "Cash Payments for Interest Year ended December 31 (in millions) 2025 2024 2023 Interest $ 3,871 $ 3,657 $ 3,711",
     "xbrl": {
      "cik": "0001166691",
      "concept": "us-gaap:InterestPaidNet",
-     "end": "2024-12-31",
-     "value": 3657000000
+     "end": "2025-12-31",
+     "value": 3871000000
     }
    }
   },
   "taxesPaid": {
-   "value": 7.096,
-   "stated": 7096,
+   "value": 0.755,
+   "stated": 755,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Interest $ 3,657 $ 3,711 $ 3,413 Income taxes (a)(b) $ 7,096 $ 5,107 $ 5,265 (a) Cash payments for income taxes in 2024 includes $ 1.7 billion related to the purchase of third-party transferable tax credits.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+    "label": "FY2025 Form 10-K, Note 12 Income Taxes, Cash Payments for Income Taxes (in millions)",
+    "quote": "Cash payments for income taxes $ 755 $ 7,096 $ 5,107 (a) Includes $ 0.6 billion and $ 1.7 billion for 2025 and 2024, respectively, related to the purchase of third-party transferable tax credits.",
     "xbrl": {
      "cik": "0001166691",
      "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-12-31",
-     "value": 7096000000
+     "end": "2025-12-31",
+     "value": 755000000
     }
    }
   }
  },
- "paidOut": 111.304,
- "paidOutFormula": "revenue 123,731 − operating cash flow 27,673 + capex 15,246 (USD millions, as stated)",
+ "paidOut": 104.483,
+ "paidOutFormula": "revenue 123,707 − operating cash flow 33,643 + capex 14,419 (USD millions, as stated)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
@@ -143,6 +143,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Capex includes construction of Universal Beijing Resort (116), a separate PP&E line for the consolidated resort. Income taxes paid include 1.7bn spent buying third-party transferable tax credits.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001628280-26-004994). Capex includes construction of Universal Beijing Resort (11), a separate PP&E line for the consolidated resort. Interest and income taxes paid are inside operating cash flow; income taxes paid (755) are low because of a federal refund from carrying back a capital loss and include 0.6bn spent buying third-party transferable tax credits; from FY2025 the total is in the income-tax note's table by jurisdiction.",
+ "researchedAt": "2026-11-24"
 }

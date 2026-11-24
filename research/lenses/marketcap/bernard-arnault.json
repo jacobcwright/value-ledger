@@ -1,0 +1,48 @@
+{
+  "id": "bernard-arnault",
+  "company": "LVMH Moët Hennessy Louis Vuitton",
+  "classes": [
+    {
+      "label": "Shares (total shares less shares deprived of voting rights, i.e. treasury shares)",
+      "shares": 490630174,
+      "sharesAsOf": "2026-10-31",
+      "pricedAs": "MC.PA",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "Total shares composing the share capital at October 31, 2026",
+          "value": 494606080,
+          "source": {
+            "hostType": "company",
+            "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/HIwWIoK1stxsKN2S_Droitsdevote31octobre2026.pdf",
+            "label": "Monthly disclosure of total voting rights and shares composing the share capital, October 31, 2026 (published Nov 5, 2026; French only)",
+            "quote": "Date Nombre total d’actions en circulation Nombre total de droits de vote ... 31 octobre 2026 494 606 080"
+          }
+        },
+        {
+          "label": "Gross total voting rights (each treasury share counts one; signed negative)",
+          "value": -743358184,
+          "source": {
+            "hostType": "company",
+            "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/HIwWIoK1stxsKN2S_Droitsdevote31octobre2026.pdf",
+            "label": "Monthly disclosure of total voting rights and shares composing the share capital, October 31, 2026 (published Nov 5, 2026; French only)",
+            "quote": "Total brut de droits de vote : 743 358 184"
+          }
+        },
+        {
+          "label": "Net total voting rights (after deducting shares deprived of voting rights; net − gross = −treasury shares)",
+          "value": 739382278,
+          "source": {
+            "hostType": "company",
+            "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/HIwWIoK1stxsKN2S_Droitsdevote31octobre2026.pdf",
+            "label": "Monthly disclosure of total voting rights and shares composing the share capital, October 31, 2026 (published Nov 5, 2026; French only)",
+            "quote": "Total net* de droits de vote : 739 382 278 * Total net = nombre total de droits de vote attachés au nombre total d’actions sous déduction des actions privées de droit de vote."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "One class of shares, priced from its primary listing on Euronext Paris (MC.PA) in EUR rather than the U.S. OTC ADR. Shares = 494,606,080 total shares − 743,358,184 gross + 739,382,278 net voting rights (parts signed so they sum to shares) = 494,606,080 − 3,975,906 = 490,630,174 at October 31, 2026. The monthly disclosure states no treasury count. Gross minus net voting rights equals the shares deprived of voting rights, which are the treasury shares: the same identity gives exactly the 1,295,928 treasury shares the 2025 URD reports at December 31, 2025 (744,843,762 theoretical − 743,547,834 exercisable votes). If a stated figure is preferred, the total including treasury shares is 494,606,080 (treasury about 0.8%). Share count fell from 497,686,940 at December 31, 2025 as LVMH retired repurchased shares.",
+  "researchedAt": "2026-11-24"
+}

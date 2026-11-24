@@ -1,0 +1,31 @@
+{
+  "id": "brian-l-roberts",
+  "company": "Comcast",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 179000,
+    "asOf": "2025-12-31",
+    "basis": "approximately 179,000 full-time and part-time employees calculated on a full-time equivalent basis",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital Resources",
+      "quote": "As of December 31, 2025, we had approximately 179,000 full-time and part-time employees calculated on a full-time equivalent basis."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Annual total compensation of our median employee",
+    "value": 92390,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1166691/000119312526177138/cmcsa-20260424.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "pay ratio for 2025 is 381 to 1, calculated by dividing Mr. Roberts' 2025 total compensation set forth in the Summary Compensation Table, adjusted as described below, by $92,390, which represents the annual total compensation of our median employee."
+    }
+  },
+  "notes": "Employees: approximate count at December 31, 2025, on a full-time-equivalent basis (FY2025 10-K); this is before the January 2026 Versant separation. Payroll: the 10-K gives no total of salaries and benefits (it names them only as parts of segment 'other' expenses), so the 2026 proxy's 2025 median employee annual total compensation ($92,390) is used. The proxy identified the median from a sample of about 197,828 full-time, part-time, seasonal and temporary employees, without annualizing part-time or seasonal pay, which it says lowers the median.",
+  "researchedAt": "2026-11-24"
+}

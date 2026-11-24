@@ -1,0 +1,22 @@
+{
+  "id": "john-warnock",
+  "company": "Adobe",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 389200000,
+      "sharesAsOf": "2026-09-18",
+      "pricedAs": "ADBE",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000156/adbe-20260828.htm",
+        "label": "Form 10-Q for the quarter ended August 28, 2026, cover page",
+        "quote": "As of September 18, 2026, 389.2 million shares of the registrant's common stock, $0.0001 par value per share, were issued and outstanding."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as ADBE. The 10-Q cover states the count rounded to 0.1 million (389.2 million at September 18, 2026); it is newer than the FY2025 10-K cover (410.5 million at January 9, 2026).",
+  "researchedAt": "2026-11-24"
+}

@@ -1,134 +1,134 @@
 {
  "id": "ginni-rometty",
  "company": "IBM",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "USD",
  "unit": "billions",
  "sector": "tech",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 62.753,
-   "stated": 62753,
+   "value": 67.535,
+   "stated": 67535,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
-    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of operations (in millions)",
-    "quote": "Total revenue C 62,753 61,860 60,530",
+    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
+    "label": "FY2025 Annual Report (Exhibit 13 to Form 10-K), consolidated income statement (in millions)",
+    "quote": "Total revenue 67,535 62,753 61,860",
     "xbrl": {
      "cik": "0000051143",
      "concept": "us-gaap:Revenues",
-     "end": "2024-12-31",
-     "value": 62753000000
+     "end": "2025-12-31",
+     "value": 67535000000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 13.445,
-   "stated": 13445,
+   "value": 13.193,
+   "stated": 13193,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
-    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of cash flows (in millions)",
-    "quote": "Net cash provided by operating activities 13,445 13,931 10,435",
+    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
+    "label": "FY2025 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of cash flows (in millions)",
+    "quote": "Net cash provided by operating activities 13,193 13,445 13,931",
     "xbrl": {
      "cik": "0000051143",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-31",
-     "value": 13445000000
+     "end": "2025-12-31",
+     "value": 13193000000
     }
    }
   },
   "capex": {
-   "value": 1.685,
+   "value": 1.738,
    "components": [
-    "PP&E 1.048",
-    "investment in software 0.637"
+    "PP&E 1.091",
+    "investment in software 0.647"
    ],
    "derived": {
     "method": "sum of the components below",
     "inputs": [
      {
       "component": "PP&E",
-      "value": 1.048,
-      "stated": 1048,
+      "value": 1.091,
+      "stated": 1091,
       "source": {
        "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
-       "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of cash flows (in millions)",
-       "quote": "Payments for property, plant and equipment ( 1,048 ) ( 1,245 ) ( 1,346 )",
+       "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
+       "label": "FY2025 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of cash flows (in millions)",
+       "quote": "Payments for property, plant and equipment ( 1,091 ) ( 1,048 ) ( 1,245 )",
        "xbrl": {
         "cik": "0000051143",
         "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "end": "2024-12-31",
-        "value": 1048000000
+        "end": "2025-12-31",
+        "value": 1091000000
        }
       }
      },
      {
       "component": "investment in software",
-      "value": 0.637,
-      "stated": 637,
+      "value": 0.647,
+      "stated": 647,
       "source": {
        "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
-       "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of cash flows (in millions)",
-       "quote": "Investment in software ( 637 ) ( 565 ) ( 626 )"
+       "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
+       "label": "FY2025 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of cash flows (in millions)",
+       "quote": "Investment in software ( 647 ) ( 637 ) ( 565 )"
       }
      }
     ]
    }
   },
   "interestPaid": {
-   "value": 1.978,
-   "stated": 1978,
+   "value": 2.042,
+   "stated": 2042,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
-    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), supplemental cash-flow information (in millions)",
-    "quote": "Income taxes paid-net of refunds received $ 1,723 $ 1,564 $ 1,865 Interest paid on debt $ 1,978 $ 1,668 $ 1,401",
+    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
+    "label": "FY2025 Annual Report (Exhibit 13 to Form 10-K), supplemental cash-flow data (in millions)",
+    "quote": "Income taxes paid-net of refunds received $ 1,948 $ 1,723 $ 1,564 Interest paid on debt $ 2,042 $ 1,978 $ 1,668",
     "xbrl": {
      "cik": "0000051143",
      "concept": "us-gaap:InterestPaidNet",
-     "end": "2024-12-31",
-     "value": 1978000000
+     "end": "2025-12-31",
+     "value": 2042000000
     }
    }
   },
   "taxesPaid": {
-   "value": 1.723,
-   "stated": 1723,
+   "value": 1.948,
+   "stated": 1948,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
-    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), supplemental cash-flow information (in millions)",
-    "quote": "Income taxes paid-net of refunds received $ 1,723 $ 1,564 $ 1,865 Interest paid on debt $ 1,978 $ 1,668 $ 1,401",
+    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
+    "label": "FY2025 Annual Report (Exhibit 13 to Form 10-K), supplemental cash-flow data (in millions)",
+    "quote": "Income taxes paid-net of refunds received $ 1,948 $ 1,723 $ 1,564 Interest paid on debt $ 2,042 $ 1,978 $ 1,668",
     "xbrl": {
      "cik": "0000051143",
      "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-12-31",
-     "value": 1723000000
+     "end": "2025-12-31",
+     "value": 1948000000
     }
    }
   },
   "financeReceivablesChangeInOCF": {
-   "value": 0.374,
-   "stated": 374,
+   "value": 4.278,
+   "stated": 4278,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
-    "label": "FY2024 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of cash flows (in millions)",
-    "quote": "Receivables (including financing receivables) ( 374 ) 725 ( 539 )"
+    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
+    "label": "FY2025 Annual Report (Exhibit 13 to Form 10-K), consolidated statement of cash flows (in millions)",
+    "quote": "Receivables (including financing receivables) ( 4,278 ) ( 374 ) 725"
    },
    "effectOnOCF": "lowers",
-   "note": "IBM Financing receivables are inside operating cash flow, combined with trade receivables (net −374 in 2024)."
+   "note": "IBM Financing receivables are inside operating cash flow, combined with trade receivables (net −4,278 in 2025)."
   }
  },
- "paidOut": 50.993,
- "paidOutFormula": "revenue 62,753 − operating cash flow 13,445 + capex 1,685 (USD millions, as stated)",
+ "paidOut": 56.08,
+ "paidOutFormula": "revenue 67,535 − operating cash flow 13,193 + capex 1,738 (USD millions, as stated)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
@@ -137,6 +137,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Capex includes investment in software (637, capitalized software; no companyfacts fact). Acquisition of businesses (3,289) excluded.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0000051143-26-000010; statements in Exhibit 13). Capex includes investment in software (647, capitalized software; no companyfacts fact). Acquisition of businesses, net of cash acquired (8,294) excluded.",
+ "researchedAt": "2026-11-24"
 }

@@ -1,8 +1,8 @@
 {
  "id": "bernard-arnault",
  "company": "LVMH Moët Hennessy Louis Vuitton",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "EUR",
  "unit": "billions",
  "statedUnit": "EUR millions",
@@ -10,60 +10,60 @@
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 84.683,
-   "stated": 84683,
+   "value": 80.807,
+   "stated": 80807,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-    "label": "2024 Universal Registration Document, consolidated income statement (EUR millions)",
-    "quote": "Revenue 24‑25 84,683 86,153 79,184"
+    "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+    "label": "2025 Universal Registration Document, consolidated income statement (EUR millions)",
+    "quote": "Revenue 24‑25 80,807 84,683 86,153"
    }
   },
   "operatingCashFlow": {
-   "value": 18.924,
-   "stated": 18924,
+   "value": 18.874,
+   "stated": 18874,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-    "label": "2024 Universal Registration Document, consolidated cash flow statement (EUR millions)",
-    "quote": "Net cash from/(used in) operating activities 18,924 18,400 17,833"
+    "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+    "label": "2025 Universal Registration Document, consolidated cash flow statement (EUR millions)",
+    "quote": "Net cash from/(used in) operating activities 18,874 18,924 18,400"
    }
   },
   "capex": {
-   "value": 5.552,
+   "value": 4.67,
    "components": [
-    "PP&E 4.715",
-    "intangibles 0.837"
+    "PP&E 3.851",
+    "intangibles 0.819"
    ],
    "parts": [
     {
      "label": "PP&E",
-     "value": 4.715,
-     "stated": 4715,
+     "value": 3.851,
+     "stated": 3851,
      "divisor": 1000,
      "source": {
       "hostType": "company",
-      "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-      "label": "2024 Universal Registration Document, note 15.3 Operating investments (EUR millions)",
-      "quote": "Purchase of property, plant and equipment 6 (4,715) (6,807) (4,397)"
+      "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+      "label": "2025 Universal Registration Document, note 15.3 Operating investments (EUR millions)",
+      "quote": "Purchase of property, plant and equipment 6 (3,851) (4,715) (6,807)"
      }
     },
     {
      "label": "intangibles",
-     "value": 0.837,
-     "stated": 837,
+     "value": 0.819,
+     "stated": 819,
      "divisor": 1000,
      "source": {
       "hostType": "company",
-      "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-      "label": "2024 Universal Registration Document, note 15.3 Operating investments (EUR millions)",
-      "quote": "Purchase of intangible assets 3 (837) (1,000) (685)"
+      "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+      "label": "2025 Universal Registration Document, note 15.3 Operating investments (EUR millions)",
+      "quote": "Purchase of intangible assets 3 (819) (837) (1,000)"
      }
     }
    ],
-   "note": "Gross purchases from note 15.3, not the cash-flow line 'Operating investments' (5,531), which is net of fixed-asset disposals (+21) and also includes the change in fixed-asset payables (+29), initial direct costs (+4) and guarantee deposits (−33). The cash-basis 'Net cash used in purchases of fixed assets' is 5,519 (33 lower than the 5,552 used). Excludes purchases of consolidated investments (438)."
+   "note": "Gross purchases from note 15.3, not the cash-flow line 'Operating investments' (4,567), which is net of fixed-asset disposals (+38) and also includes the change in fixed-asset payables (+63), initial direct costs (+12) and guarantee deposits (−10). The cash-basis 'Net cash used in purchases of fixed assets' is 4,595 (75 lower than the 4,670 used). Excludes purchases and proceeds of consolidated investments (net +149)."
   },
   "interestPaid": {
    "value": null,
@@ -72,96 +72,96 @@
    "parts": [
     {
      "label": "cost of net financial debt: interest paid",
-     "value": 0.357,
-     "stated": 357,
+     "value": 0.29,
+     "stated": 290,
      "divisor": 1000,
      "source": {
       "hostType": "company",
-      "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-      "label": "2024 Universal Registration Document, consolidated cash flow statement (EUR millions)",
-      "quote": "Cost of net financial debt: interest paid (357) (457) (74)"
+      "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+      "label": "2025 Universal Registration Document, consolidated cash flow statement (EUR millions)",
+      "quote": "Cost of net financial debt: interest paid (290) (357) (457)"
      }
     },
     {
      "label": "lease liabilities: interest paid",
-     "value": 0.483,
-     "stated": 483,
+     "value": 0.545,
+     "stated": 545,
      "divisor": 1000,
      "source": {
       "hostType": "company",
-      "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-      "label": "2024 Universal Registration Document, consolidated cash flow statement (EUR millions)",
-      "quote": "Lease liabilities: interest paid (483) (356) (240)"
+      "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+      "label": "2025 Universal Registration Document, consolidated cash flow statement (EUR millions)",
+      "quote": "Lease liabilities: interest paid (545) (483) (356)"
      }
     }
    ],
-   "note": "Both interest lines (840 in total) sit inside operating activities, so nothing is added. The financial-debt line is a net figure (cost of net financial debt is after income from cash of 231), so gross interest paid is not disclosed; value left null for that reason."
+   "note": "Both interest lines (835 in total) sit inside operating activities, so nothing is added. The financial-debt line is net of interest received on cash (cost of net financial debt), so gross interest paid is not disclosed; value left null for that reason."
   },
   "taxesPaid": {
-   "value": 0.259,
-   "stated": 259,
+   "value": 0.244,
+   "stated": 244,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-    "label": "2024 Universal Registration Document, note 15.4 Interim and final dividends paid (EUR millions)",
-    "quote": "Tax paid related to interim and final dividends paid (a) (259) (376) (329)"
+    "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+    "label": "2025 Universal Registration Document, note 15.4 Interim and final dividends paid (EUR millions)",
+    "quote": "Tax paid related to interim and final dividends paid (a) (244) (259) (376)"
    },
    "inOCF": false,
    "location": "financing activities (inside 'Interim and final dividends paid')",
-   "note": "Judgement call: LVMH's cash-flow statement shows 'TOTAL TAX PAID (5,790)': 5,531 in operating activities plus 259 of tax on intra-Group dividends, which sits in financing inside 'Interim and final dividends paid' (7,322). The 259 is tax paid to governments outside OCF, so it is added."
+   "note": "Same judgement call as last year: tax on intra-Group dividends (244) sits in financing inside 'Interim and final dividends paid' (7,123). It is tax paid to governments outside OCF, so it is added."
   },
   "taxesPaidInOCF": {
-   "value": 5.531,
-   "stated": 5531,
+   "value": 4.656,
+   "stated": 4656,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-    "label": "2024 Universal Registration Document, consolidated cash flow statement (EUR millions)",
-    "quote": "Tax paid (5,531) (5,730) (5,604) Change in working capital 15.2 (1,925) (4,577) (3,019)"
+    "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+    "label": "2025 Universal Registration Document, consolidated cash flow statement (EUR millions)",
+    "quote": "Tax paid (4,656) (5,531) (5,730) Change in working capital 15.2 (576) (1,925) (4,577)"
    },
    "inOCF": true,
    "location": "operating activities",
    "totalTaxPaid": {
-    "value": 5.79,
-    "stated": 5790,
+    "value": 4.901,
+    "stated": 4901,
     "divisor": 1000,
     "source": {
      "hostType": "company",
-     "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-     "label": "2024 Universal Registration Document, consolidated cash flow statement (EUR millions)",
-     "quote": "TOTAL TAX PAID (5,790) (6,106) (5,933)"
+     "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+     "label": "2025 Universal Registration Document, consolidated cash flow statement (EUR millions)",
+     "quote": "TOTAL TAX PAID (4,901) (5,790) (6,106)"
     }
    }
   },
   "leasePrincipalPaid": {
-   "value": 2.915,
-   "stated": 2915,
+   "value": 2.974,
+   "stated": 2974,
    "divisor": 1000,
    "source": {
     "hostType": "company",
-    "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-    "label": "2024 Universal Registration Document, consolidated cash flow statement (EUR millions)",
-    "quote": "Repayment of lease liabilities 7.2 (2,915) (2,818) (2,751)"
+    "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+    "label": "2025 Universal Registration Document, consolidated cash flow statement (EUR millions)",
+    "quote": "Repayment of lease liabilities 7.2 (2,974) (2,915) (2,818)"
    },
    "added": false,
-   "note": "IFRS 16 lease principal in financing; noted, not added (4.1% of paidOut). LVMH itself treats it as an operating outflow in its 'operating free cash flow'."
+   "note": "IFRS 16 lease principal in financing; noted, not added (4.4% of paidOut). LVMH itself treats it as an operating outflow in its 'operating free cash flow'."
   }
  },
- "paidOut": 71.57,
- "paidOutFormula": "84,683 − 18,924 + 5,552 (4,715 PP&E + 837 intangibles) + 259 (tax on intra-Group dividends, financing) = 71,570 EUR millions",
+ "paidOut": 66.847,
+ "paidOutFormula": "80,807 − 18,874 + 4,670 (3,851 PP&E + 819 intangibles) + 244 (tax on intra-Group dividends, financing) = 66,847 EUR millions",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
   "financeReceivablesInOCF": false,
   "interestDividendsReceivedInOCF": {
    "value": null,
-   "note": "Not separately disclosed: interest received is netted into 'Cost of net financial debt: interest paid' (357, operating), and dividends from joint ventures and associates are netted with their income in '(Income)/Loss and dividends received from joint ventures and associates' (29). Other dividends received (9) are in investing."
+   "note": "Not separately disclosed: interest received is netted into 'Cost of net financial debt: interest paid' (290, operating), and dividends from joint ventures and associates are netted with their income in '(Income)/Loss and dividends received from joint ventures and associates' (13). Other dividends received (21) are in investing."
   },
   "revenueIncludesExcise": null,
   "nonCashRevenue": null
  },
- "notes": "IFRS. Interest paid on debt and on leases (357 + 483) and operating tax paid (5,531) sit inside operating activities; only the 259 of dividend-related tax in financing is added. Capex uses gross PP&E and intangible purchases from note 15.3 rather than the net 'Operating investments' line. revenueIncludesExcise is null: the revenue policy (note 1.27) says revenue is net of all forms of discount but does not say whether excise duties on Wines and Spirits are included or deducted. Lease principal (2,915) noted, not added.",
- "researchedAt": "2026-11-23"
+ "notes": "FY2025 (year ended December 31, 2025), IFRS, from the 2025 Universal Registration Document. Interest paid on debt and on leases (290 + 545) and operating tax paid (4,656) sit inside operating activities; only the 244 of dividend-related tax in financing is added. The statement's 'TOTAL TAX PAID' is 4,901; the two printed parts sum to 4,900 (rounding, and nil tax on investment disposals). Capex uses gross PP&E and intangible purchases from note 15.3 rather than the net 'Operating investments' line. revenueIncludesExcise is null: the revenue policy says revenue is net of all forms of discount but does not say whether excise duties on Wines and Spirits are included or deducted. Lease principal (2,974) noted, not added. FX: calendar-2025 average.",
+ "researchedAt": "2026-11-24"
 }

@@ -5,6 +5,9 @@
 // Usage: node scripts/refresh-prices.mjs 2026-11-20 https://www.federalreserve.gov/releases/h10/20261123/
 import fs from "node:fs";
 import path from "node:path";
+import {execFileSync} from "node:child_process";
+// Yahoo answers curl but rate-limits Node's fetch fingerprint, so prices go through curl.
+const curl = url => execFileSync("curl", ["-sSfL", "--max-time", "60", "-A", "Mozilla/5.0", url], {encoding: "utf8"});
 
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const [date, h10Url] = process.argv.slice(2);
@@ -22,7 +25,7 @@ for (const sym of [...symbols].sort()) {
   // ±1 day around the date, then keep the bar whose exchange-local date is the edition date
   const probe = `https://query2.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?period1=${day0 - 86400}&period2=${day0 + 2 * 86400}&interval=1d`;
   let j;
-  for (let i = 0; i < 3 && !j; i++) { try { const r = await fetch(probe, {headers: {"User-Agent": UA}}); if (r.ok) j = await r.json(); } catch {} await sleep(800 * (i + 1)); }
+  for (let i = 0; i < 3 && !j; i++) { try { j = JSON.parse(curl(probe)); } catch {} await sleep(800 * (i + 1)); }
   const res = j?.chart?.result?.[0];
   if (!res?.timestamp) { out.symbols[sym] = {error: "no data"}; console.log(`✗ ${sym} no data`); continue; }
   const off = res.meta.gmtoffset || 0;
@@ -30,7 +33,7 @@ for (const sym of [...symbols].sort()) {
   if (k < 0) { out.symbols[sym] = {error: `no session on ${date}`}; console.log(`✗ ${sym} no session on ${date}`); continue; }
   // re-request exactly that session so the quote is a one-bar response
   const url = `https://query2.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?period1=${res.timestamp[k]}&period2=${res.timestamp[k] + 3600}&interval=1d`;
-  const raw = await (await fetch(url, {headers: {"User-Agent": UA}})).text(); await sleep(600);
+  const raw = curl(url); await sleep(600);
   const m = raw.match(/"close":\[[^\]]*\]/);
   const close = res.indicators.quote[0].close[k];
   let currency = res.meta.currency, divisor = 1;

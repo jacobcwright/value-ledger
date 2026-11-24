@@ -1,95 +1,95 @@
 {
   "id": "bernard-arnault",
   "company": "LVMH Moët Hennessy Louis Vuitton",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "EUR",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2024-12-31",
+    "asOf": "2025-12-31",
     "leader": {
       "name": "Bernard Arnault",
       "relation": "chair",
       "status": "holds",
       "pctEconomic": null,
       "pctVoting": null,
-      "shares": 938892,
+      "shares": 946055,
       "derived": null,
       "family": {
         "label": "Arnault family group (the Arnault family and the companies it controls, including Agache SCA and Christian Dior SE)",
-        "pctEconomic": 49.0,
+        "pctEconomic": 49.77,
         "source": {
           "hostType": "company",
-          "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-          "label": "2024 Universal Registration Document, §3.1 Breakdown of share capital and voting rights (printed p. 459)",
-          "quote": "Arnault family group (b) 245,173,934 477,086,351 49.00 64.81 ... Of which: Christian Dior SE 209,504,613 417,907,886 41.87 56.77 ... Total as of December 31, 2024 500,341,700 736,137,011 100.00 100.00 [Number of shares, Number of voting rights, % of share capital, % of voting rights]"
+          "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+          "label": "2025 Universal Registration Document, §3.1 Share ownership of the Company (printed p. 467)",
+          "quote": "Arnault family group (b) 247,694,473 489,899,517 49.77 65.89 Of which: Christian Dior SE 209,883,810 418,353,652 42.17 56.26 ... Total as of December 31, 2025 497,686,940 743,547,834 100.00 100.00 [Number of shares, Number of voting rights, % of share capital, % of voting rights]"
         }
       },
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, Board of Directors table (printed p. 258)",
-        "quote": "Number of shares held in a personal capacity ... Bernard ARNAULT French 75 938,892 - Chairman and Chief Executive Officer"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, Board of Directors, membership as of December 31, 2025 (printed p. 266)",
+        "quote": "Number of shares held in a personal capacity ... Bernard ARNAULT French 76 946,055 - Chairman and Chief Executive Officer"
       }
     },
     "largestHolders": [
       {
-        "name": "Caisse des Dépôts et Consignations",
+        "name": "Caisse des Dépôts et Consignations (CDC Group)",
         "type": "government",
-        "pctEconomic": 1.32,
-        "asOf": "2024-11-19",
+        "pctEconomic": 1.24,
+        "asOf": "2025-04-16",
         "source": {
           "hostType": "company",
-          "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-          "label": "2024 Universal Registration Document, §3.1 threshold crossings (printed p. 459)",
-          "quote": "On November 19, 2024, at the last crossing of the shareholder threshold, Caisse des Dépôts et Consignations indirectly held 1.32% of share capital and 0.90% of the Company’s voting rights."
+          "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+          "label": "2025 Universal Registration Document, §3.1 threshold crossings (printed p. 468)",
+          "quote": "On April 16, 2025, at the last crossing of the shareholder threshold, Caisse des Dépôts et Consignations directly held 1% of share capital and 0.67% of the Company’s voting rights and the CDC Group indirectly held 1.24% of share capital and 0.83% of the Company’s voting rights."
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": true,
-      "note": "One class of shares, but registered shares held for more than three years carry double voting rights (236,764,193 of the 499,372,818 shares with voting rights at December 31, 2024). The Arnault family group, controlled through Agache SCA (whose managing general partner is Bernard Arnault), held 49.00% of the share capital and 64.81% of the voting rights exercisable at Shareholders' Meetings: 41.87% / 56.77% via Christian Dior SE and 7.13% / 8.04% directly and via other family companies. The URD states that, to the Company's knowledge, no other shareholder held 5% or more."
+      "note": "One class of shares, but registered shares held for more than three years carry double voting rights (247,156,822 of the 496,391,012 shares with voting rights at December 31, 2025). The Arnault family group, controlled through Agache SCA (whose managing general partner is Bernard Arnault), held 49.77% of the share capital and 65.89% of the voting rights exercisable at Shareholders' Meetings: 42.17% / 56.26% via Christian Dior SE and 7.60% / 9.63% directly and via other family companies. The URD states that, to the Company's knowledge, no other shareholder held 5% or more."
     }
   },
   "cash": {
     "dividends": {
-      "value": 6.49,
+      "value": 6.47,
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, Note 15.4 Interim and final dividends paid (printed p. 362)",
-        "quote": "Interim and final dividends paid by LVMH SE (6,492) (6,251) (6,025) [EUR millions, 2024, 2023, 2022]"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, Note 15.4 Interim and final dividends paid",
+        "quote": "Interim and final dividends paid by LVMH SE (6,465) (6,492) (6,251) [EUR millions, 2025, 2024, 2023]"
       }
     },
     "buybacks": {
-      "value": 0,
+      "value": 1.32,
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, §4.3 Summary table of transactions in own shares, January 1 to December 31, 2024 (printed p. 463)",
-        "quote": "Number of shares 905,507 2,471,719 - - - - of which: - liquidity contract 384,473 386,473 - - - - - purchases to cover plans 521,034 - - - - - ... - purchases of shares to be retired - - - - - - [Cumulative gross transactions: Purchases, Sales/Transfers; open positions]"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, parent company financial statements, Note 13.1 LVMH shares, long-term investments pending retirement (EUR millions)",
+        "quote": "Long‑term investments Pending retirement Total ... Purchases 2,550,539 1,320.8 2,550,539 1,320.8 [Number, Gross value]"
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.19,
+      "value": 0.17,
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, Note 17.5 Expense for the fiscal year (printed p. 368)",
-        "quote": "Bonus share plans 127 117 132 Employee share ownership plan: LVMH Shares 64 - - Expense for the fiscal year 191 117 132 [EUR millions, 2024, 2023, 2022]"
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, Note 17.4 Expense for the fiscal year",
+        "quote": "Bonus share plans 165 127 117 Employee share ownership plan: LVMH Shares - 64 - Expense for the fiscal year 165 191 117 [EUR millions, 2025, 2024, 2023]"
       }
     },
     "plan": {
-      "text": "In 2024 LVMH launched its first employee share ownership plan, LVMH Shares, letting eligible employees buy shares at a 20% discount, with matching bonus shares.",
+      "text": "LVMH Shares, the international employee share ownership plan LVMH launched in 2024, covered 70% of its global workforce (more than 135,000 employees) in 11 countries and regions.",
       "source": {
         "hostType": "company",
-        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-        "label": "2024 Universal Registration Document, Note 17.3 Employee share ownership plan: LVMH Shares (printed p. 367)",
-        "quote": "In the second half of 2024, the Group launched “LVMH Shares”, an employee share ownership plan. This plan enabled employees eligible for the offer to subscribe for LVMH shares ... at a subscription price set, on October 18, 2024, at 515.92 euros per share; ... reduced by a 20% discount. Participating employees also received a matching employer contribution in the form of bonus shares."
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+        "label": "2025 Universal Registration Document, Sustainability report, Social, compensation policy",
+        "quote": "In addition, in 2024 LVMH launched LVMH Shares, an international employee share ownership plan which covered 70% of its global workforce (more than 135,000 employees) in 11 countries/regions in Europe, North America and Asia."
       }
     }
   },
@@ -98,37 +98,37 @@
     "segments": [
       {
         "name": "France",
-        "value": 7.01
+        "value": 6.73
       },
       {
         "name": "Europe (excl. France)",
-        "value": 14.54
+        "value": 14.53
       },
       {
         "name": "United States",
-        "value": 21.55
+        "value": 20.69
       },
       {
         "name": "Japan",
-        "value": 7.48
+        "value": 6.38
       },
       {
         "name": "Asia (excl. Japan)",
-        "value": 23.25
+        "value": 21.39
       },
       {
         "name": "Other countries",
-        "value": 10.86
+        "value": 11.09
       }
     ],
-    "total": 84.68,
+    "total": 80.81,
     "source": {
       "hostType": "company",
-      "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
-      "label": "2024 Universal Registration Document, Note 24.2 Information by geographic region (printed p. 382)",
-      "quote": "Revenue by geographic region of delivery breaks down as follows: (EUR millions) 2024 2023 2022 France 7,009 6,830 6,071 Europe (excl. France) 14,538 14,145 12,717 United States 21,554 21,764 21,542 Japan 7,475 6,314 5,436 Asia (excl. Japan) 23,246 26,577 23,785 Other countries 10,861 10,523 9,632 Revenue 84,683 86,153 79,184"
+      "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/aczo-pGXnQHGZKQ5_UniversalRegistrationDocument2025.pdf",
+      "label": "2025 Universal Registration Document, Note 24.2 Information by geographic region",
+      "quote": "Revenue by geographic region of delivery breaks down as follows: (EUR millions) 2025 2024 2023 France 6,732 7,009 6,830 Europe (excl. France) 14,530 14,538 14,145 United States 20,686 21,554 21,764 Japan 6,378 7,475 6,314 Asia (excl. Japan) 21,389 23,246 26,577 Other countries 11,091 10,861 10,523 Revenue 80,807 84,683 86,153"
     }
   },
-  "notes": "All figures from the LVMH 2024 Universal Registration Document (fiscal year ended December 31, 2024), the PDF hosted on LVMH's own content CDN (lvmh-com.cdn.prismic.io, linked from lvmh.com). EUR, converted exactly from EUR millions. OWNERSHIP: Bernard Arnault personally holds 938,892 shares (\"in a personal capacity\"); the URD gives no percentage, so pctEconomic is null (for reference only, about 0.19% of the 500,341,700 shares; not disclosed). The relevant holding is the Arnault family group's 49.00% of share capital (64.81% of votes exercisable at Shareholders' Meetings; 64.72% of theoretical votes), recorded in family. That figure includes Christian Dior SE's 41.87%, so Christian Dior SE is not listed separately. Whether Bernard Arnault's personal 938,892 shares are inside the family-group total is not stated; they are not added. Relation is 'chair' (Chairman and CEO); the URD says that after the 1987 Moët Hennessy–Louis Vuitton merger he 'became the leading shareholder', not that he founded LVMH. Caisse des Dépôts et Consignations' 1.32% is as of its last threshold notification on November 19, 2024, not December 31. Percentages of share capital include the 968,882 treasury shares (0.19%) in the denominator. BUYBACKS: 0 under the site's rule that purchases covering employee plans, liquidity contracts or market-making are not cash returned to shareholders (same rule as the Tencent pilot and the UBS and Fortescue records). In 2024 LVMH SE bought 905,507 of its own shares (EUR 594m; cash impact EUR 592m per Note 16.3): 384,473 under the liquidity contract (round-trip; 386,473 sold) and 521,034 to cover bonus share plans; none were bought for retirement (§4.3). The cash-flow statement shows only a net 'Acquisition and disposal of LVMH shares' of EUR (312)m inside 'Other equity-related transactions' (Note 15.4). To count gross purchases instead, use 0.59 (Note 16.3 'Share purchases 905,507 594 (592)'). 1,906,700 shares bought in earlier programmes were retired in 2024 without cash impact. DIVIDENDS: EUR 6,492m paid by LVMH SE; the cash-flow line of EUR (7,322)m also includes EUR 571m paid to minority interests and EUR 259m of tax on intra-group dividends, both excluded. STOCK COMP: Note 17.5 expense of EUR 191m (bonus share plans 127 + LVMH Shares employee plan 64).",
-  "researchedAt": "2026-11-23"
+  "notes": "All figures from the LVMH 2025 Universal Registration Document (fiscal year ended December 31, 2025), the PDF hosted on LVMH's own content CDN (lvmh-com.cdn.prismic.io, linked from lvmh.com/en/investors). EUR, converted exactly from EUR millions. OWNERSHIP: Bernard Arnault personally holds 946,055 shares ('in a personal capacity', Board membership as of December 31, 2025); the URD gives no percentage, so pctEconomic is null (for reference only, about 0.19% of the 497,686,940 shares; not disclosed). The relevant holding is the Arnault family group's 49.77% of share capital (65.89% of votes exercisable at Shareholders' Meetings; 65.77% of theoretical votes), recorded in family. That figure includes Christian Dior SE's 42.17%, so Christian Dior SE is not listed separately. Whether Bernard Arnault's personal shares are inside the family-group total is not stated; they are not added. Relation is 'chair' (Chairman and CEO since 1989; reappointed by the Board on April 17, 2025). CDC: the URD gives the CDC Group's 1.24% (and CDC's direct 1%) as of its last threshold crossing on April 16, 2025, not December 31; the group figure is used and the direct 1% is not added to it. Percentages of share capital include the 1,295,928 treasury shares (0.26%) in the denominator. About 900,000 shareholders in total (Euroclear survey, December 2025). BUYBACKS: EUR 1,320.8m paid for 2,550,539 shares bought to be retired (parent-company note 13.1), the same rule as last year: purchases covering bonus share plans (579,981 shares, EUR 320.4m) and the liquidity contract (394,947 shares, round-trip) are not counted as cash returned to shareholders. This ties to §4.1.1 (517,973 shares at an average EUR 585.62 plus 2,032,566 at EUR 500.58, all for 'shares pending retirement'). It includes the EUR 1 billion programme of February–November 2025 (1,899,397 shares; note 16.3) plus 651,142 further shares bought for retirement. For reference: gross purchases of all kinds were 3,525,467 shares, EUR 1,863m (cash impact EUR 1,862m, note 16.3), and the cash-flow statement shows a net 'Acquisition and disposal of LVMH shares' of EUR (1,640)m inside 'Other equity-related transactions'. 2,654,760 shares were retired in 2025. DIVIDENDS: EUR 6,465m paid by LVMH SE; the cash-flow line of EUR (7,123)m also includes EUR 414m paid to minority interests and EUR 244m of tax on intra-group dividends, both excluded. STOCK COMP: Note 17.4 expense of EUR 165m, all bonus share plans (no LVMH Shares expense in 2025). PLAN: the URD describes the 2024 LVMH Shares offer and says employees held the equivalent of less than 1% of the share capital at December 31, 2025, in employee savings plans and as registered bonus shares.",
+  "researchedAt": "2026-11-24"
 }

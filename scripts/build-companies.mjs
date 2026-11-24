@@ -574,6 +574,9 @@ for (const leader of leaders) {
   if (paidout) out.paidout = paidout;
   if (owners && out.ownership) out.owners = owners;
   if (networth) out.networth = networth;
+  // The ranking's own inputs: share counts priced on the edition date, and people employed and pay.
+  const ranking = rankingFor(id);
+  if (ranking) out.ranking = ranking;
   // From the file exactly as published, so the profile's top figures match its ownership section.
   headlineFor(leader, out, networth);
   fs.writeFileSync(path.join(outDir, id + ".json"), JSON.stringify(out) + "\n");
@@ -588,6 +591,24 @@ for (const leader of leaders) {
     if (n) counts[key] = n;
   }
   coverage.push({id, name: leader.name, company: leader.company, lenses: counts, ...(stats.blocked ? {unverified: stats.blocked} : {})});
+}
+
+// The ranking's inputs for one leader (research/lenses/marketcap, _prices.json, research/lenses/pay), so the
+// profile's provenance shows the filing line behind every share count, the close and FX used, and the pay source.
+function rankingFor(id) {
+  const read = f => fs.existsSync(path.join(root, f)) ? JSON.parse(fs.readFileSync(path.join(root, f), "utf8")) : null;
+  const mc = read(`research/lenses/marketcap/${id}.json`), pay = read(`research/lenses/pay/${id}.json`);
+  if (!mc && !pay) return null;
+  const prices = read("research/lenses/marketcap/_prices.json") || {symbols: {}, fx: {}};
+  const out = {};
+  if (mc) {
+    const symbols = [...new Set(mc.classes.map(c => c.pricedAs))];
+    const currencies = [...new Set(symbols.map(s => prices.symbols[s]?.currency).filter(c => c && c !== "USD"))];
+    out.marketcap = {asOf: prices.asOf, classes: mc.classes, notes: mc.notes || "",
+      prices: symbols.map(s => ({symbol: s, ...prices.symbols[s]})), fx: currencies.map(c => ({currency: c, ...prices.fx[c]}))};
+  }
+  if (pay) out.pay = {fiscalYear: pay.fiscalYear, fiscalYearEnd: pay.fiscalYearEnd, currency: pay.currency, employees: pay.employees, payroll: pay.payroll, notes: pay.notes || ""};
+  return out;
 }
 
 // The list of published ids, so the site only requests files that exist (no 404s in the console).
