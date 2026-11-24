@@ -41,7 +41,7 @@ The home page follows the Forbes list model. It has a slim header, a centered ti
 
 ## Visual system
 
-An editorial publication: warm paper, ink, a figure serif for display and numbers, a clean sans for UI, a dark header and footer, dark map surfaces for the data. Mobile first: design at 320–390px, then let it open up.
+An editorial publication: warm paper, ink, a figure serif for display and numbers, a clean sans for UI, a dark header and footer, light map panels in the same paper-and-ink style as every other section. Mobile first: design at 320–390px, then let it open up.
 
 ### Logo: "The share"
 
@@ -71,7 +71,7 @@ Use the custom properties; don't add one-off hex colours, sizes or shadows when 
 
 - **Neutrals.** `--paper` #fbf8f2 (page), `--paper-2` #f4ede2 (tinted bands, table heads), `--card` #fffdf9 (raised surfaces). Text: `--ink` #221d1b (15.7:1 on paper), `--ink-2` #463e3a (secondary copy, 9.9:1), `--muted` #5c534d (meta and labels, 7.1:1 on paper, 6.4:1 on `--paper-2`: AA at any size). Rules: `--line` #e0d7cb for hairlines (decorative), `--line-strong` #8f8276 for control borders (3.5:1, meets the 3:1 non-text minimum).
 - **Brand red.** `--red` #9d271f and `--red-dark` #84231b: eyebrows, links, the title's "100" and the 404 button. Red is brand chrome only.
-- **Dark surfaces.** `--header-bg` (= `--night` #201c1b, matching `<meta name="theme-color">`: change both together), `--header-text` #fff8ed, `--header-muted` #d9cdc4 (10.8:1), `--header-line` (a faint white hairline). Maps: `--map`, `--map-2`, `--map-line`, with `--gold` as the highlight.
+- **Dark surfaces.** `--header-bg` (= `--night` #201c1b, matching `<meta name="theme-color">`: change both together), `--header-text` #fff8ed, `--header-muted` #d9cdc4 (10.8:1), `--header-line` (a faint white hairline). Maps are light now: `--heat-1..6` (blue ramp) and `--globe-*` tokens; the older `--map*` and `--gold` tokens are legacy fallbacks only.
 - **Space.** Fixed steps `--space-1..9`: 4, 8, 12, 16, 24, 32, 48, 64, 96px. Fluid: `--space-section` (32→56px, between page sections), `--gutter` (16→48px side margin), `--gutter-l` / `--gutter-r` (the gutter or the safe-area inset, whichever is larger). `.wrap` is `min(--max, 100% − gutters)` with `--max` 1200px.
 - **Shape.** `--radius-sm` 4px for controls, `--radius` 8px for cards and panels, `--radius-lg` 12px for dialogs and sheets only, `--radius-pill` for chips and the phone nav link.
 - **Depth.** `--shadow-1` (resting card), `--shadow-2` (popover), `--shadow-3` (sheet or dialog). Prefer hairlines to shadows on paper.
@@ -82,7 +82,7 @@ Use the custom properties; don't add one-off hex colours, sizes or shadows when 
 
 ### Colour meaning
 
-Red is brand chrome only: eyebrows, links and the title's numeral. Ownership and value-sharing visuals never use red or green. The individual is a recessive warm gray (`--share-self`); named holders are violet, amber and pink (`--share-1..3`, in that fixed order); "everyone else" is blue (`--share-rest`), the visual hero, as in the logo. Gold is the highlight on dark map surfaces. This palette passes the CVD validator; keep a visible label on every segment because amber and pink are low-contrast. `--green` stays for its existing non-ownership uses; never bring it into an ownership visual.
+Red is brand chrome only: eyebrows, links and the title's numeral. Ownership and value-sharing visuals never use red or green. The individual is a recessive warm gray (`--share-self`); named holders are violet, amber and pink (`--share-1..3`, in that fixed order); "everyone else" is blue (`--share-rest`), the visual hero, as in the logo. Maps use a sequential blue heat ramp (`--heat-1`…`--heat-6`, from `--share-rest`) on paper, an ink outline for the selection and a hatch for missing data; no gold, red or green on maps. This palette passes the CVD validator; keep a visible label on every segment because amber and pink are low-contrast. `--green` stays for its existing non-ownership uses; never bring it into an ownership visual.
 
 ### Header and footer
 

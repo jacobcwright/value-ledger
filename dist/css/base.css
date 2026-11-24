@@ -162,3 +162,6 @@ nav a {text-decoration:none}
 /* Headings that receive focus from code (deep links, chips) for screen readers: no visible ring. Keyboard focus rings stay. */
 [tabindex="-1"]:focus:not(:focus-visible) {outline:none}
 [tabindex="-1"]:focus {outline:none}
+
+/* Focus set by code (deep links) should not draw a ring; keyboard focus still does. */
+:focus:not(:focus-visible) {outline:none}
