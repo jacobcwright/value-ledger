@@ -1,58 +1,80 @@
-/* Home: the slim header bar and the centered title block above the ranking. */
+/* The site header (every page) and the home title block above the ranking. */
 
-/* Header: a slim dark bar, the wordmark centered, two links on the right. */
-.top {--top-muted:#d9cdc4}             /* local token: secondary text on --night, 11:1 */
-.top .nav {display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}
-.top .brand {grid-column:2;gap:var(--space-3);font-size:22px;color:var(--night-text)}
-.top .logo {width:30px;height:30px}
-.top nav {grid-column:3;justify-self:end;gap:var(--space-5);font-size:13px;font-weight:650}
-.top nav a {padding-block:var(--space-2);white-space:nowrap;color:var(--top-muted);transition:color .18s var(--ease)}
-.top nav a:hover {color:var(--night-text)}
-.top :focus-visible {outline-color:var(--night-text)}
+/* Header: a slim dark bar. Wide screens centre the wordmark with links on the right;
+   phones put the wordmark left, keep one link and make the bar sticky. The bar grows by the top safe-area inset. */
+.top {padding-top:var(--safe-top);box-shadow:0 1px 0 var(--header-line)}
+.top .nav {display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:var(--space-4)}
+.top .brand {grid-column:2;gap:var(--space-3);min-height:var(--tap);font-size:22px;color:var(--header-text)}
+.top .logo {width:28px;height:28px}
+.top nav {grid-column:3;justify-self:end;align-items:center;gap:var(--space-5);font-size:var(--text-sm);font-weight:600;letter-spacing:.005em}
+.top nav a {
+  position:relative;display:inline-flex;align-items:center;min-height:var(--tap);
+  white-space:nowrap;color:var(--header-muted);transition:color var(--dur-2) var(--ease);
+}
+.top nav a::after {content:"";position:absolute;left:0;right:0;bottom:10px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform var(--dur-3) var(--ease)}
+.top nav a:hover,.top nav a[aria-current="page"] {color:var(--header-text)}
+.top nav a:hover::after,.top nav a[aria-current="page"]::after {transform:scaleX(1)}
+.top :focus-visible {outline-color:var(--focus-on-dark)}
+
+/* Phones: wordmark left; one link, set as a quiet pill. "The ranking" gives way on the home page (the list starts on the
+   first screen), and the current page's own link gives way elsewhere. */
+@media (max-width:760px) {
+  .top {position:sticky;top:0;z-index:40}
+  .top .nav {grid-template-columns:minmax(0,1fr) auto;gap:var(--space-3)}
+  .top .brand {grid-column:1;justify-self:start;gap:var(--space-2);font-size:18px}
+  .top .logo {width:24px;height:24px}
+  .top nav {grid-column:2;gap:var(--space-2);font-size:13px}
+  .top nav a[href="#ranking"],.top nav a[aria-current="page"],.top nav .nav-optional {display:none}
+  .top nav a {
+    min-height:32px;padding:0 var(--space-3);border:1px solid #ffffff2e;border-radius:var(--radius-pill);
+    color:var(--header-text);transition:background-color var(--dur-2) var(--ease),border-color var(--dur-2) var(--ease);
+  }
+  .top nav a::after {inset:-7px -2px;height:auto;background:none;transform:none}  /* stretches the 32px pill to a 44px target */
+  .top nav a:hover {background:#ffffff14;border-color:#ffffff4d}
+}
+@media (max-width:359px) {
+  .top .brand {font-size:16px}
+  .top .logo {width:22px;height:22px}
+  .top nav a {padding:0 10px;font-size:12px}
+}
 
 /* Title block: eyebrow, title, one key line, then a hairline rule. */
-.hero {padding-top:var(--space-7)}
+.hero {padding-top:var(--space-section)}
 .hero-inner {padding-bottom:var(--space-5);border-bottom:1px solid var(--line);text-align:center}
-.hero .eyebrow {margin-bottom:var(--space-3);font-size:12px}
-.hero h1 {margin:0 0 var(--space-4);font:400 clamp(40px,6vw,76px)/1 var(--serif);letter-spacing:-.045em}
-.hero h1 em {font-style:normal;font-weight:700;color:var(--red);letter-spacing:-.06em}
+.hero .eyebrow {margin-bottom:var(--space-3)}
+.hero h1 {
+  margin:0 0 var(--space-4);
+  font:400 var(--text-display)/var(--leading-tight) var(--serif);letter-spacing:var(--tracking-display);
+  font-size:min(var(--text-display),12vw);  /* holds the title on one line down to 320px */
+}
+.hero h1 em {font-style:normal;font-weight:700;color:var(--red);letter-spacing:-.01em}
 .key-line {
   display:flex;flex-wrap:wrap;justify-content:center;gap:var(--space-1) 0;
-  min-height:1.5em;margin:0;padding:0;list-style:none;
-  font-size:12px;font-weight:700;line-height:1.5;letter-spacing:.12em;text-transform:uppercase;
-  color:var(--muted);font-variant-numeric:tabular-nums;
+  min-height:1.6em;margin:0;padding:0;list-style:none;
+  font:600 var(--text-xs)/1.6 var(--sans);letter-spacing:.12em;text-transform:uppercase;
+  color:var(--muted);font-variant-numeric:var(--figures);
 }
 .key-line li {white-space:nowrap}
 .key-line li + li::before {content:"·";content:"·" / "";margin-inline:.9em;color:var(--red)}
 
-/* Once the key line can't hold one row, set it as two even rows split at a center seam, so no separator dangles. */
+/* When one row won't hold, two even rows split at a centre seam; separators sit only on the right-hand items,
+   so none dangles whatever the item count. */
 @media (max-width:880px) {
-  .key-line {display:grid;grid-template-columns:auto auto;justify-content:center;min-height:3em}
+  .key-line {display:grid;grid-template-columns:auto auto;justify-content:center;column-gap:0;min-height:3.2em}
   .key-line li:nth-child(odd) {justify-self:end}
   .key-line li:nth-child(even) {justify-self:start}
-  .key-line li:nth-child(3)::before {content:none}
-}
-/* Below ~760px a centered wordmark would run into the links: brand left, links right. */
-@media (max-width:760px) {
-  .hero {padding-top:var(--space-6)}
-  .top .nav {grid-template-columns:auto minmax(0,1fr);gap:var(--space-3)}
-  .top .brand {grid-column:1;font-size:19px}
-  .top nav {grid-column:2}
-}
-@media (max-width:640px) {
-  .top .brand {gap:var(--space-2);font-size:16px}
-  .top .logo {width:26px;height:26px}
-  .top nav {gap:var(--space-3);font-size:12px}
-  .key-line {grid-template-columns:auto;gap:2px;min-height:6em;font-size:11px}
-  .key-line li:nth-child(n) {justify-self:center}
   .key-line li + li::before {content:none}
+  .key-line li:nth-child(even)::before {content:"·";content:"·" / ""}
 }
-/* Phones: the ranking starts on the first screen, so its link gives way to keep the bar on one line. */
-@media (max-width:440px) {
-  .top .brand {font-size:15px}
-  .top .logo {width:24px;height:24px}
-  .top nav a[href="#ranking"] {display:none}
+/* Phones: one figure per line, centred. */
+@media (max-width:560px) {
+  .hero-inner {padding-bottom:var(--space-4)}
+  .hero h1 {margin-bottom:var(--space-3)}
+  .key-line {grid-template-columns:auto;row-gap:0;min-height:6.4em;letter-spacing:.1em}
+  .key-line li:nth-child(n) {justify-self:center}
+  .key-line li:nth-child(n)::before {content:none}
 }
+
 @media (prefers-reduced-motion:reduce) {
-  .top nav a {transition:none}
+  .top nav a,.top nav a::after {transition:none}
 }

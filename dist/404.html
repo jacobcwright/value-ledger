@@ -4,37 +4,37 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#9d271f">
+<meta name="theme-color" content="#201c1b">
+<meta name="color-scheme" content="light">
 <title>Page not found | Value for Humanity</title>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/home-hero.css">
 <style>
-:root{color-scheme:light;--ink:#25201e;--muted:#625953;--paper:#fbf8f2;--line:#dfd7cc;--red:#9d271f;--red-dark:#84231b;--serif:Georgia,"Times New Roman",serif;--sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;--radius-sm:4px;--focus:#b0563d}
-*,*::before,*::after{box-sizing:border-box}
-body{margin:0;min-height:100vh;display:flex;flex-direction:column;background:#f3ebe0;color:var(--ink);font:16px/1.55 var(--sans)}
-.wrap{width:min(1200px,100% - 32px);margin:0 auto}
-header{background:#201c1b}
-.brand{display:inline-flex;align-items:center;gap:11px;padding:9px 0;color:#fff8ed;text-decoration:none;font:700 24px/1 var(--serif);letter-spacing:-.04em}
-.brand img{width:30px;height:30px;display:block}
-main{flex:1;display:flex;align-items:center}
-.eyebrow{margin:0 0 18px;display:flex;align-items:center;gap:11px;font-size:13px;font-weight:750;letter-spacing:.15em;color:var(--red)}
-.eyebrow span{width:29px;height:2px;background:var(--red)}
-h1{margin:0 0 20px;font:400 clamp(48px,9vw,96px)/.92 var(--serif);letter-spacing:-.06em}
-p{max-width:34em;margin:0 0 28px;color:var(--muted);font-size:18px}
-a.primary{display:inline-block;padding:12px 18px;background:var(--red);color:#fff8ef;font-weight:700;text-decoration:none;border-radius:var(--radius-sm);transition:background .18s}
-a.primary:hover{background:var(--red-dark)}
-a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
-.content{padding:64px 0 80px}
-@media (prefers-reduced-motion:reduce){a.primary{transition:none}}
+body{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column}
+.nf{flex:1;display:flex;align-items:center;padding:var(--space-8) 0 calc(var(--space-8) + var(--safe-bottom))}
+.nf h1{max-width:12ch;margin:0 0 var(--space-4);font:400 var(--text-display)/var(--leading-tight) var(--serif);letter-spacing:var(--tracking-display)}
+.nf p:not(.eyebrow){max-width:34em;margin:0 0 var(--space-6);color:var(--muted);font-size:var(--text-md);line-height:1.5}
+.nf-actions{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-3) var(--space-5)}
+.nf .primary{display:inline-flex;align-items:center;min-height:var(--tap);padding:0 var(--space-5);border-radius:var(--radius-sm);background:var(--red);color:#fff8ef;font-weight:600;text-decoration:none;transition:background-color var(--dur-2) var(--ease)}
+.nf .primary:hover{background:var(--red-dark)}
+.nf .secondary{display:inline-flex;align-items:center;min-height:var(--tap);color:var(--red-dark);font-weight:600;text-decoration-thickness:1px;text-underline-offset:4px}
+@media (max-width:560px){.nf{align-items:flex-start;padding-top:var(--space-7)}.nf .primary{width:100%;justify-content:center}}
 </style>
 </head>
 <body>
-<header><div class="wrap"><a class="brand" href="/"><img src="/favicon.svg" alt="" width="30" height="30">Value for Humanity</a></div></header>
-<main><div class="wrap content">
-<p class="eyebrow"><span></span>PAGE NOT FOUND</p>
+<header class="top"><div class="wrap nav">
+<a class="brand" href="/"><img class="logo" src="/favicon.svg" alt="" width="30" height="30"><span>Value for Humanity</span></a>
+<nav aria-label="Main navigation"><a class="nav-optional" href="/#ranking">The ranking</a><a href="/methodology">Methodology</a></nav>
+</div></header>
+<main class="nf"><div class="wrap">
+<p class="eyebrow">PAGE NOT FOUND</p>
 <h1>This page isn’t here.</h1>
 <p>The link may be out of date. The Business 100 and every leader profile live on the home page.</p>
-<a class="primary" href="/#ranking">Explore the ranking</a>
+<div class="nf-actions"><a class="primary" href="/#ranking">Explore the ranking</a><a class="secondary" href="/methodology">Read the methodology</a></div>
 </div></main>
 </body>
 </html>
