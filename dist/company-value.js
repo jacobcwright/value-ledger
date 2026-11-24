@@ -13,14 +13,16 @@ const companyValueRecords = new Map();
 // Same mirror/aggregator list as scripts/validate-records.mjs: never link a researched figure to these.
 const companyValueMirrors = /dfcfw\.com|9to5mac|seekingalpha|marketscreener|macrotrends|stockanalysis|companiesmarketcap|wsj\.com|reuters\.com|bloomberg|yahoo\.|investing\.com|wikipedia|annualreports\.com|last10k|fintel|gurufocus/;
 const companyValueHosts = ["sec","company","exchange","regulator"];
+// [key, section label, short chip label]. Every lens is its own section of the profile, in this order,
+// with a chip in the profile's section row.
 const companyValueViews = [
-  ["ownership","Who owns it"],
-  ["paidout","Paid out"],
-  ["workers","Workers"],
-  ["cash","Cash to shareholders"],
-  ["ecosystem","Ecosystem"],
-  ["fiscal","Taxes & R&D"],
-  ["geography","Where sales come from"]
+  ["ownership","Who owns it","Who owns it"],
+  ["paidout","Paid out","Paid out"],
+  ["workers","Workers","Workers"],
+  ["cash","Cash to shareholders","Cash"],
+  ["ecosystem","Ecosystem","Ecosystem"],
+  ["fiscal","Taxes & R&D","Taxes & R&D"],
+  ["geography","Where sales come from","Sales"]
 ];
 // Amazon's own case study already covers ownership, workers, cash and sales by market.
 const companyLensViews = ["paidout","ecosystem","fiscal"];
@@ -790,26 +792,23 @@ function cvLensTitle(views) {
 function cvRender(record, leader) {
   const lensOnly = leader.id === "jeff-bezos";
   const allowed = lensOnly ? companyLensViews : companyValueViews.map(([key]) => key);
-  const views = record ? companyValueViews.filter(([key]) => allowed.includes(key)).map(([key,label]) => ({key,label,panel:cvPanels[key](record,leader)})).filter(view => view.panel) : [];
+  const views = record ? companyValueViews.filter(([key]) => allowed.includes(key)).map(([key,label,chip]) => ({key,label,chip,panel:cvPanels[key](record,leader)})).filter(view => view.panel) : [];
   // The footprint panel (company-footprint.js) sits further down the profile; its figures are listed here too.
   const footprint = record && !lensOnly && typeof companyFootprintProof === "function" ? companyFootprintProof(record,leader) : [];
   const provenance = cvProvenance([{label:"The ranking",proof:cvRankingProof(leader)},...views.map(view => ({label:view.label,proof:view.panel.proof || []})),...footprint]);
-  if (!views.length) return `<div class="cv-provenance-only">${provenance}</div>`;
+  if (!views.length) return {body:"",provenance};
   const company = escapeHtml(leader.company);
-  return `
+  return {provenance,body:`
       <header class="distribution-heading">
         <p class="eyebrow">${lensOnly ? `${escapeHtml(leader.company.toUpperCase())} · MORE LENSES` : escapeHtml(leader.company.toUpperCase())}</p>
         <h3 id="company-value-title">${lensOnly ? cvLensTitle(views) : "Who shares in the value?"}</h3>
         ${lensOnly ? `<p>More ways to see the value ${company} created, each on its own.</p>` : ""}
       </header>
-      <div class="distribution-tabs${views.length > 4 ? " cv-tabs-many" : ""}" role="tablist" aria-label="Explore ${escapeHtml(cvPossessive(leader.company))} value">
-        ${views.map((view,index) => `<button id="cv-tab-${view.key}" type="button" role="tab" aria-controls="cv-${view.key}" aria-selected="${index === 0}" tabindex="${index === 0 ? "0" : "-1"}">${escapeHtml(view.label)}</button>`).join("")}
-      </div>
-      ${views.map((view,index) => `<div id="cv-${view.key}" class="distribution-panel" role="tabpanel" aria-labelledby="cv-tab-${view.key}" tabindex="0"${index ? " hidden" : ""}>
+      ${views.map(view => `<section id="cv-${view.key}" class="distribution-panel cv-view" data-chip="${escapeHtml(view.chip)}" aria-labelledby="cv-label-${view.key}">
+        <p class="section-kicker" id="cv-label-${view.key}">${escapeHtml(view.label)}</p>
         ${view.panel.html}
         ${cvSourcesRow(view.panel.sources)}
-      </div>`).join("")}
-      ${provenance}`;
+      </section>`).join("")}`};
 }
 
 // companies.json lists the published ids (written by the build next to dist/companies/), so leaders
@@ -832,49 +831,36 @@ function cvLoad(id) {
   return companyValueRecords.get(id);
 }
 
-// Fills the slot. Resolves true when it shows tabs, "provenance" when it shows only the provenance
-// block, and false when nothing could be shown.
-async function bindCompanyValue(root, leader) {
+// Fills the slot with one section per lens, and "How we got these numbers" into provenanceSlot (the
+// profile's Sources section) when one is given, otherwise at the end of the slot. Resolves true when it
+// shows lenses, "provenance" when it shows only the provenance block, and false when nothing could be shown.
+async function bindCompanyValue(root, leader, provenanceSlot = null) {
   if (!root) return false;
   const record = await cvLoad(leader.id);
   // The profile may have moved on to another leader while the record loaded.
   if (!root.isConnected || root.dataset.leader !== leader.id) return false;
-  let html = "";
+  let rendered = null;
   try {
-    html = cvRender(record && typeof record === "object" && record.id === leader.id ? record : null,leader);
+    rendered = cvRender(record && typeof record === "object" && record.id === leader.id ? record : null,leader);
   } catch {
-    html = "";
+    rendered = null;
   }
-  if (!html) {
-    root.remove();
-    return false;
+  const slot = provenanceSlot && provenanceSlot.isConnected ? provenanceSlot : null;
+  if (rendered?.provenance) {
+    if (slot) slot.innerHTML = rendered.provenance;
+    else root.insertAdjacentHTML("beforeend",rendered.provenance);
   }
-  root.innerHTML = html;
+  if (!rendered?.body) {
+    if (slot || !rendered?.provenance) root.remove();
+    else {
+      root.hidden = false;
+      root.classList.add("is-provenance-only");
+      root.removeAttribute("aria-labelledby");
+      root.setAttribute("aria-label","How we got these numbers");
+    }
+    return rendered?.provenance ? "provenance" : false;
+  }
+  root.insertAdjacentHTML("afterbegin",rendered.body);
   root.hidden = false;
-  const tabs = [...root.querySelectorAll('[role="tab"]')];
-  if (!tabs.length) {
-    root.classList.add("is-provenance-only");
-    root.removeAttribute("aria-labelledby");
-    root.setAttribute("aria-label","How we got these numbers");
-    return "provenance";
-  }
-  function activate(index, focus = false) {
-    tabs.forEach((tab,i) => {
-      const active = i === index;
-      tab.setAttribute("aria-selected",String(active));
-      tab.tabIndex = active ? 0 : -1;
-      root.querySelector("#" + tab.getAttribute("aria-controls")).hidden = !active;
-    });
-    if (focus) tabs[index].focus();
-  }
-  tabs.forEach((tab,index) => {
-    tab.addEventListener("click",() => activate(index));
-    tab.addEventListener("keydown",event => {
-      const indices = {ArrowLeft:(index + tabs.length - 1) % tabs.length,ArrowRight:(index + 1) % tabs.length,Home:0,End:tabs.length - 1};
-      if (!(event.key in indices)) return;
-      event.preventDefault();
-      activate(indices[event.key],true);
-    });
-  });
   return true;
 }

@@ -40,11 +40,17 @@ const amazonHistory = [
   {year:2023,buybacks:0,dividends:0,stockPay:24.023,unitsVested:139.9},
   {year:2024,buybacks:0,dividends:0,stockPay:22.011,unitsVested:209.7}
 ];
+// [key, section label, short chip label]: each is its own section of the profile, with a chip.
 const distributionViews = [
-  ["ownership","Who holds shares"],
-  ["cash","Cash to shareholders"],
-  ["workers","How workers shared"]
+  ["ownership","Who holds shares","Who owns it"],
+  ["cash","Cash to shareholders","Cash"],
+  ["workers","How workers shared","Workers"]
 ];
+const distributionPanel = key => {
+  const [,label,chip] = distributionViews.find(([view]) => view === key);
+  return `id="distribution-${key}" class="distribution-panel" data-chip="${chip}" aria-labelledby="distribution-label-${key}">
+        <p class="section-kicker" id="distribution-label-${key}">${label}</p>`;
+};
 function distributionMoney(billions) {
   return billions === 0 ? "$0" : compactMoney(billions);
 }
@@ -95,10 +101,7 @@ function amazonDistribution(leader) {
         <p class="eyebrow">AMAZON CASE STUDY</p>
         <h3 id="distribution-title">Who shares in the value?</h3>
       </header>
-      <div class="distribution-tabs" role="tablist" aria-label="Explore Amazon’s value">
-        ${distributionViews.map(([key,label],index) => `<button id="distribution-tab-${key}" type="button" role="tab" aria-controls="distribution-${key}" aria-selected="${index === 0}" tabindex="${index === 0 ? "0" : "-1"}">${label}</button>`).join("")}
-      </div>
-      <div id="distribution-ownership" class="distribution-panel" role="tabpanel" aria-labelledby="distribution-tab-ownership" tabindex="0">
+      <section ${distributionPanel("ownership")}
         <div class="distribution-subhead">
           <div><h4>Who held Amazon shares?</h4><p>Year-end 2024 · ${equityValue(sharesOutstanding)} equity value (reported shares × year-end price). The ${compactMoney(leader.cap)} market value above is CompaniesMarketCap’s estimate.</p></div>
         </div>
@@ -139,8 +142,8 @@ function amazonDistribution(leader) {
           <p>Reported share counts × the December 31 price of ${'$' + yearEndPrice.toFixed(2)}, with about ${(sharesOutstanding / 1e9).toFixed(3)} billion shares outstanding at year-end. The founder’s stake is from his November 2024 Form 4, confirmed by the following proxy after excluding voting-only shares. Each fund or pension shows its reported position only, at one point in time.</p>
           <div class="sources">${sources([[amazonSources.annual,"Shares outstanding"],[amazonSources.fiveHundred,"Year-end fund valuation"]])}</div>
         </details>
-      </div>
-      <div id="distribution-cash" class="distribution-panel" role="tabpanel" aria-labelledby="distribution-tab-cash" tabindex="0" hidden>
+      </section>
+      <section ${distributionPanel("cash")}
         <div class="distribution-subhead">
           <div><h4>What did Amazon pay to shareholders?</h4><p>Cash dividends and stock buybacks · Fiscal years ${years}</p></div>
           <div class="distribution-total"><strong>${distributionMoney(cashReturned)}</strong><span>Total cash returned</span></div>
@@ -153,8 +156,8 @@ function amazonDistribution(leader) {
         </table>
         <p class="distribution-note">Buybacks pay whoever sells shares back to Amazon, generally unidentified. Sales between investors also turn shares into cash, outside these figures.</p>
         <div class="sources">${sources([[amazonSources.annual,"Amazon’s annual report and cash flow statement"]])}</div>
-      </div>
-      <div id="distribution-workers" class="distribution-panel" role="tabpanel" aria-labelledby="distribution-tab-workers" tabindex="0" hidden>
+      </section>
+      <section ${distributionPanel("workers")}
         <div class="distribution-subhead">
           <div><h4>How did workers participate?</h4></div>
         </div>
@@ -177,31 +180,11 @@ function amazonDistribution(leader) {
           <li><time datetime="1997-05">May 1997</time><div><h5>Amazon goes public</h5><p>The IPO priced shares at $18 before later stock splits. Some early holders faced a 180-day lockup.</p>${externalLink(amazonSources.ipo,"IPO prospectus, shares eligible for future sale")}</div></li>
           <li><time datetime="2024">2024</time><div><h5>${decimal.format(last.unitsVested)} million restricted stock units vested</h5><p>Company-wide totals don’t show individual employees’ holdings or what they received when they sold.</p>${externalLink(amazonSources.annual,"Amazon’s annual report, stock-based compensation")}</div></li>
         </ol>
-      </div>
+      </section>
     </section>`;
 }
 
 function bindAmazonDistribution(root) {
-  const tabs = [...root.querySelectorAll('[role="tab"]')];
-  function activateTab(index, focus = false) {
-    tabs.forEach((tab,i) => {
-      const active = i === index;
-      tab.setAttribute("aria-selected",String(active));
-      tab.tabIndex = active ? 0 : -1;
-      byId(tab.getAttribute("aria-controls")).hidden = !active;
-    });
-    if (focus) tabs[index].focus();
-  }
-  tabs.forEach((tab,index) => {
-    tab.addEventListener("click",() => activateTab(index));
-    tab.addEventListener("keydown",event => {
-      const indices = {ArrowLeft:(index+tabs.length-1)%tabs.length,ArrowRight:(index+1)%tabs.length,Home:0,End:tabs.length-1};
-      if (!(event.key in indices)) return;
-      event.preventDefault();
-      activateTab(indices[event.key],true);
-    });
-  });
-
   const holderButtons = [...root.querySelectorAll(".ownership-choices button")];
   const holderDetails = root.querySelectorAll("[data-owner-detail]");
   const segments = [...root.querySelectorAll(".ownership-bar [data-owner]")];

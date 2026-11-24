@@ -1,6 +1,6 @@
 /* "Who shares in the value?" in every profile (dist/company-value.js), plus Amazon's standalone lens
    section and the "How we got these numbers" provenance block.
-   Reuses the Amazon case study's shell (.distribution, tabs, panels, subheads, table, method) so the
+   Reuses the Amazon case study's shell (.distribution, lens sections, subheads, table, method) so the
    two read as one system, but carries no red or green: ownership is shown as a varied palette whose
    job is to show that most of the value goes to people other than the individual.
    The --share-* tokens are defined in base.css. */
@@ -13,83 +13,83 @@
 /* Neutral chrome: text stays ink and muted; selection and links are ink, not brand red. */
 .company-value .eyebrow {color:var(--muted)}
 .company-value :focus-visible {outline-color:var(--ink)}
-.company-value .distribution-tabs button[aria-selected="true"] {color:var(--ink);border-bottom-color:var(--ink)}
 .company-value .distribution-panel a,.company-value .distribution-method summary {color:var(--ink)}
 .company-value .distribution-panel a:hover,.company-value .distribution-method summary:hover {color:var(--muted)}
 .company-value .distribution-subhead p {font-size:14px}
 
 /* Ownership headline */
-.cv-headline {max-width:26em;margin:0 0 var(--space-2);font:400 clamp(23px,3vw,31px)/1.18 var(--serif);letter-spacing:-.03em;color:var(--ink)}
+.cv-headline {max-width:26em;margin:0 0 var(--space-3);font:400 clamp(23px,1.15rem + 1.1vw,31px)/1.2 var(--serif);letter-spacing:-.015em;color:var(--ink);text-wrap:balance}
 .cv-headline > span {display:block}
-.cv-headline strong {font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
+.cv-headline strong {font-weight:650;white-space:nowrap;font-variant-numeric:var(--figures)}
 .cv-headline-rest {display:flex!important;align-items:center;gap:10px}
 .cv-headline-rest .cv-key {width:14px;height:14px}
-.cv-derived {display:inline-block;margin-left:6px;padding:1px 6px;border:1px solid var(--line);border-radius:var(--radius-sm);font:700 11px/1.4 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);vertical-align:.35em;cursor:help}
+.cv-derived {display:inline-block;margin-left:6px;padding:1px 6px;border:1px solid var(--line);border-radius:var(--radius-sm);font:700 12px/1.4 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);vertical-align:.35em;cursor:help}
 .cv-status {margin:0 0 var(--space-2);font-size:15px;color:var(--muted)}
 
 /* Ownership bar: 2px surface gaps; every segment also has a legend row below. */
-.cv-bar {display:flex;gap:2px;height:32px;margin:var(--space-4) 0 var(--space-4);border-radius:var(--radius-sm);overflow:hidden;background:var(--card)}
+.cv-bar {display:flex;gap:2px;height:36px;margin:var(--space-4) 0 var(--space-4);border-radius:var(--radius-sm);overflow:hidden;background:var(--card)}
 .cv-bar span {flex-basis:0;min-width:3px;background:var(--key)}
 .cv-key {display:inline-block;flex:none;width:10px;height:10px;border-radius:2px;background:var(--key)}
 /* Listed but not drawn in the bar (class-basis holders, a leader inside a family total): an empty key. */
 .cv-key-none {background:none;box-shadow:inset 0 0 0 1px var(--muted)}
 
 /* Holdings legend */
-.cv-holders {display:grid;gap:2px;max-width:640px;margin:0;padding:0;list-style:none}
-.cv-holders li {display:grid;grid-template-columns:10px minmax(0,1fr) auto;align-items:center;gap:10px;padding:7px 10px;border-radius:var(--radius-sm)}
+.cv-holders {display:grid;gap:2px;max-width:680px;margin:0;padding:0;list-style:none}
+.cv-holders li {display:grid;grid-template-columns:10px minmax(0,1fr) auto;align-items:center;gap:10px;min-height:var(--tap);padding:7px 10px;border-radius:var(--radius-sm)}
 .cv-holders li:nth-child(odd):not(.cv-group) {background:var(--paper-2)}
 .cv-holder-name {display:flex;flex-direction:column;min-width:0;font-size:14px;line-height:1.25;overflow-wrap:anywhere}
 .cv-holder-name small {margin-top:2px;font-size:12px;color:var(--muted)}
-.cv-holder-pct {font-size:14px;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
-.cv-holders .cv-group {display:flex;justify-content:space-between;margin-top:var(--space-2);padding:var(--space-2) 10px 2px;border-top:1px solid var(--line);font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--ink)}
+.cv-holder-pct {font:600 16px/1.2 var(--serif);font-variant-numeric:var(--figures);white-space:nowrap}
+.cv-holders .cv-group {display:flex;justify-content:space-between;min-height:0;margin-top:var(--space-2);padding:var(--space-2) 10px 2px;border-top:1px solid var(--line);font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--ink)}
 .cv-holders .cv-group span + span {letter-spacing:0;font-variant-numeric:tabular-nums}
-.cv-holders .cv-group-sub {margin-top:var(--space-3);font-size:11px;color:var(--muted)}
+.cv-holders .cv-group-sub {margin-top:var(--space-3);font-size:12px;color:var(--muted)}
 .cv-holders .cv-unbarred {background:none!important}
-.cv-holders .cv-unbarred .cv-holder-pct {display:flex;flex-direction:column;align-items:flex-end;font-weight:650;color:var(--ink)}
-.cv-holders .cv-unbarred .cv-holder-pct small {font-size:11px;font-weight:600;color:var(--muted)}
+.cv-holders .cv-unbarred .cv-holder-pct {display:flex;flex-direction:column;align-items:flex-end;font-weight:600;color:var(--ink)}
+.cv-holders .cv-unbarred .cv-holder-pct small {font:600 12px/1.3 var(--sans);color:var(--muted)}
 .cv-structure {margin-bottom:var(--space-3)}
 
 /* Workers */
-.cv-totals {display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--space-2)}
-.cv-totals > div {display:flex;flex-direction:column;gap:6px;padding:14px;border:1px solid var(--line);border-radius:var(--radius);background:var(--paper-2)}
-.cv-totals strong {font:700 31px/1 var(--serif);letter-spacing:-.045em;color:var(--ink);font-variant-numeric:tabular-nums}
+.cv-totals {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(148px,100%),1fr));gap:var(--space-2)}
+.cv-totals > div {display:flex;flex-direction:column;gap:6px;padding:var(--space-4);border:1px solid var(--line);border-radius:var(--radius);background:var(--card)}
+.cv-totals strong {font:600 clamp(26px,1.2rem + 1vw,32px)/1 var(--serif);letter-spacing:-.02em;color:var(--ink);font-variant-numeric:var(--figures)}
 .cv-totals span {font-size:13px;line-height:1.3;color:var(--muted)}
 .cv-plan {max-width:42em;margin:var(--space-4) 0 0;font-size:15px;color:var(--ink)}
 
 /* Where sales come from */
 .cv-segments {margin:0;padding:0;list-style:none}
-.cv-segments li {display:grid;grid-template-columns:minmax(0,13em) minmax(0,1fr) 84px;align-items:center;gap:var(--space-3);padding:6px 0;font-size:14px;border-bottom:1px solid var(--line)}
+.cv-segments li {display:grid;grid-template-columns:minmax(0,13em) minmax(0,1fr) 88px;align-items:center;gap:var(--space-3);min-height:var(--tap);padding:6px 0;font-size:14px;border-bottom:1px solid var(--line)}
 .cv-segment-name {font-weight:650;overflow-wrap:anywhere}
-.cv-track {height:12px;border-radius:var(--radius-sm);overflow:hidden;background:var(--paper-2)}
+.cv-track {height:14px;border-radius:var(--radius-sm);overflow:hidden;background:var(--paper-2)}
 .cv-track span {display:block;height:100%;min-width:2px;border-radius:var(--radius-sm);background:var(--share-rest)}
-.cv-segment-figures {display:flex;flex-direction:column;text-align:right;line-height:1.2;font-variant-numeric:tabular-nums}
+.cv-segment-figures {display:flex;flex-direction:column;text-align:right;line-height:1.2;font-variant-numeric:var(--figures)}
+.cv-segment-figures strong {font:600 16px/1.2 var(--serif);font-variant-numeric:var(--figures)}
 .cv-segment-figures small {font-size:12px;color:var(--muted)}
 .cv-caption {margin:var(--space-3) 0 0;font-size:13px;color:var(--muted);max-width:60em}
 
 /* Ecosystem */
 .cv-flow {margin-top:var(--space-3)}
 .cv-flow-legend {margin-bottom:var(--space-3)}
-.cv-per-dollar {max-width:34em;margin:0 0 var(--space-4);font:400 20px/1.3 var(--serif);letter-spacing:-.02em;color:var(--ink)}
-.cv-tier {display:inline-block;align-self:flex-start;margin-top:2px;padding:1px 6px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--card);font:700 11px/1.5 var(--sans);letter-spacing:.04em;color:var(--muted)}
+.cv-per-dollar {max-width:34em;margin:0 0 var(--space-4);font:400 20px/1.35 var(--serif);letter-spacing:-.01em;color:var(--ink);font-variant-numeric:var(--figures)}
+.cv-tier {display:inline-block;align-self:flex-start;margin-top:2px;padding:1px 6px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--card);font:700 12px/1.5 var(--sans);letter-spacing:.04em;color:var(--muted)}
 .cv-tier.is-commissioned {border-color:var(--share-2);color:var(--ink)}
 .cv-caveat {max-width:46em;margin:var(--space-3) 0 0;padding-left:var(--space-3);border-left:3px solid var(--share-2);font-size:14px;color:var(--ink)}
 .cv-secondary {margin-top:var(--space-4)}
 .cv-secondary-title {margin:0 0 var(--space-2);font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .cv-study-value {margin:0 0 var(--space-2)}
-.cv-study-value strong {font:700 28px/1 var(--serif);letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.cv-study-value strong {font:600 28px/1 var(--serif);letter-spacing:-.02em;font-variant-numeric:var(--figures)}
 .distribution-subhead + .cv-studies {margin-top:0;margin-bottom:var(--space-4)}
 .cv-definition {max-width:46em;margin:var(--space-4) 0 0;font-size:14px;color:var(--muted)}
 .cv-definition strong {color:var(--ink)}
 .cv-balance {margin-top:var(--space-4)}
 .cv-balance > div {display:flex;flex-direction:column;gap:6px;max-width:30em;padding:14px;border:1px dashed var(--muted);border-radius:var(--radius);background:var(--card)}
-.cv-balance strong {font:700 31px/1 var(--serif);letter-spacing:-.045em;font-variant-numeric:tabular-nums}
+.cv-balance strong {font:600 clamp(26px,1.2rem + 1vw,32px)/1 var(--serif);letter-spacing:-.02em;font-variant-numeric:var(--figures)}
 .cv-balance span {font-size:13px;line-height:1.35;color:var(--muted)}
 .cv-balance span:first-of-type {color:var(--ink);font-weight:650}
 .cv-studies {display:grid;gap:var(--space-2);margin-top:var(--space-4)}
-.cv-study {padding:var(--space-4);border:1px solid var(--line);border-left:3px solid var(--share-2);border-radius:var(--radius);background:var(--paper-2)}
+.cv-study {padding:var(--space-4) var(--space-5);border:1px solid var(--line);border-left:3px solid var(--share-2);border-radius:var(--radius);background:var(--card)}
 .cv-study-tag {display:flex;align-items:center;gap:6px;margin:0 0 6px;font-size:12px;color:var(--muted)}
 .cv-study-tag .cv-tier {margin:0}
-.cv-study h5 {margin:0 0 4px;font:700 18px/1.2 var(--serif);letter-spacing:-.02em}
+.cv-study h5 {margin:0 0 4px;font:600 18px/1.25 var(--serif);letter-spacing:-.005em}
 .cv-study-meta {margin:0 0 var(--space-2);font-size:13px;color:var(--muted)}
 .cv-study blockquote {margin:0 0 var(--space-2);padding-left:var(--space-3);border-left:2px solid var(--line);font:400 16px/1.4 var(--serif);color:var(--ink)}
 .cv-study-link {margin:0;overflow-wrap:anywhere}
@@ -103,38 +103,37 @@
 
 /* Paid out: the arithmetic as a list, one input per row, each linked to its document */
 .cv-po-covers {max-width:44em;margin:0 0 var(--space-3);font-size:15px;color:var(--ink)}
-.cv-po-steps {display:grid;gap:2px;max-width:680px;margin:0;padding:0;list-style:none;font-variant-numeric:tabular-nums}
-.cv-po-row {display:grid;grid-template-columns:18px minmax(0,1fr) auto;align-items:baseline;gap:10px;padding:7px 10px;border-radius:var(--radius-sm);background:var(--paper-2)}
+.cv-po-steps {display:grid;gap:2px;max-width:720px;margin:0;padding:0;list-style:none;font-variant-numeric:tabular-nums}
+.cv-po-row {display:grid;grid-template-columns:18px minmax(0,1fr) auto;align-items:baseline;gap:10px;min-height:var(--tap);padding:9px 12px;border-radius:var(--radius-sm);background:var(--paper-2)}
 .cv-po-sign {font:700 16px/1 var(--serif);color:var(--muted);text-align:center}
 .cv-po-label {display:flex;flex-direction:column;min-width:0;font-size:14px;line-height:1.3;overflow-wrap:anywhere}
 .cv-po-label em {font-style:normal;color:var(--muted)}
 .cv-po-label small {margin-top:2px;font-size:12px;color:var(--muted)}
 .cv-po-label small a {color:var(--muted);text-underline-offset:2px}
-.cv-po-value {font-size:15px;font-weight:650;white-space:nowrap;text-align:right}
+.cv-po-value {font:600 16px/1.2 var(--serif);font-variant-numeric:var(--figures);white-space:nowrap;text-align:right}
 .cv-po-row.is-subtotal {background:var(--card);box-shadow:inset 0 1px 0 var(--ink)}
 .cv-po-row.is-subtotal .cv-po-label, .cv-po-row.is-subtotal .cv-po-value {font-weight:750}
 .cv-po-row.is-total {background:var(--share-rest-soft);box-shadow:inset 0 2px 0 var(--ink)}
 .cv-po-row.is-total .cv-po-label {font-weight:750}
-.cv-po-row.is-total .cv-po-value {font:700 20px/1.1 var(--serif);letter-spacing:-.02em;color:var(--share-rest-ink)}
+.cv-po-row.is-total .cv-po-value {font:600 21px/1.1 var(--serif);letter-spacing:-.01em;color:var(--share-rest-ink);font-variant-numeric:var(--figures)}
 .cv-po-caveats {display:grid;gap:6px;max-width:46em;margin:var(--space-4) 0 0;padding:0;list-style:none;font-size:14px;color:var(--ink)}
 .cv-po-caveats .cv-tier {margin:0 4px 0 0;border-color:var(--share-2);vertical-align:1px}
 .cv-po-nc {margin:0 0 var(--space-4)}
 .cv-po-steps + .distribution-note, .cv-totals + .cv-po-steps {margin-top:var(--space-3)}
-.company-value .distribution-tabs.cv-tabs-many {flex-wrap:wrap}
 
 /* Amazon: the added lenses as a small standalone section after the case study */
-.company-lenses .distribution-heading h3 {font-size:clamp(25px,3.6vw,34px)}
+.company-lenses .distribution-heading h3 {font-size:var(--text-lg)}
 .company-lenses .distribution-heading p:last-child {font-size:14px}
 
 /* How we got these numbers */
-.cv-provenance {border-top:1px solid var(--line);background:var(--card)}
-.cv-provenance > summary {display:flex;align-items:center;gap:var(--space-2);padding:var(--space-4) var(--space-5);cursor:pointer;list-style:none;font-size:15px;font-weight:750;color:var(--ink);border-radius:var(--radius-sm)}
+.cv-provenance {border-top:1px solid var(--line)}
+.cv-provenance > summary {display:flex;align-items:center;gap:var(--space-2);min-height:56px;padding:var(--space-2) 0;cursor:pointer;list-style:none;font-size:15px;font-weight:750;color:var(--ink);border-radius:var(--radius-sm)}
 .cv-provenance > summary::-webkit-details-marker {display:none}
 .cv-provenance > summary::before {content:"";flex:none;width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg);transition:transform 150ms var(--ease)}
 .cv-provenance[open] > summary::before {transform:rotate(45deg) translate(-2px,-1px)}
 .cv-provenance > summary:hover {color:var(--muted)}
 .cv-provenance > summary:focus-visible {outline-offset:-4px}
-.cv-provenance > :not(summary) {margin-inline:var(--space-5)}
+.cv-provenance > :not(summary) {margin-inline:0}
 .cv-proof-intro {margin-top:0;margin-bottom:var(--space-3);font-size:13px;color:var(--muted)}
 .cv-provenance a {color:var(--ink);text-underline-offset:3px;overflow-wrap:anywhere}
 .cv-provenance a:hover {color:var(--muted)}
@@ -154,23 +153,19 @@
 .company-value.is-provenance-only .cv-provenance {border-top:0}
 
 /* One compact sources row per tab */
-.cv-sources {display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;margin-top:var(--space-4);padding-top:var(--space-3);border-top:1px solid var(--line);font-size:14px}
+.cv-sources {display:flex;flex-wrap:wrap;align-items:center;gap:2px 16px;margin-top:var(--space-5);padding-top:var(--space-3);border-top:1px solid var(--line);font-size:14px}
 .cv-sources-label {font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-.company-value .cv-sources a {text-underline-offset:3px;overflow-wrap:anywhere}
+.company-value .cv-sources a {padding-block:6px;line-height:1.6;text-underline-offset:3px;overflow-wrap:anywhere}
 .cv-sources a::after {content:" ↗";content:" ↗" / "";font-size:12px}
 
 @media (max-width:560px) {
-  /* Up to four tabs share the row without scrolling: columns sized by content, labels wrap between words. */
-  .company-value .distribution-tabs button {flex:1 1 auto;min-width:min-content;padding:10px 4px 8px;font-size:12px;line-height:1.15}
-  /* Five or six tabs: two rows of three, so every label stays visible. */
-  .company-value .distribution-tabs.cv-tabs-many {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:0 var(--space-2)}
-  .company-value .distribution-tabs.cv-tabs-many button {min-width:0;text-align:center}
-  .cv-provenance > summary {padding:var(--space-3) var(--space-4)}
-  .cv-provenance > :not(summary) {margin-inline:var(--space-4)}
   .cv-per-dollar {font-size:18px}
-  .cv-balance strong {font-size:26px}
-  .cv-bar {height:28px}
-  .cv-totals strong {font-size:26px}
-  .cv-segments li {grid-template-columns:minmax(0,1fr) 72px;row-gap:4px}
+  .cv-bar {height:32px}
+  .cv-segments li {grid-template-columns:minmax(0,1fr) 80px;row-gap:4px;padding-block:8px}
   .cv-segments .cv-track {grid-column:1 / -1;grid-row:2}
+  .cv-po-row {padding-inline:10px}
+}
+@media (pointer:coarse) {
+  /* Inline links keep their line; padding stretches the hit area to 44px */
+  .company-value .cv-sources a,.cv-proof-source a,.cv-po-label small a,.cv-study-link a {padding-block:14px}
 }
