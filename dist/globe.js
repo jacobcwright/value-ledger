@@ -274,12 +274,14 @@ function createGlobe(canvas, sites, choose, options = {}) {
 
   function resize() {
     width = canvas.clientWidth; height = canvas.clientHeight;
-    scale = clamp(window.devicePixelRatio || 1, 1, 3);
+    // Touch screens draw at up to 2x: a third of the pixels of 3x, with no visible loss on a phone-sized globe.
+    scale = clamp(window.devicePixelRatio || 1, 1, coarse ? 2 : 3);
     const w = Math.round(width * scale), h = Math.round(height * scale);
     if (canvas.width !== w) canvas.width = w;
     if (canvas.height !== h) canvas.height = h;
     schedule();
   }
+  const coarse = !!(window.matchMedia && window.matchMedia("(pointer: coarse)").matches);
   const observer = new ResizeObserver(resize);
   observer.observe(canvas);
   const viewport = "IntersectionObserver" in window ? new IntersectionObserver(entries => {
@@ -320,6 +322,11 @@ function createGlobe(canvas, sites, choose, options = {}) {
       }
       return best;
     };
+    // Touch never traps the page: a finger moving up or down scrolls it (touch-action pan-y, set here so every
+    // globe gets it whatever its stylesheet says), a sideways drag rotates the globe, and two fingers pinch to zoom
+    // it. When the browser takes a vertical pan over, it ends the drag with pointercancel (see release below).
+    canvas.style.touchAction = "pan-y";
+    on("touchmove", event => { if (event.touches.length > 1 && event.cancelable) event.preventDefault(); }, canvas, false);
     const startDrag = event => {
       drag = {x:event.clientX, y:event.clientY, lon, lat, moved:false, id:event.pointerId, samples:[{t:event.timeStamp, lon, lat}]};
     };

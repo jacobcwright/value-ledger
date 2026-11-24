@@ -1,31 +1,47 @@
 .amazon-profile-links {margin:0 0 16px}
 .amazon-profile-links button {background:none;border:0;padding:0;color:var(--red-dark);text-decoration:underline;text-underline-offset:4px;font-weight:700}
 
-/* Panel shell. Local tokens for the dark map surface, built on --map / --map-2 / --map-line. */
+/* "Where {Company} creates value": the map panel shell, shared by Amazon (amazon-footprint.js) and every other
+   company (company-footprint.js). The panel sizes itself from its own width (container queries on `fp`), never
+   the viewport's, so it holds in the centred dialog and in a full-width phone sheet alike.
+   Local tokens for the dark map surface, built on --map / --map-2 / --map-line / --gold (base.css):
+     --map-3       raised card on the map surface
+     --map-line-2  stronger rule for controls (3:1 on --map-2)
+     --map-text    primary text (14:1 on --map)
+     --map-muted   secondary text (10:1 on --map, 8:1 on --map-3)
+     --map-faint   tertiary text: ticks, ranks, captions (7:1 on --map, 5.6:1 on --map-3)
+     --map-track   empty track behind magnitude bars
+     --map-hover   row hover wash
+     --fp-pad      side padding of the panel's bands */
 .amazon-footprint {
-  --map-3:#27383a;          /* raised card on the map surface */
-  --map-line-2:#56716f;     /* stronger rule for controls */
+  --map-3:#27383a;
+  --map-line-2:#56716f;
   --map-text:#f1f7f3;
   --map-muted:#c4d4cc;
-  --map-track:#ffffff17;    /* empty track behind magnitude bars */
-  color:var(--map-text);background:var(--map);border:1px solid var(--map-line);border-radius:var(--radius);overflow:hidden;scroll-margin-top:0;box-shadow:var(--shadow-1)
+  --map-faint:#a9bdb5;
+  --map-track:#ffffff17;
+  --map-hover:#ffffff0d;
+  --fp-pad:var(--space-5);
+  container:fp / inline-size;
+  color:var(--map-text);background:var(--map);border:1px solid var(--map-line);border-radius:var(--radius);overflow:hidden;scroll-margin-top:0;box-shadow:var(--shadow-1);
+  font-family:var(--sans);
 }
-.amazon-map-header :focus-visible,.amazon-map-layout :focus-visible,.amazon-map-notes :focus-visible {outline-color:var(--gold)}
+.amazon-footprint :focus-visible {outline-color:var(--focus-on-dark)}
 
 /* Header */
-.amazon-map-header {display:flex;align-items:flex-start;justify-content:space-between;gap:var(--space-4);padding:var(--space-5) var(--space-5) var(--space-4);border-bottom:1px solid var(--map-line);background:linear-gradient(180deg,var(--map-2),var(--map))}
+.amazon-map-header {display:flex;align-items:flex-end;justify-content:space-between;gap:var(--space-4) var(--space-5);padding:var(--space-5) var(--fp-pad) var(--space-4);border-bottom:1px solid var(--map-line);background:linear-gradient(180deg,var(--map-2),var(--map))}
 .amazon-map-heading {min-width:0}
-.amazon-map-kicker {margin:0 0 var(--space-2);color:var(--gold);font-size:12px;font-weight:750;letter-spacing:.15em;text-transform:uppercase;line-height:1.2}
-.amazon-map-header h3 {font:400 clamp(28px,4vw,40px)/1.02 var(--serif);letter-spacing:-.04em;margin:0 0 var(--space-2)}
-.amazon-map-lede {color:var(--map-muted);font-size:14px;margin:0}
-.amazon-map-takeaway {margin:var(--space-2) 0 0;max-width:46ch;font:400 17px/1.4 var(--serif);color:var(--map-text)}
+.amazon-map-kicker {margin:0 0 var(--space-2);color:var(--gold);font:650 var(--text-xs)/1.2 var(--sans);letter-spacing:var(--tracking-label);text-transform:uppercase}
+.amazon-map-header h3 {margin:0 0 var(--space-2);font:400 clamp(1.625rem,1.1rem + 2.6cqi,2.5rem)/1.04 var(--serif);letter-spacing:var(--tracking-display);text-wrap:balance}
+.amazon-map-lede {margin:0;color:var(--map-muted);font-size:var(--text-sm);line-height:1.45}
+.amazon-map-takeaway {margin:var(--space-2) 0 0;max-width:48ch;font:400 var(--text-md)/1.4 var(--serif);color:var(--map-text);font-variant-numeric:var(--figures);text-wrap:pretty}
 .amazon-map-takeaway:empty {display:none}
-.amazon-map-takeaway b {color:var(--gold);font-weight:700;font-variant-numeric:lining-nums tabular-nums;white-space:nowrap}
+.amazon-map-takeaway b {color:var(--gold);font-weight:650;font-variant-numeric:var(--figures);white-space:nowrap}
 
-/* Segmented layer switch with a sliding thumb; --active is set from JS. */
+/* Segmented layer switch with a sliding thumb; --active is set from JS. 44px tall: it is the panel's main control. */
 .amazon-map-switch {position:relative;flex:none;display:grid;grid-auto-flow:column;grid-auto-columns:1fr;padding:3px;border:1px solid var(--map-line-2);border-radius:var(--radius);background:#0000002e}
-.amazon-map-switch::before {content:"";position:absolute;top:3px;bottom:3px;left:3px;width:calc((100% - 6px) / 3);border-radius:var(--radius-sm);background:var(--gold);box-shadow:0 1px 3px #0000004d;transform:translateX(calc(var(--active,0) * 100%));transition:transform 220ms var(--ease)}
-.amazon-map-switch button {position:relative;z-index:1;padding:7px 14px;background:none;color:#d9e8e2;border:0;border-radius:var(--radius-sm);font-size:14px;font-weight:700;white-space:nowrap;transition:color 180ms var(--ease)}
+.amazon-map-switch::before {content:"";position:absolute;top:3px;bottom:3px;left:3px;width:calc((100% - 6px) / 3);border-radius:var(--radius-sm);background:var(--gold);box-shadow:0 1px 3px #0000004d;transform:translateX(calc(var(--active,0) * 100%));transition:transform var(--dur-3) var(--ease)}
+.amazon-map-switch button {position:relative;z-index:1;min-height:var(--tap);padding:0 var(--space-4);background:none;color:#d9e8e2;border:0;border-radius:var(--radius-sm);font:600 var(--text-sm)/1.2 var(--sans);white-space:nowrap;transition:color var(--dur-2) var(--ease)}
 .amazon-map-switch button:hover {color:#fff}
 .amazon-map-switch button[aria-pressed="true"] {color:var(--ink)}
 .amazon-map-switch button:focus-visible {outline:2px solid var(--gold);outline-offset:3px}
@@ -33,56 +49,57 @@
 /* Globe */
 .amazon-map-layout {display:grid;grid-template-columns:minmax(0,1.6fr) minmax(270px,1fr);height:540px}
 .amazon-world {position:relative;min-width:0;background:radial-gradient(ellipse at 50% 55%,#263b3e,var(--map) 75%)}
-.amazon-world canvas {display:block;width:100%;height:100%;touch-action:none;cursor:grab}
+.amazon-world canvas {display:block;width:100%;height:100%;cursor:grab}
 .amazon-world canvas:active {cursor:grabbing}
 .amazon-world canvas:focus-visible {outline:2px solid var(--gold);outline-offset:-6px;border-radius:var(--radius)}
-.amazon-world .zoom {right:var(--space-3);bottom:var(--space-3)}
-.amazon-world .zoom button {width:34px;height:34px;color:var(--map-text);background:var(--map-2);border:1px solid var(--map-line-2);border-radius:var(--radius-sm);transition:background-color 150ms var(--ease)}
-.amazon-world .zoom button:hover {background:var(--map-3)}
+.amazon-world .zoom {position:absolute;right:var(--space-3);bottom:var(--space-3);display:flex;gap:var(--space-1)}
+.amazon-world .zoom button {display:grid;place-items:center;width:36px;height:36px;padding:0;color:var(--map-text);background:var(--map-2);border:1px solid var(--map-line-2);border-radius:var(--radius-sm);font:400 20px/1 var(--sans);transition:background-color var(--dur-2) var(--ease),border-color var(--dur-2) var(--ease)}
+.amazon-world .zoom button:hover {background:var(--map-3);border-color:var(--gold)}
 .amazon-world .zoom button:focus-visible {outline:2px solid var(--gold);outline-offset:2px}
 
-/* Legend card over the globe */
+/* Legend card over the globe (wide panels); below it on narrow ones */
 .amazon-heat-legend {position:absolute;left:var(--space-3);bottom:var(--space-3);display:grid;justify-items:start;align-items:center;gap:5px;max-width:calc(100% - 110px);padding:var(--space-2) var(--space-3);color:#d6e6df;font-size:12px;line-height:1.3;background:#142023d9;border:1px solid var(--map-line);border-radius:var(--radius);pointer-events:none}
-.amazon-legend-title {grid-column:1 / -1;color:var(--map-muted);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.amazon-legend-title {grid-column:1 / -1;color:var(--map-muted);font-size:11px;font-weight:650;letter-spacing:.1em;text-transform:uppercase}
 .amazon-heat-scale {display:block;grid-column:1 / -1;width:132px;max-width:100%;height:8px;border-radius:var(--radius-sm);background:linear-gradient(90deg,#ffd087,#ffbc6c 35%,#ff6f3d)}
-.amazon-legend-range {grid-column:1 / -1;display:flex;justify-content:space-between;width:132px;max-width:100%;font-variant-numeric:tabular-nums;color:var(--map-text)}
+.amazon-legend-range {grid-column:1 / -1;display:flex;justify-content:space-between;gap:var(--space-2);width:132px;max-width:100%;font-variant-numeric:var(--figures);color:var(--map-text)}
 .amazon-legend-item {display:flex;align-items:center;gap:5px;white-space:nowrap}
-.amazon-legend-item em {font-style:normal;font-weight:700;color:var(--gold);font-variant-numeric:tabular-nums}
+.amazon-legend-item em {font-style:normal;font-weight:700;color:var(--gold);font-variant-numeric:var(--figures)}
 .amazon-legend-item.is-empty {opacity:.45}
 .amazon-heat-legend i,.amazon-map-list i,.amazon-detail-kicker i {width:8px;height:8px;flex:none;border-radius:50%;background:var(--dot)}
 
-/* Side panel and list */
+/* Side panel and ranked list */
 .amazon-map-panel {display:flex;flex-direction:column;gap:var(--space-3);min-width:0;min-height:0;overflow:hidden;padding:var(--space-3);background:var(--map-2);border-left:1px solid var(--map-line)}
-.amazon-map-list {flex:1 1 auto;min-height:0;display:grid;align-content:start;gap:2px;padding:2px;overflow-y:auto;scrollbar-color:#667b74 #2a3939;scrollbar-width:thin}
+.amazon-map-list {flex:1 1 auto;min-height:0;display:grid;align-content:start;gap:2px;padding:2px;overflow-y:auto;overscroll-behavior:contain;scrollbar-color:#667b74 #2a3939;scrollbar-width:thin}
 .amazon-map-list.has-more {-webkit-mask-image:linear-gradient(to bottom,#000 calc(100% - 32px),transparent);mask-image:linear-gradient(to bottom,#000 calc(100% - 32px),transparent)}
-.amazon-map-list > button {position:relative;display:grid;grid-template-columns:8px minmax(0,1fr) auto;column-gap:10px;row-gap:6px;align-items:center;width:100%;padding:8px 10px;border:1px solid transparent;border-radius:var(--radius-sm);color:#eff6f1;background:none;text-align:left;font-size:14px;line-height:1.2;transition:background-color 150ms var(--ease),border-color 150ms var(--ease)}
-.amazon-map-list > button:hover {background:#ffffff0d}
+.amazon-map-list > button {position:relative;display:grid;grid-template-columns:8px minmax(0,1fr) auto;column-gap:10px;row-gap:6px;align-items:center;width:100%;min-height:var(--tap);padding:8px 10px;border:1px solid transparent;border-radius:var(--radius-sm);color:#eff6f1;background:none;text-align:left;font:500 14px/1.25 var(--sans);transition:background-color var(--dur-2) var(--ease),border-color var(--dur-2) var(--ease)}
+.amazon-map-list > button:hover {background:var(--map-hover)}
 .amazon-map-list > button[aria-pressed="true"] {background:var(--map-3);border-color:var(--map-line-2);box-shadow:inset 3px 0 0 var(--gold)}
 .amazon-map-list > button:focus-visible {outline:2px solid var(--gold);outline-offset:-2px}
-.amazon-map-list strong {font-weight:700}
-.amazon-map-list small {display:block;margin-top:3px;color:var(--map-muted);font-size:12px}
-.amazon-map-list b {color:var(--gold);font-variant-numeric:tabular-nums;white-space:nowrap}
+.amazon-map-list strong {font-weight:600;overflow-wrap:anywhere}
+.amazon-map-list small {display:block;margin-top:3px;color:var(--map-muted);font-size:12.5px;font-weight:400;line-height:1.35}
+.amazon-map-list b {color:var(--gold);font:600 15px/1.1 var(--serif);font-variant-numeric:var(--figures);white-space:nowrap}
 .amazon-row-bar {grid-column:2;display:block;height:4px;border-radius:2px;background:var(--map-track);overflow:hidden}
 .amazon-row-bar span {display:block;width:var(--share);min-width:2px;height:100%;border-radius:inherit;background:var(--dot)}
-.amazon-map-list small.amazon-row-share {margin:0;text-align:right;font-variant-numeric:tabular-nums;line-height:1}
+.amazon-map-list small.amazon-row-share {margin:0;text-align:right;font-variant-numeric:var(--figures);line-height:1}
 .amazon-sr {position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
-.amazon-list-scope {display:flex;align-items:center;justify-content:space-between;gap:var(--space-2);margin-bottom:var(--space-1);padding:6px 10px;color:var(--map-muted);font-size:13px;background:#ffd2981a;border:1px solid #ffd29840;border-radius:var(--radius-sm)}
+.amazon-list-scope {display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:var(--space-1) var(--space-2);margin-bottom:var(--space-1);padding:4px 4px 4px 10px;color:var(--map-muted);font-size:13px;background:#ffd2981a;border:1px solid #ffd29840;border-radius:var(--radius-sm)}
 .amazon-list-scope strong {color:var(--map-text)}
-.amazon-list-scope button,.map-scope-link {padding:0;border:0;background:none;color:var(--gold);text-decoration:underline;text-underline-offset:3px;font-size:13px;text-align:left}
+.amazon-list-scope button,.map-scope-link {position:relative;padding:0;border:0;background:none;color:var(--gold);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;font:500 13.5px/1.35 var(--sans);text-align:left}
+.amazon-list-scope button {min-height:36px;padding:0 6px}
 .map-scope-link::after {content:" →"}
 .amazon-list-scope button:hover,.map-scope-link:hover {color:#fff}
 
 /* Detail card (also used by the U.S. states panel) */
-.amazon-map-detail {padding:var(--space-3) var(--space-4) 14px;background:var(--map-3);border:1px solid var(--map-line);border-radius:var(--radius);margin-top:7px}
+.amazon-map-detail {padding:var(--space-3) var(--space-4) 14px;background:var(--map-3);border:1px solid var(--map-line);border-radius:var(--radius);margin-top:7px;scroll-margin:120px 0 var(--space-4)}
 .amazon-map-panel .amazon-map-detail {flex:none;margin-top:0}
-.amazon-map-detail .amazon-detail-kicker {display:flex;align-items:center;gap:6px;margin:0 0 6px;color:var(--map-muted);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
-.amazon-map-detail h4 {font:700 20px/1.16 var(--serif);margin:0 0 6px}
-.amazon-map-detail strong {display:block;font:700 clamp(22px,3vw,30px)/1.08 var(--serif);color:var(--gold);font-variant-numeric:lining-nums}
+.amazon-map-detail .amazon-detail-kicker {display:flex;align-items:center;gap:6px;margin:0 0 6px;color:var(--map-muted);font-size:11px;font-weight:650;letter-spacing:.08em;line-height:1.35;text-transform:uppercase}
+.amazon-map-detail h4 {margin:0 0 6px;font:600 20px/1.16 var(--serif);letter-spacing:-.01em}
+.amazon-map-detail strong {display:block;font:650 clamp(1.5rem,1.2rem + 1.4cqi,1.875rem)/1.08 var(--serif);color:var(--gold);font-variant-numeric:var(--figures);letter-spacing:-.01em}
 .amazon-detail-share {display:block;height:6px;margin:10px 0 6px;border-radius:3px;background:var(--map-track);overflow:hidden}
 .amazon-detail-share span {display:block;width:var(--share);height:100%;border-radius:inherit;background:var(--dot)}
-.amazon-map-detail p,.amazon-map-notes p {font-size:13px;line-height:1.42;color:#c7d8d0;margin:4px 0}
-.amazon-map-detail .amazon-detail-basis {margin-top:6px;color:var(--map-muted);font-size:12px}
-.amazon-map-detail a,.amazon-map-notes a {color:var(--gold);text-underline-offset:3px;font-size:13px}
+.amazon-map-detail p,.amazon-map-notes p {font-size:13px;line-height:1.45;color:#c7d8d0;margin:4px 0;font-variant-numeric:var(--figures)}
+.amazon-map-detail .amazon-detail-basis {margin-top:6px;color:var(--map-muted);font-size:12.5px}
+.amazon-map-detail a,.amazon-map-notes a {color:var(--gold);text-decoration-thickness:1px;text-underline-offset:3px;font-size:13px;overflow-wrap:anywhere}
 .amazon-map-detail a:hover,.amazon-map-notes a:hover {color:#fff}
 .amazon-map-detail a[target="_blank"]::after,.amazon-map-notes a[target="_blank"]::after {content:" ↗";content:" ↗" / ""}
 .amazon-map-detail .map-scope-link {display:block;margin-top:5px}
@@ -90,7 +107,7 @@
 .amazon-detail-actions .map-scope-link {margin:0}
 
 /* Notes */
-.amazon-map-notes {display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:var(--space-1) var(--space-5);padding:var(--space-3) var(--space-5) 14px;border-top:1px solid var(--map-line);background:#19282b}
+.amazon-map-notes {display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:var(--space-1) var(--space-5);padding:var(--space-3) var(--fp-pad) 14px;border-top:1px solid var(--map-line);background:#19282b}
 .amazon-map-notes p {flex:1 1 420px;max-width:92ch;margin:0;font-size:12.5px}
 .amazon-map-source:empty {display:none}
 
@@ -98,20 +115,53 @@
 @keyframes amazon-enter {from {opacity:0;transform:translateY(4px)} to {opacity:1;transform:none}}
 .amazon-enter {animation:amazon-enter 220ms var(--ease)}
 
-@media (max-width:900px) {
+/* Mid-width panels: the switch drops below the heading. */
+@container fp (max-width:900px) {
   .amazon-map-header {flex-direction:column;align-items:flex-start}
 }
-@media (max-width:700px) {
-  .amazon-map-header {flex-direction:column;align-items:stretch;padding:var(--space-4)}
-  .amazon-map-takeaway {font-size:16px}
+
+/* Narrow panels (phones, and a narrow dialog): one column, read top to bottom with a thumb.
+   --fp-stacked tells the scripts that the detail card follows the selected row instead of sitting under the list. */
+@container fp (max-width:699px) {
+  .amazon-map-header {align-items:stretch;padding:var(--space-4) var(--space-4) var(--space-4)}
+  .amazon-map-takeaway {font-size:var(--text-base)}
   .amazon-map-switch {width:100%}
-  .amazon-map-switch button {padding:8px 6px}
-  .amazon-map-layout {grid-template-columns:1fr;height:auto}
-  .amazon-map-list {max-height:260px}
-  .amazon-map-list.is-markets {max-height:none}
-  .amazon-map-panel {border-left:0;border-top:1px solid var(--map-line)}
-  .amazon-world canvas {height:330px}
-  .amazon-map-notes {padding:var(--space-3) var(--space-4)}
+  .amazon-map-switch button {padding:0 var(--space-2);font-size:14px}
+  .amazon-map-layout {grid-template-columns:minmax(0,1fr);height:auto}
+  .amazon-world canvas {height:clamp(260px,86cqi,380px)}
+  .amazon-world .zoom {top:var(--space-3);bottom:auto}
+  .amazon-world .zoom button {width:var(--tap);height:var(--tap)}
+  /* The legend leaves the globe and wraps as a band below it. */
+  .amazon-heat-legend {position:static;display:flex;flex-wrap:wrap;align-items:center;gap:6px var(--space-4);max-width:none;margin:0;padding:var(--space-3) var(--space-4);font-size:13px;background:var(--map);border:0;border-top:1px solid var(--map-line);border-radius:0}
+  .amazon-heat-legend > * {flex:none}
+  .amazon-legend-title {flex-basis:100%;font-size:11px}
+  .amazon-heat-scale,.amazon-legend-range {width:min(220px,100%)}
+  .amazon-map-panel {--fp-stacked:1;padding:var(--space-3) var(--space-3) var(--space-4);overflow:visible;border-left:0;border-top:1px solid var(--map-line)}
+  /* Every row shows: no list scrolling inside the page's scroll. */
+  .amazon-map-list,.amazon-map-list.is-markets {max-height:none;overflow:visible;padding:0;gap:4px}
+  .amazon-map-list.has-more {-webkit-mask-image:none;mask-image:none}
+  .amazon-map-list > button {min-height:48px;padding:9px 12px;font-size:15px;column-gap:12px;row-gap:5px}
+  .amazon-map-list > button[aria-pressed="true"] {border-radius:var(--radius) var(--radius) 0 0}
+  .amazon-map-list b {font-size:17px}
+  .amazon-map-list small {font-size:13px}
+  /* The card opens under its row, joined to it. */
+  .amazon-map-list > .amazon-map-detail {margin:-5px 0 var(--space-2);border-color:var(--map-line-2);border-top:0;border-radius:0 0 var(--radius) var(--radius);box-shadow:inset 3px 0 0 var(--gold)}
+  .amazon-map-detail {padding:var(--space-3) var(--space-4) var(--space-4)}
+  .amazon-map-detail p {font-size:14px}
+  .amazon-map-detail .amazon-detail-basis {font-size:13px}
+  .amazon-map-detail a {font-size:14px}
+  /* Links and buttons on their own line get a 44px target. */
+  .map-scope-link {display:flex;align-items:center;min-height:var(--tap);font-size:14.5px}
+  .amazon-detail-actions {gap:0}
+  .amazon-map-detail .map-scope-link {margin-top:0}
+  .amazon-list-scope {font-size:14px}
+  .amazon-list-scope button {min-height:var(--tap);font-size:14px}
+  .amazon-map-notes {padding:var(--space-3) var(--space-4) var(--space-4)}
+  .amazon-map-notes p {flex-basis:100%;font-size:13px}
+  .amazon-map-notes a {display:inline-block;padding:10px 0;font-size:14px}
+}
+@media (pointer:coarse) {
+  .amazon-world .zoom button {width:var(--tap);height:var(--tap)}
 }
 @media (prefers-reduced-motion:reduce) {
   .amazon-enter {animation:none}

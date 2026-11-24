@@ -142,7 +142,12 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
   const layout = byId("amazon-map-layout");
   const switcher = root.querySelector(".amazon-map-switch");
   const takeaway = byId("amazon-layer-takeaway");
-  let layer, globe, entries;
+  const panel = root.querySelector(".amazon-map-panel");
+  let layer, globe, entries, current = -1;
+  // Shared with company-footprint.js (always loaded): on a narrow panel the card follows the selected row, and a
+  // tap on the globe scrolls it into view. Without that file the card simply stays under the list.
+  const place = index => typeof mapPlaceDetail === "function" && mapPlaceDetail(panel,list,detail,index);
+  const reveal = () => typeof mapReveal === "function" && mapReveal(detail);
 
   // Restart a short CSS entrance animation on an element.
   function enter(element) {
@@ -151,9 +156,10 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
     element.classList.add("amazon-enter");
   }
 
-  function choose(index, focus = false) {
+  function choose(index, focus = false, fromTap = false) {
     const item = entries[index];
     if (!item) return;
+    current = index;
     list.querySelectorAll("button[data-entry]").forEach((button,i) => {
       button.setAttribute("aria-pressed",String(i === index));
       if (i === index && focus) button.focus();
@@ -177,8 +183,10 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
         <p>${item.description}</p>
         ${externalLink(item.url,"Site source")}`;
     }
+    place(index);
     enter(detail);
     globe.select(item.lat == null ? -1 : index);
+    if (fromTap) reveal();
   }
 
   // Fade the bottom edge of the list while more rows are hidden below it.
@@ -186,7 +194,8 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
     list.classList.toggle("has-more",list.scrollHeight - list.scrollTop - list.clientHeight > 4);
   }
   list.addEventListener("scroll",updateListFade,{passive:true});
-  const listObserver = new ResizeObserver(updateListFade);
+  // The list resizes when the panel crosses its narrow breakpoint: move the card to match.
+  const listObserver = new ResizeObserver(() => { updateListFade(); place(current); });
   listObserver.observe(list);
 
   function setTakeaway(scope, scopeName) {
@@ -247,6 +256,8 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
     source.innerHTML = isMarket ? externalLink(amazonSources.annual,"2024 annual report, Note 10") : "";
     list.setAttribute("aria-label",isMarket ? "Markets by 2024 net sales" : scopeName ? `Selected sites in ${scopeName}` : "Selected sites");
     list.classList.toggle("is-markets",isMarket);
+    current = -1;
+    place(-1);
     list.innerHTML = (scopeName ? `<div class="amazon-list-scope"><span>Showing <strong>${scopeName}</strong></span><button type="button" data-all-sites>Show all sites</button></div>` : "") + entries.map((item,index) => {
       const color = isMarket ? marketHeat[item.id]?.color || "#82908c" : amazonSiteTypes[item.type].color;
       if (isMarket) {
@@ -262,7 +273,7 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
     updateListFade();
     const heat = isMarket ? new Map(amazonMarkets.flatMap(market => (amazonMarketMask[market.id] || []).map(index => [index,marketHeat[market.id]]))) : null;
     const markers = entries.filter(item => item.lat != null).map(item => [item.name,item.lat,item.lon]);
-    globe = createGlobe(canvas,markers,choose,{
+    globe = createGlobe(canvas,markers,index => choose(index,false,true),{
       arcs:false,heat,ringColor:"#ffd298",
       markers:entries.filter(item => item.lat != null).map(item => isMarket
         ? {...marketHeat[item.id],radius:item.id === "US" ? 6 : 4.1}
@@ -278,7 +289,7 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
     const target = event.target.closest("button");
     if (!target) return;
     if (target.dataset.layer && target.dataset.layer !== layer) show(target.dataset.layer);
-    if (target.dataset.entry != null) choose(Number(target.dataset.entry));
+    if (target.dataset.entry != null) choose(Number(target.dataset.entry),false,true);
     if (target.hasAttribute("data-open-states")) {
       show("states");
       byId("amazon-state-metric").focus();

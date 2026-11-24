@@ -279,6 +279,8 @@ function bindAmazonStates(root) {
     select(index);
     if (event.pointerType === "mouse") path.blur();
     if (event.pointerType && event.pointerType !== "mouse") hover(index);
+    // On a narrow panel the card sits under the map: bring it into view if the tap left it off-screen.
+    if (typeof mapReveal === "function") mapReveal(detail);
   });
 
   // Hovering a legend band highlights the states in it.

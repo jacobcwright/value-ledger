@@ -100,6 +100,24 @@ const cfNum = (cell, text = cfFormat(cell.metric,cell.value,cell.plus)) => cell.
   ? `<a class="cf-num" href="${escapeHtml(cell.source.url)}" target="_blank" rel="noopener noreferrer" title="Source: ${escapeHtml(cell.source.label)}">${escapeHtml(text)}</a>`
   : escapeHtml(text);
 const cfSourceLink = (source, tier) => `<p class="cf-source-line">${tier ? cvTag(tier) : ""}${externalLink(source.url,source.label)}</p>`;
+// After a tap on a map, the chosen state's or pin's card can open below the fold (on a phone, under the map or
+// under its row in the list). Scroll it into view, only when it is mostly off-screen. The Amazon panel uses it too.
+function mapReveal(element) {
+  if (!element || !element.isConnected) return;
+  const box = element.getBoundingClientRect(), view = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+  if (box.top < view - 120 && box.bottom > 80) return;
+  const still = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  element.scrollIntoView({block:"nearest",behavior:still ? "auto" : "smooth"});
+}
+// On a narrow panel (amazon-map.css sets --fp-stacked) the detail card follows the selected row in the list, so
+// it opens where the thumb is; otherwise it sits under the list. Moving the one card keeps its id and live region.
+function mapPlaceDetail(panel, list, detail, index) {
+  if (!panel || !list || !detail) return;
+  const stacked = getComputedStyle(panel).getPropertyValue("--fp-stacked").trim() === "1";
+  const row = stacked && index >= 0 ? list.querySelector(`button[data-entry="${index}"]`) : null;
+  if (row) { if (row.nextElementSibling !== detail) row.after(detail); }
+  else if (detail.parentElement !== panel) panel.append(detail);
+}
 
 // One label standing for many rows from one document ("Google, 2024 U.S. Google Economic Impact Report, state
 // page: Alabama" … "…: Wyoming" -> "Google, 2024 U.S. Google Economic Impact Report").
@@ -527,6 +545,7 @@ function cfBindStates(root, model, shapes, api) {
     select(index);
     if (event.pointerType === "mouse") path.blur();
     if (event.pointerType && event.pointerType !== "mouse") hover(index);
+    mapReveal(detail);
   });
   // Hovering a legend band highlights the states in it.
   legendScale.addEventListener("pointerover",event => {
@@ -553,10 +572,10 @@ function cfBindPanel(root, model, shapes, initialLayer) {
   const canvas = $("#cf-globe"), list = $("#cf-list"), detail = $("#cf-detail"), layout = $("#cf-layout");
   const statesView = $("#cf-states-view"), switcher = $(".amazon-map-switch");
   const lede = $("#cf-lede"), takeaway = $("#cf-takeaway"), note = $("#cf-note"), source = $("#cf-source");
-  const measureWrap = $("#cf-place-measure-wrap"), measure = $("#cf-place-measure");
+  const measureWrap = $("#cf-place-measure-wrap"), measure = $("#cf-place-measure"), panel = $(".amazon-map-panel");
   const layers = model.layers.map(([layer]) => layer);
   const company = escapeHtml(model.company);
-  let layer, globe = null, entries = [], positions = [], globeIndex = [], entryOfGlobe = [], states = null, scope = {}, mappable = true;
+  let layer, globe = null, entries = [], positions = [], globeIndex = [], entryOfGlobe = [], states = null, scope = {}, mappable = true, current = -1;
   if (measureWrap) measureWrap.hidden = model.placeKeys.length < 2;
 
   function enter(element) {
@@ -568,7 +587,8 @@ function cfBindPanel(root, model, shapes, initialLayer) {
     if (list) list.classList.toggle("has-more",list.scrollHeight - list.scrollTop - list.clientHeight > 4);
   }
   list?.addEventListener("scroll",updateListFade,{passive:true});
-  const listObserver = list ? new ResizeObserver(updateListFade) : null;
+  // The list resizes when the panel crosses its narrow breakpoint: move the card to match.
+  const listObserver = list ? new ResizeObserver(() => { updateListFade(); mapPlaceDetail(panel,list,detail,current); }) : null;
   listObserver?.observe(list);
 
   const regionName = (() => {
@@ -610,9 +630,10 @@ function cfBindPanel(root, model, shapes, initialLayer) {
     return {bands,rows,tops,mappable};
   }
 
-  function chooseEntry(index, focus = false) {
+  function chooseEntry(index, focus = false, reveal = false) {
     const item = entries[index];
     if (!item) return;
+    current = index;
     list.querySelectorAll("button[data-entry]").forEach((button,i) => {
       button.setAttribute("aria-pressed",String(i === index));
       if (i === index && focus) button.focus();
@@ -643,8 +664,10 @@ function cfBindPanel(root, model, shapes, initialLayer) {
         ${item.at ? "" : `<p class="amazon-detail-basis">No state or country is given for this site, so it has no pin.</p>`}
         ${cfSourceLink(item.source,item.tier)}`;
     }
+    mapPlaceDetail(panel,list,detail,index);
     enter(detail);
     globe?.select(globeIndex[index] ?? -1);
+    if (reveal) mapReveal(detail);
   }
 
   function setTakeaway() {
@@ -774,6 +797,8 @@ function cfBindPanel(root, model, shapes, initialLayer) {
     const scopeName = scope.state ? cfStateNames[scope.state] : scope.country ? (model.countries.find(c => c.iso2 === scope.country)?.name || scope.country) : "";
     list.setAttribute("aria-label",isPlaces ? `Ranked by ${model.metrics[measure.value].phrase}` : scopeName ? `Selected sites in ${scopeName}` : "Selected sites");
     list.classList.toggle("is-markets",isPlaces && entries.length <= 6);
+    current = -1;
+    mapPlaceDetail(panel,list,detail,-1);
     list.innerHTML = (scopeName ? `<div class="amazon-list-scope"><span>Showing <strong>${escapeHtml(scopeName)}</strong></span><button type="button" data-all-sites>Show all sites</button></div>` : "") + entries.map((item,index) => {
       if (isPlaces) return `${item.groupStart ? `<p class="cf-sub-head">In ${escapeHtml(item.parentName)}</p>` : ""}<button type="button" data-entry="${index}" aria-pressed="false" class="${item.sub ? "cf-sub" : ""}" style="--dot:${item.color};--share:${item.share}%">
           <i aria-hidden="true"></i><strong>${escapeHtml(item.name)}${item.kind === "region" && !item.sub ? '<small class="cf-region-tag">Region</small>' : ""}${item.sub ? `<span class="amazon-sr"> in ${escapeHtml(item.parentName)}</span>` : ""}</strong><b>${escapeHtml(cfFormat(item.cell.metric,item.cell.value,item.cell.plus))}</b>
@@ -805,7 +830,7 @@ function cfBindPanel(root, model, shapes, initialLayer) {
         for (const dot of masks[code] || []) if (!heat.has(dot)) heat.set(dot,{color:entry.color});
       }
     }
-    globe = createGlobe(canvas,pins,index => chooseEntry(entryOfGlobe[index]),{arcs:false,heat,ringColor:"#ffd298",markers:pinStyles});
+    globe = createGlobe(canvas,pins,index => chooseEntry(entryOfGlobe[index],false,true),{arcs:false,heat,ringColor:"#ffd298",markers:pinStyles});
     chooseEntry(0);
   }
 
@@ -817,7 +842,7 @@ function cfBindPanel(root, model, shapes, initialLayer) {
     const target = event.target.closest("button");
     if (!target || !root.contains(target)) return;
     if (target.dataset.layer && target.dataset.layer !== layer) show(target.dataset.layer);
-    if (target.dataset.entry != null) chooseEntry(Number(target.dataset.entry));
+    if (target.dataset.entry != null) chooseEntry(Number(target.dataset.entry),false,true);
     if (target.hasAttribute("data-open-states")) { show("states"); states.focus(); }
     if (target.dataset.sitesIn) show("sites",{country:target.dataset.sitesIn});
     if (target.dataset.sitesState) show("sites",{state:target.dataset.sitesState});
