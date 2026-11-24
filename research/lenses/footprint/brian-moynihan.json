@@ -5,7 +5,7 @@
     "branches": {
       "label": "Bank offices (FDIC Summary of Deposits)",
       "unit": "count",
-      "period": "as of June 30, 2024 (2024 Summary of Deposits survey)",
+      "period": "as of June 30, 2026 (2026 Summary of Deposits survey)",
       "tier": "regulator",
       "definition": "Number of insured-bank office records (main office plus branches) reported in the FDIC Summary of Deposits for Bank of America, N.A. (FDIC cert 3510) and Bank of America California, N.A. (cert 25178), combined by the FDIC query, aggregated by branch state (STALPBR) by the FDIC BankFind API ('count')."
     },
@@ -13,14 +13,14 @@
       "label": "Deposits held in offices in the state (FDIC Summary of Deposits)",
       "unit": "currency-millions",
       "currency": "USD",
-      "period": "as of June 30, 2024 (2024 Summary of Deposits survey)",
+      "period": "as of June 30, 2026 (2026 Summary of Deposits survey)",
       "tier": "regulator",
       "definition": "Sum of branch-office deposits (DEPSUMBR, reported in $ thousands, converted to millions) for Bank of America, N.A. (FDIC cert 3510) and Bank of America California, N.A. (cert 25178), combined by the FDIC query by branch state, as aggregated by the FDIC BankFind API ('sum_DEPSUMBR'). Deposits are assigned to the office where the bank books them, so main-office and booking-center states can be inflated relative to where depositors live."
     },
     "employees": {
       "label": "Local employees",
       "unit": "people",
-      "period": "undated; current local-market fact sheet pages (copyright 2026), newer than the FY2024 snapshot",
+      "period": "undated; current local-market fact sheet pages (re-checked Nov 24, 2026, unchanged), newer than the FY2024 snapshot",
       "tier": "company-published",
       "definition": "\"Local employees\" in Bank of America's Local Impact Fact Sheet for the market. Used only for the 11 markets named for a state (the fact sheets do not define market boundaries); most fact sheets are metro markets (e.g. Houston, Chicago) and are not used."
     }
@@ -30,546 +30,546 @@
       "state": "AR",
       "values": {
         "branches": 16,
-        "deposits": 5797.957
+        "deposits": 6211.181
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"AR\",\"count\":16,\"sum_DEPSUMBR\":5797957} [deposits in $ thousands: 5,797,957 thousand = 5,797.957 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"AR\",\"count\":16,\"sum_DEPSUMBR\":6211181} [deposits in $ thousands: 6,211,181 thousand = 6,211.181 million]"
       }
     },
     {
       "state": "AZ",
       "values": {
-        "branches": 112,
-        "deposits": 32884.249
+        "branches": 104,
+        "deposits": 35467.815
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"AZ\",\"count\":112,\"sum_DEPSUMBR\":32884249} [deposits in $ thousands: 32,884,249 thousand = 32,884.249 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"AZ\",\"count\":104,\"sum_DEPSUMBR\":35467815} [deposits in $ thousands: 35,467,815 thousand = 35,467.815 million]"
       }
     },
     {
       "state": "CA",
       "values": {
-        "branches": 734,
-        "deposits": 409624.431
+        "branches": 687,
+        "deposits": 464817.36
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"CA\",\"count\":734,\"sum_DEPSUMBR\":409624431} [deposits in $ thousands: 409,624,431 thousand = 409,624.431 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"CA\",\"count\":687,\"sum_DEPSUMBR\":464817360} [deposits in $ thousands: 464,817,360 thousand = 464,817.36 million]"
       }
     },
     {
       "state": "CO",
       "values": {
-        "branches": 33,
-        "deposits": 4348.939
+        "branches": 36,
+        "deposits": 5398.294
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"CO\",\"count\":33,\"sum_DEPSUMBR\":4348939} [deposits in $ thousands: 4,348,939 thousand = 4,348.939 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"CO\",\"count\":36,\"sum_DEPSUMBR\":5398294} [deposits in $ thousands: 5,398,294 thousand = 5,398.294 million]"
       }
     },
     {
       "state": "CT",
       "values": {
-        "branches": 87,
-        "deposits": 37557.254
+        "branches": 82,
+        "deposits": 41909.757
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"CT\",\"count\":87,\"sum_DEPSUMBR\":37557254} [deposits in $ thousands: 37,557,254 thousand = 37,557.254 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"CT\",\"count\":82,\"sum_DEPSUMBR\":41909757} [deposits in $ thousands: 41,909,757 thousand = 41,909.757 million]"
       }
     },
     {
       "state": "DC",
       "values": {
-        "branches": 23,
-        "deposits": 20357.165
+        "branches": 22,
+        "deposits": 14820.332
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"DC\",\"count\":23,\"sum_DEPSUMBR\":20357165} [deposits in $ thousands: 20,357,165 thousand = 20,357.165 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"DC\",\"count\":22,\"sum_DEPSUMBR\":14820332} [deposits in $ thousands: 14,820,332 thousand = 14,820.332 million]"
       }
     },
     {
       "state": "DE",
       "values": {
         "branches": 10,
-        "deposits": 2726.108
+        "deposits": 2615.926
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"DE\",\"count\":10,\"sum_DEPSUMBR\":2726108} [deposits in $ thousands: 2,726,108 thousand = 2,726.108 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"DE\",\"count\":10,\"sum_DEPSUMBR\":2615926} [deposits in $ thousands: 2,615,926 thousand = 2,615.926 million]"
       }
     },
     {
       "state": "FL",
       "values": {
-        "branches": 439,
-        "deposits": 160166.549
+        "branches": 414,
+        "deposits": 170340.464
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"FL\",\"count\":439,\"sum_DEPSUMBR\":160166549} [deposits in $ thousands: 160,166,549 thousand = 160,166.549 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"FL\",\"count\":414,\"sum_DEPSUMBR\":170340464} [deposits in $ thousands: 170,340,464 thousand = 170,340.464 million]"
       }
     },
     {
       "state": "GA",
       "values": {
-        "branches": 133,
-        "deposits": 53790.333
+        "branches": 130,
+        "deposits": 55881.759
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"GA\",\"count\":133,\"sum_DEPSUMBR\":53790333} [deposits in $ thousands: 53,790,333 thousand = 53,790.333 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"GA\",\"count\":130,\"sum_DEPSUMBR\":55881759} [deposits in $ thousands: 55,881,759 thousand = 55,881.759 million]"
       }
     },
     {
       "state": "IA",
       "values": {
         "branches": 4,
-        "deposits": 2389.86
+        "deposits": 2858.197
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"IA\",\"count\":4,\"sum_DEPSUMBR\":2389860} [deposits in $ thousands: 2,389,860 thousand = 2,389.860 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"IA\",\"count\":4,\"sum_DEPSUMBR\":2858197} [deposits in $ thousands: 2,858,197 thousand = 2,858.197 million]"
       }
     },
     {
       "state": "ID",
       "values": {
-        "branches": 2,
-        "deposits": 1662.755
+        "branches": 6,
+        "deposits": 2061.113
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"ID\",\"count\":2,\"sum_DEPSUMBR\":1662755} [deposits in $ thousands: 1,662,755 thousand = 1,662.755 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"ID\",\"count\":6,\"sum_DEPSUMBR\":2061113} [deposits in $ thousands: 2,061,113 thousand = 2,061.113 million]"
       }
     },
     {
       "state": "IL",
       "values": {
-        "branches": 123,
-        "deposits": 47238.553
+        "branches": 121,
+        "deposits": 41735.822
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"IL\",\"count\":123,\"sum_DEPSUMBR\":47238553} [deposits in $ thousands: 47,238,553 thousand = 47,238.553 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"IL\",\"count\":121,\"sum_DEPSUMBR\":41735822} [deposits in $ thousands: 41,735,822 thousand = 41,735.822 million]"
       }
     },
     {
       "state": "IN",
       "values": {
-        "branches": 12,
-        "deposits": 4645.024
+        "branches": 16,
+        "deposits": 3577.927
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"IN\",\"count\":12,\"sum_DEPSUMBR\":4645024} [deposits in $ thousands: 4,645,024 thousand = 4,645.024 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"IN\",\"count\":16,\"sum_DEPSUMBR\":3577927} [deposits in $ thousands: 3,577,927 thousand = 3,577.927 million]"
       }
     },
     {
       "state": "KS",
       "values": {
         "branches": 24,
-        "deposits": 7297.74
+        "deposits": 7265.789
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"KS\",\"count\":24,\"sum_DEPSUMBR\":7297740} [deposits in $ thousands: 7,297,740 thousand = 7,297.740 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"KS\",\"count\":24,\"sum_DEPSUMBR\":7265789} [deposits in $ thousands: 7,265,789 thousand = 7,265.789 million]"
       }
     },
     {
       "state": "KY",
       "values": {
-        "branches": 4,
-        "deposits": 1039.956
+        "branches": 8,
+        "deposits": 982.448
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"KY\",\"count\":4,\"sum_DEPSUMBR\":1039956} [deposits in $ thousands: 1,039,956 thousand = 1,039.956 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"KY\",\"count\":8,\"sum_DEPSUMBR\":982448} [deposits in $ thousands: 982,448 thousand = 982.448 million]"
       }
     },
     {
       "state": "MA",
       "values": {
-        "branches": 152,
-        "deposits": 96629.554
+        "branches": 146,
+        "deposits": 100445.277
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"MA\",\"count\":152,\"sum_DEPSUMBR\":96629554} [deposits in $ thousands: 96,629,554 thousand = 96,629.554 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"MA\",\"count\":146,\"sum_DEPSUMBR\":100445277} [deposits in $ thousands: 100,445,277 thousand = 100,445.277 million]"
       }
     },
     {
       "state": "MD",
       "values": {
-        "branches": 120,
-        "deposits": 43567.338
+        "branches": 115,
+        "deposits": 45083.05
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"MD\",\"count\":120,\"sum_DEPSUMBR\":43567338} [deposits in $ thousands: 43,567,338 thousand = 43,567.338 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"MD\",\"count\":115,\"sum_DEPSUMBR\":45083050} [deposits in $ thousands: 45,083,050 thousand = 45,083.05 million]"
       }
     },
     {
       "state": "ME",
       "values": {
         "branches": 12,
-        "deposits": 2517.719
+        "deposits": 2280.44
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"ME\",\"count\":12,\"sum_DEPSUMBR\":2517719} [deposits in $ thousands: 2,517,719 thousand = 2,517.719 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"ME\",\"count\":12,\"sum_DEPSUMBR\":2280440} [deposits in $ thousands: 2,280,440 thousand = 2,280.44 million]"
       }
     },
     {
       "state": "MI",
       "values": {
-        "branches": 76,
-        "deposits": 29248.842
+        "branches": 72,
+        "deposits": 28837.722
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"MI\",\"count\":76,\"sum_DEPSUMBR\":29248842} [deposits in $ thousands: 29,248,842 thousand = 29,248.842 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"MI\",\"count\":72,\"sum_DEPSUMBR\":28837722} [deposits in $ thousands: 28,837,722 thousand = 28,837.722 million]"
       }
     },
     {
       "state": "MN",
       "values": {
-        "branches": 20,
-        "deposits": 5957.087
+        "branches": 23,
+        "deposits": 4417.057
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"MN\",\"count\":20,\"sum_DEPSUMBR\":5957087} [deposits in $ thousands: 5,957,087 thousand = 5,957.087 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"MN\",\"count\":23,\"sum_DEPSUMBR\":4417057} [deposits in $ thousands: 4,417,057 thousand = 4,417.057 million]"
       }
     },
     {
       "state": "MO",
       "values": {
-        "branches": 56,
-        "deposits": 20188.192
+        "branches": 51,
+        "deposits": 20472.466
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"MO\",\"count\":56,\"sum_DEPSUMBR\":20188192} [deposits in $ thousands: 20,188,192 thousand = 20,188.192 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"MO\",\"count\":51,\"sum_DEPSUMBR\":20472466} [deposits in $ thousands: 20,472,466 thousand = 20,472.466 million]"
       }
     },
     {
       "state": "NC",
       "values": {
-        "branches": 108,
-        "deposits": 339230.885
+        "branches": 109,
+        "deposits": 304652.463
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"NC\",\"count\":108,\"sum_DEPSUMBR\":339230885} [deposits in $ thousands: 339,230,885 thousand = 339,230.885 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"NC\",\"count\":109,\"sum_DEPSUMBR\":304652463} [deposits in $ thousands: 304,652,463 thousand = 304,652.463 million]"
       }
     },
     {
       "state": "NE",
       "values": {
-        "branches": 2,
-        "deposits": 600.25
+        "branches": 4,
+        "deposits": 378.698
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"NE\",\"count\":2,\"sum_DEPSUMBR\":600250} [deposits in $ thousands: 600,250 thousand = 600.250 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"NE\",\"count\":4,\"sum_DEPSUMBR\":378698} [deposits in $ thousands: 378,698 thousand = 378.698 million]"
       }
     },
     {
       "state": "NH",
       "values": {
-        "branches": 16,
-        "deposits": 5510.912
+        "branches": 15,
+        "deposits": 5411.595
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"NH\",\"count\":16,\"sum_DEPSUMBR\":5510912} [deposits in $ thousands: 5,510,912 thousand = 5,510.912 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"NH\",\"count\":15,\"sum_DEPSUMBR\":5411595} [deposits in $ thousands: 5,411,595 thousand = 5,411.595 million]"
       }
     },
     {
       "state": "NJ",
       "values": {
-        "branches": 192,
-        "deposits": 69379.771
+        "branches": 179,
+        "deposits": 73374.743
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"NJ\",\"count\":192,\"sum_DEPSUMBR\":69379771} [deposits in $ thousands: 69,379,771 thousand = 69,379.771 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"NJ\",\"count\":179,\"sum_DEPSUMBR\":73374743} [deposits in $ thousands: 73,374,743 thousand = 73,374.743 million]"
       }
     },
     {
       "state": "NM",
       "values": {
-        "branches": 18,
-        "deposits": 5509.551
+        "branches": 16,
+        "deposits": 6198.264
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"NM\",\"count\":18,\"sum_DEPSUMBR\":5509551} [deposits in $ thousands: 5,509,551 thousand = 5,509.551 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"NM\",\"count\":16,\"sum_DEPSUMBR\":6198264} [deposits in $ thousands: 6,198,264 thousand = 6,198.264 million]"
       }
     },
     {
       "state": "NV",
       "values": {
-        "branches": 56,
-        "deposits": 20306.127
+        "branches": 53,
+        "deposits": 23179.248
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"NV\",\"count\":56,\"sum_DEPSUMBR\":20306127} [deposits in $ thousands: 20,306,127 thousand = 20,306.127 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"NV\",\"count\":53,\"sum_DEPSUMBR\":23179248} [deposits in $ thousands: 23,179,248 thousand = 23,179.248 million]"
       }
     },
     {
       "state": "NY",
       "values": {
-        "branches": 255,
-        "deposits": 126370.175
+        "branches": 251,
+        "deposits": 127455.034
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"NY\",\"count\":255,\"sum_DEPSUMBR\":126370175} [deposits in $ thousands: 126,370,175 thousand = 126,370.175 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"NY\",\"count\":251,\"sum_DEPSUMBR\":127455034} [deposits in $ thousands: 127,455,034 thousand = 127,455.034 million]"
       }
     },
     {
       "state": "OH",
       "values": {
-        "branches": 48,
-        "deposits": 7683.811
+        "branches": 51,
+        "deposits": 10974.458
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"OH\",\"count\":48,\"sum_DEPSUMBR\":7683811} [deposits in $ thousands: 7,683,811 thousand = 7,683.811 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"OH\",\"count\":51,\"sum_DEPSUMBR\":10974458} [deposits in $ thousands: 10,974,458 thousand = 10,974.458 million]"
       }
     },
     {
       "state": "OK",
       "values": {
         "branches": 18,
-        "deposits": 6984.849
+        "deposits": 6671.944
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"OK\",\"count\":18,\"sum_DEPSUMBR\":6984849} [deposits in $ thousands: 6,984,849 thousand = 6,984.849 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"OK\",\"count\":18,\"sum_DEPSUMBR\":6671944} [deposits in $ thousands: 6,671,944 thousand = 6,671.944 million]"
       }
     },
     {
       "state": "OR",
       "values": {
-        "branches": 39,
-        "deposits": 14022.291
+        "branches": 35,
+        "deposits": 13903.516
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"OR\",\"count\":39,\"sum_DEPSUMBR\":14022291} [deposits in $ thousands: 14,022,291 thousand = 14,022.291 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"OR\",\"count\":35,\"sum_DEPSUMBR\":13903516} [deposits in $ thousands: 13,903,516 thousand = 13,903.516 million]"
       }
     },
     {
       "state": "PA",
       "values": {
-        "branches": 68,
-        "deposits": 22409.686
+        "branches": 72,
+        "deposits": 23179.986
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"PA\",\"count\":68,\"sum_DEPSUMBR\":22409686} [deposits in $ thousands: 22,409,686 thousand = 22,409.686 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"PA\",\"count\":72,\"sum_DEPSUMBR\":23179986} [deposits in $ thousands: 23,179,986 thousand = 23,179.986 million]"
       }
     },
     {
       "state": "RI",
       "values": {
-        "branches": 25,
-        "deposits": 8683.067
+        "branches": 24,
+        "deposits": 9807.858
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"RI\",\"count\":25,\"sum_DEPSUMBR\":8683067} [deposits in $ thousands: 8,683,067 thousand = 8,683.067 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"RI\",\"count\":24,\"sum_DEPSUMBR\":9807858} [deposits in $ thousands: 9,807,858 thousand = 9,807.858 million]"
       }
     },
     {
       "state": "SC",
       "values": {
-        "branches": 68,
-        "deposits": 17984.936
+        "branches": 61,
+        "deposits": 19894.807
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"SC\",\"count\":68,\"sum_DEPSUMBR\":17984936} [deposits in $ thousands: 17,984,936 thousand = 17,984.936 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"SC\",\"count\":61,\"sum_DEPSUMBR\":19894807} [deposits in $ thousands: 19,894,807 thousand = 19,894.807 million]"
       }
     },
     {
       "state": "TN",
       "values": {
-        "branches": 56,
-        "deposits": 16911.944
+        "branches": 53,
+        "deposits": 23963.436
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"TN\",\"count\":56,\"sum_DEPSUMBR\":16911944} [deposits in $ thousands: 16,911,944 thousand = 16,911.944 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"TN\",\"count\":53,\"sum_DEPSUMBR\":23963436} [deposits in $ thousands: 23,963,436 thousand = 23,963.436 million]"
       }
     },
     {
       "state": "TX",
       "values": {
-        "branches": 329,
-        "deposits": 172792.694
+        "branches": 313,
+        "deposits": 199803.256
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"TX\",\"count\":329,\"sum_DEPSUMBR\":172792694} [deposits in $ thousands: 172,792,694 thousand = 172,792.694 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"TX\",\"count\":313,\"sum_DEPSUMBR\":199803256} [deposits in $ thousands: 199,803,256 thousand = 199,803.256 million]"
       }
     },
     {
       "state": "UT",
       "values": {
-        "branches": 23,
-        "deposits": 1384.554
+        "branches": 29,
+        "deposits": 1206.8
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"UT\",\"count\":23,\"sum_DEPSUMBR\":1384554} [deposits in $ thousands: 1,384,554 thousand = 1,384.554 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"UT\",\"count\":29,\"sum_DEPSUMBR\":1206800} [deposits in $ thousands: 1,206,800 thousand = 1,206.8 million]"
       }
     },
     {
       "state": "VA",
       "values": {
-        "branches": 102,
-        "deposits": 45870.455
+        "branches": 98,
+        "deposits": 46791.007
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"VA\",\"count\":102,\"sum_DEPSUMBR\":45870455} [deposits in $ thousands: 45,870,455 thousand = 45,870.455 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"VA\",\"count\":98,\"sum_DEPSUMBR\":46791007} [deposits in $ thousands: 46,791,007 thousand = 46,791.007 million]"
       }
     },
     {
       "state": "WA",
       "values": {
-        "branches": 129,
-        "deposits": 42222.087
+        "branches": 119,
+        "deposits": 41462.885
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
-        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
-        "quote": "{\"STALPBR\":\"WA\",\"count\":129,\"sum_DEPSUMBR\":42222087} [deposits in $ thousands: 42,222,087 thousand = 42,222.087 million]"
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(3510%20OR%2025178)%20AND%20YEAR%3A2026&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2026, aggregated by branch state (Bank of America, N.A. cert 3510 and Bank of America California, N.A. cert 25178)",
+        "quote": "{\"STALPBR\":\"WA\",\"count\":119,\"sum_DEPSUMBR\":41462885} [deposits in $ thousands: 41,462,885 thousand = 41,462.885 million]"
       }
     },
     {
@@ -727,8 +727,8 @@
       "description": "60-story owned building; principal executive offices.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
-        "label": "Bank of America 2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+        "label": "Bank of America 2025 Form 10-K, Item 2 Properties",
         "quote": "Bank of America Corporate Center | Charlotte, NC | 60 Story Building | Principal Executive Offices | Owned | 1,212,177"
       },
       "state": "NC"
@@ -741,8 +741,8 @@
       "description": "55-story building for GWIM, Global Banking and Global Markets (leased; 49.9% joint venture interest).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
-        "label": "Bank of America 2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+        "label": "Bank of America 2025 Form 10-K, Item 2 Properties",
         "quote": "Bank of America Tower at One Bryant Park | New York, NY | 55 Story Building | GWIM, Global Banking and"
       },
       "state": "NY"
@@ -755,9 +755,9 @@
       "description": "Three-building leased campus for Global Banking and Global Markets.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
-        "label": "Bank of America 2024 Form 10-K, Item 2 Properties",
-        "quote": "Bank of America Financial Centre | London, UK | 3 Building Campus | Global Banking and Global Markets | Leased | 510,170"
+        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+        "label": "Bank of America 2025 Form 10-K, Item 2 Properties",
+        "quote": "Bank of America Financial Centre | London, UK | 3 Building Campus | Global Banking and Global Markets | Leased | 510,169"
       }
     },
     {
@@ -768,12 +768,12 @@
       "description": "62-story leased building for Global Banking and Global Markets.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
-        "label": "Bank of America 2024 Form 10-K, Item 2 Properties",
-        "quote": "Cheung Kong Center | Hong Kong | 62 Story Building | Global Banking and Global Markets | Leased | 149,790"
+        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+        "label": "Bank of America 2025 Form 10-K, Item 2 Properties",
+        "quote": "Cheung Kong Center | Hong Kong | 62 Story Building | Global Banking and Global Markets | Leased | 117,279"
       }
     }
   ],
-  "notes": "State rows come from two sources, so a state can appear twice with different metric keys: (1) FDIC Summary of Deposits, June 30, 2024 survey, aggregated server-side by the FDIC BankFind API by branch state for both Bank of America insured charters (cert 3510 and cert 25178, the single-office Bank of America California, N.A.); 'count' is office records and 'sum_DEPSUMBR' is deposits in $ thousands, stored in millions with a bracketed conversion. FDIC national totals for the query: 3,744 offices and $1,913,493,650 thousand. BofA has SOD offices in 38 states plus DC; states absent from the FDIC response have no BofA branch. (2) Bank of America 'Local Impact Fact Sheet' pages (resources.bankofamerica.com/local-market/fact-sheet/<market>) give 'Local employees'; only the 11 markets named for a state (AR, CO, DE, IA, KY, ME, NH, NJ, RI, UT, WI) are used; the fact sheets do not define market boundaries, and the other ~80 are metro markets. These pages are undated and current (2026). Wisconsin shows local employees but no FDIC branch offices. Not used: the 10-K states 78% of ~213,000 employees were in the U.S. at Dec 31, 2024 (no country breakdown, so no countries rows; the non-U.S. remainder would be a derivation). Sites are the four principal properties in 10-K Item 2.",
-  "researchedAt": "2026-11-23"
+  "notes": "State rows come from two sources, so a state can appear twice with different metric keys: (1) FDIC Summary of Deposits, June 30, 2026 survey (the newest release), aggregated server-side by the FDIC BankFind API by branch state for both Bank of America insured charters (cert 3510 and cert 25178, the single-office Bank of America California, N.A.); 'count' is office records and 'sum_DEPSUMBR' is deposits in $ thousands, stored in millions with a bracketed conversion. FDIC national totals for the query: 3,599 offices and $1,995,790,194 thousand (2024 survey: 3,744 offices). BofA has SOD offices in 38 states plus DC, the same set as in 2024; states absent from the FDIC response have no BofA branch. (2) Bank of America 'Local Impact Fact Sheet' pages (resources.bankofamerica.com/local-market/fact-sheet/<market>) give 'Local employees'; only the 11 markets named for a state (AR, CO, DE, IA, KY, ME, NH, NJ, RI, UT, WI) are used; the fact sheets do not define market boundaries, and the other ~80 are metro markets. These pages are undated; re-checked Nov 24, 2026, no newer edition found (figures unchanged). Wisconsin shows local employees but no FDIC branch offices. Not used: the 2025 10-K states 77% of ~213,000 employees were in the U.S. at Dec 31, 2025 (no country breakdown, so no countries rows; the non-U.S. remainder would be a derivation). Sites are the four principal properties in the 2025 10-K Item 2.",
+  "researchedAt": "2026-11-24"
 }

@@ -125,6 +125,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "IFRS, Annual Report 2025 (fiscal year ended 31 December 2025). Interest received, interest paid and income taxes paid are all classified inside operating activities, so nothing is added. Capex is gross purchases of PP&E and intangibles (intangibles rose to 29,973 with in-licensing and acquired R&D rights); no business acquisition cash outflow in 2025 (a 1,004 settlement inflow for the prior year's acquisition is excluded).",
+  "notes": "IFRS, Annual Report 2025 (fiscal year ended 31 December 2025). Interest received, interest paid and income taxes paid are all classified inside operating activities, so nothing is added. Capex is gross purchases of PP&E and intangibles. Judgement: the intangibles line (29,973) includes the Akero Therapeutics purchase, which Novo booked as an intangible-asset purchase rather than an acquisition of businesses; the annual report says 'Capital expenditure related to intangible assets was DKK 30.0 billion in 2025 compared with DKK 4.1 billion in 2024, reflecting business development activities, mainly related to the acquisition of Akero Therapeutics, Inc.' It is kept in capex as reported, since the filing gives no separate Akero amount. No 'acquisition of businesses' cash outflow in 2025 (a 1,004 settlement inflow for the prior year's acquisition is excluded).",
   "researchedAt": "2026-11-24"
 }
