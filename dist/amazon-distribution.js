@@ -51,7 +51,9 @@ function distributionMoney(billions) {
 
 function amazonDistribution(leader) {
   const {sharesOutstanding,yearEndPrice,registeredShareholders,holders} = amazonOwnership;
+  const founder = holders[0];
   const otherShares = sharesOutstanding - holders.reduce((sum,holder) => sum + holder.shares,0);
+  const outsideFounder = sharesOutstanding - founder.shares;
   const entries = [...holders,{
     name:"All remaining shares",type:"Other holdings",shares:otherShares,color:"other",
     description:"This remainder includes other funds and institutions, individuals, and any employees or former employees who still hold shares. The filings here do not identify the people behind these holdings.",
@@ -59,16 +61,40 @@ function amazonDistribution(leader) {
   }];
   const equityValue = shares => distributionMoney(shares * yearEndPrice / 1e9);
   const percent = shares => (100 * shares / sharesOutstanding).toFixed(2) + "%";
+  const roundPercent = shares => (100 * shares / sharesOutstanding).toFixed(1) + "%";
   const sources = links => links.map(([url,label]) => externalLink(url,label)).join("");
-  const cashReturned = amazonHistory.reduce((sum,row) => sum + row.buybacks + row.dividends,0);
+  // Centre of each bar segment, used to point the marker at the selected holding.
+  let running = 0;
+  const centres = entries.map(holder => {
+    const centre = 100 * (running + holder.shares / 2) / sharesOutstanding;
+    running += holder.shares;
+    return centre;
+  });
+  const holdingButton = (holder,index) => `<button type="button" data-owner="${index}" aria-pressed="false">
+              <span class="ownership-key ownership-${holder.color}" aria-hidden="true"></span>
+              <span class="holding-name"><strong>${holder.name}</strong><small>${holder.type}</small></span>
+              <span class="holding-amount"><strong>${equityValue(holder.shares)}</strong><small>${percent(holder.shares)}</small></span>
+            </button>`;
+
+  const firstYear = amazonHistory[0].year;
   const last = amazonHistory.at(-1);
+  const years = `${firstYear}–${last.year}`;
+  const cashReturned = amazonHistory.reduce((sum,row) => sum + row.buybacks + row.dividends,0);
+  const dividendsPaid = amazonHistory.reduce((sum,row) => sum + row.dividends,0);
+  const buybackYears = amazonHistory.filter(row => row.buybacks > 0);
+  const cashSummary = [
+    dividendsPaid === 0 ? `Amazon paid no cash dividends in ${years}.` : "",
+    buybackYears.length === 1 ? `Its only buyback spending in these years was ${distributionMoney(buybackYears[0].buybacks)} in ${buybackYears[0].year}.` : ""
+  ].join(" ").trim();
   const highestStockPay = Math.max(...amazonHistory.map(year => year.stockPay));
+  const totalStockPay = amazonHistory.reduce((sum,row) => sum + row.stockPay,0);
+
   return `
     <section id="amazon-distribution" class="distribution" aria-labelledby="distribution-title">
       <header class="distribution-heading">
         <p class="eyebrow">AMAZON CASE STUDY</p>
         <h3 id="distribution-title">Who shares in the value?</h3>
-        <p>Follow Amazon’s shares, the cash it returned, and the ways workers participated in its growth.</p>
+        <p>Follow Amazon’s shares, the cash it returned to shareholders, and how its workers shared in its growth.</p>
       </header>
       <div class="distribution-tabs" role="tablist" aria-label="Explore Amazon’s value">
         ${distributionViews.map(([key,label],index) => `<button id="distribution-tab-${key}" type="button" role="tab" aria-controls="distribution-${key}" aria-selected="${index === 0}" tabindex="${index === 0 ? "0" : "-1"}">${label}</button>`).join("")}
@@ -76,23 +102,34 @@ function amazonDistribution(leader) {
       <div id="distribution-ownership" class="distribution-panel" role="tabpanel" aria-labelledby="distribution-tab-ownership" tabindex="0">
         <div class="distribution-subhead">
           <div><h4>Who held Amazon shares?</h4><p>Year-end 2024 · ${equityValue(sharesOutstanding)} in total equity value</p></div>
-          <div class="distribution-total"><strong>${equityValue(sharesOutstanding - holders[0].shares)}</strong><span>Held outside Bezos’s direct stake</span></div>
         </div>
-        <div class="ownership-bar" aria-hidden="true">
-          ${entries.map((holder,index) => `<span data-owner="${index}" class="ownership-${holder.color}" style="flex-grow:${holder.shares}" title="${holder.name}: ${percent(holder.shares)}"></span>`).join("")}
+        <div class="ownership-takeaway">
+          <p class="ownership-headline"><span>Jeff Bezos held <strong class="is-founder">${roundPercent(founder.shares)}</strong> of Amazon directly.</span> <span>Everyone else held <strong>${roundPercent(outsideFounder)}</strong>.</span></p>
+          <p>The shares outside Bezos’s direct stake were worth <strong>${equityValue(outsideFounder)}</strong> at the year-end price. They were held by index funds, pension systems such as CalPERS, other institutions, individuals, and any employees or former employees who still hold shares.</p>
+        </div>
+        <div class="ownership-figure" aria-hidden="true">
+          <span class="ownership-marker"></span>
+          <div class="ownership-bar">
+            ${entries.map((holder,index) => `<span data-owner="${index}" data-centre="${centres[index].toFixed(3)}" class="ownership-${holder.color}" style="flex-grow:${holder.shares}" title="${holder.name}: ${percent(holder.shares)} · ${equityValue(holder.shares)}"></span>`).join("")}
+          </div>
+          <div class="ownership-scale">
+            <div class="scale-founder" style="flex-grow:${founder.shares}"><span>Jeff Bezos <b>${roundPercent(founder.shares)}</b></span></div>
+            <div class="scale-others" style="flex-grow:${outsideFounder}"><span>Everyone else <b>${roundPercent(outsideFounder)}</b></span></div>
+          </div>
         </div>
         <div class="ownership-breakdown">
-          <div class="ownership-choices" aria-label="Select a holding">
-            ${entries.map((holder,index) => `<button type="button" data-owner="${index}" aria-pressed="false">
-              <span class="ownership-key ownership-${holder.color}" aria-hidden="true"></span>
-              <span class="holding-name"><strong>${holder.name}</strong><small>${holder.type}</small></span>
-              <span class="holding-amount"><strong>${equityValue(holder.shares)}</strong><small>${percent(holder.shares)}</small></span>
-            </button>`).join("")}
+          <div class="ownership-choices" role="group" aria-label="Select a holding">
+            <p class="ownership-group"><span>Founder</span></p>
+            ${holdingButton(entries[0],0)}
+            <p class="ownership-group ownership-group-others"><span>Everyone else</span><span>${equityValue(outsideFounder)} · ${percent(outsideFounder)}</span></p>
+            ${entries.slice(1).map((holder,index) => holdingButton(holder,index + 1)).join("")}
           </div>
           <div class="ownership-detail" aria-live="polite">
-            ${entries.map((holder,index) => `<div data-owner-detail="${index}" hidden>
+            ${entries.map((holder,index) => `<div data-owner-detail="${index}" class="ownership-${holder.color}" hidden>
+              <p class="ownership-detail-type">${holder.type}</p>
               <h5>${holder.name}</h5>
-              <strong class="ownership-share-count">${integer.format(holder.shares)} shares</strong>
+              <p class="ownership-detail-figures"><strong>${equityValue(holder.shares)}</strong><span>${percent(holder.shares)} of shares outstanding</span></p>
+              <p class="ownership-share-count">${integer.format(holder.shares)} shares</p>
               <p>${holder.description}</p>
               <div class="sources">${sources(holder.sources)}</div>
             </div>`).join("")}
@@ -106,34 +143,40 @@ function amazonDistribution(leader) {
       </div>
       <div id="distribution-cash" class="distribution-panel" role="tabpanel" aria-labelledby="distribution-tab-cash" tabindex="0" hidden>
         <div class="distribution-subhead">
-          <div><h4>What did Amazon pay to shareholders?</h4><p>Cash dividends and stock buybacks · Fiscal years 2022–2024</p></div>
+          <div><h4>What did Amazon pay to shareholders?</h4><p>Cash dividends and stock buybacks · Fiscal years ${years}</p></div>
           <div class="distribution-total"><strong>${distributionMoney(cashReturned)}</strong><span>Cash returned over three years</span></div>
         </div>
+        ${cashSummary ? `<p class="distribution-lede">${cashSummary}</p>` : ""}
         <table class="distribution-table">
           <thead><tr><th scope="col">Year</th><th scope="col">Cash dividends</th><th scope="col">Stock buybacks</th></tr></thead>
-          <tbody>${amazonHistory.map(row => `<tr><th scope="row">${row.year}</th><td>${distributionMoney(row.dividends)}</td><td>${distributionMoney(row.buybacks)}</td></tr>`).join("")}</tbody>
+          <tbody>${amazonHistory.map(row => `<tr><th scope="row">${row.year}</th><td${row.dividends === 0 ? ' class="is-zero"' : ""}>${distributionMoney(row.dividends)}</td><td${row.buybacks === 0 ? ' class="is-zero"' : ""}>${distributionMoney(row.buybacks)}</td></tr>`).join("")}</tbody>
+          <tfoot><tr><th scope="row">Total</th><td>${distributionMoney(dividendsPaid)}</td><td>${distributionMoney(cashReturned - dividendsPaid)}</td></tr></tfoot>
         </table>
-        <p class="distribution-note">Buybacks pay the investors who sell shares back to Amazon. The cash flow statement reports the total spent on buybacks, and the identities of those sellers are generally unavailable. Sales between investors can turn share value into cash for the seller and happen outside these figures.</p>
+        <p class="distribution-note">Buybacks pay the investors who sell shares back to Amazon. The cash flow statement reports the total spent on buybacks; who sold is generally not known. Sales between investors also turn share value into cash for the seller, and happen outside these figures.</p>
         <div class="sources">${sources([[amazonSources.annual,"Amazon’s annual report and cash flow statement"]])}</div>
       </div>
       <div id="distribution-workers" class="distribution-panel" role="tabpanel" aria-labelledby="distribution-tab-workers" tabindex="0" hidden>
         <div class="distribution-subhead">
-          <div><h4>How did workers participate?</h4><p>Employment, estimated pay, and reported stock awards</p></div>
+          <div><h4>How did workers participate?</h4><p>Employment, estimated pay and reported stock awards</p></div>
         </div>
         <div class="worker-totals">
           <div><strong>${integer.format(leader.jobs)}</strong><span>People employed at year-end 2024</span></div>
           <div><strong>${distributionMoney(leader.payroll)}</strong><span>${metrics.payroll}</span></div>
           <div><strong>${distributionMoney(last.stockPay)}</strong><span>Stock-based compensation expense in 2024</span></div>
         </div>
-        <p class="distribution-note">Yearly pay is the site's wage estimate. Stock-based compensation is the amount Amazon recorded as an expense. The figures have different bases and should be read individually. An employee’s proceeds depend on what vested and when they sold.</p>
-        <h5 class="distribution-mini-heading">Stock-based compensation expense</h5>
+        <p class="distribution-note">Yearly pay is this site’s wage estimate. Stock-based compensation is the amount Amazon recorded as an expense. The figures have different bases, so read each one on its own. What an employee actually received depends on what vested and when they sold.</p>
+        <div class="worker-equity-head">
+          <h5 class="distribution-mini-heading">Stock-based compensation expense</h5>
+          <p>${distributionMoney(totalStockPay)} over ${years}</p>
+        </div>
         <ul class="worker-equity" aria-label="Annual stock-based compensation expense in billions of US dollars">
-          ${amazonHistory.map(row => `<li><span>${row.year}</span><span class="worker-track" aria-hidden="true"><span style="width:${100 * row.stockPay / highestStockPay}%"></span></span><strong>${distributionMoney(row.stockPay)}</strong></li>`).join("")}
+          ${amazonHistory.map(row => `<li><span class="worker-year">${row.year}</span><span class="worker-track" aria-hidden="true"><span style="width:${100 * row.stockPay / highestStockPay}%"></span></span><strong>${distributionMoney(row.stockPay)}</strong></li>`).join("")}
         </ul>
+        <h5 class="distribution-mini-heading distribution-timeline-heading">Employee ownership over time</h5>
         <ol class="distribution-timeline" aria-label="Selected moments in Amazon’s employee equity history">
-          <li><time datetime="1994">1994</time><div><h5>Stock options for early employees</h5><p>Amazon’s 1994 plan let employees and other eligible contributors participate in the company’s growth through options. By May 1997, holders had exercised options covering about 1.8 million shares under that plan.</p>${externalLink(amazonSources.ipo,"IPO prospectus, employee benefit plans")}</div></li>
-          <li><time datetime="1997-05">May 1997</time><div><h5>Amazon goes public</h5><p>The IPO priced shares at $18 before later stock splits. Some early holders faced a 180-day lockup. Their eventual proceeds depended on when they were able to sell and what they received.</p>${externalLink(amazonSources.ipo,"IPO prospectus, shares eligible for future sale")}</div></li>
-          <li><time datetime="2024">2024</time><div><h5>${decimal.format(last.unitsVested)} million restricted stock units vested</h5><p>This is the number of units that finished vesting during the year. Public company totals leave individual employee holdings and sale proceeds unknown.</p>${externalLink(amazonSources.annual,"Amazon’s annual report, stock-based compensation")}</div></li>
+          <li><time datetime="1994">1994</time><div><h5>Stock options for early employees</h5><p>Amazon’s 1994 plan let employees and other eligible contributors share in the company’s growth through options. By May 1997, holders had exercised options covering about 1.8 million shares under that plan.</p>${externalLink(amazonSources.ipo,"IPO prospectus, employee benefit plans")}</div></li>
+          <li><time datetime="1997-05">May 1997</time><div><h5>Amazon goes public</h5><p>The IPO priced shares at $18 before later stock splits. Some early holders faced a 180-day lockup. Their eventual proceeds depended on when they could sell and what they received.</p>${externalLink(amazonSources.ipo,"IPO prospectus, shares eligible for future sale")}</div></li>
+          <li><time datetime="2024">2024</time><div><h5>${decimal.format(last.unitsVested)} million restricted stock units vested</h5><p>This is the number of units that finished vesting during the year. Company-wide totals don’t show individual employees’ holdings or what they received when they sold.</p>${externalLink(amazonSources.annual,"Amazon’s annual report, stock-based compensation")}</div></li>
         </ol>
       </div>
     </section>`;
@@ -160,15 +203,45 @@ function bindAmazonDistribution(root) {
     });
   });
 
-  const holderButtons = root.querySelectorAll(".ownership-choices button");
+  const holderButtons = [...root.querySelectorAll(".ownership-choices button")];
   const holderDetails = root.querySelectorAll("[data-owner-detail]");
+  const segments = [...root.querySelectorAll(".ownership-bar [data-owner]")];
+  const figure = root.querySelector(".ownership-figure");
+  const marker = root.querySelector(".ownership-marker");
   function selectHolder(index) {
-    holderButtons.forEach((button,i) => button.setAttribute("aria-pressed",String(i === index)));
+    holderButtons.forEach(button => button.setAttribute("aria-pressed",String(Number(button.dataset.owner) === index)));
     holderDetails.forEach((detail,i) => { detail.hidden = i !== index; });
+    segments.forEach((segment,i) => segment.classList.toggle("is-selected",i === index));
+    marker.style.left = segments[index].dataset.centre + "%";
+    marker.className = "ownership-marker " + segments[index].classList[0];
+  }
+  // Light up one holding across the bar and the list while it is hovered or focused.
+  function highlight(index) {
+    const lit = index === null ? null : Number(index);
+    figure.classList.toggle("is-highlighting",lit !== null);
+    segments.forEach((segment,i) => segment.classList.toggle("is-lit",i === lit));
+    holderButtons.forEach(button => button.classList.toggle("is-lit",Number(button.dataset.owner) === lit));
   }
   root.addEventListener("click",event => {
     const selector = event.target.closest("[data-owner]");
     if (selector) selectHolder(Number(selector.dataset.owner));
+  });
+  root.addEventListener("pointerover",event => {
+    const target = event.target.closest(".ownership-bar [data-owner], .ownership-choices [data-owner]");
+    highlight(target ? target.dataset.owner : null);
+  });
+  root.addEventListener("pointerleave",() => highlight(null));
+  holderButtons.forEach((button,position) => {
+    button.addEventListener("focus",() => highlight(button.dataset.owner));
+    button.addEventListener("blur",() => highlight(null));
+    button.addEventListener("keydown",event => {
+      const last = holderButtons.length - 1;
+      const next = {ArrowDown:Math.min(position + 1,last),ArrowUp:Math.max(position - 1,0),Home:0,End:last}[event.key];
+      if (next === undefined) return;
+      event.preventDefault();
+      holderButtons[next].focus();
+      selectHolder(Number(holderButtons[next].dataset.owner));
+    });
   });
   selectHolder(0);
 }
