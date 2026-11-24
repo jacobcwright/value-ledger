@@ -11,6 +11,12 @@
 // - Gate: when research/verified.json exists ({ "sources": { "<url>": { "ok": true|false } } }), only
 //   sources listed there with ok:true are published. A figure whose source is not verified is published
 //   with its value set to null and no source. Without the file, everything that validates is published.
+// - research/lenses/footprint/<id>.json (key `footprint`, see research/FOOTPRINT.md) is checked by
+//   scripts/validate-footprint.mjs and gated row by row: a row whose source URL is not verified ok in
+//   research/verified.json is dropped, as is a row that fails validation; the rest of the file still
+//   publishes. Metrics no surviving row uses are left out, and so is the key when no row survives.
+//   FOOTPRINT_GATE=off skips the verified.json check for footprint rows only (local previews; never
+//   commit output built that way). Amazon keeps its own footprint panel, so its file is not published.
 // - research/lenses/ecosystem/_nordhaus.json, when present and sourced, is published inside coverage.json.
 // Files in dist/companies that this run did not publish are deleted. Exits 0 even when things are
 // skipped, so a half-researched set never blocks a deploy.
@@ -19,6 +25,7 @@ import path from "node:path";
 import {spawnSync} from "node:child_process";
 import {fileURLToPath} from "node:url";
 import {validateLensFile, lensDirs, fileLenses} from "./validate-lenses.mjs";
+import {validateFootprintFile, metricScale, FOOTPRINT_LAYERS} from "./validate-footprint.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const recordsDir = path.join(root, "research/records");
@@ -30,7 +37,10 @@ const SKIP_RECORD = new Set(["jeff-bezos"]);
 const MIRRORS = /dfcfw\.com|9to5mac|seekingalpha|marketscreener|macrotrends|stockanalysis|companiesmarketcap|wsj\.com|reuters\.com|bloomberg|yahoo\.|investing\.com|wikipedia|annualreports\.com|last10k|fintel|gurufocus/;
 // Record lenses (from research/records) and the added lenses, in the order the profile shows them.
 const RECORD_LENSES = ["ownership", "workers", "cash", "geography"];
-const ADDED_LENSES = ["ecosystem", "taxes", "rnd"];
+const ADDED_LENSES = ["ecosystem", "taxes", "rnd", "footprint"];
+const SKIP_FOOTPRINT = new Set(["jeff-bezos"]);
+const FOOTPRINT_GATE = process.env.FOOTPRINT_GATE !== "off";
+const MAX_SITES = 12;
 
 const leaders = new Function(fs.readFileSync(path.join(root, "dist/data.js"), "utf8") + ";return leaders")();
 
@@ -115,6 +125,98 @@ function validRecord(id) {
   return {record: JSON.parse(fs.readFileSync(file, "utf8")), reasons: null};
 }
 
+// ---- Footprint -------------------------------------------------------------------------------
+// The published lens: only rows that validate and (with the gate on) cite a verified source, each with
+// only the fields the site shows. Returns {footprint, stats} or null when there is no file.
+const footprintStats = {files: 0, published: 0, rows: 0, unverified: 0, stale: 0, invalid: 0, metricsDropped: 0, skipped: []};
+// A footprint row usually cites a document the records already cite (a 10-K), which verified.json may mark ok
+// from an earlier run that never saw the footprint quotes. So a footprint row also needs verified.json's quote
+// count for its URL to equal the number of quotes citing that URL now (counted the way verify-quotes.mjs counts
+// them); otherwise its quote has not been checked yet and the row waits for the next verify-quotes run.
+const citedQuotes = new Map();
+function countQuotes(dir) {
+  if (!fs.existsSync(dir)) return;
+  for (const entry of fs.readdirSync(dir, {withFileTypes: true})) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) { countQuotes(full); continue; }
+    if (!entry.name.endsWith(".json")) continue;
+    let data;
+    try { data = JSON.parse(fs.readFileSync(full, "utf8")); } catch { continue; }
+    (function walk(node) {
+      if (Array.isArray(node)) return node.forEach(walk);
+      if (!node || typeof node !== "object") return;
+      if (typeof node.url === "string" && typeof node.quote === "string") citedQuotes.set(node.url, (citedQuotes.get(node.url) || 0) + 1);
+      Object.values(node).forEach(walk);
+    })(data);
+  }
+}
+countQuotes(path.join(root, "research/records"));
+countQuotes(path.join(root, "research/lenses"));
+const quotesChecked = source => verified?.[source.url]?.quotes === citedQuotes.get(source.url);
+const cleanSource = source => ({hostType: source.hostType, url: source.url, label: String(source.label), quote: String(source.quote)});
+function footprintFor(id) {
+  if (SKIP_FOOTPRINT.has(id)) return null;
+  const result = validateFootprintFile(id);
+  if (!result.exists) return null;
+  footprintStats.files++;
+  if (result.fileErrors.length) { footprintStats.skipped.push([id, result.fileErrors]); return null; }
+  const rec = result.record;
+  const badMetrics = new Set(Object.keys(result.metricErrors));
+  footprintStats.metricsDropped += badMetrics.size;
+  const out = {};
+  const used = new Set();
+  let rows = 0;
+  for (const layer of FOOTPRINT_LAYERS) {
+    const checks = result.rows[layer];
+    if (!checks) continue;
+    const kept = [];
+    for (const {index, errs, drops} of checks) {
+      const row = rec[layer][index];
+      if (errs.length) { footprintStats.invalid++; continue; }
+      if (verified && FOOTPRINT_GATE && !passes(row.source)) { footprintStats.unverified++; continue; }
+      if (verified && FOOTPRINT_GATE && !quotesChecked(row.source)) { footprintStats.stale++; continue; }
+      const values = {}, plus = {};
+      for (const [key, value] of Object.entries(row.values || {})) {
+        if (badMetrics.has(key) || drops.includes(key) || typeof value !== "number" || !Number.isFinite(value)) continue;
+        values[key] = value;
+        if (row.plus?.[key] === true) plus[key] = true;
+        used.add(key);
+      }
+      // A row may carry its own period when its source is dated differently from the metric's.
+      const base = {...(typeof row.period === "string" && row.period ? {period: row.period} : {}), source: cleanSource(row.source)};
+      if (layer === "sites") {
+        if (kept.length >= MAX_SITES) continue;
+        kept.push({name: String(row.name), place: row.place ? String(row.place) : null, state: row.state ?? null, iso2: row.iso2 ?? (row.state ? "US" : null),
+          type: row.type ? String(row.type) : null, description: String(row.description), ...(Object.keys(values).length ? {values, plus} : {}), ...base});
+        continue;
+      }
+      if (!Object.keys(values).length) { footprintStats.invalid++; continue; }
+      if (layer === "usStates") kept.push({state: row.state, values, plus, ...base});
+      if (layer === "countries") kept.push({iso2: row.iso2, name: String(row.name), values, plus, ...base});
+      if (layer === "regions") kept.push({name: String(row.name), ...(row.country ? {country: row.country} : {}), countries: Array.isArray(row.countries) ? row.countries : null, values, plus, ...base});
+    }
+    if (kept.length) { out[layer] = kept; rows += kept.length; }
+  }
+  if (!rows) return null;
+  const metrics = {};
+  for (const [key, metric] of Object.entries(rec.metrics)) {
+    if (!used.has(key)) continue;
+    // scale: what one stored unit is worth in plain units (explicit, from the unit, or from a label like "(millions)").
+    metrics[key] = {label: String(metric.label), unit: metric.unit, scale: metricScale(metric), ...(metric.currency ? {currency: metric.currency} : {}),
+      period: metric.period ? String(metric.period) : null, tier: metric.tier, definition: metric.definition ? String(metric.definition) : null};
+  }
+  footprintStats.published++;
+  footprintStats.rows += rows;
+  return {metrics, ...out, notes: rec.notes ? String(rec.notes) : null, researchedAt: rec.researchedAt || null};
+}
+// Coverage counts each number a footprint row shows, and each site.
+function countFootprint(footprint) {
+  if (!footprint) return 0;
+  let count = 0;
+  for (const layer of FOOTPRINT_LAYERS) for (const row of footprint[layer] || []) count += layer === "sites" ? 1 : Object.keys(row.values).length;
+  return count;
+}
+
 const published = [], skipped = [], lensSkipped = [], coverage = [];
 let blockedTotal = 0;
 const recordCount = fs.existsSync(recordsDir) ? fs.readdirSync(recordsDir).filter(f => f.endsWith(".json")).length : 0;
@@ -143,18 +245,21 @@ for (const leader of leaders) {
     }
   }
 
-  if (!record && !Object.keys(lenses).length) continue;
+  const footprint = footprintFor(id);
+  if (!record && !Object.keys(lenses).length && !footprint) continue;
   // Amazon (and any leader whose record failed) publishes only its lenses under a minimal header.
-  let out = record ? {...record, ...lenses} : {id, ...header, lensesOnly: true, ...lenses};
+  let out = record ? {...record, ...lenses} : {id, ...(header || {company: leader.company}), lensesOnly: true, ...lenses};
   const stats = {blocked: 0};
   out = gate(out, stats);
   blockedTotal += stats.blocked;
+  // Gated row by row above, so it joins after the generic gate (which would null figures, not drop rows).
+  if (footprint) out.footprint = footprint;
   fs.writeFileSync(path.join(outDir, id + ".json"), JSON.stringify(out) + "\n");
   published.push(id);
 
   const counts = {};
   for (const key of [...RECORD_LENSES, ...ADDED_LENSES]) {
-    let n = countFigures(out[key]);
+    let n = key === "footprint" ? countFootprint(out.footprint) : countFigures(out[key]);
     // The site shows no Ecosystem tab for platform revenue alone, so it doesn't count as coverage either.
     if (key === "ecosystem" && out.ecosystem && n === countFigures(out.ecosystem.platformRevenue)) n = 0;
     if (n) counts[key] = n;
@@ -209,6 +314,11 @@ const withLens = key => coverage.filter(entry => entry.lenses[key]).length;
 console.log(`Published ${published.length} leaders to dist/companies/ (${recordCount} records found)`);
 console.log(`  lenses: ${[...RECORD_LENSES, ...ADDED_LENSES].map(key => `${key} ${withLens(key)}`).join(" · ")}`);
 console.log(verified ? `  gate: research/verified.json, ${blockedTotal} unverified figure${blockedTotal === 1 ? "" : "s"} published as null` : "  gate: off (no research/verified.json)");
+if (footprintStats.files) {
+  const gateNote = !verified ? "no gate file" : FOOTPRINT_GATE ? `${footprintStats.unverified} rows dropped as unverified, ${footprintStats.stale} more whose quotes verify-quotes has not checked yet` : "GATE OFF (FOOTPRINT_GATE=off): do not commit this output";
+  console.log(`  footprint: ${footprintStats.published}/${footprintStats.files} files published, ${footprintStats.rows} rows; ${gateNote}; ${footprintStats.invalid} invalid rows dropped${footprintStats.metricsDropped ? `, ${footprintStats.metricsDropped} invalid metrics dropped` : ""} (details: node scripts/validate-footprint.mjs)`);
+  for (const [id, reasons] of footprintStats.skipped) console.log(`  ✗ footprint/${id}: ${reasons.slice(0, 3).join("; ")}`);
+}
 if (nordhaus) console.log("  nordhaus: published in coverage.json");
 if (skipped.length) {
   console.log(`Records skipped ${skipped.length}:`);

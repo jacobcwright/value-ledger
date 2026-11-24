@@ -1,0 +1,76 @@
+/* "Where {Company} creates value" (company-footprint.js). The panel reuses the Amazon map classes
+   (amazon-map.css, amazon-states.css) for its shell, globe, list, detail card and state map, and its local
+   tokens (--map-3, --map-line-2, --map-muted…) from .amazon-footprint. This file only parameterises what
+   Amazon fixes (three layers, six legend bands) and adds the parts Amazon doesn't have.
+   Local colors: --cf-tag-older is --gold at low alpha for the "Older data" tag. */
+.company-footprint {--cf-tag-older:#ffd29829}
+
+/* Layer switch: one to three layers */
+.company-footprint .amazon-map-switch::before {width:calc((100% - 6px) / var(--count,3))}
+
+/* Period beside the takeaway and in legends */
+.cf-when {color:var(--map-muted);font:400 14px/1.4 var(--sans);white-space:normal}
+.cf-period {font-variant-numeric:tabular-nums}
+.cf-tag {display:inline-block;margin-left:6px;padding:0 6px;border:1px solid var(--map-line-2);border-radius:var(--radius-sm);color:var(--map-text);font:700 11px/1.6 var(--sans);letter-spacing:.04em;vertical-align:1px;white-space:nowrap}
+.cf-tag.cf-older {border-color:var(--gold);background:var(--cf-tag-older);color:var(--gold)}
+.state-heat-title .cf-period {font-weight:500;color:var(--map-muted)}
+.cf-legend-period {grid-column:1 / -1;color:var(--map-muted);font-size:11px}
+.cf-legend-period .cf-tag {margin-left:4px;font-size:10px}
+.cf-legend-note {grid-column:1 / -1;max-width:180px;color:var(--map-muted);font-size:11px}
+
+/* Number links: every figure opens its source */
+.company-footprint a.cf-num {color:inherit;font:inherit;text-decoration:underline dotted;text-decoration-thickness:1px;text-underline-offset:.18em}
+.company-footprint a.cf-num:hover {color:#fff}
+.company-footprint .amazon-map-detail a.cf-num::after {content:none}
+.company-footprint .amazon-map-takeaway a.cf-num {color:var(--gold)}
+.company-footprint .amazon-map-detail strong a.cf-num {font-size:inherit}
+
+/* Evidence tier tags on the dark surface */
+.company-footprint .cv-tier {margin:0 0 0 4px;background:transparent;border-color:var(--map-line-2);color:var(--map-muted);vertical-align:1px}
+.cf-source-line {display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px}
+.cf-source-line .cv-tier {margin:0}
+.cf-site-words {color:var(--map-text)}
+
+/* Globe legend: computed bands as stepped swatches */
+.cf-legend-steps {grid-column:1 / -1;display:grid;grid-template-columns:repeat(var(--bands,5),1fr);gap:2px;width:132px;max-width:100%}
+.cf-legend-steps i {width:auto;height:8px;border-radius:0;background:var(--dot)}
+.cf-legend-steps i:first-child {border-radius:var(--radius-sm) 0 0 var(--radius-sm)}
+.cf-legend-steps i:last-child {border-radius:0 var(--radius-sm) var(--radius-sm) 0}
+.cf-legend-steps i:only-child {border-radius:var(--radius-sm)}
+
+/* Measure picker above the ranked list (same look as the state panel's selects) */
+.cf-measure label {display:block;margin-bottom:var(--space-1);color:var(--map-muted);font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.cf-measure select {display:block;width:100%;margin:0;padding:8px 32px 8px 10px;color:var(--map-text);background:var(--map-3) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23ffd298' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 12px center;border:1px solid var(--map-line-2);border-radius:var(--radius-sm);font-size:14px;appearance:none;-webkit-appearance:none}
+.cf-measure select:focus-visible {outline:2px solid var(--gold);outline-offset:2px}
+
+/* Ranked list: region tag, and provinces or states listed under their country */
+.cf-region-tag {display:inline;margin-left:6px;color:var(--map-muted);font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+.amazon-map-list > button.cf-sub {padding-left:26px;font-size:13px}
+.amazon-map-list > button.cf-sub strong {font-weight:600}
+.cf-sub-head {margin:var(--space-2) 10px 2px;color:var(--map-muted);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+
+/* Other measures in the globe detail card */
+.cf-dl {margin:var(--space-2) 0}
+.cf-dl > div {display:flex;justify-content:space-between;align-items:baseline;gap:var(--space-2);padding:6px 0;border-top:1px solid var(--map-line);font-size:13px}
+.cf-dl dt {color:var(--map-muted)}
+.cf-dl dd {margin:0;color:var(--map-text);font-weight:700;text-align:right;font-variant-numeric:tabular-nums}
+
+/* State map: any number of legend bands, and DC as a dot */
+.company-footprint .state-heat-scale {grid-template-columns:repeat(var(--bands,6),1fr)}
+.company-footprint .state-heat-scale i:last-of-type {border-radius:0 var(--radius-sm) var(--radius-sm) 0}
+.company-footprint .state-heat-scale i:only-of-type {border-radius:var(--radius-sm)}
+.cf-dc-mark line {stroke:#a9bdb5;stroke-width:1;vector-effect:non-scaling-stroke}
+.cf-dc-mark circle {fill:#a9bdb5}
+.cf-dc-mark text {fill:#c7d8d0;font:700 15px var(--sans)}
+.company-footprint .amazon-state-detail p .cv-tier {margin-left:4px}
+
+@media (max-width:700px) {
+  .cf-when {font-size:13px}
+}
+
+/* The list shares its column with a measure picker and a taller detail card, so the globe row is taller. */
+.company-footprint .amazon-map-layout {height:620px}
+@media (max-width:700px) {
+  .company-footprint .amazon-map-layout {height:auto}
+}
+#cf-title:focus {outline:none}

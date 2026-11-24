@@ -44,11 +44,11 @@ The site is an editorial publication: warm paper, ink, serif display type, red a
 
 ## File ownership
 
-Styles are split by area in `dist/css/`, loaded in this order: `base`, `home-hero`, `home-ranking`, `home-method`, `profile`, `amazon-distribution`, `amazon-map`, `amazon-states`, `company-value`. `methodology.css` styles `methodology.html` only, on top of `base`, `home-hero` (header) and `home-method` (footer). Edit only the files that belong to your area.
+Styles are split by area in `dist/css/`, loaded in this order: `base`, `home-hero`, `home-ranking`, `home-method`, `profile`, `amazon-distribution`, `amazon-map`, `amazon-states`, `company-value`, `company-footprint` (which reuses the Amazon map classes, so it loads after them). `methodology.css` styles `methodology.html` only, on top of `base`, `home-hero` (header) and `home-method` (footer). Edit only the files that belong to your area.
 
 ## Hard rules
 
 - Don't change any figure, source URL, portrait credit or license in `data.js` or the Amazon data files.
 - Keep every source link, photo credit and license line visible.
-- Hash routes must keep working: `#leader/<id>`, `#leader/jeff-bezos/distribution`, `#leader/jeff-bezos/footprint`, `#leader/jeff-bezos/states` and `#leader/<id>/value` (the lenses module; for Amazon, its standalone lens section).
+- Hash routes must keep working: `#leader/<id>`, `#leader/jeff-bezos/distribution`, `#leader/jeff-bezos/footprint`, `#leader/jeff-bezos/states` and `#leader/<id>/footprint`, `#leader/<id>/states` (every leader: the footprint panel, or the simple globe when there is no footprint data), `#leader/<id>/value` (the lenses module; for Amazon, its standalone lens section).
 - Keep the stack: no build step, no frameworks, no external CDNs or trackers. The site must work from static files in `dist/`.

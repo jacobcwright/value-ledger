@@ -262,6 +262,21 @@ function openProfile(leader, section) {
     });
     byId("zoom-in").addEventListener("click",() => profileGlobe.magnify(.12));
     byId("zoom-out").addEventListener("click",() => profileGlobe.magnify(-.12));
+    // When the company file (already loaded for the lenses above) has footprint rows, company-footprint.js
+    // replaces this section with "Where {Company} creates value"; otherwise the simple globe stays.
+    const simple = byId("profile-body").querySelector("section.footprint");
+    const deepLink = section === "footprint" || section === "states";
+    const footprint = typeof bindCompanyFootprint === "function" ? bindCompanyFootprint(simple,leader,section).catch(error => { console.error(error); return null; }) : Promise.resolve(null);
+    footprint.then(panel => {
+      if (panel) {
+        profileGlobe?.destroy();
+        profileGlobe = panel.controller;
+      }
+      const target = panel ? panel.root : simple;
+      if (!deepLink || !target.isConnected) return;
+      target.scrollIntoView({block:"start"});
+      (panel ? panel.focusTarget() : byId("profile-globe"))?.focus({preventScroll:true});
+    });
   }
   const wageInput = byId("wage"), wageReset = byId("wage-reset");
   function updateWage() {

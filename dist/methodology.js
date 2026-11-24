@@ -4,7 +4,7 @@
 (() => {
   const byId = id => document.getElementById(id);
   const escapeHtml = value => String(value).replace(/[&<>"']/g, character => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[character]);
-  const names = {ownership:"Ownership",workers:"Workers",cash:"Cash to shareholders",geography:"Sales by region",ecosystem:"Ecosystem",taxes:"Taxes",rnd:"R&D"};
+  const names = {ownership:"Ownership",workers:"Workers",cash:"Cash to shareholders",geography:"Sales by region",ecosystem:"Ecosystem",taxes:"Taxes",rnd:"R&D",footprint:"Footprint"};
   const rows = byId("coverage-rows");
 
   function renderCoverage(coverage) {
@@ -18,7 +18,7 @@
       const cells = lenses.length
         ? lenses.map(key => {
           const figures = leader.lenses[key];
-          return `<a class="mp-chip" href="${href}" aria-label="${escapeHtml(leader.name)}: ${escapeHtml(names[key])}, ${figures} sourced figure${figures === 1 ? "" : "s"}">${escapeHtml(names[key])}<small>${figures}</small></a>`;
+          return `<a class="mp-chip" href="${key === "footprint" ? href.replace(/\/value$/,"/footprint") : href}" aria-label="${escapeHtml(leader.name)}: ${escapeHtml(names[key])}, ${figures} sourced figure${figures === 1 ? "" : "s"}">${escapeHtml(names[key])}<small>${figures}</small></a>`;
         }).join("")
         : `<a class="mp-chip is-empty" href="${href}">Ranking figures only</a>`;
       return `<tr><th scope="row"><a href="${href}">${escapeHtml(leader.name)}</a><small>${escapeHtml(leader.company)}</small></th><td><div class="mp-chips">${cells}</div></td></tr>`;
