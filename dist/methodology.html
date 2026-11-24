@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="How The Business 100 measures the value its companies create: market value, people employed, estimated pay, ownership, cash to shareholders, stock pay, platform ecosystems, taxes and R&amp;D, each a separate lens with its sources and caveats.">
+<meta name="description" content="How The Business 100 measures the value its companies create: market value, people employed, estimated pay, paid out and sales enabled, ownership, cash to shareholders, stock pay, platform ecosystems, taxes and R&amp;D, each a separate lens with its sources and caveats.">
 <link rel="canonical" href="https://valueforhumanity.com/methodology">
 <meta name="theme-color" content="#201c1b">
 <meta name="color-scheme" content="light">
@@ -13,7 +13,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:url" content="https://valueforhumanity.com/methodology">
 <meta property="og:title" content="Methodology | The Business 100">
-<meta property="og:description" content="Each lens on the value these companies create, with its definition, sources and caveats. Lenses are never added together.">
+<meta property="og:description" content="Each lens on the value these companies create, with its definition, sources and caveats. Lenses are kept separate; only paid out combines its own parts.">
 <meta property="og:image" content="https://valueforhumanity.com/og-image.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
@@ -21,7 +21,7 @@
 <meta property="og:image:alt" content="The Business 100 from Value for Humanity: 100 leaders profiled, $35.5 trillion combined value created, 15 million people employed, $985 billion estimated annual pay to workers.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Methodology | The Business 100">
-<meta name="twitter:description" content="Each lens on the value these companies create, with its definition, sources and caveats. Lenses are never added together.">
+<meta name="twitter:description" content="Each lens on the value these companies create, with its definition, sources and caveats. Lenses are kept separate; only paid out combines its own parts.">
 <meta name="twitter:image" content="https://valueforhumanity.com/og-image.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
@@ -46,13 +46,14 @@
 </header>
 
 <nav class="mp-toc" aria-label="On this page">
-<a href="#value-created">Value created</a><a href="#lenses">The lenses</a><a href="#tiers">Evidence</a><a href="#not-counted">What we don’t count</a><a href="#coverage">Coverage</a>
+<a href="#value-created">Value created</a><a href="#lenses">The lenses</a><a href="#lens-paidout">Paid out</a><a href="#tiers">Evidence</a><a href="#not-counted">What we don’t count</a><a href="#coverage">Coverage</a>
 </nav>
 
 <section class="mp-section" id="value-created" aria-labelledby="value-created-title">
 <h2 id="value-created-title">What “value created” means here</h2>
-<p>“Value created” is the umbrella. Under it sit separate lenses: market value, the people a company employs and what they earn, who owns it, the cash it returns, what flows through its platform, the taxes it pays and what it spends on research.</p>
-<p><strong>The lenses are never added together, and never added to market value.</strong> They measure different things, in different units and sometimes different years, and they overlap. A worker’s pay funds income taxes. A seller’s sales on a platform are also that seller’s revenue. Adding them would count the same dollar more than once.</p>
+<p>“Value created” is the umbrella. Under it sit separate lenses: market value, the people a company employs and what they earn, what it paid out to others, who owns it, the cash it returns, what flows through its platform, the taxes it pays and what it spends on research.</p>
+<p><strong>Lenses are not added to each other or to market value.</strong> They measure different things, in different units and sometimes different years, and they overlap. A worker’s pay funds income taxes. A seller’s sales on a platform are also that seller’s revenue. Adding them would count the same dollar more than once.</p>
+<p><strong>One measure combines figures on purpose: <a href="#lens-paidout">paid out &amp; sales enabled</a>.</strong> It adds up the parts of what a company paid to others, which don’t overlap with each other, and for marketplaces the sales its platform made for others. It never adds estimated pay (which is already inside it), market value or any other lens. And it is never totaled across the list, because one company’s payment is another company’s revenue.</p>
 </section>
 
 <section class="mp-section" id="lenses" aria-labelledby="lenses-title">
@@ -83,11 +84,25 @@
 <dt>Caveats</dt><dd>Not a reported figure. Actual pay varies by role and location.</dd>
 </dl>
 </article>
+<article class="mp-lens" id="lens-paidout">
+<h3>Paid out &amp; sales enabled</h3>
+<dl>
+<dt>What it is</dt><dd>The money a company paid other people and businesses in one fiscal year: employees, suppliers, partners, lenders and governments, plus builders and equipment makers for its capital spending. For marketplaces only (Shopify, Uber, Airbnb, eBay, MercadoLibre and Grab), it adds the sales the platform enabled for others. The ranking shows it in USD.</dd>
+<dt>Formula</dt><dd><strong>Paid out = revenue − operating cash flow + capital spending</strong>, plus interest paid and income taxes paid only where the company reports them outside operating cash flow. Operating cash flow is what is left of customers’ payments after the company has paid its employees, suppliers, partners, lenders and governments, so revenue minus operating cash flow is what it paid all of them. Capital spending is purchases of property, equipment and intangible assets, excluding acquisitions and vehicles or equipment bought to lease to customers. <strong>Sales enabled = the marketplace’s own gross volume (GMV, gross bookings or gross booking value) − its revenue</strong>, minus its own first-party sales where it states them.</dd>
+<dt>Customer lending</dt><dd>Some companies book growth in customer loans, lease fleets or finance receivables inside operating cash flow (carmakers’ finance arms, for example). That growth is lending, not a payment. Where the company discloses the amount, we show paid out adjusted for it and rank that figure; the profile keeps both numbers. Where it doesn’t, paid out is shown unadjusted with a caveat.</dd>
+<dt>How we checked it</dt><dd>In a pilot on eight companies, the formula’s payments to suppliers and employees came within 0.5% of the figures Biocon publishes in its own statement of economic value distributed, and the formula agreed within ±3% of a cost-based calculation at six of the eight. Our build recomputes every figure from its inputs and stops if a stored figure disagrees.</dd>
+<dt>Source</dt><dd>The income statement and cash-flow statement in the company’s 10-K, 20-F or annual report, each input with a verbatim quote; the marketplace volumes come from the Ecosystem lens. Non-USD figures are converted at the Federal Reserve’s annual average exchange rate (G.5A) for the calendar year that covers most of the fiscal year; profiles show the native currency.</dd>
+<dt>Not counted</dt><dd>Payment volume, client assets and studies a company commissioned are never used as sales enabled. Dividends and buybacks are not payouts here: they are financing flows, shown in Cash to shareholders.</dd>
+<dt>Not comparable</dt><dd>Banks and brokers: their cash flows are mostly customers’ deposits and loans, so the formula doesn’t apply. Their profiles show operating costs paid, excluding interest (noninterest expense − depreciation and amortization − stock-based compensation + income taxes paid), with interest paid to depositors and lenders beside it, never added. They sort last in the column.</dd>
+<dt>Caveats</dt><dd>One fiscal year: working-capital swings move it, and a company that builds inventory or spends heavily on capital projects can pay out more than its revenue. Interest and dividends received inside operating cash flow lower it; non-cash revenue raises it. Payments companies, exchanges and asset managers use the formula with a sector flag. Insurance-heavy Berkshire Hathaway counts claims paid as payouts. Sales enabled is the value of others’ sales, not their earnings. Estimated pay to workers is already inside paid out and is never added to it, and the column is never summed across companies.</dd>
+</dl>
+</article>
 <article class="mp-lens" id="lens-ownership">
 <h3>Ownership</h3>
 <dl>
 <dt>What it is</dt><dd>Who holds the company’s shares, as a percentage of all shares outstanding (economic ownership, not votes). Voting power is shown separately when a filing states it.</dd>
 <dt>Source</dt><dd>Proxy statements, annual reports, 20-F and 40-F filings, Schedules 13D and 13G, and exchange shareholding disclosures.</dd>
+<dt>Who stands behind everyone else</dt><dd>Named holders that are index funds and asset managers are grouped together, each with who it invests for in its own words. Norway’s Government Pension Fund Global (from NBIM’s year-end holdings list) and CalPERS (its Form 13F shares ÷ shares outstanding) are listed as pensions and sovereign funds: they are separate legal holders from the asset managers, though minor overlap is possible where an external manager runs part of a pension’s money. They are drawn in the bar only when every listed segment still fits within 100%. The rest is “all other shareholders”, with the company’s count of holders of record in its own words; that count understates owners, because shares held through a brokerage or fund are usually registered in a nominee’s name.</dd>
 <dt>Caveats</dt><dd>“Everyone else” is 100% minus the leader and family. A holding reported as a share of one class only (for example “% of Class A”) is listed but never drawn in the bar or subtracted from everyone else. When a family or promoter-group total already includes the leader, the two are never added. A stake computed from a filing’s class counts is labelled “derived”, with the method shown.</dd>
 </dl>
 </article>

@@ -1,7 +1,9 @@
 // "Who shares in the value?" in every profile, plus "How we got these numbers".
 // Data: dist/companies/<leader-id>.json, written by scripts/build-companies.mjs from research/records and
 // research/lenses (see research/SCHEMA.md and research/LENSES.md). Values are billions of the stated currency.
-// Each lens is shown on its own and never added to another or to market value.
+// Each lens is shown on its own and never added to another or to market value. Paid out is the one lens
+// that adds figures together, and only its own parts (revenue − operating cash flow + capex, then sales
+// enabled for marketplaces); estimated pay is inside it and never added to it.
 // Amazon keeps its bespoke case study; its file carries only the added lenses (ecosystem, taxes, R&D),
 // which mount as a small standalone section after the case study.
 // Defensive by design: every figure is shown only when it has a number and an https source, and never
@@ -13,6 +15,7 @@ const companyValueMirrors = /dfcfw\.com|9to5mac|seekingalpha|marketscreener|macr
 const companyValueHosts = ["sec","company","exchange","regulator"];
 const companyValueViews = [
   ["ownership","Who owns it"],
+  ["paidout","Paid out"],
   ["workers","Workers"],
   ["cash","Cash to shareholders"],
   ["ecosystem","Ecosystem"],
@@ -20,7 +23,7 @@ const companyValueViews = [
   ["geography","Where sales come from"]
 ];
 // Amazon's own case study already covers ownership, workers, cash and sales by market.
-const companyLensViews = ["ecosystem","fiscal"];
+const companyLensViews = ["paidout","ecosystem","fiscal"];
 const companyHolderTypes = {"asset-manager":"Asset manager","index-fund":"Index fund",pension:"Pension",sovereign:"Sovereign fund",government:"Government",family:"Family",company:"Company",employees:"Employees",other:"Other"};
 const companyRelations = {founder:"Founder","co-founder":"Co-founder","founding-family":"Founding family",estate:"Estate",ceo:"CEO","former-ceo":"Former CEO",chair:"Chair",executive:"Executive",investor:"Investor"};
 // Evidence tiers, as named on the methodology page.
@@ -159,17 +162,58 @@ function cvOwnership(record, leader) {
   const barHolders = holders.filter(holder => holder.basis !== "class").slice(0,3);
   const classHolders = holders.filter(holder => holder.basis === "class").slice(0,3);
   const classOf = holder => holder.classLabel ? String(holder.classLabel) : "one class";
+  // Who stands behind "everyone else" (research/lenses/owners): which named holders are index funds and asset
+  // managers (and who they invest for), and two public funds, Norway's NBIM and CalPERS, which file separately
+  // from the managers. A fund already named in the filing's holder list is not added a second time.
+  const owners = record.owners && typeof record.owners === "object" ? record.owners : {};
+  const managerFor = holder => {
+    const manager = owners.managers && typeof owners.managers === "object" ? owners.managers[holder.name] : null;
+    const source = manager && manager.investsFor ? cvSource(manager.source) : null;
+    return source ? {name:String(manager.name || holder.name),investsFor:String(manager.investsFor),source} : null;
+  };
+  const named = pattern => holders.some(holder => pattern.test(holder.name));
+  const nbimSource = owners.nbim && cvNumber(owners.nbim.pct) && owners.nbim.pct > 0 ? cvSource(owners.nbim.source) : null;
+  const nbim = nbimSource && !named(/norges bank|government of norway|government pension fund|\bnbim\b/i) ? {pct:owners.nbim.pct,asOf:owners.nbim.asOf,source:nbimSource} : null;
+  const calpersData = owners.calpers && cvNumber(owners.calpers.pct) && owners.calpers.pct > 0 ? owners.calpers : null;
+  const calpersSources = calpersData ? [cvSource(calpersData.source),...(Array.isArray(calpersData.inputs) ? calpersData.inputs : []).map(cvSource)] : [];
+  const calpers = calpersData && calpersSources.length > 1 && calpersSources.every(Boolean) && !named(/calpers|california public employees/i)
+    ? {pct:calpersData.pct,shares:calpersData.shares,asOf:calpersData.asOf,method:String(calpersData.method || ""),classLabel:calpersData.basis === "class" ? String(calpersData.classLabel || "one class") : "",sources:calpersSources}
+    : null;
+  const recordHolders = owners.holdersOfRecord && Number.isInteger(owners.holdersOfRecord.count) && cvSource(owners.holdersOfRecord.source) ? {...owners.holdersOfRecord,source:cvSource(owners.holdersOfRecord.source)} : null;
   for (const holder of [...barHolders,...classHolders]) {
     const source = cvSource(holder.source);
     sources.push(source);
     proof.push(cvProof(holder.name + (holder.basis === "class" ? ` (% of ${classOf(holder)})` : ""),cvPercent(holder.pctEconomic,2),cvDate(holder.asOf) || asOfOwnership,"record",[source]));
+    const manager = managerFor(holder);
+    if (manager) {
+      sources.push(manager.source);
+      proof.push(cvProof(`Who ${manager.name} invests for`,manager.investsFor,"","company",[manager.source],`Matched to the filing’s holder “${holder.name}”.`));
+    }
   }
   if (!self && !family && !holders.length) return null;
 
   // A family or promoter-group total that already includes the leader is never added to the leader's own stake.
   const selfPct = family?.includesLeader ? family.pct : (self?.pct || 0) + (family?.pct || 0);
-  const listed = selfPct + barHolders.reduce((sum,holder) => sum + holder.pctEconomic,0);
+  const listedNamed = selfPct + barHolders.reduce((sum,holder) => sum + holder.pctEconomic,0);
+  // The pension and sovereign group joins the bar only when every listed segment still fits within 100%;
+  // otherwise it stays in the list, undrawn. CalPERS's class-basis stake (Berkshire: % of Class B) is never drawn.
+  const pensionPct = (nbim?.pct || 0) + (calpers && !calpers.classLabel ? calpers.pct : 0);
+  const pensionInBar = pensionPct > 0 && listedNamed <= 100.5 && listedNamed + pensionPct <= 100;
+  const listed = listedNamed + (pensionInBar ? pensionPct : 0);
   const rest = listed <= 100.5 ? Math.max(0,100 - listed) : null;
+  if (nbim) {
+    sources.push(nbim.source);
+    proof.push(cvProof("Norway’s Government Pension Fund Global (NBIM)",cvPercent(nbim.pct,2),cvDate(nbim.asOf),"company",[nbim.source],"Norway’s sovereign wealth fund. The ownership percentage as NBIM’s own holdings list publishes it. A separate legal holder from the asset managers listed; minor overlap is possible where an external manager runs part of a fund’s money."));
+  }
+  if (calpers) {
+    sources.push(...calpers.sources);
+    proof.push(cvProof(`CalPERS${calpers.classLabel ? ` (% of ${calpers.classLabel})` : ""}`,cvPercent(calpers.pct,2),cvDate(calpers.asOf),"derived",calpers.sources,
+      [`${integer.format(calpers.shares)} shares in its Form 13F.`,calpers.method ? calpers.method + "." : "",calpers.classLabel ? `A share of ${calpers.classLabel} only, so it is listed but not drawn in the bar.` : "","A separate legal holder from the asset managers listed; minor overlap is possible where an external manager runs part of CalPERS’s money."].filter(Boolean).join(" ")));
+  }
+  if (recordHolders) {
+    sources.push(recordHolders.source);
+    proof.push(cvProof("Holders of record",integer.format(recordHolders.count),cvDate(recordHolders.asOf),"record",[recordHolders.source],"Counts registered holders. Shares held through a brokerage or fund are usually registered in a nominee’s name, so one record can stand for many owners."));
+  }
   // Rounded from the displayed stake, so the two headline figures always sum to 100.0%.
   const r1 = value => Math.round(value * 10) / 10;
   const othersPct = 100 - (family?.includesLeader ? r1(family.pct) : r1(self?.pct || 0) + r1(family?.pct || 0));
@@ -196,7 +240,7 @@ function cvOwnership(record, leader) {
   }
 
   // The blue swatch marks the remainder, so it sits beside "Everyone else" only when that is the remainder.
-  const othersLine = `<span class="cv-headline-rest">${barHolders.length ? "" : '<i class="cv-key cv-c-rest" aria-hidden="true"></i>'}Everyone else: <strong>${cvPercent(othersPct)}</strong></span>`;
+  const othersLine = `<span class="cv-headline-rest">${barHolders.length || pensionInBar ? "" : '<i class="cv-key cv-c-rest" aria-hidden="true"></i>'}Everyone else: <strong>${cvPercent(othersPct)}</strong></span>`;
   let headline;
   if (family?.includesLeader) {
     headline = `<span>${escapeHtml(family.headline)} holds <strong>${cvPercent(family.pct)}</strong> of ${cvPossessive(company)} shares${self ? `, including ${cvPossessive(name)} own <strong>${cvPercent(self.pct,2)}</strong>${derivedTag}` : ""}.</span>` + othersLine;
@@ -212,7 +256,8 @@ function cvOwnership(record, leader) {
     headline = `<span>${holders.length === 1 ? "Largest disclosed holder" : "Largest disclosed holders"}: ${named.join(" and ")}.</span>`;
   }
 
-  // Bar and legend share one list of entries; colour follows the entity.
+  // Bar and legend share one list of entries; colour follows the entity: the leader and family in --share-self,
+  // named holders in --share-1/2 (alternating), the pension and sovereign group in --share-3, the rest in blue.
   const entries = [];
   const leaderRow = self ? {key:"self",name,detail:escapeHtml(companyRelations[person.relation] || "Leader") + (self.derived ? " · derived" : ""),pct:self.pct} : null;
   if (family?.includesLeader) {
@@ -222,28 +267,73 @@ function cvOwnership(record, leader) {
     if (family) entries.push({key:"self",name:escapeHtml(family.label),detail:escapeHtml(family.detail),pct:family.pct});
   }
   const selfCount = entries.length;
-  barHolders.forEach((holder,index) => {
-    const asOf = cvDate(holder.asOf);
-    entries.push({key:String(index + 1),name:escapeHtml(holder.name),detail:[escapeHtml(companyHolderTypes[holder.type] || "Holder"),asOf ? "as of " + asOf : ""].filter(Boolean).join(" · "),pct:holder.pctEconomic});
+  const holderDetail = holder => [escapeHtml(companyHolderTypes[holder.type] || "Holder"),cvDate(holder.asOf) ? "as of " + cvDate(holder.asOf) : ""].filter(Boolean).join(" · ");
+  const managerLine = manager => `Invests for ${cvLink(manager.source,manager.investsFor)}`;
+  // Managers first, then the other named holders, so the bar reads in the same order as the list.
+  const barManagers = barHolders.filter(managerFor), barOthers = barHolders.filter(holder => !managerFor(holder));
+  const namedEntries = [...barManagers,...barOthers].map((holder,index) => {
+    const manager = managerFor(holder);
+    return {key:String(index % 2 + 1),name:escapeHtml(holder.name),detail:holderDetail(holder) + (manager ? `<span class="cv-invests">${managerLine(manager)}</span>` : ""),pct:holder.pctEconomic,manager:Boolean(manager)};
   });
+  const pensionEntry = pensionInBar ? {key:"3",name:"Pensions &amp; sovereign funds",pct:pensionPct} : null;
   // With no named holders the remainder is everyone else; otherwise it sits inside an "Everyone else" group.
-  const restName = selfCount && !barHolders.length ? "Everyone else" : "All other shareholders";
-  if (rest !== null) entries.push({key:"rest",name:restName,detail:"100% minus the holdings listed",pct:rest});
+  const restName = selfCount && !barHolders.length && !pensionInBar ? "Everyone else" : "All other shareholders";
+  const restEntry = rest !== null ? {key:"rest",name:restName,detail:"100% minus the holdings listed",pct:rest} : null;
+  const barEntries = [...entries,...namedEntries,...(pensionEntry ? [pensionEntry] : []),...(restEntry ? [restEntry] : [])];
+
   const row = entry => `<li><i class="cv-key cv-c-${entry.key}" aria-hidden="true"></i><span class="cv-holder-name"><strong>${entry.name}</strong><small>${entry.detail}</small></span><span class="cv-holder-pct">${cvPercent(entry.pct,2)}</span></li>`;
-  // Rows that are listed but not drawn: the leader inside a family total, and class-basis holders.
-  const unbarred = (title, detail, pct, basis = "") => `<li class="cv-unbarred"><i class="cv-key cv-key-none" aria-hidden="true"></i><span class="cv-holder-name"><strong>${title}</strong><small>${detail}</small></span><span class="cv-holder-pct">${pct}${basis ? `<small>${basis}</small>` : ""}</span></li>`;
+  // Rows that are listed but not drawn: the leader inside a family total, class-basis holders, and the
+  // pension group when drawing it would take the listed segments past 100%.
+  const unbarred = (title, detail, pct, basis = "", key = "none") => `<li class="cv-unbarred"><i class="cv-key ${key === "none" ? "cv-key-none" : `cv-c-${key}`}" aria-hidden="true"></i><span class="cv-holder-name"><strong>${title}</strong><small>${detail}</small></span><span class="cv-holder-pct">${pct}${basis ? `<small>${basis}</small>` : ""}</span></li>`;
   const includedRow = family?.includesLeader && leaderRow ? unbarred(leaderRow.name,`${leaderRow.detail} · included in the ${escapeHtml(family.label)} total`,cvPercent(leaderRow.pct,2)) : "";
-  const classRows = classHolders.map(holder => {
-    const asOf = cvDate(holder.asOf);
-    return unbarred(escapeHtml(holder.name),[escapeHtml(companyHolderTypes[holder.type] || "Holder"),asOf ? "as of " + asOf : ""].filter(Boolean).join(" · "),cvPercent(holder.pctEconomic,2),`(% of ${escapeHtml(classOf(holder))})`);
-  }).join("");
-  const grouped = selfCount && (barHolders.length || classHolders.length);
-  const list = grouped
-    ? entries.slice(0,selfCount).map(row).join("") + includedRow
-      + (barHolders.length ? `<li class="cv-group"><span>Everyone else</span><span>${cvPercent(othersPct)}</span></li>` + entries.slice(selfCount).map(row).join("") : entries.slice(selfCount).map(row).join(""))
-      + (classRows ? `<li class="cv-group cv-group-sub"><span>Within everyone else: largest holders of one class</span></li>` + classRows : "")
-    : entries.map(row).join("") + includedRow + classRows;
-  const bar = rest !== null && entries.length ? `<div class="cv-bar" aria-hidden="true">${entries.map(entry => `<span class="cv-c-${entry.key}" style="flex-grow:${entry.pct.toFixed(3)}" title="${entry.name.replace(/<[^>]*>/g,"")}: ${cvPercent(entry.pct,2)}"></span>`).join("")}</div>` : "";
+  const classRow = holder => {
+    const manager = managerFor(holder);
+    return unbarred(escapeHtml(holder.name),holderDetail(holder) + (manager ? `<span class="cv-invests">${managerLine(manager)}</span>` : ""),cvPercent(holder.pctEconomic,2),`(% of ${escapeHtml(classOf(holder))})`);
+  };
+  const classManagers = classHolders.filter(managerFor), classOthers = classHolders.filter(holder => !managerFor(holder));
+  const sub = (title, pct = "") => `<li class="cv-group cv-group-sub"><span>${title}</span>${pct ? `<span>${pct}</span>` : ""}</li>`;
+
+  // Pensions and sovereign funds: each a row inside the group; the group is one segment in the bar.
+  const pensionRows = [];
+  if (nbim) pensionRows.push(`<li class="cv-pension"><i class="cv-key ${pensionInBar ? "cv-c-3" : "cv-key-none"}" aria-hidden="true"></i><span class="cv-holder-name"><strong>Norway’s Government Pension Fund Global</strong><small>Norway’s sovereign wealth fund · ${cvLink(nbim.source,"NBIM holdings list")}${cvDate(nbim.asOf) ? " · as of " + cvDate(nbim.asOf) : ""}</small></span><span class="cv-holder-pct">${cvPercent(nbim.pct,2)}</span></li>`);
+  if (calpers) {
+    const detail = `Pension fund for California public employees · ${integer.format(calpers.shares)} shares, ${cvLink(calpers.sources[0],"Form 13F")}${cvDate(calpers.asOf) ? " · as of " + cvDate(calpers.asOf) : ""}`;
+    pensionRows.push(calpers.classLabel
+      ? unbarred("CalPERS",detail,cvPercent(calpers.pct,2),`(% of ${escapeHtml(calpers.classLabel)})`)
+      : `<li class="cv-pension"><i class="cv-key ${pensionInBar ? "cv-c-3" : "cv-key-none"}" aria-hidden="true"></i><span class="cv-holder-name"><strong>CalPERS</strong><small>${detail}</small></span><span class="cv-holder-pct">${cvPercent(calpers.pct,2)}</span></li>`);
+  }
+  const pensionNote = pensionPct > 0 && !pensionInBar ? `<li class="cv-note">Not drawn in the bar: with the holdings above, the listed segments would pass 100%.</li>` : "";
+
+  // Holders of record, in the filing's own words. Registered counts miss owners who hold through a nominee.
+  let restDetail = restEntry ? restEntry.detail : "";
+  if (recordHolders) {
+    const quote = String(recordHolders.source.quote || "");
+    const terms = [[/shareowner accounts of record/i,"shareowner accounts of record"],[/shareholder accounts of record/i,"shareholder accounts of record"],[/record holders/i,"record holders"],
+      [/holders of common stock of record/i,"holders of record"],[/(?:common\s+)?(stockholders|shareholders|holders) of record/i,match => match[1].toLowerCase() + " of record"],
+      [/registered\s+(?:common\s+)?(shareholders|stockholders|holders)/i,match => "registered " + match[1].toLowerCase()]];
+    let term = "";
+    for (const [pattern,label] of terms) { const match = pattern.exec(quote); if (match) { term = typeof label === "function" ? label(match) : label; break; } }
+    // The class the count covers, when the words right after the number name one ("16,800 record holders of its Class B common stock").
+    const digits = String(recordHolders.count).split("").join("[,.\\s\\u00a0\\u202f]?");
+    const at = new RegExp(`(?<![\\d,])${digits}(?![\\d])`).exec(quote);
+    const after = at ? quote.slice(at.index + at[0].length).split(/\d/)[0] : "";
+    const shareClass = /\bclass\s+([a-z])\b/i.exec(after);
+    const counted = `${integer.format(recordHolders.count)} ${term || "shareholders on the register"}${shareClass ? ` of Class ${shareClass[1].toUpperCase()}` : ""}${cvDate(recordHolders.asOf) ? ` (${cvDate(recordHolders.asOf)})` : ""}`;
+    restDetail = `${cvLink(recordHolders.source,counted)}, plus everyone who owns shares through a brokerage, a fund or a pension.${term ? " Holders of record undercount owners: a broker’s clients can appear as a single record." : ""}`;
+  }
+  const restRow = restEntry ? row({...restEntry,detail:restDetail}).replace("<li>",'<li class="cv-rest">') : "";
+  const groups = [
+    barManagers.length || classManagers.length ? sub("Index funds &amp; asset managers") + namedEntries.filter(entry => entry.manager).map(row).join("") + classManagers.map(classRow).join("") : "",
+    barOthers.length ? (barManagers.length || classManagers.length || pensionRows.length ? sub("Other large holders") : "") + namedEntries.filter(entry => !entry.manager).map(row).join("") : "",
+    classOthers.length ? sub("Largest holders of one class") + classOthers.map(classRow).join("") : "",
+    pensionRows.length ? sub("Pensions &amp; sovereign funds",pensionInBar ? cvPercent(pensionPct,2) : "") + pensionRows.join("") + pensionNote : "",
+    restRow
+  ].join("");
+  const anyGroup = barHolders.length || classHolders.length || pensionRows.length;
+  const list = entries.map(row).join("") + includedRow
+    + (selfCount && anyGroup ? `<li class="cv-group"><span>Everyone else</span><span>${cvPercent(othersPct)}</span></li>` : "")
+    + groups;
+  const bar = rest !== null && barEntries.length ? `<div class="cv-bar" aria-hidden="true">${barEntries.map(entry => `<span class="cv-c-${entry.key}" style="flex-grow:${entry.pct.toFixed(3)}" title="${entry.name.replace(/<[^>]*>/g,"")}: ${cvPercent(entry.pct,2)}"></span>`).join("")}</div>` : "";
 
   const structure = ownership.structure && typeof ownership.structure === "object" ? ownership.structure : null;
   const structureParts = [];
@@ -256,8 +346,11 @@ function cvOwnership(record, leader) {
   const method = [
     self?.derived ? `<p><strong>Derived stake.</strong> ${escapeHtml(self.derived)}</p>` : "",
     family?.includesLeader ? `<p>The ${escapeHtml(family.label)} total already includes ${cvPossessive(name)} own stake, so the two are never added together.</p>` : "",
-    rest !== null ? "<p>“All other shareholders” is 100% minus the holdings listed. Percentages are of all shares outstanding, as each filing states them.</p>" : "",
-    classHolders.length ? "<p>Holdings marked “% of Class A” (or another class) are a share of that class only. They are listed, but not drawn in the bar or subtracted from “everyone else”.</p>" : ""
+    rest !== null ? `<p>“All other shareholders” is 100% minus the holdings listed${pensionInBar ? ", including the pension and sovereign funds" : ""}. Percentages are of all shares outstanding, as each filing states them.</p>` : "",
+    classHolders.length || calpers?.classLabel ? "<p>Holdings marked “% of Class A” (or another class) are a share of that class only. They are listed, but not drawn in the bar or subtracted from “everyone else”.</p>" : "",
+    barManagers.length || classManagers.length ? "<p>Index funds and asset managers invest on behalf of others; who they invest for is in each firm’s own words, linked to its source.</p>" : "",
+    nbim || calpers ? `<p>${[nbim ? "Norway’s Government Pension Fund Global (from NBIM’s year-end holdings list)" : "",calpers ? "CalPERS (its Form 13F shares ÷ shares outstanding)" : ""].filter(Boolean).join(" and ")} ${nbim && calpers ? "are separate legal holders" : "is a separate legal holder"} from the asset managers listed, so ${nbim && calpers ? "they are" : "it is"} listed on ${nbim && calpers ? "their" : "its"} own. Minor overlap is possible where an external manager runs part of a pension’s money.${pensionPct > 0 && !pensionInBar ? " Drawing the group would take the listed segments past 100%, so it is listed but not drawn." : ""}</p>` : "",
+    recordHolders ? "<p>Holders of record count registered holders, in the filing’s own words. Shares held through a brokerage or fund are usually registered in a nominee’s name, so the count understates how many people own shares.</p>" : ""
   ].join("");
   return {
     sources,proof,
@@ -489,6 +582,179 @@ function cvFiscal(record, leader) {
   };
 }
 
+// Paid out & sales enabled (research/PAIDOUT.md): what the company paid other people and businesses in one
+// fiscal year, shown as its arithmetic. The build recomputes every total from these inputs and nulls any
+// input whose source fails the gate (and everything computed from it), so a missing line means no total.
+// This is the one lens that adds figures together, and only its own parts. Estimated pay is already inside
+// it and is never added; neither is market value or any other lens.
+const cvSectorWords = {bank:"a bank’s",broker:"a broker’s",insurer:"an insurer’s"};
+const cvCap = text => text ? text.charAt(0).toUpperCase() + text.slice(1) : text;
+const cvAddBackLabels = {interestPaid:"Interest paid (outside operating cash flow)",taxesPaid:"Income taxes paid (outside operating cash flow)"};
+// A sourced line: {value, sources:[{url,label,quote,part?,partValue?}]} with publishable sources only.
+function cvLine(field) {
+  if (!field || !cvNumber(field.value)) return null;
+  const sources = (Array.isArray(field.sources) ? field.sources : []).map(source => {
+    const clean = cvSource(source);
+    return clean ? {...clean,part:source.part ? String(source.part) : "",partValue:cvNumber(source.partValue) ? source.partValue : null} : null;
+  });
+  if (!sources.length || sources.some(source => !source)) return null;
+  return {value:field.value,sources};
+}
+function cvPaidout(record, leader) {
+  const lens = record.paidout;
+  if (!lens || typeof lens !== "object" || !lens.period) return null;
+  const period = lens.period;
+  const currency = period.currency || "USD";
+  const money = value => cvMoney(value,currency);
+  const usdMoney = value => cvNumber(value) ? compactMoney(value) : "";
+  const native = currency !== "USD";
+  const company = escapeHtml(leader.company);
+  const fy = cvFy(period);
+  const notes = lens.notes ? String(lens.notes) : "";
+  const sources = [], proof = [];
+  const fx = lens.fx && cvNumber(lens.fx.perUSD) ? {...lens.fx,source:cvSource(lens.fx.source)} : null;
+  // One waterfall row. sign: "", "−", "+", "=". Each input links to its document; summed inputs list their parts.
+  const row = (sign, label, value, line, kind = "") => {
+    const links = line ? line.sources.map(source => cvLink(source,line.sources.length > 1 && source.part ? cvCap(source.part) : "Source")).join(" · ") : "";
+    return `<li class="cv-po-row${kind ? " is-" + kind : ""}"><span class="cv-po-sign" aria-hidden="true">${sign}</span><span class="cv-po-label">${label}${links ? `<small>${links}</small>` : ""}</span><span class="cv-po-value">${sign === "−" ? '<span class="visually-hidden">minus </span>' : sign === "+" ? '<span class="visually-hidden">plus </span>' : ""}${value}</span></li>`;
+  };
+  const prove = (label, line, note = "") => {
+    sources.push(...line.sources);
+    const parts = line.sources.length > 1 ? line.sources.filter(source => source.part).map(source => `${cvCap(source.part)}: ${cvNumber(source.partValue) ? money(source.partValue) : ""}`).join(" · ") : "";
+    proof.push(cvProof(label,money(line.value),fy,"record",line.sources,[parts ? "Sum of " + parts + "." : "",note].filter(Boolean).join(" ")));
+  };
+
+  // Banks and brokers: not comparable, so no paid-out total; operating costs and interest paid are shown apart.
+  if (lens.comparable === false) {
+    const alt = lens.alt || {};
+    const lines = {noninterestExpense:cvLine(alt.noninterestExpense),depreciationAmortization:cvLine(alt.depreciationAmortization),stockComp:cvLine(alt.stockComp),taxesPaid:cvLine(alt.taxesPaid)};
+    const interest = cvLine(lens.interestPaid);
+    const complete = cvNumber(alt.value) && Object.values(lines).every(Boolean);
+    if (!complete && !interest) return null;
+    const whose = cvSectorWords[lens.sector] || "a financial company’s";
+    const html = `${cvPanelHead(`What did ${company} pay out?`,cvYearLine(period))}
+      <p class="cv-caveat cv-po-nc"><strong>Not comparable:</strong> ${whose} cash flows are mostly customers’ deposits and loans, so the paid-out formula doesn’t apply and ${company} is ranked last in that column.</p>
+      <div class="cv-totals">
+        ${complete ? `<div><strong>${money(alt.value)}</strong><span>Operating costs paid, excluding interest</span>${native && fx ? `<span>${usdMoney(lens.usd?.alt)} in USD</span>` : ""}</div>` : ""}
+        ${interest ? `<div><strong>${money(interest.value)}</strong><span>Interest paid to depositors and lenders</span>${native && fx ? `<span>${usdMoney(lens.usd?.interestPaid)} in USD</span>` : ""}</div>` : ""}
+      </div>
+      ${complete ? `<ol class="cv-po-steps" aria-label="How operating costs paid are calculated">
+        ${row("","Noninterest expense",money(lines.noninterestExpense.value),lines.noninterestExpense)}
+        ${row("−","Depreciation and amortization (not a payment)",money(lines.depreciationAmortization.value),lines.depreciationAmortization)}
+        ${row("−","Stock-based compensation (not paid in cash)",money(lines.stockComp.value),lines.stockComp)}
+        ${row("+","Income taxes paid",money(lines.taxesPaid.value),lines.taxesPaid)}
+        ${row("=","Operating costs paid, excluding interest",money(alt.value),null,"total")}
+      </ol>` : ""}
+      <p class="distribution-note">The two are shown side by side and never added: interest is what ${company} paid depositors and lenders for the use of their money.</p>`;
+    if (complete) {
+      prove("Noninterest expense",lines.noninterestExpense);
+      prove("Depreciation and amortization",lines.depreciationAmortization);
+      prove("Stock-based compensation",lines.stockComp);
+      prove("Income taxes paid",lines.taxesPaid);
+      proof.push(cvProof("Operating costs paid, excluding interest",money(alt.value),fy,"derived",[],"Noninterest expense − depreciation and amortization − stock-based compensation + income taxes paid."));
+    }
+    if (interest) prove("Interest paid to depositors and lenders",interest,"Shown apart; never added to operating costs.");
+    if (notes) proof.push(cvProof("Researcher’s notes","Notes",fy,"derived",[],notes));
+    return {sources,proof,html};
+  }
+
+  const revenue = cvLine(lens.revenue), ocf = cvLine(lens.operatingCashFlow), capex = cvLine(lens.capex);
+  const addBacks = (Array.isArray(lens.addBacks) ? lens.addBacks : []).map(item => ({key:item.key,location:item.location ? String(item.location) : "",line:cvLine(item)})).filter(item => item.line);
+  if (!revenue || !ocf || !capex || !cvNumber(lens.paidOut) || !cvNumber(lens.total)) return null;
+  const lending = lens.lending && lens.lending.status === "adjusted" && cvNumber(lens.lending.adjusted)
+    ? {...lens.lending,parts:(lens.lending.parts || []).map(part => ({label:String(part.label || ""),effect:part.effect,line:cvLine({value:part.effect,sources:part.sources})})).filter(part => part.line && cvNumber(part.effect))}
+    : null;
+  const adjusted = lending && lending.parts.length ? lending : null;
+  const se = lens.salesEnabled && cvNumber(lens.salesEnabled.value) ? lens.salesEnabled : null;
+  const measure = se ? cvLine(se.measureValue) : null, platform = se ? cvLine(se.platformRevenue) : null;
+  const firstParty = se && se.firstPartySales ? cvLine(se.firstPartySales) : null;
+  const sales = se && measure && platform && (!se.firstPartySales || firstParty) ? se : null;
+  const base = adjusted ? adjusted.adjusted : lens.paidOut;
+  const measureName = sales ? escapeHtml(sales.measure) : "";
+
+  // The waterfall.
+  const steps = [
+    row("","Revenue",money(revenue.value),revenue),
+    row("−","Operating cash flow",money(ocf.value),ocf),
+    row("+","Capital spending",money(capex.value),capex),
+    ...addBacks.map(item => row("+",cvAddBackLabels[item.key] || escapeHtml(item.key),money(item.line.value),item.line)),
+    row("=","Paid out",money(lens.paidOut),null,adjusted || sales ? "subtotal" : "total")
+  ];
+  if (adjusted) {
+    for (const part of adjusted.parts) steps.push(row(part.effect >= 0 ? "−" : "+",`${escapeHtml(cvCap(part.label))} <em>(customer lending inside operating cash flow)</em>`,money(Math.abs(part.effect)),part.line));
+    steps.push(row("=","Paid out, adjusted for customer lending",money(adjusted.adjusted),null,sales ? "subtotal" : "total"));
+  }
+  if (sales) {
+    const tagged = (line, part) => line.sources.map(source => ({...source,part}));
+    const salesLine = {value:sales.value,sources:[...tagged(measure,sales.measure),...tagged(platform,sales.platformRevenue.label || "Revenue"),...(firstParty ? tagged(firstParty,"Own product sales") : [])]};
+    steps.push(row("+",`Sales enabled for others: ${measureName} − ${escapeHtml(sales.platformRevenue.label || "revenue")}${firstParty ? ` − ${company}’s own product sales` : ""}`,money(sales.value),salesLine));
+    steps.push(row("=","Paid out & sales enabled",money(lens.total),null,"total"));
+  }
+
+  // Caveats in plain words.
+  const caveatText = caveat => {
+    const amount = cvNumber(caveat.value) ? money(caveat.value) : "";
+    switch (caveat.code) {
+      case "lending-not-disclosed": return `${company} books growth in customer loans or leases inside operating cash flow and doesn’t disclose the amount, so paid out is not adjusted for it and may be overstated.`;
+      case "lending-not-separable": return `${caveat.text ? escapeHtml(caveat.text) + " " : ""}Paid out is not adjusted for customer lending.`;
+      case "interest-not-separable": return "Interest paid is reported only together with other financing payments, so it isn’t added and paid out is understated by it.";
+      case "taxes-not-separable": return "Income taxes paid are reported only together with other payments, so they aren’t added and paid out is understated by them.";
+      case "non-cash-revenue": return `Revenue includes ${amount || "non-cash income"}${amount ? " of non-cash income" : ""}, which raises paid out by that amount.`;
+      case "interest-dividends-received": return `${amount ? amount + " of interest" : "Interest"} and dividends ${company} received sit inside operating cash flow but not revenue, which lowers paid out${amount ? " by that amount" : ""}.`;
+      case "revenue-includes-excise": return "Revenue includes excise duties, which count here as paid to governments.";
+      case "insurance": return "Insurance claims paid count as payouts, and income taxes paid include tax on investment gains outside revenue.";
+      case "financial-sector": {
+        const kind = caveat.text ? String(caveat.text) : "financial company";
+        return `${company} is ${/^[aeiou]/i.test(kind) ? "an" : "a"} ${escapeHtml(kind)}. Its operating cash flow works like other companies’, so the formula applies, but customer balances can still move it.`;
+      }
+      case "exceeds-revenue": return `Paid out is higher than revenue this year because capital spending${addBacks.length ? " plus the payments added back" : ""} was larger than operating cash flow${caveat.negativeOCF ? ", which was negative" : ""}.`;
+      default: return "";
+    }
+  };
+  const caveats = (Array.isArray(lens.caveats) ? lens.caveats : []).map(caveat => ({caveat,text:caveatText(caveat)})).filter(item => item.text);
+  const caveatSources = caveats.flatMap(item => (Array.isArray(item.caveat.sources) ? item.caveat.sources : []).map(cvSource).filter(Boolean));
+
+  // Provenance: every input, both totals, the FX rate.
+  prove("Revenue",revenue);
+  prove("Operating cash flow",ocf);
+  prove("Capital spending",capex,Array.isArray(lens.capex.components) && lens.capex.components.length ? "Components as researched: " + lens.capex.components.join("; ") + "." : "");
+  for (const item of addBacks) prove(cvAddBackLabels[item.key] || item.key,item.line,item.location);
+  proof.push(cvProof("Paid out",money(lens.paidOut),fy,"derived",[],`Revenue − operating cash flow + capital spending${addBacks.length ? " + " + addBacks.map(item => (cvAddBackLabels[item.key] || item.key).toLowerCase()).join(" + ") : ""}. Before any adjustment for customer lending.`));
+  if (adjusted) {
+    for (const part of adjusted.parts) prove(cvCap(part.label),part.line,part.effect >= 0 ? "Lowered operating cash flow, so it raised paid out; subtracted." : "Raised operating cash flow, so it lowered paid out; added back.");
+    proof.push(cvProof("Paid out, adjusted for customer lending",money(adjusted.adjusted),fy,"derived",[],`Paid out ${money(lens.paidOut)} ${adjusted.effect >= 0 ? "−" : "+"} ${money(Math.abs(adjusted.effect))} of customer lending flows inside operating cash flow. This is the figure ranked.`));
+  }
+  if (sales) {
+    prove(sales.measure,measure,sales.definition?.quote ? `How ${leader.company} defines it: “${sales.definition.quote}”` : "");
+    prove(sales.platformRevenue.label || "Revenue",platform);
+    if (firstParty) prove(`${leader.company}’s own product sales`,firstParty,"Subtracted: first-party sales are the company’s own, not third parties’.");
+    proof.push(cvProof("Sales enabled",money(sales.value),fy,"derived",[],`${sales.measure} − ${sales.platformRevenue.label || "revenue"}${firstParty ? " − first-party product sales" : ""}.${sales.note ? " " + sales.note : ""}`));
+    proof.push(cvProof("Paid out & sales enabled",money(lens.total),fy,"derived",[],`${adjusted ? "Adjusted paid out" : "Paid out"} + sales enabled.`));
+  }
+  if (native && fx && fx.source) {
+    sources.push(fx.source);
+    proof.push(cvProof(`USD rate: ${currency} per dollar, ${fx.calendarYear} average`,String(fx.perUSD),String(fx.calendarYear),"regulator",[fx.source],[fx.derivation || "",`Ranked in USD: ${money(lens.total)} ÷ ${fx.perUSD} = ${usdMoney(lens.usd?.total)}.`].filter(Boolean).join(" ")));
+  }
+  caveats.forEach(item => {
+    const own = (Array.isArray(item.caveat.sources) ? item.caveat.sources : []).map(cvSource).filter(Boolean);
+    if (own.length && cvNumber(item.caveat.value)) proof.push(cvProof(item.caveat.code === "non-cash-revenue" ? "Non-cash revenue (caveat)" : "Interest and dividends received inside operating cash flow (caveat)",money(item.caveat.value),fy,"record",own));
+  });
+  sources.push(...caveatSources);
+  if (notes) proof.push(cvProof("Researcher’s notes","Notes",fy,"derived",[],notes));
+
+  const totalLabel = sales ? "Paid out & sales enabled" : adjusted ? "Paid out, adjusted for customer lending" : "Paid out";
+  const usdLine = native && cvNumber(lens.usd?.total) ? `<span>${usdMoney(lens.usd.total)} in USD, at the ${fx.calendarYear} average rate</span>` : "";
+  return {
+    sources,proof,
+    html:`${cvPanelHead(`What did ${company} pay out?`,cvYearLine(period),`<div class="distribution-total"><strong>${money(lens.total)}</strong><span>${totalLabel}</span>${usdLine}</div>`)}
+      <p class="cv-po-covers">Paid out is the money ${company} paid to employees, suppliers, partners, lenders and governments, and to builders and equipment makers for its capital spending.</p>
+      <ol class="cv-po-steps" aria-label="How paid out is calculated">${steps.join("")}</ol>
+      ${sales ? `<p class="distribution-note">Sales enabled is the part of ${measureName} that ${company} didn’t keep as revenue: sales made by others on its platform. It is the one addition beyond what ${company} itself paid.</p>` : ""}
+      ${caveats.length ? `<ul class="cv-po-caveats" aria-label="Caveats">${caveats.map(item => `<li><span class="cv-tier">Caveat</span> ${item.text}</li>`).join("")}</ul>` : ""}
+      <p class="distribution-note">Estimated pay to workers (${compactMoney(leader.payroll)}) is already inside paid out and is never added to it. Paid out is never totaled across the list: one company’s payment is another’s revenue.</p>`
+  };
+}
+
 // The ranking's own figures (dist/data.js). They are not filings: market value is market data, the
 // employment count comes from the linked source, and pay is our estimate.
 function cvRankingProof(leader) {
@@ -500,7 +766,7 @@ function cvRankingProof(leader) {
     cvProof(metrics.payroll,compactMoney(leader.payroll),leader.fy,"estimate",[],`${integer.format(leader.jobs)} people × ${dollars.format(leader.wage)} assumed yearly pay per person. An estimate, not a reported figure.`)
   ];
 }
-const cvPanels = {ownership:cvOwnership,cash:cvCash,workers:cvWorkers,geography:cvGeography,ecosystem:cvEcosystem,fiscal:cvFiscal};
+const cvPanels = {ownership:cvOwnership,paidout:cvPaidout,cash:cvCash,workers:cvWorkers,geography:cvGeography,ecosystem:cvEcosystem,fiscal:cvFiscal};
 function cvProvenance(groups) {
   const item = entry => `<li class="cv-proof">
       <div class="cv-proof-head"><strong>${escapeHtml(entry.label)}</strong><span class="cv-proof-value">${escapeHtml(entry.value)}</span></div>
@@ -515,6 +781,12 @@ function cvProvenance(groups) {
     </details>`;
 }
 
+// Amazon's standalone lens section is named after the lenses it shows ("Paid out, platform and taxes").
+function cvLensTitle(views) {
+  const names = views.map(view => ({paidout:"paid out",ecosystem:"platform",fiscal:"taxes"})[view.key]).filter(Boolean);
+  const text = names.length > 1 ? names.slice(0,-1).join(", ") + " and " + names[names.length - 1] : names[0] || "more lenses";
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
 function cvRender(record, leader) {
   const lensOnly = leader.id === "jeff-bezos";
   const allowed = lensOnly ? companyLensViews : companyValueViews.map(([key]) => key);
@@ -527,7 +799,7 @@ function cvRender(record, leader) {
   return `
       <header class="distribution-heading">
         <p class="eyebrow">${lensOnly ? `${escapeHtml(leader.company.toUpperCase())} · MORE LENSES` : escapeHtml(leader.company.toUpperCase())}</p>
-        <h3 id="company-value-title">${lensOnly ? (views.length > 1 ? "Platform and taxes" : views[0].key === "ecosystem" ? "Platform" : "Taxes") : "Who shares in the value?"}</h3>
+        <h3 id="company-value-title">${lensOnly ? cvLensTitle(views) : "Who shares in the value?"}</h3>
         ${lensOnly ? `<p>More ways to see the value ${company} created, each on its own.</p>` : ""}
       </header>
       <div class="distribution-tabs${views.length > 4 ? " cv-tabs-many" : ""}" role="tablist" aria-label="Explore ${escapeHtml(cvPossessive(leader.company))} value">
