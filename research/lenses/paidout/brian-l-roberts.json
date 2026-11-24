@@ -122,7 +122,7 @@
    "source": {
     "hostType": "sec",
     "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
-    "label": "FY2025 Form 10-K, Note 12 Income Taxes, Cash Payments for Income Taxes (in millions)",
+    "label": "FY2025 Form 10-K, Note 5 Income Taxes, Cash Payments for Income Taxes (in millions)",
     "quote": "Cash payments for income taxes $ 755 $ 7,096 $ 5,107 (a) Includes $ 0.6 billion and $ 1.7 billion for 2025 and 2024, respectively, related to the purchase of third-party transferable tax credits.",
     "xbrl": {
      "cik": "0001166691",
