@@ -26,6 +26,10 @@ Every headline figure above must be **computed in code from `data.js` or the Ama
 - Don't use unearned superlatives such as "greatest" or "most important". Allowed: "the 100 builders on this list", "together they employ…".
 - Keep the methodology honest. Market capitalization is a snapshot of equity value, and pay is an estimate. Don't remove caveats; you can tighten their wording.
 
+## Layout principle: list first, depth on click
+
+The home page follows the Forbes list model. It has a slim header, a centered title, ONE key line of computed totals, search and filters, and a plain table. Clicking a row opens an inline panel with a portrait, one computed line and "View profile". There is no marketing prose, no hero imagery and no repeated calls to action. All the depth lives in the profile dialog: stats, globe, maps, case-study tabs and sources. Before adding any sentence to the home page, ask whether the table already says it.
+
 ## Visual direction
 
 The site is an editorial publication: warm paper, ink, serif display type, red as the brand mark, and dark map surfaces for the data. Polish it; don't redesign it.
