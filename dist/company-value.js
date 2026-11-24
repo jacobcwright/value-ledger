@@ -10,9 +10,8 @@
 // when it is not-sourced. A leader with no publishable file still gets the provenance block for the
 // ranking's own figures (market value, people employed, estimated pay).
 const companyValueRecords = new Map();
-// Same mirror/aggregator list as scripts/validate-records.mjs: never link a researched figure to these.
-const companyValueMirrors = /dfcfw\.com|9to5mac|seekingalpha|marketscreener|macrotrends|stockanalysis|companiesmarketcap|wsj\.com|reuters\.com|bloomberg|yahoo\.|investing\.com|wikipedia|annualreports\.com|last10k|fintel|gurufocus/;
-const companyValueHosts = ["sec","company","exchange","regulator"];
+// The mirror/aggregator list and allowed host types (same as scripts/validate-records.mjs) live in
+// ownership-headline.js, which loads first: never link a researched figure to a mirror.
 // [key, section label, short chip label]. Every lens is its own section of the profile, in this order,
 // with a chip in the profile's section row.
 const companyValueViews = [
@@ -29,7 +28,7 @@ const companyLensViews = ["paidout","ecosystem","fiscal"];
 const companyHolderTypes = {"asset-manager":"Asset manager","index-fund":"Index fund",pension:"Pension",sovereign:"Sovereign fund",government:"Government",family:"Family",company:"Company",employees:"Employees",other:"Other"};
 const companyRelations = {founder:"Founder","co-founder":"Co-founder","founding-family":"Founding family",estate:"Estate",ceo:"CEO","former-ceo":"Former CEO",chair:"Chair",executive:"Executive",investor:"Investor"};
 // Evidence tiers, as named on the methodology page.
-const cvTiers = {filing:"From the 10-K/annual report","company-commissioned":"Company-commissioned",derived:"Derived from filings",market:"Market data",estimate:"Our estimate",record:"Filing",company:"Company-reported","company-published":"Company-published",regulator:"Regulator data"};
+const cvTiers = {filing:"From the 10-K/annual report","company-commissioned":"Company-commissioned",derived:"Derived from filings",market:"Market data",estimate:"Our estimate",record:"Filing",company:"Company-reported","company-published":"Company-published",regulator:"Regulator data","third-party":"Third-party estimate"};
 
 function companyValueSlot(leader) {
   return `<section id="company-value" class="distribution company-value${leader.id === "jeff-bezos" ? " company-lenses" : ""}" aria-labelledby="company-value-title" data-leader="${escapeHtml(leader.id)}" hidden></section>`;
@@ -38,14 +37,8 @@ function companyValueSlot(leader) {
 const cvNumber = value => typeof value === "number" && Number.isFinite(value);
 const cvHidden = item => !item || item.status === "not-sourced";
 // A source is publishable when it is an https document link with a label, on an allowed host type
-// (when the record states one) and not a known mirror.
-function cvSource(source) {
-  if (!source || typeof source !== "object") return null;
-  const url = typeof source.url === "string" ? source.url : "";
-  if (!/^https:\/\/\S+$/.test(url) || companyValueMirrors.test(url) || !source.label) return null;
-  if (source.hostType != null && !companyValueHosts.includes(source.hostType)) return null;
-  return {url,label:String(source.label),quote:source.quote ? String(source.quote) : ""};
-}
+// (when the record states one) and not a known mirror. One rule, in ownership-headline.js.
+const cvSource = ownershipSource;
 // A figure with a value: shown when it has a number and a publishable source (0 may stand alone).
 function cvFigure(field, {negative = false} = {}) {
   if (cvHidden(field) || !cvNumber(field.value) || (!negative && field.value < 0)) return null;
@@ -117,52 +110,24 @@ const cvTag = tier => `<span class="cv-tier${tier === "company-commissioned" ? "
 
 function cvOwnership(record, leader) {
   const ownership = record.ownership || {};
-  const person = ownership.leader && typeof ownership.leader === "object" ? ownership.leader : {};
-  const showPerson = !cvHidden(person) && person.name;
+  // The stakes, "everyone else" and the leader's status come from ownership-headline.js, which the build
+  // also runs to write dist/headline.json, so the profile's top figures always match this section.
+  const stakes = ownershipHeadline(record);
+  const {person,showPerson,self,family,holders,barHolders,classHolders} = stakes;
   const name = escapeHtml(person.name || leader.name);
   const company = escapeHtml(leader.company);
   const asOfOwnership = cvDate(ownership.asOf);
   const sources = [], proof = [];
-  let self = null;
-  if (showPerson && person.status === "holds") {
-    const source = cvSource(person.source);
-    if (cvNumber(person.pctEconomic) && source) {
-      self = {pct:person.pctEconomic,derived:null};
-      sources.push(source);
-      proof.push(cvProof(`${person.name}’s stake`,cvPercent(person.pctEconomic,2),asOfOwnership,"record",[source]));
-    } else if (person.derived && cvNumber(person.derived.pctEconomic) && person.derived.method) {
-      const inputs = (Array.isArray(person.derived.inputs) ? person.derived.inputs : []).map(cvSource).filter(Boolean);
-      const backing = inputs.length ? inputs : source ? [source] : [];
-      if (backing.length) {
-        self = {pct:person.derived.pctEconomic,derived:String(person.derived.method)};
-        sources.push(...backing);
-        proof.push(cvProof(`${person.name}’s stake`,cvPercent(person.derived.pctEconomic,2),asOfOwnership,"derived",backing,String(person.derived.method)));
-      }
-    }
+  if (self) {
+    sources.push(...self.sources);
+    proof.push(self.derived
+      ? cvProof(`${person.name}’s stake`,cvPercent(self.pct,2),asOfOwnership,"derived",self.sources,self.derived)
+      : cvProof(`${person.name}’s stake`,cvPercent(self.pct,2),asOfOwnership,"record",self.sources));
   }
-  let family = null;
-  if (showPerson && person.family && !cvHidden(person.family) && cvNumber(person.family.pctEconomic)) {
-    const source = cvSource(person.family.source);
-    const full = String(person.family.label || "");
-    // Labels are written for readers of the filing, sometimes as a paragraph ("X (largest shareholder) and
-    // its related parties: A, B, C. Includes …"). The short name is the text before any colon, without
-    // parentheticals; the rest becomes the detail line.
-    const colon = full.indexOf(":");
-    const head = colon > 0 ? full.slice(0,colon) : full;
-    const label = head.replace(/\s*\([^)]*\)/g,"").replace(/\s*\(.*$/,"").trim();
-    const inner = colon > 0 ? [null,full.slice(colon + 1).trim()] : /\((.*)\)\s*$/.exec(full);
-    if (source && label) {
-      family = {pct:person.family.pctEconomic,label,detail:inner && inner[1] ? inner[1] : "Founding family",headline:/^the\s/i.test(label) || !/(family|group)$/i.test(label) ? label : "The " + label,includesLeader:person.family.includesLeader === true};
-      sources.push(source);
-      proof.push(cvProof(full,cvPercent(family.pct,2),asOfOwnership,"record",[source]));
-    }
+  if (family) {
+    sources.push(family.source);
+    proof.push(cvProof(family.full,cvPercent(family.pct,2),asOfOwnership,"record",[family.source]));
   }
-  const holders = (Array.isArray(ownership.largestHolders) ? ownership.largestHolders : [])
-    .filter(holder => holder && !cvHidden(holder) && holder.name && cvNumber(holder.pctEconomic) && cvSource(holder.source))
-    .sort((a,b) => b.pctEconomic - a.pctEconomic);
-  // Class-basis holders are a share of one class only: listed, never in the bar or in "everyone else".
-  const barHolders = holders.filter(holder => holder.basis !== "class").slice(0,3);
-  const classHolders = holders.filter(holder => holder.basis === "class").slice(0,3);
   const classOf = holder => holder.classLabel ? String(holder.classLabel) : "one class";
   // Who stands behind "everyone else" (research/lenses/owners): which named holders are index funds and asset
   // managers (and who they invest for), and two public funds, Norway's NBIM and CalPERS, which file separately
@@ -217,9 +182,8 @@ function cvOwnership(record, leader) {
     sources.push(recordHolders.source);
     proof.push(cvProof("Holders of record",integer.format(recordHolders.count),cvDate(recordHolders.asOf),"record",[recordHolders.source],"Counts registered holders. Shares held through a brokerage or fund are usually registered in a nominee’s name, so one record can stand for many owners."));
   }
-  // Rounded from the displayed stake, so the two headline figures always sum to 100.0%.
-  const r1 = value => Math.round(value * 10) / 10;
-  const othersPct = 100 - (family?.includesLeader ? r1(family.pct) : r1(self?.pct || 0) + r1(family?.pct || 0));
+  // Rounded from the displayed stake, so the two headline figures always sum to 100.0% (ownership-headline.js).
+  const othersPct = stakes.othersPct;
   const derivedTag = self?.derived ? ` <span class="cv-derived" title="${escapeHtml(self.derived)}">derived</span>` : "";
 
   // Plain statement of the leader's position when no percentage can be shown for them.
@@ -227,18 +191,16 @@ function cvOwnership(record, leader) {
   // A stake that counts shares the person doesn't own outright (options, proxy votes, deemed interests) carries its caveat beside the headline.
   if (self && person.caveat) status = String(person.caveat);
   if (showPerson && !self) {
-    // The schema has no field for "less than 1%" (a * in the proxy), so it is read from the record's notes.
-    const notes = String(record.notes || "");
-    const source = cvSource(person.source);
-    const sourced = person.status === "holds" && source && (/less than 1\s?%/i.test(notes) || cvNumber(person.shares));
-    status = person.status === "deceased" ? `${name} is deceased; no personal stake is reported.`
-      : person.status === "no-reported-stake" ? `${name}: no reported stake.`
-      : sourced && /less than 1\s?%/i.test(notes) ? `${name} holds less than 1%.`
-      : sourced ? `${name} holds ${integer.format(person.shares)} shares; no percentage is disclosed.`
-      : person.status === "not-disclosed" || person.status === "holds" ? `${name}: stake not disclosed.` : "";
-    if (sourced) {
-      sources.push(source);
-      proof.push(cvProof(`${person.name}’s stake`,/less than 1\s?%/i.test(notes) ? "Less than 1%" : integer.format(person.shares) + " shares",asOfOwnership,"record",[source]));
+    status = {
+      deceased:`${name} is deceased; no personal stake is reported.`,
+      "no-reported-stake":`${name}: no reported stake.`,
+      under1:`${name} holds less than 1%.`,
+      shares:`${name} holds ${integer.format(person.shares)} shares; no percentage is disclosed.`,
+      "not-disclosed":`${name}: stake not disclosed.`
+    }[stakes.leaderStatus] || "";
+    if (stakes.statusSource) {
+      sources.push(stakes.statusSource);
+      proof.push(cvProof(`${person.name}’s stake`,stakes.leaderStatus === "under1" ? "Less than 1%" : integer.format(person.shares) + " shares",asOfOwnership,"record",[stakes.statusSource]));
     }
   }
 
@@ -768,6 +730,23 @@ function cvRankingProof(leader) {
     cvProof(metrics.payroll,compactMoney(leader.payroll),leader.fy,"estimate",[],`${integer.format(leader.jobs)} people × ${dollars.format(leader.wage)} assumed yearly pay per person. An estimate, not a reported figure.`)
   ];
 }
+// Net worth (research/lenses/networth): a third-party estimate of the leader's personal wealth, from the list's
+// publisher (hostType "publisher", which cvSource doesn't accept, so its link is checked here). Shown under
+// "Their stake" in the profile headline; never added to value created or to any lens.
+function cvNetworthProof(record) {
+  const nw = record && record.networth;
+  const url = nw && nw.source && typeof nw.source.url === "string" ? nw.source.url : "";
+  if (!nw || !cvNumber(nw.value) || !/^https:\/\/\S+$/.test(url) || ownershipMirrors.test(url)) return [];
+  // Named by publisher and year (the voice rules keep the list's own title off the page).
+  const year = /\b(?:19|20)\d{2}\b/.exec(nw.list || "")?.[0] || "";
+  const publisher = nw.publisher || "The publisher";
+  // No quote: the list's raw record is checked by verify-quotes but not reprinted (it carries the publisher's own bio).
+  const source = {url,label:`${publisher}${year ? " " + year : ""} list data`,quote:""};
+  return [cvProof(nw.withFamily ? "Net worth (with family)" : "Net worth",compactMoney(nw.value),monthYear(nw.asOf),"third-party",[source],
+    [`${publisher}’s estimate${year ? " in its " + year + " list" : ""}, measured as of ${cvDate(nw.asOf) || nw.asOf}.`,
+      nw.withFamily ? "The list names this entry “& family”, so it covers wealth it attributes to the family, not one person alone." : "",
+      "A third-party estimate of personal wealth, not a company filing. Shown beside the stake, never added to value created or to any lens."].filter(Boolean).join(" "))];
+}
 const cvPanels = {ownership:cvOwnership,paidout:cvPaidout,cash:cvCash,workers:cvWorkers,geography:cvGeography,ecosystem:cvEcosystem,fiscal:cvFiscal};
 function cvProvenance(groups) {
   const item = entry => `<li class="cv-proof">
@@ -795,7 +774,7 @@ function cvRender(record, leader) {
   const views = record ? companyValueViews.filter(([key]) => allowed.includes(key)).map(([key,label,chip]) => ({key,label,chip,panel:cvPanels[key](record,leader)})).filter(view => view.panel) : [];
   // The footprint panel (company-footprint.js) sits further down the profile; its figures are listed here too.
   const footprint = record && !lensOnly && typeof companyFootprintProof === "function" ? companyFootprintProof(record,leader) : [];
-  const provenance = cvProvenance([{label:"The ranking",proof:cvRankingProof(leader)},...views.map(view => ({label:view.label,proof:view.panel.proof || []})),...footprint]);
+  const provenance = cvProvenance([{label:"The ranking",proof:cvRankingProof(leader)},...views.map(view => ({label:view.label,proof:view.panel.proof || []})),...footprint,{label:"Net worth",proof:cvNetworthProof(record)}]);
   if (!views.length) return {body:"",provenance};
   const company = escapeHtml(leader.company);
   return {provenance,body:`

@@ -4,7 +4,7 @@
 (() => {
   const byId = id => document.getElementById(id);
   const escapeHtml = value => String(value).replace(/[&<>"']/g, character => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[character]);
-  const names = {ownership:"Ownership",workers:"Workers",cash:"Cash to shareholders",paidout:"Paid out",geography:"Sales by region",ecosystem:"Ecosystem",taxes:"Taxes",rnd:"R&D",footprint:"Footprint"};
+  const names = {ownership:"Ownership",workers:"Workers",cash:"Cash to shareholders",paidout:"Paid out",geography:"Sales by region",ecosystem:"Ecosystem",taxes:"Taxes",rnd:"R&D",footprint:"Footprint",networth:"Net worth"};
   const rows = byId("coverage-rows");
 
   function renderCoverage(coverage) {
@@ -38,11 +38,27 @@
     box.hidden = false;
   }
 
+  // The net-worth list and its date, from the published files: "Forbes 2025 World's Billionaires (net worths as of March 7, 2025)".
+  function renderNetworthList(lists) {
+    const date = value => {
+      const match = /^(\d{4})-(\d{2})(?:-(\d{2}))?$/.exec(value || "");
+      if (!match) return "";
+      return new Date(Date.UTC(+match[1],+match[2] - 1,+(match[3] || 1))).toLocaleDateString("en-US",match[3] ? {timeZone:"UTC",year:"numeric",month:"long",day:"numeric"} : {timeZone:"UTC",year:"numeric",month:"long"});
+    };
+    // Named by publisher and year (the voice rules keep the list's own title off the page).
+    const text = lists.filter(item => item.publisher).map(item => {
+      const year = /\b(?:19|20)\d{2}\b/.exec(item.list || "")?.[0] || "";
+      return `${escapeHtml(item.publisher)}’s ${year ? year + " " : ""}list${date(item.asOf) ? `, with net worths as of ${date(item.asOf)}` : ""}`;
+    }).join("; ");
+    if (text) byId("networth-list").innerHTML = text;
+  }
+
   fetch("/coverage.json")
     .then(response => response.ok ? response.json() : Promise.reject(new Error(String(response.status))))
     .then(coverage => {
       renderCoverage(coverage);
       if (coverage.nordhaus) renderNordhaus(coverage.nordhaus);
+      if (Array.isArray(coverage.networth) && coverage.networth.length) renderNetworthList(coverage.networth);
     })
     .catch(() => {
       rows.innerHTML = '<tr><td colspan="2" class="mp-loading">Coverage is not available right now. Every profile lists its own sources.</td></tr>';

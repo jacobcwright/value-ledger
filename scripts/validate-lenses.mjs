@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // Validates research/lenses/ecosystem/<id>.json and research/lenses/fiscal/<id>.json against
 // research/LENSES.md, research/lenses/paidout/<id>.json against research/PAIDOUT.md (including its
-// arithmetic), research/lenses/owners/<id>.json, and the shared _fx.json and _managers.json, all with the
+// arithmetic), research/lenses/owners/<id>.json, research/lenses/networth/<id>.json (a third-party estimate of
+// the leader's net worth: the one lens whose source may have hostType "publisher"), and the shared _fx.json and _managers.json, all with the
 // same source rules as validate-records.mjs.
 // Usage: node scripts/validate-lenses.mjs [--xbrl] [--links] [--json] [ids...]
 //   --xbrl   re-fetch every figure that cites an SEC XBRL fact and confirm the value
@@ -27,17 +28,21 @@ const HOSTS = ["sec","company","exchange","regulator"];
 const MIRRORS = /dfcfw\.com|9to5mac|seekingalpha|marketscreener|macrotrends|stockanalysis|companiesmarketcap|wsj\.com|reuters\.com|bloomberg|yahoo\.|investing\.com|wikipedia|annualreports\.com|last10k|fintel|gurufocus/;
 const TIERS = ["filing","company-commissioned"];
 
-function checkSource(src, where, errs, facts, links) {
+// Net worth is a third-party estimate (the Forbes list), published by the list's publisher, not by the company
+// or a regulator. "publisher" is accepted for that lens only; every other lens keeps HOSTS.
+const NETWORTH_HOSTS = [...HOSTS, "publisher"];
+
+function checkSource(src, where, errs, facts, links, hosts = HOSTS, maxQuote = 600) {
   if (!src || typeof src !== "object") return errs.push(`${where}: missing source`);
   if (!/^https:\/\/[^\s]+$/.test(src.url || "")) errs.push(`${where}: source.url must be https`);
   // A search-results page, not a document. (Narrower than validate-records.mjs, whose /google\./ also
   // rejects Google's own documents such as services.google.com, which are company-hosted primary sources.)
   if (/^https:\/\/(www\.)?(google|bing)\.[a-z.]+\/(search|url)\b|duckduckgo\./.test(src.url || "")) errs.push(`${where}: source.url is a search page`);
   if (!src.label) errs.push(`${where}: source.label missing`);
-  if (!HOSTS.includes(src.hostType)) errs.push(`${where}: source.hostType must be one of ${HOSTS.join("|")}`);
+  if (!hosts.includes(src.hostType)) errs.push(`${where}: source.hostType must be one of ${hosts.join("|")}`);
   if (MIRRORS.test(src.url || "")) errs.push(`${where}: source.url is a mirror/aggregator, not a primary document`);
   if (!src.quote || src.quote.length < 8) errs.push(`${where}: source.quote missing or too short`);
-  if (src.quote && src.quote.length > 600) errs.push(`${where}: source.quote too long`);
+  if (src.quote && src.quote.length > maxQuote) errs.push(`${where}: source.quote too long`);
   if (src.xbrl) facts.push({where, ...src.xbrl});
   if (src.url) links.add(src.url);
 }
@@ -163,7 +168,7 @@ async function verifyFact(f) {
 // These two lenses have their own file shapes, so they are validated here but not through lensDirs and
 // fileLenses (whose header rules and one-key-per-lens layout they don't follow). The build publishes them
 // with its own functions; the arithmetic helpers below are shared so the validator and the build agree.
-export const extraLensDirs = {paidout: path.join(root, "research/lenses/paidout"), owners: path.join(root, "research/lenses/owners")};
+export const extraLensDirs = {paidout: path.join(root, "research/lenses/paidout"), owners: path.join(root, "research/lenses/owners"), networth: path.join(root, "research/lenses/networth")};
 const fxFile = path.join(extraLensDirs.paidout, "_fx.json");
 const managersFile = path.join(extraLensDirs.owners, "_managers.json");
 const BANK_LIKE = ["bank", "broker", "insurer"];
@@ -411,6 +416,53 @@ export function validateOwnersFile(id) {
   return result;
 }
 
+// research/lenses/networth/<id>.json: a third-party estimate of the leader's personal net worth.
+// { "id", "name", "netWorth": { "value": <billions USD>, "currency": "USD", "asOf": "YYYY-MM-DD" | "YYYY-MM",
+//   "publisher": "Forbes" (optional; else read from the source URL), "list": "<the list's name>" (optional),
+//   "rank": <list rank> (optional), "source": { "hostType": "publisher", "url", "label", "quote" } } | null,
+//   "reason": "deceased" | "not on the 2025 list" | null, "notes", "researchedAt" }
+// netWorth null, or a null value with a reason, means no estimate; the profile then omits the line. Never a
+// figure from memory. A list entry named "… & family" (in the quote) is a family fortune and is labelled so.
+export const NETWORTH_PUBLISHERS = {"forbes.com": "Forbes"};
+export function networthPublisher(netWorth) {
+  if (netWorth?.publisher) return String(netWorth.publisher);
+  if (netWorth?.source?.publisher) return String(netWorth.source.publisher);
+  let host = "";
+  try { host = new URL(netWorth?.source?.url || "").hostname.replace(/^www\./, ""); } catch {}
+  return NETWORTH_PUBLISHERS[host] || "";
+}
+export function validateNetworthFile(id) {
+  const file = path.join(extraLensDirs.networth, id + ".json");
+  const result = {dirKey: "networth", id, file, exists: fs.existsSync(file), errs: [], warns: [], facts: [], links: []};
+  if (!result.exists) return result;
+  const {errs, warns, facts} = result, links = new Set();
+  let rec;
+  try { rec = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { errs.push(`invalid JSON (${e.message})`); return result; }
+  result.record = rec;
+  if (!ids.has(rec.id)) errs.push(`id "${rec.id}" not in data.js`);
+  if (path.basename(file, ".json") !== rec.id) errs.push("file name must equal id");
+  if (rec.netWorth === undefined) errs.push("netWorth missing (use null when no estimate was found)");
+  // A leader not on the list (or deceased) has a null value and a reason; nothing is published for them.
+  const nw = rec.netWorth;
+  if (nw != null && nw.value == null && !rec.reason) errs.push("netWorth.value is null without a reason");
+  if (nw != null && nw.value != null) {
+    if (typeof nw !== "object") errs.push("netWorth must be an object or null");
+    else {
+      num(nw.value, "netWorth.value", errs, {nullable: false, min: 0.001, max: 5000});
+      if (nw.currency != null && nw.currency !== "USD") errs.push(`netWorth.currency must be "USD" (value in billions of USD)`);
+      if (nw.unit != null && nw.unit !== "billions") errs.push(`netWorth.unit must be "billions"`);
+      if (!/^\d{4}-\d{2}(-\d{2})?$/.test(nw.asOf || "")) errs.push("netWorth.asOf must be YYYY-MM-DD or YYYY-MM");
+      // The quote is the person's verbatim record in the list's JSON, which can include a long bio before the name.
+      checkSource(nw.source, "netWorth", errs, facts, links, NETWORTH_HOSTS, 1500);
+      if (!networthPublisher(nw)) errs.push("netWorth.publisher missing (and the source URL is not a known publisher)");
+    }
+  }
+  for (const key of Object.keys(rec)) if (!["id", "name", "netWorth", "reason", "notes", "researchedAt"].includes(key)) warns.push(`unknown key ${key}`);
+  if (rec.researchedAt && !/^\d{4}-\d{2}-\d{2}$/.test(rec.researchedAt)) warns.push("researchedAt should be YYYY-MM-DD");
+  result.links = [...links];
+  return result;
+}
+
 // The shared files: FX rates and the asset-manager list.
 export function validateSharedFiles() {
   const out = [];
@@ -492,8 +544,8 @@ async function main() {
         l.warns.forEach(w => console.log("      warn:  " + w));
       }
     }
-    // Paid out and owners: one lens per file.
-    for (const [dirKey, validate] of [["paidout", validatePaidoutFile], ["owners", validateOwnersFile]]) {
+    // Paid out, owners and net worth: one lens per file.
+    for (const [dirKey, validate] of [["paidout", validatePaidoutFile], ["owners", validateOwnersFile], ["networth", validateNetworthFile]]) {
       const r = validate(id);
       if (!r.exists) continue;
       files++;

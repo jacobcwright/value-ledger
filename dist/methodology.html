@@ -105,7 +105,7 @@
 <dt>What it is</dt><dd>Who holds the company’s shares, as a percentage of all shares outstanding (economic ownership, not votes). Voting power is shown separately when a filing states it.</dd>
 <dt>Source</dt><dd>Proxy statements, annual reports, 20-F and 40-F filings, Schedules 13D and 13G, and exchange shareholding disclosures.</dd>
 <dt>Who stands behind everyone else</dt><dd>Named holders that are index funds and asset managers are grouped together, each with who it invests for in its own words. Norway’s Government Pension Fund Global (from NBIM’s year-end holdings list) and CalPERS (its Form 13F shares ÷ shares outstanding) are listed as pensions and sovereign funds: they are separate legal holders from the asset managers, though minor overlap is possible where an external manager runs part of a pension’s money. They are drawn in the bar only when every listed segment still fits within 100%. The rest is “all other shareholders”, with the company’s count of holders of record in its own words; that count understates owners, because shares held through a brokerage or fund are usually registered in a nominee’s name.</dd>
-<dt>Caveats</dt><dd>“Everyone else” is 100% minus the leader and family. A holding reported as a share of one class only (for example “% of Class A”) is listed but never drawn in the bar or subtracted from everyone else. When a family or promoter-group total already includes the leader, the two are never added. A stake computed from a filing’s class counts is labelled “derived”, with the method shown.</dd>
+<dt>Caveats</dt><dd>“Everyone else” is 100% minus the leader and family. A holding reported as a share of one class only (for example “% of Class A”) is listed but never drawn in the bar or subtracted from everyone else. When a family or promoter-group total already includes the leader, the two are never added. A stake computed from a filing’s class counts is labelled “derived”, with the method shown. At the top of each profile, “Held by others” is value created × everyone else’s share. Where only a bound is known it says so: “more than” 99% when the leader holds less than 1% and no family holding is reported, and “at least” 95% when a U.S. proxy’s table of 5% owners names neither the leader nor a family (SEC rules require every holder of more than 5% to be listed). Other countries’ thresholds differ, so no bound is drawn from their filings.</dd>
 </dl>
 </article>
 <article class="mp-lens" id="lens-cash">
@@ -165,6 +165,14 @@
 <dt>Caveats</dt><dd>Dates differ by company and sometimes by state; each map shows its period, and figures before 2023 are tagged as older data. State totals are sums of the reported state figures; rates and shares are never summed, and country figures are never added into a world total, because regions and territories can overlap. Economic contribution estimates are the company’s own models, not measured output. Site pins mark the state or country a site is in, not its exact location. Country shapes and centroids: Natural Earth.</dd>
 </dl>
 </article>
+<article class="mp-lens" id="lens-networth">
+<h3>Net worth (third-party estimate)</h3>
+<dl>
+<dt>What it is</dt><dd>An estimate of the leader’s personal wealth, shown in small type under “Their stake” at the top of each profile. It is a third-party estimate, not a company filing, and is tagged “Third-party estimate”.</dd>
+<dt>Source</dt><dd><span id="networth-list">The list each profile names</span>. Each profile links the publisher’s own data and quotes the entry verbatim.</dd>
+<dt>Caveats</dt><dd>The publisher’s estimate at one date, which moves with share prices. Some entries are a family’s fortune; those read “Net worth (with family)”. Leaders who have died or aren’t on the list show no line. It is never added to value created, to their stake or to any other lens.</dd>
+</dl>
+</article>
 </div>
 </section>
 
@@ -178,6 +186,7 @@
 <div><dt><span class="mp-tier">Company-published</span></dt><dd>The company’s own website, impact report or state and country pages, outside its formal filings. Used for footprints: what a company says about where it operates.</dd></div>
 <div><dt><span class="mp-tier">Regulator data</span></dt><dd>Government data about the company, such as the FDIC’s Summary of Deposits for a bank’s branches and deposits by state.</dd></div>
 <div><dt><span class="mp-tier">Market data</span></dt><dd>A third-party market data source: CompaniesMarketCap for market value, and Stock Analysis for some employee counts.</dd></div>
+<div><dt><span class="mp-tier">Third-party estimate</span></dt><dd>An estimate published by someone other than the company, such as a net-worth list. Named with its publisher and date, and never treated as a filed figure.</dd></div>
 <div><dt><span class="mp-tier">Our estimate</span></dt><dd>Our own calculation, with its inputs shown. Only estimated pay is in this tier.</dd></div>
 </dl>
 <p>Figures that cite the SEC’s XBRL data are re-checked against it by our validator. <span id="gate-note" hidden>Each source’s quote has also been checked against its document, and a figure whose source didn’t pass is left out rather than shown.</span></p>
