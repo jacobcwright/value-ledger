@@ -1,0 +1,15 @@
+{
+  "name": "Value for Humanity: The Business 100",
+  "short_name": "Value for Humanity",
+  "description": "The builders whose companies employ about 15 million people and create value shared by millions.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#fbf8f2",
+  "theme_color": "#9d271f",
+  "icons": [
+    {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ]
+}

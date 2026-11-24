@@ -3,7 +3,8 @@
   "name": "value-for-humanity",
   "compatibility_date": "2026-11-23",
   "assets": {
-    "directory": "./dist"
+    "directory": "./dist",
+    "not_found_handling": "404-page"
   },
   "routes": [
     { "pattern": "valueforhumanity.com", "custom_domain": true }
