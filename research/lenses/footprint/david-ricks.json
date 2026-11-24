@@ -6,14 +6,14 @@
       "label": "Manufacturing investment committed in the state",
       "unit": "currency-billions",
       "currency": "USD",
-      "period": "as stated in each release: North Carolina as of Jan 24, 2023; Wisconsin as of Dec 5, 2024; Indiana as of May 6, 2026 (after the FY2024 snapshot; no Indiana-wide total was published earlier)",
+      "period": "as stated in each release: North Carolina as of Jan 24, 2023; Wisconsin as of Dec 5, 2024; Indiana as of May 6, 2026 (the newest state-wide statements found, checked 2026-11-24)",
       "tier": "company-published",
       "definition": "Lilly's own statement of its total committed or planned manufacturing investment in the state (North Carolina: 'committed roughly $4 billion to new manufacturing facilities in North Carolina' since 2020; Wisconsin: 'total planned investment in Wisconsin'; Indiana: 'total Indiana capital expansion commitments since 2020'). Only states for which Lilly states a state-wide total are included; the dates differ by state, so values are not comparable as a snapshot."
     },
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "end of 2024",
+      "period": "end of 2025",
       "tier": "filing",
       "definition": "Employees outside the U.S., as stated in the 10-K human capital section (approximate)."
     }
@@ -67,14 +67,14 @@
       "name": "Outside the U.S.",
       "countries": null,
       "values": {
-        "employees": 25000
+        "employees": 27000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1 Human Capital",
-        "quote": "At the end of 2024, we employed approximately 47,000 people, including approximately 25,000 employees outside the U.S."
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Human Capital",
+        "quote": "At the end of 2025, we employed approximately 50,000 people, including approximately 27,000 employees outside the U.S."
       }
     }
   ],
@@ -88,8 +88,8 @@
       "description": "Our principal domestic and international executive offices are located in Indianapolis.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2 Properties",
         "quote": "Our principal domestic and international executive offices are located in Indianapolis."
       }
     },
@@ -206,6 +206,6 @@
       }
     }
   ],
-  "notes": "Lilly's FY2024 10-K names production states and countries without figures (major production sites in Indiana, North Carolina, Puerto Rico and New Jersey; Ireland, France, Spain, Italy, China and Japan) and says approximately 25,000 of about 47,000 employees are outside the U.S.; the U.S. remainder is not stated, so it is not derived. Investment figures come from Lilly's press releases at lilly.mediaroom.com (the press-release host linked from lilly.com/news/press-releases) and a lilly.com story. Lilly states state-wide totals only for North Carolina (roughly $4 billion since 2020, as of January 2023), Wisconsin ($4 billion total planned, December 2024) and Indiana (more than $21 billion since 2020, as of May 2026). Before 2026, Indiana had only site-level figures (Lebanon LEAP district more than $13 billion by October 2024; $1.2 billion to update Indianapolis facilities, May 2024). The three state values come from different dates, are not a common snapshot, and were not summed or adjusted. After the FY2024 snapshot, Lilly's press-release index lists further U.S. sites: Virginia ($5 billion) and Texas ($6.5 billion) in September 2025, Puerto Rico (more than $1.2 billion) in October 2025, Alabama ($6 billion) in December 2025, and Pennsylvania's Lehigh Valley, selected in January 2026 with $3.5 billion stated at its November 2026 groundbreaking. These are not recorded as sites or state values because they fall after the snapshot; Lilly has not published a state-wide total for those states. The February 26, 2025 release reports $50 billion of U.S. capital commitments since 2020, with no per-state split.",
-  "researchedAt": "2026-11-23"
+  "notes": "Lilly's FY2025 10-K names production states and countries without figures (major production sites in Indiana, North Carolina, Puerto Rico and Wisconsin; Ireland, France, Spain, Italy, China and Japan) and says approximately 27,000 of about 50,000 employees at the end of 2025 were outside the U.S.; the U.S. remainder is not stated, so it is not derived. Investment figures come from Lilly's press releases at lilly.mediaroom.com (the press-release host linked from lilly.com/news/press-releases) and a lilly.com story. Lilly states state-wide totals only for North Carolina (roughly $4 billion since 2020, as of January 2023), Wisconsin ($4 billion total planned, December 2024) and Indiana (more than $21 billion since 2020, as of May 2026). The press-release index was checked on 2026-11-24 for newer state-wide totals: none found for North Carolina or Wisconsin (the 2026 groundbreaking releases for Houston, Richmond and the Lehigh Valley list the North Carolina and Wisconsin sites without amounts), and the May 2026 Indiana figure is still the newest. The three state values come from different dates, are not a common snapshot, and were not summed or adjusted. Lilly has also announced sites in Virginia ($5 billion, September 2025), Texas ($6.5 billion, September 2025), Puerto Rico (more than $1.2 billion, October 2025), Alabama ($6 billion, December 2025) and Pennsylvania's Lehigh Valley ($3.5 billion at its November 2026 groundbreaking); each figure is for a single site and Lilly has published no state-wide total for those states, so they are not recorded as state values, and they are not added as sites in this refresh. The February 26, 2025 release reports $50 billion of U.S. capital commitments since 2020, with no per-state split. Headquarters and the employee row are re-sourced to the FY2025 10-K; the other sites keep their release sources.",
+  "researchedAt": "2026-11-24"
 }

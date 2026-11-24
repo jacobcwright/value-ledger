@@ -5,16 +5,16 @@
     "plants": {
       "label": "Beverage production plants",
       "unit": "count",
-      "period": "as of 31 December 2024",
+      "period": "as of 31 December 2025",
       "tier": "filing",
-      "definition": "Breweries and/or non-beer drink plants per business segment (220 total), excluding joint ventures and assets where AB InBev is not the majority owner; excludes Global Export and Holding Companies."
+      "definition": "Breweries and/or non-beer drink plants per business segment (205 total), excluding joint ventures and assets where AB InBev is not the majority owner; excludes Global Export and Holding Companies."
     },
     "employees": {
       "label": "Full-time employees",
       "unit": "people",
-      "period": "as of 31 December 2024",
+      "period": "as of 31 December 2025",
       "tier": "filing",
-      "definition": "Number of full-time employees at the end of the period in each business segment (total 143,885)."
+      "definition": "Number of full-time employees at the end of the period in each business segment (total 136,805)."
     }
   },
   "usStates": null,
@@ -27,30 +27,30 @@
         "CA"
       ],
       "values": {
-        "plants": 33,
-        "employees": 16492
+        "plants": 27,
+        "employees": 15449
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
-        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2024",
-        "quote": "[Number of plants as of 31 December 2024; 2024 volumes and annual engineering capacity (khl)] North America 33 81,953 4,319 133,221 0 … [full-time employees as of 31 December 2024, 2023, 2022] North America 16,492 17,950 20,040"
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2025",
+        "quote": "[Number of plants as of 31 December 2025; 2025 volumes and annual engineering capacity (khl)] North America 27 79,595 3,139 140,155 3,139 … [full-time employees as of 31 December 2025, 2024, 2023] North America 15,449 16,492 17,950"
       }
     },
     {
       "name": "Middle Americas",
       "countries": null,
       "values": {
-        "plants": 39,
-        "employees": 45630
+        "plants": 34,
+        "employees": 43085
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
-        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2024",
-        "quote": "[Number of plants as of 31 December 2024; 2024 volumes and annual engineering capacity (khl)] Middle Americas 39 125,444 24,642 169,205 32,800 … [full-time employees as of 31 December 2024, 2023, 2022] Middle Americas 45,630 48,069 52,355"
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2025",
+        "quote": "[Number of plants as of 31 December 2025; 2025 volumes and annual engineering capacity (khl)] Middle Americas 34 124,464 26,026 190,807 26,026 … [full-time employees as of 31 December 2025, 2024, 2023] Middle Americas 43,085 45,630 48,069"
       }
     },
     {
@@ -64,45 +64,45 @@
         "UY"
       ],
       "values": {
-        "plants": 51,
-        "employees": 34639
+        "plants": 49,
+        "employees": 32931
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
-        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2024",
-        "quote": "[Number of plants as of 31 December 2024; 2024 volumes and annual engineering capacity (khl)] South America 51 116,207 44,561 154,400 78,800 … [full-time employees as of 31 December 2024, 2023, 2022] South America 34,639 36,267 40,589"
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2025",
+        "quote": "[Number of plants as of 31 December 2025; 2025 volumes and annual engineering capacity (khl)] South America 49 110,985 44,186 175,666 77,794 … [full-time employees as of 31 December 2025, 2024, 2023] South America 32,931 34,639 36,267"
       }
     },
     {
       "name": "EMEA",
       "countries": null,
       "values": {
-        "plants": 50,
-        "employees": 19979
+        "plants": 51,
+        "employees": 19264
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
-        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2024",
-        "quote": "[Number of plants as of 31 December 2024; 2024 volumes and annual engineering capacity (khl)] EMEA 50 91,482 2,322 128,710 1,676 … [full-time employees as of 31 December 2024, 2023, 2022] EMEA 19,979 21,011 21,306"
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2025",
+        "quote": "[Number of plants as of 31 December 2025; 2025 volumes and annual engineering capacity (khl)] EMEA 51 90,344 2,978 139,480 2,978 … [full-time employees as of 31 December 2025, 2024, 2023] EMEA 19,264 19,979 21,011"
       }
     },
     {
       "name": "Asia Pacific",
       "countries": null,
       "values": {
-        "plants": 47,
-        "employees": 21483
+        "plants": 44,
+        "employees": 20908
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
-        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2024",
-        "quote": "[Number of plants as of 31 December 2024; 2024 volumes and annual engineering capacity (khl)] Asia Pacific 47 84,309 88 165,669 0 … [full-time employees as of 31 December 2024, 2023, 2022] Asia Pacific 21,483 24,992 24,331"
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2025",
+        "quote": "[Number of plants as of 31 December 2025; 2025 volumes and annual engineering capacity (khl)] Asia Pacific 44 78,415 584 172,820 584 … [full-time employees as of 31 December 2025, 2024, 2023] Asia Pacific 20,908 21,483 24,992"
       }
     }
   ],
@@ -113,12 +113,12 @@
       "state": null,
       "iso2": "BE",
       "type": "headquarters",
-      "description": "Registered address, Brouwerijplein 1, Leuven.",
+      "description": "Global headquarters, Brouwerijplein 1, Leuven.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
-        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2024",
-        "quote": "Brouwerijplein 1, 3000 Leuven, Belgium"
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2025",
+        "quote": "Our global headquarters are located at Brouwerijplein 1, 3000 Leuven, Belgium"
       }
     },
     {
@@ -130,12 +130,12 @@
       "description": "Houses the Product, Packaging, Raw Material, Process and Dispense Development teams, with labs, an experimental brewery and sensory analysis.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
-        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2024",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2025",
         "quote": "The Global Innovation and Technology Center, located in Leuven, Belgium, accommodates the Product, Packaging, Raw Material, Process and Dispense Development teams and has facilities such as Labs, Experimental Brewery and Sensory Analysis."
       }
     }
   ],
-  "notes": "All figures are from the FY2024 20-F, which reports plants and employees only by business segment. The 20-F defines North America as the United States and Canada and South America as Argentina, Bolivia, Brazil, Chile, Paraguay and Uruguay, so those regions carry country lists; Middle Americas, EMEA and Asia Pacific include 'other ... countries' and get null. Global Export and Holding Companies (5,662 employees) is not a geography and is left out. No country, U.S.-state or tax-by-country breakdown was found in the 20-F, and a web search found no AB InBev tax-by-country report. Anheuser-Busch's U.S. 'Economic Impact' page (anheuser-busch.com) shows only national figures (65,000 people, 100 facilities) and blocks automated fetches, so it was not used.",
-  "researchedAt": "2026-11-23"
+  "notes": "All figures are from the FY2025 20-F (as of 31 December 2025), which reports plants and employees only by business segment: 205 beverage plants and 136,805 full-time employees (about 137,000, down from about 144,000 a year earlier). The 20-F defines North America as the United States and Canada and South America as Argentina, Bolivia, Brazil, Chile, Paraguay and Uruguay, so those regions carry country lists; Middle Americas, EMEA and Asia Pacific include \"other ... countries\" and get null. Global Export and Holding Companies (5,168 employees) is not a geography and is left out. The plant table notes that in December 2025 AB InBev announced the sale of its Newark, New Jersey brewery and the closure of its Fairfield, California and Merrimack, New Hampshire breweries, expected in 2026; they are still counted at year end. No country, U.S.-state or tax-by-country breakdown was found in the 20-F, and no AB InBev tax-by-country report was found. Anheuser-Busch's U.S. \"Economic Impact\" page (anheuser-busch.com) shows only national figures and blocks automated fetches, so it was not used.",
+  "researchedAt": "2026-11-24"
 }
