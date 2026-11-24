@@ -113,7 +113,7 @@ const MULTIPLE_BASIS = {stake:"Value created ÷ their stake in the company",fami
 function multipleCell(leader) {
   if (!headline) return '<span class="po-pending" aria-label="Loading">…</span>';
   const m = multipleFor(leader);
-  if (!m) return headline?.[leader.id]?.founder === false ? '<span class="po-none" title="Founders only" aria-label="Founders only">—</span>' : '<span class="po-none" aria-label="Not available">—</span>';
+  if (!m) return '<span class="po-none" aria-label="Not available">—</span>';
   return `<span title="${escapeHtml(MULTIPLE_BASIS[m.basis] || "")}">${multipleText(m)}</span>` + (m.basis === "networth" ? '<sup class="po-mark" title="Based on net worth">‡</sup><span class="visually-hidden"> (based on net worth)</span>' : "");
 }
 const metricValue = (leader,metric) => metric === "paidout" ? paidOutFor(leader)?.total ?? null : metric === "multiple" ? multipleFor(leader)?.value ?? null : leader[metric];
@@ -133,12 +133,7 @@ const rankBy = metric => [...leaders].sort((a,b) => {
   if (x == null || y == null) return (x == null) - (y == null) || b.cap - a.cap;
   return y - x || b.cap - a.cap;
 });
-// Value multiple ranks founders only (the same rule the build uses: "founder" in the role, current or not);
-// every other ranking is the full list of 100.
-const isFounder = leader => /founder/i.test(leader.role || "");
-const founders = leaders.filter(isFounder);
 const rankings = Object.fromEntries(columns.map(metric => [metric,rankBy(metric)]));
-rankings.multiple = rankings.multiple.filter(isFounder);
 // One expanded row at a time, like the Forbes list. It stays open across re-renders while it is still shown.
 let openId = null;
 function rankingRow(leader,rank,metric) {
@@ -197,8 +192,7 @@ function render() {
   rows.innerHTML = html;
   fitPanel();
   const scope = sector.value ? " in " + sector.value : "";
-  const pool = metric === "multiple" ? founders.length : leaders.length, noun = metric === "multiple" ? "founders" : "leaders";
-  byId("result-count").textContent = (total !== pool ? `${total} of ${pool} ${noun}${scope}` : `${total} ${noun}`) + ` · Ranked by ${sort.selectedOptions[0].text.toLowerCase()}` + (metric === "multiple" ? " (founders only)" : "") + " · Figures in USD";
+  byId("result-count").textContent = (total !== leaders.length ? `${total} of ${leaders.length} leaders${scope}` : `${total} leaders`) + ` · Ranked by ${sort.selectedOptions[0].text.toLowerCase()} · Figures in USD`;
   byId("empty").hidden = total > 0;
   if (!total) byId("empty-detail").textContent = query.value.trim()
     ? `Nothing on the list matches “${query.value.trim()}”${scope}. Try another name, company or ticker.`
@@ -270,7 +264,7 @@ paidOutReady.then(() => {
 });
 // headline.json fills each row panel's headline line and the value multiple column.
 headlineReady.then(() => {
-  rankings.multiple = rankBy("multiple").filter(isFounder);
+  rankings.multiple = rankBy("multiple");
   render();
 });
 
@@ -446,8 +440,7 @@ function headlineStats(leader) {
       : `Value created for every $1 of ${kept}` + (m.basis === "networth" ? " (no stake disclosed; net worth includes wealth from elsewhere)" : "");
     const extra = m.basis !== "networth" && finiteNumber(entry.netWorthMultiple) && entry.netWorthMultiple >= 1 ? `${multipleText({value:entry.netWorthMultiple})} their net worth` : "";
     cells.push(cell("multiple",metrics.multiple,multipleText(m),[note,extra]));
-  } else if (entry?.founder === false) cells.push(cell("multiple",metrics.multiple,"—",[`Founders only. ${escapeHtml(leader.name)} didn’t found ${escapeHtml(leader.company)}, so owning little of it says nothing about what they kept`]));
-  else cells.push(cell("multiple",metrics.multiple,"—",[entry?.netWorthMultiple != null && entry.netWorthMultiple < 1 ? "Their net worth is larger than this company’s value, so most of it comes from elsewhere" : "No stake or net worth to compare"]));
+  } else cells.push(cell("multiple",metrics.multiple,"—",[entry?.netWorthMultiple != null && entry.netWorthMultiple < 1 ? "Their net worth is larger than this company’s value, so most of it comes from elsewhere" : "No stake or net worth to compare"]));
   return cells.join("");
 }
 
