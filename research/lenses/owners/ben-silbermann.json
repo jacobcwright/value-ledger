@@ -1,0 +1,49 @@
+{
+  "id": "ben-silbermann",
+  "company": "Pinterest",
+  "nbim": {
+    "pct": 1.81,
+    "marketValueUSD": 0.35,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"2slizf96lq27\",\"cc\":\"US\",\"n\":\"Pinterest Inc\",\"a\":{\"e\":354582333,\"n\":4027115660},\"at\":0,\"o\":1.81,\"eq\":{\"vid\":\"PINS\",\"v\":0.54,\"s\":\"Technology\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 943200,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "PINTEREST INC CL A 72352L106 27352800 943200"
+    },
+    "derived": {
+      "pct": 0.139,
+      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "As of January 31, 2025, there were 595,091,038 shares of the registrant's Class A common stock, $.00001 par value per share, outstanding, and 83,146,379 shares of the registrant's Class B common stock outstanding."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 115,
+    "asOf": "2025-01-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of January 31, 2025, there were 115 stockholders of record of our Class A common stock and 43 stockholders of record"
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Pinterest Inc;Technology;4027115660;354582333;0.54%;1.81%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds Class A; denominator is Class A plus Class B. Holders of record: Listed Class A only; the 10-K also gives 43 holders of record of Class B.",
+  "researchedAt": "2026-11-23"
+}

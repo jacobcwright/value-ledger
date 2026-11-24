@@ -1,0 +1,19 @@
+{
+  "id": "hasso-plattner",
+  "company": "SAP",
+  "nbim": {
+    "pct": 2.38,
+    "marketValueUSD": 7.16,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"3kq8ut490pa4\",\"cc\":\"DE\",\"n\":\"SAP SE\",\"a\":{\"e\":7156324287,\"n\":81276879645},\"at\":0,\"o\":2.38,\"eq\":{\"vid\":\"SAP\",\"v\":2.38,\"s\":\"Technology\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": null,
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Europe;Germany;SAP SE;Technology;81276879645;7156324287;2.38%;2.38%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of SAP. Holders of record: SAP's ordinary shares are bearer shares, and the 2024 Form 20-F says SAP 'generally cannot determine the identity of its shareholders'. It gives only 623 registered ADR holders (February 7, 2025).",
+  "researchedAt": "2026-11-23"
+}

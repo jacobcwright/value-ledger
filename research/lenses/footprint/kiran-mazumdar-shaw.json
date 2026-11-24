@@ -29,7 +29,7 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://biocon.com/docs/Biocon_BRSR_GRI_ESG_Databook_2024.pdf",
+        "url": "https://www.biocon.com/docs/Biocon_BRSR_GRI_ESG_Databook_2024.pdf",
         "label": "FY2024 BRSR (Supplementary Data Book to the Integrated Annual Report FY2024), Section A.III.18",
         "quote": "National 5 Manufacturing Locations (2 plant - Bengaluru, 1 plant - Hyderabad, 2 plant -Visakhapatnam) 18 23"
       }
@@ -46,7 +46,7 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://biocon.com/docs/Biocon_BRSR_GRI_ESG_Databook_2024.pdf",
+        "url": "https://www.biocon.com/docs/Biocon_BRSR_GRI_ESG_Databook_2024.pdf",
         "label": "FY2024 BRSR (Supplementary Data Book to the Integrated Annual Report FY2024), Section A.III.18",
         "quote": "International 2 Manufacturing Locations (Malaysia, New, Jersey) 12 14"
       }
@@ -73,7 +73,7 @@
       "state": null,
       "iso2": "IN",
       "type": "plant",
-      "description": "New peptide facility at Biocon Park; process validation completed in FY2024 (Bengaluru has two of Biocon's five Indian plants)",
+      "description": "New peptide facility at Biocon Park; process validation completed in FY2024",
       "source": {
         "hostType": "company",
         "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
@@ -101,7 +101,7 @@
       "state": null,
       "iso2": "IN",
       "type": "plant",
-      "description": "APIs manufacturing, including a new immunosuppressants facility; two plants",
+      "description": "New immunosuppressants facility; process validation completed in FY2024",
       "source": {
         "hostType": "company",
         "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
@@ -115,7 +115,7 @@
       "state": null,
       "iso2": "MY",
       "type": "plant",
-      "description": "Group's first overseas manufacturing facility; Asia's largest integrated insulins manufacturing facility, in the BioXcell biotechnology park",
+      "description": "Asia's largest integrated insulins manufacturing facility, in the BioXcell biotechnology park",
       "source": {
         "hostType": "company",
         "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
@@ -129,7 +129,7 @@
       "state": "NJ",
       "iso2": "US",
       "type": "plant",
-      "description": "Oral solid dosage manufacturing facility acquired by Biocon Generics Inc. in FY2024 for USD 7.7 million",
+      "description": "Oral solid dosage manufacturing facility, acquired for USD 7.7 million",
       "source": {
         "hostType": "company",
         "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",

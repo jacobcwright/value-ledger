@@ -1,0 +1,49 @@
+{
+  "id": "sam-walton",
+  "company": "Walmart",
+  "nbim": {
+    "pct": 0.78,
+    "marketValueUSD": 5.66,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"3w2ir8rwmyaa\",\"cc\":\"US\",\"n\":\"Walmart Inc\",\"a\":{\"e\":5656241494,\"n\":64239914334},\"at\":0,\"o\":0.78,\"eq\":{\"vid\":\"WMT\",\"v\":0.78,\"s\":\"Consumer Discretionary\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 13923847,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "WALMART INC COM 931142103 1258019576 13923847"
+    },
+    "derived": {
+      "pct": 0.174,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
+          "label": "FY2025 Form 10-K, cover page",
+          "quote": "The registrant had 8,016,849,444 shares of common stock outstanding as of March 12, 2025."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 194162,
+    "asOf": "2025-03-12",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of March 12, 2025, there were 194,162 holders of record of Walmart's common stock"
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Walmart Inc;Consumer Discretionary;64239914334;5656241494;0.78%;0.78%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
+  "researchedAt": "2026-11-23"
+}

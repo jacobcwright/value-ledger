@@ -1,0 +1,19 @@
+{
+  "id": "bernard-arnault",
+  "company": "LVMH",
+  "nbim": {
+    "pct": 1.1,
+    "marketValueUSD": 3.63,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"1b4kw899pvev\",\"cc\":\"FR\",\"n\":\"LVMH Moet Hennessy Louis Vuitton SE\",\"a\":{\"e\":3632222119,\"n\":41252417881},\"at\":0,\"o\":1.1,\"eq\":{\"vid\":\"MC\",\"v\":0.75,\"s\":\"Consumer Discretionary\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": null,
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Europe;France;LVMH Moet Hennessy Louis Vuitton SE;Consumer Discretionary;41252417881;3632222119;0.75%;1.1%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of LVMH. Holders of record: LVMH's 2024 Universal Registration Document gives only an approximate total of about 700,000 shareholders (registered plus bearer, based on a Euroclear survey of December 2023), not a count of registered holders, so it is not recorded here.",
+  "researchedAt": "2026-11-23"
+}

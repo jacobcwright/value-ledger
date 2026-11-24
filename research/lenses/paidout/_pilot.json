@@ -1,0 +1,1783 @@
+{
+ "_about": {
+  "purpose": "Pilot for the 'Paid out & sales enabled' measure: test formula A (cash: revenue − operating cash flow + capex) against B (accrual: costs − D&A − SBC + interest paid + taxes paid + capex).",
+  "unit": "billions of the reporting currency; 'stated' is the figure as printed (millions; Reliance ₹ crore = 0.01 billion)",
+  "fiscalYear": "same fiscal year as research/records/<id>.json",
+  "researchedAt": "2026-11-23",
+  "formulas": {
+   "A": "Revenue − Operating cash flow + Capex (+ interest paid and/or taxes paid only where classified outside operating cash flow)",
+   "B": "Total costs and expenses − D&A − share-based comp + interest paid + taxes paid + Capex (as specified)",
+   "B_prime": "B with interest expense already inside total costs removed before adding cash interest paid (avoids double count)"
+  }
+ },
+ "companies": {
+  "mary-barra": {
+   "company": "General Motors",
+   "fiscalYear": "FY2024",
+   "fiscalYearEnd": "2024-12-31",
+   "currency": "USD",
+   "unit": "billions",
+   "kind": "manufacturer (with captive finance arm)",
+   "inputs": {
+    "revenue": {
+     "value": 187.442,
+     "stated": 187442,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated income statement (in millions)",
+      "quote": "Total net sales and revenue (Note 3) 187,442 171,842 156,735",
+      "xbrl": {
+       "cik": "0001467858",
+       "concept": "us-gaap:Revenues",
+       "end": "2024-12-31",
+       "value": 187442000000
+      }
+     }
+    },
+    "operatingCashFlow": {
+     "value": 20.129,
+     "stated": 20129,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+      "quote": "Net cash provided by (used in) operating activities 20,129 20,930 16,043",
+      "xbrl": {
+       "cik": "0001467858",
+       "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+       "end": "2024-12-31",
+       "value": 20129000000
+      }
+     }
+    },
+    "capex": {
+     "value": 10.83,
+     "stated": 10830,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+      "quote": "Cash flows from investing activities Expenditures for property ( 10,830 ) ( 10,970 ) ( 9,238 )",
+      "xbrl": {
+       "cik": "0001467858",
+       "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+       "end": "2024-12-31",
+       "value": 10830000000
+      }
+     },
+     "excludes": {
+      "leasedVehiclePurchases": {
+       "value": 15.279,
+       "stated": 15279,
+       "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Purchases of leased vehicles ( 15,279 ) ( 13,640 ) ( 11,949 )",
+        "xbrl": {
+         "cik": "0001467858",
+         "concept": "us-gaap:PaymentsToAcquireLeasesHeldForInvestment",
+         "end": "2024-12-31",
+         "value": 15279000000
+        }
+       }
+      }
+     }
+    },
+    "interestPaid": {
+     "value": 6.183,
+     "stated": 6183,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 8, cash paid for income taxes and interest (in millions)",
+      "quote": "Cash paid for interest (net of amounts capitalized) - Automotive $ 777 $ 863 $ 933 Cash paid for interest (net of amounts capitalized) - GM Financial 5,406 4,652 2,673 Total cash paid for interest (net of amounts capitalized) $ 6,183",
+      "xbrl": {
+       "cik": "0001467858",
+       "concept": "us-gaap:InterestPaidNet",
+       "end": "2024-12-31",
+       "value": 6183000000
+      }
+     },
+     "location": "inside operating cash flow (US GAAP)",
+     "components": {
+      "automotive": 0.777,
+      "gmFinancial": 5.406
+     }
+    },
+    "taxesPaid": {
+     "value": 1.475,
+     "stated": 1475,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 8, cash paid for income taxes and interest (in millions)",
+      "quote": "Cash paid for income taxes and interest Cash paid for income taxes, net $ 1,475 $ 1,726 $ 1,191",
+      "xbrl": {
+       "cik": "0001467858",
+       "concept": "us-gaap:IncomeTaxesPaidNet",
+       "end": "2024-12-31",
+       "value": 1475000000
+      }
+     },
+     "location": "inside operating cash flow (US GAAP)"
+    },
+    "totalCosts": {
+     "value": 174.658,
+     "stated": 174658,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated income statement (in millions)",
+      "quote": "Total costs and expenses 174,658 162,544 146,421 Operating income (loss) 12,784 9,298 10,315 Automotive interest expense 846 911 987",
+      "xbrl": {
+       "cik": "0001467858",
+       "concept": "us-gaap:OperatingExpenses",
+       "end": "2024-12-31",
+       "value": 174658000000
+      }
+     },
+     "note": "GM tags 'Total costs and expenses' as us-gaap:OperatingExpenses. Automotive interest expense (846) sits below operating income, outside this total."
+    },
+    "interestExpenseInsideCosts": {
+     "value": 6.03,
+     "stated": 6030,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+      "label": "FY2024 Form 10-K, debt note, interest expense (in millions)",
+      "quote": "Automotive interest expense $ 846 $ 911 $ 987 Automotive Financing - GM Financial interest expense 6,030 4,685 2,881 Total interest expense $ 6,876"
+     },
+     "note": "GM Financial interest expense sits inside 'GM Financial interest, operating and other expenses' (12,972), so inside total costs; the segment note says GM Financial items 'consist primarily of GM Financial interest expense; leased vehicle depreciation'."
+    },
+    "depreciationAmortization": {
+     "value": 11.456,
+     "stated": 11456,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+      "label": "FY2024 Form 10-K, segment note (in millions)",
+      "quote": "Depreciation and amortization $ 5,963 $ 506 $ 80 $ - $ 6,548 $ 25 $ 4,883 $ - $ 11,456 Impairment charges $ - $ - $ - $ - $ - $ 933 $ - $ - $ 934",
+      "xbrl": {
+       "cik": "0001467858",
+       "concept": "us-gaap:DepreciationDepletionAndAmortization",
+       "end": "2024-12-31",
+       "value": 11456000000
+      }
+     },
+     "note": "Excludes 934 of impairment charges (933 Cruise), also non-cash and inside costs; the cash-flow lines (4,844 + 7,545) include impairment."
+    },
+    "stockComp": {
+     "value": 0.332,
+     "stated": 332,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+      "label": "FY2024 Form 10-K, note on stock incentive plans (in millions)",
+      "quote": "Total compensation expense related to the above awards was $ 332 million, $ 340 million and $ 419 million in the years ended December 31, 2024, 2023 and 2022",
+      "xbrl": {
+       "cik": "0001467858",
+       "concept": "us-gaap:AllocatedShareBasedCompensationExpense",
+       "end": "2024-12-31",
+       "value": 332000000
+      }
+     },
+     "note": "GM's cash-flow statement has no separate stock-comp add-back line, so the note expense is used. Cruise share-based expense was 'insignificant' in 2024."
+    },
+    "otherNamedItems": {
+     "pensionContributions": {
+      "value": 1.518,
+      "stated": 1518,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+       "quote": "Pension contributions and OPEB payments ( 1,518 ) ( 1,100 ) ( 790 )",
+       "xbrl": {
+        "cik": "0001467858",
+        "concept": "us-gaap:PensionAndOtherPostretirementBenefitContributions",
+        "end": "2024-12-31",
+        "value": 1518000000
+       }
+      }
+     },
+     "changeInOtherOperatingAssetsLiabilities": {
+      "value": -1.529,
+      "stated": -1529,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+       "quote": "Change in other operating assets and liabilities (Note 24) ( 1,529 ) 1,822 ( 2,977 )"
+      }
+     }
+    }
+   },
+   "results": {
+    "A": 178.14,
+    "A_formula": "187442 − 20129 + 10830",
+    "B": 181.36,
+    "B_formula": "174658 − 11456 − 332 + 6183 + 1475 + 10830",
+    "B_prime": 175.33,
+    "B_prime_method": "costs − interest expense inside costs − D&A − SBC + interest paid + taxes paid + capex",
+    "B_overstatement_from_interest_double_count": 6.03,
+    "A_minus_B_prime_pct_of_A": 1.6
+   }
+  },
+  "gordon-moore": {
+   "company": "Intel",
+   "fiscalYear": "FY2024",
+   "fiscalYearEnd": "2024-12-28",
+   "currency": "USD",
+   "unit": "billions",
+   "kind": "capex-heavy",
+   "inputs": {
+    "revenue": {
+     "value": 53.101,
+     "stated": 53101,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
+      "quote": "Net revenue $ 53,101 $ 54,228 $ 63,054 Cost of sales 35,756 32,517 36,188",
+      "xbrl": {
+       "cik": "0000050863",
+       "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+       "end": "2024-12-28",
+       "value": 53101000000
+      }
+     }
+    },
+    "operatingCashFlow": {
+     "value": 8.288,
+     "stated": 8288,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+      "quote": "Net cash provided by (used for) operating activities 8,288 11,471 15,433",
+      "xbrl": {
+       "cik": "0000050863",
+       "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+       "end": "2024-12-28",
+       "value": 8288000000
+      }
+     }
+    },
+    "capex": {
+     "value": 23.944,
+     "stated": 23944,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+      "quote": "Additions to property, plant, and equipment ( 23,944 ) ( 25,750 ) ( 24,844 ) Proceeds from capital-related government incentives 1,936 1,011 246",
+      "xbrl": {
+       "cik": "0000050863",
+       "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+       "end": "2024-12-28",
+       "value": 23944000000
+      }
+     },
+     "note": "Gross; not netted against 1,936 of capital-related government incentives received."
+    },
+    "interestPaid": {
+     "value": 0.987,
+     "stated": 987,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+      "label": "FY2024 Form 10-K, supplemental cash-flow disclosure (in millions)",
+      "quote": "Cash paid during the year for: Interest, net of capitalized interest $ 987 $ 613 $ 459 Income taxes, net of refunds $ 2,202 $ 2,621 $ 4,282",
+      "xbrl": {
+       "cik": "0000050863",
+       "concept": "us-gaap:InterestPaidNet",
+       "end": "2024-12-28",
+       "value": 987000000
+      }
+     },
+     "location": "inside operating cash flow (US GAAP)"
+    },
+    "taxesPaid": {
+     "value": 2.202,
+     "stated": 2202,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+      "label": "FY2024 Form 10-K, supplemental cash-flow disclosure (in millions)",
+      "quote": "Cash paid during the year for: Interest, net of capitalized interest $ 987 $ 613 $ 459 Income taxes, net of refunds $ 2,202 $ 2,621 $ 4,282",
+      "xbrl": {
+       "cik": "0000050863",
+       "concept": "us-gaap:IncomeTaxesPaidNet",
+       "end": "2024-12-28",
+       "value": 2202000000
+      }
+     },
+     "location": "inside operating cash flow (US GAAP)"
+    },
+    "totalCosts": {
+     "value": 64.779,
+     "stated": 64779,
+     "derived": {
+      "method": "cost of sales + operating expenses (R&D, MG&A, restructuring and other charges)",
+      "inputs": [
+       {
+        "value": 35.756,
+        "stated": 35756,
+        "source": {
+         "hostType": "sec",
+         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+         "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
+         "quote": "Net revenue $ 53,101 $ 54,228 $ 63,054 Cost of sales 35,756 32,517 36,188",
+         "xbrl": {
+          "cik": "0000050863",
+          "concept": "us-gaap:CostOfGoodsAndServicesSold",
+          "end": "2024-12-28",
+          "value": 35756000000
+         }
+        }
+       },
+       {
+        "value": 29.023,
+        "stated": 29023,
+        "source": {
+         "hostType": "sec",
+         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+         "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
+         "quote": "Restructuring and other charges 6,970 ( 62 ) 2 Operating expenses 29,023 21,618 24,532",
+         "xbrl": {
+          "cik": "0000050863",
+          "concept": "us-gaap:OperatingExpenses",
+          "end": "2024-12-28",
+          "value": 29023000000
+         }
+        }
+       }
+      ]
+     },
+     "note": "Interest expense sits in 'Interest and other, net', below operating income, so it is outside this total."
+    },
+    "interestExpenseInsideCosts": {
+     "value": 0,
+     "note": "None: interest is below operating income."
+    },
+    "depreciationAmortization": {
+     "value": 11.379,
+     "stated": 11379,
+     "derived": {
+      "method": "depreciation + amortization of intangibles",
+      "inputs": [
+       {
+        "value": 9.951,
+        "stated": 9951,
+        "source": {
+         "hostType": "sec",
+         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+         "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+         "quote": "Depreciation 9,951 7,847 11,128 Share-based compensation 3,410 3,229 3,128",
+         "xbrl": {
+          "cik": "0000050863",
+          "concept": "us-gaap:Depreciation",
+          "end": "2024-12-28",
+          "value": 9951000000
+         }
+        }
+       },
+       {
+        "value": 1.428,
+        "stated": 1428,
+        "source": {
+         "hostType": "sec",
+         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+         "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+         "quote": "Amortization of intangibles 1,428 1,755 1,907",
+         "xbrl": {
+          "cik": "0000050863",
+          "concept": "us-gaap:AmortizationOfIntangibleAssets",
+          "end": "2024-12-28",
+          "value": 1428000000
+         }
+        }
+       }
+      ]
+     }
+    },
+    "stockComp": {
+     "value": 3.41,
+     "stated": 3410,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+      "quote": "Depreciation 9,951 7,847 11,128 Share-based compensation 3,410 3,229 3,128",
+      "xbrl": {
+       "cik": "0000050863",
+       "concept": "us-gaap:ShareBasedCompensation",
+       "end": "2024-12-28",
+       "value": 3410000000
+      }
+     }
+    },
+    "otherNamedItems": {
+     "nonCashRestructuring": {
+      "value": 3.491,
+      "stated": 3491,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+       "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+       "quote": "Restructuring and other charges 3,491 ( 424 ) 1,074",
+       "xbrl": {
+        "cik": "0000050863",
+        "concept": "us-gaap:RestructuringCharges",
+        "end": "2024-12-28",
+        "value": 3491000000
+       }
+      }
+     },
+     "impairmentsPPE": {
+      "value": 2.252,
+      "stated": 2252,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+       "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+       "quote": "Impairments and net (gain) loss on retirement of property, plant, and equipment 2,252 33 301"
+      }
+     },
+     "capitalIncentivesReceived": {
+      "value": 1.936,
+      "stated": 1936,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+       "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+       "quote": "Proceeds from capital-related government incentives 1,936 1,011 246"
+      }
+     }
+    }
+   },
+   "results": {
+    "A": 68.76,
+    "A_formula": "53101 − 8288 + 23944",
+    "B": 77.12,
+    "B_formula": "64779 − 11379 − 3410 + 987 + 2202 + 23944",
+    "B_prime": 77.12,
+    "B_prime_method": "same as B (no interest inside costs)",
+    "B_overstatement_from_interest_double_count": 0.0,
+    "A_minus_B_prime_pct_of_A": -12.2
+   }
+  },
+  "tobias-lutke": {
+   "company": "Shopify",
+   "fiscalYear": "FY2024",
+   "fiscalYearEnd": "2024-12-31",
+   "currency": "USD",
+   "unit": "billions",
+   "kind": "marketplace",
+   "inputs": {
+    "revenue": {
+     "value": 8.88,
+     "stated": 8880,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+      "label": "FY2024 Form 10-K, revenues table (in US $ millions)",
+      "quote": "Subscription solutions 2,350 28 % 1,837 23 % 1,488 Merchant solutions 6,530 25 % 5,223 27 % 4,112 Total revenues 8,880 26 % 7,060 26 % 5,600",
+      "xbrl": {
+       "cik": "0001594805",
+       "concept": "us-gaap:Revenues",
+       "end": "2024-12-31",
+       "value": 8880000000
+      }
+     }
+    },
+    "operatingCashFlow": {
+     "value": 1.616,
+     "stated": 1616,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (US $ millions)",
+      "quote": "Net cash provided by operating activities 1,616 944 ( 136 )",
+      "xbrl": {
+       "cik": "0001594805",
+       "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+       "end": "2024-12-31",
+       "value": 1616000000
+      }
+     }
+    },
+    "capex": {
+     "value": 0.019,
+     "stated": 19,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (US $ millions)",
+      "quote": "Cash flows from investing activities Purchases of property and equipment ( 19 ) ( 39 ) ( 50 )",
+      "xbrl": {
+       "cik": "0001594805",
+       "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+       "end": "2024-12-31",
+       "value": 19000000
+      }
+     }
+    },
+    "interestPaid": {
+     "value": 0.001,
+     "stated": 1,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+      "label": "FY2024 Form 10-K, supplemental cash flow information (US $ millions)",
+      "quote": "Supplemental cash flow information: Cash paid for income taxes, net 116 50 27 Cash paid for interest 1 1 1",
+      "xbrl": {
+       "cik": "0001594805",
+       "concept": "us-gaap:InterestPaidNet",
+       "end": "2024-12-31",
+       "value": 1000000
+      }
+     },
+     "location": "inside operating cash flow (US GAAP)"
+    },
+    "taxesPaid": {
+     "value": 0.116,
+     "stated": 116,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+      "label": "FY2024 Form 10-K, supplemental cash flow information (US $ millions)",
+      "quote": "Supplemental cash flow information: Cash paid for income taxes, net 116 50 27 Cash paid for interest 1 1 1",
+      "xbrl": {
+       "cik": "0001594805",
+       "concept": "us-gaap:IncomeTaxesPaidNet",
+       "end": "2024-12-31",
+       "value": 116000000
+      }
+     },
+     "location": "inside operating cash flow (US GAAP)"
+    },
+    "totalCosts": {
+     "value": 7.805,
+     "stated": 7805,
+     "derived": {
+      "method": "total cost of revenues + total operating expenses",
+      "inputs": [
+       {
+        "value": 4.408,
+        "stated": 4408,
+        "source": {
+         "hostType": "sec",
+         "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+         "label": "FY2024 Form 10-K, cost of revenues table (US $ millions)",
+         "quote": "Cost of merchant solutions 3,974 25 % 3,191 27 % 2,515 Total cost of revenues 4,408 24 % 3,545 25 % 2,846",
+         "xbrl": {
+          "cik": "0001594805",
+          "concept": "us-gaap:CostOfGoodsAndServicesSold",
+          "end": "2024-12-31",
+          "value": 4408000000
+         }
+        }
+       },
+       {
+        "value": 3.397,
+        "stated": 3397,
+        "source": {
+         "hostType": "sec",
+         "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+         "label": "FY2024 Form 10-K, consolidated statements of operations (US $ millions)",
+         "quote": "Impairment on sales of Shopify's logistics businesses - 1,340 - Total operating expenses 3,397 4,933 3,576",
+         "xbrl": {
+          "cik": "0001594805",
+          "concept": "us-gaap:OperatingExpenses",
+          "end": "2024-12-31",
+          "value": 3397000000
+         }
+        }
+       }
+      ]
+     }
+    },
+    "interestExpenseInsideCosts": {
+     "value": 0,
+     "note": "Interest is in other income (expense), below operations."
+    },
+    "depreciationAmortization": {
+     "value": 0.036,
+     "stated": 36,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (US $ millions)",
+      "quote": "Amortization and depreciation 36 70 93 Stock-based compensation 430 615 549",
+      "xbrl": {
+       "cik": "0001594805",
+       "concept": "us-gaap:DepreciationDepletionAndAmortization",
+       "end": "2024-12-31",
+       "value": 36000000
+      }
+     }
+    },
+    "stockComp": {
+     "value": 0.43,
+     "stated": 430,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (US $ millions)",
+      "quote": "Amortization and depreciation 36 70 93 Stock-based compensation 430 615 549",
+      "xbrl": {
+       "cik": "0001594805",
+       "concept": "us-gaap:AllocatedShareBasedCompensationExpense",
+       "end": "2024-12-31",
+       "value": 430000000
+      }
+     }
+    },
+    "otherNamedItems": {
+     "interestIncome": {
+      "value": 0.308,
+      "stated": 308,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+       "label": "FY2024 Form 10-K, MD&A, other income (expense)",
+       "quote": "Additionally, we had interest income of $308 million and a net loss of $138 million on our equity method investment.",
+       "xbrl": {
+        "cik": "0001594805",
+        "concept": "us-gaap:InterestIncomeExpenseNonoperatingNet",
+        "end": "2024-12-31",
+        "value": 308000000
+       }
+      },
+      "note": "Cash interest received on cash and securities is inside operating cash flow but not inside revenue, so it lowers A."
+     },
+     "provisionTransactionLoanLosses": {
+      "value": 0.148,
+      "stated": 148,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statements of cash flows (US $ millions)",
+       "quote": "Provision for transaction and loan losses 148 80 74"
+      }
+     }
+    },
+    "salesEnabled": {
+     "gmv": {
+      "value": 292.275,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+       "label": "FY2024 Form 10-K, Key Performance Indicators table (in US $ millions)",
+       "quote": "(in US $ millions) Monthly Recurring Revenue 178 144 109 Gross Merchandise Volume 292,275 235,910 197,167"
+      },
+      "from": "research/lenses/ecosystem/tobias-lutke.json"
+     },
+     "definitionQuote": "GMV is the total dollar value of orders facilitated through our platform including certain apps and channels for which a revenue-sharing arrangement is in place in the period, net of refunds, and inclusive of shipping and handling, duty and value-added taxes. GMV does not represent revenue earned by us."
+    }
+   },
+   "results": {
+    "A": 7.28,
+    "A_formula": "8880 − 1616 + 19",
+    "B": 7.48,
+    "B_formula": "7805 − 36 − 430 + 1 + 116 + 19",
+    "B_prime": 7.48,
+    "B_prime_method": "same as B (no interest inside costs)",
+    "B_overstatement_from_interest_double_count": 0.0,
+    "A_minus_B_prime_pct_of_A": -2.6,
+    "salesEnabled": 283.395,
+    "salesEnabled_formula": "GMV 292.275 − revenue 8.880",
+    "paidOutPlusSalesEnabled_usingA": 290.67
+   }
+  },
+  "dara-khosrowshahi": {
+   "company": "Uber",
+   "fiscalYear": "FY2024",
+   "fiscalYearEnd": "2024-12-31",
+   "currency": "USD",
+   "unit": "billions",
+   "kind": "marketplace (gross revenue in some markets)",
+   "inputs": {
+    "revenue": {
+     "value": 43.978,
+     "stated": 43978,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
+      "quote": "Revenue $ 31,877 $ 37,281 $ 43,978",
+      "xbrl": {
+       "cik": "0001543151",
+       "concept": "us-gaap:Revenues",
+       "end": "2024-12-31",
+       "value": 43978000000
+      }
+     }
+    },
+    "operatingCashFlow": {
+     "value": 7.137,
+     "stated": 7137,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+      "quote": "Net cash provided by operating activities 642 3,585 7,137",
+      "xbrl": {
+       "cik": "0001543151",
+       "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+       "end": "2024-12-31",
+       "value": 7137000000
+      }
+     }
+    },
+    "capex": {
+     "value": 0.242,
+     "stated": 242,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+      "quote": "Cash flows from investing activities Purchases of property and equipment ( 252 ) ( 223 ) ( 242 )",
+      "xbrl": {
+       "cik": "0001543151",
+       "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+       "end": "2024-12-31",
+       "value": 242000000
+      }
+     }
+    },
+    "interestPaid": {
+     "value": 0.475,
+     "stated": 475,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+      "label": "FY2024 Form 10-K, supplemental cash-flow disclosures (in millions)",
+      "quote": "Cash paid for: Interest, net of amount capitalized $ 513 $ 629 $ 475 Income taxes, net of refunds 175 234 324",
+      "xbrl": {
+       "cik": "0001543151",
+       "concept": "us-gaap:InterestPaidNet",
+       "end": "2024-12-31",
+       "value": 475000000
+      }
+     },
+     "location": "inside operating cash flow (US GAAP)"
+    },
+    "taxesPaid": {
+     "value": 0.324,
+     "stated": 324,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+      "label": "FY2024 Form 10-K, supplemental cash-flow disclosures (in millions)",
+      "quote": "Cash paid for: Interest, net of amount capitalized $ 513 $ 629 $ 475 Income taxes, net of refunds 175 234 324",
+      "xbrl": {
+       "cik": "0001543151",
+       "concept": "us-gaap:IncomeTaxesPaidNet",
+       "end": "2024-12-31",
+       "value": 324000000
+      }
+     },
+     "location": "inside operating cash flow (US GAAP)"
+    },
+    "totalCosts": {
+     "value": 41.179,
+     "stated": 41179,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+      "label": "FY2024 Form 10-K, MD&A, consolidated statement of operations data (in millions; 2023, 2024)",
+      "quote": "Depreciation and amortization 823 711 Total costs and expenses 36,171 41,179 Income from operations 1,110 2,799 Interest expense (633) (523)",
+      "xbrl": {
+       "cik": "0001543151",
+       "concept": "us-gaap:CostsAndExpenses",
+       "end": "2024-12-31",
+       "value": 41179000000
+      }
+     },
+     "note": "Interest expense (523) is below income from operations, outside this total."
+    },
+    "interestExpenseInsideCosts": {
+     "value": 0,
+     "note": "Interest is below income from operations."
+    },
+    "depreciationAmortization": {
+     "value": 0.711,
+     "stated": 711,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+      "label": "FY2024 Form 10-K, MD&A, consolidated statement of operations data (in millions; 2023, 2024)",
+      "quote": "Depreciation and amortization 823 711 Total costs and expenses 36,171 41,179",
+      "xbrl": {
+       "cik": "0001543151",
+       "concept": "us-gaap:DepreciationDepletionAndAmortization",
+       "end": "2024-12-31",
+       "value": 711000000
+      }
+     },
+     "note": "Income-statement line used (the D&A inside total costs); the cash-flow add-back is 737."
+    },
+    "stockComp": {
+     "value": 1.796,
+     "stated": 1796,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions; 2022, 2023, 2024)",
+      "quote": "Bad debt expense 114 92 61 Stock-based compensation 1,793 1,935 1,796",
+      "xbrl": {
+       "cik": "0001543151",
+       "concept": "us-gaap:ShareBasedCompensation",
+       "end": "2024-12-31",
+       "value": 1796000000
+      }
+     }
+    },
+    "otherNamedItems": {
+     "accruedInsuranceReservesIncrease": {
+      "value": 2.819,
+      "stated": 2819,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions; 2022, 2023, 2024)",
+       "quote": "Accrued insurance reserves 730 2,230 2,819"
+      },
+      "note": "Insurance expense accrued but not yet paid: inside B (costs) but not A (cash)."
+     },
+     "financeLeasePrincipal": {
+      "value": 0.172,
+      "stated": 172,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+       "label": "FY2024 Form 10-K, lease note (in millions; 2022, 2023, 2024)",
+       "quote": "Financing cash flows from financing leases 184 171 172",
+       "xbrl": {
+        "cik": "0001543151",
+        "concept": "us-gaap:FinanceLeasePrincipalPayments",
+        "end": "2024-12-31",
+        "value": 172000000
+       }
+      }
+     },
+     "freightRevenue": {
+      "value": 5.141,
+      "stated": 5141,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+       "label": "FY2024 Form 10-K, MD&A revenue by offering (in millions; 2023, 2024)",
+       "quote": "Delivery 12,204 13,750 13 % Freight 5,245 5,141 (2) % Total revenue $ 37,281 $ 43,978"
+      }
+     }
+    },
+    "salesEnabled": {
+     "grossBookings": {
+      "value": 162.773,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+       "label": "FY2024 Form 10-K, MD&A financial and operational highlights (in millions)",
+       "quote": "Gross Bookings (2) $ 137,865 $ 162,773 18 % 21 %"
+      },
+      "from": "research/lenses/ecosystem/dara-khosrowshahi.json"
+     },
+     "definitionQuote": "We define Gross Bookings as the total dollar value, including any applicable taxes, tolls, and fees, of: Mobility rides, Delivery orders (in each case without any adjustment for consumer discounts and refunds, Driver and Merchant earnings, and Driver incentives) and Freight revenue. Gross Bookings do not include tips earned by Drivers.",
+     "grossMarketsQuote": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+      "label": "FY2024 Form 10-K, MD&A overview",
+      "quote": "In certain markets we are responsible for the Mobility or Delivery services (and in most markets we are responsible for the Freight services), and in these markets we present revenue from end-users and from Shippers on a gross basis, with the payments to Drivers and Carriers classified within cost of revenue"
+     }
+    }
+   },
+   "results": {
+    "A": 37.08,
+    "A_formula": "43978 − 7137 + 242",
+    "B": 39.71,
+    "B_formula": "41179 − 711 − 1796 + 475 + 324 + 242",
+    "B_prime": 39.71,
+    "B_prime_method": "same as B (no interest inside costs)",
+    "B_overstatement_from_interest_double_count": 0.0,
+    "A_minus_B_prime_pct_of_A": -7.1,
+    "salesEnabled": 118.795,
+    "salesEnabled_formula": "Gross Bookings 162.773 − revenue 43.978",
+    "paidOutPlusSalesEnabled_usingA": 155.88
+   }
+  },
+  "brian-moynihan": {
+   "company": "Bank of America",
+   "fiscalYear": "FY2024",
+   "fiscalYearEnd": "2024-12-31",
+   "currency": "USD",
+   "unit": "billions",
+   "kind": "bank",
+   "inputs": {
+    "revenue": {
+     "value": 101.887,
+     "stated": 101887,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statement of income (in millions)",
+      "quote": "Total revenue, net of interest expense 101,887 98,581",
+      "xbrl": {
+       "cik": "0000070858",
+       "concept": "us-gaap:Revenues",
+       "end": "2024-12-31",
+       "value": 101887000000
+      }
+     },
+     "note": "Net of interest expense of 90,547."
+    },
+    "operatingCashFlow": {
+     "value": -8.805,
+     "stated": -8805,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+      "quote": "Net cash provided by (used in) operating activities ( 8,805 ) 44,982 ( 6,327 )",
+      "xbrl": {
+       "cik": "0000070858",
+       "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+       "end": "2024-12-31",
+       "value": -8805000000
+      }
+     }
+    },
+    "capex": {
+     "value": null,
+     "source": null,
+     "note": "No premises-and-equipment purchase line in the cash-flow statement, and no PaymentsToAcquire* PP&E concept in companyfacts for this 10-K (only loans and securities). Not derived."
+    },
+    "interestPaid": {
+     "value": 89.687,
+     "stated": 89687,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
+      "label": "FY2024 Form 10-K, supplemental cash flow disclosures (in millions)",
+      "quote": "Supplemental cash flow disclosures Interest paid $ 89,687 $ 69,604 $ 18,526 Income taxes paid, net 3,822 3,405 2,288",
+      "xbrl": {
+       "cik": "0000070858",
+       "concept": "us-gaap:InterestPaidNet",
+       "end": "2024-12-31",
+       "value": 89687000000
+      }
+     },
+     "location": "inside operating cash flow (US GAAP)"
+    },
+    "taxesPaid": {
+     "value": 3.822,
+     "stated": 3822,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
+      "label": "FY2024 Form 10-K, supplemental cash flow disclosures (in millions)",
+      "quote": "Supplemental cash flow disclosures Interest paid $ 89,687 $ 69,604 $ 18,526 Income taxes paid, net 3,822 3,405 2,288",
+      "xbrl": {
+       "cik": "0000070858",
+       "concept": "us-gaap:IncomeTaxesPaidNet",
+       "end": "2024-12-31",
+       "value": 3822000000
+      }
+     },
+     "location": "inside operating cash flow (US GAAP)"
+    },
+    "totalCosts": {
+     "value": 66.812,
+     "stated": 66812,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statement of income (in millions)",
+      "quote": "Other general operating 3,991 5,950 4,021 Total noninterest expense 66,812 65,845 61,438",
+      "xbrl": {
+       "cik": "0000070858",
+       "concept": "us-gaap:NoninterestExpense",
+       "end": "2024-12-31",
+       "value": 66812000000
+      }
+     },
+     "note": "Noninterest expense only; interest expense (90,547) is netted in revenue and the provision for credit losses (5,821) is a separate non-cash line."
+    },
+    "interestExpense": {
+     "value": 90.547,
+     "stated": 90547,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
+      "label": "FY2024 Form 10-K, interest income and expense table (in millions)",
+      "quote": "Total interest expense 90,547 73,331 20,103 Net interest income $ 56,060 $ 56,931 $ 52,462",
+      "xbrl": {
+       "cik": "0000070858",
+       "concept": "us-gaap:InterestExpenseOperating",
+       "end": "2024-12-31",
+       "value": 90547000000
+      }
+     }
+    },
+    "depreciationAmortization": {
+     "value": 2.189,
+     "stated": 2189,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+      "quote": "Depreciation and amortization 2,189 2,057 1,978",
+      "xbrl": {
+       "cik": "0000070858",
+       "concept": "us-gaap:DepreciationDepletionAndAmortization",
+       "end": "2024-12-31",
+       "value": 2189000000
+      }
+     }
+    },
+    "stockComp": {
+     "value": 3.433,
+     "stated": 3433,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
+      "quote": "Amortization of stock-based compensation 3,433 2,942 2,862",
+      "xbrl": {
+       "cik": "0000070858",
+       "concept": "us-gaap:ShareBasedCompensation",
+       "end": "2024-12-31",
+       "value": 3433000000
+      }
+     },
+     "note": "Cash-flow add-back used for consistency; the note states compensation cost of $3.6 billion (us-gaap:AllocatedShareBasedCompensationExpense 3,600)."
+    },
+    "otherNamedItems": {
+     "compensationAndBenefits": {
+      "value": 40.182,
+      "stated": 40182,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statement of income (in millions)",
+       "quote": "Noninterest expense Compensation and benefits 40,182 38,330 36,447",
+       "xbrl": {
+        "cik": "0000070858",
+        "concept": "us-gaap:LaborAndRelatedExpense",
+        "end": "2024-12-31",
+        "value": 40182000000
+       }
+      }
+     }
+    }
+   },
+   "results": {
+    "A": 110.69,
+    "A_formula": "101887 − -8805 + 0",
+    "B": 154.7,
+    "B_formula": "66812 − 2189 − 3433 + 89687 + 3822 + 0",
+    "B_prime": null,
+    "B_prime_method": null,
+    "B_overstatement_from_interest_double_count": null,
+    "A_minus_B_prime_pct_of_A": null,
+    "A_meaning": "Meaningless: bank operating cash flow (−8,805) is driven by trading assets, loans held for sale and funding flows, not by revenue collection; A = revenue + 8.8bn.",
+    "B_meaning": "B has no capex input and is dominated by interest paid (89,687, mostly to depositors and funding counterparties, swinging with rates: 18,526 in 2022).",
+    "bankFormula_exInterest": 65.01,
+    "bankFormula_exInterest_formula": "noninterest expense 66,812 − D&A 2,189 − SBC 3,433 + taxes paid 3,822 (capex not disclosed)",
+    "bankFormula_withInterestPaid": 154.7,
+    "recommendation": "not comparable: exclude from the non-financial ranking; optionally show 'operating payout' = noninterest expense − D&A − SBC + taxes paid, with interest paid to depositors/lenders as a separate, labelled line"
+   }
+  },
+  "warren-buffett": {
+   "company": "Berkshire Hathaway",
+   "fiscalYear": "FY2024",
+   "fiscalYearEnd": "2024-12-31",
+   "currency": "USD",
+   "unit": "billions",
+   "kind": "conglomerate and insurer",
+   "inputs": {
+    "revenue": {
+     "value": 371.433,
+     "stated": 371433,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of earnings (in millions)",
+      "quote": "Service revenues and other income 4,917 4,728 5,324 49,790 49,751 52,149 Total revenues 371,433 364,482 302,020",
+      "xbrl": {
+       "cik": "0001067983",
+       "concept": "us-gaap:Revenues",
+       "end": "2024-12-31",
+       "value": 371433000000
+      }
+     },
+     "note": "Includes 21,825 of interest, dividend and other investment income; excludes 52,799 of investment gains."
+    },
+    "operatingCashFlow": {
+     "value": 30.592,
+     "stated": 30592,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+      "quote": "Income taxes ( 8,163 ) 14,865 ( 12,872 ) Net cash flows from operating activities 30,592 49,196 37,350",
+      "xbrl": {
+       "cik": "0001067983",
+       "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+       "end": "2024-12-31",
+       "value": 30592000000
+      }
+     }
+    },
+    "capex": {
+     "value": 18.976,
+     "stated": 18976,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+      "quote": "Purchases of property, plant and equipment and equipment held for lease ( 18,976 ) ( 19,409 ) ( 15,464 )",
+      "xbrl": {
+       "cik": "0001067983",
+       "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+       "end": "2024-12-31",
+       "value": 18976000000
+      }
+     },
+     "note": "Single line combining PP&E and equipment held for lease; the lease-fleet part cannot be split out."
+    },
+    "interestPaid": {
+     "value": 4.939,
+     "stated": 4939,
+     "derived": {
+      "method": "insurance and other + railroad, utilities and energy",
+      "inputs": [
+       {
+        "value": 1.362,
+        "stated": 1362,
+        "source": {
+         "hostType": "sec",
+         "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+         "label": "FY2024 Form 10-K, note 14, supplemental cash flow information (in millions)",
+         "quote": "Cash paid during the year for: Income taxes $ 28,544 $ 7,765 $ 4,236 Interest: Insurance and other 1,362 1,670 1,150 Railroad, utilities and energy 3,577 3,327 3,195"
+        }
+       },
+       {
+        "value": 3.577,
+        "stated": 3577,
+        "source": {
+         "hostType": "sec",
+         "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+         "label": "FY2024 Form 10-K, note 14, supplemental cash flow information (in millions)",
+         "quote": "Cash paid during the year for: Income taxes $ 28,544 $ 7,765 $ 4,236 Interest: Insurance and other 1,362 1,670 1,150 Railroad, utilities and energy 3,577 3,327 3,195"
+        }
+       }
+      ]
+     },
+     "location": "inside operating cash flow (US GAAP)"
+    },
+    "taxesPaid": {
+     "value": 28.544,
+     "stated": 28544,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+      "label": "FY2024 Form 10-K, note 14, supplemental cash flow information (in millions)",
+      "quote": "Cash paid during the year for: Income taxes $ 28,544 $ 7,765 $ 4,236",
+      "xbrl": {
+       "cik": "0001067983",
+       "concept": "us-gaap:IncomeTaxesPaidNet",
+       "end": "2024-12-31",
+       "value": 28544000000
+      }
+     },
+     "location": "inside operating cash flow (US GAAP)",
+     "note": "Includes tax on 2024 investment gains, which are outside revenue."
+    },
+    "totalCosts": {
+     "value": 315.697,
+     "stated": 315697,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of earnings (in millions)",
+      "quote": "Interest expense 3,606 3,332 3,165 40,898 42,211 41,327 Total costs and expenses 315,697 321,144 266,484",
+      "xbrl": {
+       "cik": "0001067983",
+       "concept": "us-gaap:CostsAndExpenses",
+       "end": "2024-12-31",
+       "value": 315697000000
+      }
+     }
+    },
+    "interestExpenseInsideCosts": {
+     "value": 5.2,
+     "stated": 5200,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of earnings (in millions): Insurance and Other 1,594 + Railroad, Utilities and Energy 3,606",
+      "quote": "Selling, general and administrative expenses 25,642 25,458 19,506 Interest expense 1,594 1,671 1,187 274,799 278,933 225,157",
+      "xbrl": {
+       "cik": "0001067983",
+       "concept": "us-gaap:InterestExpense",
+       "end": "2024-12-31",
+       "value": 5200000000
+      }
+     },
+     "note": "Both interest-expense lines (1,594 and 3,606) sit inside total costs and expenses; XBRL InterestExpense = 5,200."
+    },
+    "depreciationAmortization": {
+     "value": 12.855,
+     "stated": 12855,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+      "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+      "quote": "Depreciation and amortization 12,855 12,486 10,899",
+      "xbrl": {
+       "cik": "0001067983",
+       "concept": "us-gaap:DepreciationDepletionAndAmortization",
+       "end": "2024-12-31",
+       "value": 12855000000
+      }
+     }
+    },
+    "stockComp": {
+     "value": 0,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525054877/d812428ddef14a.htm",
+      "label": "2025 proxy statement, Compensation Discussion and Analysis",
+      "quote": "Under the Committee's compensation policy, Berkshire never intends to use Berkshire stock in compensating employees."
+     },
+     "note": "No share-based compensation; treated as 0."
+    },
+    "otherNamedItems": {
+     "tBillDiscountAccretion": {
+      "value": 11.349,
+      "stated": 11349,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+       "quote": "Discount accretion on investments, principally U.S. Treasury Bills ( 11,349 ) ( 5,510 ) ( 1,132 )",
+       "xbrl": {
+        "cik": "0001067983",
+        "concept": "us-gaap:AccretionAmortizationOfDiscountsAndPremiumsInvestments",
+        "end": "2024-12-31",
+        "value": 11349000000
+       }
+      },
+      "note": "Non-cash income inside revenue; removed from operating cash flow, so it inflates A."
+     },
+     "unpaidLossesIncrease": {
+      "value": 2.173,
+      "stated": 2173,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+       "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
+       "quote": "Unpaid losses and loss adjustment expenses 2,173 2,628 4,057"
+      }
+     }
+    }
+   },
+   "results": {
+    "A": 359.82,
+    "A_formula": "371433 − 30592 + 18976",
+    "B": 355.3,
+    "B_formula": "315697 − 12855 − 0 + 4939 + 28544 + 18976",
+    "B_prime": 350.1,
+    "B_prime_method": "costs − interest expense inside costs − D&A − SBC + interest paid + taxes paid + capex",
+    "B_overstatement_from_interest_double_count": 5.2,
+    "A_minus_B_prime_pct_of_A": 2.7,
+    "A_meaning": "Approximately meaningful (the group is ~80% operating businesses), but A is inflated by 11,349 of non-cash T-bill discount accretion inside revenue and counts insurance claims paid as payouts. A excluding the accretion = 348.47",
+    "A_ex_accretion": 348.47
+   }
+  },
+  "akio-toyoda": {
+   "company": "Toyota Motor Corporation",
+   "fiscalYear": "FY2025",
+   "fiscalYearEnd": "2025-03-31",
+   "currency": "JPY",
+   "unit": "billions",
+   "kind": "manufacturer, IFRS 20-F, captive finance",
+   "inputs": {
+    "revenue": {
+     "value": 48036.704,
+     "stated": 48036704,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+      "label": "FY2025 Form 20-F, consolidated statement of income (yen in millions)",
+      "quote": "Sales revenues Sales of products 26 34,367,619 41,648,130 43,598,877 Financial services 26 2,786,679 3,447,195 4,437,827 Total sales revenues 26 37,154,298 45,095,325 48,036,704",
+      "xbrl": {
+       "cik": "0001094517",
+       "concept": "ifrs-full:Revenue",
+       "end": "2025-03-31",
+       "value": 48036704000000
+      }
+     }
+    },
+    "operatingCashFlow": {
+     "value": 3696.934,
+     "stated": 3696934,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+      "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+      "quote": "Income taxes paid, net of refunds ( 1,297,224 ) ( 1,124,322 ) ( 2,501,315 ) Net cash provided by (used in) operating activities 2,955,076 4,206,373 3,696,934",
+      "xbrl": {
+       "cik": "0001094517",
+       "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+       "end": "2025-03-31",
+       "value": 3696934000000
+      }
+     }
+    },
+    "capex": {
+     "value": 2261.007,
+     "stated": 2261007,
+     "derived": {
+      "method": "fixed assets excluding equipment leased to others + intangible assets (IFRS capitalised development costs and software)",
+      "inputs": [
+       {
+        "value": 1906.811,
+        "stated": 1906811,
+        "source": {
+         "hostType": "sec",
+         "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+         "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+         "quote": "Additions to fixed assets excluding equipment leased to others ( 1,450,196 ) ( 1,846,447 ) ( 1,906,811 )"
+        }
+       },
+       {
+        "value": 354.196,
+        "stated": 354196,
+        "source": {
+         "hostType": "sec",
+         "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+         "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+         "quote": "Additions to intangible assets ( 348,280 ) ( 334,287 ) ( 354,196 )",
+         "xbrl": {
+          "cik": "0001094517",
+          "concept": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities",
+          "end": "2025-03-31",
+          "value": 354196000000
+         }
+        }
+       }
+      ]
+     },
+     "excludes": {
+      "equipmentLeasedToOthers": {
+       "value": 2996.92,
+       "stated": 2996920,
+       "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+        "quote": "Additions to equipment leased to others ( 1,907,356 ) ( 2,867,660 ) ( 2,996,920 )"
+       }
+      }
+     }
+    },
+    "interestPaid": {
+     "value": 1609.083,
+     "stated": 1609083,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+      "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+      "quote": "Dividends received 460,351 587,259 623,295 Interest paid ( 593,216 ) ( 1,148,392 ) ( 1,609,083 )",
+      "xbrl": {
+       "cik": "0001094517",
+       "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+       "end": "2025-03-31",
+       "value": 1609083000000
+      }
+     },
+     "location": "inside operating cash flow (Toyota elects operating classification under IFRS)",
+     "components": {
+      "nonFinancialServices": {
+       "value": 100.77,
+       "stated": 100770,
+       "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+        "label": "FY2025 Form 20-F, note on non-financial services / financial services cash flows (yen in millions)",
+        "quote": "Dividends received 454,752 582,022 617,644 Interest paid ( 28,206 ) ( 104,008 ) ( 100,770 )"
+       }
+      }
+     }
+    },
+    "taxesPaid": {
+     "value": 2501.315,
+     "stated": 2501315,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+      "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+      "quote": "Income taxes paid, net of refunds ( 1,297,224 ) ( 1,124,322 ) ( 2,501,315 )",
+      "xbrl": {
+       "cik": "0001094517",
+       "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+       "end": "2025-03-31",
+       "value": 2501315000000
+      }
+     },
+     "location": "inside operating cash flow"
+    },
+    "totalCosts": {
+     "value": 43241.118,
+     "stated": 43241118,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+      "label": "FY2025 Form 20-F, consolidated statement of income (yen in millions)",
+      "quote": "Cost of financial services 1,712,721 2,126,395 2,948,509 Selling, general and administrative 3,587,990 4,015,383 4,782,452 Total costs and expenses 34,429,273 39,742,390 43,241,118",
+      "xbrl": {
+       "cik": "0001094517",
+       "concept": "ifrs-full:OperatingExpense",
+       "end": "2025-03-31",
+       "value": 43241118000000
+      }
+     }
+    },
+    "interestExpenseInsideCosts": {
+     "value": null,
+     "note": "Financial-services interest is inside cost of financial services, but its amount is not stated separately. The 20-F gives only total interest expense:",
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+      "label": "FY2025 Form 20-F, note 17, interest expenses",
+      "quote": "The interest expenses for the fiscal year ended March 31, 2024 and 2025 are ¥ 1,213,021 million and ¥ 1,654,702 million, respectively. Interest expenses related to the financial business is included in \"cost of financial services\" in the consolidated statement of income.",
+      "xbrl": {
+       "cik": "0001094517",
+       "concept": "ifrs-full:InterestExpense",
+       "end": "2025-03-31",
+       "value": 1654702000000
+      }
+     }
+    },
+    "depreciationAmortization": {
+     "value": 2251.233,
+     "stated": 2251233,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+      "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+      "quote": "Net income 2,492,967 5,071,421 4,789,755 Depreciation and amortization 2,039,904 2,087,066 2,251,233",
+      "xbrl": {
+       "cik": "0001094517",
+       "concept": "ifrs-full:DepreciationAndAmortisationExpense",
+       "end": "2025-03-31",
+       "value": 2251233000000
+      }
+     }
+    },
+    "stockComp": {
+     "value": null,
+     "note": "No company-wide share-based compensation expense is disclosed in the 20-F; XBRL tags only key-management share-based pay (KeyManagementPersonnelCompensationSharebasedPayment, ¥1,940 million). Treated as 0 in B (immaterial)."
+    },
+    "otherNamedItems": {
+     "financeReceivablesIncrease": {
+      "value": -2389.665,
+      "stated": -2389665,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+       "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+       "quote": "(Increase) decrease in receivables related to financial services ( 1,760,288 ) ( 3,398,434 ) ( 2,389,665 )"
+      },
+      "note": "Loans to customers inside operating cash flow (GM reports the equivalent in investing), so they inflate A."
+     },
+     "interestReceived": {
+      "value": 2672.724,
+      "stated": 2672724,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+       "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+       "quote": "Interest received 1,516,404 2,292,156 2,672,724",
+       "xbrl": {
+        "cik": "0001094517",
+        "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+        "end": "2025-03-31",
+        "value": 2672724000000
+       }
+      }
+     },
+     "dividendsReceived": {
+      "value": 623.295,
+      "stated": 623295,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+       "label": "FY2025 Form 20-F, consolidated statement of cash flows (yen in millions)",
+       "quote": "Dividends received 460,351 587,259 623,295",
+       "xbrl": {
+        "cik": "0001094517",
+        "concept": "ifrs-full:DividendsReceivedClassifiedAsOperatingActivities",
+        "end": "2025-03-31",
+        "value": 623295000000
+       }
+      }
+     }
+    }
+   },
+   "results": {
+    "A": 46600.78,
+    "A_formula": "48036704 − 3696934 + 2261007",
+    "B": 47361.29,
+    "B_formula": "43241118 − 2251233 − 0 + 1609083 + 2501315 + 2261007",
+    "B_prime": 45852.98,
+    "B_prime_method": "costs − D&A + interest paid by non-financial-services businesses only (101) + taxes + capex; financial-services interest is inside cost of financial services and its accrued amount is not stated, so accrual ≈ cash is assumed for it.",
+    "B_overstatement_from_interest_double_count": 1508.31,
+    "A_minus_B_prime_pct_of_A": 1.6
+   }
+  },
+  "mukesh-ambani": {
+   "company": "Reliance Industries",
+   "fiscalYear": "FY 2024-25",
+   "fiscalYearEnd": "2025-03-31",
+   "currency": "INR",
+   "unit": "billions",
+   "kind": "published value-added statement; Ind AS",
+   "inputs": {
+    "revenue": {
+     "value": 9801.36,
+     "stated": 980136,
+     "source": {
+      "hostType": "company",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "label": "Integrated Annual Report 2024-25, consolidated statement of profit and loss (₹ crore)",
+      "quote": "Value of Sales & Services (Revenue) 10,71,174 10,00,122 Other Comprehensive Income Attributable to: Less: GST Recovered 91,038 85,650 a) Owners of the Company (2,433) 3,567 Revenue from Operations 25 9,80,136 9,14,472"
+     },
+     "note": "Revenue from Operations: net of GST (91,038) but including excise duty (15,443, also an expense). Gross value of sales and services was 10,71,174."
+    },
+    "operatingCashFlow": {
+     "value": 1787.03,
+     "stated": 178703,
+     "source": {
+      "hostType": "company",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "label": "Integrated Annual Report 2024-25, consolidated statement of cash flows (₹ crore)",
+      "quote": "Taxes Paid (Net) (11,925) (11,961) Partner Partner Company Secretary DIN: 00012144 Membership No. 102912 Membership No. 047841 Net Cash Flow from Operating Activities * 1,78,703 1,58,788"
+     }
+    },
+    "capex": {
+     "value": 1399.67,
+     "stated": 139967,
+     "source": {
+      "hostType": "company",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "label": "Integrated Annual Report 2024-25, consolidated statement of cash flows (₹ crore)",
+      "quote": "Expenditure for Property, Plant and Equipment, Spectrum and Other Intangible Assets (1,39,967) (1,52,883)"
+     },
+     "note": "Includes spectrum and intangibles. Separate 'Payment of Deferred Payment Liabilities' (4,574, deferred spectrum) is excluded. It is not stated whether capitalised interest (18,283) is in this line or only in 'Interest Paid'; the risk of overlap is noted."
+    },
+    "interestPaid": {
+     "value": 410.24,
+     "stated": 41024,
+     "source": {
+      "hostType": "company",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "label": "Integrated Annual Report 2024-25, consolidated statement of cash flows, financing activities (₹ crore)",
+      "quote": "Payment of Dividend to Non-Controlling Interest (414) - Interest Paid (41,024) (37,173) Net Cash Flow Used in Financing Activities (31,891) (16,646)"
+     },
+     "location": "FINANCING activities (Ind AS), outside operating cash flow, so it is added to A",
+     "note": "Exceeds finance costs (24,269) because it includes interest capitalised (18,283)."
+    },
+    "taxesPaid": {
+     "value": 119.25,
+     "stated": 11925,
+     "source": {
+      "hostType": "company",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "label": "Integrated Annual Report 2024-25, consolidated statement of cash flows (₹ crore)",
+      "quote": "Cash Generated from Operations 1,90,628 1,70,749 Abhijit A. Damle Sandesh Ladha Savithri Parekh P.M.S. Prasad Directors Taxes Paid (Net) (11,925) (11,961)"
+     },
+     "location": "inside operating cash flow"
+    },
+    "totalCosts": {
+     "value": 8920.97,
+     "stated": 892097,
+     "source": {
+      "hostType": "company",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "label": "Integrated Annual Report 2024-25, consolidated statement of profit and loss (₹ crore)",
+      "quote": "Other Expenses 30 1,41,001 1,27,809 For Deloitte Haskins & Sells LLP For Chaturvedi & Shah LLP Srikanth Venkatachari M.D. Ambani Chairman and Chartered Accountants Chartered Accountants Chief Financial Officer DIN: 00001695 Total Expenses 8,92,097 8,26,189"
+     },
+     "note": "Includes finance costs (24,269) and excise duty (15,443)."
+    },
+    "interestExpenseInsideCosts": {
+     "value": 242.69,
+     "stated": 24269,
+     "source": {
+      "hostType": "company",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "label": "Integrated Annual Report 2024-25, consolidated statement of profit and loss (₹ crore)",
+      "quote": "Finance Costs 29 24,269 23,118 Depreciation / Amortisation and Depletion Expense 1 53,136 50,832"
+     }
+    },
+    "depreciationAmortization": {
+     "value": 531.36,
+     "stated": 53136,
+     "source": {
+      "hostType": "company",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "label": "Integrated Annual Report 2024-25, consolidated statement of profit and loss (₹ crore)",
+      "quote": "Finance Costs 29 24,269 23,118 Depreciation / Amortisation and Depletion Expense 1 53,136 50,832"
+     }
+    },
+    "stockComp": {
+     "value": null,
+     "note": "Not separately disclosed in the employee-benefits note (salaries 24,420, PF 1,590, welfare 2,549). Treated as 0 in B (immaterial)."
+    },
+    "otherNamedItems": {
+     "interestCapitalised": {
+      "value": 182.83,
+      "stated": 18283,
+      "source": {
+       "hostType": "company",
+       "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+       "label": "Integrated Annual Report 2024-25, note 29, finance costs (₹ crore)",
+       "quote": "Total 24,269 23,118 * Net of Interest Capitalised of H18,283 crore (Previous Year H15,222 crore)."
+      }
+     },
+     "employeeBenefits": {
+      "value": 285.59,
+      "stated": 28559,
+      "source": {
+       "hostType": "company",
+       "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+       "label": "Integrated Annual Report 2024-25, consolidated statement of profit and loss (₹ crore)",
+       "quote": "Employee Benefits Expense 28 28,559 25,679"
+      }
+     },
+     "workingCapitalChange": {
+      "value": 237.24,
+      "stated": 23724,
+      "source": {
+       "hostType": "company",
+       "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+       "label": "Integrated Annual Report 2024-25, consolidated statement of cash flows (₹ crore)",
+       "quote": "Trade and Other Payables 38,427 34,796 (Registration No. (Registration No. Director 117366W/W-100018) 101720W/W-100355) Sub-total 23,724 6,366"
+      }
+     },
+     "leasePrincipalPaid": {
+      "value": 29.56,
+      "stated": 2956,
+      "source": {
+       "hostType": "company",
+       "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+       "label": "Integrated Annual Report 2024-25, consolidated statement of cash flows, financing (₹ crore)",
+       "quote": "Payment of Lease Liabilities (2,956) (2,483)"
+      }
+     },
+     "csrCashSpent": {
+      "value": 21.56,
+      "stated": 2156,
+      "source": {
+       "hostType": "company",
+       "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+       "label": "Integrated Annual Report 2024-25, consolidated statement of cash flows, footnote (₹ crore)",
+       "quote": "* Includes amount spent in cash towards Corporate Social Responsibility of H 2,156 crore (Previous Year H 1,592 crore)."
+      }
+     },
+     "dividendsPaid": {
+      "value": 67.66,
+      "stated": 6766,
+      "source": {
+       "hostType": "company",
+       "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+       "label": "Integrated Annual Report 2024-25, consolidated statement of cash flows (₹ crore)",
+       "quote": "Payment of Dividend to Equity Holders of the Company (6,766) (6,089)"
+      }
+     },
+     "profitForYear": {
+      "value": 813.09,
+      "stated": 81309,
+      "source": {
+       "hostType": "company",
+       "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+       "label": "Integrated Annual Report 2024-25, consolidated statement of profit and loss (₹ crore)",
+       "quote": "Profit for the year 81,309 79,020"
+      }
+     },
+     "deferredTax": {
+      "value": 124.72,
+      "stated": 12472,
+      "source": {
+       "hostType": "company",
+       "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+       "label": "Integrated Annual Report 2024-25, consolidated statement of profit and loss (₹ crore)",
+       "quote": "Deferred Tax 13 12,472 12,117"
+      }
+     }
+    },
+    "publishedValueAdded": {
+     "source": {
+      "hostType": "company",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "label": "Integrated Annual Report 2024-25, Value Added Statement (Consolidated), 'Reliance at a glance' (₹ crore)",
+      "quote": "PROVIDERS OF DEBT `42,552 Crore L38,340 Crore (FY 24) EMPLOYEE BENEFITS `28,559 Crore L25,679 Crore (FY 24) PROVIDERS OF EQUITY CAPITAL `6,766 Crore L6,089 Crore (FY 24) CONTRIBUTION TO SOCIETY `2,156 Crore L1,592 Crore (FY 24) CONTRIBUTION TO NATIONAL EXCHEQUER `2,10,269 Crore"
+     },
+     "reinvestedSource": {
+      "hostType": "company",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "label": "Integrated Annual Report 2024-25, Value Added Statement (Consolidated)",
+      "quote": "REINVESTED IN THE GROUP TO MAINTAIN AND DEVELOP OPERATIONS `1,40,151 Crore L1,35,880 Crore (FY 24)"
+     },
+     "totalSource": {
+      "hostType": "company",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+      "label": "Integrated Annual Report 2024-25, Value Added Statement (Consolidated)",
+      "quote": "TOTAL VALUE ADDED IN FY 2024-25 `4,30,453 Crore (L3,94,020 Crore in FY 2023-24)"
+     },
+     "type": "value added statement (not GRI 201-1: no operating-costs / supplier line)",
+     "lines": {
+      "totalValueAdded": 4304.53,
+      "reinvested": 1401.51,
+      "providersOfDebt": 425.52,
+      "employeeBenefits": 285.59,
+      "providersOfEquity": 67.66,
+      "contributionToSociety": 21.56,
+      "nationalExchequer": 2102.69
+     },
+     "reconciliation": {
+      "providersOfDebt": "42,552 = finance costs 24,269 + interest capitalised 18,283 (exact): accrued interest incl. capitalised. Our cash interest paid is 41,024 (−1,528, −3.6%).",
+      "employeeBenefits": "28,559 = P&L employee benefits expense (exact). In A it is embedded in operating cash flow; in B in total expenses.",
+      "providersOfEquity": "6,766 = dividends paid to equity holders (exact). Excluded from paid-out by design.",
+      "contributionToSociety": "2,156 = CSR cash spend (exact, cash-flow footnote). Inside operating cash flow, so inside A.",
+      "reinvested": "1,40,151 = profit 81,309 + D&A 53,136 + deferred tax 12,472 − dividends 6,766 (exact): retained cash earnings, NOT capex. Not comparable to the capex term.",
+      "nationalExchequer": "2,10,269 vs our cash income taxes 11,925. The company figure evidently includes indirect taxes: GST 91,038 (outside revenue, so never in A or B) and excise duty 15,443 (inside revenue and costs, so inside A/B but unlabelled as government). The remainder is not itemised in the report."
+     }
+    }
+   },
+   "results": {
+    "A": 9824.24,
+    "A_formula": "980136 − 178703 + 139967 + 41024 (interest paid, in financing)",
+    "B": 10318.77,
+    "B_formula": "892097 − 53136 − 0 + 41024 + 11925 + 139967",
+    "B_prime": 10076.08,
+    "B_prime_method": "costs − interest expense inside costs − D&A − SBC + interest paid + taxes paid + capex",
+    "B_overstatement_from_interest_double_count": 242.69,
+    "A_minus_B_prime_pct_of_A": -2.6,
+    "matchedScope": {
+     "companyDistributedToOthers_exEquity_exReinvested": 2835.36,
+     "ours_sameStakeholders_cash": 836.64,
+     "gap": 1998.72,
+     "gapExplained": "Almost entirely 'national exchequer' (2,102.69 vs 119.25 cash income tax): GST 910.38 sits outside revenue, so it is never in A or B. Excise 154.43 and other duties are inside A and B but in the supplier/operating bucket. Lenders: 425.52 accrued (incl. capitalised) vs 410.24 cash paid.",
+     "supplierLineTest": "Not testable: a value-added statement has no bought-in-goods (supplier) line, which is ~80% of A for Reliance."
+    }
+   }
+  }
+ }
+}

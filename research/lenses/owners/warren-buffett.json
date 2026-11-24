@@ -1,0 +1,49 @@
+{
+  "id": "warren-buffett",
+  "company": "Berkshire Hathaway",
+  "nbim": {
+    "pct": 0.49,
+    "marketValueUSD": 9.48,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"1420aoop08ag\",\"cc\":\"US\",\"n\":\"Berkshire Hathaway Inc\",\"a\":{\"e\":9483089298,\"n\":107702764241},\"at\":0,\"o\":0.49,\"eq\":{\"vid\":\"BRK.B\",\"v\":1.49,\"s\":\"Financials\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 4874225,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "BERKSHIRE HATHAWAY INC DEL CL B NEW 084670702 2209388708 4874225"
+    },
+    "derived": {
+      "pct": 0.364,
+      "method": "CalPERS Class B shares ÷ Class B shares outstanding (class basis)",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "February 10, 2025-Class A common stock, $5 par value 546,189 shares February 10, 2025-Class B common stock, $0.0033 par value 1,338,051,639 shares"
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 16800,
+    "asOf": "2025-02-10",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "Berkshire had approximately 1,100 record holders of its Class A common stock and 16,800 record holders of its Class B common stock at February 10, 2025."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Berkshire Hathaway Inc;Financials;107702764241;9483089298;1.49%;0.49%\". NBIM: NBIM's row gives voting 1.49% and ownership 0.49% for Berkshire Hathaway; we use the ownership figure as published. CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Class basis: Berkshire's Class A and Class B are not economically equal (a Class B share has 1/1,500 of a Class A share's dividend and distribution rights), so this is CalPERS's Class B holding as a share of Class B only. CalPERS also reported 717 Class A shares (CUSIP 084670108, value $488,219,640), not included here. Holders of record: Class B (BRK.B) only; Class A has approximately 1,100 record holders.",
+  "researchedAt": "2026-11-23"
+}

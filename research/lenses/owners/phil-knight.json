@@ -1,0 +1,49 @@
+{
+  "id": "phil-knight",
+  "company": "Nike",
+  "nbim": {
+    "pct": 1.02,
+    "marketValueUSD": 1.14,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"fwqj0544ce3j\",\"cc\":\"US\",\"n\":\"NIKE Inc\",\"a\":{\"e\":1137206822,\"n\":12915655900},\"at\":0,\"o\":1.02,\"eq\":{\"vid\":\"NKE\",\"v\":1.02,\"s\":\"Consumer Discretionary\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 2270287,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "NIKE INC CL B 654106103 171792617 2270287"
+    },
+    "derived": {
+      "pct": 0.154,
+      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+          "label": "FY2025 Form 10-K, cover page",
+          "quote": "As of July 9, 2025, the number of shares of the Registrant's Common Stock outstanding were: Class A 288,887,752 Class B 1,188,015,740 1,476,903,492"
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 20485,
+    "asOf": "2025-07-09",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "At July 9, 2025, there were 20,485 holders of record of NIKE's Class B Common Stock and 16 holders of record of NIKE's Class A Common Stock."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;NIKE Inc;Consumer Discretionary;12915655900;1137206822;1.02%;1.02%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds the listed Class B; denominator is Class A plus Class B. Holders of record: Listed Class B only; Class A has 16 holders of record.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ray-kroc",
+  "company": "McDonald’s",
+  "nbim": {
+    "pct": 1.29,
+    "marketValueUSD": 2.68,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"4yb4sss1paq0\",\"cc\":\"US\",\"n\":\"McDonald\\u0027s Corp\",\"a\":{\"e\":2682039089,\"n\":30460856645},\"at\":0,\"o\":1.29,\"eq\":{\"vid\":\"MCD\",\"v\":1.29,\"s\":\"Consumer Discretionary\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 2961775,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "MCDONALDS CORP COM 580135101 858588955 2961775"
+    },
+    "derived": {
+      "pct": 0.415,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000012/mcd-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "The number of shares outstanding of the registrant's common stock as of January 31, 2025: 714,461,139"
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": null,
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;McDonald's Corp;Consumer Discretionary;30460856645;2682039089;1.29%;1.29%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. Holders of record: McDonald's 10-K gives only a combined estimate of shareholders of record and beneficial owners (4,900,000 as of January 31, 2025), not a count of holders of record.",
+  "researchedAt": "2026-11-23"
+}

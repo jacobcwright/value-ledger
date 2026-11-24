@@ -1,0 +1,49 @@
+{
+  "id": "george-kurtz",
+  "company": "CrowdStrike",
+  "nbim": {
+    "pct": 1.3,
+    "marketValueUSD": 1.1,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"1uifx49kwle4\",\"cc\":\"US\",\"n\":\"Crowdstrike Holdings Inc\",\"a\":{\"e\":1095180596,\"n\":12438349337},\"at\":0,\"o\":1.3,\"eq\":{\"vid\":\"CRWD\",\"v\":0.89,\"s\":\"Technology\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 360277,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "CROWDSTRIKE HLDGS INC CL A 22788C105 123272378 360277"
+    },
+    "derived": {
+      "pct": 0.145,
+      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
+          "label": "FY2025 Form 10-K, cover page",
+          "quote": "As of February 28, 2025, the number of shares of the registrant's Class A common stock outstanding was 247,873,415 , and the number of shares of the registrant's Class B common stock outstanding was 0 ."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 95,
+    "asOf": "2025-01-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of January 31, 2025, we had 95 holders of record of our Class A common stock and zero holders of record of our Class"
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Crowdstrike Holdings Inc;Technology;12438349337;1095180596;0.89%;1.3%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. Holders of record: Class A; no Class B holders.",
+  "researchedAt": "2026-11-23"
+}

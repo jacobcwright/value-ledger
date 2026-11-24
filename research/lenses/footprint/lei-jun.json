@@ -17,7 +17,7 @@
       "definition": "Full-time employees by geographic region, from the Key Social Indicators table of the ESG section of the 2024 annual report; Africa and Oceania show 0."
     },
     "retailStores": {
-      "label": "Offline retail stores",
+      "label": "Offline retail stores (nearly)",
       "unit": "count",
       "period": "as of Dec 31, 2024",
       "tier": "filing",
@@ -30,28 +30,15 @@
       "iso2": "CN",
       "name": "Mainland China",
       "values": {
-        "employees": 41492
-      },
-      "plus": {},
-      "source": {
-        "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "2024 Annual Report, Management Discussion and Analysis, Employee and Remuneration Policy",
-        "quote": "As of December 31, 2024, we had 43,688 full-time employees, 41,492 of whom were based in mainland China, primarily at our headquarters in Beijing, with the rest primarily based in India."
-      }
-    },
-    {
-      "iso2": "CN",
-      "name": "Mainland China",
-      "values": {
+        "employees": 41492,
         "retailStores": 15000
       },
       "plus": {},
       "source": {
         "hostType": "exchange",
         "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "2024 Annual Report, Chairman's Statement / business review",
-        "quote": "As of December 31, 2024, the number of our offline retail stores in mainland China reached nearly 15,000."
+        "label": "2024 Annual Report, business review and Employee and Remuneration Policy",
+        "quote": "As of December 31, 2024, the number of our offline retail stores in mainland China reached nearly 15,000. … As of December 31, 2024, we had 43,688 full-time employees, 41,492 of whom were based in mainland China, primarily at our headquarters in Beijing, with the rest primarily based in India."
       }
     }
   ],
@@ -153,26 +140,12 @@
       "state": null,
       "iso2": "CN",
       "type": "plant",
-      "description": "Smartphone factory, completed and put into production in 2024",
+      "description": "Xiaomi's smartphone factory",
       "source": {
         "hostType": "exchange",
         "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
         "label": "2024 Annual Report, ESG section, footnote on Xiaomi Smart Factory",
         "quote": "Refers to Xiaomi’s smartphone factory in Changping, Beijing."
-      }
-    },
-    {
-      "name": "Xiaomi EV Factory",
-      "place": "China (city not stated in the report)",
-      "state": null,
-      "iso2": "CN",
-      "type": "plant",
-      "description": "EV factory completed in 2024; can produce a Xiaomi SU7 every 76 seconds",
-      "source": {
-        "hostType": "exchange",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-        "label": "2024 Annual Report, ESG section, Xiaomi EV Factory",
-        "quote": "The factory is capable of producing a Xiaomi SU7 model every 76 seconds"
       }
     },
     {
@@ -190,6 +163,6 @@
       }
     }
   ],
-  "notes": "All figures from the 2024 Annual Report on HKEXnews. Two employee bases overlap and are kept under separate metrics: the MD&A says 41,492 full-time employees were in mainland China, while the ESG table counts 41,643 in 'Chinese Mainland, Hong Kong, Macao and Taiwan' (the report names these four, so that region carries a country list). India is named as the main location outside mainland China but no number is given; Africa and Oceania (0) are omitted. Retail store count is 'nearly 15,000' (approximate). The EV factory's city is not stated in the report, so it has no place. No U.S. state data.",
+  "notes": "All figures from the 2024 Annual Report on HKEXnews. Two employee bases overlap and are kept under separate metrics: the MD&A says 41,492 full-time employees were in mainland China, while the ESG table counts 41,643 in 'Chinese Mainland, Hong Kong, Macao and Taiwan' (the report names these four, so that region carries a country list). India is named as the main location outside mainland China but no number is given; Africa and Oceania (0) are omitted. Retail store count is 'nearly 15,000' (approximate). The Xiaomi EV Factory (completed 2024) is described in the report without a location, so it is not listed as a site. No U.S. state data.",
   "researchedAt": "2026-11-23"
 }

@@ -1,0 +1,49 @@
+{
+  "id": "john-warnock",
+  "company": "Adobe",
+  "nbim": {
+    "pct": 1.28,
+    "marketValueUSD": 2.51,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"46pw2yzr61iv\",\"cc\":\"US\",\"n\":\"Adobe Inc\",\"a\":{\"e\":2512307262,\"n\":28533152882},\"at\":0,\"o\":1.28,\"eq\":{\"vid\":\"ADBE\",\"v\":1.28,\"s\":\"Technology\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 986587,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "ADOBE INC COM 00724F101 438715507 986587"
+    },
+    "derived": {
+      "pct": 0.227,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "As of January 3, 2025, 435.3 million shares of the registrant's common stock, $0.0001 par value per share, were issued and outstanding."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 856,
+    "asOf": "2025-01-03",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "According to the records of our transfer agent, there were 856 holders of record of our common stock on January 3, 2025."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Adobe Inc;Technology;28533152882;2512307262;1.28%;1.28%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Cover page rounds to 435.3 million shares.",
+  "researchedAt": "2026-11-23"
+}

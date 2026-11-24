@@ -1,0 +1,49 @@
+{
+  "id": "henry-ford",
+  "company": "Ford Motor Company",
+  "nbim": {
+    "pct": 0.97,
+    "marketValueUSD": 0.38,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"2u7o53mq7j7y\",\"cc\":\"US\",\"n\":\"Ford Motor Co\",\"a\":{\"e\":380019430,\"n\":4316013672},\"at\":0,\"o\":0.97,\"eq\":{\"vid\":\"F\",\"v\":0.59,\"s\":\"Consumer Discretionary\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 6223792,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "FORD MTR CO COM 345370860 61615541 6223792"
+    },
+    "derived": {
+      "pct": 0.157,
+      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "As of February 3, 2025, Ford had outstanding 3,892,595,628 shares of Common Stock and 70,852,076 shares of Class B Stock."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 96223,
+    "asOf": "2025-02-03",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of February 3, 2025, stockholders of record of Ford included approximately 96,223 holders of Common Stock and 3 holders of Class B Stock."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Ford Motor Co;Consumer Discretionary;4316013672;380019430;0.59%;0.97%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds Common Stock; denominator is Common Stock plus Class B Stock (convertible into an equal number of Common Stock shares). Holders of record: Common Stock only; Class B Stock has 3 holders of record.",
+  "researchedAt": "2026-11-23"
+}

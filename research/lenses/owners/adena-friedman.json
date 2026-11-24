@@ -1,0 +1,49 @@
+{
+  "id": "adena-friedman",
+  "company": "Nasdaq",
+  "nbim": {
+    "pct": 0.94,
+    "marketValueUSD": 0.42,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"10516rj0vl6c\",\"cc\":\"US\",\"n\":\"Nasdaq Inc\",\"a\":{\"e\":417689695,\"n\":4743848056},\"at\":0,\"o\":0.94,\"eq\":{\"vid\":\"NDAQ\",\"v\":0.94,\"s\":\"Financials\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 1713247,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "NASDAQ INC COM 631103108 132451126 1713247"
+    },
+    "derived": {
+      "pct": 0.298,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "Class Outstanding at February 12, 2025 Common Stock, $0.01 par value per share 575,145,323 shares"
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 193,
+    "asOf": "2025-02-12",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of February 12, 2025, we had approximately 193 holders of record of our common stock."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Nasdaq Inc;Financials;4743848056;417689695;0.94%;0.94%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
+  "researchedAt": "2026-11-23"
+}

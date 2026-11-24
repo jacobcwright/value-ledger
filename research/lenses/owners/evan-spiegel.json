@@ -1,0 +1,28 @@
+{
+  "id": "evan-spiegel",
+  "company": "Snap",
+  "nbim": {
+    "pct": 0.17,
+    "marketValueUSD": 0.03,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"2rp9jrmii6fi\",\"cc\":\"US\",\"n\":\"Snap Inc\",\"a\":{\"e\":30161536,\"n\":342555118},\"at\":0,\"o\":0.17,\"eq\":{\"vid\":\"\",\"v\":0,\"s\":\"Technology\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": {
+    "count": 902,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of December 31, 2024, there were 902 stockholders of record of our Class A common stock."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Snap Inc;Technology;342555118;30161536;0%;0.17%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Snap. Holders of record: Class A only.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "david-ricks",
+  "company": "Eli Lilly",
+  "nbim": {
+    "pct": 1.13,
+    "marketValueUSD": 8.28,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"1qob0vi0o65s\",\"cc\":\"US\",\"n\":\"Eli Lilly \\u0026 Co\",\"a\":{\"e\":8279768708,\"n\":94036231136},\"at\":0,\"o\":1.13,\"eq\":{\"vid\":\"LLY\",\"v\":1.13,\"s\":\"Health Care\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 1861177,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "ELI LILLY & CO COM 532457108 1436828644 1861177"
+    },
+    "derived": {
+      "pct": 0.196,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "Number of shares of common stock outstanding as of February 14, 2025: 948,169,999"
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 17903,
+    "asOf": "2025-02-14",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of February 14, 2025, there were approximately 17,903 holders of record of our common stock based on information provided by EQ Shareowner Services, our transfer agent."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Eli Lilly & Co;Health Care;94036231136;8279768708;1.13%;1.13%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
+  "researchedAt": "2026-11-23"
+}

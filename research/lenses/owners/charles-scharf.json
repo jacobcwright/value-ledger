@@ -1,0 +1,49 @@
+{
+  "id": "charles-scharf",
+  "company": "Wells Fargo",
+  "nbim": {
+    "pct": 1.42,
+    "marketValueUSD": 3.32,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"1iz7td7uiybk\",\"cc\":\"US\",\"n\":\"Wells Fargo \\u0026 Co\",\"a\":{\"e\":3317308066,\"n\":37675828759},\"at\":0,\"o\":1.42,\"eq\":{\"vid\":\"WFC\",\"v\":1.42,\"s\":\"Financials\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 6986075,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "WELLS FARGO CO NEW COM 949746101 490701908 6986075"
+    },
+    "derived": {
+      "pct": 0.212,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "At February 14, 2025, 3,288,186,582 shares of common stock were outstanding."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 197936,
+    "asOf": "2025-02-14",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "At February 14, 2025, there were 197,936 holders of record of the Company's common stock."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Wells Fargo & Co;Financials;37675828759;3317308066;1.42%;1.42%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
+  "researchedAt": "2026-11-23"
+}

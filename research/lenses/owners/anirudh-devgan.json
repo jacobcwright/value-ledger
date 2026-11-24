@@ -1,0 +1,49 @@
+{
+  "id": "anirudh-devgan",
+  "company": "Cadence Design Systems",
+  "nbim": {
+    "pct": 1.46,
+    "marketValueUSD": 1.2,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"4b09ef59fylk\",\"cc\":\"US\",\"n\":\"Cadence Design Systems Inc\",\"a\":{\"e\":1199684199,\"n\":13625233343},\"at\":0,\"o\":1.46,\"eq\":{\"vid\":\"CDNS\",\"v\":1.46,\"s\":\"Technology\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 955227,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "CADENCE DESIGN SYSTEM INC COM 127387108 287007504 955227"
+    },
+    "derived": {
+      "pct": 0.348,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "On January 31, 2025, approximately 274,108,000 shares of the registrant's common stock, $0.01 par value, were outstanding."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 327,
+    "asOf": "2025-01-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of January 31, 2025, we had 327 registered stockholders."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Cadence Design Systems Inc;Technology;13625233343;1199684199;1.46%;1.46%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
+  "researchedAt": "2026-11-23"
+}

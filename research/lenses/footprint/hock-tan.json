@@ -77,7 +77,7 @@
       "state": null,
       "iso2": "MY",
       "type": "warehouse",
-      "description": "Primary warehouse, where Broadcom stores the majority of its product inventory",
+      "description": "Primary warehouse",
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
@@ -91,7 +91,7 @@
       "state": "CO",
       "iso2": "US",
       "type": "manufacturing",
-      "description": "Own manufacturing facility; sole source of the FBAR components used in many of its wireless devices",
+      "description": "Sole source of the FBAR components used in many of its wireless devices",
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
@@ -105,7 +105,7 @@
       "state": "PA",
       "iso2": "US",
       "type": "manufacturing",
-      "description": "Own manufacturing facility; sole source of the InP-based wafers used in its fibre optics products",
+      "description": "Sole source of the InP-based wafers used in its fibre optics products",
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",

@@ -20,7 +20,7 @@
     "activeBusinesses": {
       "label": "Businesses actively using Facebook",
       "unit": "count",
-      "period": "2025 fact sheet (survey January 13-28, 2025)",
+      "period": "undated; state fact sheets published 2025",
       "tier": "company-published",
       "definition": "Meta's estimate of businesses in the state that actively use Facebook; 'Active businesses are defined as those with a Facebook Page that has been logged into within the past month.'"
     },
@@ -838,7 +838,7 @@
       "state": "LA",
       "iso2": "US",
       "type": "data center",
-      "description": "$50 billion+ investment; 2024 break ground; 1,000 operational jobs supported once completed.",
+      "description": "$50 billion+ investment; 2024 break ground; 1,000 operational jobs supported once completed (as listed Nov 2026).",
       "source": {
         "hostType": "company",
         "url": "https://datacenters.atmeta.com/all-locations/",
@@ -852,7 +852,7 @@
       "state": "UT",
       "iso2": "US",
       "type": "data center",
-      "description": "$3 billion+ investment; 2018 break ground; 300+ operational jobs supported once completed.",
+      "description": "$3 billion+ investment; 2018 break ground; 300+ operational jobs supported once completed (as listed Nov 2026).",
       "source": {
         "hostType": "company",
         "url": "https://datacenters.atmeta.com/all-locations/",
@@ -866,7 +866,7 @@
       "state": "IA",
       "iso2": "US",
       "type": "data center",
-      "description": "$2.5 billion+ investment; 2013 break ground; 400+ operational jobs supported once completed.",
+      "description": "$2.5 billion+ investment; 2013 break ground; 400+ operational jobs supported once completed (as listed Nov 2026).",
       "source": {
         "hostType": "company",
         "url": "https://datacenters.atmeta.com/all-locations/",
@@ -880,7 +880,7 @@
       "state": "NE",
       "iso2": "US",
       "type": "data center",
-      "description": "$2.5 billion+ investment; 2017 break ground; 300+ operational jobs supported once completed.",
+      "description": "$2.5 billion+ investment; 2017 break ground; 300+ operational jobs supported once completed (as listed Nov 2026).",
       "source": {
         "hostType": "company",
         "url": "https://datacenters.atmeta.com/all-locations/",
@@ -894,7 +894,7 @@
       "state": "NM",
       "iso2": "US",
       "type": "data center",
-      "description": "$2.5 billion+ investment; 2016 break ground; 400+ operational jobs supported once completed.",
+      "description": "$2.5 billion+ investment; 2016 break ground; 400+ operational jobs supported once completed (as listed Nov 2026).",
       "source": {
         "hostType": "company",
         "url": "https://datacenters.atmeta.com/all-locations/",
@@ -908,7 +908,7 @@
       "state": "GA",
       "iso2": "US",
       "type": "data center",
-      "description": "$2 billion+ investment; 2018 break ground; 200+ operational jobs supported once completed.",
+      "description": "$2 billion+ investment; 2018 break ground; 200+ operational jobs supported once completed (as listed Nov 2026).",
       "source": {
         "hostType": "company",
         "url": "https://datacenters.atmeta.com/all-locations/",
@@ -922,7 +922,7 @@
       "state": "OR",
       "iso2": "US",
       "type": "data center",
-      "description": "$2 billion+ investment; 2010 break ground; 350+ operational jobs supported once completed.",
+      "description": "$2 billion+ investment; 2010 break ground; 350+ operational jobs supported once completed (as listed Nov 2026).",
       "source": {
         "hostType": "company",
         "url": "https://datacenters.atmeta.com/all-locations/",
@@ -936,7 +936,7 @@
       "state": null,
       "iso2": "DK",
       "type": "data center",
-      "description": "10 billion+ DKK investment; 2017 break ground; 300+ operational jobs supported.",
+      "description": "10 billion+ DKK investment; 2017 break ground; 300+ operational jobs supported (as listed Nov 2026).",
       "source": {
         "hostType": "company",
         "url": "https://datacenters.atmeta.com/all-locations/",
@@ -950,7 +950,7 @@
       "state": null,
       "iso2": "IE",
       "type": "data center",
-      "description": "€1.4 billion investment; 2016 break ground; 300+ operational jobs supported once completed.",
+      "description": "€1.4 billion investment; 2016 break ground; 300+ operational jobs supported once completed (as listed Nov 2026).",
       "source": {
         "hostType": "company",
         "url": "https://datacenters.atmeta.com/all-locations/",
@@ -964,7 +964,7 @@
       "state": null,
       "iso2": "SE",
       "type": "data center",
-      "description": "8.7 billion+ SEK investment; 300+ operational jobs supported once completed.",
+      "description": "8.7 billion+ SEK investment; 300+ operational jobs supported once completed (as listed Nov 2026).",
       "source": {
         "hostType": "company",
         "url": "https://datacenters.atmeta.com/all-locations/",
@@ -978,7 +978,7 @@
       "state": null,
       "iso2": "SG",
       "type": "data center",
-      "description": "S$1.4 billion+ investment; 2018 break ground; 100+ operational jobs supported once completed.",
+      "description": "S$1.4 billion+ investment; 2018 break ground; 100+ operational jobs supported once completed (as listed Nov 2026).",
       "source": {
         "hostType": "company",
         "url": "https://datacenters.atmeta.com/all-locations/",

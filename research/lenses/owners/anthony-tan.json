@@ -1,0 +1,40 @@
+{
+  "id": "anthony-tan",
+  "company": "Grab",
+  "nbim": {
+    "pct": 0.8,
+    "marketValueUSD": 0.15,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"67doauhz3hhi\",\"cc\":\"US\",\"n\":\"Grab Holdings Ltd\",\"a\":{\"e\":151194032,\"n\":1717163545},\"at\":0,\"o\":0.8,\"eq\":{\"vid\":\"\",\"v\":0.35,\"s\":\"Consumer Discretionary\",\"icc\":\"KY\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 4325271,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "GRAB HOLDINGS LIMITED CLASS A ORD G4124C109 20415279 4325271"
+    },
+    "derived": {
+      "pct": 0.106,
+      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561225000013/ck0001855612-20241231.htm",
+          "label": "FY2024 Form 20-F, cover page",
+          "quote": "Indicate the number of outstanding shares of each of the issuer's classes of capital or common stock as of the close of business covered by the annual report: 3,950,498,976 Class A ordinary shares, 119,798,676 Class B ordinary shares, and 25,999,981 warrants, as of December 31, 2024."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": null,
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Grab Holdings Ltd;Consumer Discretionary;1717163545;151194032;0.35%;0.8%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Form 20-F cover page. CalPERS holds Class A; denominator is Class A plus Class B (warrants excluded). Holders of record: The FY2024 annual report (Form 20-F) gives only U.S. record holders (24 for Class A, 2 for Class B as of February 15, 2025), not a total.",
+  "researchedAt": "2026-11-23"
+}

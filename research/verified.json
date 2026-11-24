@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T05:37:42.295Z",
+  "generatedAt": "2026-11-24T05:40:09.153Z",
   "sources": {
     "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf": {
       "ok": true,
@@ -1175,6 +1175,306 @@
       "ok": true,
       "reason": "all 50 quotes found (fragments)",
       "quotes": 50,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1010243070450876/Alabama.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/9511710298876136/Alaska.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1183563949790661/Arizona.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1695063964449562/Arkansas.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1166364771367010/California.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/648379711139076/Colorado.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1324975802088416/Connecticut.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1382658519586250/Delaware.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/967504448472882/Florida.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/3977875892539930/Georgia.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/958806382990107/Hawaii.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1773183983471655/Idaho.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1554274625265835/Illinois.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/511379958702354/Indiana.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/2091875654628279/Iowa.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1299906747783836/Kansas.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/687994260317622/Kentucky.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1716649029262126/Louisiana.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/2183022085477201/Maine.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1012800660779077/Maryland.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/2919625731669478/Massachusetts.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/905730938206610/Michigan.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1003230464564156/Minnesota.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1693259874955100/Mississippi.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1425916012112552/Missouri.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/916146507129867/Montana.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/2351774948514199/Nebraska.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1343874403616548/Nevada.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1643598519617618/NewHampshire.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/2118633181943827/NewJersey.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1357691865256965/NewMexico.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/527224260438157/NewYork.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/572213311819541/NorthCarolina.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1611654506155491/NorthDakota.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/2454405241571514/Ohio.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1080386300519592/Oklahoma.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/2323607791349139/Oregon.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1206412760891536/Pennsylvania.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1156865349088593/RhodeIsland.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1220898596393905/SouthCarolina.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1198389095320823/SouthDakota.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1098238199010507/Tennessee.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1196510948656079/Texas.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/960539059533966/Utah.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1750115722240978/Vermont.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/674855388295208/Virginia.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1648286612715233/Washington.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1191299225980298/WestVirginia.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1000666285323568/Wisconsin.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://research.facebook.com/file/1413471919817938/Wyoming.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
       "failed": []
     }
   }

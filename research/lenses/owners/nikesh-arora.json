@@ -1,0 +1,49 @@
+{
+  "id": "nikesh-arora",
+  "company": "Palo Alto Networks",
+  "nbim": {
+    "pct": 0.8,
+    "marketValueUSD": 0.96,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"ibhox2d5li64\",\"cc\":\"US\",\"n\":\"Palo Alto Networks Inc\",\"a\":{\"e\":957698786,\"n\":10876920313},\"at\":0,\"o\":0.8,\"eq\":{\"vid\":\"PANW\",\"v\":0.8,\"s\":\"Technology\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 1087682,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "PALO ALTO NETWORKS INC COM 697435105 197914617 1087682"
+    },
+    "derived": {
+      "pct": 0.164,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756725000010/panw-20250131.htm",
+          "label": "Form 10-Q for the quarter ended January 31, 2025, cover page",
+          "quote": "The number of shares outstanding of the registrant's common stock as of February 7, 2025 was 662.1 million."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 502,
+    "asOf": "2024-08-19",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000029/panw-20240731.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of August 19, 2024, there were 502 holders of record of our common stock."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Palo Alto Networks Inc;Technology;10876920313;957698786;0.8%;0.8%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Palo Alto's FY2024 10-K cover (325.6 million shares, August 19, 2024) predates its two-for-one stock split of December 12, 2024, while CalPERS's December 31, 2024 holding is post-split, so the denominator is the cover page of the next post-split filing, the 10-Q for the quarter ended January 31, 2025 (rounded to 662.1 million).",
+  "researchedAt": "2026-11-23"
+}

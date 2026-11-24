@@ -1,0 +1,49 @@
+{
+  "id": "brian-l-roberts",
+  "company": "Comcast",
+  "nbim": {
+    "pct": 2.65,
+    "marketValueUSD": 3.81,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"2yilgt00r9b9\",\"cc\":\"US\",\"n\":\"Comcast Corp\",\"a\":{\"e\":3805431774,\"n\":43219620563},\"at\":0,\"o\":2.65,\"eq\":{\"vid\":\"CMCSA\",\"v\":1.76,\"s\":\"Telecommunications\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 9639495,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "COMCAST CORP NEW CL A 20030N101 361770247 9639495"
+    },
+    "derived": {
+      "pct": 0.255,
+      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "As of January 15, 2025, there were 3,771,578,226 shares of Comcast Corporation Class A common stock and 9,444,375 shares of Class B common stock outstanding."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 303127,
+    "asOf": "2025-01-15",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "Record holder s as of January 15, 2025 are presented in the table below. Stock Class Record Holders Class A Common Stock 303,127 Class B Common Stock 1"
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Comcast Corp;Telecommunications;43219620563;3805431774;1.76%;2.65%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds Class A; denominator is Class A plus Class B (convertible share for share). Holders of record: Class A only; Class B has 1 record holder.",
+  "researchedAt": "2026-11-23"
+}

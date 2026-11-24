@@ -1,0 +1,49 @@
+{
+  "id": "lisa-lutoff-perlo",
+  "company": "Royal Caribbean Group",
+  "nbim": {
+    "pct": 1.12,
+    "marketValueUSD": 0.7,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"ie8140jsubdy\",\"cc\":\"US\",\"n\":\"Royal Caribbean Cruises Ltd\",\"a\":{\"e\":696304776,\"n\":7908177051},\"at\":0,\"o\":1.12,\"eq\":{\"vid\":\"RCL\",\"v\":1.12,\"s\":\"Consumer Discretionary\",\"icc\":\"LR\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 395121,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "ROYAL CARIBBEAN GROUP COM V7780T103 91150463 395121"
+    },
+    "derived": {
+      "pct": 0.147,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "There were 269,128,754 shares of common stock outstanding as of February 11, 2025."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 1075,
+    "asOf": "2025-02-11",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of February 11, 2025, there were approximately 1,075 record holders of our common stock."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Royal Caribbean Cruises Ltd;Consumer Discretionary;7908177051;696304776;1.12%;1.12%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
+  "researchedAt": "2026-11-23"
+}

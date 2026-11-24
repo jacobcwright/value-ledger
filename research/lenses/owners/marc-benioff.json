@@ -1,0 +1,49 @@
+{
+  "id": "marc-benioff",
+  "company": "Salesforce",
+  "nbim": {
+    "pct": 1.1,
+    "marketValueUSD": 3.54,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"3qm1d29x8gl7\",\"cc\":\"US\",\"n\":\"Salesforce Inc\",\"a\":{\"e\":3535232501,\"n\":40150872842},\"at\":0,\"o\":1.1,\"eq\":{\"vid\":\"CRM\",\"v\":1.1,\"s\":\"Technology\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 2134897,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "SALESFORCE INC COM 79466L302 713760114 2134897"
+    },
+    "derived": {
+      "pct": 0.222,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
+          "label": "FY2025 Form 10-K, cover page",
+          "quote": "As of February 28, 2025, there were approximately 961 million shares of the Registrant's Common Stock outstanding."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 369,
+    "asOf": "2025-01-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of January 31, 2025, there were 369 registered stockholders of record of our common stock, including The Depository Trust Company"
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Salesforce Inc;Technology;40150872842;3535232501;1.1%;1.1%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Cover page rounds to approximately 961 million shares.",
+  "researchedAt": "2026-11-23"
+}

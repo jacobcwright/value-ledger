@@ -1,0 +1,54 @@
+{
+  "id": "larry-page",
+  "company": "Alphabet",
+  "nbim": {
+    "pct": 1.26,
+    "marketValueUSD": 29.27,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"4bhr78zjocis\",\"cc\":\"US\",\"n\":\"Alphabet Inc\",\"a\":{\"e\":29271691564,\"n\":332448846184},\"at\":0,\"o\":1.26,\"eq\":{\"vid\":\"GOOGL\",\"v\":0.88,\"s\":\"Technology\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 24162702,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "ALPHABET INC CAP STK CL A 02079K305 2472037655 13058836 ... ALPHABET INC CAP STK CL C 02079K107 2114620241 11103866"
+    },
+    "derived": {
+      "pct": 0.198,
+      "method": "CalPERS shares (sum of the listed classes) ÷ shares outstanding (all classes)",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "As of January 28, 2025 , there were 5,833 million shares of Alphabet's Class A stock outstanding, 860 million shares of Alphabet's Class B stock outstanding, and 5,497 million shares of the Alphabet's Class C stock outstanding."
+        }
+      ]
+    },
+    "computedFrom": [
+      "Class A: 13,058,836 shares",
+      "Class C: 11,103,866 shares"
+    ],
+    "notes": " Shares are the sum of the two Class A and Class C lines in the 13F; both classes have equal economic rights."
+  },
+  "holdersOfRecord": {
+    "count": 7743,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of December 31, 2024 , there were approximately 7,743 and 1,671 stockholders of record of our Class A stock and Class C stock, respectively."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Alphabet Inc;Technology;332448846184;29271691564;0.88%;1.26%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS lists Class A (GOOGL) and Class C (GOOG) separately; Alphabet's classes have equal economic rights, so both are summed and divided by all three classes. Holders of record: Class A (GOOGL) only; the 10-K also gives 1,671 holders of record of Class C and approximately 57 of Class B.",
+  "researchedAt": "2026-11-23"
+}

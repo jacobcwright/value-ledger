@@ -1,0 +1,19 @@
+{
+  "id": "lei-jun",
+  "company": "Xiaomi",
+  "nbim": {
+    "pct": 0.87,
+    "marketValueUSD": 0.97,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"drkzdw2vnjnc\",\"cc\":\"CN\",\"n\":\"Xiaomi Corp\",\"a\":{\"e\":969772273,\"n\":11014043125},\"at\":0,\"o\":0.87,\"eq\":{\"vid\":\"1810\",\"v\":0.33,\"s\":\"Telecommunications\",\"icc\":\"KY\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": null,
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;China;Xiaomi Corp;Telecommunications;11014043125;969772273;0.33%;0.87%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Xiaomi. Holders of record: The 2024 annual report (HKEX) states no number of shareholders.",
+  "researchedAt": "2026-11-23"
+}

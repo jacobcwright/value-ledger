@@ -8,7 +8,7 @@
       "currency": "JPY",
       "period": "as of Mar 31, 2025",
       "tier": "filing",
-      "definition": "Non-current assets excluding financial assets and deferred tax assets, by location, from the segment note's geographical information (¥12,482,993 million in total). Excludes the investment portfolio (financial assets), so it reflects operating assets such as SoftBank Corp. in Japan and Arm in the U.K."
+      "definition": "Non-current assets excluding financial assets and deferred tax assets, by location, from the segment note's geographical information (¥12,482,993 million in total)."
     }
   },
   "usStates": null,

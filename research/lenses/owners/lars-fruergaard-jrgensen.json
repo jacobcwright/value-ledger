@@ -1,0 +1,19 @@
+{
+  "id": "lars-fruergaard-jrgensen",
+  "company": "Novo Nordisk",
+  "nbim": {
+    "pct": 1.75,
+    "marketValueUSD": 6.78,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"669l7ieuztit\",\"cc\":\"DK\",\"n\":\"Novo Nordisk A/S\",\"a\":{\"e\":6782991606,\"n\":77036809715},\"at\":0,\"o\":1.75,\"eq\":{\"vid\":\"NOVO.B\",\"v\":0.31,\"s\":\"Health Care\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": null,
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Europe;Denmark;Novo Nordisk A/S;Health Care;77036809715;6782991606;0.31%;1.75%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Novo Nordisk. Holders of record: The 2024 annual report states no number of shareholders or registered holders.",
+  "researchedAt": "2026-11-23"
+}

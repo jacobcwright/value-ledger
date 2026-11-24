@@ -1,0 +1,49 @@
+{
+  "id": "michael-saylor",
+  "company": "Strategy",
+  "nbim": {
+    "pct": 0.72,
+    "marketValueUSD": 0.51,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"3q5wsay2m8cx\",\"cc\":\"US\",\"n\":\"MicroStrategy Inc\",\"a\":{\"e\":514056095,\"n\":5838314996},\"at\":0,\"o\":0.72,\"eq\":{\"vid\":\"MSTR\",\"v\":0.42,\"s\":\"Technology\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 264713,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "MICROSTRATEGY INC CL A NEW 594972408 76666179 264713"
+    },
+    "derived": {
+      "pct": 0.103,
+      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "As of February 4, 2025 , the registrant had 237,711,607 and 19,640,250 shares of class A common stock and class B common stock outstanding, respectively."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 825,
+    "asOf": "2025-02-04",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of February 4, 2025, there were approximately 825 stockholders of record of our class A common stock and two stockholders of record of our class B common stock."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;MicroStrategy Inc;Technology;5838314996;514056095;0.42%;0.72%\". NBIM: NBIM lists the company under its 2024 name, \"MicroStrategy Inc\" (renamed Strategy in 2025). CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds class A; denominator is class A plus class B. Holders of record: Class A only; class B has two holders of record.",
+  "researchedAt": "2026-11-23"
+}

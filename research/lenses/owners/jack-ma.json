@@ -1,0 +1,19 @@
+{
+  "id": "jack-ma",
+  "company": "Alibaba Group",
+  "nbim": {
+    "pct": 2.18,
+    "marketValueUSD": 4.41,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"ptvq51zwinsz\",\"cc\":\"CN\",\"n\":\"Alibaba Group Holding Ltd\",\"a\":{\"e\":4408363460,\"n\":50067326745},\"at\":0,\"o\":2.18,\"eq\":{\"vid\":\"9988\",\"v\":2.18,\"s\":\"Consumer Discretionary\",\"icc\":\"KY\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": null,
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;China;Alibaba Group Holding Ltd;Consumer Discretionary;50067326745;4408363460;2.18%;2.18%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Alibaba Group. Holders of record: The FY2025 Form 20-F and annual report state no total number of shareholders or record holders.",
+  "researchedAt": "2026-11-23"
+}

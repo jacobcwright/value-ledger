@@ -1,0 +1,28 @@
+{
+  "id": "masayoshi-son",
+  "company": "SoftBank Group",
+  "nbim": {
+    "pct": 1.31,
+    "marketValueUSD": 1.13,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"2gq5wm6rcrdh\",\"cc\":\"JP\",\"n\":\"SoftBank Group Corp\",\"a\":{\"e\":1127191341,\"n\":12801906579},\"at\":0,\"o\":1.31,\"eq\":{\"vid\":\"9984\",\"v\":1.31,\"s\":\"Telecommunications\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": {
+    "count": 221916,
+    "asOf": "2025-03-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2025_en.pdf",
+      "label": "SoftBank Group Integrated Report / Annual Report 2025, shareholder information",
+      "quote": "Number of shareholders As of March 31, 2025 221,916"
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;Japan;SoftBank Group Corp;Telecommunications;12801906579;1127191341;1.31%;1.31%\". NBIM: Matched to SoftBank Group Corp (9984), not SoftBank Corp (9434). CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of SoftBank Group.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "pascal-soriot",
+  "company": "AstraZeneca",
+  "nbim": {
+    "pct": 2.08,
+    "marketValueUSD": 4.23,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"2oetaunvnudu\",\"cc\":\"GB\",\"n\":\"AstraZeneca PLC\",\"a\":{\"e\":4226875267,\"n\":48006101810},\"at\":0,\"o\":2.08,\"eq\":{\"vid\":\"AZN\",\"v\":2.08,\"s\":\"Health Care\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": {
+    "count": 63435,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+      "label": "Annual Report and Form 20-F Information 2024, Shareholder information",
+      "quote": "At 31 December 2024, the Company had 63,435 registered holders of 1,550,546,239 Ordinary Shares."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Europe;United Kingdom;AstraZeneca PLC;Health Care;48006101810;4226875267;2.08%;2.08%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of AstraZeneca. Holders of record: Registered holders of Ordinary Shares only. The same section separately lists 171,061 holders of Ordinary Shares held under the Euroclear Services Agreement (Sweden) and 1,513 registered holders of ADSs; these are not added.",
+  "researchedAt": "2026-11-23"
+}

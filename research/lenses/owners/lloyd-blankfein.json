@@ -1,0 +1,49 @@
+{
+  "id": "lloyd-blankfein",
+  "company": "Goldman Sachs",
+  "nbim": {
+    "pct": 0.84,
+    "marketValueUSD": 1.57,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"4wyz1cvskd4l\",\"cc\":\"US\",\"n\":\"Goldman Sachs Group Inc/The\",\"a\":{\"e\":1565974835,\"n\":17785324298},\"at\":0,\"o\":0.84,\"eq\":{\"vid\":\"GS\",\"v\":0.87,\"s\":\"Financials\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 534972,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "GOLDMAN SACHS GROUP INC COM 38141G104 306335667 534972"
+    },
+    "derived": {
+      "pct": 0.171,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "As of February 7, 2025, there were 312,039,033 shares of the registrant's common stock outstanding."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 5251,
+    "asOf": "2025-02-07",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of February 7, 2025, there were 5,251 holders of record of our common stock."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Goldman Sachs Group Inc/The;Financials;17785324298;1565974835;0.87%;0.84%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
+  "researchedAt": "2026-11-23"
+}

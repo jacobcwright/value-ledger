@@ -1,0 +1,49 @@
+{
+  "id": "brian-niccol",
+  "company": "Chipotle",
+  "nbim": {
+    "pct": 1.33,
+    "marketValueUSD": 1.1,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"3ug9hgb7qn3f\",\"cc\":\"US\",\"n\":\"Chipotle Mexican Grill Inc\",\"a\":{\"e\":1095809167,\"n\":12445488242},\"at\":0,\"o\":1.33,\"eq\":{\"vid\":\"CMG\",\"v\":1.33,\"s\":\"Consumer Discretionary\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 2290832,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "CHIPOTLE MEXICAN GRILL INC COM 169656105 138137170 2290832"
+    },
+    "derived": {
+      "pct": 0.169,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
+          "label": "FY2024 Form 10-K, consolidated balance sheet",
+          "quote": "Common stock, $ 0.01 par value, 11,500,000 shares authorized, 1,358,751 and 1,874,139 shares issued as of December 31, 2024 and December 31, 2023, respectively 13,586 18,741 Additional paid-in capital 2,078,010 1,937,794 Treasury stock, at cost, 0 and 502,843 common shares as of December 31, 2024 and December 31, 2023 [balance sheet, in thousands]"
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 2394,
+    "asOf": "2025-01-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of January 31, 2025, there were approximately 2,394 shareholders of record."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Chipotle Mexican Grill Inc;Consumer Discretionary;12445488242;1095809167;1.33%;1.33%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Chipotle's 10-K cover page reads \"1,355,337 shares\" outstanding at January 31, 2025, which omits the thousands (the balance sheet is in thousands and weighted-average basic shares were 1,368,343 thousand), so the denominator is the balance sheet: 1,358,751 thousand shares issued and no treasury shares at December 31, 2024.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "dan-schulman",
+  "company": "PayPal",
+  "nbim": {
+    "pct": 1.25,
+    "marketValueUSD": 1.07,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"jptkuife7zhf\",\"cc\":\"US\",\"n\":\"PayPal Holdings Inc\",\"a\":{\"e\":1073859105,\"n\":12196193708},\"at\":0,\"o\":1.25,\"eq\":{\"vid\":\"PYPL\",\"v\":1.25,\"s\":\"Industrials\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 1672668,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "PAYPAL HLDGS INC COM 70450Y103 142762214 1672668"
+    },
+    "derived": {
+      "pct": 0.169,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "As of January 29, 2025, there were 989,242,452 shares of common stock outstanding."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 3773,
+    "asOf": "2025-01-29",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of January 29, 2025, there were 3,773 holders of record of our common stock."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;PayPal Holdings Inc;Industrials;12196193708;1073859105;1.25%;1.25%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
+  "researchedAt": "2026-11-23"
+}

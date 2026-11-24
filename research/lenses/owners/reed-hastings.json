@@ -1,0 +1,49 @@
+{
+  "id": "reed-hastings",
+  "company": "Netflix",
+  "nbim": {
+    "pct": 1.3,
+    "marketValueUSD": 4.95,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"27jwfik7y7dn\",\"cc\":\"US\",\"n\":\"Netflix Inc\",\"a\":{\"e\":4946141466,\"n\":56175059782},\"at\":0,\"o\":1.3,\"eq\":{\"vid\":\"NFLX\",\"v\":1.3,\"s\":\"Consumer Discretionary\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 736545,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "NETFLIX INC COM 64110L106 656497289 736545"
+    },
+    "derived": {
+      "pct": 0.172,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "As of December 31, 2024, there were 427,757,100 shares of the registrant's common stock, par value $0.001, outstanding."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 2752,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of December 31, 2024, there were approximately 2,752 stockholders of record of our common stock"
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Netflix Inc;Consumer Discretionary;56175059782;4946141466;1.3%;1.3%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
+  "researchedAt": "2026-11-23"
+}

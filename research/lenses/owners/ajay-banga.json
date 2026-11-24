@@ -1,0 +1,49 @@
+{
+  "id": "ajay-banga",
+  "company": "Mastercard",
+  "nbim": {
+    "pct": 1.23,
+    "marketValueUSD": 5.95,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"4unri2gmh040\",\"cc\":\"US\",\"n\":\"Mastercard Inc\",\"a\":{\"e\":5951922338,\"n\":67598065166},\"at\":0,\"o\":1.23,\"eq\":{\"vid\":\"MA\",\"v\":1.24,\"s\":\"Industrials\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 1947452,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "MASTERCARD INCORPORATED CL A 57636Q104 1025469800 1947452"
+    },
+    "derived": {
+      "pct": 0.214,
+      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "As of February 7, 2025, there were 904,889,521 shares outstanding of the registrant's Class A common stock, par value $0.0001 per share and 6,818,985 shares outstanding of the registrant's Class B common stock, par value $0.0001 per share."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 67,
+    "asOf": "2025-02-07",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "At February 7, 2025, we had 67 stockholders of record for our Class A common stock."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Mastercard Inc;Industrials;67598065166;5951922338;1.24%;1.23%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds Class A; denominator is Class A plus Class B. Holders of record: Class A common stock only.",
+  "researchedAt": "2026-11-23"
+}

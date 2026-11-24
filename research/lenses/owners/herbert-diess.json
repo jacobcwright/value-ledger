@@ -1,0 +1,19 @@
+{
+  "id": "herbert-diess",
+  "company": "Volkswagen",
+  "nbim": {
+    "pct": 0.68,
+    "marketValueUSD": 0.31,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"2t7vrkepnnoi\",\"cc\":\"DE\",\"n\":\"Volkswagen AG\",\"a\":{\"e\":314251312,\"n\":3569062139},\"at\":0,\"o\":0.68,\"eq\":{\"vid\":\"VOW3\",\"v\":0.07,\"s\":\"Consumer Discretionary\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": null,
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Europe;Germany;Volkswagen AG;Consumer Discretionary;3569062139;314251312;0.07%;0.68%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Volkswagen. Holders of record: Volkswagen AG's shares are no-par bearer shares (2024 annual report, note 24). The annual report shows shareholder structure by percentage only, with no count of holders.",
+  "researchedAt": "2026-11-23"
+}

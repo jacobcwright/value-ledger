@@ -1,0 +1,28 @@
+{
+  "id": "n-r-narayana-murthy",
+  "company": "Infosys",
+  "nbim": {
+    "pct": 1.12,
+    "marketValueUSD": 1.02,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"13w68l747yzg\",\"cc\":\"IN\",\"n\":\"Infosys Ltd\",\"a\":{\"e\":1023317788,\"n\":11622178274},\"at\":0,\"o\":1.12,\"eq\":{\"vid\":\"500209\",\"v\":1.12,\"s\":\"Technology\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": {
+    "count": 2546234,
+    "asOf": "2025-03-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-25.pdf",
+      "label": "Integrated Annual Report 2024-25, Corporate governance report, Distribution of shareholding",
+      "quote": "Distribution of shareholding as on March 31, 2025 ... 10,001 and above 6,586 0.26 94.15 391,00,34,823 Total 25,46,234 100 100 415,32,63,455"
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;India;Infosys Ltd;Technology;11622178274;1023317788;1.12%;1.12%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Infosys. Holders of record: Indian digit grouping: 25,46,234 = 2,546,234 holders. The report states shareholder counts are based on PAN; ADS holders count as one depositary holder.",
+  "researchedAt": "2026-11-23"
+}

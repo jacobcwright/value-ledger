@@ -1,0 +1,49 @@
+{
+  "id": "gordon-moore",
+  "company": "Intel",
+  "nbim": {
+    "pct": 1.42,
+    "marketValueUSD": 1.23,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"q0q3ronnpl96\",\"cc\":\"US\",\"n\":\"Intel Corp\",\"a\":{\"e\":1228669935,\"n\":13954434484},\"at\":0,\"o\":1.42,\"eq\":{\"vid\":\"INTC\",\"v\":1.42,\"s\":\"Technology\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 12582876,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "INTEL CORP COM 458140100 252286664 12582876"
+    },
+    "derived": {
+      "pct": 0.291,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "4,330 million shares of common stock were outstanding as of January 24, 2025."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 92000,
+    "asOf": "2025-01-24",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of January 24, 2025, there were approximately 92,000 registered holders of record of Intel's common stock."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Intel Corp;Technology;13954434484;1228669935;1.42%;1.42%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Cover page rounds to 4,330 million shares.",
+  "researchedAt": "2026-11-23"
+}

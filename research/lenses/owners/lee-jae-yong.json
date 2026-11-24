@@ -1,0 +1,28 @@
+{
+  "id": "lee-jae-yong",
+  "company": "Samsung Electronics",
+  "nbim": {
+    "pct": 1.84,
+    "marketValueUSD": 3.89,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"1owrdijzlzia\",\"cc\":\"KR\",\"n\":\"Samsung Electronics Co Ltd\",\"a\":{\"e\":3887080727,\"n\":44146936297},\"at\":0,\"o\":1.84,\"eq\":{\"vid\":\"005930\",\"v\":1.61,\"s\":\"Telecommunications\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": {
+    "count": 5160297,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+      "label": "2024 Business Report, VII. Information on Shareholders, B. Minority shareholders",
+      "quote": "B. Minority shareholders As of December 31, 2024 Classification Shareholder Shares owned Note Number of shareholders Total shareholders Portion (%) Number of shares Totalnumber of shares Portion (%) Minority shareholder 5,160,210 5,160,297 99.99"
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;South Korea;Samsung Electronics Co Ltd;Telecommunications;44146936297;3887080727;1.61%;1.84%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Samsung Electronics. Holders of record: Total shareholders of voting (common) shares; the table's share total (5,969,782,550) is the common voting shares, so preferred-share holders are not included.",
+  "researchedAt": "2026-11-23"
+}

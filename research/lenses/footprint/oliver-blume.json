@@ -180,7 +180,7 @@
         "hostType": "company",
         "url": "https://newsroom.porsche.com/files/Combined_Management_Report_2024_Porsche_AG.pdf",
         "label": "Annual and Sustainability Report 2024, Combined Management Report, Fundamental information about the group: Production",
-        "quote": "The headquarters of Porsche AG and the production facilities for the Taycan and 911 model series as well as customer sports vehicles from Porsche Motorsport are located in Stuttgart-"
+        "quote": "The headquarters of Porsche AG and the production facilities for the Taycan and 911 model series as well as customer sports vehicles from Porsche Motorsport are located in Stuttgart"
       }
     },
     {
@@ -203,7 +203,7 @@
       "state": null,
       "iso2": "DE",
       "type": "research",
-      "description": "Where Porsche vehicles are developed from first sketch to series production; also the central procurement location",
+      "description": "Where Porsche vehicles are developed from first sketch to series production",
       "source": {
         "hostType": "company",
         "url": "https://newsroom.porsche.com/files/Combined_Management_Report_2024_Porsche_AG.pdf",
@@ -259,7 +259,7 @@
       "state": null,
       "iso2": "MY",
       "type": "partner-plant",
-      "description": "Third-party assembly of some Cayenne models for the Malaysian and, since 2024, Thai markets",
+      "description": "Third-party assembly plant where some Cayenne models are assembled",
       "source": {
         "hostType": "company",
         "url": "https://newsroom.porsche.com/files/Combined_Management_Report_2024_Porsche_AG.pdf",

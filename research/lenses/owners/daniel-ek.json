@@ -1,0 +1,40 @@
+{
+  "id": "daniel-ek",
+  "company": "Spotify",
+  "nbim": {
+    "pct": 0.17,
+    "marketValueUSD": 0.42,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"1nandafv85ls\",\"cc\":\"US\",\"n\":\"Spotify Technology SA\",\"a\":{\"e\":418146401,\"n\":4749035031},\"at\":0,\"o\":0.17,\"eq\":{\"vid\":\"SPOT\",\"v\":0.17,\"s\":\"Consumer Discretionary\",\"icc\":\"LU\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 249982,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "SPOTIFY TECHNOLOGY S A COM L8681T102 111836947 249982"
+    },
+    "derived": {
+      "pct": 0.123,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm",
+          "label": "FY2024 Form 20-F, cover page",
+          "quote": "Indicate the number of outstanding shares of each of the issuer's classes of capital or common stock as of the close of the period covered by the annual report: 203,844,409 Ordinary Shares, par value €0.000625 per share."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": null,
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Spotify Technology SA;Consumer Discretionary;4749035031;418146401;0.17%;0.17%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Form 20-F cover page, as of December 31, 2024. Holders of record: The FY2024 Form 20-F gives only U.S. record holders (436 record holders in the United States as of December 31, 2024), not a total.",
+  "researchedAt": "2026-11-23"
+}

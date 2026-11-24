@@ -1,0 +1,19 @@
+{
+  "id": "michael-o-leary",
+  "company": "Ryanair",
+  "nbim": {
+    "pct": 1.27,
+    "marketValueUSD": 0.27,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"68hm9rurbj06\",\"cc\":\"IE\",\"n\":\"Ryanair Holdings PLC\",\"a\":{\"e\":271205884,\"n\":3080180147},\"at\":0,\"o\":1.27,\"eq\":{\"vid\":\"RYA\",\"v\":1.27,\"s\":\"Consumer Discretionary\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": null,
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Europe;Ireland;Ryanair Holdings PLC;Consumer Discretionary;3080180147;271205884;1.27%;1.27%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Ryanair. Holders of record: The FY2025 Form 20-F gives only direct record holders in the United States (46), not a total.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mike-cannon-brookes",
+  "company": "Atlassian",
+  "nbim": {
+    "pct": 0.47,
+    "marketValueUSD": 0.3,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"5b2prpw6vz1b\",\"cc\":\"US\",\"n\":\"Atlassian Corp\",\"a\":{\"e\":298194287,\"n\":3386696885},\"at\":0,\"o\":0.47,\"eq\":{\"vid\":\"TEAM\",\"v\":0.11,\"s\":\"Technology\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 259441,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "ATLASSIAN CORPORATION CL A 049468101 63142751 259441"
+    },
+    "derived": {
+      "pct": 0.099,
+      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+          "label": "FY2025 Form 10-K, cover page",
+          "quote": "As of August 8, 2025, there were 166,284,669 shares of the registrant's Class A Common Stock and 96,049,867 shares of the registrant's Class B Common Stock outstanding"
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 8,
+    "asOf": "2025-06-30",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of June 30, 2025, there were eight stockholders of record of our Class A Common Stock, including The Depository Trust Company"
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Atlassian Corp;Technology;3386696885;298194287;0.11%;0.47%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds Class A; denominator is Class A plus Class B, from the FY2025 (June 2025) 10-K cover, about seven months after CalPERS's December 31, 2024 date. Holders of record: Class A only.",
+  "researchedAt": "2026-11-23"
+}

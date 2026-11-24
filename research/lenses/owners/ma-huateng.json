@@ -1,0 +1,19 @@
+{
+  "id": "ma-huateng",
+  "company": "Tencent",
+  "nbim": {
+    "pct": 1.35,
+    "marketValueUSD": 6.67,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"1kff4yc55f2a\",\"cc\":\"CN\",\"n\":\"Tencent Holdings Ltd\",\"a\":{\"e\":6672234732,\"n\":75778905128},\"at\":0,\"o\":1.35,\"eq\":{\"vid\":\"700\",\"v\":1.35,\"s\":\"Technology\",\"icc\":\"KY\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": null,
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;China;Tencent Holdings Ltd;Technology;75778905128;6672234732;1.35%;1.35%\". NBIM: Matched to \"Tencent Holdings Ltd\" (700), not Tencent Music Entertainment. CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Tencent. (Its Tencent Music Entertainment Group ADS line is a different company.) Holders of record: The 2024 annual report (HKEX) states no number of shareholders. Its 'Registered Shareholders' are the VIE's legal owners, not a count.",
+  "researchedAt": "2026-11-23"
+}

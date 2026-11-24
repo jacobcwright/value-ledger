@@ -1,0 +1,28 @@
+{
+  "id": "shigeru-miyamoto",
+  "company": "Nintendo",
+  "nbim": {
+    "pct": 1.64,
+    "marketValueUSD": 1.26,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"dw95w7dt81yi\",\"cc\":\"JP\",\"n\":\"Nintendo Co Ltd\",\"a\":{\"e\":1256964492,\"n\":14275785678},\"at\":0,\"o\":1.64,\"eq\":{\"vid\":\"7974\",\"v\":1.64,\"s\":\"Consumer Discretionary\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": {
+    "count": 197110,
+    "asOf": "2025-03-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nintendo.co.jp/ir/pdf/2025/convocation_notice2506e.pdf",
+      "label": "Notice of the 85th Annual General Meeting, Business Report (fiscal year ended March 31, 2025), Status of Shares",
+      "quote": "2. Status of Shares (1) Total number of shares authorized to be issued 4,000,000,000 shares (2) Total number of shares outstanding 1,298,690,000 shares (including 134,441,816 treasury shares) (3) Number of shareholders 197,110 persons"
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;Japan;Nintendo Co Ltd;Consumer Discretionary;14275785678;1256964492;1.64%;1.64%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Nintendo. Holders of record: Business Report figure for the fiscal year ended March 31, 2025 (year-end). Chosen over the annual securities report's 'Status of shareholders' table (117,423 persons as of March 31, 2025), which counts only holders of at least one trading unit (100 shares) and excludes holders of shares less than one unit.",
+  "researchedAt": "2026-11-23"
+}

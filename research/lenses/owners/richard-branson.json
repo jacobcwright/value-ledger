@@ -1,0 +1,18 @@
+{
+  "id": "richard-branson",
+  "company": "Virgin Galactic",
+  "nbim": null,
+  "calpers": null,
+  "holdersOfRecord": {
+    "count": 63,
+    "asOf": "2025-02-14",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of February 14, 2025, there were 63 holders of record of our shares of common stock."
+    }
+  },
+  "notes": "NBIM: NBIM's year-end 2024 equity list has no line for Virgin Galactic. CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Virgin Galactic.",
+  "researchedAt": "2026-11-23"
+}

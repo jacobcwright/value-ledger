@@ -1,0 +1,19 @@
+{
+  "id": "marcel-herrmann-telles",
+  "company": "AB InBev",
+  "nbim": {
+    "pct": 0.99,
+    "marketValueUSD": 1.0,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"58fekcb34egf\",\"cc\":\"BE\",\"n\":\"Anheuser-Busch InBev SA/NV\",\"a\":{\"e\":996240955,\"n\":11314657212},\"at\":0,\"o\":0.99,\"eq\":{\"vid\":\"ABI\",\"v\":0.99,\"s\":\"Consumer Staples\"}}"
+    }
+  },
+  "calpers": null,
+  "holdersOfRecord": null,
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Europe;Belgium;Anheuser-Busch InBev SA/NV;Consumer Staples;11314657212;996240955;0.99%;0.99%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of AB InBev. Holders of record: The 2024 Form 20-F says AB InBev is 'not aware of the identity of all our shareholders' (dematerialized shares) and gives only U.S. record holders (4). No total stated.",
+  "researchedAt": "2026-11-23"
+}

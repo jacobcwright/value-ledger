@@ -1,0 +1,49 @@
+{
+  "id": "larry-culp",
+  "company": "GE Aerospace",
+  "nbim": {
+    "pct": 1.3,
+    "marketValueUSD": 2.34,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
+      "label": "NBIM equity holdings, year-end 2024",
+      "quote": "{\"id\":\"4786y2xhpyjn\",\"cc\":\"US\",\"n\":\"General Electric Co\",\"a\":{\"e\":2338123098,\"n\":26554882371},\"at\":0,\"o\":1.3,\"eq\":{\"vid\":\"GE\",\"v\":1.3,\"s\":\"Industrials\"}}"
+    }
+  },
+  "calpers": {
+    "shares": 1862728,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "GE AEROSPACE COM NEW 369604301 310684403 1862728"
+    },
+    "derived": {
+      "pct": 0.174,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "There were 1,073,290,505 shares of common stock with a par value of $0.01 outstanding at January 15, 2025."
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 246000,
+    "asOf": "2025-01-15",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of January 15, 2025, there were approximately 246,000 shareholder accounts of record."
+    }
+  },
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;General Electric Co;Industrials;26554882371;2338123098;1.3%;1.3%\". NBIM: NBIM lists the company under its legal name at the time, \"General Electric Co\" (GE Aerospace). CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. Holders of record: GE Aerospace counts shareholder accounts of record.",
+  "researchedAt": "2026-11-23"
+}

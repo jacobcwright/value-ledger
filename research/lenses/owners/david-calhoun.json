@@ -1,0 +1,39 @@
+{
+  "id": "david-calhoun",
+  "company": "Boeing",
+  "nbim": null,
+  "calpers": {
+    "shares": 875678,
+    "asOf": "2024-12-31",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
+      "label": "CalPERS Form 13F, Q4 2024",
+      "quote": "BOEING CO COM 097023105 154995006 875678"
+    },
+    "derived": {
+      "pct": 0.117,
+      "method": "CalPERS shares ÷ shares outstanding",
+      "inputs": [
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
+          "label": "FY2024 Form 10-K, cover page",
+          "quote": "The number of shares of the registrant's common stock outstanding as of January 27, 2025 was 750,074,411"
+        }
+      ]
+    }
+  },
+  "holdersOfRecord": {
+    "count": 80843,
+    "asOf": "2025-01-27",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
+      "label": "FY2024 Form 10-K, Item 5",
+      "quote": "As of January 27, 2025, there were 80,843 common shareholders of record."
+    }
+  },
+  "notes": "NBIM: NBIM's year-end 2024 equity list has no line for The Boeing Company. CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
+  "researchedAt": "2026-11-23"
+}
