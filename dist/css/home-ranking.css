@@ -30,13 +30,13 @@
 .ranking table {width:100%;border-collapse:collapse;table-layout:fixed;font-size:15px}
 .ranking th, .ranking td {padding:18px 16px;text-align:left;vertical-align:middle}
 .ranking .col-rank {width:72px}
-.ranking th[data-col] {width:13%}
-.ranking th[data-col="paidout"] {width:16%}
+.ranking th[data-col] {width:11%}
+.ranking th[data-col="paidout"] {width:14%}
 /* The longest header wraps onto two lines instead of running into its neighbour */
-.ranking thead th[data-col="paidout"] {white-space:normal}
-.ranking th[data-col="paidout"] button {text-align:right}
-.ranking .col-company {width:17%}
-.ranking .col-industry {width:12%}
+.ranking thead th[data-col="paidout"],.ranking thead th[data-col="multiple"] {white-space:normal}
+.ranking th[data-col="paidout"] button,.ranking th[data-col="multiple"] button {text-align:right}
+.ranking .col-company {width:15%}
+.ranking .col-industry {width:11%}
 .ranking thead th {position:sticky;top:var(--sticky-top, 0);z-index:2;padding-block:12px;background:var(--paper);color:var(--muted);font-size:12px;font-weight:700;letter-spacing:.06em;line-height:1.3;text-transform:uppercase;vertical-align:bottom;white-space:nowrap;box-shadow:inset 0 -1px 0 var(--ink)}
 .ranking thead th[data-col] {padding:0;text-align:right}
 .ranking th button {display:inline-flex;align-items:flex-end;justify-content:flex-end;gap:6px;width:100%;padding:12px 16px;border:0;background:none;color:inherit;font:inherit;letter-spacing:inherit;text-transform:inherit;cursor:pointer}
@@ -101,7 +101,7 @@
 /* Narrower screens drop Industry, then fold Company under the name */
 @media (max-width:1100px) {
   .ranking .col-industry, .ranking td.industry {display:none}
-  .ranking th[data-col], .ranking th[data-col="paidout"] {width:16%}
+  .ranking th[data-col], .ranking th[data-col="paidout"] {width:14%}
   .ranking thead th {white-space:normal}
   .ranking th button {text-align:right}
 }
@@ -110,7 +110,7 @@
   .ranking th button {padding-inline:12px}
   .ranking .col-rank {width:56px}
   .ranking .col-company, .ranking td.company {display:none}
-  .ranking th[data-col], .ranking th[data-col="paidout"] {width:20%}
+  .ranking th[data-col], .ranking th[data-col="paidout"] {width:16%}
   .ranking tbody td {padding-block:12px}
   .row-toggle .name-company {display:block}
   .detail-panel {padding-left:68px}
