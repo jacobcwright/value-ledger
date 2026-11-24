@@ -14,4 +14,4 @@ Use Node.js 22 or later. Run `npm ci` and `npm run dev`. The site lives in `dist
 
 ## Publish
 
-Run `npm run deploy`. It checks the site first and refuses to publish a broken build. See [PUBLISHING.md](PUBLISHING.md) for the Cloudflare setup, the www redirect, deploy-on-push and post-deploy checks.
+Push to `main` and Vercel deploys it. The build checks the data and the site first and refuses to publish a broken build. See [PUBLISHING.md](PUBLISHING.md) for the Cloudflare setup, the www redirect, deploy-on-push and post-deploy checks.

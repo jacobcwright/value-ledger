@@ -2,16 +2,10 @@
   "name": "value-ledger",
   "private": true,
   "scripts": {
-    "dev": "wrangler dev",
+    "dev": "npm run build && npx --yes serve dist -l 8790",
     "build:companies": "node scripts/check-values.mjs && node scripts/build-companies.mjs",
     "check": "node scripts/check-site.mjs",
-    "deploy": "npm run build:companies && npm run check && wrangler deploy",
-    "deploy:www": "wrangler deploy -c workers/www-redirect/wrangler.jsonc",
-    "check:deploy": "npm run check && wrangler deploy --dry-run",
     "build": "npm run build:companies && npm run check"
-  },
-  "devDependencies": {
-    "wrangler": "4.167.0"
   },
   "engines": {
     "node": ">=22"
