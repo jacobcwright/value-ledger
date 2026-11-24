@@ -14,6 +14,18 @@
      "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2024 column)",
      "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... SWITZERLAND FRANC 0.8305 0.8808 0.8984 0.9550"
     }
+   },
+   "2025": {
+    "perUSD": 0.8305,
+    "statedBasis": "CHF per USD",
+    "calendarYear": 2025,
+    "usedFor": [],
+    "source": {
+     "hostType": "regulator",
+     "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
+     "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2025 column)",
+     "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... SWITZERLAND FRANC 0.8305 0.8808 0.8984 0.9550"
+    }
    }
   },
   "CNY": {
@@ -33,6 +45,18 @@
      "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2024 column)",
      "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... CHINA, P.R. YUAN 7.1875 7.1957 7.0809 6.7290"
     }
+   },
+   "2025": {
+    "perUSD": 7.1875,
+    "statedBasis": "CNY per USD",
+    "calendarYear": 2025,
+    "usedFor": [],
+    "source": {
+     "hostType": "regulator",
+     "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
+     "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2025 column)",
+     "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... CHINA, P.R. YUAN 7.1875 7.1957 7.0809 6.7290"
+    }
    }
   },
   "DKK": {
@@ -47,6 +71,18 @@
      "hostType": "regulator",
      "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
      "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2024 column)",
+     "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... DENMARK KRONE 6.6137 6.8955 6.8900 7.0786"
+    }
+   },
+   "2025": {
+    "perUSD": 6.6137,
+    "statedBasis": "DKK per USD",
+    "calendarYear": 2025,
+    "usedFor": [],
+    "source": {
+     "hostType": "regulator",
+     "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
+     "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2025 column)",
      "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... DENMARK KRONE 6.6137 6.8955 6.8900 7.0786"
     }
    }
@@ -73,6 +109,19 @@
      "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2024 column)",
      "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... *EMU MEMBERS EURO 1.1306 1.0820 1.0817 1.0534"
     }
+   },
+   "2025": {
+    "perUSD": 0.884486,
+    "statedBasis": "USD per EUR (asterisked row in G.5A)",
+    "calendarYear": 2025,
+    "usedFor": [],
+    "source": {
+     "hostType": "regulator",
+     "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
+     "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2025 column)",
+     "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... *EMU MEMBERS EURO 1.1306 1.0820 1.0817 1.0534"
+    },
+    "stated": 1.1306
    }
   },
   "INR": {
@@ -103,6 +152,18 @@
      "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2024 column)",
      "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... INDIA RUPEE 87.1468 83.6566 82.5708 78.5792"
     }
+   },
+   "2025": {
+    "perUSD": 87.1468,
+    "statedBasis": "INR per USD",
+    "calendarYear": 2025,
+    "usedFor": [],
+    "source": {
+     "hostType": "regulator",
+     "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
+     "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2025 column)",
+     "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... INDIA RUPEE 87.1468 83.6566 82.5708 78.5792"
+    }
    }
   },
   "JPY": {
@@ -122,6 +183,18 @@
      "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2024 column)",
      "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... JAPAN YEN 149.5686 151.4551 140.5001 131.4589"
     }
+   },
+   "2025": {
+    "perUSD": 149.5686,
+    "statedBasis": "JPY per USD",
+    "calendarYear": 2025,
+    "usedFor": [],
+    "source": {
+     "hostType": "regulator",
+     "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
+     "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2025 column)",
+     "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... JAPAN YEN 149.5686 151.4551 140.5001 131.4589"
+    }
    }
   },
   "KRW": {
@@ -136,6 +209,18 @@
      "hostType": "regulator",
      "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
      "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2024 column)",
+     "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... SOUTH KOREA WON 1421.3963 1363.4381 1306.7637 1291.7796"
+    }
+   },
+   "2025": {
+    "perUSD": 1421.3963,
+    "statedBasis": "KRW per USD",
+    "calendarYear": 2025,
+    "usedFor": [],
+    "source": {
+     "hostType": "regulator",
+     "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
+     "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2025 column)",
      "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... SOUTH KOREA WON 1421.3963 1363.4381 1306.7637 1291.7796"
     }
    }
@@ -154,6 +239,18 @@
      "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2024 column)",
      "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... MEXICO PESO 19.2052 18.3062 17.7334 20.1208"
     }
+   },
+   "2025": {
+    "perUSD": 19.2052,
+    "statedBasis": "MXN per USD",
+    "calendarYear": 2025,
+    "usedFor": [],
+    "source": {
+     "hostType": "regulator",
+     "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
+     "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2025 column)",
+     "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... MEXICO PESO 19.2052 18.3062 17.7334 20.1208"
+    }
    }
   },
   "TWD": {
@@ -170,9 +267,21 @@
      "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2024 column)",
      "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... TAIWAN DOLLAR 31.1663 32.1064 31.1525 29.7963"
     }
+   },
+   "2025": {
+    "perUSD": 31.1663,
+    "statedBasis": "TWD per USD",
+    "calendarYear": 2025,
+    "usedFor": [],
+    "source": {
+     "hostType": "regulator",
+     "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
+     "label": "Federal Reserve Board, G.5A Foreign Exchange Rates (Annual), release of January 5, 2026: average rates of exchange (2025 column)",
+     "quote": "(Rates in currency units per U.S. dollar except as noted by an asterisk) ... COUNTRY CURRENCY 2025 2024 2023 2022 ... TAIWAN DOLLAR 31.1663 32.1064 31.1525 29.7963"
+    }
    }
   }
  },
  "notes": "Annual averages of daily noon buying rates in New York (Federal Reserve G.5A), cited from the dated January 5, 2026 release, which carries 2022-2025 columns; the 'current' URL rolls over each January. Every non-USD currency in research/records/*.json is in G.5A, so the IRS yearly average rates were not needed. Year rule: the calendar year that covers most of the fiscal year; fiscal years ending January-June map to the prior calendar year (e.g. March 2025 year-ends use 2024; Biocon's FY24 ending March 31, 2024 uses 2023), and December year-ends use the same year. The EUR row is published as USD per euro (asterisk), so its perUSD is the inverse (1 ÷ stated, 6 decimals) and the published figure is kept in 'stated'. All other rows are published as currency units per USD and perUSD is the figure as printed. CNY is G.5A's 'CHINA, P.R. YUAN' (renminbi). To convert: USD = local amount ÷ perUSD.",
- "researchedAt": "2026-11-23"
+ "researchedAt": "2026-11-24"
 }
