@@ -1,0 +1,129 @@
+{
+  "id": "dara-khosrowshahi",
+  "company": "Uber",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-03-03",
+    "leader": {
+      "name": "Dara Khosrowshahi",
+      "relation": "ceo",
+      "status": "holds",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "shares": 2286562,
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm",
+        "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners & Management",
+        "quote": "Dara Khosrowshahi(1) 2,286,562 * ... * Represents beneficial ownership of less than 1% (1) Consists of (i) 1,166,114 shares of common stock held by Mr. Khosrowshahi, (ii) RSUs for 543,497 shares ... and (iii) 576,951 shares of common stock subject to options"
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "The Vanguard Group",
+        "type": "asset-manager",
+        "pctEconomic": 8.01,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm",
+          "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners & Management",
+          "quote": "The Vanguard Group(19) 167,629,298 8.01% ... (19) Based solely on a Schedule 13G/A filed on February 13, 2024, The Vanguard Group (Vanguard) reported 167,629,298 shares of common stock beneficially owned"
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 6.66,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm",
+          "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners & Management",
+          "quote": "BlackRock(17) 139,348,552 6.66% ... (17) Based solely on a Schedule 13G filed on January 26, 2024, BlackRock, Inc. (BlackRock) reported 139,348,552 shares of common stock beneficially owned"
+        }
+      },
+      {
+        "name": "Capital Research Global Investors",
+        "type": "asset-manager",
+        "pctEconomic": 5.65,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1543151/000130817925000210/uber013353-def14a.htm",
+          "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners & Management",
+          "quote": "Capital Research Global Investors(18) 118,131,681 5.65% ... (18) Based solely on a Schedule 13G filed on February 13, 2025, Capital Research Global Investors (Capital Research) reported 118,131,681 shares of common stock beneficially owned"
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock; 2,091,789,117 shares were outstanding on March 3, 2025. The proxy lists three holders of more than 5% (Vanguard, BlackRock, Capital Research Global Investors). Saudi Arabia's Public Investment Fund holds 72,840,541 shares (3.48%, through director Turqi Alnowaiser's line), below the 5% threshold."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 5, Dividend Policy",
+        "quote": "We have never declared or paid cash dividends on our capital stock."
+      }
+    },
+    "buybacks": {
+      "value": 1.25,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchases of common stock — — (1,252) [in millions, 2022, 2023, 2024]",
+        "xbrl": { "cik": "0001543151", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-12-31", "value": 1252000000 }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 1.8,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation 1,793 1,935 1,796 [in millions, 2022, 2023, 2024]",
+        "xbrl": { "cik": "0001543151", "concept": "us-gaap:ShareBasedCompensation", "end": "2024-12-31", "value": 1796000000 }
+      }
+    },
+    "plan": {
+      "text": "Uber's Employee Stock Purchase Plan lets eligible employees buy Uber shares at a 15 percent discount.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 1, Employee Stock Purchase Plan (ESPP)",
+        "quote": "The ESPP provides for twelve-month offering periods, and each offering period includes two purchase periods of approximately six months. The ESPP allows eligible employees to purchase shares of our common stock at a 15 percent discount"
+      }
+    }
+  },
+  "geography": {
+    "basis": "Revenue by geography, based on where the trip or shipment was completed or meal delivered",
+    "segments": [
+      { "name": "United States", "value": 21.43 },
+      { "name": "United Kingdom", "value": 8.37 },
+      { "name": "All other countries", "value": 14.18 }
+    ],
+    "total": 43.98,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+      "label": "FY2024 Form 10-K, Note 13 Segment Information and Geographic Information",
+      "quote": "Revenue by geography is based on where the trip or shipment was completed or meal delivered. ... 2022 2023 2024 United States $ 17,953 $ 18,620 $ 21,429 United Kingdom (1) 4,215 6,522 8,373 All other countries 9,709 12,139 14,176 Total Revenue $ 31,877 $ 37,281 $ 43,978"
+    }
+  },
+  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). Sources: FY2024 Form 10-K (accession 0001543151-25-000008) and 2025 proxy statement (DEF 14A, accession 0001308179-25-000210), read on EDGAR. Uber's 10-K tables list years in ascending order (2022, 2023, 2024), so the 2024 value is the last number in each quote. LEADER: Khosrowshahi is a hired CEO. He beneficially owns 2,286,562 shares as of March 3, 2025 (1,166,114 held, 543,497 RSUs vesting within 60 days, 576,951 exercisable options), marked * (less than 1%), so pctEconomic is null. HOLDERS: the proxy gives only the filing dates of the 13G reports (Vanguard February 13, 2024; BlackRock January 26, 2024; Capital Research February 13, 2025), not their as-of dates, so asOf is null; percentages use the March 3, 2025 share count. STOCK COMP: 1,796 is the cash-flow add-back and the XBRL ShareBasedCompensation fact; a separate equity-statement line shows 1,847 for 2024 (equity-classified awards credited to paid-in capital), which is a different measure and is not used. GEOGRAPHY: footnote 1 to the U.K. line says that in 2022 Uber modified its arrangements in certain markets and as a result presents the respective Mobility and Delivery revenue on a gross basis (payments to drivers and couriers go into cost of revenue).",
+  "researchedAt": "2026-11-23"
+}

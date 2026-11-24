@@ -1,0 +1,140 @@
+{
+  "id": "anirudh-devgan",
+  "company": "Cadence Design Systems",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-03-10",
+    "leader": {
+      "name": "Anirudh Devgan",
+      "relation": "ceo",
+      "status": "holds",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "shares": 578786,
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/813672/000119312525062605/d877390ddef14a.htm",
+        "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (printed pp. 37-38)",
+        "quote": "The following table sets forth certain information regarding the ownership of Cadence common stock as of March 10, 2025, the Record Date ... Anirudh Devgan(4)(6) 578,786 * ... * Less than 1%."
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 11.14,
+        "asOf": "2023-12-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/813672/000119312525062605/d877390ddef14a.htm",
+          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (printed pp. 37-38)",
+          "quote": "BlackRock, Inc.(2) 30,577,232 11.14 ... Applicable percentages are based on 274,313,598 shares of Cadence common stock outstanding on the Record Date, adjusted as required by rules promulgated by the SEC. ... As of December 31, 2023, based on Amendment No. 17 to its Schedule 13G filed with the SEC on January 31, 2024, BlackRock, Inc. indicated that it beneficially owns 30,577,232 shares"
+        }
+      },
+      {
+        "name": "The Vanguard Group",
+        "type": "asset-manager",
+        "pctEconomic": 8.93,
+        "asOf": "2023-12-29",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/813672/000119312525062605/d877390ddef14a.htm",
+          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (printed pp. 37-38)",
+          "quote": "The Vanguard Group(3) 24,503,387 8.93 ... Applicable percentages are based on 274,313,598 shares of Cadence common stock outstanding on the Record Date, adjusted as required by rules promulgated by the SEC. ... As of December 29, 2023, based on Amendment No. 13 to its Schedule 13G filed with the SEC on February 13, 2024, The Vanguard Group indicated that it beneficially owns 24,503,387 shares"
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock. BlackRock and The Vanguard Group are the only holders above 5%. Anirudh Devgan, President and CEO, holds less than 1%."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 5 Market for Registrant's Common Equity",
+        "quote": "We have never declared or paid, and do not anticipate declaring or paying in the foreseeable future, any cash dividends on our common stock."
+      }
+    },
+    "buybacks": {
+      "value": 0.55,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Payments for repurchases of common stock (550,026) (700,134) (1,050,091) [in thousands, fiscal 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0000813672",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2024-12-31",
+          "value": 550026000
+        }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 0.39,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation 391,219 325,611 270,439 [in thousands, fiscal 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0000813672",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2024-12-31",
+          "value": 391219000
+        }
+      }
+    },
+    "plan": {
+      "text": "Eligible employees can buy Cadence stock through an employee stock purchase plan with six-month offering periods.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 9 Stock Compensation Plans, Employee Stock Purchase Plan",
+        "quote": "Cadence provides an ESPP that enables eligible employees to purchase shares of its common stock. Offering periods under the plan last a duration of six months beginning on either February 1 or August 1"
+      }
+    }
+  },
+  "geography": {
+    "basis": "Revenue by geography, attributed to the country in which the product is used or services are delivered",
+    "segments": [
+      {
+        "name": "Americas",
+        "value": 2.25
+      },
+      {
+        "name": "Asia",
+        "value": 1.43
+      },
+      {
+        "name": "Europe, Middle East and Africa",
+        "value": 0.7
+      },
+      {
+        "name": "Japan",
+        "value": 0.26
+      }
+    ],
+    "total": 4.64,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+      "label": "FY2024 Form 10-K, Note 21 Segment Reporting, revenue by geography",
+      "quote": "The following table presents a summary of revenue by geography for fiscal 2024, 2023 and 2022: ... Americas: United States $ 2,159,703 $ 1,694,529 $ 1,577,881 Other Americas 93,101 65,259 53,123 Total Americas 2,252,804 1,759,788 1,631,004 Asia: China 573,096 679,538 521,509 Other Asia 855,919 766,409 629,533 Total Asia 1,429,015 1,445,947 1,151,042 Europe, Middle East and Africa 699,241 655,078 582,350 Japan 260,204 229,173 197,322 Total $ 4,641,264 [in thousands]"
+    }
+  },
+  "notes": "Fiscal year ended December 31, 2024. Documents read on sec.gov: FY2024 Form 10-K (accession 0000813672-25-000024) and 2025 proxy statement (DEF 14A, accession 0001193125-25-062605). OWNERSHIP: Devgan's 578,786 shares (as of the March 10, 2025 record date) include options exercisable and awards vesting within 60 days (footnotes 4 and 6). They are marked * (less than 1%) in the proxy, so pctEconomic is null. The holder figures are from Schedule 13G amendments with event dates of December 31, 2023 (BlackRock) and December 29, 2023 (Vanguard), divided by the March 10, 2025 share count, so they are stale. DIVIDENDS: Cadence pays none. GEOGRAPHY: top-level regions as reported. The United States alone was $2.16 billion of the $2.25 billion Americas total, and China $0.57 billion of Asia. STOCK COMP: the cash-flow line ($391,219 thousand) equals 'Total stock-based compensation expense' in the stock compensation note.",
+  "researchedAt": "2026-11-23"
+}

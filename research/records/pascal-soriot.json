@@ -1,0 +1,152 @@
+{
+  "id": "pascal-soriot",
+  "company": "AstraZeneca",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2024-12-31",
+    "leader": {
+      "name": "Pascal Soriot",
+      "relation": "ceo",
+      "status": "holds",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "shares": 269861,
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+        "label": "Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to FY2024 Form 20-F), Directors' Remuneration Report, Directors' interests as at 31 December 2024 (printed p. 129)",
+        "quote": "The following table shows the beneficial interests of the Directors (including the interests of their connected persons) in Ordinary Shares as at 31 December 2024. ... Pascal Soriot 269,861 363,489 ... No Director or senior executive beneficially owns, or has options over, 1% or more of the issued share capital of the Company"
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 6.51,
+        "asOf": "2009-12-04",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+          "label": "Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to FY2024 Form 20-F), Directors' Report, Major shareholdings (printed p. 231)",
+          "quote": "At 31 December 2024, the following persons had disclosed an interest in the issued Ordinary Share capital of the Company in accordance with the requirements of rules 5.1.2 or 5.1.5 of the UK Financial Conduct Authority’s (FCA) Disclosure Guidance and Transparency Rules. ... BlackRock, Inc. 4 December 2009 100,885,181 6.96 6.51 6.51 6.51 6.51 [date of latest disclosure, shares disclosed, % at disclosure, % at 31 Dec 2022, 2023, 2024 and 31 Jan 2025]"
+        }
+      },
+      {
+        "name": "The Capital Group Companies, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 4.997,
+        "asOf": "2025-01-29",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231x20f.htm",
+          "label": "FY2024 Form 20-F, Item 7.A Major Shareholders",
+          "quote": "The Company received notification pursuant to the Disclosure Guidance and Transparency Rules (DTR 5) that on the 29 January 2025, The Capital Group Companies, Inc. interest had decreased to 77,477,644 ordinary shares (4.997% of issued share capital), including 15,953,078 ordinary shares represented by ADRs."
+        }
+      },
+      {
+        "name": "Wellington Management Group LLP",
+        "type": "asset-manager",
+        "pctEconomic": 4.2,
+        "asOf": "2020-07-21",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+          "label": "Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to FY2024 Form 20-F), Directors' Report, Major shareholdings (printed p. 231)",
+          "quote": "At 31 December 2024, the following persons had disclosed an interest in the issued Ordinary Share capital of the Company in accordance with the requirements of rules 5.1.2 or 5.1.5 of the UK Financial Conduct Authority’s (FCA) Disclosure Guidance and Transparency Rules. ... Wellington Management Group LLP2 21 July 2020 65,120,892 4.96 4.20 4.20 4.20 4.20 [date of latest disclosure, shares disclosed, % at disclosure, % at 31 Dec 2022, 2023, 2024 and 31 Jan 2025]"
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of Ordinary Shares, listed in London, Stockholm and (as ADSs) on Nasdaq; ADSs represented 19.2% of issued share capital at January 31, 2025. The annual report says major shareholders do not have different voting rights and that the company is not, so far as it is aware, owned or controlled by any corporation or government."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 4.6,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+        "label": "Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to FY2024 Form 20-F), Notes to the Group Financial Statements, Note 25 Dividends to shareholders",
+        "quote": "25 Dividends to shareholders 2024 2023 2022 2024 2023 2022 Per share Per share Per share $m $m $m Second interim (March 2024) $1.97 $1.97 $1.97 3,052 3,047 3,046 First interim (September 2024) $1.00 $0.93 $0.93 1,550 1,440 1,440 Total $2.97 $2.90 $2.90 4,602 4,487 4,486",
+        "xbrl": {
+          "cik": "0000901832",
+          "concept": "ifrs-full:DividendsPaidOrdinaryShares",
+          "end": "2024-12-31",
+          "value": 4602000000
+        }
+      }
+    },
+    "buybacks": {
+      "value": 0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+        "label": "Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to FY2024 Form 20-F), Notes to the Group Financial Statements, Note 24 Share capital, Share repurchases",
+        "quote": "No Ordinary Shares were repurchased by the Company in 2024 (2023: nil; 2022: nil)."
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 0.66,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+        "label": "Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to FY2024 Form 20-F), Notes to the Group Financial Statements, Note 29 Employee costs and share plans for employees",
+        "quote": "The charge for share-based payments in respect of share plans is $660m (2023: $579m; 2022: $619m).",
+        "xbrl": {
+          "cik": "0000901832",
+          "concept": "ifrs-full:ExpenseFromSharebasedPaymentTransactionsWithEmployees",
+          "end": "2024-12-31",
+          "value": 660000000
+        }
+      }
+    },
+    "plan": {
+      "text": "UK employees can buy AstraZeneca shares through the Share Incentive Plan, which currently awards one matching share for every four shares bought.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+        "label": "Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to FY2024 Form 20-F), Note 29, The AstraZeneca UK All-Employee Share Plans",
+        "quote": "The Company offers UK employees the opportunity to buy Partnership Shares (Ordinary Shares). Employees may invest up to £150 a month to purchase Partnership Shares in the Company at the current market value. ... Currently one Matching Share is awarded for every four Partnership Shares purchased."
+      }
+    }
+  },
+  "geography": {
+    "basis": "Total Revenue by geographic area, where sales are included in the country/region where the selling legal entity resides",
+    "segments": [
+      {
+        "name": "UK",
+        "value": 4.74
+      },
+      {
+        "name": "Rest of Europe",
+        "value": 11.7
+      },
+      {
+        "name": "The Americas",
+        "value": 24.99
+      },
+      {
+        "name": "Asia, Africa & Australasia",
+        "value": 12.64
+      }
+    ],
+    "total": 54.07,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+      "label": "Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to FY2024 Form 20-F), Note 6 Segment information, Geographic areas (printed p. 167)",
+      "quote": "Total Revenue 2024 2023 2022 $m $m $m UK 4,740 3,368 3,117 Rest of Europe ... 11,703 9,725 8,909 The Americas ... US 21,806 18,121 17,278 ... 24,989 20,771 19,619 Asia, Africa & Australasia ... 12,641 11,947 12,706 Total Revenue 54,073 45,811 44,351"
+    }
+  },
+  "notes": "Fiscal year ended December 31, 2024; AstraZeneca reports in US dollars. Documents read on sec.gov: FY2024 Form 20-F (accession 0001104659-25-014750) and its Exhibit 15.1, the 'Annual Report and Form 20-F Information 2024', which the 20-F incorporates by reference for Items 6.E and 7.A. OWNERSHIP: Pascal Soriot's beneficial interest at December 31, 2024 was 269,861 Ordinary Shares (including shares in holding and deferral periods not subject to performance or continued employment, on a gross basis). The report states no Director owns 1% or more, and the 20-F gives all Directors and SET members together 0.038% of the class at January 31, 2025, so pctEconomic is null (below 1%, not stated individually). He also had 308,139 shares subject to performance conditions under share plans, not included. MAJOR HOLDERS are percentages of issued share capital as notified under the UK FCA's DTR 5 rules. They are not updated unless a holder crosses a notifiable threshold, so the BlackRock (latest disclosure December 4, 2009) and Wellington (July 21, 2020) figures are the company's restatement of old notifications against the current share capital; asOf is each holder's latest disclosure date. CAPITAL GROUP: the annual report table shows 4.11% (disclosure of July 17, 2018) and says no changes were disclosed between December 31, 2024 and January 31, 2025, but Item 7.A of the 20-F reports a later DTR 5 notification of 4.997% on January 29, 2025; the 20-F figure is used. Investor AB (3.33%) is the next holder. Wellington Management Company LLP's 4.20% is included within Wellington Management Group LLP's and is not listed separately. DIVIDENDS: $4,602 million is dividends to the company's shareholders (Note 25). The cash-flow 'Dividends paid' line ($4,629 million) also includes $4 million to non-controlling interests, $16 million of dividend hedge contracts, $3 million exchange losses and $4 million of unclaimed-dividend movement (Note 25 reconciliation), so it is not used. BUYBACKS: none; AstraZeneca says no share repurchases have been made since 2012. The $81 million 'Own shares purchased by Employee Benefit Trusts' in the cash-flow statement is excluded under the employee-trust rule. GEOGRAPHY: Total Revenue by location of the selling legal entity, as reported. The note also shows the US at $21,806 million within The Americas. A separate table of Product Sales by customer location exists (Product Sales only, $50,938 million) and is not used.",
+  "researchedAt": "2026-11-23"
+}

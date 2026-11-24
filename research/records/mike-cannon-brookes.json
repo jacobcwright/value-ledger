@@ -1,0 +1,110 @@
+{
+  "id": "mike-cannon-brookes",
+  "company": "Atlassian",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-06-30",
+  "currency": "USD",
+  "unit": "billions",
+
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-09-30",
+    "leader": {
+      "name": "Mike Cannon-Brookes",
+      "relation": "co-founder",
+      "status": "holds",
+      "pctEconomic": null,
+      "pctVoting": 42.59,
+      "shares": null,
+      "sharesByClass": { "classA": 0, "classAPct": null, "classB": 48024933, "classBPct": 50.00 },
+      "derived": {
+        "pctEconomic": 18.24,
+        "method": "48,024,933 Class B shares / (167,238,849 Class A + 96,049,867 Class B outstanding as of September 30, 2025) = 18.24%. Computed, not stated in the filing; both inputs are from the same table and date.",
+        "inputs": [
+          {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000058/team-20251014.htm",
+            "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management",
+            "quote": "Michael Cannon-Brookes(5) — — 48,024,933 50.00 % 42.59 % ... (5)Consists of 48,024,933 shares of Class B Common Stock held of record by CBC Co Pty Limited as trustee for the Cannon-Brookes Head Trust."
+          },
+          {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000058/team-20251014.htm",
+            "label": "2025 proxy statement, Security Ownership (share counts)",
+            "quote": "applicable percentage ownership in the following table is based on 167,238,849 shares of Class A Common Stock and 96,049,867 shares of Class B Common Stock outstanding as of September 30, 2025"
+          }
+        ]
+      },
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000058/team-20251014.htm",
+        "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management",
+        "quote": "Michael Cannon-Brookes(5) — — 48,024,933 50.00 % 42.59 % ... (1)Percentage of total voting power represents voting power with respect to all shares of our Class A Common Stock and Class B Common Stock as a single class."
+      }
+    },
+    "largestHolders": null,
+    "structure": {
+      "dualClass": true,
+      "controlled": false,
+      "note": "Class A shares (Nasdaq: TEAM) carry one vote and unlisted Class B shares carry ten votes. The two co-founders each hold 48,024,933 Class B shares (50.00% of Class B, 42.59% of total voting power each): Mike Cannon-Brookes through the Cannon-Brookes Head Trust and Scott Farquhar through Farquhar Investment Partnership No. 2. Neither alone holds more than 50% of the vote. Directors and executive officers as a group hold 85.21% of the vote. The FY2025 10-K says Class B holders collectively hold approximately 85% of the voting power."
+    }
+  },
+
+  "cash": {
+    "dividends": {
+      "value": 0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 5 Dividends",
+        "quote": "While we have in the past paid limited dividends, we do not have any present or future plan to pay dividends on our shares."
+      }
+    },
+    "buybacks": {
+      "value": 0.78,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchases of Class A Common Stock (779,439) (395,256) (150,006) [in thousands, fiscal years ended June 30, 2025, 2024, 2023]",
+        "xbrl": { "cik": "0001650372", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2025-06-30", "value": 779439000 }
+      }
+    }
+  },
+
+  "workers": {
+    "stockComp": {
+      "value": 1.36,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation 1,362,222 1,081,433 948,087 [in thousands, fiscal years ended June 30, 2025, 2024, 2023]",
+        "xbrl": { "cik": "0001650372", "concept": "us-gaap:ShareBasedCompensation", "end": "2025-06-30", "value": 1362222000 }
+      }
+    },
+    "plan": null
+  },
+
+  "geography": {
+    "basis": "Revenues by geographic region based on end-users who purchased the Company's offerings",
+    "segments": [
+      { "name": "United States", "value": 2.18 },
+      { "name": "Other Americas", "value": 0.33 },
+      { "name": "Germany", "value": 0.54 },
+      { "name": "Other EMEA", "value": 1.58 },
+      { "name": "Asia Pacific", "value": 0.57 }
+    ],
+    "total": 5.22,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+      "label": "FY2025 Form 10-K, notes to consolidated financial statements, Disaggregated Revenue",
+      "quote": "revenues by geographic region based on end-users ... (in thousands) ... United States $ 2,182,073 ... Other Americas 334,828 ... Germany 539,550 ... Other EMEA 1,584,421 ... Asia Pacific 574,432 ... Total revenues $ 5,215,304 [fiscal 2025]"
+    }
+  },
+
+  "notes": "Fiscal year ended June 30, 2025 (matches data.js fy 'Jun 2025'). Atlassian files a 10-K and DEF 14A as a U.S. domestic filer. Ownership is from the 2025 proxy (filed October 15, 2025), as of September 30, 2025, the proxy published right after FY2025. CANNON-BROOKES: holds no Class A; his 48,024,933 Class B shares are 50.00% of Class B and 42.59% of total voting power. The proxy gives no percentage of all shares, so pctEconomic is null and the derived figure is 18.24% of all shares. Relation is co-founder (the proxy calls him 'CEO and Co-Founder'). HOLDERS left empty: the proxy's 5% holders are measured as % of Class A only, a different basis from the leader's all-shares derived figure, and may not be converted. They are The Vanguard Group, 15,969,500 Class A (9.55% of Class A, 1.42% of voting power; Schedule 13G/A filed July 10, 2024, event date June 28, 2024: https://www.sec.gov/Archives/edgar/data/1650372/000110465924078883/tv0023-atlassiancorpclassa.htm); BlackRock, 8,959,538 Class A (5.36%; Schedule 13G filed January 29, 2024, as of December 31, 2023: https://www.sec.gov/Archives/edgar/data/1650372/000108636424005558/us0494681010_012924.txt); and Baillie Gifford & Co, 8,807,619 Class A (5.27%; filed January 30, 2024, as of 29 December 2023: https://www.sec.gov/Archives/edgar/data/1650372/000108887524000049/atlassian29122023.txt). Co-founder Scott Farquhar holds 48,024,933 Class B (50.00% of Class B, 42.59% of votes), the same as Cannon-Brookes. He is not listed as a holder because the proxy gives no all-shares percentage for him either. DIVIDENDS: none in FY2025; the cash-flow statement has no dividend line. PLAN: null; the 10-K says the company 'currently does not have common stock outstanding or open offering periods under the ESPP'. GEOGRAPHY uses the leaf rows (U.S., Other Americas, Germany, Other EMEA, Asia Pacific), not the regional subtotals; the rounded values sum to 5.20 against the 5.22 total.",
+  "researchedAt": "2026-11-23"
+}

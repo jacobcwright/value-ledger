@@ -1,0 +1,115 @@
+{
+  "id": "brian-niccol",
+  "company": "Chipotle Mexican Grill",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-04-15",
+    "leader": {
+      "name": "Brian Niccol",
+      "relation": "former-ceo",
+      "status": "not-disclosed",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000114036125015614/ny20039347x771_def14a.htm",
+        "label": "2025 proxy statement (DEF 14A), Beneficial Ownership of Our Common Stock, footnote (6)",
+        "quote": "Brian Niccol(6) ― ― ― * ... (6) Mr. Niccol terminated his employment with Chipotle in August 2024 and, as result, we do not have beneficial ownership information for him."
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "The Vanguard Group, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 8.91,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1058090/000114036125015614/ny20039347x771_def14a.htm",
+          "label": "2025 proxy statement (DEF 14A), Beneficial Ownership of Our Common Stock: based on a Schedule 13G/A filed November 12, 2024",
+          "quote": "The Vanguard Group, Inc.(2) 120,729,810 0 120,729,810 8.91% ... (2) Based solely on a report on Schedule 13G/A filed on November 12, 2024."
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 7.51,
+        "asOf": "2023-12-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1058090/000114036125015614/ny20039347x771_def14a.htm",
+          "label": "2025 proxy statement (DEF 14A), Beneficial Ownership of Our Common Stock, footnote (3)",
+          "quote": "BlackRock, Inc.(3) 101,722,000 0 101,722,000 7.51% ... (3) Based solely on a report on Schedule 13G/A filed on January 26, 2024, reflecting ownership as of December 31, 2023 and adjusted for Chipotle's 50-for-one stock split that was effective after market close on June 25, 2024."
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock. The proxy lists two holders above 5%, Vanguard (8.91%) and BlackRock (7.51%); all directors and executive officers as a group (18 people) own 0.81%."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 5, Dividend Policy",
+        "quote": "We are not required to pay any dividends and have not declared or paid any cash dividends on our common stock."
+      }
+    },
+    "buybacks": {
+      "value": 1.0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows, financing activities",
+        "quote": "Financing activities Repurchase of common stock (1,001,559) (592,349) (830,140) [in thousands, 2024, 2023, 2022]",
+        "xbrl": { "cik": "0001058090", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-12-31", "value": 1001559000 }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 0.13,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation expense 131,730 124,016 98,030 [in thousands, 2024, 2023, 2022]",
+        "xbrl": { "cik": "0001058090", "concept": "us-gaap:ShareBasedCompensation", "end": "2024-12-31", "value": 131730000 }
+      }
+    },
+    "plan": {
+      "text": "After one year of service, Chipotle employees can buy company stock each quarter at 92.5% of the market price through the employee stock purchase plan.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 8 Stock-Based Compensation and Employee Benefit Plans",
+        "quote": "Employees become eligible to participate in the program after one year of service with Chipotle and may contribute up to 15% of their earnings, subject to an annual maximum dollar amount. The ESPP provides a quarterly offering period to purchase our common stock at a price of 92.5% of the lower of the fair market value on the first and last trading days of each offering period."
+      }
+    }
+  },
+  "geography": {
+    "basis": "Revenue of the single U.S. reportable segment, reconciled to consolidated revenue",
+    "segments": [
+      { "name": "U.S. segment", "value": 11.11 },
+      { "name": "All other (Canada, Europe and international licensed restaurant royalties)", "value": 0.2 }
+    ],
+    "total": 11.31,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
+      "label": "FY2024 Form 10-K, Note 14 Segment Reporting",
+      "quote": "U.S. segment total revenue 11,111,732 ... All other revenue(1) 202,121 ... Total consolidated revenue $ 11,313,853 [2024, in thousands] ... (1)All other revenue represents sales within our company-owned stores in Canada, Europe and royalty revenue from our international licensed restaurants."
+    }
+  },
+  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). Financial figures are from the FY2024 Form 10-K (accession 0001058090-25-000014), reported in thousands and converted to billions; they match SEC XBRL. Ownership is from the 2025 proxy statement (DEF 14A filed April 25, 2025, accession 0001140361-25-015614), percentages based on 1,347,974,989 shares outstanding on April 15, 2025. LEADER: Brian Niccol, former Chairman and CEO, left in August 2024. He is still listed among the 2024 named executive officers, but the proxy shows dashes for him and says it has no beneficial ownership information for him, so status is not-disclosed. The proxy also says his 2024 long-term incentive grants were forfeited when he left. HOLDERS: Vanguard's row is based on a Schedule 13G/A filed November 12, 2024 with no as-of date given, so asOf is null; BlackRock's refers to December 31, 2023, split-adjusted. GEOGRAPHY: Chipotle reports one reportable segment (U.S.); the other operating segments (Canada, Europe, international licensed restaurants) are below the reporting thresholds and shown as 'All other revenue' in the reconciliation. BUYBACKS exclude $74 million of tax withholding on stock-based compensation awards.",
+  "researchedAt": "2026-11-23"
+}

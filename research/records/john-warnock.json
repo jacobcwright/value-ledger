@@ -1,0 +1,112 @@
+{
+  "id": "john-warnock",
+  "company": "Adobe",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-11-29",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-02-21",
+    "leader": {
+      "name": "John Warnock",
+      "relation": "co-founder",
+      "status": "deceased",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "family": null,
+      "source": null
+    },
+    "largestHolders": [
+      {
+        "name": "The Vanguard Group",
+        "type": "asset-manager",
+        "pctEconomic": 9.26,
+        "asOf": "2023-12-29",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000048/adbe-20250227.htm",
+          "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "The Vanguard Group 40,262,670 (5) 9.26 % ... (5)Based solely on a Schedule 13G/A filed with the SEC on February 13, 2024, reporting beneficial ownership as of December 29, 2023"
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 8.73,
+        "asOf": "2023-12-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000048/adbe-20250227.htm",
+          "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "BlackRock, Inc. 37,969,080 (6) 8.73 % ... (6)Based solely on a Schedule 13G/A filed with the SEC on January 25, 2024, reporting beneficial ownership as of December 31, 2023"
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock; percentages are based on 434,897,366 shares outstanding on February 21, 2025. The proxy lists Vanguard and BlackRock as the only holders of 5% or more; every director and executive officer, and the group of 19, is marked * (less than 1%)."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+        "label": "FY2024 Form 10-K, Item 5, Dividends (the FY2024 cash-flow statement has no dividend line)",
+        "quote": "Dividends We do not anticipate paying any cash dividends in the foreseeable future."
+      }
+    },
+    "buybacks": {
+      "value": 9.5,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchases of common stock (9,500) (4,400) (6,550) [in millions, fiscal 2024, 2023, 2022]",
+        "xbrl": { "cik": "0000796343", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-11-29", "value": 9500000000 }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 1.83,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation 1,833 1,718 1,440 [in millions, fiscal 2024, 2023, 2022]",
+        "xbrl": { "cik": "0000796343", "concept": "us-gaap:ShareBasedCompensation", "end": "2024-11-29", "value": 1833000000 }
+      }
+    },
+    "plan": {
+      "text": "Adobe's Employee Stock Purchase Plan lets eligible employees buy Adobe shares at a discount through payroll deductions.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+        "label": "FY2024 Form 10-K, Note 12 Stock-Based Compensation",
+        "quote": "Our Employee Stock Purchase Plan (“ESPP”) allows eligible employee participants to purchase shares of our common stock at a discount through payroll deductions."
+      }
+    }
+  },
+  "geography": {
+    "basis": "Revenue by geographic area, based on where the customer manages their utilization of Adobe's offerings",
+    "segments": [
+      { "name": "Americas: United States", "value": 11.5 },
+      { "name": "Americas: Other", "value": 1.39 },
+      { "name": "EMEA", "value": 5.55 },
+      { "name": "APAC", "value": 3.06 }
+    ],
+    "total": 21.51,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+      "label": "FY2024 Form 10-K, Note 2 Revenue",
+      "quote": "Revenue by geographic area for fiscal 2024, 2023 and 2022 were as follows: (in millions) 2024 2023 2022 Americas: United States $ 11,499 $ 10,460 $ 9,217 Other 1,392 1,194 1,034 Total Americas 12,891 11,654 10,251 EMEA 5,554 4,881 4,593 APAC 3,060 2,874 2,762 Revenue $ 21,505 $ 19,409 $ 17,606"
+    }
+  },
+  "notes": "Fiscal year ended November 29, 2024 (Adobe's fiscal 2024; matches data.js fy 'Nov 2024'). Sources: FY2024 Form 10-K (accession 0000796343-25-000004) and 2025 proxy statement (DEF 14A, accession 0000796343-25-000048), read on EDGAR. LEADER: John Warnock (co-founder) is deceased. His name does not appear in the 2025 proxy or the FY2024 10-K, so the filings disclose no Warnock estate, family or trust holding; family is null and the leader has no source. HOLDERS: Vanguard and BlackRock percentages rest on Schedule 13G/A filings reporting ownership at the end of December 2023, applied against the February 21, 2025 share count. Rounded geography segments sum to 21.50 against the stated 21.51 total.",
+  "researchedAt": "2026-11-23"
+}

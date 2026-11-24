@@ -1,0 +1,129 @@
+{
+  "id": "joaquin-duato",
+  "company": "Johnson & Johnson",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-29",
+  "currency": "USD",
+  "unit": "billions",
+
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-02-25",
+    "leader": {
+      "name": "Joaquin Duato",
+      "relation": "ceo",
+      "status": "holds",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "shares": 1395264,
+      "derived": null,
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000099/jnj-20250311.htm",
+        "label": "2025 proxy statement, Security ownership of certain beneficial owners, officers and Directors",
+        "quote": "Each of the individuals/group listed below is the owner of less than 1% of our outstanding shares. ... All stock ownership is as of February 25, 2025. ... J. Duato 407,765 0 987,499 1,395,264"
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "The Vanguard Group",
+        "type": "asset-manager",
+        "pctEconomic": 9.52,
+        "asOf": "2023-12-29",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000099/jnj-20250311.htm",
+          "label": "2025 proxy statement, beneficial owners of more than five percent (footnote 1)",
+          "quote": "The Vanguard Group 100 Vanguard Boulevard Malvern, PA 19355 Common stock 229,372,559 shares(1) 9.52 % ... (1)Based solely on an Amendment to Schedule 13G filed with the SEC on February 13, 2024"
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 7.7,
+        "asOf": "2023-12-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000099/jnj-20250311.htm",
+          "label": "2025 proxy statement, beneficial owners of more than five percent (footnote 2)",
+          "quote": "BlackRock, Inc. 55 East 52nd Street New York, NY 10055 Common stock 186,308,341 shares(2) 7.7 % ... (2)Based solely on an Amendment to Schedule 13G filed with the SEC on January 26, 2024"
+        }
+      },
+      {
+        "name": "State Street Corporation",
+        "type": "asset-manager",
+        "pctEconomic": 5.5,
+        "asOf": "2023-12-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000099/jnj-20250311.htm",
+          "label": "2025 proxy statement, beneficial owners of more than five percent (footnote 3)",
+          "quote": "State Street Corporation State Street Financial Center One Lincoln Street Boston, MA 02111 Common stock 132,996,283 shares(3) 5.5 % ... (3)Based solely on a Schedule 13G filed with the SEC on January 30, 2024"
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock; each share has one vote. The 2025 proxy lists three holders above 5%: The Vanguard Group (9.52%), BlackRock (7.7%) and State Street (5.5%). Directors and executive officers each own less than 1%."
+    }
+  },
+
+  "cash": {
+    "dividends": {
+      "value": 11.82,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Dividends to shareholders (11,823) (11,770) (11,682) [dollars in millions, fiscal 2024, 2023, 2022]",
+        "xbrl": { "cik": "0000200406", "concept": "us-gaap:PaymentsOfOrdinaryDividends", "end": "2024-12-29", "value": 11823000000 }
+      }
+    },
+    "buybacks": {
+      "value": 2.43,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchase of common stock (2,432) (5,054) (6,035) [dollars in millions, fiscal 2024, 2023, 2022]",
+        "xbrl": { "cik": "0000200406", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-12-29", "value": 2432000000 }
+      }
+    }
+  },
+
+  "workers": {
+    "stockComp": {
+      "value": 1.18,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock based compensation 1,176 1,162 1,138 [dollars in millions, fiscal 2024, 2023, 2022]",
+        "xbrl": { "cik": "0000200406", "concept": "us-gaap:ShareBasedCompensation", "end": "2024-12-29", "value": 1176000000 }
+      }
+    },
+    "plan": null
+  },
+
+  "geography": {
+    "basis": "Sales to customers by geographic area",
+    "segments": [
+      { "name": "United States", "value": 50.30 },
+      { "name": "Europe", "value": 20.21 },
+      { "name": "Western Hemisphere excluding U.S.", "value": 4.71 },
+      { "name": "Asia-Pacific, Africa", "value": 13.59 }
+    ],
+    "total": 88.82,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
+      "label": "FY2024 Form 10-K, Note 17 Segments of business and geographic areas",
+      "quote": "Sales to Customers ... (Dollars in Millions) 2024 ... United States $50,302 ... Europe 20,212 ... Western Hemisphere excluding U.S. 4,714 ... Asia-Pacific, Africa 13,593 ... Worldwide total $88,821"
+    }
+  },
+
+  "notes": "Fiscal year 2024 ended December 29, 2024 (52-week year; matches data.js fy 'Dec 2024'). Ownership is from the 2025 proxy (filed March 12, 2025), as of February 25, 2025, when 2,409,847,729 shares were outstanding. DUATO: less than 1% (the proxy says each listed individual owns less than 1%; no percentage is given), so pctEconomic is null. His 1,395,264 shares include 987,499 shares underlying options or stock units exercisable or vesting within 60 days. Because Mr. Duato and Mr. Wolk serve as trustees of Johnson Family Trusts, they are deemed to 'control' an additional 4,952,871 shares in which they have no economic interest; those shares are not in his figure. HOLDERS: the proxy bases the 5% holders solely on Schedule 13G filings from January and February 2024, so the percentages are stale. The holding dates come from the 13Gs themselves: Vanguard, December 29, 2023 (https://www.sec.gov/Archives/edgar/data/200406/000110465924021263/tv01257-johnsonjohnson.htm); BlackRock, December 31, 2023 (https://www.sec.gov/Archives/edgar/data/200406/000108636424004277/us4781601046_012624.txt); State Street, 12/31/2023 (https://www.sec.gov/Archives/edgar/data/200406/000009375124000440/Johnson_and_Johnson.txt). BUYBACKS: the 10-K says its open-market common stock purchases 'are made as part of a systematic plan to meet the needs of the Company's compensation programs'; the $2,432m is the full cash-flow line. STOCK COMP: the cash-flow add-back of $1,176m equals the compensation cost charged against income in the stock-compensation note. PLAN: null; no broad employee stock purchase plan is described in the 10-K. GEOGRAPHY values are rounded from millions.",
+  "researchedAt": "2026-11-23"
+}

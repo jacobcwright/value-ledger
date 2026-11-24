@@ -1,0 +1,154 @@
+{
+  "id": "marc-benioff",
+  "company": "Salesforce",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-01-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-03-31",
+    "leader": {
+      "name": "Marc Benioff",
+      "relation": "co-founder",
+      "status": "holds",
+      "pctEconomic": 2.4,
+      "pctVoting": null,
+      "shares": 22796932,
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm",
+        "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (printed p. 90)",
+        "quote": "applicable percentage ownership in the following table is based on 961,389,205 shares of Salesforce common stock outstanding as of March 31, 2025 ... Marc Benioff(4) 22,796,932 2.4 ... 4.Includes (i) 827,475 shares issuable upon the exercise of options ... and (ii) 10,000,000 shares held by the Marc Benioff Fund LLC. All other shares are held in the Marc R. Benioff Revocable Trust."
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "The Vanguard Group",
+        "type": "asset-manager",
+        "pctEconomic": 8.7,
+        "asOf": "2024-02-13",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm",
+          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (printed p. 90)",
+          "quote": "applicable percentage ownership in the following table is based on 961,389,205 shares of Salesforce common stock outstanding as of March 31, 2025 ... The Vanguard Group(1) ... 83,624,885 8.7 ... 1.Based upon a Schedule 13G/A filed with the SEC on February 13, 2024."
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 7.6,
+        "asOf": "2024-01-26",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm",
+          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (printed p. 90)",
+          "quote": "applicable percentage ownership in the following table is based on 961,389,205 shares of Salesforce common stock outstanding as of March 31, 2025 ... BlackRock, Inc.(2) ... 72,882,619 7.6 ... 2.Based upon a Schedule 13G/A filed with the SEC on January 26, 2024."
+        }
+      },
+      {
+        "name": "State Street Corporation",
+        "type": "asset-manager",
+        "pctEconomic": 5.1,
+        "asOf": "2024-10-16",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm",
+          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (printed p. 90)",
+          "quote": "applicable percentage ownership in the following table is based on 961,389,205 shares of Salesforce common stock outstanding as of March 31, 2025 ... State Street Corporation(3) ... 49,018,644 5.1 ... 3.Based upon a Schedule 13G filed with the SEC on October 16, 2024."
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock. The largest disclosed holders are index and asset managers; Marc Benioff, Chair and CEO, beneficially owns 2.4%."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 1.54,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Payments of dividends (1,537) 0 0 [in millions, fiscal 2025, 2024, 2023]",
+        "xbrl": {
+          "cik": "0001108524",
+          "concept": "us-gaap:PaymentsOfDividends",
+          "end": "2025-01-31",
+          "value": 1537000000
+        }
+      }
+    },
+    "buybacks": {
+      "value": 7.83,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchases of common stock (7,829) (7,620) (4,000) [in millions, fiscal 2025, 2024, 2023]",
+        "xbrl": {
+          "cik": "0001108524",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2025-01-31",
+          "value": 7829000000
+        }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 3.18,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation expense 3,183 2,787 3,279 [in millions, fiscal 2025, 2024, 2023]",
+        "xbrl": {
+          "cik": "0001108524",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2025-01-31",
+          "value": 3183000000
+        }
+      }
+    },
+    "plan": {
+      "text": "Employees can buy Salesforce stock at a 15% discount through the Employee Stock Purchase Plan.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
+        "label": "FY2025 Form 10-K, Note 1 Summary of Significant Accounting Policies, Stock-Based Compensation Expense",
+        "quote": "The ESPP allows employees to purchase shares of the Company's common stock at a 15 percent discount from the lower of the Company’s stock price on (i) the first day of the offering period or on (ii) the last day of the purchase period."
+      }
+    }
+  },
+  "geography": {
+    "basis": "Revenues by geographical region, determined based on the region of the Company's contracting entity",
+    "segments": [
+      {
+        "name": "Americas",
+        "value": 25.14
+      },
+      {
+        "name": "Europe",
+        "value": 8.89
+      },
+      {
+        "name": "Asia Pacific",
+        "value": 3.86
+      }
+    ],
+    "total": 37.9,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
+      "label": "FY2025 Form 10-K, Note 2 Revenues, Total Revenue by Geographic Locations",
+      "quote": "Americas $ 25,143 ... Europe 8,891 ... Asia Pacific 3,861 ... $ 37,895 [fiscal 2025, in millions] ... Revenues by geography are determined based on the region of the Company's contracting entity, which may be different than the region of the customer."
+    }
+  },
+  "notes": "Fiscal year ended January 31, 2025 (Salesforce calls it fiscal 2025; matches data.js fy 'Jan 2025'). Documents read on sec.gov: FY2025 Form 10-K (accession 0001108524-25-000006) and 2025 proxy statement (DEF 14A, accession 0001108524-25-000009). Salesforce paid its first dividends in fiscal 2025. XBRL also carries $1,549 million of dividends declared (DividendsCommonStockCash); the cash-flow figure of $1,537 million paid is used. Benioff's 22,796,932 shares include 827,475 shares from options and PRSUs vesting within 60 days and 10,000,000 shares held by the Marc Benioff Fund LLC. Holder asOf dates are the Schedule 13G filing dates the proxy cites; it does not give event dates. The Vanguard and BlackRock figures date from early 2024. GEOGRAPHY: the 10-K says Americas revenue attributed to the United States was about 93% in each year.",
+  "researchedAt": "2026-11-23"
+}

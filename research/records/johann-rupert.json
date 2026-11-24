@@ -1,0 +1,105 @@
+{
+  "id": "johann-rupert",
+  "company": "Compagnie Financière Richemont",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-03-31",
+  "currency": "EUR",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-03-31",
+    "leader": {
+      "name": "Johann Rupert",
+      "relation": "founder",
+      "status": "holds",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "shares": null,
+      "derived": null,
+      "family": {
+        "label": "Compagnie Financière Rupert (Swiss partnership limited by shares; Johann Rupert is its sole General Managing Partner)",
+        "pctEconomic": 10.18,
+        "source": {
+          "hostType": "company",
+          "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
+          "label": "Annual Report and Accounts 2025, Corporate governance, Significant shareholders (printed p. 54)",
+          "quote": "As at 31 March 2025, Compagnie Financière Rupert, a partnership limited by shares, having its registered office in Bellevue, Geneva, Switzerland, held 6 418 850 Richemont ‘A’ shares and 537 582 089 Richemont ‘B’ shares representing 10.18% of the Company’s capital and some 51% of its voting rights."
+        }
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
+        "label": "Annual Report and Accounts 2025, Compensation report, Share ownership (printed p. 75)",
+        "quote": "In addition, Compagnie Financière Rupert, a Swiss partnership limited by shares, holds 6 418 850 Richemont ‘A’ shares (2024: 6 418 850 ‘A’ shares) and 537 582 089 Richemont ‘B’ registered shares (2024: 537 582 089 ‘B’ shares), representing 10% of the equity of the Company and controlling 51% of the Company’s voting rights. Mr Johann Rupert, Chairman of Richemont, is the sole General Managing Partner of Compagnie Financière Rupert."
+      }
+    },
+    "largestHolders": [],
+    "structure": {
+      "dualClass": true,
+      "controlled": true,
+      "note": "537,582,089 listed 'A' shares (par CHF 1.00) and 537,582,089 unlisted 'B' shares (par CHF 0.10). Each share has one vote, and each share's portion of net profit and liquidation proceeds is in proportion to its par value. All 'B' shares are held by Compagnie Financière Rupert, which also holds 6,418,850 'A' shares: 10.18% of the capital and some 51% of the voting rights. The directors regard Compagnie Financière Rupert as the Group's controlling party. The report states there were no other shareholders holding at least 3% of the voting rights at 31 March 2025."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 1.71,
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
+        "label": "Annual Report and Accounts 2025, consolidated statement of cash flows (printed p. 86)",
+        "quote": "Dividends paid to owners of the parent entity 31 (1 710) (2 072) [Notes, 2025 €m, 2024 €m; year ended 31 March]"
+      }
+    },
+    "buybacks": {
+      "value": 0,
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
+        "label": "Annual Report and Accounts 2025, note 30.2 Treasury shares (printed p. 121)",
+        "quote": "In order to hedge partially its potential obligations arising under the share-based compensation plans, the Group has purchased Richemont ‘A’ shares. ... During the year under review the Group purchased 0.7 million treasury shares for a total cash outflow of € 104 million"
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 0.12,
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
+        "label": "Annual Report and Accounts 2025, note 32 Share-based payments (printed p. 124)",
+        "quote": "The amount recognised in profit or loss before social security and taxes for equity-settled share-based compensation transactions was € 118 million (2024: € 110 million), of which € 1 million (2024: € 2 million) is included within Results from discontinued operations"
+      }
+    },
+    "plan": null
+  },
+  "geography": {
+    "basis": "External sales presented in the four main geographical areas; sales are allocated based on the location of the wholesale customer, the boutique or the shipping address for online transactions",
+    "segments": [
+      {
+        "name": "Europe",
+        "value": 4.9
+      },
+      {
+        "name": "Middle East & Africa",
+        "value": 1.93
+      },
+      {
+        "name": "Asia",
+        "value": 9.34
+      },
+      {
+        "name": "Americas",
+        "value": 5.24
+      }
+    ],
+    "total": 21.4,
+    "source": {
+      "hostType": "company",
+      "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
+      "label": "Annual Report and Accounts 2025, note 5 Segment information, (b) Information about geographical areas (printed p. 91)",
+      "quote": "External sales presented in the four main geographical areas where the Group’s operating segments operate are as follows: 2025 2024 €m €m Europe 4 898 4 442 ... Middle East & Africa 1 929 1 673 ... Asia 9 336 9 971 ... Americas 5 236 4 530 ... 21 399 20 616"
+    }
+  },
+  "notes": "Fiscal year ended 31 March 2025 (FY2025, matching data.js 'Mar 2025'); all figures from the Richemont Annual Report and Accounts 2025 on richemont.com. Reported in EUR, converted exactly from € millions. OWNERSHIP: Johann Rupert holds his interest through Compagnie Financière Rupert (CFR), of which he is the sole General Managing Partner; Anton Rupert, a non-executive director, is also a partner. The report does not say how CFR's own equity is split among its partners, so the stake is recorded in family (labelled as CFR) and leader.pctEconomic is null. Johann Rupert does not appear in the directors' table of individual 'A' share holdings. The 10.18% is CFR's share of the Company's capital (par value), which is also the basis for profit and liquidation entitlements; the compensation report and note 37 round it to '10% of the equity'. Voting control is 'some 51%' (note 39: 51%). 'Parties associated with Mr Johann Rupert and Compagnie Financière Rupert held a further 2 921 335 'A' shares' (0.3% of voting rights); their % of capital is not stated, so it is not added. relation 'founder': his board biography states 'He founded Richemont in 1988'. No other holder of 3% or more of votes, so largestHolders is empty. BUYBACKS: 0 under the site's rule that purchases covering employee plans are not cash returned to shareholders (same rule as the Tencent pilot and the UBS and Fortescue records). The cash-flow statement shows 'Acquisition of treasury shares' of €104m (0.7 million shares), which note 30.2 says hedges obligations under share-based compensation plans; proceeds from treasury share sales on option exercises were €162m, so the net flow was an inflow. There was no buyback programme for cancellation. To count the gross purchases instead, use 0.10. DIVIDENDS: CHF 2.750 per 'A' share and CHF 0.275 per 'B' share paid in September 2024; €1,710m to owners of the parent; nothing to non-controlling interests in FY2025. STOCK COMP: €118m equity-settled share-based compensation expense, including €1m in discontinued operations (YNAP). GEOGRAPHY: the four main areas; the note also gives country detail (e.g. United States €4,498m, mainland China €2,931m, Japan €2,186m).",
+  "researchedAt": "2026-11-23"
+}

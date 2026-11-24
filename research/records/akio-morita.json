@@ -1,0 +1,161 @@
+{
+  "id": "akio-morita",
+  "company": "Sony",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-03-31",
+  "currency": "JPY",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-03-31",
+    "leader": {
+      "name": "Akio Morita",
+      "relation": "co-founder",
+      "status": "deceased",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "derived": null,
+      "family": null,
+      "source": null
+    },
+    "largestHolders": [
+      {
+        "name": "BlackRock Japan Co., Ltd. and 11 Joint Holders",
+        "type": "asset-manager",
+        "pctEconomic": 8.53,
+        "asOf": "2024-12-05",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+          "label": "FY2024 Form 20-F, Item 7.A Major Shareholders",
+          "quote": "Date of Report ... December 5, 2024 BlackRock Japan Co., Ltd. and 11 Joint Holders 532,553,589 8.53"
+        }
+      },
+      {
+        "name": "Sumitomo Mitsui Trust Asset Management Co., Ltd. and 1 Joint Holder",
+        "type": "asset-manager",
+        "pctEconomic": 5.98,
+        "asOf": "2024-09-05",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+          "label": "FY2024 Form 20-F, Item 7.A Major Shareholders",
+          "quote": "September 5, 2024 Sumitomo Mitsui Trust Asset Management Co., Ltd. and 1 Joint Holder 74,698,324 5.98"
+        }
+      },
+      {
+        "name": "Nomura Asset Management Co., Ltd. and 3 Joint Holders",
+        "type": "asset-manager",
+        "pctEconomic": 5.01,
+        "asOf": "2020-10-06",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+          "label": "FY2024 Form 20-F, Item 7.A Major Shareholders",
+          "quote": "October 6, 2020 Nomura Asset Management Co., Ltd. and 3 Joint Holders 63,156,882 5.01 ... * The table above contains information from the most recent updated Reports."
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock; 6,149,810,645 shares were outstanding on March 31, 2025, including 124,808,350 treasury shares. The 20-F says Sony is not owned or controlled by any other corporation, government or person, and that major shareholders have no different voting rights. Directors and corporate executive officers together held about 0.057% of shares outstanding."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 115.25,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 Form 20-F, consolidated statements of cash flows",
+        "quote": "Cash flows from financing activities: ... Dividends paid (86,568) (98,620) (115,253) [Yen in millions, fiscal years ended March 31, 2023, 2024, 2025]",
+        "xbrl": {
+          "cik": "0000313838",
+          "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+          "end": "2025-03-31",
+          "value": 115253000000
+        }
+      }
+    },
+    "buybacks": {
+      "value": 285.55,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 Form 20-F, consolidated statements of cash flows",
+        "quote": "Payments for purchases of treasury stock [note reference] 20 [amounts:] (99,248) (202,974) (285,548) [Yen in millions, fiscal years ended March 31, 2023, 2024, 2025]",
+        "xbrl": {
+          "cik": "0000313838",
+          "concept": "ifrs-full:PurchaseOfTreasuryShares",
+          "end": "2025-03-31",
+          "value": 285548000000
+        }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 29.42,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 Form 20-F, Note 21 Stock-based compensation plans",
+        "quote": "The stock-based compensation expense for the fiscal years ended March 31, 2023, 2024 and 2025 was 15,781 million yen, 21,657 million yen and 29,416 million yen, respectively.",
+        "xbrl": {
+          "cik": "0000313838",
+          "concept": "ifrs-full:ExpenseFromSharebasedPaymentTransactionsWithEmployees",
+          "end": "2025-03-31",
+          "value": 29416000000
+        }
+      }
+    },
+    "plan": {
+      "text": "Sony grants stock acquisition rights to employees of Sony Group Corporation and its subsidiaries as well as to executives.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 Form 20-F, Item 6.E Share Ownership",
+        "quote": "During the fiscal year ended March 31, 2025, Sony Group Corporation granted stock acquisition rights, which represent rights to subscribe for shares of Common Stock, to Corporate Executive Officers and employees of Sony Group Corporation as well as directors, officers and employees of its subsidiaries."
+      }
+    }
+  },
+  "geography": {
+    "basis": "Sales and financial services revenue attributed to countries and areas based on location of external customers",
+    "segments": [
+      {
+        "name": "Japan",
+        "value": 2244.36
+      },
+      {
+        "name": "United States",
+        "value": 4127.8
+      },
+      {
+        "name": "Europe",
+        "value": 2630.93
+      },
+      {
+        "name": "China",
+        "value": 1244.12
+      },
+      {
+        "name": "Asia-Pacific",
+        "value": 1640.58
+      },
+      {
+        "name": "Other Areas",
+        "value": 1069.28
+      }
+    ],
+    "total": 12957.06,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+      "label": "FY2024 Form 20-F, Note 4 Business segment information, Geographic Information",
+      "quote": "Sales and financial services revenue: Japan 2,126,508 3,027,526 2,244,356 United States 3,401,402 3,751,239 4,127,795 Europe 2,190,311 2,632,963 2,630,934 China 855,437 1,000,907 1,244,115 Asia-Pacific 1,563,414 1,659,776 1,640,582 Other Areas 837,301 948,357 1,069,282 Total 10,974,373 13,020,768 12,957,064 [Yen in millions; FY ended March 31, 2023, 2024, 2025]"
+    }
+  },
+  "notes": "Fiscal year ended March 31, 2025, labeled FY2025 as in the Toyota record because the 20-F uses only 'fiscal year ended March 31, 2025'; matches data.js fy 'Mar 2025'). Source: Form 20-F filed June 20, 2025 (accession 0001193125-25-143137) on www.sec.gov; IFRS, figures in billions of yen (JPY), no FX conversion. AKIO MORITA is deceased. The 20-F names no Morita family member, estate or foundation among major shareholders, so family is null. MAJOR SHAREHOLDERS: the 20-F lists Japanese Bulk Shareholding Reports filed with the Kanto Local Finance Bureau above 5%. Each percentage is as reported on that report's date, of total issued shares at that time; asOf is the report date. The reports don't say whether the holdings are direct or beneficial. The Sumitomo Mitsui Trust and Nomura share counts predate Sony's 5-for-1 stock split of October 1, 2024, and the Nomura report (October 2020) is stale. DIVIDENDS: the cash-flow line 'Dividends paid' (¥115,253m). The equity statement shows ¥115,312m declared to Sony Group stockholders (¥95 per share) and ¥7,704m to noncontrolling interests, so the cash-flow line appears to be the parent's dividends. BUYBACKS: 'Payments for purchases of treasury stock' (¥285,548m). GEOGRAPHY: sales by customer location, including financial services revenue (the 20-F still reports a Financial Services segment for this year).",
+  "researchedAt": "2026-11-23"
+}

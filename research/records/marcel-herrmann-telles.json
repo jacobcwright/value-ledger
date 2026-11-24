@@ -1,0 +1,153 @@
+{
+  "id": "marcel-herrmann-telles",
+  "company": "Anheuser-Busch InBev SA/NV",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2024-12-31",
+    "leader": {
+      "name": "Marcel Herrmann Telles",
+      "relation": "investor",
+      "status": "no-reported-stake",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "shares": null,
+      "derived": null,
+      "family": null,
+      "source": {
+        "hostType": "company",
+        "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
+        "label": "Annual Report on Form 20-F 2024, Item 7.A Major Shareholders, note (4) (PDF p. 159)",
+        "quote": "(4) Max Van Hoegaerden Herrmann Telles, Jorge Paulo Lemann and Carlos Alberto da Veiga Sicupira have disclosed to us that they control BRC and as a result, under the rules of the SEC, they are deemed to be beneficial owners of our Ordinary Shares held by BRC."
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "Stichting Anheuser-Busch InBev (reference shareholder; certificates held by EPS/EPS Participations and BRC)",
+        "type": "family",
+        "pctEconomic": 33.57,
+        "asOf": "2024-12-31",
+        "source": {
+          "hostType": "company",
+          "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
+          "label": "Annual Report on Form 20-F 2024, Item 7.A Major Shareholders, Controlling Shareholder (PDF p. 159)",
+          "quote": "As of 31 December 2024, the Stichting owned 663,074,832 of our shares, which represented a 33.57% voting interest based on the number of our shares outstanding as of 31 December 2024, excluding the 43,809,952 treasury shares held by us and certain of our subsidiaries."
+        }
+      },
+      {
+        "name": "Altria Group, Inc.",
+        "type": "company",
+        "pctEconomic": 8.06,
+        "asOf": "2024-03-20",
+        "source": {
+          "hostType": "company",
+          "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
+          "label": "Annual Report on Form 20-F 2024, Item 7.A Major Shareholders, note (7) (PDF p. 159)",
+          "quote": "Altria Group, Inc.(7) (“Altria”) 125,115,417 6.33% ... placing Altria’s position of Ordinary Shares in the Company at 34,006,520, as disclosed in the Schedule 13D beneficial ownership report filed by the Stichting dated 20 March 2024, implying an aggregate ownership of 8.06% based on the number of shares with voting rights as at 31 December 2024."
+        }
+      },
+      {
+        "name": "BEVCO Lux S.à R.L",
+        "type": "company",
+        "pctEconomic": 5.21,
+        "asOf": "2024-12-31",
+        "source": {
+          "hostType": "company",
+          "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
+          "label": "Annual Report on Form 20-F 2024, Item 7.A Major Shareholders, note (8) (PDF p. 159)",
+          "quote": "BEVCO Lux S.à R.L(8) (“BEVCO”) 96,862,718 4.90% ... BEVCO disclosed to us that it increased its position of Ordinary Shares in the company to an aggregate of 6,000,000 Ordinary Shares, resulting in an aggregate ownership of 5.21% based on the number of shares with voting rights as at 31 December 2024."
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "Ordinary Shares plus Restricted Shares (held by Altria and BEVCO); the 20-F states that 'Shares held by our major shareholders do not entitle such shareholders to different voting rights.' The controlling shareholder is the Stichting, which represents the founding Belgian families of Interbrew (mainly through EPS, holding class A certificates) and the Brazilian families that previously controlled Ambev (through BRC, holding class B certificates). BRC's and EPS's certificates each indirectly represent 16.78% of the shares. The Stichting and the entities acting in concert with it held 39.05% in aggregate. Under the articles, the Stichting can effectively control the election of a majority of the board, so the 20-F says it 'exercises its control over us'. It holds under 50% of the votes, so 'controlled' is false under this site's >50%-of-votes definition."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 1.76,
+      "source": {
+        "hostType": "company",
+        "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
+        "label": "Annual Report on Form 20-F 2024, consolidated statement of changes in equity, 2024 (PDF p. 228)",
+        "quote": "As per 1 January 2024 1 736 17 620 (3 465) ... Dividends - - - - - (1 764) (1 764) (1 414) (3 178) [Million US dollar; retained earnings, total attributable to equity holders of AB InBev, non-controlling interest, total equity]"
+      }
+    },
+    "buybacks": {
+      "value": 0.94,
+      "source": {
+        "hostType": "company",
+        "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
+        "label": "Annual Report on Form 20-F 2024, consolidated statement of cash flows, financing activities (PDF p. 230)",
+        "quote": "Share buyback 21 (937) (362) - [Million US dollar, 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0001668717",
+          "concept": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares",
+          "end": "2024-12-31",
+          "value": 937000000
+        }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 0.64,
+      "source": {
+        "hostType": "company",
+        "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
+        "label": "Annual Report on Form 20-F 2024, note 24 Share-based payments (PDF p. 274)",
+        "quote": "All the company share-based payment plans are equity-settled. ... Share-based payment transactions resulted in a total expense of 644m US dollar for 2024, as compared to 570m US dollar for 2023 and 448m US dollar for 2022.",
+        "xbrl": {
+          "cik": "0001668717",
+          "concept": "ifrs-full:ExpenseFromSharebasedPaymentTransactionsWithEmployees",
+          "end": "2024-12-31",
+          "value": 644000000
+        }
+      }
+    },
+    "plan": null
+  },
+  "geography": {
+    "basis": "Revenue by segment; the five geographic regions plus Global Export and Holding Companies",
+    "segments": [
+      {
+        "name": "North America",
+        "value": 14.66
+      },
+      {
+        "name": "Middle Americas",
+        "value": 17.07
+      },
+      {
+        "name": "South America",
+        "value": 12.42
+      },
+      {
+        "name": "EMEA",
+        "value": 9.0
+      },
+      {
+        "name": "Asia Pacific",
+        "value": 6.2
+      },
+      {
+        "name": "Global Export and Holding Companies",
+        "value": 0.42
+      }
+    ],
+    "total": 59.77,
+    "source": {
+      "hostType": "company",
+      "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
+      "label": "Annual Report on Form 20-F 2024, note 5 Segment reporting (PDF p. 248)",
+      "quote": "North America Middle Americas South America EMEA Asia Pacific ... Revenue 14 655 15 072 16 566 17 072 16 348 14 180 12 423 12 040 11 599 9 003 8 589 8 120 6 196 6 824 6 532 ... Revenue 418 508 790 59 768 59 380 57 786 [million US dollar, 2024/2023/2022; Global Export and Holding companies, AB InBev Worldwide]"
+    }
+  },
+  "notes": "Fiscal year ended 31 December 2024. Source is AB InBev's Annual Report on Form 20-F 2024 as published in the ab-inbev.com investor results center, whose documents are served from the company's builder.io content CDN (cdn.builder.io, the site's document host; the URL was taken from the site's own documents feed). www.sec.gov was not contacted; buybacks and stock comp are cross-checked against SEC XBRL companyfacts (CIK 0001668717). USD, converted exactly from USD millions. LEADER: Marcel Herrmann Telles is not named anywhere in the FY2024 20-F. The major-shareholder notes name Max Van Hoegaerden Herrmann Telles (with Jorge Paulo Lemann and Carlos Alberto da Veiga Sicupira) as controlling BRC S.à.R.L., the Brazilian families' vehicle that holds the Stichting's class B certificates (indirectly 16.78% of the shares) and 1.42% of the shares directly. The filing does not describe Marcel Herrmann Telles's own interest or his relation to Max, so status is 'no-reported-stake' and no BRC stake is attributed to him. relation 'investor' follows the site's role label; the filing gives no role for him. HOLDERS: all percentages are calculated, as the 20-F states, 'on the total number of outstanding shares as at 31 December 2024 (2,019,241,973 shares) minus the number of outstanding shares held in treasury' (43,809,952), i.e. they exclude treasury shares. The Stichting's 33.57% already contains BRC's and EPS's certificate interests, so BRC (1.42% direct) and EPS Participations (3.41% direct) are not listed, to avoid mixing direct and look-through figures. Altria's 8.06% and BEVCO's 5.21% are the all-inclusive aggregates (Restricted plus Ordinary Shares) from notes (7) and (8); Altria's ordinary-share count is as of the 13D dated 20 March 2024. The Stichting is typed 'family' because it represents the founding Belgian families and the Brazilian families; it is a Dutch foundation. DIVIDENDS: USD 1,764 million recognised as dividends to equity holders of AB InBev in the statement of changes in equity. The cash-flow line 'Dividends paid' of USD (2,672) million includes dividends paid by Ambev and other subsidiaries to minority holders; the 20-F's MD&A says 2024 dividends paid 'consisted primarily of USD 1.8 billion paid by Anheuser-Busch InBev SA/NV and USD 0.3 billion paid by Ambev and its subsidiaries'. BUYBACKS: USD 937 million 'Share buyback' (cash flow), covering the USD 1 billion programme, the start of the new USD 2 billion programme announced 30 October 2024 (USD 99 million by year end) and a USD 200 million direct repurchase of 3,335,417 shares from Altria. STOCK COMP: USD 644 million; all plans are equity-settled. No broad employee share plan is described (plans cover senior management and directors), so plan is null. GEOGRAPHY: revenue by reporting segment (USD 59,768 million); the segments are the five geographic regions plus Global Export and Holding Companies.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "howard-schultz",
+  "company": "Starbucks",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-09-29",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-01-10",
+    "leader": {
+      "name": "Howard Schultz",
+      "relation": "former-ceo",
+      "status": "no-reported-stake",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000121390025006516/ea0224926-02.htm",
+        "label": "2025 proxy statement, Beneficial Ownership of Common Stock",
+        "quote": "The following table sets forth information concerning the “beneficial ownership” of our common stock by: (i) those persons who we know to beneficially own more than 5% of our outstanding common stock, (ii) our current directors and nominees, (iii) the NEOs listed in the Summary Compensation Table, and (iv) all of our current directors and executive officers as a group."
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "The Vanguard Group",
+        "type": "asset-manager",
+        "pctEconomic": 9.5,
+        "asOf": "2023-12-29",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/829224/000121390025006516/ea0224926-02.htm",
+          "label": "2025 proxy statement, Beneficial Ownership of Common Stock",
+          "quote": "The Vanguard Group(9) 107,930,080 — — — 107,930,080 9.5 ... (9) The Vanguard Group stated in its Schedule 13G/A filing with the SEC on February 13, 2024 (the “Vanguard 13G/A filing”) that, of the 107,930,080 shares of common stock beneficially owned at December 29, 2023"
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 6.9,
+        "asOf": "2023-12-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/829224/000121390025006516/ea0224926-02.htm",
+          "label": "2025 proxy statement, Beneficial Ownership of Common Stock",
+          "quote": "BlackRock Inc.(8) 78,750,491 — — — 78,750,491 6.9 ... (8) BlackRock, Inc. stated in its Schedule 13G/A filing with the SEC on January 26, 2024 (the “BlackRock 13G/A filing”) that, of the 78,750,491 shares of common stock beneficially owned at December 31, 2023"
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock; percentages are based on 1,135,931,108 shares outstanding on January 10, 2025. Vanguard and BlackRock are the only holders above 5% listed in the proxy."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 2.59,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Cash dividends paid (2,585.0) (2,431.8) (2,263.3) [FINANCING ACTIVITIES; in millions; fiscal years ended Sep 29, 2024, Oct 1, 2023, Oct 2, 2022]",
+        "xbrl": {
+          "cik": "0000829224",
+          "concept": "us-gaap:PaymentsOfDividends",
+          "end": "2024-09-29",
+          "value": 2585000000
+        }
+      }
+    },
+    "buybacks": {
+      "value": 1.27,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchase of common stock (1,266.7) (984.4) (4,013.0) [FINANCING ACTIVITIES; in millions; fiscal 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0000829224",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2024-09-29",
+          "value": 1266700000
+        }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 0.31,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation 308.3 302.7 271.5 [OPERATING ACTIVITIES; in millions; fiscal 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0000829224",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2024-09-29",
+          "value": 308300000
+        }
+      }
+    },
+    "plan": {
+      "text": "Starbucks has an employee stock purchase plan.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "FY2024 Form 10-K, notes, Employee Stock Plans",
+        "quote": "We also have an employee stock purchase plan (“ESPP”). As of September 29, 2024, there were 83.2 million shares of common stock available for issuance pursuant to future equity-based compensation awards and 9.7 million shares available for issuance under our ESPP."
+      }
+    }
+  },
+  "geography": {
+    "basis": "Net revenues by geographic area, based on the geographic location of our customers",
+    "segments": [
+      {
+        "name": "United States",
+        "value": 26.71
+      },
+      {
+        "name": "China",
+        "value": 3.01
+      },
+      {
+        "name": "Other countries",
+        "value": 6.46
+      }
+    ],
+    "total": 36.18,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+      "label": "FY2024 Form 10-K, Note 17 Segment Reporting, information by geographic area",
+      "quote": "Information by geographic area (in millions): Fiscal Year Ended Sep 29, 2024 ... Net revenues(1): United States $ 26,707.4 ... China 3,008.2 ... Other countries 6,460.6 ... Total $ 36,176.2"
+    }
+  },
+  "notes": "Fiscal year ended September 29, 2024 (Starbucks fiscal 2024; matches data.js fy 'Sep 2024'). Sources: FY2024 Form 10-K (accession 0000829224-24-000057) and the proxy published after that year, the 2025 DEF 14A (accession 0001213900-25-006516, ownership as of January 10, 2025). HOWARD SCHULTZ is not listed in the 2025 proxy's beneficial ownership table, which covers more-than-5% holders, current directors and nominees, the fiscal 2024 named executive officers, and the current group. He is not a current director or officer; elsewhere the proxy mentions him only as a former CEO (in the pay-versus-performance table and in a shareholder proposal's supporting statement). Under the schema rule for former executives, status is no-reported-stake. That means the proxy reports no holding, not that he owns no shares. The cited source quote shows the table's scope. 5% HOLDERS: both rest on Schedule 13G/As reporting holdings at the end of 2023, so they are stale relative to the January 2025 share count. GEOGRAPHY: revenues include the Channel Development segment; Japan, Canada and the U.K. together make up about 72% of 'Other countries' (10-K). Operating segments (North America, International, Channel Development) are not used.",
+  "researchedAt": "2026-11-23"
+}

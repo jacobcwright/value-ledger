@@ -1,0 +1,124 @@
+{
+  "id": "charles-scharf",
+  "company": "Wells Fargo",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-02-12",
+    "leader": {
+      "name": "Charles Scharf",
+      "relation": "ceo",
+      "status": "holds",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "shares": 919234,
+      "derived": null,
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000090/wfc-20250317.htm",
+        "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners, Officers, and Directors (p. 114)",
+        "quote": "Charles W. Scharf* 919,234 — — 919,234 — 919,234 ... None of our directors, NEOs, or executive officers, individually or as a group, beneficially own more than 1% of our outstanding common stock."
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "The Vanguard Group, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 9.77,
+        "asOf": "2023-12-29",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000090/wfc-20250317.htm",
+          "label": "2025 proxy statement, Stock Ownership Information, Principal Shareholders (p. 115)",
+          "quote": "The Vanguard Group, Inc. ... 321,717,682 9.77 % ... 1.Based on a Schedule 13G/A filed on February 13, 2024 with the SEC by The Vanguard Group, Inc. (Vanguard) to report beneficial ownership as of December 29, 2023."
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 8.07,
+        "asOf": "2023-12-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000090/wfc-20250317.htm",
+          "label": "2025 proxy statement, Stock Ownership Information, Principal Shareholders (p. 115)",
+          "quote": "BlackRock, Inc. ... 265,745,467 8.07 % ... 2.Based on a Schedule 13G/A filed on January 26, 2024 with the SEC by BlackRock, Inc. ... to report beneficial ownership as of December 31, 2023."
+        }
+      },
+      {
+        "name": "FMR LLC (Fidelity)",
+        "type": "asset-manager",
+        "pctEconomic": 5.95,
+        "asOf": "2024-09-30",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000090/wfc-20250317.htm",
+          "label": "2025 proxy statement, Stock Ownership Information, Principal Shareholders (p. 115)",
+          "quote": "FMR LLC ... 195,949,869 5.95 % ... 3.Based on a Schedule 13G jointly filed on November 12, 2024 with the SEC by FMR LLC ... to report beneficial ownership as of September 30, 2024."
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock (Wells Fargo also has preferred stock outstanding). The proxy names only Vanguard, BlackRock and FMR as owners of more than 5% of common stock as of February 12, 2025, and says no director or executive officer, individually or as a group, owns more than 1%."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 5.13,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231_d2.htm",
+        "label": "2024 Annual Report (Form 10-K financial section), consolidated statement of cash flows, common stock",
+        "quote": "Common stock: Repurchased (19,448) (11,851) (6,033) Cash dividends paid (5,133) (4,789) (4,178) [in millions, 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0000072971",
+          "concept": "us-gaap:PaymentsOfDividendsCommonStock",
+          "end": "2024-12-31",
+          "value": 5133000000
+        }
+      }
+    },
+    "buybacks": {
+      "value": 19.45,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231_d2.htm",
+        "label": "2024 Annual Report (Form 10-K financial section), consolidated statement of cash flows, common stock",
+        "quote": "Common stock: Repurchased (19,448) (11,851) (6,033) Cash dividends paid (5,133) (4,789) (4,178) [in millions, 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0000072971",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2024-12-31",
+          "value": 19448000000
+        }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 1.28,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231_d2.htm",
+        "label": "2024 Annual Report (Form 10-K financial section), Note 12 Common Stock and Stock Plans, Table 12.3 Stock Compensation Expense",
+        "quote": "Table 12.3: Stock Compensation Expense ... Total stock compensation expense $ 1,281 1,122 978 [in millions, 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0000072971",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2024-12-31",
+          "value": 1281000000
+        }
+      }
+    },
+    "plan": null
+  },
+  "geography": null,
+  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). The Form 10-K wrapper (wfc-20241231.htm) incorporates the 2024 Annual Report; the financial statements were read in the filing's annual-report document wfc-20241231_d2.htm (accession 0000072971-25-000066). Ownership comes from the 2025 proxy statement (accession 0000072971-25-000090). CHARLES SCHARF: 919,234 shares; the proxy has no percentage column for individuals and states that none of them owns more than 1%, so pctEconomic is null. DIVIDENDS are common-stock dividends only; Wells Fargo separately paid $1,099 million of preferred dividends (excluded). BUYBACKS are common-stock repurchases only; $2,840 million of preferred stock redemptions are excluded. GEOGRAPHY is null: Wells Fargo's segment note reports operating segments only and gives no revenue by geography (the 10-K says its largest non-U.S. country exposure, the United Kingdom, is about 1% of total assets). XBRL: the stock-comp figure is tagged us-gaap:ShareBasedCompensation (the cash-flow add-back, also $1,281 million), which equals the note total.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,132 @@
+{
+  "id": "herbert-diess",
+  "company": "Volkswagen AG",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "EUR",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2024-12-31",
+    "leader": {
+      "name": "Herbert Diess",
+      "relation": "former-ceo",
+      "status": "no-reported-stake",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "shares": null,
+      "derived": null,
+      "family": null,
+      "source": {
+        "hostType": "company",
+        "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/931/file_en/953dcbb8e57270df70ca288218092dba4721fd63/2025-03-11-volkswagen-group-annual-report-2024-en.pdf",
+        "label": "Annual Report 2024, declaration of conformity, recommendation G.13 (PDF p. 29)",
+        "quote": "At the end of July 2022, the Supervisory Board of VOLKSWAGEN AG resolved by mutual agreement with Dr Diess to terminate his appointment as member and as Chair of the Board of Management with effect from the close of August 31, 2022."
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "Porsche Automobil Holding SE",
+        "type": "company",
+        "pctEconomic": 31.9,
+        "asOf": "2024-12-31",
+        "source": {
+          "hostType": "company",
+          "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/931/file_en/953dcbb8e57270df70ca288218092dba4721fd63/2025-03-11-volkswagen-group-annual-report-2024-en.pdf",
+          "label": "Annual Report 2024, Shares and Bonds, shareholder structure as of December 31, 2024 (printed p. 114)",
+          "quote": "SHAREHOLDER STRUCTURE AS OF DECEMBER 31, 2024 as a percentage of subscribed capital Porsche Automobil Holding SE 31.9%"
+        }
+      },
+      {
+        "name": "State of Lower Saxony",
+        "type": "government",
+        "pctEconomic": 11.8,
+        "asOf": "2024-12-31",
+        "source": {
+          "hostType": "company",
+          "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/931/file_en/953dcbb8e57270df70ca288218092dba4721fd63/2025-03-11-volkswagen-group-annual-report-2024-en.pdf",
+          "label": "Annual Report 2024, Shares and Bonds, shareholder structure as of December 31, 2024 (printed p. 114)",
+          "quote": "as a percentage of subscribed capital Porsche Automobil Holding SE 31.9% Foreign institutional investors 18.3% Qatar Holding LLC 10.4% State of Lower Saxony 11.8%"
+        }
+      },
+      {
+        "name": "Qatar Holding LLC",
+        "type": "sovereign",
+        "pctEconomic": 10.4,
+        "asOf": "2024-12-31",
+        "source": {
+          "hostType": "company",
+          "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/931/file_en/953dcbb8e57270df70ca288218092dba4721fd63/2025-03-11-volkswagen-group-annual-report-2024-en.pdf",
+          "label": "Annual Report 2024, Shares and Bonds, shareholder structure as of December 31, 2024 (printed p. 114)",
+          "quote": "as a percentage of subscribed capital Porsche Automobil Holding SE 31.9% Foreign institutional investors 18.3% Qatar Holding LLC 10.4%"
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": true,
+      "controlled": true,
+      "note": "Ordinary (voting) and non-voting preferred shares. Of the votes on the 295,089,818 ordinary shares at December 31, 2024, Porsche Automobil Holding SE held 53.3%, the State of Lower Saxony 20.0% and Qatar Holding LLC 17.0%; 9.7% were free float. The annual report states that Hans Michel Piëch, Ferdinand Oliver Porsche and Wolfgang Porsche, 'together with other family shareholders, are indirectly controlling shareholders of Porsche Automobil Holding SE, which is the largest single shareholder of Volkswagen AG.' Under Article 11(1) of the Articles of Association, Lower Saxony may appoint two Supervisory Board members while it holds at least 15% of the ordinary shares."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 4.52,
+      "source": {
+        "hostType": "company",
+        "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+        "label": "Consolidated Financial Statements 2024, statement of changes in equity, 2024 (PDF p. 6, printed p. 475)",
+        "quote": "Adjusted balance at Jan. 1, 2024 1,283 14,551 147,104 ... Dividends payment – – –4,524 – – – – – –651 –5,175 –604 –5,779 [€ million; retained earnings column –4,524; hybrid capital investors –651; non-controlling interests –604; total –5,779]"
+      }
+    },
+    "buybacks": {
+      "value": 0,
+      "source": {
+        "hostType": "company",
+        "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+        "label": "Consolidated Financial Statements 2024, cash flow statement, financing activities (PDF p. 7)",
+        "quote": "Dividends paid –5,779 –11,732 Capital transactions with non-controlling interest shareholders – –8 [€ million, 2024, 2023; the statement has no line for purchases of own shares]"
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": null,
+      "source": null
+    },
+    "plan": null
+  },
+  "geography": {
+    "basis": "Sales revenue from external customers by region; allocation of sales revenue to the regions follows the destination principle",
+    "segments": [
+      {
+        "name": "Germany",
+        "value": 62.0
+      },
+      {
+        "name": "Europe/Other markets (excluding Germany)",
+        "value": 132.14
+      },
+      {
+        "name": "North America",
+        "value": 67.71
+      },
+      {
+        "name": "South America",
+        "value": 18.96
+      },
+      {
+        "name": "Asia-Pacific",
+        "value": 44.06
+      }
+    ],
+    "total": 324.66,
+    "source": {
+      "hostType": "company",
+      "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/936/file_en/04eea36bbd9693d7cfa56e958909229c3ac9a573/2025-03-11-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2024-en.pdf",
+      "label": "Consolidated Financial Statements 2024, segment reporting, by region 2024 (PDF p. 43)",
+      "quote": "BY REGION 2024 ... Sales revenue from external customers 62,001 132,144 67,712 18,962 44,057 –219 324,656 [€ million: Germany, Europe/Other markets (excluding Germany), North America, South America, Asia-Pacific, Hedges sales revenue, Total]"
+    }
+  },
+  "notes": "Fiscal year ended December 31, 2024, from Volkswagen's Annual Report 2024 and Consolidated Financial Statements 2024 PDFs on uploads.vw-mms.de, the document host linked from volkswagen-group.com/en/financial-reports. EUR, converted exactly from € millions. LEADER: Herbert Diess left the Board of Management on August 31, 2022 (his contract ran on to October 24, 2025). The FY2024 report gives no shareholding for him, so status is 'no-reported-stake'. HOLDERS: percentages are of subscribed capital (ordinary plus preferred), as the chart states, so they are economic. The Porsche and Piëch families' interest is held through Porsche SE (the report names Hans Michel Piëch, Ferdinand Oliver Porsche and Wolfgang Porsche among the family shareholders who indirectly control Porsche SE); it is not listed separately, to avoid double counting, and the report gives no family look-through percentage. Lower Saxony's 11.8% is held 'in part indirectly' (the annual report's related-party note says the State and Hannoversche Beteiligungsgesellschaft Niedersachsen mbH held 20.00% of the voting rights). The chart's other categories (foreign institutional investors 18.3%, private shareholders/others 25.7%, German institutional investors 1.9%) are groups, not holders, so they are not listed. DIVIDENDS: €4,524 million to Volkswagen AG shareholders (retained-earnings column of the statement of changes in equity); the cash-flow line 'Dividends paid' of €5,779 million also includes €651 million to hybrid capital investors and €604 million to non-controlling interests, both excluded. BUYBACKS: 0; no purchases of own shares appear in the cash-flow statement or statement of changes in equity. STOCK COMP: null. Volkswagen's share-based payment (note 45) consists only of cash-settled performance share plans based on the preferred share price; no shares are granted. The note gives expenses by plan (€54 million for the Board of Management and top management, €576 million for members of management and selected participants, €115 million for other Group companies' plans, including Porsche AG and TRATON) but no total, so no figure is recorded rather than summing. GEOGRAPHY: five regions as reported; the 'Hedges sales revenue' column (€–219 million) is omitted, so segments sum to €324,875 million against the €324,656 million total.",
+  "researchedAt": "2026-11-23"
+}

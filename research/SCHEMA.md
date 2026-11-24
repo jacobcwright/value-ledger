@@ -86,3 +86,9 @@ Every figure comes from a primary source that you fetched in this session: a com
 - **Non-U.S. percentages**: if the filing measures % of voting shares or excludes treasury shares, say so in notes; don't recompute.
 - **Overlaps**: never list a holder whose shares are already included in another listed figure (e.g. a family trust included in a family LLC's total). Pick the all-inclusive figure.
 - **Unreachable documents**: use status `not-sourced` and leave values null. Never fill from search-result snippets.
+
+## Added after the full research run
+
+- `leader.relation` also allows `executive` (a senior officer who was never CEO or chair).
+- `largestHolders[].basis`: `"all"` (default; % of all shares) or `"class"` (% of one class only, with `classLabel`, e.g. "Class A"). Class-basis holders are listed but never used to compute "everyone else".
+- `leader.family.includesLeader: true` when a disclosed family or promoter-group total already includes the leader's own stake. The leader and family are then never added together.

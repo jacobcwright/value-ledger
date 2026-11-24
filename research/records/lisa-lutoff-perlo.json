@@ -1,0 +1,124 @@
+{
+  "id": "lisa-lutoff-perlo",
+  "company": "Royal Caribbean Group",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-04-01",
+    "leader": {
+      "name": "Lisa Lutoff-Perlo",
+      "relation": "former-ceo",
+      "status": "no-reported-stake",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "shares": null,
+      "derived": null,
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000087/rcl-20250418.htm",
+        "label": "2025 proxy statement (DEF 14A), Pay Versus Performance footnote",
+        "quote": "Our non-PEO NEOs included in the table above are the following individuals: for 2024: Naftali Holtz, Michael Bayley, Harri U. Kulovaara, and Laura Hodges Bethge; for 2023: Naftali Holtz, Michael Bayley, Lisa Lutoff-Perlo, Harri U. Kulovaara, and Laura Hodges Bethge"
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "Capital Research Global Investors",
+        "type": "asset-manager",
+        "pctEconomic": 10.4,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000087/rcl-20250418.htm",
+          "label": "2025 proxy statement (DEF 14A), Principal Shareholders (p. 75)",
+          "quote": "Capital Research Global Investors 28,233,528 (3) 10.4% ... (3) ... The foregoing information is based on Amendment 3 to Schedule 13G/A filed by Capital Research Global Investors with the SEC on February 13, 2025."
+        }
+      },
+      {
+        "name": "The Vanguard Group",
+        "type": "asset-manager",
+        "pctEconomic": 9.5,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000087/rcl-20250418.htm",
+          "label": "2025 proxy statement (DEF 14A), Principal Shareholders (p. 75)",
+          "quote": "The Vanguard Group 25,813,725 (4) 9.5% ... (4) ... The foregoing information is based solely on Amendment 10 to Schedule 13G/A filed by The Vanguard Group with the SEC on July 10, 2024."
+        }
+      },
+      {
+        "name": "AWILHELMSEN AS (Wilhelmsen family of Norway)",
+        "type": "family",
+        "pctEconomic": 6.7,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000087/rcl-20250418.htm",
+          "label": "2025 proxy statement (DEF 14A), Principal Shareholders (p. 75)",
+          "quote": "AWILHELMSEN AS 18,167,507 (5) 6.7% ... (5)AWILHELMSEN AS is a Norwegian corporation, the indirect beneficial owners of which are members of the Wilhelmsen family of Norway. The shares reported in the table include 5,035,259 shares owned by AWECO Invest AS, an affiliate of AWILHELMSEN AS."
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock (271,509,334 shares outstanding at April 1, 2025). The proxy's 5% holders are Capital Research Global Investors 10.4%, The Vanguard Group 9.5%, AWILHELMSEN AS (owned indirectly by the Wilhelmsen family of Norway) 6.7%, BlackRock 6.0% and Capital World Investors 5.1%."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 0.11,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows (p. F-6)",
+        "quote": "Financing Activities ... Dividends paid (107) — — [in millions, 2024, 2023, 2022]",
+        "xbrl": { "cik": "0000884887", "concept": "us-gaap:PaymentsOfDividends", "end": "2024-12-31", "value": 107000000 }
+      }
+    },
+    "buybacks": {
+      "value": 0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 5 Share Repurchases",
+        "quote": "Share Repurchases There were no repurchases of common stock during the year ended December 31, 2024."
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 0.27,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Operating Activities ... Share-based compensation expense 267 126 36 [in millions, 2024, 2023, 2022]",
+        "xbrl": { "cik": "0000884887", "concept": "us-gaap:ShareBasedCompensation", "end": "2024-12-31", "value": 267000000 }
+      }
+    },
+    "plan": null
+  },
+  "geography": {
+    "basis": "Total revenues disaggregated by geographic regions where we provide cruise itineraries",
+    "segments": [
+      { "name": "North America", "value": 10.59 },
+      { "name": "Asia/Pacific", "value": 1.38 },
+      { "name": "Europe", "value": 2.7 },
+      { "name": "Other Regions", "value": 1.03 },
+      { "name": "Other revenues", "value": 0.79 }
+    ],
+    "total": 16.48,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000050/rcl-20241231.htm",
+      "label": "FY2024 Form 10-K, Note 3 Revenue, Disaggregated Revenues",
+      "quote": "The following table disaggregates our total revenues by geographic regions where we provide cruise itineraries (in millions): ... 2024 ... North America(1) $ 10,594 ... Asia/Pacific 1,380 ... Europe 2,697 ... Other Regions(2) 1,025 ... Total revenues by itinerary 15,696 ... Other revenues(3) 788 ... Total revenues $ 16,484"
+    }
+  },
+  "notes": "Fiscal year ended December 31, 2024. Financial figures are from the FY2024 Form 10-K (accession 0000884887-25-000050), checked against SEC XBRL; ownership is from the 2025 proxy (DEF 14A filed April 18, 2025, accession 0000884887-25-000087), as of April 1, 2025. LEADER, JUDGMENT CALL ON RELATION: Lisa Lutoff-Perlo was a named executive officer for 2020 to 2023 but not for 2024 (pay-versus-performance footnote), and she is not in the 2025 proxy's directors-and-executive-officers ownership table, so status is no-reported-stake with values null. The schema has no value for the CEO of a subsidiary brand (Celebrity Cruises); 'former-ceo' is used and should be read as former brand CEO, not former CEO of Royal Caribbean Group. HOLDERS: the three largest 5% holders are listed; the proxy gives 13G/A filing dates (Capital Research Global Investors February 13, 2025; Vanguard July 10, 2024; AWILHELMSEN AS February 12, 2025, plus a Form 4 of November 21, 2024), not the dates the holdings refer to, so asOf is null. Director Arne Alexander Wilhelmsen's 18,174,326 shares (6.69%) include the 18,167,507 AWILHELMSEN AS shares (he disclaims beneficial ownership of them), so he is not listed separately. No Pritzker entity appears in the 2025 proxy's 5% table, so none is recorded. BlackRock (6.0%) and Capital World Investors (5.1%) are the other 5% holders. DIVIDENDS: cash paid was $107 million; dividends declared in 2024 were $255 million ($0.95 per share, equity statement); the cash-paid figure is used. BUYBACKS: none; the equity statement shows $12 million of treasury stock purchases, not described as repurchases (the 10-K says there were no repurchases of common stock in 2024). GEOGRAPHY: the company's table is by cruise itinerary region, not customer location; 'North America' includes the United States, Canada, Mexico and the Caribbean. 'Other revenues' ($788 million: cancellation fees, insurance, tours, port fees, services to affiliates) is not assigned to a region and is shown as its own row. Separately, the 10-K says 75% of 2024 passenger ticket revenues came from guests sourced in the United States.",
+  "researchedAt": "2026-11-23"
+}

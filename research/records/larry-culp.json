@@ -1,0 +1,126 @@
+{
+  "id": "larry-culp",
+  "company": "GE Aerospace",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2024-12-31",
+    "leader": {
+      "name": "Larry Culp",
+      "relation": "ceo",
+      "status": "holds",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "shares": 1210834,
+      "derived": null,
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000130817925000114/ge4356871-def14a.htm",
+        "label": "2025 proxy statement (DEF 14A), Stock Ownership Information, Beneficial Ownership Table (p. 25)",
+        "quote": "The following table shows beneficial ownership of our common stock as calculated under SEC rules, as of December 31, 2024 ... H. Lawrence Culp, Jr. 1,210,834 ** ... ** Less than 1%."
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "The Vanguard Group",
+        "type": "asset-manager",
+        "pctEconomic": 8.2,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/40545/000130817925000114/ge4356871-def14a.htm",
+          "label": "2025 proxy statement (DEF 14A), Beneficial Ownership Table, 5% beneficial owners (p. 25)",
+          "quote": "The Vanguard Group, 100 Vanguard Blvd., Malvern, PA 19355 88,439,179 8.2% ... based solely on the Schedule 13G filed by Capital International Investors on February 9, 2024 and Schedule 13G/A filed by Fidelity, Vanguard and BlackRock on February 9, 2024, February 13, 2024, and January 31, 2025, respectively."
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 7.7,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/40545/000130817925000114/ge4356871-def14a.htm",
+          "label": "2025 proxy statement (DEF 14A), Beneficial Ownership Table, 5% beneficial owners (p. 25)",
+          "quote": "BlackRock, Inc., 50 Hudson Yards, New York, NY 10001 82,447,476 7.7% ... Schedule 13G/A filed by Fidelity, Vanguard and BlackRock on February 9, 2024, February 13, 2024, and January 31, 2025, respectively."
+        }
+      },
+      {
+        "name": "Fidelity Management & Research",
+        "type": "asset-manager",
+        "pctEconomic": 6.2,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/40545/000130817925000114/ge4356871-def14a.htm",
+          "label": "2025 proxy statement (DEF 14A), Beneficial Ownership Table, 5% beneficial owners (p. 25)",
+          "quote": "Fidelity Management & Research, 245 Summer Street, Boston, MA 02210 66,923,455 6.2% ... Schedule 13G/A filed by Fidelity, Vanguard and BlackRock on February 9, 2024, February 13, 2024, and January 31, 2025, respectively."
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock. The proxy lists four 5% owners, all asset managers: Vanguard 8.2%, BlackRock 7.7%, Fidelity 6.2% and Capital International Investors 5.1%."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 1.01,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+        "label": "FY2024 Form 10-K, statement of cash flows",
+        "quote": "Dividends paid to shareholders (1,008) (589) (639) [In millions, 2024, 2023, 2022]",
+        "xbrl": { "cik": "0000040545", "concept": "us-gaap:PaymentsOfOrdinaryDividends", "end": "2024-12-31", "value": 1008000000 }
+      }
+    },
+    "buybacks": {
+      "value": 5.83,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+        "label": "FY2024 Form 10-K, statement of cash flows",
+        "quote": "Purchases of common stock for treasury (5,827) (1,233) (1,048) [In millions, 2024, 2023, 2022]",
+        "xbrl": { "cik": "0000040545", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-12-31", "value": 5827000000 }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 0.29,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 17 Share-Based Compensation (after-tax expense)",
+        "quote": "2024 2023 2022 Compensation expense (after-tax)(a) $ 286 $ 192 $ 143 [In millions]",
+        "xbrl": { "cik": "0000040545", "concept": "us-gaap:AllocatedShareBasedCompensationExpense", "end": "2024-12-31", "value": 286000000 }
+      }
+    },
+    "plan": null
+  },
+  "geography": {
+    "basis": "Geographic information, total geographic revenue",
+    "segments": [
+      { "name": "U.S.", "value": 17.34 },
+      { "name": "Europe", "value": 7.8 },
+      { "name": "China region", "value": 3.63 },
+      { "name": "Asia (excluding China region)", "value": 3.6 },
+      { "name": "Americas", "value": 2.59 },
+      { "name": "Middle East and Africa", "value": 3.73 }
+    ],
+    "total": 38.7,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+      "label": "FY2024 Form 10-K, Note 25 Segment and Geographic Information",
+      "quote": "GEOGRAPHIC INFORMATION Years ended December 31 2024 ... U.S. $ 17,340 ... Non-U.S. Europe 7,800 ... China region 3,634 ... Asia (excluding China region) 3,602 ... Americas 2,593 ... Middle East and Africa 3,734 ... Total Non-U.S. $ 21,363 ... Total geographic revenue $ 38,702"
+    }
+  },
+  "notes": "Fiscal year ended December 31, 2024. Financial figures are from GE's FY2024 Form 10-K (accession 0000040545-25-000015), checked against SEC XBRL; the company completed the GE Vernova spin-off on April 2, 2024 and now operates as GE Aerospace. Ownership is from the 2025 proxy (DEF 14A filed March 13, 2025, accession 0001308179-25-000114), as of December 31, 2024. LEADER: Larry Culp (H. Lawrence Culp, Jr., Chairman and CEO) beneficially owned 1,210,834 shares, marked ** (less than 1%), so pctEconomic is null; 1,082,501 of these are held with shared voting and investment power through family trusts or other accounts. HOLDERS: the proxy gives only the 13G filing dates (Vanguard February 13, 2024; BlackRock January 31, 2025; Fidelity February 9, 2024), not the dates the holdings refer to, so asOf is null. Capital International Investors (5.1%) is the fourth 5% holder and is not listed (max 3). STOCK COMP, JUDGMENT CALL: the 10-K's only stated share-based compensation expense is after-tax ($286 million, the XBRL-tagged figure). The pre-tax expense is not stated; the note gives a related income tax benefit of $152 million, and the statement of changes in shareholders' equity shows 'Stock-based compensation 361' (millions) credited to other capital. The after-tax figure is used as reported and understates the pre-tax cost; it is not grossed up. GEOGRAPHY: the 'Total Non-U.S.' subtotal ($21,363 million) is omitted to avoid double counting; non-U.S. revenue was 55% of the total.",
+  "researchedAt": "2026-11-23"
+}

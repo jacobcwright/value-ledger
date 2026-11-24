@@ -1,0 +1,115 @@
+{
+  "id": "oliver-blume",
+  "company": "Dr. Ing. h.c. F. Porsche AG",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "EUR",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2024-12-31",
+    "leader": {
+      "name": "Oliver Blume",
+      "relation": "ceo",
+      "status": "not-disclosed",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "shares": null,
+      "derived": null,
+      "family": null,
+      "source": null
+    },
+    "largestHolders": [
+      {
+        "name": "Volkswagen AG (indirectly, via Porsche Holding Stuttgart GmbH)",
+        "type": "company",
+        "pctEconomic": 75.4,
+        "asOf": "2024-12-31",
+        "source": {
+          "hostType": "company",
+          "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+          "label": "Annual and Sustainability Report 2024, Porsche in the capital market, shareholder composition chart (PDF p. 31)",
+          "quote": "Shareholder composition as of December 31, 2024 (as a percentage of share capital) ... 75.4% Volkswagen AG1 1 Volkswagen AG indirectly holds its shares via Porsche Holding Stuttgart GmbH."
+        }
+      },
+      {
+        "name": "Porsche Automobil Holding SE",
+        "type": "company",
+        "pctEconomic": 12.5,
+        "asOf": "2024-12-31",
+        "source": {
+          "hostType": "company",
+          "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+          "label": "Annual and Sustainability Report 2024, Porsche in the capital market, shareholder composition chart (PDF p. 31)",
+          "quote": "Shareholder composition as of December 31, 2024 (as a percentage of share capital) ... 12.5% Porsche Automobil Holding SE"
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": true,
+      "controlled": true,
+      "note": "Share capital of €911 million: 455,500,000 unlisted ordinary (voting) shares and 455,500,000 listed non-voting preferred shares, each with a €1 notional share of capital; preferred shares get a €0.01 higher dividend. Volkswagen AG indirectly holds 75% of the ordinary shares less one share (via Porsche Holding Stuttgart GmbH) and Porsche Automobil Holding SE holds 25% plus one share. Of the preferred shares, 75.8% are indirectly held by Volkswagen AG and 24.2% are free float. As a percentage of share capital: Volkswagen AG 75.4%, Porsche SE 12.5%, institutional and private investors 12.1%."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 2.1,
+      "source": {
+        "hostType": "company",
+        "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+        "label": "Annual and Sustainability Report 2024, consolidated statement of changes in equity, fiscal year 2024 (PDF p. 177)",
+        "quote": "Balance at Jan. 1, 2024 911 3,822 16,305 ... Dividends payment¹ – – –2,100 – – – – – –2,100 –1 –2,101 [€ million; ... equity attributable to shareholders of Porsche AG, non-controlling interests, total equity]"
+      }
+    },
+    "buybacks": {
+      "value": 0,
+      "source": {
+        "hostType": "company",
+        "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+        "label": "Annual and Sustainability Report 2024, consolidated statement of cash flows, financing activities (PDF p. 178)",
+        "quote": "Profit transfer and dividends –2,101 –4,895 ... Capital transactions with non-controlling interests – –8 ... Cash flows from financing activities –1,679 –3,708 [€ million, 2024, 2023; no line for purchases of own shares]"
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": null,
+      "source": null
+    },
+    "plan": null
+  },
+  "geography": {
+    "basis": "Sales revenue from external customers by region; sales revenue is allocated to the regions in accordance with the destination principle",
+    "segments": [
+      {
+        "name": "Germany",
+        "value": 5.2
+      },
+      {
+        "name": "Europe without Germany",
+        "value": 9.55
+      },
+      {
+        "name": "North America (excl. Mexico)",
+        "value": 12.93
+      },
+      {
+        "name": "China (incl. Hong Kong)",
+        "value": 6.31
+      },
+      {
+        "name": "Overseas and Emerging Markets",
+        "value": 6.11
+      }
+    ],
+    "total": 40.08,
+    "source": {
+      "hostType": "company",
+      "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+      "label": "Annual and Sustainability Report 2024, notes, Segment reporting, By region 2024 (PDF p. 190)",
+      "quote": "By region 2024 ... Sales revenue from external customers 5,200 9,550 12,927 6,305 6,105 –4 40,083 [€ million: Germany, Europe without Germany, North America excl. Mexico, China incl. Hong Kong, Overseas and Emerging Markets, Hedges sales revenue, Porsche AG Group]"
+    }
+  },
+  "notes": "All figures from the Porsche AG Annual and Sustainability Report 2024 (consolidated financial statements, IFRS), fiscal year ended December 31, 2024, on investorrelations.porsche.com. EUR, converted exactly from € millions. OWNERSHIP: the report does not disclose Oliver Blume's personal holding of Porsche AG shares (no shareholding table or share ownership guideline holding found), so status is 'not-disclosed'. The holder percentages are of total share capital (ordinary plus preferred), as the chart states, so they are economic. Volkswagen's 75.4% and Porsche SE's 12.5% are separate holdings and do not overlap within Porsche AG. Qatar or other preferred-share holders are not disclosed in this report. DIVIDENDS: €2,100 million paid to Porsche AG shareholders (statement of changes in equity); the cash-flow line 'Profit transfer and dividends' of €2,101 million includes €1 million to non-controlling interests. BUYBACKS: 0. The cash-flow statement has no line for purchases of own shares and the report describes no share buyback or treasury shares. STOCK COMP: null. Porsche AG's share-based payment (note 43) consists of cash-settled virtual performance share plans for the Executive Board and management and an IPO bonus; no shares are granted. The note gives the expense in parts (a table for the Executive Board and top management, and 'a total expense of €37 million' for other members of management, plus the IPO bonus) without a company-wide total, so no figure is recorded rather than summing. GEOGRAPHY: the five regions as reported; the 'Hedges sales revenue' column of €–4 million is omitted, so the segments sum to €40,087 million against the Group total of €40,083 million.",
+  "researchedAt": "2026-11-23"
+}

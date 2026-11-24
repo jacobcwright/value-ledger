@@ -1,0 +1,126 @@
+{
+  "id": "jensen-huang",
+  "company": "NVIDIA",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-01-26",
+  "currency": "USD",
+  "unit": "billions",
+
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-03-24",
+    "leader": {
+      "name": "Jensen Huang",
+      "relation": "co-founder",
+      "status": "holds",
+      "pctEconomic": 3.77,
+      "pctVoting": null,
+      "shares": 922922938,
+      "derived": null,
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm",
+        "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management",
+        "quote": "Percentages are based on 24,456,668,546 shares of our common stock outstanding as of March 24, 2025 ... Jen-Hsun Huang 922,922,938 (1) — 922,922,938 3.77%"
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "The Vanguard Group, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 8.36,
+        "asOf": "2023-12-29",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm",
+          "label": "2025 proxy statement, Security Ownership table, 5% Stockholders (footnote 15)",
+          "quote": "The Vanguard Group, Inc. 2,045,049,380 (15) — 2,045,049,380 8.36% ... (15)This information is based solely on a Schedule 13G/A, dated February 13, 2024 ... reporting its beneficial ownership as of December 29, 2023."
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 7.38,
+        "asOf": "2023-12-31",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000095/nvda-20250512.htm",
+          "label": "2025 proxy statement, Security Ownership table, 5% Stockholders (footnote 16)",
+          "quote": "BlackRock, Inc. 1,805,935,550 (16) — 1,805,935,550 7.38% ... (16)This information is based solely on a Schedule 13G/A, dated January 26, 2024 ... reporting its beneficial ownership as of December 31, 2023."
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock. The 2025 proxy lists Jen-Hsun (Jensen) Huang at 3.77% and two holders above 5%: The Vanguard Group (8.36%) and BlackRock (7.38%). Directors and executive officers as a group hold 4.17%."
+    }
+  },
+
+  "cash": {
+    "dividends": {
+      "value": 0.83,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Dividends paid (834) (395) (398) [in millions, years ended Jan 26, 2025, Jan 28, 2024, Jan 29, 2023]",
+        "xbrl": { "cik": "0001045810", "concept": "us-gaap:PaymentsOfDividends", "end": "2025-01-26", "value": 834000000 }
+      }
+    },
+    "buybacks": {
+      "value": 33.71,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Payments related to repurchases of common stock (33,706) (9,533) (10,039) [in millions, years ended Jan 26, 2025, Jan 28, 2024, Jan 29, 2023]",
+        "xbrl": { "cik": "0001045810", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2025-01-26", "value": 33706000000 }
+      }
+    }
+  },
+
+  "workers": {
+    "stockComp": {
+      "value": 4.74,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation expense 4,737 3,549 2,709 [in millions, years ended Jan 26, 2025, Jan 28, 2024, Jan 29, 2023]",
+        "xbrl": { "cik": "0001045810", "concept": "us-gaap:ShareBasedCompensation", "end": "2025-01-26", "value": 4737000000 }
+      }
+    },
+    "plan": {
+      "text": "Employees can buy NVIDIA stock through the employee stock purchase plan at 85% of the lower of the market price at the start of the offering period or on the purchase date.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+        "label": "FY2025 Form 10-K, Note 3 Stock-Based Compensation, 2012 Employee Stock Purchase Plan",
+        "quote": "Employees who participate in the 2012 Plan may have up to 15% of their earnings withheld to purchase shares of common stock. ... The price of common stock purchased under our 2012 Plan will be equal to 85% of the lower of the fair market value of the common stock on the commencement date of each offering period or the fair market value of the common stock on each purchase date"
+      }
+    }
+  },
+
+  "geography": {
+    "basis": "Geographic Revenue based upon Customer Billing Location",
+    "segments": [
+      { "name": "United States", "value": 61.26 },
+      { "name": "Singapore", "value": 23.68 },
+      { "name": "Taiwan", "value": 20.57 },
+      { "name": "China (including Hong Kong)", "value": 17.11 },
+      { "name": "Other", "value": 7.88 }
+    ],
+    "total": 130.50,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+      "label": "FY2025 Form 10-K, Note 16 Segment Information",
+      "quote": "Geographic Revenue based upon Customer Billing Location: (In millions) United States $ 61,257 ... Singapore (1) 23,684 ... Taiwan 20,573 ... China (including Hong Kong) 17,108 ... Other 7,875 ... Total revenue $ 130,497 [fiscal year 2025]"
+    }
+  },
+
+  "notes": "Fiscal year 2025 ended January 26, 2025 (matches data.js fy 'Jan 2025'). Ownership is from the 2025 proxy (filed May 13, 2025), as of March 24, 2025, on 24,456,668,546 shares outstanding. Huang's 922,922,938 shares include family trusts and partnerships, plus 63,793,830 shares held by The Jen-Hsun & Lori Huang Foundation, in which the proxy says he and his wife have no pecuniary interest. The proxy names him Jen-Hsun Huang. VANGUARD and BLACKROCK percentages are stale: the proxy bases them solely on Schedules 13G/A reporting holdings as of December 29 and December 31, 2023 (split-adjusted for the June 2024 ten-for-one split), divided by the March 2025 share count. STOCK COMP is the cash-flow add-back ($4,737m); the Note 3 table totals the same $4,737m for fiscal 2025. GEOGRAPHY is by customer billing location; the 10-K says Singapore is mostly an invoicing hub and shipments to Singapore were under 2% of revenue. Segment values rounded from millions; they sum to 130.50.",
+  "researchedAt": "2026-11-23"
+}

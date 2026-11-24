@@ -1,0 +1,143 @@
+{
+  "id": "ajay-banga",
+  "company": "Mastercard",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-04-07",
+    "leader": {
+      "name": "Ajay Banga",
+      "relation": "former-ceo",
+      "status": "no-reported-stake",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "family": null
+    },
+    "largestHolders": [
+      {
+        "name": "Mastercard Foundation Asset Management Corporation",
+        "type": "other",
+        "pctEconomic": 9.4,
+        "asOf": "2025-02-12",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000078/ma-20250428.htm",
+          "label": "2025 proxy statement, Security ownership of certain beneficial owners (printed p. 123)",
+          "quote": "Applicable percentage ownership is based on 902,487,192 shares of Class A common stock outstanding as of April 7, 2025. ... Mastercard Foundation Asset Management Corporation1 84,753,156 9.4% ... 1Based solely on a Schedule 13G/A filed with the SEC on February 12, 2025"
+        }
+      },
+      {
+        "name": "The Vanguard Group, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 8.3,
+        "asOf": "2024-02-13",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000078/ma-20250428.htm",
+          "label": "2025 proxy statement, Security ownership of certain beneficial owners (printed p. 123)",
+          "quote": "Applicable percentage ownership is based on 902,487,192 shares of Class A common stock outstanding as of April 7, 2025. ... The Vanguard Group, Inc.2 ... 75,250,260 8.3% ... 2Based solely on a Schedule 13G/A filed with the SEC on February 13, 2024"
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 7.5,
+        "asOf": "2024-02-12",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000078/ma-20250428.htm",
+          "label": "2025 proxy statement, Security ownership of certain beneficial owners (printed p. 123)",
+          "quote": "Applicable percentage ownership is based on 902,487,192 shares of Class A common stock outstanding as of April 7, 2025. ... BlackRock, Inc.3 ... 67,825,777 7.5% ... 3Based solely on a Schedule 13G/A filed with the SEC on February 12, 2024"
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": true,
+      "controlled": false,
+      "note": "Mastercard has Class A common stock (902,487,192 shares outstanding on April 7, 2025, per the proxy) and Class B common stock (7 million shares issued and outstanding at December 31, 2024, per the 10-K balance sheet). There is no public trading market for Class B. Mastercard Foundation is the largest holder, at 9.4% of Class A."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 2.45,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of cash flows",
+        "quote": "Dividends paid (2,448) (2,158) (1,903) [in millions, 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0001141391",
+          "concept": "us-gaap:PaymentsOfDividends",
+          "end": "2024-12-31",
+          "value": 2448000000
+        }
+      }
+    },
+    "buybacks": {
+      "value": 11.04,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of cash flows",
+        "quote": "Purchases of treasury stock (11,035) (9,032) (8,753) [in millions, 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0001141391",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2024-12-31",
+          "value": 11035000000
+        }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 0.53,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 18 Share-Based Payments, additional information",
+        "quote": "Share-based compensation expense $ 526 $ 460 $ 295 [in millions, 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0001141391",
+          "concept": "us-gaap:AllocatedShareBasedCompensationExpense",
+          "end": "2024-12-31",
+          "value": 526000000
+        }
+      }
+    },
+    "plan": {
+      "text": "Mastercard has an Employee Stock Purchase Plan, effective June 27, 2023.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 15 exhibit index",
+        "quote": "Mastercard Incorporated Employee Stock Purchase Plan, effective as of June 27, 2023 (incorporated by reference to Exhibit 10.2 to the Company’s Quarterly Report on Form 10-Q filed July 27, 2023 (File No. 001-32877))."
+      }
+    }
+  },
+  "geography": {
+    "basis": "Net revenue by geographic region (based on the location of the customer that issued the card, the merchant acquirer, or the customer receiving services)",
+    "segments": [
+      {
+        "name": "Americas",
+        "value": 12.38
+      },
+      {
+        "name": "Asia Pacific, Europe, Middle East and Africa",
+        "value": 15.79
+      }
+    ],
+    "total": 28.17,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+      "label": "FY2024 Form 10-K, Note 3 Revenue, disaggregated net revenue by geographic region",
+      "quote": "Net revenue by geographic region: Americas 1 $ 12,375 ... Asia Pacific, Europe, Middle East and Africa 15,792 ... Net revenue $ 28,167 [2024, in millions] ... 1Americas includes the United States, Canada and Latin America."
+    }
+  },
+  "notes": "Fiscal year ended December 31, 2024. Documents read on sec.gov: FY2024 Form 10-K (accession 0001141391-25-000011) and 2025 proxy statement (DEF 14A, accession 0001141391-25-000078). AJAY BANGA was CEO until 2020 (the proxy's pay-versus-performance note: '2020: Mr. Banga served as our PEO'). He is not a director or named executive officer in the 2025 proxy and does not appear in its ownership tables, so status is no-reported-stake. HOLDER PERCENTAGES are as the proxy states them: percent of Class A common stock outstanding (902,487,192 shares on April 7, 2025). Class B (about 7 million shares, under 1% of the total) is not in the denominator, so the stated figures are very slightly above each holder's share of all shares. asOf for each holder is the Schedule 13G/A filing date the proxy cites (the proxy does not give the event dates); the Vanguard and BlackRock figures are from February 2024 filings and are stale. The Foundation's type is 'other' (a Canadian charitable foundation's asset manager). BUYBACKS: the FY2024 10-K cash-flow figure ($11,035 million) is used; a later filing (the FY2025 10-K) restates 2024 at $10,954 million in XBRL, which is not used. The proxy states each director and executive officer, and the group, owns less than 1% of Class A. The ESPP is recorded from the 10-K exhibit index; the 10-K reviewed gives no participation figures.",
+  "researchedAt": "2026-11-23"
+}

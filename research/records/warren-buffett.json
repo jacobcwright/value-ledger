@@ -1,0 +1,76 @@
+{
+  "id": "warren-buffett",
+  "company": "Berkshire Hathaway",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-03-05",
+    "leader": {
+      "name": "Warren Buffett",
+      "relation": "chair",
+      "status": "holds",
+      "pctEconomic": 14.4,
+      "pctVoting": 30.4,
+      "sharesByClass": { "classA": 206359, "classAPct": 37.9, "classB": 951, "classBPct": null },
+      "derived": null,
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525054877/d812428ddef14a.htm",
+        "label": "2025 proxy statement (DEF 14A), Security Ownership of Directors and Executive Officers",
+        "quote": "Beneficial ownership of the Corporation’s Class A and Class B Stock on March 5, 2025 ... Percentage of Aggregate Voting Power of Class A and Class B ... Percentage of Aggregate Economic Interest of Class A and Class B ... Warren E. Buffett Class A 206,359 37.9 Class B 951 * 30.4(2) 14.4"
+      }
+    },
+    "largestHolders": [],
+    "structure": {
+      "dualClass": true,
+      "controlled": false,
+      "note": "Two classes. Each Class A share has one vote and each Class B share 1/10,000 of a vote; Class B has 1/1,500 of the dividend and distribution rights of Class A, and each Class A share converts into 1,500 Class B shares. On March 5, 2025 there were 544,953 Class A and 1,339,905,639 Class B shares outstanding. The proxy says Buffett 'may be deemed to be Berkshire’s controlling shareholder', but his 30.4% of the vote is below 50%, and a voting agreement makes him vote any shares above 49.9% of total voting power proportionately with other shareholders, so controlled is false under this schema's >50% test.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525054877/d812428ddef14a.htm",
+        "label": "2025 proxy statement (DEF 14A), Board leadership",
+        "quote": "He is Berkshire’s largest shareholder and owns shares of Berkshire that represent approximately 30.3% of the voting interest and 14.3% of the economic interest. As such he may be deemed to be Berkshire’s controlling shareholder."
+      }
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 5, Dividends",
+        "quote": "Dividends Berkshire has not declared a cash dividend since 1967."
+      }
+    },
+    "buybacks": {
+      "value": 2.92,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Acquisitions of treasury stock (2,918) (9,171) (7,854) [in millions, 2024, 2023, 2022]",
+        "xbrl": { "cik": "0001067983", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-12-31", "value": 2918000000 }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525054877/d812428ddef14a.htm",
+        "label": "2025 proxy statement (DEF 14A), Compensation Discussion and Analysis",
+        "quote": "Under the Committee’s compensation policy, Berkshire never intends to use Berkshire stock in compensating employees."
+      }
+    },
+    "plan": null
+  },
+  "geography": null,
+  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). Sources: FY2024 Form 10-K (accession 0000950170-25-025210) and 2025 proxy statement (DEF 14A, accession 0001193125-25-054877), both read on EDGAR. LEADER: the proxy table states Buffett's percentage of aggregate economic interest of Class A and Class B (14.4%) and of aggregate voting power (30.4%) as of March 5, 2025, so no derivation was needed. The governance section of the same proxy rounds these to 'approximately 30.3% of the voting interest and 14.3% of the economic interest'; the table figures are used. His Class A count includes 360 shares held by a private foundation in which he disclaims beneficial interest. Relation is 'chair' (Chairman and CEO since 1970; director and controlling shareholder since 1965). Howard G. Buffett and Susan A. Buffett (his children, both directors) hold 0.1% or less of economic interest each; they are not added as a family figure because the proxy gives no family aggregate. HOLDERS left empty: the proxy gives the other large holders only as a percentage of one class (FMR 6.1% of Class A; Vanguard 11.1%, BlackRock 8.2% and State Street 5.3% of Class B, all from Form 13F reports for the quarter ended December 31, 2024). It does not give their share of total economic interest, and converting class percentages would be a derivation, so they are omitted. STOCK COMP: null. The FY2024 10-K has no share-based compensation expense line or note, and the proxy states the policy quoted above, but no company-wide expense figure (including any at subsidiaries) is disclosed, so 0 is not asserted. GEOGRAPHY: null. The 10-K does not report total revenue by geography; the only geographic split is insurance premiums written by region (based on the domicile of the insured), which covers one business, not total revenue.",
+  "researchedAt": "2026-11-23"
+}

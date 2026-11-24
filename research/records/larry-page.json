@@ -1,0 +1,135 @@
+{
+  "id": "larry-page",
+  "company": "Alphabet",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-04-08",
+    "leader": {
+      "name": "Larry Page",
+      "relation": "co-founder",
+      "status": "holds",
+      "pctEconomic": null,
+      "pctVoting": 27.1,
+      "shares": 389051160,
+      "derived": {
+        "pctEconomic": 3.2,
+        "method": "389,051,160 Class B shares beneficially owned by Larry Page / (6,679,104,001 Class A and Class B shares + 5,468,478,389 Class C shares outstanding on the April 8, 2025 record date) = 3.20%. Computed, not stated in the filing. Class B only: the proxy ownership table excludes non-voting Class C stock, so any Class C shares Page holds are not counted; if he holds any, his true economic share is higher than this figure. Neither filing discloses his Class C holdings.",
+        "inputs": [
+          {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817925000511/goog012701-def14a.htm",
+            "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (printed p. 34)",
+            "quote": "Applicable percentage ownership is based on 5,823,352,745 shares of Class A common stock and 855,751,256 shares of Class B common stock outstanding at April 8, 2025. ... Non-voting Class C capital stock is not included in the table. ... Larry Page — — 389,051,160 45.5 27.1"
+          },
+          {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817925000511/goog012701-def14a.htm",
+            "label": "2025 proxy statement, Questions and Answers, Q9 'What shares can I vote?'",
+            "quote": "On the Record Date, we had 6,679,104,001 shares of Class A common stock and Class B common stock issued and outstanding, consisting of 5,823,352,745 shares of Class A common stock and 855,751,256 shares of Class B common stock. On the Record Date, we had 5,468,478,389 shares of Class C capital stock issued and outstanding."
+          }
+        ]
+      },
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817925000511/goog012701-def14a.htm",
+        "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (printed p. 34)",
+        "quote": "Voting Shares Beneficially Owned Class A Common Stock Class B Common Stock ... Shares % Shares % Total Voting Power(1) % ... Larry Page — — 389,051,160 45.5 27.1"
+      }
+    },
+    "largestHolders": [],
+    "structure": {
+      "dualClass": true,
+      "controlled": false,
+      "note": "Three classes: Class B carries ten votes per share, Class A one vote and Class C none. The FY2024 10-K says Larry Page and Sergey Brin together beneficially owned about 87.4% of Class B, about 52.1% of the voting power, at December 31, 2024. The 2025 proxy gives Page 27.1% and Brin 25.2% of total voting power. No single person holds a majority, so 'controlled' is false, but the two co-founders together do."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 7.36,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Dividend payments 0 0 (7,363) [in millions, 2022, 2023, 2024]",
+        "xbrl": {
+          "cik": "0001652044",
+          "concept": "us-gaap:PaymentsOfDividends",
+          "end": "2024-12-31",
+          "value": 7363000000
+        }
+      }
+    },
+    "buybacks": {
+      "value": 62.22,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchases of stock (59,296) (61,504) (62,222) [in millions, 2022, 2023, 2024]",
+        "xbrl": {
+          "cik": "0001652044",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2024-12-31",
+          "value": 62222000000
+        }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 22.79,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation expense 19,362 22,460 22,785 [in millions, 2022, 2023, 2024]",
+        "xbrl": {
+          "cik": "0001652044",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2024-12-31",
+          "value": 22785000000
+        }
+      }
+    },
+    "plan": null
+  },
+  "geography": {
+    "basis": "Revenues disaggregated by geography, based on the addresses of our customers",
+    "segments": [
+      {
+        "name": "United States",
+        "value": 170.45
+      },
+      {
+        "name": "EMEA",
+        "value": 102.13
+      },
+      {
+        "name": "APAC",
+        "value": 56.82
+      },
+      {
+        "name": "Other Americas",
+        "value": 20.42
+      },
+      {
+        "name": "Hedging gains (losses)",
+        "value": 0.21
+      }
+    ],
+    "total": 350.02,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+      "label": "FY2024 Form 10-K, Note 2 Revenues, revenues by geography",
+      "quote": "The following table presents revenues disaggregated by geography, based on the addresses of our customers (in millions): ... United States $ 134,814 48 % $ 146,286 47 % $ 170,447 49 % EMEA(1) 82,062 29 91,038 30 102,127 29 APAC(1) 47,024 16 51,514 17 56,815 16 Other Americas(1) 16,976 6 18,320 6 20,418 6 Hedging gains (losses) 1,960 1 236 0 211 0 Total revenues $ 282,836 100 % $ 307,394 100 % $ 350,018 100 % [2022, 2023, 2024]"
+    }
+  },
+  "notes": "Fiscal year ended December 31, 2024. Documents read on sec.gov: FY2024 Form 10-K (accession 0001652044-25-000014) and 2025 proxy statement (DEF 14A, accession 0001308179-25-000511). OWNERSHIP: the proxy table covers only the voting classes (A and B); 'Non-voting Class C capital stock is not included in the table.' Page's 389,051,160 Class B shares are 45.5% of Class B and 27.1% of total voting power. The economic share is therefore given only as leader.derived (3.20%), computed from his Class B shares over all three classes outstanding on the April 8, 2025 record date, both taken from the proxy. It counts Class B only, so it is a floor: if Page holds any Class C, which neither filing discloses, his economic stake is higher. LARGEST HOLDERS left empty on purpose: the proxy's 5% holders are stated only as percentages of a class (The Vanguard Group 493,782,758 Class A = 8.5% of Class A, based on a 13G/A filed Feb 14, 2024; BlackRock 415,076,460 Class A = 7.1% of Class A, 13G/A filed Feb 1, 2024; Eric E. Schmidt 5.6% of Class B; Sergey Brin 362,766,628 Class B = 42.4% of Class B, 25.2% of voting power), with Class C excluded, so none of them is a share of all shares outstanding and recomputing them is not allowed. STOCK COMP: the cash-flow line ($22,785 million) is used; the Note 13 text gives total SBC expense of $22.8 billion, of which $22.0 billion relates to awards expected to settle in Alphabet stock. DIVIDENDS: the first dividends were paid in June 2024 ($3.5 billion Class A, $519 million Class B, $3.3 billion Class C). GEOGRAPHY: copied as reported, including the hedging line; EMEA = Europe, Middle East and Africa, APAC = Asia-Pacific, Other Americas = Canada and Latin America. No broad employee stock purchase plan is described, so plan is null. Structure note source (FY2024 10-K, Item 1A): 'As of December 31, 2024, Larry Page and Sergey Brin beneficially owned approximately 87.4% of our outstanding Class B stock, which represented approximately 52.1% of the voting power of our outstanding common stock.'",
+  "researchedAt": "2026-11-23"
+}

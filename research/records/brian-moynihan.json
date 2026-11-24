@@ -1,0 +1,124 @@
+{
+  "id": "brian-moynihan",
+  "company": "Bank of America",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-03-03",
+    "leader": {
+      "name": "Brian Moynihan",
+      "relation": "ceo",
+      "status": "holds",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "shares": 2794827,
+      "derived": null,
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/70858/000119312525050578/d897280ddef14a.htm",
+        "label": "2025 proxy statement (DEF 14A), Stock ownership of directors, executive officers, and certain beneficial owners (p. 42)",
+        "quote": "Each director, each named executive officer, and all directors and current executive officers as a group beneficially owned less than 1% of our outstanding common stock ... Brian T. Moynihan(8) 2,794,827 — 1,759,727 4,554,554"
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "Warren E. Buffett / Berkshire Hathaway Inc.",
+        "type": "company",
+        "pctEconomic": 8.9,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000119312525050578/d897280ddef14a.htm",
+          "label": "2025 proxy statement (DEF 14A), Certain Beneficial Owners (p. 42)",
+          "quote": "Warren E. Buffett/Berkshire Hathaway Inc.(13) 680,233,587 8.9 % ... (13) ... According to a Schedule 13G/A filed with the SEC on February 14, 2025, Mr. Buffett and Berkshire Hathaway Inc. had shared voting and investment power with respect to all 680,233,587 shares."
+        }
+      },
+      {
+        "name": "The Vanguard Group",
+        "type": "asset-manager",
+        "pctEconomic": 8.0,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000119312525050578/d897280ddef14a.htm",
+          "label": "2025 proxy statement (DEF 14A), Certain Beneficial Owners (p. 42)",
+          "quote": "The Vanguard Group(14) 608,297,711 8.0 % ... (14) Consists of common stock held by The Vanguard Group ... According to a Schedule 13G/A filed with the SEC on February 13, 2024"
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 6.5,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000119312525050578/d897280ddef14a.htm",
+          "label": "2025 proxy statement (DEF 14A), Certain Beneficial Owners (p. 42)",
+          "quote": "BlackRock, Inc.(15) 494,523,426 6.5 % ... (15) Consists of common stock held by BlackRock, Inc. ... According to a Schedule 13G/A filed with the SEC on January 29, 2024"
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock (the company also has preferred stock outstanding). The largest holder is Warren E. Buffett/Berkshire Hathaway Inc. with 8.9%, which includes 6.1% held through its subsidiary National Indemnity Company."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 9.5,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of cash flows (common and preferred combined)",
+        "quote": "Common stock repurchased (13,104) (4,576) (5,073) Cash dividends paid (9,503) (9,087) (8,576) [Dollars in millions, 2024, 2023, 2022]",
+        "xbrl": { "cik": "0000070858", "concept": "us-gaap:PaymentsOfOrdinaryDividends", "end": "2024-12-31", "value": 9503000000 }
+      }
+    },
+    "buybacks": {
+      "value": 13.1,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of cash flows",
+        "quote": "Preferred stock: Proceeds from issuance — — 4,426 Redemption (5,254) — (654) Common stock repurchased (13,104) (4,576) (5,073) [Dollars in millions, 2024, 2023, 2022]",
+        "xbrl": { "cik": "0000070858", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-12-31", "value": 13104000000 }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 3.6,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 18 Stock-based Compensation Plans",
+        "quote": "The compensation cost for the stock-based plans was $3.6 billion, $3.1 billion and $2.9 billion, and the related income tax benefit was $872 million, $733 million and $697 million for 2024, 2023 and 2022, respectively.",
+        "xbrl": { "cik": "0000070858", "concept": "us-gaap:AllocatedShareBasedCompensationExpense", "end": "2024-12-31", "value": 3600000000 }
+      }
+    },
+    "plan": null
+  },
+  "geography": {
+    "basis": "Total revenue, net of interest expense, by geographic area (based on the business unit structure used to manage the capital or expense deployed in the region)",
+    "segments": [
+      { "name": "U.S.", "value": 88.47 },
+      { "name": "Asia", "value": 5.18 },
+      { "name": "Europe, Middle East and Africa", "value": 6.5 },
+      { "name": "Latin America and the Caribbean", "value": 1.74 }
+    ],
+    "total": 101.89,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
+      "label": "FY2024 Form 10-K, Note 25 Performance by Geographical Area",
+      "quote": "Total Revenue, Net of Interest Expense ... U.S. (3) 2024 ... $ 88,465 ... Asia 2024 ... 5,184 ... Europe, Middle East and Africa 2024 ... 6,499 ... Latin America and the Caribbean 2024 ... 1,739 ... Total Consolidated 2024 ... $ 101,887 [Dollars in millions]"
+    }
+  },
+  "notes": "Fiscal year ended December 31, 2024. Financial figures are from the FY2024 Form 10-K (accession 0000070858-25-000139), checked against SEC XBRL; ownership is from the 2025 proxy (DEF 14A filed March 10, 2025, accession 0001193125-25-050578), shares as of March 3, 2025. LEADER: Brian Moynihan beneficially owned 2,794,827 shares (including 38,376 shared with his spouse, footnote 8); the proxy states every director and named executive owned less than 1%, so pctEconomic is null. His 1,759,727 unvested stock units are not beneficially owned under SEC rules and are not counted. HOLDERS: the proxy cites Schedule 13G/A filing dates (Berkshire February 14, 2025; Vanguard February 13, 2024; BlackRock January 29, 2024) and elsewhere says each reported more than 5% 'as of December 31, 2024'; because the footnote dates conflict with that for Vanguard and BlackRock, asOf is left null. Berkshire's 680,233,587 shares already include the 6.1% held by its subsidiary National Indemnity Company, which is not listed separately. DIVIDENDS: the cash-flow statement reports one 'Cash dividends paid' line ($9,503 million) covering common and preferred; it is used as reported (the equity statement separately shows $7,822 million common and $1,613 million preferred declared). BUYBACKS: common stock only; the $5,254 million preferred stock redemption is excluded. STOCK COMP: the note's $3.6 billion compensation cost is used; the cash-flow add-back 'Amortization of stock-based compensation' is $3,433 million. GEOGRAPHY: the 'Total Non-U.S.' subtotal ($13,422 million) is omitted to avoid double counting; footnote (3) says the U.S. row 'substantially reflects the U.S.'",
+  "researchedAt": "2026-11-23"
+}

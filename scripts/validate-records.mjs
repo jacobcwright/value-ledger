@@ -17,7 +17,7 @@ const UA = "ValueForHumanity research validator (contact via site)";
 const leaders = new Function(fs.readFileSync(path.join(root, "dist/data.js"), "utf8") + ";return leaders")();
 const ids = new Set(leaders.map(l => l.id));
 
-const RELATIONS = ["founder","co-founder","founding-family","estate","ceo","former-ceo","chair","investor"];
+const RELATIONS = ["founder","co-founder","founding-family","estate","ceo","former-ceo","chair","executive","investor"];
 const STATUSES = ["holds","deceased","no-reported-stake","not-disclosed","not-sourced"];
 const HOSTS = ["sec","company","exchange","regulator"];
 const MIRRORS = /dfcfw\.com|9to5mac|seekingalpha|marketscreener|macrotrends|stockanalysis|companiesmarketcap|wsj\.com|reuters\.com|bloomberg|yahoo\.|investing\.com|wikipedia|annualreports\.com|last10k|fintel|gurufocus/;
@@ -65,12 +65,14 @@ function validate(rec, file) {
   }
   const H = o.largestHolders || [];
   if (H.length > 3) errs.push("largestHolders max 3");
-  let sum = (L?.pctEconomic ?? L?.derived?.pctEconomic ?? 0) + (L?.family?.pctEconomic || 0);
+  const leaderPct = L?.pctEconomic ?? L?.derived?.pctEconomic ?? 0;
+  let sum = L?.family?.includesLeader ? Math.max(leaderPct, L.family.pctEconomic || 0) : leaderPct + (L?.family?.pctEconomic || 0);
   H.forEach((h, i) => {
     if (!h.name) errs.push(`largestHolders[${i}].name missing`);
     if (!HOLDER_TYPES.includes(h.type)) errs.push(`largestHolders[${i}].type "${h.type}" invalid`);
     num(h.pctEconomic, `largestHolders[${i}].pctEconomic`, errs, {max: 100, nullable: false});
-    sum += h.pctEconomic || 0;
+    if (h.basis && !['all','class'].includes(h.basis)) errs.push(`largestHolders[${i}].basis must be all|class`);
+    if (h.basis !== 'class') sum += h.pctEconomic || 0;
     checkSource(h.source, `largestHolders[${i}]`, errs, facts, links);
   });
   if (sum > 100.5) errs.push(`leader + family + holders = ${sum.toFixed(2)}% > 100%`);

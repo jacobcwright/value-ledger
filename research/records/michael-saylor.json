@@ -1,0 +1,115 @@
+{
+  "id": "michael-saylor",
+  "company": "Strategy",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-04-22",
+    "leader": {
+      "name": "Michael Saylor",
+      "relation": "co-founder",
+      "status": "holds",
+      "pctEconomic": null,
+      "pctVoting": 44.1,
+      "sharesByClass": { "classA": 378500, "classAPct": null, "classB": 19616680, "classBPct": 99.9 },
+      "derived": {
+        "pctEconomic": 7.42,
+        "method": "(378,500 Class A + 19,616,680 Class B) / (249,688,978 Class A + 19,640,250 Class B outstanding at April 22, 2025) = 19,995,180 / 269,329,228. Common stock only; the non-voting preferred stock (8,500,000 Strife and 7,763,888 Strike shares) is excluded. Computed, not stated in the filing. The proxy's own as-converted figure, 'Beneficial Ownership of Class A Stock (% of Class)', is 7.4%.",
+        "inputs": [
+          {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312525100720/d908609ddef14a.htm",
+            "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management, share counts",
+            "quote": "Percentages have been calculated based on 249,688,978 shares of Class A Stock, 19,640,250 shares of Class B Stock, and 8,500,000 shares of Perpetual Strife Preferred Stock outstanding as of April 22, 2025."
+          },
+          {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312525100720/d908609ddef14a.htm",
+            "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management, Saylor row",
+            "quote": "Michael J. Saylor(2) 378,500 * 19,616,680 99.9 19,995,180 7.4 44.1 — —"
+          }
+        ]
+      },
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312525100720/d908609ddef14a.htm",
+        "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+        "quote": "Michael J. Saylor(2) 378,500 * 19,616,680 99.9 19,995,180 7.4 44.1 ... (2) Mr. Saylor’s holdings of Common Stock consist of (i) 19,616,680 shares of Class B Stock owned by Alcantara LLC, which is wholly owned by Mr. Saylor, and (ii) 378,500 shares of Class A Stock held by a charitable foundation"
+      }
+    },
+    "largestHolders": [],
+    "structure": {
+      "dualClass": true,
+      "controlled": false,
+      "note": "Class A has one vote per share and Class B ten; Class B converts into Class A one-for-one. Saylor holds 99.9% of Class B and 44.1% of total voting power. The proxy says that on November 12, 2024 his voting power for the election of directors fell below 50%, so Strategy no longer qualifies as a Nasdaq 'controlled company'.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312525100720/d908609ddef14a.htm",
+        "label": "2025 proxy statement (DEF 14A), Cessation of Controlled Company Status",
+        "quote": "On November 12, 2024, Mr. Saylor’s aggregate voting power for the election of directors of the Company fell to less than 50%. As a result, since that date (which we refer to as the “transition date”), we no longer qualify for the “controlled company” exemption under Nasdaq listing rules."
+      }
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 5",
+        "quote": "We have never declared or paid any cash dividends on either our class A or class B common stock and have no current plans to declare or pay any such dividends on our class A or class B common stock."
+      }
+    },
+    "buybacks": {
+      "value": 0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows, financing activities (no share repurchase line)",
+        "quote": "Proceeds from sale of common stock under public offerings 16,363,023 2,029,214 46,592 ... Net cash provided by financing activities 22,132,641 1,889,886 265,188 [in thousands, 2024, 2023, 2022]"
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 0.08,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Share-based compensation expense 77,124 69,571 63,619 [in thousands, 2024, 2023, 2022]",
+        "xbrl": { "cik": "0001050446", "concept": "us-gaap:ShareBasedCompensation", "end": "2024-12-31", "value": 77124000 }
+      }
+    },
+    "plan": {
+      "text": "Strategy grants stock options and RSUs under its stock incentive plans and lets eligible employees buy Class A shares through its 2021 Employee Stock Purchase Plan.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 7, Share-based Compensation Expense",
+        "quote": "we have awarded stock options to purchase shares of our class A common stock, restricted stock units, performance stock units, and certain other stock-based awards. ... We also provide opportunities for eligible employees to purchase shares of our class A common stock under our 2021 Employee Stock Purchase Plan (the “2021 ESPP”)."
+      }
+    }
+  },
+  "geography": {
+    "basis": "Total revenues by geographic region",
+    "segments": [
+      { "name": "U.S.", "value": 0.26 },
+      { "name": "EMEA", "value": 0.156 },
+      { "name": "Other Regions", "value": 0.048 }
+    ],
+    "total": 0.463,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
+      "label": "FY2024 Form 10-K, segment note, geographic regions",
+      "quote": "The following table presents total revenues and long-lived assets (in thousands) according to geographic region. ... U.S. EMEA Other Regions Consolidated Total revenues Year ended December 31, 2024 $ 259,582 $ 155,923 $ 47,951 $ 463,456"
+    }
+  },
+  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). Sources: FY2024 Form 10-K (accession 0000950170-25-021814) and the April 2025 annual-meeting proxy statement (DEF 14A, accession 0001193125-25-100720, filed April 28, 2025), read on EDGAR; the January 2025 special-meeting proxy was not used. LEADER: the proxy gives Saylor 99.9% of Class B and 44.1% of total voting power, but no percentage of all common shares, so pctEconomic is null and the economic share is in leader.derived (7.42%). The proxy's 7.4% 'Beneficial Ownership of Class A Stock (% of Class)' is on an as-converted basis and matches. His total includes 378,500 Class A shares held by a charitable foundation of which he is sole trustee and in which he disclaims beneficial ownership; the proxy counts them as beneficially owned, and so does the derived figure. The derived figure excludes the non-voting perpetual preferred stock, which was first issued in 2025. HOLDERS left empty: the proxy gives the other 5% holders only as a percentage of Class A (Vanguard 6.5%, as of December 31, 2024; BlackRock 5.7%, as of March 31, 2025; Capital International Investors 5.1%, as of December 31, 2024), not of all common stock, so they are omitted rather than converted. BUYBACKS: the FY2024 cash-flow statement has no line for repurchases of common stock; the company was a net issuer (over $16 billion of common stock sold). DIVIDENDS: none on common stock; preferred dividends started only in 2025. Stock comp and geography are small: geography is given to three decimals because two-decimal rounding of $0.26/0.16/0.05 billion would not add up to the $0.46 billion total.",
+  "researchedAt": "2026-11-23"
+}

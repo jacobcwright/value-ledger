@@ -1,0 +1,129 @@
+{
+  "id": "lee-jae-yong",
+  "company": "Samsung Electronics",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "KRW",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2024-12-31",
+    "leader": {
+      "name": "Lee Jae-yong",
+      "relation": "founding-family",
+      "status": "holds",
+      "pctEconomic": 1.63,
+      "pctVoting": null,
+      "shares": 97414196,
+      "family": {
+        "label": "Samsung Life Insurance (largest shareholder) and its related parties: Samsung affiliates and foundations, Ra-hee Hong, Lee Jae-yong, Boo-jin Lee, Seo-hyun Lee and affiliate executives. Includes Lee Jae-yong's own 1.63%. Percentage of common shares.",
+        "pctEconomic": 20.07,
+        "source": {
+          "hostType": "company",
+          "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+          "label": "Samsung Electronics 2024 Business Report, VII. Information on Shareholders, 1. Ownership of shares by the major shareholder(s) and related parties (pp. 297-298 of 407)",
+          "quote": "As of December 31, 2024 ... Total Common 1,235,835,433 20.70 1,198,033,154 20.07 - Preferred 1,080,935 0.13 993,638 0.12 [period start and period end: shares, stake %]"
+        },
+        "includesLeader": true
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "Samsung Electronics 2024 Business Report, VII. Information on Shareholders, 1. Ownership of shares by the major shareholder(s) and related parties (p. 297 of 407)",
+        "quote": "Jae-yong Lee Related party of the major shareholder Common 97,414,196 1.63 97,414,196 1.63 - Preferred 137,757 0.02 137,757 0.02 - [period start and period end: shares, stake %, as of December 31, 2024]"
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "National Pension Service",
+        "type": "pension",
+        "pctEconomic": 7.25,
+        "asOf": "2024-12-31",
+        "source": {
+          "hostType": "company",
+          "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+          "label": "Samsung Electronics 2024 Business Report, VII.4.A Share ownership status (p. 301 of 407)",
+          "quote": "As of December 31, 2024 ... Shareholders with over 5% voting shares ... National Pension Service 433,041,739 7.25"
+        }
+      },
+      {
+        "name": "BlackRock Fund Advisors",
+        "type": "asset-manager",
+        "pctEconomic": 5.03,
+        "asOf": "2019-01-28",
+        "source": {
+          "hostType": "company",
+          "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+          "label": "Samsung Electronics 2024 Business Report, VII.4.A Share ownership status (p. 301 of 407)",
+          "quote": "BlackRock Fund Advisors 300,391,061 5.03 Based on January 28, 2019 ... Number of shares owned and share ratio of BlackRock Fund Advisors is based on the “Report on Mass Holding of Securities” disclosed on DART (http://dart.fss.or.kr) on February 7, 2019."
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": true,
+      "controlled": false,
+      "note": "Two listed share classes: 5,969,782,550 common shares and 822,886,700 preferred shares issued. 'Common shares carry full voting rights while preferred shares do not.' The largest shareholder is Samsung Life Insurance (8.51% of common, plus 0.09% in special accounts). Its own major shareholder is Samsung C&T (19.34%), whose major shareholder is Lee Jae-yong (19.06%). Samsung Life and all its related parties, including Samsung C&T (5.01%), Lee Jae-yong, Ra-hee Hong, Boo-jin Lee and Seo-hyun Lee, hold 20.07% of common shares in total. That is below 50%, so the company is not majority-controlled on these figures."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 9808.65,
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "Samsung Electronics 2024 Business Report, separate (parent company) statements of cash flows (p. 164 of 407)",
+        "quote": "SEPARATE STATEMENTS OF CASH FLOWS (In millions of Korean won ...) ... Dividends paid (9,808,653) (9,810,119) (7,195,876) (7,196,951) [2024 KRW, 2023 KRW, 2024 USD, 2023 USD]"
+      }
+    },
+    "buybacks": {
+      "value": 1811.78,
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "Samsung Electronics 2024 Business Report, consolidated statements of cash flows (p. 66 of 407)",
+        "quote": "Treasury shares purchased (1,811,775) - (1,329,164) - [In millions of Korean won, in thousands of US dollars; 2024 KRW, 2023 KRW, 2024 USD, 2023 USD]"
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": null,
+      "source": null
+    },
+    "plan": null
+  },
+  "geography": {
+    "basis": "Regional information provided to the Management Committee",
+    "segments": [
+      {
+        "name": "Korea",
+        "value": 39826.09
+      },
+      {
+        "name": "America",
+        "value": 118828.55
+      },
+      {
+        "name": "Europe",
+        "value": 50118.75
+      },
+      {
+        "name": "Asia and Africa",
+        "value": 48171.38
+      },
+      {
+        "name": "China",
+        "value": 43926.14
+      }
+    ],
+    "total": 300870.9,
+    "source": {
+      "hostType": "company",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+      "label": "Samsung Electronics 2024 Business Report, consolidated financial statements, Note 29 Segment Information, (B) Regional information (p. 146 of 407)",
+      "quote": "(1) As of and for the year ended December 31, 2024 ... (In millions of Korean won) Korea America Europe Asia and Africa China Intercompany elimination Consolidated Revenue 39,826,088 118,828,546 50,118,754 48,171,377 43,926,138 - 300,870,903"
+    }
+  },
+  "notes": "Fiscal year ended December 31, 2024 (data.js fy 'Dec 2024'). The source is Samsung Electronics' English '2024 Business Report' (K-IFRS, file name 2024_4Q_Interim_Report.pdf), hosted on Samsung's own CDN (images.samsung.com) and linked from samsung.com/global/ir. Figures in millions of KRW converted to billions. RELATION: 'founding-family' is used. The report lists Lee Jae-yong as a 'Related party of the major shareholder' (Samsung Life Insurance), as is Ra-hee Hong; he is not a registered director in the report. OWNERSHIP BASIS: all percentages are as stated in the report and are percentages of common (voting) shares issued, including treasury shares; preferred stakes are percentages of the preferred class. Nothing is recomputed. Lee also holds 137,757 preferred shares (0.02% of preferred), not included in his 1.63%. The report gives no percentage of all shares (common plus preferred), and pctVoting is left null because the report gives a stake of common shares, not voting power. Lee's main economic exposure is indirect, as Samsung C&T's 19.06% major shareholder, and that is not added. FAMILY: the 20.07% related-party total already includes Lee's own 1.63% along with Samsung Life Insurance (8.51% + 0.09% special accounts), Samsung C&T (5.01%), Samsung Fire & Marine (1.49%), Samsung foundations, Ra-hee Hong (1.64%), Boo-jin Lee (0.80%), Seo-hyun Lee (0.79%) and affiliate executives. Samsung Life and Samsung C&T, though over 5% each, are therefore not listed as separate holders. BLACKROCK: very stale. Samsung bases it on a February 7, 2019 mass-holding report (holdings as of January 28, 2019). DIVIDENDS: the consolidated cash-flow 'Dividends paid' of KRW 10,888,749m includes dividends paid by subsidiaries to non-controlling interests (the consolidated equity statement shows KRW 1,102,625m declared to non-controlling interests in 2024). The parent company's separate cash-flow line (KRW 9,808,653m) is used as the cash paid to Samsung Electronics' own shareholders. It covers common and preferred shareholders together. BUYBACKS: 'Treasury shares purchased' is the same KRW 1,811,775m in the consolidated and separate statements; the report says the Board resolved on November 15, 2024 to repurchase shares and that 'the Company repurchased 3 trillion won out of the 10 trillion won worth of shares and then cancelled the acquired shares in February 2025.' STOCK COMP is null: the FY2024 statements show no share-based payment expense, and no stock options were outstanding for registered directors. The report says a stock-based compensation system (restricted shares for executives' OPI bonus) was implemented in January 2025, with grants in January 2026. That is after this fiscal year and covers executives only, so no plan is recorded. GEOGRAPHY: Samsung's five regions as reported to its Management Committee.",
+  "researchedAt": "2026-11-23"
+}

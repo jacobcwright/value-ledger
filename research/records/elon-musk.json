@@ -1,0 +1,130 @@
+{
+  "id": "elon-musk",
+  "company": "Tesla",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-09-15",
+    "leader": {
+      "name": "Elon Musk",
+      "relation": "ceo",
+      "status": "holds",
+      "pctEconomic": 19.8,
+      "pctVoting": null,
+      "shares": 717323438,
+      "family": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+        "label": "2025 proxy statement (DEF 14A), Ownership of Securities (printed pp. 159-160)",
+        "quote": "Applicable percentage ownership is based on 3,325,150,886 shares of Tesla's common stock outstanding at September 15, 2025. ... Elon Musk(1) 717,323,438 19.8% ... (1) Includes (i) 413,362,808 shares held of record by the Elon Musk Revocable Trust dated July 22, 2003; and (ii) 303,960,630 shares issuable to Mr. Musk upon exercise of options exercisable within 60 days after September 15, 2025."
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "The Vanguard Group",
+        "type": "asset-manager",
+        "pctEconomic": 6.9,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+          "label": "2025 proxy statement (DEF 14A), Ownership of Securities, footnote (2): based on a Schedule 13G filed February 13, 2024",
+          "quote": "The Vanguard Group(2) 229,805,491 6.9% ... The foregoing information is based solely on Schedule 13G of The Vanguard Group filed on February 13, 2024"
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 5.7,
+        "asOf": null,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+          "label": "2025 proxy statement (DEF 14A), Ownership of Securities, footnote (3): based on a Schedule 13G filed January 29, 2024",
+          "quote": "Blackrock, Inc.(3) 188,797,465 5.7% ... The foregoing information is based solely on Schedule 13G of Blackrock, Inc. filed on January 29, 2024"
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock. The 2025 proxy gives Elon Musk 19.8% beneficial ownership, the only individual above 5%. It also notes that 96,000,000 shares of restricted stock issued to him, which are not in that figure, 'may be voted by Mr. Musk'."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 5, Dividend Policy",
+        "quote": "We have never declared or paid cash dividends on our common stock. We currently do not anticipate paying any cash dividends in the foreseeable future."
+      }
+    },
+    "buybacks": {
+      "value": 0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows, financing activities (no share repurchase line)",
+        "quote": "Cash Flows from Financing Activities Proceeds from issuances of debt 5,744 ... Repayments of debt (2,500) ... Proceeds from exercises of stock options and other stock issuances 1,241 ... Net cash provided by (used in) financing activities 3,853 [2024, in millions]"
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 2.0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation 1,999 1,812 1,560 [in millions, 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0001318605",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2024-12-31",
+          "value": 1999000000
+        }
+      }
+    },
+    "plan": {
+      "text": "Tesla employees can buy company stock through payroll deductions at 85% of the market price under the employee stock purchase plan.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 12 Equity Incentive Plans, ESPP",
+        "quote": "Our employees are eligible to purchase our common stock through payroll deductions of up to 15% of their eligible compensation, subject to any plan limitations. The purchase price would be 85% of the lower of the fair market value on the first and last trading days of each six-month offering period."
+      }
+    }
+  },
+  "geography": {
+    "basis": "Revenues by geographic area based on the sales location of our products",
+    "segments": [
+      {
+        "name": "United States",
+        "value": 47.73
+      },
+      {
+        "name": "China",
+        "value": 20.94
+      },
+      {
+        "name": "Other international",
+        "value": 29.02
+      }
+    ],
+    "total": 97.69,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+      "label": "FY2024 Form 10-K, Note 17 Segment Reporting and Information about Geographic Areas",
+      "quote": "The following table presents revenues by geographic area based on the sales location of our products (in millions): ... United States $ 47,725 ... China 20,944 ... Other international 29,021 ... Total $ 97,690 [2024]"
+    }
+  },
+  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). Financial figures are from the FY2024 Form 10-K (accession 0001628280-25-003063) and match SEC XBRL. OWNERSHIP is from the 2025 proxy statement (DEF 14A filed September 17, 2025, accession 0001104659-25-090866), as of September 15, 2025. OPTIONS: the 19.8% includes 303,960,630 shares Musk can acquire by exercising options within 60 days; under SEC rules those option shares are added to both his holding and the denominator for his row only. The rest, 413,362,808 shares, is held by the Elon Musk Revocable Trust. For reference only (computed, not stated in the filing): 413,362,808 / 3,325,150,886 is about 12.4%. The proxy says the 717,323,438 figure excludes 96,000,000 restricted shares under the 2025 CEO Interim Award, which he may vote, and that 235,998,721 of his shares are pledged. EARLIER FIGURE: Tesla's 10-K/A of April 30, 2025 (accession 0001104659-25-042659, Part III) reported Musk at 714,754,706 shares, 20.3%, based on 3,216,138,890 shares outstanding at December 31, 2024; the later proxy figure is used per the brief. HOLDERS: the Vanguard and BlackRock rows rely on Schedule 13G filings from early 2024 (filed February 13, 2024 and January 29, 2024); the proxy gives only filing dates, not the dates the holdings refer to, so asOf is null, and the percentages are stale against the September 2025 share count. BUYBACKS: the 2024 cash-flow statement has no share repurchase line, so 0. STOCK COMP: 1,999 million is the cash-flow add-back; the equity statement shows 2,199 million including amounts capitalized.",
+  "researchedAt": "2026-11-23"
+}
