@@ -198,6 +198,7 @@ function openProfile(leader, section) {
   byId("profile-body").innerHTML = `
     <header class="profile-title">${portrait(leader,true)}<div class="profile-heading"><p class="eyebrow">NO. ${rank} BY VALUE CREATED <span aria-hidden="true">·</span> ${escapeHtml(leader.sector.toUpperCase())}</p><h2 id="profile-title">${escapeHtml(leader.name)}</h2><p class="profile-role">${escapeHtml(leader.role)} · <strong>${escapeHtml(leader.company)}</strong> <span class="profile-ticker">${escapeHtml(leader.ticker)}</span></p></div></header>
     <dl class="profile-stats">${figures.map(([key,label,value,note]) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong>${value}</strong><span>${note}</span></dd></div>`).join("")}</dl>
+    ${!isAmazon && typeof companyValueSlot === "function" ? companyValueSlot(leader) : ""}
     ${isAmazon ? '<p class="amazon-profile-links"><button type="button" id="show-amazon-map">Explore where Amazon creates value</button></p>' : ""}
     ${isAmazon ? amazonDistribution(leader) : ""}
     ${isAmazon ? amazonFootprint() : `<section class="footprint" aria-labelledby="footprint-title">
@@ -232,6 +233,12 @@ function openProfile(leader, section) {
     distribution.scrollIntoView({block:"start"});
     byId("distribution-tab-ownership").focus({preventScroll:true});
   }
+  const valueSlot = byId("company-value");
+  if (valueSlot) bindCompanyValue(valueSlot,leader).then(shown => {
+    if (!shown || section !== "value") return;
+    valueSlot.scrollIntoView({block:"start"});
+    valueSlot.querySelector('[role="tab"][aria-selected="true"]').focus({preventScroll:true});
+  });
   if (isAmazon) {
     const footprint = byId("amazon-footprint");
     profileGlobe = bindAmazonFootprint(footprint,section === "states" ? "states" : "markets");
@@ -274,7 +281,7 @@ function openProfile(leader, section) {
 }
 let lastHash = location.hash;
 function route() {
-  const [,id,section] = location.hash.match(/^#leader\/([^/]+)(?:\/(distribution|footprint|states))?$/) || [];
+  const [,id,section] = location.hash.match(/^#leader\/([^/]+)(?:\/(distribution|footprint|states|value))?$/) || [];
   const leader = leaders.find(item => item.id === id);
   if (leader) {
     if (lastHash && !lastHash.startsWith("#leader/")) previousHash = lastHash;
@@ -297,4 +304,5 @@ dialog.addEventListener("close",() => {
   }
 });
 window.addEventListener("hashchange",route);
-route();
+// The first route runs once every deferred script has run, including company-value.js (loaded after this file).
+document.addEventListener("DOMContentLoaded",route);
