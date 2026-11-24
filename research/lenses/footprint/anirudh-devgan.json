@@ -1,0 +1,26 @@
+{
+  "id": "anirudh-devgan",
+  "company": "Cadence Design Systems",
+  "metrics": {},
+  "usStates": null,
+  "countries": null,
+  "regions": null,
+  "sites": [
+    {
+      "name": "Cadence corporate headquarters",
+      "place": "San Jose, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Cadence owns the land and buildings at its San Jose headquarters; it also owns properties in New Mexico, India, Greece and Italy.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+        "label": "Cadence Design Systems Form 10-K for fiscal year 2024",
+        "quote": "We own land and buildings at our corporate headquarters located in San Jose, California. We also own properties in New Mexico, India, Greece and Italy."
+      }
+    }
+  ],
+  "notes": "The FY2024 10-K gives about 12,700 employees and says 'a substantial majority of our employees are located outside of the United States', with no figures by country or region; Item 2 names owned properties (San Jose HQ; New Mexico, India, Greece, Italy) without counts per location. Cadence's ESG/impact report pages on cadence.com could not be fetched (bot protection returns 403/challenge), so no employee-by-region data was recorded. No state, country, region or tax-by-country rows.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "michael-dell",
+  "company": "Dell Technologies",
+  "metrics": {},
+  "usStates": null,
+  "countries": null,
+  "regions": null,
+  "sites": [
+    {
+      "name": "Global headquarters, One Dell Way",
+      "place": "Round Rock, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Principal executive offices and global headquarters",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+        "label": "Dell Technologies Form 10-K for fiscal year ended January 31, 2025, Item 2 Properties",
+        "quote": "Our principal executive offices and global headquarters are located at One Dell Way, Round Rock, Texas."
+      }
+    },
+    {
+      "name": "Owned manufacturing facilities (United States)",
+      "place": "United States",
+      "iso2": "US",
+      "type": "manufacturing",
+      "description": "Owned manufacturing facility location named in the 10-K (city not given)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+        "label": "Dell Technologies Form 10-K for fiscal year ended January 31, 2025, Item 1 Business, Manufacturing and Materials",
+        "quote": "We own manufacturing facilities located in the United States, Malaysia, China, Brazil, India, Poland, and Ireland."
+      }
+    },
+    {
+      "name": "Owned manufacturing facilities (Malaysia)",
+      "place": "Malaysia",
+      "iso2": "MY",
+      "type": "manufacturing",
+      "description": "Owned manufacturing facility location named in the 10-K (city not given)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+        "label": "Dell Technologies Form 10-K for fiscal year ended January 31, 2025, Item 1 Business, Manufacturing and Materials",
+        "quote": "We own manufacturing facilities located in the United States, Malaysia, China, Brazil, India, Poland, and Ireland."
+      }
+    },
+    {
+      "name": "Owned manufacturing facilities (China)",
+      "place": "China",
+      "iso2": "CN",
+      "type": "manufacturing",
+      "description": "Owned manufacturing facility location named in the 10-K (city not given)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+        "label": "Dell Technologies Form 10-K for fiscal year ended January 31, 2025, Item 1 Business, Manufacturing and Materials",
+        "quote": "We own manufacturing facilities located in the United States, Malaysia, China, Brazil, India, Poland, and Ireland."
+      }
+    },
+    {
+      "name": "Owned manufacturing facilities (Brazil)",
+      "place": "Brazil",
+      "iso2": "BR",
+      "type": "manufacturing",
+      "description": "Owned manufacturing facility location named in the 10-K (city not given)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+        "label": "Dell Technologies Form 10-K for fiscal year ended January 31, 2025, Item 1 Business, Manufacturing and Materials",
+        "quote": "We own manufacturing facilities located in the United States, Malaysia, China, Brazil, India, Poland, and Ireland."
+      }
+    },
+    {
+      "name": "Owned manufacturing facilities (India)",
+      "place": "India",
+      "iso2": "IN",
+      "type": "manufacturing",
+      "description": "Owned manufacturing facility location named in the 10-K (city not given)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+        "label": "Dell Technologies Form 10-K for fiscal year ended January 31, 2025, Item 1 Business, Manufacturing and Materials",
+        "quote": "We own manufacturing facilities located in the United States, Malaysia, China, Brazil, India, Poland, and Ireland."
+      }
+    },
+    {
+      "name": "Owned manufacturing facilities (Poland)",
+      "place": "Poland",
+      "iso2": "PL",
+      "type": "manufacturing",
+      "description": "Owned manufacturing facility location named in the 10-K (city not given)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+        "label": "Dell Technologies Form 10-K for fiscal year ended January 31, 2025, Item 1 Business, Manufacturing and Materials",
+        "quote": "We own manufacturing facilities located in the United States, Malaysia, China, Brazil, India, Poland, and Ireland."
+      }
+    },
+    {
+      "name": "Owned manufacturing facilities (Ireland)",
+      "place": "Ireland",
+      "iso2": "IE",
+      "type": "manufacturing",
+      "description": "Owned manufacturing facility location named in the 10-K (city not given)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+        "label": "Dell Technologies Form 10-K for fiscal year ended January 31, 2025, Item 1 Business, Manufacturing and Materials",
+        "quote": "We own manufacturing facilities located in the United States, Malaysia, China, Brazil, India, Poland, and Ireland."
+      }
+    }
+  ],
+  "notes": "Dell publishes no state, country or regional breakdown of employees, sites, investment or taxes for FY2025. The 10-K gives approximately 108,000 employees (no geography). Item 2 gives floor space only as U.S. facilities (7.2 million sq ft owned, 1.0 leased) and international facilities (4.2 owned, 5.9 leased), as of Jan 31, 2025; square footage has no unit in this lens, so it is recorded here and not as rows. Manufacturing sites are named only by country, so each owned-manufacturing country is a site entry without a city. The FY25 'Impact by the Numbers' brief (delltechnologies.com) has no geographic workforce data.",
+  "researchedAt": "2026-11-23"
+}

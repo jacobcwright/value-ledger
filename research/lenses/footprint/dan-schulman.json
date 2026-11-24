@@ -1,0 +1,99 @@
+{
+  "id": "dan-schulman",
+  "company": "PayPal",
+  "metrics": {
+    "employeesShare": {
+      "label": "Share of employees",
+      "unit": "percent",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Share of PayPal's approximately 24,400 employees by region, 10-K Human Capital."
+    },
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Employees located in the U.S., 10-K Human Capital (approximate)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "employees": 8900
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1, Human Capital",
+        "quote": "Our global employees work predominantly full-time and represent at least 140 nationalities, across 28 countries, including approximately 8,900 located in the U.S."
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Americas",
+      "countries": null,
+      "values": {
+        "employeesShare": 44
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1, Human Capital",
+        "quote": "As of December 31, 2024, we employed approximately 24,400 people globally, with 44% in the Americas, 44% in Asia-Pacific, and 12% in Europe and the Middle East."
+      }
+    },
+    {
+      "name": "Asia-Pacific",
+      "countries": null,
+      "values": {
+        "employeesShare": 44
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1, Human Capital",
+        "quote": "As of December 31, 2024, we employed approximately 24,400 people globally, with 44% in the Americas, 44% in Asia-Pacific, and 12% in Europe and the Middle East."
+      }
+    },
+    {
+      "name": "Europe and the Middle East",
+      "countries": null,
+      "values": {
+        "employeesShare": 12
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1, Human Capital",
+        "quote": "As of December 31, 2024, we employed approximately 24,400 people globally, with 44% in the Americas, 44% in Asia-Pacific, and 12% in Europe and the Middle East."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Corporate headquarters",
+      "place": "San Jose, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Our corporate headquarters are located in San Jose, California and occupy approximately 0.7 million of owned square feet.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "Our corporate headquarters are located in San Jose, California and occupy approximately 0.7 million of owned square feet."
+      }
+    }
+  ],
+  "notes": "PayPal's FY2024 10-K gives regional employee shares (Americas 44%, Asia-Pacific 44%, Europe and the Middle East 12% of ~24,400) and a U.S. headcount of ~8,900; no country lists define the regions, and the Americas share includes the U.S. Item 2 gives only aggregate square footage (2.0 million sq ft in the U.S., 1.8 million in other countries) and the San Jose HQ; no other sites, state data or country-level tax data were found in the 10-K. Period: Dec 31, 2024.",
+  "researchedAt": "2026-11-23"
+}

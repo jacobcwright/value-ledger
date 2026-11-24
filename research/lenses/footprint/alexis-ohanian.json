@@ -1,0 +1,49 @@
+{
+  "id": "alexis-ohanian",
+  "company": "Reddit",
+  "metrics": {
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "as of December 31, 2024",
+      "tier": "filing",
+      "definition": "Employees (2,233 in total)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "employees": 1768
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000018/rddt-20241231.htm",
+        "label": "Reddit, Inc. Form 10-K for fiscal year 2024",
+        "quote": "As of December 31, 2024, we had 2,233 employees, including 1,768 in the United States."
+      }
+    }
+  ],
+  "regions": null,
+  "sites": [
+    {
+      "name": "Reddit headquarters",
+      "place": "San Francisco, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "About 48,000 square feet of leased office space; lease expires 2029.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000018/rddt-20241231.htm",
+        "label": "Reddit, Inc. Form 10-K for fiscal year 2024",
+        "quote": "Our corporate headquarters is located in San Francisco, California, where we lease approximately 48,000 square feet of office space pursuant to a lease agreement that expires in 2029"
+      }
+    }
+  ],
+  "notes": "FY2024 10-K only. The 10-K gives the U.S. headcount (1,768 of 2,233); the non-U.S. remainder was not derived. Item 2 also mentions leased offices in New York, Chicago, Los Angeles and London without detail, so they are not listed as sites. No state or tax-by-country data is published.",
+  "researchedAt": "2026-11-23"
+}

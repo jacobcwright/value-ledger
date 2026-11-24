@@ -1,0 +1,40 @@
+{
+  "id": "ginni-rometty",
+  "company": "IBM",
+  "metrics": {},
+  "usStates": null,
+  "countries": null,
+  "regions": null,
+  "sites": [
+    {
+      "name": "Corporate headquarters",
+      "place": "Armonk, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "IBM's corporate headquarters are located at an owned site in Armonk, New York.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "IBM ’s corporate headquarters are located at an owned site in Armonk, New York."
+      }
+    },
+    {
+      "name": "IBM Quantum Data Center",
+      "place": "Poughkeepsie, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "data center",
+      "description": "In 2024, IBM expanded its IBM Quantum Data Center in Poughkeepsie, New York.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
+        "label": "2024 Annual Report to Stockholders (10-K exhibit 13)",
+        "quote": "In 2024, we expanded our IBM Quantum Data Center in Poughkeepsie, New York and opened the first IBM Quantum Data Center in Europe."
+      }
+    }
+  ],
+  "notes": "IBM publishes no employee, facility or tax figures by state, country or region in its FY2024 10-K or annual report. Item 2 gives only floor space: about 41 million square feet worldwide, about 17 million in the U.S. (9 million owned, 8 million leased) and about 24 million outside the U.S. Floor space is not recorded because the lens has no square-feet unit. The 10-K says IBM operates in more than 175 countries and had 270,300 employees at wholly owned subsidiaries. The annual report also mentions the first IBM Quantum Data Center in Europe without naming a location, so it is not listed as a site.",
+  "researchedAt": "2026-11-23"
+}

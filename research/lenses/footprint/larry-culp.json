@@ -1,0 +1,223 @@
+{
+  "id": "larry-culp",
+  "company": "GE Aerospace",
+  "metrics": {
+    "investment": {
+      "label": "Planned 2024 investment in facilities",
+      "unit": "currency-millions",
+      "currency": "USD",
+      "period": "2024 plan, announced March 12, 2024",
+      "tier": "company-published",
+      "definition": "Planned 2024 capital investment by site or state as named in GE Aerospace's March 12, 2024 release (part of 'nearly $450 million' for '22 GE Aerospace facilities across 14 states', plus about $100 million at international sites). Plans, not actual spend; only the sites the release itemises."
+    },
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "as of December 31, 2024",
+      "tier": "filing",
+      "definition": "People employed by GE Aerospace and consolidated affiliates in the United States, per the 2024 Form 10-K (approximately)."
+    }
+  },
+  "usStates": [
+    {
+      "state": "AL",
+      "values": {
+        "investment": 54
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
+        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
+        "quote": "$54 million to Auburn, Ala. , site for additional additive (3D printing) machines and tooling"
+      }
+    },
+    {
+      "state": "MA",
+      "values": {
+        "investment": 30
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
+        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
+        "quote": "$30 million to Lynn, Mass. , site for investment in engine assembly and testing"
+      }
+    },
+    {
+      "state": "NC",
+      "values": {
+        "investment": 46
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
+        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
+        "quote": "$46 million to four North Carolina facilities that produce parts and assemble engines"
+      }
+    }
+  ],
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "employees": 28000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+        "label": "GE Aerospace 2024 Form 10-K, Human Capital",
+        "quote": "At December 31, 2024, GE Aerospace and consolidated affiliates employed approximately 53,000 people, of whom approximately 28,000 were employed in the United States."
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "International sites in North America, Europe and India",
+      "countries": null,
+      "values": {
+        "investment": 100
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
+        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
+        "quote": "GE Aerospace also plans to invest approximately $100 million at some of its international sites in North America, Europe and India."
+      }
+    },
+    {
+      "name": "Greater Cincinnati region (U.S.)",
+      "countries": null,
+      "values": {
+        "investment": 107
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
+        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
+        "quote": "$107 million to facilities in the greater Cincinnati region ."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Headquarters",
+      "place": "Evendale, OH",
+      "state": "OH",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Principal executive offices at 1 Neumann Way, Evendale; executive offices also in Washington, DC and Norwalk, CT.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+        "label": "GE Aerospace 2024 Form 10-K, Item 1",
+        "quote": "GE Aerospace’s principal executive offices are at 1 Neumann Way, Evendale, OH 45215; we also maintain executive offices in Washington, DC and Norwalk, CT."
+      }
+    },
+    {
+      "name": "Auburn site",
+      "place": "Auburn, AL",
+      "state": "AL",
+      "iso2": "US",
+      "type": "plant",
+      "description": "Additive (3D printing) site; $54 million planned in 2024 for machines and tooling for military rotorcraft and commercial engine components.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
+        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
+        "quote": "$54 million to Auburn, Ala. , site for additional additive (3D printing) machines and tooling to increase the production of military rotorcraft engine components"
+      }
+    },
+    {
+      "name": "Lynn site",
+      "place": "Lynn, MA",
+      "state": "MA",
+      "iso2": "US",
+      "type": "plant",
+      "description": "Engine assembly and testing for U.S. and allied military helicopter and fighter jet engines; $30 million planned in 2024.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
+        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
+        "quote": "$30 million to Lynn, Mass. , site for investment in engine assembly and testing that supports the production of U.S. and allied military helicopter and fighter jet engines."
+      }
+    },
+    {
+      "name": "Asheville site",
+      "place": "Asheville, NC",
+      "state": "NC",
+      "iso2": "US",
+      "type": "plant",
+      "description": "$11 million planned in 2024 for high-precision machines used to produce critical components.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
+        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
+        "quote": "Asheville will receive $11 million for high-precision machines used to produce critical components;"
+      }
+    },
+    {
+      "name": "Durham site",
+      "place": "Durham, NC",
+      "state": "NC",
+      "iso2": "US",
+      "type": "plant",
+      "description": "More than $7 million planned in 2024 for tooling and equipment to increase engine assembly capacity.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
+        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
+        "quote": "Durham will receive more than $7 million for tooling and equipment to increase the assembly capacity of engines;"
+      }
+    },
+    {
+      "name": "West Jefferson site",
+      "place": "West Jefferson, NC",
+      "state": "NC",
+      "iso2": "US",
+      "type": "plant",
+      "description": "Almost $5 million planned in 2024 for quality inspection equipment and high-tech machinery.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
+        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
+        "quote": "West Jefferson will receive almost $5 million for quality inspection equipment and high-tech machinery; and"
+      }
+    },
+    {
+      "name": "Wilmington site",
+      "place": "Wilmington, NC",
+      "state": "NC",
+      "iso2": "US",
+      "type": "plant",
+      "description": "$22 million planned in 2024 for machines and specialized tooling to increase capacity.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
+        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
+        "quote": "Wilmington will invest $22 million for machines and specialized tooling to increase capacity."
+      }
+    },
+    {
+      "name": "Greater Cincinnati facilities",
+      "place": "Greater Cincinnati region",
+      "iso2": "US",
+      "type": "plant",
+      "description": "$107 million planned in 2024 for additive machines, tooling and test-cell upgrades for commercial and military engines.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
+        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
+        "quote": "$107 million to facilities in the greater Cincinnati region ."
+      }
+    }
+  ],
+  "notes": "State rows are only the states GE Aerospace itemised in its March 12, 2024 investment release: Alabama (Auburn $54M), Massachusetts (Lynn $30M) and North Carolina (four facilities $46M: Asheville $11M, Durham >$7M, West Jefferson ~$5M, Wilmington $22M). The release says nearly $450M goes to 22 facilities across 14 states, but names only these; the other 11 states have no published amount. 'Greater Cincinnati region' ($107M) is a metro area that spans Ohio and Kentucky, so it is a region row (countries null) and is not assigned to a state. The release also cites $100M for U.S. suppliers (not by state) and about $100M for international sites in North America, Europe and India (region, no country split). The release's 'interactive map' link now shows the 2026 plan ($1B, 17 states, no per-state amounts), which is newer than the snapshot and was not used; the 2025 plan (nearly $1B, 16 states) was likewise not used. 10-K: ~53,000 employees, ~28,000 in the U.S. (recorded as a US country row); manufacturing and service operations at 67 facilities in 22 states and Puerto Rico and 67 facilities in 24 other countries; no breakdown by state or country. Item 2 Properties refers back to that page.",
+  "researchedAt": "2026-11-23"
+}

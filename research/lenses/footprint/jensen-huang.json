@@ -1,0 +1,153 @@
+{
+  "id": "jensen-huang",
+  "company": "NVIDIA",
+  "metrics": {
+    "employeeShare": {
+      "label": "Share of employees",
+      "unit": "percent",
+      "period": "FY2025 (fiscal year ended Jan 26, 2025)",
+      "tier": "company-published",
+      "definition": "Workforce by region as a percentage of NVIDIA employees (Workforce and Diversity Data, 'Region'; the report notes numbers may not sum to 100% due to rounding)."
+    },
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "as of fiscal 2025 (10-K)",
+      "tier": "filing",
+      "definition": "10-K risk-factor disclosure of the approximate number of NVIDIA employees 'in the region' of Israel (in and around Israel), who primarily support networking products."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "IN",
+      "name": "India",
+      "values": {
+        "employeeShare": 13.3
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://images.nvidia.com/aem-dam/Solutions/documents/NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
+        "label": "NVIDIA Sustainability Report Fiscal Year 2025, Sustainability Indicators: Workforce and Diversity Data",
+        "quote": "Region | Americas 49.7% | APAC 16.9% | EMEA 20.2% | India 13.3%"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Americas",
+      "countries": null,
+      "values": {
+        "employeeShare": 49.7
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://images.nvidia.com/aem-dam/Solutions/documents/NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
+        "label": "NVIDIA Sustainability Report Fiscal Year 2025, Sustainability Indicators: Workforce and Diversity Data",
+        "quote": "Region | Americas 49.7%"
+      }
+    },
+    {
+      "name": "APAC",
+      "countries": null,
+      "values": {
+        "employeeShare": 16.9
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://images.nvidia.com/aem-dam/Solutions/documents/NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
+        "label": "NVIDIA Sustainability Report Fiscal Year 2025, Sustainability Indicators: Workforce and Diversity Data",
+        "quote": "Region | Americas 49.7% | APAC 16.9%"
+      }
+    },
+    {
+      "name": "EMEA",
+      "countries": null,
+      "values": {
+        "employeeShare": 20.2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://images.nvidia.com/aem-dam/Solutions/documents/NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
+        "label": "NVIDIA Sustainability Report Fiscal Year 2025, Sustainability Indicators: Workforce and Diversity Data",
+        "quote": "APAC 16.9% | EMEA 20.2%"
+      }
+    },
+    {
+      "name": "Israel and surrounding region",
+      "countries": null,
+      "values": {
+        "employees": 4700
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+        "label": "NVIDIA Form 10-K for fiscal year ended January 26, 2025, Item 1A Risk Factors",
+        "quote": "including the health and safety of our approximately 4,700 employees in the region who primarily support the research and development, operations, and sales and marketing of our networking products"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Corporate headquarters",
+      "place": "Santa Clara, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Owned and leased, approximately 3 million square feet of office and building space for the corporate headquarters",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+        "label": "NVIDIA Form 10-K for fiscal year ended January 26, 2025, Item 2 Properties",
+        "quote": "Our headquarters is in Santa Clara, California. We own and lease approximately 3 million square feet of office and building space for our corporate headquarters."
+      }
+    },
+    {
+      "name": "Voyager and Endeavor buildings",
+      "place": "Santa Clara, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "campus",
+      "description": "Headquarters buildings, LEED Gold certified, connected by a three-acre park",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.nvidia.com/aem-dam/Solutions/documents/NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
+        "label": "NVIDIA Sustainability Report Fiscal Year 2025",
+        "quote": "At our Santa Clara headquarters, our Voyager and Endeavor buildings are LEED Gold certified and connected by a three-acre park"
+      }
+    },
+    {
+      "name": "Hyderabad campus",
+      "place": "Hyderabad, India",
+      "iso2": "IN",
+      "type": "campus",
+      "description": "LEED Gold certified campus with a water treatment plant",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.nvidia.com/aem-dam/Solutions/documents/NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
+        "label": "NVIDIA Sustainability Report Fiscal Year 2025",
+        "quote": "Two of our headquarters buildings in Santa Clara, CA, and our Hyderabad, India campus are LEED Gold certified."
+      }
+    },
+    {
+      "name": "Yokneam offices",
+      "place": "Yokneam, Israel",
+      "iso2": "IL",
+      "type": "office",
+      "description": "Offices covered by NVIDIA's ISO 14001 environmental management system",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.nvidia.com/aem-dam/Solutions/documents/NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
+        "label": "NVIDIA Sustainability Report Fiscal Year 2025",
+        "quote": "covers our Santa Clara, CA headquarters buildings and Yokneam, Israel offices."
+      }
+    }
+  ],
+  "notes": "No state-by-state or country-level headcount, investment or tax data is published. The FY2025 Sustainability Report gives employees by region only as percentages (Americas, APAC, EMEA, India), recorded as published; no headcount was derived. The 10-K says NVIDIA had approximately 36,000 employees in 38 countries and owns and leases facilities 'throughout the U.S. and in various international locations, primarily in China, India, Israel, and Taiwan' (no counts). The ~4,700 Israel figure is 'in the region' (in and around Israel) and sits inside EMEA, so it overlaps the EMEA percentage. Revenue by geography is in the records, not here.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,133 @@
+{
+  "id": "lloyd-blankfein",
+  "company": "Goldman Sachs",
+  "metrics": {
+    "headcountShare": {
+      "label": "Share of headcount",
+      "unit": "percent",
+      "period": "as of Dec 2024",
+      "tier": "filing",
+      "definition": "Percentage of the firm's 46,500 headcount based in each region, as stated in the 10-K."
+    }
+  },
+  "usStates": null,
+  "countries": null,
+  "regions": [
+    {
+      "name": "Americas",
+      "countries": null,
+      "values": {
+        "headcountShare": 50
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1 Human Capital Management",
+        "quote": "As of December 2024, we had headcount of 46,500, offices in over 40 countries, and 50% of our headcount was based in the Americas, 20% in Europe, Middle East and Africa (EMEA) and 30% in Asia."
+      }
+    },
+    {
+      "name": "Europe, Middle East and Africa (EMEA)",
+      "countries": null,
+      "values": {
+        "headcountShare": 20
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1 Human Capital Management",
+        "quote": "As of December 2024, we had headcount of 46,500, offices in over 40 countries, and 50% of our headcount was based in the Americas, 20% in Europe, Middle East and Africa (EMEA) and 30% in Asia."
+      }
+    },
+    {
+      "name": "Asia",
+      "countries": null,
+      "values": {
+        "headcountShare": 30
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1 Human Capital Management",
+        "quote": "As of December 2024, we had headcount of 46,500, offices in over 40 countries, and 50% of our headcount was based in the Americas, 20% in Europe, Middle East and Africa (EMEA) and 30% in Asia."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "200 West Street (headquarters)",
+      "place": "New York, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Principal executive offices of approximately 2.1 million square feet, on a parcel leased from Battery Park City Authority.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Our principal executive offices are located at 200 West Street, New York, New York and consist of approximately 2.1 million square feet."
+      }
+    },
+    {
+      "name": "Plumtree Court (European headquarters)",
+      "place": "London",
+      "state": null,
+      "iso2": "GB",
+      "type": "regional headquarters",
+      "description": "European headquarters of approximately 826,000 square feet.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Our European headquarters is located in London at Plumtree Court, consisting of approximately 826,000 square feet under a lease which can be terminated in 2039."
+      }
+    },
+    {
+      "name": "Tokyo regional headquarters",
+      "place": "Tokyo",
+      "state": null,
+      "iso2": "JP",
+      "type": "regional headquarters",
+      "description": "Regional headquarters in Tokyo.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "In Asia, Australia and New Zealand, we have offices consisting of approximately 2.9 million square feet, including our offices in India, and regional headquarters in Tokyo and Hong Kong."
+      }
+    },
+    {
+      "name": "Hong Kong regional headquarters",
+      "place": "Hong Kong",
+      "state": null,
+      "iso2": "HK",
+      "type": "regional headquarters",
+      "description": "Regional headquarters in Hong Kong.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "In Asia, Australia and New Zealand, we have offices consisting of approximately 2.9 million square feet, including our offices in India, and regional headquarters in Tokyo and Hong Kong."
+      }
+    },
+    {
+      "name": "India offices",
+      "place": "India",
+      "state": null,
+      "iso2": "IN",
+      "type": "offices",
+      "description": "Offices with approximately 1.9 million square feet in India.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "In India, we have offices with approximately 1.9 million square feet, the majority of which have leases that will expire starting in 2028."
+      }
+    }
+  ],
+  "notes": "The FY2024 10-K gives headcount shares by region (Americas 50%, EMEA 20%, Asia 30% of 46,500) and office floor space by region in Item 2: Americas about 6.3 million sq ft, EMEA about 1.8 million, Asia/Australia/New Zealand about 2.9 million, of which India about 1.9 million. Floor space is not recorded as a metric because the lens has no square-feet unit; it is quoted in the sites. No employee counts by country or state, and no state-level office data, are published in the 10-K. The 10-K's 'Asia' headcount region and 'Asia, Australia and New Zealand' property region are named differently and are not merged. Bank branch and deposit data (FDIC) for Goldman Sachs Bank USA were not researched.",
+  "researchedAt": "2026-11-23"
+}

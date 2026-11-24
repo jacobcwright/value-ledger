@@ -1,0 +1,141 @@
+{
+  "id": "marcel-herrmann-telles",
+  "company": "AB InBev",
+  "metrics": {
+    "plants": {
+      "label": "Beverage production plants",
+      "unit": "count",
+      "period": "as of 31 December 2024",
+      "tier": "filing",
+      "definition": "Breweries and/or non-beer drink plants per business segment (220 total), excluding joint ventures and assets where AB InBev is not the majority owner; excludes Global Export and Holding Companies."
+    },
+    "employees": {
+      "label": "Full-time employees",
+      "unit": "people",
+      "period": "as of 31 December 2024",
+      "tier": "filing",
+      "definition": "Number of full-time employees at the end of the period in each business segment (total 143,885)."
+    }
+  },
+  "usStates": null,
+  "countries": null,
+  "regions": [
+    {
+      "name": "North America",
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "values": {
+        "plants": 33,
+        "employees": 16492
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
+        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2024",
+        "quote": "[Number of plants as of 31 December 2024; 2024 volumes and annual engineering capacity (khl)] North America 33 81,953 4,319 133,221 0 … [full-time employees as of 31 December 2024, 2023, 2022] North America 16,492 17,950 20,040"
+      }
+    },
+    {
+      "name": "Middle Americas",
+      "countries": null,
+      "values": {
+        "plants": 39,
+        "employees": 45630
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
+        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2024",
+        "quote": "[Number of plants as of 31 December 2024; 2024 volumes and annual engineering capacity (khl)] Middle Americas 39 125,444 24,642 169,205 32,800 … [full-time employees as of 31 December 2024, 2023, 2022] Middle Americas 45,630 48,069 52,355"
+      }
+    },
+    {
+      "name": "South America",
+      "countries": [
+        "AR",
+        "BO",
+        "BR",
+        "CL",
+        "PY",
+        "UY"
+      ],
+      "values": {
+        "plants": 51,
+        "employees": 34639
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
+        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2024",
+        "quote": "[Number of plants as of 31 December 2024; 2024 volumes and annual engineering capacity (khl)] South America 51 116,207 44,561 154,400 78,800 … [full-time employees as of 31 December 2024, 2023, 2022] South America 34,639 36,267 40,589"
+      }
+    },
+    {
+      "name": "EMEA",
+      "countries": null,
+      "values": {
+        "plants": 50,
+        "employees": 19979
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
+        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2024",
+        "quote": "[Number of plants as of 31 December 2024; 2024 volumes and annual engineering capacity (khl)] EMEA 50 91,482 2,322 128,710 1,676 … [full-time employees as of 31 December 2024, 2023, 2022] EMEA 19,979 21,011 21,306"
+      }
+    },
+    {
+      "name": "Asia Pacific",
+      "countries": null,
+      "values": {
+        "plants": 47,
+        "employees": 21483
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
+        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2024",
+        "quote": "[Number of plants as of 31 December 2024; 2024 volumes and annual engineering capacity (khl)] Asia Pacific 47 84,309 88 165,669 0 … [full-time employees as of 31 December 2024, 2023, 2022] Asia Pacific 21,483 24,992 24,331"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "AB InBev global headquarters",
+      "place": "Leuven, Belgium",
+      "state": null,
+      "iso2": "BE",
+      "type": "headquarters",
+      "description": "Registered address, Brouwerijplein 1, Leuven.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
+        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2024",
+        "quote": "Brouwerijplein 1, 3000 Leuven, Belgium"
+      }
+    },
+    {
+      "name": "Global Innovation and Technology Center",
+      "place": "Leuven, Belgium",
+      "state": null,
+      "iso2": "BE",
+      "type": "research",
+      "description": "Houses the Product, Packaging, Raw Material, Process and Dispense Development teams, with labs, an experimental brewery and sensory analysis.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
+        "label": "Anheuser-Busch InBev Form 20-F for fiscal year 2024",
+        "quote": "The Global Innovation and Technology Center, located in Leuven, Belgium, accommodates the Product, Packaging, Raw Material, Process and Dispense Development teams and has facilities such as Labs, Experimental Brewery and Sensory Analysis."
+      }
+    }
+  ],
+  "notes": "All figures are from the FY2024 20-F, which reports plants and employees only by business segment. The 20-F defines North America as the United States and Canada and South America as Argentina, Bolivia, Brazil, Chile, Paraguay and Uruguay, so those regions carry country lists; Middle Americas, EMEA and Asia Pacific include 'other ... countries' and get null. Global Export and Holding Companies (5,662 employees) is not a geography and is left out. No country, U.S.-state or tax-by-country breakdown was found in the 20-F, and a web search found no AB InBev tax-by-country report. Anheuser-Busch's U.S. 'Economic Impact' page (anheuser-busch.com) shows only national figures (65,000 people, 100 facilities) and blocks automated fetches, so it was not used.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,155 @@
+{
+  "id": "john-warnock",
+  "company": "Adobe",
+  "metrics": {
+    "employeeShare": {
+      "label": "Share of employees",
+      "unit": "percent",
+      "period": "FY2024 (as of Nov 29, 2024)",
+      "tier": "company-published",
+      "definition": "Share of Adobe's 30,709 global employees (assigned + unassigned + remote) located in the U.S. and outside the U.S., from the CSR data tables (the FY2024 10-K states the same 50/50 split)."
+    },
+    "spaceShare": {
+      "label": "Share of total workspace",
+      "unit": "percent",
+      "period": "FY2024",
+      "tier": "company-published",
+      "definition": "Share of Adobe's total space worldwide (5,150,439 sq ft in FY2024) located in the U.S., India and the rest of the world, from the CSR environmental data tables."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "employeeShare": 50
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.adobe.com/cc-shared/assets/pdf/corporate-responsibility/adobe-csr-report-2024.pdf",
+        "label": "Adobe 2024 CSR Report, Data Tables (FY2024)",
+        "quote": "% employees in U.S. 50% 50% 51%"
+      }
+    },
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "spaceShare": 62
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.adobe.com/cc-shared/assets/pdf/corporate-responsibility/adobe-csr-report-2024.pdf",
+        "label": "Adobe 2024 CSR Report, Data Tables (FY2024)",
+        "quote": "% of total in U.S. 62% 63% 62%"
+      }
+    },
+    {
+      "iso2": "IN",
+      "name": "India",
+      "values": {
+        "spaceShare": 23
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.adobe.com/cc-shared/assets/pdf/corporate-responsibility/adobe-csr-report-2024.pdf",
+        "label": "Adobe 2024 CSR Report, Data Tables (FY2024)",
+        "quote": "% of total in India 23% 22% 22%"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Outside the U.S.",
+      "countries": null,
+      "values": {
+        "employeeShare": 50
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.adobe.com/cc-shared/assets/pdf/corporate-responsibility/adobe-csr-report-2024.pdf",
+        "label": "Adobe 2024 CSR Report, Data Tables (FY2024)",
+        "quote": "% employees outside U.S. 50% 50% 49%"
+      }
+    },
+    {
+      "name": "Rest of world (outside the U.S. and India)",
+      "countries": null,
+      "values": {
+        "spaceShare": 14
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.adobe.com/cc-shared/assets/pdf/corporate-responsibility/adobe-csr-report-2024.pdf",
+        "label": "Adobe 2024 CSR Report, Data Tables (FY2024)",
+        "quote": "% of total in rest of world 14% 15% 17%"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Corporate headquarters",
+      "place": "San Jose, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Owned headquarters campus, approximately 1.7 million sq ft of office space",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Our corporate headquarters is located in San Jose, California where we occupy approximately 1.7 million square feet of office space."
+      }
+    },
+    {
+      "name": "Bangalore office",
+      "place": "Bangalore, India",
+      "state": null,
+      "iso2": "IN",
+      "type": "offices",
+      "description": "One of Adobe's two largest properties outside the U.S., approximately 0.7 million sq ft",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "The largest properties we occupy outside of the United States are our Bangalore, India and Noida, India offices which are approximately 0.7 million and 0.5 million square feet, respectively."
+      }
+    },
+    {
+      "name": "Noida office",
+      "place": "Noida, India",
+      "state": null,
+      "iso2": "IN",
+      "type": "offices",
+      "description": "One of Adobe's two largest properties outside the U.S., approximately 0.5 million sq ft",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "The largest properties we occupy outside of the United States are our Bangalore, India and Noida, India offices which are approximately 0.7 million and 0.5 million square feet, respectively."
+      }
+    },
+    {
+      "name": "Hillsboro data center",
+      "place": "Hillsboro, OR",
+      "state": "OR",
+      "iso2": "US",
+      "type": "data-center",
+      "description": "Adobe-owned data center",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.adobe.com/cc-shared/assets/pdf/corporate-responsibility/adobe-csr-report-2024.pdf",
+        "label": "Adobe 2024 CSR Report, Data Tables (FY2024)",
+        "quote": "Scope 2 location-based GHG emissions from Adobe owned data center in Hillsboro,"
+      }
+    }
+  ],
+  "notes": "Adobe publishes no state or per-country headcounts. The FY2024 CSR data tables give employees only as U.S. vs. outside-U.S. (50/50) and workspace as U.S. 62% / India 23% / rest of world 14% (sums to 99% as printed). The U.S. appears twice in 'countries', once per metric, because the two figures sit in different table rows. The CSR PDF on adobe.com returned 403 to curl; it was fetched this session through the WebFetch tool and read with pdftotext. Sites: San Jose HQ and the two Indian offices from 10-K Item 2; the owned Hillsboro, OR data center from the CSR environmental table. The 10-K's revenue-by-region shares (Americas/EMEA/APAC) are deliberately not repeated.",
+  "researchedAt": "2026-11-23"
+}

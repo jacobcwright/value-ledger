@@ -1,0 +1,223 @@
+{
+  "id": "rupert-murdoch",
+  "company": "News Corp",
+  "metrics": {
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "as of Jun 30, 2025",
+      "tier": "filing",
+      "definition": "Approximate employees located in each country, 10-K Item 1 Employees (company total approximately 22,300)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "employees": 7900
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 1, Employees",
+        "quote": "As of June 30, 2025, the Company had approximately 22,300 employees, of whom approximately 7,900 were located in the U.S., 3,900 were located in the U.K. and 5,800 were located in Australia."
+      }
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "values": {
+        "employees": 3900
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 1, Employees",
+        "quote": "As of June 30, 2025, the Company had approximately 22,300 employees, of whom approximately 7,900 were located in the U.S., 3,900 were located in the U.K. and 5,800 were located in Australia."
+      }
+    },
+    {
+      "iso2": "AU",
+      "name": "Australia",
+      "values": {
+        "employees": 5800
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 1, Employees",
+        "quote": "As of June 30, 2025, the Company had approximately 22,300 employees, of whom approximately 7,900 were located in the U.S., 3,900 were located in the U.K. and 5,800 were located in Australia."
+      }
+    }
+  ],
+  "regions": null,
+  "sites": [
+    {
+      "name": "U.S. headquarters, 1211 Avenue of the Americas",
+      "place": "New York, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Leased U.S. headquarters; executive and corporate offices, and executive and editorial offices of Dow Jones and the Post",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "The leased U.S. headquarters of the Company, located at 1211 Avenue of the Americas, New York, New York."
+      }
+    },
+    {
+      "name": "HarperCollins U.S.",
+      "place": "New York, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "offices",
+      "description": "The leased offices of HarperCollins U.S. in New York",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "The leased offices of HarperCollins U.S. in New York, New York"
+      }
+    },
+    {
+      "name": "South Brunswick campus",
+      "place": "South Brunswick, NJ",
+      "state": "NJ",
+      "iso2": "US",
+      "type": "campus",
+      "description": "The office space campus owned by the Company in South Brunswick, New Jersey",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "The office space campus owned by the Company in South Brunswick, New Jersey"
+      }
+    },
+    {
+      "name": "Move offices",
+      "place": "Austin, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "offices",
+      "description": "The leased offices of Move (Realtor.com) in Austin, Texas",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "The leased offices of Move in Austin, Texas"
+      }
+    },
+    {
+      "name": "The News Building",
+      "place": "1 London Bridge Street, London",
+      "iso2": "GB",
+      "type": "headquarters",
+      "description": "Leased headquarters and editorial offices of the London operations of News UK, Dow Jones and HarperCollins, and the broadcast studios for the U.K. radio stations",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "The leased headquarters and editorial offices of the London operations of News UK, Dow Jones and HarperCollins and the broadcast studios for the Company’s U.K. radio stations at The News Building, 1 London Bridge Street, London, England"
+      }
+    },
+    {
+      "name": "Broxbourne printing facility",
+      "place": "Broxbourne, England",
+      "iso2": "GB",
+      "type": "printing plant",
+      "description": "Freehold publishing and printing facility (leased to News UK's joint venture with DMG Media)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "The freehold interests in each of a publishing and printing facility in Broxbourne, England and printing facilities in Knowsley, England and North Lanarkshire, Scotland"
+      }
+    },
+    {
+      "name": "HarperCollins Glasgow",
+      "place": "Glasgow, Scotland",
+      "iso2": "GB",
+      "type": "warehouse",
+      "description": "The leased warehouse and office facilities of HarperCollins Publishers Limited in Glasgow",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "The leased warehouse and office facilities of HarperCollins Publishers Limited in Glasgow, Scotland."
+      }
+    },
+    {
+      "name": "Sydney print center",
+      "place": "Sydney, NSW",
+      "iso2": "AU",
+      "type": "printing plant",
+      "description": "Company-owned print center and office building at which The Australian, The Daily Telegraph and The Sunday Telegraph are printed and published",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "A Company-owned print center and an office building in Sydney, Australia at which The Australian, The Daily Telegraph and The Sunday Telegraph are printed and published, respectively"
+      }
+    },
+    {
+      "name": "Melbourne print center",
+      "place": "Melbourne, VIC",
+      "iso2": "AU",
+      "type": "printing plant",
+      "description": "Leased print center and office facility at which the Herald Sun and Sunday Herald Sun are printed and published",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "The leased print center and office facility in Melbourne, Australia at which Herald Sun and Sunday Herald Sun are printed and published, respectively"
+      }
+    },
+    {
+      "name": "Adelaide print center",
+      "place": "Adelaide, SA",
+      "iso2": "AU",
+      "type": "printing plant",
+      "description": "Company-owned print center and office building at which The Advertiser and Sunday Mail are printed and published",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "A Company-owned print center and an office building in Adelaide, Australia at which The Advertiser and Sunday Mail are printed and published, respectively"
+      }
+    },
+    {
+      "name": "REA Group offices",
+      "place": "Melbourne, VIC",
+      "iso2": "AU",
+      "type": "offices",
+      "description": "The leased corporate offices of REA Group in Melbourne",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "The leased corporate offices of REA Group in Melbourne, Australia"
+      }
+    },
+    {
+      "name": "Dow Jones Hong Kong",
+      "place": "Hong Kong",
+      "iso2": "HK",
+      "type": "offices",
+      "description": "The leased office space of Dow Jones in Hong Kong",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "The leased office space of Dow Jones in Hong Kong."
+      }
+    }
+  ],
+  "notes": "Employees by country from the FY2025 Form 10-K (Jun 30, 2025, the site's snapshot year): U.S. ~7,900, U.K. ~3,900, Australia ~5,800 of ~22,300; the remaining ~4,700 are not broken out. Sites are the principal properties listed in Item 2 (U.K. print plants in Knowsley and North Lanarkshire and offices in Peterborough, Dublin and Glasgow City Centre are also listed but left out to stay within 12). No state or tax-by-country data in the 10-K.",
+  "researchedAt": "2026-11-23"
+}

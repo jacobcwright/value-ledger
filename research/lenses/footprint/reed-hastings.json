@@ -1,0 +1,216 @@
+{
+  "id": "reed-hastings",
+  "company": "Netflix",
+  "metrics": {
+    "paidMemberships": {
+      "label": "Paid memberships",
+      "unit": "count",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Paid memberships at end of period (the 10-K table is in thousands; stored here as whole memberships). Netflix: a paid membership 'is defined as a membership that has the right to receive Netflix service following sign-up and a method of payment being provided, and that is not part of a free trial or certain other promotions'; extra member sub accounts are not included."
+    },
+    "employees": {
+      "label": "Full-time employees",
+      "unit": "people",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Approximate full-time employees by location, from the 10-K Human Capital section (about 14,000 in total); excludes production staff who are part-time or temporary."
+    }
+  },
+  "usStates": null,
+  "countries": null,
+  "regions": [
+    {
+      "name": "United States and Canada (UCAN)",
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "values": {
+        "paidMemberships": 89625000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 1, streaming membership information by region",
+        "quote": "United States and Canada (UCAN) As of/Year Ended December 31, 2024 2023 2022 (in thousands) Streaming revenues $ 17,359,369 $ 14,873,783 $ 14,084,643 Paid net membership additions (losses) 9,497 5,832 ( 919 ) Paid memberships at end of period (1) 89,625"
+      }
+    },
+    {
+      "name": "Europe, Middle East, and Africa (EMEA)",
+      "countries": null,
+      "values": {
+        "paidMemberships": 101133000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 1, streaming membership information by region",
+        "quote": "Europe, Middle East, and Africa (EMEA) As of/Year Ended December 31, 2024 2023 2022 (in thousands) Streaming revenues $ 12,387,035 $ 10,556,487 $ 9,745,015 Paid net membership additions 12,320 12,084 2,693 Paid memberships at end of period (1) 101,133"
+      }
+    },
+    {
+      "name": "Latin America (LATAM)",
+      "countries": null,
+      "values": {
+        "paidMemberships": 53327000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 1, streaming membership information by region",
+        "quote": "Latin America (LATAM) As of/Year Ended December 31, 2024 2023 2022 (in thousands) Streaming revenues $ 4,839,816 $ 4,446,461 $ 4,069,973 Paid net membership additions 7,330 4,298 1,738 Paid memberships at end of period (1) 53,327"
+      }
+    },
+    {
+      "name": "Asia-Pacific (APAC)",
+      "countries": null,
+      "values": {
+        "paidMemberships": 57541000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 1, streaming membership information by region",
+        "quote": "Asia-Pacific (APAC) As of/Year Ended December 31, 2024 2023 2022 (in thousands) Streaming revenues $ 4,414,746 $ 3,763,727 $ 3,570,221 Paid net membership additions 12,203 7,315 5,391 Paid memberships at end of period (1) 57,541"
+      }
+    },
+    {
+      "name": "United States and Canada (UCAN)",
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "values": {
+        "employees": 9600
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1, Human Capital",
+        "quote": "Of these, approximately 9,600 (69%) were located in the United States and Canada, 2,200 (16%) in Europe, Middle East, and Africa, 600 (4%) in Latin America and 1,600 (11%) in Asia-Pacific."
+      }
+    },
+    {
+      "name": "Europe, Middle East, and Africa (EMEA)",
+      "countries": null,
+      "values": {
+        "employees": 2200
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1, Human Capital",
+        "quote": "Of these, approximately 9,600 (69%) were located in the United States and Canada, 2,200 (16%) in Europe, Middle East, and Africa, 600 (4%) in Latin America and 1,600 (11%) in Asia-Pacific."
+      }
+    },
+    {
+      "name": "Latin America (LATAM)",
+      "countries": null,
+      "values": {
+        "employees": 600
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1, Human Capital",
+        "quote": "Of these, approximately 9,600 (69%) were located in the United States and Canada, 2,200 (16%) in Europe, Middle East, and Africa, 600 (4%) in Latin America and 1,600 (11%) in Asia-Pacific."
+      }
+    },
+    {
+      "name": "Asia-Pacific (APAC)",
+      "countries": null,
+      "values": {
+        "employees": 1600
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1, Human Capital",
+        "quote": "Of these, approximately 9,600 (69%) were located in the United States and Canada, 2,200 (16%) in Europe, Middle East, and Africa, 600 (4%) in Latin America and 1,600 (11%) in Asia-Pacific."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Corporate headquarters",
+      "place": "Los Gatos, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Leased principal property; location of the corporate headquarters",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "We have leased principal properties in both Los Gatos, California, which is the location of our corporate headquarters, and in Los Angeles, California."
+      }
+    },
+    {
+      "name": "Los Angeles principal offices",
+      "place": "Los Angeles, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "offices",
+      "description": "Leased principal property",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "We have leased principal properties in both Los Gatos, California, which is the location of our corporate headquarters, and in Los Angeles, California."
+      }
+    },
+    {
+      "name": "Netflix Studios Albuquerque",
+      "place": "Albuquerque, NM",
+      "state": "NM",
+      "iso2": "US",
+      "type": "production-hub",
+      "description": "Netflix's first purchased studio complex, expanded in 2024 to a West Coast production facility across 108 acres",
+      "source": {
+        "hostType": "company",
+        "url": "https://about.netflix.com/en/news/expanding-our-west-coast-production-hub-in-albuquerque",
+        "label": "About Netflix, 'Expanding Our West Coast Production Hub in Albuquerque' (June 27, 2024)",
+        "quote": "Today, six years later, we’re thrilled to introduce our newly expanded West Coast production facility, featuring four new soundstages, three mills, one production office, two stage support buildings, and two dedicated backlot areas across 108 acres."
+      }
+    },
+    {
+      "name": "Shepperton Studios production hub",
+      "place": "Shepperton, Surrey, United Kingdom",
+      "state": null,
+      "iso2": "GB",
+      "type": "production-hub",
+      "description": "Dedicated production hub with 14 sound stages, workshops and office space at Shepperton Studios",
+      "source": {
+        "hostType": "company",
+        "url": "https://about.netflix.com/en/news/netflix-creates-uk-production-hub-at-shepperton-studios",
+        "label": "About Netflix, 'Netflix Creates UK Production Hub at Shepperton Studios' (July 3, 2019)",
+        "quote": "London, July 3, 2019: Netflix has announced it is creating a dedicated production hub, featuring 14 sound stages, workshops and office space, at Shepperton Studios in the United Kingdom."
+      }
+    },
+    {
+      "name": "Tres Cantos production hub",
+      "place": "Tres Cantos, Madrid, Spain",
+      "state": null,
+      "iso2": "ES",
+      "type": "production-hub",
+      "description": "Netflix's first production facility in Europe: ten sets, more than 22,000 m2 and post-production facilities",
+      "source": {
+        "hostType": "company",
+        "url": "https://about.netflix.com/en/news/netflix-opens-5-new-stages-at-tres-cantos-showing-its-commitment-to-the",
+        "label": "About Netflix, 'Netflix Opens 5 New Stages at Tres Cantos' (Nov 21, 2022)",
+        "quote": "Since opening in 2019, Tres Cantos has doubled its stage capacity and now features ten sets and a multi-purpose space of more than 22,000 m2 that includes production offices, makeup, hair and wardrobe areas, and beyond."
+      }
+    }
+  ],
+  "notes": "Netflix reports memberships and employees only by its four regions (UCAN, EMEA, LATAM, APAC); no country or state figures. Each region appears twice in 'regions', once per metric, because memberships (Note 1 table) and employees (Item 1 sentence) come from different passages. Memberships are printed in thousands and stored multiplied by 1,000 (301.6 million in total). Only UCAN carries a country list because the filing names it 'United States and Canada'; the other regions' member countries are not defined in the filing. Sites: HQ and LA from 10-K Item 2 (which gives no production-hub list); production hubs from Netflix's own news pages (Albuquerque 2024, Shepperton 2019, Tres Cantos 2022). Other hubs (e.g. Toronto, Fort Monmouth NJ plans) were not checked against a company page and are omitted.",
+  "researchedAt": "2026-11-23"
+}

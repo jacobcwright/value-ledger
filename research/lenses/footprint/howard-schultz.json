@@ -1,0 +1,342 @@
+{
+  "id": "howard-schultz",
+  "company": "Starbucks",
+  "metrics": {
+    "companyOperatedStores": {
+      "label": "Company-operated stores",
+      "unit": "count",
+      "period": "as of Sep 29, 2024",
+      "tier": "filing",
+      "definition": "Company-operated stores open as of Sep 29, 2024, 10-K Item 1 \"Company-operated store data\" table (total 21,018)."
+    },
+    "licensedStores": {
+      "label": "Licensed stores",
+      "unit": "count",
+      "period": "as of Sep 29, 2024",
+      "tier": "filing",
+      "definition": "Licensed stores open as of Sep 29, 2024, 10-K Item 1 \"Licensed store data\" table (total 19,181). Licensed stores are run by licensees; Starbucks earns margin on supplies, royalties and fees."
+    },
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "as of Sep 29, 2024",
+      "tier": "filing",
+      "definition": "People Starbucks employed, approximate, 10-K Item 1 Human Capital (approximately 361,000 worldwide)."
+    },
+    "longLivedAssets": {
+      "label": "Long-lived assets",
+      "unit": "currency-millions",
+      "currency": "USD",
+      "period": "as of Sep 29, 2024",
+      "tier": "filing",
+      "definition": "Long-lived assets by geographic area, segment note of the FY2024 10-K (total $24,491.9 million)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "companyOperatedStores": 10158,
+        "licensedStores": 6777,
+        "employees": 211000,
+        "longLivedAssets": 15878.4
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 1 Business, store data tables; Human Capital; Note 17 Segment Reporting",
+        "quote": "U.S. | 9,645 | 611 | (96) | (2) | 513 | 10,158 … U.S. | 6,701 | 232 | (158) | 2 | 76 | 6,777 … In the U.S., Starbucks employed approximately 211,000 people … Long-lived assets: … United States | $ | 15,878.4 [first row company-operated, second licensed; last column = stores open Sep 29, 2024]"
+      }
+    },
+    {
+      "iso2": "CA",
+      "name": "Canada",
+      "values": {
+        "companyOperatedStores": 997,
+        "licensedStores": 486
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 1 Business, store data tables",
+        "quote": "Company-operated store data for the fiscal year-ended September 29, 2024: … Canada | 977 | 37 | (17) | — | 20 | 997 … Licensed store data for the fiscal year-ended September 29, 2024: … Canada | 481 | 26 | (21) | — | 5 | 486 [columns: Oct 1, 2023 | Opened | Closed | Transfers | Net | Sep 29, 2024]"
+      }
+    },
+    {
+      "iso2": "CN",
+      "name": "China",
+      "values": {
+        "companyOperatedStores": 7594,
+        "longLivedAssets": 4514.2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 1 Business, store data tables; Note 17 Segment Reporting",
+        "quote": "Company-operated store data for the fiscal year-ended September 29, 2024: … China | 6,804 | 855 | (65) | — | 790 | 7,594 … Long-lived assets: … China | 4,514.2 [columns: Oct 1, 2023 | Opened | Closed | Transfers | Net | Sep 29, 2024]"
+      }
+    },
+    {
+      "iso2": "JP",
+      "name": "Japan",
+      "values": {
+        "companyOperatedStores": 1809
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 1 Business, store data tables",
+        "quote": "Company-operated store data for the fiscal year-ended September 29, 2024: … Japan 1,733 90 (14) — 76 1,809 [columns: Oct 1, 2023 | Opened | Closed | Transfers | Net | Sep 29, 2024]"
+      }
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "values": {
+        "companyOperatedStores": 378,
+        "licensedStores": 976
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 1 Business, store data tables",
+        "quote": "Company-operated store data for the fiscal year-ended September 29, 2024: … U.K. | 355 | 32 | (9) | — | 23 | 378 … Licensed store data for the fiscal year-ended September 29, 2024: … U.K. | 911 | 87 | (22) | — | 65 | 976 [columns: Oct 1, 2023 | Opened | Closed | Transfers | Net | Sep 29, 2024]"
+      }
+    },
+    {
+      "iso2": "KR",
+      "name": "South Korea",
+      "values": {
+        "licensedStores": 1980
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 1 Business, store data tables",
+        "quote": "Licensed store data for the fiscal year-ended September 29, 2024: … Korea 1,870 144 (34) — 110 1,980 [columns: Oct 1, 2023 | Opened | Closed | Transfers | Net | Sep 29, 2024]"
+      }
+    },
+    {
+      "iso2": "TR",
+      "name": "Turkey",
+      "values": {
+        "licensedStores": 722
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 1 Business, store data tables",
+        "quote": "Licensed store data for the fiscal year-ended September 29, 2024: … Turkey | 676 | 46 | — | — | 46 | 722 [columns: Oct 1, 2023 | Opened | Closed | Transfers | Net | Sep 29, 2024]"
+      }
+    },
+    {
+      "iso2": "ID",
+      "name": "Indonesia",
+      "values": {
+        "licensedStores": 603
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 1 Business, store data tables",
+        "quote": "Licensed store data for the fiscal year-ended September 29, 2024: … Indonesia | 581 | 30 | (8) | — | 22 | 603 [columns: Oct 1, 2023 | Opened | Closed | Transfers | Net | Sep 29, 2024]"
+      }
+    },
+    {
+      "iso2": "TW",
+      "name": "Taiwan",
+      "values": {
+        "licensedStores": 571
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 1 Business, store data tables",
+        "quote": "Licensed store data for the fiscal year-ended September 29, 2024: … Taiwan | 563 | 24 | (16) | — | 8 | 571 [columns: Oct 1, 2023 | Opened | Closed | Transfers | Net | Sep 29, 2024]"
+      }
+    },
+    {
+      "iso2": "TH",
+      "name": "Thailand",
+      "values": {
+        "licensedStores": 513
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 1 Business, store data tables",
+        "quote": "Licensed store data for the fiscal year-ended September 29, 2024: … Thailand | 474 | 40 | (1) | — | 39 | 513 [columns: Oct 1, 2023 | Opened | Closed | Transfers | Net | Sep 29, 2024]"
+      }
+    },
+    {
+      "iso2": "PH",
+      "name": "Philippines",
+      "values": {
+        "licensedStores": 479
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 1 Business, store data tables",
+        "quote": "Licensed store data for the fiscal year-ended September 29, 2024: … Philippines | 447 | 33 | (1) | — | 32 | 479 [columns: Oct 1, 2023 | Opened | Closed | Transfers | Net | Sep 29, 2024]"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Latin America",
+      "countries": null,
+      "values": {
+        "licensedStores": 1705
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 1 Business, store data tables",
+        "quote": "Licensed store data for the fiscal year-ended September 29, 2024: … Latin America | 1,649 | 139 | (83) | — | 56 | 1,705 [columns: Oct 1, 2023 | Opened | Closed | Transfers | Net | Sep 29, 2024]"
+      }
+    },
+    {
+      "name": "Outside the U.S.",
+      "countries": null,
+      "values": {
+        "employees": 150000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 1 Human Capital",
+        "quote": "Approximately 150,000 employees were employed outside of the U.S., with approximately 144,000 in company-operated stores"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Corporate headquarters",
+      "place": "Seattle, WA",
+      "state": "WA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Corporate administrative offices, about 1,294,000 sq ft.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Seattle, WA | 1,294,000 | Corporate administrative [approximate size in square feet | purpose]"
+      }
+    },
+    {
+      "name": "York roasting plant",
+      "place": "York, PA",
+      "state": "PA",
+      "iso2": "US",
+      "type": "roastery",
+      "description": "Roasting, warehousing and distribution, about 1,957,000 sq ft (largest listed property).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 2 Properties",
+        "quote": "York, PA | 1,957,000 | Roasting, warehousing and distribution [approximate size in square feet | purpose]"
+      }
+    },
+    {
+      "name": "Carson Valley roasting plant",
+      "place": "Minden, NV",
+      "state": "NV",
+      "iso2": "US",
+      "type": "roastery",
+      "description": "Roasting, warehousing and distribution, about 1,080,000 sq ft.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Minden, NV (Carson Valley) | 1,080,000 | Roasting, warehousing and distribution [approximate size in square feet | purpose]"
+      }
+    },
+    {
+      "name": "Auburn distribution center",
+      "place": "Auburn, WA",
+      "state": "WA",
+      "iso2": "US",
+      "type": "distribution",
+      "description": "Warehousing and distribution, about 750,000 sq ft.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Auburn, WA | 750,000 | Warehousing and distribution [approximate size in square feet | purpose]"
+      }
+    },
+    {
+      "name": "Lebanon distribution center",
+      "place": "Lebanon, TN",
+      "state": "TN",
+      "iso2": "US",
+      "type": "distribution",
+      "description": "Warehousing and distribution, about 680,000 sq ft.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Lebanon, TN | 680,000 | Warehousing and distribution [approximate size in square feet | purpose]"
+      }
+    },
+    {
+      "name": "Kunshan roasting plant",
+      "place": "Kunshan, China",
+      "iso2": "CN",
+      "type": "roastery",
+      "description": "Roasting, warehousing and distribution, about 630,000 sq ft.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Kunshan, China | 630,000 | Roasting, warehousing and distribution [approximate size in square feet | purpose]"
+      }
+    },
+    {
+      "name": "Kent roasting plant",
+      "place": "Kent, WA",
+      "state": "WA",
+      "iso2": "US",
+      "type": "roastery",
+      "description": "Roasting and distribution, about 510,000 sq ft.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Kent, WA | 510,000 | Roasting and distribution [approximate size in square feet | purpose]"
+      }
+    },
+    {
+      "name": "Shanghai office",
+      "place": "Shanghai, China",
+      "iso2": "CN",
+      "type": "office",
+      "description": "Corporate administrative offices, about 225,000 sq ft.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000057/sbux-20240929.htm",
+        "label": "Starbucks FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Shanghai, China | 225,000 | Corporate administrative [approximate size in square feet | purpose]"
+      }
+    }
+  ],
+  "notes": "Everything is from the FY2024 Form 10-K (fiscal year ended Sep 29, 2024). The 10-K gives store counts by market, not by U.S. state, so usStates is null; Starbucks publishes no state table in the 10-K and none was taken from other years or store-locator data. Company-operated and licensed stores are kept as separate metrics (the U.K., U.S. and Canada appear in both tables; they are not added). 'All Other' (71 company-operated, 4,369 licensed) and Siren Retail rows are residuals and are not shown. Latin America is the 10-K's licensed-store grouping with no country list. Employees are approximate: 211,000 in the U.S. and 150,000 outside it (no country split). Long-lived assets are given only for the U.S., China and 'Other countries'. Sites are the full Item 2 table of material properties.",
+  "researchedAt": "2026-11-23"
+}

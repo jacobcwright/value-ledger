@@ -1,0 +1,246 @@
+{
+  "id": "n-r-narayana-murthy",
+  "company": "Infosys",
+  "metrics": {
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "as of Mar 31, 2025",
+      "tier": "filing",
+      "definition": "Employees by location as stated in the 20-F (India, the Americas, Europe, rest of the world); total 323,578."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "IN",
+      "name": "India",
+      "values": {
+        "employees": 250553
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 6.D Employees",
+        "quote": "As of March 31, 2025, we had 250,553 employees in India, 34,388 employees in the Americas, 20,701 employees in Europe and 17,936 employees in the rest of the world."
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Americas",
+      "countries": null,
+      "values": {
+        "employees": 34388
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 6.D Employees",
+        "quote": "As of March 31, 2025, we had 250,553 employees in India, 34,388 employees in the Americas, 20,701 employees in Europe and 17,936 employees in the rest of the world."
+      }
+    },
+    {
+      "name": "Europe",
+      "countries": null,
+      "values": {
+        "employees": 20701
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 6.D Employees",
+        "quote": "As of March 31, 2025, we had 250,553 employees in India, 34,388 employees in the Americas, 20,701 employees in Europe and 17,936 employees in the rest of the world."
+      }
+    },
+    {
+      "name": "Rest of the world",
+      "countries": null,
+      "values": {
+        "employees": 17936
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 6.D Employees",
+        "quote": "As of March 31, 2025, we had 250,553 employees in India, 34,388 employees in the Americas, 20,701 employees in Europe and 17,936 employees in the rest of the world."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Infosys Electronics City (corporate headquarters campus)",
+      "place": "Electronics City, Bengaluru, Karnataka",
+      "state": null,
+      "iso2": "IN",
+      "type": "headquarters",
+      "description": "Corporate headquarters campus: 6,508,049 sq ft of buildings and 4,736,303 sq ft of land, both owned; seating capacity 38,292.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 4.D Property, plant and equipment (most significant owned and leased properties)",
+        "quote": "Bengaluru (Infosys City Main Campus), Karnataka 6,508,049 38,292 Owned 4,736,303 Owned"
+      }
+    },
+    {
+      "name": "Mysore campus (Hebbal Electronic City)",
+      "place": "Mysuru, Karnataka",
+      "state": null,
+      "iso2": "IN",
+      "type": "campus",
+      "description": "Software development facility: 12,401,394 sq ft of buildings (owned) on 15,362,340 sq ft of land (owned); seating capacity 15,884.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 4.D Property, plant and equipment (most significant owned and leased properties)",
+        "quote": "Mysore (Hebbal Electronic City), Karnataka 12,401,394 15,884 Owned 15,362,340 Owned"
+      }
+    },
+    {
+      "name": "Pune development center (Hinjewadi Phase II)",
+      "place": "Pune, Maharashtra",
+      "state": null,
+      "iso2": "IN",
+      "type": "development center",
+      "description": "Software development facility: 5,947,889 sq ft of buildings (owned) on 4,987,787 sq ft of land (leased); seating capacity 30,479.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 4.D Property, plant and equipment (most significant owned and leased properties)",
+        "quote": "Pune (Hinjewadi Phase II), Maharashtra 5,947,889 30,479 Owned 4,987,787 Leased"
+      }
+    },
+    {
+      "name": "Hyderabad development center (Pocharam Village)",
+      "place": "Hyderabad",
+      "state": null,
+      "iso2": "IN",
+      "type": "development center",
+      "description": "Software development facility: 4,577,157 sq ft of buildings (owned) on 19,715,768 sq ft of land (owned); seating capacity 27,636.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 4.D Property, plant and equipment (most significant owned and leased properties)",
+        "quote": "Hyderabad (Pocharam Village), Andhra Pradesh 4,577,157 27,636 Owned 19,715,768 Owned"
+      }
+    },
+    {
+      "name": "Chennai development center (Maraimalai Nagar)",
+      "place": "Chennai, Tamil Nadu",
+      "state": null,
+      "iso2": "IN",
+      "type": "development center",
+      "description": "Software development facility: 3,639,091 sq ft of buildings (owned) on 5,617,084 sq ft of land (leased); seating capacity 20,245.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 4.D Property, plant and equipment (most significant owned and leased properties)",
+        "quote": "Chennai (Maraimalai Nagar), Tamil Nadu 3,639,091 20,245 Owned 5,617,084 Leased"
+      }
+    },
+    {
+      "name": "Hyderabad development center (Manikonda Village)",
+      "place": "Hyderabad",
+      "state": null,
+      "iso2": "IN",
+      "type": "development center",
+      "description": "Software development facility: 2,018,050 sq ft of buildings (owned) on 2,194,997 sq ft of land (owned); seating capacity 12,921.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 4.D Property, plant and equipment (most significant owned and leased properties)",
+        "quote": "Hyderabad (Manikonda Village), Andhra Pradesh 2,018,050 12,921 Owned 2,194,997 Owned"
+      }
+    },
+    {
+      "name": "Thiruvananthapuram development center",
+      "place": "Thiruvananthapuram, Kerala",
+      "state": null,
+      "iso2": "IN",
+      "type": "development center",
+      "description": "Software development facility: 2,739,655 sq ft of buildings (owned) on 2,184,543 sq ft of land (leased); seating capacity 10,735.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 4.D Property, plant and equipment (most significant owned and leased properties)",
+        "quote": "Thiruvananthapuram, Attipura Village, Kerala 2,739,655 10,735 Owned 2,184,543 Leased"
+      }
+    },
+    {
+      "name": "Mangalore development center",
+      "place": "Mangalore, Karnataka",
+      "state": null,
+      "iso2": "IN",
+      "type": "development center",
+      "description": "Software development facility: 2,307,393 sq ft of buildings (owned) on 15,747,394 sq ft of land (owned); seating capacity 6,715.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 4.D Property, plant and equipment (most significant owned and leased properties)",
+        "quote": "Mangalore (Pajeeru and Kairangala Village), Karnataka 2,307,393 6,715 Owned 15,747,394 Owned"
+      }
+    },
+    {
+      "name": "Bhubaneswar development center (Chandaka Industrial Park)",
+      "place": "Bhubaneswar, Odisha",
+      "state": null,
+      "iso2": "IN",
+      "type": "development center",
+      "description": "Software development facility: 1,375,898 sq ft of buildings (owned) on 1,999,455 sq ft of land (leased); seating capacity 4,383.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 4.D Property, plant and equipment (most significant owned and leased properties)",
+        "quote": "Bhubaneswar (Chandaka Industrial Park), Orissa 1,375,898 4,383 Owned 1,999,455 Leased"
+      }
+    },
+    {
+      "name": "Chandigarh SEZ campus",
+      "place": "Chandigarh",
+      "state": null,
+      "iso2": "IN",
+      "type": "development center",
+      "description": "Software development facility: 1,135,580 sq ft of buildings (owned) on 1,316,388 sq ft of land (leased); seating capacity 6,134.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 4.D Property, plant and equipment (most significant owned and leased properties)",
+        "quote": "Chandigarh (SEZ Campus) 1,135,580 6,134 Owned 1,316,388 Leased"
+      }
+    },
+    {
+      "name": "Indianapolis facility",
+      "place": "Indianapolis, IN",
+      "state": "IN",
+      "iso2": "US",
+      "type": "development center",
+      "description": "Owned building of 170,200 sq ft on 2,362,573 sq ft of owned land; seating capacity 842.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 4.D Property, plant and equipment (most significant owned and leased properties)",
+        "quote": "Indianapolis USA 170,200 842 Owned 2,362,573 Owned"
+      }
+    },
+    {
+      "name": "Infosys Technologies (Shanghai)",
+      "place": "Shanghai",
+      "state": null,
+      "iso2": "CN",
+      "type": "development center",
+      "description": "Owned building of 1,057,985 sq ft on 657,403 sq ft of land (a land use right); seating capacity 4,765.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000095017025091925/infy-20250331.htm",
+        "label": "FY2025 Form 20-F, Item 4.D Property, plant and equipment (most significant owned and leased properties)",
+        "quote": "Shanghai Infosys Technologies (Shanghai) Co. Ltd (1) 1,057,985 4,765 Owned 657,403 Leased"
+      }
+    }
+  ],
+  "notes": "The FY2025 20-F (year ended March 31, 2025) gives employees for India (250,553), the Americas (34,388), Europe (20,701) and the rest of the world (17,936). No single-country figure outside India, and no U.S. state breakdown, is given. The annual report PDF on infosys.com returned HTTP 403 to automated requests, so the SEC copy of the 20-F was used. Sites come from the 20-F table of most significant properties (buildings over 500,000 sq ft or land over 440,000 sq ft), in this column order: location, building sq ft, seating capacity, ownership, land sq ft, ownership. The 20-F says Infosys has a presence in 292 locations across 59 countries. The 20-F lists Hyderabad under Andhra Pradesh; it is now in Telangana, so place omits the state.",
+  "researchedAt": "2026-11-23"
+}

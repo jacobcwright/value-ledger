@@ -1,0 +1,1488 @@
+{
+  "id": "arthur-blank",
+  "company": "Home Depot",
+  "metrics": {
+    "stores": {
+      "label": "Stores",
+      "unit": "count",
+      "period": "end of fiscal 2024 (Feb 2, 2025)",
+      "tier": "filing",
+      "definition": "Home Depot store locations within the Primary segment, as tabulated in 10-K Item 2 (U.S. includes Puerto Rico, the U.S. Virgin Islands and Guam)."
+    },
+    "employees": {
+      "label": "Associates",
+      "unit": "people",
+      "period": "end of fiscal 2024 (Feb 2, 2025)",
+      "tier": "filing",
+      "definition": "Associates (salaried and hourly) by geographic location, from the 10-K Human Capital workforce table; company total approximately 470,100."
+    }
+  },
+  "usStates": [
+    {
+      "state": "AL",
+      "values": {
+        "stores": 28
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Alabama | 28 | Kentucky | 14 | Ohio | 70"
+      }
+    },
+    {
+      "state": "KY",
+      "values": {
+        "stores": 14
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Alabama | 28 | Kentucky | 14 | Ohio | 70"
+      }
+    },
+    {
+      "state": "OH",
+      "values": {
+        "stores": 70
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Alabama | 28 | Kentucky | 14 | Ohio | 70"
+      }
+    },
+    {
+      "state": "AK",
+      "values": {
+        "stores": 7
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Alaska | 7 | Louisiana | 28 | Oklahoma | 16"
+      }
+    },
+    {
+      "state": "LA",
+      "values": {
+        "stores": 28
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Alaska | 7 | Louisiana | 28 | Oklahoma | 16"
+      }
+    },
+    {
+      "state": "OK",
+      "values": {
+        "stores": 16
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Alaska | 7 | Louisiana | 28 | Oklahoma | 16"
+      }
+    },
+    {
+      "state": "AZ",
+      "values": {
+        "stores": 59
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Arizona | 59 | Maine | 11 | Oregon | 27"
+      }
+    },
+    {
+      "state": "ME",
+      "values": {
+        "stores": 11
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Arizona | 59 | Maine | 11 | Oregon | 27"
+      }
+    },
+    {
+      "state": "OR",
+      "values": {
+        "stores": 27
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Arizona | 59 | Maine | 11 | Oregon | 27"
+      }
+    },
+    {
+      "state": "AR",
+      "values": {
+        "stores": 14
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Arkansas | 14 | Maryland | 41 | Pennsylvania | 71"
+      }
+    },
+    {
+      "state": "MD",
+      "values": {
+        "stores": 41
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Arkansas | 14 | Maryland | 41 | Pennsylvania | 71"
+      }
+    },
+    {
+      "state": "PA",
+      "values": {
+        "stores": 71
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Arkansas | 14 | Maryland | 41 | Pennsylvania | 71"
+      }
+    },
+    {
+      "state": "CA",
+      "values": {
+        "stores": 247
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "California | 247 | Massachusetts | 45 | Puerto Rico | 10"
+      }
+    },
+    {
+      "state": "MA",
+      "values": {
+        "stores": 45
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "California | 247 | Massachusetts | 45 | Puerto Rico | 10"
+      }
+    },
+    {
+      "state": "CO",
+      "values": {
+        "stores": 46
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Colorado | 46 | Michigan | 70 | Rhode Island | 8"
+      }
+    },
+    {
+      "state": "MI",
+      "values": {
+        "stores": 70
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Colorado | 46 | Michigan | 70 | Rhode Island | 8"
+      }
+    },
+    {
+      "state": "RI",
+      "values": {
+        "stores": 8
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Colorado | 46 | Michigan | 70 | Rhode Island | 8"
+      }
+    },
+    {
+      "state": "CT",
+      "values": {
+        "stores": 30
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Connecticut | 30 | Minnesota | 33 | South Carolina | 26"
+      }
+    },
+    {
+      "state": "MN",
+      "values": {
+        "stores": 33
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Connecticut | 30 | Minnesota | 33 | South Carolina | 26"
+      }
+    },
+    {
+      "state": "SC",
+      "values": {
+        "stores": 26
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Connecticut | 30 | Minnesota | 33 | South Carolina | 26"
+      }
+    },
+    {
+      "state": "DE",
+      "values": {
+        "stores": 9
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Delaware | 9 | Mississippi | 14 | South Dakota | 1"
+      }
+    },
+    {
+      "state": "MS",
+      "values": {
+        "stores": 14
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Delaware | 9 | Mississippi | 14 | South Dakota | 1"
+      }
+    },
+    {
+      "state": "SD",
+      "values": {
+        "stores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Delaware | 9 | Mississippi | 14 | South Dakota | 1"
+      }
+    },
+    {
+      "state": "DC",
+      "values": {
+        "stores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "District of Columbia | 1 | Missouri | 34 | Tennessee | 39"
+      }
+    },
+    {
+      "state": "MO",
+      "values": {
+        "stores": 34
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "District of Columbia | 1 | Missouri | 34 | Tennessee | 39"
+      }
+    },
+    {
+      "state": "TN",
+      "values": {
+        "stores": 39
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "District of Columbia | 1 | Missouri | 34 | Tennessee | 39"
+      }
+    },
+    {
+      "state": "FL",
+      "values": {
+        "stores": 161
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Florida | 161 | Montana | 6 | Texas | 187"
+      }
+    },
+    {
+      "state": "MT",
+      "values": {
+        "stores": 6
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Florida | 161 | Montana | 6 | Texas | 187"
+      }
+    },
+    {
+      "state": "TX",
+      "values": {
+        "stores": 187
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Florida | 161 | Montana | 6 | Texas | 187"
+      }
+    },
+    {
+      "state": "GA",
+      "values": {
+        "stores": 90
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Georgia | 90 | Nebraska | 8 | Utah | 24"
+      }
+    },
+    {
+      "state": "NE",
+      "values": {
+        "stores": 8
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Georgia | 90 | Nebraska | 8 | Utah | 24"
+      }
+    },
+    {
+      "state": "UT",
+      "values": {
+        "stores": 24
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Georgia | 90 | Nebraska | 8 | Utah | 24"
+      }
+    },
+    {
+      "state": "NV",
+      "values": {
+        "stores": 21
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Guam | 1 | Nevada | 21 | Vermont | 3"
+      }
+    },
+    {
+      "state": "VT",
+      "values": {
+        "stores": 3
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Guam | 1 | Nevada | 21 | Vermont | 3"
+      }
+    },
+    {
+      "state": "HI",
+      "values": {
+        "stores": 8
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Hawaii | 8 | New Hampshire | 20 | Virgin Islands | 2"
+      }
+    },
+    {
+      "state": "NH",
+      "values": {
+        "stores": 20
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Hawaii | 8 | New Hampshire | 20 | Virgin Islands | 2"
+      }
+    },
+    {
+      "state": "ID",
+      "values": {
+        "stores": 11
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Idaho | 11 | New Jersey | 67 | Virginia | 50"
+      }
+    },
+    {
+      "state": "NJ",
+      "values": {
+        "stores": 67
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Idaho | 11 | New Jersey | 67 | Virginia | 50"
+      }
+    },
+    {
+      "state": "VA",
+      "values": {
+        "stores": 50
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Idaho | 11 | New Jersey | 67 | Virginia | 50"
+      }
+    },
+    {
+      "state": "IL",
+      "values": {
+        "stores": 76
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Illinois | 76 | New Mexico | 13 | Washington | 47"
+      }
+    },
+    {
+      "state": "NM",
+      "values": {
+        "stores": 13
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Illinois | 76 | New Mexico | 13 | Washington | 47"
+      }
+    },
+    {
+      "state": "WA",
+      "values": {
+        "stores": 47
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Illinois | 76 | New Mexico | 13 | Washington | 47"
+      }
+    },
+    {
+      "state": "IN",
+      "values": {
+        "stores": 24
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Indiana | 24 | New York | 101 | West Virginia | 6"
+      }
+    },
+    {
+      "state": "NY",
+      "values": {
+        "stores": 101
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Indiana | 24 | New York | 101 | West Virginia | 6"
+      }
+    },
+    {
+      "state": "WV",
+      "values": {
+        "stores": 6
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Indiana | 24 | New York | 101 | West Virginia | 6"
+      }
+    },
+    {
+      "state": "IA",
+      "values": {
+        "stores": 10
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Iowa | 10 | North Carolina | 40 | Wisconsin | 27"
+      }
+    },
+    {
+      "state": "NC",
+      "values": {
+        "stores": 40
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Iowa | 10 | North Carolina | 40 | Wisconsin | 27"
+      }
+    },
+    {
+      "state": "WI",
+      "values": {
+        "stores": 27
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Iowa | 10 | North Carolina | 40 | Wisconsin | 27"
+      }
+    },
+    {
+      "state": "KS",
+      "values": {
+        "stores": 16
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Kansas | 16 | North Dakota | 2 | Wyoming | 5"
+      }
+    },
+    {
+      "state": "ND",
+      "values": {
+        "stores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Kansas | 16 | North Dakota | 2 | Wyoming | 5"
+      }
+    },
+    {
+      "state": "WY",
+      "values": {
+        "stores": 5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Kansas | 16 | North Dakota | 2 | Wyoming | 5"
+      }
+    }
+  ],
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "stores": 2025,
+        "employees": 419600
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2 store tables and Item 1 workforce table",
+        "quote": "Total U.S. | 2,025 … United States | 419,600 | 89.3 | %"
+      }
+    },
+    {
+      "iso2": "CA",
+      "name": "Canada",
+      "values": {
+        "stores": 182,
+        "employees": 32000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2 store tables and Item 1 workforce table",
+        "quote": "Total Canada | 182 … Canada | 32,000 | 6.8 | %"
+      }
+    },
+    {
+      "iso2": "MX",
+      "name": "Mexico",
+      "values": {
+        "stores": 140,
+        "employees": 18200
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2 store tables and Item 1 workforce table",
+        "quote": "Total Mexico | 140 … Mexico | 18,200 | 3.9 | %"
+      }
+    },
+    {
+      "iso2": "PR",
+      "name": "Puerto Rico",
+      "values": {
+        "stores": 10
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "California | 247 | Massachusetts | 45 | Puerto Rico | 10"
+      }
+    },
+    {
+      "iso2": "GU",
+      "name": "Guam",
+      "values": {
+        "stores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Guam | 1 | Nevada | 21 | Vermont | 3"
+      }
+    },
+    {
+      "iso2": "VI",
+      "name": "U.S. Virgin Islands",
+      "values": {
+        "stores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, U.S. store locations",
+        "quote": "Hawaii | 8 | New Hampshire | 20 | Virgin Islands | 2"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Alberta, Canada",
+      "countries": [
+        "CA"
+      ],
+      "values": {
+        "stores": 27
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Alberta | 27 | Aguascalientes | 2 | Nayarit | 1"
+      }
+    },
+    {
+      "name": "Aguascalientes, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Alberta | 27 | Aguascalientes | 2 | Nayarit | 1"
+      }
+    },
+    {
+      "name": "Nayarit, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Alberta | 27 | Aguascalientes | 2 | Nayarit | 1"
+      }
+    },
+    {
+      "name": "British Columbia, Canada",
+      "countries": [
+        "CA"
+      ],
+      "values": {
+        "stores": 26
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "British Columbia | 26 | Baja California | 8 | Nuevo León | 14"
+      }
+    },
+    {
+      "name": "Baja California, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 8
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "British Columbia | 26 | Baja California | 8 | Nuevo León | 14"
+      }
+    },
+    {
+      "name": "Nuevo León, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 14
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "British Columbia | 26 | Baja California | 8 | Nuevo León | 14"
+      }
+    },
+    {
+      "name": "Manitoba, Canada",
+      "countries": [
+        "CA"
+      ],
+      "values": {
+        "stores": 6
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Manitoba | 6 | Baja California Sur | 2 | Oaxaca | 1"
+      }
+    },
+    {
+      "name": "Baja California Sur, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Manitoba | 6 | Baja California Sur | 2 | Oaxaca | 1"
+      }
+    },
+    {
+      "name": "Oaxaca, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Manitoba | 6 | Baja California Sur | 2 | Oaxaca | 1"
+      }
+    },
+    {
+      "name": "New Brunswick, Canada",
+      "countries": [
+        "CA"
+      ],
+      "values": {
+        "stores": 3
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "New Brunswick | 3 | Campeche | 2 | Puebla | 5"
+      }
+    },
+    {
+      "name": "Campeche, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "New Brunswick | 3 | Campeche | 2 | Puebla | 5"
+      }
+    },
+    {
+      "name": "Puebla, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "New Brunswick | 3 | Campeche | 2 | Puebla | 5"
+      }
+    },
+    {
+      "name": "Newfoundland, Canada",
+      "countries": [
+        "CA"
+      ],
+      "values": {
+        "stores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Newfoundland | 1 | Chiapas | 2 | Querétaro | 6"
+      }
+    },
+    {
+      "name": "Chiapas, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Newfoundland | 1 | Chiapas | 2 | Querétaro | 6"
+      }
+    },
+    {
+      "name": "Querétaro, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 6
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Newfoundland | 1 | Chiapas | 2 | Querétaro | 6"
+      }
+    },
+    {
+      "name": "Nova Scotia, Canada",
+      "countries": [
+        "CA"
+      ],
+      "values": {
+        "stores": 4
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Nova Scotia | 4 | Chihuahua | 6 | Quintana Roo | 4"
+      }
+    },
+    {
+      "name": "Chihuahua, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 6
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Nova Scotia | 4 | Chihuahua | 6 | Quintana Roo | 4"
+      }
+    },
+    {
+      "name": "Quintana Roo, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 4
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Nova Scotia | 4 | Chihuahua | 6 | Quintana Roo | 4"
+      }
+    },
+    {
+      "name": "Ontario, Canada",
+      "countries": [
+        "CA"
+      ],
+      "values": {
+        "stores": 88
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Ontario | 88 | Coahuila | 5 | San Luis Potosí | 2"
+      }
+    },
+    {
+      "name": "Coahuila, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Ontario | 88 | Coahuila | 5 | San Luis Potosí | 2"
+      }
+    },
+    {
+      "name": "San Luis Potosí, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Ontario | 88 | Coahuila | 5 | San Luis Potosí | 2"
+      }
+    },
+    {
+      "name": "Prince Edward Island, Canada",
+      "countries": [
+        "CA"
+      ],
+      "values": {
+        "stores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Prince Edward Island | 1 | Colima | 2 | Sinaloa | 5"
+      }
+    },
+    {
+      "name": "Colima, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Prince Edward Island | 1 | Colima | 2 | Sinaloa | 5"
+      }
+    },
+    {
+      "name": "Sinaloa, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Prince Edward Island | 1 | Colima | 2 | Sinaloa | 5"
+      }
+    },
+    {
+      "name": "Quebec, Canada",
+      "countries": [
+        "CA"
+      ],
+      "values": {
+        "stores": 22
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Quebec | 22 | Distrito Federal | 11 | Sonora | 5"
+      }
+    },
+    {
+      "name": "Distrito Federal, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 11
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Quebec | 22 | Distrito Federal | 11 | Sonora | 5"
+      }
+    },
+    {
+      "name": "Sonora, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Quebec | 22 | Distrito Federal | 11 | Sonora | 5"
+      }
+    },
+    {
+      "name": "Saskatchewan, Canada",
+      "countries": [
+        "CA"
+      ],
+      "values": {
+        "stores": 4
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Saskatchewan | 4 | Durango | 2 | State of Mexico | 16"
+      }
+    },
+    {
+      "name": "Durango, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Saskatchewan | 4 | Durango | 2 | State of Mexico | 16"
+      }
+    },
+    {
+      "name": "State of Mexico, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 16
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Saskatchewan | 4 | Durango | 2 | State of Mexico | 16"
+      }
+    },
+    {
+      "name": "Guanajuato, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Total Canada | 182 | Guanajuato | 5 | Tabasco | 1"
+      }
+    },
+    {
+      "name": "Tabasco, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Total Canada | 182 | Guanajuato | 5 | Tabasco | 1"
+      }
+    },
+    {
+      "name": "Guerrero, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Guerrero | 2 | Tamaulipas | 5"
+      }
+    },
+    {
+      "name": "Tamaulipas, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Guerrero | 2 | Tamaulipas | 5"
+      }
+    },
+    {
+      "name": "Hidalgo, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Hidalgo | 1 | Tlaxcala | 1"
+      }
+    },
+    {
+      "name": "Tlaxcala, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Hidalgo | 1 | Tlaxcala | 1"
+      }
+    },
+    {
+      "name": "Jalisco, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 9
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Jalisco | 9 | Veracruz | 5"
+      }
+    },
+    {
+      "name": "Veracruz, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Jalisco | 9 | Veracruz | 5"
+      }
+    },
+    {
+      "name": "Michoacán, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 4
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Michoacán | 4 | Yucatán | 2"
+      }
+    },
+    {
+      "name": "Yucatán, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Michoacán | 4 | Yucatán | 2"
+      }
+    },
+    {
+      "name": "Morelos, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 3
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Morelos | 3 | Zacatecas | 1"
+      }
+    },
+    {
+      "name": "Zacatecas, Mexico",
+      "countries": [
+        "MX"
+      ],
+      "values": {
+        "stores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2, store locations outside the U.S.",
+        "quote": "Morelos | 3 | Zacatecas | 1"
+      }
+    },
+    {
+      "name": "Other (sourcing organization)",
+      "countries": [
+        "CN",
+        "VN",
+        "IN",
+        "TW",
+        "IT",
+        "PL",
+        "TR"
+      ],
+      "values": {
+        "employees": 300
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 1, workforce table",
+        "quote": "Other (1) | 300 | 0.1 | % … (1) Includes associates in our sourcing organization located in China, Vietnam, India, Taiwan, Italy, Poland and Türkiye."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Store Support Center",
+      "place": "Atlanta, GA",
+      "state": "GA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Our Store Support Center (corporate headquarters) is located in Atlanta, GA.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Our Store Support Center (corporate headquarters) is located in Atlanta, GA."
+      }
+    }
+  ],
+  "notes": "All figures from the FY2024 Form 10-K (fiscal year ended Feb 2, 2025). usStates covers the 50 states and DC (2,012 stores); the 10-K's 'Total U.S.' of 2,025 also includes Puerto Rico (10), the U.S. Virgin Islands (2) and Guam (1), which are listed as their own ISO rows in countries. The US country row repeats the filing's U.S. total, so do not add the PR/VI/GU rows to it. regions holds Canadian provinces and Mexican states (filing tables, countries = the parent country) plus the 'Other' sourcing-organization associates, whose countries the 10-K footnote names; these are subdivisions, not additive to the country rows. Associates by state are not published. Beyond the Atlanta HQ, the 10-K gives only counts (over 500 distribution and fulfillment centers and warehouses, over 780 SRS branch locations) without locations.",
+  "researchedAt": "2026-11-23"
+}

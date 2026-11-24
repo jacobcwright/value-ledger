@@ -1,0 +1,200 @@
+{
+  "id": "brian-l-roberts",
+  "company": "Comcast",
+  "metrics": {
+    "employeesShare": {
+      "label": "Share of employees",
+      "unit": "percent",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Share of Comcast's approximately 182,000 full-time and part-time employees (full-time equivalent basis) located outside the United States, 10-K Human Capital."
+    }
+  },
+  "usStates": null,
+  "countries": null,
+  "regions": [
+    {
+      "name": "Outside the United States (over 30 countries)",
+      "countries": null,
+      "values": {
+        "employeesShare": 30
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1, Human Capital",
+        "quote": "Approximately 30% of our employees were located in over 30 countries outside the United States, with larger workforce concentrations in the United Kingdom, Western Europe, East Asia and South Asia."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "One Comcast Center",
+      "place": "Philadelphia, PA",
+      "state": "PA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "We own our corporate headquarters, which is located in Philadelphia, Pennsylvania at One Comcast Center.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "We own our corporate headquarters, which is located in Philadelphia, Pennsylvania at One Comcast Center."
+      }
+    },
+    {
+      "name": "Comcast Technology Center",
+      "place": "Philadelphia, PA",
+      "state": "PA",
+      "iso2": "US",
+      "type": "campus",
+      "description": "A center for our technology and engineering workforce located adjacent to the Comcast Center",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "We also own the Comcast Technology Center, which is a center for our technology and engineering workforce located adjacent to the Comcast Center"
+      }
+    },
+    {
+      "name": "Sky headquarters",
+      "place": "Middlesex, United Kingdom",
+      "iso2": "GB",
+      "type": "headquarters",
+      "description": "Our Sky headquarters, located in Middlesex, United Kingdom (owned)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "our Sky headquarters, located in Middlesex, United Kingdom"
+      }
+    },
+    {
+      "name": "30 Rockefeller Plaza",
+      "place": "New York, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Content & Experiences business and NBCUniversal headquarters, with offices and studios used by the Media segment",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "Our Content & Experiences business and NBCUniversal headquarters are located in New York, New York at 30 Rockefeller Plaza and its surrounding campus"
+      }
+    },
+    {
+      "name": "Universal City",
+      "place": "Los Angeles, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "studio",
+      "description": "Principal location supporting Media segment operations",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "as well as our Universal City location in Los Angeles, California"
+      }
+    },
+    {
+      "name": "Telemundo headquarters",
+      "place": "Miami, FL",
+      "state": "FL",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Leased Telemundo headquarters and production facilities",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "our leased Telemundo headquarters and production facilities in Miami, Florida"
+      }
+    },
+    {
+      "name": "CNBC headquarters",
+      "place": "Englewood Cliffs, NJ",
+      "state": "NJ",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Owned CNBC headquarters and production facilities",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "our owned CNBC headquarters and production facilities located in Englewood Cliffs, New Jersey"
+      }
+    },
+    {
+      "name": "NBC Sports headquarters",
+      "place": "Stamford, CT",
+      "state": "CT",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Leased NBC Sports headquarters and production facilities",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "our leased NBC Sports headquarters and production facilities in Stamford, Connecticut"
+      }
+    },
+    {
+      "name": "Universal Orlando Resort",
+      "place": "Orlando, FL",
+      "state": "FL",
+      "iso2": "US",
+      "type": "theme park",
+      "description": "Two theme parks, Universal Studios Florida and Islands of Adventure, and the Volcano Bay water park; Epic Universe expected to open in May 2025",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1, Theme Parks segment",
+        "quote": "Universal Orlando Resort: Includes two theme parks, Universal Studios Florida and Islands of Adventure, and our water park, Volcano Bay, all of which are located in Orlando, Florida."
+      }
+    },
+    {
+      "name": "Universal Studios Hollywood",
+      "place": "Hollywood, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "theme park",
+      "description": "Universal Studios Hollywood theme park and Universal CityWalk Hollywood",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1, Theme Parks segment",
+        "quote": "Universal Studios Hollywood: Includes the Universal Studios Hollywood theme park located in Hollywood, California and Universal CityWalk Hollywood"
+      }
+    },
+    {
+      "name": "Universal Studios Japan",
+      "place": "Osaka, Japan",
+      "iso2": "JP",
+      "type": "theme park",
+      "description": "Universal Studios Japan theme park located in Osaka, Japan",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1, Theme Parks segment",
+        "quote": "Universal Studios Japan: Includes the Universal Studios Japan theme park located in Osaka, Japan."
+      }
+    },
+    {
+      "name": "Universal Beijing Resort",
+      "place": "Beijing, China",
+      "iso2": "CN",
+      "type": "theme park",
+      "description": "Universal Studios Beijing theme park, CityWalk and hotels, owned with a consortium of Chinese state-owned companies",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1, Theme Parks segment",
+        "quote": "Universal Beijing Resort is owned by us and a consortium of Chinese state-owned companies"
+      }
+    }
+  ],
+  "notes": "Comcast's FY2024 10-K gives no employee, store or network figures by state or country. The only geographic workforce figure is that approximately 30% of its ~182,000 employees (FTE basis) were in over 30 countries outside the U.S., recorded as one region; the filing names the UK, Western Europe, East Asia and South Asia as larger concentrations without numbers. Sites are those Item 2 (Properties) and the Theme Parks segment description name. A web search for Comcast state impact pages found only older, partial state fact sheets (e.g. Utah 2016, New Mexico 2017), which were not opened; no state rows are recorded. Period: Dec 31, 2024.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,314 @@
+{
+  "id": "lee-jae-yong",
+  "company": "Samsung Electronics",
+  "metrics": {
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "2024 (year-end)",
+      "tier": "company-published",
+      "definition": "Number of employees by region, Sustainability Report 2025 Facts & Figures (company total 262,647); regional classification per Samsung's internal management criteria."
+    },
+    "taxShare": {
+      "label": "Share of taxes and public duties",
+      "unit": "percent",
+      "period": "2024",
+      "tier": "company-published",
+      "definition": "Share of 'taxes and public duties by region' (KRW 8.2 trillion in 2024; corporate taxes on a cash-flow basis plus other taxes and public duties), Sustainability Report 2025 economic value distributed."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "KR",
+      "name": "South Korea",
+      "values": {
+        "employees": 125297,
+        "taxShare": 36.6
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.samsung.com/global/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2025_ENG.pdf",
+        "label": "Sustainability Report 2025, Facts & Figures, employees by region and taxes and public duties by region",
+        "quote": "Korea Individuals 117,927 120,756 125,297 … Taxes and public duties by region KRW 1 trillion 13.0 8.2 8.2 … Korea % 74.0 58.1 36.6"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Asia (Southeast Asia, Southwest Asia, China, Japan)",
+      "countries": null,
+      "values": {
+        "employees": 95501
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.samsung.com/global/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2025_ENG.pdf",
+        "label": "Sustainability Report 2025, Facts & Figures, number of employees by region",
+        "quote": "Asia (Southeast Asia, Southwest Asia, China, Japan) Individuals 106,790 100,938 95,501"
+      }
+    },
+    {
+      "name": "North America and Latin America",
+      "countries": null,
+      "values": {
+        "employees": 25100
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.samsung.com/global/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2025_ENG.pdf",
+        "label": "Sustainability Report 2025, Facts & Figures, number of employees by region",
+        "quote": "North America and Latin America Individuals 27,166 27,882 25,100"
+      }
+    },
+    {
+      "name": "Europe",
+      "countries": null,
+      "values": {
+        "employees": 11500
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.samsung.com/global/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2025_ENG.pdf",
+        "label": "Sustainability Report 2025, Facts & Figures, number of employees by region",
+        "quote": "Europe Individuals 11,709 12,001 11,500"
+      }
+    },
+    {
+      "name": "CIS (Commonwealth of Independent States)",
+      "countries": null,
+      "values": {
+        "employees": 788
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.samsung.com/global/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2025_ENG.pdf",
+        "label": "Sustainability Report 2025, Facts & Figures, number of employees by region",
+        "quote": "CIS (Commonwealth of Independent States) Individuals 1,756 1,611 788"
+      }
+    },
+    {
+      "name": "Middle East and Africa",
+      "countries": null,
+      "values": {
+        "employees": 4461
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.samsung.com/global/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2025_ENG.pdf",
+        "label": "Sustainability Report 2025, Facts & Figures, number of employees by region",
+        "quote": "Middle East and Africa Individuals 4,930 4,672 4,461"
+      }
+    },
+    {
+      "name": "Asia (tax region)",
+      "countries": null,
+      "values": {
+        "taxShare": 21.2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.samsung.com/global/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2025_ENG.pdf",
+        "label": "Sustainability Report 2025, Facts & Figures, economic value distributed, taxes and public duties by region",
+        "quote": "Taxes and public duties by region KRW 1 trillion 13.0 8.2 8.2 … Asia % 11.0 19.1 21.2"
+      }
+    },
+    {
+      "name": "Americas and Europe",
+      "countries": null,
+      "values": {
+        "taxShare": 40.7
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.samsung.com/global/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2025_ENG.pdf",
+        "label": "Sustainability Report 2025, Facts & Figures, economic value distributed, taxes and public duties by region",
+        "quote": "Taxes and public duties by region KRW 1 trillion 13.0 8.2 8.2 … Americas and Europe % 14.0 21.5 40.7"
+      }
+    },
+    {
+      "name": "Others (tax region)",
+      "countries": null,
+      "values": {
+        "taxShare": 1.5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.samsung.com/global/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2025_ENG.pdf",
+        "label": "Sustainability Report 2025, Facts & Figures, economic value distributed, taxes and public duties by region",
+        "quote": "Taxes and public duties by region KRW 1 trillion 13.0 8.2 8.2 … Others % 1.0 1.3 1.5"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Head office",
+      "place": "Suwon, Gyeonggi-do",
+      "iso2": "KR",
+      "type": "headquarters",
+      "description": "The Company's head office is located at 129, Samsung-ro, Yeongtong-gu, Suwon, Gyeonggi-do.",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "2024 Business Report (FY2024, English), company overview",
+        "quote": "The Company’s head office is located at 129, Samsung-ro, Yeongtong-gu, Suwon, Gyeonggi-do."
+      }
+    },
+    {
+      "name": "Pyeongtaek campus",
+      "place": "Pyeongtaek, Gyeonggi-do",
+      "iso2": "KR",
+      "type": "semiconductor fab",
+      "description": "Pyeongtaek Line 2 started operation in 2020, 'the world's largest semiconductor line'",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "2024 Business Report (FY2024, English), company history",
+        "quote": "Started operation of Pyeongtaek Line 2, the world’s largest semiconductor line"
+      }
+    },
+    {
+      "name": "Hwaseong campus",
+      "place": "Hwaseong, Gyeonggi-do",
+      "iso2": "KR",
+      "type": "operations site",
+      "description": "Korean operations site",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "2024 Business Report (FY2024, English), key facilities for production and operation",
+        "quote": "In Korea, operations are located in Suwon, Gumi, Gwangju, Hwaseong, Pyeongtaek, and Asan."
+      }
+    },
+    {
+      "name": "Giheung campus",
+      "place": "Yongin, Gyeonggi-do",
+      "iso2": "KR",
+      "type": "operations site",
+      "description": "One of the locations of Samsung's Division and Business headquarters",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "2024 Business Report (FY2024, English), company overview",
+        "quote": "The headquarters is divided along Divisions and/or Businesses, which are located in Suwon, Gumi, Gwangju, Giheung, Hwaseong, Pyeongtaek, etc."
+      }
+    },
+    {
+      "name": "Gumi",
+      "place": "Gumi, Gyeongsangbuk-do",
+      "iso2": "KR",
+      "type": "operations site",
+      "description": "Korean operations site",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "2024 Business Report (FY2024, English), key facilities for production and operation",
+        "quote": "In Korea, operations are located in Suwon, Gumi, Gwangju, Hwaseong, Pyeongtaek, and Asan."
+      }
+    },
+    {
+      "name": "Gwangju",
+      "place": "Gwangju",
+      "iso2": "KR",
+      "type": "operations site",
+      "description": "Korean operations site",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "2024 Business Report (FY2024, English), key facilities for production and operation",
+        "quote": "In Korea, operations are located in Suwon, Gumi, Gwangju, Hwaseong, Pyeongtaek, and Asan."
+      }
+    },
+    {
+      "name": "Samsung Austin Semiconductor (SAS)",
+      "place": "Austin, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "semiconductor fab",
+      "description": "SAS (Texas; manufacturing of semiconductor products)",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "2024 Business Report (FY2024, English), overseas subsidiaries",
+        "quote": "SAS (Texas; manufacturing of semiconductor products)"
+      }
+    },
+    {
+      "name": "Taylor foundry site",
+      "place": "Taylor, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "semiconductor fab (announced)",
+      "description": "Announced investment in a new foundry production site in Taylor, Texas, USA (2021)",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "2024 Business Report (FY2024, English), company history",
+        "quote": "Announced investment in a new foundry production site in Taylor, Texas, USA"
+      }
+    },
+    {
+      "name": "Samsung China Semiconductor (SCS)",
+      "place": "Xi'an, China",
+      "iso2": "CN",
+      "type": "semiconductor fab",
+      "description": "semiconductor production facilities are located in SCS (Xian)",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "2024 Business Report (FY2024, English), overseas subsidiaries",
+        "quote": "semiconductor production facilities are located in SCS (Xian) among others"
+      }
+    },
+    {
+      "name": "SEV and SEVT",
+      "place": "Vietnam",
+      "iso2": "VN",
+      "type": "factory",
+      "description": "SEV and SEVT (Vietnam) for smartphones; SEHC (Vietnam) for TVs; SDV (Vietnam) for display panels",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "2024 Business Report (FY2024, English), overseas subsidiaries",
+        "quote": "SEV and SEVT (Vietnam) for smartphones, SEHC (Vietnam) for TVs, SDV (Vietnam) for display panels, and SIEL (India) for multiple products"
+      }
+    },
+    {
+      "name": "SIEL",
+      "place": "India",
+      "iso2": "IN",
+      "type": "factory",
+      "description": "SIEL (India) for multiple products",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "2024 Business Report (FY2024, English), overseas subsidiaries",
+        "quote": "SEV and SEVT (Vietnam) for smartphones, SEHC (Vietnam) for TVs, SDV (Vietnam) for display panels, and SIEL (India) for multiple products"
+      }
+    },
+    {
+      "name": "SEDA",
+      "place": "Brazil",
+      "iso2": "BR",
+      "type": "factory",
+      "description": "SEDA (Brazil; manufacturing of multiple finished products)",
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "2024 Business Report (FY2024, English), overseas subsidiaries",
+        "quote": "SEDA (Brazil; manufacturing of multiple finished products)"
+      }
+    }
+  ],
+  "notes": "Employees by region from the Sustainability Report 2025 (2024 column; the quoted rows also show 2022 and 2023). The Korea row is the only single-country figure; the other regions are Samsung's own groupings (Asia covers Southeast Asia, Southwest Asia, China and Japan) and no country list is given, so countries is null for them. Regional rows sum to the company total of 262,647; they exclude 59,693 non-Samsung Electronics workers reported separately. Samsung says it owns 240 manufacturing sites, sales offices, R&D centers and design centers in total, 33 of them manufacturing sites (Sustainability Report 2025), but no per-country site count. The Business Report names major production sites by product: smartphones at Gumi (plus Vietnam, India and Brazil) and memory at Hwaseong, Pyeongtaek and other Korean sites plus China. Sites come from the FY2024 Business Report (company-hosted English translation of the DART filing); the Taylor, Texas foundry is recorded only as the 2021 investment announcement the report describes. Taxes: Samsung publishes the regional split of taxes and public duties (2024: Korea 36.6%, Americas and Europe 40.7%, Asia 21.2%, others 1.5% of KRW 8.2 trillion); those tax regions are a different grouping from the employee regions and are listed as separate rows. No U.S. state data.",
+  "researchedAt": "2026-11-23"
+}

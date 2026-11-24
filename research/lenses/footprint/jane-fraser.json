@@ -1,0 +1,261 @@
+{
+  "id": "jane-fraser",
+  "company": "Citigroup",
+  "metrics": {
+    "branches": {
+      "label": "Bank offices (FDIC Summary of Deposits)",
+      "unit": "count",
+      "period": "as of June 30, 2024 (2024 Summary of Deposits survey)",
+      "tier": "regulator",
+      "definition": "Number of insured-bank office records (main office plus branches) reported in the FDIC Summary of Deposits for Citibank, N.A. (FDIC cert 7213), Citigroup's only FDIC-insured bank charter, aggregated by branch state (STALPBR) by the FDIC BankFind API ('count')."
+    },
+    "deposits": {
+      "label": "Deposits held in offices in the state (FDIC Summary of Deposits)",
+      "unit": "currency-millions",
+      "currency": "USD",
+      "period": "as of June 30, 2024 (2024 Summary of Deposits survey)",
+      "tier": "regulator",
+      "definition": "Sum of branch-office deposits (DEPSUMBR, reported in $ thousands, converted to millions) for Citibank, N.A. (FDIC cert 7213), Citigroup's only FDIC-insured bank charter by branch state, as aggregated by the FDIC BankFind API ('sum_DEPSUMBR'). Deposits are assigned to the office where the bank books them, so main-office and booking-center states can be inflated relative to where depositors live."
+    },
+    "employees": {
+      "label": "Employees (thousands converted to people)",
+      "unit": "people",
+      "period": "as of December 31, 2024",
+      "tier": "filing",
+      "definition": "Geographic distribution of Citi's employees from the 2024 Form 10-K human capital table, reported in thousands. Footnotes: \"Employee distribution is based on business and region, which may not reflect where the employee physically resides\"; \"Mexico is included in International.\""
+    }
+  },
+  "usStates": [
+    {
+      "state": "CA",
+      "values": {
+        "branches": 271,
+        "deposits": 74517
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Citibank, N.A. cert 7213)",
+        "quote": "{\"STALPBR\":\"CA\",\"count\":271,\"sum_DEPSUMBR\":74517000} [deposits in $ thousands: 74,517,000 thousand = 74,517 million]"
+      }
+    },
+    {
+      "state": "CT",
+      "values": {
+        "branches": 12,
+        "deposits": 3105
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Citibank, N.A. cert 7213)",
+        "quote": "{\"STALPBR\":\"CT\",\"count\":12,\"sum_DEPSUMBR\":3105000} [deposits in $ thousands: 3,105,000 thousand = 3,105 million]"
+      }
+    },
+    {
+      "state": "DC",
+      "values": {
+        "branches": 14,
+        "deposits": 6604
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Citibank, N.A. cert 7213)",
+        "quote": "{\"STALPBR\":\"DC\",\"count\":14,\"sum_DEPSUMBR\":6604000} [deposits in $ thousands: 6,604,000 thousand = 6,604 million]"
+      }
+    },
+    {
+      "state": "DE",
+      "values": {
+        "branches": 1,
+        "deposits": 0
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Citibank, N.A. cert 7213)",
+        "quote": "{\"STALPBR\":\"DE\",\"count\":1,\"sum_DEPSUMBR\":0} [deposits in $ thousands: 0 thousand = 0 million]"
+      }
+    },
+    {
+      "state": "FL",
+      "values": {
+        "branches": 53,
+        "deposits": 23587
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Citibank, N.A. cert 7213)",
+        "quote": "{\"STALPBR\":\"FL\",\"count\":53,\"sum_DEPSUMBR\":23587000} [deposits in $ thousands: 23,587,000 thousand = 23,587 million]"
+      }
+    },
+    {
+      "state": "IL",
+      "values": {
+        "branches": 55,
+        "deposits": 14717
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Citibank, N.A. cert 7213)",
+        "quote": "{\"STALPBR\":\"IL\",\"count\":55,\"sum_DEPSUMBR\":14717000} [deposits in $ thousands: 14,717,000 thousand = 14,717 million]"
+      }
+    },
+    {
+      "state": "MD",
+      "values": {
+        "branches": 10,
+        "deposits": 2447
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Citibank, N.A. cert 7213)",
+        "quote": "{\"STALPBR\":\"MD\",\"count\":10,\"sum_DEPSUMBR\":2447000} [deposits in $ thousands: 2,447,000 thousand = 2,447 million]"
+      }
+    },
+    {
+      "state": "NJ",
+      "values": {
+        "branches": 8,
+        "deposits": 3168
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Citibank, N.A. cert 7213)",
+        "quote": "{\"STALPBR\":\"NJ\",\"count\":8,\"sum_DEPSUMBR\":3168000} [deposits in $ thousands: 3,168,000 thousand = 3,168 million]"
+      }
+    },
+    {
+      "state": "NV",
+      "values": {
+        "branches": 8,
+        "deposits": 1909
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Citibank, N.A. cert 7213)",
+        "quote": "{\"STALPBR\":\"NV\",\"count\":8,\"sum_DEPSUMBR\":1909000} [deposits in $ thousands: 1,909,000 thousand = 1,909 million]"
+      }
+    },
+    {
+      "state": "NY",
+      "values": {
+        "branches": 213,
+        "deposits": 111788
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Citibank, N.A. cert 7213)",
+        "quote": "{\"STALPBR\":\"NY\",\"count\":213,\"sum_DEPSUMBR\":111788000} [deposits in $ thousands: 111,788,000 thousand = 111,788 million]"
+      }
+    },
+    {
+      "state": "SD",
+      "values": {
+        "branches": 2,
+        "deposits": 463896
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Citibank, N.A. cert 7213)",
+        "quote": "{\"STALPBR\":\"SD\",\"count\":2,\"sum_DEPSUMBR\":463896000} [deposits in $ thousands: 463,896,000 thousand = 463,896 million]"
+      }
+    },
+    {
+      "state": "TX",
+      "values": {
+        "branches": 2,
+        "deposits": 30773
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Citibank, N.A. cert 7213)",
+        "quote": "{\"STALPBR\":\"TX\",\"count\":2,\"sum_DEPSUMBR\":30773000} [deposits in $ thousands: 30,773,000 thousand = 30,773 million]"
+      }
+    },
+    {
+      "state": "VA",
+      "values": {
+        "branches": 6,
+        "deposits": 2144
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A7213%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=100&limit=0",
+        "label": "FDIC BankFind Suite API, Summary of Deposits 2024, aggregated by branch state (Citibank, N.A. cert 7213)",
+        "quote": "{\"STALPBR\":\"VA\",\"count\":6,\"sum_DEPSUMBR\":2144000} [deposits in $ thousands: 2,144,000 thousand = 2,144 million]"
+      }
+    }
+  ],
+  "countries": null,
+  "regions": [
+    {
+      "name": "North America",
+      "countries": null,
+      "values": {
+        "employees": 86000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm",
+        "label": "Citigroup 2024 Form 10-K, Human Capital Resources and Management, employees by segment and region",
+        "quote": "(in thousands) | North America | International (3) | Total (4) … Total | 86 | 143 | 229 [North America: 86 thousand = 86,000 employees]"
+      }
+    },
+    {
+      "name": "International",
+      "countries": null,
+      "values": {
+        "employees": 143000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm",
+        "label": "Citigroup 2024 Form 10-K, Human Capital Resources and Management, employees by segment and region",
+        "quote": "(in thousands) | North America | International (3) | Total (4) … Total | 86 | 143 | 229 [International: 143 thousand = 143,000 employees]"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Citigroup headquarters",
+      "place": "New York, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "388 Greenwich Street, New York: address of principal executive offices.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100125000067/c-20241231.htm",
+        "label": "Citigroup 2024 Form 10-K, cover page",
+        "quote": "388 Greenwich Street, | New York | NY | 10013 | (Address of principal executive offices)"
+      }
+    }
+  ],
+  "notes": "State rows are the FDIC Summary of Deposits, June 30, 2024 survey, for Citibank, N.A. (cert 7213), aggregated server-side by the FDIC BankFind API by branch state. Citibank has SOD offices in 12 states plus DC. FDIC totals for the query: 657 offices and $743,363,000 thousand. Deposits follow booking office: South Dakota (main office, Sioux Falls) shows 2 offices with $463.9 billion, and Texas 2 offices with $30.8 billion, which reflect where deposits are booked, not where depositors are. Delaware shows 1 office with $0 deposits. Puerto Rico (2 offices) is in the FDIC response but is not a state; omitted. Regions: the 10-K human capital table splits ~229,000 employees into North America 86k and International 143k (Mexico in International; by business and region, not physical residence); the 10-K gives no country breakdown and no list of the region's countries. 10-K Item 2 Properties reads 'Not Applicable', so the only site is the headquarters from the cover page. Citi's per-country websites were not used (no consistent dated set).",
+  "researchedAt": "2026-11-23"
+}

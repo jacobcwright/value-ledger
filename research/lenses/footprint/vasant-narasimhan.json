@@ -1,0 +1,238 @@
+{
+  "id": "vasant-narasimhan",
+  "company": "Novartis",
+  "metrics": {
+    "employees": {
+      "label": "Employees (full-time equivalents)",
+      "unit": "people",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Total year-end number of full-time equivalent employees by geographic area, 20-F Item 6.D (company total 75 883)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "employees": 12603
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 6.D Employees (full-time equivalents, Dec 31, 2024)",
+        "quote": "USA | 5 179 | 5 083 | 1 323 | 591 | 427 | 12 603"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Canada and Latin America",
+      "countries": null,
+      "values": {
+        "employees": 3691
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 6.D Employees (full-time equivalents, Dec 31, 2024)",
+        "quote": "Canada and Latin America | 1 707 | 413 | 336 | 1 062 | 173 | 3 691"
+      }
+    },
+    {
+      "name": "Europe",
+      "countries": null,
+      "values": {
+        "employees": 34152
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 6.D Employees (full-time equivalents, Dec 31, 2024)",
+        "quote": "Europe | 7 908 | 8 923 | 11 823 | 3 993 | 1 505 | 34 152"
+      }
+    },
+    {
+      "name": "Asia/Africa/Australasia",
+      "countries": null,
+      "values": {
+        "employees": 25437
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 6.D Employees (full-time equivalents, Dec 31, 2024)",
+        "quote": "Asia/Africa/Australasia | 12 327 | 4 204 | 2 717 | 5 514 | 675 | 25 437"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Basel – St. Johann",
+      "place": "Basel, Switzerland",
+      "iso2": "CH",
+      "type": "headquarters",
+      "description": "Global Company headquarters; research and development; production of drug substances and drug intermediates (481 448 m²)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 4.D major facilities",
+        "quote": "Basel, Switzerland – St. Johann | 481 448 | Global Company headquarters; International organizational unit headquarters; research and development; production of drug substances and drug intermediates"
+      }
+    },
+    {
+      "name": "Kundl and Schaftenau",
+      "place": "Kundl and Schaftenau, Austria",
+      "iso2": "AT",
+      "type": "production",
+      "description": "Production of biotechnological products, active drug substances and nucleic acids, drug products and finished products (480 000 m²)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 4.D major facilities",
+        "quote": "Kundl and Schaftenau, Austria | 480 000 | Production of biotechnological products, active drug substances and nucleic acids, drug products and finished products; product development"
+      }
+    },
+    {
+      "name": "East Hanover",
+      "place": "East Hanover, NJ",
+      "state": "NJ",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "US organizational unit headquarters; research and development (258 180 m²)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 4.D major facilities",
+        "quote": "East Hanover, New Jersey, US | 258 180 | US organizational unit headquarters; research and development"
+      }
+    },
+    {
+      "name": "Cambridge",
+      "place": "Cambridge, MA",
+      "state": "MA",
+      "iso2": "US",
+      "type": "research",
+      "description": "Research and development (179 939 m²)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 4.D major facilities",
+        "quote": "Cambridge, Massachusetts, US | 179 939 | Research and development"
+      }
+    },
+    {
+      "name": "Menges",
+      "place": "Menges, Slovenia",
+      "iso2": "SI",
+      "type": "production",
+      "description": "Production of small molecules and large molecules drug substances and drug intermediates; R&D for Biologics (166 591 m²)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 4.D major facilities",
+        "quote": "Menges, Slovenia | 166 591 | Production of small molecules and large molecules drug substances and drug intermediates"
+      }
+    },
+    {
+      "name": "Shanghai",
+      "place": "Shanghai, China",
+      "iso2": "CN",
+      "type": "headquarters",
+      "description": "China country headquarters; research and development (105 614 m²)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 4.D major facilities",
+        "quote": "Shanghai, China | 105 614 | China country headquarters; research and development"
+      }
+    },
+    {
+      "name": "Stein",
+      "place": "Stein, Switzerland",
+      "iso2": "CH",
+      "type": "production",
+      "description": "Production of sterile vials, pre-filled syringes and ampoules; capsules and tablets; active pharmaceutical ingredients; and cell and gene therapies (64 700 m²)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 4.D major facilities",
+        "quote": "Stein, Switzerland | 64 700 | Production of sterile vials, pre‑filled syringes and ampoules; capsules and tablets; active pharmaceutical ingredients; and cell and gene therapies"
+      }
+    },
+    {
+      "name": "Huningue",
+      "place": "Huningue, France",
+      "iso2": "FR",
+      "type": "production",
+      "description": "Production of drug substances for clinical and commercial supply (41 000 m²)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 4.D major facilities",
+        "quote": "Huningue, France | 41 000 | Production of drug substances for clinical and commercial supply"
+      }
+    },
+    {
+      "name": "Durham",
+      "place": "Durham, NC",
+      "state": "NC",
+      "iso2": "US",
+      "type": "production",
+      "description": "Manufacture, package and release commercial Zolgensma product (15 794 m²)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 4.D major facilities",
+        "quote": "Durham, North Carolina, US | 15 794 | Manufacture, package and release commercial Zolgensma product and certain clinical development activities"
+      }
+    },
+    {
+      "name": "Schweizerhalle",
+      "place": "Schweizerhalle, Switzerland",
+      "iso2": "CH",
+      "type": "production",
+      "description": "Manufacture of small-interfering RNA (siRNA) drug substance for Leqvio (8 880 m²)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 4.D major facilities",
+        "quote": "Schweizerhalle, Switzerland | 8 880 | Manufacture of small-interfering RNA (siRNA) drug substance for Leqvio"
+      }
+    },
+    {
+      "name": "Indianapolis",
+      "place": "Indianapolis, IN",
+      "state": "IN",
+      "iso2": "US",
+      "type": "production",
+      "description": "Manufacture, package and release clinical and commercial Pluvicto and Lutathera product for US and Canada (8 230 m²)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 4.D major facilities",
+        "quote": "Indianapolis, Indiana, US | 8 230 | Manufacture, package and release clinical and commercial Pluvicto and Lutathera product for US and Canada."
+      }
+    },
+    {
+      "name": "Ivrea",
+      "place": "Ivrea, Italy",
+      "iso2": "IT",
+      "type": "production",
+      "description": "Galenic development and manufacture, package and release of radioligand therapy products Pluvicto and Lutathera (2 780 m²)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
+        "label": "2024 Form 20-F, Item 4.D major facilities",
+        "quote": "Ivrea, Italy | 2 780 | Galenic development and manufacture, package and release of radioligand therapy products in oncology (clinical & commercial) Pluvicto and Lutathera product"
+      }
+    }
+  ],
+  "notes": "Employees from the 2024 Form 20-F Item 6.D table (full-time equivalents by geographic area; the quoted rows give marketing and sales, R&D, production and supply, operations, G&A, then the total, which is the value recorded). The 20-F uses spaces as thousands separators (12 603 = 12,603). Only the USA is a single country; the other three areas are Novartis groupings with no country list, so countries is null for them. Switzerland is not broken out. Sites are the full 'Major facilities' table in Item 4.D (site size in square meters); Novartis says it runs 33 manufacturing sites in total. A web search found no published Novartis group country-by-country tax table (only a local Romania extract, not opened), so no tax rows; no state-level data.",
+  "researchedAt": "2026-11-23"
+}

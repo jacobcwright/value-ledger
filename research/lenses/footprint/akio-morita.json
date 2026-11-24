@@ -1,0 +1,218 @@
+{
+  "id": "akio-morita",
+  "company": "Sony",
+  "metrics": {
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "as of Mar 31, 2025",
+      "tier": "filing",
+      "definition": "Number of employees by region (Japan / Outside of Japan) from the 20-F table; the 2025 column is used. The 20-F gives approximate figures (total approximately 112,300)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "JP",
+      "name": "Japan",
+      "values": {
+        "employees": 57500
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 (Mar 2025) Form 20-F, Item 6.D Employees (Number of Employees by Segment and Region; columns 2023, 2024, 2025)",
+        "quote": "By region: Japan 56,400 57,200 57,500 Outside of Japan 56,600 55,800 54,800 Total 113,000 113,000 112,300"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Outside of Japan",
+      "countries": null,
+      "values": {
+        "employees": 54800
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 (Mar 2025) Form 20-F, Item 6.D Employees (Number of Employees by Segment and Region; columns 2023, 2024, 2025)",
+        "quote": "By region: Japan 56,400 57,200 57,500 Outside of Japan 56,600 55,800 54,800 Total 113,000 113,000 112,300"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Sony Group headquarters",
+      "place": "Minato-ku, Tokyo",
+      "state": null,
+      "iso2": "JP",
+      "type": "headquarters",
+      "description": "Corporate headquarters facilities; 1,565 employees.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
+        "quote": "Headquarters (Minato-ku, Tokyo) Corporate Headquarters facilities 1,298 (18 ) 22,364 17,638 — 1,565"
+      }
+    },
+    {
+      "name": "Sony Semiconductor Manufacturing (Nagasaki TEC, etc.)",
+      "place": "Kikuchi-gun, Kumamoto",
+      "state": null,
+      "iso2": "JP",
+      "type": "manufacturing",
+      "description": "Production facilities for image sensors, etc.; 9,000 employees.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
+        "quote": "Sony Semiconductor Manufacturing Corporation (Nagasaki TEC, etc.) (Kikuchi-gun, Kumamoto) I&SS Production facilities for image sensors, etc. 21,108 (1,002 ) 175,941 605,265 13,516 9,000"
+      }
+    },
+    {
+      "name": "Sony Semiconductor Solutions",
+      "place": "Atsugi-shi, Kanagawa",
+      "state": null,
+      "iso2": "JP",
+      "type": "R&D",
+      "description": "Research facilities for image sensors, etc.; 7,500 employees.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
+        "quote": "Sony Semiconductor Solutions Corporation (Atsugi-shi, Kanagawa) I&SS Research facilities for image sensors, etc. — (— ) 1,323 75,908 22,401 7,500"
+      }
+    },
+    {
+      "name": "Sony Corporation",
+      "place": "Minato-ku, Tokyo",
+      "state": null,
+      "iso2": "JP",
+      "type": "R&D",
+      "description": "Research facilities for TVs, audio / video devices, cameras, broadcasting equipment and medical equipment; 7,900 employees.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
+        "quote": "Sony Corporation (Minato-ku, Tokyo) ET&S Research facilities for TVs, audio / video devices, cameras, broadcasting equipment and medical equipment — (— ) 2,141 46,583 34,342 7,900"
+      }
+    },
+    {
+      "name": "Sony Global Manufacturing & Operations (Kohda Site, etc.)",
+      "place": "Minato-ku, Tokyo",
+      "state": null,
+      "iso2": "JP",
+      "type": "manufacturing",
+      "description": "Production facilities for electronic devices, etc.; 3,600 employees.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
+        "quote": "Sony Global Manufacturing & Operations Corporation (Kohda Site, etc.) (Minato-ku, Tokyo) ET&S, I&SS, All Other Production facilities for electronic devices, etc. 4,961 (386 ) 9,438 13,571 4,990 3,600"
+      }
+    },
+    {
+      "name": "Sony Pictures Entertainment",
+      "place": "Delaware, United States (primary location as given in the filing)",
+      "state": null,
+      "iso2": "US",
+      "type": "production facilities",
+      "description": "Production facilities for motion pictures, television programming, video software, etc.; 11,500 employees (consolidated with its subsidiaries; the filing gives Delaware as its primary location).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
+        "quote": "Sony Pictures Entertainment Inc. (Delaware, United States) Pictures Production facilities for motion pictures, television programming, video software, etc. 12,594 (318 ) 87,541 806,305 89,013 11,500"
+      }
+    },
+    {
+      "name": "Sony Interactive Entertainment LLC",
+      "place": "California, United States",
+      "state": "CA",
+      "iso2": "US",
+      "type": "offices and cloud facilities",
+      "description": "Cloud-related facilities, etc.; 5,900 employees (consolidated with its subsidiaries).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
+        "quote": "Sony Interactive Entertainment LLC *5 (California, United States) G&NS Cloud-related facilities, etc. — (— ) 15,126 193,969 86,899 5,900"
+      }
+    },
+    {
+      "name": "Sony Corporation of America",
+      "place": "New York, United States",
+      "state": "NY",
+      "iso2": "US",
+      "type": "offices",
+      "description": "Production facilities for electronic products, etc.; 1,300 employees on the ET&S, I&SS line (consolidated with its subsidiaries).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
+        "quote": "Sony Corporation of America *5 (New York, United States) ET&S, I&SS Production facilities for electronic products, etc. 356 (112 ) 18,007 8,105 3,853 1,300"
+      }
+    },
+    {
+      "name": "Sony EMCS (Malaysia)",
+      "place": "Selangor",
+      "state": null,
+      "iso2": "MY",
+      "type": "manufacturing",
+      "description": "Production facilities for electronic devices, etc.; 4,500 employees.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
+        "quote": "Sony EMCS (Malaysia) Sdn. Bhd. (Selangor, Malaysia) ET&S Production facilities for electronic devices, etc. — (— ) 4,591 4,903 201 4,500"
+      }
+    },
+    {
+      "name": "Sony Device Technology (Thailand)",
+      "place": "Bangkadi",
+      "state": null,
+      "iso2": "TH",
+      "type": "manufacturing",
+      "description": "Production facilities for electronic products, etc.; 1,300 employees.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
+        "quote": "Sony Device Technology (Thailand) Co., Ltd. (Bangkadi, Thailand) I&SS Production facilities for electronic products, etc. 539 (132 ) 13,481 21,268 7 1,300"
+      }
+    },
+    {
+      "name": "Sony Europe B.V.",
+      "place": "Surrey",
+      "state": null,
+      "iso2": "GB",
+      "type": "offices",
+      "description": "Office buildings and sales facilities, etc.; 3,800 employees (consolidated with its subsidiaries).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
+        "quote": "Sony Europe B.V. *5 (Surrey, United Kingdom) ET&S, I&SS, All Other Office buildings and sales facilities, etc. 2,609 (45 ) 4,094 15,822 8,772 3,800"
+      }
+    },
+    {
+      "name": "Sony Interactive Entertainment Europe",
+      "place": "London",
+      "state": null,
+      "iso2": "GB",
+      "type": "offices and cloud facilities",
+      "description": "Cloud-related facilities, etc.; 2,800 employees (consolidated with its subsidiaries).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
+        "label": "FY2024 (Mar 2025) Form 20-F, Item 4.D Property, Plant and Equipment (major facilities table)",
+        "quote": "Sony Interactive Entertainment Europe Ltd. *5 (London, United Kingdom) G&NS Cloud-related facilities, etc. — (— ) 5,444 24,640 18,173 2,800"
+      }
+    }
+  ],
+  "notes": "Sony's FY2024 20-F (year ended March 31, 2025) splits employees only into Japan (57,500) and outside Japan (54,800), with no country detail. Item 4.D lists major facilities with carrying amounts and employee counts, and the sites come from that table. The last number in each site quote is the employee count; subsidiary counts are rounded to the nearest hundred and, for entities marked *5, include their subsidiaries. Sony Corporation of America's row in the table spans three segment lines (1,300, 6,700 and 1,500 employees), and only the first line is quoted. Sony Pictures' 'primary location' is given as Delaware in the filing, although its studio operations are not described there. No state-level or tax-by-country data was found in the 20-F.",
+  "researchedAt": "2026-11-23"
+}

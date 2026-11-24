@@ -1,0 +1,148 @@
+{
+  "id": "stephen-a-schwarzman",
+  "company": "Blackstone",
+  "metrics": {
+    "longLivedAssets": {
+      "label": "Long-lived assets",
+      "unit": "currency-billions",
+      "currency": "USD",
+      "period": "as of December 31, 2024",
+      "tier": "filing",
+      "definition": "Right-of-use assets and furniture, equipment and leasehold improvements, net, held in the United States; no individual foreign country was more than 10% of the total."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "longLivedAssets": 1.1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
+        "label": "FY2024 Form 10-K, Note 19, Segment Reporting, geographic information",
+        "quote": "As of December 31, 2024 and 2023, Blackstone held long-lived assets in the United States of $ 1.1 billion."
+      }
+    }
+  ],
+  "regions": null,
+  "sites": [
+    {
+      "name": "Principal executive offices, 345 Park Avenue",
+      "place": "New York, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Principal executive offices in leased office space at 345 Park Avenue.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "Our principal executive offices are located in leased office space at 345 Park Avenue, New York, New York."
+      }
+    },
+    {
+      "name": "Hong Kong office",
+      "place": "Hong Kong",
+      "state": null,
+      "iso2": "HK",
+      "type": "office",
+      "description": "Leased office.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2024, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, New Jersey, San Francisco, Singapore, Tokyo and other cities around the world."
+      }
+    },
+    {
+      "name": "London office",
+      "place": "London, UK",
+      "state": null,
+      "iso2": "GB",
+      "type": "office",
+      "description": "Leased office.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2024, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, New Jersey, San Francisco, Singapore, Tokyo and other cities around the world."
+      }
+    },
+    {
+      "name": "Miami office",
+      "place": "Miami, FL",
+      "state": "FL",
+      "iso2": "US",
+      "type": "office",
+      "description": "Leased office.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2024, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, New Jersey, San Francisco, Singapore, Tokyo and other cities around the world."
+      }
+    },
+    {
+      "name": "New Jersey office",
+      "place": "New Jersey",
+      "state": "NJ",
+      "iso2": "US",
+      "type": "office",
+      "description": "Leased office.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2024, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, New Jersey, San Francisco, Singapore, Tokyo and other cities around the world."
+      }
+    },
+    {
+      "name": "San Francisco office",
+      "place": "San Francisco, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "office",
+      "description": "Leased office.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2024, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, New Jersey, San Francisco, Singapore, Tokyo and other cities around the world."
+      }
+    },
+    {
+      "name": "Singapore office",
+      "place": "Singapore",
+      "state": null,
+      "iso2": "SG",
+      "type": "office",
+      "description": "Leased office.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2024, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, New Jersey, San Francisco, Singapore, Tokyo and other cities around the world."
+      }
+    },
+    {
+      "name": "Tokyo office",
+      "place": "Tokyo, Japan",
+      "state": null,
+      "iso2": "JP",
+      "type": "office",
+      "description": "Leased office.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2024, in addition to our offices in New York, we also leased offices in Hong Kong, London, Miami, New Jersey, San Francisco, Singapore, Tokyo and other cities around the world."
+      }
+    }
+  ],
+  "notes": "Blackstone's own footprint is small (about 4,895 employees at its New York headquarters and around the world, per the FY2024 10-K); it publishes no state- or country-level employee, office or tax breakdown. Its wider economic reach runs through portfolio companies, but no state-by-state portfolio data was found on blackstone.com, and portfolio-company data would not be Blackstone's own footprint. The only country value in the 10-K is U.S. long-lived assets ($1.1bn); no foreign country exceeded 10%. Sites are the headquarters and the leased offices the 10-K names.",
+  "researchedAt": "2026-11-23"
+}

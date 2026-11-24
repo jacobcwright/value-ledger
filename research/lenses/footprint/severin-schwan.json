@@ -1,0 +1,176 @@
+{
+  "id": "severin-schwan",
+  "company": "Roche",
+  "metrics": {
+    "employees": {
+      "label": "Employees (full-time equivalents)",
+      "unit": "people",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Employees by region from the Annual Report 2024 chart \"103,249 employees* by region\"; the page footnote reads \"Number of employees expressed in full-time equivalents, on 31 December 2024\"."
+    }
+  },
+  "usStates": null,
+  "countries": null,
+  "regions": [
+    {
+      "name": "Europe",
+      "countries": null,
+      "values": {
+        "employees": 45528
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
+        "label": "Roche Annual Report 2024, Diversity, equity and inclusion – Culture and people (employees by region)",
+        "quote": "103,249 employees* by region … Europe … 45,528"
+      }
+    },
+    {
+      "name": "North America",
+      "countries": null,
+      "values": {
+        "employees": 26869
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
+        "label": "Roche Annual Report 2024, Diversity, equity and inclusion – Culture and people (employees by region)",
+        "quote": "103,249 employees* by region … North America … 26,869"
+      }
+    },
+    {
+      "name": "Asia",
+      "countries": null,
+      "values": {
+        "employees": 24073
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
+        "label": "Roche Annual Report 2024, Diversity, equity and inclusion – Culture and people (employees by region)",
+        "quote": "103,249 employees* by region … Asia … 24,073"
+      }
+    },
+    {
+      "name": "Latin America",
+      "countries": null,
+      "values": {
+        "employees": 4938
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
+        "label": "Roche Annual Report 2024, Diversity, equity and inclusion – Culture and people (employees by region)",
+        "quote": "103,249 employees* by region … Latin America … 4,938"
+      }
+    },
+    {
+      "name": "Africa",
+      "countries": null,
+      "values": {
+        "employees": 1223
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
+        "label": "Roche Annual Report 2024, Diversity, equity and inclusion – Culture and people (employees by region)",
+        "quote": "103,249 employees* by region … Africa … 1,223"
+      }
+    },
+    {
+      "name": "Australia/New Zealand",
+      "countries": [
+        "AU",
+        "NZ"
+      ],
+      "values": {
+        "employees": 618
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
+        "label": "Roche Annual Report 2024, Diversity, equity and inclusion – Culture and people (employees by region)",
+        "quote": "103,249 employees* by region … Australia/New Zealand … 618"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Group headquarters",
+      "place": "Basel, Switzerland",
+      "iso2": "CH",
+      "type": "headquarters",
+      "description": "Roche's headquarters in Basel.",
+      "source": {
+        "hostType": "company",
+        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
+        "label": "Roche Annual Report 2024, How we contribute (communities)",
+        "quote": "living near our headquarters in Basel, Switzerland"
+      }
+    },
+    {
+      "name": "pRED Center",
+      "place": "Basel, Switzerland",
+      "iso2": "CH",
+      "type": "research",
+      "description": "Recently opened Pharma Research and Early Development center in Basel hosting 1,800 scientists.",
+      "source": {
+        "hostType": "company",
+        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
+        "label": "Roche Annual Report 2024, How we contribute (pRED Center feature)",
+        "quote": "Opened recently, the Roche pRED Center in Basel hosts 1,800 scientists"
+      }
+    },
+    {
+      "name": "Genentech South San Francisco campus",
+      "place": "South San Francisco, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "campus",
+      "description": "Genentech's South San Francisco (US) campus.",
+      "source": {
+        "hostType": "company",
+        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
+        "label": "Roche Annual Report 2024, How we contribute (supplier diversity)",
+        "quote": "diverse and small businesses at our Genentech South San Francisco (US) campus in November"
+      }
+    },
+    {
+      "name": "Genentech Oceanside campus",
+      "place": "Oceanside, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "campus",
+      "description": "Genentech's Oceanside (US) campus.",
+      "source": {
+        "hostType": "company",
+        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
+        "label": "Roche Annual Report 2024, How we contribute (supplier diversity)",
+        "quote": "veteran-owned businesses at our Genentech Oceanside (US) campus in October"
+      }
+    },
+    {
+      "name": "Roche Diagnostics Branchburg",
+      "place": "Branchburg, NJ",
+      "state": "NJ",
+      "iso2": "US",
+      "type": "manufacturing",
+      "description": "Roche Diagnostics manufacturing site whose production and warehouse expansion was commissioned in late 2024.",
+      "source": {
+        "hostType": "company",
+        "url": "https://assets.roche.com/f/176343/x/09457b2a19/ar24e.pdf",
+        "label": "Roche Annual Report 2024, Sustainability report (climate)",
+        "quote": "production and warehouse expansion of the Roche Diagnostics manufacturing site in Branchburg, US, commissioned in late 2024"
+      }
+    }
+  ],
+  "notes": "Roche publishes employees by region only (Annual Report 2024 chart; FTEs at Dec 31, 2024, total 103,249). The regions are Roche's own groupings with no country list, except Australia/New Zealand. No country or U.S. state breakdown of employees, sites or taxes was found in the Annual Report or the Finance Report 2024 (the Finance Report gives only group income taxes paid, CHF 3,727 million). Roche does not file with the SEC. The Annual Report PDF is served from Roche's asset CDN (assets.roche.com), linked from roche.com/investors/annualreport24. Sites are those the report itself names; Roche does not list its major facilities in the Annual Report.",
+  "researchedAt": "2026-11-23"
+}

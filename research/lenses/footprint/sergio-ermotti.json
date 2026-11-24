@@ -1,0 +1,147 @@
+{
+  "id": "sergio-ermotti",
+  "company": "UBS",
+  "metrics": {
+    "employees": {
+      "label": "Personnel (full-time equivalents)",
+      "unit": "people",
+      "period": "as of 31 December 2024",
+      "tier": "filing",
+      "definition": "Full-time equivalents by region from the 'Personnel by region' table in the UBS Group Annual Report 2024 (filed as Form 20-F). Includes post-acquisition consolidated Credit Suisse personnel."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "CH",
+      "name": "Switzerland",
+      "values": {
+        "employees": 34182
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052025000023/ubs-20241231.htm",
+        "label": "UBS Group 2024 Annual Report (Form 20-F), \"Personnel by region\" table (full-time equivalents, 31.12.24)",
+        "quote": "Switzerland 34,182 34,880 19,947 (2)"
+      }
+    },
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "employees": 24651
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052025000023/ubs-20241231.htm",
+        "label": "UBS Group 2024 Annual Report (Form 20-F), \"Personnel by region\" table (full-time equivalents, 31.12.24)",
+        "quote": "of which: US 24,651 26,024 21,032 (5)"
+      }
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "values": {
+        "employees": 8685
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052025000023/ubs-20241231.htm",
+        "label": "UBS Group 2024 Annual Report (Form 20-F), \"Personnel by region\" table (full-time equivalents, 31.12.24)",
+        "quote": "of which: UK 8,685 8,970 6,234 (3)"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Americas",
+      "countries": null,
+      "values": {
+        "employees": 26360
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052025000023/ubs-20241231.htm",
+        "label": "UBS Group 2024 Annual Report (Form 20-F), \"Personnel by region\" table (full-time equivalents, 31.12.24)",
+        "quote": "Americas 26,360 27,638 21,819 (5)"
+      }
+    },
+    {
+      "name": "Asia Pacific",
+      "countries": null,
+      "values": {
+        "employees": 26179
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052025000023/ubs-20241231.htm",
+        "label": "UBS Group 2024 Annual Report (Form 20-F), \"Personnel by region\" table (full-time equivalents, 31.12.24)",
+        "quote": "Asia Pacific 26,179 27,638 16,489 (5)"
+      }
+    },
+    {
+      "name": "Europe, Middle East and Africa (excluding Switzerland)",
+      "countries": null,
+      "values": {
+        "employees": 21927
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052025000023/ubs-20241231.htm",
+        "label": "UBS Group 2024 Annual Report (Form 20-F), \"Personnel by region\" table (full-time equivalents, 31.12.24)",
+        "quote": "Europe, Middle East and Africa (excluding Switzerland) 21,927 22,686 14,342 (3)"
+      }
+    },
+    {
+      "name": "Rest of Europe (excluding Switzerland)",
+      "countries": null,
+      "values": {
+        "employees": 12656
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052025000023/ubs-20241231.htm",
+        "label": "UBS Group 2024 Annual Report (Form 20-F), \"Personnel by region\" table (full-time equivalents, 31.12.24)",
+        "quote": "of which: rest of Europe (excluding Switzerland) 12,656 13,085 7,823 (3)"
+      }
+    },
+    {
+      "name": "Middle East and Africa",
+      "countries": null,
+      "values": {
+        "employees": 586
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052025000023/ubs-20241231.htm",
+        "label": "UBS Group 2024 Annual Report (Form 20-F), \"Personnel by region\" table (full-time equivalents, 31.12.24)",
+        "quote": "of which: Middle East and Africa 586 631 285 (7)"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "UBS Group AG registered office",
+      "place": "Zurich, Switzerland",
+      "iso2": "CH",
+      "type": "headquarters",
+      "description": "Registered office of UBS Group AG at Bahnhofstrasse 45, Zurich.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052025000023/ubs-20241231.htm",
+        "label": "UBS Group 2024 Annual Report (Form 20-F), corporate information",
+        "quote": "UBS Group AG’s registered office is at Bahnhofstrasse 45, CH-8001 Zurich, Switzerland."
+      }
+    }
+  ],
+  "notes": "All rows are from the 'Personnel by region' table (FTE, 31.12.24) in UBS Group's Annual Report 2024 / Form 20-F. The table nests: 'of which: US' sits inside Americas; 'of which: UK', 'rest of Europe (excluding Switzerland)' and 'Middle East and Africa' sit inside EMEA (excluding Switzerland). Countries rows (CH, US, UK) therefore overlap the region rows; do not add them together. Rest of Europe and Middle East and Africa are sub-regions of EMEA. Total 108,648 FTE. The filing does not list the countries in each region, so countries is null on every region. No U.S. state breakdown exists. UBS does not publish a group country-by-country tax report in the annual report; none used.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "jack-ma",
+  "company": "Alibaba Group",
+  "metrics": {
+    "employeeShare": {
+      "label": "Share of full-time employees by work location",
+      "unit": "percent",
+      "period": "FY2025 (year ended Mar 31, 2025)",
+      "tier": "company-published",
+      "definition": "Percentage of full-time employees of all consolidated entities of Alibaba Group by work location, from the ESG report's KPI table (total 124,320 full-time employees at Mar 31, 2025; Sun Art and Intime removed)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "CN",
+      "name": "Chinese Mainland",
+      "values": {
+        "employeeShare": 86.8
+      },
+      "plus": {},
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0626/2025062601088.pdf",
+        "label": "Alibaba Group FY2025 Environmental, Social and Governance Report (HKEX filing, June 26, 2025), Social KPI table",
+        "quote": "Percentages of employees by work location … Chinese Mainland % 84.9 86.6 86.8 [columns: years ended March 31, 2023, 2024 and 2025; the last value is FY2025]"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Hong Kong, Macao, and Taiwan",
+      "countries": [
+        "HK",
+        "MO",
+        "TW"
+      ],
+      "values": {
+        "employeeShare": 1.1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0626/2025062601088.pdf",
+        "label": "Alibaba Group FY2025 Environmental, Social and Governance Report (HKEX filing, June 26, 2025), Social KPI table",
+        "quote": "Percentages of employees by work location … Hong Kong, Macao, and Taiwan % 0.9 1.1 1.1 [columns: years ended March 31, 2023, 2024 and 2025; the last value is FY2025]"
+      }
+    },
+    {
+      "name": "Other countries and regions",
+      "countries": null,
+      "values": {
+        "employeeShare": 12.1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0626/2025062601088.pdf",
+        "label": "Alibaba Group FY2025 Environmental, Social and Governance Report (HKEX filing, June 26, 2025), Social KPI table",
+        "quote": "Percentages of employees by work location … Other countries and regions % 14.2 12.3 12.1 [columns: years ended March 31, 2023, 2024 and 2025; the last value is FY2025]"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Principal executive offices",
+      "place": "Hangzhou, Zhejiang",
+      "state": null,
+      "iso2": "CN",
+      "type": "headquarters",
+      "description": "Principal executive offices of major businesses, 960-1 West Wen Yi Road, Yu Hang District, Hangzhou.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-ex15_5.htm",
+        "label": "Alibaba Group 2025 Hong Kong Annual Report (adjusted version), exhibit 15.5 to Form 20-F for FY2025",
+        "quote": "of major businesses within Alibaba Group are located at 960-1 West Wen Yi Road, Yu Hang District, Hangzhou 311121, People's Republic of China."
+      }
+    }
+  ],
+  "notes": "Alibaba publishes no state or country economic-impact data. The FY2025 20-F (via its Hong Kong annual report exhibit) says only \"Substantially all of our employees are based in China\" (124,320 full-time employees at Mar 31, 2025), that owned facilities total ~18.3 million sq m, and that it maintains data centers in Chinese Mainland, Hong Kong SAR, Indonesia, Malaysia, Thailand, Philippines, Singapore, UAE, Germany, the UK, Japan, South Korea, Mexico and the United States, with no figures per country, so those are not rows. The ESG report KPI table gives employee shares by work location (percentages, not headcounts); the percent rows list three values under four year headers, and the layout aligns them with FY2023-FY2025, so the last value is FY2025. Headcounts by location are not derived.",
+  "researchedAt": "2026-11-23"
+}

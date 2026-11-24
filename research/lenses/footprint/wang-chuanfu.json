@@ -1,0 +1,89 @@
+{
+  "id": "wang-chuanfu",
+  "company": "BYD",
+  "metrics": {
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "2024 (year-end)",
+      "tier": "company-published",
+      "definition": "Number of employees by location of operation, 2024 Sustainability Report key performance indicators (company total 968,872)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "CN",
+      "name": "China (Chinese Mainland)",
+      "values": {
+        "employees": 948090
+      },
+      "plus": {},
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401244.pdf",
+        "label": "2024 Sustainability Report (HKEX), employee indicators, by location of operation",
+        "quote": "Number of employees in the Chinese Mainland Person 948,090"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Hong Kong, Macau and overseas",
+      "countries": null,
+      "values": {
+        "employees": 20782
+      },
+      "plus": {},
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401244.pdf",
+        "label": "2024 Sustainability Report (HKEX), employee indicators, by location of operation",
+        "quote": "Number of employees in Hong Kong, Macau and overseas Person 20,782"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Headquarters",
+      "place": "Shenzhen, Guangdong",
+      "iso2": "CN",
+      "type": "headquarters",
+      "description": "BYD was established on November 18, 1994, headquartered in Shenzhen, Guangdong Province.",
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401244.pdf",
+        "label": "2024 Sustainability Report (HKEX), About Us",
+        "quote": "BYD was established on November 18, 1994, headquartered in Shenzhen, Guangdong Province."
+      }
+    },
+    {
+      "name": "Thailand factory",
+      "place": "Rayong, Thailand",
+      "iso2": "TH",
+      "type": "factory",
+      "description": "Completed in July 2024 in just 16 months, with an annual capacity of approximately 150,000 vehicles",
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401244.pdf",
+        "label": "2024 Sustainability Report (HKEX), 2024 milestones",
+        "quote": "Thailand factory was completed in just 16 months, with an annual capacity of approximately 150,000 vehicles."
+      }
+    },
+    {
+      "name": "Uzbekistan factory",
+      "place": "Uzbekistan",
+      "iso2": "UZ",
+      "type": "factory",
+      "description": "In June 2024 the first batch of mass-produced new energy models rolled off the production line",
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
+        "label": "2024 Annual Results Announcement (HKEX), management discussion",
+        "quote": "In June, the first batch of mass-produced new energy model rolled off the production line in the Group’s factory in Uzbekistan."
+      }
+    }
+  ],
+  "notes": "Employees from the 2024 Sustainability Report (HKEX-filed) KPI table 'By Location of Operation': only two buckets, the Chinese Mainland and 'Hong Kong, Macau and overseas' (no country list), so the second is a region with countries null. Neither the sustainability report nor the annual results announcement gives employees or plants by province or by overseas country, nor a list of domestic production bases with locations; sites are limited to the HQ and the two overseas car plants the filings describe as operating in 2024 (the Brazil base and the Hungary plant are mentioned but without status or location detail, so they are left out). Uzbekistan factory is BYD UZBEKISTAN FACTORY LLC, listed as a joint venture.",
+  "researchedAt": "2026-11-23"
+}

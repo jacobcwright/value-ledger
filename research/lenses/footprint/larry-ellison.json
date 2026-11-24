@@ -1,0 +1,157 @@
+{
+  "id": "larry-ellison",
+  "company": "Oracle",
+  "metrics": {
+    "employees": {
+      "label": "Full-time employees",
+      "unit": "people",
+      "period": "as of May 31, 2024",
+      "tier": "filing",
+      "definition": "Full-time employees employed in the U.S. or internationally (approximate), per the 10-K Workforce section"
+    },
+    "longLivedAssets": {
+      "label": "Long-lived assets",
+      "unit": "currency-millions",
+      "currency": "USD",
+      "period": "as of May 31, 2024",
+      "tier": "filing",
+      "definition": "Long-lived assets by country (10-K Note 14), which \"exclude goodwill, intangible assets, non-marketable investments and deferred taxes\". Each row lists FY2024 revenues then FY2024 long-lived assets first; the long-lived assets value is recorded (revenue is not)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "employees": 58000,
+        "longLivedAssets": 24798
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "Oracle Corporation Form 10-K for fiscal 2024, Item 1 Workforce; Note 14",
+        "quote": "As of May 31, 2024, we employed approximately 159,000 full-time employees, of which approximately 58,000 were employed in the U.S. … (in millions) Revenues Long-Lived Assets (1) … U.S. $ 29,055 $ 24,798"
+      }
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "values": {
+        "longLivedAssets": 1164
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "Oracle Corporation Form 10-K for fiscal 2024, Note 14 (revenues and long-lived assets by geography)",
+        "quote": "As of and for the Year Ended May 31, 2024 2023 2022 (in millions) Revenues Long-Lived Assets (1) … United Kingdom 2,423 1,164"
+      }
+    },
+    {
+      "iso2": "DE",
+      "name": "Germany",
+      "values": {
+        "longLivedAssets": 1192
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "Oracle Corporation Form 10-K for fiscal 2024, Note 14 (revenues and long-lived assets by geography)",
+        "quote": "As of and for the Year Ended May 31, 2024 2023 2022 (in millions) Revenues Long-Lived Assets (1) … Germany 1,794 1,192"
+      }
+    },
+    {
+      "iso2": "JP",
+      "name": "Japan",
+      "values": {
+        "longLivedAssets": 1144
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "Oracle Corporation Form 10-K for fiscal 2024, Note 14 (revenues and long-lived assets by geography)",
+        "quote": "As of and for the Year Ended May 31, 2024 2023 2022 (in millions) Revenues Long-Lived Assets (1) … Japan 1,662 1,144"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Outside the U.S. (internationally)",
+      "countries": null,
+      "values": {
+        "employees": 101000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "Oracle Corporation Form 10-K for fiscal 2024 (year ended May 31, 2024), Item 1 Workforce",
+        "quote": "As of May 31, 2024, we employed approximately 159,000 full-time employees, of which approximately 58,000 were employed in the U.S. and approximately 101,000 were employed internationally."
+      }
+    },
+    {
+      "name": "Other countries",
+      "countries": null,
+      "values": {
+        "longLivedAssets": 3962
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "Oracle Corporation Form 10-K for fiscal 2024, Note 14 (revenues and long-lived assets by geography)",
+        "quote": "As of and for the Year Ended May 31, 2024 2023 2022 (in millions) Revenues Long-Lived Assets (1) … Other countries 18,027 3,962"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Headquarters",
+      "place": "Austin, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Our headquarters facility consists of approximately 0.9 million square feet in Austin, Texas, all of which we own.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "Oracle Corporation Form 10-K for fiscal 2024 (year ended May 31, 2024), Item 2. Properties",
+        "quote": "Our headquarters facility consists of approximately 0.9 million square feet in Austin, Texas, all of which we own."
+      }
+    },
+    {
+      "name": "Principal hardware manufacturing facility",
+      "place": "Hillsboro, OR",
+      "state": "OR",
+      "iso2": "US",
+      "type": "manufacturing",
+      "description": "We lease our principal internal manufacturing facility for our hardware products in Hillsboro, Oregon.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "Oracle Corporation Form 10-K for fiscal 2024 (year ended May 31, 2024), Item 2. Properties",
+        "quote": "We lease our principal internal manufacturing facility for our hardware products in Hillsboro, Oregon."
+      }
+    },
+    {
+      "name": "Redwood Shores campus",
+      "place": "Redwood Shores, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "campus",
+      "description": "Oracle also hosts Design Tech High School, a public charter school, at our Redwood Shores, California campus.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "Oracle Corporation Form 10-K for fiscal 2024 (year ended May 31, 2024), Item 1 (Human Capital / community)",
+        "quote": "Oracle also hosts Design Tech High School, a public charter school, at our Redwood Shores, California campus."
+      }
+    }
+  ],
+  "notes": "Oracle publishes no state or country economic-impact report that was found, and its FY2024 10-K gives no property or headcount breakdown by state or country beyond the U.S./international employee split and Note 14's long-lived assets by country (U.S., UK, Germany, Japan, other) (58,000 U.S., 101,000 international of ~159,000). Item 2 gives only the owned Austin HQ (~0.9M sq ft), ~27.7M sq ft of other facilities \"in various other locations in the U.S. and abroad\", the leased Hillsboro, Oregon hardware plant, and says cloud data centers are substantially all leased through colocation suppliers (no locations listed). Oracle's public cloud region list exists on oracle.com but is a list of locations with no figures and was not recorded. The \"Outside the U.S.\" employee region and the \"Other countries\" long-lived-asset region are different groupings (the latter excludes UK, Germany and Japan).",
+  "researchedAt": "2026-11-23"
+}

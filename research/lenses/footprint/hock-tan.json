@@ -1,0 +1,133 @@
+{
+  "id": "hock-tan",
+  "company": "Broadcom",
+  "metrics": {
+    "employeeShare": {
+      "label": "Share of employees",
+      "unit": "percent",
+      "period": "as of Nov 3, 2024",
+      "tier": "filing",
+      "definition": "Approximate share of Broadcom's ~37,000 employees located in each region, as stated in the 10-K Human Capital section."
+    }
+  },
+  "usStates": null,
+  "countries": null,
+  "regions": [
+    {
+      "name": "North America",
+      "countries": null,
+      "values": {
+        "employeeShare": 48
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+        "label": "FY2024 Form 10-K, Item 1, Human Capital",
+        "quote": "By geography, approximately 48% of our employees are located in North America, 36% in Asia, and 16% in Europe, the Middle East and Africa."
+      }
+    },
+    {
+      "name": "Asia",
+      "countries": null,
+      "values": {
+        "employeeShare": 36
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+        "label": "FY2024 Form 10-K, Item 1, Human Capital",
+        "quote": "By geography, approximately 48% of our employees are located in North America, 36% in Asia, and 16% in Europe, the Middle East and Africa."
+      }
+    },
+    {
+      "name": "Europe, the Middle East and Africa",
+      "countries": null,
+      "values": {
+        "employeeShare": 16
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+        "label": "FY2024 Form 10-K, Item 1, Human Capital",
+        "quote": "By geography, approximately 48% of our employees are located in North America, 36% in Asia, and 16% in Europe, the Middle East and Africa."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Headquarters",
+      "place": "Palo Alto, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Corporate headquarters",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "We are headquartered in Palo Alto, California and our primary warehouse is located in Malaysia."
+      }
+    },
+    {
+      "name": "Primary warehouse",
+      "place": "Malaysia",
+      "state": null,
+      "iso2": "MY",
+      "type": "warehouse",
+      "description": "Primary warehouse, where Broadcom stores the majority of its product inventory",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "We are headquartered in Palo Alto, California and our primary warehouse is located in Malaysia."
+      }
+    },
+    {
+      "name": "Fort Collins manufacturing facility",
+      "place": "Fort Collins, CO",
+      "state": "CO",
+      "iso2": "US",
+      "type": "manufacturing",
+      "description": "Own manufacturing facility; sole source of the FBAR components used in many of its wireless devices",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+        "label": "FY2024 Form 10-K, Item 1A Risk Factors",
+        "quote": "Our Fort Collins and Breinigsville facilities are the sole sources for the FBAR components used in many of our wireless devices and for the InP-based wafers used in our fibre optics products, respectively."
+      }
+    },
+    {
+      "name": "Breinigsville manufacturing facility",
+      "place": "Breinigsville, PA",
+      "state": "PA",
+      "iso2": "US",
+      "type": "manufacturing",
+      "description": "Own manufacturing facility; sole source of the InP-based wafers used in its fibre optics products",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+        "label": "FY2024 Form 10-K, Item 1A Risk Factors",
+        "quote": "Our Fort Collins and Breinigsville facilities are the sole sources for the FBAR components used in many of our wireless devices and for the InP-based wafers used in our fibre optics products, respectively."
+      }
+    },
+    {
+      "name": "Singapore manufacturing facility",
+      "place": "Singapore",
+      "state": null,
+      "iso2": "SG",
+      "type": "manufacturing",
+      "description": "One of the own manufacturing facilities Broadcom relies on",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+        "label": "FY2024 Form 10-K, Item 1A Risk Factors",
+        "quote": "Although we operate a primarily outsourced manufacturing business model, we also rely on our own manufacturing facilities, in particular in Fort Collins, Colorado, Singapore, and Breinigsville, Pennsylvania."
+      }
+    }
+  ],
+  "notes": "The FY2024 10-K gives employees only as regional percentages (North America 48%, Asia 36%, EMEA 16% of ~37,000); headcounts were not derived. Item 2 splits facilities over 100,000 sq ft only into United States (3,769,028 sq ft) and Other Countries (3,283,661 sq ft), so no country rows. The 10-K also says a significant majority of R&D personnel are in the Czech Republic, India, Israel and the U.S., without numbers. Broadcom publishes EU public country-by-country tax reports (with employees by jurisdiction) on investors.broadcom.com, but that host returned 403 Access Denied to every fetch this session, so they are not used; worth a retry with a browser. No state-level data found. Sites are from the 10-K's own descriptions; the Singapore row cites the manufacturing sentence because its description is the company's generic wording.",
+  "researchedAt": "2026-11-23"
+}

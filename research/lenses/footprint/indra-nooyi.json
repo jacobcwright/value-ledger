@@ -1,0 +1,196 @@
+{
+  "id": "indra-nooyi",
+  "company": "PepsiCo",
+  "metrics": {
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "as of December 28, 2024",
+      "tier": "filing",
+      "definition": "People employed within the United States, per the 2024 Form 10-K (approximately)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "employees": 134000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "PepsiCo 2024 Form 10-K, Item 1 Human Capital",
+        "quote": "We employed approximately 319,000 people worldwide as of December 28, 2024, including approximately 134,000 people within the United States."
+      }
+    }
+  ],
+  "regions": null,
+  "sites": [
+    {
+      "name": "Principal executive office",
+      "place": "Purchase, NY",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Owned principal executive office; with Plano, Texas, PepsiCo's most significant corporate properties.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "quote": "Our principal executive office located in Purchase, New York and our facilities located in Plano, Texas, all of which we own, are our most significant corporate properties."
+      },
+      "state": "NY"
+    },
+    {
+      "name": "Frito-Lay North America R&D facility",
+      "place": "Plano, TX",
+      "iso2": "US",
+      "type": "research",
+      "description": "Owned research and development facility (FLNA).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "quote": "FLNA | Research and development facility | Plano, Texas | Owned"
+      },
+      "state": "TX"
+    },
+    {
+      "name": "Quaker convenient food plant",
+      "place": "Cedar Rapids, IA",
+      "iso2": "US",
+      "type": "plant",
+      "description": "Owned convenient food plant (QFNA).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "quote": "QFNA | Convenient food plant | Cedar Rapids, Iowa | Owned"
+      },
+      "state": "IA"
+    },
+    {
+      "name": "PepsiCo Beverages North America R&D facility",
+      "place": "Valhalla, NY",
+      "iso2": "US",
+      "type": "research",
+      "description": "Owned research and development facility (PBNA).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "quote": "PBNA | Research and development facility | Valhalla, New York | Owned"
+      },
+      "state": "NY"
+    },
+    {
+      "name": "Concentrate plant",
+      "place": "Arlington, TX",
+      "iso2": "US",
+      "type": "plant",
+      "description": "Owned concentrate plant (PBNA).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "quote": "PBNA | Concentrate plant | Arlington, Texas | Owned"
+      },
+      "state": "TX"
+    },
+    {
+      "name": "Convenient food plant",
+      "place": "Celaya, Mexico",
+      "iso2": "MX",
+      "type": "plant",
+      "description": "Owned convenient food plant (LatAm).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "quote": "LatAm | Convenient food plant | Celaya, Mexico | Owned"
+      }
+    },
+    {
+      "name": "Convenient food plant",
+      "place": "Leicester, United Kingdom",
+      "iso2": "GB",
+      "type": "plant",
+      "description": "Owned convenient food plant on leased land (Europe).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "quote": "Europe | Convenient food plant | Leicester, United Kingdom | Owned (a)"
+      }
+    },
+    {
+      "name": "Convenient food plant",
+      "place": "Shanghai, China",
+      "iso2": "CN",
+      "type": "plant",
+      "description": "Owned convenient food plant on leased land (APAC).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "quote": "APAC | Convenient food plant | Shanghai, China | Owned (a)"
+      }
+    },
+    {
+      "name": "Convenient food plant",
+      "place": "Riyadh, Saudi Arabia",
+      "iso2": "SA",
+      "type": "plant",
+      "description": "Owned convenient food plant on leased land (AMESA).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "quote": "AMESA | Convenient food plant | Riyadh, Saudi Arabia | Owned (a)"
+      }
+    },
+    {
+      "name": "Two concentrate plants",
+      "place": "Cork, Ireland",
+      "iso2": "IE",
+      "type": "plant",
+      "description": "Two owned concentrate plants serving PBNA, Europe and AMESA.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "quote": "PBNA, Europe, AMESA | Two concentrate plants | Cork, Ireland | Owned"
+      }
+    },
+    {
+      "name": "Shared service center",
+      "place": "Mexico City, Mexico",
+      "iso2": "MX",
+      "type": "office",
+      "description": "Leased shared service center for FLNA, QFNA, PBNA, LatAm and Corporate.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "quote": "FLNA, QFNA, PBNA, LatAm, Corporate | Shared service center | Mexico City, Mexico | Leased"
+      }
+    },
+    {
+      "name": "Shared service center",
+      "place": "Hyderabad, India",
+      "iso2": "IN",
+      "type": "office",
+      "description": "Leased shared service center for all divisions.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "PepsiCo 2024 Form 10-K, Item 2 Properties",
+        "quote": "All divisions | Shared service center | Hyderabad, India | Leased"
+      }
+    }
+  ],
+  "notes": "No state rows. PepsiCo published an Oxford Economics report on its 2024 U.S. economic impact (pepsico.com/about/economic-impact and PDF 'PepsiCo_2024_US-impact.pdf', with a state-level appendix); pepsico.com's Imperva bot protection returned 403 / 'Access denied, Error 15' to curl, WebFetch and a headless browser on 2026-11-23, so it could not be read and nothing from it is recorded. A later run from a normal browser could add a company-commissioned 50-state set (jobs supported, GDP contribution). The 10-K gives ~319,000 employees with ~134,000 in the U.S. (US country row), no other country or state split. Item 2 lists significant properties by division without counts by state or country; 12 of its 18 rows are used as sites (Russia plants, Israel, Vallejo, Colonia and Singapore omitted).",
+  "researchedAt": "2026-11-23"
+}

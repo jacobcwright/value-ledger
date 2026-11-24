@@ -1,0 +1,232 @@
+{
+  "id": "warren-buffett",
+  "company": "Berkshire Hathaway",
+  "metrics": {
+    "employeesPct": {
+      "label": "Share of Berkshire and subsidiary employees",
+      "unit": "percent",
+      "period": "end of 2024",
+      "tier": "filing",
+      "definition": "Share of the approximately 392,400 people employed worldwide by Berkshire and its operating subsidiaries at the end of 2024 who were in the United States."
+    },
+    "utilityCustomers": {
+      "label": "BHE regulated utility retail customers",
+      "unit": "count",
+      "period": "2024 (10-K, filed Feb 2025)",
+      "tier": "filing",
+      "definition": "Retail customers served by BHE's four regulated U.S. utility companies (PacifiCorp, MidAmerican Energy, Nevada Power, Sierra Pacific)."
+    },
+    "electricityEndUsers": {
+      "label": "Northern Powergrid electricity end-users",
+      "unit": "count",
+      "period": "2024 (10-K, filed Feb 2025)",
+      "tier": "filing",
+      "definition": "Electricity end-users served by BHE's Northern Powergrid (Northeast) and Northern Powergrid (Yorkshire) distribution companies in northeast England."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "employeesPct": 80,
+        "utilityCustomers": 5300000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "Berkshire Hathaway Form 10-K for fiscal year 2024",
+        "quote": "Berkshire and its operating subsidiaries employed approximately 392,400 people worldwide at the end of 2024, of which approximately 80% were in the United States … four regulated U.S. utility companies (collectively, “U.S. utilities”) serving approximately 5.3 million retail customers"
+      }
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "values": {
+        "electricityEndUsers": 4000000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "Berkshire Hathaway Form 10-K for fiscal year 2024",
+        "quote": "Northern Powergrid (Northeast) plc and Northern Powergrid (Yorkshire) plc, which own a substantial electricity distribution network that delivers electricity to end-users in northeast England in an area covering approximately 10,000 square miles. These distribution companies primarily charge supply companies regulated tariffs for the use of their distribution systems and serve about 4.0 million electricity end-users."
+      }
+    }
+  ],
+  "regions": null,
+  "sites": [
+    {
+      "name": "Berkshire Hathaway corporate headquarters",
+      "place": "Omaha, NE",
+      "state": "NE",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Berkshire is domiciled in Delaware; its corporate headquarters is in Omaha, Nebraska.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "Berkshire Hathaway Form 10-K for fiscal year 2024",
+        "quote": "Berkshire is domiciled in the state of Delaware, and its corporate headquarters is in Omaha, Nebraska."
+      }
+    },
+    {
+      "name": "BNSF (Burlington Northern Santa Fe)",
+      "place": "Fort Worth, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Based in Fort Worth; BNSF Railway had about 36,500 employees at end-2024 and operates over 32,500 route miles of track in 28 states and three Canadian provinces.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "Berkshire Hathaway Form 10-K for fiscal year 2024",
+        "quote": "Burlington Northern Santa Fe, LLC (“BNSF”) is based in Fort Worth, Texas, and through BNSF Railway Company (“BNSF Railway”) operates one of the largest railroad systems in North America. BNSF Railway had approximately 36,500 employees at the end of 2024 … BNSF operates over 32,500 route miles of track (excluding multiple main tracks, yard tracks and sidings) in 28 states, and also operates in three Canadian provinces."
+      }
+    },
+    {
+      "name": "Berkshire Hathaway Energy (BHE)",
+      "place": "Iowa",
+      "state": "IA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Holding company headquartered in Iowa for Berkshire's energy businesses; employs about 24,000 people.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "Berkshire Hathaway Form 10-K for fiscal year 2024",
+        "quote": "Berkshire Hathaway Energy Company (“BHE”) is a holding company headquartered in Iowa … BHE employs approximately 24,000 people in connection with its various operations."
+      }
+    },
+    {
+      "name": "PacifiCorp",
+      "place": "Oregon",
+      "state": "OR",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Regulated electric utility headquartered in Oregon, serving customers in parts of Utah, Oregon, Wyoming, Washington, Idaho and California.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "Berkshire Hathaway Form 10-K for fiscal year 2024",
+        "quote": "PacifiCorp is a regulated electric utility company headquartered in Oregon, serving electric customers in portions of Utah, Oregon, Wyoming, Washington, Idaho and California."
+      }
+    },
+    {
+      "name": "MidAmerican Energy Company",
+      "place": "Iowa",
+      "state": "IA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Regulated electric and natural gas utility headquartered in Iowa, serving customers primarily in Iowa and parts of Illinois, South Dakota and Nebraska.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "Berkshire Hathaway Form 10-K for fiscal year 2024",
+        "quote": "MEC is a regulated electric and natural gas utility company headquartered in Iowa, serving electric and natural gas customers primarily in Iowa and also in portions of Illinois, South Dakota and Nebraska."
+      }
+    },
+    {
+      "name": "AltaLink",
+      "place": "Calgary, Alberta",
+      "state": null,
+      "iso2": "CA",
+      "type": "headquarters",
+      "description": "BHE's regulated transmission-only utility, headquartered in Calgary; serves about 85% of Alberta's population.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "Berkshire Hathaway Form 10-K for fiscal year 2024",
+        "quote": "AltaLink L.P. (“AltaLink”) is a regulated electric transmission-only utility company headquartered in Calgary, Alberta. … AltaLink serves approximately 85% of Alberta’s population."
+      }
+    },
+    {
+      "name": "Northern Powergrid",
+      "place": "Northeast England",
+      "state": null,
+      "iso2": "GB",
+      "type": "facility",
+      "description": "BHE electricity distribution network in northeast England serving about 4.0 million end-users.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "Berkshire Hathaway Form 10-K for fiscal year 2024",
+        "quote": "Northern Powergrid (Northeast) plc and Northern Powergrid (Yorkshire) plc, which own a substantial electricity distribution network that delivers electricity to end-users in northeast England"
+      }
+    },
+    {
+      "name": "GEICO",
+      "place": "Chevy Chase, MD",
+      "state": "MD",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Berkshire's auto insurer is headquartered in Chevy Chase, Maryland.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "Berkshire Hathaway Form 10-K for fiscal year 2024",
+        "quote": "GEICO—GEICO is headquartered in Chevy Chase, Maryland."
+      }
+    },
+    {
+      "name": "Precision Castparts (PCC)",
+      "place": "Lake Oswego, OR",
+      "state": "OR",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Manufactures complex metal components and products for aerospace and power and energy applications.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "Berkshire Hathaway Form 10-K for fiscal year 2024",
+        "quote": "(“PCC”), based in Lake Oswego, Oregon, manufactures complex metal components and products and provides high-quality investment castings, forgings, fasteners/fastener systems and aerostructures for critical aerospace and power and energy applications."
+      }
+    },
+    {
+      "name": "Lubrizol",
+      "place": "Wickliffe, OH",
+      "state": "OH",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Specialty chemical and performance materials company.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "Berkshire Hathaway Form 10-K for fiscal year 2024",
+        "quote": "The Lubrizol Corporation (“Lubrizol”), headquartered in Wickliffe, Ohio, is a specialty chemical and performance materials company"
+      }
+    },
+    {
+      "name": "McLane retail distribution",
+      "place": "Temple, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "McLane's retail distribution unit is based in Temple, Texas; McLane had about 24,800 employees at end-2024.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "Berkshire Hathaway Form 10-K for fiscal year 2024",
+        "quote": "McLane’s retail distribution unit, based in Temple, Texas, maintains a dominant market share within the convenience store industry … McLane had approximately 24,800 employees at the end of 2024."
+      }
+    },
+    {
+      "name": "Nebraska Furniture Mart",
+      "place": "Omaha, NE",
+      "state": "NE",
+      "iso2": "US",
+      "type": "retail",
+      "description": "NFM operates four retail complexes with almost 4.5 million square feet, including Omaha, Nebraska.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+        "label": "Berkshire Hathaway Form 10-K for fiscal year 2024",
+        "quote": "NFM operates its business from four retail complexes with almost 4.5 million square feet of retail, warehouse and administrative facilities located in Omaha, Nebraska, Clive, Iowa, Kansas City, Kansas and The Colony, Texas."
+      }
+    }
+  ],
+  "notes": "Sources: Berkshire's FY2024 10-K only. No state-level figures are published: BNSF's footprint is stated only as 32,500+ route miles in 28 states plus three Canadian provinces (states not listed), and BHE's generation table lists states per fuel type without per-state values, so usStates is null. Subsidiary headcounts in the 10-K are by business (insurance ~41,500, BNSF ~36,500, BHE ~24,000, manufacturing ~180,000, Pilot ~29,200, McLane ~24,800, service ~30,400, retailing ~26,000), not by geography, so they appear only in site descriptions. Item 2 property counts are split U.S./non-U.S. and owned/leased by business; they were not summed. The U.S. row combines the employee share (80% of ~392,400) and BHE's 5.3 million U.S. utility retail customers from the same filing; no U.S. headcount was derived. The GB row is Northern Powergrid's ~4.0 million end-users. Berkshire's website EEO-1 data was not used (U.S. demographics only).",
+  "researchedAt": "2026-11-23"
+}

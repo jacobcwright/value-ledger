@@ -1,0 +1,143 @@
+{
+  "id": "elon-musk",
+  "company": "Tesla",
+  "metrics": {
+    "employees": {
+      "label": "Tesla employees",
+      "unit": "people",
+      "period": "2021 (most recent Tesla-published state study; older than the FY2024 snapshot)",
+      "tier": "company-commissioned",
+      "definition": "Tesla employees in California, from 'The economic contributions of Tesla to the California economy, 2018–2021', an IHS Markit study (October 2022) hosted by Tesla."
+    }
+  },
+  "usStates": null,
+  "countries": null,
+  "regions": null,
+  "sites": [
+    {
+      "name": "Corporate headquarters",
+      "place": "Austin, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "We are headquartered in Austin, Texas.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "We are headquartered in Austin, Texas."
+      }
+    },
+    {
+      "name": "Gigafactory Texas",
+      "place": "Austin, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "factory",
+      "description": "Installed annual capacity >250,000 Model Y and >125,000 Cybertruck",
+      "source": {
+        "hostType": "company",
+        "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2024-Update.pdf",
+        "label": "Q4 2024 Update, current installed annual vehicle capacity",
+        "quote": "Texas Model Y >250,000 Production … Cybertruck >125,000 Production"
+      }
+    },
+    {
+      "name": "Fremont Factory",
+      "place": "Fremont, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "factory",
+      "description": "California installed annual capacity 100,000 Model S / Model X and >550,000 Model 3 / Model Y",
+      "source": {
+        "hostType": "company",
+        "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2024-Update.pdf",
+        "label": "Q4 2024 Update, current installed annual vehicle capacity",
+        "quote": "California Model S / Model X 100,000 Production … Model 3 / Model Y >550,000 Production"
+      }
+    },
+    {
+      "name": "Gigafactory Nevada",
+      "place": "Sparks, NV",
+      "state": "NV",
+      "iso2": "US",
+      "type": "factory",
+      "description": "Owned primary manufacturing facility",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Gigafactory Nevada | Sparks, Nevada | Owned"
+      }
+    },
+    {
+      "name": "Gigafactory New York",
+      "place": "Buffalo, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "factory",
+      "description": "Leased primary manufacturing facility",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Gigafactory New York | Buffalo, New York | Leased"
+      }
+    },
+    {
+      "name": "Megafactory Lathrop",
+      "place": "Lathrop, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "factory",
+      "description": "Leased primary manufacturing facility; one of the Megafactories ramping energy storage production",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Megafactory Lathrop | Lathrop, California | Leased … the ramps of our Megafactories in Shanghai and Lathrop, California"
+      }
+    },
+    {
+      "name": "Gigafactory Shanghai",
+      "place": "Shanghai, China",
+      "iso2": "CN",
+      "type": "factory",
+      "description": "Primary manufacturing facility; installed annual capacity >950,000 Model 3 / Model Y",
+      "source": {
+        "hostType": "company",
+        "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2024-Update.pdf",
+        "label": "Q4 2024 Update, current installed annual vehicle capacity",
+        "quote": "Shanghai Model 3 / Model Y >950,000 Production"
+      }
+    },
+    {
+      "name": "Megafactory Shanghai",
+      "place": "Shanghai, China",
+      "iso2": "CN",
+      "type": "factory",
+      "description": "Primary manufacturing facility ramping energy storage production; Tesla owns the building and the land use rights (initial term of 50 years)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Megafactory Shanghai | Shanghai, China | * … the ramps of our Megafactories in Shanghai and Lathrop, California … *We own the building and the land use rights with an initial term of 50 years."
+      }
+    },
+    {
+      "name": "Gigafactory Berlin-Brandenburg",
+      "place": "Grunheide, Germany",
+      "iso2": "DE",
+      "type": "factory",
+      "description": "Installed annual capacity >375,000 Model Y",
+      "source": {
+        "hostType": "company",
+        "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2024-Update.pdf",
+        "label": "Q4 2024 Update, current installed annual vehicle capacity",
+        "quote": "Berlin Model Y >375,000 Production"
+      }
+    }
+  ],
+  "notes": "Tesla publishes no state, country or regional breakdown of employees, stores, service centers or Supercharger sites in its FY2024 10-K or Q4 2024 Update; both give only global totals (e.g. 6,975 Supercharger stations and 65,495 connectors at end-2024, Q4 2024 Update), so countries and regions are null. The one state figure is California (36,700 Tesla employees in 2021) from an IHS Markit study Tesla commissioned and hosts; it is three years older than the snapshot. Tesla also hosts a 'Gigafactory Nevada Economic and Fiscal Impact Analysis 2022' (Applied Analysis), but its headcounts combine Tesla with on-site vendors (Panasonic and others) and direct, indirect and induced jobs, so no Tesla-only Nevada figure is recorded. Sites are the eight primary manufacturing facilities in 10-K Item 2 plus the Austin headquarters; vehicle-factory capacity figures come from the Q4 2024 Update table (installed capacity, not production). Gigafactory Shanghai and Megafactory Shanghai: Tesla owns the buildings and holds 50-year land use rights. Period: Dec 31, 2024. [Editor] The single California row (36,700 employees, 2021, IHS Markit study commissioned by Tesla) is omitted: one state cannot make a state map and the figure predates the snapshot.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,247 @@
+{
+  "id": "mary-barra",
+  "company": "General Motors",
+  "metrics": {
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Worldwide employment by segment from the 10-K table, filed in thousands (total 162 thousand; GM Financial 9 thousand is not geographic and is not shown). GMNA includes Cruise. Values are the filed thousands times 1,000."
+    },
+    "usSalaried": {
+      "label": "U.S. salaried employees",
+      "unit": "people",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "\"U.S. - Salaried\" row of the 10-K employment table, filed in thousands."
+    },
+    "usHourly": {
+      "label": "U.S. hourly employees",
+      "unit": "people",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "\"U.S. - Hourly\" row of the 10-K employment table, filed in thousands; substantially all are represented by unions, mostly the UAW."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "usSalaried": 50000,
+        "usHourly": 47000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+        "label": "General Motors FY2024 Form 10-K, Item 1 Business, Employees",
+        "quote": "The following table summarizes worldwide employment (in thousands): … U.S. - Salaried | 50 | U.S. - Hourly | 47 [in thousands: 50 = 50,000; 47 = 47,000; Dec 31, 2024]"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "GM North America (GMNA)",
+      "countries": null,
+      "values": {
+        "employees": 123000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+        "label": "General Motors FY2024 Form 10-K, Item 1 Business, Employees",
+        "quote": "The following table summarizes worldwide employment (in thousands): … GMNA(a) | 123 [123 thousand = 123,000; (a) Includes Cruise]"
+      }
+    },
+    {
+      "name": "GM International (GMI)",
+      "countries": null,
+      "values": {
+        "employees": 30000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+        "label": "General Motors FY2024 Form 10-K, Item 1 Business, Employees",
+        "quote": "The following table summarizes worldwide employment (in thousands): … GMNA(a) | 123 | GMI | 30 [in thousands; GMI 30 thousand = 30,000]"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Global headquarters, Hudson's Detroit",
+      "place": "Detroit, MI",
+      "state": "MI",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "GM's global headquarters at Hudson's Detroit, listed as opened in 2026 (after the FY2024 snapshot; the FY2024 10-K cover gives 300 Renaissance Center, Detroit).",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.gm.com/company/us-operations",
+        "label": "GM, U.S. Operations page (facility list by state), fetched Nov 2026",
+        "quote": "Hudson’s Detroit | 1240 Woodward Avenue | Detroit, MI 48226 | Located at Hudson’s Detroit, GM’s global headquarters honors the company’s long-standing presence in the city … Year Opened: 2026"
+      }
+    },
+    {
+      "name": "Global Technical Center",
+      "place": "Warren, MI",
+      "state": "MI",
+      "iso2": "US",
+      "type": "campus",
+      "description": "710-acre engineering, design and advanced technology campus with more than 21,000 employees; a National Historic Landmark.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.gm.com/company/us-operations",
+        "label": "GM, U.S. Operations page (facility list by state), fetched Nov 2026",
+        "quote": "Global Technical Center | GM Tech Center Rd | Warren, MI 48092 | Opened in 1956, the GM Technical Center in Warren outside Detroit is a 710-acre campus with more than 21,000 employees"
+      }
+    },
+    {
+      "name": "Factory ZERO",
+      "place": "Detroit, MI",
+      "state": "MI",
+      "iso2": "US",
+      "type": "assembly",
+      "description": "GM's first fully dedicated EV assembly plant (formerly Detroit-Hamtramck Assembly).",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.gm.com/company/us-operations",
+        "label": "GM, U.S. Operations page (facility list by state), fetched Nov 2026",
+        "quote": "Factory ZERO Detroit-Hamtramck Assembly Center | 2500 East Grand Blvd | Detroit, MI 48211 | Factory ZERO, formerly known as Detroit-Hamtramck Assembly, is GM's first fully dedicated electric vehicle assembly plant."
+      }
+    },
+    {
+      "name": "Flint Assembly",
+      "place": "Flint, MI",
+      "state": "MI",
+      "iso2": "US",
+      "type": "assembly",
+      "description": "GM's longest-running North American assembly plant; heavy-duty Chevrolet Silverado and GMC Sierra.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.gm.com/company/us-operations",
+        "label": "GM, U.S. Operations page (facility list by state), fetched Nov 2026",
+        "quote": "Flint Assembly | 3100 Van Slyke Rd | Flint, MI 48507 | Flint Assembly, GM’s longest-running North American assembly plant, is home to the heavy-duty GMC Sierra and Chevrolet Silverado."
+      }
+    },
+    {
+      "name": "Lansing Delta Township Assembly",
+      "place": "Lansing, MI",
+      "state": "MI",
+      "iso2": "US",
+      "type": "assembly",
+      "description": "Builds the GMC Acadia, Buick Enclave and Chevrolet Traverse, with an onsite stamping plant.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.gm.com/company/us-operations",
+        "label": "GM, U.S. Operations page (facility list by state), fetched Nov 2026",
+        "quote": "Lansing Delta Township Assembly & Lansing Regional Stamping | 8175 Millet Hwy | Lansing, MI 48971 | Opened in 2006, Lansing Delta Township builds the GMC Acadia, Buick Enclave, and Chevrolet Traverse."
+      }
+    },
+    {
+      "name": "Fort Wayne Assembly",
+      "place": "Roanoke, IN",
+      "state": "IN",
+      "iso2": "US",
+      "type": "assembly",
+      "description": "Builds light-duty Chevrolet Silverado and GMC Sierra pickups.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.gm.com/company/us-operations",
+        "label": "GM, U.S. Operations page (facility list by state), fetched Nov 2026",
+        "quote": "Fort Wayne Assembly | 12200 Lafayette Center Rd | Roanoke, IN 46783 | Fort Wayne Assembly builds light-duty Chevy Silverado and GMC Sierra pickup trucks."
+      }
+    },
+    {
+      "name": "Arlington Assembly",
+      "place": "Arlington, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "assembly",
+      "description": "Builds the Cadillac Escalade, GMC Yukon, Chevrolet Suburban and Tahoe; more than 70 years of GM production.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.gm.com/company/us-operations",
+        "label": "GM, U.S. Operations page (facility list by state), fetched Nov 2026",
+        "quote": "Arlington Assembly | 2625 E Abram | Arlington, TX 76010 | Arlington Assembly builds the Cadillac Escalade, GMC Yukon, Chevrolet Suburban, and the Chevy Tahoe. The site has been building GM vehicles for more than 70 years."
+      }
+    },
+    {
+      "name": "Spring Hill Manufacturing",
+      "place": "Spring Hill, TN",
+      "state": "TN",
+      "iso2": "US",
+      "type": "assembly",
+      "description": "Builds combustion and electric vehicles on one line; 2,100-acre campus with stamping, propulsion and battery assembly.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.gm.com/company/us-operations",
+        "label": "GM, U.S. Operations page (facility list by state), fetched Nov 2026",
+        "quote": "Spring Hill Manufacturing | 100 Saturn Parkway | Spring Hill, TN 37174 | Spring Hill builds both internal combustion and electric vehicles on one assembly line. The campus, which also includes stamping, global propulsion and battery assembly, sits on 2,100 acres"
+      }
+    },
+    {
+      "name": "Bowling Green Assembly",
+      "place": "Bowling Green, KY",
+      "state": "KY",
+      "iso2": "US",
+      "type": "assembly",
+      "description": "Home of the Chevrolet Corvette for 45 years.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.gm.com/company/us-operations",
+        "label": "GM, U.S. Operations page (facility list by state), fetched Nov 2026",
+        "quote": "Bowling Green Assembly | 600 Corvette Drive | Bowling Green, KY 42101 | For 45 years, Bowling Green Assembly has been building the Chevrolet Corvette"
+      }
+    },
+    {
+      "name": "Wentzville Assembly",
+      "place": "Wentzville, MO",
+      "state": "MO",
+      "iso2": "US",
+      "type": "assembly",
+      "description": "Builds the Chevrolet Colorado and GMC Canyon mid-size trucks and full-size vans.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.gm.com/company/us-operations",
+        "label": "GM, U.S. Operations page (facility list by state), fetched Nov 2026",
+        "quote": "Wentzville Assembly | 1500 E Rte A | Wentzville, MO 63385 | Wentzville Assembly builds the Chevrolet Colorado and GMC Canyon mid-size trucks"
+      }
+    },
+    {
+      "name": "Fairfax Assembly & Stamping",
+      "place": "Kansas City, KS",
+      "state": "KS",
+      "iso2": "US",
+      "type": "assembly",
+      "description": "Operating in the Kansas City area since 1947; preparing to build the next-generation Chevrolet Bolt.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.gm.com/company/us-operations",
+        "label": "GM, U.S. Operations page (facility list by state), fetched Nov 2026",
+        "quote": "Fairfax Assembly & Stamping | 3201 Fairfax Trafficway | Kansas City, KS 66115 | Fairfax Assembly and Stamping, which has been operating in the Kansas City area since 1947"
+      }
+    },
+    {
+      "name": "Austin Technical Center",
+      "place": "Austin, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "campus",
+      "description": "Hub for software and digital product development, data analysis and research.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.gm.com/company/us-operations",
+        "label": "GM, U.S. Operations page (facility list by state), fetched Nov 2026",
+        "quote": "Austin Technical Center | 13201 McCallen Pass | Austin Technical Center is a hub for software and digital product development, as well as data analysis and research."
+      }
+    }
+  ],
+  "notes": "U.S. plants by state: GM's U.S. Operations page (gm.com/company/us-operations) lists its facilities state by state (59 entries; the page says \"50 assembly and parts facilities across 19 states\" and \"97k+ GM employees in the U.S.\"), but it publishes no count, employment or investment figure per state, so usStates is null rather than a tally made here; 12 of the listed facilities are recorded as sites. That page is current (fetched Nov 2026, newer than the FY2024 snapshot) and lists the Hudson's Detroit headquarters as opened in 2026; the FY2024 10-K cover address is 300 Renaissance Center, Detroit. The FY2024 10-K Item 2 gives only national totals (\"over 100 locations in the U.S.\" and operations \"in 33 countries\"; major non-U.S. facilities in Brazil, Canada, China, Mexico and South Korea). Employees come from the 10-K table, filed in thousands: GMNA 123 (includes Cruise), GMI 30, GM Financial 9 (not shown), total 162; U.S. salaried 50 and hourly 47 are separate metrics, not added. GMNA and GMI are GM segments with no country list in the 10-K.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,422 @@
+{
+  "id": "carlos-slim",
+  "company": "América Móvil",
+  "metrics": {
+    "wirelessRGUs": {
+      "label": "Wireless subscriptions (thousands)",
+      "unit": "count",
+      "period": "as of December 31, 2024",
+      "tier": "filing",
+      "definition": "Wireless revenue generating units in thousands: each wireless subscription, prepaid or postpaid, counts as one RGU, for all consolidated subsidiaries in each reportable segment. Values are in thousands as filed.",
+      "scale": 1000
+    },
+    "fixedRGUs": {
+      "label": "Fixed RGUs (thousands)",
+      "unit": "count",
+      "period": "as of December 31, 2024",
+      "tier": "filing",
+      "definition": "Fixed revenue generating units in thousands: fixed voice, fixed data and Pay TV units (a single fixed customer can have several RGUs). Values are in thousands as filed.",
+      "scale": 1000
+    },
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "as of December 31, 2024",
+      "tier": "filing",
+      "definition": "Total employees by geographic location as reported in the 20-F (Mexico, South America, Central America, Caribbean, Europe); total 178,468."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "MX",
+      "name": "Mexico",
+      "values": {
+        "wirelessRGUs": 84613
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "WIRELESS RGUS Mexico 82,851 83,834 84,613"
+      }
+    },
+    {
+      "iso2": "MX",
+      "name": "Mexico",
+      "values": {
+        "fixedRGUs": 21936
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "FIXED RGUS : Mexico 20,824 21,171 21,936"
+      }
+    },
+    {
+      "iso2": "BR",
+      "name": "Brazil",
+      "values": {
+        "wirelessRGUs": 87145
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Brazil 83,260 86,951 87,145"
+      }
+    },
+    {
+      "iso2": "BR",
+      "name": "Brazil",
+      "values": {
+        "fixedRGUs": 22390
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Brazil 24,136 23,089 22,390"
+      }
+    },
+    {
+      "iso2": "CO",
+      "name": "Colombia",
+      "values": {
+        "wirelessRGUs": 40953
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Colombia 37,550 39,240 40,953"
+      }
+    },
+    {
+      "iso2": "CO",
+      "name": "Colombia",
+      "values": {
+        "fixedRGUs": 9583
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Colombia 9,248 9,440 9,583"
+      }
+    },
+    {
+      "iso2": "AR",
+      "name": "Argentina (Southern Cone segment)",
+      "values": {
+        "wirelessRGUs": 25909
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Southern Cone (Argentina) 23,875 24,928 25,909"
+      }
+    },
+    {
+      "iso2": "AR",
+      "name": "Argentina (Southern Cone segment)",
+      "values": {
+        "fixedRGUs": 3668
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Southern Cone (Argentina) 2,546 3,212 3,668"
+      }
+    },
+    {
+      "iso2": "MX",
+      "name": "Mexico",
+      "values": {
+        "employees": 85748
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 6, Employees, number of employees by geographic location as of December 31 (2022 | 2023 | 2024; 2024 used)",
+        "quote": "GEOGRAPHIC LOCATION: Mexico 85,820 86,999 85,748"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Southern Cone (Chile, Paraguay and Uruguay)",
+      "countries": [
+        "CL",
+        "PY",
+        "UY"
+      ],
+      "values": {
+        "wirelessRGUs": 9151
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Southern Cone (Chile, Paraguay and Uruguay) 8,266 8,239 9,151"
+      }
+    },
+    {
+      "name": "Southern Cone (Chile, Paraguay and Uruguay)",
+      "countries": [
+        "CL",
+        "PY",
+        "UY"
+      ],
+      "values": {
+        "fixedRGUs": 3393
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Southern Cone (Chile, Paraguay and Uruguay) 3,596 3,510 3,393"
+      }
+    },
+    {
+      "name": "Andean Region (Ecuador and Peru)",
+      "countries": [
+        "EC",
+        "PE"
+      ],
+      "values": {
+        "wirelessRGUs": 22548
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Andean Region 21,365 21,936 22,548"
+      }
+    },
+    {
+      "name": "Andean Region (Ecuador and Peru)",
+      "countries": [
+        "EC",
+        "PE"
+      ],
+      "values": {
+        "fixedRGUs": 2567
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Andean Region 2,608 2,473 2,567"
+      }
+    },
+    {
+      "name": "Central America (Costa Rica, El Salvador, Guatemala, Honduras and Nicaragua)",
+      "countries": [
+        "CR",
+        "SV",
+        "GT",
+        "HN",
+        "NI"
+      ],
+      "values": {
+        "wirelessRGUs": 17241
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Central America 16,673 17,266 17,241"
+      }
+    },
+    {
+      "name": "Central America (Costa Rica, El Salvador, Guatemala, Honduras and Nicaragua)",
+      "countries": [
+        "CR",
+        "SV",
+        "GT",
+        "HN",
+        "NI"
+      ],
+      "values": {
+        "fixedRGUs": 5203
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Central America 4,624 4,923 5,203"
+      }
+    },
+    {
+      "name": "Caribbean (Dominican Republic and Puerto Rico)",
+      "countries": [
+        "DO",
+        "PR"
+      ],
+      "values": {
+        "wirelessRGUs": 7910
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Caribbean 7,345 7,592 7,910"
+      }
+    },
+    {
+      "name": "Caribbean (Dominican Republic and Puerto Rico)",
+      "countries": [
+        "DO",
+        "PR"
+      ],
+      "values": {
+        "fixedRGUs": 2843
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Caribbean 2,774 2,787 2,843"
+      }
+    },
+    {
+      "name": "Europe (Austria, Belarus, Bulgaria, Croatia, North Macedonia, Serbia and Slovenia)",
+      "countries": [
+        "AT",
+        "BY",
+        "BG",
+        "HR",
+        "MK",
+        "RS",
+        "SI"
+      ],
+      "values": {
+        "wirelessRGUs": 27123
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Europe 23,897 25,245 27,123"
+      }
+    },
+    {
+      "name": "Europe (Austria, Belarus, Bulgaria, Croatia, North Macedonia, Serbia and Slovenia)",
+      "countries": [
+        "AT",
+        "BY",
+        "BG",
+        "HR",
+        "MK",
+        "RS",
+        "SI"
+      ],
+      "values": {
+        "fixedRGUs": 6353
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Key performance indicators, RGUs as of December 31 (2022 | 2023 | 2024; in thousands; 2024 used)",
+        "quote": "Europe 6,204 6,270 6,353"
+      }
+    },
+    {
+      "name": "South America",
+      "countries": null,
+      "values": {
+        "employees": 55471
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 6, Employees, number of employees by geographic location as of December 31 (2022 | 2023 | 2024; 2024 used)",
+        "quote": "South America 56,464 55,592 55,471"
+      }
+    },
+    {
+      "name": "Central America",
+      "countries": null,
+      "values": {
+        "employees": 9967
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 6, Employees, number of employees by geographic location as of December 31 (2022 | 2023 | 2024; 2024 used)",
+        "quote": "Central America 9,602 9,645 9,967"
+      }
+    },
+    {
+      "name": "Caribbean",
+      "countries": null,
+      "values": {
+        "employees": 9982
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 6, Employees, number of employees by geographic location as of December 31 (2022 | 2023 | 2024; 2024 used)",
+        "quote": "Caribbean 10,193 10,048 9,982"
+      }
+    },
+    {
+      "name": "Europe",
+      "countries": null,
+      "values": {
+        "employees": 17300
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 6, Employees, number of employees by geographic location as of December 31 (2022 | 2023 | 2024; 2024 used)",
+        "quote": "Europe 17,907 17,508 17,300"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Principal executive offices (Plaza Carso / Edificio Telcel)",
+      "place": "Mexico City, Mexico",
+      "state": null,
+      "iso2": "MX",
+      "type": "headquarters",
+      "description": "Principal executive offices at Lago Zurich 245, Plaza Carso / Edificio Telcel, Miguel Hidalgo.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Information on the Company",
+        "quote": "Our principal executive offices are located at Lago Zurich 245, Plaza Carso / Edificio Telcel, Colonia Ampliación Granada, Miguel Hidalgo, 11529, Mexico City, Mexico."
+      }
+    }
+  ],
+  "notes": "Subscribers come from the 20-F's RGU table by reportable segment (thousands). Mexico, Brazil, Colombia and Argentina are single-country segments and appear as country rows; multi-country segments are regions whose country lists are the 20-F's own segment definitions. Employees are reported only for Mexico and four broad regions (South America, Central America, Caribbean, Europe), which the filing does not define by country, so those region rows carry no country list. Because each quote covers one table row, each country or region appears once per metric (wireless RGUs, fixed RGUs, employees); merge rows by iso2/name when displaying. Wireless and fixed RGUs should not be summed into customers (one customer can hold several RGUs). No U.S. state data or taxes-by-country report was found in the 20-F.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,264 @@
+{
+  "id": "henry-ford",
+  "company": "Ford Motor Company",
+  "metrics": {
+    "longLivedAssets": {
+      "label": "Long-lived assets",
+      "unit": "currency-millions",
+      "currency": "USD",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Long-lived assets by the U.S. and the other countries where Ford's major subsidiaries are domiciled (10-K Note 25, footnote (a)); each row lists revenues and long-lived assets for 2022-2024, and only the 2024 long-lived assets value is recorded."
+    },
+    "uawHourly": {
+      "label": "U.S. hourly employees represented by the UAW",
+      "unit": "people",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Hourly employees in the United States represented by the United Auto Workers (approximately)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "longLivedAssets": 45392,
+        "uawHourly": 56500
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+        "label": "Ford Motor Company Form 10-K for fiscal 2024, Human Capital Resources; Note 25",
+        "quote": "At December 31, 2024, approximately 56,500 hourly employees in the United States were represented by the UAW … United States $ 105,481 $ 41,925 $ 116,995 $ 42,235 $ 124,968 $ 45,392"
+      }
+    },
+    {
+      "iso2": "CA",
+      "name": "Canada",
+      "values": {
+        "longLivedAssets": 6548
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+        "label": "Ford Motor Company Form 10-K for fiscal 2024, Note 25 geographic information",
+        "quote": "Total Company revenues and long-lived assets, split geographically by our country of domicile (the United States) and other countries where our major subsidiaries are domiciled, for the years ended December 31 were as follows (in millions): 2022 2023 2024 Revenues Long-Lived Assets (a) … Canada 12,590 5,739 13,391 6,147 13,412 6,548 [last two values are 2024 revenues and 2024 long-lived assets]"
+      }
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "values": {
+        "longLivedAssets": 2174
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+        "label": "Ford Motor Company Form 10-K for fiscal 2024, Note 25 geographic information",
+        "quote": "Total Company revenues and long-lived assets, split geographically by our country of domicile (the United States) and other countries where our major subsidiaries are domiciled, for the years ended December 31 were as follows (in millions): 2022 2023 2024 Revenues Long-Lived Assets (a) … United Kingdom 8,220 1,264 8,968 1,868 9,936 2,174 [last two values are 2024 revenues and 2024 long-lived assets]"
+      }
+    },
+    {
+      "iso2": "MX",
+      "name": "Mexico",
+      "values": {
+        "longLivedAssets": 4352
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+        "label": "Ford Motor Company Form 10-K for fiscal 2024, Note 25 geographic information",
+        "quote": "Total Company revenues and long-lived assets, split geographically by our country of domicile (the United States) and other countries where our major subsidiaries are domiciled, for the years ended December 31 were as follows (in millions): 2022 2023 2024 Revenues Long-Lived Assets (a) … Mexico 1,813 4,255 2,774 5,222 2,634 4,352 [last two values are 2024 revenues and 2024 long-lived assets]"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "All Other",
+      "countries": null,
+      "values": {
+        "longLivedAssets": 6409
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+        "label": "Ford Motor Company Form 10-K for fiscal 2024, Note 25 geographic information",
+        "quote": "Total Company revenues and long-lived assets, split geographically by our country of domicile (the United States) and other countries where our major subsidiaries are domiciled, for the years ended December 31 were as follows (in millions): 2022 2023 2024 Revenues Long-Lived Assets (a) … All Other 29,953 6,854 34,063 6,733 34,042 6,409 [last two values are 2024 revenues and 2024 long-lived assets]"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Global headquarters",
+      "place": "Dearborn, MI",
+      "state": "MI",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "We are a global company based in Dearborn, Michigan.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+        "label": "Ford Motor Company Form 10-K for fiscal 2024, Item 1",
+        "quote": "We are a global company based in Dearborn, Michigan. With about 171,000 employees worldwide"
+      }
+    },
+    {
+      "name": "Kansas City Assembly Plant",
+      "place": "Claycomo, MO",
+      "iso2": "US",
+      "type": "assembly-plant",
+      "description": "Approximate current total employees: 9,205 (headcount data from June 2026).",
+      "source": {
+        "hostType": "company",
+        "url": "https://corporate.ford.com/operations/locations/global-plants.html",
+        "label": "Ford Motor Company, Global Offices & Plants (corporate.ford.com)",
+        "quote": "United States - Kansas City Assembly Plant Address Claycomo, Missouri United States Employment Approximate current total employees: 9,205*"
+      },
+      "state": "MO"
+    },
+    {
+      "name": "Kentucky Truck Plant",
+      "place": "Louisville, KY",
+      "iso2": "US",
+      "type": "assembly-plant",
+      "description": "Approximate current total employees: 8,912 (headcount data from June 2026).",
+      "source": {
+        "hostType": "company",
+        "url": "https://corporate.ford.com/operations/locations/global-plants.html",
+        "label": "Ford Motor Company, Global Offices & Plants (corporate.ford.com)",
+        "quote": "United States - Kentucky Truck Plant Address Louisville, Kentucky United States Employment Approximate current total employees: 8,912*"
+      },
+      "state": "KY"
+    },
+    {
+      "name": "Michigan Assembly Plant",
+      "place": "Wayne, MI",
+      "iso2": "US",
+      "type": "assembly-plant",
+      "description": "Approximate current total employees: 6,066 (headcount data from June 2026).",
+      "source": {
+        "hostType": "company",
+        "url": "https://corporate.ford.com/operations/locations/global-plants.html",
+        "label": "Ford Motor Company, Global Offices & Plants (corporate.ford.com)",
+        "quote": "United States - Michigan Assembly Plant Address Wayne, Michigan United States Employment Approximate current total employees: 6,066*"
+      },
+      "state": "MI"
+    },
+    {
+      "name": "Dearborn Truck Plant",
+      "place": "Dearborn, MI",
+      "iso2": "US",
+      "type": "assembly-plant",
+      "description": "Approximate current total employees: 4,995 (headcount data from June 2026).",
+      "source": {
+        "hostType": "company",
+        "url": "https://corporate.ford.com/operations/locations/global-plants.html",
+        "label": "Ford Motor Company, Global Offices & Plants (corporate.ford.com)",
+        "quote": "United States - Dearborn Truck Plant Address Dearborn, Michigan United States Employment Approximate current total employees: 4,995*"
+      },
+      "state": "MI"
+    },
+    {
+      "name": "Chicago Assembly Plant",
+      "place": "Chicago, IL",
+      "iso2": "US",
+      "type": "assembly-plant",
+      "description": "Approximate current total employees: 4,607 (headcount data from June 2026).",
+      "source": {
+        "hostType": "company",
+        "url": "https://corporate.ford.com/operations/locations/global-plants.html",
+        "label": "Ford Motor Company, Global Offices & Plants (corporate.ford.com)",
+        "quote": "United States - Chicago Assembly Plant Address 12600 S Torrence Ave Chicago, Illinois United States 60633 Employment Approximate current total employees: 4,607*"
+      },
+      "state": "IL"
+    },
+    {
+      "name": "Louisville Assembly Plant",
+      "place": "Louisville, KY",
+      "iso2": "US",
+      "type": "assembly-plant",
+      "description": "Approximate current total employees: 2,569 (headcount data from June 2026).",
+      "source": {
+        "hostType": "company",
+        "url": "https://corporate.ford.com/operations/locations/global-plants.html",
+        "label": "Ford Motor Company, Global Offices & Plants (corporate.ford.com)",
+        "quote": "United States - Louisville Assembly Plant Address Louisville, Kentucky United States Employment Approximate current total employees: 2,569*"
+      },
+      "state": "KY"
+    },
+    {
+      "name": "Saarlouis Body and Assembly Plant",
+      "place": "Saarlouis",
+      "iso2": "DE",
+      "type": "assembly-plant",
+      "description": "Approximate current total employees: 6,190.",
+      "source": {
+        "hostType": "company",
+        "url": "https://corporate.ford.com/operations/locations/global-plants.html",
+        "label": "Ford Motor Company, Global Offices & Plants (corporate.ford.com)",
+        "quote": "Germany - Saarlouis Body and Assembly Plant Address Saarlouis, Germany Employment Approximate current total employees: 6,190"
+      }
+    },
+    {
+      "name": "Hermosillo Stamping and Assembly Plant",
+      "place": "Hermosillo, Sonora",
+      "iso2": "MX",
+      "type": "assembly-plant",
+      "description": "Approximate current total employees: 4,915 (headcount data from June 2026).",
+      "source": {
+        "hostType": "company",
+        "url": "https://corporate.ford.com/operations/locations/global-plants.html",
+        "label": "Ford Motor Company, Global Offices & Plants (corporate.ford.com)",
+        "quote": "Mexico - Hermosillo Stamping and Assembly Plant Address Carretera rumbo a La Colorada km. 4.5 Col. Parque Industrial C.P. Hermosillo, Sonora Mexico Employment Approximate current total employees: 4,915*"
+      }
+    },
+    {
+      "name": "Cologne Electric Vehicle Center",
+      "place": "Cologne",
+      "iso2": "DE",
+      "type": "assembly-plant",
+      "description": "Approximate current total employees: 4,090.",
+      "source": {
+        "hostType": "company",
+        "url": "https://corporate.ford.com/operations/locations/global-plants.html",
+        "label": "Ford Motor Company, Global Offices & Plants (corporate.ford.com)",
+        "quote": "Germany - Cologne Electric Vehicle Center Address Cologne, Germany Employment Approximate current total employees: 4,090"
+      }
+    },
+    {
+      "name": "Valencia Body and Assembly Plant",
+      "place": "Valencia",
+      "iso2": "ES",
+      "type": "assembly-plant",
+      "description": "Approximate current total employees: 3,626.",
+      "source": {
+        "hostType": "company",
+        "url": "https://corporate.ford.com/operations/locations/global-plants.html",
+        "label": "Ford Motor Company, Global Offices & Plants (corporate.ford.com)",
+        "quote": "Spain - Valencia Body and Assembly Plant Address Valencia, Spain Employment Approximate current total employees: 3,626"
+      }
+    },
+    {
+      "name": "Oakville Assembly Complex",
+      "place": "Oakville, Ontario",
+      "iso2": "CA",
+      "type": "assembly-plant",
+      "description": "Approximate current total employees: 2,600 (headcount data from June 2026).",
+      "source": {
+        "hostType": "company",
+        "url": "https://corporate.ford.com/operations/locations/global-plants.html",
+        "label": "Ford Motor Company, Global Offices & Plants (corporate.ford.com)",
+        "quote": "Canada - Oakville Assembly Complex Address Oakville, Ontario Canada Employment Approximate current total employees: 2,600*"
+      }
+    }
+  ],
+  "notes": "Ford publishes no state-by-state jobs or investment table that was found. Its corporate.ford.com Global Offices & Plants page lists each plant with approximate employees (U.S. plants marked \"Headcount data from June 2026\", newer than the snapshot; others undated); per-state totals are not derived from it, so selected plants appear as sites. The 10-K gives ~171,000 employees worldwide with no regional split, says Ford and consolidated entities use over 375 operations facilities across 24 countries and 41 manufacturing and assembly plants, and names joint-venture plants (China, Türkiye, Romania, Thailand, BlueOval SK battery plants in Tennessee and Kentucky) without counts. Ford From the Road (company-published) says approximately 57,000 hourly U.S. manufacturing workers at year-end 2024 (10-K: ~56,500 UAW-represented). Ford's corporate economic-impact page (corporate.ford.com/social-impact/economic-impact.html) returned only site navigation in its static HTML, so its body could not be read; no state-level U.S. investment figures were found on the Ford pages that could be read. Long-lived assets by country: U.S., Canada, UK, Mexico and All Other.",
+  "researchedAt": "2026-11-23"
+}

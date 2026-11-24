@@ -1,0 +1,54 @@
+{
+  "id": "jennifer-hyman",
+  "company": "Rent the Runway",
+  "metrics": {},
+  "usStates": null,
+  "countries": null,
+  "regions": null,
+  "sites": [
+    {
+      "name": "Rent the Runway headquarters",
+      "place": "Brooklyn, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "About 71,000 square feet under a lease to November 2032, of which about 47,000 square feet is subleased.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832725000056/wdq-20250131.htm",
+        "label": "Rent the Runway Form 10-K for fiscal year ended January 31, 2025",
+        "quote": "Our corporate headquarters is located in Brooklyn, New York under a lease that expires in November 2032. This lease consists of approximately 71,000 square feet of space, of which we sublease approximately 47,000 square feet to other parties."
+      }
+    },
+    {
+      "name": "Secaucus fulfillment center",
+      "place": "Secaucus, NJ",
+      "state": "NJ",
+      "iso2": "US",
+      "type": "fulfillment",
+      "description": "One of two leased fulfillment centers; most employees work in the New Jersey and Texas fulfillment centers.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832725000056/wdq-20250131.htm",
+        "label": "Rent the Runway Form 10-K for fiscal year ended January 31, 2025",
+        "quote": "We also lease and operate two fulfillment centers in Secaucus, New Jersey and Arlington, Texas under leases that expire in August 2029 and May 2030, respectively."
+      }
+    },
+    {
+      "name": "Arlington fulfillment center",
+      "place": "Arlington, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "fulfillment",
+      "description": "One of two leased fulfillment centers.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832725000056/wdq-20250131.htm",
+        "label": "Rent the Runway Form 10-K for fiscal year ended January 31, 2025",
+        "quote": "We also lease and operate two fulfillment centers in Secaucus, New Jersey and Arlington, Texas under leases that expire in August 2029 and May 2030, respectively."
+      }
+    }
+  ],
+  "notes": "FY2024 (year ended Jan 31, 2025) 10-K only. The company had 912 full-time and 141 part-time employees 'in the United States and Ireland, the majority of whom are based in our fulfillment centers in New Jersey and Texas', with no per-state or per-country counts, so no rows. It also leases commercial space in New York City and Galway, Ireland. No state, country or tax data is published.",
+  "researchedAt": "2026-11-23"
+}

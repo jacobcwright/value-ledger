@@ -1,0 +1,77 @@
+{
+  "id": "jack-dorsey",
+  "company": "Block",
+  "metrics": {
+    "employees": {
+      "label": "Full-time employees",
+      "unit": "people",
+      "period": "as of December 31, 2024",
+      "tier": "filing",
+      "definition": "Full-time employees (11,372 worldwide); temporary employees and consultants excluded."
+    }
+  },
+  "usStates": null,
+  "countries": null,
+  "regions": [
+    {
+      "name": "Outside the US",
+      "countries": null,
+      "values": {
+        "employees": 2627
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
+        "label": "Block, Inc. Form 10-K for fiscal year 2024",
+        "quote": "As of December 31, 2024, we had 11,372 full-time employees worldwide with 2,627 full-time employees outside the US."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Oakland office (principal executive offices)",
+      "place": "Oakland, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "office",
+      "description": "Office space for general corporate purposes; Block does not designate a headquarters because it uses a distributed work model.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
+        "label": "Block, Inc. Form 10-K for fiscal year 2024",
+        "quote": "We do not designate a headquarters location as we have adopted a distributed work model. We lease space in New York, New York for a product development, sales, and business operations office under a lease that expires in 2028 and office space in Oakland, California for general corporate purposes"
+      }
+    },
+    {
+      "name": "New York office",
+      "place": "New York, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "office",
+      "description": "Product development, sales, and business operations office.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
+        "label": "Block, Inc. Form 10-K for fiscal year 2024",
+        "quote": "We lease space in New York, New York for a product development, sales, and business operations office under a lease that expires in 2028"
+      }
+    },
+    {
+      "name": "St. Louis office",
+      "place": "St. Louis, MO",
+      "state": "MO",
+      "iso2": "US",
+      "type": "office",
+      "description": "Business operations office.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
+        "label": "Block, Inc. Form 10-K for fiscal year 2024",
+        "quote": "We also lease space in St Louis, Missouri, for a business operations office under a lease that expires in 2036"
+      }
+    }
+  ],
+  "notes": "FY2024 10-K only. Block gives a single non-U.S. headcount (2,627 of 11,372); the U.S. figure was not derived. No state, country or tax-by-country breakdown is published in the 10-K. Block names no headquarters (distributed work model); its cover-page principal executive office is in Oakland.",
+  "researchedAt": "2026-11-23"
+}

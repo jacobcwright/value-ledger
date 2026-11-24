@@ -1,0 +1,132 @@
+{
+  "id": "anthony-tan",
+  "company": "Grab",
+  "metrics": {
+    "loanReceivables": {
+      "label": "Loan receivables (credit exposure)",
+      "unit": "currency-millions",
+      "currency": "USD",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Carrying amount of loan receivables (loans to driver-partners, merchant-partners and consumers, including non-current loans) by geographic region, from the 20-F credit-risk note. Columns are 2024 then 2023; the 2024 value is recorded. Cambodia and Myanmar are not listed."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "ID",
+      "name": "Indonesia",
+      "values": {
+        "loanReceivables": 59
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
+        "label": "Grab Holdings Limited Annual Report on Form 20-F for fiscal 2024 (company-hosted), financial statements, credit risk note (loan receivables by geographic region)",
+        "quote": "The exposure to credit risk for loan receivables at the reporting date by geographic region was as follows: Carrying amount 2024 2023 (in $ millions) $ $ … Indonesia 59 25"
+      }
+    },
+    {
+      "iso2": "MY",
+      "name": "Malaysia",
+      "values": {
+        "loanReceivables": 80
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
+        "label": "Grab Holdings Limited Annual Report on Form 20-F for fiscal 2024 (company-hosted), financial statements, credit risk note (loan receivables by geographic region)",
+        "quote": "The exposure to credit risk for loan receivables at the reporting date by geographic region was as follows: Carrying amount 2024 2023 (in $ millions) $ $ … Malaysia 80 47"
+      }
+    },
+    {
+      "iso2": "PH",
+      "name": "Philippines",
+      "values": {
+        "loanReceivables": 30
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
+        "label": "Grab Holdings Limited Annual Report on Form 20-F for fiscal 2024 (company-hosted), financial statements, credit risk note (loan receivables by geographic region)",
+        "quote": "The exposure to credit risk for loan receivables at the reporting date by geographic region was as follows: Carrying amount 2024 2023 (in $ millions) $ $ … Philippines 30 22"
+      }
+    },
+    {
+      "iso2": "SG",
+      "name": "Singapore",
+      "values": {
+        "loanReceivables": 295
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
+        "label": "Grab Holdings Limited Annual Report on Form 20-F for fiscal 2024 (company-hosted), financial statements, credit risk note (loan receivables by geographic region)",
+        "quote": "The exposure to credit risk for loan receivables at the reporting date by geographic region was as follows: Carrying amount 2024 2023 (in $ millions) $ $ … Singapore 295 172"
+      }
+    },
+    {
+      "iso2": "TH",
+      "name": "Thailand",
+      "values": {
+        "loanReceivables": 63
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
+        "label": "Grab Holdings Limited Annual Report on Form 20-F for fiscal 2024 (company-hosted), financial statements, credit risk note (loan receivables by geographic region)",
+        "quote": "The exposure to credit risk for loan receivables at the reporting date by geographic region was as follows: Carrying amount 2024 2023 (in $ millions) $ $ … Thailand 63 52"
+      }
+    },
+    {
+      "iso2": "VN",
+      "name": "Vietnam",
+      "values": {
+        "loanReceivables": 9
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
+        "label": "Grab Holdings Limited Annual Report on Form 20-F for fiscal 2024 (company-hosted), financial statements, credit risk note (loan receivables by geographic region)",
+        "quote": "The exposure to credit risk for loan receivables at the reporting date by geographic region was as follows: Carrying amount 2024 2023 (in $ millions) $ $ … Vietnam 9 8"
+      }
+    }
+  ],
+  "regions": null,
+  "sites": [
+    {
+      "name": "Singapore corporate headquarters",
+      "place": "3 Media Close, Singapore",
+      "iso2": "SG",
+      "type": "headquarters",
+      "description": "Dual headquarters; home to the largest of Grab's eight research and development centers, can house up to 3,000 employees.",
+      "source": {
+        "hostType": "company",
+        "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
+        "label": "Grab Holdings Limited Annual Report on Form 20-F for fiscal 2024 (company-hosted), Item 4.D Property, Plants and Equipment",
+        "quote": "We are dual-headquartered in Singapore and Indonesia. … Our Singapore headquarters is home to the largest of our eight research and development centers and can house up to 3,000 employees."
+      }
+    },
+    {
+      "name": "Indonesia corporate headquarters",
+      "place": "South Quarter Tower C, Jakarta Selatan",
+      "iso2": "ID",
+      "type": "headquarters",
+      "description": "Dual headquarters in Jakarta.",
+      "source": {
+        "hostType": "company",
+        "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
+        "label": "Grab Holdings Limited Annual Report on Form 20-F for fiscal 2024 (company-hosted), Item 4.D Property, Plants and Equipment",
+        "quote": "We are dual-headquartered in Singapore and Indonesia. … our corporate headquarters in Indonesia is located at South Quarter Tower C, Mezzanine and 7th Floor, Jl. R.A. Kartini Kav. 8, Cilandak Barat, Cilandak, Jakarta Selatan"
+      }
+    }
+  ],
+  "notes": "Grab operates in eight countries: the 20-F defines \"Southeast Asia\" as Cambodia, Indonesia, Malaysia, Myanmar, the Philippines, Singapore, Thailand and Vietnam, with local offices in each. A list of countries with no figures is not a footprint row, so Cambodia and Myanmar have no rows. The 20-F gives employees only by function (11,267 full-time at Dec 31, 2024) and partner earnings only in total ($12.8 billion earned by driver- and merchant-partners in 2024); the 2024 ESG report gives employee gender split by country (including China, India and Romania) but no headcounts. Revenue by country exists in the 20-F but is already in the records. The only non-revenue country figures are loan receivables (credit exposure) for six markets, recorded as countries rows. Leased offices total over 107,700 sq m. The 20-F PDF is hosted on Grab's investor-relations CDN (q4cdn), hostType company.",
+  "researchedAt": "2026-11-23"
+}

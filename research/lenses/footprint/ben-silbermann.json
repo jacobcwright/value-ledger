@@ -1,0 +1,81 @@
+{
+  "id": "ben-silbermann",
+  "company": "Pinterest",
+  "metrics": {
+    "maus": {
+      "label": "Monthly active users (millions)",
+      "unit": "count",
+      "period": "as of December 31, 2024",
+      "tier": "company-published",
+      "definition": "MAUs in millions: an authenticated Pinterest user who visits the website, opens the mobile application or interacts with Pinterest through a browser or site extension at least once during the 30-day period ending on the date of measurement, by the geographic location of users. Values are in millions as published. Europe includes Russia and Turkey.",
+      "scale": 1000000
+    }
+  },
+  "usStates": null,
+  "countries": null,
+  "regions": [
+    {
+      "name": "U.S. and Canada",
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "values": {
+        "maus": 101
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000020/q4-24xpressrelease.htm",
+        "label": "Q4 and full-year 2024 results release (Exhibit 99.1 to Form 8-K filed Feb 6, 2025), revenue, MAUs and ARPU by user geography (in millions; columns Q4 2024 | Q4 2023 | % change | FY2024 | FY2023 | % change)",
+        "quote": "MAUs - U.S. and Canada | 101 | 97 | 4 | % | 101 | 97 | 4 | %"
+      }
+    },
+    {
+      "name": "Europe",
+      "countries": null,
+      "values": {
+        "maus": 145
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000020/q4-24xpressrelease.htm",
+        "label": "Q4 and full-year 2024 results release (Exhibit 99.1 to Form 8-K filed Feb 6, 2025), revenue, MAUs and ARPU by user geography (in millions; columns Q4 2024 | Q4 2023 | % change | FY2024 | FY2023 | % change)",
+        "quote": "MAUs - Europe | 145 | 135 | 7 | % | 145 | 135 | 7 | %"
+      }
+    },
+    {
+      "name": "Rest of World",
+      "countries": null,
+      "values": {
+        "maus": 307
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000020/q4-24xpressrelease.htm",
+        "label": "Q4 and full-year 2024 results release (Exhibit 99.1 to Form 8-K filed Feb 6, 2025), revenue, MAUs and ARPU by user geography (in millions; columns Q4 2024 | Q4 2023 | % change | FY2024 | FY2023 | % change)",
+        "quote": "MAUs - Rest of World | 307 | 266 | 15 | % | 307 | 266 | 15 | %"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Corporate headquarters",
+      "place": "San Francisco, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Corporate headquarters, about 120,000 square feet of leased office space.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2, Properties",
+        "quote": "Our corporate headquarters is located in San Francisco, California, where we occupy approximately 120,000 square feet of leased office space, excluding leases we have ceased to use."
+      }
+    }
+  ],
+  "notes": "MAUs by region are from Pinterest's Q4 2024 results release, filed with the SEC as Exhibit 99.1 to its February 6, 2025 Form 8-K, because the FY2024 10-K shows quarterly MAUs by region only as a chart image (no text to quote). Global MAUs were 553 million; regions may not sum to global due to rounding. Europe includes Russia and Turkey per the 10-K, but no full country list is given. Pinterest publishes no employee, office or tax breakdown by state or country (10-K: 4,666 full-time employees; offices in various U.S. and international locations totaling about 501,000 sq ft). Revenue and ARPU by region are in the records and not repeated.",
+  "researchedAt": "2026-11-23"
+}

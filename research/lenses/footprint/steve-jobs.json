@@ -1,0 +1,951 @@
+{
+  "id": "steve-jobs",
+  "company": "Apple",
+  "metrics": {
+    "employees": {
+      "label": "Apple employees",
+      "unit": "people",
+      "period": "as of Dec 31, 2016 (page updated May 2017)",
+      "tier": "company-published",
+      "definition": "Direct Apple employees in the state, per the state cards on Apple's Job Creation page (footnote: \"Direct Apple employees as of December 31, 2016\")."
+    },
+    "suppliers": {
+      "label": "U.S. suppliers",
+      "unit": "count",
+      "period": "as of the May 2017 page update",
+      "tier": "company-published",
+      "definition": "Number of Apple suppliers in the state, as shown on the state card (\"Suppliers\")."
+    },
+    "supplierMfgFacilities": {
+      "label": "Supplier manufacturing facilities",
+      "unit": "count",
+      "period": "as of the May 2017 page update",
+      "tier": "company-published",
+      "definition": "Supplier manufacturing facilities in the state, where the card says \"Suppliers with N mfg. facilities\"; absent where the card shows none."
+    },
+    "retailStores": {
+      "label": "Apple retail stores",
+      "unit": "count",
+      "period": "as of the May 2017 page update",
+      "tier": "company-published",
+      "definition": "Apple retail stores in the state, per the state card (\"Retail stores\"); absent where the card shows none."
+    }
+  },
+  "usStates": [
+    {
+      "state": "AK",
+      "values": {
+        "employees": 74,
+        "suppliers": 11,
+        "retailStores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Alaska)",
+        "quote": "Alaska 74 Apple employees 1,000 App Store ecosystem jobs 11 Suppliers 1 Retail store"
+      }
+    },
+    {
+      "state": "AL",
+      "values": {
+        "employees": 355,
+        "suppliers": 163,
+        "retailStores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Alabama)",
+        "quote": "Alabama 355 Apple employees 8,800 App Store ecosystem jobs 163 Suppliers 2 Retail stores"
+      }
+    },
+    {
+      "state": "AR",
+      "values": {
+        "employees": 119,
+        "suppliers": 19,
+        "retailStores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Arkansas)",
+        "quote": "Arkansas 119 Apple employees 3,200 App Store ecosystem jobs 19 Suppliers 1 Retail store"
+      }
+    },
+    {
+      "state": "AZ",
+      "values": {
+        "employees": 1010,
+        "suppliers": 168,
+        "supplierMfgFacilities": 5,
+        "retailStores": 6
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Arizona)",
+        "quote": "Arizona 1,010 Apple employees 21,800 App Store ecosystem jobs 168 Suppliers with 5 mfg. facilities 6 Retail stores"
+      }
+    },
+    {
+      "state": "CA",
+      "values": {
+        "employees": 36786,
+        "suppliers": 3970,
+        "supplierMfgFacilities": 38,
+        "retailStores": 53
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (California)",
+        "quote": "California 36,786 Apple employees 370,800 App Store ecosystem jobs 3,970 Suppliers with 38 mfg. facilities 53 Retail stores"
+      }
+    },
+    {
+      "state": "CO",
+      "values": {
+        "employees": 1114,
+        "suppliers": 205,
+        "supplierMfgFacilities": 4,
+        "retailStores": 6
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Colorado)",
+        "quote": "Colorado 1,114 Apple employees 28,100 App Store ecosystem jobs 205 Suppliers with 4 mfg. facilities 6 Retail stores"
+      }
+    },
+    {
+      "state": "CT",
+      "values": {
+        "employees": 729,
+        "suppliers": 97,
+        "supplierMfgFacilities": 3,
+        "retailStores": 7
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Connecticut)",
+        "quote": "Connecticut 729 Apple employees 13,400 App Store ecosystem jobs 97 Suppliers with 3 mfg. facilities 7 Retail stores"
+      }
+    },
+    {
+      "state": "DC",
+      "values": {
+        "employees": 168,
+        "suppliers": 140,
+        "retailStores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (D.C.)",
+        "quote": "D.C. 168 Apple employees 21,400 App Store ecosystem jobs 140 Suppliers 1 Retail store"
+      }
+    },
+    {
+      "state": "DE",
+      "values": {
+        "employees": 235,
+        "suppliers": 32,
+        "retailStores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Delaware)",
+        "quote": "Delaware 235 Apple employees 4,400 App Store ecosystem jobs 32 Suppliers 1 Retail store"
+      }
+    },
+    {
+      "state": "FL",
+      "values": {
+        "employees": 3868,
+        "suppliers": 245,
+        "supplierMfgFacilities": 4,
+        "retailStores": 18
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Florida)",
+        "quote": "Florida 3,868 Apple employees 58,200 App Store ecosystem jobs 245 Suppliers with 4 mfg. facilities 18 Retail stores"
+      }
+    },
+    {
+      "state": "GA",
+      "values": {
+        "employees": 1516,
+        "suppliers": 186,
+        "supplierMfgFacilities": 3,
+        "retailStores": 6
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Georgia)",
+        "quote": "Georgia 1,516 Apple employees 45,100 App Store ecosystem jobs 186 Suppliers with 3 mfg. facilities 6 Retail stores"
+      }
+    },
+    {
+      "state": "HI",
+      "values": {
+        "employees": 328,
+        "suppliers": 26,
+        "retailStores": 3
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Hawaii)",
+        "quote": "Hawaii 328 Apple employees 3,600 App Store ecosystem jobs 26 Suppliers 3 Retail stores"
+      }
+    },
+    {
+      "state": "IA",
+      "values": {
+        "employees": 129,
+        "suppliers": 30,
+        "supplierMfgFacilities": 1,
+        "retailStores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Iowa)",
+        "quote": "Iowa 129 Apple employees 10,400 App Store ecosystem jobs 30 Suppliers with 1 mfg. facility 1 Retail store"
+      }
+    },
+    {
+      "state": "ID",
+      "values": {
+        "employees": 145,
+        "suppliers": 27,
+        "supplierMfgFacilities": 2,
+        "retailStores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Idaho)",
+        "quote": "Idaho 145 Apple employees 3,500 App Store ecosystem jobs 27 Suppliers with 2 mfg. facilities 1 Retail store"
+      }
+    },
+    {
+      "state": "IL",
+      "values": {
+        "employees": 1422,
+        "suppliers": 493,
+        "supplierMfgFacilities": 6,
+        "retailStores": 9
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Illinois)",
+        "quote": "Illinois 1,422 Apple employees 64,000 App Store ecosystem jobs 493 Suppliers with 6 mfg. facilities 9 Retail stores"
+      }
+    },
+    {
+      "state": "IN",
+      "values": {
+        "employees": 381,
+        "suppliers": 84,
+        "supplierMfgFacilities": 8,
+        "retailStores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Indiana)",
+        "quote": "Indiana 381 Apple employees 15,100 App Store ecosystem jobs 84 Suppliers with 8 mfg. facilities 2 Retail stores"
+      }
+    },
+    {
+      "state": "KS",
+      "values": {
+        "employees": 177,
+        "suppliers": 36,
+        "retailStores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Kansas)",
+        "quote": "Kansas 177 Apple employees 6,300 App Store ecosystem jobs 36 Suppliers 1 Retail store"
+      }
+    },
+    {
+      "state": "KY",
+      "values": {
+        "employees": 298,
+        "suppliers": 43,
+        "supplierMfgFacilities": 2,
+        "retailStores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Kentucky)",
+        "quote": "Kentucky 298 Apple employees 10,200 App Store ecosystem jobs 43 Suppliers with 2 mfg. facilities 2 Retail stores"
+      }
+    },
+    {
+      "state": "LA",
+      "values": {
+        "employees": 302,
+        "suppliers": 86,
+        "retailStores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Louisiana)",
+        "quote": "Louisiana 302 Apple employees 6,500 App Store ecosystem jobs 86 Suppliers 2 Retail stores"
+      }
+    },
+    {
+      "state": "MA",
+      "values": {
+        "employees": 1265,
+        "suppliers": 379,
+        "supplierMfgFacilities": 9,
+        "retailStores": 11
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Massachusetts)",
+        "quote": "Massachusetts 1,265 Apple employees 65,100 App Store ecosystem jobs 379 Suppliers with 9 mfg. facilities 11 Retail stores"
+      }
+    },
+    {
+      "state": "MD",
+      "values": {
+        "employees": 602,
+        "suppliers": 111,
+        "supplierMfgFacilities": 3,
+        "retailStores": 5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Maryland)",
+        "quote": "Maryland 602 Apple employees 32,300 App Store ecosystem jobs 111 Suppliers with 3 mfg. facilities 5 Retail stores"
+      }
+    },
+    {
+      "state": "ME",
+      "values": {
+        "employees": 126,
+        "suppliers": 31,
+        "supplierMfgFacilities": 1,
+        "retailStores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Maine)",
+        "quote": "Maine 126 Apple employees 2,300 App Store ecosystem jobs 31 Suppliers with 1 mfg. facility 1 Retail store"
+      }
+    },
+    {
+      "state": "MI",
+      "values": {
+        "employees": 949,
+        "suppliers": 188,
+        "supplierMfgFacilities": 4,
+        "retailStores": 6
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Michigan)",
+        "quote": "Michigan 949 Apple employees 34,700 App Store ecosystem jobs 188 Suppliers with 4 mfg. facilities 6 Retail stores"
+      }
+    },
+    {
+      "state": "MN",
+      "values": {
+        "employees": 595,
+        "suppliers": 198,
+        "supplierMfgFacilities": 7,
+        "retailStores": 5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Minnesota)",
+        "quote": "Minnesota 595 Apple employees 33,400 App Store ecosystem jobs 198 Suppliers with 7 mfg. facilities 5 Retail stores"
+      }
+    },
+    {
+      "state": "MO",
+      "values": {
+        "employees": 517,
+        "suppliers": 64,
+        "supplierMfgFacilities": 2,
+        "retailStores": 3
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Missouri)",
+        "quote": "Missouri 517 Apple employees 16,400 App Store ecosystem jobs 64 Suppliers with 2 mfg. facilities 3 Retail stores"
+      }
+    },
+    {
+      "state": "MS",
+      "values": {
+        "employees": 111,
+        "suppliers": 14,
+        "retailStores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Mississippi)",
+        "quote": "Mississippi 111 Apple employees 3,800 App Store ecosystem jobs 14 Suppliers 1 Retail store"
+      }
+    },
+    {
+      "state": "MT",
+      "values": {
+        "employees": 21,
+        "suppliers": 12,
+        "supplierMfgFacilities": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Montana)",
+        "quote": "Montana 21 Apple employees 1,500 App Store ecosystem jobs 12 Suppliers with 1 mfg. facility"
+      }
+    },
+    {
+      "state": "NC",
+      "values": {
+        "employees": 1148,
+        "suppliers": 173,
+        "supplierMfgFacilities": 7,
+        "retailStores": 5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (North Carolina)",
+        "quote": "North Carolina 1,148 Apple employees 33,500 App Store ecosystem jobs 173 Suppliers with 7 mfg. facilities 5 Retail stores"
+      }
+    },
+    {
+      "state": "ND",
+      "values": {
+        "employees": 4,
+        "suppliers": 5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (North Dakota)",
+        "quote": "North Dakota 4 Apple employees 1,800 App Store ecosystem jobs 5 Suppliers"
+      }
+    },
+    {
+      "state": "NE",
+      "values": {
+        "employees": 123,
+        "suppliers": 19,
+        "supplierMfgFacilities": 1,
+        "retailStores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Nebraska)",
+        "quote": "Nebraska 123 Apple employees 4,700 App Store ecosystem jobs 19 Suppliers with 1 mfg. facility 1 Retail store"
+      }
+    },
+    {
+      "state": "NH",
+      "values": {
+        "employees": 335,
+        "suppliers": 55,
+        "supplierMfgFacilities": 4,
+        "retailStores": 3
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (New Hampshire)",
+        "quote": "New Hampshire 335 Apple employees 4,400 App Store ecosystem jobs 55 Suppliers with 4 mfg. facilities 3 Retail stores"
+      }
+    },
+    {
+      "state": "NJ",
+      "values": {
+        "employees": 1391,
+        "suppliers": 261,
+        "supplierMfgFacilities": 1,
+        "retailStores": 12
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (New Jersey)",
+        "quote": "New Jersey 1,391 Apple employees 42,200 App Store ecosystem jobs 261 Suppliers with 1 mfg. facility 12 Retail stores"
+      }
+    },
+    {
+      "state": "NM",
+      "values": {
+        "employees": 187,
+        "suppliers": 22,
+        "supplierMfgFacilities": 8,
+        "retailStores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (New Mexico)",
+        "quote": "New Mexico 187 Apple employees 2,700 App Store ecosystem jobs 22 Suppliers with 8 mfg. facilities 1 Retail store"
+      }
+    },
+    {
+      "state": "NV",
+      "values": {
+        "employees": 717,
+        "suppliers": 65,
+        "supplierMfgFacilities": 1,
+        "retailStores": 5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Nevada)",
+        "quote": "Nevada 717 Apple employees 7,500 App Store ecosystem jobs 65 Suppliers with 1 mfg. facility 5 Retail stores"
+      }
+    },
+    {
+      "state": "NY",
+      "values": {
+        "employees": 4291,
+        "suppliers": 804,
+        "supplierMfgFacilities": 9,
+        "retailStores": 21
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (New York)",
+        "quote": "New York 4,291 Apple employees 120,000 App Store ecosystem jobs 804 Suppliers with 9 mfg. facilities 21 Retail stores"
+      }
+    },
+    {
+      "state": "OH",
+      "values": {
+        "employees": 1294,
+        "suppliers": 194,
+        "supplierMfgFacilities": 11,
+        "retailStores": 8
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Ohio)",
+        "quote": "Ohio 1,294 Apple employees 40,600 App Store ecosystem jobs 194 Suppliers with 11 mfg. facilities 8 Retail stores"
+      }
+    },
+    {
+      "state": "OK",
+      "values": {
+        "employees": 331,
+        "suppliers": 24,
+        "retailStores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Oklahoma)",
+        "quote": "Oklahoma 331 Apple employees 5,600 App Store ecosystem jobs 24 Suppliers 2 Retail stores"
+      }
+    },
+    {
+      "state": "OR",
+      "values": {
+        "employees": 701,
+        "suppliers": 220,
+        "supplierMfgFacilities": 11,
+        "retailStores": 3
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Oregon)",
+        "quote": "Oregon 701 Apple employees 19,400 App Store ecosystem jobs 220 Suppliers with 11 mfg. facilities 3 Retail stores"
+      }
+    },
+    {
+      "state": "PA",
+      "values": {
+        "employees": 1275,
+        "suppliers": 253,
+        "supplierMfgFacilities": 7,
+        "retailStores": 9
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Pennsylvania)",
+        "quote": "Pennsylvania 1,275 Apple employees 40,800 App Store ecosystem jobs 253 Suppliers with 7 mfg. facilities 9 Retail stores"
+      }
+    },
+    {
+      "state": "RI",
+      "values": {
+        "employees": 135,
+        "suppliers": 27,
+        "supplierMfgFacilities": 3,
+        "retailStores": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Rhode Island)",
+        "quote": "Rhode Island 135 Apple employees 3,400 App Store ecosystem jobs 27 Suppliers with 3 mfg. facilities 1 Retail store"
+      }
+    },
+    {
+      "state": "SC",
+      "values": {
+        "employees": 348,
+        "suppliers": 62,
+        "supplierMfgFacilities": 2,
+        "retailStores": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (South Carolina)",
+        "quote": "South Carolina 348 Apple employees 12,300 App Store ecosystem jobs 62 Suppliers with 2 mfg. facilities 2 Retail stores"
+      }
+    },
+    {
+      "state": "SD",
+      "values": {
+        "employees": 17,
+        "suppliers": 8,
+        "supplierMfgFacilities": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (South Dakota)",
+        "quote": "South Dakota 17 Apple employees 2,200 App Store ecosystem jobs 8 Suppliers with 1 mfg. facility"
+      }
+    },
+    {
+      "state": "TN",
+      "values": {
+        "employees": 689,
+        "suppliers": 82,
+        "retailStores": 4
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Tennessee)",
+        "quote": "Tennessee 689 Apple employees 16,000 App Store ecosystem jobs 82 Suppliers 4 Retail stores"
+      }
+    },
+    {
+      "state": "TX",
+      "values": {
+        "employees": 8407,
+        "suppliers": 515,
+        "supplierMfgFacilities": 13,
+        "retailStores": 18
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Texas)",
+        "quote": "Texas 8,407 Apple employees 105,000 App Store ecosystem jobs 515 Suppliers with 13 mfg. facilities 18 Retail stores"
+      }
+    },
+    {
+      "state": "UT",
+      "values": {
+        "employees": 393,
+        "suppliers": 76,
+        "supplierMfgFacilities": 2,
+        "retailStores": 3
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Utah)",
+        "quote": "Utah 393 Apple employees 13,800 App Store ecosystem jobs 76 Suppliers with 2 mfg. facilities 3 Retail stores"
+      }
+    },
+    {
+      "state": "VA",
+      "values": {
+        "employees": 1101,
+        "suppliers": 156,
+        "supplierMfgFacilities": 2,
+        "retailStores": 9
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Virginia)",
+        "quote": "Virginia 1,101 Apple employees 59,300 App Store ecosystem jobs 156 Suppliers with 2 mfg. facilities 9 Retail stores"
+      }
+    },
+    {
+      "state": "VT",
+      "values": {
+        "employees": 6,
+        "suppliers": 22,
+        "supplierMfgFacilities": 6
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Vermont)",
+        "quote": "Vermont 6 Apple employees 2,300 App Store ecosystem jobs 22 Suppliers with 6 mfg. facilities"
+      }
+    },
+    {
+      "state": "WA",
+      "values": {
+        "employees": 1131,
+        "suppliers": 189,
+        "supplierMfgFacilities": 10,
+        "retailStores": 6
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Washington)",
+        "quote": "Washington 1,131 Apple employees 81,100 App Store ecosystem jobs 189 Suppliers with 10 mfg. facilities 6 Retail stores"
+      }
+    },
+    {
+      "state": "WI",
+      "values": {
+        "employees": 410,
+        "suppliers": 69,
+        "supplierMfgFacilities": 2,
+        "retailStores": 3
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Wisconsin)",
+        "quote": "Wisconsin 410 Apple employees 15,500 App Store ecosystem jobs 69 Suppliers with 2 mfg. facilities 3 Retail stores"
+      }
+    },
+    {
+      "state": "WV",
+      "values": {
+        "employees": 39,
+        "suppliers": 7,
+        "supplierMfgFacilities": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (West Virginia)",
+        "quote": "West Virginia 39 Apple employees 9,700 App Store ecosystem jobs 7 Suppliers with 1 mfg. facility"
+      }
+    },
+    {
+      "state": "WY",
+      "values": {
+        "employees": 7,
+        "suppliers": 4
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page (apple.com), state cards (Wyoming)",
+        "quote": "Wyoming 7 Apple employees 900 App Store ecosystem jobs 4 Suppliers"
+      }
+    }
+  ],
+  "countries": null,
+  "regions": null,
+  "sites": [
+    {
+      "name": "Apple Park (headquarters)",
+      "place": "Cupertino, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "The Company's headquarters is located in Cupertino, California.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "The Company’s headquarters is located in Cupertino, California."
+      }
+    },
+    {
+      "name": "Austin campus",
+      "place": "Austin, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "campus",
+      "description": "Austin is home to over 6,000 employees.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page, Key U.S. Investment Projects",
+        "quote": "Austin, Texas Austin is home to over 6,000 employees, and in the last year we’ve opened two new campuses as we plan for additional growth."
+      }
+    },
+    {
+      "name": "Mesa global data command center",
+      "place": "Mesa, AZ",
+      "state": "AZ",
+      "iso2": "US",
+      "type": "data center",
+      "description": "A key logistics and operations hub, supporting all of Apple's data centers around the world.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page, Key U.S. Investment Projects",
+        "quote": "Mesa, Arizona We’re investing billions of dollars to expand our Mesa facility into a global command center. When completed, the Mesa center will serve as a key logistics and operations hub, supporting all of our data centers around the world."
+      }
+    },
+    {
+      "name": "Maiden data center",
+      "place": "Maiden, NC",
+      "state": "NC",
+      "iso2": "US",
+      "type": "data center",
+      "description": "Doubling the size and capacity of the Maiden data center, with on-site solar.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page, Key U.S. Investment Projects",
+        "quote": "Maiden, North Carolina We’re doubling the size and capacity of our Maiden data center, and adding five new solar projects to increase its production of on-site clean energy to 87 megawatts."
+      }
+    },
+    {
+      "name": "Prineville data center",
+      "place": "Prineville, OR",
+      "state": "OR",
+      "iso2": "US",
+      "type": "data center",
+      "description": "Data center opened in 2013 and since more than doubled in size.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page, Key U.S. Investment Projects",
+        "quote": "Prineville, Oregon Since we first opened this data center in 2013, we’ve more than doubled its size."
+      }
+    },
+    {
+      "name": "Reno data center",
+      "place": "Reno, NV",
+      "state": "NV",
+      "iso2": "US",
+      "type": "data center",
+      "description": "Nevada data center expansion, paired with Apple's largest solar investment at the time.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/job-creation/",
+        "label": "Apple Job Creation page, Key U.S. Investment Projects",
+        "quote": "Reno, Nevada As we expand our Nevada data center, we’re working with NV Energy on our largest solar investment to date, which will produce 270 megawatts of clean power."
+      }
+    },
+    {
+      "name": "Houston server manufacturing facility",
+      "place": "Houston, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "manufacturing",
+      "description": "A 250,000-square-foot server manufacturing facility with manufacturing partners, slated to open in 2026.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/newsroom/2025/02/apple-will-spend-more-than-500-billion-usd-in-the-us-over-the-next-four-years/",
+        "label": "Apple newsroom, Feb 24, 2025 ($500 billion U.S. commitment)",
+        "quote": "A 250,000-square-foot server manufacturing facility, slated to open in 2026, will create thousands of jobs."
+      }
+    },
+    {
+      "name": "Apple Manufacturing Academy",
+      "place": "Detroit, MI",
+      "state": "MI",
+      "iso2": "US",
+      "type": "training",
+      "description": "An academy to help small and medium-sized manufacturers adopt AI and smart manufacturing.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.apple.com/newsroom/2025/02/apple-will-spend-more-than-500-billion-usd-in-the-us-over-the-next-four-years/",
+        "label": "Apple newsroom, Feb 24, 2025 ($500 billion U.S. commitment)",
+        "quote": "To help companies transition to advanced manufacturing, Apple will open the Apple Manufacturing Academy in Detroit."
+      }
+    }
+  ],
+  "notes": "Apple's only state-by-state publication is the Job Creation page (apple.com/job-creation), which is still live but dated: its footnote says direct employees are as of December 31, 2016 and the page was updated May 2017. It is eight years older than the FY2024 (Sep 2024) snapshot, and no newer state edition was found; the February 2025 $500 billion release names states but gives no per-state figures. The page's 'App Store ecosystem jobs' per state are an estimate by the Progressive Policy Institute (Michael Mandel), not an Apple count, so they are left out. The 51 state cards sum to 77,822 Apple employees, against the page's headline of 80,000 U.S. employees, versus 164,000 worldwide full-time equivalent employees in the FY2024 10-K. The current retail store list (apple.com/retail/storelist) names stores by state and country but states no counts, so no store counts by country were recorded, and the 10-K gives no geographic breakdown of employees or facilities. Sites come from the 10-K (Cupertino headquarters), the Job Creation page (2017 descriptions) and the February 24, 2025 newsroom release.",
+  "researchedAt": "2026-11-23"
+}

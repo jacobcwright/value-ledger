@@ -1,0 +1,794 @@
+{
+  "id": "charles-scharf",
+  "company": "Wells Fargo",
+  "metrics": {
+    "offices": {
+      "label": "Bank offices",
+      "unit": "count",
+      "period": "as of June 30, 2024",
+      "tier": "regulator",
+      "definition": "Number of office records the FDIC Summary of Deposits lists for Wells Fargo Bank, N.A. (cert 3511) in each state: 4,304 offices in 40 states and DC, of which 4,122 have FDIC branch service type 11 ('Full Service, brick and mortar office'), 83 type 12 ('Full Service, retail office'), and the rest limited-service drive-through (23), mobile/seasonal (29) and trust (30) offices."
+    },
+    "deposits": {
+      "label": "Deposits at offices in the state",
+      "unit": "currency-millions",
+      "currency": "USD",
+      "period": "as of June 30, 2024",
+      "tier": "regulator",
+      "definition": "FDIC Summary of Deposits field DEPSUMBR, 'Branch office deposits as of June 30' (FDIC variable definitions), summed by the FDIC API across the bank's offices in each state. The SOD instructions say to 'Report all amounts in thousands'; values here are the FDIC's thousands divided by 1,000. South Dakota, the bank's main-office state, shows $354.4 billion across 30 offices; the FDIC data do not say why, and the figure is not adjusted."
+    },
+    "occupiedSqFt": {
+      "label": "Property occupied (millions of sq ft)",
+      "unit": "square-feet-millions",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Approximate square footage of property occupied for business operations, from the 10-K's Item 2 table of top U.S. and international locations.",
+      "scale": 1000000
+    }
+  },
+  "usStates": [
+    {
+      "state": "AK",
+      "values": {
+        "offices": 37,
+        "deposits": 6779.209
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"AK\",\"count\":37,\"sum_DEPSUMBR\":6779209}"
+      }
+    },
+    {
+      "state": "AL",
+      "values": {
+        "offices": 76,
+        "deposits": 9797.577
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"AL\",\"count\":76,\"sum_DEPSUMBR\":9797577}"
+      }
+    },
+    {
+      "state": "AR",
+      "values": {
+        "offices": 1,
+        "deposits": 310.168
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"AR\",\"count\":1,\"sum_DEPSUMBR\":310168}"
+      }
+    },
+    {
+      "state": "AZ",
+      "values": {
+        "offices": 156,
+        "deposits": 38291.258
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"AZ\",\"count\":156,\"sum_DEPSUMBR\":38291258}"
+      }
+    },
+    {
+      "state": "CA",
+      "values": {
+        "offices": 810,
+        "deposits": 301184.339
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"CA\",\"count\":810,\"sum_DEPSUMBR\":301184339}"
+      }
+    },
+    {
+      "state": "CO",
+      "values": {
+        "offices": 120,
+        "deposits": 33985.651
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"CO\",\"count\":120,\"sum_DEPSUMBR\":33985651}"
+      }
+    },
+    {
+      "state": "CT",
+      "values": {
+        "offices": 49,
+        "deposits": 8175.997
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"CT\",\"count\":49,\"sum_DEPSUMBR\":8175997}"
+      }
+    },
+    {
+      "state": "DC",
+      "values": {
+        "offices": 25,
+        "deposits": 10005.282
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"DC\",\"count\":25,\"sum_DEPSUMBR\":10005282}"
+      }
+    },
+    {
+      "state": "DE",
+      "values": {
+        "offices": 15,
+        "deposits": 2523.518
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"DE\",\"count\":15,\"sum_DEPSUMBR\":2523518}"
+      }
+    },
+    {
+      "state": "FL",
+      "values": {
+        "offices": 472,
+        "deposits": 91762.228
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"FL\",\"count\":472,\"sum_DEPSUMBR\":91762228}"
+      }
+    },
+    {
+      "state": "GA",
+      "values": {
+        "offices": 182,
+        "deposits": 46476.052
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"GA\",\"count\":182,\"sum_DEPSUMBR\":46476052}"
+      }
+    },
+    {
+      "state": "IA",
+      "values": {
+        "offices": 42,
+        "deposits": 8043.265
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"IA\",\"count\":42,\"sum_DEPSUMBR\":8043265}"
+      }
+    },
+    {
+      "state": "ID",
+      "values": {
+        "offices": 46,
+        "deposits": 6479.002
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"ID\",\"count\":46,\"sum_DEPSUMBR\":6479002}"
+      }
+    },
+    {
+      "state": "IL",
+      "values": {
+        "offices": 13,
+        "deposits": 9262.078
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"IL\",\"count\":13,\"sum_DEPSUMBR\":9262078}"
+      }
+    },
+    {
+      "state": "KS",
+      "values": {
+        "offices": 7,
+        "deposits": 893.177
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"KS\",\"count\":7,\"sum_DEPSUMBR\":893177}"
+      }
+    },
+    {
+      "state": "MA",
+      "values": {
+        "offices": 1,
+        "deposits": 0
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"MA\",\"count\":1,\"sum_DEPSUMBR\":0}"
+      }
+    },
+    {
+      "state": "MD",
+      "values": {
+        "offices": 75,
+        "deposits": 11694.848
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"MD\",\"count\":75,\"sum_DEPSUMBR\":11694848}"
+      }
+    },
+    {
+      "state": "MI",
+      "values": {
+        "offices": 1,
+        "deposits": 0
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"MI\",\"count\":1,\"sum_DEPSUMBR\":0}"
+      }
+    },
+    {
+      "state": "MN",
+      "values": {
+        "offices": 124,
+        "deposits": 48315.082
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"MN\",\"count\":124,\"sum_DEPSUMBR\":48315082}"
+      }
+    },
+    {
+      "state": "MO",
+      "values": {
+        "offices": 1,
+        "deposits": 0
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"MO\",\"count\":1,\"sum_DEPSUMBR\":0}"
+      }
+    },
+    {
+      "state": "MS",
+      "values": {
+        "offices": 10,
+        "deposits": 814.141
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"MS\",\"count\":10,\"sum_DEPSUMBR\":814141}"
+      }
+    },
+    {
+      "state": "MT",
+      "values": {
+        "offices": 22,
+        "deposits": 3166.34
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"MT\",\"count\":22,\"sum_DEPSUMBR\":3166340}"
+      }
+    },
+    {
+      "state": "NC",
+      "values": {
+        "offices": 233,
+        "deposits": 56582.167
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"NC\",\"count\":233,\"sum_DEPSUMBR\":56582167}"
+      }
+    },
+    {
+      "state": "ND",
+      "values": {
+        "offices": 13,
+        "deposits": 1858.726
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"ND\",\"count\":13,\"sum_DEPSUMBR\":1858726}"
+      }
+    },
+    {
+      "state": "NE",
+      "values": {
+        "offices": 34,
+        "deposits": 5481.802
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"NE\",\"count\":34,\"sum_DEPSUMBR\":5481802}"
+      }
+    },
+    {
+      "state": "NJ",
+      "values": {
+        "offices": 209,
+        "deposits": 38497.369
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"NJ\",\"count\":209,\"sum_DEPSUMBR\":38497369}"
+      }
+    },
+    {
+      "state": "NM",
+      "values": {
+        "offices": 55,
+        "deposits": 9955.733
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"NM\",\"count\":55,\"sum_DEPSUMBR\":9955733}"
+      }
+    },
+    {
+      "state": "NV",
+      "values": {
+        "offices": 90,
+        "deposits": 22291.193
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"NV\",\"count\":90,\"sum_DEPSUMBR\":22291193}"
+      }
+    },
+    {
+      "state": "NY",
+      "values": {
+        "offices": 74,
+        "deposits": 42397.803
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"NY\",\"count\":74,\"sum_DEPSUMBR\":42397803}"
+      }
+    },
+    {
+      "state": "OR",
+      "values": {
+        "offices": 74,
+        "deposits": 12721.221
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"OR\",\"count\":74,\"sum_DEPSUMBR\":12721221}"
+      }
+    },
+    {
+      "state": "PA",
+      "values": {
+        "offices": 179,
+        "deposits": 38562.984
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"PA\",\"count\":179,\"sum_DEPSUMBR\":38562984}"
+      }
+    },
+    {
+      "state": "SC",
+      "values": {
+        "offices": 106,
+        "deposits": 19594.735
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"SC\",\"count\":106,\"sum_DEPSUMBR\":19594735}"
+      }
+    },
+    {
+      "state": "SD",
+      "values": {
+        "offices": 30,
+        "deposits": 354383.345
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"SD\",\"count\":30,\"sum_DEPSUMBR\":354383345}"
+      }
+    },
+    {
+      "state": "TN",
+      "values": {
+        "offices": 21,
+        "deposits": 1860.003
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"TN\",\"count\":21,\"sum_DEPSUMBR\":1860003}"
+      }
+    },
+    {
+      "state": "TX",
+      "values": {
+        "offices": 477,
+        "deposits": 82854.201
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"TX\",\"count\":477,\"sum_DEPSUMBR\":82854201}"
+      }
+    },
+    {
+      "state": "UT",
+      "values": {
+        "offices": 73,
+        "deposits": 12371.531
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"UT\",\"count\":73,\"sum_DEPSUMBR\":12371531}"
+      }
+    },
+    {
+      "state": "VA",
+      "values": {
+        "offices": 186,
+        "deposits": 38844.913
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"VA\",\"count\":186,\"sum_DEPSUMBR\":38844913}"
+      }
+    },
+    {
+      "state": "WA",
+      "values": {
+        "offices": 116,
+        "deposits": 20455.526
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"WA\",\"count\":116,\"sum_DEPSUMBR\":20455526}"
+      }
+    },
+    {
+      "state": "WI",
+      "values": {
+        "offices": 33,
+        "deposits": 4225.226
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"WI\",\"count\":33,\"sum_DEPSUMBR\":4225226}"
+      }
+    },
+    {
+      "state": "WY",
+      "values": {
+        "offices": 16,
+        "deposits": 2299.31
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
+        "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
+        "quote": "{\"STALPBR\":\"WY\",\"count\":16,\"sum_DEPSUMBR\":2299310}"
+      }
+    }
+  ],
+  "countries": [
+    {
+      "iso2": "IN",
+      "name": "India",
+      "values": {
+        "occupiedSqFt": 4.3
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "India 4.3"
+      }
+    },
+    {
+      "iso2": "PH",
+      "name": "Philippines",
+      "values": {
+        "occupiedSqFt": 1.3
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Philippines 1.3"
+      }
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "values": {
+        "occupiedSqFt": 0.2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "United Kingdom 0.2"
+      }
+    }
+  ],
+  "regions": null,
+  "sites": [
+    {
+      "name": "Corporate headquarters",
+      "place": "San Francisco, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Corporate headquarters at 420 Montgomery Street; the San Francisco-Oakland-Berkeley metro area holds 2.4 million sq ft of occupied space",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "San Francisco-Oakland-Berkeley, CA metro area (including corporate headquarters in San Francisco) 2.4"
+      }
+    },
+    {
+      "name": "Charlotte-Concord-Gastonia, NC-SC offices",
+      "place": "Charlotte, NC",
+      "state": "NC",
+      "iso2": "US",
+      "type": "offices",
+      "description": "One of Wells Fargo's top U.S. locations: 5.7 million sq ft of occupied property",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Charlotte-Concord-Gastonia, NC-SC 5.7"
+      }
+    },
+    {
+      "name": "Minneapolis-St. Paul-Bloomington, MN-WI offices",
+      "place": "Minneapolis-St. Paul, MN",
+      "state": "MN",
+      "iso2": "US",
+      "type": "offices",
+      "description": "One of Wells Fargo's top U.S. locations: 3.0 million sq ft of occupied property",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Minneapolis-St. Paul-Bloomington, MN-WI 3.0"
+      }
+    },
+    {
+      "name": "New York-Newark-Jersey City, NY-NJ-PA offices",
+      "place": "New York, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "offices",
+      "description": "One of Wells Fargo's top U.S. locations: 2.8 million sq ft of occupied property",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "New York-Newark-Jersey City, NY-NJ-PA 2.8"
+      }
+    },
+    {
+      "name": "Los Angeles-Long Beach-Anaheim, CA offices",
+      "place": "Los Angeles, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "offices",
+      "description": "One of Wells Fargo's top U.S. locations: 2.7 million sq ft of occupied property",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Los Angeles-Long Beach-Anaheim, CA 2.7"
+      }
+    },
+    {
+      "name": "Phoenix-Mesa-Chandler, AZ offices",
+      "place": "Phoenix, AZ",
+      "state": "AZ",
+      "iso2": "US",
+      "type": "offices",
+      "description": "One of Wells Fargo's top U.S. locations: 2.5 million sq ft of occupied property",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Phoenix-Mesa-Chandler, AZ 2.5"
+      }
+    },
+    {
+      "name": "St. Louis, MO-IL offices",
+      "place": "St. Louis, MO",
+      "state": "MO",
+      "iso2": "US",
+      "type": "offices",
+      "description": "One of Wells Fargo's top U.S. locations: 1.9 million sq ft of occupied property",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "St. Louis, MO-IL 1.9"
+      }
+    },
+    {
+      "name": "Dallas-Fort Worth-Arlington, TX offices",
+      "place": "Dallas-Fort Worth, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "offices",
+      "description": "One of Wells Fargo's top U.S. locations: 1.8 million sq ft of occupied property",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Dallas-Fort Worth-Arlington, TX 1.8"
+      }
+    },
+    {
+      "name": "Des Moines-West Des Moines, IA offices",
+      "place": "Des Moines, IA",
+      "state": "IA",
+      "iso2": "US",
+      "type": "offices",
+      "description": "One of Wells Fargo's top U.S. locations: 1.6 million sq ft of occupied property",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Des Moines-West Des Moines, IA 1.6"
+      }
+    },
+    {
+      "name": "San Antonio-New Braunfels, TX offices",
+      "place": "San Antonio, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "offices",
+      "description": "One of Wells Fargo's top U.S. locations: 1.1 million sq ft of occupied property",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "San Antonio-New Braunfels, TX 1.1"
+      }
+    },
+    {
+      "name": "Washington-Arlington-Alexandria, DC-VA-MD-WV offices",
+      "place": "Washington, DC",
+      "state": "DC",
+      "iso2": "US",
+      "type": "offices",
+      "description": "One of Wells Fargo's top U.S. locations: 1.1 million sq ft of occupied property",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000066/wfc-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Washington-Arlington-Alexandria, DC-VA-MD-WV 1.1"
+      }
+    }
+  ],
+  "notes": "State rows are FDIC Summary of Deposits data (regulator tier) for Wells Fargo Bank, N.A. only (cert 3511), as of June 30, 2024, the survey date inside FY2024; the per-state office counts and deposit sums are the FDIC API's own aggregation (agg_by=STALPBR), whose counts total 4,304, matching the API's record total. The FDIC reports deposits in $ thousands; they are stored in $ millions (divided by 1,000, three decimals kept, no rounding). Two single-office Wells Fargo banks are excluded and not added in: Wells Fargo Bank South Central, N.A. (cert 5146, Houston TX, $2,776,761 thousand) and Wells Fargo National Bank West (cert 27389, Las Vegas NV, $10,258,801 thousand). The zero-deposit rows (MA, MI, MO) are single trust offices (service type 30: Boston, Birmingham MI, Saint Louis). Country rows are occupied square footage from 10-K Item 2 (unit 'square-feet-millions', outside the enum); 'All other international locations' (0.4) and 'All other U.S. locations' (28.3) are not mapped. The 10-K also says ~77% of ~217,000 employees are U.S.-based; no state or country employee split is published there. No company-published state impact report was used.",
+  "researchedAt": "2026-11-23"
+}

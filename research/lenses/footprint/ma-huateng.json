@@ -1,0 +1,76 @@
+{
+  "id": "ma-huateng",
+  "company": "Tencent",
+  "metrics": {
+    "employees": {
+      "label": "Employees (Company scope)",
+      "unit": "people",
+      "period": "year ended Dec 31, 2024",
+      "tier": "company-published",
+      "definition": "ESG report 'Number of employees by geographic region'. Covers the Company's permanent employees plus consultants and interns directly employed by the Company (58,350 total), excluding subsidiaries and consolidated investment companies; the group total in the annual report is 110,558."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "CN",
+      "name": "Chinese Mainland",
+      "values": {
+        "employees": 56247
+      },
+      "plus": {},
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800679.pdf",
+        "label": "Tencent 2024 Environmental, Social and Governance Report (HKEX filing), Employment Performance table",
+        "quote": "Number of employees by geographic region | The Mainland of China 56,247"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Others (outside the Mainland of China)",
+      "countries": null,
+      "values": {
+        "employees": 2103
+      },
+      "plus": {},
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800679.pdf",
+        "label": "Tencent 2024 Environmental, Social and Governance Report (HKEX filing), Employment Performance table",
+        "quote": "Number of employees by geographic region | The Mainland of China 56,247 | Others 2,103"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Tencent Group Head Office, Tencent Binhai Towers",
+      "place": "Nanshan District, Shenzhen",
+      "iso2": "CN",
+      "type": "headquarters",
+      "description": "Group head office",
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+        "label": "Tencent Holdings 2024 Annual Report (HKEX filing, April 8, 2025), Corporate Information",
+        "quote": "TENCENT GROUP HEAD OFFICE Tencent Binhai Towers No. 33 Haitian 2nd Road Nanshan District Shenzhen, 518054"
+      }
+    },
+    {
+      "name": "Tencent Tianjin Binhai data centre",
+      "place": "Tianjin",
+      "iso2": "CN",
+      "type": "data center",
+      "description": "Data centre that received a TRUE zero-waste certification",
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800679.pdf",
+        "label": "Tencent 2024 Environmental, Social and Governance Report (HKEX filing)",
+        "quote": "Tencent Tianjin Binhai data centre received a TRUE … zero-waste certification."
+      }
+    }
+  ],
+  "notes": "The 2024 annual report gives only the group headcount (110,558 at Dec 31, 2024) with no geographic split. The ESG report splits a narrower Company-scope headcount (58,350, excluding subsidiaries and consolidated investees) into 'The Mainland of China' and 'Others' (Others is not defined by country, so it is a region with countries null). No province-level, country-level tax or site counts are published. 'Others' is labelled here as outside the Mainland of China; the report's own label is 'Others'.",
+  "researchedAt": "2026-11-23"
+}

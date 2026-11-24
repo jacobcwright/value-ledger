@@ -1,0 +1,204 @@
+{
+  "id": "johann-rupert",
+  "company": "Richemont",
+  "metrics": {
+    "employees": {
+      "label": "Employees (headcount)",
+      "unit": "people",
+      "period": "as of end of March 2025 (FY25)",
+      "tier": "company-published",
+      "definition": "Permanent and temporary employees by region, headcount at the end of March 2025. Excludes YNAP, Gianvito Rossi, Manufacture Miles and Vhernier (per the report's scope note). Total 39,877."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "JP",
+      "name": "Japan",
+      "values": {
+        "employees": 2434
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/media/3vwfatyf/richemont-non-financial-report-2025.pdf",
+        "label": "Non-Financial Report 2025, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY23 | FY24 | FY25; columns Americas, Asia Pacific, Europe, Japan, Middle East India & Africa, Total; FY25 used)",
+        "quote": "Employees 3 776 8 622 19 896 2 115 1 410 35 819 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Americas",
+      "countries": null,
+      "values": {
+        "employees": 4339
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/media/3vwfatyf/richemont-non-financial-report-2025.pdf",
+        "label": "Non-Financial Report 2025, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY23 | FY24 | FY25; columns Americas, Asia Pacific, Europe, Japan, Middle East India & Africa, Total; FY25 used)",
+        "quote": "Employees 3 776 8 622 19 896 2 115 1 410 35 819 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877"
+      }
+    },
+    {
+      "name": "Asia Pacific",
+      "countries": null,
+      "values": {
+        "employees": 9196
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/media/3vwfatyf/richemont-non-financial-report-2025.pdf",
+        "label": "Non-Financial Report 2025, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY23 | FY24 | FY25; columns Americas, Asia Pacific, Europe, Japan, Middle East India & Africa, Total; FY25 used)",
+        "quote": "Employees 3 776 8 622 19 896 2 115 1 410 35 819 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877"
+      }
+    },
+    {
+      "name": "Europe",
+      "countries": null,
+      "values": {
+        "employees": 22193
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/media/3vwfatyf/richemont-non-financial-report-2025.pdf",
+        "label": "Non-Financial Report 2025, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY23 | FY24 | FY25; columns Americas, Asia Pacific, Europe, Japan, Middle East India & Africa, Total; FY25 used)",
+        "quote": "Employees 3 776 8 622 19 896 2 115 1 410 35 819 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877"
+      }
+    },
+    {
+      "name": "Middle East, India & Africa",
+      "countries": null,
+      "values": {
+        "employees": 1715
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/media/3vwfatyf/richemont-non-financial-report-2025.pdf",
+        "label": "Non-Financial Report 2025, Social Data Set, Table 2: Total Number of Employees per Employment Type by Region, permanent and temporary employees (blocks FY23 | FY24 | FY25; columns Americas, Asia Pacific, Europe, Japan, Middle East India & Africa, Total; FY25 used)",
+        "quote": "Employees 3 776 8 622 19 896 2 115 1 410 35 819 4 075 9 308 21 214 2 272 1 586 38 455 4 339 9 196 22 193 2 434 1 715 39 877"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Registered office",
+      "place": "Bellevue, Geneva, Switzerland",
+      "state": null,
+      "iso2": "CH",
+      "type": "headquarters",
+      "description": "Compagnie Financière Richemont SA's registered office.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
+        "label": "FY25 Annual Report, Corporate governance, Group structure",
+        "quote": "The Company is a Swiss company with its registered office at 50, chemin de la Chênaie, 1293 Bellevue, Geneva, Switzerland."
+      }
+    },
+    {
+      "name": "Richemont Europe headquarters",
+      "place": "Canton of Geneva, Switzerland",
+      "state": null,
+      "iso2": "CH",
+      "type": "regional headquarters",
+      "description": "Regional headquarters in the Campus Genevois de Haute Horlogerie.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/about-us/global-presence/",
+        "label": "Richemont website, Global presence (regional headquarters; current page, 2026)",
+        "quote": "Richemont Europe is headquartered in the Canton of Geneva in the Campus Genevois de Haute Horlogerie, close to many of our Maison headquarters."
+      }
+    },
+    {
+      "name": "Americas headquarters",
+      "place": "New York, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "regional headquarters",
+      "description": "Regional headquarters for North and Latin America.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/about-us/global-presence/",
+        "label": "Richemont website, Global presence (regional headquarters; current page, 2026)",
+        "quote": "Our Americas headquarters are located in New York City"
+      }
+    },
+    {
+      "name": "Logistics and customer service campus",
+      "place": "Dallas, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "logistics",
+      "description": "A state of the art logistics and customer service campus.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/about-us/global-presence/",
+        "label": "Richemont website, Global presence (regional headquarters; current page, 2026)",
+        "quote": "The region covers North America and Latin America, with a satellite centre in Connecticut, a state of the art logistics and customer service campus in Dallas, and local offices in Brazil, Canada and Mexico."
+      }
+    },
+    {
+      "name": "Asia Pacific headquarters",
+      "place": "Hong Kong SAR, China",
+      "state": null,
+      "iso2": "HK",
+      "type": "regional headquarters",
+      "description": "Regional Asia Pacific headquarters.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/about-us/global-presence/",
+        "label": "Richemont website, Global presence (regional headquarters; current page, 2026)",
+        "quote": "Our regional Asia Pacific headquarters are located in Hong Kong SAR, China"
+      }
+    },
+    {
+      "name": "Richemont Japan headquarters",
+      "place": "Tokyo, Japan",
+      "state": null,
+      "iso2": "JP",
+      "type": "regional headquarters",
+      "description": "Japan headquarters, with satellite offices in Fukagawa and Osaka.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/about-us/global-presence/",
+        "label": "Richemont website, Global presence (regional headquarters; current page, 2026)",
+        "quote": "Richemont Japan is headquartered in the city of Tokyo with two satellite offices in Fukagawa and Osaka."
+      }
+    },
+    {
+      "name": "Middle East, India, Africa & Türkiye headquarters",
+      "place": "Dubai, UAE",
+      "state": null,
+      "iso2": "AE",
+      "type": "regional headquarters",
+      "description": "Regional headquarters, with an operations centre at the Dubai Airport Free Zone.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/about-us/global-presence/",
+        "label": "Richemont website, Global presence (regional headquarters; current page, 2026)",
+        "quote": "Our regional Middle East, India, Africa & Türkiye headquarters are located in the heart of Dubai with our operations centre strategically located at the Dubai Airport Free Zone."
+      }
+    },
+    {
+      "name": "Cartier Turin Manufacture (with new Valenza satellite)",
+      "place": "Turin and Valenza, Italy",
+      "state": null,
+      "iso2": "IT",
+      "type": "plant",
+      "description": "Cartier jewellery manufacture; a new Italian Manufacture in Valenza opened in August 2024 as its satellite.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/media/ue1bjrjv/richemont-fy25-annual-report-en.pdf",
+        "label": "FY25 Annual Report, Jewellery Maisons, Cartier",
+        "quote": "In August 2024, Cartier opened its new Italian Manufacture in Valenza, as a satellite of our Turin Manufacture strategically located in a key Italian jewellery and setting area."
+      }
+    }
+  ],
+  "notes": "Boutiques by region: not found. The FY25 Annual Report and Non-Financial Report give only group totals (2,463 boutiques in the Richemont network, 1,392 directly operated), and the FY25 annual results presentation and the current Global presence page (2,357 monobrand boutiques) give no regional split, so no boutique rows were recorded. Employees by region come from the Non-Financial Report 2025 (headcount at end of March 2025); Japan is a reporting region that is a single country, so it is a country row. Regions are not defined by a country list in that table. No U.S. state data or taxes-by-country report was found. Regional headquarters are from the current (2026) Global presence page, newer than the FY25 snapshot.",
+  "researchedAt": "2026-11-23"
+}

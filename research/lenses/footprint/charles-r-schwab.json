@@ -1,0 +1,224 @@
+{
+  "id": "charles-r-schwab",
+  "company": "Charles Schwab",
+  "metrics": {
+    "depositsSchwabBank": {
+      "label": "Deposits, Charles Schwab Bank, SSB ($ thousands)",
+      "unit": "currency-thousands",
+      "currency": "USD",
+      "period": "as of June 30, 2024",
+      "tier": "regulator",
+      "definition": "FDIC Summary of Deposits field DEPSUMBR (deposits booked at the office, in thousands of dollars) for Charles Schwab Bank, SSB (FDIC cert 57450), whose single office is its main office in Westlake, TX.",
+      "scale": 1000
+    },
+    "depositsPremierBank": {
+      "label": "Deposits, Charles Schwab Premier Bank, SSB ($ thousands)",
+      "unit": "currency-thousands",
+      "currency": "USD",
+      "period": "as of June 30, 2024",
+      "tier": "regulator",
+      "definition": "FDIC Summary of Deposits DEPSUMBR for Charles Schwab Premier Bank, SSB (FDIC cert 33497), single office in Westlake, TX.",
+      "scale": 1000
+    },
+    "depositsTrustBank": {
+      "label": "Deposits, Charles Schwab Trust Bank ($ thousands)",
+      "unit": "currency-thousands",
+      "currency": "USD",
+      "period": "as of June 30, 2024",
+      "tier": "regulator",
+      "definition": "FDIC Summary of Deposits DEPSUMBR for Charles Schwab Trust Bank (FDIC cert 59108), single office in Westlake, TX.",
+      "scale": 1000
+    }
+  },
+  "usStates": [
+    {
+      "state": "TX",
+      "values": {
+        "depositsSchwabBank": 224023000,
+        "depositsPremierBank": 20197000,
+        "depositsTrustBank": 8628000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "regulator",
+        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(57450%20OR%2033497%20OR%2059108)%20AND%20YEAR%3A2024&fields=NAMEFULL%2CCERT%2CSTALPBR%2CCITYBR%2CDEPSUMBR&sort_by=CERT&limit=10",
+        "label": "FDIC Summary of Deposits API, Schwab's three FDIC-insured banks (certs 33497, 57450, 59108), June 30, 2024",
+        "quote": "{\"STALPBR\":\"TX\",\"DEPSUMBR\":20197000,\"NAMEFULL\":\"Charles Schwab Premier Bank, SSB\",\"CERT\":33497,\"CITYBR\":\"Westlake\" … {\"STALPBR\":\"TX\",\"DEPSUMBR\":224023000,\"NAMEFULL\":\"Charles Schwab Bank, SSB\",\"CERT\":57450,\"CITYBR\":\"Westlake\" … {\"STALPBR\":\"TX\",\"DEPSUMBR\":8628000,\"NAMEFULL\":\"Charles Schwab Trust Bank\",\"CERT\":59108,\"CITYBR\":\"Westlake\""
+      }
+    }
+  ],
+  "countries": null,
+  "regions": null,
+  "sites": [
+    {
+      "name": "Corporate headquarters",
+      "place": "Westlake, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Corporate headquarters; about 795,000 sq ft owned and 22,000 sq ft leased.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Corporate headquarters: | Westlake, TX | 22 | 795 [square footage in thousands: leased | owned]"
+      }
+    },
+    {
+      "name": "Phoenix office",
+      "place": "Phoenix, AZ",
+      "state": "AZ",
+      "iso2": "US",
+      "type": "office",
+      "description": "Service and other office space; about 728,000 sq ft owned and 67,000 leased.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: | Phoenix, AZ | 67 | 728 [square footage in thousands: leased | owned]"
+      }
+    },
+    {
+      "name": "Denver office",
+      "place": "Denver, CO",
+      "state": "CO",
+      "iso2": "US",
+      "type": "office",
+      "description": "Service and other office space; about 759,000 sq ft owned.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Denver, CO | — | 759 [square footage in thousands: leased | owned]"
+      }
+    },
+    {
+      "name": "Omaha office",
+      "place": "Omaha, NE",
+      "state": "NE",
+      "iso2": "US",
+      "type": "office",
+      "description": "Service and other office space; about 578,000 sq ft owned.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Omaha, NE | — | 578 [square footage in thousands: leased | owned]"
+      }
+    },
+    {
+      "name": "Austin office",
+      "place": "Austin, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "office",
+      "description": "Service and other office space; about 561,000 sq ft owned.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Austin, TX | — | 561 [square footage in thousands: leased | owned]"
+      }
+    },
+    {
+      "name": "San Francisco office",
+      "place": "San Francisco, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "office",
+      "description": "Service and other office space; about 417,000 sq ft leased.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … San Francisco, CA | 417 | — [square footage in thousands: leased | owned]"
+      }
+    },
+    {
+      "name": "Southlake office",
+      "place": "Southlake, TX",
+      "state": "TX",
+      "iso2": "US",
+      "type": "office",
+      "description": "Service and other office space; about 375,000 sq ft owned and 13,000 leased.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Southlake, TX | 13 | 375 [square footage in thousands: leased | owned]"
+      }
+    },
+    {
+      "name": "St. Louis office",
+      "place": "St. Louis, MO",
+      "state": "MO",
+      "iso2": "US",
+      "type": "office",
+      "description": "Service and other office space; about 372,000 sq ft owned.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … St. Louis, MO | — | 372 [square footage in thousands: leased | owned]"
+      }
+    },
+    {
+      "name": "Orlando office",
+      "place": "Orlando, FL",
+      "state": "FL",
+      "iso2": "US",
+      "type": "office",
+      "description": "Service and other office space; about 222,000 sq ft owned and 57,000 leased.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Orlando, FL | 57 | 222 [square footage in thousands: leased | owned]"
+      }
+    },
+    {
+      "name": "Jersey City office",
+      "place": "Jersey City, NJ",
+      "state": "NJ",
+      "iso2": "US",
+      "type": "office",
+      "description": "Service and other office space; about 208,000 sq ft leased.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Jersey City, NJ | 208 | — [square footage in thousands: leased | owned]"
+      }
+    },
+    {
+      "name": "Chicago office",
+      "place": "Chicago, IL",
+      "state": "IL",
+      "iso2": "US",
+      "type": "office",
+      "description": "Service and other office space; about 190,000 sq ft leased.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Chicago, IL | 190 | — [square footage in thousands: leased | owned]"
+      }
+    },
+    {
+      "name": "Indianapolis office",
+      "place": "Indianapolis, IN",
+      "state": "IN",
+      "iso2": "US",
+      "type": "office",
+      "description": "Service and other office space; about 161,000 sq ft owned.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
+        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Indianapolis, IN | — | 161 [square footage in thousands: leased | owned]"
+      }
+    }
+  ],
+  "notes": "Branches by state are not published: the FY2024 10-K says only that Schwab \"had more than 380 domestic branch offices in 48 states and the District of Columbia, as well as locations in Puerto Rico, the United Kingdom, Hong Kong, and Singapore\", and schwab.com's branch locator refused scripted requests (authorization error page). The Texas row is FDIC Summary of Deposits data (regulator tier, June 30, 2024) for Schwab's three FDIC-insured banks, each with one office, its main office in Westlake, TX; the FDIC therefore books all of their deposits to Texas, which says where the charters sit, not where depositors live. Values are kept per bank in $ thousands as the FDIC reports them (unit 'currency-thousands' is outside the lens enum, as in other footprint files) and are not added together. Sites are the 10-K Item 2 table of significant locations (square footage in thousands, net of subleased space); El Paso, TX (105,000 sq ft owned) and Richfield, OH (117,000 owned) are left out for the 12-site cap.",
+  "researchedAt": "2026-11-23"
+}

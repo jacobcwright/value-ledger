@@ -1,0 +1,177 @@
+{
+  "id": "hasso-plattner",
+  "company": "SAP",
+  "metrics": {
+    "employees": {
+      "label": "Employees (headcount)",
+      "unit": "people",
+      "period": "as of December 31, 2024",
+      "tier": "filing",
+      "definition": "Number of SAP employees by headcount in countries where SAP has 50 or more employees representing at least 10% of its total (ESRS S1 disclosure in the Integrated Report's sustainability statement). Group total headcount was 109,973."
+    },
+    "fte": {
+      "label": "Employees (full-time equivalents)",
+      "unit": "people",
+      "period": "as of December 31, 2024",
+      "tier": "filing",
+      "definition": "Full-time equivalents by region: EMEA (Europe, Middle East, and Africa), Americas (North America and Latin America) and APJ (Asia Pacific Japan); people on permanent contracts weighted by staffing percentage."
+    },
+    "currentTax": {
+      "label": "Current income tax expense",
+      "unit": "currency-millions",
+      "currency": "EUR",
+      "period": "FY2024",
+      "tier": "filing",
+      "definition": "Current tax expense by geographic location, Germany vs foreign (an expense under IFRS, not cash taxes paid; deferred tax shown separately in the note)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "DE",
+      "name": "Germany",
+      "values": {
+        "employees": 26944
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-integrated-report.pdf",
+        "label": "SAP Integrated Report 2024, Sustainability Statement, Own Workforce (ESRS S1), headcount by country",
+        "quote": "Number of SAP Employees by Headcount, Broken Down by Country for Countries in Which SAP Has 50 or More Employees Representing at Least 10% of Its Total Number of Employees Country Number of Employees (headcount) Germany 26,944 United States 17,712 India 16,164"
+      }
+    },
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "employees": 17712
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-integrated-report.pdf",
+        "label": "SAP Integrated Report 2024, Sustainability Statement, Own Workforce (ESRS S1), headcount by country",
+        "quote": "Number of SAP Employees by Headcount, Broken Down by Country for Countries in Which SAP Has 50 or More Employees Representing at Least 10% of Its Total Number of Employees Country Number of Employees (headcount) Germany 26,944 United States 17,712 India 16,164"
+      }
+    },
+    {
+      "iso2": "IN",
+      "name": "India",
+      "values": {
+        "employees": 16164
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-integrated-report.pdf",
+        "label": "SAP Integrated Report 2024, Sustainability Statement, Own Workforce (ESRS S1), headcount by country",
+        "quote": "Number of SAP Employees by Headcount, Broken Down by Country for Countries in Which SAP Has 50 or More Employees Representing at Least 10% of Its Total Number of Employees Country Number of Employees (headcount) Germany 26,944 United States 17,712 India 16,164"
+      }
+    },
+    {
+      "iso2": "DE",
+      "name": "Germany",
+      "values": {
+        "currentTax": 418
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465925017815/sap-20241224x20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Note (C.5) Income Taxes, tax expense by geographic location (2024 column first)",
+        "quote": "Tax Expense by Geographic Location € millions 2024 2023 2022 Current tax expense Germany 418 596 539 Foreign 1,516 1,356 1,165"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "EMEA (Europe, Middle East, and Africa)",
+      "countries": null,
+      "values": {
+        "fte": 50801
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465925017815/sap-20241224x20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Note (B.1) Employee Headcount by Region and Function, 12/31/2024 columns EMEA | Americas | APJ | Total",
+        "quote": "SAP Group (December 31) 50,801 27,536 30,784 109,121"
+      }
+    },
+    {
+      "name": "Americas (North America and Latin America)",
+      "countries": null,
+      "values": {
+        "fte": 27536
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465925017815/sap-20241224x20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Note (B.1) Employee Headcount by Region and Function, 12/31/2024 columns EMEA | Americas | APJ | Total",
+        "quote": "SAP Group (December 31) 50,801 27,536 30,784 109,121"
+      }
+    },
+    {
+      "name": "APJ (Asia Pacific Japan)",
+      "countries": null,
+      "values": {
+        "fte": 30784
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465925017815/sap-20241224x20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Note (B.1) Employee Headcount by Region and Function, 12/31/2024 columns EMEA | Americas | APJ | Total",
+        "quote": "SAP Group (December 31) 50,801 27,536 30,784 109,121"
+      }
+    },
+    {
+      "name": "Foreign (outside Germany)",
+      "countries": null,
+      "values": {
+        "currentTax": 1516
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465925017815/sap-20241224x20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Note (C.5) Income Taxes, tax expense by geographic location (2024 column first)",
+        "quote": "Tax Expense by Geographic Location € millions 2024 2023 2022 Current tax expense Germany 418 596 539 Foreign 1,516 1,356 1,165"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Headquarters, Walldorf and St. Leon-Rot",
+      "place": "Walldorf, Germany",
+      "state": null,
+      "iso2": "DE",
+      "type": "headquarters",
+      "description": "Principal office; about 405,000 square meters of owned office and datacenter space including neighboring St. Leon-Rot.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465925017815/sap-20241224x20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4.D, Description of Property",
+        "quote": "Our principal office is located in Walldorf, Germany, where we own and occupy approximately 405,000 square meters of office and datacenter space including our facilities in neighboring St. Leon-Rot."
+      }
+    },
+    {
+      "name": "New office building, Bangalore",
+      "place": "Bangalore, India",
+      "state": null,
+      "iso2": "IN",
+      "type": "campus",
+      "description": "New office building for approximately 3,500 employees (estimated completion December 2025).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465925017815/sap-20241224x20f.htm",
+        "label": "2024 Annual Report on Form 20-F, Item 4, Principal Investments Currently in Progress",
+        "quote": "India Bangalore New office building for approx. 3,500 employees"
+      }
+    }
+  ],
+  "notes": "SAP publishes no U.S. state data. Country headcount is disclosed only for countries with 50+ employees and at least 10% of the total (Germany, United States, India) in the ESRS S1 section of the Integrated Report 2024; regions are FTEs from the 20-F (EMEA/Americas/APJ, which the filing defines by continent, not by country list). Tax: SAP publishes no country-by-country tax report; the 20-F splits current income tax expense into Germany (€418m) and foreign (€1,516m) for 2024. Cash income taxes paid (€2,277m net) are reported only for the group. Germany appears twice in countries because headcount and tax come from different documents. The 20-F also lists owned real estate in Newtown Square, Palo Alto and Colorado Springs (U.S.), Bangalore, Sao Leopoldo, London, Ra'anana and Sofia, and non-current assets by region (Germany €7,351m, U.S. €26,840m, India €405m), which were not recorded because they are dominated by goodwill.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,500 @@
+{
+  "id": "andrew-forrest",
+  "company": "Fortescue",
+  "metrics": {
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "FY ended Jun 30, 2025",
+      "tier": "company-published",
+      "definition": "Number of employees by tax jurisdiction, FY2025 Country-by-Country Report (GRI 207-4); group total 16,005."
+    },
+    "incomeTaxPaid": {
+      "label": "Corporate income tax paid (cash)",
+      "unit": "currency-millions",
+      "currency": "USD",
+      "period": "FY ended Jun 30, 2025",
+      "tier": "company-published",
+      "definition": "Corporate income tax paid on a cash basis by tax jurisdiction, FY2025 Country-by-Country Report; group total US$1,657m. Excludes royalties and other taxes."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "AR",
+      "name": "Argentina",
+      "values": {
+        "employees": 149
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Argentina - - (18) - (0.1) - 149 69"
+      }
+    },
+    {
+      "iso2": "AU",
+      "name": "Australia",
+      "values": {
+        "employees": 14263,
+        "incomeTaxPaid": 1629
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Australia 14,196 1,246 5,400 1,582 29.3 1,629 14,263 22,669"
+      }
+    },
+    {
+      "iso2": "BR",
+      "name": "Brazil",
+      "values": {
+        "employees": 49
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Brazil - - (26) - 0.0 - 49 1"
+      }
+    },
+    {
+      "iso2": "CM",
+      "name": "Cameroon",
+      "values": {
+        "employees": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Cameroon - - - - 0.0 - 1 -"
+      }
+    },
+    {
+      "iso2": "CA",
+      "name": "Canada",
+      "values": {
+        "employees": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Canada - - - - 0.0 - 2 -"
+      }
+    },
+    {
+      "iso2": "CL",
+      "name": "Chile",
+      "values": {
+        "employees": 5
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Chile - - (10) - 0.0 - 5 -"
+      }
+    },
+    {
+      "iso2": "CN",
+      "name": "China",
+      "values": {
+        "employees": 55,
+        "incomeTaxPaid": 3
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] China 1,273 17 10 2 23.4 3 55 204"
+      }
+    },
+    {
+      "iso2": "EC",
+      "name": "Ecuador",
+      "values": {
+        "employees": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Ecuador - - - - 18.5 - 2 -"
+      }
+    },
+    {
+      "iso2": "GA",
+      "name": "Gabon",
+      "values": {
+        "employees": 133
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Gabon - - (25) - 0.0 - 133 86"
+      }
+    },
+    {
+      "iso2": "DE",
+      "name": "Germany",
+      "values": {
+        "employees": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Germany - - 2 - 4.0 - 2 -"
+      }
+    },
+    {
+      "iso2": "HK",
+      "name": "Hong Kong",
+      "values": {
+        "incomeTaxPaid": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Hong Kong - 68 (64) 1 (1.7) 2 - -"
+      }
+    },
+    {
+      "iso2": "ID",
+      "name": "Indonesia",
+      "values": {
+        "employees": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Indonesia - - - - 0.0 - 1 -"
+      }
+    },
+    {
+      "iso2": "IT",
+      "name": "Italy",
+      "values": {
+        "employees": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Italy - - - - 24.0 - 1 -"
+      }
+    },
+    {
+      "iso2": "JO",
+      "name": "Jordan",
+      "values": {
+        "employees": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Jordan - - - - 0.0 - 1 -"
+      }
+    },
+    {
+      "iso2": "KZ",
+      "name": "Kazakhstan",
+      "values": {
+        "employees": 23
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Kazakhstan - - - - 0.0 - 23 -"
+      }
+    },
+    {
+      "iso2": "KE",
+      "name": "Kenya",
+      "values": {
+        "employees": 2
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Kenya - - (6) - 0.0 - 2 -"
+      }
+    },
+    {
+      "iso2": "MA",
+      "name": "Morocco",
+      "values": {
+        "employees": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Morocco - - - - 0.0 - 1 -"
+      }
+    },
+    {
+      "iso2": "NZ",
+      "name": "New Zealand",
+      "values": {
+        "employees": 1
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] New Zealand - - - - 0.0 - 1 -"
+      }
+    },
+    {
+      "iso2": "NO",
+      "name": "Norway",
+      "values": {
+        "employees": 11
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Norway - - (60) - 0.0 - 11 1"
+      }
+    },
+    {
+      "iso2": "PE",
+      "name": "Peru",
+      "values": {
+        "employees": 3
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Peru - - - - 0.0 - 3 -"
+      }
+    },
+    {
+      "iso2": "PT",
+      "name": "Portugal",
+      "values": {
+        "employees": 9
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Portugal - - (1) - (2.7) - 9 1"
+      }
+    },
+    {
+      "iso2": "SG",
+      "name": "Singapore",
+      "values": {
+        "employees": 14,
+        "incomeTaxPaid": 23
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Singapore - 1,573 111 18 16.7 23 14 282"
+      }
+    },
+    {
+      "iso2": "ES",
+      "name": "Spain",
+      "values": {
+        "employees": 4
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] Spain - 1 - - 25.0 - 4 -"
+      }
+    },
+    {
+      "iso2": "AE",
+      "name": "United Arab Emirates",
+      "values": {
+        "employees": 12
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] United Arab Emirates - - (5) - 0.0 - 12 -"
+      }
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "values": {
+        "employees": 1182
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] United Kingdom 72 8 (241) - 0.0 - 1,182 232"
+      }
+    },
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "employees": 73
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://content.fortescue.com/fortescue17114-fortescueeb60-productionbbdb-8be5/media/project/fortescueportal/shared/documents/publications/sustainability-publications/fy2025-fortescue-group-cbc-report-publication---final.pdf",
+        "label": "FY2025 Country-by-Country Report, full CbC table (tax jurisdiction row)",
+        "quote": "[columns: third-party revenue, intra-group revenue, profit/(loss) before tax, CIT accrued, CbC effective CIT rate %, CIT paid on a cash basis US$m, number of employees, tangible assets US$m] United States of America (USA) - - (124) - 0.0 - 73 128"
+      }
+    }
+  ],
+  "regions": null,
+  "sites": [
+    {
+      "name": "Fortescue Hive (headquarters)",
+      "place": "256 St Georges Terrace, Perth, WA",
+      "iso2": "AU",
+      "type": "headquarters",
+      "description": "Our new headquarters at 256 St Georges Terrace; the Hive is a purpose-built integrated operations centre that powers our Pilbara operations from Perth",
+      "source": {
+        "hostType": "exchange",
+        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+        "label": "FY25 Appendix 4E and Annual Report (ASX), operations overview",
+        "quote": "relocated in December 2024 to our new headquarters at 256 St Georges Terrace, the Fortescue Hive is a purpose-built, integrated operations centre that powers our Pilbara operations from Perth."
+      }
+    },
+    {
+      "name": "Cloudbreak mine (Chichester Hub)",
+      "place": "Chichester Range, Pilbara, WA",
+      "iso2": "AU",
+      "type": "mine",
+      "description": "Part of the Chichester Hub (around 100Mtpa with Christmas Creek); trial mining commenced in 2005, first shipment in 2008",
+      "source": {
+        "hostType": "exchange",
+        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+        "label": "FY25 Appendix 4E and Annual Report (ASX), operations overview",
+        "quote": "Trial mining at Cloudbreak commenced in 2005, with the first shipment occurring in 2008."
+      }
+    },
+    {
+      "name": "Christmas Creek mine (Chichester Hub)",
+      "place": "Chichester Range, Pilbara, WA",
+      "iso2": "AU",
+      "type": "mine",
+      "description": "Part of the Chichester Hub; home to Fortescue's Green Energy Hub and the Green Metal Project",
+      "source": {
+        "hostType": "exchange",
+        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+        "label": "FY25 Appendix 4E and Annual Report (ASX), operations overview",
+        "quote": "Christmas Creek is now home to Fortescue’s Green Energy Hub and hosts the Green Metal Project."
+      }
+    },
+    {
+      "name": "Solomon mine (Western Hub)",
+      "place": "about 60km north of Tom Price, Pilbara, WA",
+      "iso2": "AU",
+      "type": "mine",
+      "description": "Western Hub mine near the Hamersley Ranges; commenced operation in 2012",
+      "source": {
+        "hostType": "exchange",
+        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+        "label": "FY25 Appendix 4E and Annual Report (ASX), operations overview",
+        "quote": "Solomon commenced operation in 2012, followed by the commissioning of Eliwana in 2020, situated approximately 140km west of Solomon."
+      }
+    },
+    {
+      "name": "Eliwana mine (Western Hub)",
+      "place": "about 140km west of Solomon, Pilbara, WA",
+      "iso2": "AU",
+      "type": "mine",
+      "description": "Commissioned in 2020; capacity to direct load up to 9,000t per hour. The Western Hub contributes around 100Mtpa",
+      "source": {
+        "hostType": "exchange",
+        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+        "label": "FY25 Appendix 4E and Annual Report (ASX), operations overview",
+        "quote": "With its innovative low profile designed OPF and dual stacker reclaimer, Eliwana has the capacity to direct load up to 9,000t per hour."
+      }
+    },
+    {
+      "name": "Iron Bridge",
+      "place": "around 145km south of Port Hedland, WA",
+      "iso2": "AU",
+      "type": "mine",
+      "description": "Fortescue's first magnetite mining operation; unincorporated joint venture (FMG Magnetite 69 per cent, Formosa Steel IB 31 per cent)",
+      "source": {
+        "hostType": "exchange",
+        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+        "label": "FY25 Appendix 4E and Annual Report (ASX), operations overview",
+        "quote": "Iron Bridge is Fortescue’s first magnetite mining operation and is located around 145km south of Port Hedland."
+      }
+    },
+    {
+      "name": "Herb Elliott Port",
+      "place": "Port Hedland, WA",
+      "iso2": "AU",
+      "type": "port",
+      "description": "Five operating berths, approved to export up to 210mtpa of iron ore",
+      "source": {
+        "hostType": "exchange",
+        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+        "label": "FY25 Appendix 4E and Annual Report (ASX), operations overview",
+        "quote": "The port comprises five operating berths and is currently approved to export up to 210mtpa of iron ore."
+      }
+    },
+    {
+      "name": "Belinga Iron Ore Project",
+      "place": "north-east Gabon",
+      "iso2": "GA",
+      "type": "project",
+      "description": "Iron ore project in north-east Gabon",
+      "source": {
+        "hostType": "exchange",
+        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
+        "label": "FY25 Appendix 4E and Annual Report (ASX), Fortescue Energy and projects",
+        "quote": "The Belinga Project in north-east Gabon is potentially one of the largest"
+      }
+    }
+  ],
+  "notes": "Country rows come from Fortescue's FY2025 Country-by-Country Report (GRI 207-4, company-hosted; FY ended Jun 30, 2025, the site's snapshot year): employees and corporate income tax paid in cash by tax jurisdiction. Only jurisdictions with employees or cash tax paid are listed; dashes (nil) are omitted, not recorded as 0. 6 employees working where Fortescue has no local entity ('Other countries') are not in the rows. The large U.K. headcount (1,182) is Fortescue's U.K. operations, which the report shows with losses. Cash tax excludes Western Australian state royalties; no royalty breakdown by jurisdiction was recorded. No state or regional data. Sites are the Pilbara (Western Australia) mines, the port and the Perth HQ as the FY25 annual report (lodged with the ASX with the Appendix 4E) describes them, plus the Belinga project in Gabon; the mines connect to Port Hedland via 760km of rail.",
+  "researchedAt": "2026-11-23"
+}

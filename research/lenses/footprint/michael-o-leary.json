@@ -1,0 +1,168 @@
+{
+  "id": "michael-o-leary",
+  "company": "Ryanair",
+  "metrics": {},
+  "usStates": null,
+  "countries": null,
+  "regions": null,
+  "sites": [
+    {
+      "name": "Airside Business Park (head office)",
+      "place": "Dublin, Ireland",
+      "iso2": "IE",
+      "type": "headquarters",
+      "description": "Freehold offices, Travel Labs Dublin, Training Center and Operations Control Center",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Airside Business Park, Dublin 37,752 32,409 Freehold Offices, Travel Labs Dublin, Training Center & OCC"
+      }
+    },
+    {
+      "name": "Dublin Airport hangar",
+      "place": "Dublin Airport, Ireland",
+      "iso2": "IE",
+      "type": "maintenance",
+      "description": "Leasehold aircraft maintenance hangar",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Dublin Airport (Hangar) 8,190 8,269 Leasehold Aircraft Maintenance"
+      }
+    },
+    {
+      "name": "Stansted Airport hangar",
+      "place": "London Stansted, UK",
+      "iso2": "GB",
+      "type": "maintenance",
+      "description": "Leasehold aircraft maintenance and simulator training center",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Stansted Airport (Hangar) 17,262 14,302 Leasehold Aircraft Maintenance & Simulator Training Center"
+      }
+    },
+    {
+      "name": "Madrid Airport hangar",
+      "place": "Madrid, Spain",
+      "iso2": "ES",
+      "type": "maintenance",
+      "description": "Leasehold aircraft maintenance hangar",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Madrid Airport (Hangar) 22,606 16,378 Leasehold Aircraft Maintenance"
+      }
+    },
+    {
+      "name": "Prestwick Airport hangar",
+      "place": "Prestwick, UK",
+      "iso2": "GB",
+      "type": "maintenance",
+      "description": "Leasehold aircraft maintenance hangar",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Prestwick Airport (Hangar) 16,022 14,295 Leasehold Aircraft Maintenance"
+      }
+    },
+    {
+      "name": "Bergamo Airport",
+      "place": "Bergamo, Italy",
+      "iso2": "IT",
+      "type": "maintenance",
+      "description": "Leasehold aircraft maintenance and training center",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Bergamo Airport 16,647 9,563 Leasehold Aircraft Maintenance & Training Center"
+      }
+    },
+    {
+      "name": "Vienna Airport hangar",
+      "place": "Vienna, Austria",
+      "iso2": "AT",
+      "type": "maintenance",
+      "description": "Leasehold aircraft maintenance hangar",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Vienna Airport (Hangar) 12,591 7,720 Leasehold Aircraft Maintenance"
+      }
+    },
+    {
+      "name": "Seville hangar",
+      "place": "Seville, Spain",
+      "iso2": "ES",
+      "type": "maintenance",
+      "description": "Leasehold aircraft maintenance hangar",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Seville, Spain (Hangar) 9,800 8,000 Leasehold Aircraft Maintenance"
+      }
+    },
+    {
+      "name": "Wroclaw Airport hangar",
+      "place": "Wroclaw, Poland",
+      "iso2": "PL",
+      "type": "maintenance",
+      "description": "Leasehold aircraft maintenance hangar",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Wroclaw Airport, Poland (Hangar) 8,701 7,484 Leasehold Aircraft Maintenance"
+      }
+    },
+    {
+      "name": "Porto Airport hangar",
+      "place": "Porto, Portugal",
+      "iso2": "PT",
+      "type": "maintenance",
+      "description": "Leasehold aircraft maintenance hangar",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Porto Airport (Hangar) 8,424 5,103 Leasehold Aircraft Maintenance"
+      }
+    },
+    {
+      "name": "Frankfurt (Hahn) Airport hangar",
+      "place": "Hahn, Germany",
+      "iso2": "DE",
+      "type": "maintenance",
+      "description": "Leasehold aircraft maintenance and simulator training center",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Frankfurt (Hahn) Airport (Hangar) 5,064 5,064 Leasehold Aircraft Maintenance & Simulator Training Center"
+      }
+    },
+    {
+      "name": "Malta Airport hangar",
+      "place": "Malta",
+      "iso2": "MT",
+      "type": "maintenance",
+      "description": "Leasehold aircraft maintenance hangar",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "Ryanair Holdings Form 20-F for fiscal year ended March 31, 2025, Item 4 Facilities",
+        "quote": "The following are the principal facilities owned or leased by the Ryanair Group: … Malta Airport (Hangar) 6,729 3,696 Leasehold Aircraft Maintenance"
+      }
+    }
+  ],
+  "notes": "The FY2025 20-F lists Ryanair's 93 operating bases (as of May 16, 2025) by airport name only, with no country or per-base aircraft, passenger or staff counts. Counting bases per country would mean mapping airports to countries ourselves, so no country rows were made. No passengers-by-country, employees-by-country or taxes-by-country disclosure was found in the 20-F (it reports 25,952 staff at March 31, 2025 by category, and revenue by country only where above 10%, which is already in the records). Sites are 12 of the 'principal facilities owned or leased by the Ryanair Group' table (site area and floor space in square meters, not recorded as values); the same table also lists East Midlands (simulator training), Travel Labs offices in Madrid and Wroclaw, and administrative offices in Warsaw, Pieta (Malta) and Vienna.",
+  "researchedAt": "2026-11-23"
+}

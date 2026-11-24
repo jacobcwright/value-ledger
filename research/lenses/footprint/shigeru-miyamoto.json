@@ -1,0 +1,163 @@
+{
+  "id": "shigeru-miyamoto",
+  "company": "Nintendo",
+  "metrics": {
+    "hardwareUnits": {
+      "label": "Nintendo Switch hardware units sold",
+      "unit": "count",
+      "period": "FY2025 (year ended Mar 31, 2025)",
+      "tier": "company-published",
+      "definition": "Nintendo Switch hardware sales units (all models) by region, published in units of ten thousand and converted to units (shown in the bracketed note)."
+    },
+    "softwareUnits": {
+      "label": "Nintendo Switch software units sold",
+      "unit": "count",
+      "period": "FY2025 (year ended Mar 31, 2025)",
+      "tier": "company-published",
+      "definition": "Nintendo Switch software sales units by region, packaged and downloadable versions of packaged software, including units bundled with hardware; excludes download-only software and add-on content. Published in ten-thousands, converted to units."
+    },
+    "ppe": {
+      "label": "Property, plant and equipment",
+      "unit": "currency-millions",
+      "currency": "JPY",
+      "period": "as of Mar 31, 2025",
+      "tier": "filing",
+      "definition": "Property, plant and equipment by country, based on location (annual securities report segment information)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "JP",
+      "name": "Japan",
+      "values": {
+        "hardwareUnits": 3190000,
+        "softwareUnits": 33200000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.nintendo.co.jp/ir/pdf/2025/250508_4e.pdf",
+        "label": "Nintendo Co., Ltd., Financial Results Explanatory Material, Fiscal Year Ended March 2025 (May 8, 2025), Sales Units and Sales Units Forecast",
+        "quote": "Sales Units and Sales Units Forecast units in ten thousands … Hardware (Total) Japan 441 319 3,720 … Software Japan 3,977 3,320 27,312 [Nintendo Switch, columns FY24, FY25, life-to-date; FY25 hardware 3,190,000 units, software 33,200,000 units]"
+      }
+    },
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "ppe": 27179
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
+        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2025, segment information, property, plant and equipment by country",
+        "quote": "(2) Property, plant and equipment (Millions of yen) Japan U.S. Other Total 76,142 27,179 9,290 112,612 [current fiscal year, as of March 31, 2025]"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "The Americas",
+      "countries": null,
+      "values": {
+        "hardwareUnits": 3790000,
+        "softwareUnits": 64850000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.nintendo.co.jp/ir/pdf/2025/250508_4e.pdf",
+        "label": "Nintendo Co., Ltd., Financial Results Explanatory Material, Fiscal Year Ended March 2025 (May 8, 2025), Sales Units and Sales Units Forecast",
+        "quote": "Sales Units and Sales Units Forecast units in ten thousands … The Americas 552 379 5,831 … The Americas 8,391 6,485 60,503 [Nintendo Switch, columns FY24, FY25, life-to-date; FY25 hardware 3,790,000 units, software 64,850,000 units]"
+      }
+    },
+    {
+      "name": "Europe",
+      "countries": null,
+      "values": {
+        "hardwareUnits": 2710000,
+        "softwareUnits": 46410000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.nintendo.co.jp/ir/pdf/2025/250508_4e.pdf",
+        "label": "Nintendo Co., Ltd., Financial Results Explanatory Material, Fiscal Year Ended March 2025 (May 8, 2025), Sales Units and Sales Units Forecast",
+        "quote": "Sales Units and Sales Units Forecast units in ten thousands … Europe 390 271 3,920 … Europe 5,741 4,641 40,472 [Nintendo Switch, columns FY24, FY25, life-to-date; FY25 hardware 2,710,000 units, software 46,410,000 units]"
+      }
+    },
+    {
+      "name": "Other",
+      "countries": null,
+      "values": {
+        "hardwareUnits": 1110000,
+        "softwareUnits": 10950000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.nintendo.co.jp/ir/pdf/2025/250508_4e.pdf",
+        "label": "Nintendo Co., Ltd., Financial Results Explanatory Material, Fiscal Year Ended March 2025 (May 8, 2025), Sales Units and Sales Units Forecast",
+        "quote": "Sales Units and Sales Units Forecast units in ten thousands … Other 186 111 1,741 … Other 1,858 1,095 10,835 [Nintendo Switch, columns FY24, FY25, life-to-date; FY25 hardware 1,110,000 units, software 10,950,000 units]"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Corporate Headquarters",
+      "place": "Minami-ku, Kyoto",
+      "iso2": "JP",
+      "type": "headquarters",
+      "description": "Headquarters at 11-1 Hokotate-cho, Kamitoba, Minami-ku, Kyoto (moved there November 2000).",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
+        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2025, Major facilities / History",
+        "quote": "Moved the headquarters to 11-1 Hokotate-cho, Kamitoba, Minami-ku, Kyoto, Japan (current location)."
+      }
+    },
+    {
+      "name": "Uji Plant",
+      "place": "Uji City, Kyoto Prefecture",
+      "iso2": "JP",
+      "type": "manufacturing",
+      "description": "Manufacturing; production facilities; 141 employees.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
+        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2025, Major facilities",
+        "quote": "Uji Plant Production 1,866 (Uji City, Kyoto Prefecture) Manufacturing 2,265 134 65 7 4,338 141"
+      }
+    },
+    {
+      "name": "Nintendo of America Inc.",
+      "place": "United States",
+      "iso2": "US",
+      "type": "subsidiary",
+      "description": "Sales subsidiary; 1,446 employees (as of March 31, 2025).",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
+        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2025, Major facilities (subsidiaries outside of Japan)",
+        "quote": "Nintendo of America Inc. Other 4,640 (United States) Sales 13,719 995 2,684 466 22,505 1,446"
+      }
+    },
+    {
+      "name": "Nintendo of Europe SE",
+      "place": "Germany",
+      "iso2": "DE",
+      "type": "subsidiary",
+      "description": "Sales subsidiary; 1,124 employees (as of March 31, 2025).",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
+        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2025, Major facilities (subsidiaries outside of Japan)",
+        "quote": "Nintendo of Europe SE Other - (Germany) Sales 5,082 364 1,014 1,204 7,665 1,124"
+      }
+    }
+  ],
+  "notes": "Unit sales by region (Japan, The Americas, Europe, Other) come from Nintendo's FY2025 Financial Results Explanatory Material; Nintendo Switch 2 had no FY2025 sales (launched June 2025). The regions are Nintendo's own and are not defined by country. PP&E by country (annual report): Japan ¥76,142M, U.S. ¥27,179M, Other ¥9,290M; only the U.S. is recorded as a row because the Japan row carries unit sales from a different document. Employees: 8,205 group-wide; the annual report gives employees only for the parent (2,962) and by major facility (HQ 2,647, Uji Plant 141, Tokyo Branch 174, Nintendo of America 1,446, Nintendo of Europe 1,124), shown in sites. Revenue by geography is already in the records and not repeated. Hosted on nintendo.co.jp (company), the English version of the annual securities report.",
+  "researchedAt": "2026-11-23"
+}

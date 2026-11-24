@@ -20,7 +20,7 @@ const numbersIn = rawQuote => {
   const spaced = (quote.match(/(?<![\d,.])\d{1,3}(?:[ \u00a0\u202f]\d{3})+(?![\d,])/g) || []).map(t => Number(t.replace(/\D/g, "")));
   return [...plain, ...spaced].filter(Number.isFinite);
 };
-const scales = [1, 1e3, 1e6, 1e9, 1e-3, 100];
+const scales = [1, 1e3, 1e6, 1e9, 1e-3, 100, 1e-6, 1e-9, 1e4, 1e-4];
 function matches(value, quote) {
   const nums = numbersIn(quote);
   for (const n of nums) for (const k of scales) {
@@ -31,17 +31,33 @@ function matches(value, quote) {
   return false;
 }
 
+const WORDS = {one:1,two:2,three:3,four:4,five:5,six:6,seven:7,eight:8,nine:9,ten:10,eleven:11,twelve:12,thirteen:13,fourteen:14,fifteen:15,sixteen:16,seventeen:17,eighteen:18,nineteen:19,twenty:20};
+function matchesRaw(value, rawQuote) {
+  // number words ("eight stockholders") and single-digit decimal commas ("1,9 miljarder")
+  const quote = rawQuote.replace(/\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty)\b/gi, w => String(WORDS[w.toLowerCase()])) + " " + rawQuote.replace(/(\d),(\d)(?!\d)/g, "$1.$2");
+  const nums = (quote.replace(/(\d) (\d{3})(?!\d)/g, "$1$2").match(/-?\d[\d,]*(?:\.\d+)?/g) || []).map(t => Number(t.replace(/,/g, "")));
+  return nums.some(n => scales.some(k => Math.abs(n / k - value) <= Math.max(Math.abs(value) * 0.006, 0.0051)));
+}
 const problems = [];
 const visit = (node, file, trail) => {
   if (Array.isArray(node)) return node.forEach((n, i) => visit(n, file, `${trail}[${i}]`));
   if (!node || typeof node !== "object") return;
   const src = node.source;
+  // footprint rows: { values: { metric: number }, source }
+  if (src && typeof src.quote === "string" && node.values && typeof node.values === "object" && !Array.isArray(node.values)) {
+    for (const [metric, v] of Object.entries(node.values)) {
+      if (typeof v !== "number" || v === 0) continue;
+      // bracketed notes are allowed to carry the scale for footprint rows ("[USD millions]"), so check against the raw quote too
+      if (!matches(v, src.quote) && !matchesRaw(v, src.quote)) problems.push(`${path.relative(root, file)} ${trail}.values.${metric} = ${v} not found in quote: "${src.quote.slice(0, 140)}"`);
+    }
+  }
   if (src && typeof src.quote === "string") {
-    for (const key of ["value", "pctEconomic", "pctVoting"]) {
+    for (const key of ["value", "pctEconomic", "pctVoting", "pct", "shares", "count"]) {
       const v = node[key];
       if (typeof v !== "number" || v === 0) continue;            // zero is usually "none paid", stated in words
       if (trail.includes("derived")) continue;                    // computed from quoted inputs by design
-      if (!matches(v, src.quote)) problems.push(`${path.relative(root, file)} ${trail}.${key} = ${v} not found in quote: "${src.quote.slice(0, 140)}"`);
+      if (node.computedFrom && key !== "pct") continue;          // a documented sum of quoted parts
+      if (!matches(v, src.quote) && !matchesRaw(v, src.quote)) problems.push(`${path.relative(root, file)} ${trail}.${key} = ${v} not found in quote: "${src.quote.slice(0, 140)}"`);
     }
   }
   for (const [k, v] of Object.entries(node)) if (k !== "source") visit(v, file, trail ? `${trail}.${k}` : k);
