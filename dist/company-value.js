@@ -47,7 +47,7 @@ function cvMoney(billions, currency) {
     const text = new Intl.NumberFormat("en-US",{style:"currency",currency,currencyDisplay:code ? "code" : "symbol",notation:"compact",minimumFractionDigits:trillions ? 2 : 0,maximumFractionDigits:trillions ? 2 : 1}).format(billions * 1e9);
     return code ? text.replace(/CNY\s?/,"RMB ") : text;
   } catch {
-    return `${currency} ${decimal.format(billions)}B`;
+    return `${escapeHtml(currency)} ${decimal.format(billions)}B`;
   }
 }
 const cvPercent = (value, digits = 1) => value.toFixed(digits) + "%";
@@ -120,6 +120,7 @@ function cvOwnership(record, leader) {
   }
   const holders = (Array.isArray(ownership.largestHolders) ? ownership.largestHolders : [])
     .filter(holder => holder && !cvHidden(holder) && holder.name && cvNumber(holder.pctEconomic) && cvSource(holder.source))
+    .sort((a,b) => b.pctEconomic - a.pctEconomic)
     .slice(0,3);
   holders.forEach(holder => sources.push(cvSource(holder.source)));
   if (!self && !family && !holders.length) return null;
@@ -133,23 +134,28 @@ function cvOwnership(record, leader) {
   // Plain statement of the leader's position when no percentage can be shown for them.
   let status = "";
   if (showPerson && !self) {
+    // The schema has no field for "less than 1%" (a * in the proxy), so it is read from the record's notes.
     const notes = String(record.notes || "");
+    const source = cvSource(person.source);
+    const sourced = person.status === "holds" && source && (/less than 1\s?%/i.test(notes) || cvNumber(person.shares));
     status = person.status === "deceased" ? `${name} is deceased; no personal stake is reported.`
       : person.status === "no-reported-stake" ? `${name}: no reported stake.`
-      : person.status === "holds" && /less than 1\s?%/i.test(notes) ? `${name} holds less than 1%.`
-      : person.status === "holds" && cvNumber(person.shares) && cvSource(person.source) ? `${name} holds ${integer.format(person.shares)} shares; no percentage is disclosed.`
+      : sourced && /less than 1\s?%/i.test(notes) ? `${name} holds less than 1%.`
+      : sourced ? `${name} holds ${integer.format(person.shares)} shares; no percentage is disclosed.`
       : person.status === "not-disclosed" || person.status === "holds" ? `${name}: stake not disclosed.` : "";
-    if (person.status === "holds" && cvNumber(person.shares) && cvSource(person.source)) sources.push(cvSource(person.source));
+    if (sourced) sources.push(source);
   }
 
+  // The blue swatch marks the remainder, so it sits beside "Everyone else" only when that is the remainder.
+  const othersLine = `<span class="cv-headline-rest">${holders.length ? "" : '<i class="cv-key cv-c-rest" aria-hidden="true"></i>'}Everyone else: <strong>${cvPercent(othersPct)}</strong></span>`;
   let headline;
   if (self) {
     headline = `<span>${name} holds <strong>${cvPercent(self.pct)}</strong>${derivedTag} of ${cvPossessive(company)} shares.</span>`
       + (family ? `<span>${escapeHtml(family.headline)} holds <strong>${cvPercent(family.pct)}</strong>.</span>` : "")
-      + `<span class="cv-headline-rest"><i class="cv-key cv-c-rest" aria-hidden="true"></i>Everyone else: <strong>${cvPercent(othersPct)}</strong></span>`;
+      + othersLine;
   } else if (family) {
     headline = `<span>${escapeHtml(family.headline)} holds <strong>${cvPercent(family.pct)}</strong> of ${cvPossessive(company)} shares.</span>`
-      + `<span class="cv-headline-rest"><i class="cv-key cv-c-rest" aria-hidden="true"></i>Everyone else: <strong>${cvPercent(othersPct)}</strong></span>`;
+      + othersLine;
   } else {
     const named = holders.slice(0,2).map(holder => `${escapeHtml(holder.name)} <strong>${cvPercent(holder.pctEconomic)}</strong>`);
     headline = `<span>${holders.length === 1 ? "Largest disclosed holder" : "Largest disclosed holders"}: ${named.join(" and ")}.</span>`;
