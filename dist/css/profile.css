@@ -254,17 +254,3 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
   .profile-chips {gap:5px}
   .profile-chip {padding:0 10px;font-size:13px}
 }
-
-/* The headline holds five figures: value created, held by others, paid out, their stake and the value multiple. */
-.profile-headline {grid-template-columns:repeat(5,minmax(0,1fr))}
-.profile-headline strong {font-size:clamp(28px,1.1rem + 1.4vw,40px)}
-.profile-stats .stat-multiple strong {color:var(--share-rest-ink)}
-@media (min-width:1001px) and (max-width:1180px) {
-  .profile-headline {grid-template-columns:repeat(3,minmax(0,1fr))}
-  .profile-headline > div:nth-child(4) {border-left:0;padding-left:0}
-  .profile-headline > div:nth-child(n+4) {border-top:1px solid var(--line)}
-}
-@media (max-width:1000px) {
-  .profile-headline {grid-template-columns:repeat(2,minmax(0,1fr))}
-  .profile-headline > div:last-child {grid-column:1 / -1;border-left:0;padding-left:0}
-}

@@ -17,10 +17,10 @@ function externalLink(url, label) {
   if (!url?.startsWith("https://")) return escapeHtml(label);
   return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`;
 }
-const metrics = {cap:"Value created",jobs:"People employed",paidout:"Paid out & sales enabled",multiple:"Value multiple",payroll:"Annual pay to workers"};
+const metrics = {cap:"Value created",jobs:"People employed",paidout:"Paid out & sales enabled",payroll:"Annual pay to workers"};
 // The ranking's columns, in table order. Estimated pay is no longer a column: it sits inside paid out,
 // so it is shown on its own in each profile and never added to it.
-const columns = ["cap","multiple","jobs","paidout"];
+const columns = ["cap","jobs","paidout"];
 // How the pay figure was measured: reported staff costs, or the proxy's median pay × people employed.
 function payNote(leader, insidePaidOut) {
   if (!finiteNumber(leader.payroll)) return "The company reports no staff-cost total or median pay";
@@ -106,17 +106,7 @@ function stakePhrase(entry) {
   if (entry.stakeBasis === "under1" && finiteNumber(entry.stakeBelowUsd)) return `Their stake under ${compactMoney(entry.stakeBelowUsd)}`;
   return "";
 }
-// Value multiple (headline.json): value created ÷ what the leader kept of it. Bounds ("at least") sort by their bound.
-const multipleFor = leader => headline?.[leader.id]?.valueMultiple || null;
-const multipleText = m => m.atLeast ? integer.format(m.value) + "×+" : (m.value >= 100 ? integer.format(Math.round(m.value)) : decimal.format(m.value)) + "×";
-const MULTIPLE_BASIS = {stake:"Value created ÷ their stake in the company",family:"Value created ÷ the family’s stake in the company",networth:"Value created ÷ their net worth (no stake disclosed; net worth also includes wealth from elsewhere)",bound:"A floor from the ownership disclosure"};
-function multipleCell(leader) {
-  if (!headline) return '<span class="po-pending" aria-label="Loading">…</span>';
-  const m = multipleFor(leader);
-  if (!m) return '<span class="po-none" aria-label="Not available">—</span>';
-  return `<span title="${escapeHtml(MULTIPLE_BASIS[m.basis] || "")}">${multipleText(m)}</span>` + (m.basis === "networth" ? '<sup class="po-mark" title="Based on net worth">‡</sup><span class="visually-hidden"> (based on net worth)</span>' : "");
-}
-const metricValue = (leader,metric) => metric === "paidout" ? paidOutFor(leader)?.total ?? null : metric === "multiple" ? multipleFor(leader)?.value ?? null : leader[metric];
+const metricValue = (leader,metric) => metric === "paidout" ? paidOutFor(leader)?.total ?? null : leader[metric];
 function paidOutCell(leader) {
   const figure = paidOutFor(leader);
   if (!paidOut) return '<span class="po-pending" aria-label="Loading">…</span>';
@@ -124,7 +114,7 @@ function paidOutCell(leader) {
   if (!figure) return '<span class="po-none" aria-label="Not available">—</span>';
   return compactMoney(figure.total) + (figure.sales ? '<sup class="po-mark" title="Includes sales enabled on its platform">†</sup><span class="visually-hidden"> (includes sales enabled)</span>' : "");
 }
-const metricFormat = {cap:leader => compactMoney(leader.cap),multiple:multipleCell,jobs:leader => integer.format(leader.jobs),paidout:paidOutCell};
+const metricFormat = {cap:leader => compactMoney(leader.cap),jobs:leader => integer.format(leader.jobs),paidout:paidOutCell};
 const searchIndex = new Map(leaders.map(leader => [leader,searchable([leader.name,leader.company,leader.ticker,leader.sector].join(" "))]));
 // Each ranking is computed from data.js (and paidout.json, once it arrives); ties fall back to market value.
 // Leaders without a figure (not comparable, or not available) sort last.
@@ -262,11 +252,8 @@ paidOutReady.then(() => {
   rankings.paidout = rankBy("paidout");
   render();
 });
-// headline.json fills each row panel's headline line and the value multiple column.
-headlineReady.then(() => {
-  rankings.multiple = rankBy("multiple");
-  render();
-});
+// headline.json fills each row panel's headline line.
+headlineReady.then(render);
 
 const dialog = byId("profile");
 let profileGlobe, previousHash = "#ranking", profileToken = 0;
@@ -431,16 +418,6 @@ function headlineStats(leader) {
   } else if (entry?.stakeBasis === "under1" && finiteNumber(entry.stakeBelowUsd)) {
     cells.push(cell("stake",label,`Under 1% (&lt;&nbsp;${compactMoney(entry.stakeBelowUsd)})`,["Exact stake not disclosed",netWorth],true));
   } else cells.push(cell("stake",label,"—",[escapeHtml(entry?.stakeNote || "No stake disclosed"),netWorth]));
-  // Value multiple: value created ÷ what the leader kept of it (their stake; or net worth where no stake is disclosed).
-  const m = entry?.valueMultiple;
-  if (loading) cells.push(cell("multiple",metrics.multiple,pending,[""]));
-  else if (m) {
-    const kept = m.basis === "stake" ? "their stake" : m.basis === "family" ? "the family’s stake" : m.basis === "networth" ? "their net worth" : "";
-    const note = m.basis === "bound" ? (m.value >= 100 ? `${escapeHtml(leader.name)} holds under 1%, so value created is more than 100× their stake` : `${escapeHtml(leader.name)} holds under 5%, so value created is at least 20× their stake`)
-      : `Value created for every $1 of ${kept}` + (m.basis === "networth" ? " (no stake disclosed; net worth includes wealth from elsewhere)" : "");
-    const extra = m.basis !== "networth" && finiteNumber(entry.netWorthMultiple) && entry.netWorthMultiple >= 1 ? `${multipleText({value:entry.netWorthMultiple})} their net worth` : "";
-    cells.push(cell("multiple",metrics.multiple,multipleText(m),[note,extra]));
-  } else cells.push(cell("multiple",metrics.multiple,"—",[entry?.netWorthMultiple != null && entry.netWorthMultiple < 1 ? "Their net worth is larger than this company’s value, so most of it comes from elsewhere" : "No stake or net worth to compare"]));
   return cells.join("");
 }
 

@@ -449,7 +449,7 @@ function networthFor(id, record) {
 //                     family-based (labelled as the family's, never the person's); "under1" when only "less than
 //                     1%" is known (stakeBelowUsd is 1% of value created); null with a reason otherwise.
 const headlineList = {};
-const headlineStats = {others: 0, bounded: {gt99: 0, gte95: 0}, stake: {own: 0, derived: 0, family: 0, under1: 0, none: 0}, multiple: {stake: 0, family: 0, networth: 0, bound: 0, none: 0}};
+const headlineStats = {others: 0, bounded: {gt99: 0, gte95: 0}, stake: {own: 0, derived: 0, family: 0, under1: 0, none: 0}};
 // SEC rules require a U.S. proxy to list every holder of more than 5%. When the published record shows no personal
 // or family stake (deceased, no reported stake, not disclosed, or shares without a percentage), carries no family
 // entry at all, and its named holders come from one SEC-hosted proxy statement (so its 5% table was read), the leader
@@ -520,20 +520,6 @@ function headlineFor(leader, out, networth) {
     netWorth: networth ? {value: networth.value, asOf: networth.asOf, sourceUrl: networth.source.url, sourceLabel: networth.publisher,
       ...(networth.withFamily ? {withFamily: true} : {})} : null
   });
-  // Value multiple: value created ÷ what the leader kept of it. Preferred basis is the leader's own (or family's)
-  // stake in this company, priced on the same date as value created; when no stake figure is disclosed, their
-  // third-party net worth (which also counts wealth from elsewhere, so it understates the multiple); otherwise the
-  // ownership bound (under 1% → at least 100×; not in a U.S. proxy's 5% table → at least 20×).
-  const nw = entry.netWorth?.value;
-  let multiple = null;
-  if (entry.stakeUsd > 0 && ["own", "derived", "family"].includes(entry.stakeBasis)) multiple = {value: cap / entry.stakeUsd, basis: entry.stakeBasis === "family" ? "family" : "stake"};
-  // A net worth larger than this company's whole value plainly comes mostly from elsewhere, so it isn't used.
-  else if (nw > 0 && cap / nw >= 1) multiple = {value: cap / nw, basis: "networth"};
-  else if (entry.heldByOthersBound === "gt99") multiple = {value: 100, basis: "bound", atLeast: true};
-  else if (entry.heldByOthersBound === "gte95") multiple = {value: 20, basis: "bound", atLeast: true};
-  entry.valueMultiple = multiple ? {...multiple, value: Math.round(multiple.value * 10) / 10} : null;
-  entry.netWorthMultiple = nw > 0 ? Math.round(cap / nw * 10) / 10 : null;
-  headlineStats.multiple[multiple?.basis || "none"]++;
   headlineList[leader.id] = entry;
 }
 // The page must run the same ownership function, loaded before company-value.js; fail the build if either drifts.
@@ -689,7 +675,7 @@ console.log(`  owners: ${ownersStats.published}/${ownersStats.files} files publi
 for (const [label, list] of [["paidout", paidoutStats.skipped], ["owners", ownersStats.skipped]]) for (const [id, reasons] of list) console.log(`  ✗ ${label}/${id}: ${reasons.slice(0, 3).join("; ")}`);
 console.log(`  networth: ${networthStats.published}/${networthStats.files} files published (the rest have no list entry), ${networthStats.blocked} blocked by the strict gate`);
 for (const [id, reasons] of networthStats.skipped) console.log(`  ✗ networth/${id}: ${reasons.slice(0, 3).join("; ")}`);
-console.log(`  headline.json: ${Object.keys(headlineList).length} leaders; held by others ${headlineStats.others} exact + ${headlineStats.bounded.gt99} more than 99% + ${headlineStats.bounded.gte95} at least 95% (U.S. proxy 5% table), ${leaders.length - headlineStats.others - headlineStats.bounded.gt99 - headlineStats.bounded.gte95} "—"; stake ${Object.entries(headlineStats.stake).map(([k, n]) => `${k} ${n}`).join(" · ")}; value multiple ${Object.entries(headlineStats.multiple).map(([k, n]) => `${k} ${n}`).join(" · ")}`);
+console.log(`  headline.json: ${Object.keys(headlineList).length} leaders; held by others ${headlineStats.others} exact + ${headlineStats.bounded.gt99} more than 99% + ${headlineStats.bounded.gte95} at least 95% (U.S. proxy 5% table), ${leaders.length - headlineStats.others - headlineStats.bounded.gt99 - headlineStats.bounded.gte95} "—"; stake ${Object.entries(headlineStats.stake).map(([k, n]) => `${k} ${n}`).join(" · ")}`);
 if (nordhaus) console.log("  nordhaus: published in coverage.json");
 if (skipped.length) {
   console.log(`Records skipped ${skipped.length}:`);
