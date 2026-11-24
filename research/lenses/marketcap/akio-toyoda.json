@@ -1,0 +1,38 @@
+{
+  "id": "akio-toyoda",
+  "company": "Toyota Motor Corporation",
+  "classes": [
+    {
+      "label": "Common stock (issued shares less treasury stock, including shares held by the stock-grant ESOP trust)",
+      "shares": 11778247313,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "7203.T",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "Shares issued (including treasury stock) at September 30, 2026",
+          "value": 14594987460,
+          "source": {
+            "hostType": "company",
+            "url": "https://global.toyota/pages/global_toyota/ir/financial-results/2027_2q_summary_en.pdf",
+            "label": "FY2027 Semi-Annual Consolidated Financial Results (Nov 5, 2026), (3) Number of shares issued and outstanding",
+            "quote": "Number of shares issued and outstanding at the end of each period (including treasury stock): FY2027 first half 14,594,987,460 shares"
+          }
+        },
+        {
+          "label": "Treasury stock at September 30, 2026 (subtracted)",
+          "value": 2816740147,
+          "source": {
+            "hostType": "company",
+            "url": "https://global.toyota/pages/global_toyota/ir/financial-results/2027_2q_summary_en.pdf",
+            "label": "FY2027 Semi-Annual Consolidated Financial Results (Nov 5, 2026), (3) Number of shares issued and outstanding",
+            "quote": "Number of treasury stock at the end of each period: FY2027 first half 2,816,740,147 shares"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "One class of common stock, priced from its primary listing on the Tokyo Stock Exchange (7203.T) rather than the NYSE ADS (TM, 1 ADS = 10 shares). Shares = 14,594,987,460 issued − 2,816,740,147 treasury = 11,778,247,313 at September 30, 2026, from Toyota's semi-annual results released November 5, 2026; the summary states both parts but not the difference. The treasury figure includes the shares held by the stock-grant ESOP trust (the summary's note says so), about 0.5 million shares, so those are excluded here too. The 20-F cover count (13,033,931,974 at March 31, 2026) is not used: Toyota bought 1,192,330,962 shares in its tender offer from March 31 to April 27, 2026 and retired 1,200,000,000 treasury shares on June 30, 2026. Toyota kept buying in the open market after September 30 (45,167,100 shares in October 2026, per its November 4, 2026 notice), so the edition-date count is slightly lower than recorded.",
+  "researchedAt": "2026-11-24"
+}

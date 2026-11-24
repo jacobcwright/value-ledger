@@ -1,0 +1,31 @@
+{
+  "id": "steve-jobs",
+  "company": "Apple",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-09-26",
+  "currency": "USD",
+  "employees": {
+    "value": 167000,
+    "asOf": "2026-09-26",
+    "basis": "approximately 167,000 full-time equivalent employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+      "label": "FY2026 Form 10-K, Item 1 Human Capital",
+      "quote": "As of September 26, 2026, the Company had approximately 167,000 full-time equivalent employees."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "2025 annual total compensation of our median compensated employee",
+    "value": 139483,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "The 2025 annual total compensation of our CEO was $74,294,811, the 2025 annual total compensation of our median compensated employee was $139,483, and the ratio of these amounts is 533 to 1."
+    }
+  },
+  "notes": "Employees: Apple reports a full-time-equivalent count, not a head count, as of its fiscal year end. Payroll: the FY2026 10-K discloses no total staff cost (no salaries, compensation-and-benefits or employee-cost line), so the proxy's CEO pay ratio median is used. It is the median for fiscal 2025 (employee population at September 27, 2025), from the January 2026 proxy; the fiscal 2026 median will appear only in the proxy due in January 2027. Apple's median includes base salary, bonuses, commissions and the grant-date fair value of equity awards, with annualized salaries for permanent full-time and part-time employees who did not work the full year.",
+  "researchedAt": "2026-11-24"
+}

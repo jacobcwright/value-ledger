@@ -1,0 +1,21 @@
+{
+  "id": "tobias-lutke",
+  "company": "Shopify",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 7600,
+    "asOf": "2025-12-31",
+    "basis": "approximately 7,600 employees worldwide",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, Shopify had approximately 7,600 employees worldwide."
+    }
+  },
+  "payroll": null,
+  "notes": "Employees: year-end count from the FY2025 10-K. Payroll is null: the 10-K gives no total of salaries, benefits or other personnel costs (it describes personnel-related costs only as components of cost of revenues and operating expenses, and gives year-over-year changes in 'employee-related costs'), and Shopify, a foreign private issuer, files no proxy, so its 10-K/A Part III has no CEO pay ratio and no median employee pay.",
+  "researchedAt": "2026-11-24"
+}

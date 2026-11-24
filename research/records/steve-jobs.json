@@ -1,13 +1,13 @@
 {
   "id": "steve-jobs",
   "company": "Apple",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-09-28",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-09-26",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-01-02",
+    "asOf": "2026-01-02",
     "leader": {
       "name": "Steve Jobs",
       "relation": "co-founder",
@@ -21,94 +21,124 @@
       {
         "name": "The Vanguard Group",
         "type": "asset-manager",
-        "pctEconomic": 8.76,
-        "asOf": "2023-12-29",
+        "pctEconomic": 9.63,
+        "asOf": "2025-06-30",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817925000008/aapl4359751-def14a.htm",
-          "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
-          "quote": "The Vanguard Group 1,317,966,471(2) 8.76% ... (2) Represents shares of Apple’s common stock beneficially owned as of December 29, 2023, based on a Schedule 13G/A filed with the SEC on February 13, 2024, by The Vanguard Group."
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "The Vanguard Group 1,415,826,462(2) 9.63% ... (2) Represents shares of Apple’s common stock beneficially owned as of June 30, 2025, based on a Schedule 13G/A filed with the SEC on July 29, 2025, by The Vanguard Group."
         }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 6.94,
+        "pctEconomic": 7.1,
         "asOf": "2023-12-31",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817925000008/aapl4359751-def14a.htm",
-          "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
-          "quote": "BlackRock, Inc. 1,043,713,019(3) 6.94% ... (3) Represents shares of Apple’s common stock beneficially owned as of December 31, 2023, based on a Schedule 13G/A filed with the SEC on February 12, 2024, by BlackRock, Inc."
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000130817926000008/aapl014016-def14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "BlackRock, Inc. 1,043,713,019(3) 7.10% ... (3) Represents shares of Apple’s common stock beneficially owned as of December 31, 2023, based on a Schedule 13G/A filed with the SEC on February 12, 2024, by BlackRock, Inc."
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock; 15,037,874,000 shares were issued and outstanding on January 2, 2025 (the proxy's Table Date). The proxy lists only Vanguard and BlackRock as owners of more than 5%; every director and executive officer, and the group of 12, is marked * (less than 1%)."
+      "note": "One class of common stock; 14,697,926,000 shares were issued and outstanding on January 2, 2026 (the proxy's Table Date). The proxy lists only Vanguard and BlackRock as owners of more than 5%; every director and executive officer, and the group of 12, is marked * (less than 1%)."
     }
   },
   "cash": {
     "dividends": {
-      "value": 15.23,
+      "value": 15.72,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Payments for dividends and dividend equivalents (15,234) (15,025) (14,841) [in millions, 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000320193", "concept": "us-gaap:PaymentsOfDividends", "end": "2024-09-28", "value": 15234000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Payments for dividends and dividend equivalents (15,721) (15,421) (15,234) [in millions, 2026, 2025, 2024]",
+        "xbrl": {
+          "cik": "0000320193",
+          "concept": "us-gaap:PaymentsOfDividends",
+          "end": "2026-09-26",
+          "value": 15721000000
+        }
       }
     },
     "buybacks": {
-      "value": 94.95,
+      "value": 86.39,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Repurchases of common stock (94,949) (77,550) (89,402) [in millions, 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000320193", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-09-28", "value": 94949000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchases of common stock (86,390) (90,711) (94,949) [in millions, 2026, 2025, 2024]",
+        "xbrl": {
+          "cik": "0000320193",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2026-09-26",
+          "value": 86390000000
+        }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 11.69,
+      "value": 13.79,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Share-based compensation expense 11,688 10,833 9,038 [in millions, 2024, 2023, 2022]",
-        "xbrl": { "cik": "0000320193", "concept": "us-gaap:ShareBasedCompensation", "end": "2024-09-28", "value": 11688000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows",
+        "quote": "Share-based compensation expense 13,789 12,863 11,688 [in millions, 2026, 2025, 2024]",
+        "xbrl": {
+          "cik": "0000320193",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2026-09-26",
+          "value": 13789000000
+        }
       }
     },
     "plan": {
       "text": "Apple's 2022 Employee Stock Plan provides broad-based equity grants, such as RSUs and stock grants, to employees, including executive officers.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
-        "label": "FY2024 Form 10-K, Note 11 Share-Based Compensation",
-        "quote": "The Apple Inc. 2022 Employee Stock Plan (the “2022 Plan”) is a shareholder-approved plan that provides for broad-based equity grants to employees, including executive officers, and permits the granting of RSUs, stock grants, performance-based awards, stock options and stock appreciation rights."
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+        "label": "FY2026 Form 10-K, Note 12 Share-Based Compensation",
+        "quote": "The Apple Inc. 2022 Employee Stock Plan (“2022 Plan”) is a shareholder-approved plan that provides for broad-based equity grants to employees, including executive officers, and permits the granting of restricted stock units (“RSUs”), stock grants, performance-based awards, stock options and stock appreciation rights."
       }
     }
   },
   "geography": {
     "basis": "Net sales by reportable segment (generally based on the location of customers and sales through retail stores in those locations)",
     "segments": [
-      { "name": "Americas", "value": 167.05 },
-      { "name": "Europe", "value": 101.33 },
-      { "name": "Greater China", "value": 66.95 },
-      { "name": "Japan", "value": 25.05 },
-      { "name": "Rest of Asia Pacific", "value": 30.66 }
+      {
+        "name": "Americas",
+        "value": 198.08
+      },
+      {
+        "name": "Europe",
+        "value": 127.6
+      },
+      {
+        "name": "Greater China",
+        "value": 82.38
+      },
+      {
+        "name": "Japan",
+        "value": 30.91
+      },
+      {
+        "name": "Rest of Asia Pacific",
+        "value": 39.86
+      }
     ],
-    "total": 391.04,
+    "total": 478.83,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
-      "label": "FY2024 Form 10-K, Item 7 Segment Operating Performance",
-      "quote": "The following table shows net sales by reportable segment for 2024, 2023 and 2022 (dollars in millions): ... Americas $ 167,045 ... Europe 101,328 ... Greater China 66,952 ... Japan 25,052 ... Rest of Asia Pacific 30,658 ... Total net sales $ 391,035 [2024 column]"
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+      "label": "FY2026 Form 10-K, Item 7 Segment Operating Performance",
+      "quote": "The following table shows net sales by reportable segment for 2026, 2025 and 2024 (dollars in millions): ... Americas $ 198,083 ... Europe 127,604 ... Greater China 82,378 ... Japan 30,908 ... Rest of Asia Pacific 39,861 ... Total net sales $ 478,834 [2026 column]"
     }
   },
-  "notes": "Fiscal year ended September 28, 2024 (matches data.js fy 'Sep 2024'). REDONE FROM PRIMARY SOURCES: the pilot record read the proxy from a third-party mirror and the financials from an apple.com press PDF. This version reads both documents directly from EDGAR: the FY2024 Form 10-K (accession 0000320193-24-000123) and the 2025 proxy statement (DEF 14A, accession 0001308179-25-000008, filed January 10, 2025). Cash and stock-comp values match the SEC XBRL facts. LEADER: Steve Jobs is deceased. The 2025 proxy's ownership table lists only Vanguard, BlackRock, the directors and the named executive officers; the words 'Jobs' and 'Powell' do not appear anywhere in the proxy, so no Jobs estate, family or trust holding is disclosed and family is null. The 10-K and proxy contain no statement about Jobs, so the leader has no source. HOLDERS: Vanguard and BlackRock percentages are stale; the proxy bases them on Schedule 13G/A filings reporting ownership at the end of December 2023, applied against the January 2, 2025 share count. Dividends include dividend equivalents paid on RSUs, as the cash-flow line says. The segment note (Note 13) shows the same five segment figures.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended September 26, 2026 (data.js fy 'Sep 2026'); this edition skips FY2025. Financial figures are from the FY2026 Form 10-K (accession 0000320193-26-000026, filed November 3, 2026) and match the SEC XBRL facts; ownership is from the 2026 proxy statement (DEF 14A, accession 0001308179-26-000008, filed January 8, 2026), the latest proxy, as of its January 2, 2026 Table Date. LEADER: Steve Jobs is deceased. The 2026 proxy's ownership table lists only Vanguard, BlackRock, the directors and the named executive officers; the words 'Jobs' and 'Powell' do not appear anywhere in the proxy, so no Jobs estate, family or trust holding is disclosed and family is null. Neither the proxy nor the FY2026 10-K says anything about Jobs (the 10-K's only 'Jobs' is the Tax Cuts and Jobs Act), so the leader has no source. HOLDERS: Vanguard's 9.63% rests on a Schedule 13G/A reporting holdings at June 30, 2025; BlackRock's 7.10% still rests on a Schedule 13G/A reporting holdings at December 31, 2023, so it is stale; both are applied by the proxy against the January 2, 2026 share count. Dividends include dividend equivalents paid on RSUs, as the cash-flow line says. Geography is the five reportable segments from the MD&A table (the same figures appear in the segment note).",
+  "researchedAt": "2026-11-24"
 }

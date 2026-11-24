@@ -2,48 +2,48 @@
   "id": "brian-moynihan",
   "company": "Bank of America",
   "nbim": {
-    "pct": 1.53,
-    "marketValueUSD": 5.165,
-    "asOf": "2024-12-31",
+    "pct": 1.16,
+    "marketValueUSD": 4.704,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"532wpypsewsr\",\"cc\":\"US\",\"n\":\"Bank of America Corp\",\"a\":{\"e\":5165307914,\"n\":58664209840},\"at\":0,\"o\":1.53,\"eq\":{\"vid\":\"BAC\",\"v\":1.53,\"s\":\"Financials\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"532wpypsewsr\",\"cc\":\"US\",\"n\":\"Bank of America Corp\",\"a\":{\"e\":4704148287,\"n\":46549899377},\"at\":0,\"o\":1.16,\"eq\":{\"vid\":\"BAC\",\"v\":1.16,\"s\":\"Financials\"}}"
     }
   },
   "calpers": {
-    "shares": 16537307,
-    "asOf": "2024-12-31",
+    "shares": 17154829,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "BANK AMERICA CORP COM 060505104 726814643 16537307"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "BANK OF AMER CORP COM 060505104 933737342 17154829"
     },
     "derived": {
-      "pct": 0.217,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.249,
+      "method": "CalPERS shares ÷ shares outstanding (17,154,829 ÷ 6,900,209,006)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "At February 24, 2025, there were 7,604,677,274 shares of Common Stock outstanding."
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+          "quote": "On October 29, 2026, there were 6,900,209,006 shares of Bank of America Corporation Common Stock outstanding."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 130019,
-    "asOf": "2025-02-24",
+    "count": 122167,
+    "asOf": "2026-02-24",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000139/bac-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of February 24, 2025, there were 130,019 registered shareholders of common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of February 24, 2026, there were 122,167 registered shareholders of common stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Bank of America Corp;Financials;58664209840;5165307914;1.53%;1.53%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); NBIM also holds Bank of America corporate bonds, in a separate row that is not counted. CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026, where the issuer is now named 'BANK OF AMER CORP' (same CUSIP 060505104). Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the Q3 2026 10-Q cover count at October 29, 2026, the same count used in the marketcap lens.",
+  "researchedAt": "2026-11-24"
 }

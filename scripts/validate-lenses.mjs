@@ -522,6 +522,7 @@ export function validatePayFile(id) {
     if (!p.label) errs.push("payroll.label missing (the line's own name)");
     if (p.method === "personnel-expense") num(p.value, "payroll.value", errs, {nullable: false, min: 0.0001, max: 1e7});
     if (p.method === "median-pay") num(p.value, "payroll.value", errs, {nullable: false, min: 1000, max: 1e9});
+    if (p.period != null && !/^FY/.test(String(p.period))) warns.push("payroll.period should be the fiscal-year label, e.g. FY2025");
     if (p.computedFrom) { if (!Array.isArray(p.computedFrom) || p.computedFrom.length < 2) errs.push("payroll.computedFrom must list the quoted parts"); else p.computedFrom.forEach((part, k) => checkSource(part.source, `payroll.computedFrom[${k}]`, errs, facts, links)); }
     else checkSource(p.source, "payroll", errs, facts, links);
   } else if (!rec.notes) errs.push("payroll is null without notes saying why");

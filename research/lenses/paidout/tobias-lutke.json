@@ -1,61 +1,61 @@
 {
   "id": "tobias-lutke",
   "company": "Shopify",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "sector": "marketplace",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 8.88,
-      "stated": 8880,
+      "value": 11.556,
+      "stated": 11556,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
-        "label": "FY2024 Form 10-K, revenues table (in US $ millions)",
-        "quote": "Subscription solutions 2,350 28 % 1,837 23 % 1,488 Merchant solutions 6,530 25 % 5,223 27 % 4,112 Total revenues 8,880 26 % 7,060 26 % 5,600",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "label": "FY2025 Form 10-K, revenues table (in US $ millions)",
+        "quote": "Subscription solutions 2,752 17 % 2,350 28 % 1,837 Merchant solutions 8,804 35 % 6,530 25 % 5,223 Total revenues 11,556 30 % 8,880 26 % 7,060",
         "xbrl": {
           "cik": "0001594805",
           "concept": "us-gaap:Revenues",
-          "end": "2024-12-31",
-          "value": 8880000000
+          "end": "2025-12-31",
+          "value": 11556000000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 1.616,
-      "stated": 1616,
+      "value": 2.033,
+      "stated": 2033,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (US $ millions)",
-        "quote": "Net cash provided by operating activities 1,616 944 ( 136 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (US $ millions)",
+        "quote": "Net cash provided by operating activities 2,033 1,616 944",
         "xbrl": {
           "cik": "0001594805",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": 1616000000
+          "end": "2025-12-31",
+          "value": 2033000000
         }
       }
     },
     "capex": {
-      "value": 0.019,
+      "value": 0.026,
       "components": [
-        "PP&E 0.019"
+        "PP&E 0.026"
       ],
-      "stated": 19,
+      "stated": 26,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (US $ millions)",
-        "quote": "Cash flows from investing activities Purchases of property and equipment ( 19 ) ( 39 ) ( 50 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (US $ millions)",
+        "quote": "Cash flows from investing activities Purchases of property and equipment (26) (19) (39)",
         "xbrl": {
           "cik": "0001594805",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-12-31",
-          "value": 19000000
+          "end": "2025-12-31",
+          "value": 26000000
         }
       }
     },
@@ -65,72 +65,72 @@
       "stated": 1,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (US $ millions)",
-        "quote": "Supplemental cash flow information: Cash paid for income taxes, net 116 50 27 Cash paid for interest 1 1 1",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (US $ millions)",
+        "quote": "Supplemental cash flow information: Cash paid for income taxes, net 194 116 50 Cash paid for interest 1 1 1",
         "xbrl": {
           "cik": "0001594805",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-12-31",
+          "end": "2025-12-31",
           "value": 1000000
         }
       }
     },
     "taxesPaid": {
-      "value": 0.116,
+      "value": 0.194,
       "inOCF": true,
-      "stated": 116,
+      "stated": 194,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (US $ millions)",
-        "quote": "Supplemental cash flow information: Cash paid for income taxes, net 116 50 27 Cash paid for interest 1 1 1",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (US $ millions)",
+        "quote": "Supplemental cash flow information: Cash paid for income taxes, net 194 116 50 Cash paid for interest 1 1 1",
         "xbrl": {
           "cik": "0001594805",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 116000000
+          "end": "2025-12-31",
+          "value": 194000000
         }
       }
     },
     "otherNamedItems": {
       "interestIncome": {
-        "value": 0.308,
-        "stated": 308,
+        "value": 0.331,
+        "stated": 331,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
-          "label": "FY2024 Form 10-K, MD&A, other income (expense)",
-          "quote": "Additionally, we had interest income of $308 million and a net loss of $138 million on our equity method investment.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+          "label": "FY2025 Form 10-K, MD&A, other income, net",
+          "quote": "In the year ended December 31, 2025, other income, net was driven by interest income of $331 million recognized on marketable securities",
           "xbrl": {
             "cik": "0001594805",
             "concept": "us-gaap:InterestIncomeExpenseNonoperatingNet",
-            "end": "2024-12-31",
-            "value": 308000000
+            "end": "2025-12-31",
+            "value": 331000000
           }
         },
-        "note": "Cash interest received on cash and securities is inside operating cash flow but not inside revenue, so it lowers A."
+        "note": "Cash interest received on cash and securities is inside operating cash flow but not inside revenue, so it lowers paidOut."
       }
     }
   },
-  "paidOut": 7.283,
-  "paidOutFormula": "8.88 − 1.616 + 0.019",
+  "paidOut": 9.549,
+  "paidOutFormula": "11.556 − 2.033 + 0.026",
   "altPaidOut": null,
-  "notes": "Inputs reused from the pilot. Interest income (0.308bn) is received inside operating cash flow but is not revenue, so it lowers paidOut by about 4%.",
+  "notes": "Fiscal year ended December 31, 2025 (original FY2025 Form 10-K, accession 0001594805-26-000007). Interest income (0.331bn) is received inside operating cash flow but is not revenue, so it lowers paidOut by about 3.5%. Loan purchases and originations (Shopify Capital) sit in investing activities, not operating cash flow.",
   "salesEnabled": {
-    "value": 283.395,
+    "value": 366.885,
     "measure": "Gross Merchandise Volume",
-    "measureValue": 292.275,
-    "platformRevenue": 8.88,
+    "measureValue": 378.441,
+    "platformRevenue": 11.556,
     "platformRevenueLabel": "Total revenues",
-    "formula": "292.275 − 8.88",
+    "formula": "378.441 − 11.556",
     "from": "research/lenses/ecosystem/tobias-lutke.json"
   },
   "flags": {
     "financeReceivablesInOCF": false,
-    "interestDividendsReceivedInOCF": 0.308,
+    "interestDividendsReceivedInOCF": 0.331,
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "researchedAt": "2026-11-23"
+  "researchedAt": "2026-11-24"
 }

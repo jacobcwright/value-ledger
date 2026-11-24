@@ -56,7 +56,7 @@ for (const id of ids) {
     url: `https://www.sec.gov/Archives/edgar/data/${Number(cik)}/${r.accessionNumber[i].replace(/-/g, "")}/${r.primaryDocument[i]}`,
     index: `https://www.sec.gov/Archives/edgar/data/${Number(cik)}/${r.accessionNumber[i].replace(/-/g, "")}/`});
   const first = forms => { const i = r.form.findIndex(f => forms.includes(f)); return i < 0 ? null : doc(i); };
-  const annual = first(["10-K", "20-F", "40-F", "10-K/A"]);
+  const annual = first(["10-K", "20-F", "40-F"]) || first(["10-K/A", "20-F/A"]);  // amendments are often Part III only
   const proxy = first(["DEF 14A"]);
   const quarterly = first(["10-Q"]);
   const sixK = r.form.map((f, i) => f === "6-K" ? doc(i) : null).filter(Boolean).slice(0, 8);

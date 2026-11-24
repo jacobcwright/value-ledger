@@ -68,6 +68,21 @@ You are moving a set of companies in "Value for Humanity: The Business 100" from
    - Never compute a payroll yourself. If neither exists, set `payroll: null` and explain in notes.
    - The employee count is the year-end head count in the annual report. Note it if the company reports FTEs or an average.
 
+## Learned in the pilot (apply these)
+- **Taxes paid moved:** under the new income-tax disclosure rule (ASU 2023-09), many FY2025 10-Ks no longer print "cash paid for income taxes" in the supplemental cash-flow lines. It sits in a by-jurisdiction table in the income-tax note. Look there before setting null.
+- **Share count:** use the most recent of the 10-K cover page and the latest 10-Q cover page. For September year-ends, the 10-K cover is newer than the prefill's `quarterly`.
+- **Market cap:**
+  - Common equity only. Leave out preferred stock and nominal or special voting shares (e.g. Shopify's single Founder Share), and say so in `notes`.
+  - For a dual listing that isn't an ADR (e.g. `SHOP` vs `SHOP.TO`), pick one line and say which in `notes`.
+  - Fill `pricedAsReason` whenever a class is priced through another class's symbol, even if `perListedUnit` is 1.
+- **Pay:**
+  - Add `"period": "FY2025"` inside `payroll` when the payroll's year differs from the head count's. For example, a January proxy's median for a September year-end is a year behind.
+  - Foreign private issuers have no CEO pay ratio, so `payroll: null` with a note is expected when they publish no staff-cost total.
+- **NBIM:** some companies also have a bond row under the same name. Use the equity row (it has an `eq` object). CalPERS issuer names can change (e.g. "BANK OF AMER CORP").
+- **Quote self-check:** `node scripts/tools/qcheck.mjs <urlmap.json> <your json files…>` runs verify-quotes' matching against your local copies (urlmap: `{"<url>": "/abs/path/to/local/file"}`) without touching shared files.
+- **grep:** the local `grep` is ugrep and fails on long context patterns. Use `grep -F` with short strings, or node/python.
+- **Pace:** the pilot took about 3 minutes per SEC company once its tools were in place.
+
 Rewrite every `notes` field so it describes the new year. Remove statements that were true only of the old year, and set `researchedAt` to today. Keep each file's shape. Don't add keys the schemas don't list.
 
 ## Don't touch

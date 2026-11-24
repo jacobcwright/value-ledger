@@ -1,0 +1,22 @@
+{
+  "id": "brian-moynihan",
+  "company": "Bank of America",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 6900209006,
+      "sharesAsOf": "2026-10-29",
+      "pricedAs": "BAC",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "On October 29, 2026, there were 6,900,209,006 shares of Bank of America Corporation Common Stock outstanding."
+      }
+    }
+  ],
+  "notes": "Common stock only, listed on the NYSE as BAC. Bank of America also has many series of preferred stock outstanding (some listed as depositary shares); they are fixed-claim securities with their own liquidation preferences, not common equity, and are left out, as the 'every class of equity' rule was read to mean classes of common equity.",
+  "researchedAt": "2026-11-24"
+}

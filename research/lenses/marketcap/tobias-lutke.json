@@ -1,0 +1,36 @@
+{
+  "id": "tobias-lutke",
+  "company": "Shopify",
+  "classes": [
+    {
+      "label": "Class A subordinate voting shares",
+      "shares": 1208456928,
+      "sharesAsOf": "2026-10-30",
+      "pricedAs": "SHOP",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000068/shop-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "The registrant had 1,208,456,928 Class A Subordinate Voting Shares, 78,065,084 Class B Restricted Voting Shares and 1 Founder Share issued and outstanding as of October 30, 2026."
+      }
+    },
+    {
+      "label": "Class B restricted voting shares",
+      "shares": 78065084,
+      "sharesAsOf": "2026-10-30",
+      "pricedAs": "SHOP",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted and converts into Class A one-for-one at the holder's option (FY2025 10-K: \"The Class B restricted voting shares are convertible into Class A subordinate voting shares on a one-for-one basis at the option of the holder.\")",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000068/shop-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "The registrant had 1,208,456,928 Class A Subordinate Voting Shares, 78,065,084 Class B Restricted Voting Shares and 1 Founder Share issued and outstanding as of October 30, 2026."
+      }
+    }
+  ],
+  "notes": "Class A trades on Nasdaq and the TSX under the same symbol, SHOP; the Nasdaq line (USD, the reporting currency; the TSX line is SHOP.TO in CAD) is used. Both are direct listings of the same shares, not ADRs. The FY2025 10-K says 'Our Class B restricted voting shares and Founder share are not listed for trading or quoted on any exchange or market.' The single Founder Share, which carries variable votes and, per the 10-K/A, 'represents a de minimis percentage of the total issued and outstanding shares', is left out.",
+  "researchedAt": "2026-11-24"
+}
