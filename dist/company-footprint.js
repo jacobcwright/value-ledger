@@ -137,11 +137,16 @@ const cfSourceLink = (source, tier) => `<p class="cf-source-line">${tier ? cvTag
 // After a tap on a map, the chosen state's or pin's card can open below the fold (on a phone, under the map or
 // under its row in the list). Scroll it into view, only when it is mostly off-screen. The Amazon panel uses it too.
 function mapReveal(element) {
-  if (!element || !element.isConnected) return;
-  const box = element.getBoundingClientRect(), view = window.visualViewport ? window.visualViewport.height : window.innerHeight;
-  if (box.top < view - 120 && box.bottom > 80) return;
+  const hidden = () => {
+    if (!element || !element.isConnected) return false;
+    const box = element.getBoundingClientRect(), view = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+    return box.top > view - 120 || box.bottom < 80;
+  };
+  if (!hidden()) return;
   const still = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   element.scrollIntoView({block:"nearest",behavior:still ? "auto" : "smooth"});
+  // A smooth scroll can be dropped (another scroll or input interrupts it); make sure the card did arrive.
+  if (!still) setTimeout(() => { if (hidden()) element.scrollIntoView({block:"nearest"}); },700);
 }
 // On a narrow panel (amazon-map.css sets --fp-stacked) the detail card follows the selected row in the list, so
 // it opens where the thumb is; otherwise it sits under the list. Moving the one card keeps its id and live region.
