@@ -1,7 +1,9 @@
 /* Leader profile dialog. Local tokens (not in base.css):
    --map-text: secondary text on map surfaces; --map-site: location dot, matches the globe marker;
-   --profile-bar: height of the sticky bar (Amazon sections use scroll-margin-top ≈ 65px, keep it under 60px). */
-dialog#profile {--map-text:#c3d3cb;--map-site:#ffb377;--profile-bar:56px}
+   --profile-bar: height of the sticky bar, keep it under 60px.
+   scroll-padding-top keeps keyboard focus and the Amazon deep-link targets clear of the sticky bar;
+   the Amazon sections add only a few px of scroll-margin-top on top of it. */
+dialog#profile {--map-text:#c3d3cb;--map-site:#ffb377;--profile-bar:56px;scroll-padding-top:calc(var(--profile-bar) + var(--space-3))}
 body:has(dialog[open]) {overflow:hidden}
 
 /* Dialog chrome and motion */

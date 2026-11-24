@@ -11,7 +11,7 @@
   --own-five-hundred:#4f9468;
   --own-pension:#8fbc95;
   --own-other:var(--green);
-  margin-bottom:var(--space-5);border:1px solid var(--line);border-radius:var(--radius);background:var(--card);scroll-margin-top:69px;overflow:hidden;box-shadow:var(--shadow-1)
+  margin-bottom:var(--space-5);border:1px solid var(--line);border-radius:var(--radius);background:var(--card);scroll-margin-top:var(--space-1);overflow:hidden;box-shadow:var(--shadow-1)
 }
 .ownership-founder {--own:var(--own-founder)}
 .ownership-total-market {--own:var(--own-total-market)}

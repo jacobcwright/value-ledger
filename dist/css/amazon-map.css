@@ -8,7 +8,7 @@
   --map-text:#f1f7f3;
   --map-muted:#c4d4cc;
   --map-track:#ffffff17;    /* empty track behind magnitude bars */
-  color:var(--map-text);background:var(--map);border:1px solid var(--map-line);border-radius:var(--radius);overflow:hidden;scroll-margin-top:65px;box-shadow:var(--shadow-1)
+  color:var(--map-text);background:var(--map);border:1px solid var(--map-line);border-radius:var(--radius);overflow:hidden;scroll-margin-top:0;box-shadow:var(--shadow-1)
 }
 .amazon-map-header :focus-visible,.amazon-map-layout :focus-visible,.amazon-map-notes :focus-visible {outline-color:var(--gold)}
 
