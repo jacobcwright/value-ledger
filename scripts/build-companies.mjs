@@ -449,7 +449,7 @@ function networthFor(id, record) {
 //                     family-based (labelled as the family's, never the person's); "under1" when only "less than
 //                     1%" is known (stakeBelowUsd is 1% of value created); null with a reason otherwise.
 const headlineList = {};
-const headlineStats = {others: 0, bounded: {gt99: 0, gte95: 0}, stake: {own: 0, derived: 0, family: 0, under1: 0, none: 0}, multiple: {stake: 0, family: 0, networth: 0, bound: 0, none: 0}};
+const headlineStats = {others: 0, bounded: {gt99: 0, gte95: 0}, stake: {own: 0, derived: 0, family: 0, under1: 0, none: 0}, multiple: {stake: 0, family: 0, networth: 0, bound: 0, none: 0, notFounder: 0}};
 // SEC rules require a U.S. proxy to list every holder of more than 5%. When the published record shows no personal
 // or family stake (deceased, no reported stake, not disclosed, or shares without a percentage), carries no family
 // entry at all, and its named holders come from one SEC-hosted proxy statement (so its 5% table was read), the leader
@@ -524,16 +524,21 @@ function headlineFor(leader, out, networth) {
   // stake in this company, priced on the same date as value created; when no stake figure is disclosed, their
   // third-party net worth (which also counts wealth from elsewhere, so it understates the multiple); otherwise the
   // ownership bound (under 1% → at least 100×; not in a U.S. proxy's 5% table → at least 20×).
+  // Founders only: a hired executive never owned much of the company, so for them the multiple would mostly
+  // measure that. "Founder" is the role in data.js (founder or co-founder).
+  const isFounder = /founder/i.test(leader.role || "");
+  entry.founder = isFounder;
   const nw = entry.netWorth?.value;
   let multiple = null;
-  if (entry.stakeUsd > 0 && ["own", "derived", "family"].includes(entry.stakeBasis)) multiple = {value: cap / entry.stakeUsd, basis: entry.stakeBasis === "family" ? "family" : "stake"};
+  if (!isFounder) multiple = null;
+  else if (entry.stakeUsd > 0 && ["own", "derived", "family"].includes(entry.stakeBasis)) multiple = {value: cap / entry.stakeUsd, basis: entry.stakeBasis === "family" ? "family" : "stake"};
   // A net worth larger than this company's whole value plainly comes mostly from elsewhere, so it isn't used.
   else if (nw > 0 && cap / nw >= 1) multiple = {value: cap / nw, basis: "networth"};
   else if (entry.heldByOthersBound === "gt99") multiple = {value: 100, basis: "bound", atLeast: true};
   else if (entry.heldByOthersBound === "gte95") multiple = {value: 20, basis: "bound", atLeast: true};
   entry.valueMultiple = multiple ? {...multiple, value: Math.round(multiple.value * 10) / 10} : null;
   entry.netWorthMultiple = nw > 0 ? Math.round(cap / nw * 10) / 10 : null;
-  headlineStats.multiple[multiple?.basis || "none"]++;
+  headlineStats.multiple[!isFounder ? "notFounder" : multiple?.basis || "none"]++;
   headlineList[leader.id] = entry;
 }
 // The page must run the same ownership function, loaded before company-value.js; fail the build if either drifts.
