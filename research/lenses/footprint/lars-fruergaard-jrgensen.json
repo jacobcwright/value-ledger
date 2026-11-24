@@ -3,19 +3,19 @@
   "company": "Novo Nordisk",
   "metrics": {
     "employees": {
-      "label": "Employees (headcount, excluding Catalent)",
+      "label": "Employees (headcount)",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Total number of employees (headcount) excluding Catalent, by area, from the sustainability statements in the Annual Report 2024 (total 74,156; 77,349 including Catalent)."
+      "definition": "Total number of employees (headcount) by area, from the sustainability statement in the Annual Report 2025 (total 69,505; the report notes that the 2024 comparatives exclude Catalent). The 2025 report reorganised the areas to match its commercial regions: EUCAN (Europe and Canada, which includes Denmark), USA, APAC, Region China and Emerging Markets."
     },
     "incomeTaxesPaid": {
-      "label": "Income taxes paid for the current year",
+      "label": "Income taxes paid",
       "unit": "currency-millions",
       "currency": "DKK",
-      "period": "FY2024",
+      "period": "FY2025",
       "tier": "filing",
-      "definition": "\"Income taxes paid in Denmark for current year\" and \"Income taxes paid outside Denmark for current year\", Note 2.6 of the consolidated financial statements (total income taxes paid DKK 29,636 million)."
+      "definition": "\"Income taxes paid in Denmark\" and \"Income taxes paid outside Denmark\", Note 2.6 of the consolidated financial statements (total income taxes paid DKK 32,014 million)."
     }
   },
   "usStates": null,
@@ -24,48 +24,59 @@
       "iso2": "DK",
       "name": "Denmark",
       "values": {
-        "employees": 34185,
-        "incomeTaxesPaid": 21810
+        "employees": 29613,
+        "incomeTaxesPaid": 24150
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-        "label": "Novo Nordisk Annual Report 2024, Sustainability statements, 3.2.3 Employees and employee turnover; Note 2.6 Income taxes and deferred income taxes (income taxes paid)",
-        "quote": "• Denmark Number 34,185 28,692 22,916 … Income taxes paid in Denmark for current year 21,810 16,899 7,481 [columns: 2024 | 2023 | 2022]"
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Novo Nordisk Annual Report 2025, Sustainability statement, 3. Own workforce, total number of employees (headcount), country by country; Note 2.6 Income taxes and deferred income taxes (income taxes paid)",
+        "quote": "• Hereof Denmark 29,613 34,185 28,692 … Income taxes paid in Denmark 24,150 21,810 16,899 [columns: 2025 | 2024 | 2023]"
+      }
+    },
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "employees": 9961
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Novo Nordisk Annual Report 2025, Sustainability statement, 3. Own workforce, total number of employees (headcount), country by country",
+        "quote": "• USA 9,961 8,829 7,869 [columns: 2025 | 2024 | 2023]"
       }
     }
   ],
   "regions": [
     {
-      "name": "EMEA excluding Denmark",
+      "name": "EUCAN (Europe and Canada), including Denmark",
       "countries": null,
       "values": {
-        "employees": 9928
+        "employees": 39004
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-        "label": "Novo Nordisk Annual Report 2024, Sustainability statements, 3.2.3 Employees and employee turnover",
-        "quote": "• EMEA (Europe, the Middle East and Africa), excluding Denmark Number 9,928 8,808 7,954 [columns: 2024 | 2023 | 2022]"
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Novo Nordisk Annual Report 2025, Sustainability statement, 3. Own workforce, total number of employees (headcount), country by country",
+        "quote": "• EUCAN (Europe and Canada) 39,004 42,308 35,402 [columns: 2025 | 2024 | 2023]"
       }
     },
     {
-      "name": "North America (US, Canada)",
-      "countries": [
-        "US",
-        "CA"
-      ],
+      "name": "APAC (Japan, Korea, Oceania and Southeast Asia)",
+      "countries": null,
       "values": {
-        "employees": 9279
+        "employees": 8862
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-        "label": "Novo Nordisk Annual Report 2024, Sustainability statements, 3.2.3 Employees and employee turnover",
-        "quote": "• North America (US, Canada) Number 9,279 8,315 7,250 [columns: 2024 | 2023 | 2022]"
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Novo Nordisk Annual Report 2025, Sustainability statement, 3. Own workforce, total number of employees (headcount), country by country",
+        "quote": "• APAC (Japan, Korea, Oceania and Southeast Asia) 8,862 9,953 8,806 [columns: 2025 | 2024 | 2023]"
       }
     },
     {
@@ -76,42 +87,42 @@
         "TW"
       ],
       "values": {
-        "employees": 6977
+        "employees": 6188
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-        "label": "Novo Nordisk Annual Report 2024, Sustainability statements, 3.2.3 Employees and employee turnover",
-        "quote": "• Region China (Mainland China, Hong Kong, Taiwan) Number 6,977 6,485 6,148 [columns: 2024 | 2023 | 2022]"
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Novo Nordisk Annual Report 2025, Sustainability statement, 3. Own workforce, total number of employees (headcount), country by country",
+        "quote": "• Region China (Mainland China, Hong Kong and Taiwan) 6,188 6,977 6,485 [columns: 2025 | 2024 | 2023]"
       }
     },
     {
-      "name": "Rest of World",
+      "name": "Emerging Markets (Latin America, the Middle East and Africa)",
       "countries": null,
       "values": {
-        "employees": 13787
+        "employees": 5490
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-        "label": "Novo Nordisk Annual Report 2024, Sustainability statements, 3.2.3 Employees and employee turnover",
-        "quote": "• Rest of World (all other countries) Number 13,787 12,019 10,917 [columns: 2024 | 2023 | 2022]"
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Novo Nordisk Annual Report 2025, Sustainability statement, 3. Own workforce, total number of employees (headcount), country by country",
+        "quote": "• Emerging Markets (Latin America, the Middle East and Africa) 5,490 6,089 5,757 [columns: 2025 | 2024 | 2023]"
       }
     },
     {
       "name": "Outside Denmark",
       "countries": null,
       "values": {
-        "incomeTaxesPaid": 7826
+        "incomeTaxesPaid": 7864
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-        "label": "Novo Nordisk Annual Report 2024, Note 2.6 Income taxes and deferred income taxes (income taxes paid)",
-        "quote": "Income taxes paid outside Denmark for current year 7,826 8,998 7,034 [DKK million; columns: 2024 | 2023 | 2022]"
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Novo Nordisk Annual Report 2025, Note 2.6 Income taxes and deferred income taxes (income taxes paid)",
+        "quote": "Income taxes paid outside Denmark 7,864 7,826 8,998 [DKK million; columns: 2025 | 2024 | 2023]"
       }
     }
   ],
@@ -121,12 +132,12 @@
       "place": "Bagsværd, Denmark",
       "iso2": "DK",
       "type": "headquarters",
-      "description": "Company headquarters; products for diabetes and obesity (111,200 m² production area).",
+      "description": "Company headquarters; products for obesity and diabetes (111,200 m² production area).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/353278/000162828025003920/nvo-20241231.htm",
-        "label": "Novo Nordisk 2024 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
-        "quote": "The Company has its headquarters in Bagsværd, Denmark, where it occupies a number of buildings. … Bagsværd, Denmark | 111,200 | Products for diabetes and obesity"
+        "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/nvo-20251231.htm",
+        "label": "Novo Nordisk 2025 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
+        "quote": "The Company has its headquarters in Bagsværd, Denmark. … Bagsværd, Denmark 111,200 Products for obesity and diabetes"
       }
     },
     {
@@ -134,12 +145,12 @@
       "place": "Kalundborg, Denmark",
       "iso2": "DK",
       "type": "production",
-      "description": "Active pharmaceutical ingredients for diabetes and obesity and products for Diabetes care (168,300 m² production area); main API site.",
+      "description": "Active pharmaceutical ingredients for obesity and diabetes and products for Diabetes care (168,300 m² production area); main API site.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/353278/000162828025003920/nvo-20241231.htm",
-        "label": "Novo Nordisk 2024 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
-        "quote": "Kalundborg, Denmark | 168,300 | Active pharmaceutical ingredients for diabetes and obesity as well as products for Diabetes care"
+        "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/nvo-20251231.htm",
+        "label": "Novo Nordisk 2025 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
+        "quote": "Kalundborg, Denmark 168,300 Active pharmaceutical ingredients for obesity and diabetes as well as products for Diabetes care"
       }
     },
     {
@@ -150,9 +161,9 @@
       "description": "Durable devices and components for disposable devices (156,900 m² production area).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/353278/000162828025003920/nvo-20241231.htm",
-        "label": "Novo Nordisk 2024 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
-        "quote": "Hillerød, Denmark | 156,900 | Durable devices and components for disposable devices"
+        "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/nvo-20251231.htm",
+        "label": "Novo Nordisk 2025 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
+        "quote": "Hillerød, Denmark 156,900 Durable devices and components for disposable devices"
       }
     },
     {
@@ -161,12 +172,12 @@
       "state": "NC",
       "iso2": "US",
       "type": "production",
-      "description": "Active pharmaceutical ingredients for diabetes and obesity (purification) (89,000 m² production area).",
+      "description": "Active pharmaceutical ingredients for obesity and diabetes (purification) (89,000 m² production area).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/353278/000162828025003920/nvo-20241231.htm",
-        "label": "Novo Nordisk 2024 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
-        "quote": "Clayton, North Carolina, United States | 89,000 | Active pharmaceutical ingredients for diabetes and obesity (purification)"
+        "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/nvo-20251231.htm",
+        "label": "Novo Nordisk 2025 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
+        "quote": "Clayton, North Carolina, United States 89,000 Active pharmaceutical ingredients for obesity and diabetes (purification)"
       }
     },
     {
@@ -174,12 +185,12 @@
       "place": "Gentofte, Denmark",
       "iso2": "DK",
       "type": "production",
-      "description": "Active pharmaceutical ingredients for glucagon and growth hormone therapy (70,800 m² production area).",
+      "description": "Active pharmaceutical ingredients for glucagon and growth hormone therapy (62,900 m² production area).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/353278/000162828025003920/nvo-20241231.htm",
-        "label": "Novo Nordisk 2024 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
-        "quote": "Gentofte, Denmark | 70,800 | Active pharmaceutical ingredients for glucagon and growth hormone therapy"
+        "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/nvo-20251231.htm",
+        "label": "Novo Nordisk 2025 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
+        "quote": "Gentofte, Denmark 62,900 Active pharmaceutical ingredients for glucagon and growth hormone therapy"
       }
     },
     {
@@ -190,9 +201,9 @@
       "description": "Products for diabetes (67,200 m² production area).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/353278/000162828025003920/nvo-20241231.htm",
-        "label": "Novo Nordisk 2024 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
-        "quote": "Tianjin, China | 67,200 | Products for diabetes"
+        "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/nvo-20251231.htm",
+        "label": "Novo Nordisk 2025 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
+        "quote": "Tianjin, China 67,200 Products for diabetes"
       }
     },
     {
@@ -203,9 +214,9 @@
       "description": "Products for hormone replacement therapy (60,900 m² production area).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/353278/000162828025003920/nvo-20241231.htm",
-        "label": "Novo Nordisk 2024 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
-        "quote": "Måløv, Denmark | 60,900 | Products for hormone replacement therapy"
+        "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/nvo-20251231.htm",
+        "label": "Novo Nordisk 2025 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
+        "quote": "Måløv, Denmark 60,900 Products for hormone replacement therapy"
       }
     },
     {
@@ -213,12 +224,12 @@
       "place": "Chartres, France",
       "iso2": "FR",
       "type": "production",
-      "description": "Products for diabetes (58,700 m² production area).",
+      "description": "Products for diabetes (60,200 m² production area).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/353278/000162828025003920/nvo-20241231.htm",
-        "label": "Novo Nordisk 2024 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
-        "quote": "Chartres, France | 58,700 | Products for diabetes"
+        "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/nvo-20251231.htm",
+        "label": "Novo Nordisk 2025 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
+        "quote": "Chartres, France 60,200 Products for diabetes"
       }
     },
     {
@@ -229,9 +240,9 @@
       "description": "Products for diabetes (56,200 m² production area).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/353278/000162828025003920/nvo-20241231.htm",
-        "label": "Novo Nordisk 2024 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
-        "quote": "Montes Claros, Brazil | 56,200 | Products for diabetes"
+        "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/nvo-20251231.htm",
+        "label": "Novo Nordisk 2025 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
+        "quote": "Montes Claros, Brazil 56,200 Products for diabetes"
       }
     },
     {
@@ -239,12 +250,12 @@
       "place": "Anagni, Italy",
       "iso2": "IT",
       "type": "production",
-      "description": "Products for diabetes and obesity (40,400 m² production area).",
+      "description": "Products for obesity and diabetes and contract manufacturing (CMO) activities (22,400 m² production area).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/353278/000162828025003920/nvo-20241231.htm",
-        "label": "Novo Nordisk 2024 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
-        "quote": "Anagni, Italy | 40,400 | Products for diabetes and obesity"
+        "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/nvo-20251231.htm",
+        "label": "Novo Nordisk 2025 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
+        "quote": "Anagni, Italy 22,400 Products for obesity and diabetes"
       }
     },
     {
@@ -252,12 +263,12 @@
       "place": "Brussels, Belgium",
       "iso2": "BE",
       "type": "production",
-      "description": "Products for diabetes and obesity (18,000 m² production area).",
+      "description": "Products for obesity and diabetes and contract manufacturing (CMO) activities (18,000 m² production area).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/353278/000162828025003920/nvo-20241231.htm",
-        "label": "Novo Nordisk 2024 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
-        "quote": "Brussels, Belgium | 18,000 | Products for diabetes and obesity"
+        "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/nvo-20251231.htm",
+        "label": "Novo Nordisk 2025 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
+        "quote": "Brussels, Belgium 18,000 Products for obesity and diabetes"
       }
     },
     {
@@ -266,15 +277,15 @@
       "state": "IN",
       "iso2": "US",
       "type": "production",
-      "description": "Products for diabetes and obesity (13,100 m² production area).",
+      "description": "Products for obesity and diabetes and contract manufacturing (CMO) activities (28,200 m² production area).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/353278/000162828025003920/nvo-20241231.htm",
-        "label": "Novo Nordisk 2024 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
-        "quote": "Bloomington, Indiana, United States | 13,100 | Products for diabetes and obesity"
+        "url": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/nvo-20251231.htm",
+        "label": "Novo Nordisk 2025 Form 20-F, Item 4.D Property, plants and equipment (major production facilities)",
+        "quote": "Bloomington, Indiana, United States 28,200 Products for obesity and diabetes"
       }
     }
   ],
-  "notes": "Employees by area and income taxes paid come from the Annual Report 2024 (company-hosted PDF; it is Exhibit 15.1 to and incorporated by reference in the Form 20-F, hence tier 'filing'). The area split is headcount excluding Catalent (74,156); the group total including Catalent is 77,349, and Catalent's 3,193 employees are not allocated to areas. Only Denmark is a single country; EMEA ex-Denmark and Rest of World are Novo groupings with no country list, while North America and Region China are defined in the report itself. Taxes are split only into Denmark and outside Denmark (current-year taxes paid; DKK million). Sites are the 20-F Item 4.D table of major production facilities (production area in square meters) plus the headquarters sentence; API production in New Hampshire is mentioned in the 20-F text but not in the table. No U.S. state figures appear in the 20-F or Annual Report 2024, and a web search found no company-published U.S. state impact report (only project announcements such as the Clayton, NC expansion). Novo's FY2024 20-F says employees outside Denmark were 54% of the total.",
-  "researchedAt": "2026-11-23"
+  "notes": "Employees by area and income taxes paid come from the Annual Report 2025 (company-hosted PDF; it is Exhibit 15.1 to, and incorporated by reference in, the 2025 Form 20-F, hence tier 'filing'). The 2025 report reorganised the geographic split to match its commercial regions, so the areas differ from the 2024 edition: EUCAN (Europe and Canada) is 39,004 and includes Denmark (29,613, reported as 'hereof Denmark'), so the EUCAN region overlaps the Denmark row and is not additive with it; Europe-excluding-Denmark was not derived. USA is a single country (9,961). Region China is defined in the report; APAC and Emerging Markets are Novo groupings described by area, with no country list. Total headcount is 69,505 at Dec 31, 2025 (the report's footnote says the 2024 comparatives exclude Catalent; 2025 has no such exclusion). Taxes are split only into Denmark and outside Denmark (income taxes paid, DKK million, total 32,014). Sites are the 2025 20-F Item 4.D table of major production facilities (production area in square metres) plus the headquarters sentence; Bagsværd, Bloomington, Anagni and Brussels also host other activities listed in the table (e.g. CMO-related activities; these three are the fill-finish sites Novo acquired in 2024 in connection with the Catalent transaction). API production in New Hampshire is mentioned in the 20-F text but not in the table. No U.S. state figures appear in the 20-F or Annual Report 2025.",
+  "researchedAt": "2026-11-24"
 }
