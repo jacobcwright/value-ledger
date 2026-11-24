@@ -93,16 +93,19 @@ fs.writeFileSync(dataPath, text);
 const leaders = new Function(text + ";return leaders")();
 const oneDecimal = n => n.toFixed(1).replace(/\.0$/, "");
 const total = key => leaders.reduce((t, l) => t + (Number.isFinite(l[key]) ? l[key] : 0), 0);
-const capT = oneDecimal(total("cap") / 1e3), jobsM = oneDecimal(total("jobs") / 1e6), payB = String(Math.round(total("payroll")));
+// same rule as app.js headlineFigure(): trillions to one decimal, billions whole, millions to one decimal
+const figure = (v, prefix = "") => v >= 1e12 ? `${prefix}${oneDecimal(v / 1e12)} trillion` : v >= 1e9 ? `${prefix}${Math.round(v / 1e9)} billion` : `${prefix}${oneDecimal(v / 1e6)} million`;
+const capText = figure(total("cap") * 1e9, "$"), jobsText = figure(total("jobs")), payText = figure(total("payroll") * 1e9, "$");
+const N = String.raw`\$?[\d.,]+ (?:trillion|billion|million)`;
 for (const page of ["dist/index.html", "dist/methodology.html", "design/og-card.html"]) {
   const file = path.join(root, page);
   const before = fs.readFileSync(file, "utf8");
   const after = before
-    .replace(/\$[\d.]+ trillion/g, `$${capT} trillion`)
-    .replace(/[\d.]+ million(?= people|<\/strong><span>People employed)/g, `${jobsM} million`)
-    .replace(/\$[\d,]+ billion(?= a year|<\/strong><span>Annual pay)/g, `$${payB} billion`);
+    .replace(new RegExp(`${N}(?= in value| combined value|</strong><span>Combined value)`, "g"), capText)
+    .replace(new RegExp(`${N}(?= people|</strong><span>People employed)`, "g"), jobsText)
+    .replace(new RegExp(`${N}(?= a year|</strong><span>Annual pay)`, "g"), payText);
   if (after !== before) fs.writeFileSync(file, after);
 }
-console.log(`headline: $${capT} trillion value created · ${jobsM} million people · $${payB} billion pay to workers`);
+console.log(`headline: ${capText} value created · ${jobsText} people · ${payText} pay to workers`);
 console.log(`edition ${edition.label}: market value for ${stats.cap}/100, pay lens for ${stats.pay}/100 (${stats.payNull} with no disclosed payroll)`);
 if (problems.length) { console.log((strict ? "✗ " : "  pending: ") + problems.length + " leaders without lenses" + (strict ? ":\n  " + problems.join("\n  ") : "")); if (strict) process.exit(1); }

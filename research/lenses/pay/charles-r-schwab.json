@@ -1,0 +1,31 @@
+{
+  "id": "charles-r-schwab",
+  "company": "Charles Schwab",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 33000,
+    "asOf": "2025-12-31",
+    "basis": "full-time, part-time, and temporary employees, and persons employed on a contract basis, that represented the equivalent of approximately 33,000 full-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, Schwab had full-time, part-time, and temporary employees, and persons employed on a contract basis, that represented the equivalent of approximately 33,000 full-time employees."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Compensation and benefits",
+    "value": 6.491,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+      "label": "FY2025 Form 10-K, consolidated statements of income (in millions)",
+      "quote": "Expenses Excluding Interest Compensation and benefits 6,491 6,043 6,315 [in millions, 2025, 2024, 2023]"
+    }
+  },
+  "notes": "Employees: a full-time-equivalent count that includes contractors (the 10-K's glossary defines FTEs as total hours worked divided by a 40-hour week), not a head count. Payroll: the income statement's 'Compensation and benefits' line. The 2026 proxy also reports a 2025 median employee annual total compensation of $131,480 (CEO pay ratio 143 to 1), not used because a total is disclosed.",
+  "researchedAt": "2026-11-24"
+}

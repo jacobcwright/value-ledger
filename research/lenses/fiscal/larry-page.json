@@ -1,44 +1,44 @@
 {
   "id": "larry-page",
   "company": "Alphabet",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 27.4,
+      "value": 21.53,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes, net of refunds, was $ 18.9 billion, $ 19.2 billion, and $ 27.4 billion as of December 31, 2022, 2023, and 2024, respectively.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 14 Income Taxes, cash paid for income taxes (in millions)",
+        "quote": "Cash paid for income taxes, net of refunds, were as follows (in millions): ... Total cash paid for income taxes, net of refunds $ 19,164 $ 27,353 $ 21,526 [2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001652044",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 27400000000
+          "end": "2025-12-31",
+          "value": 21526000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 49.33,
+      "value": 61.09,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 39,500 45,427 49,326 Sales and marketing 26,567 27,917 [USD millions; FY2024 is the 3rd figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of income, research and development expense",
+        "quote": "Research and development 45,427 49,326 61,087 Sales and marketing [USD millions; FY2025 is the 3rd figure in the row]",
         "xbrl": {
           "cik": "0001652044",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 49326000000
+          "end": "2025-12-31",
+          "value": 61087000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the income-tax note's new table by jurisdiction (the 10-K no longer prints a single cash-paid sentence).",
+  "researchedAt": "2026-11-24"
 }

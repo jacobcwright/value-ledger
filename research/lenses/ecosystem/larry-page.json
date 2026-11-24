@@ -1,8 +1,8 @@
 {
   "id": "larry-page",
   "company": "Alphabet",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ecosystem": {
@@ -10,22 +10,22 @@
     "measure": null,
     "platformRevenue": {
       "label": "Google advertising revenues",
-      "value": 264.59,
+      "value": 294.69,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
-        "label": "FY2024 Form 10-K, revenues disaggregated by type (in millions)",
-        "quote": "Google Search & other $ 162,450 $ 175,033 $ 198,084 … Google advertising 224,473 237,855 264,590"
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 2 Revenues, revenues disaggregated by type (in millions)",
+        "quote": "Google Network 31,312 30,359 29,792 Google advertising 237,855 264,590 294,691 [2023, 2024, 2025]"
       }
     },
     "payouts": {
       "label": "Traffic acquisition costs (TAC) paid to distribution partners and Google Network partners",
-      "value": 54.9,
+      "value": 59.93,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
-        "label": "FY2024 Form 10-K, MD&A cost of revenues table (in millions) and TAC definition",
-        "quote": "TAC $ 50,886 $ 54,900 … amounts paid to our distribution partners who make available our search access points and services. Our distribution partners include browser providers, mobile carriers, original equipment manufacturers, and software developers; and … amounts paid to Google Network partners primarily for ads displayed on their properties."
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "label": "FY2025 Form 10-K, MD&A cost of revenues table (in millions) and TAC definition",
+        "quote": "TAC includes: amounts paid to our distribution partners who make available our search access points and other ad-supported services. Our distribution partners include browser providers, mobile carriers, original equipment manufacturers, and software developers; and amounts paid to Google Network partners primarily for ads displayed on their properties. ... TAC $ 54,900 $ 59,926 [2024, 2025]"
       }
     },
     "clientAssets": null,
@@ -47,8 +47,8 @@
         }
       }
     ],
-    "notes": "Alphabet reports no gross flow volume for its platforms, so measure is null. payouts is TAC: FY2024 TAC was $54.9B. The 10-K defines it as amounts paid to distribution partners (browser providers, mobile carriers, OEMs, software developers) and to Google Network partners. The TAC rate is 20.7% of advertising revenues, as stated in the 10-K. platformRevenue is Google advertising revenues ($264.59B) because TAC is measured against advertising. Total Alphabet revenues were $350.018B. YouTube creator payments are not in TAC. The 10-K puts them inside 'content acquisition costs' in other cost of revenues and gives no separate amount. The YouTube $100B figure is company-reported, covers four years in total (Jan 2021–Dec 2024) and is not an FY2024 flow. Its source URL is on services.google.com, Google's own file host; the records validator's search-page check (/google\\./) would wrongly flag it."
+    "notes": "Alphabet reports no gross flow volume for its platforms, so measure is null. payouts is TAC: FY2025 TAC was $59.926B. The 10-K defines it as amounts paid to distribution partners (browser providers, mobile carriers, OEMs, software developers) and to Google Network partners. The 10-K says the TAC rate (TAC as a percentage of advertising revenues) decreased from 20.7% to 20.3% from 2024 to 2025. platformRevenue is Google advertising revenues ($294.69B) because TAC is measured against advertising. Total Alphabet revenues were $402.836B. YouTube creator payments are not in TAC. The 10-K puts them inside 'content acquisition costs' in other cost of revenues and gives no separate amount. The YouTube $100B study figure is company-reported, covers four years in total (Jan 2021–Dec 2024) and is not an FY2025 flow; no newer edition was found, so it is kept. Its source URL is on services.google.com, Google's own file host; the records validator's search-page check (/google\\./) would wrongly flag it."
   },
   "notes": "",
-  "researchedAt": "2026-11-23"
+  "researchedAt": "2026-11-24"
 }

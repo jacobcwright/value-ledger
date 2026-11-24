@@ -1,0 +1,31 @@
+{
+  "id": "larry-page",
+  "company": "Alphabet",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 190820,
+    "asOf": "2025-12-31",
+    "basis": "employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, Alphabet had 190,820 employees."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "2025 annual total compensation of our median compensated employee",
+    "value": 310826,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "The 2025 annual total compensation of our median compensated employee was $310,826, and the 2025 annual total compensation of our CEO was $10,906,079. The resulting ratio of Chief Executive Officer to Median Employee total compensation is 35 to 1."
+    }
+  },
+  "notes": "Employees: the year-end head count in the FY2025 10-K. Payroll: the 10-K discloses no total staff cost, so the 2026 proxy's CEO pay ratio median is used; it is for 2025, the same year (all Alphabet employees except the CEO as of December 31, 2025, identified by base salary and target bonus, with wages annualized for employees not employed the full year; total compensation includes equity awards as in the Summary Compensation Table).",
+  "researchedAt": "2026-11-24"
+}
