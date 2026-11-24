@@ -1,0 +1,28 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.valueforhumanity.com" }], "destination": "https://valueforhumanity.com/:path*", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Cross-Origin-Opener-Policy", "value": "same-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=()" },
+        { "key": "Strict-Transport-Security", "value": "max-age=31536000" }
+      ]
+    },
+    { "source": "/portraits/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=2592000, stale-while-revalidate=86400" }] },
+    { "source": "/(og-image.png|apple-touch-icon.png|icon-192.png|icon-512.png|favicon.svg)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }] }
+  ]
+}

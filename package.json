@@ -7,9 +7,13 @@
     "check": "node scripts/check-site.mjs",
     "deploy": "npm run build:companies && npm run check && wrangler deploy",
     "deploy:www": "wrangler deploy -c workers/www-redirect/wrangler.jsonc",
-    "check:deploy": "npm run check && wrangler deploy --dry-run"
+    "check:deploy": "npm run check && wrangler deploy --dry-run",
+    "build": "npm run build:companies && npm run check"
   },
   "devDependencies": {
     "wrangler": "4.167.0"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
