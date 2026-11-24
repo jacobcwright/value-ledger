@@ -1,132 +1,124 @@
 {
- "id": "lei-jun",
- "company": "Xiaomi Corporation",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
- "currency": "CNY",
- "unit": "billions",
- "statedUnit": "RMB thousand",
- "sector": "tech",
- "comparable": true,
- "inputs": {
-  "revenue": {
-   "value": 365.90635,
-   "stated": 365906350,
-   "divisor": 1000000,
-   "source": {
-    "hostType": "exchange",
-    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-    "label": "2024 Annual Report, consolidated income statement (RMB'000)",
-    "quote": "Revenue 5 365,906,350 270,970,141"
-   }
+  "id": "lei-jun",
+  "company": "Xiaomi Corporation",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "CNY",
+  "unit": "billions",
+  "statedUnit": "RMB thousand",
+  "sector": "tech",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 457.286687,
+      "stated": 457286687,
+      "divisor": 1000000,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, consolidated income statement (RMB'000)",
+        "quote": "Revenue 5 457,286,687 365,906,350"
+      }
+    },
+    "operatingCashFlow": {
+      "value": 34.142377,
+      "stated": 34142377,
+      "divisor": 1000000,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, consolidated statement of cash flows (RMB'000)",
+        "quote": "Income tax paid (4,671,588) (3,467,218) Net cash generated from operating activities 34,142,377 39,295,499"
+      }
+    },
+    "capex": {
+      "value": 12.769155,
+      "stated": 12769155,
+      "divisor": 1000000,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, consolidated statement of cash flows (RMB'000)",
+        "quote": "Purchase of property, plant and equipment, land use rights and intangible assets (12,769,155) (7,297,307)"
+      },
+      "components": [
+        "PP&E, land use rights and intangible assets (one combined line) 12.769155"
+      ]
+    },
+    "deferredIntangiblePayments": {
+      "value": 2.499913,
+      "stated": 2499913,
+      "divisor": 1000000,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, consolidated statement of cash flows (RMB'000)",
+        "quote": "Payments of deferred consideration for acquisition of intangible assets (2,499,913) (3,182,954)"
+      },
+      "added": false,
+      "note": "Judgement: deferred payments for intangible assets booked in financing are excluded from capex, as the pilot excluded Reliance's deferred spectrum payments. Xiaomi's own MD&A capital expenditures total (RMB 18,157.0 million) is broader than the cash-flow purchase line."
+    },
+    "interestPaid": {
+      "value": 0.77476,
+      "stated": 774760,
+      "divisor": 1000000,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, consolidated statement of cash flows (RMB'000)",
+        "quote": "Repayment of borrowings (25,080,950) (19,265,488) Finance expenses paid (774,760) (717,223)"
+      },
+      "inOCF": false,
+      "location": "financing activities"
+    },
+    "taxesPaid": {
+      "value": 4.671588,
+      "stated": 4671588,
+      "divisor": 1000000,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, consolidated statement of cash flows (RMB'000)",
+        "quote": "Cash generated from operations 35(a) 38,813,965 42,762,717 Income tax paid (4,671,588) (3,467,218)"
+      },
+      "inOCF": true,
+      "location": "operating activities"
+    },
+    "leasePrincipalPaid": {
+      "value": 2.902504,
+      "stated": 2902504,
+      "divisor": 1000000,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, consolidated statement of cash flows (RMB'000)",
+        "quote": "Payments of lease liabilities (2,902,504) (2,476,524)"
+      },
+      "added": false,
+      "note": "IFRS 16 lease payments in financing (principal plus interest portion); noted, not added (0.7% of paidOut)."
+    }
   },
-  "operatingCashFlow": {
-   "value": 39.295499,
-   "stated": 39295499,
-   "divisor": 1000000,
-   "source": {
-    "hostType": "exchange",
-    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-    "label": "2024 Annual Report, consolidated statement of cash flows (RMB'000)",
-    "quote": "Income tax paid (3,467,218) (3,011,748) Net cash generated from operating activities 39,295,499 41,300,495"
-   }
+  "paidOut": 436.688225,
+  "paidOutFormula": "457,286,687 − 34,142,377 + 12,769,155 (purchase of PP&E, land use rights and intangibles) + 774,760 (finance expenses paid, financing) = 436,688,225 RMB thousand",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": {
+      "value": 0.475607,
+      "stated": 475607,
+      "divisor": 1000000,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0428/2026042800526.pdf",
+        "label": "Xiaomi 2025 Annual Report, note 35(a) cash generated from operations (RMB'000)",
+        "quote": "Increase in loan receivables (475,607) (2,567,194)"
+      },
+      "note": "Growth in Xiaomi Finance's consumer-loan book is inside operating cash flow; it lowers OCF and so raises paidOut by this amount (0.1%)."
+    },
+    "interestDividendsReceivedInOCF": false,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
   },
-  "capex": {
-   "value": 7.297307,
-   "stated": 7297307,
-   "divisor": 1000000,
-   "source": {
-    "hostType": "exchange",
-    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-    "label": "2024 Annual Report, consolidated statement of cash flows (RMB'000)",
-    "quote": "Capital expenditures (7,297,307) (6,268,900)"
-   },
-   "components": [
-    "capital expenditures (PP&E, intangibles, land use rights; one combined investing line) 7.297307"
-   ],
-   "note": "Investing shows one combined 'Capital expenditures' line, used as is. Excluded: 'Payments of deferred consideration for acquisition of intangible assets' (3,182,954), which Xiaomi books in financing (see deferredIntangiblePayments). This follows the pilot's rule for Reliance, whose deferred spectrum payments (4,574) were excluded."
-  },
-  "deferredIntangiblePayments": {
-   "value": 3.182954,
-   "stated": 3182954,
-   "divisor": 1000000,
-   "source": {
-    "hostType": "exchange",
-    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-    "label": "2024 Annual Report, consolidated statement of cash flows (RMB'000)",
-    "quote": "Payments of deferred consideration for acquisition of intangible assets (3,182,954) (1,393,188)"
-   },
-   "added": false,
-   "note": "Judgement call, not added. Xiaomi's own MD&A capex total (10,480.2 RMB million) includes these payments; including them would make paidOut 337.808335 bn.",
-   "evidence": {
-    "hostType": "exchange",
-    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-    "label": "2024 Annual Report, Management Discussion and Analysis, Capital Expenditures (RMB million)",
-    "quote": "Capital expenditures Smartphone × AIoT 6,418.9 5,300.0 Smart EV and other new initiatives 4,061.3 2,362.1 Total 10,480.2 7,662.1"
-   }
-  },
-  "interestPaid": {
-   "value": 0.717223,
-   "stated": 717223,
-   "divisor": 1000000,
-   "source": {
-    "hostType": "exchange",
-    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-    "label": "2024 Annual Report, consolidated statement of cash flows (RMB'000)",
-    "quote": "Repayment of borrowings (19,265,488) (4,022,423) Finance expenses paid (717,223) (758,137)"
-   },
-   "inOCF": false,
-   "location": "financing activities",
-   "note": "'Finance expenses paid'. Lease interest is not split out; it sits inside 'Payments of lease liabilities' (2,476,524) and is not added."
-  },
-  "taxesPaid": {
-   "value": 3.467218,
-   "stated": 3467218,
-   "divisor": 1000000,
-   "source": {
-    "hostType": "exchange",
-    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-    "label": "2024 Annual Report, consolidated statement of cash flows (RMB'000)",
-    "quote": "Cash generated from operations 35(a) 42,762,717 44,312,243 Income tax paid (3,467,218) (3,011,748)"
-   },
-   "inOCF": true,
-   "location": "operating activities"
-  },
-  "leasePrincipalPaid": {
-   "value": 2.476524,
-   "stated": 2476524,
-   "divisor": 1000000,
-   "source": {
-    "hostType": "exchange",
-    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-    "label": "2024 Annual Report, consolidated statement of cash flows (RMB'000)",
-    "quote": "Payments of lease liabilities (2,476,524) (1,197,692)"
-   },
-   "added": false,
-   "note": "IFRS 16 lease payments in financing (principal plus an unsplit interest element); noted, not added (0.7% of paidOut)."
-  }
- },
- "paidOut": 334.625381,
- "paidOutFormula": "365,906,350 − 39,295,499 + 7,297,307 (capital expenditures) + 717,223 (finance expenses paid, financing) = 334,625,381 RMB thousand",
- "altPaidOut": null,
- "salesEnabled": null,
- "flags": {
-  "financeReceivablesInOCF": {
-   "value": 2.567194,
-   "stated": 2567194,
-   "divisor": 1000000,
-   "source": {
-    "hostType": "exchange",
-    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
-    "label": "2024 Annual Report, note 35(a) cash generated from operations (RMB'000)",
-    "quote": "Increase in loan receivables (2,567,194) (1,983,565)"
-   },
-   "note": "Growth in Xiaomi Finance's consumer-loan book is inside operating cash flow; it lowers OCF and so raises paidOut by this amount (0.8%)."
-  },
-  "interestDividendsReceivedInOCF": false,
-  "revenueIncludesExcise": false,
-  "nonCashRevenue": null
- },
- "notes": "IFRS (HKEX annual report). Income tax paid is inside operating activities (not added). Finance expenses paid are in financing (added). Interest income received (3,646,092), investment income received and dividends received are in investing, so they do not lower OCF. Loan-book growth inside OCF is flagged (financeReceivablesInOCF). Judgement: deferred payments for intangible assets booked in financing (3,182,954) are excluded from capex, as the pilot excluded Reliance's deferred spectrum payments; Xiaomi's own capex total includes them (paidOut would be 337.808335 bn).",
- "researchedAt": "2026-11-23"
+  "notes": "IFRS (HKEX 2025 annual report). Income tax paid is inside operating activities (not added). Finance expenses paid are in financing (added). Interest income received (3,276,391), investment income received and dividends received are in investing, so they do not lower OCF. Loan-book growth inside OCF is flagged (financeReceivablesInOCF). Judgement: deferred payments for intangible assets booked in financing (2,499,913) are excluded from capex; including them, paidOut would be 439.188138 bn.",
+  "researchedAt": "2026-11-24"
 }

@@ -2,27 +2,27 @@
   "id": "shigeru-miyamoto",
   "company": "Nintendo",
   "nbim": {
-    "pct": 1.64,
-    "marketValueUSD": 1.257,
-    "asOf": "2024-12-31",
+    "pct": 1.72,
+    "marketValueUSD": 0.929,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"dw95w7dt81yi\",\"cc\":\"JP\",\"n\":\"Nintendo Co Ltd\",\"a\":{\"e\":1256964492,\"n\":14275785678},\"at\":0,\"o\":1.64,\"eq\":{\"vid\":\"7974\",\"v\":1.64,\"s\":\"Consumer Discretionary\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"dw95w7dt81yi\",\"cc\":\"JP\",\"n\":\"Nintendo Co Ltd\",\"a\":{\"e\":928715158,\"n\":9190101214},\"at\":0,\"o\":1.72,\"eq\":{\"vid\":\"7974\",\"v\":1.72,\"s\":\"Consumer Discretionary\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": {
-    "count": 197110,
-    "asOf": "2025-03-31",
+    "count": 484413,
+    "asOf": "2026-03-31",
     "source": {
       "hostType": "company",
-      "url": "https://www.nintendo.co.jp/ir/pdf/2025/convocation_notice2506e.pdf",
-      "label": "Notice of the 85th Annual General Meeting, Business Report (fiscal year ended March 31, 2025), Status of Shares",
-      "quote": "2. Status of Shares (1) Total number of shares authorized to be issued 4,000,000,000 shares (2) Total number of shares outstanding 1,298,690,000 shares (including 134,441,816 treasury shares) (3) Number of shareholders 197,110 persons"
+      "url": "https://www.nintendo.co.jp/ir/pdf/2026/convocation_notice2606e.pdf",
+      "label": "Notice of the 86th Annual General Meeting, Business Report (fiscal year ended March 31, 2026), Status of Shares",
+      "quote": "2. Status of Shares (1) Total number of shares authorized to be issued 4,000,000,000 shares (2) Total number of shares outstanding 1,287,260,000 shares (including 134,431,295 treasury shares) ... (3) Number of shareholders 484,413 persons"
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;Japan;Nintendo Co Ltd;Consumer Discretionary;14275785678;1256964492;1.64%;1.64%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Nintendo. Holders of record: Business Report figure for the fiscal year ended March 31, 2025 (year-end). Chosen over the annual securities report's 'Status of shareholders' table (117,423 persons as of March 31, 2025), which counts only holders of at least one trading unit (100 shares) and excludes holders of shares less than one unit.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: its Form 13F information table for the quarter ended September 30, 2026 lists no Nintendo shares or ADRs (searched by name; Form 13F covers only U.S.-listed securities). Holders of record: 484,413 shareholders at March 31, 2026 (197,110 a year earlier), from the AGM notice's business report.",
+  "researchedAt": "2026-11-24"
 }

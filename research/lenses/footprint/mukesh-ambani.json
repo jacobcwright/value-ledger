@@ -5,14 +5,14 @@
     "plants": {
       "label": "Plants",
       "unit": "count",
-      "period": "FY2024-25 (year ended Mar 31, 2025)",
+      "period": "FY2025-26 (year ended Mar 31, 2026)",
       "tier": "filing",
-      "definition": "\"Number of locations where plants and/or operations/offices of the entity are situated\": number of plants, BRSR 2024-25 (standalone Reliance Industries Limited, not the consolidated group). The BRSR is the SEBI-mandated sustainability disclosure that accompanies the annual report."
+      "definition": "\"Number of locations where plants and/or operations/offices of the entity are situated\": number of plants, BRSR 2025-26 (standalone Reliance Industries Limited, not the consolidated group). The BRSR is the SEBI-mandated sustainability disclosure that accompanies the annual report."
     },
     "offices": {
       "label": "Offices",
       "unit": "count",
-      "period": "FY2024-25 (year ended Mar 31, 2025)",
+      "period": "FY2025-26 (year ended Mar 31, 2026)",
       "tier": "filing",
       "definition": "Number of offices from the same BRSR table (standalone Reliance Industries Limited)."
     }
@@ -24,14 +24,14 @@
       "name": "India",
       "values": {
         "plants": 15,
-        "offices": 62
+        "offices": 65
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.ril.com/reports/BRSR202425.pdf",
-        "label": "Reliance Industries Business Responsibility & Sustainability Report 2024-25, Section A.III item 18",
-        "quote": "Number of locations where plants and/or operations/offices of the entity are situated: … National 15 62 77 [columns: Number of plants | Number of offices | Total]"
+        "url": "https://www.ril.com/sites/default/files/reports/BRSR202526.pdf",
+        "label": "Reliance Industries Business Responsibility & Sustainability Report 2025-26, Section A.III item 18",
+        "quote": "Number of locations where plants and/or operations/offices of the entity are situated: … National 15 65 80 [columns: Number of plants | Number of offices | Total]"
       }
     }
   ],
@@ -46,8 +46,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.ril.com/reports/BRSR202425.pdf",
-        "label": "Reliance Industries Business Responsibility & Sustainability Report 2024-25, Section A.III item 18",
+        "url": "https://www.ril.com/sites/default/files/reports/BRSR202526.pdf",
+        "label": "Reliance Industries Business Responsibility & Sustainability Report 2025-26, Section A.III item 18",
         "quote": "Number of locations where plants and/or operations/offices of the entity are situated: … International 0 2 2 [columns: Number of plants | Number of offices | Total]"
       }
     }
@@ -61,8 +61,8 @@
       "description": "Registered office of the Company.",
       "source": {
         "hostType": "company",
-        "url": "https://www.ril.com/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
-        "label": "Reliance Industries Integrated Annual Report 2024-25, Notes to the consolidated financial statements (corporate information)",
+        "url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+        "label": "Reliance Industries Integrated Annual Report 2025-26, Notes to the consolidated financial statements (corporate information)",
         "quote": "registered office of the Company is located at 3rd Floor, Maker Chambers IV, 222, Nariman Point, Mumbai - 400 021, India"
       }
     },
@@ -74,8 +74,8 @@
       "description": "Oil to Chemicals DTA Jamnagar Refinery and SEZ Jamnagar Refinery.",
       "source": {
         "hostType": "company",
-        "url": "https://www.ril.com/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
-        "label": "Reliance Industries Integrated Annual Report 2024-25, Shareholders' information, Plant Locations in India",
+        "url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+        "label": "Reliance Industries Integrated Annual Report 2025-26, Shareholders' information, Plant Locations in India",
         "quote": "Plant Locations in India … Oil to Chemicals DTA Jamnagar Refinery Jamnagar, Gujarat … SEZ Jamnagar Refinery"
       }
     },
@@ -87,8 +87,8 @@
       "description": "Oil to Chemicals manufacturing division.",
       "source": {
         "hostType": "company",
-        "url": "https://www.ril.com/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
-        "label": "Reliance Industries Integrated Annual Report 2024-25, Shareholders' information, Plant Locations in India",
+        "url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+        "label": "Reliance Industries Integrated Annual Report 2025-26, Shareholders' information, Plant Locations in India",
         "quote": "Plant Locations in India … Hazira Manufacturing Division Surat, Gujarat"
       }
     },
@@ -100,8 +100,8 @@
       "description": "Oil to Chemicals manufacturing division.",
       "source": {
         "hostType": "company",
-        "url": "https://www.ril.com/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
-        "label": "Reliance Industries Integrated Annual Report 2024-25, Shareholders' information, Plant Locations in India",
+        "url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+        "label": "Reliance Industries Integrated Annual Report 2025-26, Shareholders' information, Plant Locations in India",
         "quote": "Plant Locations in India … Dahej Manufacturing Division Bharuch, Gujarat"
       }
     },
@@ -113,8 +113,8 @@
       "description": "Oil to Chemicals manufacturing division.",
       "source": {
         "hostType": "company",
-        "url": "https://www.ril.com/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
-        "label": "Reliance Industries Integrated Annual Report 2024-25, Shareholders' information, Plant Locations in India",
+        "url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+        "label": "Reliance Industries Integrated Annual Report 2025-26, Shareholders' information, Plant Locations in India",
         "quote": "Plant Locations in India … Vadodara Manufacturing Division Vadodara, Gujarat"
       }
     },
@@ -126,8 +126,8 @@
       "description": "Oil to Chemicals manufacturing division.",
       "source": {
         "hostType": "company",
-        "url": "https://www.ril.com/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
-        "label": "Reliance Industries Integrated Annual Report 2024-25, Shareholders' information, Plant Locations in India",
+        "url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+        "label": "Reliance Industries Integrated Annual Report 2025-26, Shareholders' information, Plant Locations in India",
         "quote": "Plant Locations in India … Patalganga Manufacturing Division Raigad, Maharashtra"
       }
     },
@@ -139,8 +139,8 @@
       "description": "Oil to Chemicals manufacturing division.",
       "source": {
         "hostType": "company",
-        "url": "https://www.ril.com/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
-        "label": "Reliance Industries Integrated Annual Report 2024-25, Shareholders' information, Plant Locations in India",
+        "url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+        "label": "Reliance Industries Integrated Annual Report 2025-26, Shareholders' information, Plant Locations in India",
         "quote": "Plant Locations in India … Silvassa Manufacturing Division Union Territory of Dadra and Nagar"
       }
     },
@@ -152,8 +152,8 @@
       "description": "Oil to Chemicals manufacturing division.",
       "source": {
         "hostType": "company",
-        "url": "https://www.ril.com/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
-        "label": "Reliance Industries Integrated Annual Report 2024-25, Shareholders' information, Plant Locations in India",
+        "url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+        "label": "Reliance Industries Integrated Annual Report 2025-26, Shareholders' information, Plant Locations in India",
         "quote": "Plant Locations in India … Barabanki Manufacturing Division Barabanki, Uttar Pradesh"
       }
     },
@@ -165,8 +165,8 @@
       "description": "Oil to Chemicals manufacturing division.",
       "source": {
         "hostType": "company",
-        "url": "https://www.ril.com/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
-        "label": "Reliance Industries Integrated Annual Report 2024-25, Shareholders' information, Plant Locations in India",
+        "url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+        "label": "Reliance Industries Integrated Annual Report 2025-26, Shareholders' information, Plant Locations in India",
         "quote": "Plant Locations in India … Hoshiarpur Manufacturing Division Hoshiarpur, Punjab"
       }
     },
@@ -178,8 +178,8 @@
       "description": "Oil & Gas block KG-D6.",
       "source": {
         "hostType": "company",
-        "url": "https://www.ril.com/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
-        "label": "Reliance Industries Integrated Annual Report 2024-25, Shareholders' information, Plant Locations in India",
+        "url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+        "label": "Reliance Industries Integrated Annual Report 2025-26, Shareholders' information, Plant Locations in India",
         "quote": "Plant Locations in India … Oil & Gas KG-D6 East Godavari, Andhra Pradesh"
       }
     },
@@ -191,8 +191,8 @@
       "description": "Oil & Gas coal bed methane operations.",
       "source": {
         "hostType": "company",
-        "url": "https://www.ril.com/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
-        "label": "Reliance Industries Integrated Annual Report 2024-25, Shareholders' information, Plant Locations in India",
+        "url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+        "label": "Reliance Industries Integrated Annual Report 2025-26, Shareholders' information, Plant Locations in India",
         "quote": "Plant Locations in India … Coal Bed Methane Shahdol, Madhya Pradesh"
       }
     },
@@ -204,12 +204,12 @@
       "description": "Textiles manufacturing division.",
       "source": {
         "hostType": "company",
-        "url": "https://www.ril.com/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
-        "label": "Reliance Industries Integrated Annual Report 2024-25, Shareholders' information, Plant Locations in India",
+        "url": "https://www.ril.com/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+        "label": "Reliance Industries Integrated Annual Report 2025-26, Shareholders' information, Plant Locations in India",
         "quote": "Plant Locations in India … Textiles Naroda Manufacturing Division Ahmedabad, Gujarat"
       }
     }
   ],
-  "notes": "No state-by-state figures were found in the Integrated Annual Report 2024-25 or the BRSR 2024-25, and a web search found no company state-wise report. The only location counts are in the BRSR 2024-25 (company-hosted; it covers standalone Reliance Industries Limited, not the consolidated group): 15 plants and 62 offices in India, 0 plants and 2 offices abroad. The same table says RIL served 35 Indian states and union territories and exported to 108 countries in FY2024-25. The Integrated Annual Report 2024-25 says Reliance Retail's store count reached 19,340 (\"The business opened 2,659 stores during the year, taking the total store count to 19,340 stores\"), with no split by state, and it is not combined with the BRSR row because it comes from another document on a group basis. Sites come from the report's \"Plant Locations in India\" list (standalone RIL). Nagothane Manufacturing Division is omitted because the list does not state its location separately; Vadodara Composites Division and 2 Compressed Biogas plants in Uttar Pradesh are omitted for the 12-site cap. Jio, Retail and other subsidiaries' facilities are not listed.",
-  "researchedAt": "2026-11-23"
+  "notes": "No state-by-state figures were found in the Integrated Annual Report 2025-26 or the BRSR 2025-26 (both the newest editions, for the year ended Mar 31, 2026), and no company state-wise report was found. The only location counts are in the BRSR 2025-26 (company-hosted; it covers standalone Reliance Industries Limited, not the consolidated group): 15 plants and 65 offices in India, 0 plants and 2 offices abroad. The same table says RIL served 35 Indian states and union territories and exported to 112 countries in FY2025-26. The Integrated Annual Report 2025-26 says Reliance Retail opened 1,564 stores during the year, \"taking the total store count to 20,160 stores\", with no split by state; it is not combined with the BRSR row because it comes from another document on a group basis. Sites come from the report's \"Plant Locations in India\" list (standalone RIL), unchanged from 2024-25. Nagothane Manufacturing Division is omitted because the list does not state its location separately; Vadodara Composites Division and the Compressed Biogas plants are omitted for the 12-site cap. Jio, Retail and other subsidiaries' facilities are not listed. The annual report URL is the one the report itself gives (www.ril.com/reports/), identical to the copy on rilstaticasset.akamaized.net; www.ril.com answers scripted requests only with a browser user agent.",
+  "researchedAt": "2026-11-24"
 }

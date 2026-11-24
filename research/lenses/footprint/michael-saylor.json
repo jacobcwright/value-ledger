@@ -5,7 +5,7 @@
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "as of December 31, 2024",
+      "period": "as of December 31, 2025",
       "tier": "filing",
       "definition": "Total employees, split by the 10-K into those based in the United States and those based internationally."
     }
@@ -16,14 +16,14 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "employees": 453
+        "employees": 448
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1, Employees",
-        "quote": "As of December 31, 2024, we had a total of 1,534 employees, of whom 453 were based in the United States and 1,081 were based internationally."
+        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1, Employees",
+        "quote": "As of December 31, 2025, we had a total of 1,539 employees, of whom 448 were based in the United States and 1,091 were based internationally."
       }
     }
   ],
@@ -32,14 +32,14 @@
       "name": "International (outside the U.S.)",
       "countries": null,
       "values": {
-        "employees": 1081
+        "employees": 1091
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1, Employees",
-        "quote": "As of December 31, 2024, we had a total of 1,534 employees, of whom 453 were based in the United States and 1,081 were based internationally."
+        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1, Employees",
+        "quote": "As of December 31, 2025, we had a total of 1,539 employees, of whom 448 were based in the United States and 1,091 were based internationally."
       }
     }
   ],
@@ -53,12 +53,12 @@
       "description": "About 190,000 square feet of leased office space in Northern Virginia serving as corporate headquarters (address on the 10-K cover: 1850 Towers Crescent Plaza, Tysons Corner, VA).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
-        "quote": "As of December 31, 2024, we leased approximately 190,000 square feet of office space at a location in Northern Virginia that serves as our corporate headquarters."
+        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2, Properties",
+        "quote": "As of December 31, 2025, we leased approximately 190,000 square feet of office space at a location in Northern Virginia that serves as our corporate headquarters."
       }
     }
   ],
-  "notes": "Strategy (formerly MicroStrategy) discloses only a U.S. vs international employee split and a headquarters lease; most of its balance sheet is bitcoin, which has no geographic footprint. The 10-K also gives long-lived assets and revenue by U.S. / EMEA / other regions (in thousands of dollars); long-lived assets were not recorded because the values are stated in thousands and would need rescaling, and revenue is in the records. Besides headquarters it uses about 20,000 sq ft elsewhere in the U.S. and about 87,000 sq ft abroad, without naming sites. No state or tax-by-country data exists.",
-  "researchedAt": "2026-11-23"
+  "notes": "Strategy (formerly MicroStrategy) discloses only a U.S. vs international employee split (1,539 employees at Dec 31, 2025: 448 U.S., 1,091 international) and a headquarters lease; most of its balance sheet is bitcoin, which has no geographic footprint. The 10-K also gives long-lived assets and revenue by U.S. / EMEA / other regions (in thousands of dollars); long-lived assets were not recorded, and revenue is in the records. Besides headquarters it used about 20,000 sq ft elsewhere in the U.S. and about 87,000 sq ft abroad at Dec 31, 2025, without naming sites. No state or tax-by-country data exists.",
+  "researchedAt": "2026-11-24"
 }

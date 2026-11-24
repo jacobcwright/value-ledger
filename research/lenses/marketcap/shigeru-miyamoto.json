@@ -1,0 +1,38 @@
+{
+  "id": "shigeru-miyamoto",
+  "company": "Nintendo",
+  "classes": [
+    {
+      "label": "Common stock (issued shares less treasury shares)",
+      "shares": 1152918950,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "7974.T",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "Shares issued (including treasury shares) at September 30, 2026",
+          "value": 1287260000,
+          "source": {
+            "hostType": "company",
+            "url": "https://www.nintendo.co.jp/ir/pdf/2026/261105e.pdf",
+            "label": "Consolidated Results for the Six Months Ended September 30, 2026 (Consolidated Financial Highlights, November 5, 2026), (4) Outstanding shares",
+            "quote": "1) Number of shares outstanding (including treasury shares) As of Sep. 30, 2026: 1,287,260,000 shares"
+          }
+        },
+        {
+          "label": "Treasury shares at September 30, 2026 (subtracted)",
+          "value": -134341050,
+          "source": {
+            "hostType": "company",
+            "url": "https://www.nintendo.co.jp/ir/pdf/2026/261105e.pdf",
+            "label": "Consolidated Results for the Six Months Ended September 30, 2026 (Consolidated Financial Highlights, November 5, 2026), (4) Outstanding shares",
+            "quote": "2) Number of treasury shares As of Sep. 30, 2026: 134,341,050 shares"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "One class of common stock, priced from its primary listing on the Tokyo Stock Exchange (7974.T) rather than the U.S. OTC ADRs (NTDOY). Shares = 1,287,260,000 issued − 134,341,050 treasury = 1,152,918,950 at September 30, 2026, from Nintendo's half-year results released November 5, 2026; the release states both parts but not the difference. The issued count fell from 1,298,690,000 because Nintendo cancelled 11,430,000 treasury shares on March 31, 2026.",
+  "researchedAt": "2026-11-24"
+}

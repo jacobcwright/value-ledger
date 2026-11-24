@@ -72,6 +72,9 @@
         "label": "FY2026 Form 20-F (fiscal year ended March 31, 2026), notes to the consolidated financial statements, interest and dividends (yen in millions)",
         "quote": "Interest received Financial income 36,295 49,582 55,647 Net income (loss) from discontinued operations 244,292 260,725 138,878 Dividends received Financial income 1,138 1,390 2,995"
       },
+      "computedFrom": [
+        "55,647 + 2,995 (÷1,000)"
+      ],
       "derivation": "interest 55,647 + dividends 2,995 received in continuing operations outside revenue (financial income), inside operating cash flow; the discontinued Financial Services amounts are not in continuing revenue or OCF"
     }
   },

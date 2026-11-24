@@ -1,0 +1,52 @@
+{
+  "id": "lei-jun",
+  "company": "Xiaomi Corporation",
+  "classes": [
+    {
+      "label": "Class B ordinary shares (issued, less shares repurchased pending cancellation)",
+      "shares": 21304704129,
+      "sharesAsOf": "2026-10-31",
+      "pricedAs": "1810.HK",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "Class B issued shares (excluding treasury shares; none held) at close of October 2026",
+          "value": 21367083129,
+          "source": {
+            "hostType": "exchange",
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500734.pdf",
+            "label": "HKEX Monthly Return of Equity Issuer for the month ended 31 October 2026 (submitted 5 November 2026)",
+            "quote": "1. Class of shares WVR ordinary shares Type of shares B Listed on the Exchange (Note 1) Yes ... Balance at close of the month 21,367,083,129 0 21,367,083,129"
+          }
+        },
+        {
+          "label": "Class B shares repurchased for cancellation but not yet cancelled (subtracted)",
+          "value": -62379000,
+          "source": {
+            "hostType": "exchange",
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500734.pdf",
+            "label": "HKEX Monthly Return of Equity Issuer for the month ended 31 October 2026 (submitted 5 November 2026)",
+            "quote": "1). Repurchase of shares (shares repurchased for cancellation but not yet cancelled) 02 June 2026 -62,379,000"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Class A ordinary shares",
+      "shares": 4429236628,
+      "sharesAsOf": "2026-10-31",
+      "pricedAs": "1810.HK",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class A shares (10 votes each) are not listed; they convert into Class B shares one-for-one (the 2025 Annual Report records conversions of 'Class A Shares into Class B Shares on a one-to-one ratio').",
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500734.pdf",
+        "label": "HKEX Monthly Return of Equity Issuer for the month ended 31 October 2026 (submitted 5 November 2026)",
+        "quote": "2. Class of shares WVR ordinary shares Type of shares A Listed on the Exchange (Note 1) No ... Balance at close of the month 4,429,236,628 0 4,429,236,628"
+      }
+    }
+  ],
+  "notes": "Class B trades on the Hong Kong Stock Exchange as 01810 (HKD counter, 1810.HK; the RMB counter 81810 is the same shares and is not used). Class A is unlisted and priced through Class B. Counts are from the latest HKEX monthly return (October 2026): 21,367,083,129 Class B and 4,429,236,628 Class A in issue, no treasury shares; the 62,379,000 Class B shares repurchased for cancellation but not yet cancelled are subtracted. Xiaomi kept repurchasing Class B shares in November 2026 (next day disclosure returns), so the edition-date count is slightly lower than recorded. The annual-report counts (4,511,553,144 Class A and 21,535,682,134 Class B at 31 December 2025) are stale after 2026 buybacks, cancellations and Class A conversions.",
+  "researchedAt": "2026-11-24"
+}

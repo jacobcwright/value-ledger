@@ -44,6 +44,6 @@
       "quote": "At the close of business on January 31, 2026, there were 216 common stockholders of record."
     }
   },
-  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the common shares on the Q3 2026 10-Q cover (October 31, 2026), the same count used for the common class in the marketcap lens; the Subco units are left out of the denominator.",
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the common shares on the Q3 2026 10-Q cover (October 31, 2026), the same count used in the marketcap lens; the Subco units are left out of the denominator.",
   "researchedAt": "2026-11-24"
 }

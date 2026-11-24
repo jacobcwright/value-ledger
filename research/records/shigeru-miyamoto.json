@@ -1,27 +1,27 @@
 {
   "id": "shigeru-miyamoto",
   "company": "Nintendo",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-03-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
   "currency": "JPY",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-03-31",
+    "asOf": "2026-03-31",
     "leader": {
       "name": "Shigeru Miyamoto",
       "relation": "executive",
       "status": "holds",
       "pctEconomic": null,
       "pctVoting": null,
-      "shares": 4000,
-      "sharesAsOf": "2025-06-03",
+      "shares": 5000,
+      "sharesAsOf": "2026-06-02",
       "family": null,
       "source": {
         "hostType": "company",
-        "url": "https://www.nintendo.co.jp/ir/pdf/2025/convocation_notice2506e.pdf",
-        "label": "Notice of the 85th Annual General Meeting of Shareholders (June 3, 2025), Proposal 2 candidate No. 2 (printed p. 6)",
-        "quote": "Shigeru Miyamoto Reelection ... Number of shares of the Company held 4,000 shares ... September 2015 Executive Fellow (to present)"
+        "url": "https://www.nintendo.co.jp/ir/pdf/2026/convocation_notice2606e.pdf",
+        "label": "Notice of the 86th Annual General Meeting of Shareholders (June 2, 2026), Proposal 2 candidate No. 2",
+        "quote": "Shigeru Miyamoto Reelection ... Number of shares of the Company held 5,000 shares ... September 2015 Executive Fellow (to present)"
       }
     },
     "largestHolders": [
@@ -32,59 +32,59 @@
         "asOf": "2023-10-31",
         "source": {
           "hostType": "company",
-          "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
-          "label": "Nintendo Annual Report 2025 (translation of the Annual Securities Report), IV.1(6) Status of major shareholders, note 5 (printed pp. 28-29)",
+          "url": "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf",
+          "label": "Nintendo Annual Report 2026 (translation of the Annual Securities Report), IV.1(6) Status of major shareholders, note 2",
           "quote": "the Statement of Changes made available for public inspection dated November 6, 2023 states that the following shares are held by BlackRock Japan Co., Ltd. and its joint holders as of October 31, 2023 ... Total - 809,960 6.24 [hundreds of shares; %]"
         }
       },
       {
-        "name": "MUFG Bank, Ltd. and its joint holders (Mitsubishi UFJ Trust and Banking, Mitsubishi UFJ Asset Management)",
+        "name": "The Bank of Kyoto, Ltd.",
         "type": "company",
-        "pctEconomic": 6.23,
-        "asOf": "2024-07-22",
+        "pctEconomic": 3.37,
+        "asOf": "2026-03-31",
         "source": {
           "hostType": "company",
-          "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
-          "label": "Nintendo Annual Report 2025 (translation of the Annual Securities Report), IV.1(6) Status of major shareholders, note 4 (printed p. 28)",
-          "quote": "the Statement of Changes made available for public inspection dated July 29, 2024 states that the following shares are held by MUFG Bank, Ltd. and its joint holders as of July 22, 2024 ... Total - 809,245 6.23 [hundreds of shares; %]"
+          "url": "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf",
+          "label": "Nintendo Annual Report 2026 (translation of the Annual Securities Report), IV.1(6) Status of major shareholders (register, as of March 31, 2026)",
+          "quote": "The Bank of Kyoto, Ltd. 700 Yakushimae-cho, Matsubara-Agaru, ... 388,020 3.37 [hundreds of shares; % excluding treasury shares]"
         }
       },
       {
-        "name": "Sumitomo Mitsui Trust Asset Management Co., Ltd. and its joint holders (incl. Nikko Asset Management)",
-        "type": "asset-manager",
-        "pctEconomic": 5.63,
-        "asOf": "2023-03-31",
+        "name": "GIC Private Limited",
+        "type": "sovereign",
+        "pctEconomic": 2.1,
+        "asOf": "2026-03-31",
         "source": {
           "hostType": "company",
-          "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
-          "label": "Nintendo Annual Report 2025 (translation of the Annual Securities Report), IV.1(6) Status of major shareholders, note 3 (printed p. 28)",
-          "quote": "the Statement of Changes made available for public inspection dated April 6, 2023 states that the following shares are held by Sumitomo Mitsui Trust Asset Management Co., Ltd. and its joint holders as of March 31, 2023 ... Total - 730,866 5.63 [hundreds of shares; %]"
+          "url": "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf",
+          "label": "Nintendo Annual Report 2026 (translation of the Annual Securities Report), IV.1(6) Status of major shareholders (register, as of March 31, 2026)",
+          "quote": "GIC Private Limited – C 168 ROBINSON ROAD #37-01 ... 242,450 2.10 [hundreds of shares; % excluding treasury shares]"
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock: 1,298,690,000 shares issued at March 31, 2025, including 134,441,816 treasury shares. No shareholder holds a controlling stake. The register's largest holders are trust-bank and custodian accounts: The Master Trust Bank of Japan (Trust Account) with 16.67% and Custody Bank of Japan (Trust Account) with 5.58%. The largest named non-custodian holder on the register is The Bank of Kyoto with 4.19%. Register percentages exclude treasury shares."
+      "note": "One class of common stock: 1,287,260,000 shares issued at March 31, 2026, including 134,431,295 treasury shares (Nintendo cancelled 11,430,000 treasury shares on March 31, 2026). No shareholder holds a controlling stake. The register's largest holders are trust-bank and custodian accounts: The Master Trust Bank of Japan (Trust Account) with 16.05% and Custody Bank of Japan (Trust Account) with 5.02%. The largest named non-custodian holder on the register is The Bank of Kyoto with 3.37%. Register percentages exclude treasury shares."
     }
   },
   "cash": {
     "dividends": {
-      "value": 193.19,
+      "value": 147.86,
       "source": {
         "hostType": "company",
-        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
-        "label": "Nintendo Annual Report 2025, (iv) Consolidated statements of cash flows (printed p. 66)",
-        "quote": "Cash flows from financing activities Dividends paid (236,240) (193,191) (1,296) [millions of yen, previous fiscal year and current fiscal year (April 1, 2024 to March 31, 2025); millions of dollars]"
+        "url": "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf",
+        "label": "Nintendo Annual Report 2026 (translation of the Annual Securities Report), (iv) Consolidated statements of cash flows",
+        "quote": "Cash flows from financing activities Purchase of treasury shares (2) (99,935) (628) Dividends paid (193,191) (147,858) (929) [millions of yen, previous fiscal year and current fiscal year (April 1, 2025 to March 31, 2026); millions of dollars]"
       }
     },
     "buybacks": {
-      "value": 0,
+      "value": 99.94,
       "source": {
         "hostType": "company",
-        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
-        "label": "Nintendo Annual Report 2025, consolidated statements of changes in net assets, current fiscal year (printed p. 64)",
-        "quote": "Current fiscal year (from April 1, 2024 to March 31, 2025) (Millions of yen) ... Purchase of treasury shares (2) (2)"
+        "url": "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf",
+        "label": "Nintendo Annual Report 2026 (translation of the Annual Securities Report), (iv) Consolidated statements of cash flows",
+        "quote": "Purchase of treasury shares (2) (99,935) (628) [millions of yen, previous fiscal year and current fiscal year (April 1, 2025 to March 31, 2026); millions of dollars]"
       }
     }
   },
@@ -100,29 +100,29 @@
     "segments": [
       {
         "name": "Japan",
-        "value": 274.88
+        "value": 534.92
       },
       {
         "name": "The Americas",
-        "value": 515.13
+        "value": 935.25
       },
       {
         "name": "Europe",
-        "value": 285.74
+        "value": 551.47
       },
       {
         "name": "Other",
-        "value": 89.17
+        "value": 291.41
       }
     ],
-    "total": 1164.92,
+    "total": 2313.05,
     "source": {
       "hostType": "company",
-      "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
-      "label": "Nintendo Annual Report 2025, Segment information, Related information, 2. Information by geographic area (printed p. 95)",
-      "quote": "Current fiscal year (From April 1, 2024 to March 31, 2025) ... 2. Information by geographic area (1) Net sales (Millions of yen) Japan The Americas from U.S. Europe Other Total 274,882 515,130 419,399 285,744 89,165 1,164,922 (Note) Net sales are categorized by country or region based on the location of the customer."
+      "url": "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf",
+      "label": "Nintendo Annual Report 2026 (translation of the Annual Securities Report), Segment information, Related information, 2. Information by geographic area",
+      "quote": "2. Information by geographic area (1) Net sales (Millions of yen) The Americas Japan Europe Other Total from U.S. 534,924 935,251 790,108 551,468 291,405 2,313,051 ... (Note) Net sales are categorized by country or region based on the location of the customer."
     }
   },
-  "notes": "Fiscal year ended March 31, 2025 (Nintendo's 85th fiscal year; data.js fy 'Mar 2025'). The main source is Nintendo's English 'Annual Report 2025', a translation of its Japanese Annual Securities Report under J-GAAP (the Japanese original prevails), plus the English AGM convocation notice. Both are on nintendo.co.jp.The relation enum has no value that fits; 'investor' is used only because it asserts no office he has not held. It should not be displayed as his role. OWNERSHIP: Miyamoto holds 4,000 shares (the Annual Report directors table shows 40 hundred shares as of June 26, 2025). No percentage is disclosed; it is far below 0.01% of the 1.16 billion shares outstanding, so pctEconomic is null. LARGEST HOLDERS: these are the three largest disclosed holders that are not trust-bank or custodian nominee accounts. They come from the large-volume holding reports that Nintendo quotes in notes to its major-shareholders table, each with its own report date. Nintendo says it 'could not confirm the actual number of shares held as of March 31, 2025', so all three are stale. Their shares likely sit inside the trust-bank lines of the register, which is why those lines are not listed. Other disclosed holders: the Nomura Securities group (5.00% as of March 15, 2024) and, on the register at March 31, 2025, The Bank of Kyoto (4.19%) and The Nomura Trust and Banking Co. (MUFG Bank, Ltd. Retiree Allowance Trust Account, 3.62%). The last is the same 421,090 hundred shares that MUFG Bank reports in its group's 6.23%, so it is not listed separately. DIVIDENDS: the cash-flow line 'Dividends paid' (¥193,191m); the J-GAAP statement shows no separate line for non-controlling interests. BUYBACKS: there was no share repurchase program; the only purchase of treasury shares was ¥2 million (fractional-share purchases), which rounds to 0.00 billion. STOCK COMP is null: Nintendo grants restricted stock only to Directors, it reports only their compensation amounts, and it has no stock option scheme ('Description of stock option scheme: Not applicable'). No company-wide share-based payment expense is disclosed. GEOGRAPHY: The Americas includes the U.S. (¥419,399m), which is not listed as a separate segment to avoid double counting.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended March 31, 2026 (Nintendo's 86th fiscal year, the first full year of Nintendo Switch 2). The main source is Nintendo's English 'Annual Report 2026', a translation of its Japanese Annual Securities Report under J-GAAP (the Japanese original prevails), plus the English convocation notice of the 86th AGM (June 2, 2026). Both are on nintendo.co.jp. LEADER: Shigeru Miyamoto is Representative Director and Executive Fellow; relation 'executive' (he was never CEO or chair). He holds 5,000 shares (the notice; the annual report's directors table shows 50 hundred shares). No percentage is disclosed; it is far below 0.01% of the about 1.15 billion shares outstanding, so pctEconomic is null. LARGEST HOLDERS: the three largest disclosed holders that are not trust-bank or custodian nominee accounts. BlackRock's 6.24% comes from a large-volume holding report as of October 31, 2023 that Nintendo quotes in a note to its major-shareholders table, saying it 'could not confirm the actual number of shares held as of March 31, 2026'; that ratio predates the March 2026 cancellation of treasury shares, and is stale. The MUFG and Sumitomo Mitsui Trust group reports quoted in the 2025 report are no longer quoted. The Bank of Kyoto (3.37%, down from 4.19%) and GIC Private Limited (2.10%, account 'C') are from the register at March 31, 2026. The Nomura Trust and Banking Co. (MUFG Bank Retiree Allowance Trust Account, 1.83%) is a trust account and is not listed. DIVIDENDS: the cash-flow line 'Dividends paid' (¥147,858m); the J-GAAP statement shows no separate line for non-controlling interests. BUYBACKS: 'Purchase of treasury shares' ¥99,935m in fiscal 2026 (the line was reclassified out of 'Other, net' this year). STOCK COMP is null: Nintendo grants restricted stock only to Directors and reports only their compensation amounts; no company-wide share-based payment expense is disclosed. GEOGRAPHY: The Americas includes the U.S. (¥790,108m), which is not listed as a separate segment to avoid double counting.",
+  "researchedAt": "2026-11-24"
 }

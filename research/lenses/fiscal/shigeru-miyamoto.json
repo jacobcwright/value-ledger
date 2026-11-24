@@ -1,32 +1,32 @@
 {
   "id": "shigeru-miyamoto",
   "company": "Nintendo",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-03-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
   "currency": "JPY",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 148.18,
+      "value": 105.45,
       "source": {
         "hostType": "company",
-        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
-        "label": "Annual Report (Securities Report) for FY ended March 31, 2025, consolidated statements of cash flows",
-        "quote": "Income taxes paid (183,415) (148,184) (994) [Millions of yen, FY ended March 2024 and March 2025; millions of USD]"
+        "url": "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf",
+        "label": "Nintendo Annual Report 2026 (translation of the Annual Securities Report), consolidated statements of cash flows",
+        "quote": "Income taxes paid (148,184) (105,449) (663) [Millions of yen, FY ended March 2025 and March 2026; millions of USD]"
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 143.79,
+      "value": 177.89,
       "source": {
         "hostType": "company",
-        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
-        "label": "Annual Report (Securities Report) for FY ended March 31, 2025, notes to consolidated statements of income",
-        "quote": "*3. Research and development expenses included in general and administrative expenses and manufacturing ... Research and development expenses ¥137,749 million ¥143,788 million USD 965 million [FY ended March 2024, March 2025]"
+        "url": "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf",
+        "label": "Nintendo Annual Report 2026 (translation of the Annual Securities Report), notes to consolidated statements of income",
+        "quote": "*3. Research and development expenses included in general and administrative expenses and manufacturing costs ... Research and development expenses ¥143,788 million ¥177,892 million USD 1,118 million [FY ended March 2025, March 2026]"
       }
     }
   },
-  "notes": "Consolidated (Japanese GAAP). R&D: total R&D expenses in general and administrative expenses and manufacturing costs (¥143,788m); R&D within SG&A alone was ¥143,782m. The non-consolidated figure (¥65,503m) is not used.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended March 31, 2026. Consolidated (Japanese GAAP). R&D: total R&D expenses in general and administrative expenses and manufacturing costs (¥177,892m); R&D within SG&A alone was ¥177,890m.",
+  "researchedAt": "2026-11-24"
 }

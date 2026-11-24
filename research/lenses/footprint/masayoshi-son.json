@@ -6,9 +6,9 @@
       "label": "Non-current assets by location",
       "unit": "currency-millions",
       "currency": "JPY",
-      "period": "as of Mar 31, 2025",
+      "period": "as of Mar 31, 2026",
       "tier": "filing",
-      "definition": "Non-current assets excluding financial assets and deferred tax assets, by location, from the segment note's geographical information (¥12,482,993 million in total)."
+      "definition": "Non-current assets excluding financial assets and deferred tax assets, by location, from the segment note's geographical information (¥16,131,519 million in total)."
     }
   },
   "usStates": null,
@@ -17,44 +17,58 @@
       "iso2": "JP",
       "name": "Japan",
       "values": {
-        "nonCurrentAssets": 7239874
+        "nonCurrentAssets": 7356457
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
-        "label": "Financial Report 2025 (FY ended Mar 31, 2025), segment information, (3) Geographical information, b. Non-current assets",
-        "quote": "b. Non-current assets (excluding financial assets and deferred tax assets) … Japan ¥ 6,812,263 ¥ 7,239,874 $48,420,773"
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2026_en.pdf",
+        "label": "Financial Report 2026 (FY ended Mar 31, 2026), segment information, (3) Geographical information, b. Non-current assets",
+        "quote": "b. Non-current assets (excluding financial assets and deferred tax assets) … Japan ¥ 7,239,874 ¥ 7,356,457 $ 46,012,366"
       }
     },
     {
       "iso2": "GB",
       "name": "United Kingdom",
       "values": {
-        "nonCurrentAssets": 4099932
+        "nonCurrentAssets": 4414867
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
-        "label": "Financial Report 2025 (FY ended Mar 31, 2025), segment information, (3) Geographical information, b. Non-current assets",
-        "quote": "b. Non-current assets (excluding financial assets and deferred tax assets) … U.K. 4,098,218 4,099,932 27,420,626"
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2026_en.pdf",
+        "label": "Financial Report 2026 (FY ended Mar 31, 2026), segment information, (3) Geographical information, b. Non-current assets",
+        "quote": "b. Non-current assets (excluding financial assets and deferred tax assets) … U.K. 4,099,932 4,414,867 27,613,629"
+      }
+    },
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "nonCurrentAssets": 3980282
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2026_en.pdf",
+        "label": "Financial Report 2026 (FY ended Mar 31, 2026), segment information, (3) Geographical information, b. Non-current assets",
+        "quote": "b. Non-current assets (excluding financial assets and deferred tax assets) … U.S. 976,255 3,980,282 24,895,434"
       }
     }
   ],
   "regions": [
     {
-      "name": "Other (outside Japan and the U.K.)",
+      "name": "Other (outside Japan, the U.K. and the U.S.)",
       "countries": null,
       "values": {
-        "nonCurrentAssets": 1143187
+        "nonCurrentAssets": 379913
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
-        "label": "Financial Report 2025 (FY ended Mar 31, 2025), segment information, (3) Geographical information, b. Non-current assets",
-        "quote": "b. Non-current assets (excluding financial assets and deferred tax assets) … Other 400,938 1,143,187 7,645,713"
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2026_en.pdf",
+        "label": "Financial Report 2026 (FY ended Mar 31, 2026), segment information, (3) Geographical information, b. Non-current assets",
+        "quote": "b. Non-current assets (excluding financial assets and deferred tax assets) … Other 166,932 379,913 2,376,239"
       }
     }
   ],
@@ -68,8 +82,8 @@
       "description": "SoftBank Group Corp. corporate headquarters, 1-7-1 Kaigan, Minato-ku, Tokyo",
       "source": {
         "hostType": "company",
-        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2025_en.pdf",
-        "label": "Annual Report 2025, corporate data",
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2026_en.pdf",
+        "label": "Annual Report 2026, corporate data",
         "quote": "Corporate headquarters 1-7-1, Kaigan, Minato-ku, Tokyo 105-7537, Japan"
       }
     },
@@ -79,15 +93,15 @@
       "state": null,
       "iso2": "GB",
       "type": "subsidiary-headquarters",
-      "description": "Headquarters of subsidiary Arm, which operates in the U.S., China, India, South Korea, Japan, Taiwan and Europe",
+      "description": "Headquarters of subsidiary Arm, which operates in the U.S., Europe, China, India, South Korea, Japan and Taiwan",
       "source": {
         "hostType": "company",
-        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2025_en.pdf",
-        "label": "Annual Report 2025, risk factors (Arm)",
-        "quote": "Arm’s headquarters are in the U.K., and it currently operates in jurisdictions around the world, including the U.S., China, India, South Korea, Japan, Taiwan, and Europe."
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2026_en.pdf",
+        "label": "Annual Report 2026, risk factors (Arm)",
+        "quote": "Arm’s headquarters are in the U.K., and it currently operates in jurisdictions around the world, including the U.S., Europe, China, India, South Korea, Japan, and Taiwan."
       }
     }
   ],
-  "notes": "SoftBank Group publishes no employees, offices or investment by state or country. The only geographic footprint measure is non-current operating assets (excluding financial assets and deferred tax assets) for Japan, the U.K. and Other, from the FY2024 (year ended Mar 31, 2025) Financial Report 2025 on group.softbank; net sales by customer location (Japan/Other) are already in the records and not repeated. The Financial Report is SoftBank's English annual financial statements (tier filing), hosted on the company site. Quotes join the table title and row with '…'; the PDF's dot leaders are dropped. Sites: HQ from the Annual Report's corporate data, Arm's U.K. headquarters from its risk section (no city given there).",
-  "researchedAt": "2026-11-23"
+  "notes": "SoftBank Group publishes no employees, offices or investment by state or country. The only geographic footprint measure is non-current operating assets (excluding financial assets and deferred tax assets) by location, from the FY2025 (year ended Mar 31, 2026) Financial Report 2026 on group.softbank: Japan, the U.K. and, new in this edition, the U.S. (¥3,980,282 million, up from ¥976,255 million a year earlier), plus Other. The Mar 31, 2025 comparatives match the previous edition (Japan ¥7,239,874 million, U.K. ¥4,099,932 million), and the old \"Other\" (¥1,143,187 million) is now split into U.S. ¥976,255 million and Other ¥166,932 million. Net sales by customer location are already in the records and not repeated. The Financial Report is SoftBank's English annual financial statements (tier filing), hosted on the company site. Quotes join the table title and row with '…'; the PDF's dot leaders are dropped; the recorded value is the Mar 31, 2026 yen column (the last column is U.S. dollars in thousands). Sites: HQ from the Annual Report 2026 corporate data, Arm's U.K. headquarters from its risk section (no city given there).",
+  "researchedAt": "2026-11-24"
 }
