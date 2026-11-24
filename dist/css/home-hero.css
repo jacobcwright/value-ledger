@@ -119,6 +119,12 @@
   .stat strong {font-size:28px}
   .stat > span {font-size:13px}
 }
+/* The brand and three nav links no longer fit on one line below ~620px: drop the links to a second row. */
+@media (max-width:640px) {
+  .top .nav {height:auto;flex-wrap:wrap;gap:0 var(--space-3);padding-top:var(--space-3)}
+  .top nav {width:100%;gap:var(--space-5);font-size:13px}
+  .top nav a {padding-block:var(--space-3) var(--space-2)}
+}
 @media (prefers-reduced-motion:reduce) {
   .cover .portrait,.cover-card,.primary,.hero-case span + span,.stat-shared .stat-more span {transition:none}
 }

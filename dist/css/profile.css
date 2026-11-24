@@ -156,6 +156,6 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
 }
 @media (prefers-reduced-motion:reduce) {
   dialog,dialog::backdrop,.profile-step,.close,.zoom button,.places button {transition:none}
-  #profile-body > * {animation:none}
+  #profile-body > *,#profile-body > .profile-title,#profile-body > .profile-lede,#profile-body > .profile-stats {animation:none}
   .profile-bottom input[type=range]::-webkit-slider-thumb {transition:none}
 }

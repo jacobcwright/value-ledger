@@ -11,10 +11,11 @@
 .story-label {display:flex;align-items:baseline;gap:var(--space-2);margin:0 0 var(--space-4);font-size:13px;font-weight:750;letter-spacing:.12em;text-transform:uppercase;color:var(--ink)}
 .story-label span {color:var(--red);font-variant-numeric:tabular-nums}
 .story-figure {display:block;font:400 clamp(40px,3.9vw,56px)/1 var(--serif);letter-spacing:-.05em;font-variant-numeric:lining-nums tabular-nums;color:var(--ink);min-height:1em}
+.story-figure small {font-size:.48em;letter-spacing:-.01em}
 .story-shared {color:var(--green)}
 .story-caption {margin:var(--space-2) 0 var(--space-4);font-size:13px;font-weight:650;line-height:1.35;color:var(--ink)}
 .story-step > p:not(.story-label):not(.story-caption) {margin:0 0 var(--space-4);color:var(--muted);font-size:15px;line-height:1.55}
-.story-step p strong {color:var(--ink);font-variant-numeric:tabular-nums}
+.story-step p strong {color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}
 .story-bar {display:flex;gap:2px;height:10px;margin:0 0 var(--space-4);border-radius:var(--radius-sm);overflow:hidden;background:var(--line)}
 .story-bar span {flex:1 1 0;min-width:3px}
 .story-bar-founder {background:var(--red)}
@@ -52,14 +53,18 @@
 .footer-note a {text-decoration:underline}
 .footer-top {grid-column:1/-1;grid-row:2;justify-self:end;margin-top:var(--space-5);font-size:13px;font-weight:650}
 .footer-top::after {content:" ↑"}
-@media (max-width:1000px) {
-  .story-head,.method-head {grid-template-columns:1fr}
-  .story-lede {max-width:620px}
+/* Two columns from 1100px down: at four columns the "Shared ownership" label wraps near 1024px
+   and pushes its figure out of line with the others. */
+@media (max-width:1100px) {
   .story-steps {grid-template-columns:repeat(2,minmax(0,1fr))}
   .story-step {padding-bottom:var(--space-6)}
   .story-step:nth-child(odd) {padding-left:0;border-left:0}
   .story-step:nth-child(even) {padding-right:0}
   .story-step:nth-child(n+3) {border-top:1px solid var(--line)}
+}
+@media (max-width:1000px) {
+  .story-head,.method-head {grid-template-columns:1fr}
+  .story-lede {max-width:620px}
 }
 @media (max-width:760px) {
   .story,.method {padding-block:var(--space-7)}

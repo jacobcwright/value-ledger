@@ -101,7 +101,7 @@ function amazonDistribution(leader) {
       </div>
       <div id="distribution-ownership" class="distribution-panel" role="tabpanel" aria-labelledby="distribution-tab-ownership" tabindex="0">
         <div class="distribution-subhead">
-          <div><h4>Who held Amazon shares?</h4><p>Year-end 2024 · ${equityValue(sharesOutstanding)} in total equity value</p></div>
+          <div><h4>Who held Amazon shares?</h4><p>Year-end 2024 · ${equityValue(sharesOutstanding)} in total equity value, from reported shares at the year-end price. The ${compactMoney(leader.cap)} value created figure above is CompaniesMarketCap’s estimate.</p></div>
         </div>
         <div class="ownership-takeaway">
           <p class="ownership-headline"><span>Jeff Bezos held <strong class="is-founder">${roundPercent(founder.shares)}</strong> of Amazon directly.</span> <span>Everyone else held <strong>${roundPercent(outsideFounder)}</strong>.</span></p>
@@ -121,7 +121,7 @@ function amazonDistribution(leader) {
           <div class="ownership-choices" role="group" aria-label="Select a holding">
             <p class="ownership-group"><span>Founder</span></p>
             ${holdingButton(entries[0],0)}
-            <p class="ownership-group ownership-group-others"><span>Everyone else</span><span>${equityValue(outsideFounder)} · ${percent(outsideFounder)}</span></p>
+            <p class="ownership-group ownership-group-others"><span>Everyone else</span><span>${equityValue(outsideFounder)} · ${roundPercent(outsideFounder)}</span></p>
             ${entries.slice(1).map((holder,index) => holdingButton(holder,index + 1)).join("")}
           </div>
           <div class="ownership-detail" aria-live="polite">
@@ -137,14 +137,14 @@ function amazonDistribution(leader) {
         </div>
         <p class="distribution-note"><strong>${integer.format(registeredShareholders)} registered shareholders</strong> as of January 29, 2025. A brokerage can appear as a single registered holder for many customers, so the number of people with indirect stakes is higher. ${externalLink(amazonSources.annual,"Amazon’s annual report")}</p>
         <details class="distribution-method"><summary>How we estimated these holdings</summary>
-          <p>We multiply the reported share counts by the December 31 price of $219.39. Amazon reported about 10.593 billion shares outstanding at year-end. The founder’s latest 2024 Form 4 is from November, and the following proxy confirms the same stake after excluding voting-only shares. Each named fund or pension shows its reported position only. These are values at one point in time. The leaderboard uses a separate CompaniesMarketCap estimate.</p>
+          <p>We multiply the reported share counts by the December 31 price of ${'$' + yearEndPrice.toFixed(2)}. Amazon reported about ${(sharesOutstanding / 1e9).toFixed(3)} billion shares outstanding at year-end. The founder’s latest 2024 Form 4 is from November, and the following proxy confirms the same stake after excluding voting-only shares. Each named fund or pension shows its reported position only. These are values at one point in time. The leaderboard’s ${compactMoney(leader.cap)} uses a separate CompaniesMarketCap estimate.</p>
           <div class="sources">${sources([[amazonSources.annual,"Shares outstanding"],[amazonSources.fiveHundred,"Year-end fund valuation"]])}</div>
         </details>
       </div>
       <div id="distribution-cash" class="distribution-panel" role="tabpanel" aria-labelledby="distribution-tab-cash" tabindex="0" hidden>
         <div class="distribution-subhead">
           <div><h4>What did Amazon pay to shareholders?</h4><p>Cash dividends and stock buybacks · Fiscal years ${years}</p></div>
-          <div class="distribution-total"><strong>${distributionMoney(cashReturned)}</strong><span>Cash returned over three years</span></div>
+          <div class="distribution-total"><strong>${distributionMoney(cashReturned)}</strong><span>Total cash returned</span></div>
         </div>
         ${cashSummary ? `<p class="distribution-lede">${cashSummary}</p>` : ""}
         <table class="distribution-table">
@@ -164,7 +164,7 @@ function amazonDistribution(leader) {
           <div><strong>${distributionMoney(leader.payroll)}</strong><span>${metrics.payroll}</span></div>
           <div><strong>${distributionMoney(last.stockPay)}</strong><span>Stock-based compensation expense in 2024</span></div>
         </div>
-        <p class="distribution-note">Yearly pay is this site’s wage estimate. Stock-based compensation is the amount Amazon recorded as an expense. The figures have different bases, so read each one on its own. What an employee actually received depends on what vested and when they sold.</p>
+        <p class="distribution-note">Estimated annual pay is this site’s estimate: people employed multiplied by an assumed yearly pay. Stock-based compensation is the amount Amazon recorded as an expense. The figures have different bases, so read each one on its own. What an employee actually received depends on what vested and when they sold.</p>
         <div class="worker-equity-head">
           <h5 class="distribution-mini-heading">Stock-based compensation expense</h5>
           <p>${distributionMoney(totalStockPay)} over ${years}</p>

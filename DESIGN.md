@@ -15,6 +15,8 @@ The thesis is that building a great company is one of the most powerful ways a p
 
 Every headline figure above must be **computed in code from `data.js` or the Amazon data files**. Never hardcode it in copy. If you need a number that doesn't already exist in the data, don't add it.
 
+**One figure, one display.** List-wide totals (the dark band, the "How value spreads" figures and the `<head>` meta copy) use `headlineFigure()` in `app.js`: "$35.5 trillion", "15 million", "$985 billion". Per-company figures use `compactMoney()`: "$2.35T", "$85.6B". Percentages for an aggregate (Bezos's 8.6%, everyone else's 91.4%) use one decimal; individual holdings in the Amazon list use two so small positions such as CalPERS's 0.15% stay visible. Amazon's $2.32T equity value (shares × year-end price) differs from its $2.35T value created (CompaniesMarketCap), and the case study says so where both appear.
+
 ## Voice
 
 - Confident, warm and optimistic. Write like a well-edited business magazine celebrating its annual list, not like a pamphlet.

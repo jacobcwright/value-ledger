@@ -47,7 +47,7 @@ function amazonStatesView() {
       <div class="amazon-states-map">
         <p class="amazon-states-summary" id="amazon-states-summary"></p>
         <div class="amazon-states-canvas">
-          <svg viewBox="-64 0 1030 620" role="radiogroup" aria-label="Map of the 50 U.S. states. Use the arrow keys to move between states." aria-describedby="amazon-states-summary">
+          <svg viewBox="-64 0 1030 620" tabindex="-1" role="radiogroup" aria-label="Map of the ${amazonStateData.length} U.S. states. Use the arrow keys to move between states." aria-describedby="amazon-states-summary">
             <defs>
               <pattern id="amazon-state-hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
                 <rect width="7" height="7" fill="#2b3a3c"></rect><line x1="0" y1="0" x2="0" y2="7" stroke="#5a6d6b" stroke-width="2"></line>
@@ -158,7 +158,7 @@ function bindAmazonStates(root) {
     const badge = reported.length === amazonStateData.length ? "Every state" : `${reported.length} of ${amazonStateData.length} states`;
     summary.innerHTML = `<span class="amazon-states-every">${badge}</span>
       <span><strong>${totalText}</strong> ${what} across ${scope}</span>
-      <span class="amazon-states-range">Sum of reported state figures${key === "employees" ? ", latest snapshot" : ", 2010–2025"}. Ranges from ${amount(low,key)} in ${low.name} to ${amount(high,key)} in ${high.name}.</span>`;
+      <span class="amazon-states-range">Sum of reported state figures${stateMeasures[key].period ? ", " + stateMeasures[key].period : ", latest snapshot"}. Ranges from ${amount(low,key)} in ${low.name} to ${amount(high,key)} in ${high.name}.</span>`;
   }
 
   function ring(name,index) {

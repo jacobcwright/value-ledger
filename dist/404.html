@@ -9,7 +9,7 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-:root{color-scheme:light;--ink:#25201e;--muted:#625953;--paper:#fbf8f2;--line:#dfd7cc;--red:#9d271f;--red-dark:#84231b;--serif:Georgia,"Times New Roman",serif;--sans:"Inter","Aptos","Segoe UI",sans-serif}
+:root{color-scheme:light;--ink:#25201e;--muted:#625953;--paper:#fbf8f2;--line:#dfd7cc;--red:#9d271f;--red-dark:#84231b;--serif:Georgia,"Times New Roman",serif;--sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;--radius-sm:4px;--focus:#b0563d}
 *,*::before,*::after{box-sizing:border-box}
 body{margin:0;min-height:100vh;display:flex;flex-direction:column;background:#f3ebe0;color:var(--ink);font:16px/1.55 var(--sans);border-top:5px solid var(--red)}
 .wrap{width:min(1200px,100% - 32px);margin:0 auto}
@@ -21,9 +21,9 @@ main{flex:1;display:flex;align-items:center}
 .eyebrow span{width:29px;height:2px;background:var(--red)}
 h1{margin:0 0 20px;font:400 clamp(48px,9vw,96px)/.92 var(--serif);letter-spacing:-.06em}
 p{max-width:34em;margin:0 0 28px;color:var(--muted);font-size:18px}
-a.primary{display:inline-block;padding:12px 18px;background:var(--red);color:#fff8ef;font-weight:700;text-decoration:none;border-radius:2px;transition:background .18s}
+a.primary{display:inline-block;padding:12px 18px;background:var(--red);color:#fff8ef;font-weight:700;text-decoration:none;border-radius:var(--radius-sm);transition:background .18s}
 a.primary:hover{background:var(--red-dark)}
-a:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
 .content{padding:64px 0 80px}
 @media (prefers-reduced-motion:reduce){a.primary{transition:none}}
 </style>

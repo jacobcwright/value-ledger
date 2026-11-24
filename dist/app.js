@@ -25,18 +25,23 @@ byId("cover").innerHTML = sortedByCap.slice(0,3).map((leader,index) => `
     <span class="cover-rank">${index + 1}</span>
     <span class="cover-caption"><strong>${escapeHtml(leader.name)}</strong><small>${escapeHtml(leader.company)} <span>${compactMoney(leader.cap)}</span></small></span>
   </a>`).join("");
+// List-wide headline figures ("$35.5 trillion", "15 million", "$985 billion"). The dark band, the
+// "How value spreads" story and the <head> meta copy all use this one rounding, so they always match.
+function headlineFigure(value, prefix = "") {
+  const oneDecimal = number => number.toFixed(1).replace(/\.0$/,"");
+  return value >= 1e12 ? [prefix + oneDecimal(value / 1e12),"trillion"]
+    : value >= 1e9 ? [prefix + Math.round(value / 1e9),"billion"]
+    : [prefix + oneDecimal(value / 1e6),"million"];
+}
+const headlineHtml = ([number,unit]) => `${number}<small> ${unit}</small>`;
+const headlineText = ([number,unit]) => `${number} ${unit}`;
 {
   // Headline figures for the dark band, all computed from the data files.
   const sum = key => leaders.reduce((total,leader) => total + leader[key],0);
-  const oneDecimal = value => value.toFixed(1).replace(/\.0$/,"");
-  const scaled = (value, prefix = "") => value >= 1e12 ? [prefix + oneDecimal(value / 1e12),"trillion"]
-    : value >= 1e9 ? [prefix + Math.round(value / 1e9),"billion"]
-    : [prefix + oneDecimal(value / 1e6),"million"];
-  const figure = ([number,unit]) => `${number}<small> ${unit}</small>`;
   const stats = [
-    {value:figure(scaled(sum("cap") * 1e9,"$")),label:"in value created, at year-end 2024"},
-    {value:figure(scaled(sum("jobs"))),label:"people employed directly"},
-    {value:figure(scaled(sum("payroll") * 1e9,"$")),label:"estimated pay to workers each year"}
+    {value:headlineHtml(headlineFigure(sum("cap") * 1e9,"$")),label:"in value created, at year-end 2024"},
+    {value:headlineHtml(headlineFigure(sum("jobs"))),label:"people employed directly"},
+    {value:headlineHtml(headlineFigure(sum("payroll") * 1e9,"$")),label:"estimated pay to workers each year"}
   ];
   const founder = typeof amazonOwnership !== "undefined" && amazonOwnership.holders.find(holder => holder.color === "founder");
   if (founder) {

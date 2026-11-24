@@ -168,7 +168,7 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
         <p>${decimal.format(share)}% of Amazon’s 2024 net sales.</p>
         ${item.id === "other" ? "<p>Amazon reports these markets as a group in its annual report.</p>" : ""}
         <div class="amazon-detail-actions">
-          ${item.id === "US" ? '<button type="button" class="map-scope-link" data-open-states>Explore all 50 states</button>' : ""}
+          ${item.id === "US" ? `<button type="button" class="map-scope-link" data-open-states>Explore all ${amazonStateData.length} states</button>` : ""}
           <button type="button" class="map-scope-link" data-sites-in="${item.id}">Explore sites in ${item.id === "other" ? "other markets" : "this market"}</button>
         </div>`;
     } else {
@@ -218,7 +218,7 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
     statesView.hidden = !isStates;
     enter(isStates ? statesView : layout);
     if (isStates) {
-      byId("amazon-layer-description").textContent = "Amazon’s economic impact across all 50 states";
+      byId("amazon-layer-description").textContent = `Amazon’s economic impact across all ${amazonStateData.length} states`;
       setTakeaway();
       note.textContent = "Dollar figures cover 2010 through December 2025. Employment figures are snapshots. GDP contribution is an estimate from Amazon’s economic-impact study with Keystone Strategy, based on U.S. Bureau of Economic Analysis methods. A plus sign indicates a rounded lower bound.";
       source.innerHTML = externalLink(amazonStateSource,"Amazon’s state investment and impact report");
