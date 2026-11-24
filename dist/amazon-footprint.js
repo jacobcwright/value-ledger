@@ -261,7 +261,7 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
     const heat = isMarket ? new Map(amazonMarkets.flatMap(market => (amazonMarketMask[market.id] || []).map(index => [index,marketHeat[market.id]]))) : null;
     const markers = entries.filter(item => item.lat != null).map(item => [item.name,item.lat,item.lon]);
     globe = createGlobe(canvas,markers,choose,{
-      arcs:false,heat,
+      arcs:false,heat,ringColor:"#ffd298",
       markers:entries.filter(item => item.lat != null).map(item => isMarket
         ? {...marketHeat[item.id],radius:item.id === "US" ? 6 : 4.1}
         : {color:amazonSiteTypes[item.type].color,radius:3.6})

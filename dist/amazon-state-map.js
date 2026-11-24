@@ -158,7 +158,7 @@ function bindAmazonStates(root) {
     const badge = reported.length === amazonStateData.length ? "Every state" : `${reported.length} of ${amazonStateData.length} states`;
     summary.innerHTML = `<span class="amazon-states-every">${badge}</span>
       <span><strong>${totalText}</strong> ${what} across ${scope}</span>
-      <span class="amazon-states-range">Sum of reported state figures. Ranges from ${amount(low,key)} in ${low.name} to ${amount(high,key)} in ${high.name}.</span>`;
+      <span class="amazon-states-range">Sum of reported state figures${key === "employees" ? ", latest snapshot" : ", 2010–2025"}. Ranges from ${amount(low,key)} in ${low.name} to ${amount(high,key)} in ${high.name}.</span>`;
   }
 
   function ring(name,index) {
