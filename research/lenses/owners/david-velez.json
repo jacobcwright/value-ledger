@@ -3,7 +3,7 @@
   "company": "Nubank",
   "nbim": {
     "pct": 0.9,
-    "marketValueUSD": 0.45,
+    "marketValueUSD": 0.449,
     "asOf": "2024-12-31",
     "source": {
       "hostType": "company",
@@ -30,6 +30,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
           "label": "FY2024 Form 20-F, cover page",
           "quote": "The number of outstanding shares as of December 31, 2024 was 3,768,057,942 Class A ordinary shares, and 1,050,600,698 Class B ordinary shares."
+        },
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
+          "label": "FY2024 Form 20-F, share class rights",
+          "quote": "Equal Status Except as expressly provided in our Memorandum and Articles of Association, Class A ordinary shares and Class B ordinary shares have the same rights and privileges and rank equally, share proportionally and are identical in all respects as to all matters."
         }
       ]
     }

@@ -3,7 +3,7 @@
   "company": "Berkshire Hathaway",
   "nbim": {
     "pct": 0.49,
-    "marketValueUSD": 9.48,
+    "marketValueUSD": 9.483,
     "asOf": "2024-12-31",
     "source": {
       "hostType": "company",
@@ -30,9 +30,18 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
           "label": "FY2024 Form 10-K, cover page",
           "quote": "February 10, 2025-Class A common stock, $5 par value 546,189 shares February 10, 2025-Class B common stock, $0.0033 par value 1,338,051,639 shares"
+        },
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+          "label": "FY2024 Form 10-K, share class rights",
+          "quote": "Class B common stock possesses dividend and distribution rights equal to one-fifteen-hundredth (1/1,500) of such rights of Class A common stock."
         }
       ]
-    }
+    },
+    "basis": "class",
+    "classLabel": "Class B",
+    "notes": " [Editor] Percentage is of Class B shares only; Class A shares carry 1,500x the economic rights, so the share of the whole company is lower."
   },
   "holdersOfRecord": {
     "count": 16800,

@@ -3,7 +3,7 @@
   "company": "Roblox",
   "nbim": {
     "pct": 0.42,
-    "marketValueUSD": 0.16,
+    "marketValueUSD": 0.161,
     "asOf": "2024-12-31",
     "source": {
       "hostType": "company",
@@ -30,6 +30,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
           "label": "FY2024 Form 10-K, cover page",
           "quote": "As of February 3, 2025, the Registrant had 618,997,327 shares of Class A common stock and 48,302,658 of Class B common stock, each with a par value of $0.0001 per share, outstanding."
+        },
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
+          "label": "FY2024 Form 10-K, share class rights",
+          "quote": "Holders of Class A common stock and Class B common stock are entitled to dividends on a pro rata basis, when, as, and if declared by the Company's Board of Directors, subject to the rights of the holders of the Company's convertible preferred stock."
         }
       ]
     }

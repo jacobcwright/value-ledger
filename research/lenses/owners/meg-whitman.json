@@ -3,7 +3,7 @@
   "company": "eBay",
   "nbim": {
     "pct": 0.12,
-    "marketValueUSD": 0.03,
+    "marketValueUSD": 0.035,
     "asOf": "2024-12-31",
     "source": {
       "hostType": "company",
@@ -41,7 +41,7 @@
       "hostType": "sec",
       "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
       "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of February 21, 2025, there were 2,831 holders of record of our common stock"
+      "quote": "As of February 21, 2025, there were 2,831 holders of record of our common stock, although we believe that there are a significantly larger number of beneficial owners of our common stock."
     }
   },
   "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;eBay Inc;Consumer Discretionary;392926365;34596659;0.12%;0.12%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Cover page rounds to 466 million shares.",

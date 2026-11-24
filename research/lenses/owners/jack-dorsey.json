@@ -3,7 +3,7 @@
   "company": "Block",
   "nbim": {
     "pct": 1.17,
-    "marketValueUSD": 0.62,
+    "marketValueUSD": 0.616,
     "asOf": "2024-12-31",
     "source": {
       "hostType": "company",
@@ -30,6 +30,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
           "label": "FY2024 Form 10-K, cover page",
           "quote": "As of February 18, 2025, the number of shares (in thousands) of the registrant's Class A and Class B common stock outstanding were 559,431 and 60,049 , respectively."
+        },
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
+          "label": "FY2024 Form 10-K, share class rights",
+          "quote": "The holders of our Class A and Class B common stock (together, \"common stock\") have identical liquidation and dividend rights but different voting rights."
         }
       ]
     }
@@ -41,7 +47,7 @@
       "hostType": "sec",
       "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
       "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of February 18, 2025, there were 504 holders of record of our Class A common stock and 24 holders of record of our C"
+      "quote": "As of February 18, 2025, there were 504 holders of record of our Class A common stock and 24 holders of record of our Class B common stock."
     }
   },
   "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Block Inc;Industrials;7001447604;616468419;0.62%;1.17%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Cover page counts are in thousands. CalPERS holds Class A; denominator is Class A plus Class B. Holders of record: Listed Class A only; the 10-K also gives 24 holders of record of Class B.",

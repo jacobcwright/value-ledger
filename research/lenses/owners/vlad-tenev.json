@@ -30,6 +30,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
           "label": "FY2024 Form 10-K, cover page",
           "quote": "As of February 12, 2025, the numbers of shares of the issuer's Class A and Class B common stock outstanding were 767,947,897 and 117,512,743 ."
+        },
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
+          "label": "FY2024 Form 10-K, share class rights",
+          "quote": "The rights, including the liquidation and dividend rights, of the holders of Class A common stock and Class B common stock are identical, except with respect to voting."
         }
       ]
     }

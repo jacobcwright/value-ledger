@@ -3,7 +3,7 @@
   "company": "Reddit",
   "nbim": {
     "pct": 0.25,
-    "marketValueUSD": 0.07,
+    "marketValueUSD": 0.072,
     "asOf": "2024-12-31",
     "source": {
       "hostType": "company",
@@ -20,7 +20,7 @@
       "hostType": "sec",
       "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000018/rddt-20241231.htm",
       "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of December 31, 2024, there were approximately 34 stockholders of record of our Class A common stock, 37 stockholders of record of our Class B common stock"
+      "quote": "As of December 31, 2024, there were approximately 34 stockholders of record of our Class A common stock, 37 stockholders of record of our Class B common stock, and no stockholders of record of our Class C common stock."
     }
   },
   "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Reddit Inc;Technology;817924784;72017221;0.06%;0.25%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Reddit. Holders of record: Listed Class A only; the 10-K also gives 37 holders of record of Class B.",

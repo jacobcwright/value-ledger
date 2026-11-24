@@ -3,7 +3,7 @@
   "company": "Alphabet",
   "nbim": {
     "pct": 1.26,
-    "marketValueUSD": 29.27,
+    "marketValueUSD": 29.272,
     "asOf": "2024-12-31",
     "source": {
       "hostType": "company",
@@ -30,14 +30,19 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
           "label": "FY2024 Form 10-K, cover page",
           "quote": "As of January 28, 2025 , there were 5,833 million shares of Alphabet's Class A stock outstanding, 860 million shares of Alphabet's Class B stock outstanding, and 5,497 million shares of the Alphabet's Class C stock outstanding."
+        },
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+          "label": "FY2024 Form 10-K, share class rights",
+          "quote": "In accordance with our certificate of incorporation, the rights, including the liquidation and dividend rights, of the holders of our Class A, Class B, and Class C stock are identical, except with respect to voting."
         }
       ]
     },
     "computedFrom": [
       "Class A: 13,058,836 shares",
       "Class C: 11,103,866 shares"
-    ],
-    "notes": " Shares are the sum of the two Class A and Class C lines in the 13F; both classes have equal economic rights."
+    ]
   },
   "holdersOfRecord": {
     "count": 7743,

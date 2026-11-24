@@ -3,7 +3,7 @@
   "company": "Palantir Technologies",
   "nbim": {
     "pct": 1,
-    "marketValueUSD": 1.73,
+    "marketValueUSD": 1.729,
     "asOf": "2024-12-31",
     "source": {
       "hostType": "company",
@@ -30,6 +30,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
           "label": "FY2024 Form 10-K, cover page",
           "quote": "As of February 10, 2025, there were 2,248,950,826 shares of the registrants' Class A common stock outstanding, 95,400,680 shares of the registrant's Class B common stock outstanding, and 1,005,000 shares of the registrant's Class F common stock outstanding."
+        },
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
+          "label": "FY2024 Form 10-K, share class rights",
+          "quote": "The rights, including the liquidation and dividend rights, of the holders of Class A, Class B, and Class F common stock (collectively, the \"common stock\") are identical, except with respect to voting and conversion."
         }
       ]
     }
@@ -41,9 +47,9 @@
       "hostType": "sec",
       "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
       "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of February 10, 2025, there were 1,678 holders of record of our Class A common stock"
+      "quote": "As of February 10, 2025, there were 1,678 holders of record of our Class A common stock, 22 holders of record of our Class B common stock, and one holder of record of our Class F common stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Palantir Technologies Inc;Technology;19636518496;1728970094;0.73%;1%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds Class A; denominator is Classes A, B and F, which the 10-K says have identical liquidation and dividend rights. Holders of record: Listed Class A only.",
+  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Palantir Technologies Inc;Technology;19636518496;1728970094;0.73%;1%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds Class A; denominator is Classes A, B and F, which the 10-K says have identical liquidation and dividend rights. Holders of record: Listed Class A only; the 10-K also gives 22 holders of record of Class B and one of Class F.",
   "researchedAt": "2026-11-23"
 }

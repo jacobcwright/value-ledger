@@ -3,7 +3,7 @@
   "company": "Comcast",
   "nbim": {
     "pct": 2.65,
-    "marketValueUSD": 3.81,
+    "marketValueUSD": 3.805,
     "asOf": "2024-12-31",
     "source": {
       "hostType": "company",
@@ -30,6 +30,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
           "label": "FY2024 Form 10-K, cover page",
           "quote": "As of January 15, 2025, there were 3,771,578,226 shares of Comcast Corporation Class A common stock and 9,444,375 shares of Class B common stock outstanding."
+        },
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm",
+          "label": "FY2024 Form 10-K, share class rights",
+          "quote": "The Class B common stock can be converted, on a share for share basis, into Class A common stock."
         }
       ]
     }

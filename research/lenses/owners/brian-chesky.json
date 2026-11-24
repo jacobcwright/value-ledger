@@ -3,7 +3,7 @@
   "company": "Airbnb",
   "nbim": {
     "pct": 0.5,
-    "marketValueUSD": 0.42,
+    "marketValueUSD": 0.421,
     "asOf": "2024-12-31",
     "source": {
       "hostType": "company",
@@ -30,6 +30,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
           "label": "FY2024 Form 10-K, cover page",
           "quote": "As of January 31, 2025, 432,876,657 shares of the registrant's Class A common stock were outstanding, 188,462,942 shares of the registrant's Class B common stock were outstanding, no shares of the registrant's Class C common stock were outstanding, and 9,200,000 shares of the registrant's Class H common stock were outstanding."
+        },
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
+          "label": "FY2024 Form 10-K, share class rights",
+          "quote": "The rights, including the liquidation and dividend rights, of the holders of Class A and Class B common stock are identical, except with respect to voting and conversion."
         }
       ]
     }

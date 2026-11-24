@@ -3,7 +3,7 @@
   "company": "Salesforce",
   "nbim": {
     "pct": 1.1,
-    "marketValueUSD": 3.54,
+    "marketValueUSD": 3.535,
     "asOf": "2024-12-31",
     "source": {
       "hostType": "company",
@@ -41,7 +41,7 @@
       "hostType": "sec",
       "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
       "label": "FY2025 Form 10-K, Item 5",
-      "quote": "As of January 31, 2025, there were 369 registered stockholders of record of our common stock, including The Depository Trust Company"
+      "quote": "As of January 31, 2025, there were 369 registered stockholders of record of our common stock, including The Depository Trust Company, which holds shares of Salesforce common stock on behalf of an indeterminate number of beneficial owners."
     }
   },
   "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Salesforce Inc;Technology;40150872842;3535232501;1.1%;1.1%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Cover page rounds to approximately 961 million shares.",

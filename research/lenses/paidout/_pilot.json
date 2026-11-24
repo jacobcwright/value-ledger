@@ -8,6 +8,42 @@
    "A": "Revenue − Operating cash flow + Capex (+ interest paid and/or taxes paid only where classified outside operating cash flow)",
    "B": "Total costs and expenses − D&A − share-based comp + interest paid + taxes paid + Capex (as specified)",
    "B_prime": "B with interest expense already inside total costs removed before adding cash interest paid (avoids double count)"
+  },
+  "recommendation": {
+   "formula": "Paid out = Revenue − Net cash from operating activities + Capex + (interest paid, if classified in financing/investing) + (income taxes paid, if classified outside operating activities)",
+   "capexRule": "PP&E plus intangible/capitalised-development purchases; gross of government incentives; excludes business acquisitions and equipment bought to lease to customers (GM leased vehicles 15.28bn, Toyota equipment leased to others ¥2.997T), which are financing assets. Berkshire reports PP&E and equipment held for lease as one line (18.98bn), so it cannot be split.",
+   "why": [
+    "B double-counted interest at 5 of 8 non-bank companies (GM, Berkshire, Toyota, Reliance, Biocon), because interest expense sits inside the cost total. Fixing it (B′) needs per-filer judgement, and for Toyota the accrued financial-services interest is not even stated.",
+    "B keeps every non-cash charge other than D&A and SBC. At Intel, B′ is 12% above A because of 3.49bn of non-cash restructuring and 2.25bn of impairments. A removes all non-cash items through operating cash flow.",
+    "A agrees with B′ within ±3% at 6 of 8 testable companies (GM +1.6%, Toyota +1.6%, Berkshire +2.7%, Shopify −2.6%, Reliance −2.6%, Biocon +1.1%). The exceptions are Uber (−7.1%, a 2.82bn rise in accrued insurance reserves) and Intel (−12.2%, non-cash charges inside B).",
+    "Against a company's own figure (Biocon's economic value statement), A's supplier+employee bucket is within 0.5% of the company's accrual operating costs plus employee costs.",
+    "A needs fewer filer-specific judgements: revenue, operating cash flow and capex, plus one classification check (where interest and tax paid sit). B needs four extra judgements: where interest sits, every non-cash charge, which SBC figure, and which D&A line."
+   ],
+   "caveats": [
+    "Working-capital swings: Uber's accrued insurance reserves rose 2.82bn, which puts A 7% below B′. Single-year A is noisy for fast-growing or insurance-heavy firms.",
+    "Captive-finance loan growth booked in operating cash flow inflates A (Toyota ¥2.39T, about 5% of A). GM books the equivalent in investing, so A is not like-for-like across the two automakers.",
+    "Cash inflows outside revenue that sit in operating cash flow lower A: interest received (Shopify 0.31bn, about 4%) and dividends from affiliates (Toyota ¥0.62T).",
+    "Non-cash revenue raises A (Berkshire's T-bill discount accretion of 11.35bn, about 3%).",
+    "Tax on gains outside revenue counts in full (Berkshire paid 28.54bn, largely on investment gains).",
+    "Sales taxes and GST are outside revenue, so 'paid to governments' covers income taxes plus whatever excise sits inside revenue (Reliance excise 154.43bn INR).",
+    "Possible capitalised-interest overlap under Ind AS (Reliance: up to 1.9% of A).",
+    "Optional and untested: add lease-principal payments from financing (IFRS 16 puts all lease principal there; US GAAP only finance leases). Sizes: Reliance 29.56bn INR (0.3% of A), Uber 0.172bn (0.5%), Biocon 0.418bn INR (0.3%). Toyota shows no separate line."
+   ],
+   "financials": "Banks: not comparable, so exclude from the ranking. If shown, use 'operating payout' = noninterest expense − D&A − SBC + taxes paid (+ capex where disclosed): BofA 65.01bn, with interest paid to depositors and lenders (89.69bn) as a separate labelled line. Pure insurers: not comparable (claims paid and float timing dominate). Insurance-heavy conglomerates (Berkshire): A with a caveat badge.",
+   "salesEnabled": "Marketplaces only: gross volume − platform revenue. Shopify: GMV 292.275 − 8.880 = 283.40bn. Uber: Gross Bookings 162.773 − 43.978 = 118.80bn. By algebra there is no double count with A. In Uber's gross (principal) markets and in Freight, the fare is in both Gross Bookings and revenue, so it nets to zero, and driver and carrier pay is counted once, through costs inside A. In agent markets, driver earnings and incentives sit outside Uber's revenue and costs and are counted once, through Gross Bookings − revenue. Residual bias: Gross Bookings is gross of consumer discounts and includes taxes, tolls and fees (overstates); revenue includes advertising and other non-booking revenue (understates; Freight nets to zero). Shopify: subtracting subscription revenue, which merchants pay from their own funds rather than from GMV, slightly understates.",
+   "inputsForFullRun": [
+    "revenue (total; flag whether gross of excise or other pass-through duties)",
+    "net cash from operating activities",
+    "capex: PP&E purchases + intangible/capitalised-development purchases (separate lines), excluding acquisitions and lease-fleet additions",
+    "interest paid + cash-flow classification (operating / financing / investing)",
+    "income taxes paid + classification",
+    "flag: finance receivables or lease-fleet changes inside operating cash flow (captive finance)",
+    "interest and dividends received inside operating cash flow, where separately disclosed (size the bias; not netted by default)",
+    "sector flag: bank / insurer / insurance-heavy conglomerate (rule above)",
+    "marketplaces only: gross volume (GMV, Gross Bookings, GTV) + its definition, from lenses/ecosystem",
+    "optional cross-check: total costs, interest expense inside costs, D&A, SBC (for B′ sanity bands)"
+   ],
+   "publishedTableSearch": "Novartis Integrated Report 2024: the GRI index cites 201-1 but points to financial-performance pages with no table. Infosys ESG report: URLs returned HTTP 403. Novo Nordisk, SAP, Shell and Infosys annual reports (cached): no economic-value or value-added table. Reliance (value-added statement, FY2024-25) and Biocon (economic value generated/distributed totals, FY24) were used."
   }
  },
  "companies": {
@@ -1084,6 +1120,10 @@
     "B_prime_method": null,
     "B_overstatement_from_interest_double_count": null,
     "A_minus_B_prime_pct_of_A": null,
+    "A_excludesCapex": true,
+    "B_excludesCapex": true,
+    "A_label": "A excluding capex (not disclosed)",
+    "B_label": "B excluding capex (not disclosed)",
     "A_meaning": "Meaningless: bank operating cash flow (−8,805) is driven by trading assets, loans held for sale and funding flows, not by revenue collection; A = revenue + 8.8bn.",
     "B_meaning": "B has no capex input and is dominated by interest paid (89,687, mostly to depositors and funding counterparties, swinging with rates: 18,526 in 2022).",
     "bankFormula_exInterest": 65.01,
@@ -1217,19 +1257,31 @@
     "interestExpenseInsideCosts": {
      "value": 5.2,
      "stated": 5200,
-     "source": {
-      "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
-      "label": "FY2024 Form 10-K, consolidated statements of earnings (in millions): Insurance and Other 1,594 + Railroad, Utilities and Energy 3,606",
-      "quote": "Selling, general and administrative expenses 25,642 25,458 19,506 Interest expense 1,594 1,671 1,187 274,799 278,933 225,157",
-      "xbrl": {
-       "cik": "0001067983",
-       "concept": "us-gaap:InterestExpense",
-       "end": "2024-12-31",
-       "value": 5200000000
-      }
-     },
-     "note": "Both interest-expense lines (1,594 and 3,606) sit inside total costs and expenses; XBRL InterestExpense = 5,200."
+     "derived": {
+      "method": "Insurance and Other interest expense + Railroad, Utilities and Energy interest expense; both lines sit inside total costs and expenses (companyfacts us-gaap:InterestExpense = 5,200,000,000)",
+      "inputs": [
+       {
+        "value": 1.594,
+        "stated": 1594,
+        "source": {
+         "hostType": "sec",
+         "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+         "label": "FY2024 Form 10-K, consolidated statements of earnings, Insurance and Other (in millions)",
+         "quote": "Selling, general and administrative expenses 25,642 25,458 19,506 Interest expense 1,594 1,671 1,187 274,799 278,933 225,157"
+        }
+       },
+       {
+        "value": 3.606,
+        "stated": 3606,
+        "source": {
+         "hostType": "sec",
+         "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+         "label": "FY2024 Form 10-K, consolidated statements of earnings, Railroad, Utilities and Energy (in millions)",
+         "quote": "Interest expense 3,606 3,332 3,165 40,898 42,211 41,327 Total costs and expenses 315,697"
+        }
+       }
+      ]
+     }
     },
     "depreciationAmortization": {
      "value": 12.855,
@@ -1296,7 +1348,7 @@
     "B_prime_method": "costs − interest expense inside costs − D&A − SBC + interest paid + taxes paid + capex",
     "B_overstatement_from_interest_double_count": 5.2,
     "A_minus_B_prime_pct_of_A": 2.7,
-    "A_meaning": "Approximately meaningful (the group is ~80% operating businesses), but A is inflated by 11,349 of non-cash T-bill discount accretion inside revenue and counts insurance claims paid as payouts. A excluding the accretion = 348.47",
+    "A_meaning": "Approximately meaningful (sales and service, leasing, and railroad/utilities/energy revenues are 261.35bn of 371.43bn, 70%), but A is inflated by 11,349 of non-cash T-bill discount accretion inside revenue and counts insurance claims paid as payouts. A excluding the accretion = 348.47",
     "A_ex_accretion": 348.47
    }
   },
@@ -1770,12 +1822,231 @@
     "B_prime_method": "costs − interest expense inside costs − D&A − SBC + interest paid + taxes paid + capex",
     "B_overstatement_from_interest_double_count": 242.69,
     "A_minus_B_prime_pct_of_A": -2.6,
+    "capitalisedInterestBound": {
+     "A_if_capex_also_contains_capitalised_interest": 9641.41,
+     "A_as_computed": 9824.24,
+     "maxOverlapPctOfA": 1.9,
+     "note": "If the 1,39,967 capex line also contains the 18,283 of capitalised interest that 'Interest Paid' includes, A double-counts up to 1.9%. The statement does not say which."
+    },
     "matchedScope": {
      "companyDistributedToOthers_exEquity_exReinvested": 2835.36,
      "ours_sameStakeholders_cash": 836.64,
      "gap": 1998.72,
      "gapExplained": "Almost entirely 'national exchequer' (2,102.69 vs 119.25 cash income tax): GST 910.38 sits outside revenue, so it is never in A or B. Excise 154.43 and other duties are inside A and B but in the supplier/operating bucket. Lenders: 425.52 accrued (incl. capitalised) vs 410.24 cash paid.",
-     "supplierLineTest": "Not testable: a value-added statement has no bought-in-goods (supplier) line, which is ~80% of A for Reliance."
+     "supplierLineTest": "Not testable: a value-added statement has no bought-in-goods line. Supplier-type P&L lines (materials 4,22,127 + stock-in-trade 2,22,686 − inventory change 15,124 + other expenses 1,41,001 + excise 15,443 = 786,133 crore) are 80% of A."
+    }
+   }
+  },
+  "kiran-mazumdar-shaw": {
+   "company": "Biocon",
+   "fiscalYear": "FY24",
+   "fiscalYearEnd": "2024-03-31",
+   "currency": "INR",
+   "unit": "billions",
+   "kind": "published economic value generated/distributed totals; Ind AS",
+   "inputs": {
+    "revenue": {
+     "value": 147.557,
+     "stated": 147557,
+     "source": {
+      "hostType": "company",
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+      "label": "Integrated Annual Report FY 2024, consolidated statement of profit & loss (₹ million)",
+      "quote": "Revenue from operations 21 147,557 111,742 Other income 22 8,655 3,759 Total income (I) 156,212 115,501"
+     }
+    },
+    "operatingCashFlow": {
+     "value": 29.539,
+     "stated": 29539,
+     "source": {
+      "hostType": "company",
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+      "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
+      "quote": "Net cash flow generated from operating activities 29,539 18,525"
+     }
+    },
+    "capex": {
+     "value": 19.316,
+     "stated": 19316,
+     "derived": {
+      "method": "PP&E + intangible assets",
+      "inputs": [
+       {
+        "value": 16.805,
+        "stated": 16805,
+        "source": {
+         "hostType": "company",
+         "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+         "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
+         "quote": "Purchase of property, plant and equipment (16,805) (15,960) Purchase of intangible assets (2,511) (1,303)"
+        }
+       },
+       {
+        "value": 2.511,
+        "stated": 2511,
+        "source": {
+         "hostType": "company",
+         "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+         "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
+         "quote": "Purchase of property, plant and equipment (16,805) (15,960) Purchase of intangible assets (2,511) (1,303)"
+        }
+       }
+      ]
+     }
+    },
+    "interestPaid": {
+     "value": 8.474,
+     "stated": 8474,
+     "source": {
+      "hostType": "company",
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+      "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows, financing (₹ million)",
+      "quote": "Interest paid (8,474) (4,856)"
+     },
+     "location": "FINANCING activities (Ind AS), so added to A"
+    },
+    "taxesPaid": {
+     "value": 2.923,
+     "stated": 2923,
+     "source": {
+      "hostType": "company",
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+      "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
+      "quote": "Income taxes paid (net of refunds) (2,923) (2,286)"
+     },
+     "location": "inside operating cash flow"
+    },
+    "totalCosts": {
+     "value": 140.002,
+     "stated": 140002,
+     "source": {
+      "hostType": "company",
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+      "label": "Integrated Annual Report FY 2024, consolidated statement of profit & loss (₹ million)",
+      "quote": "Less: Recovery of cost from co-development partners (net) (838) (3,922) Total expenses (II) 140,002 101,946"
+     },
+     "note": "Includes finance costs 9,744."
+    },
+    "interestExpenseInsideCosts": {
+     "value": 9.744,
+     "stated": 9744,
+     "source": {
+      "hostType": "company",
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+      "label": "Integrated Annual Report FY 2024, consolidated statement of profit & loss (₹ million)",
+      "quote": "Finance costs 26 9,744 4,190 Depreciation and amortisation expense 27 15,688 11,131"
+     }
+    },
+    "depreciationAmortization": {
+     "value": 15.688,
+     "stated": 15688,
+     "source": {
+      "hostType": "company",
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+      "label": "Integrated Annual Report FY 2024, consolidated statement of profit & loss (₹ million)",
+      "quote": "Finance costs 26 9,744 4,190 Depreciation and amortisation expense 27 15,688 11,131"
+     }
+    },
+    "stockComp": {
+     "value": 1.006,
+     "stated": 1006,
+     "source": {
+      "hostType": "company",
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+      "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
+      "quote": "Share-based compensation expense 1,006 1,376"
+     }
+    },
+    "otherNamedItems": {
+     "otherIncome": {
+      "value": 8.655,
+      "stated": 8655,
+      "source": {
+       "hostType": "company",
+       "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+       "label": "Integrated Annual Report FY 2024, consolidated statement of profit & loss (₹ million)",
+       "quote": "Revenue from operations 21 147,557 111,742 Other income 22 8,655 3,759 Total income (I) 156,212 115,501"
+      }
+     },
+     "dividendsPaid": {
+      "value": 2.03,
+      "stated": 2030,
+      "source": {
+       "hostType": "company",
+       "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+       "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
+       "quote": "Dividend paid on equity shares (including to NCI) (2,030) (718)"
+      }
+     },
+     "leasePrincipalPaid": {
+      "value": 0.418,
+      "stated": 418,
+      "source": {
+       "hostType": "company",
+       "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+       "label": "Integrated Annual Report FY 2024, statement of consolidated cash flows (₹ million)",
+       "quote": "Repayment of lease liabilities, net (418) (114)"
+      }
+     },
+     "currentTax": {
+      "value": 3.143,
+      "stated": 3143,
+      "source": {
+       "hostType": "company",
+       "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+       "label": "Integrated Annual Report FY 2024, consolidated statement of profit & loss (₹ million)",
+       "quote": "Current tax 38 3,143 2,462"
+      }
+     }
+    },
+    "publishedEconomicValue": {
+     "source": {
+      "hostType": "company",
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+      "label": "Integrated Annual Report FY 2024, Value Creation Model, inputs (₹ million)",
+      "quote": "Economic value generated/Revenue: H156,212 million Economic value distributed: H119,772 million"
+     },
+     "retainedSource": {
+      "hostType": "company",
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+      "label": "Integrated Annual Report FY 2024, Value Creation Model, outputs (₹ million)",
+      "quote": "Economic value retained: H36,440 million Net profit after tax^ : H10,225 million EBITDA: H41,642 million"
+     },
+     "type": "GRI 201-1-style totals only (generated / distributed / retained); components not itemised",
+     "lines": {
+      "generated": 156.212,
+      "distributed": 119.772,
+      "retained": 36.44,
+      "ebitda": 41.642
+     },
+     "reconciliation": {
+      "generated": "156,212 = total income (revenue 147,557 + other income 8,655), exact.",
+      "operatingCostsPlusEmployees": "Generated − EBITDA = 156,212 − 41,642 = 114,570 = total expenses 140,002 − finance costs 9,744 − D&A 15,688 (exact): accrual operating costs plus employee costs (including 1,006 of non-cash SBC).",
+      "distributedRemainder": "Distributed 119,772 − 114,570 = 5,202, not itemised. It is close to, but not equal to, current tax 3,143 + dividends 2,030 = 5,173, which suggests interest to lenders (9,744) is NOT in Biocon's 'distributed' total. That is an inference, not stated."
+     }
+    }
+   },
+   "results": {
+    "A": 145.81,
+    "A_formula": "147557 − 29539 + 19316 + 8474 (interest paid, in financing)",
+    "B": 154.02,
+    "B_formula": "140002 − 15688 − 1006 + 8474 + 2923 + 19316",
+    "B_prime": 144.28,
+    "B_prime_method": "costs − interest expense inside costs − D&A − SBC + interest paid + taxes paid + capex",
+    "B_overstatement_from_interest_double_count": 9.74,
+    "A_minus_B_prime_pct_of_A": 1.1,
+    "matchedScope": {
+     "unit": "₹ million (as stated)",
+     "companyOperatingCostsPlusEmployees": 114570,
+     "ours_A_basis_revenue_minus_OCF_minus_taxesPaid": 115095,
+     "ours_A_basis_gap_pct": 0.46,
+     "ours_Bprime_basis_costs_ex_interest_DA_SBC": 113564,
+     "ours_Bprime_basis_gap": -1006,
+     "ours_Bprime_gap_explained": "−1,006 = SBC exactly (the company's figure is accrual and includes non-cash SBC).",
+     "companyDistributed": 119772,
+     "ours_A_exCapex": 126492,
+     "ours_A_exCapex_exInterest": 118018,
+     "note": "This tests the supplier+employee bucket that Reliance's value-added statement could not: cash-basis A matches the company's own accrual operating-cost figure within 0.5%. Capex (19,316) is outside Biocon's 'distributed', as GRI 201-1 prescribes."
     }
    }
   }

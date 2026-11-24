@@ -3,7 +3,7 @@
   "company": "AMD",
   "nbim": {
     "pct": 1.45,
-    "marketValueUSD": 2.84,
+    "marketValueUSD": 2.837,
     "asOf": "2024-12-31",
     "source": {
       "hostType": "company",
@@ -41,7 +41,7 @@
       "hostType": "sec",
       "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
       "label": "FY2024 Form 10-K, Item 5",
-      "quote": "On January 24, 2025, there were 5,028 registered holders of our common stock"
+      "quote": "On January 24, 2025, there were 5,028 registered holders of our common stock, and the closing price of our common stock was $122.84 per share as reported on NASDAQ."
     }
   },
   "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Advanced Micro Devices Inc;Technology;32224846685;2837356134;1.45%;1.45%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",

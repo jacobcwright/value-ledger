@@ -3,7 +3,7 @@
   "company": "Grab",
   "nbim": {
     "pct": 0.8,
-    "marketValueUSD": 0.15,
+    "marketValueUSD": 0.151,
     "asOf": "2024-12-31",
     "source": {
       "hostType": "company",
@@ -30,6 +30,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561225000013/ck0001855612-20241231.htm",
           "label": "FY2024 Form 20-F, cover page",
           "quote": "Indicate the number of outstanding shares of each of the issuer's classes of capital or common stock as of the close of business covered by the annual report: 3,950,498,976 Class A ordinary shares, 119,798,676 Class B ordinary shares, and 25,999,981 warrants, as of December 31, 2024."
+        },
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561225000013/ck0001855612-20241231.htm",
+          "label": "FY2024 Form 20-F, share class rights",
+          "quote": "GHL Class B ordinary shares have a par value of $ 0.000001 and are ranked equally with GHL Class A ordinary shares with regard to GHL's residual assets."
         }
       ]
     }

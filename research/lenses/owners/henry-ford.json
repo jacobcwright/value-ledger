@@ -30,6 +30,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
           "label": "FY2024 Form 10-K, cover page",
           "quote": "As of February 3, 2025, Ford had outstanding 3,892,595,628 shares of Common Stock and 70,852,076 shares of Class B Stock."
+        },
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+          "label": "FY2024 Form 10-K, share class rights",
+          "quote": "Shares of Common Stock and Class B Stock share equally in dividends when and as paid, with stock dividends payable in shares of stock of the class held."
         }
       ]
     }

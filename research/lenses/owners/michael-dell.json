@@ -3,7 +3,7 @@
   "company": "Dell Technologies",
   "nbim": {
     "pct": 0.56,
-    "marketValueUSD": 0.45,
+    "marketValueUSD": 0.449,
     "asOf": "2024-12-31",
     "source": {
       "hostType": "company",
@@ -30,6 +30,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
           "label": "FY2025 Form 10-K, cover page",
           "quote": "As of March 17, 2025, there were 697,840,821 shares of the registrant's common stock outstanding, consisting of 358,710,357 outstanding shares of Class C Common Stock, 276,762,341 outstanding shares of Class A Common Stock, and 62,368,123 outstanding shares of Class B Common Stock."
+        },
+        {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
+          "label": "FY2025 Form 10-K, share class rights",
+          "quote": "The Class A Common Stock, the Class B Common Stock, the Class C Common Stock, and the Class D Common Stock share equally in dividends declared or accumulated and have equal participation rights in undistributed earnings."
         }
       ]
     }
@@ -41,7 +47,7 @@
       "hostType": "sec",
       "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
       "label": "FY2025 Form 10-K, Item 5",
-      "quote": "As of March 17, 2025, there were 3,714 holders of record of our Class C Common Stock, six holders of record of our Class A Common Stock, and five holders of record of our Class"
+      "quote": "As of March 17, 2025, there were 3,714 holders of record of our Class C Common Stock, six holders of record of our Class A Common Stock, and five holders of record of our Class B Common Stock."
     }
   },
   "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Dell Technologies Inc;Technology;5094611973;448574005;0.1%;0.56%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds the listed Class C; denominator is all classes (A, B and C). Holders of record: Listed Class C only; the 10-K also gives six holders of record of Class A and five of Class B.",
