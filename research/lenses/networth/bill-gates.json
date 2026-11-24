@@ -2,18 +2,18 @@
   "id": "bill-gates",
   "name": "Bill Gates",
   "netWorth": {
-    "value": 108.0,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 13,
+    "value": 119.56,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 16,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"bill-gates\",\"rank\":13,\"listUri\":\"billionaires\",\"visible\":true,\"position\":13,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":108000.0,\"finalWorthBillions\":108.0,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Bill Gates\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"bill-gates\",\"rank\":16,\"listUri\":\"rtb\",\"visible\":true,\"position\":16,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":119562.263,\"finalWorthBillions\":119.562263,\"person\":{\"name\":\"Bill Gates\",\"uri\":\"bill-gates\",\"imageExists\":true,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/62d599ede3ff49f348f9b9b4/416x416.jpg?background=000000&cropX1=155&cropX2=976&cropY1=340&cropY2=1161\"},\"personName\":\"Bill Gates\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Bill Gates\" at rank 13 (ranks are shared on ties), net worth $108.0B, source \"Microsoft\".",
+  "notes": "Listed as \"Bill Gates\" at rank 16, real-time net worth $119.6B, source \"Microsoft\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

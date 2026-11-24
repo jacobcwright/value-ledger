@@ -2,18 +2,18 @@
   "id": "rupert-murdoch",
   "name": "Rupert Murdoch",
   "netWorth": {
-    "value": 23.0,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 87,
+    "value": 25.56,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 92,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"rupert-murdoch\",\"rank\":87,\"listUri\":\"billionaires\",\"visible\":true,\"position\":87,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":23000.0,\"finalWorthBillions\":23.0,\"category\":\"Media & Entertainment\",\"otherCompensation\":0,\"person\":{\"name\":\"Rupert Murdoch & family\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"rupert-murdoch\",\"rank\":92,\"listUri\":\"rtb\",\"visible\":true,\"position\":92,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":25558.087,\"finalWorthBillions\":25.558087,\"person\":{\"name\":\"Rupert Murdoch & family\",\"uri\":\"rupert-murdoch\",\"imageExists\":true,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/6067bf2f800a3f1324d4c89c/416x416.jpg?background=000000&cropX1=0&cropX2=1080&cropY1=0&cropY2=1080\"},\"personName\":\"Rupert Murdoch & family\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Rupert Murdoch & family\" at rank 87 (ranks are shared on ties), net worth $23.0B, source \"Newspapers, TV network\". Forbes lists this as a family fortune (\"& family\"); the figure covers wealth Forbes attributes to him and his family, not him alone.",
+  "notes": "Listed as \"Rupert Murdoch & family\" at rank 92, real-time net worth $25.6B, source \"Newspapers, TV network\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

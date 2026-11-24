@@ -2,18 +2,18 @@
   "id": "jensen-huang",
   "name": "Jensen Huang",
   "netWorth": {
-    "value": 98.7,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 16,
+    "value": 133.8,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 14,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"jensen-huang\",\"rank\":16,\"listUri\":\"billionaires\",\"visible\":true,\"position\":16,\"premiumProfile\":false,\"imageExists\":false,\"embargo\":false,\"finalWorth\":98700.0,\"finalWorthBillions\":98.7,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Jensen Huang\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"jensen-huang\",\"rank\":14,\"listUri\":\"rtb\",\"visible\":true,\"position\":14,\"imageExists\":false,\"bio\":\"\",\"finalWorth\":133797.754,\"finalWorthBillions\":133.797754,\"person\":{\"name\":\"Jensen Huang\",\"uri\":\"jensen-huang\",\"imageExists\":false,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/68750a2d250de42ce7c5301b/416x416.jpg?background=000000&cropX1=832&cropX2=2632&cropY1=152&cropY2=1951\"},\"personName\":\"Jensen Huang\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Jensen Huang\" at rank 16 (ranks are shared on ties), net worth $98.7B, source \"Semiconductors\".",
+  "notes": "Listed as \"Jensen Huang\" at rank 14, real-time net worth $133.8B, source \"Nvidia\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

@@ -3,17 +3,17 @@
   "name": "Joaquin Duato",
   "netWorth": {
     "value": null,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
     "rank": null,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
       "quote": null
     }
   },
-  "reason": "not on the 2025 list",
-  "notes": "No entry among the 3,028 people on the list; searched name tokens and the source/organization/employment fields for the company.",
+  "reason": "not on the real-time list",
+  "notes": "No entry among the 3,316 people on the captured list; matched by Forbes id and by name.",
   "researchedAt": "2026-11-24"
 }

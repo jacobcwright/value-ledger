@@ -2,18 +2,18 @@
   "id": "vlad-tenev",
   "name": "Vlad Tenev",
   "netWorth": {
-    "value": 2.5,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 1462,
+    "value": 4.07,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 1032,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"vlad-tenev\",\"rank\":1462,\"listUri\":\"billionaires\",\"visible\":true,\"position\":1505,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"bio\":\"With fellow Stanford undergrad Baiju Bhatt, Tenev launched no-fee stock trading app Robinhood in 2013, with the platform's no-commission trading model revolutionizing the brokerage industry. When the cofounders debuted on Under 30, the startup was valued at $250 million. Robinhood, which boasts over 22 million accounts, went public in July and recently had a market cap of $25 billion. Both cofounders are billionaires.\",\"finalWorth\":2500.0,\"finalWorthBillions\":2.5,\"category\":\"Finance & Investments\",\"otherCompensation\":0,\"person\":{\"name\":\"Vlad Tenev\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=1000",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"vlad-tenev\",\"rank\":1032,\"listUri\":\"rtb\",\"visible\":true,\"position\":1032,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":4070.854,\"finalWorthBillions\":4.070854,\"person\":{\"name\":\"Vlad Tenev\",\"uri\":\"vlad-tenev\",\"imageExists\":true,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/619d8af408ec74e2e3ac5b87/416x416.jpg?background=000000&cropX1=19&cropX2=1675&cropY1=200&cropY2=1855\"},\"personName\":\"Vlad Tenev\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Vlad Tenev\" at rank 1462 (ranks are shared on ties), net worth $2.5B, source \"Stock trading app\".",
+  "notes": "Listed as \"Vlad Tenev\" at rank 1032, real-time net worth $4.1B, source \"Stock trading app\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

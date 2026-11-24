@@ -52,5 +52,9 @@
   "https://research.facebook.com/file/1648286612715233/Washington.pdf": "Meta state economic impact fact sheet (Washington); research.facebook.com blocks scripts",
   "https://research.facebook.com/file/1191299225980298/WestVirginia.pdf": "Meta state economic impact fact sheet (WestVirginia); research.facebook.com blocks scripts",
   "https://research.facebook.com/file/1000666285323568/Wisconsin.pdf": "Meta state economic impact fact sheet (Wisconsin); research.facebook.com blocks scripts",
-  "https://research.facebook.com/file/1413471919817938/Wyoming.pdf": "Meta state economic impact fact sheet (Wyoming); research.facebook.com blocks scripts"
+  "https://research.facebook.com/file/1413471919817938/Wyoming.pdf": "Meta state economic impact fact sheet (Wyoming); research.facebook.com blocks scripts",
+  "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0": "Forbes Real-Time Billionaires, page from rank 1, captured 2026-11-24 18:40 UTC. The list changes every few minutes, so quotes are verified against this capture (research/snapshots, kept locally), seeded into the cache.",
+  "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=1000": "Forbes Real-Time Billionaires, page from rank 1001, captured 2026-11-24 18:40 UTC. The list changes every few minutes, so quotes are verified against this capture (research/snapshots, kept locally), seeded into the cache.",
+  "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=2000": "Forbes Real-Time Billionaires, page from rank 2001, captured 2026-11-24 18:40 UTC. The list changes every few minutes, so quotes are verified against this capture (research/snapshots, kept locally), seeded into the cache.",
+  "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=3000": "Forbes Real-Time Billionaires, page from rank 3001, captured 2026-11-24 18:40 UTC. The list changes every few minutes, so quotes are verified against this capture (research/snapshots, kept locally), seeded into the cache."
 }

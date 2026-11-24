@@ -2,18 +2,18 @@
   "id": "reed-hastings",
   "name": "Reed Hastings",
   "netWorth": {
-    "value": 5.2,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 688,
+    "value": 3.99,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 1048,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"reed-hastings\",\"rank\":688,\"listUri\":\"billionaires\",\"visible\":true,\"position\":691,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":5200.0,\"finalWorthBillions\":5.2,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Reed Hastings\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=1000",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"reed-hastings\",\"rank\":1048,\"listUri\":\"rtb\",\"visible\":true,\"position\":1048,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":3992.691,\"finalWorthBillions\":3.9926909999999998,\"person\":{\"name\":\"Reed Hastings\",\"uri\":\"reed-hastings\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5d8ae9ff18444200084e72df/416x416.jpg?background=000000&cropX1=980&cropX2=2430&cropY1=95&cropY2=1544\"},\"personName\":\"Reed Hastings\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Reed Hastings\" at rank 688 (ranks are shared on ties), net worth $5.2B, source \"Netflix\".",
+  "notes": "Listed as \"Reed Hastings\" at rank 1048, real-time net worth $4.0B, source \"Netflix\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

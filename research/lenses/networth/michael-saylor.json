@@ -2,18 +2,18 @@
   "id": "michael-saylor",
   "name": "Michael Saylor",
   "netWorth": {
-    "value": 7.4,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 430,
+    "value": 3.3,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 1239,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"michael-saylor\",\"rank\":430,\"listUri\":\"billionaires\",\"visible\":true,\"position\":439,\"premiumProfile\":false,\"imageExists\":false,\"embargo\":false,\"finalWorth\":7400.0,\"finalWorthBillions\":7.4,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Michael Saylor\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=1000",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"michael-saylor\",\"rank\":1239,\"listUri\":\"rtb\",\"visible\":true,\"position\":1239,\"imageExists\":false,\"bio\":\"\",\"finalWorth\":3303.174,\"finalWorthBillions\":3.303174,\"person\":{\"name\":\"Michael Saylor\",\"uri\":\"michael-saylor\",\"imageExists\":false,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/6aa84998d26dadadded14d77/416x416.jpg?background=000000&cropX1=0&cropX2=2000&cropY1=240&cropY2=2241\"},\"personName\":\"Michael Saylor\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Michael Saylor\" at rank 430 (ranks are shared on ties), net worth $7.4B, source \"Cryptocurrency\".",
+  "notes": "Listed as \"Michael Saylor\" at rank 1239, real-time net worth $3.3B, source \"Cryptocurrency\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

@@ -2,18 +2,18 @@
   "id": "marc-benioff",
   "name": "Marc Benioff",
   "netWorth": {
-    "value": 9.8,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 280,
+    "value": 8.19,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 461,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"marc-benioff\",\"rank\":280,\"listUri\":\"billionaires\",\"visible\":true,\"position\":280,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":9800.0,\"finalWorthBillions\":9.8,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Marc Benioff\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"marc-benioff\",\"rank\":461,\"listUri\":\"rtb\",\"visible\":true,\"position\":461,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":8190.895,\"finalWorthBillions\":8.190895000000001,\"person\":{\"name\":\"Marc Benioff\",\"uri\":\"marc-benioff\",\"imageExists\":true,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/5f4e65f2f4c323e07eb167b8/416x416.jpg?background=000000&cropX1=939&cropX2=4439&cropY1=215&cropY2=3712\"},\"personName\":\"Marc Benioff\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Marc Benioff\" at rank 280 (ranks are shared on ties), net worth $9.8B, source \"Business software\".",
+  "notes": "Listed as \"Marc Benioff\" at rank 461, real-time net worth $8.2B, source \"Business software\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

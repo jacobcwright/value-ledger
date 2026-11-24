@@ -2,18 +2,18 @@
   "id": "andrew-forrest",
   "name": "Andrew Forrest",
   "netWorth": {
-    "value": 14.4,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 160,
+    "value": 14.78,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 197,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"andrew-forrest\",\"rank\":160,\"listUri\":\"billionaires\",\"visible\":true,\"position\":161,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":14400.0,\"finalWorthBillions\":14.4,\"category\":\"Metals & Mining\",\"otherCompensation\":0,\"person\":{\"name\":\"Andrew Forrest & family\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"andrew-forrest\",\"rank\":197,\"listUri\":\"rtb\",\"visible\":true,\"position\":197,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":14780.563,\"finalWorthBillions\":14.780563,\"person\":{\"name\":\"Andrew Forrest & family\",\"uri\":\"andrew-forrest\",\"imageExists\":true,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/65ca49b8ad26e48437eb62c6/416x416.jpg?background=000000&cropX1=224&cropX2=890&cropY1=0&cropY2=666\"},\"personName\":\"Andrew Forrest & family\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Andrew Forrest & family\" at rank 160 (ranks are shared on ties), net worth $14.4B, source \"Mining\". Forbes lists this as a family fortune (\"& family\"); the figure covers wealth Forbes attributes to him and his family, not him alone.",
+  "notes": "Listed as \"Andrew Forrest & family\" at rank 197, real-time net worth $14.8B, source \"Mining\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

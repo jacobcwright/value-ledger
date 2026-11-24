@@ -2,18 +2,18 @@
   "id": "n-r-narayana-murthy",
   "name": "N. R. Narayana Murthy",
   "netWorth": {
-    "value": 4.8,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 751,
+    "value": 4.17,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 1008,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"nr-narayana-murthy\",\"rank\":751,\"listUri\":\"billionaires\",\"visible\":true,\"position\":760,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":4800.0,\"finalWorthBillions\":4.8,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"N.R. Narayana Murthy\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=1000",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"nr-narayana-murthy\",\"rank\":1008,\"listUri\":\"rtb\",\"visible\":true,\"position\":1008,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":4165.886,\"finalWorthBillions\":4.165886,\"person\":{\"name\":\"N.R. Narayana Murthy\",\"uri\":\"nr-narayana-murthy\",\"imageExists\":true,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/6abbd9df101673619967bbf6/416x416.jpg?background=000000&cropX1=332&cropX2=881&cropY1=96&cropY2=644\"},\"personName\":\"N.R. Narayana Murthy\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"N.R. Narayana Murthy\" at rank 751 (ranks are shared on ties), net worth $4.8B, source \"Software services\". Forbes lists him as \"N.R. Narayana Murthy\".",
+  "notes": "Listed as \"N.R. Narayana Murthy\" at rank 1008, real-time net worth $4.2B, source \"Software services\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

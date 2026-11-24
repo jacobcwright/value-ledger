@@ -2,18 +2,18 @@
   "id": "michael-dell",
   "name": "Michael Dell",
   "netWorth": {
-    "value": 97.7,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 17,
+    "value": 186.99,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 6,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"michael-dell\",\"rank\":17,\"listUri\":\"billionaires\",\"visible\":true,\"position\":17,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":97700.0,\"finalWorthBillions\":97.7,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Michael Dell\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"michael-dell\",\"rank\":6,\"listUri\":\"rtb\",\"visible\":true,\"position\":6,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":186986.695,\"finalWorthBillions\":186.986695,\"person\":{\"name\":\"Michael Dell\",\"uri\":\"michael-dell\",\"imageExists\":true,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/615c93f9da61f2ff5b9ecf9b/416x416.jpg?background=000000&cropX1=0&cropX2=1678&cropY1=118&cropY2=1797\"},\"personName\":\"Michael Dell\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Michael Dell\" at rank 17 (ranks are shared on ties), net worth $97.7B, source \"Dell Technologies\".",
+  "notes": "Listed as \"Michael Dell\" at rank 6, real-time net worth $187.0B, source \"Dell Technologies\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

@@ -2,18 +2,18 @@
   "id": "larry-fink",
   "name": "Larry Fink",
   "netWorth": {
-    "value": 1.2,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 2623,
+    "value": 1.34,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 2771,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"larry-fink\",\"rank\":2623,\"listUri\":\"billionaires\",\"visible\":true,\"position\":2665,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":1200.0,\"finalWorthBillions\":1.2,\"category\":\"Finance & Investments\",\"otherCompensation\":0,\"person\":{\"name\":\"Larry Fink\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=2000",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"larry-fink\",\"rank\":2771,\"listUri\":\"rtb\",\"visible\":true,\"position\":2771,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":1344.072,\"finalWorthBillions\":1.344072,\"person\":{\"name\":\"Larry Fink\",\"uri\":\"larry-fink\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5915dc454bbe6f6c4b15378c/416x416.jpg?background=000000&cropX1=908&cropX2=2480&cropY1=53&cropY2=1624\"},\"personName\":\"Larry Fink\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Larry Fink\" at rank 2623 (ranks are shared on ties), net worth $1.2B, source \"money management\".",
+  "notes": "Listed as \"Larry Fink\" at rank 2771, real-time net worth $1.3B, source \"money management\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

@@ -2,18 +2,18 @@
   "id": "larry-culp",
   "name": "Larry Culp",
   "netWorth": {
-    "value": null,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": null,
+    "value": 1.72,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 2311,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": null
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=2000",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"larry-culp\",\"rank\":2311,\"listUri\":\"rtb\",\"visible\":true,\"position\":2311,\"imageExists\":false,\"bio\":\"\",\"finalWorth\":1720.454,\"finalWorthBillions\":1.720454,\"person\":{\"name\":\"Larry Culp\",\"uri\":\"larry-culp\",\"imageExists\":false,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/682f38e0f2b96eaf24454d26/416x416.jpg?background=000000&cropX1=796&cropX2=1794&cropY1=3&cropY2=1000\"},\"personName\":\"Larry Culp\""
     }
   },
-  "reason": "not on the 2025 list",
-  "notes": "No entry among the 3,028 people on the list; searched name tokens and the source/organization/employment fields for the company.",
+  "reason": null,
+  "notes": "Listed as \"Larry Culp\" at rank 2311, real-time net worth $1.7B, source \"General Electric, manufacturing\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

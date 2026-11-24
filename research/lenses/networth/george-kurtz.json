@@ -2,18 +2,18 @@
   "id": "george-kurtz",
   "name": "George Kurtz",
   "netWorth": {
-    "value": 6.3,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 551,
+    "value": 12.34,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 247,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"george-kurtz\",\"rank\":551,\"listUri\":\"billionaires\",\"visible\":true,\"position\":554,\"premiumProfile\":false,\"imageExists\":false,\"embargo\":false,\"finalWorth\":6300.0,\"finalWorthBillions\":6.3,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"George Kurtz\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"george-kurtz\",\"rank\":247,\"listUri\":\"rtb\",\"visible\":true,\"position\":247,\"imageExists\":false,\"bio\":\"\",\"finalWorth\":12336.222,\"finalWorthBillions\":12.336222,\"person\":{\"name\":\"George Kurtz\",\"uri\":\"george-kurtz\",\"imageExists\":false,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5e5eec877d6f2600068e9a81/416x416.jpg?background=000000&cropX1=1192&cropX2=3840&cropY1=2641&cropY2=5291\"},\"personName\":\"George Kurtz\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"George Kurtz\" at rank 551 (ranks are shared on ties), net worth $6.3B, source \"Security software\".",
+  "notes": "Listed as \"George Kurtz\" at rank 247, real-time net worth $12.3B, source \"Security software\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

@@ -2,18 +2,18 @@
   "id": "howard-schultz",
   "name": "Howard Schultz",
   "netWorth": {
-    "value": 3.5,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 1045,
+    "value": 3.6,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 1146,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"howard-schultz\",\"rank\":1045,\"listUri\":\"billionaires\",\"visible\":true,\"position\":1064,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":3500.0,\"finalWorthBillions\":3.5,\"category\":\"Food & Beverage\",\"otherCompensation\":0,\"person\":{\"name\":\"Howard Schultz\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=1000",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"howard-schultz\",\"rank\":1146,\"listUri\":\"rtb\",\"visible\":true,\"position\":1146,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":3595.983,\"finalWorthBillions\":3.5959830000000004,\"person\":{\"name\":\"Howard Schultz\",\"uri\":\"howard-schultz\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5d8bbe586de3150009a51b00/416x416.jpg?background=000000&cropX1=779&cropX2=1928&cropY1=1929&cropY2=3079\"},\"personName\":\"Howard Schultz\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Howard Schultz\" at rank 1045 (ranks are shared on ties), net worth $3.5B, source \"Starbucks\".",
+  "notes": "Listed as \"Howard Schultz\" at rank 1146, real-time net worth $3.6B, source \"Starbucks\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

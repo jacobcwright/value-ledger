@@ -2,18 +2,18 @@
   "id": "larry-page",
   "name": "Larry Page",
   "netWorth": {
-    "value": 144.0,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 7,
+    "value": 231.88,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 3,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"larry-page\",\"rank\":7,\"listUri\":\"billionaires\",\"visible\":true,\"position\":7,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":144000.0,\"finalWorthBillions\":144.0,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Larry Page\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"larry-page\",\"rank\":3,\"listUri\":\"rtb\",\"visible\":true,\"position\":3,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":231881.384,\"finalWorthBillions\":231.881384,\"person\":{\"name\":\"Larry Page\",\"uri\":\"larry-page\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5c76bcaaa7ea43100043c836/416x416.jpg?background=000000&cropX1=227&cropX2=2022&cropY1=22&cropY2=1817\"},\"personName\":\"Larry Page\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Larry Page\" at rank 7 (ranks are shared on ties), net worth $144.0B, source \"Google\".",
+  "notes": "Listed as \"Larry Page\" at rank 3, real-time net worth $231.9B, source \"Google\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

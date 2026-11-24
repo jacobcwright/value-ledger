@@ -2,18 +2,18 @@
   "id": "mark-zuckerberg",
   "name": "Mark Zuckerberg",
   "netWorth": {
-    "value": 216.0,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 2,
+    "value": 203.86,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 5,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"mark-zuckerberg\",\"rank\":2,\"listUri\":\"billionaires\",\"visible\":true,\"position\":2,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"bio\":\"Zuckerberg made the first ever Under 30 list in 2012, eight years after he started Facebook in his Harvard dorm room. At the time, his social network had amassed 845 million users and was readying for its $100 billion May 2012 IPO. Now called Meta, the company has 3.6 billion users across its Facebook, Instagram and WhatsApp as its market cap hovers around $1 trillion. But amid declining interest from young users and a tarnished brand, Zuckerberg is shifting his focus to virtual reality and a still unproven idea for a metaverse.\",\"finalWorth\":216000.0,\"finalWorthBillions\":216.0,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Mark Zuckerberg\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"mark-zuckerberg\",\"rank\":5,\"listUri\":\"rtb\",\"visible\":true,\"position\":5,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":203855.717,\"finalWorthBillions\":203.855717,\"person\":{\"name\":\"Mark Zuckerberg\",\"uri\":\"mark-zuckerberg\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5c76b7d331358e35dd2773a9/416x416.jpg?background=000000&cropX1=0&cropX2=4401&cropY1=0&cropY2=4401\"},\"personName\":\"Mark Zuckerberg\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Mark Zuckerberg\" at rank 2 (ranks are shared on ties), net worth $216.0B, source \"Facebook\".",
+  "notes": "Listed as \"Mark Zuckerberg\" at rank 5, real-time net worth $203.9B, source \"Facebook\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

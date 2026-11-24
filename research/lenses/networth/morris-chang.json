@@ -2,18 +2,18 @@
   "id": "morris-chang",
   "name": "Morris Chang",
   "netWorth": {
-    "value": 4.1,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 887,
+    "value": 8.89,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 407,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"morris-chang\",\"rank\":887,\"listUri\":\"billionaires\",\"visible\":true,\"position\":890,\"premiumProfile\":false,\"imageExists\":false,\"embargo\":false,\"finalWorth\":4100.0,\"finalWorthBillions\":4.1,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Morris Chang\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"morris-chang\",\"rank\":407,\"listUri\":\"rtb\",\"visible\":true,\"position\":407,\"imageExists\":false,\"bio\":\"\",\"finalWorth\":8894.101,\"finalWorthBillions\":8.894101000000001,\"person\":{\"name\":\"Morris Chang\",\"uri\":\"morris-chang\",\"imageExists\":false,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/683dc047fe62b9a6de1ae2ed/416x416.jpg?background=000000&cropX1=722&cropX2=1386&cropY1=175&cropY2=840\"},\"personName\":\"Morris Chang\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Morris Chang\" at rank 887 (ranks are shared on ties), net worth $4.1B, source \"Semiconductors\".",
+  "notes": "Listed as \"Morris Chang\" at rank 407, real-time net worth $8.9B, source \"Semiconductors\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

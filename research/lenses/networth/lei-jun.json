@@ -2,18 +2,18 @@
   "id": "lei-jun",
   "name": "Lei Jun",
   "netWorth": {
-    "value": 43.5,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 32,
+    "value": 21.29,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 124,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"lei-jun\",\"rank\":32,\"listUri\":\"billionaires\",\"visible\":true,\"position\":32,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":43500.0,\"finalWorthBillions\":43.5,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Lei Jun\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"lei-jun\",\"rank\":124,\"listUri\":\"rtb\",\"visible\":true,\"position\":124,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":21285.552,\"finalWorthBillions\":21.285552,\"person\":{\"name\":\"Lei Jun\",\"uri\":\"lei-jun\",\"imageExists\":true,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/6aeb4b249cbb97a405694342/416x416.jpg?background=000000&cropX1=671&cropX2=1272&cropY1=246&cropY2=848\"},\"personName\":\"Lei Jun\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Lei Jun\" at rank 32 (ranks are shared on ties), net worth $43.5B, source \"Smartphones, automobiles\".",
+  "notes": "Listed as \"Lei Jun\" at rank 124, real-time net worth $21.3B, source \"Smartphones, automobiles\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

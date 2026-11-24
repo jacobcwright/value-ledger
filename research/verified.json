@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T17:11:57.756Z",
+  "generatedAt": "2026-11-24T18:43:41.132Z",
   "sources": {
     "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf": {
       "ok": true,
@@ -2269,10 +2269,22 @@
       "quotes": 3,
       "failed": []
     },
-    "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100": {
+    "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=0": {
       "ok": true,
-      "reason": "all 53 quotes found (exact)",
-      "quotes": 53,
+      "reason": "all 39 quotes found (exact)",
+      "quotes": 39,
+      "failed": []
+    },
+    "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=2000": {
+      "ok": true,
+      "reason": "all 6 quotes found (exact)",
+      "quotes": 6,
+      "failed": []
+    },
+    "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=1000": {
+      "ok": true,
+      "reason": "all 11 quotes found (exact)",
+      "quotes": 11,
       "failed": []
     }
   }

@@ -2,18 +2,18 @@
   "id": "nikesh-arora",
   "name": "Nikesh Arora",
   "netWorth": {
-    "value": null,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": null,
+    "value": 1.74,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 2287,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": null
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=2000",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"nikesh-arora\",\"rank\":2287,\"listUri\":\"rtb\",\"visible\":true,\"position\":2287,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":1741.768,\"finalWorthBillions\":1.741768,\"person\":{\"name\":\"Nikesh Arora\",\"uri\":\"nikesh-arora\",\"imageExists\":true,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/682f4020140143a67cb2ef65/416x416.jpg?background=000000&cropX1=0&cropX2=2399&cropY1=247&cropY2=2647\"},\"personName\":\"Nikesh Arora\""
     }
   },
-  "reason": "not on the 2025 list",
-  "notes": "No entry among the 3,028 people on the list; searched name tokens and the source/organization/employment fields for the company.",
+  "reason": null,
+  "notes": "Listed as \"Nikesh Arora\" at rank 2287, real-time net worth $1.7B, source \"Cybersecurity, SoftBank, Google\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }

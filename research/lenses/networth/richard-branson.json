@@ -3,17 +3,17 @@
   "name": "Richard Branson",
   "netWorth": {
     "value": 2.8,
-    "asOf": "2025-03-07",
-    "list": "Forbes 2025 World's Billionaires",
-    "rank": 1305,
+    "asOf": "2026-11-24",
+    "list": "Forbes Real-Time Billionaires",
+    "rank": 1445,
     "source": {
       "hostType": "publisher",
-      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
-      "label": "Forbes 2025 World's Billionaires list",
-      "quote": "\"uri\":\"richard-branson\",\"rank\":1305,\"listUri\":\"billionaires\",\"visible\":true,\"position\":1311,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":2800.0,\"finalWorthBillions\":2.8,\"category\":\"Diversified\",\"otherCompensation\":0,\"person\":{\"name\":\"Richard Branson\""
+      "url": "https://www.forbes.com/forbesapi/person/rtb/0/position/true.json?limit=1000&start=1000",
+      "label": "Forbes Real-Time Billionaires, captured 2026-11-24 18:40 UTC",
+      "quote": "\"uri\":\"richard-branson\",\"rank\":1445,\"listUri\":\"rtb\",\"visible\":true,\"position\":1445,\"imageExists\":true,\"bio\":\"\",\"finalWorth\":2802.934,\"finalWorthBillions\":2.802934,\"person\":{\"name\":\"Richard Branson\",\"uri\":\"richard-branson\",\"imageExists\":true,\"squareImage\":\"https://specials-images.forbesimg.com/imageserve/605e45a29181e87f594383bd/416x416.jpg?background=000000&cropX1=0&cropX2=1080&cropY1=0&cropY2=1080\"},\"personName\":\"Richard Branson\""
     }
   },
   "reason": null,
-  "notes": "Listed as \"Richard Branson\" at rank 1305 (ranks are shared on ties), net worth $2.8B, source \"Virgin\".",
+  "notes": "Listed as \"Richard Branson\" at rank 1445, real-time net worth $2.8B, source \"Virgin\". Forbes updates this list continuously; this is its value at the capture time.",
   "researchedAt": "2026-11-24"
 }
