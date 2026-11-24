@@ -148,3 +148,7 @@ nav a {text-decoration:none}
   html {scroll-behavior:auto}
   *,*::before,*::after {animation-duration:1ms!important;animation-iteration-count:1!important;transition-duration:1ms!important;scroll-behavior:auto!important}
 }
+
+/* Headings that receive focus from code (deep links, chips) for screen readers: no visible ring. Keyboard focus rings stay. */
+[tabindex="-1"]:focus:not(:focus-visible) {outline:none}
+[tabindex="-1"]:focus {outline:none}
