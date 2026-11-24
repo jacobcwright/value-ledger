@@ -196,8 +196,12 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
       const outside = amazonMarkets.filter(market => market.id !== "US").reduce((sum,market) => sum + market.sales,0);
       takeaway.innerHTML = `<b>${compactMoney(amazonSalesTotal)}</b> in 2024 net sales, with <b>${decimal.format(amazonShare(outside))}%</b> from markets outside the United States.`;
     } else if (layer === "states") {
-      const top = amazonStateData.reduce((best,state) => state.gdp > best.gdp ? state : best);
-      takeaway.innerHTML = `${top.name} leads with <b>${compactMoney(top.gdp)}${top.gdpPlus ? "+" : ""}</b> in estimated GDP contribution from 2010 through 2025.`;
+      const key = root.querySelector("#amazon-state-metric")?.value || "gdp";
+      const measure = stateMeasures[key];
+      const top = amazonStateData.filter(state => state[key] != null).reduce((best,state) => state[key] > best[key] ? state : best);
+      const value = (key === "employees" ? integer.format(top[key]) : compactMoney(top[key])) + (top[key + "Plus"] ? "+" : "");
+      const period = measure.period ? ` from ${measure.period.replace("–"," through ")}` : "";
+      takeaway.innerHTML = `${top.name} leads with <b>${value}</b> ${key === "employees" ? "" : "in "}${measure.phrase}${period}.`;
     } else {
       const count = entries.length, plural = count === 1 ? "" : "s";
       const countries = new Set(entries.map(amazonSiteCountry)).size;
@@ -269,6 +273,9 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
     choose(0);
   }
 
+  root.addEventListener("change",event => {
+    if (event.target.id === "amazon-state-metric" && layer === "states") setTakeaway();
+  });
   root.addEventListener("click",event => {
     const target = event.target.closest("button");
     if (!target) return;

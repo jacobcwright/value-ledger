@@ -16,9 +16,6 @@
 /portraits/*
   Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
 
-/screenshots/*
-  Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
-
 /og-image.png
   Cache-Control: public, max-age=86400
 
