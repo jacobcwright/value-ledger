@@ -24,7 +24,7 @@ const companyLensViews = ["ecosystem","fiscal"];
 const companyHolderTypes = {"asset-manager":"Asset manager","index-fund":"Index fund",pension:"Pension",sovereign:"Sovereign fund",government:"Government",family:"Family",company:"Company",employees:"Employees",other:"Other"};
 const companyRelations = {founder:"Founder","co-founder":"Co-founder","founding-family":"Founding family",estate:"Estate",ceo:"CEO","former-ceo":"Former CEO",chair:"Chair",executive:"Executive",investor:"Investor"};
 // Evidence tiers, as named on the methodology page.
-const cvTiers = {filing:"From the 10-K/annual report","company-commissioned":"Company-commissioned",derived:"Derived from filings",market:"Market data",estimate:"Our estimate",record:"Filing"};
+const cvTiers = {filing:"From the 10-K/annual report","company-commissioned":"Company-commissioned",derived:"Derived from filings",market:"Market data",estimate:"Our estimate",record:"Filing",company:"Company-reported"};
 
 function companyValueSlot(leader) {
   return `<section id="company-value" class="distribution company-value${leader.id === "jeff-bezos" ? " company-lenses" : ""}" aria-labelledby="company-value-title" data-leader="${escapeHtml(leader.id)}" hidden></section>`;
@@ -404,9 +404,9 @@ function cvEcosystem(record, leader) {
   }
   if (unitShare) {
     const quarter = ecosystem.thirdPartyUnitShare.period ? String(ecosystem.thirdPartyUnitShare.period) : "";
-    stats.push(stat(cvPercent(unitShare.value,0),"of paid units sold by third-party sellers",[quarter,"units, not dollars"].filter(Boolean).map(escapeHtml).join(" · "),"record"));
+    stats.push(stat(cvPercent(unitShare.value,0),"of paid units sold by third-party sellers",[quarter,"units, not dollars"].filter(Boolean).map(escapeHtml).join(" · "),"company"));
     sources.push(...unitShare.sources);
-    proof.push(cvProof(unitShare.label || "Third-party unit share",cvPercent(unitShare.value,0),quarter,"record",unitShare.sources,"A share of units, not dollars, for one quarter."));
+    proof.push(cvProof(unitShare.label || "Third-party unit share",cvPercent(unitShare.value,0),quarter,"company",unitShare.sources,"A share of units, not dollars, for one quarter."));
   }
   let secondaryBlock = "";
   if (secondary) {
@@ -430,7 +430,7 @@ function cvEcosystem(record, leader) {
     const value = cvNumber(study.value) && /^[A-Z]{3}$/.test(study.currency || "") && (!study.unit || study.unit === "billions") ? cvMoney(study.value,String(study.currency)) : "";
     proof.push(cvProof(study.title,value || "Claim",study.year ? String(study.year) : "","company-commissioned",[{...source,quote:source.quote || String(study.claim)}],`Commissioned by: ${study.commissionedBy}. Published by: ${study.publisher || "not stated"}. Claim: “${study.claim}”`));
     return `<article class="cv-study">
-        <p class="cv-study-tag"><span class="cv-tier is-commissioned">Company-commissioned study</span></p>
+        <p class="cv-study-tag"><span class="cv-tier is-commissioned">${/self-published/i.test(study.commissionedBy || "") ? "Company-published report" : "Company-commissioned study"}</span></p>
         <h5>${escapeHtml(study.title)}</h5>
         <p class="cv-study-meta">${[study.publisher ? "By " + escapeHtml(study.publisher) : "","Commissioned by: " + escapeHtml(study.commissionedBy),study.year ? escapeHtml(String(study.year)) : ""].filter(Boolean).join(" · ")}</p>
         ${value ? `<p class="cv-study-value"><strong>${value}</strong></p>` : ""}
@@ -521,7 +521,7 @@ function cvRender(record, leader) {
   return `
       <header class="distribution-heading">
         <p class="eyebrow">${lensOnly ? `${escapeHtml(leader.company.toUpperCase())} · MORE LENSES` : escapeHtml(leader.company.toUpperCase())}</p>
-        <h3 id="company-value-title">${lensOnly ? (views.length > 1 ? "Platform, taxes and R&amp;D" : views[0].key === "ecosystem" ? "Platform" : "Taxes and R&amp;D") : "Who shares in the value?"}</h3>
+        <h3 id="company-value-title">${lensOnly ? (views.length > 1 ? "Platform and taxes" : views[0].key === "ecosystem" ? "Platform" : "Taxes") : "Who shares in the value?"}</h3>
         ${lensOnly ? `<p>More ways to see the value ${company} created, each on its own.</p>` : ""}
       </header>
       <div class="distribution-tabs${views.length > 4 ? " cv-tabs-many" : ""}" role="tablist" aria-label="Explore ${escapeHtml(cvPossessive(leader.company))} value">
