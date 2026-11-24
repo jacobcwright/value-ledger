@@ -92,7 +92,7 @@
       "state": null,
       "iso2": "FR",
       "type": "theme park resort",
-      "description": "A 5,200-acre site east of Paris with Disneyland Park, Disney Adventure World (the former Walt Disney Studios Park) and seven resort hotels (about 5,750 rooms).",
+      "description": "A 5,200-acre site east of Paris with Disneyland Park, Disney Adventure World and seven resort hotels (about 5,750 rooms).",
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
@@ -120,7 +120,7 @@
       "state": null,
       "iso2": "CN",
       "type": "theme park resort",
-      "description": "43% owned by Disney (57% by Shendi); Shanghai Disneyland, two themed hotels and Disneytown on about 1,000 acres.",
+      "description": "43% owned by Disney (57% by Shendi); Shanghai Disneyland, hotels and Disneytown on about 1,000 acres.",
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
@@ -143,7 +143,7 @@
       }
     },
     {
-      "name": "Disney's Castaway Cay",
+      "name": "Disney Castaway Cay",
       "place": "The Bahamas",
       "state": null,
       "iso2": "BS",
