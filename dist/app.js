@@ -152,7 +152,8 @@ rows.addEventListener("click",event => {
   const row = event.target.closest("tr.entry");
   if (!row || (!event.target.closest(".row-toggle") && window.getSelection()?.toString())) return;
   toggleRow(row);
-  row.querySelector(".row-toggle").focus({preventScroll:true,focusVisible:false});
+  const toggle = row.querySelector(".row-toggle");
+  if (!toggle.contains(event.target)) toggle.focus({preventScroll:true,focusVisible:false});
 });
 // Escape closes the open panel and returns focus to its row.
 rows.addEventListener("keydown",event => {
