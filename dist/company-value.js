@@ -171,7 +171,8 @@ function cvOwnership(record, leader) {
     const source = manager && manager.investsFor ? cvSource(manager.source) : null;
     return source ? {name:String(manager.name || holder.name),investsFor:String(manager.investsFor),source} : null;
   };
-  const named = pattern => holders.some(holder => pattern.test(holder.name));
+  // Only holders actually listed count: a fund named further down the filing's list isn't shown, so it is added here.
+  const named = pattern => [...barHolders,...classHolders].some(holder => pattern.test(holder.name));
   const nbimSource = owners.nbim && cvNumber(owners.nbim.pct) && owners.nbim.pct > 0 ? cvSource(owners.nbim.source) : null;
   const nbim = nbimSource && !named(/norges bank|government of norway|government pension fund|\bnbim\b/i) ? {pct:owners.nbim.pct,asOf:owners.nbim.asOf,source:nbimSource} : null;
   const calpersData = owners.calpers && cvNumber(owners.calpers.pct) && owners.calpers.pct > 0 ? owners.calpers : null;
@@ -316,8 +317,9 @@ function cvOwnership(record, leader) {
     // The class the count covers, when the words right after the number name one ("16,800 record holders of its Class B common stock").
     const digits = String(recordHolders.count).split("").join("[,.\\s\\u00a0\\u202f]?");
     const at = new RegExp(`(?<![\\d,])${digits}(?![\\d])`).exec(quote);
-    const after = at ? quote.slice(at.index + at[0].length).split(/\d/)[0] : "";
-    const shareClass = /\bclass\s+([a-z])\b/i.exec(after);
+    // Only the clause the count sits in: stop at the next sentence, bullet or number, and require "of/for … Class X".
+    const after = at ? quote.slice(at.index + at[0].length).split(/[\d.•;]/)[0] : "";
+    const shareClass = /\b(?:of|for)\b.*?\bclass\s+([a-z])\b/i.exec(after);
     const counted = `${integer.format(recordHolders.count)} ${term || "shareholders on the register"}${shareClass ? ` of Class ${shareClass[1].toUpperCase()}` : ""}${cvDate(recordHolders.asOf) ? ` (${cvDate(recordHolders.asOf)})` : ""}`;
     restDetail = `${cvLink(recordHolders.source,counted)}, plus everyone who owns shares through a brokerage, a fund or a pension.${term ? " Holders of record undercount owners: a broker’s clients can appear as a single record." : ""}`;
   }
@@ -610,7 +612,6 @@ function cvPaidout(record, leader) {
   const native = currency !== "USD";
   const company = escapeHtml(leader.company);
   const fy = cvFy(period);
-  const notes = lens.notes ? String(lens.notes) : "";
   const sources = [], proof = [];
   const fx = lens.fx && cvNumber(lens.fx.perUSD) ? {...lens.fx,source:cvSource(lens.fx.source)} : null;
   // One waterfall row. sign: "", "−", "+", "=". Each input links to its document; summed inputs list their parts.
@@ -654,7 +655,6 @@ function cvPaidout(record, leader) {
       proof.push(cvProof("Operating costs paid, excluding interest",money(alt.value),fy,"derived",[],"Noninterest expense − depreciation and amortization − stock-based compensation + income taxes paid."));
     }
     if (interest) prove("Interest paid to depositors and lenders",interest,"Shown apart; never added to operating costs.");
-    if (notes) proof.push(cvProof("Researcher’s notes","Notes",fy,"derived",[],notes));
     return {sources,proof,html};
   }
 
@@ -675,13 +675,14 @@ function cvPaidout(record, leader) {
   // The waterfall.
   const steps = [
     row("","Revenue",money(revenue.value),revenue),
-    row("−","Operating cash flow",money(ocf.value),ocf),
+    // A negative operating cash flow is subtracted as a negative, so it adds to paid out.
+    ocf.value < 0 ? row("+",`Operating cash flow was negative (${money(ocf.value)}), so it adds`,money(-ocf.value),ocf) : row("−","Operating cash flow",money(ocf.value),ocf),
     row("+","Capital spending",money(capex.value),capex),
     ...addBacks.map(item => row("+",cvAddBackLabels[item.key] || escapeHtml(item.key),money(item.line.value),item.line)),
     row("=","Paid out",money(lens.paidOut),null,adjusted || sales ? "subtotal" : "total")
   ];
   if (adjusted) {
-    for (const part of adjusted.parts) steps.push(row(part.effect >= 0 ? "−" : "+",`${escapeHtml(cvCap(part.label))} <em>(customer lending inside operating cash flow)</em>`,money(Math.abs(part.effect)),part.line));
+    for (const part of adjusted.parts) steps.push(row(part.effect >= 0 ? "−" : "+",`${escapeHtml(cvCap(part.label))} <em>(${/deposit/i.test(part.label) ? "customer deposits" : "customer lending"} inside operating cash flow)</em>`,money(Math.abs(part.effect)),part.line));
     steps.push(row("=","Paid out, adjusted for customer lending",money(adjusted.adjusted),null,sales ? "subtotal" : "total"));
   }
   if (sales) {
@@ -740,7 +741,6 @@ function cvPaidout(record, leader) {
     if (own.length && cvNumber(item.caveat.value)) proof.push(cvProof(item.caveat.code === "non-cash-revenue" ? "Non-cash revenue (caveat)" : "Interest and dividends received inside operating cash flow (caveat)",money(item.caveat.value),fy,"record",own));
   });
   sources.push(...caveatSources);
-  if (notes) proof.push(cvProof("Researcher’s notes","Notes",fy,"derived",[],notes));
 
   const totalLabel = sales ? "Paid out & sales enabled" : adjusted ? "Paid out, adjusted for customer lending" : "Paid out";
   const usdLine = native && cvNumber(lens.usd?.total) ? `<span>${usdMoney(lens.usd.total)} in USD, at the ${fx.calendarYear} average rate</span>` : "";
