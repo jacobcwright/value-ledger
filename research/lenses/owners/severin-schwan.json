@@ -1,19 +1,19 @@
 {
-  "id": "severin-schwan",
-  "company": "Roche",
-  "nbim": {
-    "pct": 2.31,
-    "marketValueUSD": 5.272,
-    "asOf": "2024-12-31",
-    "source": {
-      "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"4wbajl2ndqxk\",\"cc\":\"CH\",\"n\":\"Roche Holding AG\",\"a\":{\"e\":5272273510,\"n\":59879055552},\"at\":0,\"o\":2.31,\"eq\":{\"vid\":\"ROG\",\"v\":0.06,\"s\":\"Health Care\"}}"
-    }
-  },
-  "calpers": null,
-  "holdersOfRecord": null,
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Europe;Switzerland;Roche Holding AG;Health Care;59879055552;5272273510;0.06%;2.31%\". NBIM: NBIM's row gives ownership 2.31% but voting 0.06%: most of its Roche position is non-voting. CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Roche. Holders of record: Roche's share capital is divided into bearer shares (2024 annual report), and neither the annual report nor the finance report states a count of holders.",
-  "researchedAt": "2026-11-23"
+ "id": "severin-schwan",
+ "company": "Roche",
+ "nbim": {
+  "pct": 2.23,
+  "marketValueUSD": 7.449,
+  "asOf": "2026-06-30",
+  "source": {
+   "hostType": "company",
+   "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+   "label": "NBIM equity holdings, 2026-06-30",
+   "quote": "{\"id\":\"4wbajl2ndqxk\",\"cc\":\"CH\",\"n\":\"Roche Holding AG\",\"a\":{\"e\":7449481965,\"n\":73716348792},\"at\":0,\"o\":2.23,\"eq\":{\"vid\":\"ROP\",\"v\":0.24,\"s\":\"Health Care\"}}"
+  }
+ },
+ "calpers": null,
+ "holdersOfRecord": null,
+ "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). NBIM's row gives ownership 2.23% but voting 0.24%: most of its Roche position is in the non-voting participation certificates. CalPERS: its Form 13F information table for the quarter ended September 30, 2026 lists no Roche shares or ADRs (searched by name; 13F covers only U.S.-listed securities, and Roche's ADR trades over the counter). Holders of record: Roche's shares are bearer shares and the company keeps no share register (Finance Report 2025), and the reports state no count of holders.",
+ "researchedAt": "2026-11-24"
 }

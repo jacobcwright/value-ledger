@@ -2,48 +2,48 @@
   "id": "irwin-m-jacobs",
   "company": "Qualcomm",
   "nbim": {
-    "pct": 1.57,
-    "marketValueUSD": 2.686,
-    "asOf": "2024-12-31",
+    "pct": 1.18,
+    "marketValueUSD": 2.348,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"3tpnzf8n8m07\",\"cc\":\"US\",\"n\":\"QUALCOMM Inc\",\"a\":{\"e\":2686085180,\"n\":30506809523},\"at\":0,\"o\":1.57,\"eq\":{\"vid\":\"QCOM\",\"v\":1.57,\"s\":\"Technology\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"3tpnzf8n8m07\",\"cc\":\"US\",\"n\":\"QUALCOMM Inc\",\"a\":{\"e\":2347911989,\"n\":23233763085},\"at\":0,\"o\":1.18,\"eq\":{\"vid\":\"QCOM\",\"v\":1.18,\"s\":\"Technology\"}}"
     }
   },
   "calpers": {
-    "shares": 3505858,
-    "asOf": "2024-12-31",
+    "shares": 2763563,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "QUALCOMM INC COM 747525103 538569906 3505858"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "QUALCOMM INC COM 747525103 508606135 2763563"
     },
     "derived": {
-      "pct": 0.316,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.258,
+      "method": "CalPERS shares ÷ shares outstanding (2,763,563 ÷ 1,070,000,000)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "The number of shares outstanding of the registrant's common stock was 1,111 million at November 4, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+          "label": "FY2026 Form 10-K, cover page",
+          "quote": "The number of shares outstanding of the registrant's common stock was 1,070 million at November 2, 2026."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 5848,
-    "asOf": "2024-11-04",
+    "count": 5308,
+    "asOf": "2026-11-02",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "At November 4, 2024, there were 5,848 holders of record of our common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+      "label": "FY2026 Form 10-K, Item 5",
+      "quote": "At November 2, 2026, there were 5,308 holders of record of our common stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;QUALCOMM Inc;Technology;30506809523;2686085180;1.57%;1.57%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Cover page rounds to 1,111 million shares.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the FY2026 10-K cover count at November 2, 2026, which Qualcomm rounds to 1,070 million; the same count is used in the marketcap lens.",
+  "researchedAt": "2026-11-24"
 }

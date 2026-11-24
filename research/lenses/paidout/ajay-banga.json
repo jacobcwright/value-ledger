@@ -97,7 +97,7 @@
     "quote": "For the years ended December 31, 2025, 2024 and 2023, interest paid on the Company’s debt was $ 680 million, $ 571 million and $ 477 million, respectively.",
     "xbrl": {
      "cik": "0001141391",
-     "concept": "us-gaap:InterestPaidNet",
+     "concept": "us-gaap:InterestExpenseDebt",
      "end": "2025-12-31",
      "value": 680000000
     }
@@ -131,6 +131,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001141391-26-000013). Payment network: formula applies with the sector flag. Net revenue is after rebates and incentives granted to customers (contra-revenue), so those payments to issuers and merchants are not in paidOut; operating cash flow carries them through prepaid expenses (−3,388) and amortization of customer incentives (2,098). No acquisitions of businesses in 2025. Interest and income taxes paid are inside operating cash flow; under the new income-tax disclosure the 10-K no longer prints a supplemental cash-flow line, so taxes come from the income-tax note's by-jurisdiction table and interest from the debt note.",
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001141391-26-000013). Payment network: formula applies with the sector flag. Net revenue is after rebates and incentives granted to customers (contra-revenue), so those payments to issuers and merchants are not in paidOut; operating cash flow carries them through prepaid expenses (−3,388) and amortization of customer incentives (2,098). No acquisitions of businesses in 2025. Interest and income taxes paid are inside operating cash flow; under the new income-tax disclosure the 10-K no longer prints a supplemental cash-flow line, so taxes come from the income-tax note's by-jurisdiction table and interest from the debt note (the filing tags that interest-paid sentence as us-gaap:InterestExpenseDebt).",
  "researchedAt": "2026-11-24"
 }

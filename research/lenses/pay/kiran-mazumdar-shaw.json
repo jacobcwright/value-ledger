@@ -1,0 +1,31 @@
+{
+  "id": "kiran-mazumdar-shaw",
+  "company": "Biocon",
+  "fiscalYear": "FY26",
+  "fiscalYearEnd": "2026-03-31",
+  "currency": "INR",
+  "employees": {
+    "value": 16447,
+    "asOf": "2026-03-31",
+    "basis": "Group total workforce (Biocon Limited, Biocon Biologics and Syngene)",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+      "label": "Biocon Integrated Annual Report FY 2026, Value creation model, Human Capital (PDF p. 62)",
+      "quote": "Total workforce: 16,447"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Employee benefits expense",
+    "value": 35.08,
+    "source": {
+      "hostType": "company",
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+      "label": "Biocon Integrated Annual Report FY 2026, Notes to the consolidated financial statements, Note 25 Employee benefits expenses (₹ million)",
+      "quote": "25. Employee benefits expenses ... Salaries, wages and bonus* 30,134 27,074 Contribution to provident and other funds 1,273 1,217 ... Staff welfare expenses 1,705 1,501 35,080 31,444"
+    }
+  },
+  "notes": "Employees: the report's group headline figure, 'Total workforce: 16,447' (repeated in the Human Capital section as 'Group total workforce'), for FY26; the report does not print a date for it, so it is taken as at the March 31, 2026 year end. It covers Biocon Limited, Biocon Biologics and Syngene; whether it includes contract workers is not stated (the report's women-representation figure is described as 'excluding contractors'). Biocon Limited alone had 3,269 permanent employees at March 31, 2026 (Board's report). Payroll: consolidated employee benefits expense of ₹35,080 million for FY26, which includes ₹1,639 million of share-based compensation; R&D staff costs (₹2,269 million in note 29) are in this line.",
+  "researchedAt": "2026-11-24"
+}

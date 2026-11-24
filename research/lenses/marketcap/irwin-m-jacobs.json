@@ -1,0 +1,22 @@
+{
+  "id": "irwin-m-jacobs",
+  "company": "Qualcomm",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 1070000000,
+      "sharesAsOf": "2026-11-02",
+      "pricedAs": "QCOM",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+        "label": "FY2026 Form 10-K, cover page",
+        "quote": "The number of shares outstanding of the registrant's common stock was 1,070 million at November 2, 2026."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as QCOM. The FY2026 10-K cover (filed November 4, 2026) is the latest count and is newer than the June 2026 10-Q; Qualcomm states it rounded to the nearest million (1,070 million).",
+  "researchedAt": "2026-11-24"
+}

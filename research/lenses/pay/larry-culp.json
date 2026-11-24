@@ -1,0 +1,31 @@
+{
+  "id": "larry-culp",
+  "company": "GE Aerospace",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 57000,
+    "asOf": "2025-12-31",
+    "basis": "approximately 57,000 people employed by GE Aerospace and consolidated affiliates",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/ge-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "At December 31, 2025, GE Aerospace and consolidated affiliates employed approximately 57,000 people, of whom approximately 30,000 were employed in the United States."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Median employee total compensation for 2025",
+    "value": 93873,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000018/ge-20260312.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "Our median employee earned $93,873 in total compensation for 2025. The total 2025 compensation reported for Mr. Culp as reported under SEC Total in the Summary Compensation Table on page 39 was $45,616,160."
+    }
+  },
+  "notes": "Employees: approximate year-end count from the FY2025 10-K. Payroll: the FY2025 10-K discloses no total staff cost (only a defined contribution plan expense and union head counts), so the proxy's CEO pay ratio median is used. GE Aerospace reused the median employee identified from the December 31, 2024 population, excluding 34 countries with 2,567 employees under the de minimis rule; the median employee is in the United States and the compensation is for 2025.",
+  "researchedAt": "2026-11-24"
+}

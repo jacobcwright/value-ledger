@@ -1,0 +1,31 @@
+{
+  "id": "brian-chesky",
+  "company": "Airbnb",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 8200,
+    "asOf": "2025-12-31",
+    "basis": "approximately 8,200 employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, we had approximately 8,200 employees."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Median Employee total annual compensation",
+    "value": 235416,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "Chief Executive Officer total annual compensation $ 242,122 Median Employee total annual compensation $ 235,416 Ratio of Chief Executive Officer to Median Employee total annual compensation 1 to 0.97"
+    }
+  },
+  "notes": "Employees: approximate year-end count from the FY2025 10-K; it excludes the approximately 13,000 third-party workers who handle most community support contacts. Payroll: the 10-K gives no total of salaries, benefits or personnel costs, so the 2026 proxy's CEO pay ratio median for 2025 is used. Airbnb identified the median employee among all full-time, part-time and temporary employees at December 31, 2025, using annualized base salary and bonus target plus equity awarded in 2025. The CEO's 2025 total compensation ($242,122) was slightly above the median's.",
+  "researchedAt": "2026-11-24"
+}

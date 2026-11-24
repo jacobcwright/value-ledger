@@ -1,0 +1,31 @@
+{
+  "id": "jack-dorsey",
+  "company": "Block",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 10205,
+    "asOf": "2025-12-31",
+    "basis": "full-time employees worldwide",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, we had 10,205 full-time employees worldwide with 2,472 full-time employees outside the US."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "median of the annual total compensation of all our employees (other than our Block Head)",
+    "value": 222772,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026027203/sq-20260423.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "the median of the annual total compensation of all our employees (determined as described below, and other than our Block Head) was $222,772"
+    }
+  },
+  "notes": "Employees: full-time head count at December 31, 2025, from the FY2025 10-K; temporary employees and consultants are not included. Payroll: the 10-K discloses no total staff cost, so the 2026 proxy's CEO pay ratio median for 2025 is used (same year as the head count). The median excludes about 346 employees outside the U.S., Australia, Canada, Ireland and the U.K. After the year end, on February 26, 2026, Block announced a restructuring plan to reduce its workforce by more than 40% (FY2025 10-K, Note 22 Subsequent Events), so the year-end count overstates current staff.",
+  "researchedAt": "2026-11-24"
+}

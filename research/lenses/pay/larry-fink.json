@@ -1,0 +1,31 @@
+{
+  "id": "larry-fink",
+  "company": "BlackRock",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 24900,
+    "asOf": "2025-12-31",
+    "basis": "approximately 24,900 employees in more than 30 countries",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "With approximately 24,900 employees in more than 30 countries as of December 31, 2025, BlackRock provides a broad range of investment management and technology services"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Employee compensation and benefits",
+    "value": 8.446,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+      "label": "FY2025 Form 10-K, consolidated statements of income (in millions)",
+      "quote": "Total revenue 24,216 20,407 17,859 Expense Employee compensation and benefits 8,446 6,546 5,779 [in millions; 2025, 2024, 2023]"
+    }
+  },
+  "notes": "Employees: approximate year-end count from the FY2025 10-K. Payroll: the income statement's 'Employee compensation and benefits' line, which the 10-K says 'includes salaries, commissions, temporary help, incentive compensation, employer payroll taxes, severance and related benefit costs' (and stock-based compensation). The 2026 proxy also reports a 2025 median employee annual total compensation of $153,770 (CEO pay ratio 245:1), not used because a total is disclosed.",
+  "researchedAt": "2026-11-24"
+}

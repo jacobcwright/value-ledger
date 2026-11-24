@@ -1,13 +1,13 @@
 {
   "id": "jack-ma",
   "company": "Alibaba Group Holding",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-03-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
   "currency": "CNY",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-06-20",
+    "asOf": "2026-05-18",
     "leader": {
       "name": "Jack Ma",
       "relation": "co-founder",
@@ -17,69 +17,69 @@
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-ex15_5.htm",
-        "label": "FY2025 Form 20-F, Exhibit 15.5 (2025 Hong Kong Annual Report, adjusted version), Major Shareholders (incorporated into Items 6.E and 7.A; printed p. 188)",
-        "quote": "The following table sets forth information with respect to beneficial ownership of our ordinary shares as of June 20, 2025, except otherwise noted, by: ... each of our directors and executive officers; ... our directors and executive officers as a group; and ... each person known to us to beneficially own 5% or more of our ordinary shares."
+        "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
+        "label": "FY2026 Form 20-F, Item 7.A Major Shareholders",
+        "quote": "The following table sets forth information with respect to beneficial ownership of our ordinary shares as of May 18, 2026, except otherwise noted, by: • each of our directors and executive officers; • our directors and executive officers as a group; and • each person known to us to beneficially own 5% or more of our ordinary shares."
       }
     },
     "largestHolders": [],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of ordinary shares with one vote each. The 20-F's beneficial ownership table lists no holder of 5% or more as of June 20, 2025; Joseph C. Tsai (1.5%) is the largest listed, and SoftBank 'is no longer a major shareholder'. The company states it is not aware of any arrangement that may later result in a change of control. Control rests partly outside share ownership: under the Articles, 'the Alibaba Partnership has the exclusive right to nominate or, in limited situations, appoint, up to a simple majority of the members of our board of directors', and the annual report calls this a WVR (weighted voting rights) structure. Jack Ma and Joe Tsai are the partnership's continuity partners."
+      "note": "One class of ordinary shares with one vote each. The 20-F's beneficial ownership table lists no holder of 5% or more as of May 18, 2026; Joseph C. Tsai (1.5%) is the largest listed. The company states it is not aware of any arrangement that may later result in a change of control. Control rests partly outside share ownership: under the Articles, 'the Alibaba Partnership has the exclusive right to nominate or, in limited situations, appoint, up to a simple majority of the members of our board of directors', which the Hong Kong Listing Rules categorize as a WVR (weighted voting rights) structure. Jack Ma and Joe Tsai are the partnership's continuity partners."
     }
   },
   "cash": {
     "dividends": {
-      "value": 29.08,
+      "value": 33.73,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
-        "label": "FY2025 Form 20-F, consolidated statements of cash flows, financing activities",
-        "quote": "Dividend distribution — (17,946) (29,077) (4,007) [RMB in millions, fiscal 2023, 2024, 2025; last column US$ millions for 2025]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
+        "label": "FY2026 Form 20-F, consolidated statements of cash flows, financing activities",
+        "quote": "Dividend distribution (17,946 ) (29,077 ) (33,732 ) (4,890 ) [RMB in millions, fiscal 2024, 2025, 2026; last column US$ millions for 2026]",
         "xbrl": {
           "cik": "0001577552",
           "concept": "us-gaap:PaymentsOfDividends",
-          "end": "2025-03-31",
-          "value": 29077000000
+          "end": "2026-03-31",
+          "value": 33732000000
         }
       }
     },
     "buybacks": {
-      "value": 86.66,
+      "value": 7.64,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
-        "label": "FY2025 Form 20-F, consolidated statements of cash flows, financing activities",
-        "quote": "Repurchase of ordinary shares (74,746) (88,745) (86,662) (11,942) [RMB in millions, fiscal 2023, 2024, 2025; last column US$ millions for 2025]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
+        "label": "FY2026 Form 20-F, consolidated statements of cash flows, financing activities",
+        "quote": "Repurchase of ordinary shares (88,745 ) (86,662 ) (7,638 ) (1,107 ) [RMB in millions, fiscal 2024, 2025, 2026; last column US$ millions for 2026]",
         "xbrl": {
           "cik": "0001577552",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2025-03-31",
-          "value": 86662000000
+          "end": "2026-03-31",
+          "value": 7638000000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 15.58,
+      "value": 14.82,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
-        "label": "FY2025 Form 20-F, Note 8 Share-based awards, share-based compensation expense by function",
-        "quote": "Share-based compensation expense by function ... Cost of revenue 5,710 3,012 2,162 Product development expenses 13,514 7,623 6,700 Sales and marketing expenses 3,710 2,265 2,137 General and administrative expenses 7,897 5,646 4,578 [total] 30,831 18,546 15,577 [RMB in millions, fiscal 2023, 2024, 2025]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
+        "label": "FY2026 Form 20-F, Item 5, share-based compensation expense by function",
+        "quote": "Cost of revenue 3,012 2,162 2,023 293 Product development expenses 7,623 6,700 6,016 872 Sales and marketing expenses 2,265 2,137 2,321 337 General and administrative expenses 5,646 4,578 4,461 647 Total 18,546 15,577 14,821 2,149 [RMB in millions, fiscal 2024, 2025, 2026; last column US$]",
         "xbrl": {
           "cik": "0001577552",
           "concept": "us-gaap:EmployeeBenefitsAndShareBasedCompensation",
-          "end": "2025-03-31",
-          "value": 15577000000
+          "end": "2026-03-31",
+          "value": 14821000000
         }
       }
     },
     "plan": null
   },
   "geography": null,
-  "notes": "Fiscal year ended March 31, 2025 (matches data.js fy 'Mar 2025'). Alibaba reports in renminbi (RMB, ISO code CNY); values are billions of RMB, converted from RMB millions with no FX. Sources are the FY2025 Form 20-F (filed June 26, 2025, accession 0000950170-25-090161) and its Exhibit 15.5, the English 2025 Hong Kong Annual Report (adjusted version), which the 20-F incorporates by reference for Item 6.E (Share Ownership) and Item 7.A (Major Shareholders). Cash and stock-comp figures match SEC XBRL. LEADER: Jack Ma does not appear in the Item 7.A beneficial ownership table (directors and executive officers, plus anyone known to own 5% or more, as of June 20, 2025, on 18,553,264,125 ordinary shares outstanding), nor among directors' interests under the Hong Kong SFO as of March 31, 2025. So no current holding is reported, and he is recorded as no-reported-stake. The 20-F's only percentage for him is historical: 'the percentage of our ordinary shares Jack Ma and his affiliates beneficially owned immediately prior to the completion of our initial public offering was 8.8%' (2014), which is not a current figure and is not used. It also says that in 2011 he contributed 280,000,000 shares to APN Ltd., a vehicle he set up with Joe Tsai; it does not say what APN holds now. HOLDERS: the SEC-basis table names no 5% holder. Under the Hong Kong SFO register as of March 31, 2025, JPMorgan Chase & Co. reports a 6.00% long position (1,140,249,742 shares, on 18,998,287,724 shares in issue including repurchased shares not yet cancelled). That position combines beneficial-owner, investment-manager, security-interest and approved-lending-agent (2.01% lending pool) capacities, so it is not recorded as an economic holder. STOCK COMP: 15,577 million is the company's 'total share-based compensation expense', which the annual report says includes 'both cash and non-cash share-based compensation expenses'. The cash-flow add-back for equity-settled share-based compensation is 13,970 million. The total includes Alibaba share awards, Ant Group awards (RMB4 million expense in fiscal 2025) and awards of subsidiaries. GEOGRAPHY: null. The 20-F (Note 28 Segment information) states: 'As substantially all of the Company's long-lived assets are located in the PRC and substantially all of the Company's revenue is derived from within the PRC, no geographical information is presented.' DIVIDENDS exclude RMB664 million paid by non-wholly owned subsidiaries to noncontrolling interests. PLAN: no broad employee stock purchase plan is described in the sections read.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended March 31, 2026 (data.js fy 'Mar 2026'). Alibaba reports in renminbi (RMB, ISO code CNY); values are billions of RMB, converted from RMB millions with no FX. Sources are the FY2026 Form 20-F (filed May 20, 2026, accession 0001193125-26-231755); unlike FY2025, it attaches no Hong Kong annual report exhibit. Cash and stock-comp figures match SEC XBRL. LEADER: Jack Ma does not appear in the Item 7.A beneficial ownership table (directors and executive officers, plus anyone known to own 5% or more, as of May 18, 2026, on 18,669,888,147 ordinary shares outstanding). So no current holding is reported, and he is recorded as no-reported-stake. The 20-F's only percentage for him is historical: 'the percentage of our ordinary shares Jack Ma and his affiliates beneficially owned immediately prior to the completion of our initial public offering was 8.8%' (2014), which is not used. It also says that in 2011 he contributed 280,000,000 shares to APN Ltd., a vehicle he set up with Joe Tsai; it does not say what APN holds now. HOLDERS: the table names no 5% holder, so largestHolders is empty; directors and executive officers as a group held 1.9%. STOCK COMP: 14,821 million is the company's 'Total share-based compensation expense', which 'includes both cash and non-cash share-based compensation expenses' (Alibaba Group awards 9,146; subsidiaries' and Ant Group awards 5,675). GEOGRAPHY: null. The 20-F (Note 29 Segment information) states: 'As substantially all of the Company's long-lived assets are located in the PRC and substantially all of the Company's revenue is derived within the PRC, no geographical information is presented.' DIVIDENDS exclude RMB1,317 million paid by non-wholly owned subsidiaries to noncontrolling interests. BUYBACKS fell from RMB86,662 million in fiscal 2025 to RMB7,638 million. PLAN: no broad employee stock purchase plan is described in the sections read.",
+  "researchedAt": "2026-11-24"
 }

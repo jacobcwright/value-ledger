@@ -1,0 +1,68 @@
+{
+  "id": "severin-schwan",
+  "company": "Roche Holding",
+  "classes": [
+    {
+      "label": "Bearer shares (voting)",
+      "shares": 106291000,
+      "sharesAsOf": "2026-06-30",
+      "pricedAs": "RO.SW",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "Issued bearer shares at 30 June 2026",
+          "value": 106691000,
+          "source": {
+            "hostType": "company",
+            "url": "https://assets.roche.com/f/176343/x/8a0b362d66/hy26e.pdf",
+            "label": "Half-Year Report 2026, Note 12 Equity, share and participation capital",
+            "quote": "at 30 June 2026 the issued share capital of Roche Holding Ltd, which is the Group's parent company, amounted to CHF 0.1 million (31 December 2025: CHF 106.7 million) and consisted of 106,691,000 shares with a nominal value of CHF 0.001 each"
+          }
+        },
+        {
+          "label": "Less own shares held by the Group at 30 June 2026 (stated in millions)",
+          "value": -400000,
+          "source": {
+            "hostType": "company",
+            "url": "https://assets.roche.com/f/176343/x/8a0b362d66/hy26e.pdf",
+            "label": "Half-Year Report 2026, Note 12 Equity, own equity instruments",
+            "quote": "Holdings of own equity instruments in number of shares, participation certificates and non-voting equity securities 30 June 2026 31 December 2025 (millions) (millions) Shares 0.4 0.5 Participation certificates 12.1 –"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Participation certificates (non-voting; replaced the non-voting equity securities in March 2026)",
+      "shares": 690462700,
+      "sharesAsOf": "2026-06-30",
+      "pricedAs": "ROG.SW",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "Participation certificates issued in exchange for the non-voting equity securities",
+          "value": 702562700,
+          "source": {
+            "hostType": "company",
+            "url": "https://assets.roche.com/f/176343/x/8a0b362d66/hy26e.pdf",
+            "label": "Half-Year Report 2026, Note 12 Equity, share and participation capital",
+            "quote": "Following the issuance of 702,562,700 participation certificates with a nominal value of CHF 0.001 in exchange for the previously existing non-voting equity securities (Genussscheine), which had no nominal value, at 30 June 2026 the issued participation capital was CHF 0.7 million"
+          }
+        },
+        {
+          "label": "Less participation certificates held by the Group at 30 June 2026 (stated in millions)",
+          "value": -12100000,
+          "source": {
+            "hostType": "company",
+            "url": "https://assets.roche.com/f/176343/x/8a0b362d66/hy26e.pdf",
+            "label": "Half-Year Report 2026, Note 12 Equity, own equity instruments",
+            "quote": "Holdings of own equity instruments in number of shares, participation certificates and non-voting equity securities 30 June 2026 31 December 2025 (millions) (millions) Shares 0.4 0.5 Participation certificates 12.1 –"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Two listed classes on the SIX Swiss Exchange: bearer shares (RO.SW) and, since 17 March 2026, participation certificates (ROG.SW), which replaced the non-voting equity securities one-for-one and carry the same dividend and liquidation rights as the bearer shares (Half-Year Report 2026). The Yahoo symbols are not stated in Roche's reports; ROG.SW is the line that previously priced the non-voting equity securities. The OTC ADR (RHHBY, eight ADRs per underlying security) is not used. Shares outstanding exclude own equity instruments held by the Group for equity compensation plans, which the half-year report states only in millions (0.4 million shares, 12.1 million participation certificates), so the deductions are rounded to the nearest 100,000. The half-year report at 30 June 2026 is the latest interim report; Roche publishes no quarterly share count.",
+  "researchedAt": "2026-11-24"
+}

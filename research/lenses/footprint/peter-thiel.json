@@ -5,9 +5,9 @@
     "employeeShare": {
       "label": "Share of full-time employees",
       "unit": "percent",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Share of Palantir's 3,936 full-time employees who are employed outside of the United States (10-K, Human Capital)."
+      "definition": "Share of Palantir's 4,429 full-time employees who are employed outside of the United States (10-K, Human Capital)."
     }
   },
   "usStates": null,
@@ -17,30 +17,44 @@
       "name": "Outside the United States",
       "countries": null,
       "values": {
-        "employeeShare": 31
+        "employeeShare": 28
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
-        "label": "Palantir Technologies Form 10-K for fiscal year ended December 31, 2024, Item 1 Human Capital",
-        "quote": "As of December 31, 2024, we had 3,936 full-time employees, 31% of whom are employed outside of the United States."
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+        "label": "Palantir Technologies Form 10-K for fiscal year ended December 31, 2025, Item 1 Human Capital",
+        "quote": "As of December 31, 2025, we had 4,429 full-time employees, 28% of whom are employed outside of the United States."
       }
     }
   ],
   "sites": [
     {
-      "name": "Corporate headquarters",
+      "name": "Principal executive offices",
+      "place": "Aventura, FL",
+      "state": "FL",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Address of principal executive offices (former address: Denver, Colorado)",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+        "label": "Palantir Technologies Form 10-K for fiscal year ended December 31, 2025, cover page",
+        "quote": "19505 Biscayne Blvd., Suite 2350 Aventura, Florida 33180 (Address of principal executive offices)"
+      }
+    },
+    {
+      "name": "Denver office (former corporate headquarters)",
       "place": "Denver, CO",
       "state": "CO",
       "iso2": "US",
-      "type": "headquarters",
-      "description": "Leased principal property; corporate headquarters",
+      "type": "office",
+      "description": "Leased principal property; the former location of the corporate headquarters",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
-        "label": "Palantir Technologies Form 10-K for fiscal year ended December 31, 2024, Item 2 Properties",
-        "quote": "We have leased principal properties in Denver, Colorado, which is the location of our corporate headquarters; in Palo Alto, California; New York City, New York; Washington, D.C.; and London, England."
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+        "label": "Palantir Technologies Form 10-K for fiscal year ended December 31, 2025, Item 2 Properties",
+        "quote": "We have leased principal properties in Denver, Colorado, which was the location of our corporate headquarters; in Palo Alto, California; New York City, New York; Washington, D.C.; and London, England."
       }
     },
     {
@@ -52,9 +66,9 @@
       "description": "Leased principal property",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
-        "label": "Palantir Technologies Form 10-K for fiscal year ended December 31, 2024, Item 2 Properties",
-        "quote": "We have leased principal properties in Denver, Colorado, which is the location of our corporate headquarters; in Palo Alto, California; New York City, New York; Washington, D.C.; and London, England."
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+        "label": "Palantir Technologies Form 10-K for fiscal year ended December 31, 2025, Item 2 Properties",
+        "quote": "We have leased principal properties in Denver, Colorado, which was the location of our corporate headquarters; in Palo Alto, California; New York City, New York; Washington, D.C.; and London, England."
       }
     },
     {
@@ -66,9 +80,9 @@
       "description": "Leased principal property",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
-        "label": "Palantir Technologies Form 10-K for fiscal year ended December 31, 2024, Item 2 Properties",
-        "quote": "We have leased principal properties in Denver, Colorado, which is the location of our corporate headquarters; in Palo Alto, California; New York City, New York; Washington, D.C.; and London, England."
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+        "label": "Palantir Technologies Form 10-K for fiscal year ended December 31, 2025, Item 2 Properties",
+        "quote": "We have leased principal properties in Denver, Colorado, which was the location of our corporate headquarters; in Palo Alto, California; New York City, New York; Washington, D.C.; and London, England."
       }
     },
     {
@@ -80,9 +94,9 @@
       "description": "Leased principal property",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
-        "label": "Palantir Technologies Form 10-K for fiscal year ended December 31, 2024, Item 2 Properties",
-        "quote": "We have leased principal properties in Denver, Colorado, which is the location of our corporate headquarters; in Palo Alto, California; New York City, New York; Washington, D.C.; and London, England."
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+        "label": "Palantir Technologies Form 10-K for fiscal year ended December 31, 2025, Item 2 Properties",
+        "quote": "We have leased principal properties in Denver, Colorado, which was the location of our corporate headquarters; in Palo Alto, California; New York City, New York; Washington, D.C.; and London, England."
       }
     },
     {
@@ -93,12 +107,12 @@
       "description": "Leased principal property",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
-        "label": "Palantir Technologies Form 10-K for fiscal year ended December 31, 2024, Item 2 Properties",
-        "quote": "We have leased principal properties in Denver, Colorado, which is the location of our corporate headquarters; in Palo Alto, California; New York City, New York; Washington, D.C.; and London, England."
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+        "label": "Palantir Technologies Form 10-K for fiscal year ended December 31, 2025, Item 2 Properties",
+        "quote": "We have leased principal properties in Denver, Colorado, which was the location of our corporate headquarters; in Palo Alto, California; New York City, New York; Washington, D.C.; and London, England."
       }
     }
   ],
-  "notes": "The 10-K gives only the share of full-time employees outside the U.S. (31% of 3,936); the U.S. share was not derived. No state, country, investment or tax breakdown is published. Item 2 lists five leased principal properties and 'various other office spaces throughout the world'.",
-  "researchedAt": "2026-11-23"
+  "notes": "The FY2025 10-K gives only the share of full-time employees outside the U.S. (28% of 4,429 at Dec 31, 2025); the U.S. share was not derived. No state, country, investment or tax breakdown is published. The cover page now gives the principal executive offices as Aventura, Florida (former address Denver, Colorado), and Item 2 says Denver 'was the location of our corporate headquarters'; Denver is kept as a leased principal property. Item 2 lists five leased principal properties and 'various other office spaces throughout the world'.",
+  "researchedAt": "2026-11-24"
 }

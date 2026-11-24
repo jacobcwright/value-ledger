@@ -1,8 +1,8 @@
 {
   "id": "jack-dorsey",
   "company": "Block",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ecosystem": {
@@ -10,47 +10,47 @@
     "measure": {
       "name": "Gross Payment Volume (GPV)",
       "definition": {
-        "quote": "GPV includes Square GPV and Cash App Business GPV. Square GPV is defined as the total dollar amount of all card and bank payments processed by sellers using Square, net of refunds. Cash App Business GPV is comprised of Cash App activity related to peer-to-peer transactions received by business accounts, and peer-to-peer payments sent from a credit card.",
+        "quote": "GPV includes Square GPV and Cash App GPV. Square GPV is defined as the total dollar amount of all card and bank payments processed by sellers using Square, net of refunds. Cash App GPV is comprised of Cash App activity related to peer-to-peer transactions received by business accounts, and peer-to-peer payments sent from a credit card. GPV does not include transactions related to our BNPL products.",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-          "label": "FY2024 Form 10-K, Key Operating Metrics",
-          "quote": "GPV includes Square GPV and Cash App Business GPV. Square GPV is defined as the total dollar amount of all card and bank payments processed by sellers using Square, net of refunds. Cash App Business GPV is comprised of Cash App activity related to peer-to-peer transactions received by business accounts, and peer-to-peer payments sent from a credit card."
+          "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+          "label": "FY2025 Form 10-K, Key Operating Metrics",
+          "quote": "GPV includes Square GPV and Cash App GPV. Square GPV is defined as the total dollar amount of all card and bank payments processed by sellers using Square, net of refunds. Cash App GPV is comprised of Cash App activity related to peer-to-peer transactions received by business accounts, and peer-to-peer payments sent from a credit card. GPV does not include transactions related to our BNPL products."
         }
       },
-      "value": 240.812,
+      "value": 259.631,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "FY2024 Form 10-K, Key Operating Metrics table",
-        "quote": "Gross Payment Volume (GPV) (in millions) $ 240,812 $ 227,699 $ 203,536"
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "FY2025 Form 10-K, Key Operating Metrics table",
+        "quote": "Gross Payment Volume (GPV) (in millions) $ 259,631 $ 240,812 $ 227,699"
       }
     },
     "squareGPV": {
       "label": "Square GPV (sellers using Square only)",
-      "value": 228,
+      "value": 250,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1 Business, Square ecosystem (stated rounded)",
-        "quote": "In the year ended December 31, 2024, more than 4 million sellers used the Square ecosystem to make 5.2 billion individual sales transactions totaling $228 billion of Square GPV."
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Business, Square ecosystem (stated rounded)",
+        "quote": "In the year ended December 31, 2025, more than 4.5 million sellers used the Square ecosystem to make 5.9 billion individual sales transactions totaling $250 billion of Square GPV."
       }
     },
     "platformRevenue": {
-      "label": "Transaction-based revenue (the revenue line GPV relates to)",
-      "value": 6.614,
+      "label": "Commerce enablement revenue (the revenue category that holds Square payments)",
+      "value": 11.514,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of operations (in thousands) and Key Operating Metrics GPV definition",
-        "quote": "Transaction-based revenue $ 6,613,680 $ 6,315,301 $ 5,701,540 … GPV does not include transactions from our BNPL platform because GPV is related only to transaction-based revenue and not to subscription and services-based revenue."
+        "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations (in thousands) and revenue category description",
+        "quote": "Commerce enablement revenue $ 11,514,162 $ 10,512,453 $ 9,530,040 … Commerce enablement revenue is primarily comprised of revenue the Company generates from transaction fees related to Square payments, software, and hardware, Cash App Card, Cash App Pay, the Company's BNPL products, Cash App Business accounts, TIDAL, and various other software as a service (\"SaaS\") products."
       }
     },
     "payouts": null,
     "clientAssets": null,
     "studies": [],
-    "notes": "measure is total GPV ($240.812B), which includes Cash App Business GPV. Square GPV alone is stated only rounded, as $228 billion, and is recorded in squareGPV, a schema extension. GPV excludes BNPL platform transactions. platformRevenue is transaction-based revenue ($6.614B) because the 10-K says GPV relates only to that line. Total net revenue was $24.121B, but it includes $10.199B of bitcoin revenue recorded gross plus subscription and services revenue, so dividing it by GPV would overstate the take on payments. Revenue is reported in thousands and GPV in millions; both are converted to billions here."
+    "notes": "measure is total GPV ($259.631B), which includes Cash App GPV. Square GPV alone is stated only rounded, as $250 billion, and is recorded in squareGPV, a schema extension. GPV excludes BNPL transactions. In FY2025 Block replaced its old revenue categories (transaction-based, subscription and services-based, hardware, bitcoin) with Commerce Enablement, Financial Solutions and Bitcoin Ecosystem, so transaction-based revenue is no longer reported. platformRevenue is therefore Commerce enablement revenue ($11.514B), the category that holds Square payment fees; it also includes software, hardware, Cash App Card, Cash App Pay, BNPL, Cash App Business and TIDAL revenue, so platformRevenue ÷ GPV overstates the take on payments alone and is not comparable with the FY2024 figure. Total net revenue was $24.194B, including $8.503B of bitcoin ecosystem revenue recorded gross. Revenue is reported in thousands and GPV in millions; both are converted to billions here."
   },
   "notes": "Schema extension: ecosystem.squareGPV.",
-  "researchedAt": "2026-11-23"
+  "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,22 @@
+{
+  "id": "adena-friedman",
+  "company": "Nasdaq",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 554962751,
+      "sharesAsOf": "2026-10-16",
+      "pricedAs": "NDAQ",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019326000020/ndaq-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "Class Outstanding at October 16, 2026 Common Stock, $0.01 par value per share 554,962,751 shares"
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on The Nasdaq Stock Market as NDAQ (also registered on Nasdaq Texas under the same symbol; one line is used). The Q3 2026 10-Q cover (filed October 22, 2026) is newer than the FY2025 10-K cover (568,443,856 shares at February 3, 2026).",
+  "researchedAt": "2026-11-24"
+}

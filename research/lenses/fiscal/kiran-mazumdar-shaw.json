@@ -1,32 +1,32 @@
 {
   "id": "kiran-mazumdar-shaw",
   "company": "Biocon",
-  "fiscalYear": "FY24",
-  "fiscalYearEnd": "2024-03-31",
+  "fiscalYear": "FY26",
+  "fiscalYearEnd": "2026-03-31",
   "currency": "INR",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 2.92,
+      "value": 2.43,
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-        "label": "Integrated Annual Report 2024, statement of consolidated cash flows",
-        "quote": "Income taxes paid (net of refunds) (2,923) (2,286) [₹ million, years ended March 31, 2024 and 2023]"
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+        "label": "Integrated Annual Report FY 2026, statement of consolidated cash flows",
+        "quote": "Income taxes paid (net of refunds) (2,426) (4,596) [₹ million, years ended March 31, 2026 and 2025]"
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 11.54,
+      "value": 9.82,
       "source": {
         "hostType": "company",
-        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
-        "label": "Integrated Annual Report 2024, notes to the consolidated financial statements, note 29 Research and development expenses",
-        "quote": "Research and development expenses 6,071 6,779 ... 12,452 13,741 Less: Recovery of product development costs from co-development partners (net) (838) (1,789) Less: Expenses capitalized to intangible assets (74) (758) 11,540 11,194 [₹ million, FY24, FY23]"
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2026.pdf",
+        "label": "Integrated Annual Report FY 2026, notes to the consolidated financial statements, note 29 Research and development expenses (PDF p. 385)",
+        "quote": "29. Research and development expenses ... Research and development expenses 5,515 5,888 ... Less: Recovery of product development costs from co-development partners, (net) (1,137) (1,476) 9,821 8,788 [₹ million, FY26, FY25]"
       }
     }
   },
-  "notes": "Fiscal year ended March 31, 2024. Taxes: net of refunds, consolidated. R&D: net R&D expense of ₹11,540m from note 29 (gross R&D ₹12,452m less partner recoveries ₹838m and capitalised amounts ₹74m); the income-statement line 'Research and development expenses' (₹6,071m) excludes R&D booked under other heads, so the note total is used.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended March 31, 2026. Taxes: net of refunds, consolidated. R&D: net R&D expense of ₹9,821m from note 29 (gross ₹10,958m: the income-statement line 5,515, lab consumables 2,706, R&D employee benefits 2,269 and other heads 468, less partner recoveries ₹1,137m); the income-statement line 'Research and development expenses' (₹5,515m) excludes R&D booked under other heads, so the note total is used.",
+  "researchedAt": "2026-11-24"
 }

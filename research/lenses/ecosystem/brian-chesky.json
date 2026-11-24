@@ -1,8 +1,8 @@
 {
   "id": "brian-chesky",
   "company": "Airbnb",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ecosystem": {
@@ -13,34 +13,34 @@
         "quote": "GBV represents the dollar value of bookings on our platform in a period and is inclusive of host earnings, service fees, cleaning fees, and taxes, net of cancellations and alterations that occurred during that period.",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-          "label": "FY2024 Form 10-K, Key Business Metrics",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+          "label": "FY2025 Form 10-K, Key Business Metrics",
           "quote": "GBV represents the dollar value of bookings on our platform in a period and is inclusive of host earnings, service fees, cleaning fees, and taxes, net of cancellations and alterations that occurred during that period."
         }
       },
-      "value": 81.784,
+      "value": 91.273,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-        "label": "FY2024 Form 10-K, key business metrics table (in millions)",
-        "quote": "Nights and Experiences Booked 448 492 10 % Gross Booking Value $ 73,252 $ 81,784 12 %"
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "label": "FY2025 Form 10-K, key business metrics table (in millions)",
+        "quote": "2024 2025 % Change Nights and Seats Booked 492 533 8 % Gross Booking Value $ 81,784 $ 91,273 12 %"
       }
     },
     "platformRevenue": {
       "label": "Revenue",
-      "value": 11.102,
+      "value": 12.241,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
-        "quote": "Revenue $ 8,399 $ 9,917 $ 11,102"
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Revenue $ 9,917 $ 11,102 $ 12,241"
       }
     },
     "payouts": null,
     "clientAssets": null,
     "studies": [],
-    "notes": "GBV includes host earnings, service fees, cleaning fees and taxes. It is recorded when a booking is made, while revenue is recognized at check-in, so the two are timed differently. The 10-K does not state total host earnings, so payouts is null."
+    "notes": "GBV includes host earnings, service fees, cleaning fees and taxes. It is recorded when a booking is made, while revenue is recognized at check-in, so the two are timed differently. From FY2025 the 10-K pairs GBV with 'Nights and Seats Booked' (formerly 'Nights and Experiences Booked'). The 10-K does not state total host earnings, so payouts is null."
   },
   "notes": "",
-  "researchedAt": "2026-11-23"
+  "researchedAt": "2026-11-24"
 }

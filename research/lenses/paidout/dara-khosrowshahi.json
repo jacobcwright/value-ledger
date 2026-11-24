@@ -1,110 +1,110 @@
 {
  "id": "dara-khosrowshahi",
  "company": "Uber",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "USD",
  "unit": "billions",
  "sector": "marketplace",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 43.978,
-   "stated": 43978,
+   "value": 52.017,
+   "stated": 52017,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
-    "quote": "Revenue $ 31,877 $ 37,281 $ 43,978",
+    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of operations (in millions)",
+    "quote": "Revenue $ 37,281 $ 43,978 $ 52,017",
     "xbrl": {
      "cik": "0001543151",
      "concept": "us-gaap:Revenues",
-     "end": "2024-12-31",
-     "value": 43978000000
+     "end": "2025-12-31",
+     "value": 52017000000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 7.137,
-   "stated": 7137,
+   "value": 10.099,
+   "stated": 10099,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-    "quote": "Net cash provided by operating activities 642 3,585 7,137",
+    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Net cash provided by operating activities 3,585 7,137 10,099",
     "xbrl": {
      "cik": "0001543151",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-31",
-     "value": 7137000000
+     "end": "2025-12-31",
+     "value": 10099000000
     }
    }
   },
   "capex": {
-   "value": 0.242,
+   "value": 0.336,
    "components": [
-    "PP&E 0.242"
+    "PP&E 0.336"
    ],
-   "stated": 242,
+   "stated": 336,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-    "quote": "Cash flows from investing activities Purchases of property and equipment ( 252 ) ( 223 ) ( 242 )",
+    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Cash flows from investing activities Purchases of property and equipment ( 223 ) ( 242 ) ( 336 )",
     "xbrl": {
      "cik": "0001543151",
      "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-     "end": "2024-12-31",
-     "value": 242000000
+     "end": "2025-12-31",
+     "value": 336000000
     }
    }
   },
   "interestPaid": {
-   "value": 0.475,
-   "stated": 475,
+   "value": 0.386,
+   "stated": 386,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow disclosures (in millions)",
-    "quote": "Cash paid for: Interest, net of amount capitalized $ 513 $ 629 $ 475 Income taxes, net of refunds 175 234 324",
+    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+    "label": "FY2025 Form 10-K, supplemental cash-flow disclosures (in millions)",
+    "quote": "Cash paid for: Interest, net of amount capitalized $ 629 $ 475 $ 386 Income taxes, net of refunds 234 324 345",
     "xbrl": {
      "cik": "0001543151",
      "concept": "us-gaap:InterestPaidNet",
-     "end": "2024-12-31",
-     "value": 475000000
+     "end": "2025-12-31",
+     "value": 386000000
     }
    },
    "note": "inside operating cash flow (US GAAP)"
   },
   "taxesPaid": {
-   "value": 0.324,
-   "stated": 324,
+   "value": 0.345,
+   "stated": 345,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow disclosures (in millions)",
-    "quote": "Cash paid for: Interest, net of amount capitalized $ 513 $ 629 $ 475 Income taxes, net of refunds 175 234 324",
+    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+    "label": "FY2025 Form 10-K, supplemental cash-flow disclosures (in millions)",
+    "quote": "Cash paid for: Interest, net of amount capitalized $ 629 $ 475 $ 386 Income taxes, net of refunds 234 324 345",
     "xbrl": {
      "cik": "0001543151",
      "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-12-31",
-     "value": 324000000
+     "end": "2025-12-31",
+     "value": 345000000
     }
    },
    "note": "inside operating cash flow (US GAAP)"
   }
  },
- "paidOut": 37.083,
- "paidOutFormula": "revenue 43,978 − operating cash flow 7,137 + capex 242 (USD millions, as stated)",
+ "paidOut": 42.254,
+ "paidOutFormula": "revenue 52,017 − operating cash flow 10,099 + capex 336 (USD millions, as stated)",
  "altPaidOut": null,
  "salesEnabled": {
-  "value": 118.795,
+  "value": 141.437,
   "measure": "Gross Bookings",
-  "measureValue": 162.773,
-  "platformRevenue": 43.978,
-  "formula": "Gross Bookings 162.773 − revenue 43.978",
+  "measureValue": 193.454,
+  "platformRevenue": 52.017,
+  "formula": "Gross Bookings 193.454 − revenue 52.017",
   "source": "research/lenses/ecosystem/dara-khosrowshahi.json"
  },
  "flags": {
@@ -113,6 +113,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Inputs copied from the pilot. Marketplace: salesEnabled = Gross Bookings − revenue. In gross (principal) markets and Freight the fare is in both Gross Bookings and revenue and nets to zero, and driver pay is counted once, through paidOut; in agent markets driver earnings sit outside revenue and are counted once, through salesEnabled. Gross Bookings include taxes, tolls and fees and are before consumer discounts (overstates). Single-year paidOut is about 7% below the accrual cross-check because accrued insurance reserves rose 2.82bn inside operating cash flow.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001543151-26-000015). Marketplace: salesEnabled = Gross Bookings − revenue. In gross (principal) markets and Freight the fare is in both Gross Bookings and revenue and nets to zero, and driver pay is counted once, through paidOut; in agent markets driver earnings sit outside revenue and are counted once, through salesEnabled. Gross Bookings include taxes, tolls and fees and are before consumer discounts (overstates). Interest and income taxes paid are inside operating cash flow (US GAAP); the 10-K still prints both in the supplemental cash-flow disclosures, and the income-tax note gives the same 345 total by jurisdiction (US federal 12, US state and local 81, foreign 252).",
+ "researchedAt": "2026-11-24"
 }

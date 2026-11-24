@@ -2,48 +2,48 @@
   "id": "james-sinegal",
   "company": "Costco",
   "nbim": {
-    "pct": 1.25,
-    "marketValueUSD": 5.102,
-    "asOf": "2024-12-31",
+    "pct": 1.3,
+    "marketValueUSD": 5.388,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"5x9jfcbmjto9\",\"cc\":\"US\",\"n\":\"Costco Wholesale Corp\",\"a\":{\"e\":5101553130,\"n\":57940124439},\"at\":0,\"o\":1.25,\"eq\":{\"vid\":\"COST\",\"v\":1.25,\"s\":\"Consumer Discretionary\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"5x9jfcbmjto9\",\"cc\":\"US\",\"n\":\"Costco Wholesale Corp\",\"a\":{\"e\":5388092977,\"n\":53317874058},\"at\":0,\"o\":1.3,\"eq\":{\"vid\":\"COST\",\"v\":1.3,\"s\":\"Consumer Discretionary\"}}"
     }
   },
   "calpers": {
-    "shares": 1713777,
-    "asOf": "2024-12-31",
+    "shares": 1204931,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "COSTCO WHSL CORP NEW COM 22160K105 1570282452 1713777"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "COSTCO WHOLESALE CORPORATION COM 22160K105 1096896887 1204931"
     },
     "derived": {
-      "pct": 0.387,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.272,
+      "method": "CalPERS shares ÷ shares outstanding (1,204,931 ÷ 443,129,349 at September 29, 2026)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "The number of shares outstanding of the registrant's common stock as of October 1, 2024, was 443,073,537"
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+          "label": "FY2026 Form 10-K, cover page",
+          "quote": "The number of shares outstanding of the registrant's common stock as of September 29, 2026, was 443,129,349 ."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 10471,
-    "asOf": "2024-10-01",
+    "count": 10703,
+    "asOf": "2026-09-29",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "On October 1, 2024, we had 10,471 stockholders of record."
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+      "label": "FY2026 Form 10-K, Item 5",
+      "quote": "On September 29, 2026, we had 10,703 stockholders of record."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Costco Wholesale Corp;Consumer Discretionary;57940124439;5101553130;1.25%;1.25%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026; Form 13F covers only U.S.-listed securities. The CalPERS percentage divides its September 30, 2026 shares by the FY2026 10-K cover count at September 29, 2026, the same count used in the marketcap lens. Holders of record are from the FY2026 10-K.",
+  "researchedAt": "2026-11-24"
 }

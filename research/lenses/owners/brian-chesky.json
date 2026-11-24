@@ -2,54 +2,54 @@
   "id": "brian-chesky",
   "company": "Airbnb",
   "nbim": {
-    "pct": 0.5,
-    "marketValueUSD": 0.421,
-    "asOf": "2024-12-31",
+    "pct": 0.58,
+    "marketValueUSD": 0.504,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"1np2uc5ufmaj\",\"cc\":\"US\",\"n\":\"Airbnb Inc\",\"a\":{\"e\":421360909,\"n\":4785543315},\"at\":0,\"o\":0.5,\"eq\":{\"vid\":\"ABNB\",\"v\":0.07,\"s\":\"Consumer Discretionary\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"1np2uc5ufmaj\",\"cc\":\"US\",\"n\":\"Airbnb Inc\",\"a\":{\"e\":504080912,\"n\":4988132663},\"at\":0,\"o\":0.58,\"eq\":{\"vid\":\"ABNB\",\"v\":0.09,\"s\":\"Consumer Discretionary\"}}"
     }
   },
   "calpers": {
-    "shares": 1219616,
-    "asOf": "2024-12-31",
+    "shares": 1019990,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "AIRBNB INC COM CL A 009066101 160269739 1219616"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "AIRBNB INC COM CL A 009066101 163861394 1019990"
     },
     "derived": {
-      "pct": 0.196,
-      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "pct": 0.174,
+      "method": "CalPERS shares ÷ shares outstanding, Class A plus Class B (1,019,990 ÷ (424,579,862 + 162,962,335) = 1,019,990 ÷ 587,542,197)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "As of January 31, 2025, 432,876,657 shares of the registrant's Class A common stock were outstanding, 188,462,942 shares of the registrant's Class B common stock were outstanding, no shares of the registrant's Class C common stock were outstanding, and 9,200,000 shares of the registrant's Class H common stock were outstanding."
+          "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+          "quote": "As of October 15, 2026, 424,579,862 shares of the registrant's Class A common stock were outstanding, 162,962,335 shares of the registrant's Class B common stock were outstanding, no shares of the registrant's Class C common stock were outstanding, and 9,200,000 shares of the registrant's Class H common stock were outstanding."
         },
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-          "label": "FY2024 Form 10-K, share class rights",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+          "label": "FY2025 Form 10-K, share class rights",
           "quote": "The rights, including the liquidation and dividend rights, of the holders of Class A and Class B common stock are identical, except with respect to voting and conversion."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 905,
-    "asOf": "2025-01-31",
+    "count": 803,
+    "asOf": "2026-01-31",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "Class A common stock: 905 stockholders of record. This number does not include stockholders for whom shares were held in \"nominee\" or \"street name.\" • Class B common stock: 74 stockholders of record."
+      "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "Class A common stock: 803 stockholders of record. This number does not include stockholders for whom shares were held in \"nominee\" or \"street name.\" • Class B common stock: 53 stockholders of record."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Airbnb Inc;Consumer Discretionary;4785543315;421360909;0.07%;0.5%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Denominator is Class A plus Class B; the 9,200,000 Class H shares are excluded because the 10-K says all of them are held by Airbnb's wholly-owned Host Endowment Fund subsidiary. Holders of record: Listed Class A only; the 10-K also gives 74 holders of record of Class B.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The denominator is Class A plus Class B from the Q3 2026 10-Q cover (October 15, 2026), the same count used in the marketcap lens; the 9,200,000 Class H shares are excluded because the 10-K says all of them are held by Airbnb's wholly-owned Host Endowment Fund subsidiary. Holders of record (January 31, 2026): listed Class A only; the 10-K also gives 53 holders of record of Class B.",
+  "researchedAt": "2026-11-24"
 }

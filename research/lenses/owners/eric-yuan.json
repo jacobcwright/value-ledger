@@ -2,54 +2,54 @@
   "id": "eric-yuan",
   "company": "Zoom Communications",
   "nbim": {
-    "pct": 2.98,
-    "marketValueUSD": 0.747,
-    "asOf": "2024-12-31",
+    "pct": 2.68,
+    "marketValueUSD": 0.677,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"ub5hyx0et7t7\",\"cc\":\"US\",\"n\":\"Zoom Communications Inc\",\"a\":{\"e\":747473743,\"n\":8489320914},\"at\":0,\"o\":2.98,\"eq\":{\"vid\":\"ZM\",\"v\":1.27,\"s\":\"Technology\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"ub5hyx0et7t7\",\"cc\":\"US\",\"n\":\"Zoom Communications Inc\",\"a\":{\"e\":677369684,\"n\":6702911704},\"at\":0,\"o\":2.68,\"eq\":{\"vid\":\"ZM\",\"v\":1.42,\"s\":\"Technology\"}}"
     }
   },
   "calpers": {
-    "shares": 1256017,
-    "asOf": "2024-12-31",
+    "shares": 666043,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "ZOOM COMMUNICATIONS INC CL A 98980L101 102503547 1256017"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "ZOOM COMMUNICATIONS INC CL A 98980L101 60456723 666043"
     },
     "derived": {
-      "pct": 0.411,
-      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "pct": 0.228,
+      "method": "CalPERS shares ÷ shares outstanding, all classes (666,043 ÷ (263,233,141 Class A + 28,550,570 Class B))",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-          "label": "FY2025 Form 10-K, cover page",
-          "quote": "As of February 14, 2025, the number of shares of the registrant's Class A common stock outstanding was 262,753,519 and the number of shares of the registrant's Class B common stock outstanding was 42,480,334 ."
+          "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000121/zm-20260731.htm",
+          "label": "Form 10-Q for the quarter ended July 31, 2026, cover page",
+          "quote": "As of August 14, 2026, the number of shares of the registrant's Class A common stock outstanding was 263,233,141 and the number of shares of the registrant's Class B common stock outstanding was 28,550,570 ."
         },
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-          "label": "FY2025 Form 10-K, share class rights",
+          "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+          "label": "FY2026 Form 10-K, Note 10, share class rights",
           "quote": "The Class A and Class B common stock have the same dividend and liquidation rights."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 52,
-    "asOf": "2025-01-31",
+    "count": 47,
+    "asOf": "2026-01-31",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-      "label": "FY2025 Form 10-K, Item 5",
-      "quote": "As of January 31, 2025, we had 52 holders of record of our Class A common stock and 12 holders of record of our Class B common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+      "label": "FY2026 Form 10-K, Item 5",
+      "quote": "As of January 31, 2026, we had 47 holders of record of our Class A common stock and 8 holders of record of our Class B common stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Zoom Communications Inc;Technology;8489320914;747473743;1.27%;2.98%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds Class A; denominator is Class A plus Class B. Holders of record: Listed Class A only; the 10-K also gives 12 holders of record of Class B.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026; Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS holds Class A; the denominator is Class A plus Class B from the 10-Q cover at August 14, 2026, the same count used in the marketcap lens. Holders of record: listed Class A only; the 10-K also gives 8 holders of record of Class B.",
+  "researchedAt": "2026-11-24"
 }

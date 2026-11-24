@@ -1,0 +1,22 @@
+{
+  "id": "jack-ma",
+  "company": "Alibaba Group Holding",
+  "classes": [
+    {
+      "label": "Ordinary shares",
+      "shares": 19901959514,
+      "sharesAsOf": "2026-10-31",
+      "pricedAs": "9988.HK",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501539.pdf",
+        "label": "HKEX Monthly Return for Equity Issuer on Movements in Securities for the month ended October 31, 2026, Part II (number of issued shares excluding treasury shares)",
+        "quote": "Balance at close of the month 19,901,959,514 0 19,901,959,514"
+      }
+    }
+  ],
+  "notes": "One class of ordinary shares, listed in Hong Kong (9988, priced in HKD) and traded in New York as ADSs (BABA, one ADS = eight shares); the Hong Kong primary line is used. The count is the HKEX October 2026 monthly return's issued shares excluding treasury shares (the return shows 0 treasury shares, and the September-quarter results announcement of November 19, 2026 says 'As of September 30, 2026, our company did not hold any treasury shares as defined in the Hong Kong Listing Rules'). The FY2026 20-F's count (18,669,888,147 outstanding at May 18, 2026) is stale: in August 2026 Alibaba 'issued 710,000,000 ordinary shares' in a placing (results announcement). Even before the placing, the HKEX count (19,174,988,918 at July 31, 2026) was about 505 million above the 20-F's US GAAP outstanding count; none of the documents read states what the gap is, so the HKEX count is used as stated and may be up to about 2.6% above the US GAAP outstanding basis.",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "brian-chesky",
+  "company": "Airbnb",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 424579862,
+      "sharesAsOf": "2026-10-15",
+      "pricedAs": "ABNB",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 15, 2026, 424,579,862 shares of the registrant's Class A common stock were outstanding, 162,962,335 shares of the registrant's Class B common stock were outstanding, no shares of the registrant's Class C common stock were outstanding, and 9,200,000 shares of the registrant's Class H common stock were outstanding."
+      }
+    },
+    {
+      "label": "Class B common stock",
+      "shares": 162962335,
+      "sharesAsOf": "2026-10-15",
+      "pricedAs": "ABNB",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted and converts into Class A one-for-one (2026 proxy: \"Each outstanding share of Class B common stock is convertible at any time at the option of the holder into one share of Class A common stock.\"); its liquidation and dividend rights are identical to Class A.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 15, 2026, 424,579,862 shares of the registrant's Class A common stock were outstanding, 162,962,335 shares of the registrant's Class B common stock were outstanding, no shares of the registrant's Class C common stock were outstanding, and 9,200,000 shares of the registrant's Class H common stock were outstanding."
+      }
+    }
+  ],
+  "notes": "Class A trades on Nasdaq as ABNB. The 9,200,000 non-voting Class H shares are left out: all are held by Airbnb's wholly-owned Host Endowment Fund subsidiary (FY2025 10-K, Item 5), and net income per share is computed only for Class A and Class B. No Class C shares are outstanding.",
+  "researchedAt": "2026-11-24"
+}

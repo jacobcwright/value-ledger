@@ -2,27 +2,27 @@
   "id": "masayoshi-son",
   "company": "SoftBank Group",
   "nbim": {
-    "pct": 1.31,
-    "marketValueUSD": 1.127,
-    "asOf": "2024-12-31",
+    "pct": 1.14,
+    "marketValueUSD": 2.389,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"2gq5wm6rcrdh\",\"cc\":\"JP\",\"n\":\"SoftBank Group Corp\",\"a\":{\"e\":1127191341,\"n\":12801906579},\"at\":0,\"o\":1.31,\"eq\":{\"vid\":\"9984\",\"v\":1.31,\"s\":\"Telecommunications\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"2gq5wm6rcrdh\",\"cc\":\"JP\",\"n\":\"SoftBank Group Corp\",\"a\":{\"e\":2389388501,\"n\":23644194866},\"at\":0,\"o\":1.14,\"eq\":{\"vid\":\"9984\",\"v\":1.14,\"s\":\"Telecommunications\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": {
-    "count": 221916,
-    "asOf": "2025-03-31",
+    "count": 417891,
+    "asOf": "2026-03-31",
     "source": {
       "hostType": "company",
-      "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2025_en.pdf",
-      "label": "SoftBank Group Integrated Report / Annual Report 2025, shareholder information",
-      "quote": "Number of shareholders As of March 31, 2025 221,916"
+      "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2026_en.pdf",
+      "label": "SoftBank Group Report 2026, Stock Information (p. 108)",
+      "quote": "Number of shareholders 417,891 [As of March 31, 2026]"
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;Japan;SoftBank Group Corp;Telecommunications;12801906579;1127191341;1.31%;1.31%\". NBIM: Matched to SoftBank Group Corp (9984), not SoftBank Corp (9434). CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of SoftBank Group.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). Matched to SoftBank Group Corp (9984), not SoftBank Corp (9434), which has its own equity and bond rows. CalPERS: its Form 13F information table for the quarter ended September 30, 2026 lists no shares or ADRs of SoftBank Group (no issuer name contains 'SOFTBANK'). Holders of record: 417,891 shareholders at March 31, 2026, up from 221,916 a year earlier; SBG says the four-for-one share split effective January 1, 2026 was made to make its shares more accessible to investors and expand its shareholder base.",
+  "researchedAt": "2026-11-24"
 }

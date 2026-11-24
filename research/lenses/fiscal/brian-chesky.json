@@ -1,28 +1,28 @@
 {
   "id": "brian-chesky",
   "company": "Airbnb",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.35,
+      "value": 0.23,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for: Income taxes, net of refunds $ 68 $ 132 $ 350 Interest $ 8 $ 55 $ 2 Operating leases [USD millions; FY2024 is the 3rd figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental disclosures of cash flow information, income taxes paid by jurisdiction",
+        "quote": "Income taxes, net of refunds: Federal $ 65 State 46 Foreign 121 Cash paid for income taxes, net of refunds $ 232 [USD millions; FY2025 only]",
         "xbrl": {
           "cik": "0001559720",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 350000000
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-12-31",
+          "value": 232000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, net of refunds as presented. R&D not reported as a separate line. Airbnb reports 'Product development' ($2,056 million; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), which the 10-K describes as costs of developing the platform without calling it research and development, so it is not recorded.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the ASU 2023-09 table by jurisdiction (federal 65, state 46, foreign 121). R&D not reported as a separate line. Airbnb reports 'Product development' ($2,354 million in 2025; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), which the 10-K describes as costs of developing the platform without calling it research and development, so it is not recorded.",
+  "researchedAt": "2026-11-24"
 }

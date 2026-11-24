@@ -37,12 +37,12 @@
       "state": "TX",
       "iso2": "US",
       "type": "headquarters",
-      "description": "Corporate headquarters; about 795,000 sq ft owned and 22,000 sq ft leased.",
+      "description": "Corporate headquarters; about 1,062,000 sq ft owned and 22,000 sq ft leased.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
-        "quote": "Corporate headquarters: | Westlake, TX | 22 | 795 [square footage in thousands: leased | owned]"
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "Charles Schwab FY2025 Form 10-K, Item 2 Properties",
+        "quote": "Corporate headquarters: Westlake, TX 22 1,062 [square footage in thousands, December 31, 2025: leased | owned]"
       }
     },
     {
@@ -51,12 +51,12 @@
       "state": "AZ",
       "iso2": "US",
       "type": "office",
-      "description": "Service and other office space; about 728,000 sq ft owned and 67,000 leased.",
+      "description": "Service and other office space; about 728,000 sq ft owned and 67,000 sq ft leased.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
-        "quote": "Service and other office space: | Phoenix, AZ | 67 | 728 [square footage in thousands: leased | owned]"
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "Charles Schwab FY2025 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: Phoenix, AZ 67 728 [square footage in thousands, December 31, 2025: leased | owned]"
       }
     },
     {
@@ -68,9 +68,9 @@
       "description": "Service and other office space; about 759,000 sq ft owned.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
-        "quote": "Service and other office space: … Denver, CO | — | 759 [square footage in thousands: leased | owned]"
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "Charles Schwab FY2025 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Denver, CO - 759 [square footage in thousands, December 31, 2025: leased | owned]"
       }
     },
     {
@@ -82,9 +82,9 @@
       "description": "Service and other office space; about 578,000 sq ft owned.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
-        "quote": "Service and other office space: … Omaha, NE | — | 578 [square footage in thousands: leased | owned]"
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "Charles Schwab FY2025 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Omaha, NE - 578 [square footage in thousands, December 31, 2025: leased | owned]"
       }
     },
     {
@@ -96,23 +96,9 @@
       "description": "Service and other office space; about 561,000 sq ft owned.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
-        "quote": "Service and other office space: … Austin, TX | — | 561 [square footage in thousands: leased | owned]"
-      }
-    },
-    {
-      "name": "San Francisco office",
-      "place": "San Francisco, CA",
-      "state": "CA",
-      "iso2": "US",
-      "type": "office",
-      "description": "Service and other office space; about 417,000 sq ft leased.",
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
-        "quote": "Service and other office space: … San Francisco, CA | 417 | — [square footage in thousands: leased | owned]"
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "Charles Schwab FY2025 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Austin, TX - 561 [square footage in thousands, December 31, 2025: leased | owned]"
       }
     },
     {
@@ -121,12 +107,12 @@
       "state": "TX",
       "iso2": "US",
       "type": "office",
-      "description": "Service and other office space; about 375,000 sq ft owned and 13,000 leased.",
+      "description": "Service and other office space; about 375,000 sq ft owned.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
-        "quote": "Service and other office space: … Southlake, TX | 13 | 375 [square footage in thousands: leased | owned]"
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "Charles Schwab FY2025 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Southlake, TX - 375 [square footage in thousands, December 31, 2025: leased | owned]"
       }
     },
     {
@@ -135,12 +121,12 @@
       "state": "MO",
       "iso2": "US",
       "type": "office",
-      "description": "Service and other office space; about 372,000 sq ft owned.",
+      "description": "Service and other office space; about 158,000 sq ft owned.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
-        "quote": "Service and other office space: … St. Louis, MO | — | 372 [square footage in thousands: leased | owned]"
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "Charles Schwab FY2025 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … St. Louis, MO - 158 [square footage in thousands, December 31, 2025: leased | owned]"
       }
     },
     {
@@ -149,12 +135,12 @@
       "state": "FL",
       "iso2": "US",
       "type": "office",
-      "description": "Service and other office space; about 222,000 sq ft owned and 57,000 leased.",
+      "description": "Service and other office space; about 420,000 sq ft owned and 57,000 sq ft leased.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
-        "quote": "Service and other office space: … Orlando, FL | 57 | 222 [square footage in thousands: leased | owned]"
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "Charles Schwab FY2025 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Orlando, FL 57 420 [square footage in thousands, December 31, 2025: leased | owned]"
       }
     },
     {
@@ -163,12 +149,12 @@
       "state": "NJ",
       "iso2": "US",
       "type": "office",
-      "description": "Service and other office space; about 208,000 sq ft leased.",
+      "description": "Service and other office space; about 37,000 sq ft leased.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
-        "quote": "Service and other office space: … Jersey City, NJ | 208 | — [square footage in thousands: leased | owned]"
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "Charles Schwab FY2025 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Jersey City, NJ 37 - [square footage in thousands, December 31, 2025: leased | owned]"
       }
     },
     {
@@ -177,12 +163,12 @@
       "state": "IL",
       "iso2": "US",
       "type": "office",
-      "description": "Service and other office space; about 190,000 sq ft leased.",
+      "description": "Service and other office space; about 67,000 sq ft leased.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
-        "quote": "Service and other office space: … Chicago, IL | 190 | — [square footage in thousands: leased | owned]"
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "Charles Schwab FY2025 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Chicago, IL 67 - [square footage in thousands, December 31, 2025: leased | owned]"
       }
     },
     {
@@ -194,12 +180,26 @@
       "description": "Service and other office space; about 161,000 sq ft owned.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670925000010/schw-20241231.htm",
-        "label": "Charles Schwab FY2024 Form 10-K, Item 2 Properties",
-        "quote": "Service and other office space: … Indianapolis, IN | — | 161 [square footage in thousands: leased | owned]"
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "Charles Schwab FY2025 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Indianapolis, IN - 161 [square footage in thousands, December 31, 2025: leased | owned]"
+      }
+    },
+    {
+      "name": "Richfield office",
+      "place": "Richfield, OH",
+      "state": "OH",
+      "iso2": "US",
+      "type": "office",
+      "description": "Service and other office space; about 117,000 sq ft owned.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
+        "label": "Charles Schwab FY2025 Form 10-K, Item 2 Properties",
+        "quote": "Service and other office space: … Richfield, OH - 117 [square footage in thousands, December 31, 2025: leased | owned]"
       }
     }
   ],
-  "notes": "Branches by state are not published: the FY2024 10-K says only that Schwab \"had more than 380 domestic branch offices in 48 states and the District of Columbia, as well as locations in Puerto Rico, the United Kingdom, Hong Kong, and Singapore\", and schwab.com's branch locator refused scripted requests (authorization error page). The Texas row is FDIC Summary of Deposits data (regulator tier, June 30, 2024) for Schwab's three FDIC-insured banks, each with one office, its main office in Westlake, TX; the FDIC therefore books all of their deposits to Texas, which says where the charters sit, not where depositors live. Values are kept per bank in $ thousands as the FDIC reports them (unit 'currency-thousands' is outside the lens enum, as in other footprint files) and are not added together. Sites are the 10-K Item 2 table of significant locations (square footage in thousands, net of subleased space); El Paso, TX (105,000 sq ft owned) and Richfield, OH (117,000 owned) are left out for the 12-site cap. [Editor] The FDIC rows are omitted from the map: all three banks book deposits at a single Westlake, Texas office, so a state map would show where the charters sit, not where clients are.",
-  "researchedAt": "2026-11-23"
+  "notes": "Branches by state are not published: the FY2025 10-K says only that, as of December 31, 2025, Schwab \"had more than 380 domestic branch offices in 48 states and the District of Columbia, as well as locations in Puerto Rico, the United Kingdom, Hong Kong, and Singapore\". Sites are the FY2025 10-K Item 2 table of significant locations at December 31, 2025 (square footage in thousands, net of subleased space). San Francisco, CA (417,000 sq ft leased in the FY2024 table) is no longer in the table and was removed; Richfield, OH (117,000 sq ft owned) takes the twelfth place, and El Paso, TX (105,000 sq ft owned) is left out for the 12-site cap. The three FDIC deposit metrics (June 30, 2024 Summary of Deposits) are kept as defined but carry no rows, so the June 30, 2026 release was not added. [Editor] The FDIC rows are omitted from the map: all three banks book deposits at a single Westlake, Texas office, so a state map would show where the charters sit, not where clients are.",
+  "researchedAt": "2026-11-24"
 }

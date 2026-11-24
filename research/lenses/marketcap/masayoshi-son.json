@@ -1,0 +1,38 @@
+{
+  "id": "masayoshi-son",
+  "company": "SoftBank Group",
+  "classes": [
+    {
+      "label": "Common stock (shares issued less treasury stock)",
+      "shares": 5699306663,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "9984.T",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "Shares issued (including treasury stock) at September 30, 2026",
+          "value": 5711848120,
+          "source": {
+            "hostType": "company",
+            "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/financial_reports/financial-report_q2fy2026_01_en.pdf",
+            "label": "Consolidated Financial Report for the Six-Month Period Ended September 30, 2026 (IFRS, Nov 10, 2026), 1. Financial Highlights, (3) Number of shares issued (common stock)",
+            "quote": "[1] Number of shares issued (including treasury stock): As of September 30, 2026: 5,711,848,120 shares"
+          }
+        },
+        {
+          "label": "Treasury stock at September 30, 2026 (subtracted)",
+          "value": -12541457,
+          "source": {
+            "hostType": "company",
+            "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/financial_reports/financial-report_q2fy2026_01_en.pdf",
+            "label": "Consolidated Financial Report for the Six-Month Period Ended September 30, 2026 (IFRS, Nov 10, 2026), 1. Financial Highlights, (3) Number of shares issued (common stock)",
+            "quote": "[2] Number of shares of treasury stock: As of September 30, 2026: 12,541,457 shares"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "One class of common stock, priced from its primary listing on the Tokyo Stock Exchange Prime Market (9984.T) rather than the U.S. OTC ADR (SFTBY). Shares = 5,711,848,120 issued + (−12,541,457 treasury; signed negative so the parts sum to shares) = 5,699,306,663 at September 30, 2026, from SBG's half-year consolidated financial report dated November 10, 2026; the report states both parts but not the difference. The count is post-split: SBG conducted a four-for-one share split effective January 1, 2026. Shares issued were unchanged from March 31, 2026; the half-year report's subsequent-events note lists only the October 1, 2026 OpenAI investment, no share issuance or retirement.",
+  "researchedAt": "2026-11-24"
+}

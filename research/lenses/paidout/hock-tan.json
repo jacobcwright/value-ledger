@@ -1,109 +1,109 @@
 {
- "id": "hock-tan",
- "company": "Broadcom",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-11-03",
- "currency": "USD",
- "unit": "billions",
- "sector": "tech",
- "comparable": true,
- "inputs": {
-  "revenue": {
-   "value": 51.574,
-   "stated": 51574,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
-    "quote": "Subscriptions and services 21,215 7,928 6,926 Total net revenue 51,574 35,819 33,203",
-    "xbrl": {
-     "cik": "0001730168",
-     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-     "end": "2024-11-03",
-     "value": 51574000000
+  "id": "hock-tan",
+  "company": "Broadcom",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-11-02",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "tech",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 63.887,
+      "stated": 63887,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+        "label": "FY2025 Form 10-K, results of operations (in millions)",
+        "quote": "Subscriptions and services 19,040 16,614 30 32 Total net revenue 63,887 51,574 100 100",
+        "xbrl": {
+          "cik": "0001730168",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2025-11-02",
+          "value": 63887000000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 27.537,
+      "stated": 27537,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities 27,537 19,962 18,085",
+        "xbrl": {
+          "cik": "0001730168",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2025-11-02",
+          "value": 27537000000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.623,
+      "components": [
+        "PP&E 0.623"
+      ],
+      "stated": 623,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+        "quote": "Purchases of property, plant and equipment ( 623 ) ( 548 ) ( 452 )",
+        "xbrl": {
+          "cik": "0001730168",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2025-11-02",
+          "value": 623000000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": 2.672,
+      "stated": 2672,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+        "label": "FY2025 Form 10-K, supplemental cash-flow information (in millions)",
+        "quote": "Supplemental disclosure of cash flow information: Cash paid for interest $ 2,672 $ 3,250 $ 1,503 Cash paid for income taxes $ 2,589 $ 3,155 $ 1,782",
+        "xbrl": {
+          "cik": "0001730168",
+          "concept": "us-gaap:InterestPaidNet",
+          "end": "2025-11-02",
+          "value": 2672000000
+        }
+      }
+    },
+    "taxesPaid": {
+      "value": 2.589,
+      "stated": 2589,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+        "label": "FY2025 Form 10-K, supplemental cash-flow information (in millions)",
+        "quote": "Supplemental disclosure of cash flow information: Cash paid for interest $ 2,672 $ 3,250 $ 1,503 Cash paid for income taxes $ 2,589 $ 3,155 $ 1,782",
+        "xbrl": {
+          "cik": "0001730168",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-11-02",
+          "value": 2589000000
+        }
+      }
     }
-   }
   },
-  "operatingCashFlow": {
-   "value": 19.962,
-   "stated": 19962,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Net cash provided by operating activities 19,962 18,085 16,736",
-    "xbrl": {
-     "cik": "0001730168",
-     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-11-03",
-     "value": 19962000000
-    }
-   }
+  "paidOut": 36.973,
+  "paidOutFormula": "63.887 − 27.537 + 0.623",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
   },
-  "capex": {
-   "value": 0.548,
-   "components": [
-    "PP&E 0.548"
-   ],
-   "stated": 548,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Purchases of property, plant and equipment ( 548 ) ( 452 ) ( 424 )",
-    "xbrl": {
-     "cik": "0001730168",
-     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-     "end": "2024-11-03",
-     "value": 548000000
-    }
-   }
-  },
-  "interestPaid": {
-   "value": 3.25,
-   "stated": 3250,
-   "inOCF": true,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Cash paid for interest $ 3,250 $ 1,503 $ 1,386 Cash paid for income taxes $ 3,155 $ 1,782 $ 908",
-    "xbrl": {
-     "cik": "0001730168",
-     "concept": "us-gaap:InterestPaidNet",
-     "end": "2024-11-03",
-     "value": 3250000000
-    }
-   }
-  },
-  "taxesPaid": {
-   "value": 3.155,
-   "stated": 3155,
-   "inOCF": true,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Cash paid for interest $ 3,250 $ 1,503 $ 1,386 Cash paid for income taxes $ 3,155 $ 1,782 $ 908",
-    "xbrl": {
-     "cik": "0001730168",
-     "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-11-03",
-     "value": 3155000000
-    }
-   }
-  }
- },
- "paidOut": 32.16,
- "paidOutFormula": "revenue 51,574 − operating cash flow 19,962 + capex 548 (USD millions, as stated)",
- "altPaidOut": null,
- "salesEnabled": null,
- "flags": {
-  "financeReceivablesInOCF": false,
-  "interestDividendsReceivedInOCF": null,
-  "revenueIncludesExcise": false,
-  "nonCashRevenue": null
- },
- "notes": "Fiscal year ended November 3, 2024 (53 weeks). Acquisitions of businesses (25,978, mainly VMware) excluded.",
- "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended November 2, 2025 (52 weeks). No acquisitions of businesses in fiscal 2025; $300 million of proceeds from sales of businesses is not netted against capex.",
+  "researchedAt": "2026-11-24"
 }

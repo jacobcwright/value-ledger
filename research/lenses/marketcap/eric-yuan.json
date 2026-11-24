@@ -1,0 +1,36 @@
+{
+  "id": "eric-yuan",
+  "company": "Zoom Communications",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 263233141,
+      "sharesAsOf": "2026-08-14",
+      "pricedAs": "ZM",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000121/zm-20260731.htm",
+        "label": "Form 10-Q for the quarter ended July 31, 2026, cover page",
+        "quote": "As of August 14, 2026, the number of shares of the registrant's Class A common stock outstanding was 263,233,141 and the number of shares of the registrant's Class B common stock outstanding was 28,550,570 ."
+      }
+    },
+    {
+      "label": "Class B common stock",
+      "shares": 28550570,
+      "sharesAsOf": "2026-08-14",
+      "pricedAs": "ZM",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted and converts into Class A share-for-share (2026 proxy: \"The Class B common stock is convertible at any time by the holder into shares of Class A common stock on a share-for-share basis\"); the 10-K says the two classes have the same dividend and liquidation rights.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000121/zm-20260731.htm",
+        "label": "Form 10-Q for the quarter ended July 31, 2026, cover page",
+        "quote": "As of August 14, 2026, the number of shares of the registrant's Class A common stock outstanding was 263,233,141 and the number of shares of the registrant's Class B common stock outstanding was 28,550,570 ."
+      }
+    }
+  ],
+  "notes": "Class A is listed on Nasdaq as ZM; Class B is not listed. The 10-Q cover for the quarter ended July 31, 2026 (filed in August 2026) is the latest count; the third-quarter 10-Q had not been filed by November 24, 2026 (only the November 23 earnings 8-K). No preferred stock is outstanding.",
+  "researchedAt": "2026-11-24"
+}

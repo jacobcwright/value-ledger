@@ -1,114 +1,114 @@
 {
   "id": "larry-fink",
   "company": "BlackRock",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "sector": "asset-manager",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 20.407,
-      "stated": 20407,
+      "value": 24.216,
+      "stated": 24216,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
-        "quote": "Advisory and other revenue 224 159 163 Total revenue 20,407 17,859 17,873",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Advisory and other revenue 277 224 159 Total revenue 24,216 20,407 17,859",
         "xbrl": {
           "cik": "0002012383",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "end": "2024-12-31",
-          "value": 20407000000
+          "end": "2025-12-31",
+          "value": 24216000000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 4.956,
-      "stated": 4956,
+      "value": 3.927,
+      "stated": 3927,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Other liabilities ( 382 ) 375 ( 481 ) Net cash provided by/(used in) operating activities 4,956 4,165 4,956",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Other liabilities 225 ( 382 ) 375 Net cash provided by/(used in) operating activities 3,927 4,956 4,165",
         "xbrl": {
           "cik": "0002012383",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": 4956000000
+          "end": "2025-12-31",
+          "value": 3927000000
         }
       }
     },
     "capex": {
-      "value": 0.255,
+      "value": 0.375,
       "components": [
-        "PP&E 0.255"
+        "PP&E 0.375"
       ],
-      "stated": 255,
+      "stated": 375,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Purchases of property and equipment ( 255 ) ( 344 ) ( 533 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Purchases of property and equipment ( 375 ) ( 255 ) ( 344 )",
         "xbrl": {
           "cik": "0002012383",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-12-31",
-          "value": 255000000
+          "end": "2025-12-31",
+          "value": 375000000
         }
       }
     },
     "interestPaid": {
-      "value": 0.289,
+      "value": 0.482,
       "inOCF": true,
-      "stated": 289,
+      "stated": 482,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid for: Interest $ 289 $ 200 $ 177 Income taxes (net of refunds) $ 1,699 $ 1,392 $ 1,067",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental disclosure of cash flow information (in millions)",
+        "quote": "Cash paid for: Interest $ 482 $ 289 $ 200 Income taxes (net of refunds) $ 2,298 $ 1,699 $ 1,392",
         "xbrl": {
           "cik": "0002012383",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-12-31",
-          "value": 289000000
+          "end": "2025-12-31",
+          "value": 482000000
         }
       }
     },
     "taxesPaid": {
-      "value": 1.699,
+      "value": 2.298,
       "inOCF": true,
-      "stated": 1699,
+      "stated": 2298,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid for: Interest $ 289 $ 200 $ 177 Income taxes (net of refunds) $ 1,699 $ 1,392 $ 1,067",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental disclosure of cash flow information (in millions)",
+        "quote": "Cash paid for: Interest $ 482 $ 289 $ 200 Income taxes (net of refunds) $ 2,298 $ 1,699 $ 1,392",
         "xbrl": {
           "cik": "0002012383",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 1699000000
+          "end": "2025-12-31",
+          "value": 2298000000
         }
       }
     },
     "otherNamedItems": {
       "cipImpactOnOCF": {
-        "value": -2.311,
-        "stated": -2311,
+        "value": -3.536,
+        "stated": -3536,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-          "label": "FY2024 Form 10-K, management's discussion and analysis (in millions)",
-          "quote": "Net cash provided by/(used in) operating activities 4,956 (2,311 ) 7,267"
+          "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+          "label": "FY2025 Form 10-K, management's discussion and analysis, cash flows excluding CIPs (in millions)",
+          "quote": "Net cash provided by/(used in) operating activities 3,927 (3,536 ) 7,463"
         },
-        "note": "GAAP operating cash flow 4,956 includes -2,311 from consolidated investment products (CIPs); excluding CIPs it is 7,267, which would lower paidOut by 2.311bn."
+        "note": "GAAP operating cash flow 3,927 includes -3,536 from consolidated investment products (CIPs); excluding CIPs it is 7,463, which would lower paidOut by 3.536bn."
       }
     }
   },
-  "paidOut": 15.706,
-  "paidOutFormula": "20.407 − 4.956 + 0.255",
+  "paidOut": 20.664,
+  "paidOutFormula": "24.216 − 3.927 + 0.375",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -117,6 +117,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Asset manager: normal formula, sector flagged. Revenue uses the total (20,407); companyfacts us-gaap:Revenues (12,794) is a sub-total, not the total. Operating cash flow is the GAAP figure, which includes consolidated investment products (see other.cipImpactOnOCF). Revenue includes distribution fees passed to distributors.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001193125-26-071966). Asset manager: normal formula, sector flagged. Revenue uses the total (24,216). Operating cash flow is the GAAP figure, which includes consolidated investment products (see otherNamedItems.cipImpactOnOCF); the CIP effect is larger in 2025 (-3,536) than in 2024 (-2,311). Revenue includes distribution fees passed to distributors. Acquisitions (HPS, ElmTree; 3,496 net of cash acquired) are excluded from capex.",
+  "researchedAt": "2026-11-24"
 }

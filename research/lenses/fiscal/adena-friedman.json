@@ -1,28 +1,28 @@
 {
   "id": "adena-friedman",
   "company": "Nasdaq",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.36,
+      "value": 0.37,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Income taxes paid, net of refund $ 358 $ 254 $ 274 __________________________ [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 17 Income Taxes, Income Taxes Paid (in millions)",
+        "quote": "Total foreign $ 194 Total income taxes paid, net $ 373 [USD millions, year ended December 31, 2025]",
         "xbrl": {
           "cik": "0001120193",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 358000000
+          "end": "2025-12-31",
+          "value": 373000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented. R&D not reported as a separate line in the FY2024 10-K.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the income-tax note's ASU 2023-09 table (federal 107, state and local 72, foreign 194; total 373 million), which matches the supplemental cash-flow line. R&D not reported as a separate line in the FY2025 10-K.",
+  "researchedAt": "2026-11-24"
 }

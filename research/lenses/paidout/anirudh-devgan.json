@@ -1,49 +1,49 @@
 {
  "id": "anirudh-devgan",
  "company": "Cadence Design Systems",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "USD",
  "unit": "billions",
  "sector": "tech",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 4.641264,
-   "stated": 4641264,
+   "value": 5.296759,
+   "stated": 5296759,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of operations (in thousands)",
-    "quote": "Services 427,755 255,627 221,521 Total revenue 4,641,264 4,089,986 3,561,718",
+    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated income statements (in thousands)",
+    "quote": "Services 475,170 427,755 255,627 Total revenue 5,296,759 4,641,264 4,089,986",
     "xbrl": {
      "cik": "0000813672",
      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-     "end": "2024-12-31",
-     "value": 4641264000
+     "end": "2025-12-31",
+     "value": 5296759000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 1.260551,
-   "stated": 1260551,
+   "value": 1.728781,
+   "stated": 1728781,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
-    "quote": "Net cash provided by operating activities 1,260,551 1,349,176 1,241,894",
+    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+    "quote": "Net cash provided by operating activities 1,728,781 1,260,551 1,349,176",
     "xbrl": {
      "cik": "0000813672",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-31",
-     "value": 1260551000
+     "end": "2025-12-31",
+     "value": 1728781000
     }
    }
   },
   "capex": {
-   "value": 0.142542,
+   "value": 0.141871,
    "components": [
-    "PP&E 0.142542",
+    "PP&E 0.141871",
     "intangibles 0.0"
    ],
    "derived": {
@@ -51,18 +51,18 @@
     "inputs": [
      {
       "component": "PP&E",
-      "value": 0.142542,
-      "stated": 142542,
+      "value": 0.141871,
+      "stated": 141871,
       "source": {
        "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
-       "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
-       "quote": "Purchases of property, plant and equipment ( 142,542 ) ( 102,337 ) ( 123,215 )",
+       "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
+       "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+       "quote": "Purchases of property, plant and equipment ( 141,871 ) ( 142,542 ) ( 102,337 )",
        "xbrl": {
         "cik": "0000813672",
         "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "end": "2024-12-31",
-        "value": 142542000
+        "end": "2025-12-31",
+        "value": 141871000
        }
       }
      },
@@ -72,13 +72,13 @@
       "stated": 0,
       "source": {
        "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
-       "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
-       "quote": "Purchases of intangible assets - ( 166 ) ( 1,000 )",
+       "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
+       "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+       "quote": "Purchases of intangible assets - - ( 166 )",
        "xbrl": {
         "cik": "0000813672",
         "concept": "us-gaap:PaymentsToAcquireIntangibleAssets",
-        "end": "2024-12-31",
+        "end": "2025-12-31",
         "value": 0
        }
       }
@@ -87,42 +87,42 @@
    }
   },
   "interestPaid": {
-   "value": 0.043219,
-   "stated": 43219,
+   "value": 0.111951,
+   "stated": 111951,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
-    "quote": "Cash paid for interest $ 43,219 $ 34,934 $ 21,122 Cash paid for income taxes, net 509,979 253,700 233,235",
+    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
+    "label": "FY2025 Form 10-K, supplemental cash flow information (in thousands)",
+    "quote": "Supplemental cash flow information: Cash paid for interest $ 111,951 $ 43,219 $ 34,934",
     "xbrl": {
      "cik": "0000813672",
      "concept": "us-gaap:InterestPaidNet",
-     "end": "2024-12-31",
-     "value": 43219000
+     "end": "2025-12-31",
+     "value": 111951000
     }
    }
   },
   "taxesPaid": {
-   "value": 0.509979,
-   "stated": 509979,
+   "value": 0.247367,
+   "stated": 247367,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
-    "quote": "Cash paid for interest $ 43,219 $ 34,934 $ 21,122 Cash paid for income taxes, net 509,979 253,700 233,235",
+    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
+    "label": "FY2025 Form 10-K, Note 8 Income Taxes, Cash Taxes Paid (in thousands)",
+    "quote": "Total income taxes paid (net of refunds) for fiscal 2025 include: 2025 (In thousands) U.S. Federal $ 76,724 U.S. State & Local 29,980 Foreign 140,663 Total $ 247,367",
     "xbrl": {
      "cik": "0000813672",
      "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-12-31",
-     "value": 509979000
+     "end": "2025-12-31",
+     "value": 247367000
     }
    }
   }
  },
- "paidOut": 3.523255,
- "paidOutFormula": "revenue 4,641,264 − operating cash flow 1,260,551 + capex 142,542 (USD thousands, as stated)",
+ "paidOut": 3.709849,
+ "paidOutFormula": "5.296759 − 1.728781 + 0.141871",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
@@ -131,6 +131,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Business combinations (737,574) excluded.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0000813672-26-000016). Business combinations (429,538) excluded. Taxes paid: Cadence adopted ASU 2023-09 in fiscal 2025 and now reports cash taxes in the income-tax note's jurisdiction table rather than the supplemental cash-flow lines.",
+ "researchedAt": "2026-11-24"
 }

@@ -5,9 +5,7 @@
     "perUSD": 0.8808,
     "statedBasis": "CHF per USD",
     "calendarYear": 2024,
-    "usedFor": [
-     "severin-schwan (FY2024, FYE 2024-12-31)"
-    ],
+    "usedFor": [],
     "source": {
      "hostType": "regulator",
      "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
@@ -19,7 +17,9 @@
     "perUSD": 0.8305,
     "statedBasis": "CHF per USD",
     "calendarYear": 2025,
-    "usedFor": [],
+    "usedFor": [
+     "severin-schwan (FY2025, FYE 2025-12-31)"
+    ],
     "source": {
      "hostType": "regulator",
      "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
@@ -34,7 +34,6 @@
     "statedBasis": "CNY per USD",
     "calendarYear": 2024,
     "usedFor": [
-     "jack-ma (FY2025, FYE 2025-03-31)",
      "lei-jun (FY2024, FYE 2024-12-31)",
      "ma-huateng (FY2024, FYE 2024-12-31)",
      "wang-chuanfu (FY2024, FYE 2024-12-31)"
@@ -50,7 +49,9 @@
     "perUSD": 7.1875,
     "statedBasis": "CNY per USD",
     "calendarYear": 2025,
-    "usedFor": [],
+    "usedFor": [
+     "jack-ma (FY2026, FYE 2026-03-31)"
+    ],
     "source": {
      "hostType": "regulator",
      "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
@@ -95,13 +96,11 @@
     "derivation": "perUSD = 1 ÷ 1.0820, rounded to 6 decimals; the published figure is 'stated'",
     "calendarYear": 2024,
     "usedFor": [
-     "bernard-arnault (FY2024, FYE 2024-12-31)",
      "daniel-ek (FY2024, FYE 2024-12-31)",
      "hasso-plattner (FY2024, FYE 2024-12-31)",
      "herbert-diess (FY2024, FYE 2024-12-31)",
      "johann-rupert (FY2025, FYE 2025-03-31)",
-     "michael-o-leary (FY2025, FYE 2025-03-31)",
-     "oliver-blume (FY2024, FYE 2024-12-31)"
+     "michael-o-leary (FY2025, FYE 2025-03-31)"
     ],
     "source": {
      "hostType": "regulator",
@@ -114,7 +113,10 @@
     "perUSD": 0.884486,
     "statedBasis": "USD per EUR (asterisked row in G.5A)",
     "calendarYear": 2025,
-    "usedFor": [],
+    "usedFor": [
+     "bernard-arnault (FY2025, FYE 2025-12-31)",
+     "oliver-blume (FY2025, FYE 2025-12-31)"
+    ],
     "source": {
      "hostType": "regulator",
      "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
@@ -129,9 +131,7 @@
     "perUSD": 82.5708,
     "statedBasis": "INR per USD",
     "calendarYear": 2023,
-    "usedFor": [
-     "kiran-mazumdar-shaw (FY24, FYE 2024-03-31)"
-    ],
+    "usedFor": [],
     "source": {
      "hostType": "regulator",
      "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
@@ -157,7 +157,9 @@
     "perUSD": 87.1468,
     "statedBasis": "INR per USD",
     "calendarYear": 2025,
-    "usedFor": [],
+    "usedFor": [
+     "kiran-mazumdar-shaw (FY26, FYE 2026-03-31)"
+    ],
     "source": {
      "hostType": "regulator",
      "url": "https://www.federalreserve.gov/releases/g5a/20260105/",
@@ -173,8 +175,6 @@
     "calendarYear": 2024,
     "usedFor": [
      "akio-morita (FY2025, FYE 2025-03-31)",
-     "akio-toyoda (FY2025, FYE 2025-03-31)",
-     "masayoshi-son (FY2024, FYE 2025-03-31)",
      "shigeru-miyamoto (FY2025, FYE 2025-03-31)"
     ],
     "source": {
@@ -188,7 +188,10 @@
     "perUSD": 149.5686,
     "statedBasis": "JPY per USD",
     "calendarYear": 2025,
-    "usedFor": [],
+    "usedFor": [
+     "akio-toyoda (FY2026, FYE 2026-03-31)",
+     "masayoshi-son (FY2025, FYE 2026-03-31)"
+    ],
     "source": {
      "hostType": "regulator",
      "url": "https://www.federalreserve.gov/releases/g5a/20260105/",

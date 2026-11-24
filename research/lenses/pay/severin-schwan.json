@@ -1,0 +1,31 @@
+{
+  "id": "severin-schwan",
+  "company": "Roche Holding",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "CHF",
+  "employees": {
+    "value": 112774,
+    "asOf": "2025-12-31",
+    "basis": "employees based on headcount (HC), including apprentices, interns and individuals on unpaid leave",
+    "source": {
+      "hostType": "company",
+      "url": "https://assets.roche.com/f/176343/x/fa3c863601/ar25e.pdf",
+      "label": "Annual Report 2025, Sustainability Report, Social, workforce metrics",
+      "quote": "In 2025 our global workforce totalled 112,774 employees based on headcounts (HC) (2024: 103,249 based on full-time equivalents, FTE)."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Employee remuneration included in operating results",
+    "value": 17.028,
+    "source": {
+      "hostType": "company",
+      "url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf",
+      "label": "Finance Report 2025, Note 25 Employee benefits, employee remuneration (millions of CHF)",
+      "quote": "Employee remuneration in millions of CHF 2025 2024 Wages and salaries 12,630 12,441 Social security costs 1,192 1,223 ... Employee remuneration included in operating results 17,028 16,836"
+    }
+  },
+  "notes": "Employees: year-end 2025 headcount. Roche switched in 2025 from full-time equivalents to headcount and widened the scope to ESRS (adding apprentices, interns and people on unpaid leave), so the 2024 figure of 103,249 FTE is not comparable; the report says the workforce was broadly unchanged on a comparable basis. Payroll: 'Employee remuneration included in operating results' (wages and salaries 12,630, social security 1,192, defined contribution 470, defined benefit operating expense 545, equity compensation 857, termination costs 618, other benefits 716; CHF million). It excludes the CHF 133m net interest cost of defined benefit plans, which brings 'Total employee remuneration' to CHF 17,161m. Swiss filer: no CEO pay ratio.",
+  "researchedAt": "2026-11-24"
+}

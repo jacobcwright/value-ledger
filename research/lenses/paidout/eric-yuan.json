@@ -1,136 +1,136 @@
 {
- "id": "eric-yuan",
- "company": "Zoom Communications",
- "fiscalYear": "FY2025",
- "fiscalYearEnd": "2025-01-31",
- "currency": "USD",
- "unit": "billions",
- "sector": "tech",
- "comparable": true,
- "inputs": {
-  "revenue": {
-   "value": 4.665433,
-   "stated": 4665433,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-    "label": "FY2025 Form 10-K, consolidated statement of operations (in thousands)",
-    "quote": "Year Ended January 31, 2025 2024 2023 Revenue $ 4,665,433 $ 4,527,224 $ 4,392,960",
-    "xbrl": {
-     "cik": "0001585521",
-     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-     "end": "2025-01-31",
-     "value": 4665433000
-    }
-   }
-  },
-  "operatingCashFlow": {
-   "value": 1.945308,
-   "stated": 1945308,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-    "label": "FY2025 Form 10-K, consolidated statement of cash flows (in thousands)",
-    "quote": "Net cash provided by operating activities 1,945,308 1,598,836 1,290,262",
-    "xbrl": {
-     "cik": "0001585521",
-     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2025-01-31",
-     "value": 1945308000
-    }
-   }
-  },
-  "capex": {
-   "value": 0.13656,
-   "components": [
-    "PP&E 0.13656",
-    "intangibles 0.0"
-   ],
-   "derived": {
-    "method": "sum of the components below",
-    "inputs": [
-     {
-      "component": "PP&E",
-      "value": 0.13656,
-      "stated": 136560,
+  "id": "eric-yuan",
+  "company": "Zoom Communications",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "tech",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 4.868769,
+      "stated": 4868769,
       "source": {
-       "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-       "label": "FY2025 Form 10-K, consolidated statement of cash flows (in thousands)",
-       "quote": "Purchases of property and equipment ( 136,560 ) ( 126,953 ) ( 103,826 )",
-       "xbrl": {
-        "cik": "0001585521",
-        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-        "end": "2025-01-31",
-        "value": 136560000
-       }
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of operations data (in thousands)",
+        "quote": "Year Ended January 31, 2026 2025 2024 (in thousands) Revenue $ 4,868,769 $ 4,665,433 $ 4,527,224",
+        "xbrl": {
+          "cik": "0001585521",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2026-01-31",
+          "value": 4868769000
+        }
       }
-     },
-     {
-      "component": "intangibles",
-      "value": 0.0,
-      "stated": 0,
+    },
+    "operatingCashFlow": {
+      "value": 1.989048,
+      "stated": 1989048,
       "source": {
-       "hostType": "sec",
-       "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-       "label": "FY2025 Form 10-K, consolidated statement of cash flows (in thousands)",
-       "quote": "Purchases of intangible assets - - ( 11,268 )",
-       "xbrl": {
-        "cik": "0001585521",
-        "concept": "us-gaap:PaymentsToAcquireIntangibleAssets",
-        "end": "2025-01-31",
-        "value": 0
-       }
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+        "label": "FY2026 Form 10-K, consolidated statement of cash flows (in thousands)",
+        "quote": "Net cash provided by operating activities 1,989,048 1,945,308 1,598,836",
+        "xbrl": {
+          "cik": "0001585521",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2026-01-31",
+          "value": 1989048000
+        }
       }
-     }
-    ]
-   }
-  },
-  "interestPaid": {
-   "value": null,
-   "inOCF": true,
-   "source": null,
-   "note": "Not disclosed in the filing or companyfacts; under US GAAP it would sit inside operating cash flow, so the formula does not need it."
-  },
-  "taxesPaid": {
-   "value": 0.395401,
-   "stated": 395401,
-   "inOCF": true,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-    "label": "FY2025 Form 10-K, supplemental cash-flow information (in thousands)",
-    "quote": "Cash paid for income taxes, net $ 395,401 $ 348,129 $ 309,084",
-    "xbrl": {
-     "cik": "0001585521",
-     "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2025-01-31",
-     "value": 395401000
+    },
+    "capex": {
+      "value": 0.065461,
+      "components": [
+        "PP&E 0.064961",
+        "intangibles 0.0005"
+      ],
+      "derived": {
+        "method": "sum of the components below",
+        "inputs": [
+          {
+            "component": "PP&E",
+            "value": 0.064961,
+            "stated": 64961,
+            "source": {
+              "hostType": "sec",
+              "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+              "label": "FY2026 Form 10-K, consolidated statement of cash flows (in thousands)",
+              "quote": "Purchases of property and equipment ( 64,961 ) ( 136,560 ) ( 126,953 )",
+              "xbrl": {
+                "cik": "0001585521",
+                "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+                "end": "2026-01-31",
+                "value": 64961000
+              }
+            }
+          },
+          {
+            "component": "intangibles",
+            "value": 0.0005,
+            "stated": 500,
+            "source": {
+              "hostType": "sec",
+              "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+              "label": "FY2026 Form 10-K, consolidated statement of cash flows (in thousands)",
+              "quote": "Purchases of intangible assets ( 500 ) - -",
+              "xbrl": {
+                "cik": "0001585521",
+                "concept": "us-gaap:PaymentsToAcquireIntangibleAssets",
+                "end": "2026-01-31",
+                "value": 500000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "interestPaid": {
+      "value": null,
+      "inOCF": true,
+      "source": null,
+      "note": "Not disclosed in the FY2026 filing; Zoom has no debt, and under US GAAP interest paid would sit inside operating cash flow, so the formula does not need it."
+    },
+    "taxesPaid": {
+      "value": 0.421605,
+      "stated": 421605,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+        "label": "FY2026 Form 10-K, Note 11 Income Taxes, cash income taxes paid (in thousands)",
+        "quote": "The amounts of cash income taxes we paid, net of amounts refunded, were as follows: ... Federal $ 332,500 State and local 67,178 Foreign 21,927 Income taxes, net of amounts refunded $ 421,605",
+        "xbrl": {
+          "cik": "0001585521",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2026-01-31",
+          "value": 421605000
+        }
+      }
+    },
+    "interestDividendsReceived": {
+      "value": 0.317246,
+      "stated": 317246,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+        "label": "FY2026 Form 10-K, segment results (in thousands)",
+        "quote": "Interest income ( 317,246 ) ( 340,474 ) ( 210,009 )"
+      },
+      "derivation": "interest income from the income statement, used to size the bias: cash interest received is inside operating cash flow but not in revenue (the pilot did the same for Shopify)"
     }
-   }
   },
-  "interestDividendsReceived": {
-   "value": 0.340474,
-   "stated": 340474,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-    "label": "FY2025 Form 10-K, segment results (in thousands)",
-    "quote": "Interest income ( 340,474 ) ( 210,009 ) ( 54,103 )"
-   },
-   "derivation": "interest income from the income statement, used to size the bias: cash interest received is inside operating cash flow but not in revenue (the pilot did the same for Shopify)"
-  }
- },
- "paidOut": 2.856685,
- "paidOutFormula": "revenue 4,665,433 − operating cash flow 1,945,308 + capex 136,560 (USD thousands, as stated)",
- "altPaidOut": null,
- "salesEnabled": null,
- "flags": {
-  "financeReceivablesInOCF": false,
-  "interestDividendsReceivedInOCF": 0.340474,
-  "revenueIncludesExcise": false,
-  "nonCashRevenue": null
- },
- "notes": "Fiscal year ended January 31, 2025. No debt and no cash interest disclosed; companyfacts has no InterestPaidNet fact. It would sit inside operating cash flow, so paidOut is unaffected.",
- "researchedAt": "2026-11-23"
+  "paidOut": 2.945182,
+  "paidOutFormula": "revenue 4,868,769 − operating cash flow 1,989,048 + capex 65,461 (PP&E 64,961 + intangibles 500; USD thousands, as stated)",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": 0.317246,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
+  },
+  "notes": "Fiscal year ended January 31, 2026. Zoom has no debt and discloses no cash interest paid; it would sit inside operating cash flow, so paidOut is unaffected. Cash taxes paid now come from the by-jurisdiction table in the income-tax note (ASU 2023-09). The $119.8 million paid for acquisitions is excluded from capex.",
+  "researchedAt": "2026-11-24"
 }

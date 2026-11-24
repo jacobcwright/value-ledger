@@ -2,54 +2,54 @@
   "id": "jack-dorsey",
   "company": "Block",
   "nbim": {
-    "pct": 1.17,
-    "marketValueUSD": 0.616,
-    "asOf": "2024-12-31",
+    "pct": 1.32,
+    "marketValueUSD": 0.596,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"63gea4iodnhr\",\"cc\":\"US\",\"n\":\"Block Inc\",\"a\":{\"e\":616468419,\"n\":7001447604},\"at\":0,\"o\":1.17,\"eq\":{\"vid\":\"XYZ\",\"v\":0.62,\"s\":\"Industrials\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"63gea4iodnhr\",\"cc\":\"US\",\"n\":\"Block Inc\",\"a\":{\"e\":596015767,\"n\":5897874027},\"at\":0,\"o\":1.32,\"eq\":{\"vid\":\"XYZ\",\"v\":0.69,\"s\":\"Industrials\"}}"
     }
   },
   "calpers": {
-    "shares": 875365,
-    "asOf": "2024-12-31",
+    "shares": 911472,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "BLOCK INC CL A 852234103 74397271 875365"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "BLOCK INC CL A 852234103 67020536 911472"
     },
     "derived": {
-      "pct": 0.141,
-      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "pct": 0.151,
+      "method": "CalPERS shares ÷ shares outstanding, all classes (911,472 ÷ (544,546,000 + 59,976,000))",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "As of February 18, 2025, the number of shares (in thousands) of the registrant's Class A and Class B common stock outstanding were 559,431 and 60,049 , respectively."
+          "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069524/xyz-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page (shares in thousands)",
+          "quote": "As of October 30, 2026, the number of shares (in thousands) of the registrant's Class A and Class B common stock outstanding were 544,546 and 59,976 , respectively."
         },
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-          "label": "FY2024 Form 10-K, share class rights",
+          "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+          "label": "FY2025 Form 10-K, share class rights",
           "quote": "The holders of our Class A and Class B common stock (together, \"common stock\") have identical liquidation and dividend rights but different voting rights."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 504,
-    "asOf": "2025-02-18",
+    "count": 442,
+    "asOf": "2026-02-20",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of February 18, 2025, there were 504 holders of record of our Class A common stock and 24 holders of record of our Class B common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of February 20, 2026, there we re 442 holders of record of our Class A common stock and 22 holders of record of our Class B common stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Block Inc;Industrials;7001447604;616468419;0.62%;1.17%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: Cover page counts are in thousands. CalPERS holds Class A; denominator is Class A plus Class B. Holders of record: Listed Class A only; the 10-K also gives 24 holders of record of Class B.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026; Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS holds Class A; the denominator is Class A plus Class B from the Q3 2026 10-Q cover (counts in thousands, at October 30, 2026), the same count used in the marketcap lens. Holders of record: listed Class A only; the 10-K also gives 22 holders of record of Class B (the 10-K text reads 'there we re', reproduced as printed).",
+  "researchedAt": "2026-11-24"
 }

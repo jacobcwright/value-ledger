@@ -51,6 +51,23 @@ function payFor(id) {
   return out;
 }
 
+// _fx.json lists, for each currency-year, the paid-out files converted with it (build-companies checks this),
+// so it is rewritten here from the paid-out files themselves: one fiscal-year rule, one place.
+{
+  const fxPath = path.join(root, "research/lenses/paidout/_fx.json");
+  const fxFile = JSON.parse(fs.readFileSync(fxPath, "utf8"));
+  for (const years of Object.values(fxFile.rates)) for (const r of Object.values(years)) r.usedFor = [];
+  const dir = path.join(root, "research/lenses/paidout");
+  for (const f of fs.readdirSync(dir).filter(f => f.endsWith(".json") && !f.startsWith("_")).sort()) {
+    const rec = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
+    if (!rec.currency || rec.currency === "USD" || !rec.fiscalYearEnd) continue;
+    const rate = fxFile.rates[rec.currency]?.[String(fxYear(rec.fiscalYearEnd))];
+    if (rate) rate.usedFor.push(`${rec.id} (${rec.fiscalYear}, FYE ${rec.fiscalYearEnd})`);
+    else problems.push(`${rec.id}: no ${rec.currency} ${fxYear(rec.fiscalYearEnd)} rate in _fx.json`);
+  }
+  fs.writeFileSync(fxPath, JSON.stringify(fxFile, null, 1) + "\n");
+}
+
 const out = lines.map(line => {
   const m = line.match(/^(\s*)(\{"id":"[^"]+".*\})(,?)\s*$/);
   if (!m) return line;
@@ -70,5 +87,22 @@ text = /^const edition = .*;$/m.test(text) ? text.replace(/^const edition = .*;$
 // payroll is reported (or reported median × employees) and may be null where nothing is disclosed
 text = text.replace(/^for \(const leader of leaders\) leader\.payroll = .*$/m, "for (const leader of leaders) if (leader.payroll === undefined) leader.payroll = leader.jobs * leader.wage / 1e9;");
 fs.writeFileSync(dataPath, text);
+
+// The list-wide headline figures in the pages' <head> copy and the share card, rounded exactly as app.js's
+// headlineFigure() rounds the key line, so the meta copy and the page always agree.
+const leaders = new Function(text + ";return leaders")();
+const oneDecimal = n => n.toFixed(1).replace(/\.0$/, "");
+const total = key => leaders.reduce((t, l) => t + (Number.isFinite(l[key]) ? l[key] : 0), 0);
+const capT = oneDecimal(total("cap") / 1e3), jobsM = oneDecimal(total("jobs") / 1e6), payB = String(Math.round(total("payroll")));
+for (const page of ["dist/index.html", "dist/methodology.html", "design/og-card.html"]) {
+  const file = path.join(root, page);
+  const before = fs.readFileSync(file, "utf8");
+  const after = before
+    .replace(/\$[\d.]+ trillion/g, `$${capT} trillion`)
+    .replace(/[\d.]+ million(?= people|<\/strong><span>People employed)/g, `${jobsM} million`)
+    .replace(/\$[\d,]+ billion(?= a year|<\/strong><span>Annual pay)/g, `$${payB} billion`);
+  if (after !== before) fs.writeFileSync(file, after);
+}
+console.log(`headline: $${capT} trillion value created · ${jobsM} million people · $${payB} billion pay to workers`);
 console.log(`edition ${edition.label}: market value for ${stats.cap}/100, pay lens for ${stats.pay}/100 (${stats.payNull} with no disclosed payroll)`);
 if (problems.length) { console.log((strict ? "✗ " : "  pending: ") + problems.length + " leaders without lenses" + (strict ? ":\n  " + problems.join("\n  ") : "")); if (strict) process.exit(1); }

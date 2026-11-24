@@ -1,70 +1,70 @@
 {
   "id": "reed-hastings",
   "company": "Netflix",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-04-07",
+    "asOf": "2026-04-06",
     "leader": {
       "name": "Reed Hastings",
       "relation": "co-founder",
       "status": "holds",
       "pctEconomic": null,
       "pctVoting": null,
-      "shares": 4227660,
+      "shares": 37759062,
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312525084425/d867701ddef14a.htm",
-        "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
-        "quote": "Reed Hastings(7) 4,227,660 * ... * Less than 1% of the Company’s outstanding shares of common stock. ... (7) Includes options to purchase 2,072,933 shares and 92 shares of common stock issuable upon the vesting of RSU awards within 60 days of April 7, 2025. Mr. Hastings is a trustee of the Hastings-Quillin Family Trust, which is the holder of 2,154,241 of the Company’s shares."
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+        "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+        "quote": "Reed Hastings (6) 37,759,062 * ... * Less than 1% of the Company's outstanding shares of common stock. ... (6) Includes options to purchase 16,595,546 shares of common stock. Mr. Hastings is a trustee of the Hastings-Quillin Family Trust, which is the holder of 21,159,576 of the Company's shares."
       }
     },
     "largestHolders": [
       {
         "name": "The Vanguard Group, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 8.56,
+        "pctEconomic": 8.65,
         "asOf": "2023-12-29",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312525084425/d867701ddef14a.htm",
-          "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
-          "quote": "The Vanguard Group, Inc.(1) 100 Vanguard Blvd Malvern, PA 19355 36,438,275 8.56 % ... (1) As of December 29, 2023, based on information provided by The Vanguard Group, Inc. in the Schedule 13G/A filed February 13, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "The Vanguard Group, Inc. (1) 100 Vanguard Blvd Malvern, PA 19355 364,382,750 8.65 % ... (1) As of December 29, 2023, based on information provided by The Vanguard Group, Inc. in the Schedule 13G/A filed February 13, 2024."
         }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 7.26,
+        "pctEconomic": 7.34,
         "asOf": "2023-12-31",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312525084425/d867701ddef14a.htm",
-          "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
-          "quote": "BlackRock, Inc.(2) 50 Hudson Yards New York, NY 10001 30,898,926 7.26 % ... (2) As of December 31, 2023, based on information provided by BlackRock, Inc. in the Schedule 13G/A filed January 26, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "BlackRock, Inc. (2) 50 Hudson Yards New York, NY 10001 308,989,260 7.34 % ... (2) As of December 31, 2023, based on information provided by BlackRock, Inc. in the Schedule 13G/A filed January 26, 2024."
         }
       },
       {
         "name": "FMR LLC",
         "type": "asset-manager",
-        "pctEconomic": 5.23,
+        "pctEconomic": 5.29,
         "asOf": "2023-12-29",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312525084425/d867701ddef14a.htm",
-          "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
-          "quote": "FMR LLC(3) 245 Summer Street Boston, Massachusetts 02210 22,275,033 5.23 % ... (3) As of December 29, 2023, based on information provided by FMR LLC in the Schedule 13G/A filed April 7, 2025."
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
+          "quote": "FMR LLC (3) 245 Summer Street Boston, Massachusetts 02210 222,750,326 5.29 % ... (3) As of December 29, 2023, based on information provided by FMR LLC in the Schedule 13G/A filed April 7, 2025."
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock. The proxy lists three holders of more than 5% (Vanguard, BlackRock, FMR); all directors and executive officers as a group own 1.37%."
+      "note": "One class of common stock. The 2026 proxy lists three holders of more than 5% (Vanguard, BlackRock, FMR); all current directors and executive officers as a group own 1.24%."
     }
   },
   "cash": {
@@ -72,40 +72,40 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 5, Dividend Policy",
-        "quote": "Dividend Policy We have never declared or paid any cash dividends on our capital stock, and we do not currently anticipate paying any cash dividends in the foreseeable future."
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 5, Dividend Policy",
+        "quote": "We have never declared or paid any cash dividends on our capital stock, and we do not currently anticipate paying any cash dividends in the foreseeable future."
       }
     },
     "buybacks": {
-      "value": 6.26,
+      "value": 9.13,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Repurchases of common stock (6,263,746) (6,045,347) — [in thousands, 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchases of common stock ( 9,127,167 ) ( 6,263,746 ) ( 6,045,347 ) [in thousands, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001065280",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2024-12-31",
-          "value": 6263746000
+          "end": "2025-12-31",
+          "value": 9127167000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.27,
+      "value": 0.37,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Stock-based compensation expense 272,588 339,368 575,452 [in thousands, 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation expense 368,449 272,588 339,368 [in thousands, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001065280",
           "concept": "us-gaap:ShareBasedCompensation",
-          "end": "2024-12-31",
-          "value": 272588000
+          "end": "2025-12-31",
+          "value": 368449000
         }
       }
     },
@@ -113,8 +113,8 @@
       "text": "Netflix employees can generally choose how much of their pay comes as cash and how much as stock options.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1 Human Capital",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Human Capital Resources",
         "quote": "We aim generally to pay our employees at their personal top of market, and they generally are able to choose the form of their compensation between cash and stock options."
       }
     }
@@ -124,29 +124,29 @@
     "segments": [
       {
         "name": "United States and Canada (UCAN)",
-        "value": 17.36
+        "value": 19.96
       },
       {
         "name": "Europe, Middle East, and Africa (EMEA)",
-        "value": 12.39
+        "value": 14.51
       },
       {
         "name": "Latin America (LATAM)",
-        "value": 4.84
+        "value": 5.36
       },
       {
         "name": "Asia-Pacific (APAC)",
-        "value": 4.41
+        "value": 5.35
       }
     ],
-    "total": 39.0,
+    "total": 45.18,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
-      "label": "FY2024 Form 10-K, Note 2 Revenue Recognition, and consolidated statements of operations",
-      "quote": "United States and Canada (UCAN) ... Streaming revenues $ 17,359,369 ... Europe, Middle East, and Africa (EMEA) ... Streaming revenues $ 12,387,035 ... Latin America (LATAM) ... Streaming revenues $ 4,839,816 ... Asia-Pacific (APAC) ... Streaming revenues $ 4,414,746 [2024, in thousands] ... Total revenues $ 39,000,966"
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+      "label": "FY2025 Form 10-K, Note 2 Revenue Recognition, streaming revenues by region (in thousands)",
+      "quote": "United States and Canada (UCAN) $ 19,957,152 $ 17,359,369 $ 14,873,783 Europe, Middle East, and Africa (EMEA) 14,514,646 12,387,035 10,556,487 Latin America (LATAM) 5,357,521 4,839,816 4,446,461 Asia-Pacific (APAC) 5,353,717 4,414,746 3,763,727 Total Streaming Revenues $ 45,183,036 $ 39,000,966 $ 33,640,458"
     }
   },
-  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). Sources: FY2024 Form 10-K (accession 0001065280-25-000044) and 2025 proxy statement (DEF 14A, accession 0001193125-25-084425), read on EDGAR. LEADER: Hastings beneficially owns 4,227,660 shares as of April 7, 2025, marked * (less than 1%) in the proxy, so pctEconomic is null. The figure includes options on 2,072,933 shares and 92 RSU shares, and 2,154,241 shares held by the Hastings-Quillin Family Trust, of which he is a trustee. The trust is part of his total, so it is not listed separately. He moved from Executive Chairman to non-executive Chairman on April 17, 2025. HOLDERS: Vanguard and BlackRock percentages rest on Schedule 13G/A filings reporting ownership at the end of December 2023, applied against the April 7, 2025 share count. The FMR footnote is internally inconsistent: it gives ownership 'As of December 29, 2023' but cites a Schedule 13G/A 'filed April 7, 2025'; asOf follows the stated as-of date, but the figure's true date is uncertain. GEOGRAPHY: the four regional streaming revenues sum exactly to total revenues of $39,000,966 thousand; 2024 streaming revenues include $124 million of hedging gains (stated in Note 2). Stock comp is the cash-flow line; the 10-K says the company grants non-qualified stock options to employees monthly.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Sources: FY2025 Form 10-K (accession 0001065280-26-000034, filed January 23, 2026) and 2026 proxy statement (DEF 14A, accession 0001193125-26-159286, filed April 16, 2026), read on EDGAR. SPLIT: Netflix completed a ten-for-one forward stock split on November 14, 2025; all share counts here are post-split. LEADER: Hastings beneficially owns 37,759,062 shares as of April 6, 2026, marked * (less than 1%) in the proxy, so pctEconomic is null. The figure includes options on 16,595,546 shares and 21,159,576 shares held by the Hastings-Quillin Family Trust, of which he is a trustee; the trust is part of his total and is not listed separately. He became non-executive Chairman on April 17, 2025, and the 2026 proxy says he will not stand for re-election to the Board at the June 4, 2026 annual meeting. HOLDERS: the Vanguard, BlackRock and FMR figures still rest on Schedule 13G/A filings reporting holdings at the end of December 2023 (split-adjusted), applied against the April 6, 2026 share count; the FMR footnote gives 'As of December 29, 2023' but cites a 13G/A 'filed April 7, 2025', so its true date is uncertain. GEOGRAPHY: the four regional streaming revenues sum to total streaming revenues of $45,183,036 thousand, which equals total revenues (no DVD revenue in 2025). Stock comp is the cash-flow line; the 10-K says the company grants non-qualified stock options to employees monthly.",
+  "researchedAt": "2026-11-24"
 }

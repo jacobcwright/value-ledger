@@ -1,0 +1,38 @@
+{
+  "id": "kiran-mazumdar-shaw",
+  "company": "Biocon",
+  "classes": [
+    {
+      "label": "Equity shares of ₹5 each",
+      "shares": 1626659854,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "BIOCON.NS",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "All equity shares, total (A+B+C)",
+          "value": 1629694135,
+          "source": {
+            "hostType": "company",
+            "url": "https://www.biocon.com/docs/SHP-Website-Q2-FY27.pdf",
+            "label": "Biocon shareholding pattern for the quarter ended September 30, 2026 (Reg 31), Table I summary statement",
+            "quote": "Quarter Ended / Half year ended/Date of Report (For Prelisting / Allotment) 30-09-2026 ... Total (A+B+C ) 393051 1629694135 1629694135 100.00"
+          }
+        },
+        {
+          "label": "Less: shares held by the employee welfare (ESOP) trust, Table IV (C)(2)",
+          "value": -3034281,
+          "source": {
+            "hostType": "company",
+            "url": "https://www.biocon.com/docs/SHP-Website-Q2-FY27.pdf",
+            "label": "Biocon shareholding pattern for the quarter ended September 30, 2026 (Reg 31), Table IV non promoter-non public shareholders",
+            "quote": "Table IV - Statement showing shareholding pattern of the Non Promoter- Non Public shareholder ... Employee Benefit Trust / Employee Welfare Trust under SEBI (Share Based Employee Benefits and Sweat Equity) Regulations, 2021 1 3034281 3034281 0.19"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "One class of equity shares, listed on NSE (BIOCON) and BSE (532523); the NSE line in INR is used. The count comes from the latest quarterly shareholding pattern (September 30, 2026): 1,629,694,135 shares in total, up from 1,620,907,773 at March 31, 2026 after a further allotment on June 29, 2026 (per the company's post-allotment shareholding pattern), less 3,034,281 shares (0.19%) held by the employee welfare (ESOP) trust, which Ind AS treats as treasury shares in the consolidated accounts; no document states the net count, so it is computedFrom the two quoted lines (1,629,694,135 − 3,034,281 = 1,626,659,854). No ADRs, GDRs, warrants or convertible instruments are outstanding.",
+  "researchedAt": "2026-11-24"
+}

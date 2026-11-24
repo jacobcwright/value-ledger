@@ -1,28 +1,28 @@
 {
   "id": "james-sinegal",
   "company": "Costco Wholesale",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-09-01",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-08-30",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 2.32,
+      "value": 2.84,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid during the year for: ... Income taxes, net $ 2,319 $ 2,234 $ 1,940 SUPPLEMENTAL [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "label": "FY2026 Form 10-K, Note 8 Taxes, supplemental schedule of cash paid for income taxes",
+        "quote": "The following is a supplemental schedule of cash paid for income taxes, net of refunds: 2026 U.S. federal $ 1,377 U.S. state and local: California 209 Other 322 Foreign: Canada 430 Mexico 185 Other 316 Total $ 2,839 [USD millions]",
         "xbrl": {
           "cik": "0000909832",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-09-01",
-          "value": 2319000000
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2026-08-30",
+          "value": 2839000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, net of refunds as presented. R&D not reported as a separate line in the FY2024 10-K (retailer).",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended August 30, 2026. Taxes: cash paid for income taxes, net of refunds (us-gaap:IncomeTaxesPaidNet), from the new by-jurisdiction schedule in Note 8 (Costco adopted ASU 2023-09 for fiscal 2026); the supplemental cash-flow line 'Income taxes, net' shows the same $2,839 million. R&D not reported as a separate line (retailer).",
+  "researchedAt": "2026-11-24"
 }

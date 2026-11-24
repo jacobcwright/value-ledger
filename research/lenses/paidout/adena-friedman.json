@@ -1,101 +1,101 @@
 {
  "id": "adena-friedman",
  "company": "Nasdaq",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "USD",
  "unit": "billions",
  "sector": "exchange",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 7.4,
-   "stated": 7400,
+   "value": 8.262,
+   "stated": 8262,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
-    "quote": "Other revenues 36 39 48 Total revenues 7,400 6,064 6,226 Transaction-based expenses: Transaction rebates ( 2,026 ) ( 1,838 ) ( 2,092 )",
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of income (in millions)",
+    "quote": "Total revenues 8,262 7,400 6,064",
     "xbrl": {
      "cik": "0001120193",
      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-     "end": "2024-12-31",
-     "value": 7400000000
+     "end": "2025-12-31",
+     "value": 8262000000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 1.939,
-   "stated": 1939,
+   "value": 2.255,
+   "stated": 2255,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Net cash provided by operating activities 1,939 1,696 1,706",
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Net cash provided by operating activities 2,255 1,939 1,696",
     "xbrl": {
      "cik": "0001120193",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-31",
-     "value": 1939000000
+     "end": "2025-12-31",
+     "value": 2255000000
     }
    }
   },
   "capex": {
-   "value": 0.207,
+   "value": 0.266,
    "components": [
-    "PP&E 0.207"
+    "PP&E 0.266"
    ],
-   "stated": 207,
+   "stated": 266,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Purchases of property and equipment ( 207 ) ( 158 ) ( 152 )",
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Purchases of property and equipment ( 266 ) ( 207 ) ( 158 )",
     "xbrl": {
      "cik": "0001120193",
      "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-     "end": "2024-12-31",
-     "value": 207000000
+     "end": "2025-12-31",
+     "value": 266000000
     }
    }
   },
   "interestPaid": {
-   "value": 0.405,
-   "stated": 405,
+   "value": 0.354,
+   "stated": 354,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Supplemental Disclosure Cash Flow Information Interest paid $ 405 $ 177 $ 116 Income taxes paid, net of refund $ 358 $ 254 $ 274",
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm",
+    "label": "FY2025 Form 10-K, supplemental cash-flow information (in millions)",
+    "quote": "Supplemental Disclosure Cash Flow Information Cash paid for: Interest paid $ 354 $ 405 $ 177",
     "xbrl": {
      "cik": "0001120193",
      "concept": "us-gaap:InterestPaidNet",
-     "end": "2024-12-31",
-     "value": 405000000
+     "end": "2025-12-31",
+     "value": 354000000
     }
    }
   },
   "taxesPaid": {
-   "value": 0.358,
-   "stated": 358,
+   "value": 0.373,
+   "stated": 373,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Supplemental Disclosure Cash Flow Information Interest paid $ 405 $ 177 $ 116 Income taxes paid, net of refund $ 358 $ 254 $ 274",
+    "url": "https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm",
+    "label": "FY2025 Form 10-K, supplemental cash-flow information (in millions)",
+    "quote": "Income taxes paid, net of refunds $ 373 $ 358 $ 254",
     "xbrl": {
      "cik": "0001120193",
      "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-12-31",
-     "value": 358000000
+     "end": "2025-12-31",
+     "value": 373000000
     }
    }
   }
  },
- "paidOut": 5.668,
- "paidOutFormula": "revenue 7,400 − operating cash flow 1,939 + capex 207 (USD millions, as stated)",
+ "paidOut": 6.273,
+ "paidOutFormula": "revenue 8,262 − operating cash flow 2,255 + capex 266 (USD millions, as stated)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
@@ -104,6 +104,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Exchange operator: normal operating cash flow, so the formula applies with the sector flag. Total revenues (7,400) are gross of transaction-based expenses paid to market participants (transaction rebates 2,026; brokerage, clearance and exchange fees 725); revenues less transaction-based expenses were 4,649. Those rebates and fees are payments to others, so they stay in. Default-fund and margin-deposit flows of the clearing house sit in investing and financing, not operating. No separate intangible-purchase line; acquisitions of businesses (none in 2024) excluded.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001628280-26-007703). Exchange operator: normal operating cash flow, so the formula applies with the sector flag. Total revenues (8,262) are gross of transaction-based expenses paid to market participants; revenues less transaction-based expenses were 5,249. Those rebates and fees are payments to others, so they stay in. Default-fund and margin-deposit flows of the clearing house sit in investing and financing, not operating. Interest and income taxes paid are inside operating cash flow (US GAAP), so they are not added. No separate intangible-purchase line; no acquisitions in 2025 (divestiture proceeds of 140 are not netted).",
+ "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,31 @@
+{
+  "id": "reed-hastings",
+  "company": "Netflix",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 16000,
+    "asOf": "2025-12-31",
+    "basis": "approximately 16,000 full-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital Resources",
+      "quote": "As of December 31, 2025, we had approximately 16,000 full-time employees."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "2025 annual total compensation of our median employee",
+    "value": 211201,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "The 2025 annual total compensation as determined under Item 402 of Regulation S-K for our median employee was $211,201."
+    }
+  },
+  "notes": "Employees: approximate full-time head count at December 31, 2025, from the FY2025 10-K. Payroll: the 10-K discloses no total staff cost (personnel costs appear only as drivers inside cost of revenues, marketing, technology and development, and general and administrative), so the 2026 proxy's CEO pay ratio median is used; it is for 2025, the same year as the head count, with the median employee identified on December 31, 2025.",
+  "researchedAt": "2026-11-24"
+}

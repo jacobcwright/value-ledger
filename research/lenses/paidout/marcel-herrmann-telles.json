@@ -1,146 +1,152 @@
 {
- "id": "marcel-herrmann-telles",
- "company": "Anheuser-Busch InBev SA/NV",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
- "currency": "USD",
- "unit": "billions",
- "statedUnit": "USD million",
- "sector": "consumer-staples",
- "comparable": true,
- "inputs": {
-  "revenue": {
-   "value": 59.768,
-   "stated": 59768,
-   "divisor": 1000,
-   "source": {
-    "hostType": "company",
-    "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
-    "label": "Annual Report on Form 20-F 2024, consolidated income statement (million US dollar)",
-    "quote": "Revenue 59 768 59 380 57 786"
-   },
-   "note": "Revenue is turnover less excise taxes and discounts; the excise deducted was USD 15.2 billion."
-  },
-  "operatingCashFlow": {
-   "value": 15.055,
-   "stated": 15055,
-   "divisor": 1000,
-   "source": {
-    "hostType": "company",
-    "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
-    "label": "Annual Report on Form 20-F 2024, consolidated statement of cash flows (million US dollar)",
-    "quote": "Income tax paid (3 134) (2 696) (2 582) Cash flow from/(used in) operating activities 15 055 13 265 13 298"
-   },
-   "note": "After interest and taxes; not the 'Cash generated from operations' (21,009) or 'before changes in working capital' (21,406) subtotals."
-  },
-  "capex": {
-   "value": 3.863,
-   "stated": 3863,
-   "divisor": 1000,
-   "source": {
-    "hostType": "company",
-    "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
-    "label": "Annual Report on Form 20-F 2024, consolidated statement of cash flows (million US dollar)",
-    "quote": "Acquisition of property, plant and equipment and of intangible assets 13/15 (3 863) (4 638) (5 160)"
-   },
-   "components": [
-    "PP&E and intangibles (one combined line) 3.863"
-   ],
-   "note": "AB InBev reports PP&E and intangible purchases only as one combined line, so the combined line is used. Excludes acquisitions of subsidiaries (46)."
-  },
-  "interestPaid": {
-   "value": 3.649,
-   "stated": 3649,
-   "divisor": 1000,
-   "source": {
-    "hostType": "company",
-    "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
-    "label": "Annual Report on Form 20-F 2024, consolidated statement of cash flows (million US dollar)",
-    "quote": "Cash generated from operations 21 009 19 113 19 244 Interest paid (3 649) (3 877) (4 133) Interest received 594 598 611"
-   },
-   "inOCF": true,
-   "location": "operating activities"
-  },
-  "taxesPaid": {
-   "value": 3.134,
-   "stated": 3134,
-   "divisor": 1000,
-   "source": {
-    "hostType": "company",
-    "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
-    "label": "Annual Report on Form 20-F 2024, consolidated statement of cash flows (million US dollar)",
-    "quote": "Dividends received 234 127 158 Income tax paid (3 134) (2 696) (2 582)"
-   },
-   "inOCF": true,
-   "location": "operating activities"
-  },
-  "leasePrincipalPaid": {
-   "value": 0.787,
-   "stated": 787,
-   "divisor": 1000,
-   "source": {
-    "hostType": "company",
-    "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
-    "label": "Annual Report on Form 20-F 2024, consolidated statement of cash flows (million US dollar)",
-    "quote": "Payment of lease liabilities (787) (780) (610)"
-   },
-   "added": false,
-   "note": "IFRS 16 lease payments in financing; noted, not added (1.6% of paidOut). The statement does not say whether this line also carries lease interest (accretion expense includes 142 of interest on lease liabilities)."
-  }
- },
- "paidOut": 48.576,
- "paidOutFormula": "59,768 − 15,055 + 3,863 (PP&E + intangibles, combined line) = 48,576 USD million (interest and taxes paid are inside OCF)",
- "altPaidOut": null,
- "salesEnabled": null,
- "flags": {
-  "financeReceivablesInOCF": false,
-  "interestDividendsReceivedInOCF": {
-   "value": 0.828,
-   "components": [
-    "interest received 0.594",
-    "dividends received 0.234"
-   ],
-   "parts": [
-    {
-     "label": "interest received",
-     "value": 0.594,
-     "stated": 594,
-     "divisor": 1000,
-     "source": {
-      "hostType": "company",
-      "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
-      "label": "Annual Report on Form 20-F 2024, consolidated statement of cash flows (million US dollar)",
-      "quote": "Interest paid (3 649) (3 877) (4 133) Interest received 594 598 611"
-     }
+  "id": "marcel-herrmann-telles",
+  "company": "Anheuser-Busch InBev SA/NV",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "statedUnit": "USD million",
+  "sector": "consumer-staples",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 59.32,
+      "stated": 59320,
+      "divisor": 1000,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "FY2025 Form 20-F, consolidated income statement (million US dollar)",
+        "quote": "Revenue 59 320 59 768 59 380 Cost of sales ( 26 141 ) ( 26 744 ) ( 27 396 )"
+      },
+      "note": "Revenue is turnover less excise taxes and discounts; the excise deducted was USD 15.3 billion."
     },
-    {
-     "label": "dividends received",
-     "value": 0.234,
-     "stated": 234,
-     "divisor": 1000,
-     "source": {
-      "hostType": "company",
-      "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
-      "label": "Annual Report on Form 20-F 2024, consolidated statement of cash flows (million US dollar)",
-      "quote": "Interest received 594 598 611 Dividends received 234 127 158"
-     }
+    "operatingCashFlow": {
+      "value": 14.883,
+      "stated": 14883,
+      "divisor": 1000,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows (million US dollar)",
+        "quote": "Income tax paid ( 3 240 ) ( 3 134 ) ( 2 696 ) Cash flow from/(used in) operating activities 14 883 15 055 13 265"
+      },
+      "note": "After interest and taxes; not the 'Cash generated from operations' (20,814) or 'before changes in working capital' (21,637) subtotals."
+    },
+    "capex": {
+      "value": 3.656,
+      "stated": 3656,
+      "divisor": 1000,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows (million US dollar)",
+        "quote": "Acquisition of property, plant and equipment and of intangible assets 13/15 ( 3 656 ) ( 3 863 ) ( 4 638 )"
+      },
+      "components": [
+        "PP&E and intangibles (one combined line) 3.656"
+      ],
+      "note": "AB InBev reports PP&E and intangible purchases only as one combined line, so the combined line is used. Sale/(acquisition) of subsidiaries was a net inflow of 18 in 2025 and is excluded."
+    },
+    "interestPaid": {
+      "value": 3.348,
+      "stated": 3348,
+      "divisor": 1000,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows (million US dollar)",
+        "quote": "Cash generated from operations 20 814 21 009 19 113 Interest paid ( 3 348 ) ( 3 649 ) ( 3 877 ) Interest received 462 594 598"
+      },
+      "inOCF": true,
+      "location": "operating activities"
+    },
+    "taxesPaid": {
+      "value": 3.24,
+      "stated": 3240,
+      "divisor": 1000,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows (million US dollar)",
+        "quote": "Dividends received 195 234 127 Income tax paid ( 3 240 ) ( 3 134 ) ( 2 696 )",
+        "xbrl": {
+          "cik": "0001668717",
+          "concept": "ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities",
+          "end": "2025-12-31",
+          "value": 3240000000
+        }
+      },
+      "inOCF": true,
+      "location": "operating activities"
+    },
+    "leasePrincipalPaid": {
+      "value": 0.733,
+      "stated": 733,
+      "divisor": 1000,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows (million US dollar)",
+        "quote": "Payment of lease liabilities ( 733 ) ( 787 ) ( 780 )"
+      },
+      "added": false,
+      "note": "IFRS 16 lease payments in financing; noted, not added (1.5% of paidOut). The statement does not say whether this line also carries lease interest."
     }
-   ],
-   "note": "Inside operating cash flow, lowering paidOut by this amount (1.7%)."
   },
-  "revenueIncludesExcise": false,
-  "nonCashRevenue": null,
-  "exciseNote": {
-   "value": 15.2,
-   "source": {
-    "hostType": "company",
-    "url": "https://cdn.builder.io/o/assets%2F2e5c7fb020194c1a8ee80f743d0b923e%2Fbb98a9c32cdf4ce19443f8d46a59282d?alt=media&token=7ac2ac72-bb4c-4b23-b50a-565fd38e36a2&apiKey=2e5c7fb020194c1a8ee80f743d0b923e",
-    "label": "Annual Report on Form 20-F 2024, Item 5, critical accounting estimates",
-    "quote": "In many jurisdictions, excise taxes make up a large proportion of the cost of beer charged to our customers. The aggregate deduction from revenue recorded by us in relation to these taxes was USD 15.2 billion and USD 14.9 billion for the years ended 31 December 2024 and 2023, respectively."
-   },
-   "note": "Excise is deducted from revenue, so the USD 15.2bn AB InBev collects and pays to governments as excise is outside paidOut."
-  }
- },
- "notes": "IFRS, USD. Interest paid, interest received, dividends received and income tax paid are all inside 'Cash flow from/(used in) operating activities', so nothing is added. Revenue is net of excise (USD 15.2bn deducted), so revenueIncludesExcise is false and excise paid to governments is not in paidOut. Capex is the combined PP&E-and-intangibles line.",
- "researchedAt": "2026-11-23"
+  "paidOut": 48.093,
+  "paidOutFormula": "59,320 − 14,883 + 3,656 (PP&E + intangibles, combined line) = 48,093 USD million (interest and taxes paid are inside OCF)",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": {
+      "value": 0.657,
+      "components": [
+        "interest received 0.462",
+        "dividends received 0.195"
+      ],
+      "parts": [
+        {
+          "label": "interest received",
+          "value": 0.462,
+          "stated": 462,
+          "divisor": 1000,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+            "label": "FY2025 Form 20-F, consolidated statement of cash flows (million US dollar)",
+            "quote": "Interest paid ( 3 348 ) ( 3 649 ) ( 3 877 ) Interest received 462 594 598"
+          }
+        },
+        {
+          "label": "dividends received",
+          "value": 0.195,
+          "stated": 195,
+          "divisor": 1000,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+            "label": "FY2025 Form 20-F, consolidated statement of cash flows (million US dollar)",
+            "quote": "Interest received 462 594 598 Dividends received 195 234 127"
+          }
+        }
+      ],
+      "note": "Inside operating cash flow, lowering paidOut by this amount (1.4%)."
+    },
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null,
+    "exciseNote": {
+      "value": 15.3,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526088105/d65314d20f.htm",
+        "label": "FY2025 Form 20-F, Item 5, critical accounting estimates",
+        "quote": "In many jurisdictions, excise taxes make up a large proportion of the cost of beer charged to our customers. The aggregate deduction from revenue recorded by us in relation to these taxes was USD 15.3 billion and USD 15.2 billion for the years ended 31 December 2025 and 2024, respectively."
+      },
+      "note": "Excise is deducted from revenue, so the USD 15.3bn AB InBev collects and pays to governments as excise is outside paidOut."
+    }
+  },
+  "notes": "Fiscal year ended 31 December 2025, FY2025 Form 20-F (accession 0001193125-26-088105). IFRS, USD. Interest paid, interest received, dividends received and income tax paid are all inside 'Cash flow from/(used in) operating activities', so nothing is added. Revenue is net of excise (USD 15.3bn deducted), so revenueIncludesExcise is false and excise paid to governments is not in paidOut. Capex is the combined PP&E-and-intangibles line.",
+  "researchedAt": "2026-11-24"
 }
