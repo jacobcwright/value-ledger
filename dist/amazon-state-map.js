@@ -63,7 +63,6 @@ function amazonStatesView() {
             </g>
           </svg>
           <div class="amazon-state-tip" id="amazon-state-tip" aria-hidden="true" hidden></div>
-          <p class="amazon-state-keys" aria-hidden="true"><kbd>←</kbd><kbd>↑</kbd><kbd>↓</kbd><kbd>→</kbd> move between states</p>
         </div>
         <div class="state-heat-legend" id="amazon-state-legend" role="img">
           <p class="state-heat-title" id="amazon-state-legend-title"></p>
@@ -80,7 +79,7 @@ function amazonStatesView() {
             <select id="amazon-state-metric">${Object.entries(stateMeasures).map(([key,measure]) => `<option value="${key}">${measure.label}</option>`).join("")}</select>
           </div>
           <div>
-            <label for="amazon-state-picker">Explore a state</label>
+            <label for="amazon-state-picker">State</label>
             <select id="amazon-state-picker">${amazonStateData.map(state => `<option value="${state.id}">${state.name}</option>`).join("")}</select>
           </div>
         </div>

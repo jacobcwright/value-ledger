@@ -114,7 +114,6 @@ function amazonFootprint() {
       <div class="amazon-map-layout" id="amazon-map-layout">
         <div class="amazon-world">
           <canvas id="amazon-globe" tabindex="0" aria-label="Amazon globe. Use the arrow keys to rotate, plus or minus to zoom, or choose an entry in the list."></canvas>
-          <p class="amazon-globe-hint" aria-hidden="true">Drag to rotate · Select a pin</p>
           <div class="amazon-heat-legend" id="amazon-legend"></div>
           <div class="zoom" aria-label="Globe zoom">
             <button type="button" data-zoom="-1" aria-label="Zoom out">−</button><button type="button" data-zoom="1" aria-label="Zoom in">+</button>
@@ -127,7 +126,7 @@ function amazonFootprint() {
       </div>
       ${amazonStatesView()}
       <footer class="amazon-map-notes">
-        <p id="amazon-map-note">Hotter colors show higher net sales. Amazon reports sales by country storefront or, for AWS, by selling entity. Site output figures are shown where disclosed in the Sites layer.</p>
+        <p id="amazon-map-note">Sales are by country storefront, or by selling entity for AWS. Other markets are grouped in Amazon’s filing.</p>
         <div id="amazon-map-source" class="amazon-map-source">${externalLink(amazonSources.annual,"2024 annual report, Note 10")}</div>
       </footer>
     </section>`;
@@ -166,8 +165,7 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
         <h4>${item.name}</h4><strong>${compactMoney(item.sales)}</strong>
         <span class="amazon-detail-share" aria-hidden="true" style="--share:${share}%;--dot:${color}"><span></span></span>
         <p>${decimal.format(share)}% of Amazon’s 2024 net sales.</p>
-        ${item.id === "other" ? "<p>Amazon reports these markets as a group in its annual report.</p>" : ""}
-        <div class="amazon-detail-actions">
+          <div class="amazon-detail-actions">
           ${item.id === "US" ? `<button type="button" class="map-scope-link" data-open-states>Explore all ${amazonStateData.length} states</button>` : ""}
           <button type="button" class="map-scope-link" data-sites-in="${item.id}">Explore sites in ${item.id === "other" ? "other markets" : "this market"}</button>
         </div>`;
@@ -224,7 +222,7 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
     if (isStates) {
       byId("amazon-layer-description").textContent = `Amazon’s economic impact across all ${amazonStateData.length} states`;
       setTakeaway();
-      note.textContent = "Dollar figures cover 2010 through December 2025. Employment figures are snapshots. GDP contribution is an estimate from Amazon’s economic-impact study with Keystone Strategy, based on U.S. Bureau of Economic Analysis methods. A plus sign indicates a rounded lower bound.";
+      note.textContent = "Dollar figures cover 2010 through December 2025; employment figures are snapshots. GDP contribution is an estimate from Amazon’s study with Keystone Strategy, using U.S. Bureau of Economic Analysis methods. A plus sign marks a rounded lower bound.";
       source.innerHTML = externalLink(amazonStateSource,"Amazon’s state investment and impact report");
       return;
     }
@@ -244,8 +242,8 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
           return `<span class="amazon-legend-item${count ? "" : " is-empty"}"><i style="--dot:${type.color}"></i>${type.label}<em>${count}</em></span>`;
         }).join("");
     note.textContent = isMarket
-      ? "Hotter colors show higher net sales. Amazon reports sales by country storefront or, for AWS, by selling entity. Other markets are grouped in its filing."
-      : "Site figures show the measure Amazon disclosed, such as shipping capacity, jobs, or an investment commitment. The figures cover different dates and scopes.";
+      ? "Sales are by country storefront, or by selling entity for AWS. Other markets are grouped in Amazon’s filing."
+      : "Each site shows the measure Amazon disclosed, such as capacity, jobs or investment; dates and scopes differ.";
     source.innerHTML = isMarket ? externalLink(amazonSources.annual,"2024 annual report, Note 10") : "";
     list.setAttribute("aria-label",isMarket ? "Markets by 2024 net sales" : scopeName ? `Selected sites in ${scopeName}` : "Selected sites");
     list.classList.toggle("is-markets",isMarket);

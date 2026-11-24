@@ -178,33 +178,31 @@ function openProfile(leader, section) {
   updateProfileNav(leader);
   byId("profile-body").innerHTML = `
     <header class="profile-title">${portrait(leader,true)}<div class="profile-heading"><p class="eyebrow">NO. ${rank} BY VALUE CREATED <span aria-hidden="true">·</span> ${escapeHtml(leader.sector.toUpperCase())}</p><h2 id="profile-title">${escapeHtml(leader.name)}</h2><p class="profile-role">${escapeHtml(leader.role)} · <strong>${escapeHtml(leader.company)}</strong> <span class="profile-ticker">${escapeHtml(leader.ticker)}</span></p></div></header>
-    <p class="profile-lede">${escapeHtml(leader.company)} employs <strong>${integer.format(leader.jobs)} people</strong>, who together earn an estimated <strong>${compactMoney(leader.payroll)} a year</strong>.</p>
     <dl class="profile-stats">${figures.map(([key,label,value,note]) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong>${value}</strong><span>${note}</span></dd></div>`).join("")}</dl>
     ${isAmazon ? '<p class="amazon-profile-links"><button type="button" id="show-amazon-map">Explore where Amazon creates value</button></p>' : ""}
     ${isAmazon ? amazonDistribution(leader) : ""}
     ${isAmazon ? amazonFootprint() : `<section class="footprint" aria-labelledby="footprint-title">
       <div class="map-pane">
-        <div class="map-heading"><p class="map-kicker">${escapeHtml(leader.company.toUpperCase())}</p><h3 id="footprint-title">Operating footprint</h3><p>Drag to rotate · Select a location</p></div>
+        <div class="map-heading"><p class="map-kicker">${escapeHtml(leader.company.toUpperCase())}</p><h3 id="footprint-title">Operating footprint</h3></div>
         <canvas id="profile-globe" tabindex="0" aria-label="${escapeHtml(leader.company)} globe. Use arrow keys to rotate and plus or minus to zoom. Location buttons are also available."></canvas>
         <div class="zoom" aria-label="Globe zoom"><button id="zoom-out" type="button" aria-label="Zoom out">−</button><button id="zoom-in" type="button" aria-label="Zoom in">+</button></div>
       </div>
       <div class="places">
         <h3>${leader.sites.length === 1 ? "Principal location" : "Selected locations"}</h3>
         <div id="place-list">${leader.sites.map(([city,,,description],index) => `<button type="button" data-place="${index}" aria-pressed="${index === 0}"><i></i><span><strong>${escapeHtml(city)}</strong><small>${escapeHtml(description)}</small></span></button>`).join("")}</div>
-        <p>Employment and estimated pay figures cover people worldwide.</p>
       </div>
     </section>`}
     <div class="profile-bottom">
-      <section class="profile-scenario" aria-labelledby="scenario-title"><h3 id="scenario-title">What workers could earn together</h3><p>Adjust the assumed yearly pay per person to see how the total changes.</p>
+      <section class="profile-scenario" aria-labelledby="scenario-title"><h3 id="scenario-title">What workers could earn together</h3>
         <div class="scenario"><span>${metrics.payroll}</span><strong id="scenario-total" aria-live="polite">${compactMoney(leader.payroll)}</strong></div>
         <label for="wage">Assumed yearly pay per person <output id="wage-label" for="wage">${dollars.format(leader.wage)}</output></label>
         <input id="wage" type="range" min="75" max="125" step="1" value="100" style="--fill:50%" aria-valuetext="${dollars.format(leader.wage)}">
         <div class="range-scale" aria-hidden="true"><span>−25%</span><span>Our estimate</span><span>+25%</span></div>
         <button class="scenario-reset" id="wage-reset" type="button" hidden>Reset to our estimate</button>
       </section>
-      <section class="profile-sources" aria-labelledby="sources-title"><h3 id="sources-title">Sources</h3><p>Employment figures are from ${escapeHtml(leader.fy)}. Value created uses the company’s market capitalization at year-end 2024.</p>
+      <section class="profile-sources" aria-labelledby="sources-title"><h3 id="sources-title">Sources</h3>
         <div class="sources">${externalLink(leader.jobsUrl,"Employment source")}${externalLink(leader.capUrl,"Company value source")}${externalLink(leader.bio,"Biography")}</div>
-        <p class="photo-credit">Portrait cropped for display. Photo: ${externalLink(leader.photo,leader.artist)} · ${externalLink(leader.licenseUrl,leader.license)}</p>
+        <p class="photo-credit">Photo (cropped): ${externalLink(leader.photo,leader.artist)} · ${externalLink(leader.licenseUrl,leader.license)}</p>
       </section>
     </div>`;
   if (!dialog.open) dialog.showModal();

@@ -94,18 +94,17 @@ function amazonDistribution(leader) {
       <header class="distribution-heading">
         <p class="eyebrow">AMAZON CASE STUDY</p>
         <h3 id="distribution-title">Who shares in the value?</h3>
-        <p>Follow Amazon’s shares, the cash it returned to shareholders, and how its workers shared in its growth.</p>
       </header>
       <div class="distribution-tabs" role="tablist" aria-label="Explore Amazon’s value">
         ${distributionViews.map(([key,label],index) => `<button id="distribution-tab-${key}" type="button" role="tab" aria-controls="distribution-${key}" aria-selected="${index === 0}" tabindex="${index === 0 ? "0" : "-1"}">${label}</button>`).join("")}
       </div>
       <div id="distribution-ownership" class="distribution-panel" role="tabpanel" aria-labelledby="distribution-tab-ownership" tabindex="0">
         <div class="distribution-subhead">
-          <div><h4>Who held Amazon shares?</h4><p>Year-end 2024 · ${equityValue(sharesOutstanding)} in total equity value, from reported shares at the year-end price. The ${compactMoney(leader.cap)} value created figure above is CompaniesMarketCap’s estimate.</p></div>
+          <div><h4>Who held Amazon shares?</h4><p>Year-end 2024 · ${equityValue(sharesOutstanding)} equity value (reported shares × year-end price). The ${compactMoney(leader.cap)} value created above is CompaniesMarketCap’s estimate.</p></div>
         </div>
         <div class="ownership-takeaway">
           <p class="ownership-headline"><span>Jeff Bezos held <strong class="is-founder">${roundPercent(founder.shares)}</strong> of Amazon directly.</span> <span>Everyone else held <strong>${roundPercent(outsideFounder)}</strong>.</span></p>
-          <p>The shares outside Bezos’s direct stake were worth <strong>${equityValue(outsideFounder)}</strong> at the year-end price. They were held by index funds, pension systems such as CalPERS, other institutions, individuals, and any employees or former employees who still hold shares.</p>
+          <p>Worth <strong>${equityValue(outsideFounder)}</strong> at the year-end price, held by index funds, pension systems such as CalPERS, other institutions, individuals, and employees or former employees who still hold shares.</p>
         </div>
         <div class="ownership-figure" aria-hidden="true">
           <span class="ownership-marker"></span>
@@ -135,9 +134,9 @@ function amazonDistribution(leader) {
             </div>`).join("")}
           </div>
         </div>
-        <p class="distribution-note"><strong>${integer.format(registeredShareholders)} registered shareholders</strong> as of January 29, 2025. A brokerage can appear as a single registered holder for many customers, so the number of people with indirect stakes is higher. ${externalLink(amazonSources.annual,"Amazon’s annual report")}</p>
-        <details class="distribution-method"><summary>How we estimated these holdings</summary>
-          <p>We multiply the reported share counts by the December 31 price of ${'$' + yearEndPrice.toFixed(2)}. Amazon reported about ${(sharesOutstanding / 1e9).toFixed(3)} billion shares outstanding at year-end. The founder’s latest 2024 Form 4 is from November, and the following proxy confirms the same stake after excluding voting-only shares. Each named fund or pension shows its reported position only. These are values at one point in time. The leaderboard’s ${compactMoney(leader.cap)} uses a separate CompaniesMarketCap estimate.</p>
+        <p class="distribution-note"><strong>${integer.format(registeredShareholders)} registered shareholders</strong> as of January 29, 2025. One brokerage can be a single registered holder for many customers, so more people hold indirect stakes. ${externalLink(amazonSources.annual,"Amazon’s annual report")}</p>
+        <details class="distribution-method"><summary>Method</summary>
+          <p>Reported share counts × the December 31 price of ${'$' + yearEndPrice.toFixed(2)}, with about ${(sharesOutstanding / 1e9).toFixed(3)} billion shares outstanding at year-end. The founder’s stake is from his November 2024 Form 4, confirmed by the following proxy after excluding voting-only shares. Each fund or pension shows its reported position only, at one point in time.</p>
           <div class="sources">${sources([[amazonSources.annual,"Shares outstanding"],[amazonSources.fiveHundred,"Year-end fund valuation"]])}</div>
         </details>
       </div>
@@ -152,19 +151,19 @@ function amazonDistribution(leader) {
           <tbody>${amazonHistory.map(row => `<tr><th scope="row">${row.year}</th><td${row.dividends === 0 ? ' class="is-zero"' : ""}>${distributionMoney(row.dividends)}</td><td${row.buybacks === 0 ? ' class="is-zero"' : ""}>${distributionMoney(row.buybacks)}</td></tr>`).join("")}</tbody>
           <tfoot><tr><th scope="row">Total</th><td>${distributionMoney(dividendsPaid)}</td><td>${distributionMoney(cashReturned - dividendsPaid)}</td></tr></tfoot>
         </table>
-        <p class="distribution-note">Buybacks pay the investors who sell shares back to Amazon. The cash flow statement reports the total spent on buybacks; who sold is generally not known. Sales between investors also turn share value into cash for the seller, and happen outside these figures.</p>
+        <p class="distribution-note">Buybacks pay whoever sells shares back to Amazon, generally unidentified. Sales between investors also turn shares into cash, outside these figures.</p>
         <div class="sources">${sources([[amazonSources.annual,"Amazon’s annual report and cash flow statement"]])}</div>
       </div>
       <div id="distribution-workers" class="distribution-panel" role="tabpanel" aria-labelledby="distribution-tab-workers" tabindex="0" hidden>
         <div class="distribution-subhead">
-          <div><h4>How did workers participate?</h4><p>Employment, estimated pay and reported stock awards</p></div>
+          <div><h4>How did workers participate?</h4></div>
         </div>
         <div class="worker-totals">
           <div><strong>${integer.format(leader.jobs)}</strong><span>People employed at year-end 2024</span></div>
           <div><strong>${distributionMoney(leader.payroll)}</strong><span>${metrics.payroll}</span></div>
           <div><strong>${distributionMoney(last.stockPay)}</strong><span>Stock-based compensation expense in 2024</span></div>
         </div>
-        <p class="distribution-note">Estimated annual pay is this site’s estimate: people employed multiplied by an assumed yearly pay. Stock-based compensation is the amount Amazon recorded as an expense. The figures have different bases, so read each one on its own. What an employee actually received depends on what vested and when they sold.</p>
+        <p class="distribution-note">Pay is our estimate (people employed × assumed yearly pay); stock-based compensation is Amazon’s recorded expense. The bases differ, and what an employee received depends on what vested and when they sold.</p>
         <div class="worker-equity-head">
           <h5 class="distribution-mini-heading">Stock-based compensation expense</h5>
           <p>${distributionMoney(totalStockPay)} over ${years}</p>
@@ -175,8 +174,8 @@ function amazonDistribution(leader) {
         <h5 class="distribution-mini-heading distribution-timeline-heading">Employee ownership over time</h5>
         <ol class="distribution-timeline" aria-label="Selected moments in Amazon’s employee equity history">
           <li><time datetime="1994">1994</time><div><h5>Stock options for early employees</h5><p>Amazon’s 1994 plan let employees and other eligible contributors share in the company’s growth through options. By May 1997, holders had exercised options covering about 1.8 million shares under that plan.</p>${externalLink(amazonSources.ipo,"IPO prospectus, employee benefit plans")}</div></li>
-          <li><time datetime="1997-05">May 1997</time><div><h5>Amazon goes public</h5><p>The IPO priced shares at $18 before later stock splits. Some early holders faced a 180-day lockup. Their eventual proceeds depended on when they could sell and what they received.</p>${externalLink(amazonSources.ipo,"IPO prospectus, shares eligible for future sale")}</div></li>
-          <li><time datetime="2024">2024</time><div><h5>${decimal.format(last.unitsVested)} million restricted stock units vested</h5><p>This is the number of units that finished vesting during the year. Company-wide totals don’t show individual employees’ holdings or what they received when they sold.</p>${externalLink(amazonSources.annual,"Amazon’s annual report, stock-based compensation")}</div></li>
+          <li><time datetime="1997-05">May 1997</time><div><h5>Amazon goes public</h5><p>The IPO priced shares at $18 before later stock splits. Some early holders faced a 180-day lockup.</p>${externalLink(amazonSources.ipo,"IPO prospectus, shares eligible for future sale")}</div></li>
+          <li><time datetime="2024">2024</time><div><h5>${decimal.format(last.unitsVested)} million restricted stock units vested</h5><p>Company-wide totals don’t show individual employees’ holdings or what they received when they sold.</p>${externalLink(amazonSources.annual,"Amazon’s annual report, stock-based compensation")}</div></li>
         </ol>
       </div>
     </section>`;

@@ -36,7 +36,6 @@
 .amazon-world canvas {display:block;width:100%;height:100%;touch-action:none;cursor:grab}
 .amazon-world canvas:active {cursor:grabbing}
 .amazon-world canvas:focus-visible {outline:2px solid var(--gold);outline-offset:-6px;border-radius:var(--radius)}
-.amazon-globe-hint {position:absolute;top:var(--space-3);left:var(--space-4);margin:0;color:var(--map-muted);font-size:12px;opacity:.75;pointer-events:none}
 .amazon-world .zoom {right:var(--space-3);bottom:var(--space-3)}
 .amazon-world .zoom button {width:34px;height:34px;color:var(--map-text);background:var(--map-2);border:1px solid var(--map-line-2);border-radius:var(--radius-sm);transition:background-color 150ms var(--ease)}
 .amazon-world .zoom button:hover {background:var(--map-3)}

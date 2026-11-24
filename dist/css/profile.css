@@ -45,8 +45,6 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
 .profile-role {margin:0;font-size:15px;color:var(--muted)}
 .profile-role strong {color:var(--ink);font-weight:650}
 .profile-ticker {display:inline-block;margin-left:var(--space-1);padding:1px 6px;border:1px solid var(--line);border-radius:var(--radius-sm);font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--muted);vertical-align:2px}
-.profile-lede {max-width:46em;margin:0 0 var(--space-5);padding-top:var(--space-4);border-top:1px solid var(--line);font:400 clamp(19px,2.1vw,23px)/1.4 var(--serif);letter-spacing:-.01em;color:var(--ink)}
-.profile-lede strong {white-space:nowrap;font-weight:400;color:var(--green);box-shadow:inset 0 -.32em 0 var(--green-soft)}
 
 /* Three stats */
 .profile-stats {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin:0 0 var(--space-5);border:1px solid var(--line);border-radius:var(--radius);background:var(--card);overflow:hidden}
@@ -65,8 +63,7 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
 .map-pane {position:relative;min-width:0;min-height:380px;background:radial-gradient(ellipse at 50% 55%,#243739,var(--map) 75%);display:flex;flex-direction:column}
 .map-heading {position:absolute;top:var(--space-5);left:var(--space-5);pointer-events:none;z-index:1}
 .map-kicker {margin:0 0 var(--space-1);font-size:11px;font-weight:750;letter-spacing:.15em;color:var(--gold)}
-.map-heading h3 {font:400 clamp(24px,2.6vw,30px)/1.1 var(--serif);letter-spacing:-.02em;margin-bottom:var(--space-1)}
-.map-heading p:last-child,.places > p {color:var(--map-text);font-size:13px;margin:0}
+.map-heading h3 {font:400 clamp(24px,2.6vw,30px)/1.1 var(--serif);letter-spacing:-.02em;margin:0}
 .map-pane canvas {display:block;width:100%;height:320px;flex:1;touch-action:none;cursor:grab}
 .map-pane canvas:active {cursor:grabbing}
 .map-pane canvas:focus-visible {outline-offset:-5px}
@@ -85,7 +82,6 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
 .places strong,.places small {display:block}
 .places strong {font-size:14px;font-weight:650}
 .places small {color:var(--map-text);font-size:13px;line-height:1.35}
-.places > p {margin:auto var(--space-2) 0;padding-top:var(--space-4);line-height:1.45}
 
 /* Slider and sources */
 .profile-bottom {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--space-5);margin-top:var(--space-5)}
@@ -117,9 +113,8 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
 
 /* Content swap when paging between leaders */
 @keyframes profile-rise {from {opacity:0;transform:translateY(6px)}}
-#profile-body > .profile-title,#profile-body > .profile-lede,#profile-body > .profile-stats {animation:profile-rise 260ms var(--ease) both}
-#profile-body > .profile-lede {animation-delay:30ms}
-#profile-body > .profile-stats {animation-delay:60ms}
+#profile-body > .profile-title,#profile-body > .profile-stats {animation:profile-rise 260ms var(--ease) both}
+#profile-body > .profile-stats {animation-delay:40ms}
 
 @media (max-width:760px) {
   dialog {width:calc(100vw - 16px);max-height:calc(100dvh - 16px)}
@@ -143,7 +138,6 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
   .profile-title {align-items:flex-start}
   .profile-title .portrait {width:72px;height:72px}
   .profile-title h2 {font-size:clamp(32px,9vw,38px)}
-  .profile-lede {font-size:18px}
   .profile-stats {grid-template-columns:minmax(0,1fr)}
   .profile-stats > div {display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:var(--space-3);border-left:0;border-top:1px solid var(--line)}
   .profile-stats > div:first-child {border-top:0}
@@ -158,6 +152,6 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
 }
 @media (prefers-reduced-motion:reduce) {
   dialog,dialog::backdrop,.profile-step,.close,.zoom button,.places button {transition:none}
-  #profile-body > *,#profile-body > .profile-title,#profile-body > .profile-lede,#profile-body > .profile-stats {animation:none}
+  #profile-body > *,#profile-body > .profile-title,#profile-body > .profile-stats {animation:none}
   .profile-bottom input[type=range]::-webkit-slider-thumb {transition:none}
 }
