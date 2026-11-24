@@ -52,22 +52,27 @@
 </div></div>
 <section class="wrap ranking" id="ranking">
 <div class="section-head">
-<div><p class="eyebrow">THE BUSINESS 100</p><h2>The ranking</h2><p>Choose any leader to see their figures and explore company locations on a globe.</p></div>
-<a class="case-link" href="#leader/jeff-bezos/distribution"><span>AMAZON CASE STUDY</span>Who shares in the value?</a>
+<div><p class="eyebrow">THE BUSINESS 100</p><h2>The ranking</h2><p>Rank the list by value created, people employed or estimated pay. Choose any leader to see their figures and where their company operates.</p></div>
+<a class="case-link" href="#leader/jeff-bezos/distribution"><span class="case-kicker">AMAZON CASE STUDY</span><span class="case-title">Who shares in the value?</span><span class="case-cta">Read the case study <span aria-hidden="true">→</span></span></a>
 </div>
 <div class="toolbar">
-<label class="search"><span aria-hidden="true">⌕</span><input id="query" type="search" placeholder="Search leaders or companies" aria-label="Search leaders or companies"></label>
-<div class="filter-group">
-<label class="sort">Industry <select id="sector"><option value="">All industries</option></select></label>
-<label class="sort">Rank by <select id="sort"><option value="cap">Value created</option><option value="jobs">People employed</option><option value="payroll">Estimated annual pay to workers</option></select></label>
+<label class="search"><svg aria-hidden="true" viewBox="0 0 20 20" width="18" height="18"><circle cx="8.5" cy="8.5" r="5.75" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m13 13 4.5 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><input id="query" type="search" placeholder="Search leaders, companies or tickers" aria-label="Search leaders, companies or tickers" autocomplete="off" spellcheck="false"></label>
+<label class="industry"><span>Industry</span><select id="sector"><option value="">All industries</option></select></label>
+<fieldset class="rank-by" id="sort">
+<legend>Rank by</legend>
+<div class="segments">
+<label><input type="radio" name="sort" value="cap" checked><span>Value created</span></label>
+<label><input type="radio" name="sort" value="jobs"><span>People employed</span></label>
+<label><input type="radio" name="sort" value="payroll"><span>Pay to workers</span></label>
 </div>
+</fieldset>
 </div>
 <div class="table-meta"><p id="result-count" aria-live="polite"></p><span>Figures in USD</span></div>
 <div class="table-shell">
-<table><thead><tr><th scope="col">Rank</th><th scope="col">Leader / Company</th><th scope="col" data-col="cap">Value created</th><th scope="col" data-col="jobs">People employed</th><th scope="col" data-col="payroll">Estimated annual pay to workers</th></tr></thead><tbody id="rows"></tbody></table>
-<p id="empty" hidden>No leaders match those filters.</p>
+<table><caption class="visually-hidden">The Business 100, ranked by the selected measure</caption><thead><tr><th scope="col" class="col-rank">Rank</th><th scope="col" class="col-leader">Leader / Company</th><th scope="col" data-col="cap"><button type="button" data-sort="cap">Value created</button></th><th scope="col" data-col="jobs"><button type="button" data-sort="jobs">People employed</button></th><th scope="col" data-col="payroll"><button type="button" data-sort="payroll">Estimated annual pay to workers</button></th></tr></thead><tbody id="rows"></tbody></table>
+<div id="empty" class="empty" hidden><p class="empty-title">No leaders match</p><p id="empty-detail">Try another name, company or industry.</p><button type="button" id="clear-filters">Clear search and filters</button></div>
 </div>
-<p class="table-note">Value created uses year-end 2024 company equity values. Employment and estimated pay cover people employed directly around the world.</p>
+<p class="table-note">Value created uses each company’s market capitalization at year-end 2024. Employment and estimated pay cover people employed directly around the world. Bars compare each figure with the leader ranked first on the selected measure.</p>
 </section>
 <section class="story" id="story" aria-labelledby="story-title"><div class="wrap">
 <header class="story-head">

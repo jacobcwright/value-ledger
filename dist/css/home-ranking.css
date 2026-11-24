@@ -1,19 +1,6 @@
-.ranking {padding-block:57px 62px}
-.section-head {display:flex;align-items:flex-end;justify-content:space-between;gap:20px}
-.section-head p:not(.eyebrow) {color:var(--muted);margin-bottom:0}
-.toolbar {display:flex;justify-content:space-between;gap:14px;margin:26px 0 10px}
-.filter-group {display:flex;gap:16px}
-.search,.sort {min-height:44px;display:flex;align-items:center;font-size:14px;color:var(--muted)}
-.search {width:min(100%,325px);gap:9px;border:1px solid var(--line);background:#fffdf8;padding:0 11px}
-.search span {font-size:24px;line-height:1}
-.search input {background:none;color:var(--ink);border:0;min-width:0;width:100%;height:41px}
-.search:focus-within {outline:2px solid #b0563d;outline-offset:1px}
-.search input:focus-visible {outline:0}
-.sort {gap:9px;white-space:nowrap}
-.sort select {appearance:none;border:1px solid var(--line);border-radius:0;padding:10px 28px 10px 9px;background:#fffdf8 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' viewBox='0 0 12 8'%3E%3Cpath stroke='%23625953' stroke-width='1.5' d='m1 1 5 5 5-5'/%3E%3C/svg%3E") no-repeat right 9px center;color:var(--ink)}
-.table-meta {display:flex;justify-content:space-between;font-size:13px;color:var(--muted);padding:4px 0 8px}
-.table-meta p {margin:0}
-.table-shell {border-top:2px solid var(--ink);border-bottom:1px solid var(--line);background:#fffdf8;overflow:hidden}
+/* Shared table defaults. The Amazon .distribution-table in the profile still
+   inherits these, so they stay global; everything for the ranking is scoped
+   under .ranking below. */
 table {width:100%;border-collapse:collapse;text-align:right;font-size:16px}
 th {background:#eee7dc;color:#564a43;font-weight:700;font-size:13px;line-height:1.3}
 th,td {padding:12px 16px}
@@ -22,34 +9,172 @@ th:nth-child(2),td:nth-child(2) {text-align:left}
 tbody tr {border-top:1px solid #e8dfd4;cursor:pointer}
 tbody tr:nth-child(even) {background:#fcf8f0}
 tbody tr:hover,tbody tr:focus-within {background:#f3e9dc}
-.leader {display:inline-flex;align-items:center;gap:12px;text-decoration:none;white-space:normal}
-.leader .portrait {width:48px;height:48px;flex:none}
-.leader strong {display:block;font:700 22px/1.06 var(--serif);letter-spacing:-.035em}
-.leader:hover strong {color:var(--red)}
-.leader small {font-size:14px;color:var(--muted)}
-.ticker {color:#6c5d52}
-.rank {color:#7a6052;font-weight:650;font-size:14px;font-variant-numeric:tabular-nums}
-.number {font-variant-numeric:tabular-nums;white-space:nowrap}
-.active-col {font-weight:750;color:var(--red-dark);background:#ead7ce}
-td.active-col {background:#9d271f09}
-.table-note {font-size:13px;color:var(--muted);margin:13px 0 0}
-#empty {text-align:center;margin:0;padding:24px}
 @media (max-width:1000px) {
   th,td {padding-inline:10px}
-  .ticker {display:none}
+}
+
+/* ---------- The ranking ---------- */
+.ranking {
+  /* Local tokens for this section */
+  --rank-rule:#e8dfd4;                                   /* hairline between rows */
+  --rank-hover:color-mix(in srgb,var(--paper-2) 55%,var(--card));
+  --rank-active:color-mix(in srgb,var(--red) 4%,transparent);
+  --rank-track:color-mix(in srgb,var(--red) 12%,var(--card));
+  --rank-focus:#b0563d;                                  /* matches base :focus-visible */
+  padding-block:var(--space-8) 62px;
+}
+.ranking .visually-hidden {position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+
+/* Section head. The .ranking prefix outranks older .case-link rules that
+   still live in amazon-distribution.css (loaded later). */
+.ranking .section-head {display:flex;align-items:flex-end;justify-content:space-between;gap:var(--space-6)}
+.ranking .section-head > div {max-width:620px}
+.ranking .section-head p:not(.eyebrow) {color:var(--muted);margin-bottom:0;font-size:17px;line-height:1.55}
+.ranking .case-link {flex:none;display:flex;flex-direction:column;gap:2px;width:320px;max-width:100%;padding:var(--space-4) var(--space-5) var(--space-4) 20px;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--red);border-radius:var(--radius);box-shadow:var(--shadow-1);font:inherit;text-decoration:none;transition:box-shadow .2s var(--ease),transform .2s var(--ease)}
+.ranking .case-link .case-kicker {font:750 12px/1.3 var(--sans);letter-spacing:.15em;color:var(--red)}
+.ranking .case-link .case-title {font:700 23px/1.15 var(--serif);letter-spacing:-.03em;color:var(--ink)}
+.ranking .case-link .case-cta {margin-top:6px;font:650 14px/1.3 var(--sans);letter-spacing:0;color:var(--muted)}
+.ranking .case-link .case-cta span {display:inline-block;font:inherit;color:inherit;transition:transform .2s var(--ease)}
+.ranking .case-link:hover {text-decoration:none;box-shadow:var(--shadow-2);transform:translateY(-1px)}
+.ranking .case-link:hover .case-cta {color:var(--red)}
+.ranking .case-link:hover .case-cta span {transform:translateX(3px)}
+
+/* Toolbar */
+.toolbar {display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-3) var(--space-4);margin:var(--space-6) 0 var(--space-3)}
+.search {flex:1 1 260px;max-width:340px;min-height:44px;display:flex;align-items:center;gap:var(--space-2);padding:0 var(--space-3);border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--card);color:var(--muted);transition:border-color .15s var(--ease)}
+.search svg {flex:none}
+.search input {flex:1;min-width:0;height:42px;border:0;background:none;color:var(--ink);font-size:15px}
+.search input::placeholder {color:#7d726b}
+.search:hover {border-color:#cbbfb1}
+.search:focus-within {border-color:var(--ink);outline:2px solid var(--rank-focus);outline-offset:1px}
+.search input:focus-visible {outline:0}
+.search input::-webkit-search-cancel-button {appearance:none;width:16px;height:16px;cursor:pointer;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23625953' stroke-width='1.6' stroke-linecap='round' d='m4 4 8 8M12 4l-8 8'/%3E%3C/svg%3E") center/16px no-repeat}
+.industry {display:flex;align-items:center;gap:var(--space-2);font-size:14px;color:var(--muted);white-space:nowrap}
+.industry select {appearance:none;min-height:44px;padding:0 34px 0 var(--space-3);border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' viewBox='0 0 12 8'%3E%3Cpath stroke='%23625953' stroke-width='1.5' d='m1 1 5 5 5-5'/%3E%3C/svg%3E") no-repeat right 12px center;color:var(--ink);font-size:15px;cursor:pointer}
+.industry select:hover {border-color:#cbbfb1}
+.rank-by {display:flex;align-items:center;gap:var(--space-2);margin:0 0 0 auto;padding:0;border:0;min-width:0}
+.rank-by legend {float:left;padding:0;margin-right:var(--space-2);font-size:14px;color:var(--muted);white-space:nowrap}
+.segments {display:flex;padding:3px;gap:2px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--card)}
+.segments label {position:relative;display:flex;flex:1 1 auto}
+.segments input {position:absolute;inset:0;opacity:0;margin:0;cursor:pointer}
+.segments span {display:flex;align-items:center;justify-content:center;min-height:36px;padding:0 14px;border-radius:2px;font-size:14px;font-weight:650;color:var(--muted);text-align:center;line-height:1.15;white-space:nowrap;transition:background-color .15s var(--ease),color .15s var(--ease)}
+.segments label:hover span {color:var(--ink);background:var(--paper-2)}
+.segments input:checked + span {background:var(--red);color:#fffaf2}
+.segments input:focus-visible + span {outline:3px solid var(--rank-focus);outline-offset:2px}
+
+.table-meta {display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-4);padding:var(--space-1) 0 var(--space-2);font-size:14px;color:var(--muted)}
+.table-meta p {margin:0}
+.table-meta strong {color:var(--ink);font-variant-numeric:tabular-nums}
+.table-meta span {font-size:12px;font-weight:650;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
+
+/* Table */
+.table-shell {border-top:2px solid var(--ink);border-bottom:1px solid var(--line);background:var(--card);overflow:clip}
+.ranking table {table-layout:fixed;font-size:16px}
+.ranking th, .ranking td {padding:12px 16px}
+.ranking .col-rank {width:76px}
+.ranking th[data-col] {width:17%}
+.ranking th[data-col="payroll"] {width:19%}
+.ranking thead th {position:sticky;top:0;z-index:2;background:var(--paper-2);color:#564a43;font-size:13px;font-weight:700;line-height:1.3;vertical-align:bottom;box-shadow:inset 0 -1px 0 var(--line)}
+.ranking thead th[data-col] {padding:0}
+.ranking th button {display:flex;align-items:flex-end;justify-content:flex-end;gap:6px;width:100%;min-height:100%;padding:12px 16px;border:0;background:none;color:inherit;font:inherit;text-align:right;cursor:pointer}
+.ranking th button::after {content:"";flex:none;width:0;height:0;margin-bottom:5px;border:4.5px solid transparent;border-top:5px solid currentColor;border-bottom:0;opacity:0;transition:opacity .15s var(--ease)}
+.ranking th button:hover {color:var(--ink)}
+.ranking th button:hover::after {opacity:.35}
+.ranking th button:focus-visible {outline-offset:-3px}
+.ranking thead th.active-col {color:var(--red-dark);background:color-mix(in srgb,var(--red) 7%,var(--paper-2));box-shadow:inset 0 -2px 0 var(--red)}
+.ranking th.active-col button::after {opacity:1}
+
+.ranking tbody tr {border-top:1px solid var(--rank-rule);background:none;transition:background-color .15s var(--ease)}
+.ranking tbody tr:first-child {border-top:0}
+.ranking tbody tr:hover, .ranking tbody tr:focus-within {background:var(--rank-hover)}
+.ranking td {vertical-align:middle}
+.ranking td.rank {font:400 26px/1 var(--serif);color:#7a6052;letter-spacing:-.03em;font-variant-numeric:lining-nums tabular-nums}
+.ranking tr.podium td.rank {color:var(--red);font-weight:700}
+
+.leader {display:flex;align-items:center;gap:14px;min-width:0;text-decoration:none}
+.leader .portrait {width:48px;height:48px;flex:none;border-radius:var(--radius-sm);filter:grayscale(1) sepia(.16);transition:filter .2s var(--ease)}
+.ranking tr:hover .portrait, .ranking tr:focus-within .portrait {filter:none}
+.leader-text {min-width:0}
+.leader strong {display:block;font:700 21px/1.1 var(--serif);letter-spacing:-.03em;transition:color .15s var(--ease)}
+.ranking tr:hover .leader strong {color:var(--red)}
+.leader small {display:flex;flex-wrap:wrap;align-items:baseline;column-gap:0;margin-top:3px;font-size:14px;line-height:1.35;color:var(--muted)}
+.leader small > span + span::before {content:"·";padding-inline:6px;color:#b3a698}
+.leader .ticker {font-size:12px;font-weight:650;letter-spacing:.06em;color:#6c5d52}
+.leader .sector {font-size:13px}
+@supports selector(:has(a)) {
+  .ranking tbody tr:has(.leader:focus-visible) {outline:3px solid var(--rank-focus);outline-offset:-3px}
+  .leader:focus-visible {outline:0}
+}
+
+.ranking td.number {font-variant-numeric:tabular-nums;white-space:nowrap;color:#4a403b}
+.ranking td.active-col {background:var(--rank-active);color:var(--ink)}
+.ranking td.active-col .figure {font-weight:750;font-size:17px}
+.ranking .figure {display:block}
+.ranking .bar {display:block;width:100%;max-width:150px;height:4px;margin:7px 0 0 auto;border-radius:2px;background:var(--rank-track);overflow:hidden}
+.ranking .bar i {display:block;height:100%;border-radius:inherit;background:var(--red)}
+
+/* Empty state */
+.empty {padding:var(--space-7) var(--space-5);text-align:center}
+.empty p {margin:0 auto;max-width:420px;color:var(--muted)}
+.empty .empty-title {margin-bottom:6px;font:400 30px/1.1 var(--serif);letter-spacing:-.04em;color:var(--ink)}
+.empty button {margin-top:var(--space-4);min-height:40px;padding:0 var(--space-4);border:1px solid var(--ink);border-radius:var(--radius-sm);background:none;color:var(--ink);font-size:14px;font-weight:650;transition:background-color .15s var(--ease),color .15s var(--ease)}
+.empty button:hover {background:var(--ink);color:var(--card)}
+
+.table-note {max-width:760px;margin:var(--space-3) 0 0;font-size:13px;color:var(--muted)}
+
+@media (max-width:1100px) {
+  .leader .sector {display:none}
+}
+@media (max-width:1000px) {
+  .ranking th, .ranking td {padding-inline:10px}
+  .ranking th button {padding-inline:10px}
+  .ranking .col-rank {width:56px}
+  .ranking td.rank {font-size:22px}
+  .ranking th[data-col], .ranking th[data-col="payroll"] {width:19%}
+  .leader {gap:10px}
+  .leader .portrait {width:44px;height:44px}
+  .leader strong {font-size:19px}
+  .leader .ticker {display:none}
+  .rank-by {margin-left:0}
 }
 @media (max-width:760px) {
-  .ranking {padding-block:40px}
-  .toolbar {margin-top:18px;flex-wrap:wrap;gap:8px}
-  .search {width:100%}
-  .filter-group {flex:1;justify-content:space-between;flex-wrap:wrap;gap:4px 10px}
-  .table-shell {background:none}
-  table,tbody {display:block}
-  thead {position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
-  tbody tr {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-bottom:1px solid var(--line);border-top:0;background:#fffdf8;padding:7px}
-  tbody td {display:flex;align-items:center;padding:5px;text-align:left}
-  tbody td.rank {grid-column:1;width:auto;grid-row:1;pointer-events:none;z-index:1;padding-left:5px}
-  tbody td:nth-child(2) {grid-column:1/-1;grid-row:1;padding-left:34px}
-  tbody .number {min-width:0;align-items:flex-start;flex-direction:column;gap:3px}
-  tbody .number::before {content:attr(data-label);color:var(--muted);font-size:12px;white-space:normal;line-height:1.14;font-weight:500}
+  .ranking {padding-block:var(--space-7) 40px}
+  .ranking .section-head, .ranking .section-head:has(.case-link) {flex-direction:column;align-items:stretch;gap:var(--space-5)}
+  .ranking .section-head p:not(.eyebrow) {font-size:16px}
+  .ranking .case-link {width:auto}
+  .ranking .case-link .case-title {font-size:21px}
+  .toolbar {margin-top:var(--space-5);gap:var(--space-2)}
+  .search {flex-basis:100%;max-width:none}
+  .industry {flex:1 1 100%}
+  .industry select {flex:1}
+  .rank-by {flex:1 1 100%;flex-wrap:wrap;gap:6px}
+  .rank-by legend {float:none;width:100%;margin:var(--space-2) 0 0}
+  .segments {flex:1}
+  .segments span {flex:1;padding:6px 8px;min-height:40px;white-space:normal;font-size:13px}
+  .table-meta {padding-top:var(--space-2)}
+
+  .table-shell {background:none;overflow:visible}
+  .ranking table, .ranking tbody {display:block}
+  .ranking thead {position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+  .ranking tbody tr {display:grid;grid-template-columns:34px minmax(0,1fr) minmax(0,1fr);column-gap:var(--space-3);row-gap:var(--space-2);padding:var(--space-4) var(--space-1) var(--space-4) 0;border-top:0;border-bottom:1px solid var(--rank-rule);background:none}
+  .ranking tbody tr:hover, .ranking tbody tr:focus-within {background:var(--rank-hover)}
+  .ranking tbody td {display:block;width:auto;padding:0;text-align:left}
+  .ranking td.rank {grid-column:1;grid-row:1 / span 3;padding-top:12px;text-align:center;font-size:22px}
+  .ranking td.leader-cell {grid-column:2 / -1;grid-row:1}
+  .ranking td.number {grid-row:3;white-space:normal;font-size:15px}
+  .ranking td.number::before {content:attr(data-label);display:block;margin-bottom:2px;color:var(--muted);font-size:12px;line-height:1.2;font-weight:500}
+  .ranking td.active-col {grid-column:2 / -1;grid-row:2;display:grid;grid-template-columns:1fr auto;align-items:baseline;column-gap:var(--space-3);padding:10px 12px;border-radius:var(--radius-sm)}
+  .ranking td.active-col::before {margin:0;font-size:13px;font-weight:650;color:var(--red-dark)}
+  .ranking td.active-col .figure {font:700 20px/1.1 var(--serif);letter-spacing:-.02em}
+  .ranking td.active-col .bar {grid-column:1 / -1;max-width:none;margin:8px 0 0}
+  .leader .portrait {width:48px;height:48px}
+  .leader strong {font-size:20px}
+  .leader .ticker {display:inline}
+}
+@media (max-width:415px) {
+  .segments span {font-size:12.5px;padding-inline:6px}
+}
+@media (prefers-reduced-motion:reduce) {
+  .ranking .case-link, .ranking .case-link .case-cta span, .search, .segments span, .ranking tbody tr, .leader .portrait, .leader strong, .ranking th button::after, .empty button {transition:none}
+  .ranking .case-link:hover {transform:none}
 }
