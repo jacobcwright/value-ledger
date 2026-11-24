@@ -1,149 +1,150 @@
 {
   "id": "wang-chuanfu",
   "company": "BYD Company Limited",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "CNY",
   "unit": "billions",
-
   "ownership": {
     "basis": "economic",
-    "asOf": "2024-12-31",
+    "asOf": "2025-12-31",
     "leader": {
       "name": "Wang Chuan-fu",
       "relation": "co-founder",
       "status": "holds",
       "pctEconomic": null,
       "pctVoting": null,
-      "shares": 514623850,
+      "shares": 1543871550,
       "derived": {
-        "pctEconomic": 17.69,
-        "method": "(513,623,850 A shares + 1,000,000 H shares) / 2,909,265,855 total issued shares at 31 December 2024. Computed, not stated as one figure: the report states the two holdings separately as 17.65% and 0.03% of total issued share capital. Excludes the 3,727,700 A shares held through the E Fund BYD No.1 Assets Management Plan, which the report also leaves out of the 513,623,850.",
+        "pctEconomic": 16.93,
+        "method": "(1,540,871,550 A shares + 3,000,000 H shares) / 9,117,197,565 total issued shares at 31 December 2025. Computed, not stated as one figure: the report states the two holdings separately as 16.90% and 0.03% of total issued share capital. Excludes the 11,183,100 A shares held through the E Fund BYD No. 1 Assets Management Plan, which the report also leaves out of the 1,540,871,550.",
         "inputs": [
           {
             "hostType": "exchange",
-            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
-            "label": "BYD 2024 annual results announcement (full text of the 2024 Annual Report), Report of the Directors, Directors' interests (PDF p. 103)",
-            "quote": "Wang Chuan-fu 王傳福 513,623,850 (L) 28.36% 17.65% ... Wang Chuan-fu 王傳福 1,000,000 (L) 0.09% 0.03% [A shares; H shares; % of class, % of total issued share capital]"
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032703008.pdf",
+            "label": "BYD 2025 Annual Report, Report of the Directors, Directors' interests",
+            "quote": "Wang Chuan-fu (Director and President) 1,540,871,550 (L) 28.36% 16.90% ... Wang Chuan-fu (Director and President) 3,000,000 (L) 0.08% 0.03% [A shares; H shares; % of class, % of total issued share capital]"
           },
           {
             "hostType": "exchange",
-            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
-            "label": "BYD 2024 annual results announcement, Report of the Directors, share capital (PDF p. 106)",
-            "quote": "The total issued share capital of the Company as at 31 December 2024 was RMB2,909,265,855, divided into 1,811,265,855 A shares of RMB1.00 each and 1,098,000,000 H shares of RMB1.00 each, all fully paid up."
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032703008.pdf",
+            "label": "BYD 2025 Annual Report, Report of the Directors, share capital",
+            "quote": "The total issued share capital of the Company as at 31 December 2025 was RMB9,117,197,565, divided into 5,433,797,565 A shares of RMB1.00 each and 3,683,400,000 H shares of RMB1.00 each, all fully paid up."
           }
         ]
       },
       "family": null,
       "source": {
         "hostType": "exchange",
-        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
-        "label": "BYD 2024 annual results announcement (full text of the 2024 Annual Report), Report of the Directors, Directors' interests (PDF p. 103)",
-        "quote": "Wang Chuan-fu 王傳福 513,623,850 (L) 28.36% 17.65% (Director and President) ... Wang Chuan-fu 王傳福 1,000,000 (L) 0.09% 0.03% ... 1. The 513,623,850 A shares did not include the 3,727,700 A shares held by Mr. Wang Chuan-fu in No.1 Assets Management Plan through E Fund BYD;"
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032703008.pdf",
+        "label": "BYD 2025 Annual Report, Report of the Directors, Directors' interests",
+        "quote": "Wang Chuan-fu (Director and President) 1,540,871,550 (L) 28.36% 16.90% ... Wang Chuan-fu (Director and President) 3,000,000 (L) 0.08% 0.03% ... The 1,540,871,550 A shares did not include the 11,183,100 ... A shares held by Mr. Wang Chuan-fu in No. 1 Assets"
       }
     },
     "largestHolders": [
       {
         "name": "Lv Xiang-yang (non-executive director), including Youngy Investment Holding Group",
         "type": "other",
-        "pctEconomic": 13.56,
-        "asOf": "2024-12-31",
+        "pctEconomic": 12.98,
+        "asOf": "2025-12-31",
         "source": {
           "hostType": "exchange",
-          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
-          "label": "BYD 2024 annual results announcement, Report of the Directors, Directors' interests (PDF p. 103)",
-          "quote": "Lv Xiang-yang (Director) 呂向陽（董事） 394,378,222 (L) 21.77% 13.56% ... Of the 394,378,222 A shares, 239,228,620 A shares were held by Mr. Lv Xiang-yang in his personal capacity and 155,149,602 A shares were held by Youngy Investment Holding Group Co., Ltd."
-        }
-      },
-      {
-        "name": "Xia Zuo-quan (non-executive director)",
-        "type": "other",
-        "pctEconomic": 2.84,
-        "asOf": "2024-12-31",
-        "source": {
-          "hostType": "exchange",
-          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
-          "label": "BYD 2024 annual results announcement, Report of the Directors, Directors' interests (PDF p. 103)",
-          "quote": "Xia Zuo-quan (Director) 夏佐全（董事） 82,635,607 (L) 4.56% 2.84% [A shares; % of class, % of total issued share capital]"
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032703008.pdf",
+          "label": "BYD 2025 Annual Report, Report of the Directors, Directors' interests",
+          "quote": "Lv Xiang-yang (Director) 1,183,134,666 (L) 21.77% 12.98% ... Of the 1,183,134,666 A shares, 717,685,860A shares were held ... by Mr. Lv Xiang-yang in his personal capacity and 465,448,806"
         }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 2.58,
-        "asOf": "2024-12-31",
+        "pctEconomic": 2.79,
+        "asOf": "2025-12-31",
         "source": {
           "hostType": "exchange",
-          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
-          "label": "BYD 2024 annual results announcement, Report of the Directors, shareholders with notifiable interests, H shares (PDF p. 106)",
-          "quote": "BlackRock, Inc. BlackRock, Inc. 75,095,727 (L) 6.84% 2.58% [H shares; % of H shares, % of total issued share capital]"
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032703008.pdf",
+          "label": "BYD 2025 Annual Report, Report of the Directors, shareholders with notifiable interests, H shares",
+          "quote": "BlackRock, Inc. (Note 1) ... 254,449,346 (L) 6.91% 2.79% [H shares; % of H shares, % of total issued share capital]"
+        }
+      },
+      {
+        "name": "Xia Zuo-quan (non-executive director)",
+        "type": "other",
+        "pctEconomic": 2.72,
+        "asOf": "2025-12-31",
+        "source": {
+          "hostType": "exchange",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032703008.pdf",
+          "label": "BYD 2025 Annual Report, Report of the Directors, Directors' interests",
+          "quote": "Xia Zuo-quan (Director) 247,906,821 (L) 4.56% 2.72% [A shares; % of class, % of total issued share capital]"
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of ordinary shares of RMB1.00 each, listed as A shares in Shenzhen (62.26%) and H shares in Hong Kong (37.74%); no weighted voting rights are described. The report calls Wang Chuan-fu 'the controlling shareholder of the Group', but his disclosed interest is about 17.7% of issued shares, so no holder has more than 50% of votes. Lv Xiang-yang's 13.56% includes the 155,149,602 A shares (5.33%) held by Youngy Investment, which is therefore not listed separately."
+      "note": "One class of ordinary shares of RMB1.00 each, listed as A shares in Shenzhen (5,433,797,565, 59.6%) and H shares in Hong Kong (3,683,400,000, 40.4%) at 31 December 2025; no weighted voting rights are described. Wang Chuan-fu's disclosed interest is about 16.9% of issued shares, so no holder has more than 50% of votes. Lv Xiang-yang's 12.98% includes the 465,448,806 A shares (5.11%) held by Youngy Investment, which is therefore not listed separately."
     }
   },
-
   "cash": {
     "dividends": {
-      "value": 9.01,
+      "value": 12.08,
       "source": {
         "hostType": "exchange",
-        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
-        "label": "BYD 2024 annual results announcement, Note V.43 Retained profits (PDF p. 276)",
-        "quote": "Cash dividend payable for ordinary shares 支付普通股現金股利 9,012,493 3,324,525 [RMB'000, 2024 and 2023]"
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032703008.pdf",
+        "label": "BYD 2025 Annual Report, consolidated statement of changes in shareholders' equity, profit distribution (RMB'000)",
+        "quote": "Distribution to other equity instruments ... 2,431,253 ... (14,508,500) (12,077,247) (438,210) (12,515,457) [columns include share capital, retained profits, total attributable to shareholders of the parent, minority interests, total; 2025]"
       }
     },
     "buybacks": {
-      "value": 0.40,
+      "value": 3.99,
       "source": {
         "hostType": "exchange",
-        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
-        "label": "BYD 2024 annual results announcement, Note V.60 Notes to cash flow statement, cash paid for other financing activities (PDF p. 293)",
-        "quote": "Repurchase of ordinary shares 回購普通股 400,028 – [RMB'000, 2024 and 2023]"
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032703008.pdf",
+        "label": "BYD 2025 Annual Report, Note V.61 Notes to cash flow statement, cash paid for other financing activities (RMB'000)",
+        "quote": "Repurchase payments of minority interests 3,622,378 2,863,844 ... Increase of treasury stock 3,985,206 400,028 ... Payment of lease liabilities 2,698,677 2,570,565 [2025, 2024]"
       }
     }
   },
-
   "workers": {
     "stockComp": {
-      "value": 0.40,
+      "value": 0.91,
       "source": {
         "hostType": "exchange",
-        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
-        "label": "BYD 2024 annual results announcement, Note XIII.3 Share-based payments incurred during the year (PDF p. 342)",
-        "quote": "The share-based payments incurred during the year ... Equity-settled share-based payments ... Research personnel 179,543 Management personnel 121,769 Sales personnel 38,345 Manufacturing and other personnel 60,747 Total 合計 400,404 [RMB'000]"
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032703008.pdf",
+        "label": "BYD 2025 Annual Report, Note XIII.3 Share-based payments incurred during the year (RMB'000)",
+        "quote": "The share-based payments incurred during the year ... Research personnel 395,229 ... Management personnel 248,378 ... Sales personnel 85,953 ... Manufacturing and other personnel 182,421 ... Total 911,981"
       }
     },
     "plan": {
-      "text": "BYD's 2022 employee share ownership plan gave repurchased A shares free of charge to up to 12,000 managers and core employees.",
+      "text": "BYD's 2025 employee share ownership plan, approved in April 2025, covers up to 25,000 middle managers and core employees, using A shares bought in the market and funded partly by a company incentive fund.",
       "source": {
         "hostType": "exchange",
-        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
-        "label": "BYD 2024 annual results announcement, Management Discussion and Analysis, 2022 Employee Share Ownership Plan (PDF p. 50)",
-        "quote": "The total number of participants of the 2022 Employee Share Ownership Plan shall not exceed 12,000 persons. ... The transfer price is RMB0 per share, and the participants do not need to make payments."
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032703008.pdf",
+        "label": "BYD 2025 Annual Report, Report of the Directors, 2025 Employee Share Ownership Plan",
+        "quote": "The total number of participants shall ... not exceed 25,000 persons. ... The sources ... of funds shall be the incentive fund withdrawn by the Group, the ... legitimate remuneration of employees"
       }
     }
   },
-
   "geography": {
     "basis": "Operating revenue by location of customers",
     "segments": [
-      { "name": "PRC (including Hong Kong, Macau and Taiwan)", "value": 555.22 },
-      { "name": "Overseas", "value": 221.88 }
+      {
+        "name": "PRC (including Hong Kong, Macau and Taiwan)",
+        "value": 493.22
+      },
+      {
+        "name": "Overseas",
+        "value": 310.74
+      }
     ],
-    "total": 777.10,
+    "total": 803.96,
     "source": {
       "hostType": "exchange",
-      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
-      "label": "BYD 2024 annual results announcement, Note XVI.1 Segment reporting, geographical information (PDF p. 353)",
-      "quote": "Geographical information ... Operating revenue ... PRC (including Hong Kong, Macau and Taiwan) 555,217,682 442,093,854 Overseas 境外 221,884,773 160,221,500 Total 合計 777,102,455 602,315,354 ... Revenue from external trading is attributed to the location of customers. [RMB'000]"
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032703008.pdf",
+      "label": "BYD 2025 Annual Report, Note XVI Other significant matters, segment reporting, geographical information (RMB'000)",
+      "quote": "Geographical information ... Operating revenue ... PRC (including Hong Kong, ... 493,223,970 555,217,682 ... Overseas 310,740,988 221,884,773 ... Total 803,964,958 777,102,455 ... Revenue from external trading is attributed to the ... location of customers. [2025, 2024]"
     }
   },
-
-  "notes": "No SEC filings. All figures come from BYD's 2024 annual results announcement on HKEXnews (24 March 2025), which states that it contains 'the full text of the 2024 Annual Report'. The report is bilingual and prepared under PRC Accounting Standards for Business Enterprises, in RMB'000 (ISO CNY). OWNERSHIP is as at 31 December 2024 from the SFO Part XV registers. The report gives Wang Chuan-fu's A-share and H-share holdings separately as 17.65% and 0.03% of total issued share capital, so leader.derived combines them (17.69%); pctEconomic is null because no single total is stated. The 3,727,700 A shares he holds through the E Fund BYD No.1 asset management plan are excluded, as in the report's own figure. No family total is disclosed. Xia Zuo-quan also holds 500,000 H shares (0.02%) not included in his 2.84%. Citigroup's 2.32% H-share long position (mostly a 2.13% lending pool) is not listed. HKSCC Nominees is not used. A 129,800,000 H-share placing in March 2025 diluted all holders after the period. DIVIDENDS: the cash-flow line 'Cash payments for distribution of dividends, profits or interest expenses' (RMB 10,051,081k) mixes dividends, interest and RMB 415,066k paid to minority shareholders, so it is not used. The figure is the retained-profits note line for cash dividends on ordinary shares in 2024 (RMB 9,012,493k; Chinese text 支付普通股現金股利, 'ordinary share cash dividends paid'); the equity statement shows the same 9,012,493 as 'Distribution to shareholders'. It is a note figure, not a cash-flow line. BUYBACKS: RMB 400,028k of A shares repurchased and cancelled. This excludes RMB 2,863,844k 'Repurchase right on Shareholders' investment', which Note V.36 (other non-current liabilities) describes as BYD's obligation to repurchase equity in its subsidiary BYD Semiconductor from strategic investors, not a repurchase of BYD's own shares. STOCK COMP: equity-settled share-based payment expense for the year (RMB 400,404k).",
-  "researchedAt": "2026-11-23"
+  "notes": "No SEC filings. All figures come from BYD's 2025 Annual Report on HKEXnews (published 27 March 2026), bilingual and prepared under PRC Accounting Standards for Business Enterprises, in RMB'000 (ISO CNY). OWNERSHIP is as at 31 December 2025 from the SFO Part XV registers. SHARE CAPITAL: in 2025 BYD issued 129,800,000 new H shares in a March 2025 placing and, under its 2024 profit distribution and capital reserve capitalization plan, 8 bonus shares and 12 capitalization shares for every 10 shares (implemented in 2025), so issued shares rose from 2,909,265,855 to 9,117,197,565; all share counts here are on the new basis. The report gives Wang Chuan-fu's A-share and H-share holdings separately as 16.90% and 0.03% of total issued share capital, so leader.derived combines them (16.93%); pctEconomic is null because no single total is stated. The 11,183,100 A shares he holds through the E Fund BYD No. 1 asset management plan are excluded, as in the report's own figure. No family total is disclosed. Xia Zuo-quan also holds 1,500,000 H shares (0.02%) not included in his 2.72%. JP Morgan Chase & Co.'s 2.18% H-share long position (including a 1.21% lending pool) is not listed. HKSCC Nominees is not used. DIVIDENDS: the 2024 final dividend paid in 2025 was RMB39.74 per 10 shares in cash, alongside the bonus issue. The retained-profits note line 'Cash dividends payable for ordinary shares' (RMB 14,508,500k) also includes the RMB 2,431,253k of retained profits capitalised as bonus shares, so the cash figure used is the net 'distribution to shareholders' in the equity statement (RMB 12,077,247k, the total-attributable column; the English row label there reads 'Distribution to other equity instruments holders' but the Chinese label and note reference are 'distribution to shareholders (note V.44)'). The cash-flow line 'Cash payments for distribution of dividends, profits or interest expenses' (RMB 14,125,279k) mixes dividends, interest, RMB 438,210k paid to minority shareholders and RMB 546,796k of interest to other equity holders, so it is not used. BUYBACKS: 'Increase of treasury stock' (RMB 3,985,206k), A shares repurchased and held in treasury (the equity statement shows RMB 3,988,271k of treasury shares from repurchases of ordinary shares). This excludes RMB 3,622,378k 'Repurchase payments of minority interests', which concern equity in subsidiaries, not BYD's own shares. STOCK COMP: equity-settled share-based payment expense for the year (RMB 911,981k). GEOGRAPHY: operating revenue by customer location; overseas revenue rose to 38.7% of the total.",
+  "researchedAt": "2026-11-24"
 }

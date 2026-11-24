@@ -2,18 +2,18 @@
   "id": "wang-chuanfu",
   "company": "BYD",
   "nbim": {
-    "pct": 0.64,
-    "marketValueUSD": 0.648,
-    "asOf": "2024-12-31",
+    "pct": 0.53,
+    "marketValueUSD": 0.448,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"374s2039xao5\",\"cc\":\"CN\",\"n\":\"BYD Co Ltd\",\"a\":{\"e\":647664445,\"n\":7355751782},\"at\":0,\"o\":0.64,\"eq\":{\"vid\":\"1211\",\"v\":0.64,\"s\":\"Consumer Discretionary\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"374s2039xao5\",\"cc\":\"CN\",\"n\":\"BYD Co Ltd\",\"a\":{\"e\":447928166,\"n\":4432473152},\"at\":0,\"o\":0.53,\"eq\":{\"vid\":\"1211\",\"v\":0.53,\"s\":\"Consumer Discretionary\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": null,
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;China;BYD Co Ltd;Consumer Discretionary;7355751782;647664445;0.64%;0.64%\". NBIM: Matched to BYD Co Ltd (1211), not BYD Electronic. CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of BYD. Holders of record: The 2024 annual report (HKEX version) states no number of A- or H-share holders.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); matched to BYD Co Ltd (1211), not BYD Electronic. CalPERS: its Form 13F information table for the quarter ended September 30, 2026 lists no shares or ADRs of BYD (searched by name), so calpers is null. Holders of record: the 2025 annual report (HKEX version) states no number of A- or H-share holders.",
+  "researchedAt": "2026-11-24"
 }

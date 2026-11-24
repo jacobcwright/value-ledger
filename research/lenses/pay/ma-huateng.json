@@ -1,0 +1,31 @@
+{
+  "id": "ma-huateng",
+  "company": "Tencent Holdings",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "CNY",
+  "employees": {
+    "value": 115849,
+    "asOf": "2025-12-31",
+    "basis": "employees of the Group",
+    "source": {
+      "hostType": "exchange",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901231.pdf",
+      "label": "Tencent Annual Report 2025, Directors' Report, Employee and Remuneration Policies",
+      "quote": "As at 31 December 2025, the Group had 115,849 employees (2024: 110,558)."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Employee benefits expenses",
+    "value": 130.699,
+    "source": {
+      "hostType": "exchange",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901231.pdf",
+      "label": "Tencent Annual Report 2025, Note 14 Employee benefits expenses (RMB million)",
+      "quote": "Wages, salaries and bonuses 82,101 74,419 Share-based compensation expenses 31,859 23,424 Contributions to pension plans (Note) 8,319 7,783 Welfare, medical and other expenses (Note) 8,295 7,083 Training expenses 125 117 130,699 112,826"
+    }
+  },
+  "notes": "Employees: year-end head count of the Group at 31 December 2025. Payroll: Note 14's total employee benefits expenses (RMB 130,699 million, billions of CNY as stored), which includes RMB 31,859 million of share-based compensation; wages, salaries and bonuses alone were RMB 82,101 million.",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "warren-buffett",
+  "company": "Berkshire Hathaway",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 387800,
+    "asOf": "2025-12-31",
+    "basis": "people employed by Berkshire and its operating subsidiaries (approximate)",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1, Human capital",
+      "quote": "Berkshire and its operating subsidiaries employed approximately 387,800 people worldwide at the end of 2025, of which approximately 80% were in the United States (\"U.S.\") and 19% were represented by unions."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "annual total compensation of the median employee in 2025",
+    "value": 93709,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526106253/d882687ddef14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "the ratio of Mr. Buffett's annual total compensation ($ 389,488 ) to the annual total compensation of the median employee in 2025 ($93,709) was 4.16 to 1."
+    }
+  },
+  "notes": "Employees: approximate year-end 2025 head count of Berkshire and its operating subsidiaries. Payroll: the 10-K discloses no group-wide staff cost, so the proxy's CEO pay ratio median for 2025 is used. Berkshire took it from a judgmental sample of about two-thirds of employees and identified the median employee at December 31, 2023 from 2023 W-2 wages and non-U.S. equivalents, saying nothing since would significantly change the ratio.",
+  "researchedAt": "2026-11-24"
+}

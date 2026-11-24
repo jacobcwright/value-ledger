@@ -1,0 +1,36 @@
+{
+  "id": "wang-chuanfu",
+  "company": "BYD",
+  "classes": [
+    {
+      "label": "H shares",
+      "shares": 3683400000,
+      "sharesAsOf": "2026-10-31",
+      "pricedAs": "1211.HK",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1101/2026110100057.pdf",
+        "label": "HKEX Monthly Return of Equity Issuer for the month ended 31 October 2026 (submitted 1 November 2026), II. Movements in issued shares, H shares",
+        "quote": "Type of shares H ... Stock code (if listed) 01211 ... Balance at close of the month 3,683,400,000 0 3,683,400,000"
+      }
+    },
+    {
+      "label": "A shares",
+      "shares": 5433797565,
+      "sharesAsOf": "2026-10-31",
+      "pricedAs": "002594.SZ",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1101/2026110100057.pdf",
+        "label": "HKEX Monthly Return of Equity Issuer for the month ended 31 October 2026 (submitted 1 November 2026), II. Movements in issued shares, A shares",
+        "quote": "Type of shares A ... Stock code (if listed) 002594 ... Balance at close of the month 5,433,797,565 0 5,433,797,565"
+      }
+    }
+  ],
+  "notes": "Two listed lines of the same ordinary shares: H shares on the Hong Kong Stock Exchange (1211.HK, HKD; the return also lists an RMB counter, 81211, which is not used) and A shares on the Shenzhen Stock Exchange (002594.SZ, CNY). Each class is priced on its own line. The return shows no treasury shares at 31 October 2026 (the 'Number of treasury shares' column is 0 for both classes). Counts are after the 2025 bonus and capitalization issue (8 bonus and 12 capitalization shares for every 10 held).",
+  "researchedAt": "2026-11-24"
+}

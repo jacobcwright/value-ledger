@@ -17,17 +17,17 @@
       "definition": "Worldwide vehicle unit production by geographic market, excluding unconsolidated affiliates but including Daihatsu and Hino (20-F table in thousands of units; stored as whole units). 'Other' consists of Central and South America and Africa."
     },
     "usInvestment": {
-      "label": "Total investment in the U.S. (cumulative)",
+      "label": "U.S. investment since 1986 (manufacturing, R&D, operations)",
       "unit": "currency-billions",
       "currency": "USD",
-      "period": "as published Sep 2026 (cumulative since 1986)",
+      "period": "2026 edition (cumulative since 1986)",
       "tier": "company-published",
       "definition": "Toyota's 2026 Country Contribution sheet for the United States: '$50B invested since 1986 in manufacturing, R&D, operations'."
     },
     "usEmployment": {
       "label": "Toyota team members in the U.S.",
       "unit": "people",
-      "period": "as published Sep 2026",
+      "period": "2026 edition",
       "tier": "company-published",
       "definition": "Toyota's 2026 Country Contribution sheet for the United States: direct employment, '47,500+ Toyota Team Members at U.S. plants & corporate offices' (excludes the 145,500+ dealer and related jobs the sheet lists separately)."
     }
@@ -312,6 +312,6 @@
       }
     }
   ],
-  "notes": "No U.S. state breakdown with values was found. Toyota's per-state fact sheets (toyota.com/.../ops-map/us<xx>/state-<name>.pdf) return 404; the current operations map embeds only counts of dealerships, offices and facilities per state in page code, not visible text, so they were not used, and its Operations Data Sheet link still points to the Fall 2023 edition (checked 2026-11-24). The U.S. country row now uses Toyota's newer 2026 Country Contribution sheet for the United States (global.toyota, dated Sep 2026): '$50B invested since 1986 in manufacturing, R&D, operations' and '47,500+ Toyota Team Members at U.S. plants & corporate offices' (direct; the sheet also lists 145,500+ dealer and related jobs, not recorded). It replaces the Fall 2023 operations sheet's $39 billion total investment and 49,000 total employment. Plant sites use the FY2026 20-F Item 4.D table (employees as of March 31, 2026) where the plant is listed (Toyota City head office, Motomachi, Tahara, Kentucky, North Carolina battery, Canada, Guanajuato); Indiana is no longer in that table, so it now comes from its Toyota USA Newsroom facility page, as do Texas, West Virginia, Alabama and Mississippi (read Nov 2026). Plant figures stay in sites, not state values; Kentucky and Alabama each have more than one Toyota site. Japan and the four regions are from the FY2026 20-F (employees at March 31, 2026; production in the year to March 31, 2026); the two 'Other' groups have different definitions for employees and production, so they are separate regions. Production is stored as whole units from a table in thousands. Hino ceased to be a consolidated subsidiary on April 1, 2026, after the year end, so FY2026 figures still include it. Toyota has more than 50 overseas manufacturing organizations in 27 countries and regions besides Japan, listed by name on global.toyota without counts per country, so no plants-per-country figure is given.",
+  "notes": "No U.S. state breakdown with values was found. Toyota's per-state fact sheets (toyota.com/.../ops-map/us<xx>/state-<name>.pdf) return 404; the current operations map embeds only counts of dealerships, offices and facilities per state in page code, not visible text, so they were not used, and its Operations Data Sheet link still points to the Fall 2023 edition (checked 2026-11-24). The U.S. country row now uses Toyota's newer 2026 Country Contribution sheet for the United States (global.toyota, 2026 edition): '$50B invested since 1986 in manufacturing, R&D, operations' and '47,500+ Toyota Team Members at U.S. plants & corporate offices' (direct; the sheet also lists 145,500+ dealer and related jobs, not recorded). It replaces the Fall 2023 operations sheet's $39 billion total investment and 49,000 total employment. Plant sites use the FY2026 20-F Item 4.D table (employees as of March 31, 2026) where the plant is listed (Toyota City head office, Motomachi, Tahara, Kentucky, North Carolina battery, Canada, Guanajuato); Indiana is no longer in that table, so it now comes from its Toyota USA Newsroom facility page, as do Texas, West Virginia, Alabama and Mississippi (read Nov 2026). Plant figures stay in sites, not state values; Kentucky and Alabama each have more than one Toyota site. Japan and the four regions are from the FY2026 20-F (employees at March 31, 2026; production in the year to March 31, 2026); the two 'Other' groups have different definitions for employees and production, so they are separate regions. Production is stored as whole units from a table in thousands. Hino ceased to be a consolidated subsidiary on April 1, 2026, after the year end, so FY2026 figures still include it. Toyota has more than 50 overseas manufacturing organizations in 27 countries and regions besides Japan, listed by name on global.toyota without counts per country, so no plants-per-country figure is given.",
   "researchedAt": "2026-11-24"
 }

@@ -1,28 +1,28 @@
 {
   "id": "warren-buffett",
   "company": "Berkshire Hathaway",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 28.54,
+      "value": 13.98,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid during the year for: Income taxes $ 28,544 $ 7,765 $ 4,236 Interest: Insurance [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+        "label": "FY2025 Form 10-K, note 14, supplemental cash flow information",
+        "quote": "Cash paid during the year for: Income taxes $ 13,978 $ 28,544 $ 7,765 Interest: Insurance [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001067983",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 28544000000
+          "end": "2025-12-31",
+          "value": 13978000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the caption does not say whether refunds are netted. R&D not reported as a separate line in the FY2024 10-K (conglomerate/insurer).",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet (Note 20 by jurisdiction: U.S. federal 11,753, U.S. state 825, foreign 1,400; USD millions), down from 28,544 in 2024, when tax on large investment gains was paid. R&D not reported as a separate line in the FY2025 10-K (conglomerate/insurer).",
+  "researchedAt": "2026-11-24"
 }

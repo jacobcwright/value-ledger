@@ -5,24 +5,24 @@
     "manufacturingSites": {
       "label": "Manufacturing sites",
       "unit": "count",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Total column of the 10-K Item 2 table of manufacturing sites by geographic region (110 in total); footnote: \"Sites that are used by multiple segments are included more than once in the figures above.\""
+      "definition": "Total column of the 10-K Item 2 table of manufacturing sites by geographic region at December 31, 2025 (82 in total, across the Healthcare & Water Technologies and Diversified Industrials segments); footnotes: \"Sites that are used by multiple segments are included more than once in the figures above\" and \"Diversified Industrials includes 7 sites that are dedicated to the Aramids Business.\""
     },
     "employeeShare": {
       "label": "Share of employees",
       "unit": "percent",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Approximate percentage of DuPont's approximately 24,000 employees in the region, 10-K Item 1 Human Capital."
+      "definition": "Approximate percentage of DuPont's approximately 15,000 employees in the region (about 1,700 of them dedicated to the Aramids Business), 10-K Item 1 Human Capital."
     },
     "longLivedAssets": {
       "label": "Long-lived assets",
       "unit": "currency-millions",
       "currency": "USD",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Long-lived assets by geographic region, attributed by asset location, Note 23 of the FY2024 10-K (total $5,768 million)."
+      "definition": "Long-lived assets by geographic region, attributed by asset location, Note 23 of the FY2025 10-K (total $3,464 million)."
     }
   },
   "usStates": null,
@@ -31,28 +31,28 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "longLivedAssets": 3590
+        "longLivedAssets": 1964
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-        "label": "DuPont FY2024 Form 10-K, Note 23 Segments and Geographic Regions",
-        "quote": "Long-lived Assets by Geographic Region … United States | $ | 3,590 | $ | 3,559 | $ | 3,501 [$ millions; Dec 31, 2024 | 2023 | 2022]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+        "label": "DuPont FY2025 Form 10-K, Note 23 Segments and Geographic Regions",
+        "quote": "Long-lived Assets by Geographic Region December 31, In millions 2025 2024 2023 United States $ 1,964 2,106 2,119"
       }
     },
     {
       "iso2": "CA",
       "name": "Canada",
       "values": {
-        "longLivedAssets": 60
+        "longLivedAssets": 24
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-        "label": "DuPont FY2024 Form 10-K, Note 23 Segments and Geographic Regions",
-        "quote": "Long-lived Assets by Geographic Region … Canada | 60 | 54 | 49 [$ millions; Dec 31, 2024 | 2023 | 2022]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+        "label": "DuPont FY2025 Form 10-K, Note 23 Segments and Geographic Regions",
+        "quote": "Long-lived Assets by Geographic Region December 31, In millions 2025 2024 2023 United States $ 1,964 2,106 2,119 Canada 24 24 21"
       }
     }
   ],
@@ -64,63 +64,63 @@
         "CA"
       ],
       "values": {
-        "manufacturingSites": 60,
-        "employeeShare": 45
+        "manufacturingSites": 48,
+        "employeeShare": 50
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-        "label": "DuPont FY2024 Form 10-K, Item 2 Properties; Item 1 Human Capital",
-        "quote": "U.S. & Canada | 36 | 16 | 8 | 60 … Approximately 34 percent of employees were in Asia Pacific, 16 percent were in the EMEA, 5 percent were in Latin America and 45 percent were in the U.S and Canada. [sites columns: Electronics & Industrial | Water & Protection | Corporate & Other | Total]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+        "label": "DuPont FY2025 Form 10-K, Item 2 Properties; Item 1 Human Capital",
+        "quote": "U.S. & Canada 18 30 48 … Approximately 18 percent of employees were in Asia Pacific, 24 percent were in EMEA, 8 percent were in Latin America and 50 percent were in the U.S and Canada."
       }
     },
     {
       "name": "Asia Pacific",
       "countries": null,
       "values": {
-        "manufacturingSites": 28,
-        "employeeShare": 34,
-        "longLivedAssets": 823
+        "manufacturingSites": 15,
+        "employeeShare": 18,
+        "longLivedAssets": 288
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-        "label": "DuPont FY2024 Form 10-K, Item 2 Properties (manufacturing sites); Item 1 Human Capital; Note 23 Segments and Geographic Regions (long-lived assets)",
-        "quote": "Asia Pacific | 18 | 9 | 1 | 28 … Approximately 34 percent of employees were in Asia Pacific, 16 percent were in the EMEA, 5 percent were in Latin America and 45 percent were in the U.S and Canada. … Asia Pacific | 823 | 896 | 883 [sites columns: Electronics & Industrial | Water & Protection | Corporate & Other | Total; long-lived assets $ millions, Dec 31, 2024 | 2023 | 2022]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+        "label": "DuPont FY2025 Form 10-K, Item 2 Properties (manufacturing sites); Item 1 Human Capital; Note 23 Segments and Geographic Regions (long-lived assets)",
+        "quote": "The number of manufacturing sites at December 31, 2025 is as follows: Geographic Region Healthcare & Water Technologies Diversified Industrials 3 Total 1 Asia Pacific 5 10 15 … Approximately 18 percent of employees were in Asia Pacific, 24 percent were in EMEA, 8 percent were in Latin America and 50 percent were in the U.S and Canada. … EMEA 1 1,151 1,045 1,100 Asia Pacific 288 247 293"
       }
     },
     {
       "name": "EMEA (Europe, Middle East, and Africa)",
       "countries": null,
       "values": {
-        "manufacturingSites": 17,
-        "employeeShare": 16,
-        "longLivedAssets": 1259
+        "manufacturingSites": 15,
+        "employeeShare": 24,
+        "longLivedAssets": 1151
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-        "label": "DuPont FY2024 Form 10-K, Item 2 Properties (manufacturing sites); Item 1 Human Capital; Note 23 Segments and Geographic Regions (long-lived assets)",
-        "quote": "EMEA 2 | 6 | 9 | 2 | 17 … Approximately 34 percent of employees were in Asia Pacific, 16 percent were in the EMEA, 5 percent were in Latin America and 45 percent were in the U.S and Canada. … EMEA 1 | 1,259 | 1,336 | 1,271 [sites columns: Electronics & Industrial | Water & Protection | Corporate & Other | Total; long-lived assets $ millions, Dec 31, 2024 | 2023 | 2022]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+        "label": "DuPont FY2025 Form 10-K, Item 2 Properties (manufacturing sites); Item 1 Human Capital; Note 23 Segments and Geographic Regions (long-lived assets)",
+        "quote": "Asia Pacific 5 10 15 EMEA 2 8 7 15 … Approximately 18 percent of employees were in Asia Pacific, 24 percent were in EMEA, 8 percent were in Latin America and 50 percent were in the U.S and Canada. … Canada 24 24 21 EMEA 1 1,151 1,045 1,100"
       }
     },
     {
       "name": "Latin America",
       "countries": null,
       "values": {
-        "manufacturingSites": 5,
-        "employeeShare": 5,
-        "longLivedAssets": 36
+        "manufacturingSites": 4,
+        "employeeShare": 8,
+        "longLivedAssets": 37
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-        "label": "DuPont FY2024 Form 10-K, Item 2 Properties (manufacturing sites); Item 1 Human Capital; Note 23 Segments and Geographic Regions (long-lived assets)",
-        "quote": "Latin America | 4 | — | 1 | 5 … Approximately 34 percent of employees were in Asia Pacific, 16 percent were in the EMEA, 5 percent were in Latin America and 45 percent were in the U.S and Canada. … Latin America | 36 | 39 | 27 [sites columns: Electronics & Industrial | Water & Protection | Corporate & Other | Total; long-lived assets $ millions, Dec 31, 2024 | 2023 | 2022]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+        "label": "DuPont FY2025 Form 10-K, Item 2 Properties (manufacturing sites); Item 1 Human Capital; Note 23 Segments and Geographic Regions (long-lived assets)",
+        "quote": "EMEA 2 8 7 15 Latin America 3 1 4 … Approximately 18 percent of employees were in Asia Pacific, 24 percent were in EMEA, 8 percent were in Latin America and 50 percent were in the U.S and Canada. … Asia Pacific 288 247 293 Latin America 37 32 34"
       }
     }
   ],
@@ -134,12 +134,12 @@
       "description": "DuPont's corporate headquarters.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-        "label": "DuPont FY2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+        "label": "DuPont FY2025 Form 10-K, Item 2 Properties",
         "quote": "The Company's corporate headquarters is located in Wilmington, Delaware."
       }
     }
   ],
-  "notes": "From the FY2024 Form 10-K. DuPont reports manufacturing sites and employee shares by four regions only; 'U.S. & Canada' is defined by its name, the other regions have no country list (EMEA is footnoted as Europe, Middle East, and Africa). Site totals can count a site more than once when several segments use it. Employee shares are percentages of approximately 24,000 and are not converted into headcounts. Long-lived assets are filed separately for the United States and Canada, so they sit on country rows while the 'U.S. & Canada' region carries sites and employees. The 10-K names only the Wilmington headquarters; no list of plants, no state breakdown and no country-by-country tax report were found in it.",
-  "researchedAt": "2026-11-23"
+  "notes": "From the FY2025 Form 10-K (year ended Dec 31, 2025), the first after DuPont distributed its electronics business (Qnity Electronics) on Nov 1, 2025; the 10-K's two continuing segments are Healthcare & Water Technologies and Diversified Industrials, and it also reports the pending sale of the Aramids business to Arclin (7 of the 82 sites and about 1,700 of the approximately 15,000 employees are dedicated to Aramids). All figures are therefore much smaller than the FY2024 snapshot (110 sites, ~24,000 employees, $5,768 million long-lived assets). DuPont reports manufacturing sites and employee shares by four regions only; 'U.S. & Canada' is defined by its name, the other regions have no country list (EMEA is footnoted as Europe, Middle East, and Africa). Site totals can count a site more than once when several segments use it. Employee shares are percentages and are not converted into headcounts. Long-lived assets are filed separately for the United States and Canada, so they sit on country rows while the 'U.S. & Canada' region carries sites and employees; the 10-K also footnotes Luxembourg long-lived assets of $784 million (inside EMEA, not recorded as a row). The 10-K names only the Wilmington headquarters; no list of plants, no state breakdown and no country-by-country tax report were found in it.",
+  "researchedAt": "2026-11-24"
 }

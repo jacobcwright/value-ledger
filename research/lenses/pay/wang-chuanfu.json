@@ -1,0 +1,31 @@
+{
+  "id": "wang-chuanfu",
+  "company": "BYD",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "CNY",
+  "employees": {
+    "value": 869600,
+    "asOf": "2025-12-31",
+    "basis": "approximately 869.6 thousand employees",
+    "source": {
+      "hostType": "exchange",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032703008.pdf",
+      "label": "BYD 2025 Annual Report, Management Discussion and Analysis, Employment, Training and Development",
+      "quote": "As at 31 December 2025, the Group had approximately ... 869.6 thousand employees. During the period, total staff cost ... accounted for approximately 15.94% of the Group's turnover."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Employee benefits payables, total increase during the year (short-term remuneration, defined contribution retirement benefits and termination benefits)",
+    "value": 128.190527,
+    "source": {
+      "hostType": "exchange",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032703008.pdf",
+      "label": "BYD 2025 Annual Report, Note V.28 Employee benefits payables, disaggregation (RMB'000)",
+      "quote": "Short-term remuneration 21,829,629 113,525,662 (119,346,252) 16,009,039 ... Termination benefits ... 174,800 (174,800) ... Total 21,843,196 128,190,527 (134,008,338) 16,025,385 [opening balance, increase during the year, decrease during the year, closing balance]"
+    }
+  },
+  "notes": "Employees: approximate head count at 31 December 2025, stated in thousands (869.6 thousand) in the MD&A. Payroll: the 'increase during the year' column of the employee-benefits note is the total employee remuneration BYD accrued in 2025 (salaries, bonuses, allowances and subsidies 100,087,341; social insurance 6,182,948; housing fund 4,088,298; retirement contributions 14,490,065; other items), RMB 128,190,527 thousand. It is consistent with the MD&A statement that total staff cost was about 15.94% of turnover. The cash flow statement separately shows 'Cash paid to and on behalf of employees' of RMB 130,434,959 thousand. As a non-SEC issuer BYD has no CEO pay ratio disclosure.",
+  "researchedAt": "2026-11-24"
+}

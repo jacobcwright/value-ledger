@@ -1,144 +1,144 @@
 {
-  "id": "warren-buffett",
-  "company": "Berkshire Hathaway",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
-  "currency": "USD",
-  "unit": "billions",
-  "sector": "conglomerate-insurance",
-  "comparable": true,
-  "inputs": {
-    "revenue": {
-      "value": 371.433,
-      "stated": 371433,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of earnings (in millions)",
-        "quote": "Service revenues and other income 4,917 4,728 5,324 49,790 49,751 52,149 Total revenues 371,433 364,482 302,020",
-        "xbrl": {
-          "cik": "0001067983",
-          "concept": "us-gaap:Revenues",
-          "end": "2024-12-31",
-          "value": 371433000000
-        }
-      },
-      "note": "Includes 21,825 of interest, dividend and other investment income; excludes 52,799 of investment gains."
-    },
-    "operatingCashFlow": {
-      "value": 30.592,
-      "stated": 30592,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Income taxes ( 8,163 ) 14,865 ( 12,872 ) Net cash flows from operating activities 30,592 49,196 37,350",
-        "xbrl": {
-          "cik": "0001067983",
-          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": 30592000000
-        }
-      }
-    },
-    "capex": {
-      "value": 18.976,
-      "components": [
-        "PP&E and equipment held for lease (combined line) 18.976"
-      ],
-      "stated": 18976,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Purchases of property, plant and equipment and equipment held for lease ( 18,976 ) ( 19,409 ) ( 15,464 )",
-        "xbrl": {
-          "cik": "0001067983",
-          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-12-31",
-          "value": 18976000000
-        }
-      },
-      "note": "Single line combining PP&E and equipment held for lease; the lease-fleet part cannot be split out."
-    },
-    "interestPaid": {
-      "value": 4.939,
-      "inOCF": true,
-      "stated": 4939,
-      "derived": {
-        "method": "insurance and other + railroad, utilities and energy",
-        "inputs": [
-          {
-            "value": 1.362,
-            "stated": 1362,
-            "source": {
-              "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
-              "label": "FY2024 Form 10-K, note 14, supplemental cash flow information (in millions)",
-              "quote": "Cash paid during the year for: Income taxes $ 28,544 $ 7,765 $ 4,236 Interest: Insurance and other 1,362 1,670 1,150 Railroad, utilities and energy 3,577 3,327 3,195"
-            }
-          },
-          {
-            "value": 3.577,
-            "stated": 3577,
-            "source": {
-              "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
-              "label": "FY2024 Form 10-K, note 14, supplemental cash flow information (in millions)",
-              "quote": "Cash paid during the year for: Income taxes $ 28,544 $ 7,765 $ 4,236 Interest: Insurance and other 1,362 1,670 1,150 Railroad, utilities and energy 3,577 3,327 3,195"
-            }
-          }
-        ]
-      }
-    },
-    "taxesPaid": {
-      "value": 28.544,
-      "inOCF": true,
-      "stated": 28544,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
-        "label": "FY2024 Form 10-K, note 14, supplemental cash flow information (in millions)",
-        "quote": "Cash paid during the year for: Income taxes $ 28,544 $ 7,765 $ 4,236",
-        "xbrl": {
-          "cik": "0001067983",
-          "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 28544000000
-        }
-      },
-      "note": "Includes tax on 2024 investment gains, which are outside revenue."
-    },
-    "otherNamedItems": {
-      "tBillDiscountAccretion": {
-        "value": 11.349,
-        "stated": 11349,
-        "source": {
-          "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
-          "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-          "quote": "Discount accretion on investments, principally U.S. Treasury Bills ( 11,349 ) ( 5,510 ) ( 1,132 )",
-          "xbrl": {
-            "cik": "0001067983",
-            "concept": "us-gaap:AccretionAmortizationOfDiscountsAndPremiumsInvestments",
-            "end": "2024-12-31",
-            "value": 11349000000
-          }
-        },
-        "note": "Non-cash income inside revenue; removed from operating cash flow, so it inflates A."
-      }
+ "id": "warren-buffett",
+ "company": "Berkshire Hathaway",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "conglomerate-insurance",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 371.444,
+   "stated": 371444,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of earnings (in millions)",
+    "quote": "Service revenues and other income 4,537 4,917 4,728 49,723 49,790 49,751 Total revenues 371,444 371,433 364,482",
+    "xbrl": {
+     "cik": "0001067983",
+     "concept": "us-gaap:Revenues",
+     "end": "2025-12-31",
+     "value": 371444000000
     }
+   },
+   "note": "Includes 23,261 of interest, dividend and other investment income; excludes 39,078 of investment gains."
   },
-  "paidOut": 359.817,
-  "paidOutFormula": "371.433 − 30.592 + 18.976",
-  "altPaidOut": null,
-  "notes": "Pilot treatment (research/lenses/paidout/_pilot.json): formula with a caveat. Revenue includes 21.825bn of interest, dividend and other investment income and 11.349bn of non-cash T-bill discount accretion (paidOut excluding the accretion: 348.468bn). Insurance claims paid count as payouts. Taxes paid (28.544bn) include tax on investment gains outside revenue. Capex is one line combining PP&E and equipment held for lease; the lease-fleet part cannot be split. Inputs reused from the pilot.",
-  "salesEnabled": null,
-  "flags": {
-    "financeReceivablesInOCF": false,
-    "interestDividendsReceivedInOCF": null,
-    "revenueIncludesExcise": false,
-    "nonCashRevenue": 11.349
+  "operatingCashFlow": {
+   "value": 45.969,
+   "stated": 45969,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Income taxes 1,000 ( 8,163 ) 14,865 Net cash flows from operating activities 45,969 30,592 49,196",
+    "xbrl": {
+     "cik": "0001067983",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2025-12-31",
+     "value": 45969000000
+    }
+   }
   },
-  "researchedAt": "2026-11-23"
+  "capex": {
+   "value": 20.927,
+   "components": [
+    "PP&E and equipment held for lease (combined line) 20.927"
+   ],
+   "stated": 20927,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Purchases of property, plant and equipment and equipment held for lease ( 20,927 ) ( 18,976 ) ( 19,409 )",
+    "xbrl": {
+     "cik": "0001067983",
+     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+     "end": "2025-12-31",
+     "value": 20927000000
+    }
+   },
+   "note": "Single line combining PP&E and equipment held for lease; the lease-fleet part cannot be split out."
+  },
+  "interestPaid": {
+   "value": 5.094,
+   "inOCF": true,
+   "stated": 5094,
+   "derived": {
+    "method": "insurance and other + railroad, utilities and energy",
+    "inputs": [
+     {
+      "value": 1.301,
+      "stated": 1301,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+       "label": "FY2025 Form 10-K, note 14, supplemental cash flow information (in millions)",
+       "quote": "Cash paid during the year for: Income taxes $ 13,978 $ 28,544 $ 7,765 Interest: Insurance and other 1,301 1,362 1,670 Railroad, utilities and energy 3,793 3,577 3,327"
+      }
+     },
+     {
+      "value": 3.793,
+      "stated": 3793,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+       "label": "FY2025 Form 10-K, note 14, supplemental cash flow information (in millions)",
+       "quote": "Cash paid during the year for: Income taxes $ 13,978 $ 28,544 $ 7,765 Interest: Insurance and other 1,301 1,362 1,670 Railroad, utilities and energy 3,793 3,577 3,327"
+      }
+     }
+    ]
+   }
+  },
+  "taxesPaid": {
+   "value": 13.978,
+   "inOCF": true,
+   "stated": 13978,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+    "label": "FY2025 Form 10-K, note 14, supplemental cash flow information (in millions)",
+    "quote": "Cash paid during the year for: Income taxes $ 13,978 $ 28,544 $ 7,765",
+    "xbrl": {
+     "cik": "0001067983",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2025-12-31",
+     "value": 13978000000
+    }
+   },
+   "note": "Includes tax on investment gains, which are outside revenue. Note 20 splits it: U.S. federal 11,753, U.S. state 825, foreign 1,400."
+  },
+  "otherNamedItems": {
+   "tBillDiscountAccretion": {
+    "value": 11.964,
+    "stated": 11964,
+    "source": {
+     "hostType": "sec",
+     "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+     "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+     "quote": "Discount accretion on investments, principally U.S. Treasury Bills ( 11,964 ) ( 11,349 ) ( 5,510 )",
+     "xbrl": {
+      "cik": "0001067983",
+      "concept": "us-gaap:AccretionAmortizationOfDiscountsAndPremiumsInvestments",
+      "end": "2025-12-31",
+      "value": 11964000000
+     }
+    },
+    "note": "Non-cash income inside revenue; removed from operating cash flow, so it inflates A."
+   }
+  }
+ },
+ "paidOut": 346.402,
+ "paidOutFormula": "371.444 − 45.969 + 20.927",
+ "altPaidOut": null,
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001193125-26-083899). Pilot treatment (research/lenses/paidout/_pilot.json): formula with a caveat. Revenue includes 23.261bn of interest, dividend and other investment income and 11.964bn of non-cash T-bill discount accretion (paidOut excluding the accretion: 334.438bn). Insurance claims paid count as payouts. Taxes paid (13.978bn) include tax on investment gains outside revenue. Operating cash flow is after a 10.681bn non-cash equity-method impairment add-back. Capex is one line combining PP&E and equipment held for lease; the lease-fleet part cannot be split.",
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": 11.964
+ },
+ "researchedAt": "2026-11-24"
 }

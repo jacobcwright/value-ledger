@@ -12,15 +12,15 @@
       "state": "CA",
       "iso2": "US",
       "type": "headquarters",
-      "description": "Cadence owns the land and buildings at its San Jose headquarters; it also owns properties in New Mexico, India, Greece and Italy.",
+      "description": "Cadence owns the land and buildings at its San Jose headquarters; it also owns properties in New Mexico, India, Greece and Italy (about 1,330,000 sq ft of owned buildings in total at Dec 31, 2025).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
-        "label": "Cadence Design Systems Form 10-K for fiscal year 2024",
-        "quote": "We own land and buildings at our corporate headquarters located in San Jose, California. We also own properties in New Mexico, India, Greece and Italy."
+        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
+        "label": "Cadence Design Systems Form 10-K for fiscal year 2025, Item 2, Properties",
+        "quote": "We own land and buildings at our corporate headquarters located in San Jose, California. We also own properties in New Mexico, India, Greece and Italy. As of December 31, 2025, the total square footage of our owned buildings was approximately 1,330,000."
       }
     }
   ],
-  "notes": "The FY2024 10-K gives about 12,700 employees and says 'a substantial majority of our employees are located outside of the United States', with no figures by country or region; Item 2 names owned properties (San Jose HQ; New Mexico, India, Greece, Italy) without counts per location. Cadence's ESG/impact report pages on cadence.com could not be fetched (bot protection returns 403/challenge), so no employee-by-region data was recorded. No state, country, region or tax-by-country rows.",
-  "researchedAt": "2026-11-23"
+  "notes": "The FY2025 10-K gives about 13,800 employees at Dec 31, 2025 and says 'a substantial majority of our employees are located outside of the United States', with no figures by country or region; Item 2 names owned properties (San Jose HQ; New Mexico, India, Greece, Italy; about 1,330,000 sq ft owned in total) without figures per location. Cadence's ESG/impact pages on cadence.com were not used (in the earlier pass they returned 403/bot challenges), and no new kind of data was added in this refresh. No state, country, region or tax-by-country rows.",
+  "researchedAt": "2026-11-24"
 }

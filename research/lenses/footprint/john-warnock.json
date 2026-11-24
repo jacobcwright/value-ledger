@@ -5,16 +5,16 @@
     "employeeShare": {
       "label": "Share of employees",
       "unit": "percent",
-      "period": "FY2024 (as of Nov 29, 2024)",
+      "period": "FY2025 (as of Nov 28, 2025)",
       "tier": "filing",
-      "definition": "Share of Adobe's 30,709 employees in the United States and in its international locations, from the FY2024 10-K (the CSR data tables show the same 50/50 split)."
+      "definition": "Share of Adobe's 31,360 employees in the United States and in its international locations, from the FY2025 10-K."
     },
     "spaceShare": {
       "label": "Share of total workspace",
       "unit": "percent",
       "period": "FY2024",
       "tier": "company-published",
-      "definition": "Share of Adobe's total space worldwide (5,150,439 sq ft in FY2024) located in the U.S., India and the rest of the world, from the CSR environmental data tables."
+      "definition": "Share of Adobe's total space worldwide (5,150,439 sq ft in FY2024) located in the U.S., India and the rest of the world, from the CSR environmental data tables. No newer edition of the CSR data tables found (checked 2026-11-24)."
     }
   },
   "usStates": null,
@@ -28,9 +28,9 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
-        "label": "FY2024 Form 10-K, Item 1, Human Capital",
-        "quote": "As of November 29, 2024, we employed 30,709 people, of which 50% were in the United States and 50% were in our international locations."
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+        "label": "FY2025 Form 10-K, Item 1, Human Capital",
+        "quote": "As of November 28, 2025, we employed 31,360 people, of which 50% were in the United States and 50% were in our international locations."
       }
     },
     {
@@ -72,9 +72,9 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
-        "label": "FY2024 Form 10-K, Item 1, Human Capital",
-        "quote": "As of November 29, 2024, we employed 30,709 people, of which 50% were in the United States and 50% were in our international locations."
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+        "label": "FY2025 Form 10-K, Item 1, Human Capital",
+        "quote": "As of November 28, 2025, we employed 31,360 people, of which 50% were in the United States and 50% were in our international locations."
       }
     },
     {
@@ -102,8 +102,8 @@
       "description": "Corporate headquarters, approximately 1.7 million sq ft of office space",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
-        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+        "label": "FY2025 Form 10-K, Item 2 Properties",
         "quote": "Our corporate headquarters is located in San Jose, California where we occupy approximately 1.7 million square feet of office space."
       }
     },
@@ -116,9 +116,9 @@
       "description": "One of Adobe's two largest properties outside the U.S., approximately 0.7 million sq ft",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
-        "label": "FY2024 Form 10-K, Item 2 Properties",
-        "quote": "The largest properties we occupy outside of the United States are our Bangalore, India and Noida, India offices which are approximately 0.7 million and 0.5 million square feet, respectively."
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+        "label": "FY2025 Form 10-K, Item 2 Properties",
+        "quote": "The largest properties we occupy outside of the United States are our Bangalore, India and Noida, India offices which are approximately 0.7 million and 0.7 million square feet, respectively."
       }
     },
     {
@@ -127,12 +127,12 @@
       "state": null,
       "iso2": "IN",
       "type": "offices",
-      "description": "One of Adobe's two largest properties outside the U.S., approximately 0.5 million sq ft",
+      "description": "One of Adobe's two largest properties outside the U.S., approximately 0.7 million sq ft",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
-        "label": "FY2024 Form 10-K, Item 2 Properties",
-        "quote": "The largest properties we occupy outside of the United States are our Bangalore, India and Noida, India offices which are approximately 0.7 million and 0.5 million square feet, respectively."
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+        "label": "FY2025 Form 10-K, Item 2 Properties",
+        "quote": "The largest properties we occupy outside of the United States are our Bangalore, India and Noida, India offices which are approximately 0.7 million and 0.7 million square feet, respectively."
       }
     },
     {
@@ -150,6 +150,6 @@
       }
     }
   ],
-  "notes": "Adobe publishes no state or per-country headcounts. The FY2024 10-K gives employees only as U.S. vs. international (50/50), and the CSR data tables give workspace as U.S. 62% / India 23% / rest of world 14% (sums to 99% as printed). The U.S. appears twice in 'countries', once per metric, because the employee share comes from the 10-K and the workspace share from the CSR report. The CSR PDF on adobe.com returned 403 (Akamai) to curl; it was fetched this session through the WebFetch tool and read with pdftotext, so automated re-verification of the spaceShare rows and the Hillsboro site may hit the same block. Sites: San Jose HQ and the two Indian offices from 10-K Item 2; the owned Hillsboro, OR data center from the CSR environmental table. The 10-K's revenue-by-region shares (Americas/EMEA/APAC) are deliberately not repeated.",
-  "researchedAt": "2026-11-23"
+  "notes": "Adobe publishes no state or per-country headcounts. The FY2025 10-K gives employees only as U.S. vs. international (50/50 of 31,360 at Nov 28, 2025). Workspace shares (U.S. 62% / India 23% / rest of world 14%, FY2024; sums to 99% as printed) come from the 2024 CSR report's data tables; no newer edition found (checked 2026-11-24: Adobe's corporate responsibility reports page lists the 2024 Metrics and Indicators report as the latest, plus a 2026 CDP response and an FY2025 GHG assurance letter, which are not the same kind of report), so those rows keep their FY2024 period. The U.S. appears twice in 'countries', once per metric, because the employee share comes from the 10-K and the workspace share from the CSR report. The CSR PDF on adobe.com returns 403 (Akamai) to curl; in the earlier pass it was fetched through the WebFetch tool and read with pdftotext, so automated re-verification of the spaceShare rows and the Hillsboro site may hit the same block. Sites: San Jose HQ and the two Indian offices (Bangalore and Noida, each about 0.7 million sq ft) from FY2025 10-K Item 2; the owned Hillsboro, OR data center from the CSR environmental table. The 10-K's revenue-by-region shares (Americas/EMEA/APAC) are deliberately not repeated.",
+  "researchedAt": "2026-11-24"
 }
