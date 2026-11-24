@@ -24,7 +24,7 @@ const companyLensViews = ["ecosystem","fiscal"];
 const companyHolderTypes = {"asset-manager":"Asset manager","index-fund":"Index fund",pension:"Pension",sovereign:"Sovereign fund",government:"Government",family:"Family",company:"Company",employees:"Employees",other:"Other"};
 const companyRelations = {founder:"Founder","co-founder":"Co-founder","founding-family":"Founding family",estate:"Estate",ceo:"CEO","former-ceo":"Former CEO",chair:"Chair",executive:"Executive",investor:"Investor"};
 // Evidence tiers, as named on the methodology page.
-const cvTiers = {filing:"From the 10-K/annual report","company-commissioned":"Company-commissioned",derived:"Derived from filings",market:"Market data",estimate:"Our estimate",record:"Filing",company:"Company-reported"};
+const cvTiers = {filing:"From the 10-K/annual report","company-commissioned":"Company-commissioned",derived:"Derived from filings",market:"Market data",estimate:"Our estimate",record:"Filing",company:"Company-reported","company-published":"Company-published",regulator:"Regulator data"};
 
 function companyValueSlot(leader) {
   return `<section id="company-value" class="distribution company-value${leader.id === "jeff-bezos" ? " company-lenses" : ""}" aria-labelledby="company-value-title" data-leader="${escapeHtml(leader.id)}" hidden></section>`;
@@ -504,7 +504,7 @@ const cvPanels = {ownership:cvOwnership,cash:cvCash,workers:cvWorkers,geography:
 function cvProvenance(groups) {
   const item = entry => `<li class="cv-proof">
       <div class="cv-proof-head"><strong>${escapeHtml(entry.label)}</strong><span class="cv-proof-value">${escapeHtml(entry.value)}</span></div>
-      <p class="cv-proof-meta">${[entry.when ? escapeHtml(entry.when) : "",cvTag(entry.tier)].filter(Boolean).join(" · ")}</p>
+      <p class="cv-proof-meta">${[entry.when ? escapeHtml(entry.when) : "",[].concat(entry.tier).map(cvTag).join(" ")].filter(Boolean).join(" · ")}</p>
       ${entry.note ? `<p class="cv-proof-note">${escapeHtml(entry.note)}</p>` : ""}
       ${entry.sources.map(source => `${source.quote ? `<blockquote>${escapeHtml(source.quote)}</blockquote>` : ""}<p class="cv-proof-source">${cvLink(source)}</p>`).join("")}
     </li>`;
@@ -519,7 +519,9 @@ function cvRender(record, leader) {
   const lensOnly = leader.id === "jeff-bezos";
   const allowed = lensOnly ? companyLensViews : companyValueViews.map(([key]) => key);
   const views = record ? companyValueViews.filter(([key]) => allowed.includes(key)).map(([key,label]) => ({key,label,panel:cvPanels[key](record,leader)})).filter(view => view.panel) : [];
-  const provenance = cvProvenance([{label:"The ranking",proof:cvRankingProof(leader)},...views.map(view => ({label:view.label,proof:view.panel.proof || []}))]);
+  // The footprint panel (company-footprint.js) sits further down the profile; its figures are listed here too.
+  const footprint = record && !lensOnly && typeof companyFootprintProof === "function" ? companyFootprintProof(record,leader) : [];
+  const provenance = cvProvenance([{label:"The ranking",proof:cvRankingProof(leader)},...views.map(view => ({label:view.label,proof:view.panel.proof || []})),...footprint]);
   if (!views.length) return `<div class="cv-provenance-only">${provenance}</div>`;
   const company = escapeHtml(leader.company);
   return `

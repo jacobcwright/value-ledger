@@ -51,3 +51,13 @@ Don't repeat company-wide revenue by geography; the records already have it.
 - Never derive state values from national totals. Never treat a commissioned estimate as a filing.
 - If nothing usable exists, write the file with `usStates`, `countries`, `regions` and `sites` set to null and explain in `notes` what you checked. That is a valid result.
 - Validate before finishing: every row's numbers must appear in its quote; state codes must be valid; iso2 values must be 2 letters; and each metric key used in a row must exist in `metrics`.
+
+## How the site reads these files
+`scripts/validate-footprint.mjs` checks every file; `scripts/build-companies.mjs` publishes what passes as `footprint` in `dist/companies/<id>.json`, and `dist/company-footprint.js` draws it.
+- **Dropped, not fatal:** a row with a bad source, an unknown metric key or an invalid state or ISO code is dropped; a number that isn't in its quote is dropped from its row; a metric with an unknown unit is dropped with its values. A row whose source URL isn't verified ok in `research/verified.json` is dropped (run `scripts/verify-quotes.mjs` after adding files). Only a broken file (bad JSON, wrong id) is skipped whole.
+- **Units also accepted:** `count-thousands`, `people-thousands`, `currency`, `currency-thousands`, `currency-per-hour` (a rate: shown as "$18.25/hr", never summed), `square-feet`, `square-feet-millions`.
+- **Scale:** numbers stored as filed may set `metrics[key].scale` (1000, 1000000…). Without it, a label such as "MAUs (millions)" or "RGUs, in thousands" sets the scale. A quote can state its scale once ("in thousands", or a bracketed note) and the number check follows it.
+- **Repeated places:** several rows for one state, country or region merge; the first figure for a measure is shown and later ones are listed in "How we got these numbers".
+- **Sub-national regions:** a region with `"country": "CA"` (or a one-country `countries` list naming a country the file also reports) is listed under that country and never shaded on the globe.
+- **Periods:** each map shows the metric's `period`; a period whose latest year is before 2023 is tagged "Older data". An optional row-level `period` marks a row dated differently; rows of one metric from differently dated sources show "periods differ".
+- **Percent:** shares are never summed, and are shaded on the globe only when a metric's country and region shares add up to 100% or less.
