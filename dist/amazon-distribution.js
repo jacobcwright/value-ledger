@@ -100,7 +100,7 @@ function amazonDistribution(leader) {
       </div>
       <div id="distribution-ownership" class="distribution-panel" role="tabpanel" aria-labelledby="distribution-tab-ownership" tabindex="0">
         <div class="distribution-subhead">
-          <div><h4>Who held Amazon shares?</h4><p>Year-end 2024 · ${equityValue(sharesOutstanding)} equity value (reported shares × year-end price). The ${compactMoney(leader.cap)} value created above is CompaniesMarketCap’s estimate.</p></div>
+          <div><h4>Who held Amazon shares?</h4><p>Year-end 2024 · ${equityValue(sharesOutstanding)} equity value (reported shares × year-end price). The ${compactMoney(leader.cap)} market value above is CompaniesMarketCap’s estimate.</p></div>
         </div>
         <div class="ownership-takeaway">
           <p class="ownership-headline"><span>Jeff Bezos held <strong class="is-founder">${roundPercent(founder.shares)}</strong> of Amazon directly.</span> <span>Everyone else held <strong>${roundPercent(outsideFounder)}</strong>.</span></p>

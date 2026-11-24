@@ -1,15 +1,9 @@
-/* "Who shares in the value?" for every leader except Amazon (dist/company-value.js).
+/* "Who shares in the value?" in every profile (dist/company-value.js), plus Amazon's standalone lens
+   section and the "How we got these numbers" provenance block.
    Reuses the Amazon case study's shell (.distribution, tabs, panels, subheads, table, method) so the
    two read as one system, but carries no red or green: ownership is shown as a varied palette whose
    job is to show that most of the value goes to people other than the individual.
-   Share tokens: to be added to base.css on main; defined here until then (same values). */
-:root {
-  --share-self:#7d736c;  /* leader or family: warm gray, deliberately recessive */
-  --share-1:#6250d6;     /* largest named holder: violet */
-  --share-2:#eda100;     /* second: amber */
-  --share-3:#e87ba4;     /* third: pink */
-  --share-rest:#2a78d6;  /* "Everyone else": the visual hero */
-}
+   The --share-* tokens are defined in base.css. */
 .cv-c-self {--key:var(--share-self)}
 .cv-c-1 {--key:var(--share-1)}
 .cv-c-2 {--key:var(--share-2)}
@@ -37,6 +31,8 @@
 .cv-bar {display:flex;gap:2px;height:32px;margin:var(--space-4) 0 var(--space-4);border-radius:var(--radius-sm);overflow:hidden;background:var(--card)}
 .cv-bar span {flex-basis:0;min-width:3px;background:var(--key)}
 .cv-key {display:inline-block;flex:none;width:10px;height:10px;border-radius:2px;background:var(--key)}
+/* Listed but not drawn in the bar (class-basis holders, a leader inside a family total): an empty key. */
+.cv-key-none {background:none;box-shadow:inset 0 0 0 1px var(--muted)}
 
 /* Holdings legend */
 .cv-holders {display:grid;gap:2px;max-width:640px;margin:0;padding:0;list-style:none}
@@ -47,6 +43,10 @@
 .cv-holder-pct {font-size:14px;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
 .cv-holders .cv-group {display:flex;justify-content:space-between;margin-top:var(--space-2);padding:var(--space-2) 10px 2px;border-top:1px solid var(--line);font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--ink)}
 .cv-holders .cv-group span + span {letter-spacing:0;font-variant-numeric:tabular-nums}
+.cv-holders .cv-group-sub {margin-top:var(--space-3);font-size:11px;color:var(--muted)}
+.cv-holders .cv-unbarred {background:none!important}
+.cv-holders .cv-unbarred .cv-holder-pct {display:flex;flex-direction:column;align-items:flex-end;font-weight:650;color:var(--ink)}
+.cv-holders .cv-unbarred .cv-holder-pct small {font-size:11px;font-weight:600;color:var(--muted)}
 .cv-structure {margin-bottom:var(--space-3)}
 
 /* Workers */
@@ -66,6 +66,65 @@
 .cv-segment-figures small {font-size:12px;color:var(--muted)}
 .cv-caption {margin:var(--space-3) 0 0;font-size:13px;color:var(--muted);max-width:60em}
 
+/* Ecosystem */
+.cv-flow {margin-top:var(--space-3)}
+.cv-flow-legend {margin-bottom:var(--space-3)}
+.cv-per-dollar {max-width:34em;margin:0 0 var(--space-4);font:400 20px/1.3 var(--serif);letter-spacing:-.02em;color:var(--ink)}
+.cv-tier {display:inline-block;align-self:flex-start;margin-top:2px;padding:1px 6px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--card);font:700 11px/1.5 var(--sans);letter-spacing:.04em;color:var(--muted)}
+.cv-tier.is-commissioned {border-color:var(--share-2);color:var(--ink)}
+.cv-caveat {max-width:46em;margin:var(--space-3) 0 0;padding-left:var(--space-3);border-left:3px solid var(--share-2);font-size:14px;color:var(--ink)}
+.cv-secondary {margin-top:var(--space-4)}
+.cv-secondary-title {margin:0 0 var(--space-2);font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.cv-study-value {margin:0 0 var(--space-2)}
+.cv-study-value strong {font:700 28px/1 var(--serif);letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.distribution-subhead + .cv-studies {margin-top:0;margin-bottom:var(--space-4)}
+.cv-definition {max-width:46em;margin:var(--space-4) 0 0;font-size:14px;color:var(--muted)}
+.cv-definition strong {color:var(--ink)}
+.cv-balance {margin-top:var(--space-4)}
+.cv-balance > div {display:flex;flex-direction:column;gap:6px;max-width:30em;padding:14px;border:1px dashed var(--muted);border-radius:var(--radius);background:var(--card)}
+.cv-balance strong {font:700 31px/1 var(--serif);letter-spacing:-.045em;font-variant-numeric:tabular-nums}
+.cv-balance span {font-size:13px;line-height:1.35;color:var(--muted)}
+.cv-balance span:first-of-type {color:var(--ink);font-weight:650}
+.cv-studies {display:grid;gap:var(--space-2);margin-top:var(--space-4)}
+.cv-study {padding:var(--space-4);border:1px solid var(--line);border-left:3px solid var(--share-2);border-radius:var(--radius);background:var(--paper-2)}
+.cv-study-tag {display:flex;align-items:center;gap:6px;margin:0 0 6px;font-size:12px;color:var(--muted)}
+.cv-study-tag .cv-tier {margin:0}
+.cv-study h5 {margin:0 0 4px;font:700 18px/1.2 var(--serif);letter-spacing:-.02em}
+.cv-study-meta {margin:0 0 var(--space-2);font-size:13px;color:var(--muted)}
+.cv-study blockquote {margin:0 0 var(--space-2);padding-left:var(--space-3);border-left:2px solid var(--line);font:400 16px/1.4 var(--serif);color:var(--ink)}
+.cv-study-link {margin:0;overflow-wrap:anywhere}
+
+/* Amazon: the added lenses as a small standalone section after the case study */
+.company-lenses .distribution-heading h3 {font-size:clamp(25px,3.6vw,34px)}
+.company-lenses .distribution-heading p:last-child {font-size:14px}
+
+/* How we got these numbers */
+.cv-provenance {border-top:1px solid var(--line);background:var(--card)}
+.cv-provenance > summary {display:flex;align-items:center;gap:var(--space-2);padding:var(--space-4) var(--space-5);cursor:pointer;list-style:none;font-size:15px;font-weight:750;color:var(--ink);border-radius:var(--radius-sm)}
+.cv-provenance > summary::-webkit-details-marker {display:none}
+.cv-provenance > summary::before {content:"";flex:none;width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg);transition:transform 150ms var(--ease)}
+.cv-provenance[open] > summary::before {transform:rotate(45deg) translate(-2px,-1px)}
+.cv-provenance > summary:hover {color:var(--muted)}
+.cv-provenance > summary:focus-visible {outline-offset:-4px}
+.cv-provenance > :not(summary) {margin-inline:var(--space-5)}
+.cv-proof-intro {margin-top:0;margin-bottom:var(--space-3);font-size:13px;color:var(--muted)}
+.cv-provenance a {color:var(--ink);text-underline-offset:3px;overflow-wrap:anywhere}
+.cv-provenance a:hover {color:var(--muted)}
+.cv-provenance h4 {margin-top:var(--space-4);margin-bottom:var(--space-1);font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.cv-proof-list {margin-top:0;margin-bottom:0;padding:0;list-style:none}
+.cv-provenance .cv-proof-list:last-child {margin-bottom:var(--space-5)}
+.cv-proof {padding:10px 0;border-top:1px solid var(--line);font-size:13px;line-height:1.4}
+.cv-proof-head {display:flex;justify-content:space-between;align-items:baseline;gap:var(--space-3)}
+.cv-proof-head strong {font-size:14px;overflow-wrap:anywhere}
+.cv-proof-value {flex:none;max-width:50%;text-align:right;font-weight:700;font-variant-numeric:tabular-nums}
+.cv-proof-meta {display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px;margin:2px 0 0;color:var(--muted)}
+.cv-proof-meta .cv-tier {margin:0}
+.cv-proof-note {margin:4px 0 0;color:var(--muted);max-width:60em;overflow-wrap:anywhere}
+.cv-proof blockquote {margin:6px 0 0;padding-left:var(--space-3);border-left:2px solid var(--line);font:400 14px/1.4 var(--serif);color:var(--ink);max-width:60em;overflow-wrap:anywhere}
+.cv-proof-source {margin:4px 0 0}
+.cv-proof-source a::after {content:" ↗";content:" ↗" / "";font-size:12px}
+.company-value.is-provenance-only .cv-provenance {border-top:0}
+
 /* One compact sources row per tab */
 .cv-sources {display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;margin-top:var(--space-4);padding-top:var(--space-3);border-top:1px solid var(--line);font-size:14px}
 .cv-sources-label {font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
@@ -73,8 +132,15 @@
 .cv-sources a::after {content:" ↗";content:" ↗" / "";font-size:12px}
 
 @media (max-width:560px) {
-  /* Four tabs share the row without scrolling: columns sized by content, labels wrap between words. */
+  /* Up to four tabs share the row without scrolling: columns sized by content, labels wrap between words. */
   .company-value .distribution-tabs button {flex:1 1 auto;min-width:min-content;padding:10px 4px 8px;font-size:12px;line-height:1.15}
+  /* Five or six tabs: two rows of three, so every label stays visible. */
+  .company-value .distribution-tabs.cv-tabs-many {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:0 var(--space-2)}
+  .company-value .distribution-tabs.cv-tabs-many button {min-width:0;text-align:center}
+  .cv-provenance > summary {padding:var(--space-3) var(--space-4)}
+  .cv-provenance > :not(summary) {margin-inline:var(--space-4)}
+  .cv-per-dollar {font-size:18px}
+  .cv-balance strong {font-size:26px}
   .cv-bar {height:28px}
   .cv-totals strong {font-size:26px}
   .cv-segments li {grid-template-columns:minmax(0,1fr) 72px;row-gap:4px}

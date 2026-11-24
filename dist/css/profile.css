@@ -19,7 +19,7 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
 
 /* Sticky top bar */
 .profile-top {position:sticky;top:0;z-index:3;display:flex;align-items:center;gap:var(--space-3);min-height:var(--profile-bar);padding:var(--space-2) var(--space-5);border-bottom:1px solid var(--line);background:var(--paper)}
-.profile-top .eyebrow {margin:0 auto 0 0;font-size:12px;white-space:nowrap}
+.profile-top .eyebrow {min-width:0;margin:0 auto 0 0;overflow:hidden;font-size:12px;white-space:nowrap;text-overflow:ellipsis}
 .profile-nav {display:flex;align-items:center;gap:var(--space-1)}
 .profile-step {display:flex;align-items:center;gap:var(--space-2);min-height:40px;padding:var(--space-1) var(--space-3);border-radius:var(--radius-sm);color:var(--ink);text-decoration:none;line-height:1.15;transition:background-color 150ms var(--ease)}
 .profile-step[data-step="next"] {text-align:right}
@@ -57,6 +57,9 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
 .profile-stats .stat-jobs strong,.profile-stats .stat-payroll strong {color:var(--share-rest-ink)}
 .profile-stats .stat-payroll {background:var(--share-rest-soft)}
 .profile-stats .stat-payroll dt,.profile-stats .stat-payroll dd span {color:#3c5a45}
+.profile-lenses {max-width:62em;margin:calc(-1 * var(--space-3)) 0 var(--space-5);font-size:13px;line-height:1.45;color:var(--muted)}
+.profile-lenses a {color:var(--ink);font-weight:650;text-underline-offset:3px}
+.profile-lenses a:hover {color:var(--muted)}
 
 /* Generic operating footprint (Amazon uses its own .amazon-footprint; .zoom is shared) */
 .footprint {display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);border:1px solid var(--map-line);border-radius:var(--radius);overflow:hidden;background:var(--map);color:var(--night-text)}
@@ -145,6 +148,10 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
   .profile-stats strong {font-size:28px}
   .profile-stats dd span {font-size:12px}
   .profile-bottom section {padding:var(--space-4)}
+}
+@media (max-width:415px) {
+  /* With two-digit ranks in the nav the eyebrow runs ~2px over at 390px: tighten it rather than overflow. */
+  .profile-top .eyebrow {letter-spacing:.06em}
 }
 @media (max-width:380px) {
   .profile-top .eyebrow {display:none}

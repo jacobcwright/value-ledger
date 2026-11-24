@@ -24,14 +24,28 @@ for (const file of files.filter(f => f.endsWith(".json") || f.endsWith(".webmani
   try { JSON.parse(fs.readFileSync(file, "utf8")); } catch (error) { fail(`invalid JSON in ${path.relative(root, file)}: ${error.message}`); }
 }
 
-// 3. index.html references only files that exist, and has no inline scripts (the CSP forbids them).
-const html = fs.readFileSync(path.join(dist, "index.html"), "utf8");
-for (const [, ref] of html.matchAll(/(?:src|href)="([^"#:]+?)"/g)) {
-  const local = ref.replace(/^\//, "").split("?")[0];
-  if (local && !fs.existsSync(path.join(dist, local))) fail(`index.html references missing file: ${ref}`);
+// 3. Each page references only files that exist, and has no inline scripts (the CSP forbids them).
+// Extensionless links ("/methodology") resolve the way Workers Static Assets serves them: <path>.html or <path>/index.html.
+const resolves = local => {
+  const target = path.join(dist, local);
+  if (fs.existsSync(target) && fs.statSync(target).isFile()) return true;
+  return !path.extname(local) && [target + ".html", path.join(target, "index.html")].some(file => fs.existsSync(file));
+};
+for (const page of ["index.html", "methodology.html", "404.html"]) {
+  const file = path.join(dist, page);
+  if (!fs.existsSync(file)) { fail(`${page} is missing`); continue; }
+  const html = fs.readFileSync(file, "utf8");
+  for (const [, ref] of html.matchAll(/(?:src|href)="([^"#:]+?)"/g)) {
+    const local = ref.replace(/^\//, "").split("?")[0];
+    if (local && !resolves(local)) fail(`${page} references missing file: ${ref}`);
+  }
+  for (const [tag] of html.matchAll(/<script(?![^>]*\bsrc=)(?![^>]*application\/ld\+json)[^>]*>/g)) fail(`inline script in ${page}: ${tag}`);
+  if (/\son[a-z]+="/i.test(html)) fail(`inline event handler attribute in ${page}`);
 }
-for (const [tag] of html.matchAll(/<script(?![^>]*\bsrc=)(?![^>]*application\/ld\+json)[^>]*>/g)) fail(`inline script in index.html: ${tag}`);
-if (/\son[a-z]+="/i.test(html)) fail("inline event handler attribute in index.html");
+// Pages listed in the sitemap exist.
+for (const [, loc] of fs.readFileSync(path.join(dist, "sitemap.xml"), "utf8").matchAll(/<loc>https:\/\/valueforhumanity\.com\/([^<]*)<\/loc>/g)) {
+  if (loc && !resolves(loc)) fail(`sitemap.xml lists a missing page: /${loc}`);
+}
 
 // 4. The data snapshot loads and every leader is complete.
 const leaders = new Function(fs.readFileSync(path.join(dist, "data.js"), "utf8") + ";return leaders")();
@@ -47,14 +61,21 @@ for (const leader of leaders) {
   if (!Array.isArray(leader.sites) || !leader.sites.length) fail(`${leader.id}: no operating sites`);
 }
 
-// 5. Company value-sharing data shipped to the site (if any) is one file per known leader.
+// 5. Company data shipped to the site (if any) is one file per known leader, listed in companies.json,
+// and coverage.json covers every leader.
 const companiesDir = path.join(dist, "companies");
-if (fs.existsSync(companiesDir)) {
-  for (const file of fs.readdirSync(companiesDir)) {
-    const id = path.basename(file, ".json");
-    if (!seen.has(id)) fail(`dist/companies/${file} does not match a leader id`);
-  }
-}
+const shipped = fs.existsSync(companiesDir) ? fs.readdirSync(companiesDir).map(file => path.basename(file, ".json")) : [];
+for (const id of shipped) if (!seen.has(id)) fail(`dist/companies/${id}.json does not match a leader id`);
+try {
+  const listed = JSON.parse(fs.readFileSync(path.join(dist, "companies.json"), "utf8")).published || [];
+  for (const id of listed) if (!shipped.includes(id)) fail(`companies.json lists ${id} but dist/companies/${id}.json is missing`);
+  for (const id of shipped) if (!listed.includes(id)) fail(`dist/companies/${id}.json is not listed in companies.json`);
+} catch (error) { fail(`dist/companies.json unreadable: ${error.message}`); }
+try {
+  const coverage = JSON.parse(fs.readFileSync(path.join(dist, "coverage.json"), "utf8"));
+  const covered = new Set((coverage.leaders || []).map(entry => entry.id));
+  for (const id of seen) if (!covered.has(id)) fail(`coverage.json is missing ${id}`);
+} catch (error) { fail(`dist/coverage.json unreadable: ${error.message}`); }
 
 if (errors.length) {
   console.error(`Site check failed (${errors.length}):\n` + errors.map(e => "  ✗ " + e).join("\n"));
