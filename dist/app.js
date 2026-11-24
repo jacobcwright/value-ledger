@@ -132,21 +132,54 @@ render();
 
 const dialog = byId("profile");
 let profileGlobe, previousHash = "#ranking";
+// Previous/next leader links live in the sticky bar. They are created once and updated in place,
+// so keyboard focus survives paging. Paging replaces the hash so Back and Close still leave the profile.
+const profileNav = document.createElement("nav");
+profileNav.className = "profile-nav";
+profileNav.setAttribute("aria-label","Browse the ranking");
+profileNav.innerHTML = ["prev","next"].map(step => `<a class="profile-step" data-step="${step}" href="#ranking">${step === "prev" ? '<span class="step-arrow" aria-hidden="true">←</span>' : ""}<span class="step-text"><small></small><span class="step-name"></span></span>${step === "next" ? '<span class="step-arrow" aria-hidden="true">→</span>' : ""}</a>`).join("");
+dialog.querySelector(".profile-top").insertBefore(profileNav,byId("close"));
+byId("close").autofocus = true;
+profileNav.addEventListener("click",event => {
+  const link = event.target.closest("a.profile-step");
+  if (!link || event.button || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+  event.preventDefault();
+  location.replace(link.getAttribute("href"));
+});
+function updateProfileNav(leader) {
+  const rank = sortedByCap.indexOf(leader);
+  const focused = profileNav.contains(document.activeElement) ? document.activeElement : null;
+  for (const link of profileNav.querySelectorAll(".profile-step")) {
+    const isPrev = link.dataset.step === "prev";
+    const target = sortedByCap[rank + (isPrev ? -1 : 1)];
+    link.hidden = !target;
+    if (!target) continue;
+    link.href = "#leader/" + target.id;
+    link.querySelector("small").textContent = "No. " + (sortedByCap.indexOf(target) + 1);
+    link.querySelector(".step-name").textContent = target.name;
+    link.setAttribute("aria-label",(isPrev ? "Previous leader: " : "Next leader: ") + "No. " + (sortedByCap.indexOf(target) + 1) + ", " + target.name);
+  }
+  if (focused?.hidden) (profileNav.querySelector(".profile-step:not([hidden])") || byId("close")).focus();
+}
 function openProfile(leader, section) {
   profileGlobe?.destroy();
   const isAmazon = leader.id === "jeff-bezos";
+  const rank = sortedByCap.indexOf(leader) + 1;
   const figures = [
-    [compactMoney(leader.cap),metrics.cap],[integer.format(leader.jobs),metrics.jobs],
-    [compactMoney(leader.payroll),metrics.payroll]
+    ["cap",metrics.cap,compactMoney(leader.cap),"Market capitalization, year-end 2024"],
+    ["jobs",metrics.jobs,integer.format(leader.jobs),"Directly, worldwide · " + escapeHtml(leader.fy)],
+    ["payroll",metrics.payroll,compactMoney(leader.payroll),"At " + dollars.format(leader.wage) + " per person"]
   ];
+  updateProfileNav(leader);
   byId("profile-body").innerHTML = `
-    <div class="profile-title">${portrait(leader,true)}<div><p class="eyebrow">NO. ${sortedByCap.indexOf(leader)+1} BY VALUE CREATED</p><h2 id="profile-title">${escapeHtml(leader.name)}</h2><p>${escapeHtml(leader.role)} · ${escapeHtml(leader.company)}</p></div></div>
-    <div class="profile-stats">${figures.map(([value,label]) => `<div><strong>${value}</strong><span>${label}</span></div>`).join("")}</div>
+    <header class="profile-title">${portrait(leader,true)}<div class="profile-heading"><p class="eyebrow">NO. ${rank} BY VALUE CREATED <span aria-hidden="true">·</span> ${escapeHtml(leader.sector.toUpperCase())}</p><h2 id="profile-title">${escapeHtml(leader.name)}</h2><p class="profile-role">${escapeHtml(leader.role)} · <strong>${escapeHtml(leader.company)}</strong> <span class="profile-ticker">${escapeHtml(leader.ticker)}</span></p></div></header>
+    <p class="profile-lede">${escapeHtml(leader.company)} employs <strong>${integer.format(leader.jobs)} people</strong>, who together earn an estimated <strong>${compactMoney(leader.payroll)} a year</strong>.</p>
+    <dl class="profile-stats">${figures.map(([key,label,value,note]) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong>${value}</strong><span>${note}</span></dd></div>`).join("")}</dl>
     ${isAmazon ? '<p class="amazon-profile-links"><button type="button" id="show-amazon-map">Explore where Amazon creates value</button></p>' : ""}
     ${isAmazon ? amazonDistribution(leader) : ""}
     ${isAmazon ? amazonFootprint() : `<section class="footprint" aria-labelledby="footprint-title">
       <div class="map-pane">
-        <div class="map-heading"><h3 id="footprint-title">Operating footprint</h3><p>Drag to rotate · Select a location</p></div>
+        <div class="map-heading"><p class="map-kicker">${escapeHtml(leader.company.toUpperCase())}</p><h3 id="footprint-title">Operating footprint</h3><p>Drag to rotate · Select a location</p></div>
         <canvas id="profile-globe" tabindex="0" aria-label="${escapeHtml(leader.company)} globe. Use arrow keys to rotate and plus or minus to zoom. Location buttons are also available."></canvas>
         <div class="zoom" aria-label="Globe zoom"><button id="zoom-out" type="button" aria-label="Zoom out">−</button><button id="zoom-in" type="button" aria-label="Zoom in">+</button></div>
       </div>
@@ -157,14 +190,16 @@ function openProfile(leader, section) {
       </div>
     </section>`}
     <div class="profile-bottom">
-      <section><h3>What workers could earn together</h3><p>Adjust the assumed yearly pay per person to see how the total changes.</p>
-        <label for="wage">Assumed yearly pay per person <output id="wage-label" for="wage">${dollars.format(leader.wage)}</output></label>
-        <input id="wage" type="range" min="75" max="125" step="1" value="100" aria-valuetext="${dollars.format(leader.wage)}">
+      <section class="profile-scenario" aria-labelledby="scenario-title"><h3 id="scenario-title">What workers could earn together</h3><p>Adjust the assumed yearly pay per person to see how the total changes.</p>
         <div class="scenario"><span>${metrics.payroll}</span><strong id="scenario-total" aria-live="polite">${compactMoney(leader.payroll)}</strong></div>
+        <label for="wage">Assumed yearly pay per person <output id="wage-label" for="wage">${dollars.format(leader.wage)}</output></label>
+        <input id="wage" type="range" min="75" max="125" step="1" value="100" style="--fill:50%" aria-valuetext="${dollars.format(leader.wage)}">
+        <div class="range-scale" aria-hidden="true"><span>−25%</span><span>Our estimate</span><span>+25%</span></div>
+        <button class="scenario-reset" id="wage-reset" type="button" hidden>Reset to our estimate</button>
       </section>
-      <section><h3>Sources</h3><p>Employment figures are from ${escapeHtml(leader.fy)}. Value created uses the company’s market capitalization at year-end 2024.</p>
+      <section class="profile-sources" aria-labelledby="sources-title"><h3 id="sources-title">Sources</h3><p>Employment figures are from ${escapeHtml(leader.fy)}. Value created uses the company’s market capitalization at year-end 2024.</p>
         <div class="sources">${externalLink(leader.jobsUrl,"Employment source")}${externalLink(leader.capUrl,"Company value source")}${externalLink(leader.bio,"Biography")}</div>
-        <p class="photo-credit">Portrait cropped for display. ${externalLink(leader.photo,leader.artist)} · ${externalLink(leader.licenseUrl,leader.license)}</p>
+        <p class="photo-credit">Portrait cropped for display. Photo: ${externalLink(leader.photo,leader.artist)} · ${externalLink(leader.licenseUrl,leader.license)}</p>
       </section>
     </div>`;
   if (!dialog.open) dialog.showModal();
@@ -197,12 +232,22 @@ function openProfile(leader, section) {
     byId("zoom-in").addEventListener("click",() => profileGlobe.magnify(.12));
     byId("zoom-out").addEventListener("click",() => profileGlobe.magnify(-.12));
   }
-  byId("wage").addEventListener("input",event => {
-    const wage = leader.wage * Number(event.target.value) / 100;
+  const wageInput = byId("wage"), wageReset = byId("wage-reset");
+  function updateWage() {
+    const percent = Number(wageInput.value);
+    const wage = leader.wage * percent / 100;
     const wageText = dollars.format(wage);
     byId("wage-label").textContent = wageText;
-    event.target.setAttribute("aria-valuetext",wageText);
+    wageInput.setAttribute("aria-valuetext",wageText);
+    wageInput.style.setProperty("--fill",(percent - 75) * 2 + "%");
     byId("scenario-total").textContent = compactMoney(leader.jobs * wage / 1e9);
+    wageReset.hidden = percent === 100;
+  }
+  wageInput.addEventListener("input",updateWage);
+  wageReset.addEventListener("click",() => {
+    wageInput.value = 100;
+    updateWage();
+    wageInput.focus();
   });
 }
 let lastHash = location.hash;
