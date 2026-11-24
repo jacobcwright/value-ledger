@@ -82,7 +82,7 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
 .profile-role strong {color:var(--ink);font-weight:650}
 .profile-ticker {display:inline-block;margin-left:var(--space-1);padding:1px 6px;border:1px solid var(--line);border-radius:var(--radius-sm);font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--muted);vertical-align:1px}
 
-/* Four stats: market value, people, paid out, and estimated pay (shown apart: it is inside paid out) */
+/* Stats: the four headline figures, then people employed and estimated pay (shown apart: it is inside paid out) */
 .profile-stats {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:0;border-top:1px solid var(--ink);border-bottom:1px solid var(--line)}
 .profile-stats > div {display:flex;flex-direction:column;gap:var(--space-3);min-width:0;padding:var(--space-4) var(--space-4) var(--space-5);border-left:1px solid var(--line)}
 .profile-stats > div:first-child {border-left:0;padding-left:0}
@@ -93,8 +93,19 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
 .profile-stats .stat-jobs strong,.profile-stats .stat-payroll strong {color:var(--share-rest-ink)}
 .profile-stats .stat-payroll {background:var(--share-rest-soft)}
 .profile-stats .stat-payroll dt,.profile-stats .stat-payroll dd span {color:#3c5a45}
-.profile-stats dd strong span {font-size:inherit;color:inherit}
+.profile-stats dd strong span {font-size:inherit;line-height:inherit;color:inherit}
 .profile-stats strong.is-text {font-size:clamp(20px,1rem + 1vw,26px);letter-spacing:-.01em;white-space:normal}
+/* The headline (value created · held by others · paid out · their stake). Held by others is everyone else: blue. */
+.profile-stats .stat-others strong {color:var(--share-rest-ink)}
+.profile-stats dt {overflow-wrap:anywhere}
+.profile-stats .stat-networth {display:block;padding-top:var(--space-2);border-top:1px solid var(--line);font-size:12px}
+.profile-stats .stat-networth a {color:var(--ink-2)}
+.profile-stats .stat-networth .cv-tier {display:inline-block;margin:var(--space-1) 0 0;font-size:11px;vertical-align:1px}
+.profile-stats .stat-pending {color:var(--muted)}
+/* Workers, under the headline: people employed and estimated pay, in the headline's first two columns */
+.profile-stats-workers {border-top:0}
+.profile-stats-workers strong {font-size:clamp(26px,1.1rem + 1.1vw,34px)}
+.profile-stats-workers > div:nth-child(2) {border-right:1px solid var(--line)}
 
 .profile-overview-more {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--space-6);align-items:start;margin-top:var(--space-5)}
 .profile-lenses {max-width:40em;margin:0;font-size:14px;line-height:1.55;color:var(--muted)}
@@ -179,6 +190,7 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
   .profile-stats > div:nth-child(3) {border-left:0;padding-left:0}
   .profile-stats > div:nth-child(n+3) {border-top:1px solid var(--line)}
   .profile-stats .stat-payroll {padding-left:var(--space-4)}
+  .profile-stats-workers > div:nth-child(2) {border-right:0}
 }
 
 /* Phones: a full-screen sheet, padded by every safe area */
@@ -205,6 +217,7 @@ dialog:not([open])::backdrop {background-color:#0f1b1c00;backdrop-filter:blur(0)
   .profile-stats .stat-payroll {padding-left:var(--space-3)}
   .profile-stats strong {font-size:clamp(26px,7.6vw,32px)}
   .profile-stats strong.is-text {font-size:20px}
+  .profile-stats-workers strong {font-size:clamp(24px,6.6vw,28px)}
   .profile-overview-more {grid-template-columns:minmax(0,1fr);gap:var(--space-5)}
   .profile-scenario {padding:var(--space-4)}
   .profile-scenario input[type=range] {height:var(--tap);margin-block:0}

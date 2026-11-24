@@ -73,6 +73,26 @@ function paidOutFor(leader) {
   const sales = finiteNumber(entry.salesEnabledUsd) ? entry.salesEnabledUsd : 0;
   return {comparable:true,total:base + sales,base,sales,adjusted,fiscalYear:entry.fiscalYear || ""};
 }
+// The profile headline (dist/headline.json, written by scripts/build-companies.mjs): value created, held by
+// others, paid out & sales enabled and their stake, per leader, in billions of USD. The ownership figures use
+// the same function as the profile's ownership section (ownership-headline.js), run by the build.
+let headline = null;
+const headlineReady = fetch("headline.json")
+  .then(response => response.ok ? response.json() : null)
+  .catch(() => null)
+  .then(list => { headline = list && typeof list === "object" ? list : {}; return headline; });
+const headlinePercent = value => value.toFixed(1) + "%";
+// "2025-03-07" → "March 2025".
+function monthYear(value) {
+  const match = /^(\d{4})-(\d{2})/.exec(value || "");
+  return match ? new Date(Date.UTC(+match[1],+match[2] - 1,1)).toLocaleDateString("en-US",{timeZone:"UTC",month:"long",year:"numeric"}) : "";
+}
+// The stake in one phrase, for the home row: "Their stake $202B", "Walton family stake $330B", "Their stake under $532.7M".
+function stakePhrase(entry) {
+  if (["own","derived","family"].includes(entry.stakeBasis) && finiteNumber(entry.stakeUsd)) return `${escapeHtml(entry.stakeLabel)} ${compactMoney(entry.stakeUsd)}`;
+  if (entry.stakeBasis === "under1" && finiteNumber(entry.stakeBelowUsd)) return `Their stake under ${compactMoney(entry.stakeBelowUsd)}`;
+  return "";
+}
 const metricValue = (leader,metric) => metric === "paidout" ? paidOutFor(leader)?.total ?? null : leader[metric];
 function paidOutCell(leader) {
   const figure = paidOutFor(leader);
@@ -105,9 +125,18 @@ function rankingRow(leader,rank,metric) {
     </tr>
     <tr class="detail" id="detail-${leader.id}"${open ? "" : " hidden"}><td colspan="7"><div class="detail-panel">
       <img class="portrait" src="${leader.image}" alt="" width="96" height="96" loading="lazy" decoding="async">
-      <div class="detail-text"><p class="detail-name">${escapeHtml(leader.name)}</p><p class="detail-role">${escapeHtml(leader.role)} · ${escapeHtml(leader.company)}</p><p class="detail-line">${detailLine(leader)}</p></div>
+      <div class="detail-text"><p class="detail-name">${escapeHtml(leader.name)}</p><p class="detail-role">${escapeHtml(leader.role)} · ${escapeHtml(leader.company)}</p>${detailHeadline(leader)}<p class="detail-line">${detailLine(leader)}</p></div>
       <a class="detail-profile" href="#leader/${leader.id}">View profile</a>
     </div></td></tr>`;
+}
+// The open row's headline: "Value created $2.35T · Held by others $2.15T · Their stake $202B", from headline.json.
+function detailHeadline(leader) {
+  const entry = headline && headline[leader.id];
+  if (!entry) return "";
+  const items = [`Value created ${compactMoney(leader.cap)}`,
+    finiteNumber(entry.heldByOthersUsd) ? `Held by others ${compactMoney(entry.heldByOthersUsd)}` : "",
+    stakePhrase(entry)].filter(Boolean);
+  return `<p class="detail-headline">${items.join(' <span aria-hidden="true">·</span> ')}</p>`;
 }
 // The open row's one line: what the company paid out, in USD, in its own fiscal year.
 function detailLine(leader) {
@@ -210,6 +239,8 @@ paidOutReady.then(() => {
   rankings.paidout = rankBy("paidout");
   render();
 });
+// headline.json fills each row panel's headline line.
+headlineReady.then(render);
 
 const dialog = byId("profile");
 let profileGlobe, previousHash = "#ranking", profileToken = 0;
@@ -327,15 +358,53 @@ chipRow.addEventListener("click",event => {
 dialog.addEventListener("scrollend",() => { chipLock = 0; updateActiveChip(); });
 window.addEventListener("resize",() => { if (dialog.open) observeChips(); });
 
+// The four headline figures, side by side: value created · held by others · paid out & sales enabled · their
+// stake. Before headline.json arrives the last three show a placeholder; a leader missing from it shows "—".
+function headlineStats(leader) {
+  const loading = !headline;
+  const entry = headline ? headline[leader.id] : null;
+  const pending = '<span class="stat-pending" aria-label="Loading">…</span>';
+  const cell = (key, label, value, notes, text = false) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong${text ? ' class="is-text"' : ""}>${value}</strong>${notes.filter(Boolean).map(note => `<span>${note}</span>`).join("")}</dd></div>`;
+  const cells = [cell("cap",metrics.cap,compactMoney(leader.cap),["Market capitalization, year-end 2024"])];
+  // Held by others: value created × the ownership headline's "Everyone else".
+  if (loading) cells.push(cell("others","Held by others",pending,[""]));
+  else if (entry && finiteNumber(entry.heldByOthersUsd)) cells.push(cell("others","Held by others",compactMoney(entry.heldByOthersUsd),[`${headlinePercent(entry.heldByOthersPct)} of shares, owned by index funds, pensions, savers and others`]));
+  else cells.push(cell("others","Held by others","—",[escapeHtml(entry?.heldByOthersNote || "No stake disclosed")]));
+  // Paid out & sales enabled, per year (the company's fiscal year), in USD.
+  let paid, paidNote, paidText = false;
+  if (loading) { paid = "…"; paidNote = "To employees, suppliers, partners, lenders and governments"; }
+  else if (entry?.comparable === false) { paid = "Not comparable"; paidText = true; paidNote = "A bank’s or broker’s cash flows are mostly customers’ deposits and loans"; }
+  else if (!entry || !finiteNumber(entry.paidOutUsd)) { paid = "—"; paidText = true; paidNote = "Not available"; }
+  else {
+    const sales = finiteNumber(entry.salesEnabledUsd) ? entry.salesEnabledUsd : 0;
+    paid = compactMoney(entry.paidOutUsd + sales);
+    paidNote = [`Per year${entry.paidOutFy ? ", " + escapeHtml(entry.paidOutFy) : ""}`,entry.paidOutAdjusted ? "adjusted for customer lending" : "",sales ? `incl. ${compactMoney(sales)} sales enabled` : ""].filter(Boolean).join(" · ");
+  }
+  cells.push(cell("paidout",metrics.paidout,`<span id="stat-paidout">${paid}</span>`,[`<span id="stat-paidout-note">${paidNote}</span>`],paidText));
+  // Their stake: own or derived stake × value created; the family's (so labelled) where the headline is family-based.
+  const label = escapeHtml(entry?.stakeLabel || "Their stake");
+  const netWorth = entry?.netWorth && finiteNumber(entry.netWorth.value) && /^https:\/\//.test(entry.netWorth.sourceUrl || "")
+    ? `<span class="stat-networth">${entry.netWorth.withFamily ? "Net worth (with family)" : "Net worth"}: ${compactMoney(entry.netWorth.value)} (${externalLink(entry.netWorth.sourceUrl,(entry.netWorth.sourceLabel || "Third-party") + " estimate")}${monthYear(entry.netWorth.asOf) ? ", " + monthYear(entry.netWorth.asOf) : ""}) <span class="cv-tier">Third-party estimate</span></span>`
+    : "";
+  if (loading) cells.push(cell("stake",label,pending,[""]));
+  else if (["own","derived","family"].includes(entry?.stakeBasis) && finiteNumber(entry.stakeUsd)) {
+    const derived = entry.stakeBasis === "derived" ? ` <span class="cv-derived"${entry.stakeMethod ? ` title="${escapeHtml(entry.stakeMethod)}"` : ""}>derived</span>` : "";
+    const includes = entry.stakeIncludesLeader ? ` · includes ${escapeHtml(leader.name)}’s own` : "";
+    cells.push(cell("stake",label,compactMoney(entry.stakeUsd),[`${headlinePercent(entry.stakePct)} of shares${includes}${derived}`,netWorth]));
+  } else if (entry?.stakeBasis === "under1" && finiteNumber(entry.stakeBelowUsd)) {
+    cells.push(cell("stake",label,`Under 1% (&lt; ${compactMoney(entry.stakeBelowUsd)})`,["Exact stake not disclosed",netWorth],true));
+  } else cells.push(cell("stake",label,"—",[escapeHtml(entry?.stakeNote || "No stake disclosed"),netWorth]));
+  return cells.join("");
+}
+
 function openProfile(leader, section) {
   profileGlobe?.destroy();
   const token = ++profileToken;
   const isAmazon = leader.id === "jeff-bezos";
   const rank = sortedByCap.indexOf(leader) + 1;
-  const figures = [
-    ["cap",metrics.cap,compactMoney(leader.cap),"Market capitalization, year-end 2024"],
+  // Workers, under the headline: people employed and estimated pay (inside paid out, never added to it).
+  const workerFigures = [
     ["jobs",metrics.jobs,integer.format(leader.jobs),"Directly, worldwide · " + escapeHtml(leader.fy)],
-    ["paidout",metrics.paidout,'<span id="stat-paidout">…</span>','<span id="stat-paidout-note">To employees, suppliers, partners, lenders and governments</span>'],
     ["payroll",metrics.payroll,compactMoney(leader.payroll),"At " + dollars.format(leader.wage) + " per person · part of paid out, never added to it"]
   ];
   updateProfileNav(leader);
@@ -343,7 +412,8 @@ function openProfile(leader, section) {
   byId("profile-body").innerHTML = `
     <div class="profile-section profile-overview" id="profile-overview" data-chip="Overview">
       <header class="profile-title">${portrait(leader,true)}<div class="profile-heading"><p class="eyebrow">NO. ${rank} BY VALUE CREATED <span aria-hidden="true">·</span> ${escapeHtml(leader.sector.toUpperCase())}</p><h2 id="profile-title">${escapeHtml(leader.name)}</h2><p class="profile-role">${escapeHtml(leader.role)} · <strong>${escapeHtml(leader.company)}</strong> <span class="profile-ticker">${escapeHtml(leader.ticker)}</span></p></div></header>
-      <dl class="profile-stats">${figures.map(([key,label,value,note]) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong>${value}</strong><span>${note}</span></dd></div>`).join("")}</dl>
+      <dl class="profile-stats profile-headline" id="profile-headline" aria-label="The headline">${headlineStats(leader)}</dl>
+      <dl class="profile-stats profile-stats-workers" aria-label="Workers">${workerFigures.map(([key,label,value,note]) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong>${value}</strong><span>${note}</span></dd></div>`).join("")}</dl>
       <div class="profile-overview-more">
         <div class="profile-lenses-wrap">
           <p class="profile-lenses">Value created is measured here as market value, which counts only what owners keep. The sections below show more of the value ${escapeHtml(leader.company)} created, each on its own. Only paid out combines figures, and only its own parts; it never adds estimated pay, market value or another lens. <a href="/methodology">Methodology</a></p>
@@ -383,18 +453,17 @@ function openProfile(leader, section) {
   if (!dialog.open) dialog.showModal();
   dialog.scrollTo({top:0,behavior:"instant"});
   buildChips();
-  paidOutReady.then(() => {
-    const value = byId("stat-paidout"), note = byId("stat-paidout-note");
-    if (!value || dialog.dataset.leader !== leader.id) return;
-    const figure = paidOutFor(leader);
-    value.textContent = figure?.comparable ? compactMoney(figure.total) : figure ? "Not comparable" : "—";
-    value.parentElement.classList.toggle("is-text",!figure?.comparable);
+  // The headline renders from headline.json on open; if that file is still on its way, it fills in on arrival.
+  const fillHeadline = () => {
+    const list = byId("profile-headline");
+    if (!list || dialog.dataset.leader !== leader.id) return;
+    list.innerHTML = headlineStats(leader);
     // Pay sits inside paid out only where paid out is shown.
-    if (!figure?.comparable) document.querySelector("#profile-body .stat-payroll dd span").textContent = "At " + dollars.format(leader.wage) + " per person";
-    note.textContent = !figure ? "Not available"
-      : !figure.comparable ? "A bank’s or broker’s cash flows are mostly customers’ deposits and loans"
-      : [figure.fiscalYear,figure.adjusted ? "adjusted for customer lending" : "",figure.sales ? `incl. ${compactMoney(figure.sales)} sales enabled` : ""].filter(Boolean).join(" · ");
-  });
+    const entry = headline[leader.id];
+    if (!(entry?.comparable && finiteNumber(entry.paidOutUsd))) document.querySelector("#profile-body .stat-payroll dd span").textContent = "At " + dollars.format(leader.wage) + " per person";
+  };
+  if (headline) fillHeadline();
+  else headlineReady.then(fillHeadline);
 
   // Deep links scroll once the sections above their target have loaded, so the target doesn't move after.
   const jump = (target, focusTarget) => {
@@ -477,7 +546,7 @@ function openProfile(leader, section) {
 // on the next open.
 const profileScripts = new Map();
 function loadProfileScripts() {
-  return Promise.all(["amazon-distribution.js","company-value.js"].map(src => {
+  return Promise.all(["amazon-distribution.js","ownership-headline.js","company-value.js"].map(src => {
     if (!profileScripts.has(src)) profileScripts.set(src,new Promise((resolve,reject) => {
       const script = document.createElement("script");
       script.src = src;

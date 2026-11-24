@@ -18,13 +18,19 @@
 //   FOOTPRINT_GATE=off skips the verified.json check for footprint rows only (local previews; never
 //   commit output built that way). Amazon keeps its own footprint panel, so its file is not published.
 // - research/lenses/ecosystem/_nordhaus.json, when present and sourced, is published inside coverage.json.
+// - research/lenses/networth/<id>.json (a third-party estimate of the leader's net worth, validated by
+//   validateNetworthFile) publishes as `networth` under the strict gate, never for a deceased leader.
+// - dist/headline.json: the four figures at the top of every profile (and the home row's one line), so the
+//   profile shows them on open without waiting for its company file. The ownership arithmetic is
+//   dist/ownership-headline.js, the same file company-value.js runs in the page; see headlineFor() below.
+//   Money fields are billions of USD, like data.js and dist/paidout.json.
 // Files in dist/companies that this run did not publish are deleted. Exits 0 even when things are
 // skipped, so a half-researched set never blocks a deploy.
 import fs from "node:fs";
 import path from "node:path";
 import {spawnSync} from "node:child_process";
 import {fileURLToPath} from "node:url";
-import {validateLensFile, lensDirs, fileLenses, validatePaidoutFile, validateOwnersFile, figureSources, paidOutFrom, altPaidOutFrom, lendingGrowth, salesEnabledFrom, sameAmount, fxYear, fxRates, managersList} from "./validate-lenses.mjs";
+import {validateLensFile, lensDirs, fileLenses, validatePaidoutFile, validateOwnersFile, figureSources, paidOutFrom, altPaidOutFrom, lendingGrowth, salesEnabledFrom, sameAmount, fxYear, fxRates, managersList, validateNetworthFile, networthPublisher} from "./validate-lenses.mjs";
 import {validateFootprintFile, metricScale, FOOTPRINT_LAYERS} from "./validate-footprint.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -37,7 +43,7 @@ const SKIP_RECORD = new Set(["jeff-bezos"]);
 const MIRRORS = /dfcfw\.com|9to5mac|seekingalpha|marketscreener|macrotrends|stockanalysis|companiesmarketcap|wsj\.com|reuters\.com|bloomberg|yahoo\.|investing\.com|wikipedia|annualreports\.com|last10k|fintel|gurufocus/;
 // Record lenses (from research/records) and the added lenses, in the order the profile shows them.
 const RECORD_LENSES = ["ownership", "workers", "cash", "geography"];
-const ADDED_LENSES = ["ecosystem", "taxes", "rnd", "paidout", "footprint"];
+const ADDED_LENSES = ["ecosystem", "taxes", "rnd", "paidout", "footprint", "networth"];
 // Amazon keeps its own ownership case study, so its owners file is not published.
 const SKIP_OWNERS = new Set(["jeff-bezos"]);
 const SKIP_FOOTPRINT = new Set(["jeff-bezos"]);
@@ -45,6 +51,10 @@ const FOOTPRINT_GATE = process.env.FOOTPRINT_GATE !== "off";
 const MAX_SITES = 12;
 
 const leaders = new Function(fs.readFileSync(path.join(root, "dist/data.js"), "utf8") + ";return leaders")();
+// The page's own scripts, run here so the build and the profile share one set of rules: the ownership
+// headline (company-value.js calls the same function) and Amazon's case-study holdings.
+const ownershipHeadline = new Function(fs.readFileSync(path.join(root, "dist/ownership-headline.js"), "utf8") + ";return ownershipHeadline")();
+const amazonOwnership = new Function(fs.readFileSync(path.join(root, "dist/amazon-distribution.js"), "utf8") + ";return amazonOwnership")();
 
 // ---- Gate ------------------------------------------------------------------------------------
 let verified = null;
@@ -399,6 +409,101 @@ function ownersFor(id, record) {
 }
 const countOwners = o => !o ? 0 : [o.nbim, o.calpers, o.holdersOfRecord].filter(Boolean).length + Object.keys(o.managers).length;
 
+// ---- Net worth (third-party estimate) ----------------------------------------------------------------
+// research/lenses/networth/<id>.json, gated like paid out (source verified ok and its quotes checked). The only
+// lens with hostType "publisher". A deceased leader has no current net worth, so a file for one is not published.
+const networthStats = {files: 0, published: 0, blocked: 0, skipped: []};
+const networthList = new Map();
+function networthFor(id, record) {
+  const result = validateNetworthFile(id);
+  if (!result.exists) return null;
+  networthStats.files++;
+  if (result.errs.length) { networthStats.skipped.push([id, result.errs]); return null; }
+  const nw = result.record.netWorth;
+  if (!nw || typeof nw.value !== "number") return null;
+  if (record?.ownership?.leader?.status === "deceased") { networthStats.skipped.push([id, ["leader is deceased"]]); return null; }
+  if (!strictPasses(nw.source)) { networthStats.blocked++; return null; }
+  networthStats.published++;
+  const listKey = [nw.list || "", networthPublisher(nw), nw.asOf].join("|");
+  const listed = networthList.get(listKey) || {list: nw.list ? String(nw.list) : null, publisher: networthPublisher(nw), asOf: String(nw.asOf), count: 0};
+  listed.count++;
+  networthList.set(listKey, listed);
+  // The list names some entries "… & family": a family fortune, labelled "with family" on the site.
+  const withFamily = /"name":"[^"]*&\s*family"/i.test(String(nw.source.quote));
+  return {value: nw.value, asOf: String(nw.asOf), publisher: networthPublisher(nw), ...(nw.list ? {list: String(nw.list)} : {}),
+    // The quote (the list's raw JSON record, with the publisher's bio) is verified by verify-quotes but not republished.
+    ...(withFamily ? {withFamily: true} : {}), tier: "third-party", source: {hostType: nw.source.hostType, url: nw.source.url, label: String(nw.source.label)},
+    researchedAt: result.record.researchedAt || null};
+}
+
+// ---- Profile headline (dist/headline.json) -------------------------------------------------------------
+// The four figures at the top of each profile, side by side:
+//   Value created     data.js market value (billions of USD).
+//   Held by others    value created × the ownership headline's "Everyone else" share (100% minus the leader's
+//                     stake and any family holding, rounded exactly as the headline rounds it); null when the
+//                     headline prints no "Everyone else" (no own or family stake).
+//   Paid out          dist/paidout.json's ranked base (adjusted for customer lending when disclosed) and sales enabled.
+//   Their stake       the leader's own (or derived) stake × value created; the family's when the headline is
+//                     family-based (labelled as the family's, never the person's); "under1" when only "less than
+//                     1%" is known (stakeBelowUsd is 1% of value created); null with a reason otherwise.
+const headlineList = {};
+const headlineStats = {others: 0, stake: {own: 0, derived: 0, family: 0, under1: 0, none: 0}};
+const round4 = value => Math.round(value * 1e4) / 1e4;
+const capFirst = text => text.charAt(0).toUpperCase() + text.slice(1);
+// Why a figure shows "—", by the leader's status in the ownership record (default: "No stake disclosed").
+const OTHERS_NOTE = {under1: "Exact stake not disclosed", shares: "Exact stake not disclosed", deceased: "No personal stake reported", "no-reported-stake": "No reported stake"};
+const STAKE_NOTE = {deceased: "Deceased; no personal stake reported", "no-reported-stake": "No reported stake", shares: "Shares disclosed, no percentage"};
+function headlineFor(leader, out, networth) {
+  const cap = leader.cap;
+  let stakes = null;
+  if (leader.id === "jeff-bezos") {
+    // Amazon's ownership is its case study (amazon-distribution.js): Bezos's direct shares ÷ shares outstanding,
+    // and "Everyone else" rounded with the case study's own toFixed(1).
+    const {sharesOutstanding, holders} = amazonOwnership, founder = holders[0];
+    const pct = 100 * founder.shares / sharesOutstanding;
+    stakes = {self: {pct, derived: null}, family: null, familyBased: false, hasOthers: true, leaderStatus: null,
+      othersPct: Number((100 * (sharesOutstanding - founder.shares) / sharesOutstanding).toFixed(1))};
+  } else if (out) stakes = ownershipHeadline(out);
+  const entry = {valueCreatedUsd: cap, heldByOthersUsd: null, heldByOthersPct: null, heldByOthersNote: null,
+    stakeUsd: null, stakePct: null, stakeBasis: null, stakeLabel: "Their stake", stakeNote: null};
+  if (stakes?.hasOthers) {
+    const pct = Math.round(stakes.othersPct * 10) / 10;
+    if (!(pct >= 0 && pct <= 100)) throw new Error(`headline/${leader.id}: "Everyone else" ${stakes.othersPct}% is outside 0–100`);
+    Object.assign(entry, {heldByOthersPct: pct, heldByOthersUsd: round6(cap * pct / 100)});
+    headlineStats.others++;
+  } else entry.heldByOthersNote = OTHERS_NOTE[stakes?.leaderStatus] || "No stake disclosed";
+  if (stakes?.familyBased) {
+    const {family} = stakes;
+    Object.assign(entry, {stakeBasis: "family", stakePct: family.pct, stakeUsd: round6(cap * family.pct / 100), stakeLabel: capFirst(family.label) + " stake",
+      ...(family.includesLeader ? {stakeIncludesLeader: true} : {})});
+  } else if (stakes?.self) {
+    Object.assign(entry, {stakeBasis: stakes.self.derived ? "derived" : "own", stakePct: round4(stakes.self.pct), stakeUsd: round6(cap * stakes.self.pct / 100),
+      ...(stakes.self.derived ? {stakeMethod: stakes.self.derived} : {})});
+  } else if (stakes?.leaderStatus === "under1") {
+    Object.assign(entry, {stakeBasis: "under1", stakeBelowUsd: round6(cap / 100)});
+  } else entry.stakeNote = STAKE_NOTE[stakes?.leaderStatus] || "No stake disclosed";
+  headlineStats.stake[entry.stakeBasis || "none"]++;
+  const po = paidoutList[leader.id];
+  const base = po ? (typeof po.adjustedUsd === "number" ? po.adjustedUsd : po.usd) : null;
+  Object.assign(entry, {
+    paidOutUsd: po?.comparable && typeof base === "number" ? base : null,
+    paidOutAdjusted: Boolean(po?.comparable && typeof po.adjustedUsd === "number"),
+    salesEnabledUsd: po?.comparable && typeof po.salesEnabledUsd === "number" ? po.salesEnabledUsd : null,
+    paidOutFy: po?.fiscalYear || null,
+    comparable: po ? po.comparable : null,
+    netWorth: networth ? {value: networth.value, asOf: networth.asOf, sourceUrl: networth.source.url, sourceLabel: networth.publisher,
+      ...(networth.withFamily ? {withFamily: true} : {})} : null
+  });
+  headlineList[leader.id] = entry;
+}
+// The page must run the same ownership function, loaded before company-value.js; fail the build if either drifts.
+{
+  const app = fs.readFileSync(path.join(root, "dist/app.js"), "utf8"), value = fs.readFileSync(path.join(root, "dist/company-value.js"), "utf8");
+  if (!/ownershipHeadline\(record\)/.test(value)) throw new Error("company-value.js no longer calls ownershipHeadline(record); dist/headline.json would drift from the ownership section");
+  const order = /\["amazon-distribution\.js","ownership-headline\.js","company-value\.js"\]/.test(app);
+  if (!order) throw new Error("app.js loadProfileScripts() must load ownership-headline.js right before company-value.js");
+}
+
 const published = [], skipped = [], lensSkipped = [], coverage = [];
 let blockedTotal = 0;
 const recordCount = fs.existsSync(recordsDir) ? fs.readdirSync(recordsDir).filter(f => f.endsWith(".json")).length : 0;
@@ -430,7 +535,8 @@ for (const leader of leaders) {
   const footprint = footprintFor(id);
   const paidout = paidoutFor(id);
   const owners = ownersFor(id, record);
-  if (!record && !Object.keys(lenses).length && !footprint && !paidout) continue;
+  const networth = networthFor(id, record);
+  if (!record && !Object.keys(lenses).length && !footprint && !paidout && !networth) { headlineFor(leader, null, null); continue; }
   // Amazon (and any leader whose record failed) publishes only its lenses under a minimal header.
   let out = record ? {...record, ...lenses} : {id, ...(header || {company: leader.company}), lensesOnly: true, ...lenses};
   const stats = {blocked: 0};
@@ -441,6 +547,9 @@ for (const leader of leaders) {
   // Gated with the strict rule inside paidoutFor and ownersFor, so they too join after the generic gate.
   if (paidout) out.paidout = paidout;
   if (owners && out.ownership) out.owners = owners;
+  if (networth) out.networth = networth;
+  // From the file exactly as published, so the profile's top figures match its ownership section.
+  headlineFor(leader, out, networth);
   fs.writeFileSync(path.join(outDir, id + ".json"), JSON.stringify(out) + "\n");
   published.push(id);
 
@@ -460,6 +569,9 @@ for (const leader of leaders) {
 fs.writeFileSync(path.join(root, "dist/companies.json"), JSON.stringify({published}) + "\n");
 // The ranking's "Paid out & sales enabled" column, in USD, for every leader with a paid-out file.
 fs.writeFileSync(path.join(root, "dist/paidout.json"), JSON.stringify(paidoutList) + "\n");
+// The profile headline for every leader, in data.js order.
+if (Object.keys(headlineList).length !== leaders.length) throw new Error(`headline.json has ${Object.keys(headlineList).length} leaders, expected ${leaders.length}`);
+fs.writeFileSync(path.join(root, "dist/headline.json"), JSON.stringify(headlineList) + "\n");
 
 // ---- Nordhaus finding (methodology page) -------------------------------------------------------
 // Shape assumed (not yet specified in LENSES.md): { "title", "author", "year", "claim", "quote",
@@ -488,7 +600,9 @@ fs.writeFileSync(path.join(root, "dist/coverage.json"), JSON.stringify({
   lenses: [...RECORD_LENSES, ...ADDED_LENSES],
   gated: Boolean(verified),
   leaders: leaders.map(leader => coverage.find(entry => entry.id === leader.id) || {id: leader.id, name: leader.name, company: leader.company, lenses: {}}),
-  ...(nordhaus ? {nordhaus} : {})
+  ...(nordhaus ? {nordhaus} : {}),
+  // The net-worth list the profiles cite (methodology page): its name, publisher and the date its figures were measured.
+  ...(networthList.size ? {networth: [...networthList.values()].sort((a, b) => b.count - a.count)} : {})
 }) + "\n");
 
 // Remove anything in dist/companies that this run did not publish.
@@ -512,6 +626,9 @@ if (footprintStats.files) {
 console.log(`  paidout: ${paidoutStats.published}/${paidoutStats.files} files published (recomputed from inputs), ${paidoutStats.blocked} figures null by the strict gate; dist/paidout.json has ${Object.keys(paidoutList).length} leaders`);
 console.log(`  owners: ${ownersStats.published}/${ownersStats.files} files published, ${ownersStats.blocked} sources null by the strict gate`);
 for (const [label, list] of [["paidout", paidoutStats.skipped], ["owners", ownersStats.skipped]]) for (const [id, reasons] of list) console.log(`  ✗ ${label}/${id}: ${reasons.slice(0, 3).join("; ")}`);
+console.log(`  networth: ${networthStats.published}/${networthStats.files} files published (the rest have no list entry), ${networthStats.blocked} blocked by the strict gate`);
+for (const [id, reasons] of networthStats.skipped) console.log(`  ✗ networth/${id}: ${reasons.slice(0, 3).join("; ")}`);
+console.log(`  headline.json: ${Object.keys(headlineList).length} leaders; held by others ${headlineStats.others}; stake ${Object.entries(headlineStats.stake).map(([k, n]) => `${k} ${n}`).join(" · ")}`);
 if (nordhaus) console.log("  nordhaus: published in coverage.json");
 if (skipped.length) {
   console.log(`Records skipped ${skipped.length}:`);
