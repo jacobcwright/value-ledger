@@ -70,7 +70,7 @@
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000016/snap-202524xexx991pressrel.htm",
         "label": "Q4 2024 earnings release (Form 8-K Exhibit 99.1), supplemental financial information and business metrics",
-        "quote": "Q3 2023 | Q4 2023 | Q1 2024 | Q2 2024 | Q3 2024 | Q4 2024 … DAU by region (in millions) | North America | 101 | 100 | 100 | 100 | 100 | 100 … ARPU by region | North America | $ | 7.82 | $ | 8.96 | $ | 7.44 | $ | 7.67 | $ | 8.54 | $ | 9.73"
+        "quote": "Q3 2023 | Q4 2023 | Q1 2024 | Q2 2024 | Q3 2024 | Q4 2024 … DAU by region (in millions) | North America | 101 | 100 | 100 | 100 | 100 | 100 … ARPU by region | North America | $ | 7.82 | $ | 8.96 | $ | 7.44 | $ | 7.67 | $ | 8.54 | $ | 9.73 [DAU in millions]"
       }
     },
     {
@@ -85,7 +85,7 @@
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000016/snap-202524xexx991pressrel.htm",
         "label": "Q4 2024 earnings release (Form 8-K Exhibit 99.1), supplemental financial information and business metrics",
-        "quote": "Q3 2023 | Q4 2023 | Q1 2024 | Q2 2024 | Q3 2024 | Q4 2024 … Europe | 95 | 96 | 96 | 97 | 99 | 99 … Europe | $ | 2.11 | $ | 2.49 | $ | 2.04 | $ | 2.36 | $ | 2.52 | $ | 2.89"
+        "quote": "Q3 2023 | Q4 2023 | Q1 2024 | Q2 2024 | Q3 2024 | Q4 2024 … Europe | 95 | 96 | 96 | 97 | 99 | 99 … Europe | $ | 2.11 | $ | 2.49 | $ | 2.04 | $ | 2.36 | $ | 2.52 | $ | 2.89 [DAU in millions]"
       }
     },
     {
@@ -100,7 +100,7 @@
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000016/snap-202524xexx991pressrel.htm",
         "label": "Q4 2024 earnings release (Form 8-K Exhibit 99.1), supplemental financial information and business metrics",
-        "quote": "Q3 2023 | Q4 2023 | Q1 2024 | Q2 2024 | Q3 2024 | Q4 2024 … Rest of World | 211 | 218 | 226 | 235 | 244 | 254 … Rest of World | $ | 0.96 | $ | 1.03 | $ | 1.13 | $ | 1.02 | $ | 1.09 | $ | 1.19"
+        "quote": "Q3 2023 | Q4 2023 | Q1 2024 | Q2 2024 | Q3 2024 | Q4 2024 … Rest of World | 211 | 218 | 226 | 235 | 244 | 254 … Rest of World | $ | 0.96 | $ | 1.03 | $ | 1.13 | $ | 1.02 | $ | 1.09 | $ | 1.19 [DAU in millions]"
       }
     },
     {

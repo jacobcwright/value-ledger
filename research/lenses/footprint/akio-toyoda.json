@@ -46,7 +46,7 @@
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
         "label": "FY2025 Form 20-F, Item 6.D (Employees) and Item 4.B (production)",
-        "quote": "Location | | Number of Employees | … Japan | | 203,504 … The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … Japan | | | | 3,789 | | | | 4,042 | | | | 4,000"
+        "quote": "Location | | Number of Employees | … Japan | | 203,504 … The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … Japan | | | | 3,789 | | | | 4,042 | | | | 4,000 [production table in thousands of units]"
       }
     },
     {
@@ -78,7 +78,7 @@
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
         "label": "FY2025 Form 20-F, Items 6.D and 4.B",
-        "quote": "Location | | Number of Employees | … North America | | 65,294 … The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … North America | | | | 1,768 | | | | 1,976 | | | | 1,958"
+        "quote": "Location | | Number of Employees | … North America | | 65,294 … The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … North America | | | | 1,768 | | | | 1,976 | | | | 1,958 [production table in thousands of units]"
       }
     },
     {
@@ -93,7 +93,7 @@
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
         "label": "FY2025 Form 20-F, Items 6.D and 4.B",
-        "quote": "Location | | Number of Employees | … Europe | | 24,366 … The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … Europe | | | | 771 | | | | 846 | | | | 811"
+        "quote": "Location | | Number of Employees | … Europe | | 24,366 … The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … Europe | | | | 771 | | | | 846 | | | | 811 [production table in thousands of units]"
       }
     },
     {
@@ -108,7 +108,7 @@
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
         "label": "FY2025 Form 20-F, Items 6.D and 4.B",
-        "quote": "Location | | Number of Employees | … Asia | | 65,749 … The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … Asia. | | | | 1,859 | | | | 1,876 | | | | 1,790"
+        "quote": "Location | | Number of Employees | … Asia | | 65,749 … The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … Asia. | | | | 1,859 | | | | 1,876 | | | | 1,790 [production table in thousands of units]"
       }
     },
     {
@@ -136,7 +136,7 @@
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
         "label": "FY2025 Form 20-F, Item 4.B (vehicle unit production by geographic market)",
-        "quote": "The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … Other* | | | | 507 | | | | 523 | | | | 491 … “Other” consists of Central and South America and Africa."
+        "quote": "The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … Other* | | | | 507 | | | | 523 | | | | 491 … “Other” consists of Central and South America and Africa. [production table in thousands of units]"
       }
     }
   ],

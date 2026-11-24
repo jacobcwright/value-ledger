@@ -55,11 +55,13 @@ function cfWhen(metric, cells) {
   const tags = cfPeriodTags(metric,cells);
   return tags ? `<span class="cf-when"> · ${tags}</span>` : "";
 }
-const cfSummable = metric => metric.unit !== "percent" && metric.unit !== "currency-per-hour";
+const cfSummable = metric => metric.unit !== "percent" && metric.unit !== "currency-per-hour" && metric.unit !== "currency-per-user";
 function cfFormat(metric, value, plus = false) {
   const unit = metric.unit, abs = cfAbs(metric,value);
   let text;
   if (unit === "currency-per-hour") text = cvUnitMoney(value,metric.currency,2) + "/hr";
+  else if (unit === "currency-per-user") text = cvUnitMoney(value,metric.currency,2) + " per user";
+  else if (unit === "square-meters") text = integer.format(Math.round(abs)) + " m²";
   else if (unit.startsWith("currency")) text = cvMoney(abs / 1e9,metric.currency);
   else if (unit === "percent") text = decimal.format(value) + "%";
   else if (unit.startsWith("square-feet")) text = (abs >= 1e6 ? decimal.format(abs / 1e6) + "M" : integer.format(Math.round(abs))) + " sq ft";
@@ -69,7 +71,7 @@ function cfFormat(metric, value, plus = false) {
 // Short form for legend ticks.
 function cfTick(metric, value) {
   const unit = metric.unit, abs = cfAbs(metric,value);
-  if (unit === "currency-per-hour") return cvUnitMoney(value,metric.currency,value < 10 ? 2 : 0);
+  if (unit === "currency-per-hour" || unit === "currency-per-user") return cvUnitMoney(value,metric.currency,value < 10 ? 2 : 0);
   if (unit.startsWith("currency")) return cvMoney(abs / 1e9,metric.currency);
   if (unit === "percent") return decimal.format(value) + "%";
   return cfCompact.format(abs);

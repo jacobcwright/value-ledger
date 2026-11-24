@@ -24,7 +24,7 @@ const MIRRORS = /dfcfw\.com|9to5mac|seekingalpha|marketscreener|macrotrends|stoc
 // The five units FOOTPRINT.md names, plus scaled forms researchers have used. A metric with any other unit is
 // dropped with its values, not the whole file. UNIT_SCALE turns a unit's numbers into plain units.
 export const FOOTPRINT_UNITS = ["count","people","currency-millions","currency-billions","percent",
-  "count-thousands","people-thousands","currency","currency-thousands","currency-per-hour","square-feet","square-feet-millions"];
+  "count-thousands","people-thousands","currency","currency-thousands","currency-per-hour","currency-per-user","square-feet","square-feet-millions","square-meters"];
 export const UNIT_SCALE = {"count-thousands":1e3, "people-thousands":1e3, "currency-thousands":1e3, "currency-millions":1e6, "currency-billions":1e9, "square-feet-millions":1e6};
 // What one stored unit is worth in plain units. An explicit metrics[key].scale (1e3, 1e6…) wins; then the
 // unit's own scale; then a label such as "MAUs (millions)" or "RGUs, in thousands" for numbers stored as filed.

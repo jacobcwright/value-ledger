@@ -37,7 +37,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"AK\",\"count\":37,\"sum_DEPSUMBR\":6779209}"
+        "quote": "{\"STALPBR\":\"AK\",\"count\":37,\"sum_DEPSUMBR\":6779209} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -51,7 +51,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"AL\",\"count\":76,\"sum_DEPSUMBR\":9797577}"
+        "quote": "{\"STALPBR\":\"AL\",\"count\":76,\"sum_DEPSUMBR\":9797577} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -65,7 +65,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"AR\",\"count\":1,\"sum_DEPSUMBR\":310168}"
+        "quote": "{\"STALPBR\":\"AR\",\"count\":1,\"sum_DEPSUMBR\":310168} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -79,7 +79,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"AZ\",\"count\":156,\"sum_DEPSUMBR\":38291258}"
+        "quote": "{\"STALPBR\":\"AZ\",\"count\":156,\"sum_DEPSUMBR\":38291258} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -93,7 +93,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"CA\",\"count\":810,\"sum_DEPSUMBR\":301184339}"
+        "quote": "{\"STALPBR\":\"CA\",\"count\":810,\"sum_DEPSUMBR\":301184339} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -107,7 +107,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"CO\",\"count\":120,\"sum_DEPSUMBR\":33985651}"
+        "quote": "{\"STALPBR\":\"CO\",\"count\":120,\"sum_DEPSUMBR\":33985651} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -121,7 +121,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"CT\",\"count\":49,\"sum_DEPSUMBR\":8175997}"
+        "quote": "{\"STALPBR\":\"CT\",\"count\":49,\"sum_DEPSUMBR\":8175997} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -135,7 +135,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"DC\",\"count\":25,\"sum_DEPSUMBR\":10005282}"
+        "quote": "{\"STALPBR\":\"DC\",\"count\":25,\"sum_DEPSUMBR\":10005282} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -149,7 +149,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"DE\",\"count\":15,\"sum_DEPSUMBR\":2523518}"
+        "quote": "{\"STALPBR\":\"DE\",\"count\":15,\"sum_DEPSUMBR\":2523518} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -163,7 +163,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"FL\",\"count\":472,\"sum_DEPSUMBR\":91762228}"
+        "quote": "{\"STALPBR\":\"FL\",\"count\":472,\"sum_DEPSUMBR\":91762228} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -177,7 +177,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"GA\",\"count\":182,\"sum_DEPSUMBR\":46476052}"
+        "quote": "{\"STALPBR\":\"GA\",\"count\":182,\"sum_DEPSUMBR\":46476052} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -191,7 +191,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"IA\",\"count\":42,\"sum_DEPSUMBR\":8043265}"
+        "quote": "{\"STALPBR\":\"IA\",\"count\":42,\"sum_DEPSUMBR\":8043265} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -205,7 +205,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"ID\",\"count\":46,\"sum_DEPSUMBR\":6479002}"
+        "quote": "{\"STALPBR\":\"ID\",\"count\":46,\"sum_DEPSUMBR\":6479002} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -219,7 +219,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"IL\",\"count\":13,\"sum_DEPSUMBR\":9262078}"
+        "quote": "{\"STALPBR\":\"IL\",\"count\":13,\"sum_DEPSUMBR\":9262078} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -233,21 +233,21 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"KS\",\"count\":7,\"sum_DEPSUMBR\":893177}"
+        "quote": "{\"STALPBR\":\"KS\",\"count\":7,\"sum_DEPSUMBR\":893177} [FDIC amounts in thousands of dollars]"
       }
     },
     {
       "state": "MA",
       "values": {
         "offices": 1,
-        "deposits": 0.0
+        "deposits": 0
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"MA\",\"count\":1,\"sum_DEPSUMBR\":0}"
+        "quote": "{\"STALPBR\":\"MA\",\"count\":1,\"sum_DEPSUMBR\":0} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -261,21 +261,21 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"MD\",\"count\":75,\"sum_DEPSUMBR\":11694848}"
+        "quote": "{\"STALPBR\":\"MD\",\"count\":75,\"sum_DEPSUMBR\":11694848} [FDIC amounts in thousands of dollars]"
       }
     },
     {
       "state": "MI",
       "values": {
         "offices": 1,
-        "deposits": 0.0
+        "deposits": 0
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"MI\",\"count\":1,\"sum_DEPSUMBR\":0}"
+        "quote": "{\"STALPBR\":\"MI\",\"count\":1,\"sum_DEPSUMBR\":0} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -289,21 +289,21 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"MN\",\"count\":124,\"sum_DEPSUMBR\":48315082}"
+        "quote": "{\"STALPBR\":\"MN\",\"count\":124,\"sum_DEPSUMBR\":48315082} [FDIC amounts in thousands of dollars]"
       }
     },
     {
       "state": "MO",
       "values": {
         "offices": 1,
-        "deposits": 0.0
+        "deposits": 0
       },
       "plus": {},
       "source": {
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"MO\",\"count\":1,\"sum_DEPSUMBR\":0}"
+        "quote": "{\"STALPBR\":\"MO\",\"count\":1,\"sum_DEPSUMBR\":0} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -317,7 +317,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"MS\",\"count\":10,\"sum_DEPSUMBR\":814141}"
+        "quote": "{\"STALPBR\":\"MS\",\"count\":10,\"sum_DEPSUMBR\":814141} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -331,7 +331,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"MT\",\"count\":22,\"sum_DEPSUMBR\":3166340}"
+        "quote": "{\"STALPBR\":\"MT\",\"count\":22,\"sum_DEPSUMBR\":3166340} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -345,7 +345,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"NC\",\"count\":233,\"sum_DEPSUMBR\":56582167}"
+        "quote": "{\"STALPBR\":\"NC\",\"count\":233,\"sum_DEPSUMBR\":56582167} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -359,7 +359,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"ND\",\"count\":13,\"sum_DEPSUMBR\":1858726}"
+        "quote": "{\"STALPBR\":\"ND\",\"count\":13,\"sum_DEPSUMBR\":1858726} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -373,7 +373,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"NE\",\"count\":34,\"sum_DEPSUMBR\":5481802}"
+        "quote": "{\"STALPBR\":\"NE\",\"count\":34,\"sum_DEPSUMBR\":5481802} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -387,7 +387,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"NJ\",\"count\":209,\"sum_DEPSUMBR\":38497369}"
+        "quote": "{\"STALPBR\":\"NJ\",\"count\":209,\"sum_DEPSUMBR\":38497369} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -401,7 +401,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"NM\",\"count\":55,\"sum_DEPSUMBR\":9955733}"
+        "quote": "{\"STALPBR\":\"NM\",\"count\":55,\"sum_DEPSUMBR\":9955733} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -415,7 +415,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"NV\",\"count\":90,\"sum_DEPSUMBR\":22291193}"
+        "quote": "{\"STALPBR\":\"NV\",\"count\":90,\"sum_DEPSUMBR\":22291193} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -429,7 +429,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"NY\",\"count\":74,\"sum_DEPSUMBR\":42397803}"
+        "quote": "{\"STALPBR\":\"NY\",\"count\":74,\"sum_DEPSUMBR\":42397803} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -443,7 +443,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"OR\",\"count\":74,\"sum_DEPSUMBR\":12721221}"
+        "quote": "{\"STALPBR\":\"OR\",\"count\":74,\"sum_DEPSUMBR\":12721221} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -457,7 +457,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"PA\",\"count\":179,\"sum_DEPSUMBR\":38562984}"
+        "quote": "{\"STALPBR\":\"PA\",\"count\":179,\"sum_DEPSUMBR\":38562984} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -471,7 +471,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"SC\",\"count\":106,\"sum_DEPSUMBR\":19594735}"
+        "quote": "{\"STALPBR\":\"SC\",\"count\":106,\"sum_DEPSUMBR\":19594735} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -485,7 +485,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"SD\",\"count\":30,\"sum_DEPSUMBR\":354383345}"
+        "quote": "{\"STALPBR\":\"SD\",\"count\":30,\"sum_DEPSUMBR\":354383345} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -499,7 +499,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"TN\",\"count\":21,\"sum_DEPSUMBR\":1860003}"
+        "quote": "{\"STALPBR\":\"TN\",\"count\":21,\"sum_DEPSUMBR\":1860003} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -513,7 +513,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"TX\",\"count\":477,\"sum_DEPSUMBR\":82854201}"
+        "quote": "{\"STALPBR\":\"TX\",\"count\":477,\"sum_DEPSUMBR\":82854201} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -527,7 +527,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"UT\",\"count\":73,\"sum_DEPSUMBR\":12371531}"
+        "quote": "{\"STALPBR\":\"UT\",\"count\":73,\"sum_DEPSUMBR\":12371531} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -541,7 +541,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"VA\",\"count\":186,\"sum_DEPSUMBR\":38844913}"
+        "quote": "{\"STALPBR\":\"VA\",\"count\":186,\"sum_DEPSUMBR\":38844913} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -555,7 +555,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"WA\",\"count\":116,\"sum_DEPSUMBR\":20455526}"
+        "quote": "{\"STALPBR\":\"WA\",\"count\":116,\"sum_DEPSUMBR\":20455526} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -569,7 +569,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"WI\",\"count\":33,\"sum_DEPSUMBR\":4225226}"
+        "quote": "{\"STALPBR\":\"WI\",\"count\":33,\"sum_DEPSUMBR\":4225226} [FDIC amounts in thousands of dollars]"
       }
     },
     {
@@ -583,7 +583,7 @@
         "hostType": "regulator",
         "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A3511%20AND%20YEAR%3A2024&agg_by=STALPBR&agg_sum_fields=DEPSUMBR&agg_limit=60",
         "label": "FDIC Summary of Deposits API, Wells Fargo Bank, N.A. (FDIC cert 3511), June 30, 2024, aggregated by office state",
-        "quote": "{\"STALPBR\":\"WY\",\"count\":16,\"sum_DEPSUMBR\":2299310}"
+        "quote": "{\"STALPBR\":\"WY\",\"count\":16,\"sum_DEPSUMBR\":2299310} [FDIC amounts in thousands of dollars]"
       }
     }
   ],
