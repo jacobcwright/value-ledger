@@ -1,20 +1,37 @@
+/* About the data (home) and the site footer (every page). */
+
 /* About the data */
-.method {padding:var(--space-7) 0;border-top:1px solid var(--line)}
-.method h2 {margin:0 0 var(--space-4);font:400 24px/1.15 var(--serif);letter-spacing:-.02em}
-.method-summary {max-width:72ch;margin:0;color:var(--muted);font-size:15px;line-height:1.55}
-.method-foot {margin:var(--space-3) 0 0;color:var(--muted);font-size:13px}
-.method a {font-weight:650;color:var(--red-dark);text-underline-offset:3px}
+.method {padding:var(--space-section) 0;border-top:1px solid var(--line)}
+.method h2 {margin:0 0 var(--space-3);font:600 var(--text-lg)/1.15 var(--serif);letter-spacing:var(--tracking-heading)}
+.method-summary {max-width:68ch;margin:0;color:var(--ink-2);font-size:var(--text-sm);line-height:1.6}
+.method-foot {max-width:68ch;margin:var(--space-3) 0 0;color:var(--muted);font-size:var(--text-sm);line-height:1.7}
+.method a {font-weight:600;color:var(--red-dark);text-decoration-thickness:1px;text-underline-offset:3px;transition:color var(--dur-2) var(--ease)}
 .method a:hover {color:var(--red)}
 
 /* Footer */
-.site-footer {background:var(--night);color:var(--night-text);padding:var(--space-5) 0}
-.site-footer .wrap {display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-3) var(--space-5)}
-.site-footer .brand {color:var(--night-text)}
-.footer-edition {margin:0;font-size:13px;color:#dacec5}
-.footer-links {display:flex;flex-wrap:wrap;gap:var(--space-2) var(--space-5);margin-left:auto;font-size:13px;font-weight:600}
-.footer-links a {color:var(--night-text);text-decoration:none;text-underline-offset:4px}
+.site-footer {
+  background:var(--header-bg);color:var(--header-text);
+  padding:var(--space-6) 0 calc(var(--space-6) + var(--safe-bottom));
+}
+.site-footer .wrap {display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2) var(--space-5)}
+.site-footer .brand {gap:var(--space-2);font-size:19px;color:var(--header-text)}
+.site-footer .logo {width:24px;height:24px}
+.footer-edition {margin:0;font-size:var(--text-sm);color:var(--header-muted);font-variant-numeric:var(--figures)}
+.footer-links {display:flex;flex-wrap:wrap;gap:0 var(--space-5);margin-left:auto;font-size:var(--text-sm);font-weight:600}
+.footer-links a {display:inline-flex;align-items:center;min-height:32px;color:var(--header-text);text-decoration:none;text-underline-offset:4px}
 .footer-links a:hover {text-decoration:underline}
-.site-footer :focus-visible {outline-color:var(--gold)}
+.site-footer :focus-visible {outline-color:var(--focus-on-dark)}
+
+/* Phones: brand and edition share a line; the links become a row of full-height targets under a hairline. */
 @media (max-width:760px) {
-  .footer-links {margin-left:0;width:100%}
+  .site-footer {padding-top:var(--space-5)}
+  .site-footer .wrap {column-gap:var(--space-3)}
+  .site-footer .brand {font-size:17px}
+  .footer-links {width:100%;margin:var(--space-3) 0 0;padding-top:var(--space-2);border-top:1px solid var(--header-line);gap:0 var(--space-5)}
+}
+@media (pointer:coarse) {
+  .footer-links a {min-height:var(--tap)}
+}
+@media (prefers-reduced-motion:reduce) {
+  .method a {transition:none}
 }

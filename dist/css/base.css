@@ -1,64 +1,150 @@
+/* Value for Humanity: tokens and global rules. Every other stylesheet builds on these names; see DESIGN.md.
+   Existing token names are an API: keep them, add beside them. */
+
+/* Type, self-hosted (dist/fonts, SIL OFL 1.1). Latin subsets; the serif's Latin Extended glyphs (optical size fixed) load only when a page uses them. */
+@font-face {
+  font-family:"Source Serif 4";
+  src:url("/fonts/source-serif-4-latin.woff2") format("woff2");
+  font-weight:400 700; font-style:normal; font-display:swap;
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+20B9,U+2122,U+2190-2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face {
+  font-family:"Source Serif 4";
+  src:url("/fonts/source-serif-4-latin-ext.woff2") format("woff2");
+  font-weight:400 700; font-style:normal; font-display:swap;
+  unicode-range:U+0100-0130,U+0132-0151,U+0154-017F,U+0192,U+0218-021B,U+1EAF,U+207D-207E;
+}
+@font-face {
+  font-family:"Inter";
+  src:url("/fonts/inter-latin.woff2") format("woff2");
+  font-weight:400 700; font-style:normal; font-display:swap;
+}
+/* Metric-matched fallbacks, so the swap from Georgia or Arial barely moves the layout. */
+@font-face {font-family:"Source Serif 4 Fallback";src:local("Georgia");size-adjust:99.8%;ascent-override:103.8%;descent-override:33.6%;line-gap-override:0%}
+@font-face {font-family:"Inter Fallback";src:local("Arial"),local("Helvetica");size-adjust:106.3%;ascent-override:91.2%;descent-override:22.7%;line-gap-override:0%}
+
 :root {
   color-scheme:light;
-  /* Core palette (existing) */
-  --ink:#25201e; --muted:#625953; --paper:#fbf8f2; --line:#dfd7cc;
-  --night:#201c1b; --night-text:#fff8ed; --red:#9d271f; --red-dark:#84231b;
-  /* Shared tokens: use these instead of new one-off values */
-  --paper-2:#f3ebe0;        /* tinted section background */
-  --card:#fffdf8;           /* raised card surface */
-  --green:#287647;          /* value that is shared widely: workers, savers, "everyone else" */
-  --green-soft:#e3efe6;
-  /* Ownership palette (validated for color-vision deficiency): the individual is a recessive warm gray;
-     named holders and "everyone else" carry the color, so the majority reads first. No red/green. */
+
+  /* Neutrals. Contrast on --paper: ink 15.7:1, ink-2 9.9:1, muted 7.1:1 (6.4:1 on --paper-2), so muted text passes AA at any size. */
+  --paper:#fbf8f2; --paper-2:#f4ede2; --card:#fffdf9;
+  --ink:#221d1b; --ink-2:#463e3a; --muted:#5c534d;
+  --line:#e0d7cb;           /* hairlines and card borders (decorative) */
+  --line-strong:#8f8276;    /* control borders: 3.5:1 on --paper */
+  --red:#9d271f; --red-dark:#84231b;   /* brand chrome only: eyebrows, links, the title's "100" */
+
+  /* Dark surfaces. The header matches <meta name="theme-color"> (#201c1b): keep them in step. */
+  --night:#201c1b; --night-text:#fff8ed;
+  --header-bg:var(--night); --header-text:var(--night-text);
+  --header-muted:#d9cdc4;   /* 10.8:1 on the header */
+  --header-line:#ffffff14;
+
+  /* Data colours */
+  --green:#287647; --green-soft:#e3efe6;
+  /* Ownership palette (validated for colour-vision deficiency). The individual is a recessive warm gray; named holders
+     and "everyone else" carry the colour, so the majority reads first. Never red or green. */
   --share-self:#7d736c; --share-1:#6250d6; --share-2:#eda100; --share-3:#e87ba4; --share-rest:#2a78d6;
   --share-rest-soft:#e8f0fb; --share-rest-ink:#1d5aa6;
   --gold:#ffd298;           /* highlight on dark map surfaces */
   --map:#142023; --map-2:#1c2a2d; --map-line:#394b4b;
-  --radius-sm:4px; --radius:8px; --radius-lg:12px;
-  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:24px; --space-6:32px; --space-7:48px; --space-8:64px;
-  --shadow-1:0 1px 2px #25201e14, 0 2px 8px #25201e0d;
-  --shadow-2:0 8px 30px #25201e24;
+
+  /* Families */
+  --serif:"Source Serif 4","Source Serif 4 Fallback",Georgia,"Times New Roman",serif;
+  --sans:"Inter","Inter Fallback",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --figures:tabular-nums lining-nums;  /* use with font-variant-numeric, after any font: shorthand */
+
+  /* Fluid type scale: each step runs linearly from 320px to 1440px wide, then holds. */
+  --text-xs:clamp(.6875rem,.6696rem + .0893vw,.75rem);       /* 11 → 12: labels, eyebrows */
+  --text-sm:clamp(.8125rem,.7946rem + .0893vw,.875rem);      /* 13 → 14: UI, captions */
+  --text-base:clamp(1rem,.9821rem + .0893vw,1.0625rem);      /* 16 → 17: body */
+  --text-md:clamp(1.0625rem,1.0089rem + .2679vw,1.25rem);    /* 17 → 20: lead, dek */
+  --text-lg:clamp(1.3125rem,1.2232rem + .4464vw,1.625rem);   /* 21 → 26: small headings */
+  --text-xl:clamp(1.75rem,1.5357rem + 1.0714vw,2.5rem);      /* 28 → 40: section headings */
+  --text-2xl:clamp(2.25rem,1.8214rem + 2.1429vw,3.75rem);    /* 36 → 60: page headings */
+  --text-display:clamp(2.75rem,2.0357rem + 3.5714vw,5.25rem);/* 44 → 84: the title */
+  --leading-tight:1.04; --leading-snug:1.25; --leading-body:1.55;
+  --tracking-display:-.022em; --tracking-heading:-.015em; --tracking-label:.14em;
+
+  /* Space (fixed steps; the pixel values are relied on elsewhere) and layout */
+  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:24px; --space-6:32px; --space-7:48px; --space-8:64px; --space-9:96px;
+  --space-section:clamp(32px,24px + 2.5vw,56px);             /* vertical rhythm between page sections */
+  --max:1200px;
+  --gutter:clamp(16px,6.86px + 2.857vw,48px);                /* 16 at 320 → 48 at 1440 */
+  --gutter-l:max(var(--gutter),env(safe-area-inset-left,0px));
+  --gutter-r:max(var(--gutter),env(safe-area-inset-right,0px));
+  --header-h:56px;                                           /* header bar height, excluding the safe-area inset */
+  --sticky-top:0px;                                          /* where page-level sticky elements stick: below the header when it is sticky */
+  --safe-top:env(safe-area-inset-top,0px); --safe-bottom:env(safe-area-inset-bottom,0px);
+  --tap:44px;                                                /* minimum touch target on coarse pointers */
+
+  /* Shape and depth */
+  --radius-sm:4px; --radius:8px; --radius-lg:12px; --radius-pill:999px;
+  --shadow-1:0 1px 2px #221d1b14, 0 2px 8px #221d1b0d;
+  --shadow-2:0 8px 30px #221d1b24;
+  --shadow-3:0 -2px 12px #221d1b14, 0 24px 64px #221d1b38;  /* full-screen sheets and dialogs */
+
+  /* Motion */
   --ease:cubic-bezier(.2,.7,.2,1);
-  --focus:#b0563d;
-  --serif:Georgia, "Times New Roman", serif;
-  --sans:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-}
-*,*::before,*::after {box-sizing:border-box}
-html {scroll-behavior:smooth}
-body {margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 var(--sans)}
-a {color:inherit}
-button,input,select {font:inherit}
-button {cursor:pointer}
-:focus-visible {outline:3px solid #b0563d;outline-offset:3px}
-[hidden] {display:none!important}
-.wrap {width:min(1200px,calc(100% - 100px));margin-inline:auto}
-.top {background:var(--night);color:var(--night-text)}
-.nav {height:52px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.brand {display:inline-flex;align-items:center;gap:10px;text-decoration:none;font:700 26px/1 var(--serif);letter-spacing:-.04em;white-space:nowrap}
-.logo {display:block;width:30px;height:30px;flex:none}
-nav {display:flex;gap:27px;font-size:14px;font-weight:650}
-nav a {text-decoration:none}
-.top nav a:hover {text-decoration:underline;text-underline-offset:5px}
-.eyebrow {margin:0 0 12px;font-size:13px;font-weight:750;letter-spacing:.15em;color:var(--red);line-height:1.35}
-h2,h3,p {margin-top:0}
-h2 {font-family:var(--serif);font-weight:400;letter-spacing:-.065em}
-.portrait {display:block;object-fit:cover;object-position:center 30%;background:#e5d9cd}
-h2 {font-size:clamp(43px,5.6vw,70px);line-height:1;margin-bottom:12px}
-h3 {font-size:18px;margin-bottom:7px}
-@media (max-width:1000px) {
-  .wrap {width:calc(100% - 56px)}
+  --ease-in-out:cubic-bezier(.65,0,.35,1);
+  --dur-1:120ms; --dur-2:180ms; --dur-3:260ms;
+
+  /* Focus */
+  --focus:#b0563d;          /* 4.7:1 on --paper */
+  --focus-on-dark:var(--gold);
+  --focus-width:3px; --focus-offset:2px;
 }
 @media (max-width:760px) {
-  .wrap {width:calc(100% - 32px)}
-  .nav {height:48px}
-  .brand {font-size:21px}
-  nav {gap:13px}
+  :root {--header-h:50px;--sticky-top:calc(var(--header-h) + var(--safe-top))}
 }
-@media (max-width:415px) {
-  .brand {font-size:18px}
-  nav {gap:8px;font-size:12px}
+
+*,*::before,*::after {box-sizing:border-box}
+html {
+  scroll-behavior:smooth;
+  scroll-padding-top:calc(var(--sticky-top) + var(--space-3));
+  -webkit-text-size-adjust:100%; text-size-adjust:100%;
 }
+body {
+  margin:0;background:var(--paper);color:var(--ink);
+  font:400 var(--text-base)/var(--leading-body) var(--sans);
+  font-optical-sizing:auto;font-variant-numeric:lining-nums;
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;
+  -webkit-tap-highlight-color:transparent;
+}
+a {color:inherit}
+button,input,select,textarea {font:inherit;color:inherit}
+button {cursor:pointer}
+:focus-visible {outline:var(--focus-width) solid var(--focus);outline-offset:var(--focus-offset)}
+[hidden] {display:none!important}
+::selection {background:var(--share-rest-soft);color:var(--ink)}
+
+/* Figures: tabular, lining numerals. The font: shorthand resets this, so number-heavy rules restate it after the shorthand. */
+.num,.figures,td,th,data,output {font-variant-numeric:var(--figures)}
+
+.wrap {width:min(var(--max),100% - var(--gutter-l) - var(--gutter-r));margin-inline:auto}
+.eyebrow {margin:0 0 var(--space-3);font:650 var(--text-xs)/1.35 var(--sans);letter-spacing:var(--tracking-label);color:var(--red);font-variant-numeric:var(--figures)}
+h1,h2,h3,p {margin-top:0}
+h1,h2 {text-wrap:balance}
+h2 {font:400 var(--text-2xl)/1.02 var(--serif);letter-spacing:var(--tracking-display);margin-bottom:var(--space-3)}
+h3 {font-size:18px;line-height:var(--leading-snug);margin-bottom:7px}
+p {text-wrap:pretty}
+.portrait {display:block;object-fit:cover;object-position:center 30%;background:#e5d9cd}
+.visually-hidden {position:absolute!important;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+
+/* Base header bar (dark). Page layout of the bar lives in home-hero.css. */
+.top {background:var(--header-bg);color:var(--header-text)}
+.nav {height:var(--header-h);display:flex;align-items:center;justify-content:space-between;gap:var(--space-5)}
+.brand {display:inline-flex;align-items:center;gap:10px;text-decoration:none;font:600 22px/1 var(--serif);letter-spacing:-.012em;white-space:nowrap}
+.logo {display:block;width:28px;height:28px;flex:none}
+nav {display:flex;gap:var(--space-5);font-size:var(--text-sm);font-weight:600}
+nav a {text-decoration:none}
+
+/* Touch: give interactive controls a 44px target on coarse pointers. Opt other elements in with .tap. */
+@media (pointer:coarse) {
+  .tap,input:not([type="checkbox"]):not([type="radio"]):not([type="range"]),select {min-height:var(--tap)}
+  .tap {display:inline-flex;align-items:center}
+}
+
 @media (prefers-reduced-motion:reduce) {
   html {scroll-behavior:auto}
+  *,*::before,*::after {animation-duration:1ms!important;animation-iteration-count:1!important;transition-duration:1ms!important;scroll-behavior:auto!important}
 }
-.visually-hidden {position:absolute!important;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
