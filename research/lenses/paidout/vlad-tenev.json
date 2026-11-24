@@ -176,6 +176,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001783879-26-000023). Broker: paidOut not comparable (operating cash flow is driven by user payables, securities lending and receivables from users). altPaidOut = total operating expenses − D&A − stock comp + income taxes paid; interest paid (31m) shown separately. Business and asset acquisitions (399, mainly Bitstamp and WonderFi) are excluded from capex.",
+  "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001783879-26-000023). Broker: paidOut not comparable (operating cash flow is driven by user payables, securities lending and receivables from users). altPaidOut = total operating expenses − D&A − stock comp + income taxes paid; interest paid (31m) shown separately. Business and asset acquisitions (399, including Bitstamp, acquired in June 2025) are excluded from capex.",
   "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,31 @@
+{
+  "id": "lars-fruergaard-jrgensen",
+  "company": "Novo Nordisk A/S",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "DKK",
+  "employees": {
+    "value": 69505,
+    "asOf": "2025-12-31",
+    "basis": "year-end employees (total)",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+      "label": "Annual Report 2025, note 2.4 Employee costs, Number of employees",
+      "quote": "Year-end employees (total) 69,505 77,349 64,319"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Total employee costs for the year",
+    "value": 77.475,
+    "source": {
+      "hostType": "company",
+      "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+      "label": "Annual Report 2025, note 2.4 Employee costs",
+      "quote": "Total employee costs for the year 77,475 67,425 55,514 [DKK million, 2025, 2024, 2023]"
+    }
+  },
+  "notes": "Employees: year-end head count at 31 December 2025 (69,505, of which 68,794 full-time employees; the average number of full-time employees in 2025 was 76,343). The 2024 comparative is shown as 77,349 in note 2.4 (the sustainability statement gives 74,156); 2025 reflects a company-wide workforce reduction. Payroll: note 2.4 'Total employee costs for the year' of DKK 77,475 million as reported (wages and salaries, share-based payment, pensions, social security and other employee costs), before amounts capitalised into assets and inventories; the income-statement amount is DKK 71,805 million. Billions of DKK.",
+  "researchedAt": "2026-11-24"
+}

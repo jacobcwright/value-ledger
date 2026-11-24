@@ -54,14 +54,14 @@
         "publisher": "Amazon",
         "commissionedBy": "Amazon (self-published)",
         "year": 2026,
-        "claim": "Independent sellers in the US averaged more than $375,000 in annual sales in Amazon's store in 2025; more than 75,000 independent sellers surpassed $1 million in sales.",
+        "claim": "Independent sellers in the US averaged more than $375,000 in annual sales in Amazon's store in 2025.",
         "value": null,
         "currency": "USD",
         "unit": "billions",
         "source": {
           "hostType": "company",
           "url": "https://cdn-sellingpartners.aboutamazon.com/b2/13/5095e06e4689acedd33672e047d9/small-business-empowerment-report-2025.pdf",
-          "label": "Amazon 2025 Small Business Empowerment Report (published April 2026), introduction and 'At a glance' page",
+          "label": "Amazon 2025 Small Business Empowerment Report (published April 2026), 'At a glance' page and introduction",
           "quote": "In addition, more than 75,000 independent sellers surpassed $1 million in sales … Independent sellers in the US averaged more than $375,000 in annual sales in Amazon's store in 2025."
         }
       }

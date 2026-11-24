@@ -98,7 +98,7 @@
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
-        "label": "FY2025 Form 10-K, Note 18 Share-Based Payments, additional information",
+        "label": "FY2025 Form 10-K, Note 16 Share-Based Payments, additional information",
         "quote": "Share-based compensation expense $ 597 $ 526 $ 460 [in millions, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001141391",

@@ -1,0 +1,31 @@
+{
+  "id": "lee-jae-yong",
+  "company": "Samsung Electronics",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "KRW",
+  "employees": {
+    "value": 259149,
+    "asOf": "2025-12-31",
+    "basis": "number of employees as of year end (global, consolidated; excluding those dispatched by partner companies, on leave, interns and full-time students)",
+    "source": {
+      "hostType": "company",
+      "url": "https://www.samsung.com/global/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2026_ENG.pdf",
+      "label": "Samsung Electronics Sustainability Report 2026, Employee Status",
+      "quote": "Employee Status 2023 2024 2025 ... Number of employees Individuals 267,860 262,647 259,149 ... 1) Number of employees: As of year end (excluding those dispatched by partner companies, on leave, interns, and full-time students)"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Wages and salaries",
+    "value": 37094.712,
+    "source": {
+      "hostType": "company",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf",
+      "label": "2025 Business Report, consolidated financial statements, Note 21 Expenses by Nature (KRW million)",
+      "quote": "Expenses by nature for the years ended December 31, 2025 and 2024 are as follows: ... Wages and salaries 37,094,712 32,877,167 Post-employment benefit 1,798,189 1,571,338"
+    }
+  },
+  "notes": "Employees: global year-end head count from the 2026 Sustainability Report (Korea 124,564, global 134,585). The business report's own employee table is separate-basis only (128,881 domestic employees with total compensation of KRW 19,799,762 million), so it is not paired with consolidated figures. Payroll: the consolidated 'Wages and salaries' line of the expenses-by-nature note (KRW 37,094,712 million). Judgment call: the note reports no single total staff cost; post-employment benefit (KRW 1,798,189 million) and welfare (KRW 7,448,772 million) are separate lines and are not added. Samsung has no CEO pay ratio.",
+  "researchedAt": "2026-11-24"
+}

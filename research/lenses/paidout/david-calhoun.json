@@ -116,6 +116,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001628280-26-004357). Operating cash flow was small (1,065) after a further inventory build (1,501) and lower advances (−723), so paidOut (91.34bn) slightly exceeds revenue. Revenue and operating cash flow include a $9,672 million pre-tax gain on the Digital Aviation Solutions divestiture only through net earnings; the $10,585 million proceeds are investing and excluded, as are acquisitions (1,248, net of cash; the Spirit AeroSystems acquisition was paid mainly in shares) and supplier notes receivable (662).",
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0001628280-26-004357). Operating cash flow was small (1,065) after a further inventory build (1,501) and lower advances (−723), so paidOut (91.34bn) slightly exceeds revenue. The $9,672 million gain on dispositions (mainly the Digital Aviation Solutions divestiture) is not in revenue and is backed out of operating cash flow as a non-cash item; the $10,585 million proceeds are investing and excluded, as are acquisitions (1,248, net of cash; the Spirit AeroSystems acquisition was paid mainly in shares) and supplier notes receivable (662).",
  "researchedAt": "2026-11-24"
 }

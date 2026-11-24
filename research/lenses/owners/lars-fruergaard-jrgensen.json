@@ -2,18 +2,18 @@
   "id": "lars-fruergaard-jrgensen",
   "company": "Novo Nordisk",
   "nbim": {
-    "pct": 1.75,
-    "marketValueUSD": 6.783,
-    "asOf": "2024-12-31",
+    "pct": 1.58,
+    "marketValueUSD": 3.404,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"669l7ieuztit\",\"cc\":\"DK\",\"n\":\"Novo Nordisk A/S\",\"a\":{\"e\":6782991606,\"n\":77036809715},\"at\":0,\"o\":1.75,\"eq\":{\"vid\":\"NOVO.B\",\"v\":0.31,\"s\":\"Health Care\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"669l7ieuztit\",\"cc\":\"DK\",\"n\":\"Novo Nordisk A/S\",\"a\":{\"e\":3404002267,\"n\":33684304438},\"at\":0,\"o\":1.58,\"eq\":{\"vid\":\"NOVO.B\",\"v\":0.5,\"s\":\"Health Care\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": null,
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Europe;Denmark;Novo Nordisk A/S;Health Care;77036809715;6782991606;0.31%;1.75%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Novo Nordisk. Holders of record: The 2024 annual report states no number of shareholders or registered holders.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership % of capital, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); NBIM also holds Novo Nordisk corporate bonds, in separate rows that are not counted. CalPERS: its Form 13F information table for the quarter ended September 30, 2026 lists no shares or ADRs of Novo Nordisk (searched by issuer name). Holders of record: the Form 20-F 2025 says there is no complete record of all shareholders and that all ADRs are held of record by the depositary, so no count is given.",
+  "researchedAt": "2026-11-24"
 }

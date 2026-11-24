@@ -2,54 +2,54 @@
   "id": "mike-cannon-brookes",
   "company": "Atlassian",
   "nbim": {
-    "pct": 0.47,
-    "marketValueUSD": 0.298,
-    "asOf": "2024-12-31",
+    "pct": 0.16,
+    "marketValueUSD": 0.031,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"5b2prpw6vz1b\",\"cc\":\"US\",\"n\":\"Atlassian Corp\",\"a\":{\"e\":298194287,\"n\":3386696885},\"at\":0,\"o\":0.47,\"eq\":{\"vid\":\"TEAM\",\"v\":0.11,\"s\":\"Technology\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"5b2prpw6vz1b\",\"cc\":\"US\",\"n\":\"Atlassian Corp\",\"a\":{\"e\":31118100,\"n\":307929162},\"at\":0,\"o\":0.16,\"eq\":{\"vid\":\"TEAM\",\"v\":0.04,\"s\":\"Technology\"}}"
     }
   },
   "calpers": {
-    "shares": 259441,
-    "asOf": "2024-12-31",
+    "shares": 263378,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "ATLASSIAN CORPORATION CL A 049468101 63142751 259441"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "ATLASSIAN CORPORATION CL A 049468101 47221042 263378"
     },
     "derived": {
-      "pct": 0.099,
-      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "pct": 0.105,
+      "method": "CalPERS shares ÷ shares outstanding, both classes (263,378 ÷ 251,852,974)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
-          "label": "FY2025 Form 10-K, cover page",
-          "quote": "As of August 8, 2025, there were 166,284,669 shares of the registrant's Class A Common Stock and 96,049,867 shares of the registrant's Class B Common Stock outstanding"
+          "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/team-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+          "quote": "As of October 30, 2026, there were 157,719,357 shares of the registrant’s Class A Common Stock, $0.00001 par value per share, and 94,133,617 shares of the registrant’s Class B Common Stock, $0.00001 par value per share, outstanding."
         },
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
-          "label": "FY2025 Form 10-K, share class rights",
-          "quote": "As the liquidation and dividend rights for both Class A and Class B Common Stock are identical, the net loss is allocated on a proportionate basis to the weighted-average number of shares of common stock outstanding for the period."
+          "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm",
+          "label": "FY2026 Form 10-K, share class rights",
+          "quote": "As the liquidation and dividend rights for both Class A and Class B Common Stock are identical"
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 8,
-    "asOf": "2025-06-30",
+    "count": 10,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
-      "label": "FY2025 Form 10-K, Item 5",
-      "quote": "As of June 30, 2025, there were eight stockholders of record of our Class A Common Stock, including The Depository Trust Company, which holds shares of our Class A Common Stock on behalf of an indeterminate number of beneficial owners. As of June 30, 2025, there were three stockholders of record of our Class B Common Stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm",
+      "label": "FY2026 Form 10-K, Item 5",
+      "quote": "As of June 30, 2026, there were ten stockholders of record of our Class A Common Stock, including The Depository Trust Company, which holds shares of our Class A Common Stock on behalf of an indeterminate number of beneficial owners. As of June 30, 2026, there were three stockholders of record of our Class B Common Stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Atlassian Corp;Technology;3386696885;298194287;0.11%;0.47%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds Class A; denominator is Class A plus Class B, from the FY2025 (June 2025) 10-K cover, about seven months after CalPERS's December 31, 2024 date. Holders of record: Class A only; Class B has three holders of record.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); NBIM's voting share is lower than its ownership share because Class B carries ten votes. CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026; CalPERS holds Class A. The denominator is Class A plus Class B from the Q1 FY2027 10-Q cover (October 30, 2026), the same counts used in the marketcap lens. Holders of record: Class A only; Class B has three holders of record.",
+  "researchedAt": "2026-11-24"
 }

@@ -5,7 +5,7 @@
     "employees": {
       "label": "Full-time employees",
       "unit": "people",
-      "period": "as of Jan 31, 2025",
+      "period": "as of Jan 31, 2026",
       "tier": "filing",
       "definition": "Full-time employees in the United States and in international locations, as stated in the 10-K."
     }
@@ -16,14 +16,14 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "employees": 3568
+        "employees": 3457
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-        "label": "FY2025 Form 10-K, Item 1 Human Capital",
-        "quote": "As of January 31, 2025, we had 7,412 full-time employees. Of these employees, 3,568 are in the United States and 3,844 are in our international locations."
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+        "label": "FY2026 Form 10-K, Item 1 Human Capital",
+        "quote": "As of January 31, 2026, we had 7,438 full-time employees. Of these employees, 3,457 are in the United States and 3,981 are in our international locations."
       }
     }
   ],
@@ -32,14 +32,14 @@
       "name": "International locations",
       "countries": null,
       "values": {
-        "employees": 3844
+        "employees": 3981
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-        "label": "FY2025 Form 10-K, Item 1 Human Capital",
-        "quote": "As of January 31, 2025, we had 7,412 full-time employees. Of these employees, 3,568 are in the United States and 3,844 are in our international locations."
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+        "label": "FY2026 Form 10-K, Item 1 Human Capital",
+        "quote": "As of January 31, 2026, we had 7,438 full-time employees. Of these employees, 3,457 are in the United States and 3,981 are in our international locations."
       }
     }
   ],
@@ -53,12 +53,12 @@
       "description": "Approximately 103,000 square feet of leased commercial space.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
-        "label": "FY2025 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000030/zm-20260131.htm",
+        "label": "FY2026 Form 10-K, Item 2 Properties",
         "quote": "Our corporate headquarters is located in San Jose, California, where we lease approximately 103,000 square feet of commercial space pursuant to operating leases that expire in the fiscal year ending January 31, 2030."
       }
     }
   ],
-  "notes": "The FY2025 (Jan 31, 2025) 10-K splits full-time employees into the U.S. (3,568) and international locations (3,844) and names only the San Jose headquarters; Item 2 says other offices are in the U.S., APAC and EMEA without counts. Risk factors mention R&D staff in China but give no number. No state, country or tax breakdown was found in the filing.",
-  "researchedAt": "2026-11-23"
+  "notes": "The FY2026 (Jan 31, 2026) 10-K splits full-time employees into the U.S. (3,457) and international locations (3,981) and names only the San Jose headquarters (about 103,000 sq ft leased); Item 2 says other offices are in the U.S., APAC and EMEA without counts. Risk factors mention R&D personnel in China but give no number. No state, country or tax breakdown was found in the filing.",
+  "researchedAt": "2026-11-24"
 }

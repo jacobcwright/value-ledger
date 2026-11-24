@@ -1,0 +1,31 @@
+{
+  "id": "herbert-diess",
+  "company": "Volkswagen AG",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "EUR",
+  "employees": {
+    "value": 602659,
+    "asOf": "2025-12-31",
+    "basis": "total workforce excluding the Chinese joint ventures",
+    "source": {
+      "hostType": "company",
+      "url": "https://uploads.vw-mms.de/system/production/documents/cws/003/212/file_en/41966a4270c8a0a4185b3ab69eaa433cf6892168/2026-03-10-volkswagen-group-annual-report-2025-en.pdf",
+      "label": "Annual Report 2025, Business Development, total workforce",
+      "quote": "At the end of 2025, the Volkswagen Group's total workforce excluding the Chinese joint ventures had a total of 602,659 employees, which was 1.9% fewer than at the end of 2024."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Personnel expenses",
+    "value": 49.08,
+    "source": {
+      "hostType": "company",
+      "url": "https://uploads.vw-mms.de/system/production/documents/cws/003/215/file_en/d46cfd6dd3241543d5edf0869a321ea70642902e/2026-03-10-volkswagen-ag-consolidated-financial-statements-as-of-december-31-2023-en.pdf",
+      "label": "Consolidated Financial Statements 2025, note 42 Personnel expenses (€ million)",
+      "quote": "42. Personnel expenses € million 2025 2024 Wages and salaries 39,484 40,009 Social security 7,540 7,406 Post-employment and other employee benefit costs 2,056 2,371 49,080 49,786"
+    }
+  },
+  "notes": "Employees: the year-end workforce excluding the Chinese joint ventures (602,659), because the consolidated personnel expense covers only consolidated companies; including the Chinese joint ventures the workforce was 662,942 (628,893 active employees, plus employees in the passive phase of partial retirement and trainees). Payroll: note 42's total personnel expenses (€49,080 million: wages and salaries, social security and post-employment and other benefit costs), in billions of EUR.",
+  "researchedAt": "2026-11-24"
+}

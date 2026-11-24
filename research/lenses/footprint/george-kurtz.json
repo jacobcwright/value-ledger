@@ -6,9 +6,9 @@
       "label": "Property and equipment, net, and operating lease right-of-use assets ($ thousands)",
       "unit": "currency-thousands",
       "currency": "USD",
-      "period": "as of Jan 31, 2025",
+      "period": "as of Jan 31, 2026",
       "tier": "filing",
-      "definition": "Property and equipment, net and operating lease right-of-use assets by geographic area, Note 11 (Geographic Information) of the FY2025 10-K, in thousands of dollars (total $831,403 thousand; 'Other countries' $54,194 thousand)."
+      "definition": "Property and equipment, net and operating lease right-of-use assets by geographic area, Note 11 (Geographic Information) of the FY2026 10-K, in thousands of dollars (total $1,046,191 thousand; 'Other countries' $84,222 thousand)."
     }
   },
   "usStates": null,
@@ -17,28 +17,28 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "longLivedAssets": 688766
+        "longLivedAssets": 855312
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
-        "label": "CrowdStrike FY2025 Form 10-K (fiscal year ended Jan 31, 2025), Note 11 Geographic Information",
-        "quote": "The Company’s property and equipment, net and operating lease right-of-use assets, are summarized by geographic area as follows (in thousands): … United States | $ | 688,766 | $ | 539,580 [columns: Jan 31, 2025 | Jan 31, 2024]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm",
+        "label": "CrowdStrike FY2026 Form 10-K (fiscal year ended Jan 31, 2026), Note 11 Geographic Information",
+        "quote": "The Company’s property and equipment, net and operating lease right-of-use assets, are summarized by geographic area as follows (in thousands): January 31, 2026 2025 United States $ 855,312 $ 688,766"
       }
     },
     {
       "iso2": "DE",
       "name": "Germany",
       "values": {
-        "longLivedAssets": 88443
+        "longLivedAssets": 106657
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
-        "label": "CrowdStrike FY2025 Form 10-K (fiscal year ended Jan 31, 2025), Note 11 Geographic Information",
-        "quote": "The Company’s property and equipment, net and operating lease right-of-use assets, are summarized by geographic area as follows (in thousands): … Germany | 88,443 | 84,488 [columns: Jan 31, 2025 | Jan 31, 2024]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm",
+        "label": "CrowdStrike FY2026 Form 10-K (fiscal year ended Jan 31, 2026), Note 11 Geographic Information",
+        "quote": "The Company’s property and equipment, net and operating lease right-of-use assets, are summarized by geographic area as follows (in thousands): January 31, 2026 2025 United States $ 855,312 $ 688,766 Germany 106,657 88,443"
       }
     }
   ],
@@ -53,12 +53,12 @@
       "description": "Principal executive offices of about 47,618 sq ft, leased through 2030.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000009/crwd-20250131.htm",
-        "label": "CrowdStrike FY2025 Form 10-K (fiscal year ended Jan 31, 2025), Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm",
+        "label": "CrowdStrike FY2026 Form 10-K (fiscal year ended Jan 31, 2026), Item 2 Properties",
         "quote": "Our principal executive offices occupy approximately 47,618 square feet in Austin, Texas under a lease that expires in 2030."
       }
     }
   ],
-  "notes": "CrowdStrike publishes very little about where it operates. The FY2025 10-K (the snapshot year, ended Jan 31, 2025) gives 10,118 full-time employees with no country or state split, describes a deliberately distributed, remote-first workforce, and names only its Austin headquarters, adding that it leases offices \"in various locations throughout the United States as well as office space in a number of countries in Europe, the Middle East, and the Asia-Pacific region\". The only geographic non-revenue figure is property and equipment plus right-of-use assets, recorded in $ thousands as filed (unit 'currency-thousands' is outside the lens enum); 'Other countries' ($54,194 thousand) is a residual and is not shown. No state-level figures appear in the 10-K; no company impact report was looked for beyond it.",
-  "researchedAt": "2026-11-23"
+  "notes": "CrowdStrike publishes very little about where it operates. The FY2026 10-K (fiscal year ended Jan 31, 2026) gives 10,698 full-time employees with no country or state split, describes a deliberately distributed workforce ('the ability to work remotely or in a hybrid arrangement is a deliberate strategy'), and names only its Austin headquarters, adding that it leases offices \"in various locations throughout the United States as well as office space in a number of countries in Europe, the Middle East, and the Asia-Pacific region\". The only geographic non-revenue figure is property and equipment plus right-of-use assets, recorded in $ thousands as filed; 'Other countries' ($84,222 thousand) is a residual and is not shown. No state-level figures appear in the 10-K; no company impact report was found beyond it.",
+  "researchedAt": "2026-11-24"
 }

@@ -114,7 +114,7 @@ function amazonDistribution(leader) {
       </header>
       <section ${distributionPanel("ownership")}
         <div class="distribution-subhead">
-          <div><h4>Who held Amazon shares?</h4><p>Latest filings · ${equityValue(sharesOutstanding)} equity value (reported shares × the ${priceAsOf} close).</p></div>
+          <div><h4>Who held Amazon shares?</h4><p>Shares outstanding as of ${sharesAsOf} · ${equityValue(sharesOutstanding)} equity value (reported shares × the ${priceAsOf} close).</p></div>
         </div>
         <div class="ownership-takeaway">
           <p class="ownership-headline"><span>Jeff Bezos held <strong class="is-founder">${roundPercent(founder.shares)}</strong> of Amazon directly.</span> <span>Everyone else held <strong>${roundPercent(outsideFounder)}</strong>.</span></p>

@@ -12,12 +12,12 @@
       "state": "CA",
       "iso2": "US",
       "type": "headquarters",
-      "description": "Corporate headquarters, with lease commitments for multiple facilities through 2033",
+      "description": "Corporate headquarters, with lease commitments for multiple facilities through 2036",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 2 Properties",
-        "quote": "Our corporate headquarters are located in Menlo Park, California, where we currently have lease commitments for multiple facilities with various expiration dates through 2033."
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 2 Properties",
+        "quote": "Our corporate headquarters are located in Menlo Park, California, where we currently have lease commitments for multiple facilities with various expiration dates through 2036."
       }
     },
     {
@@ -29,8 +29,8 @@
       "description": "One of the two most significant office leases, with the Menlo Park headquarters",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, Note on leases",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 14 Leases",
         "quote": "Our operating leases are comprised of office facilities, with the most significant leases relating to our corporate headquarters in Menlo Park, CA and our office in New York City, NY."
       }
     },
@@ -43,12 +43,12 @@
       "description": "Office opened in Singapore as Robinhood's APAC headquarters",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1 Business",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Business",
         "quote": "This drove our decision to open an office in Singapore as our APAC headquarters."
       }
     }
   ],
-  "notes": "Robinhood's FY2024 10-K gives no customers, assets, employees or offices by state, country or region: it reports ~2,300 full-time employees in total, says it leases offices 'throughout the United States and other countries', and that it serves the U.K. (brokerage) and select EU jurisdictions (crypto, via RHEU registered in Lithuania). No company-published state or country impact report was found. Only sites are recorded.",
-  "researchedAt": "2026-11-23"
+  "notes": "Robinhood's FY2025 10-K gives no customers, assets, employees or offices by state, country or region: it reports approximately 2,900 full-time employees at Dec 31, 2025 in total, says it leases office facilities \"throughout the United States and other countries around the world\", and that it serves the U.K. (brokerage) and select EU jurisdictions (crypto, via Robinhood Europe, UAB, regulated by the Bank of Lithuania). No company-published state or country impact report was found. Only sites are recorded, all re-sourced to the FY2025 10-K.",
+  "researchedAt": "2026-11-24"
 }

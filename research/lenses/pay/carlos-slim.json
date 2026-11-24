@@ -1,0 +1,21 @@
+{
+  "id": "carlos-slim",
+  "company": "América Móvil",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "MXN",
+  "employees": {
+    "value": 177711,
+    "asOf": "2025-12-31",
+    "basis": "total number of employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036126017486/ef20060642_20f.htm",
+      "label": "FY2025 Form 20-F, Part VII Additional Information, Employees",
+      "quote": "The following table sets forth the total number of employees and a breakdown of employees by main category of activity and geographic location, as of the dates indicated. DECEMBER 31, 2023 2024 2025 NUMBER OF EMPLOYEES 179,792 178,468 177,711"
+    }
+  },
+  "payroll": null,
+  "notes": "Employees: total at December 31, 2025, from the 20-F's employees table. Payroll is null: the 20-F gives no total of wages, salaries or personnel expense (labor costs are mentioned only qualitatively in the operating-results discussion; the cash-flow statement shows only employee profit sharing paid, Ps.3,131,168 thousand, which is a statutory profit share, not payroll), and as a foreign private issuer América Móvil publishes no CEO pay ratio or median employee pay.",
+  "researchedAt": "2026-11-24"
+}

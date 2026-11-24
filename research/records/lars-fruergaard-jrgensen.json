@@ -1,85 +1,85 @@
 {
   "id": "lars-fruergaard-jrgensen",
   "company": "Novo Nordisk A/S",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "DKK",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2024-12-31",
+    "asOf": "2025-12-31",
     "leader": {
       "name": "Lars Fruergaard Jørgensen",
       "relation": "former-ceo",
-      "status": "holds",
+      "status": "no-reported-stake",
       "pctEconomic": null,
       "pctVoting": null,
-      "shares": 590550,
+      "shares": null,
       "derived": null,
       "family": null,
       "source": {
         "hostType": "company",
-        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-remuneration-report-2024.pdf",
-        "label": "Remuneration Report 2024, 3.9 Shareholdings of Executive Management, Table 23 (PDF p. 19)",
-        "quote": "As of 31 December 2024, Executive Management held shares in Novo Nordisk as follows: ... Lars Fruergaard Jørgensen 499,368 271,182 (180,000) 590,550 368.6 Yes [at the beginning of the year, additions, sold/transferred, at the end of the year, market value DKK million, shareholding requirement met]"
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-remuneration-report-2025.pdf",
+        "label": "Remuneration Report 2025, 3.9 Shareholdings of executives (Table 22) and remuneration table footnote 7",
+        "quote": "As of 31 December 2025, executives held shares in Novo Nordisk as follows: ... 7. Lars Fruergaard Jørgensen stepped down as CEO on 6 August 2025."
       }
     },
     "largestHolders": [
       {
         "name": "Novo Holdings A/S (wholly owned by the Novo Nordisk Foundation)",
         "type": "company",
-        "pctEconomic": 28.05,
-        "asOf": "2024-12-31",
+        "pctEconomic": 28.1,
+        "asOf": "2025-12-31",
         "source": {
           "hostType": "company",
-          "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-          "label": "Annual Report 2024, Shares and capital structure, Ownership structure chart (printed p. 36)",
-          "quote": "Novo Holding A/S ... 77.28% 28.05% 22.72% 71.95% ... of votes of capital of votes of capital [Novo Holdings A/S: 77.28% of votes, 28.05% of capital; institutional and private investors: 22.72% of votes, 71.95% of capital]"
+          "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+          "label": "Annual Report 2025, note 5.4 Related party transactions",
+          "quote": "Novo Nordisk A/S is controlled by Novo Holdings A/S (incorporated in Denmark), which owns 28.1% of the share capital in Novo Nordisk A/S, representing 77.3% of the total number of votes."
         }
       }
     ],
     "structure": {
       "dualClass": true,
       "controlled": true,
-      "note": "A shares (1,075 million, unlisted, 100 votes each) are all held by Novo Holdings A/S, which is wholly owned by the Novo Nordisk Foundation and cannot divest them; B shares (3,390 million, 10 votes each) are listed in Copenhagen and as ADRs on the NYSE. With its A shares plus B shares of nominally DKK 17,756,050, Novo Holdings held 28.05% of the capital and 77.28% of the votes at 31 December 2024. In practice A and B shares receive the same dividend per share."
+      "note": "A shares (1,074,872,000, unlisted, 100 votes each) are all held by Novo Holdings A/S, which is wholly owned by the Novo Nordisk Foundation and cannot divest them; B shares (3,390,128,000 issued, 10 votes each) are listed in Copenhagen and as ADRs on the NYSE. With its A shares plus B shares of nominally DKK 17,756,050, Novo Holdings held 28.1% of the capital and 77.3% of the votes at 31 December 2025. In practice A and B shares receive the same dividend per share."
     }
   },
   "cash": {
     "dividends": {
-      "value": 44.14,
+      "value": 51.76,
       "source": {
         "hostType": "company",
-        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-        "label": "Annual Report 2024, cash flow statement, financing activities (PDF p. 103)",
-        "quote": "DKK million Note 2024 2023 2022 ... Purchase of treasury shares 4.2 (20,181) (29,924) (24,086) ... Dividends paid 4.2 (44,140) (31,767) (25,303)"
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Annual Report 2025, cash flow statement, financing activities",
+        "quote": "Dividends paid 4.2 (51,763) (44,140) (31,767) [DKK million, 2025, 2024, 2023]"
       }
     },
     "buybacks": {
-      "value": 20.18,
+      "value": 1.39,
       "source": {
         "hostType": "company",
-        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-        "label": "Annual Report 2024, cash flow statement, financing activities (PDF p. 103)",
-        "quote": "Purchase of treasury shares 4.2 (20,181) (29,924) (24,086) [DKK million, 2024, 2023, 2022]"
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Annual Report 2025, cash flow statement, financing activities",
+        "quote": "Purchase of treasury shares 4.2 (1,388) (20,181) (29,924) [DKK million, 2025, 2024, 2023]"
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 2.29,
+      "value": 1.44,
       "source": {
         "hostType": "company",
-        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-        "label": "Annual Report 2024, note 5.1 Share-based payment schemes (PDF p. 128)",
-        "quote": "Share-based payment expensed in the income statement DKK million 2024 2023 2022 Restricted stock units to employees 380 365 265 ... Share-based payment expensed in the ... income statement 2,289 2,149 1,539"
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Annual Report 2025, note 5.1 Share-based payment schemes",
+        "quote": "Share-based payment expensed in the income statement DKK million 2025 2024 2023 Restricted stock units to employees 576 380 365 ... Share-based payment expensed in the income statement 1,435 2,289 2,149"
       }
     },
     "plan": {
       "text": "For Novo Nordisk's 100-year anniversary, every eligible employee was offered 74 restricted stock units in February 2023, each vesting into one B share in August 2026.",
       "source": {
         "hostType": "company",
-        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-        "label": "Annual Report 2024, note 5.1 Share-based payment schemes, Restricted stock units to employees (PDF p. 128)",
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+        "label": "Annual Report 2025, note 5.1 Share-based payment schemes, Restricted stock units to employees",
         "quote": "In connection with Novo Nordisk's 100 year anniversary and in appreciation of the efforts of employees during recent years, as of 1 February 2023, all eligible employees in the company were offered 74 restricted stock units. Each restricted stock unit gives the holder the right to receive one Novo Nordisk B share free of charge in August 2026, subject to continued employment."
       }
     }
@@ -88,30 +88,34 @@
     "basis": "Total sales by geographical area; sales are attributed to geographical areas according to the location of the customer",
     "segments": [
       {
-        "name": "EMEA",
-        "value": 60.4
+        "name": "USA",
+        "value": 173.17
+      },
+      {
+        "name": "EUCAN",
+        "value": 66.09
+      },
+      {
+        "name": "Emerging Markets",
+        "value": 30.44
+      },
+      {
+        "name": "APAC",
+        "value": 20.71
       },
       {
         "name": "Region China",
-        "value": 18.5
-      },
-      {
-        "name": "Rest of World",
-        "value": 33.33
-      },
-      {
-        "name": "North America Operations",
-        "value": 178.17
+        "value": 18.66
       }
     ],
-    "total": 290.4,
+    "total": 309.06,
     "source": {
       "hostType": "company",
-      "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
-      "label": "Annual Report 2024, note 2.2 Segment information, Net sales – Segments and geographical areas (PDF p. 109)",
-      "quote": "Total sales by geographical area 112,231 95,632 85,847 60,402 50,867 44,236 18,501 16,687 16,209 33,328 28,078 25,402 178,172 136,629 91,107 167,402 127,534 84,656 290,403 232,261 176,954 [DKK million, 2024/2023/2022 for: Total IO, EMEA, Region China, Rest of World, Total NAO, US, Total Novo Nordisk net sales]"
+      "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2026/novo-nordisk-annual-report-2025.pdf",
+      "label": "Annual Report 2025, note 2.2 Segment information, Net sales – Segments and geographical areas",
+      "quote": "net sales USA Total IO EUCAN Emerging Markets APAC Region China ... Total sales by geographical area 173,166 167,402 127,534 135,898 123,001 104,727 66,091 57,547 48,148 30,436 29,515 24,784 20,713 17,438 15,108 18,658 18,501 16,687 309,064 290,403 232,261 [DKK million, 2025/2024/2023 for: USA, Total IO, EUCAN, Emerging Markets, APAC, Region China, Total Novo Nordisk net sales]"
     }
   },
-  "notes": "Fiscal year ended 31 December 2024. Sources are Novo Nordisk's Annual Report 2024 and Remuneration Report 2024 (PDFs on novonordisk.com); the Form 20-F 2024 (company copy) was also read and cross-refers to them. DKK, converted exactly from DKK million. LEADER: Lars Fruergaard Jørgensen was President and CEO throughout FY2024 (relation 'former-ceo' follows the site's current role label). He held 590,550 B shares at 31 December 2024; no percentage is given (for reference only, about 0.013% of the 4,465 million A and B shares; not disclosed). The 20-F says board and executive members together held 1,534,378 B shares, 'less than 1% of the beneficial ownership'. HOLDER: Novo Holdings A/S's 28.05% is of total share capital (A plus B), so it is economic; its 77.28% voting share comes from the A shares' 100 votes. The Novo Nordisk Foundation's interest is the same holding (it owns Novo Holdings 100%), so it is not listed separately. The 20-F lists no other holder above 5% of any class. DIVIDENDS: DKK 44,140 million (interim dividends paid during the year DKK 15,583 million plus dividends paid for the prior year DKK 28,557 million, per the statement of changes in equity), paid to all shareholders including Novo Holdings; Novo Nordisk has no material non-controlling interests. BUYBACKS: DKK 20,181 million purchase of treasury shares: the rest of the 2023 programme (DKK 1.6 billion) and the DKK 20 billion 2024 B-share programme, which ended 3 February 2025. STOCK COMP: DKK 2,289 million total share-based payment expense (note 5.1). GEOGRAPHY: the four reported areas. North America Operations includes the US (DKK 167,402 million); International Operations (DKK 112,231 million) is EMEA plus Region China plus Rest of World, so it is not repeated.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended 31 December 2025. Sources are Novo Nordisk's Annual Report 2025, Remuneration Report 2025 and Form 20-F 2025 (PDFs on novonordisk.com). DKK, converted exactly from DKK million. LEADER: Lars Fruergaard Jørgensen stepped down as president and CEO on 6 August 2025 and was succeeded by Maziar Mike Doustdar on 7 August 2025. The Remuneration Report's table of executives' shareholdings at 31 December 2025 no longer includes him (it lists Doustdar, Karsten Munk Knudsen and non-registered executives), and the 20-F gives only the group total of board members and executives (1,173,813 B shares, 0.03% of the class). No holding is reported, so status is 'no-reported-stake'; this does not mean he holds no shares (he held 590,550 B shares at 31 December 2024). HOLDER: Novo Holdings A/S's 28.1% is of total share capital (A plus B), so it is economic; its 77.3% voting share comes from the A shares' 100 votes. The Novo Nordisk Foundation's interest is the same holding (it owns Novo Holdings 100%), so it is not listed separately. The 20-F lists no other holder above 5% of any class (as of 3 February 2026). DIVIDENDS: DKK 51,763 million paid to all shareholders including Novo Holdings. BUYBACKS: DKK 1,388 million purchase of treasury shares in 2025; a new programme of up to DKK 15 billion began on 4 February 2026, after the fiscal year. STOCK COMP: DKK 1,435 million total share-based payment expense (note 5.1). GEOGRAPHY: the five reported areas under the new 2025 structure (USA, plus International Operations split into EUCAN, Emerging Markets, APAC and Region China); comparatives were restated. Rounded segments sum to 309.07 against the stated 309.06.",
+  "researchedAt": "2026-11-24"
 }

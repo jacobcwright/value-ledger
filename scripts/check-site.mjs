@@ -54,7 +54,9 @@ const seen = new Set();
 for (const leader of leaders) {
   if (seen.has(leader.id)) fail(`duplicate leader id ${leader.id}`);
   seen.add(leader.id);
-  for (const key of ["id","name","company","sector","ticker","cap","jobs","wage","image","photo","license","capUrl","jobsUrl"]) {
+  // wage and payroll may be null together: the company reports neither staff costs nor median pay ("Not disclosed").
+  if (leader.wage == null && leader.payroll != null) fail(`${leader.id}: payroll without wage`);
+  for (const key of ["id","name","company","sector","ticker","cap","jobs","image","photo","license","capUrl","jobsUrl"]) {
     if (leader[key] == null || leader[key] === "") fail(`${leader.id}: missing ${key}`);
   }
   if (!fs.existsSync(path.join(dist, leader.image))) fail(`${leader.id}: portrait not found (${leader.image})`);

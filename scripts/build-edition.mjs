@@ -88,6 +88,18 @@ text = /^const edition = .*;$/m.test(text) ? text.replace(/^const edition = .*;$
 text = text.replace(/^for \(const leader of leaders\) leader\.payroll = .*$/m, "for (const leader of leaders) if (leader.payroll === undefined) leader.payroll = leader.jobs * leader.wage / 1e9;");
 fs.writeFileSync(dataPath, text);
 
+// Amazon's case study values its holders at the same edition-date close as its market value.
+{
+  const file = path.join(root, "dist/amazon-distribution.js");
+  const amzn = prices.symbols.AMZN;
+  if (amzn?.close && fs.existsSync(file)) {
+    const before = fs.readFileSync(file, "utf8");
+    const after = before.replace(/^(\s*)\/\/ TODO: set to research\/lenses\/marketcap\/_prices\.json[^\n]*\n/m, "$1// Stamped by scripts/build-edition.mjs from research/lenses/marketcap/_prices.json (symbols.AMZN.close).\n")
+      .replace(/^(\s*price:)[\d.]+,/m, `$1${Math.round(amzn.close * 100) / 100},`);
+    if (after !== before) fs.writeFileSync(file, after);
+  } else if (strict) { console.error("✗ no AMZN close in _prices.json for the Amazon case study"); process.exit(1); }
+}
+
 // The list-wide headline figures in the pages' <head> copy and the share card, rounded exactly as app.js's
 // headlineFigure() rounds the key line, so the meta copy and the page always agree.
 const leaders = new Function(text + ";return leaders")();

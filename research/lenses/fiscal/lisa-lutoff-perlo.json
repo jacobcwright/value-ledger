@@ -7,6 +7,6 @@
   "unit": "billions",
   "taxes": null,
   "rnd": null,
-  "notes": "Fiscal year ended December 31, 2025. Cash income taxes paid are not disclosed: the FY2025 10-K supplemental cash-flow disclosure lists only interest paid, and no income-tax payment figure or by-jurisdiction table appears elsewhere, although the company adopted ASU 2023-09 for 2025 (most ship-operating income is exempt from U.S. tax under Section 883; the 2025 provision for income taxes was $82 million). R&D not reported as a separate line in the FY2025 10-K.",
+  "notes": "Fiscal year ended December 31, 2025. Cash income taxes paid are not disclosed as an amount: the FY2025 10-K supplemental cash-flow disclosure lists only interest paid, and the income-tax note, despite adopting ASU 2023-09 for 2025, says only that 'For the year ended December 31, 2025, there were no individual jurisdictions with material cash taxes paid' (most ship-operating income is exempt from U.S. tax under Section 883; the 2025 provision for income taxes was $82 million). R&D not reported as a separate line in the FY2025 10-K.",
   "researchedAt": "2026-11-24"
 }

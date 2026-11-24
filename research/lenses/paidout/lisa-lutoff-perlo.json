@@ -77,7 +77,7 @@
       "value": null,
       "inOCF": true,
       "source": null,
-      "note": "Not disclosed: the FY2025 supplemental disclosures give interest paid only, and the income-tax disclosures carry no table of income taxes paid (most ship income is exempt from US tax under Section 883; the 2025 provision for income taxes was $82 million). Under US GAAP taxes would sit inside operating cash flow, so paidOut is unaffected."
+      "note": "Not disclosed: the FY2025 supplemental disclosures give interest paid only, and the income-tax note gives no total of income taxes paid; it says only that 'For the year ended December 31, 2025, there were no individual jurisdictions with material cash taxes paid' (most ship income is exempt from US tax under Section 883; the 2025 provision for income taxes was $82 million). Under US GAAP taxes would sit inside operating cash flow, so paidOut is unaffected."
     }
   },
   "paidOut": 16.699,

@@ -1,0 +1,22 @@
+{
+  "id": "lee-jae-yong",
+  "company": "Samsung Electronics",
+  "classes": [
+    {
+      "label": "Common shares",
+      "shares": 5764191903,
+      "sharesAsOf": "2026-06-30",
+      "pricedAs": "005930.KS",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_Half_Interim_Report.pdf",
+        "label": "Samsung Electronics 2026 Half-year Business Report, I.4.A Total number of shares",
+        "quote": "As of the same date, issued shares and shares outstanding totaled 5,764,191,903 for common shares and 802,371,203 for preferred shares. ... V. Treasury shares 82,086,705 - 82,086,705 - VI. Outstanding shares 5,764,191,903 802,371,203 6,566,563,106 -"
+      }
+    }
+  ],
+  "notes": "Common shares only, priced on the Korea Exchange line 005930.KS in KRW, net of 82,086,705 treasury shares, from the 2026 half-year business report (June 30, 2026), the latest Samsung has published in English (no third-quarter report is on its IR site yet). Judgment call: Samsung's 802,371,203 non-voting preferred shares (listed separately as 005935.KS, with an extra 1%-of-par dividend) are left out under the common-equity-only rule, although they share in earnings much like common shares; including them would add about 12% to the share count at the preferred line's own price.",
+  "researchedAt": "2026-11-24"
+}

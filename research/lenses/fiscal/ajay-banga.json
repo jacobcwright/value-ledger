@@ -11,7 +11,7 @@
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
-        "label": "FY2025 Form 10-K, Note 19 Income Tax, Income Taxes Paid (in millions)",
+        "label": "FY2025 Form 10-K, Note 18 Income Taxes, Income Taxes Paid (in millions)",
         "quote": "The Company paid income taxes, net of refunds, by jurisdiction for the years ended December 31, as follows: ... Total $ 3,020 $ 3,252 $ 2,746 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001141391",

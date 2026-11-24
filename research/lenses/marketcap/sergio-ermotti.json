@@ -1,0 +1,38 @@
+{
+  "id": "sergio-ermotti",
+  "company": "UBS Group AG",
+  "classes": [
+    {
+      "label": "Registered shares (excluding treasury shares)",
+      "shares": 3030255878,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "UBS",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "Shares issued at 30 September 2026",
+          "value": 3277805164,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000106/edgar3q26ubsgroup.htm",
+            "label": "UBS Group third quarter 2026 report (Form 6-K, October 28, 2026), earnings per share and shares outstanding table",
+            "quote": "Shares outstanding and potentially dilutive instruments Shares issued 3,277,805,164 3,277,805,164 3,341,581,714 3,277,805,164 3,341,581,714 Treasury shares 3 247,549,286 216,063,015 217,617,094 247,549,286 217,617,094 [columns: 30.9.26, 30.6.26, 30.9.25, 9M26, 9M25]"
+          }
+        },
+        {
+          "label": "less treasury shares at 30 September 2026",
+          "value": -247549286,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052026000106/edgar3q26ubsgroup.htm",
+            "label": "UBS Group third quarter 2026 report (Form 6-K, October 28, 2026), earnings per share and shares outstanding table",
+            "quote": "Shares outstanding and potentially dilutive instruments Shares issued 3,277,805,164 3,277,805,164 3,341,581,714 3,277,805,164 3,341,581,714 Treasury shares 3 247,549,286 216,063,015 217,617,094 247,549,286 217,617,094 [columns: 30.9.26, 30.6.26, 30.9.25, 9M26, 9M25]"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "One class of registered shares, listed on the SIX Swiss Exchange (UBSG.SW, CHF) and on the NYSE as global registered shares (UBS, USD); the 3Q26 report says the shares are listed on the NYSE 'as global registered shares', so the NYSE line is the same shares, not an ADR. The NYSE line, in US dollars (the reporting currency), is used. The count is shares issued minus treasury shares at September 30, 2026, from the 3Q26 report, because no document states shares outstanding excluding treasury shares directly; 149 million of the treasury shares were bought under repurchase programs for cancellation. The FY2025 20-F cover (3,341,581,714 issued including 249,882,523 treasury shares at December 31, 2025) is older.",
+  "researchedAt": "2026-11-24"
+}

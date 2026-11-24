@@ -42,7 +42,36 @@
       },
       "caveat": "Includes 565,079 shares he votes but has no economic interest in."
     },
-    "largestHolders": [],
+    "largestHolders": [
+      {
+        "name": "Baiju Bhatt",
+        "type": "other",
+        "pctEconomic": 55.7,
+        "asOf": "2026-04-08",
+        "basis": "class",
+        "classLabel": "Class B",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000053/hood-20260422.htm",
+          "label": "2026 proxy statement, Beneficial Ownership of Principal Stockholders and Management (percentage is of Class B common stock only)",
+          "quote": "Baiju Bhatt (5)(10) 3,579 * 61,076,048 55.7 32.0"
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 7.0,
+        "asOf": "2025-09-30",
+        "basis": "class",
+        "classLabel": "Class A",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000053/hood-20260422.htm",
+          "label": "2026 proxy statement, Beneficial Ownership of Principal Stockholders and Management (percentage is of Class A common stock only)",
+          "quote": "BlackRock, Inc. (20) 55,763,578 7.0 - - 3 ... (20) Beneficial ownership information for BlackRock, Inc. is as of September 30, 2025, and is based on information contained in their Schedule 13G/A, filed with the SEC on October 17, 2025."
+        }
+      }
+    ],
     "structure": {
       "dualClass": true,
       "controlled": true,
@@ -102,6 +131,6 @@
     }
   },
   "geography": null,
-  "notes": "Fiscal year ended December 31, 2025. Documents read on sec.gov: FY2025 Form 10-K (accession 0001783879-26-000023, filed February 18, 2026) and 2026 proxy statement (DEF 14A, accession 0001783879-26-000053, filed April 22, 2026). OWNERSHIP: the proxy gives percentages per class (Tenev 44.9% of Class B) and of voting power (26.1%), not of all shares, so the economic share is given only as leader.derived (5.47%). It counts all shares beneficially owned. Excluding the 565,079 Bhatt Family LLC shares, over which Tenev has voting but no economic interest, his own shares are 48,676,479 (6,907 Class A + 48,669,572 Class B). LARGEST HOLDERS left empty on purpose: BlackRock (55,763,578 Class A, 7.0% of Class A, as of September 30, 2025) is stated only as a percentage of Class A; the proxy adds that Vanguard subsidiaries collectively own about 94,436,459 Class A shares (11.9%) after Vanguard's internal realignment; co-founder Baiju Bhatt (61,076,048 Class B, 55.7% of Class B, 32.0% of voting power) is given only per class. None is a share of all shares outstanding. BUYBACKS: $653 million of Class A repurchased in 2025. The $437 million of taxes paid on net share settlement of equity awards is excluded. GEOGRAPHY: null. Robinhood reports one operating segment and no revenue-by-geography table in the FY2025 10-K; at December 31, 2025 the proxy counts 2,606 of 2,958 employees in North America, 337 in Europe and 15 in Asia.",
+  "notes": "Fiscal year ended December 31, 2025. Documents read on sec.gov: FY2025 Form 10-K (accession 0001783879-26-000023, filed February 18, 2026) and 2026 proxy statement (DEF 14A, accession 0001783879-26-000053, filed April 22, 2026). OWNERSHIP: the proxy gives percentages per class (Tenev 44.9% of Class B) and of voting power (26.1%), not of all shares, so the economic share is given only as leader.derived (5.47%). It counts all shares beneficially owned. Excluding the 565,079 Bhatt Family LLC shares, over which Tenev has voting but no economic interest, his own shares are 48,676,479 (6,907 Class A + 48,669,572 Class B). LARGEST HOLDERS are listed on a class basis, as the proxy states them only per class: co-founder Baiju Bhatt 61,076,048 Class B = 55.7% of Class B (32.0% of voting power; his row also counts the 565,079 Bhatt Family LLC shares that Tenev votes, so the two founders' class percentages overlap by that amount), and BlackRock 55,763,578 Class A = 7.0% of Class A as of September 30, 2025. The proxy adds that it believes Vanguard subsidiaries collectively own about 94,436,459 Class A shares (11.9%) after Vanguard's internal realignment; that is not a reported 5% row, so it is not listed. BUYBACKS: $653 million of Class A repurchased in 2025. The $437 million of taxes paid on net share settlement of equity awards is excluded. GEOGRAPHY: null. Robinhood reports one operating segment and no revenue-by-geography table in the FY2025 10-K; at December 31, 2025 the proxy counts 2,606 of 2,958 employees in North America, 337 in Europe and 15 in Asia.",
   "researchedAt": "2026-11-24"
 }
