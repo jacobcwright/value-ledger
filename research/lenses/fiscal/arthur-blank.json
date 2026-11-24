@@ -1,0 +1,28 @@
+{
+  "id": "arthur-blank",
+  "company": "Home Depot",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2025-02-02",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 3.65,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes $ 3,653 $ 5,023 $ 5,435 Cash paid for [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000354950",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2025-02-02",
+          "value": 3653000000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted. R&D not reported as a separate line in the FY2024 10-K (retailer).",
+  "researchedAt": "2026-11-23"
+}

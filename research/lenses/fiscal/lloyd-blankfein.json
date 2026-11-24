@@ -1,0 +1,28 @@
+{
+  "id": "lloyd-blankfein",
+  "company": "Goldman Sachs",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 3.67,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash payments for income taxes, net $ 3,673 $ 2,389 $ 4,555 See Notes 9, 12 and 16 [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000886982",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 3673000000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented. R&D not reported as a separate line (bank).",
+  "researchedAt": "2026-11-23"
+}

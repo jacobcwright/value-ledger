@@ -1,0 +1,32 @@
+{
+  "id": "masayoshi-son",
+  "company": "SoftBank Group",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2025-03-31",
+  "currency": "JPY",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 215.2,
+      "source": {
+        "hostType": "company",
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2025_en.pdf",
+        "label": "Annual Report 2025, Sustainability: Governance, income taxes paid on a consolidated basis (net)",
+        "quote": "Income taxes paid on a consolidated basis (net) ... Consolidated 589.3 525.9 816.8 215.2 ... 1. The amounts are the net amount of tax payments and tax refunds. [Billions of yen; fiscal 2021, 2022, 2023, 2024]"
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 507.59,
+      "source": {
+        "hostType": "company",
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
+        "label": "Financial Report 2025, notes to consolidated financial statements (research and development costs)",
+        "quote": "Research and development costs included in “Cost of sales” and “Selling, general and administrative ... ¥ 439,971 ¥ 507,590 $ 3,394,797 [Millions of yen for fiscal years ended March 31, 2024 and 2025; thousands of U.S. dollars for FY ended March 31, 2025]"
+      }
+    }
+  },
+  "notes": "Taxes: net of refunds. The annual report's consolidated net figure (¥215.2bn for fiscal 2024, year ended 31 March 2025) matches the consolidated cash flow statement's 'Income taxes paid' ¥380,008m less 'Income taxes refunded' ¥164,847m (Financial Report 2025); gross paid would be 380.01. R&D: research and development costs included in cost of sales and SG&A (mostly Arm and SoftBank Corp.).",
+  "researchedAt": "2026-11-23"
+}

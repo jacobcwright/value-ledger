@@ -1,0 +1,46 @@
+{
+  "id": "brian-chesky",
+  "company": "Airbnb",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ecosystem": {
+    "tier": "filing",
+    "measure": {
+      "name": "Gross Booking Value",
+      "definition": {
+        "quote": "GBV represents the dollar value of bookings on our platform in a period and is inclusive of host earnings, service fees, cleaning fees, and taxes, net of cancellations and alterations that occurred during that period.",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
+          "label": "FY2024 Form 10-K, Key Business Metrics",
+          "quote": "GBV represents the dollar value of bookings on our platform in a period and is inclusive of host earnings, service fees, cleaning fees, and taxes, net of cancellations and alterations that occurred during that period."
+        }
+      },
+      "value": 81.784,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
+        "label": "FY2024 Form 10-K, key business metrics table (in millions)",
+        "quote": "Nights and Experiences Booked 448 492 10 % Gross Booking Value $ 73,252 $ 81,784 12 %"
+      }
+    },
+    "platformRevenue": {
+      "label": "Revenue",
+      "value": 11.102,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Revenue $ 8,399 $ 9,917 $ 11,102"
+      }
+    },
+    "payouts": null,
+    "clientAssets": null,
+    "studies": [],
+    "notes": "GBV includes host earnings, service fees, cleaning fees and taxes. It is recorded when a booking is made, while revenue is recognized at check-in, so the two are timed differently. The 10-K does not state total host earnings, so payouts is null."
+  },
+  "notes": "",
+  "researchedAt": "2026-11-23"
+}

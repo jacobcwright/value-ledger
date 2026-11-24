@@ -1,0 +1,44 @@
+{
+  "id": "marc-benioff",
+  "company": "Salesforce",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-01-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 2.06,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
+        "label": "FY2025 Form 10-K, cash income taxes paid",
+        "quote": "Income taxes, net of tax refunds $ 2,061 $ 1,027 $ 510 See accompanying Notes. [USD millions; FY2025 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001108524",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-01-31",
+          "value": 2061000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 5.49,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
+        "label": "FY2025 Form 10-K, research and development expense",
+        "quote": "Research and development 5,493 15 4,906 14 5,055 16 Sales and marketing 13,257 35 12,877 [USD millions; FY2025 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001108524",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2025-01-31",
+          "value": 5493000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

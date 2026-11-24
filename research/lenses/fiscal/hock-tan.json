@@ -1,0 +1,44 @@
+{
+  "id": "hock-tan",
+  "company": "Broadcom",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-11-03",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 3.15,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes $ 3,155 $ 1,782 $ 908 The accompanying notes [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001730168",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-11-03",
+          "value": 3155000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 9.31,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 9,310 5,253 18 15 Selling, general and administrative [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001730168",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-11-03",
+          "value": 9310000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the line does not say whether refunds are netted.",
+  "researchedAt": "2026-11-23"
+}

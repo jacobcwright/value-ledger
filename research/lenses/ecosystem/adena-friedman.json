@@ -1,0 +1,11 @@
+{
+  "id": "adena-friedman",
+  "company": "Nasdaq",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ecosystem": null,
+  "notes": "Ecosystem is null. The FY2024 10-K reports no clearly defined money-volume measure. Its cash equity table gives \"Matched share volume (in billions) 479.4\" for U.S.-listed securities in 2024, but that counts shares, not dollars, and the 10-K gives no definition of it; Nordic trading appears only as a daily average value (\"Total average daily value of shares traded (in billions) $ 4.5\"). Neither supports a platform-share ratio, so we did not record a measure.",
+  "researchedAt": "2026-11-23"
+}

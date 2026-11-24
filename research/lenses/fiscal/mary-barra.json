@@ -1,0 +1,38 @@
+{
+  "id": "mary-barra",
+  "company": "General Motors",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 1.48,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes, net $ 1,475 $ 1,726 $ 1,191 Cash paid for interest [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001467858",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 1475000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 9.2,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
+        "label": "FY2024 Form 10-K, note 1, Research and development expenditures",
+        "quote": "Research and development expenditures, which are expensed as incurred in Automotive and other cost of sales, were $ 9.2 billion, $ 9.9 billion and $ 9.8 billion in the years ended December 31, 2024, 2023 and 2022."
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented. R&D: expensed within Automotive and other cost of sales, stated as $9.2 billion; no separate XBRL fact.",
+  "researchedAt": "2026-11-23"
+}

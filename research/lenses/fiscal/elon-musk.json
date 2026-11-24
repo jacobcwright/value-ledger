@@ -1,0 +1,44 @@
+{
+  "id": "elon-musk",
+  "company": "Tesla",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 1.33,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid during the period for income taxes, net of refunds $ 1,331 $ 1,119 $ 1,203 The accompanying notes [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001318605",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2024-12-31",
+          "value": 1331000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 4.54,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 4,540 3,969 3,075 Selling, general and administrative [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001318605",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-12-31",
+          "value": 4540000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

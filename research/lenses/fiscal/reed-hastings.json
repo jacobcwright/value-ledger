@@ -1,0 +1,28 @@
+{
+  "id": "reed-hastings",
+  "company": "Netflix",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 1.64,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Income taxes paid $ 1,641,530 $ 1,154,973 $ 811,720 Interest paid [USD thousands; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001065280",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2024-12-31",
+          "value": 1641530000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted. R&D not reported as a separate line. Netflix reports 'Technology and development' ($2,925,295 thousand; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), but the 10-K describes it as costs for technology personnel improving the service and does not call it research and development, so it is not recorded.",
+  "researchedAt": "2026-11-23"
+}

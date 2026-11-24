@@ -1,0 +1,28 @@
+{
+  "id": "ray-kroc",
+  "company": "McDonald’s",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 2.97,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000012/mcd-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Income taxes paid 2,974 2,993 3,024 See Notes to consolidated financial [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000063908",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2024-12-31",
+          "value": 2974000000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted. R&D not reported as a separate line in the FY2024 10-K.",
+  "researchedAt": "2026-11-23"
+}

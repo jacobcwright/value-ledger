@@ -1,0 +1,32 @@
+{
+  "id": "lars-fruergaard-jrgensen",
+  "company": "Novo Nordisk A/S",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "DKK",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 29.64,
+      "source": {
+        "hostType": "company",
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
+        "label": "Annual Report 2024, cash flow statement",
+        "quote": "Income taxes paid 2.6 (29,636) (25,897) (14,515) [DKK million, 2024, 2023, 2022]"
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 48.06,
+      "source": {
+        "hostType": "company",
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-annual-report-2024.pdf",
+        "label": "Annual Report 2024, income statement",
+        "quote": "Research and development costs 2.2, 2.3 (48,062) (32,443) (24,047) [DKK million, 2024, 2023, 2022]"
+      }
+    }
+  },
+  "notes": "Consolidated income statement and cash flow statement of the Novo Nordisk Annual Report 2024 (IFRS). Taxes: 'Income taxes paid' (note 2.6 splits it into DKK 21,810m in Denmark and DKK 7,826m outside Denmark). R&D: income-statement line, which includes impairment losses on R&D-related intangibles.",
+  "researchedAt": "2026-11-23"
+}

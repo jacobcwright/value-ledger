@@ -1,0 +1,46 @@
+{
+  "id": "dan-schulman",
+  "company": "PayPal",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ecosystem": {
+    "tier": "filing",
+    "measure": {
+      "name": "Total payment volume (TPV)",
+      "definition": {
+        "quote": "TPV is the value of payments, net of payment reversals, successfully completed on our payments platform or enabled by PayPal via a partner payment solution, not including gateway-exclusive transactions.",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+          "label": "FY2024 Form 10-K, Item 1 Business, key metrics",
+          "quote": "TPV is the value of payments, net of payment reversals, successfully completed on our payments platform or enabled by PayPal via a partner payment solution, not including gateway-exclusive transactions."
+        }
+      },
+      "value": 1680,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1 Business (stated rounded, $1.68 trillion)",
+        "quote": "In 2024, we processed $1.68 trillion of total payment volume (“TPV”), an increase of 10% compared to 2023, and 26.3 billion payment transactions"
+      }
+    },
+    "platformRevenue": {
+      "label": "Net revenues",
+      "value": 31.797,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Net revenues $ 31,797 $ 29,771 $ 27,518"
+      }
+    },
+    "payouts": null,
+    "clientAssets": null,
+    "studies": [],
+    "notes": "The 10-K states TPV rounded, as $1.68 trillion, and gives no exact figure. TPV includes payments enabled by PayPal through a partner payment solution and excludes gateway-exclusive transactions."
+  },
+  "notes": "",
+  "researchedAt": "2026-11-23"
+}

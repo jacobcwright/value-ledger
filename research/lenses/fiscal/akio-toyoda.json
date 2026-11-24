@@ -1,0 +1,44 @@
+{
+  "id": "akio-toyoda",
+  "company": "Toyota Motor Corporation",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-03-31",
+  "currency": "JPY",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 2501.32,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+        "label": "FY2025 Form 20-F, cash income taxes paid",
+        "quote": "Income taxes paid, net of refunds ( 1,297,224 ) ( 1,124,322 ) ( 2,501,315 ) Net cash provided by (used in) [JPY millions; FY2025 is the 3rd figure in the row]",
+        "xbrl": {
+          "cik": "0001094517",
+          "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+          "end": "2025-03-31",
+          "value": 2501315000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 1377.02,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
+        "label": "FY2025 Form 20-F, note 27, Research and development cost",
+        "quote": "27. Research and development cost Research and development costs consist of the following: Yen in millions For the years ended March 31, 2023 2024 2025 ... Total 1,224,564 1,238,271 1,377,018",
+        "xbrl": {
+          "cik": "0001094517",
+          "concept": "ifrs-full:ResearchAndDevelopmentExpense",
+          "end": "2025-03-31",
+          "value": 1377018000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, net of refunds as presented. R&D: note 27 total (expenditures incurred less amounts capitalised plus amortisation of capitalised development costs), JPY 1,377,018 million.",
+  "researchedAt": "2026-11-23"
+}

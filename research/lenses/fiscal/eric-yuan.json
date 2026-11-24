@@ -1,0 +1,44 @@
+{
+  "id": "eric-yuan",
+  "company": "Zoom Communications",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-01-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 0.4,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
+        "label": "FY2025 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes, net $ 395,401 $ 348,129 $ 309,084 Supplemental [USD thousands; FY2025 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001585521",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-01-31",
+          "value": 395401000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 0.85,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm",
+        "label": "FY2025 Form 10-K, research and development expense",
+        "quote": "Research and development 852,415 803,187 774,059 Sales and marketing 1,427,384 [USD thousands; FY2025 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001585521",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2025-01-31",
+          "value": 852415000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "rupert-murdoch",
+  "company": "News Corp",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-06-30",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 0.21,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
+        "label": "FY2025 Form 10-K, cash income taxes paid",
+        "quote": "During the fiscal years ended June 30, 2025, 2024 and 2023, the Company paid gross income taxes of $ 208 million, $ 156 million and $ 149 million, respectively, and received income tax refunds of $ 4 million, $ 17 million and $ 13 million, respectively.",
+        "xbrl": {
+          "cik": "0001564708",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2025-06-30",
+          "value": 208000000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, gross, before refunds. R&D not reported as a separate line in the FY2025 10-K. Taxes: the 10-K states gross income taxes paid of $208 million (us-gaap:IncomeTaxesPaid) and, separately, income tax refunds received of $4 million; the gross figure is recorded and no net figure is computed.",
+  "researchedAt": "2026-11-23"
+}

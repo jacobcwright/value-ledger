@@ -1,0 +1,28 @@
+{
+  "id": "sam-walton",
+  "company": "Walmart",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-01-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 5.88,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
+        "label": "FY2025 Form 10-K, cash income taxes paid",
+        "quote": "Income taxes paid $ 5,884 $ 5,879 $ 3,310 Interest paid 2,739 [USD millions; FY2025 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000104169",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2025-01-31",
+          "value": 5884000000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted. R&D not reported as a separate line in the FY2025 10-K (retailer).",
+  "researchedAt": "2026-11-23"
+}

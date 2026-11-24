@@ -1,0 +1,36 @@
+{
+  "id": "bill-gates",
+  "company": "Microsoft",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-06-30",
+  "currency": "USD",
+  "unit": "billions",
+  "ecosystem": {
+    "tier": "company-commissioned",
+    "measure": null,
+    "platformRevenue": null,
+    "payouts": null,
+    "clientAssets": null,
+    "studies": [
+      {
+        "title": "Microsoft Partners: Driving Economic Value and AI Maturity",
+        "publisher": "IDC",
+        "commissionedBy": "Not stated (IDC research published by Microsoft)",
+        "year": null,
+        "claim": "According to IDC, for every $1 of Microsoft revenue, services partners earn $8.45, and software partners earn $10.93.",
+        "value": null,
+        "currency": "USD",
+        "unit": "billions",
+        "source": {
+          "hostType": "company",
+          "url": "https://blogs.microsoft.com/blog/2025/03/24/microsoft-at-50-the-journey-and-future-of-the-partner-ecosystem/",
+          "label": "Official Microsoft Blog, 'Microsoft at 50: The journey and future of the partner ecosystem' (Mar 24, 2025), citing IDC; the IDC study itself was not fetched",
+          "quote": "According to IDC, for every $1 of Microsoft revenue, services partners earn $8.45, and software partners earn $10.93. … *IDC: Microsoft Partners: Driving Economic Value and AI Maturity"
+        }
+      }
+    ],
+    "notes": "Microsoft's FY2024 10-K has no flow measure for its partner ecosystem, so measure and platformRevenue are null. The only figure is an IDC multiplier (partner revenue per $1 of Microsoft revenue), which is a ratio, so value is null and both ratios are kept in the claim. The IDC study could not be fetched. The Microsoft partner-blog article that presented it (partner.microsoft.com/.../ai-value-for-partners) now 302-redirects to an author page. commissionedBy is null because no fetched document states who paid for the study. The Microsoft blog cites only the IDC title. A Microsoft Tech Community post fetched this session calls it 'A March 2025 IDC study', which conflicts with other dating, so year is null. The IDC multiplier is partner revenue, not money paid by Microsoft."
+  },
+  "notes": "",
+  "researchedAt": "2026-11-23"
+}

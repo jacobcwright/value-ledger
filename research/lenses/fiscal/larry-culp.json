@@ -1,0 +1,44 @@
+{
+  "id": "larry-culp",
+  "company": "GE Aerospace",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 0.85,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash income taxes paid(a) 852 994 1,128 (a) Included taxes paid to taxing [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000040545",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 852000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 1.29,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 1,286 1,011 808 Interest and other financial charges [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000040545",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-12-31",
+          "value": 1286000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the line does not say whether refunds are netted. Taxes: 'Cash income taxes paid' from the income-tax note; per its footnote it includes taxes paid to taxing authorities.",
+  "researchedAt": "2026-11-23"
+}

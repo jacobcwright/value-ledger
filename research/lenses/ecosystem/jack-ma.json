@@ -1,0 +1,36 @@
+{
+  "id": "jack-ma",
+  "company": "Alibaba Group Holding",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-03-31",
+  "currency": "CNY",
+  "unit": "billions",
+  "ecosystem": {
+    "tier": "filing",
+    "measure": null,
+    "platformRevenue": {
+      "label": "Revenue",
+      "value": 996.35,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
+        "label": "FY2025 Form 20-F, consolidated income statements",
+        "quote": "Revenue 5, 24 868,687 941,168 996,347 [RMB in millions; Notes 5, 24; FY2023, FY2024, FY2025]",
+        "xbrl": {
+          "cik": "0001577552",
+          "concept": "us-gaap:Revenues",
+          "end": "2025-03-31",
+          "value": 996347000000
+        }
+      }
+    },
+    "payouts": null,
+    "clientAssets": null,
+    "studies": [],
+    "notes": "The FY2025 20-F (year ended March 31, 2025) does not disclose GMV: neither \"GMV\" nor \"gross merchandise\" appears anywhere in the filing, so measure is null. We also searched the filing for TPV, payment volume, transaction value, gross transaction, GTV and order value and found no platform volume figure (the only hit is a Hong Kong stock settlement fee described as a percentage of \"gross transaction value\"). Revenue is Alibaba's whole-group revenue (customer management, membership, logistics, cloud, direct sales of goods and more), not only marketplace fees, so it should not be read as a take rate on any merchant volume.",
+    "ratioComparable": false,
+    "ratioNote": "Alibaba revenue is group-wide and no platform volume is disclosed."
+  },
+  "notes": "Ecosystem lens only.",
+  "researchedAt": "2026-11-23"
+}

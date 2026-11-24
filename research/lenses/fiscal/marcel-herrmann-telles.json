@@ -1,0 +1,28 @@
+{
+  "id": "marcel-herrmann-telles",
+  "company": "Anheuser-Busch InBev SA/NV",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 3.13,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312525052976/d899194d20f.htm",
+        "label": "FY2024 Form 20-F, cash income taxes paid",
+        "quote": "Income tax paid ( 3 134 ) ( 2 696 ) ( 2 582 ) Cash flow [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001668717",
+          "concept": "ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities",
+          "end": "2024-12-31",
+          "value": 3134000000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities, the line does not say whether refunds are netted. R&D not reported as a separate line; the 20-F describes R&D activities without an expense figure.",
+  "researchedAt": "2026-11-23"
+}

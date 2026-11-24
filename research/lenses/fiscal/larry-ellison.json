@@ -1,0 +1,44 @@
+{
+  "id": "larry-ellison",
+  "company": "Oracle",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-05-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 3.56,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes $ 3,560 $ 3,009 $ 2,567 Cash paid for interest [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001341439",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2024-05-31",
+          "value": 3560000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 8.91,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 8,915 8,623 7,219 General and administrative 1,548 1,579 [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001341439",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-05-31",
+          "value": 8915000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted.",
+  "researchedAt": "2026-11-23"
+}

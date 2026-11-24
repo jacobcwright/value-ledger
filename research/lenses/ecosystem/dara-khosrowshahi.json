@@ -1,0 +1,46 @@
+{
+  "id": "dara-khosrowshahi",
+  "company": "Uber",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ecosystem": {
+    "tier": "filing",
+    "measure": {
+      "name": "Gross Bookings",
+      "definition": {
+        "quote": "We define Gross Bookings as the total dollar value, including any applicable taxes, tolls, and fees, of: Mobility rides, Delivery orders (in each case without any adjustment for consumer discounts and refunds, Driver and Merchant earnings, and Driver incentives) and Freight revenue. Gross Bookings do not include tips earned by Drivers.",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+          "label": "FY2024 Form 10-K, Certain Key Metrics",
+          "quote": "We define Gross Bookings as the total dollar value, including any applicable taxes, tolls, and fees, of: Mobility rides, Delivery orders (in each case without any adjustment for consumer discounts and refunds, Driver and Merchant earnings, and Driver incentives) and Freight revenue. Gross Bookings do not include tips earned by Drivers."
+        }
+      },
+      "value": 162.773,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+        "label": "FY2024 Form 10-K, MD&A financial and operational highlights (in millions)",
+        "quote": "Gross Bookings (2) $ 137,865 $ 162,773 18 % 21 %"
+      }
+    },
+    "platformRevenue": {
+      "label": "Revenue",
+      "value": 43.978,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Revenue $ 31,877 $ 37,281 $ 43,978"
+      }
+    },
+    "payouts": null,
+    "clientAssets": null,
+    "studies": [],
+    "notes": "Gross Bookings include Freight revenue, which Uber books gross, as well as taxes, tolls and fees. They exclude tips. Revenue includes Freight revenue. The 10-K does not state total driver or courier earnings, so payouts is null. 'Platform Participant direct transaction costs' (costs paid to Platform Earners that Uber records in cost of revenue, plus end-user incentives) are a partial, mixed amount, not total earnings, and are not used."
+  },
+  "notes": "",
+  "researchedAt": "2026-11-23"
+}

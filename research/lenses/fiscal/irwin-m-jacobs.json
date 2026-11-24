@@ -1,0 +1,44 @@
+{
+  "id": "irwin-m-jacobs",
+  "company": "Qualcomm",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-09-29",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 3.3,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash amounts paid for income taxes, net of refunds received, were $ 3.3 billion, $ 1.4 billion and $ 2.1 billion for fiscal 2024, 2023 and 2022, respectively.",
+        "xbrl": {
+          "cik": "0000804328",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-09-29",
+          "value": 3300000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 8.89,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 8,893 8,818 8,194 Selling, general and administrative [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000804328",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-09-29",
+          "value": 8893000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

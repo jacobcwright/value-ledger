@@ -1,0 +1,32 @@
+{
+  "id": "lei-jun",
+  "company": "Xiaomi Corporation",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "CNY",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 3.47,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
+        "label": "2024 Annual Report, consolidated statement of cash flows",
+        "quote": "Income tax paid (3,467,218) (3,011,748) [RMB’000, 2024 and 2023]"
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 24.05,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0424/2025042401119.pdf",
+        "label": "2024 Annual Report, consolidated income statement",
+        "quote": "Research and development expenses 8 (24,050,484) (19,097,699) [RMB’000, 2024 and 2023]"
+      }
+    }
+  },
+  "notes": "IFRS consolidated statements. Note 8 states no significant development expenses were capitalised in 2024.",
+  "researchedAt": "2026-11-23"
+}

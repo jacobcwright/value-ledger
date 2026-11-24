@@ -1,0 +1,44 @@
+{
+  "id": "john-warnock",
+  "company": "Adobe",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-11-29",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 1.73,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes, net of refunds $ 1,727 $ 1,854 $ 778 Cash paid for interest $ [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000796343",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-11-29",
+          "value": 1727000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 3.94,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 3,944 3,473 2,987 Sales and marketing 5,764 5,351 4,968 [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000796343",
+          "concept": "us-gaap:ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost",
+          "end": "2024-11-29",
+          "value": 3944000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

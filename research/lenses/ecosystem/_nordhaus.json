@@ -1,0 +1,10 @@
+{
+  "claim": "Innovators capture about 2.2 percent of the total social surplus from innovation (U.S. nonfarm business sector, 1948-2001).",
+  "value": 2.2,
+  "source": {
+    "hostType": "regulator",
+    "url": "https://www.nber.org/system/files/working_papers/w10433/w10433.pdf",
+    "label": "William D. Nordhaus, 'Schumpeterian Profits in the American Economy: Theory and Measurement', NBER Working Paper 10433 (April 2004), Conclusion",
+    "quote": "Using data from the U.S. nonfarm business section, I estimate that innovators are able to capture about 2.2 percent of the total social surplus from innovation."
+  }
+}

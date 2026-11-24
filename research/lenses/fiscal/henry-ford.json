@@ -1,0 +1,44 @@
+{
+  "id": "henry-ford",
+  "company": "Ford Motor Company",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 1.22,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes was $ 801 million, $ 1,027 million, and $ 1,218 million in 2022, 2023, and 2024, respectively.",
+        "xbrl": {
+          "cik": "0000037996",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 1218000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 8.0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Engineering, research, development, and advertising expenses for the years ended December 31 were as follows (in billions): 2022 2023 2024 Engineering, research, and development $ 7.8 $ 8.2 $ 8.0",
+        "xbrl": {
+          "cik": "0000037996",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-12-31",
+          "value": 8000000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the line does not say whether refunds are netted. R&D line is Ford's 'Engineering, research, and development' expense, stated in billions.",
+  "researchedAt": "2026-11-23"
+}

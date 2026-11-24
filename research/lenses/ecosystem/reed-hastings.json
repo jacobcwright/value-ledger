@@ -1,0 +1,43 @@
+{
+  "id": "reed-hastings",
+  "company": "Netflix",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ecosystem": {
+    "tier": "filing",
+    "measure": null,
+    "platformRevenue": {
+      "label": "Revenues",
+      "value": 39.0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of operations",
+        "quote": "Revenues $ 39,000,966 $ 33,723,297 $ 31,615,550 [in thousands; 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0001065280",
+          "concept": "us-gaap:Revenues",
+          "end": "2024-12-31",
+          "value": 39000966000
+        }
+      }
+    },
+    "payouts": {
+      "label": "Cash paid for content (licensing and production)",
+      "value": 17.0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 7 MD&A, cash flows",
+        "quote": "The payments for content assets increased $3,862 million, from $13,140 million to $17,003 million, or 29%."
+      }
+    },
+    "clientAssets": null,
+    "studies": [],
+    "notes": "Netflix has no volume measure, so measure is null. The $17,003 million is the MD&A figure for payments for content assets; on the cash-flow statement it corresponds to \"Additions to content assets (16,223,617)\" and \"Change in content liabilities (779,135)\" (in thousands), which Netflix classifies within operating cash flows. It covers both licensed content and content Netflix produces itself (\"We acquire, license and produce content, including original programming\"), so it is not all money paid to outside partners."
+  },
+  "notes": "Ecosystem lens only.",
+  "researchedAt": "2026-11-23"
+}

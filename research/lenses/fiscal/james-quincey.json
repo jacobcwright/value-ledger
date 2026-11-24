@@ -1,0 +1,28 @@
+{
+  "id": "james-quincey",
+  "company": "The Coca-Cola Company",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 3.26,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "We made income tax payments of $ 3,262 million, $ 2,580 million and $ 2,403 million in 2024, 2023 and 2022, respectively",
+        "xbrl": {
+          "cik": "0000021344",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2024-12-31",
+          "value": 3262000000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted. R&D not reported as a separate line; the 10-K mentions R&D only qualitatively.",
+  "researchedAt": "2026-11-23"
+}

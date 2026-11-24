@@ -1,0 +1,44 @@
+{
+  "id": "tobias-lutke",
+  "company": "Shopify",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 0.12,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes, net 116 50 27 Cash paid for interest 1 1 1 The [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001594805",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 116000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 1.37,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 1,367 (21) % 1,730 15 % 1,503 Percentage of [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001594805",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-12-31",
+          "value": 1367000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

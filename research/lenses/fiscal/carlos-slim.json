@@ -1,0 +1,28 @@
+{
+  "id": "carlos-slim",
+  "company": "América Móvil",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "MXN",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 48.09,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1129137/000114036125018954/ef20044005_20f.htm",
+        "label": "FY2024 Form 20-F, cash income taxes paid",
+        "quote": "Income taxes paid ( 62,015,057 ) ( 49,466,056 ) ( 48,089,000 ) ( 2,374 ) Cash flows from [MXN thousands; FY2024 is the 3rd figure in the row]",
+        "xbrl": {
+          "cik": "0001129137",
+          "concept": "ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities",
+          "end": "2024-12-31",
+          "value": 48089000000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities, the line does not say whether refunds are netted. R&D not reported as a separate line in the FY2024 20-F. Taxes: cash-flow statement in thousands of Mexican pesos.",
+  "researchedAt": "2026-11-23"
+}

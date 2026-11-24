@@ -1,0 +1,28 @@
+{
+  "id": "sergio-ermotti",
+  "company": "UBS Group AG",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 1.94,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000161052025000023/ubs-20241231.htm",
+        "label": "FY2024 Form 20-F, cash income taxes paid",
+        "quote": "Income taxes paid, net of refunds ( 1,938 ) ( 1,852 ) ( 1,582 ) Net cash flow [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001610520",
+          "concept": "ifrs-full:IncomeTaxesPaidRefund",
+          "end": "2024-12-31",
+          "value": 1938000000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefund, net of refunds as presented. R&D not reported as a separate line (bank).",
+  "researchedAt": "2026-11-23"
+}

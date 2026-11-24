@@ -1,0 +1,44 @@
+{
+  "id": "anirudh-devgan",
+  "company": "Cadence Design Systems",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 0.51,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes, net 509,979 253,700 233,235 See notes to consolidated financial [USD thousands; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000813672",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 509979000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 1.55,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000024/cdns-20241231.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 1,549,093 1,441,796 1,251,544 General and administrative 282,283 [USD thousands; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000813672",
+          "concept": "us-gaap:ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost",
+          "end": "2024-12-31",
+          "value": 1549093000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "indra-nooyi",
+  "company": "PepsiCo",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-28",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 3.06,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Income taxes paid, net of refunds (b) $ 3,064 $ 2,532 $ 2,766 (a) 2022 excludes the [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000077476",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-28",
+          "value": 3064000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 0.81,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development costs were $ 813 million, $ 804 million and 76 Table of Contents $ 771 million in 2024, 2023 and 2022, respectively, and are reported within selling, general and administrative expenses.",
+        "xbrl": {
+          "cik": "0000077476",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-12-28",
+          "value": 813000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

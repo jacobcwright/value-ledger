@@ -1,0 +1,22 @@
+{
+  "id": "david-velez",
+  "company": "Nu Holdings (Nubank)",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 1.26,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
+        "label": "FY2024 Form 20-F, consolidated statements of cash flows",
+        "quote": "Income tax paid ( 1,262,541 ) ( 612,447 ) ( 297,090 ) [In thousands of U.S. Dollars; 2024, 2023, 2022]"
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: no matching XBRL fact in companyfacts; value from the cash-flow statement, USD 1,262,541 thousand. R&D not reported as a separate line; the 20-F says general and administrative expenses include amounts spent on research and development, but gives no separate figure.",
+  "researchedAt": "2026-11-23"
+}

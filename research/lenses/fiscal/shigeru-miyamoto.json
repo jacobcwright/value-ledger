@@ -1,0 +1,32 @@
+{
+  "id": "shigeru-miyamoto",
+  "company": "Nintendo",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-03-31",
+  "currency": "JPY",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 148.18,
+      "source": {
+        "hostType": "company",
+        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
+        "label": "Annual Report (Securities Report) for FY ended March 31, 2025, consolidated statements of cash flows",
+        "quote": "Income taxes paid (183,415) (148,184) (994) [Millions of yen, FY ended March 2024 and March 2025; millions of USD]"
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 143.79,
+      "source": {
+        "hostType": "company",
+        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
+        "label": "Annual Report (Securities Report) for FY ended March 31, 2025, notes to consolidated statements of income",
+        "quote": "*3. Research and development expenses included in general and administrative expenses and manufacturing ... Research and development expenses ¥137,749 million ¥143,788 million USD 965 million [FY ended March 2024, March 2025]"
+      }
+    }
+  },
+  "notes": "Consolidated (Japanese GAAP). R&D: total R&D expenses in general and administrative expenses and manufacturing costs (¥143,788m); R&D within SG&A alone was ¥143,782m. The non-consolidated figure (¥65,503m) is not used.",
+  "researchedAt": "2026-11-23"
+}

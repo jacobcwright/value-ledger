@@ -1,0 +1,51 @@
+{
+  "id": "mark-zuckerberg",
+  "company": "Meta Platforms",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ecosystem": {
+    "tier": "company-commissioned",
+    "measure": null,
+    "platformRevenue": {
+      "label": "Revenue",
+      "value": 164.5,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 7 MD&A, results of operations",
+        "quote": "Revenue $ 164,501 $ 134,902 $ 116,609 [in millions; 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0001326801",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2024-12-31",
+          "value": 164501000000
+        }
+      }
+    },
+    "payouts": null,
+    "clientAssets": null,
+    "studies": [
+      {
+        "title": "Meta's Economic Contribution in the U.S. (2024)",
+        "publisher": "Meta",
+        "commissionedBy": "Meta (self-published)",
+        "year": 2025,
+        "claim": "Applying the BEA multipliers to Meta-supported advertiser revenue estimates and Meta's own non-advertising revenues, we find that $548 billion in economic activity and 3.4 million total jobs is linked to US supply chains relying on our platforms in 2024.",
+        "value": 548,
+        "currency": "USD",
+        "unit": "billions",
+        "source": {
+          "hostType": "company",
+          "url": "https://research.facebook.com/economiccontribution/",
+          "label": "Meta Research, Economic Contribution study page (U.S. only, 2024)",
+          "quote": "we find that $548 billion in economic activity and 3.4 million total jobs is linked to US supply chains relying on our platforms in 2024."
+        }
+      }
+    ],
+    "notes": "The 10-K has no flow measure, so measure is null. The study is Meta's own (\"a new study we conducted\", announced May 13, 2025) and covers the U.S. only. It starts from Meta's estimate that each U.S. ad dollar yields $3.71 of advertiser revenue (\"over $215 billion in business/advertisers revenues in the U.S. from Meta ads\"), then applies BEA input-output multipliers for indirect and induced activity, so the $548 billion is a modelled economic-activity figure, not money paid to businesses or creators. It includes about $2 billion of Meta's own non-advertising sales. A separate Meta study puts the EU figure at €213 billion and 1.44 million jobs in 2024; it is not added here. Meta revenue is worldwide, so it is not comparable with the U.S.-only study figure."
+  },
+  "notes": "Ecosystem lens only.",
+  "researchedAt": "2026-11-23"
+}

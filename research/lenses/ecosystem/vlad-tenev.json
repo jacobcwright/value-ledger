@@ -1,0 +1,44 @@
+{
+  "id": "vlad-tenev",
+  "company": "Robinhood",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ecosystem": {
+    "tier": "filing",
+    "measure": null,
+    "platformRevenue": {
+      "label": "Total net revenues",
+      "value": 2.95,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 7 MD&A overview",
+        "quote": "total net revenues increased 58% to $2.95 billion compared to $1.87 billion",
+        "xbrl": {
+          "cik": "0001783879",
+          "concept": "us-gaap:Revenues",
+          "end": "2024-12-31",
+          "value": 2951000000
+        }
+      }
+    },
+    "payouts": null,
+    "clientAssets": {
+      "label": "Assets Under Custody (AUC)",
+      "value": 192.9,
+      "asOf": "2024-12-31",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 7 MD&A overview and key performance metrics",
+        "quote": "AUC increased 88% to $192.9 billion compared to $102.6 billion, driven by continued Net Deposits and higher equity and cryptocurrency valuations"
+      }
+    },
+    "studies": [],
+    "notes": "AUC is a stock, defined in the 10-K as: \"We define AUC as the sum of the fair value of all equities, options, cryptocurrency, futures (including options on futures, swaps, and event contracts), and cash held by users in their accounts, net of receivables from users, as of a stated date or period end on a trade date basis.\" The 10-K defines Notional Trading Volume (\"the aggregate dollar value (purchase price or sale price as applicable) of trades executed in that asset class over a specified period of time\") but reports no annual dollar total for it, only growth in average volume per trader, so measure is null. The 10-K also reports Net Deposits of $50.5 billion for 2024; that is net client money moved onto the platform, not volume transacted through it, so it is not used as a measure. No take rate should be computed on AUC."
+  },
+  "notes": "Ecosystem lens only. Total net revenues include transaction-based revenues and net interest revenues.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "david-ricks",
+  "company": "Eli Lilly",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 6.56,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash payments of income taxes $ 6,562.1 $ 5,558.8 $ 2,672.9 As of December 31, [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000059478",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2024-12-31",
+          "value": 6562100000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 10.99,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 10,990.6 9,313.4 7,190.8 Marketing, selling, and administrative [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000059478",
+          "concept": "us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost",
+          "end": "2024-12-31",
+          "value": 10990600000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted.",
+  "researchedAt": "2026-11-23"
+}

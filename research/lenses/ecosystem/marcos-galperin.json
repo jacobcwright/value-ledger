@@ -1,0 +1,75 @@
+{
+  "id": "marcos-galperin",
+  "company": "MercadoLibre",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ecosystem": {
+    "tier": "filing",
+    "measure": {
+      "name": "Gross merchandise volume",
+      "definition": {
+        "quote": "(4) Total U.S. dollar sum of all transactions completed through the Mercado Libre Marketplace, excluding Classifieds transactions.",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
+          "label": "FY2024 Form 10-K, Other Data, footnote (4)",
+          "quote": "(4) Total U.S. dollar sum of all transactions completed through the Mercado Libre Marketplace, excluding Classifieds transactions."
+        }
+      },
+      "value": 51.467,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
+        "label": "FY2024 Form 10-K, Other Data key performance indicators table (in millions)",
+        "quote": "Gross merchandise volume (4) $ 51,467 $ 44,749 $ 34,449"
+      }
+    },
+    "platformRevenue": {
+      "label": "Commerce services revenues (marketplace fees, related shipping and storage fees, classifieds fees and ad sales; excludes first-party product sales)",
+      "value": 10.076,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 10 Segments, net revenues and financial income disaggregated by products and services, year ended December 31, 2024 (in millions)",
+        "quote": "Commerce services (1) $ 5,695 $ 2,608 $ 1,207 $ 566 $ 10,076 Commerce products sales (2) 1,343 464 200 76 2,083 Total commerce revenues 7,038 3,072 1,407 642 12,159 … (1) Includes final value fees and flat fees paid by sellers derived from intermediation services and related shipping and storage fees, classified fees derived from classified advertising services and ad sales."
+      }
+    },
+    "secondaryMeasure": {
+      "name": "Total payment volume",
+      "definition": {
+        "quote": "(6) Total U.S. dollar sum of all transactions paid for using Mercado Pago, including marketplace and non-marketplace transactions, excluding peer-to-peer transactions.",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
+          "label": "FY2024 Form 10-K, Other Data, footnote (6)",
+          "quote": "(6) Total U.S. dollar sum of all transactions paid for using Mercado Pago, including marketplace and non-marketplace transactions, excluding peer-to-peer transactions."
+        }
+      },
+      "value": 196.66,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
+        "label": "FY2024 Form 10-K, Other Data key performance indicators table (in millions)",
+        "quote": "Total payment volume (6) $ 196,660 $ 146,738 $ 100,585"
+      },
+      "relatedRevenue": {
+        "label": "Fintech net revenues and financial income",
+        "value": 8.618,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
+          "label": "FY2024 Form 10-K, Note 10 Segments, year ended December 31, 2024 (in millions)",
+          "quote": "Total fintech revenues 4,368 1,592 2,411 247 8,618 Total net revenues and financial income $ 11,406 $ 4,664 $ 3,818 $ 889 $ 20,777"
+        }
+      }
+    },
+    "payouts": null,
+    "clientAssets": null,
+    "studies": [],
+    "notes": "The two volumes overlap. TPV includes marketplace transactions paid with Mercado Pago, so TPV and GMV must never be added. platformRevenue is Commerce services revenues ($10.076B), which leaves out first-party product sales ($2.083B). It still includes classifieds fees and ad sales, while GMV excludes Classifieds, so services revenue divided by GMV slightly overstates the marketplace take. Total commerce revenues were $12.159B, and total net revenues and financial income were $20.777B (Fintech $8.618B, which includes credit revenues). secondaryMeasure is a schema extension for TPV."
+  },
+  "notes": "Schema extension: ecosystem.secondaryMeasure (TPV).",
+  "researchedAt": "2026-11-23"
+}

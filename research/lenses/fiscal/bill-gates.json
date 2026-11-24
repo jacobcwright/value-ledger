@@ -1,0 +1,44 @@
+{
+  "id": "bill-gates",
+  "company": "Microsoft",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-06-30",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 23.4,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Income taxes paid, net of refunds, were $ 23.4 billion, $ 23.1 billion, and $ 16.0 billion in fiscal years 2024, 2023, and 2022, respectively.",
+        "xbrl": {
+          "cik": "0000789019",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-06-30",
+          "value": 23400000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 29.51,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 29,510 27,195 24,512 Sales and marketing 24,456 22,759 [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000789019",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-06-30",
+          "value": 29510000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

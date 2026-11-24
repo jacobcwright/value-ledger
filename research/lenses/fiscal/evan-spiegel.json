@@ -1,0 +1,44 @@
+{
+  "id": "evan-spiegel",
+  "company": "Snap",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 0.02,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes, net $ 24,686 $ 30,924 $ 12,087 Cash paid for [USD thousands; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001564408",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 24686000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 1.69,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 1,691,683 1,910,862 2,109,800 Sales and marketing 1,063,675 [USD thousands; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001564408",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-12-31",
+          "value": 1691683000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

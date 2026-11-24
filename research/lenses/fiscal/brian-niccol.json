@@ -1,0 +1,28 @@
+{
+  "id": "brian-niccol",
+  "company": "Chipotle Mexican Grill",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 0.53,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Income taxes paid $ 532,862 $ 400,229 $ 275,796 Purchases of [USD thousands; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001058090",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 532862000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the line does not say whether refunds are netted. R&D not reported as a separate line in the FY2024 10-K.",
+  "researchedAt": "2026-11-23"
+}

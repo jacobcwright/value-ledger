@@ -1,0 +1,22 @@
+{
+  "id": "wang-chuanfu",
+  "company": "BYD Company Limited",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "CNY",
+  "unit": "billions",
+  "taxes": null,
+  "rnd": {
+    "expense": {
+      "value": 53.19,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401228.pdf",
+        "label": "2024 Annual Report, consolidated income statement",
+        "quote": "Research and development expenses 研發費用 48 53,194,745 39,574,945 [RMB’000, 2024 and 2023]"
+      }
+    }
+  },
+  "notes": "Taxes: null. BYD reports under PRC accounting standards and its consolidated cash flow statement shows only 'Cash paid for various types of taxes' (RMB 52,697,132 thousand in 2024), which covers all taxes (VAT, surcharges etc.), not income tax alone; no cash income-tax-paid figure is disclosed. R&D: income-statement 'Research and development expenses' (expensed; capitalised development is excluded).",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "lee-jae-yong",
+  "company": "Samsung Electronics",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "KRW",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 6450.04,
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "2024 Business Report (4Q interim report), interim consolidated statements of cash flows",
+        "quote": "Income tax paid (6,450,044) (6,620,950) (4,731,914) (4,857,296) [KRW million 2024, 2023; USD thousand 2024, 2023]"
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 34998.14,
+      "source": {
+        "hostType": "company",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+        "label": "2024 Business Report (4Q interim report), Summary of R&D activities and expenditures (consolidated basis)",
+        "quote": "Among this, KRW 34,998.1 billion was recognized as expenditures, excluding government subsidies and capitalized expenses. ... R&D costs (expenses) 34,998,142 28,339,724 24,919,198 [KRW million, 2024, 2023, 2022]"
+      }
+    }
+  },
+  "notes": "Values in KRW billions (KRW 6,450,044 million and 34,998,142 million). Taxes from the consolidated cash flow statement (the report also prints a separate parent-only statement, not used). R&D: 'R&D costs (expenses)' on a consolidated basis = total R&D expenditure KRW 35,021,531m less government subsidies KRW 23,389m; no development costs capitalised in 2024.",
+  "researchedAt": "2026-11-23"
+}

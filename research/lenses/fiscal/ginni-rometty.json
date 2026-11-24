@@ -1,0 +1,44 @@
+{
+  "id": "ginni-rometty",
+  "company": "IBM",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 1.72,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Income taxes paid—net of refunds received $ 1,723 $ 1,564 $ 1,865 Interest paid on debt [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000051143",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 1723000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 7.48,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research, development and engineering 7,479 6,775 6,567 Intellectual property and custom [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000051143",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-12-31",
+          "value": 7479000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented. R&D line is IBM's 'Research, development and engineering'.",
+  "researchedAt": "2026-11-23"
+}

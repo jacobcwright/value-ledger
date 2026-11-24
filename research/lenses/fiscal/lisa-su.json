@@ -1,0 +1,44 @@
+{
+  "id": "lisa-su",
+  "company": "AMD",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-28",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 1.39,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Income taxes, net of refund $ 1,386 $ 523 $ 685 Non-cash investing and [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000002488",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-28",
+          "value": 1386000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 6.46,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 6,456 5,872 Marketing, general and administrative [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000002488",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-12-28",
+          "value": 6456000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

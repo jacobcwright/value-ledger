@@ -1,0 +1,32 @@
+{
+  "id": "herbert-diess",
+  "company": "Volkswagen AG",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "EUR",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 6.19,
+      "source": {
+        "hostType": "company",
+        "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/931/file_en/953dcbb8e57270df70ca288218092dba4721fd63/2025-03-11-volkswagen-group-annual-report-2024-en.pdf",
+        "label": "Annual Report 2024, consolidated financial statements, cash flow statement of the Volkswagen Group",
+        "quote": "Income taxes paid –6,187 –7,716 [€ million, 2024 and 2023]"
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 17.96,
+      "source": {
+        "hostType": "company",
+        "url": "https://uploads.vw-mms.de/system/production/documents/cws/002/931/file_en/953dcbb8e57270df70ca288218092dba4721fd63/2025-03-11-volkswagen-group-annual-report-2024-en.pdf",
+        "label": "Annual Report 2024, notes to the consolidated financial statements (research and development costs)",
+        "quote": "Research and development costs recognized in profit or loss 17,963 15,824 + 13.5 [€ million, 2024, 2023, % change]"
+      }
+    }
+  },
+  "notes": "R&D: costs recognised in profit or loss (€17,963m), not total R&D costs (€20,999m, of which €10,244m capitalised). Both figures also appear in the separate consolidated financial statements PDF the record cites.",
+  "researchedAt": "2026-11-23"
+}

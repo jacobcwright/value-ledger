@@ -1,0 +1,44 @@
+{
+  "id": "peter-thiel",
+  "company": "Palantir Technologies",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 0.02,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes $ 16,179 $ 13,515 $ 2,904 Noncash investing and [USD thousands; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001321655",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 16179000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 0.51,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 507,878 404,624 359,679 General and administrative 593,481 [USD thousands; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001321655",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-12-31",
+          "value": 507878000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the line does not say whether refunds are netted.",
+  "researchedAt": "2026-11-23"
+}

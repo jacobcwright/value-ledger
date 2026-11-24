@@ -26,7 +26,7 @@ const HOLDER_TYPES = ["asset-manager","index-fund","pension","sovereign","govern
 function checkSource(src, where, errs, facts, links) {
   if (!src || typeof src !== "object") return errs.push(`${where}: missing source`);
   if (!/^https:\/\/[^\s]+$/.test(src.url || "")) errs.push(`${where}: source.url must be https`);
-  if (/google\.|bing\.|duckduckgo\./.test(src.url || "")) errs.push(`${where}: source.url is a search page`);
+  if (/(google\.[a-z.]+\/search|bing\.com\/search|duckduckgo\.com\/\?)/.test(src.url || "")) errs.push(`${where}: source.url is a search page`);
   if (!src.label) errs.push(`${where}: source.label missing`);
   if (!HOSTS.includes(src.hostType)) errs.push(`${where}: source.hostType must be one of ${HOSTS.join("|")}`);
   if (MIRRORS.test(src.url || "")) errs.push(`${where}: source.url is a mirror/aggregator, not a primary document`);

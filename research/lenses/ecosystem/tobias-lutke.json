@@ -1,0 +1,46 @@
+{
+  "id": "tobias-lutke",
+  "company": "Shopify",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ecosystem": {
+    "tier": "filing",
+    "measure": {
+      "name": "Gross Merchandise Volume",
+      "definition": {
+        "quote": "GMV is the total dollar value of orders facilitated through our platform including certain apps and channels for which a revenue-sharing arrangement is in place in the period, net of refunds, and inclusive of shipping and handling, duty and value-added taxes. GMV does not represent revenue earned by us.",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+          "label": "FY2024 Form 10-K, Key Performance Indicators",
+          "quote": "GMV is the total dollar value of orders facilitated through our platform including certain apps and channels for which a revenue-sharing arrangement is in place in the period, net of refunds, and inclusive of shipping and handling, duty and value-added taxes. GMV does not represent revenue earned by us."
+        }
+      },
+      "value": 292.275,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+        "label": "FY2024 Form 10-K, Key Performance Indicators table (in US $ millions)",
+        "quote": "(in US $ millions) Monthly Recurring Revenue 178 144 109 Gross Merchandise Volume 292,275 235,910 197,167"
+      }
+    },
+    "platformRevenue": {
+      "label": "Total revenues",
+      "value": 8.88,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480525000012/shop-20241231.htm",
+        "label": "FY2024 Form 10-K, Discussion of the Results of Operations, revenues table (in US $ millions)",
+        "quote": "Subscription solutions 2,350 28 % 1,837 23 % 1,488 Merchant solutions 6,530 25 % 5,223 27 % 4,112 Total revenues 8,880 26 % 7,060 26 % 5,600"
+      }
+    },
+    "payouts": null,
+    "clientAssets": null,
+    "studies": [],
+    "notes": "GMV includes shipping, duties and VAT, and is net of refunds. Shopify's revenue includes subscription fees as well as payment processing fees. Shopify Payments carried $181.0B of the GMV (61.9% penetration). The 10-K says 'over 57% of our GMV was generated in the United States'. The FY2024 original 10-K was used, not the 10-K/A filed 2025-04-29."
+  },
+  "notes": "",
+  "researchedAt": "2026-11-23"
+}

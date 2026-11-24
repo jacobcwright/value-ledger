@@ -1,0 +1,28 @@
+{
+  "id": "walt-disney",
+  "company": "The Walt Disney Company",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-09-28",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 3.96,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000276/dis-20240928.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Income taxes paid $ 3,963 $ 1,193 $ 1,097 See Notes to [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001744489",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2024-09-28",
+          "value": 3963000000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted. R&D not reported as a separate line in the FY2024 10-K.",
+  "researchedAt": "2026-11-23"
+}

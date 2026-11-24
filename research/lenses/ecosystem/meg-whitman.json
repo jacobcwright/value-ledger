@@ -1,0 +1,46 @@
+{
+  "id": "meg-whitman",
+  "company": "eBay",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ecosystem": {
+    "tier": "filing",
+    "measure": {
+      "name": "Gross Merchandise Volume (GMV)",
+      "definition": {
+        "quote": "GMV consists of the total value of all paid transactions between users on our Marketplace platforms during the applicable period inclusive of shipping fees and taxes.",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
+          "label": "FY2024 Form 10-K, MD&A key operating metrics",
+          "quote": "GMV consists of the total value of all paid transactions between users on our Marketplace platforms during the applicable period inclusive of shipping fees and taxes."
+        }
+      },
+      "value": 74.667,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
+        "label": "FY2024 Form 10-K, MD&A net revenues, GMV and take rate table (in millions)",
+        "quote": "GMV $ 74,667 $ 430 $ 74,237 $ 73,206 2 % 1 %"
+      }
+    },
+    "platformRevenue": {
+      "label": "Net revenues",
+      "value": 10.283,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statement of income (in millions)",
+        "quote": "Net revenues $ 10,283 $ 10,112 $ 9,795"
+      }
+    },
+    "payouts": null,
+    "clientAssets": null,
+    "studies": [],
+    "notes": "GMV includes shipping fees and taxes. eBay states its own take rate (net revenues divided by GMV) as 13.77% for 2024. It says 49% of GMV was generated outside the United States."
+  },
+  "notes": "",
+  "researchedAt": "2026-11-23"
+}

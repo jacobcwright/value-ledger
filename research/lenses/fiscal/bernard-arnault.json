@@ -1,0 +1,32 @@
+{
+  "id": "bernard-arnault",
+  "company": "LVMH Moët Hennessy Louis Vuitton",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "EUR",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 5.79,
+      "source": {
+        "hostType": "company",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
+        "label": "2024 Universal Registration Document, consolidated cash flow statement (total tax paid)",
+        "quote": "Tax paid (5,531) (5,730) (5,604) ... TOTAL TAX PAID (5,790) (6,106) (5,933) [EUR million, 2024, 2023, 2022]"
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 0.21,
+      "source": {
+        "hostType": "company",
+        "url": "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf",
+        "label": "2024 Universal Registration Document, management report section 5.2 Research and development costs",
+        "quote": "Research and development costs 205 202 172 [EUR million, 2024, 2023, 2022]"
+      }
+    }
+  },
+  "notes": "Taxes: the consolidated cash flow statement's own 'TOTAL TAX PAID' (EUR 5,790m) = tax paid in operating activities (EUR 5,531m) + tax paid related to interim and final dividends paid (EUR 259m, withholding on intra-group dividends, in financing activities) + tax on investment disposals (nil). Operating-only figure would be 5.53. R&D: LVMH reports no R&D line in the income statement; the management report gives 'research and development investments' of EUR 205m (mainly Perfumes & Cosmetics scientific research); the accounting policy states research expenditure is not capitalized, so it is treated as expensed. Rounded from 0.205.",
+  "researchedAt": "2026-11-23"
+}

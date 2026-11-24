@@ -1,0 +1,44 @@
+{
+  "id": "pascal-soriot",
+  "company": "AstraZeneca",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 2.75,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231x20f.htm",
+        "label": "FY2024 Form 20-F, cash income taxes paid",
+        "quote": "Tax paid ( 2,750 ) ( 2,366 ) ( 1,623 ) Net cash inflow [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000901832",
+          "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+          "end": "2024-12-31",
+          "value": 2750000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 13.58,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231x20f.htm",
+        "label": "FY2024 Form 20-F, research and development expense",
+        "quote": "Research and development expense 2 ( 13,583 ) ( 10,935 ) ( 9,762 ) Selling, [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000901832",
+          "concept": "ifrs-full:ResearchAndDevelopmentExpense",
+          "end": "2024-12-31",
+          "value": 13583000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "larry-fink",
+  "company": "BlackRock",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ecosystem": {
+    "tier": "filing",
+    "measure": null,
+    "platformRevenue": {
+      "label": "Total revenue",
+      "value": 20.41,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
+        "label": "FY2024 Form 10-K, consolidated statements of income",
+        "quote": "Total revenue 20,407 17,859 17,873 [in millions; 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0002012383",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2024-12-31",
+          "value": 20407000000
+        }
+      }
+    },
+    "payouts": null,
+    "clientAssets": {
+      "label": "Assets under management (AUM)",
+      "value": 11551.25,
+      "asOf": "2024-12-31",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1, component changes in AUM by product type (in millions)",
+        "quote": "Component changes in AUM by product type for the five years ended December 31, 2024 are presented below. (in millions) ... December 31, 2024 ... Total $ 7,429,633 $ 2,167,107 $ 117,449 $ 2,174,873 $ (337,811 ) $ 11,551,251"
+      }
+    },
+    "studies": [],
+    "notes": "AUM is a stock of client money, not a flow, so no take rate is computed on it. BlackRock's fee is the platform's share of client returns: the 10-K says \"Investment management fees are typically earned as a percentage of AUM\", and BlackRock also earns performance fees and technology services (Aladdin) revenue. The investment returns on the AUM belong to BlackRock's clients. The 10-K describes it as \"$11.6 trillion of assets under management (“AUM”) at December 31, 2024\"."
+  },
+  "notes": "Ecosystem lens only.",
+  "researchedAt": "2026-11-23"
+}

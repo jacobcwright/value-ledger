@@ -1,0 +1,44 @@
+{
+  "id": "gordon-moore",
+  "company": "Intel",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-28",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 2.2,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Income taxes, net of refunds $ 2,202 $ 2,621 $ 4,282 See accompanying [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000050863",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-28",
+          "value": 2202000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 16.55,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 16,546 31.2 % 16,046 29.6 % 17,528 27.8 % [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0000050863",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-12-28",
+          "value": 16546000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

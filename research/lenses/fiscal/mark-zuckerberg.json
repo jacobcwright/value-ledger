@@ -1,0 +1,44 @@
+{
+  "id": "mark-zuckerberg",
+  "company": "Meta Platforms",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 10.55,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes, net $ 10,554 $ 6,607 $ 6,407 Cash paid for [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001326801",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 10554000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 43.87,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+        "label": "FY2024 Form 10-K, research and development expense",
+        "quote": "Research and development 43,873 38,483 35,338 Marketing and sales 11,347 12,301 [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001326801",
+          "concept": "us-gaap:ResearchAndDevelopmentExpense",
+          "end": "2024-12-31",
+          "value": 43873000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

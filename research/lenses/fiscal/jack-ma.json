@@ -1,0 +1,28 @@
+{
+  "id": "jack-ma",
+  "company": "Alibaba Group Holding",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-03-31",
+  "currency": "CNY",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 33.41,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
+        "label": "FY2025 Form 20-F, cash income taxes paid",
+        "quote": "Supplemental disclosures of cash flow information: Payment of income tax Income tax paid was RMB 26,476 million, RMB 32,486 million and RMB 33,409 million for the years ended March 31, 2023, 2024 and 2025, respectively.",
+        "xbrl": {
+          "cik": "0001577552",
+          "concept": "us-gaap:IncomeTaxesPaid",
+          "end": "2025-03-31",
+          "value": 33409000000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted. R&D not reported as a separate line. Alibaba reports 'Product development expenses' (RMB57,151 million for FY2025; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL). The 20-F says they primarily include costs for research and development personnel and development of new technologies, but it does not say the line is R&D, so it is not recorded under the ‘only if the filing says it is R&D’ rule.",
+  "researchedAt": "2026-11-23"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "anthony-tan",
+  "company": "Grab Holdings",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 0.06,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561225000013/ck0001855612-20241231.htm",
+        "label": "FY2024 Form 20-F, cash income taxes paid",
+        "quote": "Income tax paid ( 58 ) ( 45 ) ( 26 ) Net cash from/ (used [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001855612",
+          "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+          "end": "2024-12-31",
+          "value": 58000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 0.41,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561225000013/ck0001855612-20241231.htm",
+        "label": "FY2024 Form 20-F, research and development expense",
+        "quote": "Research and development expenses 410 421 (3) % Percentage of revenue 15 % 18 % [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001855612",
+          "concept": "ifrs-full:ResearchAndDevelopmentExpense",
+          "end": "2024-12-31",
+          "value": 410000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, net of refunds as presented.",
+  "researchedAt": "2026-11-23"
+}

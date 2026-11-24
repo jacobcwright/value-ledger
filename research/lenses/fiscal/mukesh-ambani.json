@@ -1,0 +1,22 @@
+{
+  "id": "mukesh-ambani",
+  "company": "Reliance Industries",
+  "fiscalYear": "FY 2024-25",
+  "fiscalYearEnd": "2025-03-31",
+  "currency": "INR",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 119.25,
+      "source": {
+        "hostType": "company",
+        "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
+        "label": "Integrated Annual Report 2024-25, consolidated statement of cash flows",
+        "quote": "Taxes Paid (Net) (11,925) (11,961) [₹ crore, 2024-25 and 2023-24]"
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: consolidated 'Taxes Paid (Net)' of ₹11,925 crore = ₹119.25 billion (1 crore = 10 million), net of refunds (standalone figure ₹9,161 crore not used). R&D: null. The consolidated (Ind AS) statement of profit and loss has no R&D line; the only R&D figure is the Board's Report disclosure under the Companies Act for Reliance Industries Ltd standalone ('Expenditure incurred on Research and Development': capital ₹2,652 crore, revenue ₹1,533 crore, total ₹4,185 crore), which is neither consolidated nor purely expensed.",
+  "researchedAt": "2026-11-23"
+}

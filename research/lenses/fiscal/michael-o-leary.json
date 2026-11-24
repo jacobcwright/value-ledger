@@ -1,0 +1,28 @@
+{
+  "id": "michael-o-leary",
+  "company": "Ryanair",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-03-31",
+  "currency": "EUR",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 0.08,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
+        "label": "FY2025 Form 20-F, cash income taxes paid",
+        "quote": "Income tax (paid) 12 ( 84.9 ) ( 49.1 ) ( 4.1 ) Net cash from [EUR millions; FY2025 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001038683",
+          "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+          "end": "2025-03-31",
+          "value": 84900000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, net of refunds as presented. R&D not reported as a separate line (airline).",
+  "researchedAt": "2026-11-23"
+}

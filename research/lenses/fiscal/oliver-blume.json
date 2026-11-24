@@ -1,0 +1,32 @@
+{
+  "id": "oliver-blume",
+  "company": "Dr. Ing. h.c. F. Porsche AG",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "EUR",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 1.45,
+      "source": {
+        "hostType": "company",
+        "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+        "label": "Annual and Sustainability Report 2024, consolidated financial statements, consolidated statement of cash flows",
+        "quote": "Income taxes paid –1,454 –2,190 [€ million, 2024 and 2023]"
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 2.03,
+      "source": {
+        "hostType": "company",
+        "url": "https://investorrelations.porsche.com/~/media/Files/P/porsche-ir/results-and-presentations/financial-reports-and-presentation/2024/q4-and-full-year/annual-and-sustainability-report-2024-porsche-ag-consolidated-financial-statements-ifrs.pdf",
+        "label": "Annual and Sustainability Report 2024, notes to the consolidated financial statements, note 13 Intangible assets",
+        "quote": "Research and development costs recognized in the income statement 2,033 1,712 18.8 [€ million, 2024, 2023, % change]"
+      }
+    }
+  },
+  "notes": "R&D: amount recognised in the income statement (€2,033m = total R&D costs €2,515m less capitalised development €1,583m plus amortisation of capitalised development €1,101m), not total R&D spend.",
+  "researchedAt": "2026-11-23"
+}

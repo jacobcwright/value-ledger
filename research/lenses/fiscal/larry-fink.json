@@ -1,0 +1,28 @@
+{
+  "id": "larry-fink",
+  "company": "BlackRock",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 1.7,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
+        "label": "FY2024 Form 10-K, cash income taxes paid",
+        "quote": "Income taxes (net of refunds) $ 1,699 $ 1,392 $ 1,067 Supplemental schedule [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0002012383",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2024-12-31",
+          "value": 1699000000
+        }
+      }
+    }
+  },
+  "rnd": null,
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented. R&D not reported as a separate line (asset manager).",
+  "researchedAt": "2026-11-23"
+}

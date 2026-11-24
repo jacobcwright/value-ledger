@@ -1,0 +1,44 @@
+{
+  "id": "wael-sawan",
+  "company": "Shell",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 12.0,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
+        "label": "FY2024 Form 20-F, cash income taxes paid",
+        "quote": "Tax paid ( 12,002 ) ( 13,712 ) ( 13,120 ) Cash flow from [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001306965",
+          "concept": "ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities",
+          "end": "2024-12-31",
+          "value": 12002000000
+        }
+      }
+    }
+  },
+  "rnd": {
+    "expense": {
+      "value": 1.1,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
+        "label": "FY2024 Form 20-F, research and development expense",
+        "quote": "Research and development 1,099 1,287 Total operating expenses* 36,917 [USD millions; FY2024 is the 1st figure in the row]",
+        "xbrl": {
+          "cik": "0001306965",
+          "concept": "ifrs-full:ResearchAndDevelopmentExpense",
+          "end": "2024-12-31",
+          "value": 1099000000
+        }
+      }
+    }
+  },
+  "notes": "Taxes: ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities, the line does not say whether refunds are netted.",
+  "researchedAt": "2026-11-23"
+}

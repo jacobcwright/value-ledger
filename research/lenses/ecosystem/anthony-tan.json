@@ -1,0 +1,54 @@
+{
+  "id": "anthony-tan",
+  "company": "Grab Holdings",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ecosystem": {
+    "tier": "filing",
+    "measure": {
+      "name": "On-demand GMV",
+      "definition": {
+        "quote": "“GMV” means gross merchandise value, representing the sum of the total dollar value of transactions from Grab’s products and services, including any applicable taxes, tips, tolls, surcharges and fees, over the period of measurement. ... On-Demand GMV is an operating metric defined as the sum of mobility GMV and deliveries GMV;",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561225000013/ck0001855612-20241231.htm",
+          "label": "FY2024 Form 20-F, Conventions / defined terms",
+          "quote": "On-Demand GMV is an operating metric defined as the sum of mobility GMV and deliveries GMV;"
+        }
+      },
+      "value": 18.36,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561225000013/ck0001855612-20241231.htm",
+        "label": "FY2024 Form 20-F, Item 5, key operating metrics",
+        "quote": "On-demand GMV 18,364 15,785 14,113 16 % 12 % [in $ millions; 2024, 2023, 2022, % change]"
+      }
+    },
+    "platformRevenue": {
+      "label": "Revenue",
+      "value": 2.8,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561225000013/ck0001855612-20241231.htm",
+        "label": "FY2024 Form 20-F, Item 5, results of operations",
+        "quote": "Revenue 2,797 2,359 1,433 [in $ millions; 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0001855612",
+          "concept": "ifrs-full:Revenue",
+          "end": "2024-12-31",
+          "value": 2797000000
+        }
+      }
+    },
+    "payouts": null,
+    "clientAssets": null,
+    "studies": [],
+    "notes": "The 20-F says GMV also includes \"(i) sales made through offline stores reported under the deliveries segment; and (ii) revenues made from products and services provided to driver-partners, merchant-partners and other customers to support their businesses, such as GrabAds and GrabRentals\". Grab reports GMV only for its on-demand businesses (deliveries 11,724 and mobility 6,640, in $ millions); it stopped reporting financial services GMV. Total revenue (2,797) includes the financial services (253) and others (4) segments, which sit outside on-demand GMV, so Revenue / GMV slightly overstates the on-demand take. Deliveries revenue also includes Jaya Grocer supermarket sales. Revenue is after incentives: the 20-F says partner and consumer incentives have \"the effect of which is to reduce revenue\". The 20-F reports no total paid out to drivers and merchants, so payouts is null.",
+    "ratioComparable": false,
+    "ratioNote": "Grab revenue includes financial services outside its on-demand GMV, so revenue ÷ GMV is not a like-for-like share."
+  },
+  "notes": "Ecosystem lens only. Sourced from the 20-F on EDGAR (the earlier record used the company-hosted PDF of the same 20-F).",
+  "researchedAt": "2026-11-23"
+}
