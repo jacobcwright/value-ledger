@@ -1,0 +1,14 @@
+{
+  "label": "2025–26",
+  "eyebrow": "THE 2025–26 EDITION",
+  "fiscalYearRule": "Each company's latest reported fiscal year ending on or before 2026-09-30 (filed by 2026-11-24).",
+  "fiscalCutoff": "2026-09-30",
+  "pricesAsOf": "2026-11-20",
+  "pricesAsOfLabel": "Nov 20, 2026",
+  "netWorthAsOf": "2026-11-24",
+  "netWorthList": "Forbes Real-Time Billionaires",
+  "ownershipNbim": "2026-06-30",
+  "ownershipCalpers": "2026-09-30",
+  "h10Release": "https://www.federalreserve.gov/releases/h10/20261123/",
+  "previousEdition": {"label": "2024–25", "gitTag": "edition-2024-25"}
+}
