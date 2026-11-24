@@ -28,7 +28,7 @@
           "hostType": "sec",
           "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000059/dis-20250123.htm",
           "label": "Notice of 2025 Annual Meeting and Proxy Statement, Other Information, Stock Ownership (p. 95)",
-          "quote": "Applicable percentage ownership is based on 1,808,091,976 shares outstanding as of January 16, 2025. ... The Vanguard Group ... 151,434,5881 8.4% [footnote 1: according to Vanguard's Schedule 13G/A filing with the SEC]"
+          "quote": "Applicable percentage ownership is based on 1,808,091,976 shares outstanding as of January 16, 2025. ... The Vanguard Group ... 151,434,588 1 8.4% [footnote 1: according to Vanguard's Schedule 13G/A filing with the SEC]"
         }
       },
       {
@@ -40,7 +40,7 @@
           "hostType": "sec",
           "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000059/dis-20250123.htm",
           "label": "Notice of 2025 Annual Meeting and Proxy Statement, Other Information, Stock Ownership (p. 95)",
-          "quote": "Blackrock, Inc. ... 122,883,0212 6.8% [footnote 2: according to Blackrock's Schedule 13G/A filing with the SEC]"
+          "quote": "Blackrock, Inc. ... 122,883,021 2 6.8% [footnote 2: according to Blackrock's Schedule 13G/A filing with the SEC]"
         }
       }
     ],

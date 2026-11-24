@@ -98,6 +98,11 @@ const stripNotes = q => q.replace(/\[[^\]]*\]/g, " ").replace(/\s+/g, " ").trim(
 function check(docNorm, docSquash, rawQuote) {
   const quote = stripNotes(rawQuote);
   const q = norm(quote);
+  // every number in the quote must exist in the document, whatever kind of text match follows
+  const allNums = (q.match(/\d[\d,.]*\d|\d/g) || []).map(n => n.replace(/,/g, "").replace(/\.$/, ""));
+  const docDigitsAll = docNorm.replace(/,/g, "");
+  const missing = allNums.filter(n => !docDigitsAll.includes(n));
+  if (missing.length) return {ok: false, how: `numbers missing from document: ${missing.slice(0, 5).join(" ")}`};
   if (docNorm.includes(q)) return {ok: true, how: "exact"};
   // table-split text: compare with every separator removed
   if (docSquash.includes(squash(quote))) return {ok: true, how: "squashed"};
@@ -131,6 +136,8 @@ function check(docNorm, docSquash, rawQuote) {
 const outPath = path.join(root, "research/verified.json");
 const previous = fs.existsSync(outPath) ? JSON.parse(fs.readFileSync(outPath, "utf8")).sources : {};
 const results = {...previous};
+const manualPath = path.join(root, "research/manual-sources.json");
+const manual = fs.existsSync(manualPath) ? JSON.parse(fs.readFileSync(manualPath, "utf8")) : {};
 const urls = [...byUrl.keys()].filter(u => !only || u.includes(only));
 let pass = 0, fail = 0;
 for (const url of urls) {
@@ -144,6 +151,7 @@ for (const url of urls) {
     for (const {quote, file} of quotes) { const r = check(docNorm, docSquash, quote); if (r.ok) hows.add(r.how.split(" ")[0]); else failed.push({file, quote: quote.slice(0, 160), why: r.how}); }
     entry = {ok: failed.length === 0, reason: failed.length ? `${failed.length}/${quotes.length} quotes not found` : `all ${quotes.length} quotes found (${[...hows].join(", ")})`, quotes: quotes.length, failed};
   } catch (error) {
+    if (manual[url] && previous[url]?.ok) { entry = {...previous[url], reason: previous[url].reason.replace(/ \(manual copy\)$/, "") + " (manual copy)"}; results[url] = entry; pass++; process.stdout.write(`✓ ${url.slice(0, 110)}  kept: ${manual[url]}\n`); continue; }
     entry = {ok: false, reason: `fetch failed: ${error.message}`, quotes: quotes.length, failed: quotes.map(q => ({file: q.file, quote: q.quote.slice(0, 160), why: "unfetched"}))};
   }
   results[url] = entry;

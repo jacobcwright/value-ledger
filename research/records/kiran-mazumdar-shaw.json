@@ -5,7 +5,6 @@
   "fiscalYearEnd": "2024-03-31",
   "currency": "INR",
   "unit": "billions",
-
   "ownership": {
     "basis": "economic",
     "asOf": "2024-03-31",
@@ -17,14 +16,15 @@
       "pctVoting": null,
       "shares": 484581970,
       "family": {
-        "label": "Glentec International (Mauritius), a promoter entity of which Kiran Mazumdar-Shaw is the disclosed significant beneficial owner; separate from, and not included in, her direct 40.36%",
+        "label": "Glentec International (her promoter entity)",
         "pctEconomic": 19.76,
         "source": {
           "hostType": "company",
           "url": "https://www.biocon.com/docs/SHP_website-r%20Ended%20on%20March%2031,%202024.pdf",
           "label": "Biocon shareholding pattern for the quarter ended March 31, 2024 (Reg 31), Table V significant beneficial owners (PDF p. 4)",
           "quote": "Table V - Statement showing details of Significant Beneficial Owners (SBOs) ... 1 Kiran Mazumdar Shaw XXXXXXXXXX India GLENTEC INTERNATIONAL XXXXXXXXXX Mauritius 19.76 19.76 19.76"
-        }
+        },
+        "note": "Glentec International (Mauritius), a promoter entity of which Kiran Mazumdar-Shaw is the disclosed significant beneficial owner; separate from, and not included in, her direct 40.36%"
       },
       "source": {
         "hostType": "company",
@@ -65,10 +65,9 @@
       "note": "One class of equity shares of ₹5 each, one vote per share. The four promoters held 60.64% at March 31, 2024: Kiran Mazumdar-Shaw directly 40.36%, Glentec International 19.76% (she is its declared significant beneficial owner), her brother Ravi Mazumdar 0.44% and Dev Mazumdar 0.08%. Her late husband John Shaw's 8,445,348 shares were transmitted to her in September 2023. With over half the shares and votes held by the promoter group, Biocon is founder-controlled."
     }
   },
-
   "cash": {
     "dividends": {
-      "value": 1.80,
+      "value": 1.8,
       "source": {
         "hostType": "company",
         "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
@@ -86,7 +85,6 @@
       }
     }
   },
-
   "workers": {
     "stockComp": {
       "value": 1.01,
@@ -107,14 +105,25 @@
       }
     }
   },
-
   "geography": {
     "basis": "Geographical segments: Revenue from operations",
     "segments": [
-      { "name": "India", "value": 16.08 },
-      { "name": "United States of America", "value": 64.55 },
-      { "name": "European Union (including Ireland)", "value": 35.17 },
-      { "name": "Rest of the world", "value": 31.76 }
+      {
+        "name": "India",
+        "value": 16.08
+      },
+      {
+        "name": "United States of America",
+        "value": 64.55
+      },
+      {
+        "name": "European Union (including Ireland)",
+        "value": 35.17
+      },
+      {
+        "name": "Rest of the world",
+        "value": 31.76
+      }
     ],
     "total": 147.56,
     "source": {
@@ -124,7 +133,6 @@
       "quote": "Geographical segments Revenue from operations Year ended March 31, 2024 ... India 16,079 16,737 United States of America 64,550 41,430 European union (incuding Ireland) 35,169 11,784 Rest of the world 31,759 41,791 Total 147,557 111,742"
     }
   },
-
   "notes": "Snapshot year is the fiscal year ended 31 March 2024 (data.js fy 'Mar 2024'), so this uses the Biocon Integrated Annual Report FY 2024 and the shareholding pattern as at 31 March 2024, not later reports. Consolidated statements are in Indian Rupees millions (÷ 1,000 = billions). OWNERSHIP: Kiran Mazumdar-Shaw's 40.36% is her direct holding as stated in the annual report (the Reg 31 shareholding pattern gives the same 48,45,81,970 shares and 40.36%). Glentec International holds a further 19.76%; the shareholding pattern names her as Glentec's significant beneficial owner, so Glentec is recorded in `family` as her vehicle rather than as an independent holder. The two figures are separate holdings and are not summed here. The disclosed promoter total is 60.64% (annual report, Corporate Governance Report, category-wise distribution as on March 31, 2024: 'Promoters (Indian & Foreign) 728,024,176 60.64'; PDF p. 230, printed p. 228); it is not used as `family` because it already contains her own 40.36%. It also includes Ravi Mazumdar's 0.44% and Dev Mazumdar's 0.08%. Shareholding-pattern percentages are of all 1,20,06,00,000 shares (there are no depository receipts; 0.32% is held by the employee welfare trust). LARGEST HOLDERS: only non-promoter holders above 1% named in the shareholding pattern are listed. The LIC line is named after the scheme as the filing prints it (insurance companies hold 5.01% in total). Quant Momentum Fund (1.24%) is the next-largest named holder. FPIs hold 5.63% in aggregate, but none is named. DIVIDENDS: ₹1,801 million paid to owners of the company, taken from the consolidated statement of changes in equity. The consolidated cash-flow line (₹2,030 million) includes dividends to non-controlling interests (₹226 million in the SOCE). BUYBACKS: no repurchase in FY24; the only purchase line, of treasury shares for the ESOP trust (₹647 million, FY23), would be excluded anyway. STOCK COMP: the consolidated cash-flow add-back, which includes Syngene and Biocon Biologics plans. The segment name 'European union (incuding Ireland)' is printed with that typo in the report and is shown corrected.",
   "researchedAt": "2026-11-23"
 }

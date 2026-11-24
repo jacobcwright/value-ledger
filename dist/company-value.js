@@ -76,7 +76,7 @@ function cvDate(value) {
   const date = new Date(Date.UTC(+match[1],+match[2] - 1,+(match[3] || 1)));
   return date.toLocaleDateString("en-US",match[3] ? {timeZone:"UTC",year:"numeric",month:"short",day:"numeric"} : {timeZone:"UTC",year:"numeric",month:"short"});
 }
-const cvPossessive = name => name + "’s";
+const cvPossessive = name => /s$/i.test(name) ? name + "’" : name + "’s";
 const cvLink = (source, text = source.label) => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(text)}</a>`;
 // One compact "Sources" row per tab: unique documents by URL. When one document backs several
 // figures, its shared title (the label before the first comma) stands for all of them.
@@ -170,11 +170,15 @@ function cvOwnership(record, leader) {
   const selfPct = family?.includesLeader ? family.pct : (self?.pct || 0) + (family?.pct || 0);
   const listed = selfPct + barHolders.reduce((sum,holder) => sum + holder.pctEconomic,0);
   const rest = listed <= 100.5 ? Math.max(0,100 - listed) : null;
-  const othersPct = 100 - selfPct;
+  // Rounded from the displayed stake, so the two headline figures always sum to 100.0%.
+  const r1 = value => Math.round(value * 10) / 10;
+  const othersPct = 100 - (family?.includesLeader ? r1(family.pct) : r1(self?.pct || 0) + r1(family?.pct || 0));
   const derivedTag = self?.derived ? ` <span class="cv-derived" title="${escapeHtml(self.derived)}">derived</span>` : "";
 
   // Plain statement of the leader's position when no percentage can be shown for them.
   let status = "";
+  // A stake that counts shares the person doesn't own outright (options, proxy votes, deemed interests) carries its caveat beside the headline.
+  if (self && person.caveat) status = String(person.caveat);
   if (showPerson && !self) {
     // The schema has no field for "less than 1%" (a * in the proxy), so it is read from the record's notes.
     const notes = String(record.notes || "");

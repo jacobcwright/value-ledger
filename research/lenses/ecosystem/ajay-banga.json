@@ -39,7 +39,9 @@
     "payouts": null,
     "clientAssets": null,
     "studies": [],
-    "notes": "The 10-K states GDV rounded, as $9.8T. It also gives three program rows (Consumer Credit, Consumer Debit and Prepaid, Commercial Credit and Debit), which were not added up. GDV is the spend on Mastercard-branded cards, and the 10-K notes that the GDV data is 'provided by Mastercard customers'. Mastercard is a network, not a marketplace: issuing banks, acquirers and merchants keep most of the economics, so net revenue divided by GDV is a network fee rate, not a share of the sale. GDV excludes Maestro and Cirrus."
+    "notes": "The 10-K states GDV rounded, as $9.8T. It also gives three program rows (Consumer Credit, Consumer Debit and Prepaid, Commercial Credit and Debit), which were not added up. GDV is the spend on Mastercard-branded cards, and the 10-K notes that the GDV data is 'provided by Mastercard customers'. Mastercard is a network, not a marketplace: issuing banks, acquirers and merchants keep most of the economics, so net revenue divided by GDV is a network fee rate, not a share of the sale. GDV excludes Maestro and Cirrus.",
+    "ratioComparable": false,
+    "ratioNote": "Mastercard net revenue includes value-added services and solutions that are not charged on gross dollar volume, so net revenue ÷ GDV is not a like-for-like share."
   },
   "notes": "",
   "researchedAt": "2026-11-23"

@@ -38,13 +38,41 @@ After that, every push to `main` runs the check and deploys. Do new work on a br
 - A missing path returns the 404 page.
 - The browser console is clean, with no CSP violations.
 
-## Company value-sharing data
+## Company research and lenses
 
-Per-company ownership, cash returned, stock pay and sales geography live in `research/records/<leader-id>.json` with a source URL and a verbatim quote for every figure. See [research/SCHEMA.md](research/SCHEMA.md). Validate them with:
+Every per-company figure lives in `research/`:
+
+| Path | What |
+| --- | --- |
+| `research/records/<id>.json` | Ownership, cash returned, stock pay and sales geography ([SCHEMA.md](research/SCHEMA.md)) |
+| `research/lenses/ecosystem/<id>.json` | Platform flow-through, payouts, client assets and commissioned studies ([LENSES.md](research/LENSES.md)) |
+| `research/lenses/fiscal/<id>.json` | Cash income taxes paid and R&D expense |
+| `research/verified.json` | Result of the quote-verification gate, committed |
+| `research/manual-sources.json` | Sources that block scripts, verified from a browser copy |
+
+Each figure carries its source URL, its host type and a verbatim quote. Four checks guard publishing:
 
 ```bash
-node scripts/validate-records.mjs --xbrl   # re-checks every SEC XBRL-sourced value against data.sec.gov
+node scripts/validate-records.mjs --xbrl   # shape and rules; re-checks SEC XBRL values against data.sec.gov
+node scripts/validate-lenses.mjs --xbrl    # the same for the lens files
+zsh -c 'node scripts/verify-quotes.mjs'    # re-downloads every source and confirms every quote (slow; results cached in research/.cache)
+node scripts/check-values.mjs              # each stored number must appear in its own quote
 ```
+
+`npm run deploy` runs `check-values` and `build-companies`, which publishes only figures whose sources pass `verified.json`, then the site check, then `wrangler deploy`. Run `verify-quotes` yourself after any research change.
+
+SEC requests need a contact header. Set it once in your shell profile; the scripts read it and never print it:
+
+```bash
+echo 'export SEC_USER_AGENT="ValueForHumanity research <your email>"' >> ~/.zshenv
+```
+
+**Rules that shape the numbers:**
+- Market value is one lens; lenses are never summed.
+- Dividends are those paid to the company's own shareholders.
+- Buybacks exclude employee-plan purchases.
+- "Derived" stakes are computed from quoted class counts and labelled as derived.
+- Many 5% holder figures come from 13G filings dated earlier than the proxy, and each one shows its own date.
 
 ## Share image
 

@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "wrangler dev",
-    "build:companies": "node scripts/build-companies.mjs",
+    "build:companies": "node scripts/check-values.mjs && node scripts/build-companies.mjs",
     "check": "node scripts/check-site.mjs",
     "deploy": "npm run build:companies && npm run check && wrangler deploy",
     "deploy:www": "wrangler deploy -c workers/www-redirect/wrangler.jsonc",

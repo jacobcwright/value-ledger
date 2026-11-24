@@ -21,7 +21,8 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm",
         "label": "FY2024 Form 20-F, Item 7.A Major Shareholders (printed pp. 73-74)",
         "quote": "The percentage of beneficial ownership for the following table is based on 203,844,409 total ordinary shares and 324,732,980 total beneficiary certificates outstanding as of December 31, 2024. ... Daniel Ek(1)(6) 29,105,267 14.3% 124,732,980 38.4% 29.1% ... (1)Includes 12,473,298 ordinary shares that are held by D.G.E. Investments."
-      }
+      },
+      "caveat": "Includes shares owned by Tencent that he votes under a proxy; his own holding is smaller."
     },
     "largestHolders": [
       {
@@ -72,7 +73,12 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm",
         "label": "FY2024 Form 20-F, consolidated statement of cash flows, financing activities",
         "quote": "Repurchases of ordinary shares 16 — — (2) [note; € millions, 2024, 2023, 2022]",
-        "xbrl": { "cik": "0001639920", "concept": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares", "end": "2024-12-31", "value": 0 }
+        "xbrl": {
+          "cik": "0001639920",
+          "concept": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares",
+          "end": "2024-12-31",
+          "value": 0
+        }
       }
     }
   },
@@ -84,7 +90,12 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm",
         "label": "FY2024 Form 20-F, consolidated statement of cash flows",
         "quote": "Share-based compensation expense 17 267 321 381 [note; € millions, 2024, 2023, 2022]",
-        "xbrl": { "cik": "0001639920", "concept": "ifrs-full:ExpenseFromSharebasedPaymentTransactionsWithEmployees", "end": "2024-12-31", "value": 267000000 }
+        "xbrl": {
+          "cik": "0001639920",
+          "concept": "ifrs-full:ExpenseFromSharebasedPaymentTransactionsWithEmployees",
+          "end": "2024-12-31",
+          "value": 267000000
+        }
       }
     },
     "plan": null
@@ -92,10 +103,22 @@
   "geography": {
     "basis": "Revenue by country (Premium revenue by where the membership originates; Ad-Supported revenue by where the advertising campaign is delivered)",
     "segments": [
-      { "name": "United States", "value": 6.14 },
-      { "name": "United Kingdom", "value": 1.48 },
-      { "name": "Luxembourg", "value": 0.01 },
-      { "name": "Other countries", "value": 8.04 }
+      {
+        "name": "United States",
+        "value": 6.14
+      },
+      {
+        "name": "United Kingdom",
+        "value": 1.48
+      },
+      {
+        "name": "Luxembourg",
+        "value": 0.01
+      },
+      {
+        "name": "Other countries",
+        "value": 8.04
+      }
     ],
     "total": 15.67,
     "source": {

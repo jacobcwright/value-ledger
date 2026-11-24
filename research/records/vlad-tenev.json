@@ -39,7 +39,8 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000134/hood-20250425.htm",
         "label": "2025 proxy statement, Beneficial Ownership of Principal Stockholders and Management (printed pp. 104-105)",
         "quote": "Vladimir Tenev(4)(5) 6,907 * 46,638,223 40.3 24.2 ... Mr. Tenev’s beneficial ownership consists of (a) 6,907 Class A shares held by The Tenev Living Trust, over which shares Mr. Tenev and his spouse share voting and investment power; (b) 46,073,144 Class B shares held by Mr. Tenev; and (c) 565,079 Class B shares held by the Bhatt Family LLC"
-      }
+      },
+      "caveat": "Includes 565,079 shares he votes but has no economic interest in."
     },
     "largestHolders": [],
     "structure": {

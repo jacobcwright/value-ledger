@@ -1,0 +1,5 @@
+{
+  "_about": "Sources whose host blocks automated downloads. Each was fetched in a real browser, confirmed to be the named document, and its quotes were verified by scripts/verify-quotes.mjs against that copy (2026-11-23). If a re-check cannot fetch one of these, the previous passing result is kept.",
+  "https://investor.tsmc.com/sites/ir/sec-filings/2024%2020-F.pdf": "TSMC Form 20-F for fiscal 2024 (Cloudflare bot check blocks scripts)",
+  "https://investor.tsmc.com/sites/ir/annual-report/2024/2024-Annual%20Report-E.pdf": "TSMC 2024 Annual Report, English (Cloudflare bot check blocks scripts)"
+}

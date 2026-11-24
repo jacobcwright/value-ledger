@@ -39,7 +39,9 @@
     "payouts": null,
     "clientAssets": null,
     "studies": [],
-    "notes": "Gross Bookings include Freight revenue, which Uber books gross, as well as taxes, tolls and fees. They exclude tips. Revenue includes Freight revenue. The 10-K does not state total driver or courier earnings, so payouts is null. 'Platform Participant direct transaction costs' (costs paid to Platform Earners that Uber records in cost of revenue, plus end-user incentives) are a partial, mixed amount, not total earnings, and are not used."
+    "notes": "Gross Bookings include Freight revenue, which Uber books gross, as well as taxes, tolls and fees. They exclude tips. Revenue includes Freight revenue. The 10-K does not state total driver or courier earnings, so payouts is null. 'Platform Participant direct transaction costs' (costs paid to Platform Earners that Uber records in cost of revenue, plus end-user incentives) are a partial, mixed amount, not total earnings, and are not used.",
+    "ratioComparable": false,
+    "ratioNote": "Uber presents revenue on a gross basis in markets where it is responsible for the Mobility, Delivery or Freight service, with payments to drivers and carriers in cost of revenue, so revenue ÷ Gross Bookings overstates what Uber keeps."
   },
   "notes": "",
   "researchedAt": "2026-11-23"

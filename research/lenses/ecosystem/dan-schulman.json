@@ -39,7 +39,9 @@
     "payouts": null,
     "clientAssets": null,
     "studies": [],
-    "notes": "The 10-K states TPV rounded, as $1.68 trillion, and gives no exact figure. TPV includes payments enabled by PayPal through a partner payment solution and excludes gateway-exclusive transactions."
+    "notes": "The 10-K states TPV rounded, as $1.68 trillion, and gives no exact figure. TPV includes payments enabled by PayPal through a partner payment solution and excludes gateway-exclusive transactions.",
+    "ratioComparable": false,
+    "ratioNote": "PayPal revenue includes other value added services (credit interest and fees, partnerships, interest on assets) that are not earned on payment volume, so revenue ÷ TPV is not a like-for-like share."
   },
   "notes": "",
   "researchedAt": "2026-11-23"
