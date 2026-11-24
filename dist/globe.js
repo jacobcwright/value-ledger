@@ -25,21 +25,31 @@ function createGlobe(canvas, sites, choose, options = {}) {
   };
   const mix = (a, b, t) => a.map((v, i) => Math.round(v + (b[i] - v) * t));
   const rgba = (rgb, alpha) => `rgba(${rgb[0]},${rgb[1]},${rgb[2]},${Math.round(clamp(alpha, 0, 1) * 1000) / 1000})`;
+  // The --globe-* tokens give the light theme used on paper; without them the globe falls back to the dark map
+  // tokens (--map, --map-2, --map-line, --gold), as before.
   const css = getComputedStyle(canvas);
   const token = (name, fallback) => parse(css.getPropertyValue(name)) || parse(fallback);
+  const themed = name => parse(css.getPropertyValue(name));
   const map = token("--map", "#142023"), map2 = token("--map-2", "#1c2a2d"), mapLine = token("--map-line", "#394b4b");
-  const gold = token("--gold", "#ffd298"), light = token("--night-text", "#fff8ed");
-  const accent = parse("#ffb377"), ringColor = parse(options.ringColor);
+  const gold = token("--gold", "#ffd298"), night = token("--night-text", "#fff8ed");
+  const accent = parse("#ffb377");
   const color = {
-    oceanLit: mix(map2, mapLine, .62),
-    ocean: map2,
-    oceanDeep: mix(map, [0, 0, 0], .32),
-    haze: mix(mapLine, light, .28),
-    grid: mix(mapLine, light, .32),
-    land: mix(mix(light, gold, .2), mapLine, .16),
-    rim: mix(gold, light, .35),
-    arc: mix(gold, accent, .55)
+    oceanLit: themed("--globe-ocean-lit") || mix(map2, mapLine, .62),
+    ocean: themed("--globe-ocean") || map2,
+    oceanDeep: themed("--globe-ocean-deep") || mix(map, [0, 0, 0], .32),
+    haze: themed("--globe-haze") || mix(mapLine, night, .28),
+    grid: themed("--globe-grid") || mix(mapLine, night, .32),
+    land: themed("--globe-land") || mix(mix(night, gold, .2), mapLine, .16),
+    rim: themed("--globe-rim") || mix(gold, night, .35),
+    arc: themed("--globe-arc") || mix(gold, accent, .55),
+    pin: themed("--globe-pin") || accent,
+    edge: themed("--globe-pin-edge") || map
   };
+  // A light ocean: no warm glow or market glows (they read as stains on paper), softer land, a crisp light edge on pins.
+  const paper = (color.ocean[0] * .299 + color.ocean[1] * .587 + color.ocean[2] * .114) > 160;
+  const light = paper ? color.edge : night;
+  const ringColor = parse(options.ringColor) || themed("--globe-ring");
+  const glowScale = paper ? 0 : 1, landScale = paper ? .86 : 1;
 
   // Unit vectors for the land mesh and graticule are computed once and shared by every globe on the page.
   const toVector = (lat, lon) => {
@@ -101,9 +111,11 @@ function createGlobe(canvas, sites, choose, options = {}) {
     const halo = context.createRadialGradient(cx, cy, r * .97, cx, cy, r * 1.17);
     halo.addColorStop(0, rgba(color.haze, .34)); halo.addColorStop(.45, rgba(color.haze, .1)); halo.addColorStop(1, rgba(color.haze, 0));
     disc(cx, cy, r * 1.17, halo);
-    const warm = context.createRadialGradient(cx - r * .55, cy - r * .6, r * .2, cx - r * .4, cy - r * .45, r * 1.25);
-    warm.addColorStop(0, rgba(gold, .07)); warm.addColorStop(1, rgba(gold, 0));
-    disc(cx, cy, r * 1.14, warm);
+    if (!paper) {
+      const warm = context.createRadialGradient(cx - r * .55, cy - r * .6, r * .2, cx - r * .4, cy - r * .45, r * 1.25);
+      warm.addColorStop(0, rgba(gold, .07)); warm.addColorStop(1, rgba(gold, 0));
+      disc(cx, cy, r * 1.14, warm);
+    }
 
     // Ocean, lit from the upper left, with darker limb for depth.
     const ocean = context.createRadialGradient(cx - r * .38, cy - r * .46, r * .05, cx - r * .1, cy - r * .1, r * 1.22);
@@ -125,7 +137,7 @@ function createGlobe(canvas, sites, choose, options = {}) {
     context.lineWidth = .7; context.strokeStyle = rgba(color.grid, .2); context.stroke();
 
     // Market heat glows (Amazon Markets layer), clipped to the sphere.
-    if (options.heat && options.markers) {
+    if (options.heat && options.markers && glowScale) {
       context.save();
       context.beginPath(); context.arc(cx, cy, r, 0, TAU); context.clip();
       siteVectors.forEach((v, i) => {
@@ -135,7 +147,7 @@ function createGlobe(canvas, sites, choose, options = {}) {
         if (Z <= 0) return;
         const x = cx + r * X, y = cy - r * Y, spread = r * ((marker.radius || 3) > 5 ? .29 : .15);
         const glow = context.createRadialGradient(x, y, 0, x, y, spread);
-        glow.addColorStop(0, `rgba(${marker.rgb}, ${(marker.glow ?? .4) * Z})`);
+        glow.addColorStop(0, `rgba(${marker.rgb}, ${(marker.glow ?? .4) * Z * glowScale})`);
         glow.addColorStop(1, `rgba(${marker.rgb}, 0)`);
         disc(x, y, spread, glow);
       });
@@ -151,12 +163,12 @@ function createGlobe(canvas, sites, choose, options = {}) {
       const x = cx + r * X, y = cy - r * Y, size = base * (.49 + Z * .51);
       const hot = options.heat && options.heat.get(index);
       if (hot) {
-        const key = hot.color || "#ffb377";
+        const key = hot.color || rgba(color.pin, 1);
         if (!hotPaths.has(key)) hotPaths.set(key, new Path2D());
         circle(hotPaths.get(key), x, y, size * 1.23);
       } else circle(landPaths[Math.min(buckets - 1, Math.floor(Z * buckets))], x, y, size);
     }
-    landPaths.forEach((path, i) => { context.fillStyle = rgba(color.land, .17 + .62 * Math.pow((i + .5) / buckets, .8)); context.fill(path); });
+    landPaths.forEach((path, i) => { context.fillStyle = rgba(color.land, (.17 + .62 * Math.pow((i + .5) / buckets, .8)) * landScale); context.fill(path); });
     hotPaths.forEach((path, fill) => { context.fillStyle = fill; context.fill(path); });
 
     // Inner limb haze and a fine rim light.
@@ -201,19 +213,19 @@ function createGlobe(canvas, sites, choose, options = {}) {
     const ordered = visible.filter(item => item.i !== selected).concat(visible.filter(item => item.i === selected));
     for (const {p:[x, y, z], i} of ordered) {
       const marker = options.markers && options.markers[i];
-      const tint = parse(marker && marker.color) || accent;
+      const tint = parse(marker && marker.color) || color.pin;
       const fade = clamp(z / .16, 0, 1);
       let size = (marker && marker.radius) || 3;
       if (i !== selected) {
         disc(x, y, size + 3.5, rgba(tint, .2 * fade));
         context.beginPath(); context.arc(x, y, size, 0, TAU);
         context.fillStyle = rgba(tint, fade); context.fill();
-        context.lineWidth = 1; context.strokeStyle = rgba(map, .55 * fade); context.stroke();
+        context.lineWidth = paper ? 1.25 : 1; context.strokeStyle = rgba(color.edge, (paper ? .95 : .55) * fade); context.stroke();
         continue;
       }
       size += 1.5;
       const glow = context.createRadialGradient(x, y, size * .5, x, y, size + 14);
-      glow.addColorStop(0, rgba(tint, .42 * fade)); glow.addColorStop(1, rgba(tint, 0));
+      glow.addColorStop(0, rgba(tint, (paper ? .2 : .42) * fade)); glow.addColorStop(1, rgba(tint, 0));
       disc(x, y, size + 14, glow);
       const elapsed = now - pulseStart;
       if (!reducedMotion() && elapsed >= 0 && elapsed < PULSE_PERIOD * PULSE_COUNT) {
@@ -222,10 +234,10 @@ function createGlobe(canvas, sites, choose, options = {}) {
         context.lineWidth = 1.5; context.strokeStyle = rgba(ringColor || tint, .6 * (1 - t) * fade); context.stroke();
       }
       context.beginPath(); context.arc(x, y, size + 5.5, 0, TAU);
-      context.lineWidth = 1.25; context.strokeStyle = rgba(ringColor || tint, .75 * fade); context.stroke();
+      context.lineWidth = paper ? 2 : 1.25; context.strokeStyle = rgba(ringColor || tint, (paper ? .9 : .75) * fade); context.stroke();
       context.beginPath(); context.arc(x, y, size, 0, TAU);
       context.fillStyle = rgba(tint, fade); context.fill();
-      context.lineWidth = 1; context.strokeStyle = rgba(map, .6 * fade); context.stroke();
+      context.lineWidth = paper ? 1.25 : 1; context.strokeStyle = rgba(color.edge, (paper ? .95 : .6) * fade); context.stroke();
       disc(x, y, 2, rgba(light, fade));
     }
   }

@@ -47,6 +47,16 @@
   --share-rest-soft:#e8f0fb; --share-rest-ink:#1d5aa6;
   --gold:#ffd298;           /* highlight on dark map surfaces */
   --map:#142023; --map-2:#1c2a2d; --map-line:#394b4b;
+  /* Maps on paper. --heat-1..6 is the sequential ramp for heat and choropleths: one hue (--share-rest's), light to
+     dark, evenly spaced in OKLCH lightness (adjacent ΔL ≥ .06; the light end is 2.1:1 on --paper), so "more" reads
+     as darker blue. Missing data is a hatch, never a ramp step. The selection is an ink outline. */
+  --heat-1:#83b1ed; --heat-2:#5497ed; --heat-3:#2c7de0; --heat-4:#1066c3; --heat-5:#115199; --heat-6:#1b3d69;
+  --map-missing:#efe7db; --map-missing-line:#c9bcad;  /* the hatch for "not reported" */
+  /* Globe (globe.js reads these from its canvas): a warm paper sphere, ink-grey land dots, blue heat and pins,
+     an ink ring on the selected pin. */
+  --globe-ocean-lit:#fffdf9; --globe-ocean:#f3ede3; --globe-ocean-deep:#e6ddd0;
+  --globe-land:#6f645c; --globe-grid:#b9ad9f; --globe-haze:#d8cfc2; --globe-rim:#b3a697;
+  --globe-pin:var(--share-rest); --globe-ring:var(--ink); --globe-pin-edge:var(--card); --globe-arc:var(--share-rest);
 
   /* Families */
   --serif:"Source Serif 4","Source Serif 4 Fallback",Georgia,"Times New Roman",serif;

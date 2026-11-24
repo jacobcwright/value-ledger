@@ -47,12 +47,12 @@ if (typeof createGlobe === "undefined") {
 
 const cfScale = {"count-thousands":1e3,"people-thousands":1e3,"currency-thousands":1e3,"currency-millions":1e6,"currency-billions":1e9,"square-feet-millions":1e6};
 const cfCompact = new Intl.NumberFormat("en-US",{notation:"compact",maximumFractionDigits:1});
-// Gold ramp for the dark map (the same steps as stateHeatRamp in amazon-state-map.js, which loads on demand).
-// The globe skips the darkest step, which would read as missing land among the cream dots.
-const cfRamp = ["#665041","#8c6443","#b07b48","#cf9557","#e8b374","#ffd298"];
-const cfGlobeRamp = cfRamp.slice(1);
-const cfSiteColors = ["#ffd084","#b5a5f5","#82d7d4","#f2a7c3"];
-const cfOtherColor = "#c4d4cc";
+// The blue heat ramp, light to dark: --heat-1..6 in base.css (the same steps as stateHeatRamp in
+// amazon-state-map.js, which loads on demand). The globe uses all six on its paper ocean.
+const cfRamp = ["#83b1ed","#5497ed","#2c7de0","#1066c3","#115199","#1b3d69"];
+const cfGlobeRamp = cfRamp;
+// Every site is one blue pin (--globe-pin); its type is told in words, in the row and the legend.
+const cfPinColor = "#2a78d6";
 const cfHostTier = {sec:"filing",exchange:"filing",company:"company-published",regulator:"regulator"};
 // Washington, D.C. has no shape in the state map: it is drawn as a dot offshore, with a leader line to its
 // position (albersUsa, the projection of the state paths, puts it at 827.4, 267.5).
@@ -327,7 +327,7 @@ function cfStatesView(model, shapes) {
           <svg viewBox="-64 0 1030 620" tabindex="-1" role="radiogroup" aria-label="Map of the U.S. states${dc ? " and DC" : ""}. Use the arrow keys to move between states." aria-describedby="cf-states-summary">
             <defs>
               <pattern id="cf-state-hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-                <rect width="7" height="7" fill="#2b3a3c"></rect><line x1="0" y1="0" x2="0" y2="7" stroke="#5a6d6b" stroke-width="2"></line>
+                <rect width="7" height="7" fill="#efe7db"></rect><line x1="0" y1="0" x2="0" y2="7" stroke="#c9bcad" stroke-width="2"></line>
               </pattern>
             </defs>
             ${dc ? `<g class="cf-dc-mark" aria-hidden="true"><line x1="${cfDC.at[0]}" y1="${cfDC.at[1]}" x2="${cfDC.x - cfDC.r}" y2="${cfDC.y}"></line><circle cx="${cfDC.at[0]}" cy="${cfDC.at[1]}" r="1.6"></circle><text x="${cfDC.x + cfDC.r + 5}" y="${cfDC.y + 4}">DC</text></g>` : ""}
@@ -779,12 +779,13 @@ function cfBindPanel(root, model, shapes, initialLayer) {
       return [base[0] + step * Math.sin(angle),base[1] + step * Math.cos(angle) / Math.max(.3,Math.cos(base[0] * Math.PI / 180))];
     });
   }
+  // Up to four types are named in the legend (three and "Other" when there are more).
   function siteTypes() {
     const counts = new Map();
     for (const site of model.sites) counts.set(site.type,(counts.get(site.type) || 0) + 1);
     const ordered = [...counts].sort((a,b) => b[1] - a[1]).map(([type]) => type);
-    const colors = new Map(ordered.map((type,i) => [type,i < cfSiteColors.length && (i < cfSiteColors.length - 1 || ordered.length === cfSiteColors.length) ? cfSiteColors[i] : cfOtherColor]));
-    return {ordered,colors};
+    const named = new Set(ordered.length > 4 ? ordered.slice(0,3) : ordered);
+    return {ordered,named};
   }
   const types = siteTypes();
 
@@ -812,21 +813,23 @@ function cfBindPanel(root, model, shapes, initialLayer) {
       const m = model.metrics[measure.value];
       $("#cf-legend").innerHTML = `<span class="amazon-legend-title">${escapeHtml(m.label)}</span>
         ${m.period || cfPeriodsDiffer(m,rows.map(row => row.cell)) ? `<span class="cf-legend-period">${cfPeriodTags(m,rows.map(row => row.cell))}</span>` : ""}
-        ${mappable ? `<span class="cf-legend-steps" style="--bands:${bands.length}">${bands.map(band => `<i style="--dot:${band.color}"></i>`).join("")}</span>
-        ${bands.length > 1 ? `<span class="amazon-legend-range"><span>${escapeHtml(cfTick(m,Math.min(...rows.filter(r => !r.sub).map(r => r.cell.value))))}</span><span>${escapeHtml(cfTick(m,Math.max(...rows.filter(r => !r.sub).map(r => r.cell.value))))}</span></span>` : ""}`
+        ${mappable ? `<span class="amazon-legend-key"><span class="cf-legend-steps" style="--bands:${bands.length}">${bands.map(band => `<i style="--dot:${band.color}"></i>`).join("")}</span>
+        ${bands.length > 1 ? `<span class="amazon-legend-range"><span>${escapeHtml(cfTick(m,Math.min(...rows.filter(r => !r.sub).map(r => r.cell.value))))}</span><span>${escapeHtml(cfTick(m,Math.max(...rows.filter(r => !r.sub).map(r => r.cell.value))))}</span></span>` : ""}</span>`
         : '<span class="cf-legend-note">Listed, not mapped: these shares are not parts of one total.</span>'}`;
-      markers = rows.map(row => ({color:row.color,rgb:cfRgb(row.color),glow:.22 + .08 * row.bandIndex,radius:3.4 + .55 * row.bandIndex}));
+      // Many countries: smaller pins, so the shaded land (which carries the value) stays readable.
+      const crowded = rows.length > 20;
+      markers = rows.map(row => ({color:row.color,rgb:cfRgb(row.color),glow:.22 + .08 * row.bandIndex,radius:crowded ? 2.4 + .3 * row.bandIndex : 3.4 + .55 * row.bandIndex}));
     } else {
       entries = model.sites.filter(site => (!scope.country || site.iso2 === scope.country) && (!scope.state || site.state === scope.state))
-        .map(site => ({...site,color:types.colors.get(site.type)}));
+        .map(site => ({...site,color:cfPinColor}));
       positions = sitePositions(entries);
       entries.forEach((entry,i) => entry.at = positions[i]);
-      const item = (color, label, count) => `<span class="amazon-legend-item${count ? "" : " is-empty"}"><i style="--dot:${color}"></i>${escapeHtml(label)}<em>${count}</em></span>`;
-      const named = types.ordered.filter(type => types.colors.get(type) !== cfOtherColor);
-      const other = entries.filter(site => types.colors.get(site.type) === cfOtherColor).length;
+      const item = (label, count) => `<span class="amazon-legend-item${count ? "" : " is-empty"}">${escapeHtml(label)}<em>${count}</em></span>`;
+      const named = types.ordered.filter(type => types.named.has(type));
+      const other = entries.filter(site => !types.named.has(site.type)).length;
       $("#cf-legend").innerHTML = `<span class="amazon-legend-title">Site type</span>`
-        + named.map(type => item(types.colors.get(type),cfTypeLabel(type),entries.filter(site => site.type === type).length)).join("")
-        + (named.length < types.ordered.length ? item(cfOtherColor,"Other",other) : "");
+        + named.map(type => item(cfTypeLabel(type),entries.filter(site => site.type === type).length)).join("")
+        + (named.length < types.ordered.length ? item("Other",other) : "");
       markers = entries.map(site => ({color:site.color,radius:3.6}));
     }
     setTakeaway();
@@ -834,11 +837,12 @@ function cfBindPanel(root, model, shapes, initialLayer) {
     const scopeName = scope.state ? cfStateNames[scope.state] : scope.country ? (model.countries.find(c => c.iso2 === scope.country)?.name || scope.country) : "";
     list.setAttribute("aria-label",isPlaces ? `Ranked by ${model.metrics[measure.value].phrase}` : scopeName ? `Selected sites in ${scopeName}` : "Selected sites");
     list.classList.toggle("is-markets",isPlaces && entries.length <= 6);
+    list.classList.toggle("is-ranked",isPlaces);
     current = -1;
     mapPlaceDetail(panel,list,detail,-1);
     list.innerHTML = (scopeName ? `<div class="amazon-list-scope"><span>Showing <strong>${escapeHtml(scopeName)}</strong></span><button type="button" data-all-sites>Show all sites</button></div>` : "") + entries.map((item,index) => {
       if (isPlaces) return `${item.groupStart ? `<p class="cf-sub-head">In ${escapeHtml(item.parentName)}</p>` : ""}<button type="button" data-entry="${index}" aria-pressed="false" class="${item.sub ? "cf-sub" : ""}" style="--dot:${item.color};--share:${item.share}%">
-          <i aria-hidden="true"></i><strong>${escapeHtml(item.name)}${item.kind === "region" && !item.sub ? '<small class="cf-region-tag">Region</small>' : ""}${item.sub ? `<span class="amazon-sr"> in ${escapeHtml(item.parentName)}</span>` : ""}</strong><b>${escapeHtml(cfFormat(item.cell.metric,item.cell.value,item.cell.plus))}</b>
+          <strong>${escapeHtml(item.name)}${item.kind === "region" && !item.sub ? ' <small class="cf-region-tag">Region</small>' : ""}${item.sub ? `<span class="amazon-sr"> in ${escapeHtml(item.parentName)}</span>` : ""}</strong><b>${escapeHtml(cfFormat(item.cell.metric,item.cell.value,item.cell.plus))}</b>
           <span class="amazon-row-bar" aria-hidden="true"><span></span></span><small class="amazon-row-share">#${item.position}</small></button>`;
       return `<button type="button" data-entry="${index}" aria-pressed="false" style="--dot:${item.color}">
         <i aria-hidden="true"></i><span><strong>${escapeHtml(item.name)}</strong><small>${escapeHtml([item.place,cfTypeLabel(item.type)].filter(Boolean).join(" · "))}</small></span></button>`;
@@ -856,10 +860,16 @@ function cfBindPanel(root, model, shapes, initialLayer) {
       pins.push([entry.name,positions[index][0],positions[index][1]]);
       pinStyles.push(markers[index]);
     });
+    // Show the globe only when it shows something: at least two countries shaded for this measure, or a placed site.
+    // Otherwise (only regions, or one country) the ranked list takes the width.
+    const masks = typeof countryMask !== "undefined" ? countryMask : {};
+    const shaded = isPlaces ? entries.filter(entry => entry.kind === "country" && !entry.sub && (masks[entry.iso2] || []).length).length : 0;
+    const globeOn = isPlaces ? mappable && shaded >= 2 : pins.length > 0;
+    layout.classList.toggle("is-list",!globeOn);
+    if (!globeOn) { globeIndex = []; chooseEntry(0); return; }
     let heat = null;
     if (isPlaces && mappable) {
       heat = new Map();
-      const masks = typeof countryMask !== "undefined" ? countryMask : {};
       for (const entry of entries) if (entry.kind === "country") for (const dot of masks[entry.iso2] || []) heat.set(dot,{color:entry.color});
       // A region shades its member countries, unless a country has its own figure. Sub-national regions never paint.
       for (const entry of entries) if (entry.kind === "region" && !entry.sub && entry.members) for (const code of entry.members) {
@@ -867,7 +877,7 @@ function cfBindPanel(root, model, shapes, initialLayer) {
         for (const dot of masks[code] || []) if (!heat.has(dot)) heat.set(dot,{color:entry.color});
       }
     }
-    globe = createGlobe(canvas,pins,index => chooseEntry(entryOfGlobe[index],false,true),{arcs:false,heat,ringColor:"#ffd298",markers:pinStyles});
+    globe = createGlobe(canvas,pins,index => chooseEntry(entryOfGlobe[index],false,true),{arcs:false,heat,markers:pinStyles});
     chooseEntry(0);
   }
 

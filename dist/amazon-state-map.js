@@ -1,6 +1,6 @@
 const amazonStateSource = "https://www.aboutamazon.com/news/community/how-amazon-is-investing-in-the-us";
-// Sequential ramp for the dark map surface: evenly spaced in OKLCH lightness, ending on --gold (#ffd298).
-const stateHeatRamp = ["#665041","#8c6443","#b07b48","#cf9557","#e8b374","#ffd298"];
+// Sequential blue ramp on paper, light to dark: --heat-1..6 in base.css (one hue, evenly spaced in OKLCH lightness).
+const stateHeatRamp = ["#83b1ed","#5497ed","#2c7de0","#1066c3","#115199","#1b3d69"];
 const stateHeatBands = [
   {min:0,  label:"Under $1B",   tick:"",      color:stateHeatRamp[0]},
   {min:1,  label:"$1B–<$5B",    tick:"$1B",   color:stateHeatRamp[1]},
@@ -50,7 +50,7 @@ function amazonStatesView() {
           <svg viewBox="-64 0 1030 620" tabindex="-1" role="radiogroup" aria-label="Map of the ${amazonStateData.length} U.S. states. Use the arrow keys to move between states." aria-describedby="amazon-states-summary">
             <defs>
               <pattern id="amazon-state-hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-                <rect width="7" height="7" fill="#2b3a3c"></rect><line x1="0" y1="0" x2="0" y2="7" stroke="#5a6d6b" stroke-width="2"></line>
+                <rect width="7" height="7" fill="#efe7db"></rect><line x1="0" y1="0" x2="0" y2="7" stroke="#c9bcad" stroke-width="2"></line>
               </pattern>
             </defs>
             <g class="amazon-state-shapes">

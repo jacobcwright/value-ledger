@@ -5,10 +5,11 @@ const amazonMarkets = [
   {id:"JP",name:"Japan",lat:36.5,lon:138,sales:27.401},
   {id:"other",name:"Other markets",sales:93.832}
 ];
+// Every site is one blue pin (--globe-pin); its type is told in words, in the row and the legend.
 const amazonSiteTypes = {
-  fulfillment:{label:"Fulfillment",color:"#ffd084"},
-  cloud:{label:"Cloud infrastructure",color:"#b5a5f5"},
-  office:{label:"Offices",color:"#82d7d4"}
+  fulfillment:{label:"Fulfillment",color:"#2a78d6"},
+  cloud:{label:"Cloud infrastructure",color:"#2a78d6"},
+  office:{label:"Offices",color:"#2a78d6"}
 };
 const amazonSites = [
   {
@@ -83,12 +84,15 @@ const amazonSites = [
     url:"https://www.aboutamazon.com.br/noticias/noticias-da-empresa/aumentando-velocidade-de-entrega-em-todo-o-brasil-amazon-inaugura-centro-de-distribuicao-em-sao-paulo"
   }
 ];
+// Steps of the blue heat ramp (--heat-2..6 in base.css), darker for larger sales; "Other markets" is not mapped
+// and takes the neutral --share-self gray.
 const marketHeat = {
-  US:{color:"#ff6f3d",rgb:"255, 98, 58",glow:.72},
-  DE:{color:"#ffbc6c",rgb:"255, 182, 91",glow:.44},
-  GB:{color:"#ffae6c",rgb:"255, 171, 100",glow:.39},
-  JP:{color:"#ffd087",rgb:"255, 198, 118",glow:.35}
+  US:{color:"#1b3d69",rgb:"27, 61, 105",glow:.72},
+  DE:{color:"#1066c3",rgb:"16, 102, 195",glow:.44},
+  GB:{color:"#2c7de0",rgb:"44, 125, 224",glow:.39},
+  JP:{color:"#5497ed",rgb:"84, 151, 237",glow:.35}
 };
+const marketOtherColor = "#7d736c";
 const amazonSalesTotal = amazonMarkets.reduce((sum,market) => sum + market.sales,0);
 
 const amazonLayers = ["markets","states","sites"];
@@ -185,7 +189,7 @@ function amazonBindFootprint(root, initialLayer) {
     });
     if (layer === "markets") {
       const share = amazonShare(item.sales);
-      const color = marketHeat[item.id]?.color || "#82908c";
+      const color = marketHeat[item.id]?.color || marketOtherColor;
       detail.innerHTML = `<p class="amazon-detail-kicker"><i aria-hidden="true" style="--dot:${color}"></i>2024 net sales</p>
         <h4>${item.name}</h4><strong>${compactMoney(item.sales)}</strong>
         <span class="amazon-detail-share" aria-hidden="true" style="--share:${share}%;--dot:${color}"><span></span></span>
@@ -263,11 +267,11 @@ function amazonBindFootprint(root, initialLayer) {
     const mapped = amazonMarkets.filter(market => marketHeat[market.id]);
     const low = Math.min(...mapped.map(market => market.sales)), high = Math.max(...mapped.map(market => market.sales));
     byId("amazon-legend").innerHTML = isMarket
-      ? `<span class="amazon-legend-title">2024 net sales</span><span class="amazon-heat-scale"></span>
-        <span class="amazon-legend-range"><span>${compactMoney(low)}</span><span>${compactMoney(high)}</span></span>`
+      ? `<span class="amazon-legend-title">2024 net sales</span><span class="amazon-legend-key"><span class="amazon-heat-scale"></span>
+        <span class="amazon-legend-range"><span>${compactMoney(low)}</span><span>${compactMoney(high)}</span></span></span>`
       : `<span class="amazon-legend-title">Site type</span>` + Object.entries(amazonSiteTypes).map(([key,type]) => {
           const count = entries.filter(site => site.type === key).length;
-          return `<span class="amazon-legend-item${count ? "" : " is-empty"}"><i style="--dot:${type.color}"></i>${type.label}<em>${count}</em></span>`;
+          return `<span class="amazon-legend-item${count ? "" : " is-empty"}">${type.label}<em>${count}</em></span>`;
         }).join("");
     note.textContent = isMarket
       ? "Sales are by country storefront, or by selling entity for AWS. Other markets are grouped in Amazon’s filing."
@@ -275,10 +279,11 @@ function amazonBindFootprint(root, initialLayer) {
     source.innerHTML = isMarket ? externalLink(amazonSources.annual,"2024 annual report, Note 10") : "";
     list.setAttribute("aria-label",isMarket ? "Markets by 2024 net sales" : scopeName ? `Selected sites in ${scopeName}` : "Selected sites");
     list.classList.toggle("is-markets",isMarket);
+    list.classList.toggle("is-ranked",isMarket);
     current = -1;
     place(-1);
     list.innerHTML = (scopeName ? `<div class="amazon-list-scope"><span>Showing <strong>${scopeName}</strong></span><button type="button" data-all-sites>Show all sites</button></div>` : "") + entries.map((item,index) => {
-      const color = isMarket ? marketHeat[item.id]?.color || "#82908c" : amazonSiteTypes[item.type].color;
+      const color = isMarket ? marketHeat[item.id]?.color || marketOtherColor : amazonSiteTypes[item.type].color;
       if (isMarket) {
         const share = amazonShare(item.sales);
         return `<button type="button" data-entry="${index}" aria-pressed="false" style="--dot:${color};--share:${share}%">
@@ -293,7 +298,7 @@ function amazonBindFootprint(root, initialLayer) {
     const heat = isMarket ? new Map(amazonMarkets.flatMap(market => (amazonMarketMask[market.id] || []).map(index => [index,marketHeat[market.id]]))) : null;
     const markers = entries.filter(item => item.lat != null).map(item => [item.name,item.lat,item.lon]);
     globe = createGlobe(canvas,markers,index => choose(index,false,true),{
-      arcs:false,heat,ringColor:"#ffd298",
+      arcs:false,heat,
       markers:entries.filter(item => item.lat != null).map(item => isMarket
         ? {...marketHeat[item.id],radius:item.id === "US" ? 6 : 4.1}
         : {color:amazonSiteTypes[item.type].color,radius:3.6})
