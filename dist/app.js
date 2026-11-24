@@ -63,57 +63,78 @@ function searchable(value) {
 const metricFormat = {cap:compactMoney,jobs:value => integer.format(value),payroll:compactMoney};
 const searchIndex = new Map(leaders.map(leader => [leader,searchable([leader.name,leader.company,leader.ticker,leader.sector].join(" "))]));
 // Each ranking is computed once from data.js; ties fall back to value created.
-const rankings = Object.fromEntries(Object.keys(metrics).map(metric => {
-  const ranked = [...leaders].sort((a,b) => b[metric] - a[metric] || b.cap - a.cap);
-  return [metric,{ranked,top:ranked[0][metric]}];
-}));
-function activeMetric() {
-  return sort.querySelector("input:checked").value;
+const rankings = Object.fromEntries(Object.keys(metrics).map(metric => [metric,[...leaders].sort((a,b) => b[metric] - a[metric] || b.cap - a.cap)]));
+// One expanded row at a time, like the Forbes list. It stays open across re-renders while it is still shown.
+let openId = null;
+function rankingRow(leader,rank,metric) {
+  const open = leader.id === openId;
+  const figures = Object.keys(metrics).map(key => `<td class="number${key === metric ? " active-col" : ""}">${metricFormat[key](leader[key])}</td>`).join("");
+  return `<tr class="entry${open ? " is-open" : ""}" data-id="${leader.id}">
+      <td class="rank">${rank}</td>
+      <td class="name"><button type="button" class="row-toggle" aria-expanded="${open}" aria-controls="detail-${leader.id}"><span class="name-text">${escapeHtml(leader.name)}</span><span class="name-company">${escapeHtml(leader.company)}</span></button></td>
+      ${figures}
+      <td class="company">${escapeHtml(leader.company)}</td>
+      <td class="industry">${escapeHtml(leader.sector)}</td>
+    </tr>
+    <tr class="detail" id="detail-${leader.id}"${open ? "" : " hidden"}><td colspan="7"><div class="detail-panel">
+      <img class="portrait" src="${leader.image}" alt="" width="96" height="96" loading="lazy" decoding="async">
+      <div class="detail-text"><p class="detail-name">${escapeHtml(leader.name)}</p><p class="detail-role">${escapeHtml(leader.role)} · ${escapeHtml(leader.company)}</p><p class="detail-line">Employs ${integer.format(leader.jobs)} people who earn an estimated ${compactMoney(leader.payroll)} a year.</p></div>
+      <a class="detail-profile" href="#leader/${leader.id}">View profile</a>
+    </div></td></tr>`;
 }
 function render() {
   const search = searchable(query.value.trim());
-  const metric = activeMetric();
-  const {ranked,top} = rankings[metric];
-  document.querySelectorAll("th[data-col]").forEach(header => {
+  const metric = sort.value;
+  document.querySelectorAll(".ranking th[data-col]").forEach(header => {
     const active = header.dataset.col === metric;
     header.classList.toggle("active-col",active);
     if (active) header.setAttribute("aria-sort","descending");
     else header.removeAttribute("aria-sort");
   });
-  let html = "", total = 0;
-  ranked.forEach((leader,index) => {
+  let html = "", total = 0, openShown = false;
+  rankings[metric].forEach((leader,index) => {
     if (sector.value && leader.sector !== sector.value) return;
     if (search && !searchIndex.get(leader).includes(search)) return;
     total++;
-    const rank = index + 1;
-    const cells = Object.keys(metrics).map(key => {
-      if (key !== metric) return `<td class="number" data-label="${metrics[key]}"><span class="figure">${metricFormat[key](leader[key])}</span></td>`;
-      const share = Math.max(leader[key] / top * 100,.6).toFixed(1);
-      return `<td class="number active-col" data-label="${metrics[key]}"><span class="figure">${metricFormat[key](leader[key])}</span><span class="bar" aria-hidden="true"><i style="width:${share}%"></i></span></td>`;
-    }).join("");
-    html += `<tr data-id="${leader.id}"${rank <= 3 ? ' class="podium"' : ""}>
-      <td class="rank">${rank}</td>
-      <td class="leader-cell"><a class="leader" href="#leader/${leader.id}">${portrait(leader)}<span class="leader-text"><strong>${escapeHtml(leader.name)}</strong><small><span class="company">${escapeHtml(leader.company)}</span><span class="ticker">${escapeHtml(leader.ticker)}</span><span class="sector">${escapeHtml(leader.sector)}</span></small></span></a></td>
-      ${cells}
-    </tr>`;
+    if (leader.id === openId) openShown = true;
+    html += rankingRow(leader,index + 1,metric);
   });
+  if (!openShown) openId = null;
   rows.innerHTML = html;
-  rows.dataset.metric = metric;
-  const filtered = total !== leaders.length;
+  fitPanel();
   const scope = sector.value ? " in " + sector.value : "";
-  byId("result-count").innerHTML = (filtered ? `<strong>${total}</strong> of ${leaders.length} leaders${escapeHtml(scope)}` : `All <strong>${total}</strong> leaders`) + `, ranked by ${metrics[metric].toLowerCase()}`;
+  byId("result-count").textContent = (total !== leaders.length ? `${total} of ${leaders.length} leaders${scope}` : `${total} leaders`) + ` · Ranked by ${sort.selectedOptions[0].text.toLowerCase()} · Figures in USD`;
   byId("empty").hidden = total > 0;
   if (!total) byId("empty-detail").textContent = query.value.trim()
     ? `Nothing on the list matches “${query.value.trim()}”${scope}. Try another name, company or ticker.`
     : "Try another name, company or industry.";
 }
 function setSort(metric) {
-  const input = sort.querySelector(`input[value="${metric}"]`);
-  if (!input || input.checked) return;
-  input.checked = true;
+  if (sort.value === metric) return;
+  sort.value = metric;
   render();
 }
+// Narrow screens hide columns, and a colspan wider than the visible columns adds phantom ones,
+// so the open panel spans exactly the columns on screen.
+const headers = [...document.querySelectorAll(".ranking thead th")];
+function fitPanel() {
+  const cell = rows.querySelector("tr.detail:not([hidden]) > td");
+  if (cell) cell.colSpan = headers.filter(header => header.offsetWidth).length || headers.length;
+}
+function setOpen(row,open) {
+  row.classList.toggle("is-open",open);
+  row.querySelector(".row-toggle").setAttribute("aria-expanded",String(open));
+  row.nextElementSibling.hidden = !open;
+  if (open) fitPanel();
+}
+function toggleRow(row) {
+  const current = openId && rows.querySelector(`tr.entry[data-id="${openId}"]`);
+  if (current) setOpen(current,false);
+  openId = current === row ? null : row.dataset.id;
+  if (openId) setOpen(row,true);
+}
 query.addEventListener("input",render);
+window.addEventListener("resize",fitPanel);
 sort.addEventListener("change",render);
 sector.addEventListener("change",render);
 document.querySelector(".ranking thead").addEventListener("click",event => {
@@ -126,12 +147,20 @@ byId("clear-filters").addEventListener("click",() => {
   render();
   query.focus();
 });
+// A click anywhere on a row toggles its panel. The toggle button in the Name cell gives Enter and Space for free.
 rows.addEventListener("click",event => {
-  const row = event.target.closest("tr[data-id]");
-  if (!row || event.target.closest("a") || window.getSelection()?.toString()) return;
-  const link = row.querySelector("a.leader");
-  if (event.metaKey || event.ctrlKey) window.open(link.href,"_blank","noopener");
-  else link.click();
+  const row = event.target.closest("tr.entry");
+  if (!row || (!event.target.closest(".row-toggle") && window.getSelection()?.toString())) return;
+  toggleRow(row);
+  row.querySelector(".row-toggle").focus({preventScroll:true,focusVisible:false});
+});
+// Escape closes the open panel and returns focus to its row.
+rows.addEventListener("keydown",event => {
+  if (event.key !== "Escape" || !openId) return;
+  const row = rows.querySelector(`tr.entry[data-id="${openId}"]`);
+  if (!row) return;
+  toggleRow(row);
+  row.querySelector(".row-toggle").focus();
 });
 render();
 

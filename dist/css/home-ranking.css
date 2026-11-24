@@ -1,167 +1,132 @@
-/* ---------- The ranking ---------- */
+/* ---------- The ranking: a plain, Forbes-style list ---------- */
 .ranking {
   /* Local tokens for this section */
   --rank-rule:#e8dfd4;                                   /* hairline between rows */
   --rank-hover:color-mix(in srgb,var(--paper-2) 55%,var(--card));
-  --rank-active:color-mix(in srgb,var(--red) 4%,transparent);
-  --rank-track:color-mix(in srgb,var(--red) 12%,var(--card));
-  --rank-focus:#b0563d;                                  /* matches base :focus-visible */
-  padding-block:var(--space-8) 62px;
+  --rank-figure:#4a403b;                                 /* figures outside the active column */
+  --select-chevron:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' viewBox='0 0 12 8'%3E%3Cpath stroke='%23625953' stroke-width='1.5' d='m1 1 5 5 5-5'/%3E%3C/svg%3E");
+  padding-block:var(--space-6) var(--space-8);
 }
-.ranking .visually-hidden {position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 
-/* Section head. The .ranking prefix outranks older .case-link rules that
-   still live in amazon-distribution.css (loaded later). */
-.ranking .section-head {display:flex;align-items:flex-end;justify-content:space-between;gap:var(--space-6)}
-.ranking .section-head > div {max-width:620px}
-.ranking .section-head p:not(.eyebrow) {color:var(--muted);margin-bottom:0;font-size:17px;line-height:1.55}
-.ranking .case-link {flex:none;display:flex;flex-direction:column;gap:2px;width:320px;max-width:100%;padding:var(--space-4) var(--space-5) var(--space-4) 20px;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--red);border-radius:var(--radius);box-shadow:var(--shadow-1);font:inherit;text-decoration:none;transition:box-shadow .2s var(--ease),transform .2s var(--ease)}
-.ranking .case-link .case-kicker {font:750 12px/1.3 var(--sans);letter-spacing:.15em;color:var(--red)}
-.ranking .case-link .case-title {font:700 23px/1.15 var(--serif);letter-spacing:-.03em;color:var(--ink)}
-.ranking .case-link .case-cta {margin-top:6px;font:650 14px/1.3 var(--sans);letter-spacing:0;color:var(--muted)}
-.ranking .case-link .case-cta span {display:inline-block;font:inherit;color:inherit;transition:transform .2s var(--ease)}
-.ranking .case-link:hover {text-decoration:none;box-shadow:var(--shadow-2);transform:translateY(-1px)}
-.ranking .case-link:hover .case-cta {color:var(--red)}
-.ranking .case-link:hover .case-cta span {transform:translateX(3px)}
-
-/* Toolbar */
-.toolbar {display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-3) var(--space-4);margin:var(--space-6) 0 var(--space-3)}
-.search {flex:1 1 260px;max-width:340px;min-height:44px;display:flex;align-items:center;gap:var(--space-2);padding:0 var(--space-3);border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--card);color:var(--muted);transition:border-color .15s var(--ease)}
+/* Toolbar: search on the left, filters on the right */
+.toolbar {display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:var(--space-3) var(--space-4);margin-bottom:var(--space-2)}
+.search {flex:0 1 340px;min-height:44px;display:flex;align-items:center;gap:var(--space-2);padding:0 var(--space-3);border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--card);color:var(--muted);transition:border-color .15s var(--ease)}
 .search svg {flex:none}
 .search input {flex:1;min-width:0;height:42px;border:0;background:none;color:var(--ink);font-size:15px}
 .search input::placeholder {color:#7d726b}
 .search:hover {border-color:#cbbfb1}
-.search:focus-within {border-color:var(--ink);outline:2px solid var(--rank-focus);outline-offset:1px}
+.search:focus-within {border-color:var(--ink);outline:2px solid var(--focus);outline-offset:1px}
 .search input:focus-visible {outline:0}
 .search input::-webkit-search-cancel-button {appearance:none;width:16px;height:16px;cursor:pointer;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23625953' stroke-width='1.6' stroke-linecap='round' d='m4 4 8 8M12 4l-8 8'/%3E%3C/svg%3E") center/16px no-repeat}
-.industry {display:flex;align-items:center;gap:var(--space-2);font-size:14px;color:var(--muted);white-space:nowrap}
-.industry select {appearance:none;min-height:44px;padding:0 34px 0 var(--space-3);border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' viewBox='0 0 12 8'%3E%3Cpath stroke='%23625953' stroke-width='1.5' d='m1 1 5 5 5-5'/%3E%3C/svg%3E") no-repeat right 12px center;color:var(--ink);font-size:15px;cursor:pointer}
-.industry select:hover {border-color:#cbbfb1}
-.rank-by {display:flex;align-items:center;gap:var(--space-2);margin:0 0 0 auto;padding:0;border:0;min-width:0}
-.rank-by legend {float:left;padding:0;margin-right:var(--space-2);font-size:14px;color:var(--muted);white-space:nowrap}
-.segments {display:flex;padding:3px;gap:2px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--card)}
-.segments label {position:relative;display:flex;flex:1 1 auto}
-.segments input {position:absolute;inset:0;opacity:0;margin:0;cursor:pointer}
-.segments span {display:flex;align-items:center;justify-content:center;min-height:36px;padding:0 14px;border-radius:2px;font-size:14px;font-weight:650;color:var(--muted);text-align:center;line-height:1.15;white-space:nowrap;transition:background-color .15s var(--ease),color .15s var(--ease)}
-.segments label:hover span {color:var(--ink);background:var(--paper-2)}
-.segments input:checked + span {background:var(--red);color:#fffaf2}
-.segments input:focus-visible + span {outline:3px solid var(--rank-focus);outline-offset:2px}
+.filters {display:flex;flex-wrap:wrap;gap:var(--space-3) var(--space-4)}
+.filter {display:flex;align-items:center;gap:var(--space-2);font-size:14px;color:var(--muted);white-space:nowrap}
+.filter select {appearance:none;min-height:44px;padding:0 34px 0 var(--space-3);border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--card) var(--select-chevron) no-repeat right 12px center;color:var(--ink);font-size:15px;cursor:pointer;transition:border-color .15s var(--ease)}
+.filter select:hover {border-color:#cbbfb1}
 
-.table-meta {display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-4);padding:var(--space-1) 0 var(--space-2);font-size:14px;color:var(--muted)}
-.table-meta p {margin:0}
-.table-meta strong {color:var(--ink);font-variant-numeric:tabular-nums}
-.table-meta span {font-size:12px;font-weight:650;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
+.table-meta {margin:0 0 var(--space-2);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
 
 /* Table */
-.table-shell {border-top:2px solid var(--ink);border-bottom:1px solid var(--line);background:var(--card);overflow:clip}
-.ranking table {width:100%;border-collapse:collapse;table-layout:fixed;text-align:right;font-size:16px}
-.ranking .col-rank, .ranking td.rank {text-align:center}
-.ranking .col-leader, .ranking td.leader-cell {text-align:left}
-.ranking th, .ranking td {padding:12px 16px}
-.ranking .col-rank {width:76px}
-.ranking th[data-col] {width:17%}
-.ranking th[data-col="payroll"] {width:19%}
-.ranking thead th {position:sticky;top:0;z-index:2;background:var(--paper-2);color:#564a43;font-size:13px;font-weight:700;line-height:1.3;vertical-align:bottom;box-shadow:inset 0 -1px 0 var(--line)}
-.ranking thead th[data-col] {padding:0}
-.ranking th button {display:flex;align-items:flex-end;justify-content:flex-end;gap:6px;width:100%;min-height:100%;padding:12px 16px;border:0;background:none;color:inherit;font:inherit;text-align:right;cursor:pointer}
-.ranking th button::after {content:"";flex:none;width:0;height:0;margin-bottom:5px;border:4.5px solid transparent;border-top:5px solid currentColor;border-bottom:0;opacity:0;transition:opacity .15s var(--ease)}
+.table-shell {border-bottom:1px solid var(--rank-rule)}
+.ranking table {width:100%;border-collapse:collapse;table-layout:fixed;font-size:15px}
+.ranking th, .ranking td {padding:18px 16px;text-align:left;vertical-align:middle}
+.ranking .col-rank {width:72px}
+.ranking th[data-col] {width:13%}
+.ranking th[data-col="payroll"] {width:14%}
+.ranking .col-company {width:17%}
+.ranking .col-industry {width:12%}
+.ranking thead th {position:sticky;top:0;z-index:2;padding-block:12px;background:var(--paper);color:var(--muted);font-size:12px;font-weight:700;letter-spacing:.06em;line-height:1.3;text-transform:uppercase;vertical-align:bottom;white-space:nowrap;box-shadow:inset 0 -1px 0 var(--ink)}
+.ranking thead th[data-col] {padding:0;text-align:right}
+.ranking th button {display:inline-flex;align-items:flex-end;justify-content:flex-end;gap:6px;width:100%;padding:12px 16px;border:0;background:none;color:inherit;font:inherit;letter-spacing:inherit;text-transform:inherit;cursor:pointer}
+.ranking th button::after {content:"";flex:none;width:0;height:0;margin-bottom:5px;border:4px solid transparent;border-top:5px solid currentColor;border-bottom:0;opacity:0;transition:opacity .15s var(--ease)}
 .ranking th button:hover {color:var(--ink)}
 .ranking th button:hover::after {opacity:.35}
 .ranking th button:focus-visible {outline-offset:-3px}
-.ranking thead th.active-col {color:var(--red-dark);background:color-mix(in srgb,var(--red) 7%,var(--paper-2));box-shadow:inset 0 -2px 0 var(--red)}
+.ranking thead th.active-col {color:var(--ink)}
 .ranking th.active-col button::after {opacity:1}
+.ranking .col-rank, .ranking td.rank {text-align:center}
 
-.ranking tbody tr {border-top:1px solid var(--rank-rule);background:none;cursor:pointer;transition:background-color .15s var(--ease)}
-.ranking tbody tr:first-child {border-top:0}
-.ranking tbody tr:hover, .ranking tbody tr:focus-within {background:var(--rank-hover)}
-.ranking td {vertical-align:middle}
-.ranking td.rank {font:400 26px/1 var(--serif);color:#7a6052;letter-spacing:-.03em;font-variant-numeric:lining-nums tabular-nums}
-.ranking tr.podium td.rank {color:var(--red);font-weight:700}
+.ranking tr.entry {border-top:1px solid var(--rank-rule);cursor:pointer;transition:background-color .15s var(--ease)}
+.ranking tbody tr.entry:first-child {border-top:0}
+.ranking tr.entry:hover {background:var(--rank-hover)}
+.ranking tr.entry.is-open {background:var(--paper-2)}
+.ranking td.rank {font-size:15px;font-weight:650;color:var(--ink);font-variant-numeric:tabular-nums}
+.ranking td.number {text-align:right;white-space:nowrap;color:var(--rank-figure);font-variant-numeric:tabular-nums}
+.ranking td.active-col {color:var(--ink);font-weight:650}
+.ranking td.company, .ranking td.industry {color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ranking td.company {padding-left:28px}
 
-.leader {display:flex;align-items:center;gap:14px;min-width:0;text-decoration:none}
-.leader .portrait {width:48px;height:48px;flex:none;border-radius:var(--radius-sm);filter:grayscale(1) sepia(.16);transition:filter .2s var(--ease)}
-.ranking tr:hover .portrait, .ranking tr:focus-within .portrait {filter:none}
-.leader-text {min-width:0}
-.leader strong {display:block;font:700 21px/1.1 var(--serif);letter-spacing:-.03em;transition:color .15s var(--ease)}
-.ranking tr:hover .leader strong {color:var(--red)}
-.leader small {display:flex;flex-wrap:wrap;align-items:baseline;column-gap:0;margin-top:3px;font-size:14px;line-height:1.35;color:var(--muted)}
-.leader small > span + span::before {content:"·";padding-inline:6px;color:#b3a698}
-.leader .ticker {font-size:12px;font-weight:650;letter-spacing:.06em;color:#6c5d52}
-.leader .sector {font-size:13px}
+/* The name is the row's toggle button, so Enter and Space work on it */
+.row-toggle {display:block;width:100%;padding:0;border:0;background:none;color:var(--ink);font:650 16px/1.3 var(--sans);text-align:left;cursor:pointer}
+.row-toggle .name-text {display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row-toggle .name-company {display:none;margin-top:2px;font-size:13px;font-weight:400;color:var(--muted)}
+.ranking tr.entry:hover .name-text {text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
 @supports selector(:has(a)) {
-  .ranking tbody tr:has(.leader:focus-visible) {outline:3px solid var(--rank-focus);outline-offset:-3px}
-  .leader:focus-visible {outline:0}
+  .ranking tr.entry:has(.row-toggle:focus-visible) {outline:3px solid var(--focus);outline-offset:-3px}
+  .row-toggle:focus-visible {outline:0}
 }
 
-.ranking td.number {font-variant-numeric:tabular-nums;white-space:nowrap;color:#4a403b}
-.ranking td.active-col {background:var(--rank-active);color:var(--ink)}
-.ranking td.active-col .figure {font-weight:750;font-size:17px}
-.ranking .figure {display:block}
-.ranking .bar {display:block;width:100%;max-width:150px;height:4px;margin:7px 0 0 auto;border-radius:2px;background:var(--rank-track);overflow:hidden}
-.ranking .bar i {display:block;height:100%;border-radius:inherit;background:var(--red)}
+/* Inline panel under an open row */
+.ranking tr.detail td {padding:0;background:var(--paper-2)}
+.detail-panel {display:flex;align-items:center;gap:var(--space-5);padding:var(--space-4) var(--space-5) var(--space-5) 88px}
+.detail-panel .portrait {flex:none;width:88px;height:88px;border-radius:var(--radius-sm)}
+.detail-text {flex:1;min-width:0}
+.detail-text p {margin:0}
+.detail-text .detail-name {font:700 21px/1.2 var(--serif);letter-spacing:-.02em}
+.detail-text .detail-role {margin-top:2px;font-size:14px;color:var(--muted)}
+.detail-text .detail-line {margin-top:var(--space-2);font-size:15px}
+.detail-profile {flex:none;display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 var(--space-5);border-radius:var(--radius-sm);background:var(--red);color:#fffaf2;font-size:14px;font-weight:650;text-decoration:none;transition:background-color .15s var(--ease)}
+.detail-profile:hover {background:var(--red-dark)}
 
 /* Empty state */
 .empty {padding:var(--space-7) var(--space-5);text-align:center}
 .empty p {margin:0 auto;max-width:420px;color:var(--muted)}
-.empty .empty-title {margin-bottom:6px;font:400 30px/1.1 var(--serif);letter-spacing:-.04em;color:var(--ink)}
+.empty .empty-title {margin-bottom:6px;font:400 26px/1.1 var(--serif);letter-spacing:-.03em;color:var(--ink)}
 .empty button {margin-top:var(--space-4);min-height:40px;padding:0 var(--space-4);border:1px solid var(--ink);border-radius:var(--radius-sm);background:none;color:var(--ink);font-size:14px;font-weight:650;transition:background-color .15s var(--ease),color .15s var(--ease)}
 .empty button:hover {background:var(--ink);color:var(--card)}
 
-.table-note {max-width:760px;margin:var(--space-3) 0 0;font-size:13px;color:var(--muted)}
+.table-note {margin:var(--space-3) 0 0;font-size:13px;color:var(--muted)}
 
+/* Narrower screens drop Industry, then fold Company under the name */
 @media (max-width:1100px) {
-  .leader .sector {display:none}
+  .ranking .col-industry, .ranking td.industry {display:none}
+  .ranking th[data-col], .ranking th[data-col="payroll"] {width:16%}
+  .ranking thead th {white-space:normal}
+  .ranking th button {text-align:right}
 }
-@media (max-width:1000px) {
-  .ranking th, .ranking td {padding-inline:10px}
-  .ranking th button {padding-inline:10px}
+@media (max-width:900px) {
+  .ranking th, .ranking td {padding-inline:12px}
+  .ranking th button {padding-inline:12px}
   .ranking .col-rank {width:56px}
-  .ranking td.rank {font-size:22px}
+  .ranking .col-company, .ranking td.company {display:none}
   .ranking th[data-col], .ranking th[data-col="payroll"] {width:19%}
-  .leader {gap:10px}
-  .leader .portrait {width:44px;height:44px}
-  .leader strong {font-size:19px}
-  .leader .ticker {display:none}
-  .rank-by {margin-left:0}
+  .ranking tbody td {padding-block:12px}
+  .row-toggle .name-company {display:block}
+  .detail-panel {padding-left:68px}
 }
 @media (max-width:760px) {
-  .ranking {padding-block:var(--space-7) 40px}
-  .ranking .section-head, .ranking .section-head:has(.case-link) {flex-direction:column;align-items:stretch;gap:var(--space-5)}
-  .ranking .section-head p:not(.eyebrow) {font-size:16px}
-  .ranking .case-link {width:auto}
-  .ranking .case-link .case-title {font-size:21px}
-  .toolbar {margin-top:var(--space-5);gap:var(--space-2)}
-  .search {flex-basis:100%;max-width:none}
-  .industry {flex:1 1 100%}
-  .industry select {flex:1}
-  .rank-by {flex:1 1 100%;flex-wrap:wrap;gap:6px}
-  .rank-by legend {float:none;width:100%;margin:var(--space-2) 0 0}
-  .segments {flex:1}
-  .segments span {flex:1;padding:6px 8px;min-height:40px;white-space:normal;font-size:13px}
-  .table-meta {padding-top:var(--space-2)}
-
-  .table-shell {background:none;overflow:visible}
-  .ranking table, .ranking tbody {display:block}
-  .ranking thead {position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
-  .ranking tbody tr {display:grid;grid-template-columns:34px minmax(0,1fr) minmax(0,1fr);column-gap:var(--space-3);row-gap:var(--space-2);padding:var(--space-4) var(--space-1) var(--space-4) 0;border-top:0;border-bottom:1px solid var(--rank-rule);background:none}
-  .ranking tbody tr:hover, .ranking tbody tr:focus-within {background:var(--rank-hover)}
-  .ranking tbody td {display:block;width:auto;padding:0;text-align:left}
-  .ranking td.rank {grid-column:1;grid-row:1 / span 3;padding-top:12px;text-align:center;font-size:22px}
-  .ranking td.leader-cell {grid-column:2 / -1;grid-row:1}
-  .ranking td.number {grid-row:3;white-space:normal;font-size:15px}
-  .ranking td.number::before {content:attr(data-label);display:block;margin-bottom:2px;color:var(--muted);font-size:12px;line-height:1.2;font-weight:500}
-  .ranking td.active-col {grid-column:2 / -1;grid-row:2;display:grid;grid-template-columns:1fr auto;align-items:baseline;column-gap:var(--space-3);padding:10px 12px;border-radius:var(--radius-sm)}
-  .ranking td.active-col::before {margin:0;font-size:13px;font-weight:650;color:var(--red-dark)}
-  .ranking td.active-col .figure {font:700 20px/1.1 var(--serif);letter-spacing:-.02em}
-  .ranking td.active-col .bar {grid-column:1 / -1;max-width:none;margin:8px 0 0}
-  .leader .portrait {width:48px;height:48px}
-  .leader strong {font-size:20px}
-  .leader .ticker {display:inline}
+  .ranking {padding-block:var(--space-5) var(--space-7)}
+  .toolbar {gap:var(--space-3)}
+  .search {flex-basis:100%}
+  .filters {flex:1 1 100%;flex-wrap:nowrap;gap:var(--space-2)}
+  .filter {flex:1 1 0;min-width:0;flex-direction:column;align-items:stretch;gap:4px;font-size:12px}
+  .filter select {width:100%;min-width:0;padding-right:30px;font-size:15px;text-overflow:ellipsis}
 }
-@media (max-width:415px) {
-  .segments span {font-size:12.5px;padding-inline:6px}
+/* Mobile: Rank | Name and company | the active measure */
+@media (max-width:640px) {
+  .ranking th, .ranking td {padding-inline:8px}
+  .ranking th button {padding-inline:8px}
+  .ranking .col-rank {width:52px}
+  .ranking thead th {font-size:11px;letter-spacing:.04em;white-space:nowrap}
+  .ranking th[data-col], .ranking th[data-col="payroll"] {width:36%}
+  .ranking th[data-col]:not(.active-col), .ranking td.number:not(.active-col) {display:none}
+  .ranking td.rank {font-size:14px}
+  .row-toggle {font-size:15px}
+  .detail-panel {display:grid;grid-template-columns:64px minmax(0,1fr);gap:var(--space-3) var(--space-4);padding:var(--space-4)}
+  .detail-panel .portrait {width:64px;height:64px}
+  .detail-text .detail-name {font-size:19px}
+  .detail-text .detail-line {font-size:14px}
+  .detail-profile {grid-column:1 / -1}
 }
 @media (prefers-reduced-motion:reduce) {
-  .ranking .case-link, .ranking .case-link .case-cta span, .search, .segments span, .ranking tbody tr, .leader .portrait, .leader strong, .ranking th button::after, .empty button {transition:none}
-  .ranking .case-link:hover {transform:none}
+  .search, .filter select, .ranking tr.entry, .ranking th button::after, .detail-profile, .empty button {transition:none}
 }
