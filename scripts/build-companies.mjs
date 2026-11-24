@@ -441,13 +441,30 @@ function networthFor(id, record) {
 //   Value created     data.js market value (billions of USD).
 //   Held by others    value created × the ownership headline's "Everyone else" share (100% minus the leader's
 //                     stake and any family holding, rounded exactly as the headline rounds it); null when the
-//                     headline prints no "Everyone else" (no own or family stake).
+//                     headline prints no "Everyone else" (no own or family stake), except two bounds that read
+//                     as bounds (heldByOthersBound): "gt99" when the leader holds under 1% and there is no family
+//                     figure, "gte95" when a U.S. proxy's 5% table names neither (secFivePercentTable below).
 //   Paid out          dist/paidout.json's ranked base (adjusted for customer lending when disclosed) and sales enabled.
 //   Their stake       the leader's own (or derived) stake × value created; the family's when the headline is
 //                     family-based (labelled as the family's, never the person's); "under1" when only "less than
 //                     1%" is known (stakeBelowUsd is 1% of value created); null with a reason otherwise.
 const headlineList = {};
-const headlineStats = {others: 0, stake: {own: 0, derived: 0, family: 0, under1: 0, none: 0}};
+const headlineStats = {others: 0, bounded: {gt99: 0, gte95: 0}, stake: {own: 0, derived: 0, family: 0, under1: 0, none: 0}};
+// SEC rules require a U.S. proxy to list every holder of more than 5%. When the published record shows no personal
+// or family stake (deceased, no reported stake, not disclosed, or shares without a percentage), carries no family
+// entry at all, and its named holders come from one SEC-hosted proxy statement (so its 5% table was read), the leader
+// and any family hold under 5% between them. Non-SEC filers (20-F, annual reports) have other thresholds: no bound.
+const PROXY = /proxy|DEF 14A/i;
+function secFivePercentTable(record, stakes) {
+  if (!record || !stakes || stakes.self || stakes.family || record.ownership?.leader?.family) return false;
+  if (!["deceased", "no-reported-stake", "not-disclosed", "shares"].includes(stakes.leaderStatus)) return false;
+  const proxies = new Set(stakes.holders.map(holder => holder.source).filter(source => source?.hostType === "sec" && PROXY.test(String(source.label || "")) && !/20-F/i.test(String(source.label))).map(source => source.url));
+  if (proxies.size !== 1) return false;
+  // The leader's own entry, when it cites a document, must be SEC-hosted and, when it is a proxy, the same one.
+  const own = record.ownership.leader.source;
+  if (own && (own.hostType !== "sec" || /20-F/i.test(String(own.label || "")) || (PROXY.test(String(own.label || "")) && !proxies.has(own.url)))) return false;
+  return true;
+}
 const round4 = value => Math.round(value * 1e4) / 1e4;
 const capFirst = text => text.charAt(0).toUpperCase() + text.slice(1);
 // Why a figure shows "—", by the leader's status in the ownership record (default: "No stake disclosed").
@@ -471,7 +488,16 @@ function headlineFor(leader, out, networth) {
     if (!(pct >= 0 && pct <= 100)) throw new Error(`headline/${leader.id}: "Everyone else" ${stakes.othersPct}% is outside 0–100`);
     Object.assign(entry, {heldByOthersPct: pct, heldByOthersUsd: round6(cap * pct / 100)});
     headlineStats.others++;
+  } else if (stakes?.leaderStatus === "under1" && !stakes.family) {
+    // Bounded: the filing says the leader holds less than 1% and there is no family figure, so others hold more than 99%.
+    Object.assign(entry, {heldByOthersPct: 99, heldByOthersBound: "gt99", heldByOthersUsd: round6(cap * 0.99)});
+    headlineStats.bounded.gt99++;
+  } else if (secFivePercentTable(out, stakes)) {
+    // Bounded: a U.S. proxy's 5% owners table names neither the leader nor a family, so together they hold under 5%.
+    Object.assign(entry, {heldByOthersPct: 95, heldByOthersBound: "gte95", heldByOthersUsd: round6(cap * 0.95)});
+    headlineStats.bounded.gte95++;
   } else entry.heldByOthersNote = OTHERS_NOTE[stakes?.leaderStatus] || "No stake disclosed";
+  entry.heldByOthersBound ??= null;
   if (stakes?.familyBased) {
     const {family} = stakes;
     Object.assign(entry, {stakeBasis: "family", stakePct: family.pct, stakeUsd: round6(cap * family.pct / 100), stakeLabel: capFirst(family.label) + " stake",
@@ -628,7 +654,7 @@ console.log(`  owners: ${ownersStats.published}/${ownersStats.files} files publi
 for (const [label, list] of [["paidout", paidoutStats.skipped], ["owners", ownersStats.skipped]]) for (const [id, reasons] of list) console.log(`  ✗ ${label}/${id}: ${reasons.slice(0, 3).join("; ")}`);
 console.log(`  networth: ${networthStats.published}/${networthStats.files} files published (the rest have no list entry), ${networthStats.blocked} blocked by the strict gate`);
 for (const [id, reasons] of networthStats.skipped) console.log(`  ✗ networth/${id}: ${reasons.slice(0, 3).join("; ")}`);
-console.log(`  headline.json: ${Object.keys(headlineList).length} leaders; held by others ${headlineStats.others}; stake ${Object.entries(headlineStats.stake).map(([k, n]) => `${k} ${n}`).join(" · ")}`);
+console.log(`  headline.json: ${Object.keys(headlineList).length} leaders; held by others ${headlineStats.others} exact + ${headlineStats.bounded.gt99} more than 99% + ${headlineStats.bounded.gte95} at least 95% (U.S. proxy 5% table), ${leaders.length - headlineStats.others - headlineStats.bounded.gt99 - headlineStats.bounded.gte95} "—"; stake ${Object.entries(headlineStats.stake).map(([k, n]) => `${k} ${n}`).join(" · ")}`);
 if (nordhaus) console.log("  nordhaus: published in coverage.json");
 if (skipped.length) {
   console.log(`Records skipped ${skipped.length}:`);

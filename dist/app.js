@@ -82,6 +82,13 @@ const headlineReady = fetch("headline.json")
   .catch(() => null)
   .then(list => { headline = list && typeof list === "object" ? list : {}; return headline; });
 const headlinePercent = value => value.toFixed(1) + "%";
+const cvPossessiveName = name => escapeHtml(/s$/i.test(name) ? name + "’" : name + "’s");
+// "Held by others" for the home row: exact, or a bound that says so ("more than", "at least").
+function heldByOthersPhrase(entry) {
+  if (!finiteNumber(entry.heldByOthersUsd)) return "";
+  const prefix = entry.heldByOthersBound === "gt99" ? "more than " : entry.heldByOthersBound === "gte95" ? "at least " : "";
+  return `Held by others ${prefix}${compactMoney(entry.heldByOthersUsd)}`;
+}
 // "2025-03-07" → "March 2025".
 function monthYear(value) {
   const match = /^(\d{4})-(\d{2})/.exec(value || "");
@@ -134,7 +141,7 @@ function detailHeadline(leader) {
   const entry = headline && headline[leader.id];
   if (!entry) return "";
   const items = [`Value created ${compactMoney(leader.cap)}`,
-    finiteNumber(entry.heldByOthersUsd) ? `Held by others ${compactMoney(entry.heldByOthersUsd)}` : "",
+    heldByOthersPhrase(entry),
     stakePhrase(entry)].filter(Boolean);
   return `<p class="detail-headline">${items.join(' <span aria-hidden="true">·</span> ')}</p>`;
 }
@@ -368,6 +375,12 @@ function headlineStats(leader) {
   const cells = [cell("cap",metrics.cap,compactMoney(leader.cap),["Market capitalization, year-end 2024"])];
   // Held by others: value created × the ownership headline's "Everyone else".
   if (loading) cells.push(cell("others","Held by others",pending,[""]));
+  else if (entry && finiteNumber(entry.heldByOthersUsd) && entry.heldByOthersBound) {
+    // A bound, never shown as an exact figure: "More than" / "At least" sits inside the figure itself.
+    const gt99 = entry.heldByOthersBound === "gt99";
+    cells.push(cell("others","Held by others",`<span class="stat-bound">${gt99 ? "More than" : "At least"} </span>${compactMoney(entry.heldByOthersUsd)}`,
+      [gt99 ? `More than 99% of shares; ${escapeHtml(leader.name)} holds under 1%` : `No 5% stake by ${escapeHtml(leader.name)} or family is reported in ${cvPossessiveName(leader.company)} proxy`]));
+  }
   else if (entry && finiteNumber(entry.heldByOthersUsd)) cells.push(cell("others","Held by others",compactMoney(entry.heldByOthersUsd),[`${headlinePercent(entry.heldByOthersPct)} of shares, owned by index funds, pensions, savers and others`]));
   else cells.push(cell("others","Held by others","—",[escapeHtml(entry?.heldByOthersNote || "No stake disclosed")]));
   // Paid out & sales enabled, per year (the company's fiscal year), in USD.
@@ -392,7 +405,7 @@ function headlineStats(leader) {
     const includes = entry.stakeIncludesLeader ? ` · includes ${escapeHtml(leader.name)}’s own` : "";
     cells.push(cell("stake",label,compactMoney(entry.stakeUsd),[`${headlinePercent(entry.stakePct)} of shares${includes}${derived}`,netWorth]));
   } else if (entry?.stakeBasis === "under1" && finiteNumber(entry.stakeBelowUsd)) {
-    cells.push(cell("stake",label,`Under 1% (&lt; ${compactMoney(entry.stakeBelowUsd)})`,["Exact stake not disclosed",netWorth],true));
+    cells.push(cell("stake",label,`Under 1% (&lt;&nbsp;${compactMoney(entry.stakeBelowUsd)})`,["Exact stake not disclosed",netWorth],true));
   } else cells.push(cell("stake",label,"—",[escapeHtml(entry?.stakeNote || "No stake disclosed"),netWorth]));
   return cells.join("");
 }
