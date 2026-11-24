@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Value for Humanity — logo concepts</title>
+<style>
+  :root { --ink:#25201e; --paper:#fbf8f2; --night:#201c1b; --red:#9d271f; --blue:#2a78d6; --gray:#7d736c; --muted:#625953; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:#efe8dd; color:var(--ink); font:15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; padding:40px; width:1600px; }
+  h1 { font:700 34px/1.1 Georgia, serif; letter-spacing:-.02em; margin:0 0 6px; }
+  .sub { color:var(--muted); margin:0 0 28px; }
+  .grid { display:grid; grid-template-columns:repeat(4, 1fr); gap:20px; }
+  .card { background:var(--paper); border:1px solid #ddd3c6; border-radius:14px; overflow:hidden; display:flex; flex-direction:column; }
+  .label { padding:16px 18px 4px; font:700 13px/1 system-ui; letter-spacing:.12em; text-transform:uppercase; color:var(--red); }
+  .name { padding:0 18px; font:700 22px/1.2 Georgia, serif; }
+  .idea { padding:6px 18px 14px; color:var(--muted); font-size:14px; min-height:62px; }
+  .hero { display:grid; place-items:center; height:220px; border-top:1px solid #eee5d9; border-bottom:1px solid #eee5d9; }
+  .hero svg { width:150px; height:150px; }
+  .header { background:var(--night); display:flex; align-items:center; gap:12px; padding:14px 18px; color:#fff8ed; }
+  .header svg { width:32px; height:32px; flex:none; }
+  .header span { font:700 21px/1 Georgia, serif; letter-spacing:-.03em; }
+  .lightbar { display:flex; align-items:center; gap:12px; padding:14px 18px; border-bottom:1px solid #eee5d9; }
+  .lightbar svg { width:32px; height:32px; }
+  .lightbar span { font:700 21px/1 Georgia, serif; letter-spacing:-.03em; }
+  .sizes { display:flex; align-items:center; gap:16px; padding:14px 18px; }
+  .tab { display:flex; align-items:center; gap:6px; background:#e7e1d8; border-radius:8px 8px 0 0; padding:6px 10px; font-size:12px; }
+  .tab svg { width:16px; height:16px; }
+  .app { width:64px; height:64px; border-radius:15px; overflow:hidden; box-shadow:0 2px 6px #0002; }
+  .app svg { width:64px; height:64px; display:block; }
+  .s32 svg { width:32px; height:32px; display:block; }
+</style>
+</head>
+<body>
+<h1>Value for Humanity: four logo directions</h1>
+<p class="sub">Each shown large, in the dark site header, on paper, as a 16px browser tab, a 32px favicon and an app icon. Colors use the site palette: blue = value shared with everyone, gray = the individual, red = brand.</p>
+<div class="grid" id="grid"></div>
+
+<template id="A">
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g transform="rotate(-90 32 32)">
+<circle cx="32" cy="32" r="21" fill="none" stroke="#2a78d6" stroke-width="13" pathLength="100" stroke-dasharray="84 16" stroke-dashoffset="-13"/>
+<circle cx="32" cy="32" r="21" fill="none" stroke="#7d736c" stroke-width="13" pathLength="100" stroke-dasharray="9 91" stroke-dashoffset="-1.5"/></g></svg>
+</template>
+
+<template id="B">
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 22 L29 52 L48 17" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="51.5" cy="10.5" r="6.5" fill="#9d271f"/></svg>
+</template>
+
+<template id="C">
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g id="dots"></g></svg>
+</template>
+
+<template id="D">
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+<rect width="64" height="64" rx="14" fill="#9d271f"/>
+<path d="M11 15 L22.5 49 L34 15 V49 M34 32 H52 M52 15 V49" fill="none" stroke="#fbf8f2" stroke-width="6" stroke-linejoin="round" stroke-linecap="square"/></svg>
+</template>
+
+<script>
+const concepts = [
+  {id:"A", name:"The share", idea:"A ring split the way Amazon's ownership is: a small gray slice for the founder, the rest in blue for everyone else. The site's whole argument in one shape."},
+  {id:"B", name:"Rising V", idea:"A 'V' for value whose right arm climbs higher than it started and ends in a person. Value that goes up, and lands with people."},
+  {id:"C", name:"One among many", idea:"A disc made of people: one red dot (the builder) among hundreds of blue ones (workers, owners, customers)."},
+  {id:"D", name:"VH ligature", idea:"A refined monogram where the V's right arm becomes the H's first stem. Evolution of today's mark: familiar, cleaner, more ownable."}
+];
+const grid = document.getElementById("grid");
+for (const c of concepts) {
+  const svg = () => { const t = document.getElementById(c.id).content.firstElementChild.cloneNode(true); if (c.id === "C") fillDots(t); return t; };
+  const card = document.createElement("div"); card.className = "card";
+  card.innerHTML = `<div class="label">Direction ${c.id}</div><div class="name">${c.name}</div><div class="idea">${c.idea}</div>
+    <div class="hero"></div><div class="header"></div><div class="lightbar"></div><div class="sizes"><div class="tab"></div><div class="s32"></div><div class="app"></div></div>`;
+  card.querySelector(".hero").append(svg());
+  const h = card.querySelector(".header"); const hs = svg(); hs.style.color = "#fff8ed"; h.append(hs); h.insertAdjacentHTML("beforeend","<span>Value for Humanity</span>");
+  const l = card.querySelector(".lightbar"); const ls = svg(); ls.style.color = "#25201e"; l.append(ls); l.insertAdjacentHTML("beforeend","<span>Value for Humanity</span>");
+  const tab = card.querySelector(".tab"); const ts = svg(); ts.style.color = "#25201e"; tab.append(ts); tab.insertAdjacentHTML("beforeend","valueforhumanity.com");
+  const s32 = svg(); s32.style.color = "#25201e"; card.querySelector(".s32").append(s32);
+  const app = card.querySelector(".app"); app.style.background = c.id === "D" ? "transparent" : "#201c1b"; const as = svg(); as.style.color = "#fff8ed"; if (c.id !== "D") { as.setAttribute("viewBox","-8 -8 80 80"); } app.append(as);
+  grid.append(card);
+}
+function fillDots(svg) {
+  // 19 people in a hexagonal cluster (1 + 6 + 12); the builder is the red one in the middle.
+  const g = svg.querySelector("#dots"); const ns = "http://www.w3.org/2000/svg"; const r = 4.6, d = 12.4;
+  const pts = [[0,0]];
+  for (let k = 0; k < 6; k++) { const a = Math.PI / 3 * k; pts.push([d * Math.cos(a), d * Math.sin(a)]); }
+  for (let k = 0; k < 6; k++) { const a = Math.PI / 3 * k; pts.push([2 * d * Math.cos(a), 2 * d * Math.sin(a)]); const b = a + Math.PI / 6; pts.push([Math.sqrt(3) * d * Math.cos(b), Math.sqrt(3) * d * Math.sin(b)]); }
+  pts.forEach(([x, y], i) => { const c = document.createElementNS(ns, "circle"); c.setAttribute("cx", 32 + x); c.setAttribute("cy", 32 + y); c.setAttribute("r", r); c.setAttribute("fill", i === 0 ? "#9d271f" : "#2a78d6"); g.append(c); });
+}
+</script>
+</body>
+</html>
