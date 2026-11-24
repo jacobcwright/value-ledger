@@ -19,14 +19,8 @@ function externalLink(url, label) {
 }
 const metrics = {cap:"Value created",jobs:"People employed",payroll:"Estimated annual pay to workers"};
 const sortedByCap = [...leaders].sort((a,b) => b.cap - a.cap);
-byId("cover").innerHTML = sortedByCap.slice(0,3).map((leader,index) => `
-  <a href="#leader/${leader.id}" class="cover-card" aria-label="Number ${index + 1}: ${escapeHtml(leader.name)}, ${escapeHtml(leader.company)}, ${compactMoney(leader.cap)} value created">
-    ${portrait(leader,true)}
-    <span class="cover-rank">${index + 1}</span>
-    <span class="cover-caption"><strong>${escapeHtml(leader.name)}</strong><small>${escapeHtml(leader.company)} <span>${compactMoney(leader.cap)}</span></small></span>
-  </a>`).join("");
-// List-wide headline figures ("$35.5 trillion", "15 million", "$985 billion"). The dark band, the
-// "How value spreads" story and the <head> meta copy all use this one rounding, so they always match.
+// List-wide headline figures ("$35.5 trillion", "15 million", "$985 billion"). The key line under the
+// title, the "How value spreads" story and the <head> meta copy all use this one rounding, so they always match.
 function headlineFigure(value, prefix = "") {
   const oneDecimal = number => number.toFixed(1).replace(/\.0$/,"");
   return value >= 1e12 ? [prefix + oneDecimal(value / 1e12),"trillion"]
@@ -35,22 +29,19 @@ function headlineFigure(value, prefix = "") {
 }
 const headlineHtml = ([number,unit]) => `${number}<small> ${unit}</small>`;
 const headlineText = ([number,unit]) => `${number} ${unit}`;
+const headlineShort = ([number,unit]) => number + {trillion:"T",billion:"B",million:"M"}[unit];
 {
-  // Headline figures for the dark band, all computed from the data files.
-  const sum = key => leaders.reduce((total,leader) => total + leader[key],0);
-  const stats = [
-    {value:headlineHtml(headlineFigure(sum("cap") * 1e9,"$")),label:"in value created, at year-end 2024"},
-    {value:headlineHtml(headlineFigure(sum("jobs"))),label:"people employed directly"},
-    {value:headlineHtml(headlineFigure(sum("payroll") * 1e9,"$")),label:"estimated pay to workers each year"}
-  ];
-  const founder = typeof amazonOwnership !== "undefined" && amazonOwnership.holders.find(holder => holder.color === "founder");
-  if (founder) {
-    const outside = 100 * (1 - founder.shares / amazonOwnership.sharesOutstanding);
-    stats.push({value:outside.toFixed(1) + "%",label:"of Amazon held outside Jeff Bezos’s direct stake",href:"#leader/jeff-bezos/distribution",kicker:"Amazon case study"});
+  // The key line under the title, computed from data.js: "100 builders · $35.5T value created · …".
+  const keyLine = byId("key-line");
+  if (keyLine) {
+    const sum = key => leaders.reduce((total,leader) => total + leader[key],0);
+    keyLine.innerHTML = [
+      `${leaders.length} builders`,
+      `${headlineShort(headlineFigure(sum("cap") * 1e9,"$"))} value created`,
+      `${headlineShort(headlineFigure(sum("jobs")))} people employed`,
+      `${headlineShort(headlineFigure(sum("payroll") * 1e9,"$"))} estimated annual pay`
+    ].map(item => `<li>${item}</li>`).join("");
   }
-  byId("stats").innerHTML = stats.map(({value,label,href,kicker}) => href
-    ? `<a class="stat stat-shared" href="${href}"><span class="stat-kicker">${kicker}</span><strong>${value}</strong><span>${label}</span><span class="stat-more">Read the case study <span aria-hidden="true">→</span></span></a>`
-    : `<div class="stat"><strong>${value}</strong><span>${label}</span></div>`).join("");
 }
 
 const rows = byId("rows"), query = byId("query"), sort = byId("sort"), sector = byId("sector");
