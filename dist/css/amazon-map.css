@@ -173,3 +173,7 @@
   .amazon-enter {animation:none}
   .amazon-map-switch button,.amazon-map-list > button,.amazon-world .zoom button {transition:none}
 }
+
+/* Rows size to their content so wrapped site names never overlap the next row. */
+.amazon-map-list {grid-auto-rows:max-content}
+.amazon-map-list > button {height:auto}

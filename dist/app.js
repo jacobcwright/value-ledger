@@ -321,7 +321,12 @@ function setActiveChip(index) {
   const buttons = [...chipRow.children];
   buttons.forEach((button,i) => i === index ? button.setAttribute("aria-current","true") : button.removeAttribute("aria-current"));
   const chip = buttons[index];
-  if (chip) chipRow.scrollTo({left:Math.max(0,chip.offsetLeft - (chipRow.clientWidth - chip.offsetWidth) / 2),behavior:scrollMode()});
+  // Scroll the chip row only when the active chip is out of view, so leading chips are never half cut off.
+  if (chip) {
+    const pad = 24, left = chip.offsetLeft, right = left + chip.offsetWidth, viewLeft = chipRow.scrollLeft, viewRight = viewLeft + chipRow.clientWidth;
+    const target = left - pad < viewLeft ? Math.max(0, left - pad) : right + pad > viewRight ? right + pad - chipRow.clientWidth : null;
+    if (target !== null) chipRow.scrollTo({left:target,behavior:scrollMode()});
+  }
 }
 function observeChips() {
   chipObserver?.disconnect();
@@ -482,7 +487,7 @@ function openProfile(leader, section) {
   const jump = (target, focusTarget) => {
     if (token !== profileToken || !target?.isConnected) return;
     target.scrollIntoView({block:"start",behavior:"instant"});
-    focusTarget?.focus({preventScroll:true});
+    focusTarget?.focus({preventScroll:true,focusVisible:false});
     activeChip = -1;
     updateActiveChip();
   };
@@ -506,7 +511,7 @@ function openProfile(leader, section) {
     profileGlobe = bindAmazonFootprint(footprint,section === "states" ? "states" : "markets");
     const showMap = () => {
       mapSection.scrollIntoView({block:"start",behavior:scrollMode()});
-      footprint.querySelector("[data-layer][aria-pressed='true']").focus({preventScroll:true});
+      footprint.querySelector("[data-layer][aria-pressed='true']").focus({preventScroll:true,focusVisible:false});
     };
     byId("show-amazon-map").addEventListener("click",showMap);
     if (section === "footprint" || section === "states") valueShown.then(() => jump(mapSection,footprint.querySelector("[data-layer][aria-pressed='true']")));
