@@ -440,7 +440,7 @@ function openProfile(leader, section) {
       <dl class="profile-stats profile-stats-workers" aria-label="Workers">${workerFigures.map(([key,label,value,note]) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong>${value}</strong><span>${note}</span></dd></div>`).join("")}</dl>
       <div class="profile-overview-more">
         <div class="profile-lenses-wrap">
-          <p class="profile-lenses">Value created is measured here as market value, which counts only what owners keep. The sections below show more of the value ${escapeHtml(leader.company)} created, each on its own. Only paid out combines figures, and only its own parts; it never adds pay to workers, market value or another lens. <a href="/methodology">Methodology</a></p>
+          <p class="profile-lenses">Value created is measured here as market value, which counts only what owners keep. Everything on this page is value created through the business; ${escapeHtml(leader.name)}’s philanthropy and work outside it aren’t counted. The sections below show more of the value ${escapeHtml(leader.company)} created, each on its own. Only paid out combines figures, and only its own parts; it never adds pay to workers, market value or another lens. <a href="/methodology">Methodology</a></p>
           ${isAmazon ? '<p class="amazon-profile-links"><button type="button" id="show-amazon-map">Explore where Amazon creates value</button></p>' : ""}
         </div>
       </div>
