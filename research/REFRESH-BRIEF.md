@@ -72,7 +72,7 @@ You are moving a set of companies in "Value for Humanity: The Business 100" from
 - **Taxes paid moved:** under the new income-tax disclosure rule (ASU 2023-09), many FY2025 10-Ks no longer print "cash paid for income taxes" in the supplemental cash-flow lines. It sits in a by-jurisdiction table in the income-tax note. Look there before setting null.
 - **Share count:** use the most recent of the 10-K cover page and the latest 10-Q cover page. For September year-ends, the 10-K cover is newer than the prefill's `quarterly`.
 - **Market cap:**
-  - Common equity only. Leave out preferred stock and nominal or special voting shares (e.g. Shopify's single Founder Share), and say so in `notes`.
+  - Equity that shares in profits like common stock. Leave out preferred stock with a fixed or limited claim (e.g. mandatory convertibles) and nominal or special voting shares (e.g. Shopify's single Founder Share). Include participating non-voting shares (Volkswagen and Porsche preference shares, Samsung preferred, Roche participation certificates). Say which in `notes`.
   - For a dual listing that isn't an ADR (e.g. `SHOP` vs `SHOP.TO`), pick one line and say which in `notes`.
   - Fill `pricedAsReason` whenever a class is priced through another class's symbol, even if `perListedUnit` is 1.
 - **Pay:**
