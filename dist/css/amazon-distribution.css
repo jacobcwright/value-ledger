@@ -1,5 +1,6 @@
-
-/* Amazon case study: "Who shares in the value?"
+/* Amazon case study: "Who shares in the value?", and the shared shell of every lens group in the profile
+   (company-value.css builds on it). A group is a heading, then one section per lens, each opened by a
+   hairline and a small label. No cards: type and rules carry the structure, surfaces mark the data.
    Ownership colors come from the shared --share-* palette in base.css: the founder is a recessive gray,
    named holders are violet, amber and pink, and everyone else is blue. */
 .distribution {
@@ -8,7 +9,6 @@
   --own-five-hundred:var(--share-2);
   --own-pension:var(--share-3);
   --own-other:var(--share-rest);
-  margin-bottom:var(--space-5);border:1px solid var(--line);border-radius:var(--radius);background:var(--card);scroll-margin-top:var(--space-1);overflow:hidden;box-shadow:var(--shadow-1)
 }
 .ownership-founder {--own:var(--own-founder)}
 .ownership-total-market {--own:var(--own-total-market)}
@@ -16,41 +16,36 @@
 .ownership-pension {--own:var(--own-pension)}
 .ownership-other {--own:var(--own-other)}
 
-/* Heading and tabs */
-.distribution-heading {padding:var(--space-5) var(--space-5) var(--space-4);background:var(--paper-2)}
-.distribution-heading .eyebrow {margin-bottom:6px}
-.distribution-heading h3 {font:400 clamp(31px,5.1vw,50px)/1 var(--serif);letter-spacing:-.05em;margin:0 0 8px}
+/* Group heading, then one section per lens */
+.distribution-heading {margin-bottom:var(--space-5)}
+.distribution-heading .eyebrow {margin-bottom:var(--space-2)}
+.distribution-heading h3 {font:400 var(--text-xl)/1.05 var(--serif);letter-spacing:var(--tracking-heading);margin:0 0 var(--space-2);text-wrap:balance}
 .distribution-heading p:last-child,.distribution-subhead p {margin:0;color:var(--muted)}
-.distribution-tabs {display:flex;gap:var(--space-1);background:var(--paper-2);padding:0 var(--space-4);border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
-.distribution-tabs::-webkit-scrollbar {display:none}
-.distribution-tabs button {flex:none;margin-bottom:-1px;border:0;border-bottom:3px solid transparent;border-radius:var(--radius-sm) var(--radius-sm) 0 0;color:var(--muted);background:none;font-size:14px;font-weight:700;padding:12px 12px 10px;line-height:1.2;text-align:left;transition:color 150ms var(--ease),border-color 150ms var(--ease),background-color 150ms var(--ease)}
-.distribution-tabs button:hover {color:var(--ink);background:#25201e0a}
-.distribution-tabs button[aria-selected="true"] {color:var(--ink);border-bottom-color:var(--ink);background:var(--card)}
-.distribution-tabs button:focus-visible,.distribution-panel:focus-visible {outline-offset:-4px}
-.distribution-panel {padding:var(--space-5)}
+.distribution-panel {padding-top:var(--space-6);border-top:1px solid var(--ink)}
+.distribution-panel + .distribution-panel {margin-top:var(--space-7);border-top-color:var(--line)}
 
 /* Panel subheads */
-.distribution-subhead {display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);margin-bottom:var(--space-4)}
-.distribution-subhead h4 {font:700 24px/1.15 var(--serif);letter-spacing:-.03em;margin:0 0 4px}
+.distribution-subhead {display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3) var(--space-5);margin-bottom:var(--space-5)}
+.distribution-subhead h4 {font:600 var(--text-lg)/1.15 var(--serif);letter-spacing:var(--tracking-heading);margin:0 0 var(--space-1);text-wrap:balance}
 .distribution-subhead p,.distribution-total span,.distribution-note {font-size:14px}
-.distribution-total {display:flex;flex-direction:column;gap:4px;text-align:right;flex:none}
-.distribution-total strong {font:700 31px/1 var(--serif);letter-spacing:-.045em;color:var(--ink);font-variant-numeric:tabular-nums}
+.distribution-total {display:flex;flex-direction:column;gap:var(--space-1);text-align:right;flex:none}
+.distribution-total strong {font:600 clamp(28px,1.3rem + 1vw,34px)/1 var(--serif);letter-spacing:-.02em;color:var(--ink);font-variant-numeric:var(--figures)}
 .distribution-total span {color:var(--muted)}
 
 /* Ownership: takeaway */
-.ownership-takeaway {margin-bottom:var(--space-4)}
-.ownership-headline {max-width:24em;margin:0 0 var(--space-2);font:400 clamp(24px,3.1vw,33px)/1.14 var(--serif);letter-spacing:-.035em;color:var(--ink)}
-.ownership-headline strong {color:var(--share-rest-ink);font-weight:700;white-space:nowrap}
+.ownership-takeaway {margin-bottom:var(--space-5)}
+.ownership-headline {max-width:24em;margin:0 0 var(--space-3);font:400 clamp(24px,1.2rem + 1.2vw,32px)/1.18 var(--serif);letter-spacing:-.015em;color:var(--ink);text-wrap:balance}
+.ownership-headline strong {color:var(--share-rest-ink);font-weight:650;white-space:nowrap;font-variant-numeric:var(--figures)}
 .ownership-headline strong.is-founder {color:var(--muted)}
 .ownership-headline span {display:block}
 .ownership-takeaway p:last-child {max-width:46em;margin:0;font-size:15px;color:var(--muted)}
-.ownership-takeaway p:last-child strong {color:var(--ink);font-variant-numeric:tabular-nums}
+.ownership-takeaway p:last-child strong {color:var(--ink);font-variant-numeric:var(--figures)}
 
 /* Ownership: bar, marker and founder/everyone-else scale */
-.ownership-figure {position:relative;padding-top:12px;margin-bottom:var(--space-5)}
+.ownership-figure {position:relative;padding-top:12px;margin-bottom:var(--space-6)}
 .ownership-marker {position:absolute;top:0;left:0;width:0;height:0;border:6px solid transparent;border-top:7px solid var(--ink);border-bottom:0;transform:translateX(-50%);transition:left 200ms var(--ease)}
-.ownership-bar {display:flex;gap:2px;height:32px;border-radius:var(--radius-sm);overflow:hidden}
-.ownership-bar span {flex-basis:0;min-width:3px;background:var(--own);cursor:pointer;transition:opacity 150ms var(--ease)}
+.ownership-bar {display:flex;gap:2px;height:36px;border-radius:var(--radius-sm);overflow:hidden}
+.ownership-bar span {flex-basis:0;min-width:3px;background:var(--own);cursor:pointer;transition:opacity var(--dur-2) var(--ease)}
 .ownership-figure.is-highlighting .ownership-bar span:not(.is-lit) {opacity:.35}
 .ownership-scale {display:flex;gap:2px;margin-top:var(--space-2);font-size:13px;line-height:1.2;font-weight:650}
 .ownership-scale > div {position:relative;flex-basis:0;min-width:3px;padding-top:7px;border-top:2px solid currentColor}
@@ -58,77 +53,81 @@
 .ownership-scale > div::before {left:0}
 .ownership-scale > div::after {right:0}
 .ownership-scale span {display:block;white-space:nowrap}
-.ownership-scale b {font-weight:800;font-variant-numeric:tabular-nums}
+.ownership-scale b {font-weight:800;font-variant-numeric:var(--figures)}
 .scale-founder {color:var(--muted)}
 .scale-others {color:var(--share-rest-ink);text-align:right}
 
 /* Ownership: holdings list and detail */
-.ownership-breakdown {display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:var(--space-4);align-items:start}
+.ownership-breakdown {display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:var(--space-5);align-items:start}
 .ownership-choices {display:grid;align-content:start;gap:2px}
 .ownership-group {display:flex;justify-content:space-between;align-items:baseline;gap:var(--space-2);margin:0;padding:0 10px 4px;font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .ownership-group-others {margin-top:var(--space-3);padding-top:var(--space-3);border-top:1px solid var(--line);color:var(--share-rest-ink)}
-.ownership-group span + span {letter-spacing:0;text-transform:none;font-variant-numeric:tabular-nums}
-.ownership-choices button {display:grid;align-items:center;grid-template-columns:10px minmax(0,1fr) auto;gap:10px;width:100%;padding:8px 10px;text-align:left;border:1px solid transparent;border-radius:var(--radius-sm);background:none;color:var(--ink);transition:background-color 150ms var(--ease),border-color 150ms var(--ease)}
+.ownership-group span + span {letter-spacing:0;text-transform:none;font-variant-numeric:var(--figures)}
+.ownership-choices button {display:grid;align-items:center;grid-template-columns:10px minmax(0,1fr) auto;gap:10px;width:100%;min-height:52px;padding:8px 10px;text-align:left;border:1px solid transparent;border-radius:var(--radius-sm);background:none;color:var(--ink);transition:background-color var(--dur-2) var(--ease),border-color var(--dur-2) var(--ease)}
 .ownership-choices button:hover,.ownership-choices button.is-lit {background:var(--paper-2)}
 .ownership-choices button[aria-pressed="true"] {background:var(--paper-2);border-color:var(--line)}
 .ownership-choices button:focus-visible {outline-offset:1px}
 .ownership-key {width:10px;height:10px;border-radius:2px;background:var(--own)}
 .holding-name,.holding-amount {display:flex;flex-direction:column;font-size:14px;line-height:1.25}
-.holding-amount {text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.holding-name strong {font-weight:650}
+.holding-amount {text-align:right;white-space:nowrap;font-variant-numeric:var(--figures)}
 .holding-name small,.holding-amount small {font-size:12px;color:var(--muted);margin-top:2px}
-.ownership-detail {background:var(--paper-2);border:1px solid var(--line);padding:var(--space-4);border-radius:var(--radius)}
+.ownership-detail {background:var(--card);border:1px solid var(--line);padding:var(--space-4) var(--space-5);border-radius:var(--radius)}
 .ownership-detail > div {padding-left:var(--space-3);border-left:3px solid var(--own)}
 .ownership-detail-type {margin:0 0 4px!important;font-size:12px!important;font-weight:750;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-.ownership-detail h5,.distribution-timeline h5,.distribution-mini-heading {margin:0 0 7px;font:700 18px/1.15 var(--serif)}
+.ownership-detail h5,.distribution-timeline h5,.distribution-mini-heading {margin:0 0 7px;font:600 18px/1.2 var(--serif);letter-spacing:-.005em}
 .ownership-detail h5 {font-size:20px;margin-bottom:var(--space-2)}
 .ownership-detail-figures {display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:0 0 2px!important}
-.ownership-detail-figures strong {font:700 28px/1 var(--serif);letter-spacing:-.04em;color:var(--ink);font-variant-numeric:tabular-nums}
-.ownership-founder .ownership-detail-figures strong {color:var(--ink)}
+.ownership-detail-figures strong {font:600 28px/1 var(--serif);letter-spacing:-.02em;color:var(--ink);font-variant-numeric:var(--figures)}
 .ownership-detail-figures span {font-size:14px;color:var(--ink)}
-.ownership-detail .ownership-share-count {margin:0 0 var(--space-3);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ownership-detail .ownership-share-count {margin:0 0 var(--space-3);font-size:13px;color:var(--muted);font-variant-numeric:var(--figures)}
 .ownership-detail p {margin:6px 0 10px;font-size:14px;color:var(--muted)}
 
 /* Notes, links and method */
-.distribution-note {margin:var(--space-4) 0 var(--space-3);color:var(--muted)}
+.distribution-note {max-width:60em;margin:var(--space-4) 0 var(--space-3);color:var(--muted)}
 .distribution-panel a {color:var(--red-dark);font-size:14px;text-underline-offset:3px}
 .distribution-panel a:hover {color:var(--red)}
-.distribution-method {border-top:1px solid var(--line);padding-top:var(--space-3)}
-.distribution-method summary {display:inline-flex;align-items:center;gap:var(--space-2);cursor:pointer;color:var(--red-dark);font-size:14px;font-weight:700;list-style:none;border-radius:var(--radius-sm)}
+.distribution-panel .sources a {padding-block:6px}
+.distribution-method {margin-top:var(--space-4);border-top:1px solid var(--line)}
+.distribution-method summary {display:flex;align-items:center;gap:var(--space-2);min-height:var(--tap);cursor:pointer;color:var(--red-dark);font-size:14px;font-weight:700;list-style:none;border-radius:var(--radius-sm)}
 .distribution-method summary::-webkit-details-marker {display:none}
-.distribution-method summary::before {content:"";width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg);transition:transform 150ms var(--ease)}
+.distribution-method summary::before {content:"";width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg);transition:transform var(--dur-2) var(--ease)}
 .distribution-method[open] summary::before {transform:rotate(45deg) translate(-2px,-1px)}
 .distribution-method summary:hover {color:var(--red)}
 .distribution-method p {margin:var(--space-2) 0;font-size:14px;color:var(--muted);max-width:60em}
 
 /* Cash to shareholders */
-.distribution-lede {max-width:32em;margin:0 0 var(--space-4);font:400 20px/1.3 var(--serif);letter-spacing:-.02em;color:var(--ink)}
-.distribution-table {display:table;width:100%;border:1px solid var(--line);border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums;text-align:left;background:var(--card)}
+.distribution-lede {max-width:32em;margin:0 0 var(--space-4);font:400 20px/1.35 var(--serif);letter-spacing:-.01em;color:var(--ink)}
+.distribution-table {display:table;width:100%;border:0;border-collapse:collapse;font-size:14px;font-variant-numeric:var(--figures);text-align:left;background:none}
 .distribution-table thead {display:table-header-group;position:static;width:auto;height:auto;overflow:visible;clip-path:none}
 .distribution-table tbody {display:table-row-group}
 .distribution-table tfoot {display:table-footer-group}
 .distribution-table tr,.distribution-table tbody tr {display:table-row;padding:0;border:0;border-top:1px solid var(--line);background:none;cursor:default}
 .distribution-table tbody tr:hover {background:none}
-.distribution-table tbody th,.distribution-table tbody td,.distribution-table th,.distribution-table td {display:table-cell;width:auto;padding:10px 14px;text-align:left;background:none;font-size:14px;color:var(--ink)}
-.distribution-table thead th {background:var(--paper-2);color:var(--muted);font-size:12px;font-weight:750;letter-spacing:.06em;text-transform:uppercase}
+.distribution-table tbody th,.distribution-table tbody td,.distribution-table th,.distribution-table td {display:table-cell;width:auto;padding:12px 14px;text-align:left;background:none;font-size:15px;color:var(--ink)}
+.distribution-table :is(th,td):first-child {padding-left:0}
+.distribution-table :is(th,td):last-child {padding-right:0}
+.distribution-table thead th {color:var(--muted);font-size:12px;font-weight:750;letter-spacing:.06em;text-transform:uppercase;border-bottom:1px solid var(--ink)}
+.distribution-table :is(tbody,tfoot) td {font-family:var(--serif);font-size:17px;font-variant-numeric:var(--figures)}
 .distribution-table :is(th,td):not(:first-child) {text-align:right}
 .distribution-table tbody th {font-weight:700}
 .distribution-table td.is-zero {color:var(--muted)}
 .distribution-table tfoot tr {border-top:2px solid var(--ink)}
-.distribution-table tfoot th,.distribution-table tfoot td {font-weight:750}
+.distribution-table tfoot th,.distribution-table tfoot td {font-weight:700}
 
 /* How workers shared */
 .worker-totals {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-2)}
-.worker-totals > div {display:flex;flex-direction:column;gap:6px;background:var(--share-rest-soft);padding:14px;border-radius:var(--radius)}
-.worker-totals strong {font:700 31px/1 var(--serif);letter-spacing:-.045em;color:var(--ink);font-variant-numeric:tabular-nums}
-.worker-totals span {font-size:13px;line-height:1.3;color:var(--ink)}
-.worker-equity-head {display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:4px var(--space-3);margin-top:var(--space-5);padding-bottom:var(--space-2);border-bottom:1px solid var(--line)}
+.worker-totals > div {display:flex;flex-direction:column;gap:6px;background:var(--share-rest-soft);padding:var(--space-4);border-radius:var(--radius)}
+.worker-totals strong {font:600 clamp(26px,1.2rem + 1vw,32px)/1 var(--serif);letter-spacing:-.02em;color:var(--ink);font-variant-numeric:var(--figures)}
+.worker-totals span {font-size:13px;line-height:1.35;color:var(--ink)}
+.worker-equity-head {display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:4px var(--space-3);margin-top:var(--space-6);padding-bottom:var(--space-2);border-bottom:1px solid var(--line)}
 .worker-equity-head .distribution-mini-heading {margin:0}
-.worker-equity-head p {margin:0;font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+.worker-equity-head p {margin:0;font-size:14px;color:var(--muted);font-variant-numeric:var(--figures)}
 .worker-equity {margin:var(--space-2) 0 0;padding:0;list-style:none}
-.worker-equity li {display:grid;grid-template-columns:44px minmax(0,1fr) 64px;align-items:center;gap:var(--space-3);font-size:14px;padding:5px 0;font-variant-numeric:tabular-nums}
+.worker-equity li {display:grid;grid-template-columns:44px minmax(0,1fr) 72px;align-items:center;gap:var(--space-3);min-height:var(--tap);font-size:14px;font-variant-numeric:var(--figures)}
 .worker-year {color:var(--muted);font-weight:650}
-.worker-equity li > strong {text-align:right}
-.worker-track {background:var(--paper-2);height:12px;border-radius:var(--radius-sm);overflow:hidden}
+.worker-equity li > strong {text-align:right;font:600 17px/1 var(--serif);font-variant-numeric:var(--figures)}
+.worker-track {background:var(--paper-2);height:14px;border-radius:var(--radius-sm);overflow:hidden}
 .worker-track span {height:100%;display:block;background:var(--share-rest);border-radius:var(--radius-sm)}
 
 /* Employee equity timeline */
@@ -136,33 +135,31 @@
 .distribution-timeline {list-style:none;margin:0;padding:0}
 .distribution-timeline li {display:grid;grid-template-columns:76px minmax(0,1fr);gap:var(--space-3)}
 .distribution-timeline li > div {position:relative;padding:14px 0 14px var(--space-5);border-left:2px solid var(--share-rest-soft)}
-.distribution-timeline li > div::before {content:"";position:absolute;left:-7px;top:19px;width:12px;height:12px;border-radius:50%;background:var(--share-rest);box-shadow:0 0 0 3px var(--card)}
-.distribution-timeline time {padding-top:16px;font-size:13px;font-weight:750;color:var(--share-rest-ink);font-variant-numeric:tabular-nums}
+.distribution-timeline li > div::before {content:"";position:absolute;left:-7px;top:19px;width:12px;height:12px;border-radius:50%;background:var(--share-rest);box-shadow:0 0 0 3px var(--paper)}
+.distribution-timeline time {padding-top:16px;font-size:13px;font-weight:750;color:var(--share-rest-ink);font-variant-numeric:var(--figures)}
 .distribution-timeline p {margin:0 0 6px;color:var(--muted);font-size:14px}
 
 @media (max-width:760px) {
-  .distribution-heading {padding:var(--space-4) var(--space-4) var(--space-3)}
-  .distribution-tabs {padding:0 var(--space-2)}
-  .distribution-tabs button {padding:10px 9px 8px;font-size:13px}
-  .distribution-panel {padding:var(--space-4)}
+  .distribution-panel {padding-top:var(--space-5)}
+  .distribution-panel + .distribution-panel {margin-top:var(--space-7)}
   .distribution-subhead {flex-wrap:wrap}
   .distribution-total {text-align:left}
   .ownership-breakdown {grid-template-columns:1fr;gap:var(--space-3)}
-  .worker-totals strong {font-size:24px}
+  .ownership-detail {padding:var(--space-4)}
 }
 @media (max-width:560px) {
-  .distribution-panel {padding:var(--space-4) var(--space-3)}
-  .distribution-tabs {gap:2px;padding:0 var(--space-1)}
-  .distribution-tabs button {flex:1 1 0;min-width:0;padding:10px 6px 8px;text-align:center}
-  .ownership-bar {height:28px}
+  .ownership-bar {height:32px}
   .worker-totals {grid-template-columns:1fr}
-  .worker-totals > div {flex-direction:row;align-items:baseline;justify-content:space-between;gap:var(--space-3);padding:12px}
+  .worker-totals > div {flex-direction:row;align-items:baseline;justify-content:space-between;gap:var(--space-3);padding:var(--space-3) var(--space-4)}
   .worker-totals span {text-align:right}
   .distribution-timeline li {grid-template-columns:1fr;gap:0}
   .distribution-timeline time {padding:14px 0 0 var(--space-5);border-left:2px solid var(--share-rest-soft)}
   .distribution-timeline li > div {padding-top:4px}
   .distribution-timeline li > div::before {top:-14px}
-  .distribution-table th,.distribution-table td,.distribution-table tbody th,.distribution-table tbody td {padding:9px 10px}
+  .distribution-table th,.distribution-table td,.distribution-table tbody th,.distribution-table tbody td {padding:10px 8px}
+}
+@media (pointer:coarse) {
+  .distribution-panel .sources a,.distribution-panel > .distribution-note a,.distribution-timeline a {padding-block:14px}
 }
 @media (prefers-reduced-motion:reduce) {
   .distribution *,.distribution *::before {transition:none!important}

@@ -168,7 +168,11 @@ function toggleRow(row) {
   const current = openId && rows.querySelector(`tr.entry[data-id="${openId}"]`);
   if (current) setOpen(current,false);
   openId = current === row ? null : row.dataset.id;
-  if (openId) setOpen(row,true);
+  if (openId) {
+    setOpen(row,true);
+    // The panel's "View profile" is likely next: fetch the profile-only scripts now.
+    loadProfileScripts().catch(() => {});
+  }
 }
 query.addEventListener("input",render);
 window.addEventListener("resize",fitPanel);
@@ -208,25 +212,34 @@ paidOutReady.then(() => {
 });
 
 const dialog = byId("profile");
-let profileGlobe, previousHash = "#ranking";
-// Previous/next leader links live in the sticky bar. They are created once and updated in place,
-// so keyboard focus survives paging. Paging replaces the hash so Back and Close still leave the profile.
-const profileNav = document.createElement("nav");
-profileNav.className = "profile-nav";
-profileNav.setAttribute("aria-label","Browse the ranking");
-profileNav.innerHTML = ["prev","next"].map(step => `<a class="profile-step" data-step="${step}" href="#ranking">${step === "prev" ? '<span class="step-arrow" aria-hidden="true">←</span>' : ""}<span class="step-text"><small></small><span class="step-name"></span></span>${step === "next" ? '<span class="step-arrow" aria-hidden="true">→</span>' : ""}</a>`).join("");
-dialog.querySelector(".profile-top").insertBefore(profileNav,byId("close"));
+let profileGlobe, previousHash = "#ranking", profileToken = 0;
+const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");
+const scrollMode = () => reducedMotion.matches ? "auto" : "smooth";
+
+// Previous/next leader links: one copy in the sticky bar (wide screens) and one at the foot of the profile
+// (every width, and the only one on phones). Both are created once and updated in place, so keyboard focus
+// survives paging. Paging replaces the hash so Back and Close still leave the profile.
+function makeProfileNav(place) {
+  const nav = document.createElement("nav");
+  nav.className = "profile-nav profile-nav-" + place;
+  nav.setAttribute("aria-label",place === "top" ? "Browse the ranking" : "Browse the ranking from the end of this profile");
+  nav.innerHTML = ["prev","next"].map(step => `<a class="profile-step" data-step="${step}" href="#ranking">${step === "prev" ? '<span class="step-arrow" aria-hidden="true">←</span>' : ""}<span class="step-text"><small></small><span class="step-name"></span></span>${step === "next" ? '<span class="step-arrow" aria-hidden="true">→</span>' : ""}</a>`).join("");
+  nav.addEventListener("click",event => {
+    const link = event.target.closest("a.profile-step");
+    if (!link || event.button || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    location.replace(link.getAttribute("href"));
+  });
+  return nav;
+}
+const profileNavs = [makeProfileNav("top"),makeProfileNav("foot")];
+dialog.querySelector(".profile-top").insertBefore(profileNavs[0],byId("close"));
+byId("profile-foot").append(profileNavs[1]);
 byId("close").autofocus = true;
-profileNav.addEventListener("click",event => {
-  const link = event.target.closest("a.profile-step");
-  if (!link || event.button || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-  event.preventDefault();
-  location.replace(link.getAttribute("href"));
-});
 function updateProfileNav(leader) {
   const rank = sortedByCap.indexOf(leader);
-  const focused = profileNav.contains(document.activeElement) ? document.activeElement : null;
-  for (const link of profileNav.querySelectorAll(".profile-step")) {
+  const focused = profileNavs.find(nav => nav.contains(document.activeElement)) ? document.activeElement : null;
+  for (const link of dialog.querySelectorAll(".profile-step")) {
     const isPrev = link.dataset.step === "prev";
     const target = sortedByCap[rank + (isPrev ? -1 : 1)];
     link.hidden = !target;
@@ -236,10 +249,87 @@ function updateProfileNav(leader) {
     link.querySelector(".step-name").textContent = target.name;
     link.setAttribute("aria-label",(isPrev ? "Previous leader: " : "Next leader: ") + "No. " + (sortedByCap.indexOf(target) + 1) + ", " + target.name);
   }
-  if (focused?.hidden) (profileNav.querySelector(".profile-step:not([hidden])") || byId("close")).focus();
+  if (focused?.hidden) (focused.closest("nav").querySelector(".profile-step:not([hidden])") || byId("close")).focus();
+  // The bar's identity (shown on phones): thumbnail, name and rank.
+  const thumb = byId("profile-id-thumb");
+  if (thumb.getAttribute("src") !== leader.image) thumb.src = leader.image;
+  byId("profile-id-name").textContent = leader.name;
+  byId("profile-id-rank").textContent = "No. " + (rank + 1);
 }
+
+// Section chips: one sticky, horizontally scrolling row of every section the profile shows, in page order.
+// Sections declare themselves with data-chip. The first lens of a group scrolls to the group's heading.
+// Chips are buttons, never links: a hash change would re-route the profile.
+const chipRow = byId("profile-chips");
+let chips = [], chipObserver = null, footObserver = null, chipLock = 0, activeChip = -1;
+function chipTarget(section) {
+  const group = section.closest(".distribution");
+  return group && group.querySelector("[data-chip]") === section ? group : section;
+}
+function chipLine() {
+  return dialog.getBoundingClientRect().top + (parseFloat(getComputedStyle(dialog).scrollPaddingTop) || 0) + 24;
+}
+function updateActiveChip() {
+  if (!chips.length || Date.now() < chipLock) return;
+  const line = chipLine();
+  let index = 0;
+  chips.forEach((chip,i) => { if (chip.target.getBoundingClientRect().top <= line) index = i; });
+  if (dialog.scrollTop > 0 && dialog.scrollTop + dialog.clientHeight >= dialog.scrollHeight - 4) index = chips.length - 1;
+  setActiveChip(index);
+}
+function setActiveChip(index) {
+  if (index === activeChip) return;
+  activeChip = index;
+  const buttons = [...chipRow.children];
+  buttons.forEach((button,i) => i === index ? button.setAttribute("aria-current","true") : button.removeAttribute("aria-current"));
+  const chip = buttons[index];
+  if (chip) chipRow.scrollTo({left:Math.max(0,chip.offsetLeft - (chipRow.clientWidth - chip.offsetWidth) / 2),behavior:scrollMode()});
+}
+function observeChips() {
+  chipObserver?.disconnect();
+  footObserver?.disconnect();
+  if (!dialog.open || !chips.length) return;
+  // A one-pixel band just under the sticky bar and chips: a callback fires whenever a section edge crosses it.
+  const line = Math.round(chipLine() - dialog.getBoundingClientRect().top);
+  const below = Math.max(0,dialog.clientHeight - line - 1);
+  chipObserver = new IntersectionObserver(updateActiveChip,{root:dialog,rootMargin:`-${line}px 0px -${below}px 0px`});
+  chips.forEach(chip => chipObserver.observe(chip.target));
+  // A short last section never reaches the band, so reaching the foot selects it.
+  footObserver = new IntersectionObserver(updateActiveChip,{root:dialog,threshold:[0,1]});
+  footObserver.observe(byId("profile-foot"));
+}
+// The heading that takes focus when a section is reached from a chip or a deep link.
+function sectionHeading(section) {
+  const heading = section?.querySelector("h2,h3,h4");
+  if (heading && !heading.hasAttribute("tabindex")) heading.tabIndex = -1;
+  return heading;
+}
+function buildChips() {
+  const sections = [...byId("profile-body").querySelectorAll("[data-chip]")];
+  chips = sections.map(section => ({label:section.dataset.chip,target:chipTarget(section)}));
+  chipRow.innerHTML = chips.map((chip,i) => `<button type="button" class="profile-chip" data-chip-index="${i}">${escapeHtml(chip.label)}</button>`).join("");
+  activeChip = -1;
+  observeChips();
+  updateActiveChip();
+}
+chipRow.addEventListener("click",event => {
+  const button = event.target.closest(".profile-chip");
+  if (!button) return;
+  const index = Number(button.dataset.chipIndex);
+  const target = chips[index]?.target;
+  if (!target) return;
+  setActiveChip(index);
+  // Hold the chosen chip while the smooth scroll passes the sections in between.
+  chipLock = Date.now() + 1000;
+  target.scrollIntoView({block:"start",behavior:scrollMode()});
+  if (event.detail === 0) sectionHeading(target)?.focus({preventScroll:true});
+});
+dialog.addEventListener("scrollend",() => { chipLock = 0; updateActiveChip(); });
+window.addEventListener("resize",() => { if (dialog.open) observeChips(); });
+
 function openProfile(leader, section) {
   profileGlobe?.destroy();
+  const token = ++profileToken;
   const isAmazon = leader.id === "jeff-bezos";
   const rank = sortedByCap.indexOf(leader) + 1;
   const figures = [
@@ -251,13 +341,27 @@ function openProfile(leader, section) {
   updateProfileNav(leader);
   dialog.dataset.leader = leader.id;
   byId("profile-body").innerHTML = `
-    <header class="profile-title">${portrait(leader,true)}<div class="profile-heading"><p class="eyebrow">NO. ${rank} BY VALUE CREATED <span aria-hidden="true">·</span> ${escapeHtml(leader.sector.toUpperCase())}</p><h2 id="profile-title">${escapeHtml(leader.name)}</h2><p class="profile-role">${escapeHtml(leader.role)} · <strong>${escapeHtml(leader.company)}</strong> <span class="profile-ticker">${escapeHtml(leader.ticker)}</span></p></div></header>
-    <dl class="profile-stats">${figures.map(([key,label,value,note]) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong>${value}</strong><span>${note}</span></dd></div>`).join("")}</dl>
-    <p class="profile-lenses">Value created is measured here as market value, which counts only what owners keep. The sections below show more of the value ${escapeHtml(leader.company)} created, each on its own. Only paid out combines figures, and only its own parts; it never adds estimated pay, market value or another lens. <a href="/methodology">Methodology</a></p>
+    <div class="profile-section profile-overview" id="profile-overview" data-chip="Overview">
+      <header class="profile-title">${portrait(leader,true)}<div class="profile-heading"><p class="eyebrow">NO. ${rank} BY VALUE CREATED <span aria-hidden="true">·</span> ${escapeHtml(leader.sector.toUpperCase())}</p><h2 id="profile-title">${escapeHtml(leader.name)}</h2><p class="profile-role">${escapeHtml(leader.role)} · <strong>${escapeHtml(leader.company)}</strong> <span class="profile-ticker">${escapeHtml(leader.ticker)}</span></p></div></header>
+      <dl class="profile-stats">${figures.map(([key,label,value,note]) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong>${value}</strong><span>${note}</span></dd></div>`).join("")}</dl>
+      <div class="profile-overview-more">
+        <div class="profile-lenses-wrap">
+          <p class="profile-lenses">Value created is measured here as market value, which counts only what owners keep. The sections below show more of the value ${escapeHtml(leader.company)} created, each on its own. Only paid out combines figures, and only its own parts; it never adds estimated pay, market value or another lens. <a href="/methodology">Methodology</a></p>
+          ${isAmazon ? '<p class="amazon-profile-links"><button type="button" id="show-amazon-map">Explore where Amazon creates value</button></p>' : ""}
+        </div>
+        <section class="profile-scenario" aria-labelledby="scenario-title"><h3 id="scenario-title">What workers could earn together</h3>
+          <div class="scenario"><span>${metrics.payroll}</span><strong id="scenario-total" aria-live="polite">${compactMoney(leader.payroll)}</strong></div>
+          <label for="wage">Assumed yearly pay per person <output id="wage-label" for="wage">${dollars.format(leader.wage)}</output></label>
+          <input id="wage" type="range" min="75" max="125" step="1" value="100" style="--fill:50%" aria-valuetext="${dollars.format(leader.wage)}">
+          <div class="range-scale" aria-hidden="true"><span>−25%</span><span>Our estimate</span><span>+25%</span></div>
+          <button class="scenario-reset" id="wage-reset" type="button" hidden>Reset to our estimate</button>
+        </section>
+      </div>
+    </div>
     ${!isAmazon && typeof companyValueSlot === "function" ? companyValueSlot(leader) : ""}
-    ${isAmazon ? '<p class="amazon-profile-links"><button type="button" id="show-amazon-map">Explore where Amazon creates value</button></p>' : ""}
     ${isAmazon ? amazonDistribution(leader) : ""}
     ${isAmazon && typeof companyValueSlot === "function" ? companyValueSlot(leader) : ""}
+    <div class="profile-section profile-map" id="profile-map" data-chip="Where it creates value">
     ${isAmazon ? amazonFootprint() : `<section class="footprint" aria-labelledby="footprint-title">
       <div class="map-pane">
         <div class="map-heading"><p class="map-kicker">${escapeHtml(leader.company.toUpperCase())}</p><h3 id="footprint-title">Operating footprint</h3></div>
@@ -269,21 +373,16 @@ function openProfile(leader, section) {
         <div id="place-list">${leader.sites.map(([city,,,description],index) => `<button type="button" data-place="${index}" aria-pressed="${index === 0}"><i></i><span><strong>${escapeHtml(city)}</strong><small>${escapeHtml(description)}</small></span></button>`).join("")}</div>
       </div>
     </section>`}
-    <div class="profile-bottom">
-      <section class="profile-scenario" aria-labelledby="scenario-title"><h3 id="scenario-title">What workers could earn together</h3>
-        <div class="scenario"><span>${metrics.payroll}</span><strong id="scenario-total" aria-live="polite">${compactMoney(leader.payroll)}</strong></div>
-        <label for="wage">Assumed yearly pay per person <output id="wage-label" for="wage">${dollars.format(leader.wage)}</output></label>
-        <input id="wage" type="range" min="75" max="125" step="1" value="100" style="--fill:50%" aria-valuetext="${dollars.format(leader.wage)}">
-        <div class="range-scale" aria-hidden="true"><span>−25%</span><span>Our estimate</span><span>+25%</span></div>
-        <button class="scenario-reset" id="wage-reset" type="button" hidden>Reset to our estimate</button>
-      </section>
-      <section class="profile-sources" aria-labelledby="sources-title"><h3 id="sources-title">Sources</h3>
-        <div class="sources">${externalLink(leader.jobsUrl,"Employment source")}${externalLink(leader.capUrl,"Value created source")}${externalLink(leader.bio,"Biography")}</div>
-        <p class="photo-credit">Photo (cropped): ${externalLink(leader.photo,leader.artist)} · ${externalLink(leader.licenseUrl,leader.license)}</p>
-      </section>
-    </div>`;
+    </div>
+    <section class="profile-section profile-sources" id="profile-sources" data-chip="Sources" aria-labelledby="sources-title">
+      <h3 id="sources-title">Sources</h3>
+      <div class="sources">${externalLink(leader.jobsUrl,"Employment source")}${externalLink(leader.capUrl,"Value created source")}${externalLink(leader.bio,"Biography")}</div>
+      <p class="photo-credit">Photo (cropped): ${externalLink(leader.photo,leader.artist)} · ${externalLink(leader.licenseUrl,leader.license)}</p>
+      <div id="profile-provenance" class="profile-provenance"></div>
+    </section>`;
   if (!dialog.open) dialog.showModal();
-  dialog.scrollTop = 0;
+  dialog.scrollTo({top:0,behavior:"instant"});
+  buildChips();
   paidOutReady.then(() => {
     const value = byId("stat-paidout"), note = byId("stat-paidout-note");
     if (!value || dialog.dataset.leader !== leader.id) return;
@@ -296,27 +395,39 @@ function openProfile(leader, section) {
       : !figure.comparable ? "A bank’s or broker’s cash flows are mostly customers’ deposits and loans"
       : [figure.fiscalYear,figure.adjusted ? "adjusted for customer lending" : "",figure.sales ? `incl. ${compactMoney(figure.sales)} sales enabled` : ""].filter(Boolean).join(" · ");
   });
+
+  // Deep links scroll once the sections above their target have loaded, so the target doesn't move after.
+  const jump = (target, focusTarget) => {
+    if (token !== profileToken || !target?.isConnected) return;
+    target.scrollIntoView({block:"start",behavior:"instant"});
+    focusTarget?.focus({preventScroll:true});
+    activeChip = -1;
+    updateActiveChip();
+  };
+  const mapSection = byId("profile-map");
   const distribution = byId("amazon-distribution");
   if (distribution) bindAmazonDistribution(distribution);
-  if (section === "distribution" && distribution) {
-    distribution.scrollIntoView({block:"start"});
-    byId("distribution-tab-ownership").focus({preventScroll:true});
-  }
+  if (section === "distribution" && distribution) jump(distribution,sectionHeading(distribution));
   const valueSlot = byId("company-value");
-  if (valueSlot) bindCompanyValue(valueSlot,leader).then(shown => {
-    if (!shown || section !== "value") return;
-    valueSlot.scrollIntoView({block:"start"});
-    valueSlot.querySelector('[role="tab"][aria-selected="true"], .cv-provenance > summary')?.focus({preventScroll:true});
+  const valueShown = valueSlot ? bindCompanyValue(valueSlot,leader,byId("profile-provenance")).then(shown => {
+    if (token === profileToken) buildChips();
+    return shown;
+  }) : Promise.resolve(false);
+  valueShown.then(shown => {
+    if (section !== "value" || !shown) return;
+    const provenance = byId("profile-provenance").querySelector(".cv-provenance");
+    if (shown === true) jump(valueSlot,sectionHeading(valueSlot));
+    else jump(provenance,provenance?.querySelector("summary"));
   });
   if (isAmazon) {
     const footprint = byId("amazon-footprint");
     profileGlobe = bindAmazonFootprint(footprint,section === "states" ? "states" : "markets");
     const showMap = () => {
-      footprint.scrollIntoView({block:"start"});
+      mapSection.scrollIntoView({block:"start",behavior:scrollMode()});
       footprint.querySelector("[data-layer][aria-pressed='true']").focus({preventScroll:true});
     };
     byId("show-amazon-map").addEventListener("click",showMap);
-    if (section === "footprint" || section === "states") showMap();
+    if (section === "footprint" || section === "states") valueShown.then(() => jump(mapSection,footprint.querySelector("[data-layer][aria-pressed='true']")));
   } else {
     function select(index) {
       byId("place-list").querySelectorAll("button").forEach((button,i) => button.setAttribute("aria-pressed",String(i === index)));
@@ -331,7 +442,7 @@ function openProfile(leader, section) {
     byId("zoom-out").addEventListener("click",() => profileGlobe.magnify(-.12));
     // When the company file (already loaded for the lenses above) has footprint rows, company-footprint.js
     // replaces this section with "Where {Company} creates value"; otherwise the simple globe stays.
-    const simple = byId("profile-body").querySelector("section.footprint");
+    const simple = mapSection.querySelector("section.footprint");
     const deepLink = section === "footprint" || section === "states";
     const footprint = typeof bindCompanyFootprint === "function" ? bindCompanyFootprint(simple,leader,section).catch(error => { console.error(error); return null; }) : Promise.resolve(null);
     footprint.then(panel => {
@@ -339,11 +450,8 @@ function openProfile(leader, section) {
         profileGlobe?.destroy();
         profileGlobe = panel.controller;
       }
-      const target = panel ? panel.root : simple;
-      if (!deepLink || !target.isConnected) return;
-      target.scrollIntoView({block:"start"});
-      (panel ? panel.focusTarget() : byId("profile-globe"))?.focus({preventScroll:true});
     });
+    if (deepLink) Promise.all([valueShown,footprint]).then(([,panel]) => jump(mapSection,panel ? panel.focusTarget() : byId("profile-globe")));
   }
   const wageInput = byId("wage"), wageReset = byId("wage-reset");
   function updateWage() {
@@ -363,14 +471,33 @@ function openProfile(leader, section) {
     wageInput.focus();
   });
 }
+
+// company-value.js and amazon-distribution.js are needed only inside a profile, so they load on the first
+// open, not with the page. One shared promise; a failed load is retried on the next open.
+let profileScripts = null;
+function loadProfileScripts() {
+  profileScripts ??= Promise.all(["amazon-distribution.js","company-value.js"].map(src => new Promise((resolve,reject) => {
+    const script = document.createElement("script");
+    script.src = src;
+    script.async = false;
+    script.onload = resolve;
+    script.onerror = () => { script.remove(); reject(new Error("Could not load " + src)); };
+    document.head.append(script);
+  }))).catch(error => { profileScripts = null; throw error; });
+  return profileScripts;
+}
 let lastHash = location.hash;
 function route() {
   const [,id,section] = location.hash.match(/^#leader\/([^/]+)(?:\/(distribution|footprint|states|value))?$/) || [];
   const leader = leaders.find(item => item.id === id);
   if (leader) {
     if (lastHash && !lastHash.startsWith("#leader/")) previousHash = lastHash;
-    openProfile(leader,section);
-  } else if (dialog.open) dialog.close();
+    lastHash = location.hash;
+    const hash = location.hash;
+    loadProfileScripts().then(() => { if (location.hash === hash) openProfile(leader,section); },console.error);
+    return;
+  }
+  if (dialog.open) dialog.close();
   lastHash = location.hash;
 }
 byId("close").addEventListener("click",() => dialog.close());
@@ -382,11 +509,14 @@ dialog.addEventListener("click",event => {
 dialog.addEventListener("close",() => {
   profileGlobe?.destroy();
   profileGlobe = null;
+  chipObserver?.disconnect();
+  footObserver?.disconnect();
+  profileToken++;
   if (location.hash.startsWith("#leader/")) {
     history.replaceState(null,"",previousHash);
     lastHash = location.hash;
   }
 });
 window.addEventListener("hashchange",route);
-// The first route runs once every deferred script has run, including company-value.js (loaded after this file).
+// The first route runs once every deferred script has run.
 document.addEventListener("DOMContentLoaded",route);
