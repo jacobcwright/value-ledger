@@ -33,7 +33,7 @@ button {cursor:pointer}
 .logo {display:inline-grid;place-items:center;width:34px;height:34px;background:var(--red);color:#fff8ef;font:700 17px/1 var(--serif);letter-spacing:-.09em;padding-right:2px}
 nav {display:flex;gap:27px;font-size:14px;font-weight:650}
 nav a {text-decoration:none}
-nav a:hover {color:var(--red);text-decoration:underline;text-underline-offset:5px}
+.top nav a:hover {color:var(--red);text-decoration:underline;text-underline-offset:5px}
 .eyebrow {margin:0 0 12px;font-size:13px;font-weight:750;letter-spacing:.15em;color:var(--red);line-height:1.35}
 h2,h3,p {margin-top:0}
 h2 {font-family:var(--serif);font-weight:400;letter-spacing:-.065em}
