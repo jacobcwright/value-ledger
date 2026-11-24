@@ -5,23 +5,23 @@
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Worldwide employment by segment from the 10-K table, filed in thousands (total 162 thousand; GM Financial 9 thousand is not geographic and is not shown). GMNA includes Cruise. Values are the filed thousands times 1,000."
+      "definition": "Worldwide employment by segment from the FY2025 10-K table, filed in thousands (total 155 thousand; GM Financial 9 thousand is not geographic and is not shown). Values are the filed thousands times 1,000."
     },
     "usSalaried": {
       "label": "U.S. salaried employees",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
       "definition": "\"U.S. - Salaried\" row of the 10-K employment table, filed in thousands."
     },
     "usHourly": {
       "label": "U.S. hourly employees",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "\"U.S. - Hourly\" row of the 10-K employment table, filed in thousands; substantially all are represented by unions, mostly the UAW."
+      "definition": "\"U.S. - Hourly\" row of the FY2025 10-K employment table, filed in thousands; most hourly employees are represented by unions, a majority by the UAW."
     }
   },
   "usStates": null,
@@ -30,15 +30,15 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "usSalaried": 50000,
+        "usSalaried": 47000,
         "usHourly": 47000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
-        "label": "General Motors FY2024 Form 10-K, Item 1 Business, Employees",
-        "quote": "The following table summarizes worldwide employment (in thousands): … U.S. - Salaried | 50 | U.S. - Hourly | 47 [in thousands: 50 = 50,000; 47 = 47,000; Dec 31, 2024]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm",
+        "label": "General Motors FY2025 Form 10-K, Item 1 Business, Employees",
+        "quote": "The following table summarizes worldwide employment (in thousands): … U.S. - Salaried | 47 | U.S. - Hourly | 47 [in thousands: 47 = 47,000; Dec 31, 2025]"
       }
     }
   ],
@@ -47,28 +47,28 @@
       "name": "GM North America (GMNA)",
       "countries": null,
       "values": {
-        "employees": 123000
+        "employees": 119000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
-        "label": "General Motors FY2024 Form 10-K, Item 1 Business, Employees",
-        "quote": "The following table summarizes worldwide employment (in thousands): … GMNA(a) | 123 [123 thousand = 123,000; (a) Includes Cruise]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm",
+        "label": "General Motors FY2025 Form 10-K, Item 1 Business, Employees",
+        "quote": "The following table summarizes worldwide employment (in thousands): … GMNA | 119 [119 thousand = 119,000]"
       }
     },
     {
       "name": "GM International (GMI)",
       "countries": null,
       "values": {
-        "employees": 30000
+        "employees": 28000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
-        "label": "General Motors FY2024 Form 10-K, Item 1 Business, Employees",
-        "quote": "The following table summarizes worldwide employment (in thousands): … GMNA(a) | 123 | GMI | 30 [in thousands; GMI 30 thousand = 30,000]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm",
+        "label": "General Motors FY2025 Form 10-K, Item 1 Business, Employees",
+        "quote": "The following table summarizes worldwide employment (in thousands): … GMNA | 119 | GMI | 28 [in thousands; GMI 28 thousand = 28,000]"
       }
     }
   ],
@@ -79,7 +79,7 @@
       "state": "MI",
       "iso2": "US",
       "type": "headquarters",
-      "description": "GM's global headquarters at Hudson's Detroit, listed as opened in 2026 (after the FY2024 snapshot; the FY2024 10-K cover gives 300 Renaissance Center, Detroit).",
+      "description": "GM's global headquarters at Hudson's Detroit, listed as opened in 2026; the FY2025 10-K cover gives 1240 Woodward Avenue, Detroit.",
       "source": {
         "hostType": "company",
         "url": "https://www.gm.com/company/us-operations",
@@ -242,6 +242,6 @@
       }
     }
   ],
-  "notes": "U.S. plants by state: GM's U.S. Operations page (gm.com/company/us-operations) lists its facilities state by state (59 entries; the page says \"50 assembly and parts facilities across 19 states\" and \"97k+ GM employees in the U.S.\"), but it publishes no count, employment or investment figure per state, so usStates is null rather than a tally made here; 12 of the listed facilities are recorded as sites. That page is current (fetched Nov 2026, newer than the FY2024 snapshot) and lists the Hudson's Detroit headquarters as opened in 2026; the FY2024 10-K cover address is 300 Renaissance Center, Detroit. The FY2024 10-K Item 2 gives only national totals (\"over 100 locations in the U.S.\" and operations \"in 33 countries\"; major non-U.S. facilities in Brazil, Canada, China, Mexico and South Korea). Employees come from the 10-K table, filed in thousands: GMNA 123 (includes Cruise), GMI 30, GM Financial 9 (not shown), total 162; U.S. salaried 50 and hourly 47 are separate metrics, not added. GMNA and GMI are GM segments with no country list in the 10-K.",
-  "researchedAt": "2026-11-23"
+  "notes": "U.S. plants by state: GM's U.S. Operations page (gm.com/company/us-operations, re-read 2026-11-24 and unchanged) lists its facilities state by state (59 entries; the page says \"50 assembly and parts facilities across 19 states\" and \"97k+ GM employees in the U.S.\"), but it publishes no count, employment or investment figure per state, so usStates is null rather than a tally made here; 12 of the listed facilities are recorded as sites. The page lists the Hudson's Detroit headquarters as opened in 2026, and the FY2025 10-K cover address is 1240 Woodward Avenue, Detroit. The FY2025 10-K Item 2 gives only national totals (\"over 100 locations in the U.S.\" and operations \"in 33 countries\"; major non-U.S. facilities in Canada and Mexico (GMNA) and Brazil, China and South Korea (GMI)). Employees come from the FY2025 10-K table, filed in thousands: GMNA 119, GMI 28, GM Financial 9 (not shown), total 155; U.S. salaried 47 and hourly 47 are separate metrics, not added. The FY2024 table's note that GMNA includes Cruise is gone. GMNA and GMI are GM segments with no country list in the 10-K.",
+  "researchedAt": "2026-11-24"
 }

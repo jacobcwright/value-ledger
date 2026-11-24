@@ -6,14 +6,14 @@
       "label": "Long-lived assets",
       "unit": "currency-millions",
       "currency": "USD",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Long-lived assets by the U.S. and the other countries where Ford's major subsidiaries are domiciled (10-K Note 25, footnote (a)); each row lists revenues and long-lived assets for 2022-2024, and only the 2024 long-lived assets value is recorded."
+      "definition": "Long-lived assets by the U.S. and the other countries where Ford's major subsidiaries are domiciled (10-K Note 25, footnote (a): net property and net investment in operating leases); each row lists revenues and long-lived assets for 2023-2025, and only the 2025 long-lived assets value is recorded."
     },
     "uawHourly": {
       "label": "U.S. hourly employees represented by the UAW",
       "unit": "people",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
       "definition": "Hourly employees in the United States represented by the United Auto Workers (approximately)."
     }
@@ -24,57 +24,57 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "longLivedAssets": 45392,
-        "uawHourly": 56500
+        "longLivedAssets": 44994,
+        "uawHourly": 56300
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
-        "label": "Ford Motor Company Form 10-K for fiscal 2024, Human Capital Resources; Note 25",
-        "quote": "At December 31, 2024, approximately 56,500 hourly employees in the United States were represented by the UAW … United States $ 105,481 $ 41,925 $ 116,995 $ 42,235 $ 124,968 $ 45,392"
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+        "label": "Ford Motor Company Form 10-K for fiscal 2025, Human Capital Resources; Note 25",
+        "quote": "At December 31, 2025, approximately 56,300 hourly employees in the United States were represented by the UAW … United States $ 116,995 $ 42,235 $ 124,968 $ 45,392 $ 122,574 $ 44,994"
       }
     },
     {
       "iso2": "CA",
       "name": "Canada",
       "values": {
-        "longLivedAssets": 6548
+        "longLivedAssets": 8567
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
-        "label": "Ford Motor Company Form 10-K for fiscal 2024, Note 25 geographic information",
-        "quote": "Total Company revenues and long-lived assets, split geographically by our country of domicile (the United States) and other countries where our major subsidiaries are domiciled, for the years ended December 31 were as follows (in millions): 2022 2023 2024 Revenues Long-Lived Assets (a) … Canada 12,590 5,739 13,391 6,147 13,412 6,548 [last two values are 2024 revenues and 2024 long-lived assets]"
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+        "label": "Ford Motor Company Form 10-K for fiscal 2025, Note 25 geographic information",
+        "quote": "Total Company revenues and long-lived assets, split geographically by our country of domicile (the United States) and other countries where our major subsidiaries are domiciled, for the years ended December 31 were as follows (in millions): 2023 2024 2025 Revenues Long-Lived Assets (a) … Canada 13,391 6,147 13,412 6,548 14,548 8,567"
       }
     },
     {
       "iso2": "GB",
       "name": "United Kingdom",
       "values": {
-        "longLivedAssets": 2174
+        "longLivedAssets": 2260
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
-        "label": "Ford Motor Company Form 10-K for fiscal 2024, Note 25 geographic information",
-        "quote": "Total Company revenues and long-lived assets, split geographically by our country of domicile (the United States) and other countries where our major subsidiaries are domiciled, for the years ended December 31 were as follows (in millions): 2022 2023 2024 Revenues Long-Lived Assets (a) … United Kingdom 8,220 1,264 8,968 1,868 9,936 2,174 [last two values are 2024 revenues and 2024 long-lived assets]"
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+        "label": "Ford Motor Company Form 10-K for fiscal 2025, Note 25 geographic information",
+        "quote": "Total Company revenues and long-lived assets, split geographically by our country of domicile (the United States) and other countries where our major subsidiaries are domiciled, for the years ended December 31 were as follows (in millions): 2023 2024 2025 Revenues Long-Lived Assets (a) … United Kingdom 8,968 1,868 9,936 2,174 12,298 2,260"
       }
     },
     {
       "iso2": "MX",
       "name": "Mexico",
       "values": {
-        "longLivedAssets": 4352
+        "longLivedAssets": 3515
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
-        "label": "Ford Motor Company Form 10-K for fiscal 2024, Note 25 geographic information",
-        "quote": "Total Company revenues and long-lived assets, split geographically by our country of domicile (the United States) and other countries where our major subsidiaries are domiciled, for the years ended December 31 were as follows (in millions): 2022 2023 2024 Revenues Long-Lived Assets (a) … Mexico 1,813 4,255 2,774 5,222 2,634 4,352 [last two values are 2024 revenues and 2024 long-lived assets]"
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+        "label": "Ford Motor Company Form 10-K for fiscal 2025, Note 25 geographic information",
+        "quote": "Total Company revenues and long-lived assets, split geographically by our country of domicile (the United States) and other countries where our major subsidiaries are domiciled, for the years ended December 31 were as follows (in millions): 2023 2024 2025 Revenues Long-Lived Assets (a) … Mexico 2,774 5,222 2,634 4,352 2,463 3,515"
       }
     }
   ],
@@ -83,14 +83,14 @@
       "name": "All Other",
       "countries": null,
       "values": {
-        "longLivedAssets": 6409
+        "longLivedAssets": 6492
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
-        "label": "Ford Motor Company Form 10-K for fiscal 2024, Note 25 geographic information",
-        "quote": "Total Company revenues and long-lived assets, split geographically by our country of domicile (the United States) and other countries where our major subsidiaries are domiciled, for the years ended December 31 were as follows (in millions): 2022 2023 2024 Revenues Long-Lived Assets (a) … All Other 29,953 6,854 34,063 6,733 34,042 6,409 [last two values are 2024 revenues and 2024 long-lived assets]"
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+        "label": "Ford Motor Company Form 10-K for fiscal 2025, Note 25 geographic information",
+        "quote": "Total Company revenues and long-lived assets, split geographically by our country of domicile (the United States) and other countries where our major subsidiaries are domiciled, for the years ended December 31 were as follows (in millions): 2023 2024 2025 Revenues Long-Lived Assets (a) … All Other 34,063 6,733 34,042 6,409 35,384 6,492"
       }
     }
   ],
@@ -104,9 +104,9 @@
       "description": "We are a global company based in Dearborn, Michigan.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
-        "label": "Ford Motor Company Form 10-K for fiscal 2024, Item 1",
-        "quote": "We are a global company based in Dearborn, Michigan. With about 171,000 employees worldwide"
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+        "label": "Ford Motor Company Form 10-K for fiscal 2025, Item 1",
+        "quote": "We are a global company based in Dearborn, Michigan. With about 169,000 employees worldwide"
       }
     },
     {
@@ -259,6 +259,6 @@
       }
     }
   ],
-  "notes": "Ford publishes no state-by-state jobs or investment table that was found. Its corporate.ford.com Global Offices & Plants page lists each plant with approximate employees (U.S. plants marked \"Headcount data from June 2026\", newer than the snapshot; others undated); per-state totals are not derived from it, so selected plants appear as sites. The 10-K gives ~171,000 employees worldwide with no regional split, says Ford and consolidated entities use over 375 operations facilities across 24 countries and 41 manufacturing and assembly plants, and names joint-venture plants (China, Türkiye, Romania, Thailand, BlueOval SK battery plants in Tennessee and Kentucky) without counts. Ford From the Road (company-published) says approximately 57,000 hourly U.S. manufacturing workers at year-end 2024 (10-K: ~56,500 UAW-represented). Ford's corporate economic-impact page (corporate.ford.com/social-impact/economic-impact.html) returned only site navigation in its static HTML, so its body could not be read; no state-level U.S. investment figures were found on the Ford pages that could be read. Long-lived assets by country: U.S., Canada, UK, Mexico and All Other.",
-  "researchedAt": "2026-11-23"
+  "notes": "Ford publishes no state-by-state jobs or investment table that was found. Its corporate.ford.com Global Offices & Plants page lists each plant with approximate employees (U.S., Canadian and Mexican plants marked \"Headcount data from June 2026\"; others undated; rechecked 2026-11-24 with the same figures); per-state totals are not derived from it, so selected plants appear as sites. The FY2025 10-K gives ~169,000 employees worldwide with no regional split, says Ford and consolidated entities use over 409 operations facilities across 27 countries and 42 manufacturing and assembly plants, and names joint-venture plants (e.g. Türkiye, Thailand, China) without counts. Ford's corporate economic-impact page (corporate.ford.com/social-impact/economic-impact.html) returned only site navigation in its static HTML when last checked, so its body could not be read; no state-level U.S. investment figures were found on the Ford pages that could be read. Long-lived assets by country (Dec 31, 2025): U.S., Canada, UK, Mexico and All Other.",
+  "researchedAt": "2026-11-24"
 }

@@ -6,21 +6,21 @@
       "label": "Coca-Cola system economic activity",
       "unit": "currency-billions",
       "currency": "USD",
-      "period": "calendar 2025 (Steward Redqueen 2026 assessment; newer than the Dec 2024 snapshot)",
+      "period": "calendar 2025 (Steward Redqueen 2026 assessment)",
       "tier": "company-commissioned",
       "definition": "Modeled contribution to GDP (value added) of The Coca-Cola Company plus its independent U.S. bottlers (\"the Coca-Cola system\"), including suppliers, distributors, retailers and re-spending of wages, from a Multi-Regional Input-Output model by consultancy Steward Redqueen. Published rounded ($2B, $443M); values in millions are converted to billions in the bracketed note."
     },
     "jobsSupported": {
       "label": "Jobs supported by the Coca-Cola system",
       "unit": "people",
-      "period": "calendar 2025 (newer than snapshot)",
+      "period": "calendar 2025",
       "tier": "company-commissioned",
       "definition": "Direct, supplier, value-chain and induced jobs the Coca-Cola system supports in the state, modeled by Steward Redqueen; published rounded as \"23K+\"."
     },
     "directEmployees": {
       "label": "Direct Coca-Cola system employees",
       "unit": "people",
-      "period": "calendar 2025 (newer than snapshot)",
+      "period": "calendar 2025",
       "tier": "company-commissioned",
       "definition": "Direct employees of The Coca-Cola Company and its independent bottlers in the state, per the study; published rounded as \"3K+\". Most are bottler employees, not TCCC employees."
     },
@@ -1082,6 +1082,6 @@
       }
     }
   ],
-  "notes": "State rows come from The Coca-Cola Company's U.S. Economic & Community Impact map (company-hosted table for 50 states, DC, Puerto Rico and cities), a study by consultancy Steward Redqueen (\"Steward Redqueen 2026 Assessment\"; \"reflective of the calendar year 2025\"), so tier is company-commissioned. No newer edition found (checked Nov 24, 2026): the live map still shows the 2025 figures. An earlier Steward Redqueen study covered 2022 ($57.8B nationally, press release Sept 2023), but its state figures are no longer published. All state figures cover the whole Coca-Cola system (TCCC plus independent bottlers), not the company alone, and are rounded by the source; Puerto Rico and city rows are left out; goods-and-services purchased and community investment columns not recorded. Regions: the FY2025 10-K facility table by operating segment (Dec 31, 2025); only the four geographic segments are recorded (the 10-K now labels the first one 'EMEA'). Bottling Investments (56 owned and 5 leased bottling plants) and Corporate are not geographic and are left out; the FY2025 table no longer has a Global Ventures row, and its 1,379 leased retail stores now sit in the EMEA row; distribution, storage and retail columns are not recorded. U.S. company employees approximately 8,900 of ~65,900 total at Dec 31, 2025 (10-K; the decrease is attributed to 2025 divestitures). No employees-by-state or taxes-by-country found.",
+  "notes": "State rows come from The Coca-Cola Company's U.S. Economic & Community Impact map (company-hosted table for 50 states, DC, Puerto Rico and cities), a study by consultancy Steward Redqueen (\"Steward Redqueen 2026 Assessment\"; \"reflective of the calendar year 2025\"), so tier is company-commissioned. No newer edition found (checked Nov 24, 2026): the live map still shows the same figures for all 51 rows. The study attribution and the 'calendar year 2025' wording are carried over from the earlier fetch; they are not in the HTML served on Nov 24, 2026, which holds only the table. An earlier Steward Redqueen study covered 2022 ($57.8B nationally, press release Sept 2023), but its state figures are no longer published. All state figures cover the whole Coca-Cola system (TCCC plus independent bottlers), not the company alone, and are rounded by the source; Puerto Rico and city rows are left out; goods-and-services purchased and community investment columns not recorded. Regions: the FY2025 10-K facility table by operating segment (Dec 31, 2025); only the four geographic segments are recorded (the 10-K now labels the first one 'EMEA'). Bottling Investments (56 owned and 5 leased bottling plants) and Corporate are not geographic and are left out; the FY2025 table no longer has a Global Ventures row, and its 1,379 leased retail stores now sit in the EMEA row; distribution, storage and retail columns are not recorded. U.S. company employees approximately 8,900 of ~65,900 total at Dec 31, 2025 (10-K; the decrease is attributed to 2025 divestitures). No employees-by-state or taxes-by-country found.",
   "researchedAt": "2026-11-24"
 }

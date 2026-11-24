@@ -5,9 +5,9 @@
     "employeeShare": {
       "label": "Share of employees by region",
       "unit": "percent",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Percentage of BlackRock's approximately 21,100 employees based in each region, as stated in the 10-K Human Capital section. The filing does not define which countries each region includes."
+      "definition": "Percentage of BlackRock's approximately 24,900 employees based in each region, as stated in the FY2025 10-K Human Capital section. The filing does not define which countries each region includes."
     }
   },
   "usStates": null,
@@ -17,14 +17,14 @@
       "name": "Americas",
       "countries": null,
       "values": {
-        "employeeShare": 43
+        "employeeShare": 40
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 1 Human Capital",
-        "quote": "Of the Company's approximately 21,100 employees as of December 31, 2024, 43% were based in the Americas, 31% were based in EMEA, and 26% were based in the Asia-Pacific region."
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 1. Business, Human Capital",
+        "quote": "Of the Company’s approximately 24,900 employees as of December 31, 2025, 40% were based in the Americas, 31% were based in EMEA, and 29% were based in the Asia-Pacific region."
       }
     },
     {
@@ -36,23 +36,23 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 1 Human Capital",
-        "quote": "Of the Company's approximately 21,100 employees as of December 31, 2024, 43% were based in the Americas, 31% were based in EMEA, and 26% were based in the Asia-Pacific region."
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 1. Business, Human Capital",
+        "quote": "Of the Company’s approximately 24,900 employees as of December 31, 2025, 40% were based in the Americas, 31% were based in EMEA, and 29% were based in the Asia-Pacific region."
       }
     },
     {
       "name": "Asia-Pacific",
       "countries": null,
       "values": {
-        "employeeShare": 26
+        "employeeShare": 29
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 1 Human Capital",
-        "quote": "Of the Company's approximately 21,100 employees as of December 31, 2024, 43% were based in the Americas, 31% were based in EMEA, and 26% were based in the Asia-Pacific region."
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 1. Business, Human Capital",
+        "quote": "Of the Company’s approximately 24,900 employees as of December 31, 2025, 40% were based in the Americas, 31% were based in EMEA, and 29% were based in the Asia-Pacific region."
       }
     }
   ],
@@ -66,8 +66,8 @@
       "description": "BlackRock's principal office, which is leased, is located at 50 Hudson Yards, New York, New York.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 2. Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 2. Properties",
         "quote": "BlackRock's principal office, which is leased, is located at 50 Hudson Yards, New York, New York."
       }
     },
@@ -80,8 +80,8 @@
       "description": "Owned 84,500 square foot office building in Wilmington, Delaware.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 2. Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 2. Properties",
         "quote": "The Company also owns an 84,500 square foot office building in Wilmington, Delaware and a 43,000 square foot data center in Amherst, New York."
       }
     },
@@ -94,8 +94,8 @@
       "description": "Owned 43,000 square foot data center in Amherst, New York.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 2. Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 2. Properties",
         "quote": "The Company also owns an 84,500 square foot office building in Wilmington, Delaware and a 43,000 square foot data center in Amherst, New York."
       }
     },
@@ -107,8 +107,8 @@
       "description": "BlackRock leases additional office space here.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 2. Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 2. Properties",
         "quote": "BlackRock leases additional office space throughout the world, including Atlanta, Belgrade (Serbia), Budapest, Edinburgh, Gurgaon (India), Hong Kong, London, Mumbai (India), Princeton (New Jersey), San Francisco and Singapore."
       },
       "state": "GA"
@@ -121,8 +121,8 @@
       "description": "BlackRock leases additional office space here.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 2. Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 2. Properties",
         "quote": "BlackRock leases additional office space throughout the world, including Atlanta, Belgrade (Serbia), Budapest, Edinburgh, Gurgaon (India), Hong Kong, London, Mumbai (India), Princeton (New Jersey), San Francisco and Singapore."
       },
       "state": "NJ"
@@ -135,8 +135,8 @@
       "description": "BlackRock leases additional office space here.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 2. Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 2. Properties",
         "quote": "BlackRock leases additional office space throughout the world, including Atlanta, Belgrade (Serbia), Budapest, Edinburgh, Gurgaon (India), Hong Kong, London, Mumbai (India), Princeton (New Jersey), San Francisco and Singapore."
       },
       "state": "CA"
@@ -149,8 +149,8 @@
       "description": "BlackRock leases additional office space here.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 2. Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 2. Properties",
         "quote": "BlackRock leases additional office space throughout the world, including Atlanta, Belgrade (Serbia), Budapest, Edinburgh, Gurgaon (India), Hong Kong, London, Mumbai (India), Princeton (New Jersey), San Francisco and Singapore."
       }
     },
@@ -162,8 +162,8 @@
       "description": "BlackRock leases additional office space here.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 2. Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 2. Properties",
         "quote": "BlackRock leases additional office space throughout the world, including Atlanta, Belgrade (Serbia), Budapest, Edinburgh, Gurgaon (India), Hong Kong, London, Mumbai (India), Princeton (New Jersey), San Francisco and Singapore."
       }
     },
@@ -175,8 +175,8 @@
       "description": "BlackRock leases additional office space here.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 2. Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 2. Properties",
         "quote": "BlackRock leases additional office space throughout the world, including Atlanta, Belgrade (Serbia), Budapest, Edinburgh, Gurgaon (India), Hong Kong, London, Mumbai (India), Princeton (New Jersey), San Francisco and Singapore."
       }
     },
@@ -188,8 +188,8 @@
       "description": "BlackRock leases additional office space here.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 2. Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 2. Properties",
         "quote": "BlackRock leases additional office space throughout the world, including Atlanta, Belgrade (Serbia), Budapest, Edinburgh, Gurgaon (India), Hong Kong, London, Mumbai (India), Princeton (New Jersey), San Francisco and Singapore."
       }
     },
@@ -201,8 +201,8 @@
       "description": "BlackRock leases additional office space here.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 2. Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 2. Properties",
         "quote": "BlackRock leases additional office space throughout the world, including Atlanta, Belgrade (Serbia), Budapest, Edinburgh, Gurgaon (India), Hong Kong, London, Mumbai (India), Princeton (New Jersey), San Francisco and Singapore."
       }
     },
@@ -214,12 +214,12 @@
       "description": "BlackRock leases additional office space here.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm",
-        "label": "BlackRock, Inc. Form 10-K for fiscal 2024, Item 2. Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+        "label": "BlackRock, Inc. Form 10-K for fiscal 2025, Item 2. Properties",
         "quote": "BlackRock leases additional office space throughout the world, including Atlanta, Belgrade (Serbia), Budapest, Edinburgh, Gurgaon (India), Hong Kong, London, Mumbai (India), Princeton (New Jersey), San Francisco and Singapore."
       }
     }
   ],
-  "notes": "BlackRock's FY2024 10-K gives employees only as regional shares (Americas 43%, EMEA 31%, Asia-Pacific 26% of ~21,100) and says it has employees in more than 30 countries; no headcounts by country or state, and no regional headcounts are derived. Item 2 lists the leased HQ (50 Hudson Yards), an owned Wilmington, DE office building, an owned Amherst, NY data center, and leased offices including Atlanta, Belgrade, Budapest, Edinburgh, Gurgaon, Hong Kong, London, Mumbai, Princeton, San Francisco and Singapore; Belgrade and Edinburgh are left out of sites only because of the 12-site cap. No company economic-impact or taxes-by-country report was found.",
-  "researchedAt": "2026-11-23"
+  "notes": "BlackRock's FY2025 10-K gives employees only as regional shares (Americas 40%, EMEA 31%, Asia-Pacific 29% of ~24,900, up from ~21,100 a year earlier after the July 2025 HPS acquisition) and says it has employees in more than 30 countries; no headcounts by country or state, and no regional headcounts are derived. Item 2 (unchanged from FY2024) lists the leased HQ (50 Hudson Yards), an owned Wilmington, DE office building, an owned Amherst, NY data center, and leased offices including Atlanta, Belgrade, Budapest, Edinburgh, Gurgaon, Hong Kong, London, Mumbai, Princeton, San Francisco and Singapore; Belgrade and Edinburgh are left out of sites only because of the 12-site cap. No company economic-impact or taxes-by-country report was found.",
+  "researchedAt": "2026-11-24"
 }

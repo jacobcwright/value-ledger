@@ -22,19 +22,19 @@
       "quote": "GRAB HOLDINGS LIMITED CLASS A ORD G4124C109 10205344 3281461"
     },
     "derived": {
-      "pct": 0.08,
-      "method": "CalPERS shares ÷ shares outstanding (3,281,461 ÷ 4,091,302,000, Class A plus Class B in issue at June 30, 2026, stated in thousands)",
+      "pct": 0.081,
+      "method": "CalPERS Class A shares ÷ Class A plus Class B outstanding (3,281,461 ÷ 4,037,000,000, at September 30, 2026, stated in millions)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000131/ck0001855612-20260630_d2.htm",
-          "label": "Interim report for the six months ended June 30, 2026 (Form 6-K filed August 13, 2026, Exhibit 99.1), Note 6 Capital and reserves (in thousands of shares)",
-          "quote": "The movement in GHL ordinary shares during the six months ended June 30, 2026 is as follows: (in thousands of shares) Class A ordinary shares Class B ordinary shares ... In issue at June 30 3,973,517 117,785 Ordinary shares held as treasury shares 16,076 -"
+          "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000148/a2026q3-earningspressrelea.htm",
+          "label": "Third quarter 2026 results press release (Form 6-K Exhibit 99.1, furnished November 3, 2026), notes to the share data",
+          "quote": "The number of outstanding Class A and Class B ordinary shares was 3,942 million and 95 million as of September 30, 2026"
         }
       ]
     }
   },
   "holdersOfRecord": null,
-  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership % of all shares, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026 (Class A ordinary shares, CUSIP G4124C109); Form 13F covers only U.S.-listed securities. The CalPERS percentage divides its Class A shares by Class A plus Class B in issue at June 30, 2026 from the interim report (warrants and treasury shares excluded), the same count used in the marketcap lens. Holders of record: null; the FY2025 20-F gives only U.S. record holders (15 for Class A and three for Class B as of January 31, 2026), not a total.",
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership % of all shares, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026 (Class A ordinary shares, CUSIP G4124C109); Form 13F covers only U.S.-listed securities. The CalPERS percentage divides its Class A shares by Class A plus Class B outstanding at September 30, 2026 from the Q3 2026 results release (warrants excluded), the same count used in the marketcap lens. Holders of record: null; the FY2025 20-F gives only U.S. record holders (15 for Class A and three for Class B as of January 31, 2026), not a total.",
   "researchedAt": "2026-11-24"
 }

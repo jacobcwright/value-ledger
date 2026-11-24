@@ -20,7 +20,7 @@
     "employees": {
       "label": "Local employees",
       "unit": "people",
-      "period": "undated; current local-market fact sheet pages (re-checked Nov 24, 2026, unchanged), newer than the FY2024 snapshot",
+      "period": "undated; current local-market fact sheet pages (re-checked Nov 24, 2026, unchanged)",
       "tier": "company-published",
       "definition": "\"Local employees\" in Bank of America's Local Impact Fact Sheet for the market. Used only for the 11 markets named for a state (the fact sheets do not define market boundaries); most fact sheets are metro markets (e.g. Houston, Chicago) and are not used."
     }

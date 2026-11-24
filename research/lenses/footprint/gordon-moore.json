@@ -22,9 +22,9 @@
       "label": "Property, plant and equipment, net",
       "unit": "currency-millions",
       "currency": "USD",
-      "period": "as of Dec 28, 2024",
+      "period": "as of Dec 27, 2025",
       "tier": "filing",
-      "definition": "Property, plant, and equipment, net, by country (10-K Note 6)."
+      "definition": "Property, plant and equipment, net, by country (FY2025 10-K Note 6)."
     }
   },
   "usStates": [
@@ -89,42 +89,42 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "ppe": 72068
+        "ppe": 71158
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "Intel Corporation Form 10-K for fiscal 2024, Note 6 (property, plant and equipment, net, by country)",
-        "quote": "Property, plant, and equipment, net, by country at the end of each period was as follows: Years Ended (In Millions) Dec 28, 2024 Dec 30, 2023 United States $ 72,068 $ 63,234"
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "Intel Corporation Form 10-K for fiscal 2025, Note 6 (property, plant and equipment, net, by country)",
+        "quote": "Property, plant and equipment, net, by country at the end of each period was as follows: (In Millions) Dec 27, 2025 Dec 28, 2024 United States $ 71,158 $ 72,068"
       }
     },
     {
       "iso2": "IE",
       "name": "Ireland",
       "values": {
-        "ppe": 18152
+        "ppe": 17120
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "Intel Corporation Form 10-K for fiscal 2024, Note 6 (property, plant and equipment, net, by country)",
-        "quote": "Property, plant, and equipment, net, by country at the end of each period was as follows: Years Ended (In Millions) Dec 28, 2024 Dec 30, 2023 United States $ 72,068 $ 63,234 Ireland 18,152 16,746"
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "Intel Corporation Form 10-K for fiscal 2025, Note 6 (property, plant and equipment, net, by country)",
+        "quote": "Property, plant and equipment, net, by country at the end of each period was as follows: (In Millions) Dec 27, 2025 Dec 28, 2024 United States $ 71,158 $ 72,068 Ireland 17,120 18,152"
       }
     },
     {
       "iso2": "IL",
       "name": "Israel",
       "values": {
-        "ppe": 10414
+        "ppe": 10620
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "Intel Corporation Form 10-K for fiscal 2024, Note 6 (property, plant and equipment, net, by country)",
-        "quote": "Property, plant, and equipment, net, by country at the end of each period was as follows: Years Ended (In Millions) Dec 28, 2024 Dec 30, 2023 United States $ 72,068 $ 63,234 Ireland 18,152 16,746 Israel 10,414 9,290"
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "Intel Corporation Form 10-K for fiscal 2025, Note 6 (property, plant and equipment, net, by country)",
+        "quote": "Property, plant and equipment, net, by country at the end of each period was as follows: (In Millions) Dec 27, 2025 Dec 28, 2024 United States $ 71,158 $ 72,068 Ireland 17,120 18,152 Israel 10,620 10,414"
       }
     }
   ],
@@ -133,14 +133,14 @@
       "name": "Other countries",
       "countries": null,
       "values": {
-        "ppe": 7285
+        "ppe": 6516
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "Intel Corporation Form 10-K for fiscal 2024, Note 6 (property, plant and equipment, net, by country)",
-        "quote": "Property, plant, and equipment, net, by country at the end of each period was as follows: Years Ended (In Millions) Dec 28, 2024 Dec 30, 2023 Israel 10,414 9,290 Other countries 7,285 7,377 Total property, plant, and equipment, net $ 107,919 $ 96,647"
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "Intel Corporation Form 10-K for fiscal 2025, Note 6 (property, plant and equipment, net, by country)",
+        "quote": "Property, plant and equipment, net, by country at the end of each period was as follows: (In Millions) Dec 27, 2025 Dec 28, 2024 … Israel 10,620 10,414 Other countries 6,516 7,285 Total property, plant and equipment, net $ 105,414 $ 107,919"
       }
     }
   ],
@@ -154,9 +154,9 @@
       "description": "2200 Mission College Boulevard, Santa Clara (principal executive offices).",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "Intel Corporation Form 10-K for fiscal 2024, cover page",
-        "quote": "2200 Mission College Boulevard, Santa Clara, California 95054-1549 (Address of principal executive offices)"
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "Intel Corporation Form 10-K for fiscal 2025, cover page",
+        "quote": "2200 Mission College Boulevard, | Santa Clara, | California | 95054-1549"
       }
     },
     {
@@ -168,7 +168,7 @@
       "description": "Home to Intel's leading-edge semiconductor research, technology development and manufacturing; plans to invest more than $36 billion in Hillsboro.",
       "source": {
         "hostType": "company",
-        "url": "https://www.intel.com/content/www/us/en/corporate/usa-chipmaking/home.html",
+        "url": "https://www.intel.com/content/www/us/en/corporate/usa-chipmaking.html",
         "label": "Intel, \"America's semiconductor leadership starts with Intel\" (intel.com/usachipmaking page)",
         "quote": "Oregon: The Silicon Forest The future of American semiconductor manufacturing starts in Oregon, which is home to Intel’s leading-edge semiconductor research, technology development and manufacturing. Intel plans to invest more than $36 billion in Hillsboro"
       }
@@ -182,7 +182,7 @@
       "description": "Investing over $32 billion to build two new leading-edge chip factories and modernize an existing fab at the Ocotillo campus.",
       "source": {
         "hostType": "company",
-        "url": "https://www.intel.com/content/www/us/en/corporate/usa-chipmaking/home.html",
+        "url": "https://www.intel.com/content/www/us/en/corporate/usa-chipmaking.html",
         "label": "Intel, \"America's semiconductor leadership starts with Intel\" (intel.com/usachipmaking page)",
         "quote": "Arizona: The Silicon Desert Intel is investing over $32 billion to build two new leading-edge chip factories and modernize an existing fab at its Ocotillo campus in Chandler, Arizona"
       }
@@ -196,7 +196,7 @@
       "description": "Investing more than $4 billion to manufacture advanced semiconductor packaging technologies, including Foveros.",
       "source": {
         "hostType": "company",
-        "url": "https://www.intel.com/content/www/us/en/corporate/usa-chipmaking/home.html",
+        "url": "https://www.intel.com/content/www/us/en/corporate/usa-chipmaking.html",
         "label": "Intel, \"America's semiconductor leadership starts with Intel\" (intel.com/usachipmaking page)",
         "quote": "New Mexico: The Silicon Mesa Intel is investing more than $4 billion in its New Mexico operations to equip its operations to manufacture advanced semiconductor packaging technologies"
       }
@@ -210,74 +210,61 @@
       "description": "Greenfield investment of more than $28 billion to build two new leading-edge fabs in Ohio.",
       "source": {
         "hostType": "company",
-        "url": "https://www.intel.com/content/www/us/en/corporate/usa-chipmaking/home.html",
+        "url": "https://www.intel.com/content/www/us/en/corporate/usa-chipmaking.html",
         "label": "Intel, \"America's semiconductor leadership starts with Intel\" (intel.com/usachipmaking page)",
         "quote": "Ohio: The Silicon Heartland Intel’s greenfield investment of more than $28 billion to build two new leading-edge fabs in Ohio marks the single largest private-sector investment in the state’s history."
       }
     },
     {
-      "name": "Wafer manufacturing, Ireland",
+      "name": "Production fab, Ireland",
       "place": "Ireland",
       "iso2": "IE",
       "type": "fab",
-      "description": "Wafer manufacturing facilities.",
+      "description": "Key production fab (Intel 4 and Intel 3) in 2025.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "Intel Corporation Form 10-K for fiscal 2024, Manufacturing Capital",
-        "quote": "We operate wafer manufacturing facilities in the United States (Oregon and Arizona), Ireland, and Israel, assembly and testing facilities in Costa Rica, China, Malaysia, and Vietnam, and packaging facilities in the United States (New Mexico), Costa Rica, Vietnam, and Malaysia."
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "Intel Corporation Form 10-K for fiscal 2025, Our Business (Foundry, manufacturing)",
+        "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7)."
       }
     },
     {
-      "name": "Wafer manufacturing, Israel",
+      "name": "Production fab, Israel",
       "place": "Israel",
       "iso2": "IL",
       "type": "fab",
-      "description": "Wafer manufacturing facilities.",
+      "description": "Key production fab (Intel 7) in 2025.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "Intel Corporation Form 10-K for fiscal 2024, Manufacturing Capital",
-        "quote": "We operate wafer manufacturing facilities in the United States (Oregon and Arizona), Ireland, and Israel, assembly and testing facilities in Costa Rica, China, Malaysia, and Vietnam, and packaging facilities in the United States (New Mexico), Costa Rica, Vietnam, and Malaysia."
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "Intel Corporation Form 10-K for fiscal 2025, Our Business (Foundry, manufacturing)",
+        "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7)."
       }
     },
     {
-      "name": "Assembly, test and packaging, Malaysia",
+      "name": "Assembly and test, Malaysia",
       "place": "Malaysia",
       "iso2": "MY",
       "type": "assembly-test",
-      "description": "Assembly and testing and packaging facilities.",
+      "description": "Key assembly and test facilities in 2025; a new advanced packaging facility is being built.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "Intel Corporation Form 10-K for fiscal 2024, Manufacturing Capital",
-        "quote": "We operate wafer manufacturing facilities in the United States (Oregon and Arizona), Ireland, and Israel, assembly and testing facilities in Costa Rica, China, Malaysia, and Vietnam, and packaging facilities in the United States (New Mexico), Costa Rica, Vietnam, and Malaysia."
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "Intel Corporation Form 10-K for fiscal 2025, Our Business (Foundry, manufacturing)",
+        "quote": "In 2025, our key assembly and test facilities were in China, New Mexico, Vietnam and Malaysia, with New Mexico being our key advanced packaging facility and a new advanced packaging facility being built in Malaysia."
       }
     },
     {
-      "name": "Assembly, test and packaging, Vietnam",
+      "name": "Assembly and test, Vietnam",
       "place": "Vietnam",
       "iso2": "VN",
       "type": "assembly-test",
-      "description": "Assembly and testing and packaging facilities.",
+      "description": "Key assembly and test facilities in 2025.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "Intel Corporation Form 10-K for fiscal 2024, Manufacturing Capital",
-        "quote": "We operate wafer manufacturing facilities in the United States (Oregon and Arizona), Ireland, and Israel, assembly and testing facilities in Costa Rica, China, Malaysia, and Vietnam, and packaging facilities in the United States (New Mexico), Costa Rica, Vietnam, and Malaysia."
-      }
-    },
-    {
-      "name": "Assembly, test and packaging, Costa Rica",
-      "place": "Costa Rica",
-      "iso2": "CR",
-      "type": "assembly-test",
-      "description": "Assembly and testing and packaging facilities.",
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "Intel Corporation Form 10-K for fiscal 2024, Manufacturing Capital",
-        "quote": "We operate wafer manufacturing facilities in the United States (Oregon and Arizona), Ireland, and Israel, assembly and testing facilities in Costa Rica, China, Malaysia, and Vietnam, and packaging facilities in the United States (New Mexico), Costa Rica, Vietnam, and Malaysia."
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "Intel Corporation Form 10-K for fiscal 2025, Our Business (Foundry, manufacturing)",
+        "quote": "In 2025, our key assembly and test facilities were in China, New Mexico, Vietnam and Malaysia, with New Mexico being our key advanced packaging facility and a new advanced packaging facility being built in Malaysia."
       }
     },
     {
@@ -285,15 +272,15 @@
       "place": "China",
       "iso2": "CN",
       "type": "assembly-test",
-      "description": "Assembly and testing facilities.",
+      "description": "Key assembly and test facilities in 2025.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "Intel Corporation Form 10-K for fiscal 2024, Manufacturing Capital",
-        "quote": "We operate wafer manufacturing facilities in the United States (Oregon and Arizona), Ireland, and Israel, assembly and testing facilities in Costa Rica, China, Malaysia, and Vietnam, and packaging facilities in the United States (New Mexico), Costa Rica, Vietnam, and Malaysia."
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "Intel Corporation Form 10-K for fiscal 2025, Our Business (Foundry, manufacturing)",
+        "quote": "In 2025, our key assembly and test facilities were in China, New Mexico, Vietnam and Malaysia, with New Mexico being our key advanced packaging facility and a new advanced packaging facility being built in Malaysia."
       }
     }
   ],
-  "notes": "Intel publishes no 50-state breakdown; its April 2025 U.S. fact sheet (company-hosted PDF) gives investment figures for its four manufacturing states only (Oregon, Arizona, New Mexico, Ohio), and the newer live usachipmaking page has slightly updated numbers ($65B Oregon, $34.5B Arizona, $17.68B New Mexico) plus state GDP contributions; the fact sheet is used because it is closest to the Dec 2024 snapshot. Cumulative investment and new-project figures are different measures and must not be added. The fact sheet also lists CHIPS Act awards per state (AZ $3.94B, NM $500M, OR $1.86B, OH $1.5B); these are government funding to Intel, not Intel's footprint, and are not recorded. Nationally, the fact sheet says Intel has 45,000 U.S.-based employees (company-published; 10-K total workforce 108,900); not recorded as a row because the U.S. row's source is the 10-K PP&E table. A 2021 third-party study (\"Intel's Impacts on the US Economy\", FY2019 data) covering AZ, CA, NM and OR exists but is far older than the snapshot and was not used. 10-K Properties gives only square feet: U.S. 38 million (35 owned, 3 leased) vs other countries 32 million; there are no per-state or per-country site counts, and the manufacturing countries are listed without figures, so they appear as sites. Ohio fab completion has been slowed and Germany/Poland projects put on hold (10-K).",
-  "researchedAt": "2026-11-23"
+  "notes": "Intel publishes no 50-state breakdown. Its April 2025 U.S. fact sheet (company-hosted PDF) gives investment figures for its four manufacturing states only (Oregon, Arizona, New Mexico, Ohio); no newer edition found (checked 2026-11-24). The live intel.com usa-chipmaking page (moved from /usa-chipmaking/home.html, which now redirects) is undated and shows slightly higher cumulative figures ($65B Oregon since 1974, $34.5B Arizona since 1979, $17.68B New Mexico since 1980) plus 2023 state GDP contributions; the dated fact sheet is kept, and the page is cited only for the site descriptions. Cumulative investment and new-project figures are different measures and must not be added. The fact sheet also lists CHIPS Act awards per state (AZ $3.94B, NM $500M, OR $1.86B, OH $1.5B); these are government funding to Intel, not Intel's footprint, and are not recorded. Nationally, the usa-chipmaking page says Intel directly employs 45k people in the U.S. (company-published); not recorded as a row because the U.S. row's source is the 10-K PP&E table. A 2021 third-party study (FY2019 data) covering AZ, CA, NM and OR exists but is far older and was not used. PP&E by country is from the FY2025 10-K (Dec 27, 2025). 10-K Properties gives only square feet: U.S. 37 million (35 owned, 2 leased) vs other countries 28 million; there are no per-state or per-country site counts, so the 10-K's key production fabs (Oregon, Arizona, Ireland, Israel) and key assembly and test sites (China, New Mexico, Vietnam, Malaysia) appear as sites. The Costa Rica assembly and test site was removed: the FY2025 10-K no longer lists it and says Intel initiated the consolidation of its Costa Rican assembly and test operations into larger existing sites in Vietnam and Malaysia. The same passage says Intel slowed construction of the Ohio fab and discontinued planned expansions in Germany and Poland.",
+  "researchedAt": "2026-11-24"
 }
