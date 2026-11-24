@@ -1,0 +1,63 @@
+{
+  "id": "meg-whitman",
+  "company": "eBay",
+  "metrics": {
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "as of December 31, 2024",
+      "tier": "filing",
+      "definition": "People employed in the United States, per the 2024 Form 10-K (approximately)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "employees": 7000
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
+        "label": "eBay 2024 Form 10-K, Item 1 Human Capital",
+        "quote": "As of December 31, 2024, we employed approximately 11,500 people globally, of which, approximately 7,000 were located in the United States."
+      }
+    }
+  ],
+  "regions": null,
+  "sites": [
+    {
+      "name": "Headquarters",
+      "place": "San Jose, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "eBay headquarters in San Jose, about 0.5 million square feet.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
+        "label": "eBay 2024 Form 10-K, Item 2 Properties",
+        "quote": "Our headquarters are located in San Jose, California and occupies approximately 0.5 million square feet."
+      }
+    },
+    {
+      "name": "Owned data centers",
+      "place": "Utah",
+      "state": "UT",
+      "iso2": "US",
+      "type": "data center",
+      "description": "All of eBay's owned data centers are in Utah.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
+        "label": "eBay 2024 Form 10-K, Item 2 Properties",
+        "quote": "Our owned data centers are solely located in Utah."
+      }
+    }
+  ],
+  "notes": "No state, country or regional breakdown found beyond the 10-K. The 10-K gives ~11,500 employees, ~7,000 in the U.S. (US country row), and says eBay owns and leases properties in the United States and 23 other countries, with 2.1 million sq ft in the U.S. and 0.9 million sq ft in other countries (no per-country detail). Checked eBay Main Street (ebaymainstreet.com, eBay's public-policy site): its old per-state small-business pages (e.g. /California) now return 404, and the current impact and reports pages give no state figures. Older eBay state seller statistics turned up only in search results and were not fetched or used.",
+  "researchedAt": "2026-11-23"
+}

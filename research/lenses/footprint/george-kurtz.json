@@ -8,8 +8,7 @@
       "currency": "USD",
       "period": "as of Jan 31, 2025",
       "tier": "filing",
-      "definition": "Property and equipment, net and operating lease right-of-use assets by geographic area, Note 11 (Geographic Information) of the FY2025 10-K, in thousands of dollars (total $831,403 thousand; 'Other countries' $54,194 thousand).",
-      "scale": 1000
+      "definition": "Property and equipment, net and operating lease right-of-use assets by geographic area, Note 11 (Geographic Information) of the FY2025 10-K, in thousands of dollars (total $831,403 thousand; 'Other countries' $54,194 thousand)."
     }
   },
   "usStates": null,
@@ -60,6 +59,6 @@
       }
     }
   ],
-  "notes": "CrowdStrike publishes very little about where it operates. The FY2025 10-K (the snapshot year, ended Jan 31, 2025) gives 10,118 full-time employees with no country or state split, describes a deliberately distributed, remote-first workforce, and names only its Austin headquarters, adding that it leases offices \"in various locations throughout the United States as well as office space in a number of countries in Europe, the Middle East, and the Asia-Pacific region\". The only geographic non-revenue figure is property and equipment plus right-of-use assets, recorded in $ thousands as filed (unit 'currency-thousands' is outside the lens enum); 'Other countries' ($54,194 thousand) is a residual and is not shown. No state-level or impact report was found.",
+  "notes": "CrowdStrike publishes very little about where it operates. The FY2025 10-K (the snapshot year, ended Jan 31, 2025) gives 10,118 full-time employees with no country or state split, describes a deliberately distributed, remote-first workforce, and names only its Austin headquarters, adding that it leases offices \"in various locations throughout the United States as well as office space in a number of countries in Europe, the Middle East, and the Asia-Pacific region\". The only geographic non-revenue figure is property and equipment plus right-of-use assets, recorded in $ thousands as filed (unit 'currency-thousands' is outside the lens enum); 'Other countries' ($54,194 thousand) is a residual and is not shown. No state-level figures appear in the 10-K; no company impact report was looked for beyond it.",
   "researchedAt": "2026-11-23"
 }

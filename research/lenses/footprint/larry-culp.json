@@ -89,20 +89,6 @@
         "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
         "quote": "GE Aerospace also plans to invest approximately $100 million at some of its international sites in North America, Europe and India."
       }
-    },
-    {
-      "name": "Greater Cincinnati region (U.S.)",
-      "countries": null,
-      "values": {
-        "investment": 107
-      },
-      "plus": {},
-      "source": {
-        "hostType": "company",
-        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
-        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
-        "quote": "$107 million to facilities in the greater Cincinnati region ."
-      }
     }
   ],
   "sites": [
@@ -218,6 +204,6 @@
       }
     }
   ],
-  "notes": "State rows are only the states GE Aerospace itemised in its March 12, 2024 investment release: Alabama (Auburn $54M), Massachusetts (Lynn $30M) and North Carolina (four facilities $46M: Asheville $11M, Durham >$7M, West Jefferson ~$5M, Wilmington $22M). The release says nearly $450M goes to 22 facilities across 14 states, but names only these; the other 11 states have no published amount. 'Greater Cincinnati region' ($107M) is a metro area that spans Ohio and Kentucky, so it is a region row (countries null) and is not assigned to a state. The release also cites $100M for U.S. suppliers (not by state) and about $100M for international sites in North America, Europe and India (region, no country split). The release's 'interactive map' link now shows the 2026 plan ($1B, 17 states, no per-state amounts), which is newer than the snapshot and was not used; the 2025 plan (nearly $1B, 16 states) was likewise not used. 10-K: ~53,000 employees, ~28,000 in the U.S. (recorded as a US country row); manufacturing and service operations at 67 facilities in 22 states and Puerto Rico and 67 facilities in 24 other countries; no breakdown by state or country. Item 2 Properties refers back to that page.",
+  "notes": "State rows are only the states GE Aerospace itemised in its March 12, 2024 investment release: Alabama (Auburn $54M), Massachusetts (Lynn $30M) and North Carolina (four facilities $46M: Asheville $11M, Durham >$7M, West Jefferson ~$5M, Wilmington $22M). The release says nearly $450M goes to 22 facilities across 14 states but names only these; the other 11 states have no published amount. Greater Cincinnati ($107M) is a metro area spanning Ohio and Kentucky, so it is recorded as a site, not a state row. The release also cites $100M for U.S. suppliers (not by state) and about $100M for international sites in North America, Europe and India (region row, no country split). The March 12, 2025 release (nearly $1B plan) was also read: it itemises sites (e.g. Greater Cincinnati $113M, Muskegon MI $70M, Auburn AL $51M, Huntsville AL $22M, Asheville NC $20M, Durham NC $16M, West Jefferson NC $13M, West Chester OH $14M, Batesville MS $11M, Lafayette IN $5M) but not state totals, so state values would need summing; it was not used, to keep one plan year. The release's 'interactive map' link now shows the 2026 plan and was not used. 10-K: ~53,000 employees, ~28,000 in the U.S. (US country row); manufacturing and service operations at 67 facilities in 22 states and Puerto Rico and 67 facilities in 24 other countries, with no breakdown by state or country.",
   "researchedAt": "2026-11-23"
 }

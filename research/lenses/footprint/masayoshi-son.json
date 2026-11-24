@@ -1,0 +1,93 @@
+{
+  "id": "masayoshi-son",
+  "company": "SoftBank Group",
+  "metrics": {
+    "nonCurrentAssets": {
+      "label": "Non-current assets by location",
+      "unit": "currency-millions",
+      "currency": "JPY",
+      "period": "as of Mar 31, 2025",
+      "tier": "filing",
+      "definition": "Non-current assets excluding financial assets and deferred tax assets, by location, from the segment note's geographical information (¥12,482,993 million in total). Excludes the investment portfolio (financial assets), so it reflects operating assets such as SoftBank Corp. in Japan and Arm in the U.K."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "JP",
+      "name": "Japan",
+      "values": {
+        "nonCurrentAssets": 7239874
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
+        "label": "Financial Report 2025 (FY ended Mar 31, 2025), segment information, (3) Geographical information, b. Non-current assets",
+        "quote": "b. Non-current assets (excluding financial assets and deferred tax assets) … Japan ¥ 6,812,263 ¥ 7,239,874 $48,420,773"
+      }
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "values": {
+        "nonCurrentAssets": 4099932
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
+        "label": "Financial Report 2025 (FY ended Mar 31, 2025), segment information, (3) Geographical information, b. Non-current assets",
+        "quote": "b. Non-current assets (excluding financial assets and deferred tax assets) … U.K. 4,098,218 4,099,932 27,420,626"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Other (outside Japan and the U.K.)",
+      "countries": null,
+      "values": {
+        "nonCurrentAssets": 1143187
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/financial-report_fy2025_en.pdf",
+        "label": "Financial Report 2025 (FY ended Mar 31, 2025), segment information, (3) Geographical information, b. Non-current assets",
+        "quote": "b. Non-current assets (excluding financial assets and deferred tax assets) … Other 400,938 1,143,187 7,645,713"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Corporate headquarters",
+      "place": "Minato-ku, Tokyo, Japan",
+      "state": null,
+      "iso2": "JP",
+      "type": "headquarters",
+      "description": "SoftBank Group Corp. corporate headquarters, 1-7-1 Kaigan, Minato-ku, Tokyo",
+      "source": {
+        "hostType": "company",
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2025_en.pdf",
+        "label": "Annual Report 2025, corporate data",
+        "quote": "Corporate headquarters 1-7-1, Kaigan, Minato-ku, Tokyo 105-7537, Japan"
+      }
+    },
+    {
+      "name": "Arm headquarters",
+      "place": "United Kingdom",
+      "state": null,
+      "iso2": "GB",
+      "type": "subsidiary-headquarters",
+      "description": "Headquarters of subsidiary Arm, which operates in the U.S., China, India, South Korea, Japan, Taiwan and Europe",
+      "source": {
+        "hostType": "company",
+        "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/annual_reports/annual-report_fy2025_en.pdf",
+        "label": "Annual Report 2025, risk factors (Arm)",
+        "quote": "Arm’s headquarters are in the U.K., and it currently operates in jurisdictions around the world, including the U.S., China, India, South Korea, Japan, Taiwan, and Europe."
+      }
+    }
+  ],
+  "notes": "SoftBank Group publishes no employees, offices or investment by state or country. The only geographic footprint measure is non-current operating assets (excluding financial assets and deferred tax assets) for Japan, the U.K. and Other, from the FY2024 (year ended Mar 31, 2025) Financial Report 2025 on group.softbank; net sales by customer location (Japan/Other) are already in the records and not repeated. The Financial Report is SoftBank's English annual financial statements (tier filing), hosted on the company site. Quotes join the table title and row with '…'; the PDF's dot leaders are dropped. Sites: HQ from the Annual Report's corporate data, Arm's U.K. headquarters from its risk section (no city given there).",
+  "researchedAt": "2026-11-23"
+}

@@ -77,8 +77,9 @@ async function fetchText(url) {
     text = layout + "\n" + fs.readFileSync(txtPath + ".raw", "utf8");
     fs.rmSync(txtPath + ".raw");
   } else {
+    const keepScripts = /(^|\.)flo\.uri\.sh$/.test(new URL(url).hostname);  // Flourish charts carry their data in a script block
     text = buf.toString("utf8")
-      .replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, " ")
+      .replace(keepScripts ? /<style[\s\S]*?<\/style>/gi : /<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, " ")
       .replace(/<[^>]+>/g, " ")
       .replace(/&nbsp;|&#160;|&#xa0;/gi, " ").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
       .replace(/&#8217;|&rsquo;|&#x2019;/gi, "'").replace(/&#8220;|&#8221;|&ldquo;|&rdquo;|&quot;/gi, '"')

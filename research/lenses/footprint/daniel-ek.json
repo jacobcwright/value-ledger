@@ -154,7 +154,7 @@
       "name": "Principal operational office",
       "place": "Stockholm, Sweden",
       "iso2": "SE",
-      "type": "headquarters",
+      "type": "office",
       "description": "Principal operational office, approximately 485,000 sq ft leased",
       "source": {
         "hostType": "sec",
@@ -168,7 +168,7 @@
       "place": "New York, NY",
       "state": "NY",
       "iso2": "US",
-      "type": "headquarters",
+      "type": "office",
       "description": "Principal operational office, approximately 594,000 sq ft leased",
       "source": {
         "hostType": "sec",

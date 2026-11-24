@@ -8,8 +8,7 @@
       "currency": "USD",
       "period": "as of June 30, 2024",
       "tier": "regulator",
-      "definition": "FDIC Summary of Deposits field DEPSUMBR (deposits booked at the office, in thousands of dollars) for Charles Schwab Bank, SSB (FDIC cert 57450), whose single office is its main office in Westlake, TX.",
-      "scale": 1000
+      "definition": "FDIC Summary of Deposits field DEPSUMBR (deposits booked at the office, in thousands of dollars) for Charles Schwab Bank, SSB (FDIC cert 57450), whose single office is its main office in Westlake, TX."
     },
     "depositsPremierBank": {
       "label": "Deposits, Charles Schwab Premier Bank, SSB ($ thousands)",
@@ -17,8 +16,7 @@
       "currency": "USD",
       "period": "as of June 30, 2024",
       "tier": "regulator",
-      "definition": "FDIC Summary of Deposits DEPSUMBR for Charles Schwab Premier Bank, SSB (FDIC cert 33497), single office in Westlake, TX.",
-      "scale": 1000
+      "definition": "FDIC Summary of Deposits DEPSUMBR for Charles Schwab Premier Bank, SSB (FDIC cert 33497), single office in Westlake, TX."
     },
     "depositsTrustBank": {
       "label": "Deposits, Charles Schwab Trust Bank ($ thousands)",
@@ -26,27 +24,10 @@
       "currency": "USD",
       "period": "as of June 30, 2024",
       "tier": "regulator",
-      "definition": "FDIC Summary of Deposits DEPSUMBR for Charles Schwab Trust Bank (FDIC cert 59108), single office in Westlake, TX.",
-      "scale": 1000
+      "definition": "FDIC Summary of Deposits DEPSUMBR for Charles Schwab Trust Bank (FDIC cert 59108), single office in Westlake, TX."
     }
   },
-  "usStates": [
-    {
-      "state": "TX",
-      "values": {
-        "depositsSchwabBank": 224023000,
-        "depositsPremierBank": 20197000,
-        "depositsTrustBank": 8628000
-      },
-      "plus": {},
-      "source": {
-        "hostType": "regulator",
-        "url": "https://api.fdic.gov/banks/sod?filters=CERT%3A(57450%20OR%2033497%20OR%2059108)%20AND%20YEAR%3A2024&fields=NAMEFULL%2CCERT%2CSTALPBR%2CCITYBR%2CDEPSUMBR&sort_by=CERT&limit=10",
-        "label": "FDIC Summary of Deposits API, Schwab's three FDIC-insured banks (certs 33497, 57450, 59108), June 30, 2024",
-        "quote": "{\"STALPBR\":\"TX\",\"DEPSUMBR\":20197000,\"NAMEFULL\":\"Charles Schwab Premier Bank, SSB\",\"CERT\":33497,\"CITYBR\":\"Westlake\" … {\"STALPBR\":\"TX\",\"DEPSUMBR\":224023000,\"NAMEFULL\":\"Charles Schwab Bank, SSB\",\"CERT\":57450,\"CITYBR\":\"Westlake\" … {\"STALPBR\":\"TX\",\"DEPSUMBR\":8628000,\"NAMEFULL\":\"Charles Schwab Trust Bank\",\"CERT\":59108,\"CITYBR\":\"Westlake\""
-      }
-    }
-  ],
+  "usStates": null,
   "countries": null,
   "regions": null,
   "sites": [
@@ -219,6 +200,6 @@
       }
     }
   ],
-  "notes": "Branches by state are not published: the FY2024 10-K says only that Schwab \"had more than 380 domestic branch offices in 48 states and the District of Columbia, as well as locations in Puerto Rico, the United Kingdom, Hong Kong, and Singapore\", and schwab.com's branch locator refused scripted requests (authorization error page). The Texas row is FDIC Summary of Deposits data (regulator tier, June 30, 2024) for Schwab's three FDIC-insured banks, each with one office, its main office in Westlake, TX; the FDIC therefore books all of their deposits to Texas, which says where the charters sit, not where depositors live. Values are kept per bank in $ thousands as the FDIC reports them (unit 'currency-thousands' is outside the lens enum, as in other footprint files) and are not added together. Sites are the 10-K Item 2 table of significant locations (square footage in thousands, net of subleased space); El Paso, TX (105,000 sq ft owned) and Richfield, OH (117,000 owned) are left out for the 12-site cap.",
+  "notes": "Branches by state are not published: the FY2024 10-K says only that Schwab \"had more than 380 domestic branch offices in 48 states and the District of Columbia, as well as locations in Puerto Rico, the United Kingdom, Hong Kong, and Singapore\", and schwab.com's branch locator refused scripted requests (authorization error page). The Texas row is FDIC Summary of Deposits data (regulator tier, June 30, 2024) for Schwab's three FDIC-insured banks, each with one office, its main office in Westlake, TX; the FDIC therefore books all of their deposits to Texas, which says where the charters sit, not where depositors live. Values are kept per bank in $ thousands as the FDIC reports them (unit 'currency-thousands' is outside the lens enum, as in other footprint files) and are not added together. Sites are the 10-K Item 2 table of significant locations (square footage in thousands, net of subleased space); El Paso, TX (105,000 sq ft owned) and Richfield, OH (117,000 owned) are left out for the 12-site cap. [Editor] The FDIC rows are omitted from the map: all three banks book deposits at a single Westlake, Texas office, so a state map would show where the charters sit, not where clients are.",
   "researchedAt": "2026-11-23"
 }

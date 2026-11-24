@@ -1,0 +1,86 @@
+{
+  "id": "david-baszucki",
+  "company": "Roblox",
+  "metrics": {
+    "dauShare": {
+      "label": "Share of daily active users",
+      "unit": "percent",
+      "period": "year ended Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Approximate share of DAUs derived from outside the U.S. and Canada region. Roblox defines a DAU as a user who has logged in and visited Roblox on a unique registered account on a given day; location is based on the IP address at registration."
+    },
+    "ppe": {
+      "label": "Property and equipment, net",
+      "unit": "currency-thousands",
+      "currency": "USD",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Property and equipment, net, by geographic area (FY2024 10-K; in thousands of U.S. dollars). Mostly owned servers and network equipment in data centers, and leasehold improvements."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "ppe": 615665
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
+        "label": "FY2024 Form 10-K, property and equipment by geographic area",
+        "quote": "Property and equipment, net, by geographic area was as follows (in thousands): … United States | $ | 615,665 | $ | 646,572"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Outside the U.S. and Canada",
+      "countries": null,
+      "values": {
+        "dauShare": 79
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 1A (Risk Factors)",
+        "quote": "For the year ended December 31, 2024, approximately 79% of our DAUs and 37% of our revenue was derived from outside the U.S. and Canada region."
+      }
+    },
+    {
+      "name": "Rest of world (property and equipment)",
+      "countries": null,
+      "values": {
+        "ppe": 43924
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
+        "label": "FY2024 Form 10-K, property and equipment by geographic area",
+        "quote": "Rest of world | 43,924 | 48,788 | Total | $ | 659,589"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Corporate headquarters",
+      "place": "San Mateo, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "New leased office complex of approximately 752,546 square feet (moved in January 1, 2025).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2. Properties",
+        "quote": "On January 1, 2025, we relocated our corporate headquarters to a new leased office complex in San Mateo, California. As of December 31, 2024, all of our San Mateo-based employees had been re-located to the new corporate headquarters, which consists of approximately 752,546 square feet"
+      }
+    }
+  ],
+  "notes": "Roblox reports DAUs, hours engaged and bookings by region (US and Canada, Europe, APAC, Rest of world), but in the FY2024 10-K and the Q4 2024 Supplemental Materials (s27.q4cdn.com, fetched) the regional values appear only inside chart images; only the year-over-year growth rates are text. Those chart values were not transcribed, because a quote must be text in the document. The one text-verifiable regional user figure is the 10-K's 'approximately 79% of our DAUs ... derived from outside the U.S. and Canada region'. The 10-K lists data centers in Florida, Georgia, Illinois, New Jersey, Texas, Virginia, California and Washington and abroad (France, Germany, Hong Kong, Japan, Singapore, the Netherlands, India, Australia, the U.K.) without sizes, so they are not sites. Revenue by region is in the records and not repeated.",
+  "researchedAt": "2026-11-23"
+}

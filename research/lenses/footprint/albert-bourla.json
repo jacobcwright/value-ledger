@@ -1,0 +1,177 @@
+{
+  "id": "albert-bourla",
+  "company": "Pfizer",
+  "metrics": {
+    "ppe": {
+      "label": "Property, plant and equipment, net",
+      "unit": "currency-millions",
+      "currency": "USD",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Property, plant and equipment, net by geographic area (FY2024 Form 10-K, Note 9). Pfizer reports the U.S. and two international groups, Developed Markets and Emerging Markets."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "ppe": 9748
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 9, PP&E by geographic area",
+        "quote": "The following provides Property, plant and equipment, net by geographic area: … United States | $ | 9,748 | $ | 10,674"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "International: Developed Markets",
+      "countries": null,
+      "values": {
+        "ppe": 7187
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 9, PP&E by geographic area",
+        "quote": "International: | Developed Markets | 7,187 | 6,713"
+      }
+    },
+    {
+      "name": "International: Emerging Markets",
+      "countries": null,
+      "values": {
+        "ppe": 1458
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
+        "label": "FY2024 Form 10-K, Note 9, PP&E by geographic area",
+        "quote": "Emerging Markets | 1,458 | 1,554 | Property, plant and equipment, net | $ | 18,393"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Global headquarters",
+      "place": "New York, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Global headquarters in New York City; Pfizer had 251 owned and leased properties worldwide (about 37 million square feet) at end-2024.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2. Properties",
+        "quote": "Our global headquarters are located in New York City. … As of December 31, 2024, we had 251 owned and leased properties worldwide, amounting to approximately 37 million square feet."
+      }
+    },
+    {
+      "name": "PGS Kalamazoo",
+      "place": "Kalamazoo, MI",
+      "state": "MI",
+      "iso2": "US",
+      "type": "manufacturing plant",
+      "description": "1,300 acre facility manufacturing active pharmaceutical ingredients (API) and drug product (DP).",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.pfizer.com/products/how-drugs-are-made/manufacturing-sites",
+        "label": "Pfizer, U.S. Manufacturing Sites (pfizer.com)",
+        "quote": "PGS Kalamazoo, MI … The 1,300 acre facility located in Kalamazoo, Michigan manufactures active pharmaceutical ingredients (API) and drug product (DP)."
+      }
+    },
+    {
+      "name": "PGS Rocky Mount",
+      "place": "Rocky Mount, NC",
+      "state": "NC",
+      "iso2": "US",
+      "type": "manufacturing plant",
+      "description": "1.4 million square feet of manufacturing space on 250 acres in Eastern North Carolina.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.pfizer.com/products/how-drugs-are-made/manufacturing-sites",
+        "label": "Pfizer, U.S. Manufacturing Sites (pfizer.com)",
+        "quote": "PGS Rocky Mount, NC … The Rocky Mount, North Carolina site has 1.4 million square feet of manufacturing space on 250 acres in Eastern North Carolina."
+      }
+    },
+    {
+      "name": "PGS Sanford",
+      "place": "Sanford, NC",
+      "state": "NC",
+      "iso2": "US",
+      "type": "manufacturing plant",
+      "description": "230-acre site with flexible, multi-product manufacturing capabilities and facilities.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.pfizer.com/products/how-drugs-are-made/manufacturing-sites",
+        "label": "Pfizer, U.S. Manufacturing Sites (pfizer.com)",
+        "quote": "PGS Sanford, NC … The 230-acre site in Sanford, North Carolina site has flexible, multi-product manufacturing capabilities and facilities."
+      }
+    },
+    {
+      "name": "PGS McPherson",
+      "place": "McPherson, KS",
+      "state": "KS",
+      "iso2": "US",
+      "type": "manufacturing plant",
+      "description": "Specializes in manufacturing sterile injectable medicines used daily in hospitals around the world.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.pfizer.com/products/how-drugs-are-made/manufacturing-sites",
+        "label": "Pfizer, U.S. Manufacturing Sites (pfizer.com)",
+        "quote": "PGS McPherson, KS … The McPherson site specializes in manufacturing sterile injectable medicines used daily in hospitals around the world."
+      }
+    },
+    {
+      "name": "PGS Andover",
+      "place": "Andover, MA",
+      "state": "MA",
+      "iso2": "US",
+      "type": "manufacturing plant",
+      "description": "70-acre site combining research and development facilities with flexible, multi-product manufacturing.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.pfizer.com/products/how-drugs-are-made/manufacturing-sites",
+        "label": "Pfizer, U.S. Manufacturing Sites (pfizer.com)",
+        "quote": "PGS Andover, MA … The 70-acre site in Andover combines state-of-the-art research and development facilities with flexible, multi-product manufacturing capabilities."
+      }
+    },
+    {
+      "name": "PGS Pearl River",
+      "place": "Pearl River, NY",
+      "state": "NY",
+      "iso2": "US",
+      "type": "manufacturing plant",
+      "description": "More than 100 years of innovation and manufacturing; 19 products discovered, developed and approved at the site.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.pfizer.com/products/how-drugs-are-made/manufacturing-sites",
+        "label": "Pfizer, U.S. Manufacturing Sites (pfizer.com)",
+        "quote": "PGS Pearl River, NY … With more than 100 years of rich history in innovation and manufacturing excellence, 19 products- including various vaccines, antibiotics, and oncology medicines, have been discovered, developed, and approved at the Pearl River, New York site."
+      }
+    },
+    {
+      "name": "PGS North Creek",
+      "place": "Bothell (North Creek), WA",
+      "state": "WA",
+      "iso2": "US",
+      "type": "manufacturing plant",
+      "description": "Produces antibody drug conjugates (ADCs) and antibody intermediates; joined the network with the Seagen acquisition.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.pfizer.com/products/how-drugs-are-made/manufacturing-sites",
+        "label": "Pfizer, U.S. Manufacturing Sites (pfizer.com)",
+        "quote": "PGS North Creek, WA … The North Creek site, integrated into Pfizer’s network following the Seagen acquisition, produces antibody drug conjugates (ADCs) and antibody intermediates."
+      }
+    }
+  ],
+  "notes": "Pfizer's 10-K gives only company-wide facility counts (251 properties; Pfizer Global Supply responsible for 37 plants, 'including in Belgium, Germany, India, Ireland, Italy, Japan, Singapore and the U.S.') and PP&E for the U.S. versus two international groups; the 10-K does not say which countries are Developed or Emerging Markets. No state or country breakdown of employees, investment or taxes was found: the 10-K gives only 'approximately 81,000 people worldwide', and the 2024 Impact Report Performance Data file has no headcount by geography. pfizer.com's U.S. Manufacturing Sites page (undated, read Nov 2026) says 11 manufacturing sites and 2 distribution centers and 'More than 10,000 U.S. colleagues dedicated to manufacturing and supply operations', with no per-site headcount; six of its sites are listed here (Franklin OH, Middleton WI, Rochester MI and Sanford North NC are left out to stay within 12 sites and favor the largest by stated size). Revenue by geography is in the records and not repeated.",
+  "researchedAt": "2026-11-23"
+}

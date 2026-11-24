@@ -1,0 +1,139 @@
+{
+  "id": "evan-spiegel",
+  "company": "Snap",
+  "metrics": {
+    "dau": {
+      "label": "Daily active users",
+      "unit": "people",
+      "period": "Q4 2024 average",
+      "tier": "filing",
+      "definition": "Average daily active users in the fourth quarter of 2024, by region (the release table is in millions; stored as whole users). Snap: 'a registered and logged-in Snapchat user who visits Snapchat through our applications or websites at least once during a defined 24-hour period.' Source is an 8-K exhibit filed with the SEC, not the 10-K."
+    },
+    "arpu": {
+      "label": "Average revenue per user",
+      "unit": "currency-per-user",
+      "currency": "USD",
+      "period": "Q4 2024",
+      "tier": "filing",
+      "definition": "Quarterly revenue divided by average DAUs, with revenue apportioned to regions by where advertising impressions are delivered (not the billing-address basis used for revenue by geography)."
+    },
+    "longLivedAssets": {
+      "label": "Long-lived assets",
+      "unit": "currency-thousands",
+      "currency": "USD",
+      "period": "as of Dec 31, 2024",
+      "tier": "filing",
+      "definition": "Long-lived assets by geographic area, including property and equipment, net and operating lease right-of-use assets (FY2024 10-K; thousands of U.S. dollars)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "longLivedAssets": 682173
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
+        "label": "FY2024 Form 10-K, long-lived assets by geographic area",
+        "quote": "The following table lists long-lived assets by geographic area … United States | $ | 682,173 | $ | 646,546"
+      }
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "values": {
+        "longLivedAssets": 248243
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
+        "label": "FY2024 Form 10-K, long-lived assets by geographic area",
+        "quote": "The following table lists long-lived assets by geographic area … United Kingdom | 248,243 | 218,326"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "North America (includes Mexico, the Caribbean, and Central America)",
+      "countries": null,
+      "values": {
+        "dau": 100000000,
+        "arpu": 9.73
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000016/snap-202524xexx991pressrel.htm",
+        "label": "Q4 2024 earnings release (Form 8-K Exhibit 99.1), supplemental financial information and business metrics",
+        "quote": "Q3 2023 | Q4 2023 | Q1 2024 | Q2 2024 | Q3 2024 | Q4 2024 … DAU by region (in millions) | North America | 101 | 100 | 100 | 100 | 100 | 100 … ARPU by region | North America | $ | 7.82 | $ | 8.96 | $ | 7.44 | $ | 7.67 | $ | 8.54 | $ | 9.73"
+      }
+    },
+    {
+      "name": "Europe (includes Russia and Turkey)",
+      "countries": null,
+      "values": {
+        "dau": 99000000,
+        "arpu": 2.89
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000016/snap-202524xexx991pressrel.htm",
+        "label": "Q4 2024 earnings release (Form 8-K Exhibit 99.1), supplemental financial information and business metrics",
+        "quote": "Q3 2023 | Q4 2023 | Q1 2024 | Q2 2024 | Q3 2024 | Q4 2024 … Europe | 95 | 96 | 96 | 97 | 99 | 99 … Europe | $ | 2.11 | $ | 2.49 | $ | 2.04 | $ | 2.36 | $ | 2.52 | $ | 2.89"
+      }
+    },
+    {
+      "name": "Rest of World (DAU geography)",
+      "countries": null,
+      "values": {
+        "dau": 254000000,
+        "arpu": 1.19
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000016/snap-202524xexx991pressrel.htm",
+        "label": "Q4 2024 earnings release (Form 8-K Exhibit 99.1), supplemental financial information and business metrics",
+        "quote": "Q3 2023 | Q4 2023 | Q1 2024 | Q2 2024 | Q3 2024 | Q4 2024 … Rest of World | 211 | 218 | 226 | 235 | 244 | 254 … Rest of World | $ | 0.96 | $ | 1.03 | $ | 1.13 | $ | 1.02 | $ | 1.09 | $ | 1.19"
+      }
+    },
+    {
+      "name": "Rest of world (long-lived assets: outside the U.S. and U.K.)",
+      "countries": null,
+      "values": {
+        "longLivedAssets": 89113
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
+        "label": "FY2024 Form 10-K, long-lived assets by geographic area",
+        "quote": "Rest of world (1) | 89,113 | 62,316 | Total long-lived assets | $ | 1,019,529"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Corporate headquarters",
+      "place": "Santa Monica, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Approximately 718,000 square feet; global facilities total about 1.9 million square feet of leased office space.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
+        "label": "FY2024 Form 10-K, Item 2. Properties",
+        "quote": "Our corporate headquarters are located in Santa Monica, California, where we occupy approximately 718,000 square feet. As of December 31, 2024, our global facilities totaled an aggregate of approximately 1.9 million square feet of leased office space."
+      }
+    }
+  ],
+  "notes": "DAU and ARPU by region are the Q4 2024 column of the 8-K earnings-release table (the 10-K shows the same series only as charts). DAU values are stored as whole users from a table in millions (e.g. 100 million). Snap's regions are defined only partly ('North America includes Mexico, the Caribbean, and Central America'; 'Europe includes Russia and Turkey'), so countries lists are null. The two 'rest of world' regions differ: DAU geography excludes North America and Europe; the long-lived-asset one excludes only the U.S. and U.K. Tier 'filing' is used for the 8-K exhibit (furnished to the SEC) as a judgment call. The release's revenue by user geography is not repeated; revenue by geography is in the records.",
+  "researchedAt": "2026-11-23"
+}

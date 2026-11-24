@@ -1,0 +1,107 @@
+{
+  "id": "mike-cannon-brookes",
+  "company": "Atlassian",
+  "metrics": {
+    "longLivedAssets": {
+      "label": "Long-lived assets",
+      "unit": "currency-thousands",
+      "currency": "USD",
+      "period": "as of Jun 30, 2025",
+      "tier": "filing",
+      "definition": "Long-lived assets by geographic region, consisting of property and equipment and operating lease right-of-use assets (FY2025 10-K Note 13; in thousands of U.S. dollars)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "longLivedAssets": 168841
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "label": "FY2025 Form 10-K, Note 13 (Geographic Information)",
+        "quote": "The Company’s long-lived assets by geographic regions are as follows (in thousands): … United States | $ | 168,841 | $ | 189,468"
+      }
+    },
+    {
+      "iso2": "AU",
+      "name": "Australia",
+      "values": {
+        "longLivedAssets": 54073
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "label": "FY2025 Form 10-K, Note 13 (Geographic Information)",
+        "quote": "The Company’s long-lived assets by geographic regions are as follows (in thousands): … Australia | 54,073 | 47,082"
+      }
+    },
+    {
+      "iso2": "IN",
+      "name": "India",
+      "values": {
+        "longLivedAssets": 34909
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "label": "FY2025 Form 10-K, Note 13 (Geographic Information)",
+        "quote": "The Company’s long-lived assets by geographic regions are as follows (in thousands): … India | 34,909 | 6,522"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "All other countries",
+      "countries": null,
+      "values": {
+        "longLivedAssets": 16422
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "label": "FY2025 Form 10-K, Note 13 (Geographic Information)",
+        "quote": "All other countries | 16,422 | 15,712 | Total long-lived assets | $ | 274,245"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Sydney principal office",
+      "place": "Sydney, Australia",
+      "state": null,
+      "iso2": "AU",
+      "type": "headquarters",
+      "description": "Approximately 146,000 square feet of leased office facilities.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "As of June 30, 2025, our principal offices consist of approximately 146,000 and 147,000 square feet of leased office facilities in Sydney, Australia and the San Francisco Bay Area, California, United States, respectively."
+      }
+    },
+    {
+      "name": "San Francisco Bay Area principal office",
+      "place": "San Francisco Bay Area, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Approximately 147,000 square feet of leased office facilities.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "As of June 30, 2025, our principal offices consist of approximately 146,000 and 147,000 square feet of leased office facilities in Sydney, Australia and the San Francisco Bay Area, California, United States, respectively."
+      }
+    }
+  ],
+  "notes": "Only long-lived assets are disclosed by country (U.S., Australia, India, all other); unit is thousands of U.S. dollars. The 10-K gives 13,813 full-time employees with no breakdown, and lists the countries with employees (Australia, Canada, France, Germany, India, Japan, the Netherlands, New Zealand, the Philippines, Poland, Singapore, South Korea, Turkey, the U.S. and the U.K.) without counts. The FY25 Sustainability Report was checked: it has office electricity by country but no headcount by country. Revenue by geography is in the records and not repeated.",
+  "researchedAt": "2026-11-23"
+}

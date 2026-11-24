@@ -1,0 +1,143 @@
+{
+  "id": "kiran-mazumdar-shaw",
+  "company": "Biocon",
+  "metrics": {
+    "plants": {
+      "label": "Manufacturing locations",
+      "unit": "count",
+      "period": "FY2024 (Apr 2023 – Mar 2024)",
+      "tier": "filing",
+      "definition": "'Number of plants' in BRSR Section A item 18 ('Number of locations where plants and/or operations/offices of the entity are situated'): India 5 (2 Bengaluru, 1 Hyderabad, 2 Visakhapatnam); international 2 (Malaysia, New Jersey). Boundary: Biocon Limited and Biocon Biologics (India and Malaysia), excluding Syngene."
+    },
+    "offices": {
+      "label": "Offices",
+      "unit": "count",
+      "period": "FY2024 (Apr 2023 – Mar 2024)",
+      "tier": "filing",
+      "definition": "'Number of offices' in the same BRSR item; same boundary (excludes Syngene)."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "IN",
+      "name": "India",
+      "values": {
+        "plants": 5,
+        "offices": 18
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://biocon.com/docs/Biocon_BRSR_GRI_ESG_Databook_2024.pdf",
+        "label": "FY2024 BRSR (Supplementary Data Book to the Integrated Annual Report FY2024), Section A.III.18",
+        "quote": "National 5 Manufacturing Locations (2 plant - Bengaluru, 1 plant - Hyderabad, 2 plant -Visakhapatnam) 18 23"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "International (outside India)",
+      "countries": null,
+      "values": {
+        "plants": 2,
+        "offices": 12
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://biocon.com/docs/Biocon_BRSR_GRI_ESG_Databook_2024.pdf",
+        "label": "FY2024 BRSR (Supplementary Data Book to the Integrated Annual Report FY2024), Section A.III.18",
+        "quote": "International 2 Manufacturing Locations (Malaysia, New, Jersey) 12 14"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "Headquarters",
+      "place": "Bengaluru, Karnataka, India",
+      "state": null,
+      "iso2": "IN",
+      "type": "headquarters",
+      "description": "Headquarters, marked 'HQ' on the report's Our Global Presence map",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+        "label": "Integrated Annual Report FY2024, Our Global Presence",
+        "quote": "Bengaluru, India(HQ)"
+      }
+    },
+    {
+      "name": "Biocon Park peptide facility",
+      "place": "Bengaluru, Karnataka, India",
+      "state": null,
+      "iso2": "IN",
+      "type": "plant",
+      "description": "New peptide facility at Biocon Park; process validation completed in FY2024 (Bengaluru has two of Biocon's five Indian plants)",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+        "label": "Integrated Annual Report FY2024, Biocon Limited highlights",
+        "quote": "Successfully completed process validation at our new peptide facility at Biocon Park in Bengaluru."
+      }
+    },
+    {
+      "name": "Hyderabad synthetic APIs facility",
+      "place": "Hyderabad, India",
+      "state": null,
+      "iso2": "IN",
+      "type": "plant",
+      "description": "New synthetic APIs facility; process validation initiated in FY2024",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+        "label": "Integrated Annual Report FY2024, Biocon Limited highlights",
+        "quote": "Initiated process validation at our new synthetic APIs facility in Hyderabad."
+      }
+    },
+    {
+      "name": "Visakhapatnam APIs facilities",
+      "place": "Visakhapatnam, India",
+      "state": null,
+      "iso2": "IN",
+      "type": "plant",
+      "description": "APIs manufacturing, including a new immunosuppressants facility; two plants",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+        "label": "Integrated Annual Report FY2024, Biocon Limited highlights",
+        "quote": "process validation at our new immunosuppressants facility in Visakhapatnam"
+      }
+    },
+    {
+      "name": "Biocon Biologics insulins facility (Biocon Sdn. Bhd.)",
+      "place": "Iskandar Puteri, Johor, Malaysia",
+      "state": null,
+      "iso2": "MY",
+      "type": "plant",
+      "description": "Group's first overseas manufacturing facility; Asia's largest integrated insulins manufacturing facility, in the BioXcell biotechnology park",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+        "label": "Integrated Annual Report FY2024, notes on subsidiaries",
+        "quote": "is located within BioXcell, a biotechnology park in Iskandar Puteri, Johor. The facility is Asia’s largest integrated insulins manufacturing facility"
+      }
+    },
+    {
+      "name": "Cranbury oral solid dosage facility",
+      "place": "Cranbury, NJ",
+      "state": "NJ",
+      "iso2": "US",
+      "type": "plant",
+      "description": "Oral solid dosage manufacturing facility acquired by Biocon Generics Inc. in FY2024 for USD 7.7 million",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf",
+        "label": "Integrated Annual Report FY2024, significant events",
+        "quote": "acquired an Oral solid dosage manufacturing facility, located in Cranbury, New Jersey, for USD 7.7 million."
+      }
+    }
+  ],
+  "notes": "Snapshot FY2024 (year ended Mar 31, 2024). The BRSR is the SEBI-mandated Business Responsibility and Sustainability Report, released by Biocon as a Supplementary Data Book with the Integrated Annual Report FY2024 (tier filing); its boundary is Biocon Limited plus Biocon Biologics (India and Malaysia) and excludes Syngene. It gives only national vs international counts, so international plants/offices are a region row (the plants are named as Malaysia and New Jersey, offices are not). The BRSR says Biocon serves 120+ countries but gives no per-country counts; its workforce table is by nationality, not location, so it is not used. No employees or taxes by country found. Sites come from the Integrated Annual Report's own descriptions; Syngene's sites (Bengaluru, Mangaluru, Hyderabad) are not listed.",
+  "researchedAt": "2026-11-23"
+}

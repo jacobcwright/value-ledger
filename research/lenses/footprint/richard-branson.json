@@ -63,6 +63,6 @@
       }
     }
   ],
-  "notes": "Virgin Galactic is a small, U.S.-only operation (744 employees at Dec 31, 2024, per the FY2024 10-K, with no split by location). The 10-K describes its four locations in California, New Mexico and Arizona, recorded as sites, but gives no per-state employees, investment or taxes, and no state or country figures were found elsewhere, so usStates, countries and regions are null and no metrics are defined. New Mexico's state and local governments, not Virgin Galactic, invested more than $200 million in Spaceport America, where the company is anchor tenant under a lease expiring in 2028.",
+  "notes": "Virgin Galactic is a small, U.S.-only operation (744 employees at Dec 31, 2024, per the FY2024 10-K, with no split by location). The 10-K describes its four locations in California, New Mexico and Arizona, recorded as sites, but gives no per-state employees, investment or taxes, and no other company document with state figures was checked, so usStates, countries and regions are null and no metrics are defined. New Mexico's state and local governments, not Virgin Galactic, invested more than $200 million in Spaceport America, where the company is anchor tenant under a lease expiring in 2028.",
   "researchedAt": "2026-11-23"
 }

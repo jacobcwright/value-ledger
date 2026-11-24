@@ -216,19 +216,84 @@
       }
     },
     {
-      "name": "Antibody drug conjugate manufacturing facility (planned)",
-      "place": "Singapore",
-      "iso2": "SG",
-      "type": "manufacturing",
-      "description": "Planned $1.5 billion ADC facility, ready for commercial production in 2029",
+      "name": "Global hub",
+      "place": "Guadalajara, Mexico",
+      "iso2": "MX",
+      "type": "office",
+      "description": "One of 10 global hubs that bring together complementary capabilities, skills and expertise",
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
-        "label": "AstraZeneca Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to Form 20-F)",
-        "quote": "In May 2024, we announced our intention to build a $1.5 billion manufacturing facility in Singapore for antibody drug conjugates (ADCs)"
+        "label": "AstraZeneca Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to Form 20-F), AstraZeneca at a glance",
+        "quote": "Our Global hubs … 1. Guadalajara, Mexico"
+      }
+    },
+    {
+      "name": "Global hub",
+      "place": "San José, Costa Rica",
+      "iso2": "CR",
+      "type": "office",
+      "description": "One of 10 global hubs that bring together complementary capabilities, skills and expertise",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+        "label": "AstraZeneca Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to Form 20-F), AstraZeneca at a glance",
+        "quote": "Our Global hubs … 2. San José, Costa Rica"
+      }
+    },
+    {
+      "name": "Global hub",
+      "place": "Mississauga, Canada",
+      "iso2": "CA",
+      "type": "office",
+      "description": "One of 10 global hubs that bring together complementary capabilities, skills and expertise",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+        "label": "AstraZeneca Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to Form 20-F), AstraZeneca at a glance",
+        "quote": "Our Global hubs … 3. Mississauga, Canada"
+      }
+    },
+    {
+      "name": "Global hub",
+      "place": "Lisbon, Portugal",
+      "iso2": "PT",
+      "type": "office",
+      "description": "One of 10 global hubs that bring together complementary capabilities, skills and expertise",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+        "label": "AstraZeneca Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to Form 20-F), AstraZeneca at a glance",
+        "quote": "Our Global hubs … 4. Lisbon, Portugal"
+      }
+    },
+    {
+      "name": "Global hub",
+      "place": "Dublin, Ireland",
+      "iso2": "IE",
+      "type": "office",
+      "description": "One of 10 global hubs that bring together complementary capabilities, skills and expertise",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+        "label": "AstraZeneca Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to Form 20-F), AstraZeneca at a glance",
+        "quote": "Our Global hubs … 5. Dublin, Ireland"
+      }
+    },
+    {
+      "name": "Global hub",
+      "place": "Barcelona, Spain",
+      "iso2": "ES",
+      "type": "office",
+      "description": "One of 10 global hubs that bring together complementary capabilities, skills and expertise",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231xex15d1.htm",
+        "label": "AstraZeneca Annual Report and Form 20-F Information 2024 (Exhibit 15.1 to Form 20-F), AstraZeneca at a glance",
+        "quote": "Our Global hubs … 6. Barcelona, Spain"
       }
     }
   ],
-  "notes": "Two employee bases are published and both are kept, as separate metrics: year-end 2024 headcount by financial reporting region (US 18,400; Europe 37,100; Emerging Markets 31,800; Established RoW 7,000; total 94,300), and the 2024 monthly average by location of the employing legal entity (UK 11,100; Rest of Europe 25,500; The Americas 24,700; Asia, Africa & Australasia 31,600; total 92,900). They overlap (Europe includes the UK; The Americas includes the US) and must not be added. The report also states 16,300 employees at 26 manufacturing sites in 16 countries and lists 10 global hubs (Guadalajara, San José, Mississauga, Lisbon, Dublin, Barcelona, Warsaw, Bangalore, Chennai, Kuala Lumpur), without per-site counts. Taxes by country are not published: AstraZeneca's 'Our approach to taxation' (astrazeneca.com) says 'We prepare a report which shows our revenue, profit and tax paid by territory which is submitted to UK tax authorities', so the country-by-country report is private; the annual report gives only group income tax paid ($2,750m in 2024). The 2024 Sustainability Data Annex has no country headcount. No U.S. state breakdown is published.",
+  "notes": "Two employee bases are published and both are kept, as separate metrics: year-end 2024 headcount by financial reporting region (US 18,400; Europe 37,100; Emerging Markets 31,800; Established RoW 7,000; total 94,300), and the 2024 monthly average by location of the employing legal entity (UK 11,100; Rest of Europe 25,500; The Americas 24,700; Asia, Africa & Australasia 31,600; total 92,900). They overlap (Europe includes the UK; The Americas includes the US) and must not be added. The report also states 16,300 employees at 26 manufacturing sites in 16 countries and lists 10 global hubs (Guadalajara, San José, Mississauga, Lisbon, Dublin, Barcelona, Warsaw, Bangalore, Chennai, Kuala Lumpur; the first six are sites here, to stay within 12), without per-site counts. In May 2024 it announced a planned $1.5 billion ADC manufacturing facility in Singapore (commercial production from 2029). Taxes by country are not published: AstraZeneca's 'Our approach to taxation' (astrazeneca.com) says 'We prepare a report which shows our revenue, profit and tax paid by territory which is submitted to UK tax authorities', so the country-by-country report is private; the annual report gives only group income tax paid ($2,750m in 2024). The 2024 Sustainability Data Annex has no country headcount. No U.S. state breakdown is published.",
   "researchedAt": "2026-11-23"
 }

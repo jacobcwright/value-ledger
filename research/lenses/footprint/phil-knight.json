@@ -1,0 +1,342 @@
+{
+  "id": "phil-knight",
+  "company": "Nike",
+  "metrics": {
+    "retailStores": {
+      "label": "NIKE Direct and Converse retail stores",
+      "unit": "count",
+      "period": "as of May 31, 2025",
+      "tier": "filing",
+      "definition": "Number of NIKE Brand factory stores, in-line stores (including employee-only stores) and Converse stores operated by NIKE Direct and Converse (FY2025 10-K, U.S. and non-U.S. retail store tables)."
+    },
+    "footwearShare": {
+      "label": "Share of NIKE Brand footwear production",
+      "unit": "percent",
+      "period": "fiscal 2025 (year to May 31, 2025)",
+      "tier": "filing",
+      "definition": "Approximate share of total NIKE Brand footwear finished goods made by contract-manufacturer factories in the country. The 10-K names only the top three countries; factories are independent contractors, not Nike-owned."
+    },
+    "apparelShare": {
+      "label": "Share of NIKE Brand apparel production",
+      "unit": "percent",
+      "period": "fiscal 2025 (year to May 31, 2025)",
+      "tier": "filing",
+      "definition": "Approximate share of total NIKE Brand apparel finished goods made by contract-manufacturer factories in the country (top three countries only)."
+    },
+    "longLivedAssets": {
+      "label": "Long-lived assets",
+      "unit": "currency-millions",
+      "currency": "USD",
+      "period": "as of May 31, 2025",
+      "tier": "filing",
+      "definition": "Long-lived assets (property, plant and equipment, net and operating lease ROU assets, net) attributable to operations in the country, for the countries Nike names as its largest concentrations."
+    }
+  },
+  "usStates": null,
+  "countries": [
+    {
+      "iso2": "US",
+      "name": "United States",
+      "values": {
+        "retailStores": 376,
+        "longLivedAssets": 4467
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, U.S. retail stores table and Note 15 long-lived assets",
+        "quote": "U.S. RETAIL STORES | NUMBER | NIKE Brand factory stores | 213 | NIKE Brand in-line stores (including employee-only stores) | 85 | Converse stores (including factory stores) | 78 | TOTAL | 376 … United States | $ | 4,467 | $ | 4,837"
+      }
+    },
+    {
+      "iso2": "VN",
+      "name": "Vietnam",
+      "values": {
+        "footwearShare": 51,
+        "apparelShare": 31
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 1 (Manufacturing)",
+        "quote": "For fiscal 2025, factories in Vietnam, Indonesia and China manufactured approximately 51%, 28% and 17% of total NIKE Brand footwear, respectively. … For fiscal 2025, factories in Vietnam, China and Cambodia manufactured approximately 31%, 15% and 15% … of total NIKE Brand apparel, respectively."
+      }
+    },
+    {
+      "iso2": "ID",
+      "name": "Indonesia",
+      "values": {
+        "footwearShare": 28
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 1 (Manufacturing)",
+        "quote": "For fiscal 2025, factories in Vietnam, Indonesia and China manufactured approximately 51%, 28% and 17% of total NIKE Brand footwear, respectively."
+      }
+    },
+    {
+      "iso2": "CN",
+      "name": "China",
+      "values": {
+        "footwearShare": 17,
+        "apparelShare": 15,
+        "longLivedAssets": 488
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 1 (Manufacturing) and Note 15 long-lived assets",
+        "quote": "For fiscal 2025, factories in Vietnam, Indonesia and China manufactured approximately 51%, 28% and 17% of total NIKE Brand footwear, respectively. … For fiscal 2025, factories in Vietnam, China and Cambodia manufactured approximately 31%, 15% and 15% … of total NIKE Brand apparel, respectively. … China | 488 | 501"
+      }
+    },
+    {
+      "iso2": "KH",
+      "name": "Cambodia",
+      "values": {
+        "apparelShare": 15
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 1 (Manufacturing)",
+        "quote": "For fiscal 2025, factories in Vietnam, China and Cambodia manufactured approximately 31%, 15% and 15% … of total NIKE Brand apparel, respectively."
+      }
+    },
+    {
+      "iso2": "BE",
+      "name": "Belgium",
+      "values": {
+        "longLivedAssets": 774
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Note 15 long-lived assets by geographic area",
+        "quote": "Long-lived assets attributable to operations in these countries, which consist of property, plant and equipment, net and operating lease ROU assets, net, were as follows: … United States | $ | 4,467 | $ | 4,837 | Belgium | 774 | 757"
+      }
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "values": {
+        "longLivedAssets": 422
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Note 15 long-lived assets by geographic area",
+        "quote": "Long-lived assets attributable to operations in these countries, which consist of property, plant and equipment, net and operating lease ROU assets, net, were as follows: … United Kingdom | 422 | 324"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Outside the United States",
+      "countries": null,
+      "values": {
+        "retailStores": 658
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, non-U.S. retail stores table",
+        "quote": "NON-U.S. RETAIL STORES | NUMBER | NIKE Brand factory stores | 543 | NIKE Brand in-line stores (including employee-only stores) | 61 | Converse stores (including factory stores) | 54 | TOTAL | 658"
+      }
+    },
+    {
+      "name": "Other countries (long-lived assets)",
+      "countries": null,
+      "values": {
+        "longLivedAssets": 1389
+      },
+      "plus": {},
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Note 15 long-lived assets by geographic area",
+        "quote": "United Kingdom | 422 | 324 | Other | 1,389 | 1,299 | TOTAL LONG-LIVED ASSETS | $ | 7,540"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "name": "NIKE World Headquarters",
+      "place": "Beaverton, OR",
+      "state": "OR",
+      "iso2": "US",
+      "type": "headquarters",
+      "description": "Owned, approximately 400-acre site with over 40 buildings, occupied by approximately 10,500 employees.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "The NIKE World Headquarters, owned by NIKE and located near Beaverton, Oregon, USA, is an approximately 400-acre site consisting of over 40 buildings which, together with adjacent leased properties, functions as our global headquarters and is occupied by approximately 10,500 employees"
+      }
+    },
+    {
+      "name": "EMEA headquarters",
+      "place": "Hilversum, Netherlands",
+      "state": null,
+      "iso2": "NL",
+      "type": "regional headquarters",
+      "description": "Leased administrative facility serving as headquarters for Europe, Middle East & Africa.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "We lease a similar, but smaller, administrative facility in Hilversum, the Netherlands, which serves as the headquarters for our Europe, Middle East & Africa geography"
+      }
+    },
+    {
+      "name": "Greater China headquarters",
+      "place": "Shanghai, China",
+      "state": null,
+      "iso2": "CN",
+      "type": "regional headquarters",
+      "description": "Leased office complex serving as headquarters for the Greater China geography.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "We also lease an office complex in Shanghai, China, our headquarters for our Greater China geography"
+      }
+    },
+    {
+      "name": "Memphis distribution centers",
+      "place": "Memphis, TN",
+      "state": "TN",
+      "iso2": "US",
+      "type": "distribution center",
+      "description": "Five of Nike's eight significant U.S. distribution centers are in or near Memphis (two owned, three leased).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "In the United States, NIKE has eight significant distribution centers. Five are located in or near Memphis, Tennessee, two of which are owned and three of which are leased."
+      }
+    },
+    {
+      "name": "Indianapolis distribution center",
+      "place": "near Indianapolis, IN",
+      "state": "IN",
+      "iso2": "US",
+      "type": "distribution center",
+      "description": "Leased and operated by a third-party logistics provider.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "Two other distribution centers, one located near Indianapolis, Indiana and one located in Dayton, Tennessee, are leased and operated by third-party logistics providers."
+      }
+    },
+    {
+      "name": "Converse distribution center",
+      "place": "Ontario, CA",
+      "state": "CA",
+      "iso2": "US",
+      "type": "distribution center",
+      "description": "Leased distribution center for Converse.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "One distribution center for Converse is located in Ontario, California, which is leased."
+      }
+    },
+    {
+      "name": "Laakdal distribution center",
+      "place": "Laakdal, Belgium",
+      "state": null,
+      "iso2": "BE",
+      "type": "distribution center",
+      "description": "Owned; among Nike's most significant distribution facilities outside the U.S.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "The most significant distribution facilities outside the United States are located in Laakdal, Belgium; Taicang, China; Tomisato, Japan and Icheon, Korea, all of which we own."
+      }
+    },
+    {
+      "name": "Taicang distribution center",
+      "place": "Taicang, China",
+      "state": null,
+      "iso2": "CN",
+      "type": "distribution center",
+      "description": "Owned; among Nike's most significant distribution facilities outside the U.S.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "The most significant distribution facilities outside the United States are located in Laakdal, Belgium; Taicang, China; Tomisato, Japan and Icheon, Korea, all of which we own."
+      }
+    },
+    {
+      "name": "Tomisato distribution center",
+      "place": "Tomisato, Japan",
+      "state": null,
+      "iso2": "JP",
+      "type": "distribution center",
+      "description": "Owned; among Nike's most significant distribution facilities outside the U.S.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "The most significant distribution facilities outside the United States are located in Laakdal, Belgium; Taicang, China; Tomisato, Japan and Icheon, Korea, all of which we own."
+      }
+    },
+    {
+      "name": "Icheon distribution center",
+      "place": "Icheon, South Korea",
+      "state": null,
+      "iso2": "KR",
+      "type": "distribution center",
+      "description": "Owned; among Nike's most significant distribution facilities outside the U.S.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "The most significant distribution facilities outside the United States are located in Laakdal, Belgium; Taicang, China; Tomisato, Japan and Icheon, Korea, all of which we own."
+      }
+    },
+    {
+      "name": "Air Manufacturing Innovation, St. Charles",
+      "place": "St. Charles, MO",
+      "state": "MO",
+      "iso2": "US",
+      "type": "manufacturing plant",
+      "description": "Nike-owned facility making Air-Sole cushioning components used in footwear.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "Air Manufacturing Innovation manufactures cushioning components used in footwear at NIKE-owned and leased facilities located near Beaverton, Oregon, and in Dong Nai Province, Vietnam, as well as at NIKE-owned facilities in St. Charles, Missouri."
+      }
+    },
+    {
+      "name": "Air Manufacturing Innovation, Dong Nai",
+      "place": "Dong Nai Province, Vietnam",
+      "state": null,
+      "iso2": "VN",
+      "type": "manufacturing plant",
+      "description": "Nike facility making cushioning components used in footwear.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
+        "label": "FY2025 Form 10-K, Item 2. Properties",
+        "quote": "Air Manufacturing Innovation manufactures cushioning components used in footwear at NIKE-owned and leased facilities located near Beaverton, Oregon, and in Dong Nai Province, Vietnam, as well as at NIKE-owned facilities in St. Charles, Missouri."
+      }
+    }
+  ],
+  "notes": "Countries: production shares are for independent contract factories (the 10-K names only the top three countries for footwear and apparel; as of May 31, 2025 contract manufacturers ran 97 footwear factories in 11 countries and 303 apparel factories in 34 countries). Long-lived assets are given only for the U.S., Belgium, China, the U.K. and 'Other'. Retail stores are given only as U.S. versus non-U.S. No employee count by state, country or region was found: the 10-K gives approximately 77,800 employees worldwide, and the FY24 Sustainability Data file has no headcount by geography (the FY25 impact report was not checked). Nike's online manufacturing map (factories and workers by country) was not used. U.S. revenue ($19,725 million in FY2025) is in the records and not repeated.",
+  "researchedAt": "2026-11-23"
+}

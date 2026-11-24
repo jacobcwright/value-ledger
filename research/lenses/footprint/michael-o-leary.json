@@ -1,10 +1,90 @@
 {
   "id": "michael-o-leary",
   "company": "Ryanair",
-  "metrics": {},
+  "metrics": {
+    "employees": {
+      "label": "Employees",
+      "unit": "people",
+      "period": "as at March 31, 2025",
+      "tier": "filing",
+      "definition": "Employee headcount by country from the Annual Report's CSRD sustainability statement (Table 34), shown only for countries with at least 50 employees representing at least 10% of the Group's 25,952 employees."
+    }
+  },
   "usStates": null,
-  "countries": null,
-  "regions": null,
+  "countries": [
+    {
+      "iso2": "ES",
+      "name": "Spain",
+      "values": {
+        "employees": 8445
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://investor.ryanair.com/wp-content/uploads/2025/05/Ryanair-2025-Annual-Report.pdf",
+        "label": "Ryanair Group Annual Report 2025, Sustainability Statement, Table 34",
+        "quote": "Table 34 – Employee headcount as at March 31, 2025, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … Spain 8,445"
+      }
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "values": {
+        "employees": 3954
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://investor.ryanair.com/wp-content/uploads/2025/05/Ryanair-2025-Annual-Report.pdf",
+        "label": "Ryanair Group Annual Report 2025, Sustainability Statement, Table 34",
+        "quote": "Table 34 – Employee headcount as at March 31, 2025, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … United Kingdom 3,954"
+      }
+    },
+    {
+      "iso2": "IT",
+      "name": "Italy",
+      "values": {
+        "employees": 3245
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://investor.ryanair.com/wp-content/uploads/2025/05/Ryanair-2025-Annual-Report.pdf",
+        "label": "Ryanair Group Annual Report 2025, Sustainability Statement, Table 34",
+        "quote": "Table 34 – Employee headcount as at March 31, 2025, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … Italy 3,245"
+      }
+    },
+    {
+      "iso2": "IE",
+      "name": "Ireland",
+      "values": {
+        "employees": 2941
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://investor.ryanair.com/wp-content/uploads/2025/05/Ryanair-2025-Annual-Report.pdf",
+        "label": "Ryanair Group Annual Report 2025, Sustainability Statement, Table 34",
+        "quote": "Table 34 – Employee headcount as at March 31, 2025, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … Ireland 2,941"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "name": "Other countries",
+      "countries": null,
+      "values": {
+        "employees": 7367
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://investor.ryanair.com/wp-content/uploads/2025/05/Ryanair-2025-Annual-Report.pdf",
+        "label": "Ryanair Group Annual Report 2025, Sustainability Statement, Table 34",
+        "quote": "Table 34 – Employee headcount as at March 31, 2025, in countries the Group has at least 50 employees representing at least 10% of its total number of employees … Other 7,367"
+      }
+    }
+  ],
   "sites": [
     {
       "name": "Airside Business Park (head office)",
@@ -163,6 +243,6 @@
       }
     }
   ],
-  "notes": "The FY2025 20-F lists Ryanair's 93 operating bases (as of May 16, 2025) by airport name only, with no country or per-base aircraft, passenger or staff counts. Counting bases per country would mean mapping airports to countries ourselves, so no country rows were made. No passengers-by-country, employees-by-country or taxes-by-country disclosure was found in the 20-F (it reports 25,952 staff at March 31, 2025 by category, and revenue by country only where above 10%, which is already in the records). Sites are 12 of the 'principal facilities owned or leased by the Ryanair Group' table (site area and floor space in square meters, not recorded as values); the same table also lists East Midlands (simulator training), Travel Labs offices in Madrid and Wroclaw, and administrative offices in Warsaw, Pieta (Malta) and Vienna.",
+  "notes": "The FY2025 20-F lists Ryanair's 93 operating bases (as of May 16, 2025) by airport name only, with no country or per-base aircraft, passenger or staff counts. Counting bases per country would mean mapping airports to countries ourselves, so no country rows were made. Employees by country come from the FY2025 Annual Report's sustainability statement (Table 34, countries with at least 10% of staff: Spain, UK, Italy, Ireland; all others are 'Other', not broken down). No passengers-by-country or taxes-by-country disclosure was found in the 20-F, the Annual Report 2025 or the FY25 Sustainability Report (corporate.ryanair.com); revenue by country (only where above 10%) is already in the records. The Annual Report also says FY25 opened 4 new bases (Dubrovnik, Reggio Calabria, Tangier, Trieste). Sites are 12 of the 'principal facilities owned or leased by the Ryanair Group' table (site area and floor space in square meters, not recorded as values); the same table also lists East Midlands (simulator training), Travel Labs offices in Madrid and Wroclaw, and administrative offices in Warsaw, Pieta (Malta) and Vienna.",
   "researchedAt": "2026-11-23"
 }

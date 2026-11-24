@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T04:37:54.584Z",
+  "generatedAt": "2026-11-24T05:37:42.295Z",
   "sources": {
     "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf": {
       "ok": true,
@@ -1169,6 +1169,12 @@
       "ok": true,
       "reason": "all 2 quotes found (exact)",
       "quotes": 2,
+      "failed": []
+    },
+    "https://flo.uri.sh/visualisation/23490266/embed": {
+      "ok": true,
+      "reason": "all 50 quotes found (fragments)",
+      "quotes": 50,
       "failed": []
     }
   }

@@ -22,8 +22,7 @@
       "unit": "square-feet-millions",
       "period": "as of Dec 31, 2024",
       "tier": "filing",
-      "definition": "Approximate square footage of property occupied for business operations, from the 10-K's Item 2 table of top U.S. and international locations.",
-      "scale": 1000000
+      "definition": "Approximate square footage of property occupied for business operations, from the 10-K's Item 2 table of top U.S. and international locations."
     }
   },
   "usStates": [
@@ -241,7 +240,7 @@
       "state": "MA",
       "values": {
         "offices": 1,
-        "deposits": 0
+        "deposits": 0.0
       },
       "plus": {},
       "source": {
@@ -269,7 +268,7 @@
       "state": "MI",
       "values": {
         "offices": 1,
-        "deposits": 0
+        "deposits": 0.0
       },
       "plus": {},
       "source": {
@@ -297,7 +296,7 @@
       "state": "MO",
       "values": {
         "offices": 1,
-        "deposits": 0
+        "deposits": 0.0
       },
       "plus": {},
       "source": {
