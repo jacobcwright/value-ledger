@@ -473,18 +473,21 @@ function openProfile(leader, section) {
 }
 
 // company-value.js and amazon-distribution.js are needed only inside a profile, so they load on the first
-// open, not with the page. One shared promise; a failed load is retried on the next open.
-let profileScripts = null;
+// open, not with the page. One promise per file, so each runs once; a file that failed to load is retried
+// on the next open.
+const profileScripts = new Map();
 function loadProfileScripts() {
-  profileScripts ??= Promise.all(["amazon-distribution.js","company-value.js"].map(src => new Promise((resolve,reject) => {
-    const script = document.createElement("script");
-    script.src = src;
-    script.async = false;
-    script.onload = resolve;
-    script.onerror = () => { script.remove(); reject(new Error("Could not load " + src)); };
-    document.head.append(script);
-  }))).catch(error => { profileScripts = null; throw error; });
-  return profileScripts;
+  return Promise.all(["amazon-distribution.js","company-value.js"].map(src => {
+    if (!profileScripts.has(src)) profileScripts.set(src,new Promise((resolve,reject) => {
+      const script = document.createElement("script");
+      script.src = src;
+      script.async = false;
+      script.onload = resolve;
+      script.onerror = () => { script.remove(); profileScripts.delete(src); reject(new Error("Could not load " + src)); };
+      document.head.append(script);
+    }));
+    return profileScripts.get(src);
+  }));
 }
 let lastHash = location.hash;
 function route() {
