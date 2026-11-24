@@ -1,0 +1,99 @@
+{
+  "id": "ma-huateng",
+  "company": "Tencent Holdings",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "CNY",
+  "unit": "billions",
+
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2024-12-31",
+    "leader": {
+      "name": "Ma Huateng",
+      "relation": "co-founder",
+      "status": "holds",
+      "pctEconomic": 8.72,
+      "pctVoting": null,
+      "shares": 804859700,
+      "family": null,
+      "source": {
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+        "label": "Tencent Annual Report 2024, Directors' Report, Directors' Interests in Securities (PDF p. 68)",
+        "quote": "Ma Huateng Corporate (Note 1) 804,859,700 8.72% ... 1. Advance Data Services Limited, a British Virgin Islands company wholly-owned by Mr Ma Huateng, holds 709,859,700 Shares directly and 95,000,000 Shares indirectly through its wholly-owned subsidiary, Ma Huateng Global Foundation."
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "MIH Internet Holdings B.V. (Prosus N.V. / Naspers Limited)",
+        "type": "company",
+        "pctEconomic": 24.01,
+        "source": {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+          "label": "Tencent Annual Report 2024, Directors' Report, Interests of Substantial Shareholders (PDF p. 77)",
+          "quote": "MIH Internet Holdings B.V. Long position Corporate (Note 1) 2,214,863,800 24.01% ... MIH Internet Holdings B.V. is controlled by Naspers Limited and held through its non wholly-owned subsidiary, Prosus N.V."
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "Single class of ordinary shares. The annual report lists only two holders of 5% or more as at 31 December 2024: MIH Internet Holdings B.V. (Prosus/Naspers) with 24.01% and Ma Huateng's Advance Data Services with 8.72%. Percentages are of the 9,224,914,953 issued shares."
+    }
+  },
+
+  "cash": {
+    "dividends": {
+      "value": 28.86,
+      "source": {
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+        "label": "Tencent Annual Report 2024, consolidated statement of cash flows (PDF p. 134)",
+        "quote": "Dividends paid to the Company's shareholders (28,859) (20,983) [RMB'Million, 2024 and 2023]"
+      }
+    },
+    "buybacks": {
+      "value": 102.33,
+      "source": {
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+        "label": "Tencent Annual Report 2024, consolidated statement of cash flows (PDF p. 134)",
+        "quote": "Payments for repurchase of shares (102,331) (43,767) [RMB'Million, 2024 and 2023]"
+      }
+    }
+  },
+
+  "workers": {
+    "stockComp": {
+      "value": 23.42,
+      "source": {
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+        "label": "Tencent Annual Report 2024, Note 14 Employee benefits expenses (PDF p. 201)",
+        "quote": "Share-based compensation expenses 23,424 22,782 [RMB'Million, 2024 and 2023]"
+      }
+    },
+    "plan": {
+      "text": "Share awards and share options may be awarded to employees according to individual performance.",
+      "source": {
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+        "label": "Tencent Annual Report 2024, Directors' Report, Employee and Remuneration Policies (PDF p. 79)",
+        "quote": "Apart from pension funds and in-house training programmes, discretionary bonuses, share awards and share options may be awarded to employees according to the assessment of individual performance."
+      }
+    }
+  },
+
+  "geography": {
+    "basis": "Breakdown of the total revenues by geographical location",
+    "segments": [
+      { "name": "The Mainland of China", "value": 595.46 },
+      { "name": "Others", "value": 64.80 }
+    ],
+    "total": 660.26,
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
+      "label": "Tencent Annual Report 2024, Note 6 Segment information and revenues (PDF p. 187)",
+      "quote": "breakdown of the total revenues by geographical location is as follows: ... Revenues – The Mainland of China 595,458 550,779 – Others 64,799 58,236 660,257 609,015 [RMB'Million, 2024 and 2023]"
+    }
+  },
+
+  "notes": "No SEC filings; all figures come from the Tencent Annual Report 2024 as published on HKEXnews (filed 8 April 2025), which reports in RMB (ISO CNY). Ownership is as at 31 December 2024 from the SFO Part XV registers in the Directors' Report, not a proxy record date. Ma Huateng's 8.72% is held through Advance Data Services Limited (wholly owned by him), partly via Ma Huateng Global Foundation; the report lists it as a corporate interest, not a personal one. Buybacks are the cash-flow line 'Payments for repurchase of shares' (RMB 102,331m). This excludes RMB 3,420m of 'Payments for shares purchased/withheld for share award schemes', which buys shares for employee awards rather than returning cash. The Chairman's Statement gives about HKD 112 billion of repurchases and an HKD 3.40 dividend (about HKD 32 billion); those HKD figures are not used. Dividends exclude RMB 2,385m paid to non-controlling interests. Stock comp is the employee benefits expense line (RMB 23,424m); the non-IFRS reconciliation shows a smaller 'equity-settled share-based compensation' of RMB 20,702m for 2024 (Adjusted EBITDA table), which is a different, narrower measure. Tencent's www.tencent.com investor pages returned HTTP 567 to automated requests, so HKEXnews was used.",
+  "researchedAt": "2026-11-23"
+}

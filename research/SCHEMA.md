@@ -23,14 +23,16 @@ Every figure comes from a primary source that you fetched in this session: a com
     "leader": {
       "name": "Mark Zuckerberg",
       "relation": "founder",            // founder | co-founder | founding-family | estate | ceo | former-ceo | chair | investor
-      "status": "holds",                // holds | deceased | no-reported-stake | not-disclosed
+      "status": "holds",                // holds | deceased | no-reported-stake | not-disclosed | not-sourced (you could not reach the document; renderer hides it)
       "pctEconomic": <number>,              // % of all shares outstanding beneficially owned; null if not disclosed
       "pctVoting": <number>,                // % of total voting power if the company reports it (dual class); else null
+      "shares": null,                   // optional: shares beneficially owned, as stated
+      "derived": null,                  // optional, only when the filing gives class counts but no % of all shares: { "pctEconomic": <number>, "method": "…", "inputs": [ {source…}, {source…} ] } — the site labels it "derived"
       "family": null,                   // optional { "label": "Walton family", "pctEconomic": <number>, "source": {...} } when a founding family or estate is the relevant holder
       "source": { "url": "...", "label": "2025 proxy statement, security ownership table", "quote": "verbatim line(s)" }
     },
     "largestHolders": [                 // up to 3 largest disclosed non-leader holders (e.g. the 5%+ owners table in a proxy, or the major-shareholders section of an annual report)
-      { "name": "The Vanguard Group", "type": "asset-manager", "pctEconomic": <number>,
+      { "name": "The Vanguard Group", "type": "asset-manager", "pctEconomic": <number>, "asOf": "2023-12-29", // the date the holder's own report refers to (e.g. the 13G event date the proxy footnote cites)
         "source": { "url": "...", "label": "...", "quote": "..." } }
       // type: asset-manager | index-fund | pension | sovereign | government | family | company | employees | other
     ],
@@ -47,8 +49,8 @@ Every figure comes from a primary source that you fetched in this session: a com
   },
 
   "workers": {
-    "stockComp": { "value": <number>, "source": { ... } },    // share-based compensation expense
-    "plan": null                         // optional sourced sentence about an employee stock purchase plan or broad-based grants, with "quote"
+    "stockComp": { "value": <number>, "source": { ... } },    // share-based compensation expense (company-wide; null if only directors' pay is disclosed)
+    "plan": null                         // optional { "text": "one plain sentence", "source": {...} } about an employee stock purchase plan or broad-based grants
   },
 
   "geography": {                        // revenue by geography exactly as the company reports it (segment note); null if not reported
@@ -63,7 +65,7 @@ Every figure comes from a primary source that you fetched in this session: a com
 }
 ```
 
-`source` objects always have `url` (https, a direct link to the document, not a search page), `label` (short human label, e.g. "FY2024 Form 10-K, cash flow statement") and `quote` (verbatim text from the document containing the number, max ~300 characters). For figures taken from the SEC XBRL API, also add `"xbrl": {"cik": "0001326801", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-12-31", "value": 29750000000}`; the `url` should still be the human-readable filing.
+`source` objects always have `hostType` (`sec` | `company` | `exchange` | `regulator`: where the document you READ is hosted; mirrors, news sites, aggregators and blogs are never allowed), `url` (https, a direct link to the document, not a search page), `label` (short human label, e.g. "FY2024 Form 10-K, cash flow statement") and `quote` (verbatim text from the document containing the number, max ~300 characters). For figures taken from the SEC XBRL API, also add `"xbrl": {"cik": "0001326801", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-12-31", "value": 29750000000}`; the `url` should still be the human-readable filing.
 
 ## Rules of judgment
 
@@ -75,3 +77,12 @@ Every figure comes from a primary source that you fetched in this session: a com
 - **Fiscal year: match the site's snapshot.** Use the fiscal year that ends in the month shown in the leader's `fy` field in `dist/data.js` (e.g. `Dec 2024` → FY2024, `Mar 2025` → the year ended March 2025). Do NOT use later years even though they exist. Ownership percentages come from the proxy / annual report published right after that fiscal year (usually 2025). The example values in this file are placeholders, not data.
 - Values in `cash`, `workers`, `geography` are in **billions of the reporting currency**, rounded to 2 decimals as stated (convert from millions/thousands exactly, no FX conversion).
 - Revenue geography: copy the company's own segment names. If the company reports only "United States" and "International", that's fine.
+
+## Clarifications from the pilot
+
+- **Dividends** = cash dividends paid to the parent company's own shareholders (common, plus preferred only if the company reports them together, and say so in notes). Exclude dividends to non-controlling interests.
+- **Buybacks** = cash paid by the company to repurchase its own shares. Exclude purchases by employee share-award trusts and subsidiaries' redemptions; if the company only reports a net figure, use it and say "net" in the label.
+- **Fiscal-year labels**: use the company's own label (e.g. Walmart "FY2025" = year ended Jan 31 2025) and always fill `fiscalYearEnd`.
+- **Non-U.S. percentages**: if the filing measures % of voting shares or excludes treasury shares, say so in notes; don't recompute.
+- **Overlaps**: never list a holder whose shares are already included in another listed figure (e.g. a family trust included in a family LLC's total). Pick the all-inclusive figure.
+- **Unreachable documents**: use status `not-sourced` and leave values null. Never fill from search-result snippets.

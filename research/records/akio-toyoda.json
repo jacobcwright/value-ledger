@@ -1,0 +1,115 @@
+{
+  "id": "akio-toyoda",
+  "company": "Toyota Motor Corporation",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-03-31",
+  "currency": "JPY",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": null,
+    "leader": {
+      "name": "Akio Toyoda",
+      "relation": "chair",
+      "status": "holds",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "shares": 23747000,
+      "sharesAsOf": "2025-06",
+      "family": null,
+      "source": {
+        "url": "https://global.toyota/pages/global_toyota/ir/library/sec/20-F_202503_final.pdf",
+        "label": "FY2025 Form 20-F, Item 6.A Directors and Senior Management (PDF p. 119)",
+        "quote": "Number of Common Shares (in thousands) ... Akio Toyoda Chairman of the Board of Directors (Representative Director) 1984 Joined TMC 23,747"
+      }
+    },
+    "largestHolders": [
+      {
+        "name": "Toyota Industries Corporation",
+        "type": "company",
+        "pctEconomic": 9.16,
+        "source": {
+          "url": "https://global.toyota/pages/global_toyota/ir/library/sec/20-F_202503_final.pdf",
+          "label": "FY2025 Form 20-F, Item 7.A Major Shareholders (PDF p. 136)",
+          "quote": "the following table sets forth the beneficial ownership of holders of 5% or more of Toyota's common stock as of the most recent practicable date. ... Toyota Industries Corporation 1,192,331 9.16 [shares in thousands; Percentage of Outstanding Voting Shares of Common Stock]"
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock. The 20-F states: \"None of Toyota's shares of common stock entitles the holder to any preferential voting rights\" and \"To the extent known to Toyota, Toyota is not owned or controlled, directly or indirectly, by another corporation, any foreign government or any natural or legal person.\" Toyota Industries is the only 5%+ holder listed."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 1132.33,
+      "source": {
+        "url": "https://global.toyota/pages/global_toyota/ir/library/sec/20-F_202503_final.pdf",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows (PDF p. 182)",
+        "quote": "Dividends paid to Toyota Motor Corporation common shareholders . . . 25 (727,980) (880,197) (1,132,329) [yen in millions, FY2023, FY2024, FY2025]",
+        "xbrl": {
+          "cik": "0001094517",
+          "concept": "ifrs-full:DividendsPaidToEquityHoldersOfParentClassifiedAsFinancingActivities",
+          "end": "2025-03-31",
+          "value": 1132329000000
+        }
+      }
+    },
+    "buybacks": {
+      "value": 1179.04,
+      "source": {
+        "url": "https://global.toyota/pages/global_toyota/ir/library/sec/20-F_202503_final.pdf",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows (PDF p. 182)",
+        "quote": "Reissuance (repurchase) of treasury stock . . . (431,099) (231,069) (1,179,043) [yen in millions, FY2023, FY2024, FY2025]"
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": null,
+      "source": null
+    },
+    "plan": {
+      "text": "Toyota has an employee stock ownership association in Japan, which held 69,368,281 Toyota shares at March 31, 2025.",
+      "source": {
+        "url": "https://global.toyota/pages/global_toyota/ir/library/sec/20-F_202503_final.pdf",
+        "label": "FY2025 Form 20-F, Item 6.E Share Ownership (PDF p. 134)",
+        "quote": "Toyota also has an employee stock ownership association in Japan for employees and full time and part time company advisors. ... As of March 31, 2025, the employee stock ownership association held 69,368,281 shares of Toyota's common stock."
+      }
+    }
+  },
+  "geography": {
+    "basis": "Revenues from external customers, aggregated by region based on the location of the country where TMC or consolidated subsidiaries are located",
+    "segments": [
+      {
+        "name": "Japan",
+        "value": 10719.12
+      },
+      {
+        "name": "North America",
+        "value": 18930.25
+      },
+      {
+        "name": "Europe",
+        "value": 6110.05
+      },
+      {
+        "name": "Asia",
+        "value": 7903.36
+      },
+      {
+        "name": "Other",
+        "value": 4373.92
+      }
+    ],
+    "total": 48036.7,
+    "source": {
+      "url": "https://global.toyota/pages/global_toyota/ir/library/sec/20-F_202503_final.pdf",
+      "label": "FY2025 Form 20-F, note 5 Segment information, (4) Geographic information, year ended March 31, 2025 (PDF p. 203)",
+      "quote": "Revenues from external customers . . . 10,719,120 18,930,253 6,110,052 7,903,360 4,373,919 — 48,036,704 [Japan, North America, Europe, Asia, Other, Elimination, Consolidated; yen in millions]. \"Other\" consists of Central and South America, Oceania, Africa and the Middle East."
+    }
+  },
+  "notes": "Fiscal year ended March 31, 2025 (matches data.js fy 'Mar 2025'). Toyota reports under IFRS in Japanese yen, so all values are billions of JPY (converted exactly from yen in millions, no FX). Source is the Form 20-F filed with the SEC on June 18, 2025 (accession 0001193125-25-142326, https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm); the text was read from Toyota's own PDF copy of that 20-F on global.toyota because www.sec.gov refused the research user agent. The dividend figure is cross-checked against SEC XBRL. LEADER STAKE: the 20-F gives Akio Toyoda's holding as 23,747 thousand shares (as of June 2025) but states no percentage, so pctEconomic is null. For reference only, 23,747,000 / 13,048,929,774 shares outstanding at March 31, 2025 (Item 7.A) is about 0.18%; this is derived, not disclosed. No Toyoda family aggregate holding is disclosed. The 20-F names Sakichi Toyoda and Kiichiro Toyoda as founders but does not describe Akio Toyoda's family relationship to them, so relation is set to 'chair' to match his disclosed role; 'founding-family' could fit but is not sourced here. HOLDERS: the 5% table is 'as of the most recent practicable date', with no date given, and is measured as a 'Percentage of Outstanding Voting Shares'. It does not reconcile with the March 31, 2025 outstanding count: 1,192,331 thousand / 13,048,929,774 = 9.14%, against the stated 9.16%. So its denominator is a different date or a voting-rights basis (in Japan, shares below one trading unit carry no vote). ownership.asOf is therefore null; the leader's share count is as of June 2025. Japanese trust banks (custodians) are not listed because they are not 5% beneficial owners. BUYBACKS: the cash-flow line is labelled 'Reissuance (repurchase) of treasury stock', a net line; the statement of changes in equity shows gross 'Repurchase of treasury stock (1,179,043)' and a non-cash 'Reissuance of treasury stock 2,222' for FY2025. No XBRL fact for the buyback is in the SEC companyfacts API, so the xbrl object is omitted. Dividends exclude ¥127,232 million paid to non-controlling interests. STOCK COMP: null. The 20-F does not state a company-wide share-based compensation expense. The only XBRL share-based figure (ifrs-full:KeyManagementPersonnelCompensationSharebasedPayment, ¥1.94 billion) covers directors only, and the employee ESOP Trust share plan was only approved on March 24, 2025, so it adds nothing to FY2025.",
+  "researchedAt": "2026-11-23"
+}

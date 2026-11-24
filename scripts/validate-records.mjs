@@ -18,7 +18,9 @@ const leaders = new Function(fs.readFileSync(path.join(root, "dist/data.js"), "u
 const ids = new Set(leaders.map(l => l.id));
 
 const RELATIONS = ["founder","co-founder","founding-family","estate","ceo","former-ceo","chair","investor"];
-const STATUSES = ["holds","deceased","no-reported-stake","not-disclosed"];
+const STATUSES = ["holds","deceased","no-reported-stake","not-disclosed","not-sourced"];
+const HOSTS = ["sec","company","exchange","regulator"];
+const MIRRORS = /dfcfw\.com|9to5mac|seekingalpha|marketscreener|macrotrends|stockanalysis|companiesmarketcap|wsj\.com|reuters\.com|bloomberg|yahoo\.|investing\.com|wikipedia|annualreports\.com|last10k|fintel|gurufocus/;
 const HOLDER_TYPES = ["asset-manager","index-fund","pension","sovereign","government","family","company","employees","other"];
 
 function checkSource(src, where, errs, facts, links) {
@@ -26,6 +28,8 @@ function checkSource(src, where, errs, facts, links) {
   if (!/^https:\/\/[^\s]+$/.test(src.url || "")) errs.push(`${where}: source.url must be https`);
   if (/google\.|bing\.|duckduckgo\./.test(src.url || "")) errs.push(`${where}: source.url is a search page`);
   if (!src.label) errs.push(`${where}: source.label missing`);
+  if (!HOSTS.includes(src.hostType)) errs.push(`${where}: source.hostType must be one of ${HOSTS.join("|")}`);
+  if (MIRRORS.test(src.url || "")) errs.push(`${where}: source.url is a mirror/aggregator, not a primary document`);
   if (!src.quote || src.quote.length < 8) errs.push(`${where}: source.quote missing or too short`);
   if (src.quote && src.quote.length > 600) errs.push(`${where}: source.quote too long`);
   if (src.xbrl) facts.push({ where, ...src.xbrl });
@@ -56,11 +60,12 @@ function validate(rec, file) {
     if (L.status === "deceased" && L.pctEconomic != null) errs.push("deceased leader must have pctEconomic null");
     if (L.pctEconomic != null || L.status === "holds") checkSource(L.source, "leader", errs, facts, links);
     else if (L.source) checkSource(L.source, "leader", errs, facts, links);
+    if (L.derived) { num(L.derived.pctEconomic, "leader.derived.pctEconomic", errs, {max: 100, nullable: false}); if (!L.derived.method) errs.push("leader.derived.method missing"); (L.derived.inputs || []).forEach((src, i) => checkSource(src, `leader.derived.inputs[${i}]`, errs, facts, links)); if (!(L.derived.inputs || []).length) errs.push("leader.derived.inputs missing"); }
     if (L.family) { num(L.family.pctEconomic, "leader.family.pctEconomic", errs, {max: 100}); checkSource(L.family.source, "leader.family", errs, facts, links); }
   }
   const H = o.largestHolders || [];
   if (H.length > 3) errs.push("largestHolders max 3");
-  let sum = (L?.pctEconomic || 0) + (L?.family?.pctEconomic || 0);
+  let sum = (L?.pctEconomic ?? L?.derived?.pctEconomic ?? 0) + (L?.family?.pctEconomic || 0);
   H.forEach((h, i) => {
     if (!h.name) errs.push(`largestHolders[${i}].name missing`);
     if (!HOLDER_TYPES.includes(h.type)) errs.push(`largestHolders[${i}].type "${h.type}" invalid`);

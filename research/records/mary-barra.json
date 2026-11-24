@@ -1,0 +1,102 @@
+{
+  "id": "mary-barra",
+  "company": "General Motors",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": null,
+    "leader": {
+      "name": "Mary Barra",
+      "relation": "ceo",
+      "status": "not-disclosed",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "family": null
+    },
+    "largestHolders": null,
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock (Common Stock, $0.01 par value, NYSE: GM, per the 10-K cover). Ownership details were not sourced; see notes."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 0.53,
+      "source": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202504231660794517_1.pdf",
+        "label": "GM 2024 Annual Report (Form 10-K), consolidated statements of equity, year 2024 (PDF p. 62)",
+        "quote": "Cash dividends paid on common stock — — (530) — — (530) — [Balance at December 31, 2024 section; dollars in millions]",
+        "xbrl": {
+          "cik": "0001467858",
+          "concept": "us-gaap:DividendsCommonStockCash",
+          "end": "2024-12-31",
+          "value": 530000000
+        }
+      }
+    },
+    "buybacks": {
+      "value": 7.06,
+      "source": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202504231660794517_1.pdf",
+        "label": "GM 2024 Annual Report (Form 10-K), consolidated statements of cash flows (PDF p. 61)",
+        "quote": "Payments to purchase common stock (Note 20) (7,064) (11,115) (2,500) [dollars in millions, 2024, 2023, 2022]",
+        "xbrl": {
+          "cik": "0001467858",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2024-12-31",
+          "value": 7064000000
+        }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 0.33,
+      "source": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202504231660794517_1.pdf",
+        "label": "GM 2024 Annual Report (Form 10-K), Note 22 Stock Incentive Plans (PDF p. 104)",
+        "quote": "Total compensation expense related to the above awards was $332 million, $340 million and $419 million in the years ended December 31, 2024, 2023 and 2022.",
+        "xbrl": {
+          "cik": "0001467858",
+          "concept": "us-gaap:AllocatedShareBasedCompensationExpense",
+          "end": "2024-12-31",
+          "value": 332000000
+        }
+      }
+    },
+    "plan": null
+  },
+  "geography": {
+    "basis": "Principal geographic areas: automotive revenue attributed to geographic areas based on the country of sale; GM Financial revenue attributed to the geographic area where the financing is originated",
+    "segments": [
+      {
+        "name": "Automotive – U.S.",
+        "value": 140.54
+      },
+      {
+        "name": "Automotive – Non-U.S.",
+        "value": 31.07
+      },
+      {
+        "name": "GM Financial – U.S.",
+        "value": 13.58
+      },
+      {
+        "name": "GM Financial – Non-U.S.",
+        "value": 2.26
+      }
+    ],
+    "total": 187.44,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202504231660794517_1.pdf",
+      "label": "GM 2024 Annual Report (Form 10-K), Note 23 Segment Reporting, principal geographic areas (PDF p. 108)",
+      "quote": "Automotive U.S. $ 140,536 ... Non-U.S. 31,070 ... GM Financial U.S. 13,575 ... Non-U.S. 2,261 ... Total consolidated $ 187,442 [2024 Net Sales and Revenue, dollars in millions]"
+    }
+  },
+  "notes": "OWNERSHIP NOT SOURCED. Fiscal year ended December 31, 2024. SOURCING CAVEAT: www.sec.gov refused the research user agent, and GM's investor site (investor.gm.com, including its static-files PDFs) returned HTTP 403. The 10-K text was therefore read from a copy of GM's printed 2024 Annual Report (which wraps the Form 10-K, accession 0001467858-25-000032) hosted on pdf.dfcfw.com, a third-party filings mirror (East Money). This is not a primary host. Every cash and stock-comp value was confirmed exactly against SEC XBRL for that 10-K, but the URLs should be swapped for the EDGAR document (https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm) once it can be fetched. DIVIDENDS: the cash-flow line 'Dividends paid' is $653 million, but it includes $123 million of 'Dividends to noncontrolling interests' (shown separately in the statement of equity). The common-shareholder figure, $530 million ('Cash dividends paid on common stock'), is recorded to match the parent-shareholder basis used for the other companies. BUYBACKS exclude the $101 million 'Issuance (redemption) of subsidiary stock' line. STOCK COMP: $332 million is the 10-K's stated total expense for stock incentive awards. XBRL also carries $543 million ('Stock based compensation' in the statement of equity, an APIC adjustment); that is not the expense and is not used. GEOGRAPHY: GM reports four rows, splitting Automotive and GM Financial into U.S. and Non-U.S.; they are copied as reported. The filing gives no combined U.S. / Non-U.S. revenue total. Ownership: the 2025 proxy (DEF 14A, accession 0001467858-25-000084, https://www.sec.gov/Archives/edgar/data/1467858/000146785825000084/gm-20250422.htm) could not be fetched, so Mary Barra's stake and the 5% holders are not recorded. leader.status 'not-disclosed' is a placeholder meaning 'not sourced in this pass', NOT that the proxy omits her holding. largestHolders is null for the same reason. No broad employee stock purchase plan is described in the 10-K text reviewed, so plan is null.",
+  "researchedAt": "2026-11-23"
+}

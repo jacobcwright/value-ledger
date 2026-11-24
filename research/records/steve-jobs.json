@@ -1,0 +1,138 @@
+{
+  "id": "steve-jobs",
+  "company": "Apple",
+  "fiscalYear": "FY2024",
+  "fiscalYearEnd": "2024-09-28",
+  "currency": "USD",
+  "unit": "billions",
+  "ownership": {
+    "basis": "economic",
+    "asOf": "2025-01-02",
+    "leader": {
+      "name": "Steve Jobs",
+      "relation": "co-founder",
+      "status": "deceased",
+      "pctEconomic": null,
+      "pctVoting": null,
+      "family": null,
+      "source": null
+    },
+    "largestHolders": [
+      {
+        "name": "The Vanguard Group",
+        "type": "asset-manager",
+        "pctEconomic": 8.76,
+        "source": {
+          "url": "https://9to5mac.com/wp-content/uploads/sites/6/2025/01/aapl_courtesy-pdf.pdf",
+          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (PDF p. 97)",
+          "quote": "The Vanguard Group 1,317,966,471(2) 8.76% ... (2) Represents shares of Apple's common stock beneficially owned as of December 29, 2023, based on a Schedule 13G/A filed with the SEC on February 13, 2024, by The Vanguard Group.",
+          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/320193/000130817925000008/aapl_courtesy-pdf.pdf"
+        }
+      },
+      {
+        "name": "BlackRock, Inc.",
+        "type": "asset-manager",
+        "pctEconomic": 6.94,
+        "source": {
+          "url": "https://9to5mac.com/wp-content/uploads/sites/6/2025/01/aapl_courtesy-pdf.pdf",
+          "label": "2025 proxy statement, Security Ownership of Certain Beneficial Owners and Management (PDF p. 97)",
+          "quote": "BlackRock, Inc. 1,043,713,019(3) 6.94% ... (3) Represents shares of Apple's common stock beneficially owned as of December 31, 2023, based on a Schedule 13G/A filed with the SEC on February 12, 2024, by BlackRock, Inc.",
+          "edgarUrl": "https://www.sec.gov/Archives/edgar/data/320193/000130817925000008/aapl_courtesy-pdf.pdf"
+        }
+      }
+    ],
+    "structure": {
+      "dualClass": false,
+      "controlled": false,
+      "note": "One class of common stock; 15,037,874,000 shares were issued and outstanding on January 2, 2025 (the proxy's Table Date). The proxy lists only Vanguard and BlackRock as owners of more than 5%; every director and executive officer, and the group of 12, is marked * (less than 1%)."
+    }
+  },
+  "cash": {
+    "dividends": {
+      "value": 15.23,
+      "source": {
+        "url": "https://images.apple.com/newsroom/pdfs/fy2024-q4/FY24_Q4_Consolidated_Financial_Statements.pdf",
+        "label": "Apple FY24 Q4 condensed consolidated statements of cash flows (twelve months ended Sept 28, 2024)",
+        "quote": "Payments for dividends and dividend equivalents (15,234) (15,025) [in millions, twelve months ended September 28, 2024 and September 30, 2023]",
+        "xbrl": {
+          "cik": "0000320193",
+          "concept": "us-gaap:PaymentsOfDividends",
+          "end": "2024-09-28",
+          "value": 15234000000
+        }
+      }
+    },
+    "buybacks": {
+      "value": 94.95,
+      "source": {
+        "url": "https://images.apple.com/newsroom/pdfs/fy2024-q4/FY24_Q4_Consolidated_Financial_Statements.pdf",
+        "label": "Apple FY24 Q4 condensed consolidated statements of cash flows (twelve months ended Sept 28, 2024)",
+        "quote": "Repurchases of common stock (94,949) (77,550) [in millions, twelve months ended September 28, 2024 and September 30, 2023]",
+        "xbrl": {
+          "cik": "0000320193",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2024-09-28",
+          "value": 94949000000
+        }
+      }
+    }
+  },
+  "workers": {
+    "stockComp": {
+      "value": 11.69,
+      "source": {
+        "url": "https://images.apple.com/newsroom/pdfs/fy2024-q4/FY24_Q4_Consolidated_Financial_Statements.pdf",
+        "label": "Apple FY24 Q4 condensed consolidated statements of cash flows (twelve months ended Sept 28, 2024)",
+        "quote": "Share-based compensation expense 11,688 10,833 [in millions, twelve months ended September 28, 2024 and September 30, 2023]",
+        "xbrl": {
+          "cik": "0000320193",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2024-09-28",
+          "value": 11688000000
+        }
+      }
+    },
+    "plan": {
+      "text": "Apple runs an Employee Stock Purchase Plan, with 66,924,428 shares reserved for issuance.",
+      "source": {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2025/01/aapl_courtesy-pdf.pdf",
+        "label": "2025 proxy statement, Equity Compensation Plan Information, footnote (4)",
+        "quote": "This number includes 1,022,428,528 shares available for issuance under the 2022 Plan, 66,924,428 shares reserved for issuance under the Employee Stock Purchase Plan, and 4,110,122 shares available for issuance under the Director Plan.",
+        "edgarUrl": "https://www.sec.gov/Archives/edgar/data/320193/000130817925000008/aapl_courtesy-pdf.pdf"
+      }
+    }
+  },
+  "geography": {
+    "basis": "Net sales by reportable segment",
+    "segments": [
+      {
+        "name": "Americas",
+        "value": 167.05
+      },
+      {
+        "name": "Europe",
+        "value": 101.33
+      },
+      {
+        "name": "Greater China",
+        "value": 66.95
+      },
+      {
+        "name": "Japan",
+        "value": 25.05
+      },
+      {
+        "name": "Rest of Asia Pacific",
+        "value": 30.66
+      }
+    ],
+    "total": 391.04,
+    "source": {
+      "url": "https://images.apple.com/newsroom/pdfs/fy2024-q4/FY24_Q4_Consolidated_Financial_Statements.pdf",
+      "label": "Apple FY24 Q4 condensed consolidated statements of operations, net sales by reportable segment (twelve months ended Sept 28, 2024)",
+      "quote": "Net sales by reportable segment: Americas $ 167,045 ... Europe 101,328 ... Greater China 66,952 ... Japan 25,052 ... Rest of Asia Pacific 30,658 ... Total net sales $ 391,035 [twelve months ended September 28, 2024, in millions]"
+    }
+  },
+  "notes": "Fiscal year ended September 28, 2024 (matches data.js fy 'Sep 2024'). SOURCING CAVEAT: www.sec.gov refused the research user agent, so the FY2024 Form 10-K (accession 0000320193-24-000123) could not be read directly. Cash, stock-comp and segment figures are quoted from Apple's own FY24 Q4 condensed consolidated financial statements on apple.com (unaudited, released with Q4 results), and every cash and stock-comp value was confirmed against the SEC XBRL facts filed with the FY2024 10-K. The 2025 proxy statement (DEF 14A, accession 0001308179-25-000008, filed January 10, 2025) was read from a copy of the SEC courtesy PDF hosted by a third party (9to5mac.com), which is the `url`; the matching EDGAR document is in `edgarUrl`. The copy's PDF metadata shows creation on January 10, 2025, and the holder percentages reconcile with the stated share count (1,317,966,471 / 15,037,874,000 = 8.76%; 1,043,713,019 / 15,037,874,000 = 6.94%), but it should be confirmed against EDGAR. LEADER: Steve Jobs is deceased. The proxy discloses no holding by his estate, family or a related trust (no Jobs-related entity is a 5% holder), so family is null and no source is attached. HOLDERS: Vanguard and BlackRock percentages are stale; the proxy bases them on Schedule 13G/A filings reporting ownership at the end of December 2023, applied against the January 2, 2025 share count. Berkshire Hathaway is not listed as a 5% holder in this proxy. Dividends include dividend equivalents paid on RSUs, as the cash-flow line says.",
+  "researchedAt": "2026-11-23"
+}
