@@ -2,27 +2,27 @@
   "id": "rupert-murdoch",
   "company": "News Corp",
   "nbim": {
-    "pct": 1.28,
-    "marketValueUSD": 0.204,
-    "asOf": "2024-12-31",
+    "pct": 1.21,
+    "marketValueUSD": 0.168,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"55aexeh8dek3\",\"cc\":\"US\",\"n\":\"News Corp\",\"a\":{\"e\":203573490,\"n\":2312055377},\"at\":0,\"o\":1.28,\"eq\":{\"vid\":\"NWSA\",\"v\":0.59,\"s\":\"Consumer Discretionary\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"55aexeh8dek3\",\"cc\":\"US\",\"n\":\"News Corp\",\"a\":{\"e\":168398914,\"n\":1666391454},\"at\":0,\"o\":1.21,\"eq\":{\"vid\":\"NWSA\",\"v\":0.56,\"s\":\"Consumer Discretionary\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": {
-    "count": 12700,
-    "asOf": "2025-08-01",
+    "count": 11600,
+    "asOf": "2026-07-31",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000419/nws-20250630.htm",
-      "label": "FY2025 Form 10-K, Item 5",
-      "quote": "As of August 1, 2025, there were approximately 12,700 holders of record of shares of Class A Common Stock and 300 holders of record of shares of Class B Common Stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm",
+      "label": "FY2026 Form 10-K, Item 5",
+      "quote": "As of July 31, 2026, there were approximately 11,600 holders of record of shares of Class A Common Stock and 300 holders of record of shares of Class B Common Stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;News Corp;Consumer Discretionary;2312055377;203573490;0.59%;1.28%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of News Corp. Holders of record: Class A (NWSA) only; Class B has approximately 300 holders of record.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: its Form 13F for the quarter ended September 30, 2026 lists no shares of News Corp (no issuer row containing \"NEWS\"), so calpers is null. Holders of record: Class A (NWSA) only; Class B has approximately 300 holders of record.",
+  "researchedAt": "2026-11-24"
 }

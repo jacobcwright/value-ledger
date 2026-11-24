@@ -1,0 +1,22 @@
+{
+  "id": "dan-schulman",
+  "company": "PayPal",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 830658298,
+      "sharesAsOf": "2026-10-21",
+      "pricedAs": "PYPL",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 21, 2026, there were 830,658,298 shares of the registrant’s common stock, $0.0001 par value, outstanding"
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as PYPL; no preferred stock is outstanding. The Q3 2026 10-Q cover (filed October 27, 2026) is the latest count; buybacks cut it from 920,664,542 on the FY2025 10-K cover (January 28, 2026).",
+  "researchedAt": "2026-11-24"
+}

@@ -5,9 +5,9 @@
     "employees": {
       "label": "Employees (Company scope)",
       "unit": "people",
-      "period": "year ended Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "company-published",
-      "definition": "ESG report 'Number of employees by geographic region'. Covers the Company's permanent employees plus consultants and interns directly employed by the Company (58,350 total), excluding subsidiaries and consolidated investment companies; the group total in the annual report is 110,558."
+      "definition": "ESG report 'Number of employees by geographic region'. Covers permanent employees of the Company, which the report defines as the Group Headquarters and its directly managed wholly-owned subsidiaries, excluding Tencent Music Entertainment Group and China Literature Limited (87,412 total; consultants and interns, 5,566, are counted separately and not included); the group total in the annual report is 115,849."
     }
   },
   "usStates": null,
@@ -16,14 +16,14 @@
       "iso2": "CN",
       "name": "Chinese Mainland",
       "values": {
-        "employees": 56247
+        "employees": 85460
       },
       "plus": {},
       "source": {
         "hostType": "exchange",
-        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800679.pdf",
-        "label": "Tencent 2024 Environmental, Social and Governance Report (HKEX filing), Employment Performance table",
-        "quote": "Number of employees by geographic region | The Mainland of China 56,247"
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901285.pdf",
+        "label": "Tencent 2025 Environmental, Social and Governance Report (HKEX filing, April 9, 2026), Workforce-related Information table",
+        "quote": "Number of employees by geographic region Chinese Mainland 85,460 79,768 74,398 [columns 2025 | 2024 | 2023]"
       }
     }
   ],
@@ -32,14 +32,14 @@
       "name": "Others (outside the Mainland of China)",
       "countries": null,
       "values": {
-        "employees": 2103
+        "employees": 1952
       },
       "plus": {},
       "source": {
         "hostType": "exchange",
-        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800679.pdf",
-        "label": "Tencent 2024 Environmental, Social and Governance Report (HKEX filing), Employment Performance table",
-        "quote": "Number of employees by geographic region | The Mainland of China 56,247 | Others 2,103"
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901285.pdf",
+        "label": "Tencent 2025 Environmental, Social and Governance Report (HKEX filing, April 9, 2026), Workforce-related Information table",
+        "quote": "Number of employees by geographic region Chinese Mainland 85,460 79,768 74,398 Others 1,952 1,972 1,841 [columns 2025 | 2024 | 2023]"
       }
     }
   ],
@@ -52,8 +52,8 @@
       "description": "Group head office",
       "source": {
         "hostType": "exchange",
-        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040800667.pdf",
-        "label": "Tencent Holdings 2024 Annual Report (HKEX filing, April 8, 2025), Corporate Information",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901231.pdf",
+        "label": "Tencent Holdings 2025 Annual Report (HKEX filing, April 9, 2026), Corporate Information",
         "quote": "TENCENT GROUP HEAD OFFICE Tencent Binhai Towers No. 33 Haitian 2nd Road Nanshan District Shenzhen, 518054"
       }
     },
@@ -71,6 +71,6 @@
       }
     }
   ],
-  "notes": "The 2024 annual report gives only the group headcount (110,558 at Dec 31, 2024) with no geographic split. The ESG report splits a narrower Company-scope headcount (58,350, excluding subsidiaries and consolidated investees) into 'The Mainland of China' and 'Others' (Others is not defined by country, so it is a region with countries null). No province-level, country-level tax or site counts are published. 'Others' is labelled here as outside the Mainland of China; the report's own label is 'Others'.",
-  "researchedAt": "2026-11-23"
+  "notes": "The 2025 annual report gives only the group headcount (115,849 at Dec 31, 2025, including subsidiaries and consolidated investment companies) with no geographic split. The 2025 ESG report splits a narrower Company-scope headcount into 'Chinese Mainland' (85,460) and 'Others' (1,952), total 87,412 permanent employees. Its scope was expanded in 2025 to the Group Headquarters and directly managed wholly-owned subsidiaries (excluding Tencent Music and China Literature) and 2024 was restated (81,740), so the figures are not comparable with the 58,350 in the 2024 report. 'Others' is not defined by country, so it is a region with countries null, labelled here as outside the Mainland of China. No province-level, country-level tax or site counts are published. The Tianjin Binhai data centre is not mentioned in the 2025 ESG report; that site is kept on the 2024 ESG report (still online on 2026-11-24).",
+  "researchedAt": "2026-11-24"
 }

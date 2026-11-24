@@ -1,0 +1,31 @@
+{
+  "id": "vlad-tenev",
+  "company": "Robinhood",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 2900,
+    "asOf": "2025-12-31",
+    "basis": "approximately 2,900 full-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, we had approximately 2,900 full-time employees."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Our median employee's annual total compensation for 2025",
+    "value": 194162,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000053/hood-20260422.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "Mr. Tenev's annual total compensation for 2025 was $3,004,978, as reported in the Summary Compensation Table included in this proxy statement. • Our median employee's annual total compensation for 2025 was $194,162."
+    }
+  },
+  "notes": "Employees: the 10-K's approximate year-end count; the proxy's pay-ratio section gives the exact figure of 2,958 regular full-time employees at December 31, 2025. Payroll: the 10-K discloses no total staff cost, so the 2026 proxy's CEO pay ratio median for 2025 is used (same year; identified by total direct compensation including the accounting value of 2025 equity awards).",
+  "researchedAt": "2026-11-24"
+}

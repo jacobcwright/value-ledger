@@ -2,54 +2,54 @@
   "id": "peter-thiel",
   "company": "Palantir Technologies",
   "nbim": {
-    "pct": 1,
-    "marketValueUSD": 1.729,
-    "asOf": "2024-12-31",
+    "pct": 1.24,
+    "marketValueUSD": 3.455,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"t9d74eivurhl\",\"cc\":\"US\",\"n\":\"Palantir Technologies Inc\",\"a\":{\"e\":1728970094,\"n\":19636518496},\"at\":0,\"o\":1,\"eq\":{\"vid\":\"PLTR\",\"v\":0.73,\"s\":\"Technology\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"t9d74eivurhl\",\"cc\":\"US\",\"n\":\"Palantir Technologies Inc\",\"a\":{\"e\":3455000161,\"n\":34188954098},\"at\":0,\"o\":1.24,\"eq\":{\"vid\":\"PLTR\",\"v\":0.9,\"s\":\"Technology\"}}"
     }
   },
   "calpers": {
-    "shares": 3224073,
-    "asOf": "2024-12-31",
+    "shares": 4497288,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "PALANTIR TECHNOLOGIES INC CL A 69608A108 243836641 3224073"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "PALANTIR TECHNOLOGIES INC CL A 69608A108 841217720 4497288"
     },
     "derived": {
-      "pct": 0.137,
-      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "pct": 0.187,
+      "method": "CalPERS shares ÷ shares outstanding, all classes (4,497,288 ÷ 2,409,497,474)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "As of February 10, 2025, there were 2,248,950,826 shares of the registrants' Class A common stock outstanding, 95,400,680 shares of the registrant's Class B common stock outstanding, and 1,005,000 shares of the registrant's Class F common stock outstanding."
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+          "quote": "As of October 26, 2026, there were 2,306,705,341 shares of the registrant’s Class A common stock outstanding, 101,787,133 shares of the registrant’s Class B common stock outstanding, and 1,005,000 shares of the registrant’s Class F common stock outstanding."
         },
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
-          "label": "FY2024 Form 10-K, share class rights",
-          "quote": "The rights, including the liquidation and dividend rights, of the holders of Class A, Class B, and Class F common stock (collectively, the \"common stock\") are identical, except with respect to voting and conversion."
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+          "label": "FY2025 Form 10-K, notes, net income per share",
+          "quote": "The rights, including the liquidation and dividend rights, of the holders of Class A, Class B, and Class F common stock (collectively, the “common stock”) are identical, except with respect to voting and conversion."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 1678,
-    "asOf": "2025-02-10",
+    "count": 2178,
+    "asOf": "2026-02-10",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of February 10, 2025, there were 1,678 holders of record of our Class A common stock, 22 holders of record of our Class B common stock, and one holder of record of our Class F common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of February 10, 2026, there were 2,178 holders of record of our Class A common stock, 16 holders of record of our Class B common stock, and one holder of record of our Class F common stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Palantir Technologies Inc;Technology;19636518496;1728970094;0.73%;1%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds Class A; denominator is Classes A, B and F, which the 10-K says have identical liquidation and dividend rights. Holders of record: Listed Class A only; the 10-K also gives 22 holders of record of Class B and one of Class F.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); NBIM's voting share (0.9%) is below its ownership share because of the high-vote Class B and F shares. CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026 (Class A shares). The CalPERS percentage divides its shares by all three classes outstanding on the Q3 2026 10-Q cover (October 26, 2026), the same counts used in the marketcap lens. Holders of record: the count is Class A holders of record; the 10-K also gives 16 Class B holders and one Class F holder.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,22 @@
+{
+  "id": "gordon-moore",
+  "company": "Intel",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 5315000000,
+      "sharesAsOf": "2026-10-23",
+      "pricedAs": "INTC",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+        "label": "Form 10-Q for the quarter ended September 26, 2026, cover page",
+        "quote": "As of October 23, 2026, the registrant had outstanding 5,315 million shares of common stock."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as INTC. The Q3 2026 10-Q cover (filed October 30, 2026) is the latest count and is stated rounded to millions. It is about 6% above the FY2025 10-K cover (4,995 million at January 16, 2026), and the 10-Q cash-flow statement shows a public offering of common stock in 2026 (\"Net proceeds from public offering of common stock 22,617\" million).",
+  "researchedAt": "2026-11-24"
+}

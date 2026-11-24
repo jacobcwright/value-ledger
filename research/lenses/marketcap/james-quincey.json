@@ -1,0 +1,22 @@
+{
+  "id": "james-quincey",
+  "company": "The Coca-Cola Company",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 4301902335,
+      "sharesAsOf": "2026-10-26",
+      "pricedAs": "KO",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026067844/ko-20261002.htm",
+        "label": "Form 10-Q for the quarter ended October 2, 2026, cover page",
+        "quote": "Class of Common Stock Shares Outstanding as of October 26, 2026 $0.25 Par Value 4,301,902,335"
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the NYSE as KO. The 10-Q cover for the quarter ended October 2, 2026 is the latest count (the FY2025 10-K cover gave 4,300,723,069 at February 18, 2026).",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "marcos-galperin",
+  "company": "MercadoLibre",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 50696802,
+      "sharesAsOf": "2026-11-04",
+      "pricedAs": "MELI",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000029/meli-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "50,696,802 shares of the issuer's common stock, $0.001 par value, were outstanding as of November 4, 2026."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as MELI (the reporting-currency line). Shares also trade in Argentina as CEDEARs (60 CEDEARs per share, per the 2026 proxy), which are certificates over the same shares and are not counted separately. No preferred stock is outstanding.",
+  "researchedAt": "2026-11-24"
+}

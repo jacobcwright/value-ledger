@@ -1,0 +1,22 @@
+{
+  "id": "nikesh-arora",
+  "company": "Palo Alto Networks",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 821000000,
+      "sharesAsOf": "2026-11-11",
+      "pricedAs": "PANW",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000033/panw-20261031.htm",
+        "label": "Form 10-Q for the quarter ended October 31, 2026, cover page",
+        "quote": "The number of shares outstanding of the registrant's common stock as of November 11, 2026 was 821 million."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as PANW. The 10-Q for the quarter ended October 31, 2026 (filed November 2026) is the latest count; its cover rounds to 821 million. The FY2026 10-K cover gives 818 million at August 31, 2026, and the proxy 818,443,112 at September 18, 2026. Shares rose from about 662 million after CyberArk's acquisition in February 2026 was paid largely in stock.",
+  "researchedAt": "2026-11-24"
+}

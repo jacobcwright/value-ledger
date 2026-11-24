@@ -1,122 +1,110 @@
 {
   "id": "n-r-narayana-murthy",
   "company": "Infosys",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-03-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-03-31",
+    "asOf": "2026-03-31",
     "leader": {
       "name": "N. R. Narayana Murthy",
       "relation": "co-founder",
       "status": "holds",
-      "pctEconomic": 0.36,
+      "pctEconomic": 0.37,
       "pctVoting": null,
       "shares": 15145638,
       "family": {
-        "label": "Infosys promoters and promoter group (all co-founders and their families; this total INCLUDES Murthy's own 0.36%)",
-        "pctEconomic": 13.05,
+        "label": "Infosys promoters and promoter group (all co-founders and their families; this total INCLUDES Murthy's own 0.37%)",
+        "pctEconomic": 13.3,
         "source": {
           "hostType": "company",
-          "url": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-25.pdf",
-          "label": "Integrated Annual Report 2024-25, Corporate governance report, category-wise shareholding chart as on March 31, 2025 (printed p. 141)",
-          "quote": "Category-wise shareholding as on March 31, 2025 ... Promoters & Promoter Group 13.05% ... 54,20,29,249 [chart labels: category, % of equity, number of shares]"
+          "url": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-26.pdf",
+          "label": "Integrated Annual Report 2025-26, Corporate governance report, category-wise shareholding chart as on March 31, 2026 (printed p. 153)",
+          "quote": "Category-wise shareholding as on March 31, 2026 ... Promoters and Promoter Group ... 13.30% ... 53,94,94,014"
         },
         "includesLeader": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-25.pdf",
-        "label": "Integrated Annual Report 2024-25, notes to consolidated financial statements, 2.12.2 Shareholding of promoter (printed pp. 337-338)",
-        "quote": "Shares held by promoters as at March 31, 2025 ... N. R. Narayana Murthy 1,51,45,638 0.36 – ... The percentage shareholding above has been computed considering the outstanding number of shares of 415,32,63,455 as at March 31, 2025."
+        "url": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-26.pdf",
+        "label": "Integrated Annual Report 2025-26, notes to consolidated financial statements, 2.12.2 Shareholding of promoter (printed p. 352)",
+        "quote": "2.12.2 Shareholding of promoter The details of shares held by promoters as at March 31, 2026 ... N. R. Narayana Murthy 1,51,45,638 0.37 – ... The percentage shareholding above has been computed considering the outstanding number of shares of 405,55,91,723 as at March 31, 2026."
       }
     },
     "largestHolders": [
       {
         "name": "Life Insurance Corporation of India",
         "type": "other",
-        "pctEconomic": 9.34,
-        "asOf": "2025-03-31",
+        "pctEconomic": 10.67,
+        "asOf": "2026-03-31",
         "source": {
           "hostType": "company",
-          "url": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-25.pdf",
-          "label": "Integrated Annual Report 2024-25, Corporate governance report, shareholders holding more than 1% (printed p. 142)",
-          "quote": "The details of shareholders (non-promoters and non-ADR holders) holding more than 1% (PAN-based) of the equity as on March 31, 2025 are as follows: ... Life Insurance Corporation of India 9.34 38,81,12,531"
-        }
-      },
-      {
-        "name": "SBI Mutual Fund",
-        "type": "asset-manager",
-        "pctEconomic": 4.23,
-        "asOf": "2025-03-31",
-        "source": {
-          "hostType": "company",
-          "url": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-25.pdf",
-          "label": "Integrated Annual Report 2024-25, Corporate governance report, shareholders holding more than 1% (printed p. 142)",
-          "quote": "SBI Mutual Fund 4.23 17,55,89,470"
+          "url": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-26.pdf",
+          "label": "Integrated Annual Report 2025-26, Corporate governance report, shareholders holding more than 1% (printed p. 153)",
+          "quote": "The details of shareholders (non-promoters and non-ADR holders) holding more than 1% (PAN-based) of the equity as on March 31, 2026 are as follows: ... Life Insurance Corporation of India 10.67 43,27,82,872"
         }
       },
       {
         "name": "ICICI Prudential Mutual Fund",
         "type": "asset-manager",
-        "pctEconomic": 2.72,
-        "asOf": "2025-03-31",
+        "pctEconomic": 4.38,
+        "asOf": "2026-03-31",
         "source": {
           "hostType": "company",
-          "url": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-25.pdf",
-          "label": "Integrated Annual Report 2024-25, Corporate governance report, shareholders holding more than 1% (printed p. 142)",
-          "quote": "ICICI Prudential Mutual Fund 2.72 11,31,05,512"
+          "url": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-26.pdf",
+          "label": "Integrated Annual Report 2025-26, Corporate governance report, shareholders holding more than 1% (printed p. 153)",
+          "quote": "ICICI Prudential Mutual Fund 4.38 17,76,53,879"
+        }
+      },
+      {
+        "name": "SBI Mutual Fund",
+        "type": "asset-manager",
+        "pctEconomic": 4.31,
+        "asOf": "2026-03-31",
+        "source": {
+          "hostType": "company",
+          "url": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-26.pdf",
+          "label": "Integrated Annual Report 2025-26, Corporate governance report, shareholders holding more than 1% (printed p. 153)",
+          "quote": "SBI Mutual Fund 4.31 17,46,28,701"
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of equity shares (ADSs each represent one share). The 20-F states: \"Major shareholders do not have differential voting rights with respect to the equity shares. To the best of our knowledge, we are not owned or controlled directly or indirectly by any government, by any other corporation or by any other natural or legal person.\" The promoter group of co-founders and their families held 13.05% at 31 March 2025."
+      "note": "One class of equity shares (ADSs each represent one share). The 20-F states that major shareholders do not have differential voting rights and that, to the company's knowledge, it is not owned or controlled by any government, corporation or person. The promoter group of co-founders and their families held 13.30% at 31 March 2026."
     }
   },
   "cash": {
     "dividends": {
-      "value": 2.42,
+      "value": 2.13,
       "source": {
-        "hostType": "company",
-        "url": "https://www.infosys.com/investors/reports-filings/annual-report/form20f/documents/form20f-2025.pdf",
-        "label": "FY2025 Form 20-F, consolidated statements of cash flows (PDF p. 164)",
-        "quote": "Payment of dividends (2,416) (1,777) (1,697) ... Payment of dividends to non-controlling interests of subsidiary — (5) (3) [Dollars in millions, years ended March 31, 2025, 2024, 2023]",
-        "xbrl": {
-          "cik": "0001067491",
-          "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
-          "end": "2025-03-31",
-          "value": 2416000000
-        }
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000119312526270520/infy-20260331.htm",
+        "label": "FY2026 Form 20-F, consolidated statements of cash flows (dollars in millions)",
+        "quote": "Payment of dividends ( 2,133 ) ( 2,416 ) ( 1,777 ) Payment of dividends to non-controlling interests of subsidiary - - ( 5 ) [Dollars in millions, years ended March 31, 2026, 2025, 2024]"
       }
     },
     "buybacks": {
-      "value": 0,
+      "value": 2.01,
       "source": {
-        "hostType": "company",
-        "url": "https://www.infosys.com/investors/reports-filings/annual-report/form20f/documents/form20f-2025.pdf",
-        "label": "FY2025 Form 20-F, consolidated statements of cash flows (PDF p. 164)",
-        "quote": "Buyback of equity shares including transaction costs and tax on buyback — — (1,398) [Dollars in millions, years ended March 31, 2025, 2024, 2023]"
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000119312526270520/infy-20260331.htm",
+        "label": "FY2026 Form 20-F, consolidated statements of cash flows (dollars in millions)",
+        "quote": "Buyback of equity shares including transaction costs ( 2,006 ) - - [Dollars in millions, years ended March 31, 2026, 2025, 2024]"
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.1,
+      "value": 0.11,
       "source": {
-        "hostType": "company",
-        "url": "https://www.infosys.com/investors/reports-filings/annual-report/form20f/documents/form20f-2025.pdf",
-        "label": "FY2025 Form 20-F, Item 6, Share Ownership (PDF p. 111)",
-        "quote": "During fiscal 2025, 2024 and 2023, we recorded an employee stock compensation expense of $95 million, $79 million and $64 million, respectively, in the statement of comprehensive income.",
-        "xbrl": {
-          "cik": "0001067491",
-          "concept": "ifrs-full:AdjustmentsForSharebasedPayments",
-          "end": "2025-03-31",
-          "value": 95000000
-        }
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000119312526270520/infy-20260331.htm",
+        "label": "FY2026 Form 20-F, Item 6, Share Ownership",
+        "quote": "During fiscal 2026, 2025 and 2024, we recorded an employee stock compensation expense of $108 million, $95 million and $79 million, respectively, in the statement of comprehensive income."
       }
     },
     "plan": null
@@ -126,29 +114,29 @@
     "segments": [
       {
         "name": "North America",
-        "value": 11.17
+        "value": 11.3
       },
       {
         "name": "Europe",
-        "value": 5.75
+        "value": 6.48
       },
       {
         "name": "India",
-        "value": 0.59
+        "value": 0.58
       },
       {
         "name": "Rest of the world",
-        "value": 1.77
+        "value": 1.8
       }
     ],
-    "total": 19.28,
+    "total": 20.16,
     "source": {
-      "hostType": "company",
-      "url": "https://www.infosys.com/investors/reports-filings/annual-report/form20f/documents/form20f-2025.pdf",
-      "label": "FY2025 Form 20-F, notes to consolidated financial statements, disaggregated revenue information (PDF p. 204)",
-      "quote": "Revenues by Geography* North America 11,166 11,163 11,262 Europe 5,745 5,105 4,670 India 593 469 478 Rest of the world 1,773 1,825 1,802 Total 19,277 18,562 18,212 *Geographical revenues are based on the domicile of customer [Dollars in millions]"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067491/000119312526270520/infy-20260331.htm",
+      "label": "FY2026 Form 20-F, notes to consolidated financial statements, disaggregated revenue information",
+      "quote": "Revenues by Geography* North America 11,304 11,166 11,163 Europe 6,480 5,745 5,105 India 576 593 469 Rest of the world 1,798 1,773 1,825 Total 20,158 19,277 18,562 *Geographical revenues are based on the domicile of customer [Dollars in millions]"
     }
   },
-  "notes": "Fiscal year ended 31 March 2025 (Infosys 'fiscal 2025'; matches data.js fy 'Mar 2025'). CURRENCY: the IFRS consolidated statements in the Form 20-F are presented in US dollars ('Dollars in millions'), so the whole record is in USD from the 20-F. The Indian Integrated Annual Report uses Ind AS in INR (it reports a dividend cash outflow of ₹20,295 crore, excluding dividends paid on treasury shares), but no INR figure is used for cash, workers or geography. OWNERSHIP comes from the Integrated Annual Report 2024-25, because the 20-F's Item 7 table lists only Life Insurance Corporation of India (9.61% at 30 May 2025) and directors and officers as a group (2.46%), and Murthy is not a director or officer. Murthy is listed individually as a promoter with 1,51,45,638 shares (15,145,638), 0.36% of 415,32,63,455 shares at 31 March 2025. FAMILY: the 13.05% 'Promoters & Promoter Group' figure is the disclosed total for all of Infosys's co-founder promoters and their families (Murthy, Nilekani, Gopalakrishnan, Shibulal and Dinesh families). It includes Murthy's own 0.36% and is not Murthy's family alone. Members of Murthy's own family are also listed individually as promoters (Rohan Murty 1.46%, Akshata Murty 0.94%, Sudha N. Murty 0.83%, Ekagrah Rohan Murty 0.04%), but the report gives no total for them, so none is recorded. No promoter is relisted in largestHolders. HOLDERS: from the annual report's list of non-promoter, non-ADR holders above 1% (PAN-based) at 31 March 2025. LIC is India's state-owned life insurer; it is typed 'other' because it invests policyholder funds. The 20-F gives LIC 9.61% at 30 May 2025 (a later date). ADR holders (10.59% as a category) are not a beneficial owner and are excluded. BUYBACKS: none in fiscal 2025 (the cash-flow line shows '—'); the last buyback was in fiscal 2023. DIVIDENDS exclude dividends to non-controlling interests (nil in fiscal 2025). STOCK COMP: $95 million, which rounds to 0.10 billion at two decimals. The same $95 million appears as 'Stock compensation expense' in the cash-flow statement. Grants are made under the 2015 and 2019 (Expanded Stock Ownership) plans to 'eligible employees' and are performance-based, so no broad-based employee plan is recorded.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended 31 March 2026 (Infosys 'fiscal 2026'). CURRENCY: the IFRS consolidated statements in the Form 20-F (accession 0001193125-26-270520, filed June 15, 2026, read on sec.gov) are presented in US dollars, so cash, workers and geography are in USD. The Indian Integrated Annual Report 2025-26 (Ind AS, INR) is used only for ownership; it was fetched from infosys.com with browser-like request headers (plain scripted requests get HTTP 403). OWNERSHIP comes from the annual report because the 20-F's Item 7 table lists only Life Insurance Corporation of India (10.81% at May 20, 2026) and directors and officers as a group (2.53%), and Murthy is not a director or officer. Murthy is listed individually as a promoter with 1,51,45,638 shares (15,145,638), 0.37% of 405,55,91,723 shares at 31 March 2026; his share count is unchanged and the percentage rose because Infosys bought back 10 crore shares in fiscal 2026. FAMILY: the 13.30% 'Promoters and Promoter Group' figure is the disclosed total for all of Infosys's co-founder promoters and their families (Murthy, Nilekani, Gopalakrishnan, Shibulal and Dinesh families). It includes Murthy's own 0.37% and is not Murthy's family alone. Members of his family are listed individually (Rohan Murty 1.50%, Akshata Murty 0.96%, Sudha N. Murty 0.85%, Ekagrah Rohan Murty 0.04%), but no total for them is given, so none is recorded. The report also describes requests by some Shibulal family members to be reclassified from the promoter group to the public category. HOLDERS: from the annual report's list of non-promoter, non-ADR holders above 1% (PAN-based) at 31 March 2026. LIC is India's state-owned life insurer, typed 'other' because it invests policyholder funds. ADR holders (7.52% as a category, held by the depositary) are not a beneficial owner and are excluded. BUYBACKS: $2,006 million for the tender-offer buyback of 100,000,000 shares (about 2.41% of equity) at up to ₹1,800 per share approved by shareholders in November 2025; the label says it includes transaction costs. DIVIDENDS exclude dividends to non-controlling interests (nil in fiscal 2026). STOCK COMP: $108 million. Grants are made under the 2015 and 2019 plans to eligible employees and are performance-based, so no broad-based employee plan is recorded. The 20-F's new-year XBRL facts are not in companyfacts, so no xbrl objects are given.",
+  "researchedAt": "2026-11-24"
 }

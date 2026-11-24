@@ -1,0 +1,22 @@
+{
+  "id": "morris-chang",
+  "company": "TSMC",
+  "classes": [
+    {
+      "label": "Common shares",
+      "shares": 25932365000,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "2330.TW",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/a2026q3consolidatedreport-.htm",
+        "label": "Third-quarter 2026 consolidated financial statements (Form 6-K, November 13, 2026), Note 19 Equity, a. Capital stock",
+        "quote": "September 30, 2026 December 31, 2025 September 30, 2025 ... Issued and paid shares (in thousands) 25,932,370 25,932,524 25,932,615 Shares awaiting retirement (in thousands) (5) - (91) Capital stock (in thousands) 25,932,365 25,932,524 25,932,524"
+      }
+    }
+  ],
+  "notes": "One class of common shares, priced on the primary Taiwan Stock Exchange line (2330.TW) in NT$ rather than the NYSE ADS (TSM, one ADS = five common shares). The count is 'Capital stock (in thousands)' at September 30, 2026 from the third-quarter consolidated report filed on Form 6-K, which excludes 5 thousand reclaimed restricted shares awaiting retirement; it is stated in thousands, so it is rounded to the nearest thousand shares. It is newer than the 20-F count (25,932,524,521 at February 28, 2026), and no buyback, split or tender has changed it materially.",
+  "researchedAt": "2026-11-24"
+}

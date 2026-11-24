@@ -1,44 +1,44 @@
 {
   "id": "vlad-tenev",
   "company": "Robinhood",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-04-07",
+    "asOf": "2026-04-08",
     "leader": {
       "name": "Vlad Tenev",
       "relation": "co-founder",
       "status": "holds",
       "pctEconomic": null,
-      "pctVoting": 24.2,
+      "pctVoting": 26.1,
       "shares": null,
       "derived": {
-        "pctEconomic": 5.28,
-        "method": "(6,907 Class A + 46,638,223 Class B shares beneficially owned by Vladimir Tenev) / (768,174,496 Class A + 115,645,012 Class B shares outstanding on April 7, 2025; zero Class C) = 5.28%. Computed, not stated in the filing. Beneficial ownership includes 565,079 Class B shares held by the Bhatt Family LLC that Tenev votes but in which, the proxy says, he has no economic interest.",
+        "pctEconomic": 5.47,
+        "method": "(6,907 Class A + 49,234,651 Class B shares beneficially owned by Vladimir Tenev) / (791,086,666 Class A + 109,745,620 Class B shares outstanding on April 8, 2026; zero Class C) = 5.47%. Computed, not stated in the filing. Beneficial ownership includes 565,079 Class B shares held by the Bhatt Family LLC that Tenev votes but in which, the proxy says, he has no economic interest.",
         "inputs": [
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000134/hood-20250425.htm",
-            "label": "2025 proxy statement, Beneficial Ownership of Principal Stockholders and Management (printed p. 104)",
-            "quote": "Shares Beneficially Owned on April 7, 2025(1)(2) % of Voting Power(3) Class A Class B Name of Beneficial Owner Shares % Shares % Named Executive Officers and Directors: Vladimir Tenev(4)(5) 6,907 * 46,638,223 40.3 24.2"
+            "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000053/hood-20260422.htm",
+            "label": "2026 proxy statement, Beneficial Ownership of Principal Stockholders and Management",
+            "quote": "Shares Beneficially Owned on April 8, 2026 (1)(2) % of Voting Power (3) Class A Class B Name of Beneficial Owner Shares % Shares % Named Executive Officers and Directors: Vladimir Tenev (4)(5) 6,907 * 49,234,651 44.9 26.1"
           },
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000134/hood-20250425.htm",
-            "label": "2025 proxy statement, Beneficial Ownership of Principal Stockholders and Management, footnote 2 (printed p. 105)",
-            "quote": "As of April 7, 2025, we had outstanding 768,174,496 shares of Class A common stock, 115,645,012 shares of Class B common stock, and zero shares of Class C common stock. We have no other classes of stock outstanding."
+            "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000053/hood-20260422.htm",
+            "label": "2026 proxy statement, Beneficial Ownership of Principal Stockholders and Management, footnote 2",
+            "quote": "As of April 8, 2026, we had outstanding 791,086,666 shares of Class A common stock, 109,745,620 shares of Class B common stock, and zero shares of Class C common stock. We have no other classes of stock outstanding."
           }
         ]
       },
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000134/hood-20250425.htm",
-        "label": "2025 proxy statement, Beneficial Ownership of Principal Stockholders and Management (printed pp. 104-105)",
-        "quote": "Vladimir Tenev(4)(5) 6,907 * 46,638,223 40.3 24.2 ... Mr. Tenev’s beneficial ownership consists of (a) 6,907 Class A shares held by The Tenev Living Trust, over which shares Mr. Tenev and his spouse share voting and investment power; (b) 46,073,144 Class B shares held by Mr. Tenev; and (c) 565,079 Class B shares held by the Bhatt Family LLC"
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000053/hood-20260422.htm",
+        "label": "2026 proxy statement, Beneficial Ownership of Principal Stockholders and Management",
+        "quote": "Vladimir Tenev (4)(5) 6,907 * 49,234,651 44.9 26.1 ... (4) Mr. Tenev's beneficial ownership consists of (a) 6,907 Class A shares held by The Tenev Living Trust, over which shares Mr. Tenev and his spouse share voting and investment power; (b) 48,669,572 Class B shares held by Mr. Tenev; and (c) 565,079 Class B shares held by the Bhatt Family LLC"
       },
       "caveat": "Includes 565,079 shares he votes but has no economic interest in."
     },
@@ -46,7 +46,7 @@
     "structure": {
       "dualClass": true,
       "controlled": true,
-      "note": "Class A has one vote per share and Class B ten. All Class B is held by the co-founders Vladimir Tenev and Baiju Bhatt and their related entities, who are parties to a Founders' Voting Agreement. The FY2024 10-K says they 'collectively with their related entities hold over 50% of the voting power of our outstanding capital stock' while holding about 14% of the common stock. The 2025 proxy gives Tenev 24.2% and Bhatt 35.9% of voting power. 'controlled' is true because the founders vote together under that agreement."
+      "note": "Class A has one vote per share and Class B ten. All Class B is held by the co-founders Vladimir Tenev and Baiju Bhatt and their related entities, who are parties to a Founders' Voting Agreement. The FY2025 10-K says that as of December 31, 2025 the founders and their related entities hold approximately 12% of the outstanding common stock and over 50% of the voting power. The 2026 proxy gives Tenev 26.1% and Bhatt 32.0% of voting power. 'controlled' is true because the founders vote together under that agreement."
     }
   },
   "cash": {
@@ -54,54 +54,54 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 5 Dividend Policy",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 5 Dividend Policy",
         "quote": "We have never declared or paid cash dividends on our capital stock."
       }
     },
     "buybacks": {
-      "value": 0.26,
+      "value": 0.65,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Repurchase of Class A common stock — (608) (257) [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Repurchase of Class A common stock ( 608 ) ( 257 ) ( 653 ) [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001783879",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2024-12-31",
-          "value": 257000000
+          "end": "2025-12-31",
+          "value": 653000000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.3,
+      "value": 0.31,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Share-based compensation 654 871 304 [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Share-based compensation 871 304 305 [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001783879",
           "concept": "us-gaap:ShareBasedCompensation",
-          "end": "2024-12-31",
-          "value": 304000000
+          "end": "2025-12-31",
+          "value": 305000000
         }
       }
     },
     "plan": {
-      "text": "Eligible employees can buy Robinhood stock at 85% of market value through payroll deductions in the Employee Share Purchase Plan; 2 million shares were bought in 2024.",
+      "text": "Eligible employees can buy Robinhood stock at 85% of market value through payroll deductions in the Employee Share Purchase Plan; 0.8 million shares were bought in 2025.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 13 Common Stock and Stockholders' Equity, ESPP",
-        "quote": "Our ESPP became effective on July 27, 2021 and enables eligible employees to purchase shares of our common stock at a discount through payroll deductions of up to 15% of their eligible compensation up to the statutory maximum. The purchase price is equal to 85% of the fair market value ... In the year ended December 31, 2024, 2 million shares were purchased under the ESPP"
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 14 Common Stock and Stockholders' Equity, ESPP",
+        "quote": "Our ESPP became effective on July 27, 2021 and enables eligible employees to purchase shares of our common stock at a discount through payroll deductions of up to 15 % of their eligible compensation up to the statutory maximum. The purchase price is equal to 85 % of the fair market value ... In the year ended December 31, 2025 , 0.8 million shares were purchased under the ESPP"
       }
     }
   },
   "geography": null,
-  "notes": "Fiscal year ended December 31, 2024. Documents read on sec.gov: FY2024 Form 10-K (accession 0001783879-25-000049) and 2025 proxy statement (DEF 14A, accession 0001783879-25-000134). OWNERSHIP: the proxy gives percentages per class (Tenev 40.3% of Class B) and of voting power (24.2%), not of all shares, so the economic share is given only as leader.derived (5.28%). It counts all shares beneficially owned. Excluding the 565,079 Bhatt Family LLC shares, over which Tenev has voting but no economic interest, his own shares are 46,080,051 (6,907 Class A + 46,073,144 Class B). The Tenev 2017 Irrevocable Trust (6,808,231 Class B) and Butterfly Management LLC and Surfboard Management LLC (1,408,450 and 2,014,875 Class B), entities related to Tenev, are voted by Bhatt and appear only in Bhatt's row; they are not included. LARGEST HOLDERS left empty on purpose: The Vanguard Group (68,278,391 Class A, 8.9% of Class A, as of September 30, 2024) and FMR LLC (40,237,475 Class A, 5.2% of Class A, as of December 31, 2024) are stated only as percentages of Class A, and co-founder Baiju Bhatt (69,571,868 Class B, 60.2% of Class B, 35.9% of voting power) only per class. None is a share of all shares outstanding. BUYBACKS: $257 million of Class A repurchased in 2024. The $244 million of taxes paid on net share settlement of equity awards is excluded. GEOGRAPHY: null. Robinhood reports one operating segment and no revenue-by-geography table in the 10-K reviewed; the 10-K says its operations are concentrated in the United States.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Documents read on sec.gov: FY2025 Form 10-K (accession 0001783879-26-000023, filed February 18, 2026) and 2026 proxy statement (DEF 14A, accession 0001783879-26-000053, filed April 22, 2026). OWNERSHIP: the proxy gives percentages per class (Tenev 44.9% of Class B) and of voting power (26.1%), not of all shares, so the economic share is given only as leader.derived (5.47%). It counts all shares beneficially owned. Excluding the 565,079 Bhatt Family LLC shares, over which Tenev has voting but no economic interest, his own shares are 48,676,479 (6,907 Class A + 48,669,572 Class B). LARGEST HOLDERS left empty on purpose: BlackRock (55,763,578 Class A, 7.0% of Class A, as of September 30, 2025) is stated only as a percentage of Class A; the proxy adds that Vanguard subsidiaries collectively own about 94,436,459 Class A shares (11.9%) after Vanguard's internal realignment; co-founder Baiju Bhatt (61,076,048 Class B, 55.7% of Class B, 32.0% of voting power) is given only per class. None is a share of all shares outstanding. BUYBACKS: $653 million of Class A repurchased in 2025. The $437 million of taxes paid on net share settlement of equity awards is excluded. GEOGRAPHY: null. Robinhood reports one operating segment and no revenue-by-geography table in the FY2025 10-K; at December 31, 2025 the proxy counts 2,606 of 2,958 employees in North America, 337 in Europe and 15 in Asia.",
+  "researchedAt": "2026-11-24"
 }

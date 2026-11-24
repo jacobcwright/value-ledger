@@ -2,25 +2,39 @@
   "id": "shigeru-miyamoto",
   "company": "Nintendo",
   "metrics": {
+    "hardwareUnitsSwitch2": {
+      "label": "Nintendo Switch 2 hardware units sold",
+      "unit": "count",
+      "period": "FY2026 (year ended Mar 31, 2026)",
+      "tier": "company-published",
+      "definition": "Nintendo Switch 2 hardware sales units by region (launched June 2025, so FY2026 is its first year), published in units of ten thousand and converted to units."
+    },
+    "softwareUnitsSwitch2": {
+      "label": "Nintendo Switch 2 software units sold",
+      "unit": "count",
+      "period": "FY2026 (year ended Mar 31, 2026)",
+      "tier": "company-published",
+      "definition": "Nintendo Switch 2 software sales units by region, packaged and downloadable versions, including units bundled with hardware or other products; excludes download-only software and add-on content. Published in ten-thousands, converted to units. Packaged versions of Nintendo Switch 2 Edition software count as Nintendo Switch 2 software and downloadable versions as Nintendo Switch software; upgrade packs are not counted."
+    },
     "hardwareUnits": {
       "label": "Nintendo Switch hardware units sold",
       "unit": "count",
-      "period": "FY2025 (year ended Mar 31, 2025)",
+      "period": "FY2026 (year ended Mar 31, 2026)",
       "tier": "company-published",
       "definition": "Nintendo Switch hardware sales units (all models) by region, published in units of ten thousand and converted to units (shown in the bracketed note)."
     },
     "softwareUnits": {
       "label": "Nintendo Switch software units sold",
       "unit": "count",
-      "period": "FY2025 (year ended Mar 31, 2025)",
+      "period": "FY2026 (year ended Mar 31, 2026)",
       "tier": "company-published",
-      "definition": "Nintendo Switch software sales units by region, packaged and downloadable versions of packaged software, including units bundled with hardware; excludes download-only software and add-on content. Published in ten-thousands, converted to units."
+      "definition": "Nintendo Switch software sales units by region, packaged and downloadable versions of software, including units bundled with hardware or other products; excludes download-only software and add-on content. Published in ten-thousands, converted to units. Packaged versions of Nintendo Switch 2 Edition software count as Nintendo Switch 2 software and downloadable versions as Nintendo Switch software; upgrade packs are not counted."
     },
     "ppe": {
       "label": "Property, plant and equipment",
       "unit": "currency-millions",
       "currency": "JPY",
-      "period": "as of Mar 31, 2025",
+      "period": "as of Mar 31, 2026",
       "tier": "filing",
       "definition": "Property, plant and equipment by country, based on location (annual securities report segment information)."
     }
@@ -31,29 +45,31 @@
       "iso2": "JP",
       "name": "Japan",
       "values": {
-        "hardwareUnits": 3190000,
-        "softwareUnits": 33200000
+        "hardwareUnitsSwitch2": 5660000,
+        "softwareUnitsSwitch2": 13170000,
+        "hardwareUnits": 1140000,
+        "softwareUnits": 28880000
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nintendo.co.jp/ir/pdf/2025/250508_4e.pdf",
-        "label": "Nintendo Co., Ltd., Financial Results Explanatory Material, Fiscal Year Ended March 2025 (May 8, 2025), Sales Units and Sales Units Forecast",
-        "quote": "Sales Units and Sales Units Forecast units in ten thousands … Hardware (Total) Japan 441 319 3,720 … Software Japan 3,977 3,320 27,312 [Nintendo Switch, columns FY24, FY25, life-to-date; FY25 hardware 3,190,000 units, software 33,200,000 units]"
+        "url": "https://www.nintendo.co.jp/ir/pdf/2026/260508_4e.pdf",
+        "label": "Nintendo Co., Ltd., Financial Results Explanatory Material, Fiscal Year Ended March 2026 (May 8, 2026), Sales Units and Sales Units Forecast",
+        "quote": "Sales Units and Sales Units Forecast units in ten thousands … Nintendo Switch 2 Hardware Japan - 566 566 … Software Japan - 1,317 1,317 … Nintendo Switch Hardware (Total) Japan 319 114 3,834 … Software Japan 3,320 2,888 30,201 [columns FY25, FY26, life-to-date; FY26 Nintendo Switch 2 hardware 5,660,000 units, software 13,170,000 units; Nintendo Switch hardware 1,140,000 units, software 28,880,000 units]"
       }
     },
     {
       "iso2": "US",
       "name": "United States",
       "values": {
-        "ppe": 27179
+        "ppe": 28142
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
-        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2025, segment information, property, plant and equipment by country",
-        "quote": "(2) Property, plant and equipment (Millions of yen) Japan U.S. Other Total 76,142 27,179 9,290 112,612 [current fiscal year, as of March 31, 2025]"
+        "url": "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf",
+        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2026, segment information, property, plant and equipment by country (current fiscal year)",
+        "quote": "(2) Property, plant and equipment (Millions of yen) Japan U.S. Other Total 89,122 28,142 10,185 127,450 [current fiscal year, as of March 31, 2026]"
       }
     }
   ],
@@ -62,45 +78,51 @@
       "name": "The Americas",
       "countries": null,
       "values": {
-        "hardwareUnits": 3790000,
-        "softwareUnits": 64850000
+        "hardwareUnitsSwitch2": 6730000,
+        "softwareUnitsSwitch2": 17480000,
+        "hardwareUnits": 1300000,
+        "softwareUnits": 57160000
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nintendo.co.jp/ir/pdf/2025/250508_4e.pdf",
-        "label": "Nintendo Co., Ltd., Financial Results Explanatory Material, Fiscal Year Ended March 2025 (May 8, 2025), Sales Units and Sales Units Forecast",
-        "quote": "Sales Units and Sales Units Forecast units in ten thousands … The Americas 552 379 5,831 … The Americas 8,391 6,485 60,503 [Nintendo Switch, columns FY24, FY25, life-to-date; FY25 hardware 3,790,000 units, software 64,850,000 units]"
+        "url": "https://www.nintendo.co.jp/ir/pdf/2026/260508_4e.pdf",
+        "label": "Nintendo Co., Ltd., Financial Results Explanatory Material, Fiscal Year Ended March 2026 (May 8, 2026), Sales Units and Sales Units Forecast",
+        "quote": "Sales Units and Sales Units Forecast units in ten thousands … Nintendo Switch 2 … The Americas - 673 673 … The Americas - 1,748 1,748 … Nintendo Switch Hardware (Total) … The Americas 379 130 5,961 … The Americas 6,485 5,716 66,219 [columns FY25, FY26, life-to-date; FY26 Nintendo Switch 2 hardware 6,730,000 units, software 17,480,000 units; Nintendo Switch hardware 1,300,000 units, software 57,160,000 units]"
       }
     },
     {
       "name": "Europe",
       "countries": null,
       "values": {
-        "hardwareUnits": 2710000,
-        "softwareUnits": 46410000
+        "hardwareUnitsSwitch2": 4400000,
+        "softwareUnitsSwitch2": 12370000,
+        "hardwareUnits": 830000,
+        "softwareUnits": 39150000
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nintendo.co.jp/ir/pdf/2025/250508_4e.pdf",
-        "label": "Nintendo Co., Ltd., Financial Results Explanatory Material, Fiscal Year Ended March 2025 (May 8, 2025), Sales Units and Sales Units Forecast",
-        "quote": "Sales Units and Sales Units Forecast units in ten thousands … Europe 390 271 3,920 … Europe 5,741 4,641 40,472 [Nintendo Switch, columns FY24, FY25, life-to-date; FY25 hardware 2,710,000 units, software 46,410,000 units]"
+        "url": "https://www.nintendo.co.jp/ir/pdf/2026/260508_4e.pdf",
+        "label": "Nintendo Co., Ltd., Financial Results Explanatory Material, Fiscal Year Ended March 2026 (May 8, 2026), Sales Units and Sales Units Forecast",
+        "quote": "Sales Units and Sales Units Forecast units in ten thousands … Nintendo Switch 2 … Europe - 440 440 … Europe - 1,237 1,237 … Nintendo Switch Hardware (Total) … Europe 271 83 4,003 … Europe 4,641 3,915 44,387 [columns FY25, FY26, life-to-date; FY26 Nintendo Switch 2 hardware 4,400,000 units, software 12,370,000 units; Nintendo Switch hardware 830,000 units, software 39,150,000 units]"
       }
     },
     {
       "name": "Other",
       "countries": null,
       "values": {
-        "hardwareUnits": 1110000,
-        "softwareUnits": 10950000
+        "hardwareUnitsSwitch2": 3060000,
+        "softwareUnitsSwitch2": 5700000,
+        "hardwareUnits": 530000,
+        "softwareUnits": 11720000
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nintendo.co.jp/ir/pdf/2025/250508_4e.pdf",
-        "label": "Nintendo Co., Ltd., Financial Results Explanatory Material, Fiscal Year Ended March 2025 (May 8, 2025), Sales Units and Sales Units Forecast",
-        "quote": "Sales Units and Sales Units Forecast units in ten thousands … Other 186 111 1,741 … Other 1,858 1,095 10,835 [Nintendo Switch, columns FY24, FY25, life-to-date; FY25 hardware 1,110,000 units, software 10,950,000 units]"
+        "url": "https://www.nintendo.co.jp/ir/pdf/2026/260508_4e.pdf",
+        "label": "Nintendo Co., Ltd., Financial Results Explanatory Material, Fiscal Year Ended March 2026 (May 8, 2026), Sales Units and Sales Units Forecast",
+        "quote": "Sales Units and Sales Units Forecast units in ten thousands … Nintendo Switch 2 … Other - 306 306 … Other - 570 570 … Nintendo Switch Hardware (Total) … Other 111 53 1,794 … Other 1,095 1,172 12,007 [columns FY25, FY26, life-to-date; FY26 Nintendo Switch 2 hardware 3,060,000 units, software 5,700,000 units; Nintendo Switch hardware 530,000 units, software 11,720,000 units]"
       }
     }
   ],
@@ -113,8 +135,8 @@
       "description": "Headquarters at 11-1 Hokotate-cho, Kamitoba, Minami-ku, Kyoto (moved there November 2000).",
       "source": {
         "hostType": "company",
-        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
-        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2025, Major facilities / History",
+        "url": "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf",
+        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2026, Major facilities / History",
         "quote": "Moved the headquarters to 11-1 Hokotate-cho, Kamitoba, Minami-ku, Kyoto, Japan (current location)."
       }
     },
@@ -123,12 +145,12 @@
       "place": "Uji City, Kyoto Prefecture",
       "iso2": "JP",
       "type": "manufacturing",
-      "description": "Manufacturing; production facilities; 141 employees.",
+      "description": "Manufacturing; production facilities; 145 employees (as of March 31, 2026).",
       "source": {
         "hostType": "company",
-        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
-        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2025, Major facilities",
-        "quote": "Uji Plant Production 1,866 (Uji City, Kyoto Prefecture) Manufacturing 2,265 134 65 7 4,338 141"
+        "url": "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf",
+        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2026, Major facilities",
+        "quote": "Uji Plant Production 1,866 Manufacturing 2,100 100 73 267 4,407 145"
       }
     },
     {
@@ -136,12 +158,12 @@
       "place": "United States",
       "iso2": "US",
       "type": "subsidiary",
-      "description": "Sales subsidiary; 1,446 employees (as of March 31, 2025).",
+      "description": "Sales subsidiary; 1,603 employees (as of March 31, 2026).",
       "source": {
         "hostType": "company",
-        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
-        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2025, Major facilities (subsidiaries outside of Japan)",
-        "quote": "Nintendo of America Inc. Other 4,640 (United States) Sales 13,719 995 2,684 466 22,505 1,446"
+        "url": "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf",
+        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2026, Major facilities (subsidiaries outside of Japan)",
+        "quote": "Nintendo of America Inc. Other 4,945 (United States) Sales 13,631 1,194 2,785 599 23,156 1,603"
       }
     },
     {
@@ -149,15 +171,15 @@
       "place": "Germany",
       "iso2": "DE",
       "type": "subsidiary",
-      "description": "Sales subsidiary; 1,124 employees (as of March 31, 2025).",
+      "description": "Sales subsidiary; 1,152 employees (as of March 31, 2026).",
       "source": {
         "hostType": "company",
-        "url": "https://www.nintendo.co.jp/ir/pdf/2025/annual2503e.pdf",
-        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2025, Major facilities (subsidiaries outside of Japan)",
-        "quote": "Nintendo of Europe SE Other - (Germany) Sales 5,082 364 1,014 1,204 7,665 1,124"
+        "url": "https://www.nintendo.co.jp/ir/pdf/2026/annual2603e.pdf",
+        "label": "Nintendo Co., Ltd. Annual Report (Annual Securities Report, English) for the fiscal year ended March 31, 2026, Major facilities (subsidiaries outside of Japan)",
+        "quote": "Nintendo of Europe SE Other - (Germany) Sales 4,919 449 982 1,108 7,460 1,152"
       }
     }
   ],
-  "notes": "Unit sales by region (Japan, The Americas, Europe, Other) come from Nintendo's FY2025 Financial Results Explanatory Material; Nintendo Switch 2 had no FY2025 sales (launched June 2025). The regions are Nintendo's own and are not defined by country. PP&E by country (annual report): Japan ¥76,142M, U.S. ¥27,179M, Other ¥9,290M; only the U.S. is recorded as a row because the Japan row carries unit sales from a different document. Employees: 8,205 group-wide; the annual report gives employees only for the parent (2,962) and by major facility (HQ 2,647, Uji Plant 141, Tokyo Branch 174, Nintendo of America 1,446, Nintendo of Europe 1,124), shown in sites. Revenue by geography is already in the records and not repeated. Hosted on nintendo.co.jp (company), the English version of the annual securities report.",
-  "researchedAt": "2026-11-23"
+  "notes": "Unit sales by region (Japan, The Americas, Europe, Other) come from Nintendo's FY2026 Financial Results Explanatory Material (May 8, 2026). Nintendo Switch 2 launched in June 2025, so FY2026 is its first year; its hardware and software units are kept as their own metrics next to the original Nintendo Switch family (all models), and the two platforms are not added together. The regions are Nintendo's own and are not defined by country. PP&E by country (annual report, current fiscal year): Japan ¥89,122M, U.S. ¥28,142M, Other ¥10,185M; only the U.S. is recorded as a row because the Japan row carries unit sales from a different document. Employees: 8,666 group-wide at March 31, 2026; the annual report gives employees only for the parent (3,084) and by major facility (HQ 2,743, Uji Plant 145, Tokyo Branch 196, Nintendo of America 1,603, Nintendo of Europe 1,152), shown in sites. Revenue by geography is already in the records and not repeated. Hosted on nintendo.co.jp (company), the English version of the annual securities report.",
+  "researchedAt": "2026-11-24"
 }

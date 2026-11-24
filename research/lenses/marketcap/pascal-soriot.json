@@ -1,0 +1,22 @@
+{
+  "id": "pascal-soriot",
+  "company": "AstraZeneca",
+  "classes": [
+    {
+      "label": "Ordinary Shares of US$0.25",
+      "shares": 1551065237,
+      "sharesAsOf": "2026-10-31",
+      "pricedAs": "AZN",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000165495426009357/a2825b.htm",
+        "label": "Form 6-K furnished November 2, 2026, Total Voting Rights announcement",
+        "quote": "As at 31 October 2026 the issued share capital of AstraZeneca PLC with voting rights is 1,551,065,237 ordinary shares of US$0.25. No shares are held in Treasury."
+      }
+    }
+  ],
+  "notes": "The Ordinary Shares are listed on the London Stock Exchange (AZN.L, in pence), Nasdaq Stockholm and, since February 2, 2026, directly on the New York Stock Exchange (AZN), which replaced the Nasdaq ADS listing (Annual Report 2025: 'On 2 February 2026, AstraZeneca Ordinary Shares were directly listed on the New York Stock Exchange, replacing the US listing of AstraZeneca ADSs on Nasdaq.'). The NYSE line, in US dollars (the reporting currency), is used; it is the same Ordinary Shares, not a depositary receipt. The count is the latest monthly total-voting-rights figure (no treasury shares), newer than the 20-F cover (1,550,907,927 at December 31, 2025). The 50,000 Redeemable Preference Shares of £1 each are preferred stock and are left out.",
+  "researchedAt": "2026-11-24"
+}

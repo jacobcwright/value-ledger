@@ -1,0 +1,22 @@
+{
+  "id": "sam-walton",
+  "company": "Walmart",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 7933746241,
+      "sharesAsOf": "2026-08-26",
+      "pricedAs": "WMT",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm",
+        "label": "Form 10-Q for the quarter ended July 31, 2026, cover page",
+        "quote": "The registrant had 7,933,746,241 shares of common stock outstanding as of August 26, 2026."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the Nasdaq Global Select Market as WMT since December 9, 2025 (previously NYSE). The 10-Q for the quarter ended July 31, 2026 (filed August 28, 2026) is the latest filed count; the third-quarter 10-Q had not been filed by November 24, 2026.",
+  "researchedAt": "2026-11-24"
+}

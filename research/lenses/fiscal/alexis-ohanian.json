@@ -1,28 +1,28 @@
 {
   "id": "alexis-ohanian",
   "company": "Reddit",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": null,
   "rnd": {
     "expense": {
-      "value": 0.94,
+      "value": 0.78,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000018/rddt-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 935,152 438,346 365,164 Sales and marketing 350,579 230,175 [USD thousands; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000022/rddt-20251231.htm",
+        "label": "FY2025 Form 10-K, management's discussion and analysis, research and development expense",
+        "quote": "Research and development 783,145 935,152 438,346 [USD thousands; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001713445",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 935152000
+          "end": "2025-12-31",
+          "value": 783145000
         }
       }
     }
   },
-  "notes": "Cash income taxes paid for the full year are not disclosed in the FY2024 10-K (XBRL has only quarterly year-to-date values from the 10-Qs; the 10-K's 'taxes paid' lines are withholding taxes on RSU net settlement, which are not income taxes).",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Cash income taxes paid are not disclosed in the FY2025 10-K: the cash-flow statement has no supplemental tax line, the income-tax note (adopted ASU 2023-09 prospectively) gives no taxes-paid table, and companyfacts has no FY2025 IncomeTaxesPaidNet fact; the 10-K's 'taxes paid' lines are withholding taxes on RSU net settlement, which are not income taxes. So taxes is null.",
+  "researchedAt": "2026-11-24"
 }

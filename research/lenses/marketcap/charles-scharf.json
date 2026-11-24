@@ -1,0 +1,22 @@
+{
+  "id": "charles-scharf",
+  "company": "Wells Fargo",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 3001850317,
+      "sharesAsOf": "2026-10-19",
+      "pricedAs": "WFC",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000327/wfc-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "Shares Outstanding October 19, 2026 Common stock, $1-2/3 par value 3,001,850,317"
+      }
+    }
+  ],
+  "notes": "Common stock only, listed on the NYSE as WFC. The Q3 2026 10-Q cover is newer than the FY2025 10-K cover (3,085,635,641 shares at February 13, 2026). Wells Fargo's many series of preferred stock (several listed, e.g. the Series L convertible preferred and depositary shares) are fixed-claim securities, not common equity, and are left out.",
+  "researchedAt": "2026-11-24"
+}

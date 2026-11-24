@@ -1,151 +1,151 @@
 {
   "id": "stephen-a-schwarzman",
   "company": "Blackstone",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "sector": "asset-manager",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 13.229968,
-      "stated": 13229968,
+      "value": 14.450265,
+      "stated": 14450265,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of operations (in thousands)",
-        "quote": "Total Revenues 13,229,968 8,022,841 8,517,673",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations (in thousands)",
+        "quote": "Other ( 270,873 ) 123,693 ( 92,929 ) Total Revenues 14,450,265 13,229,968 8,022,841",
         "xbrl": {
           "cik": "0001393818",
           "concept": "us-gaap:Revenues",
-          "end": "2024-12-31",
-          "value": 13229968000
+          "end": "2025-12-31",
+          "value": 14450265000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 3.481662,
-      "stated": 3481662,
+      "value": 4.663161,
+      "stated": 4663161,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
-        "quote": "Net Cash Provided by Operating Activities 3,481,662 4,056,906 6,336,253",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Net Cash Provided by Operating Activities 4,663,161 3,481,662 4,056,906",
         "xbrl": {
           "cik": "0001393818",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": 3481662000
+          "end": "2025-12-31",
+          "value": 4663161000
         }
       }
     },
     "capex": {
-      "value": 0.061409,
+      "value": 0.115703,
       "components": [
-        "furniture, equipment and leasehold improvements 0.061409"
+        "furniture, equipment and leasehold improvements 0.115703"
       ],
-      "stated": 61409,
+      "stated": 115703,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
-        "quote": "Investing Activities Purchase of Furniture, Equipment and Leasehold Improvements ( 61,409 ) ( 224,231 ) ( 235,497 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Investing Activities Purchase of Furniture, Equipment and Leasehold Improvements ( 115,703 ) ( 61,409 ) ( 224,231 )",
         "xbrl": {
           "cik": "0001393818",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-12-31",
-          "value": 61409000
+          "end": "2025-12-31",
+          "value": 115703000
         }
       }
     },
     "interestPaid": {
-      "value": 0.407333,
+      "value": 0.463532,
       "inOCF": true,
-      "stated": 407333,
+      "stated": 463532,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
-        "quote": "Supplemental Disclosure of Cash Flows Information Payments for Interest $ 407,333 $ 400,333 $ 261,886 Payments for Income Taxes $ 646,872 $ 569,381 $ 683,171",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Supplemental Disclosure of Cash Flows Information Payments for Interest $ 463,532 $ 407,333 $ 400,333 Payments for Income Taxes $ 562,560 $ 646,872 $ 569,381",
         "xbrl": {
           "cik": "0001393818",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-12-31",
-          "value": 407333000
+          "end": "2025-12-31",
+          "value": 463532000
         }
       }
     },
     "taxesPaid": {
-      "value": 0.646872,
+      "value": 0.56256,
       "inOCF": true,
-      "stated": 646872,
+      "stated": 562560,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
-        "quote": "Supplemental Disclosure of Cash Flows Information Payments for Interest $ 407,333 $ 400,333 $ 261,886 Payments for Income Taxes $ 646,872 $ 569,381 $ 683,171",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+        "quote": "Supplemental Disclosure of Cash Flows Information Payments for Interest $ 463,532 $ 407,333 $ 400,333 Payments for Income Taxes $ 562,560 $ 646,872 $ 569,381",
         "xbrl": {
           "cik": "0001393818",
           "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 646872000
+          "end": "2025-12-31",
+          "value": 562560000
         }
       }
     },
     "otherNamedItems": {
       "unrealizedInvestmentIncome": {
-        "value": 0.751998,
+        "value": 0.891367,
         "derived": {
           "method": "unrealized performance allocations + unrealized principal investment income, both inside revenue",
           "inputs": [
             {
-              "value": 0.371407,
-              "stated": 371407,
+              "value": 0.643063,
+              "stated": 643063,
               "source": {
                 "hostType": "sec",
-                "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-                "label": "FY2024 Form 10-K, management's discussion and analysis (in thousands)",
-                "quote": "Investment Income (Loss) Performance Allocations Realized 3,457,746 2,223,841 5,381,640 1,233,905 55% (3,157,799 ) -59% Unrealized 371,407 (1,691,668 ) (3,435,056 )"
+                "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+                "label": "FY2025 Form 10-K, management's discussion and analysis (in thousands)",
+                "quote": "Investment Income (Loss) Performance Allocations Realized 3,662,243 3,457,746 2,223,841 204,497 6% 1,233,905 55% Unrealized 643,063 371,407 (1,691,668 )"
               }
             },
             {
-              "value": 0.380591,
-              "stated": 380591,
+              "value": 0.248304,
+              "stated": 248304,
               "source": {
                 "hostType": "sec",
-                "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-                "label": "FY2024 Form 10-K, management's discussion and analysis (in thousands)",
-                "quote": "Principal Investments Realized 332,258 303,823 850,327 28,435 9% (546,504 ) -64% Unrealized 380,591 (603,154 ) (1,563,849 )"
+                "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+                "label": "FY2025 Form 10-K, management's discussion and analysis (in thousands)",
+                "quote": "Principal Investments Realized 697,632 332,258 303,823 365,374 110% 28,435 9% Unrealized 248,304 380,591 (603,154 )"
               }
             }
           ]
         },
-        "note": "Non-cash revenue; removed again in operating cash flow, so it inflates paidOut by about 0.75bn."
+        "note": "Non-cash revenue; removed again in operating cash flow, so it inflates paidOut by about 0.89bn."
       },
       "investmentsInOCF": {
-        "value": 2.429824,
-        "stated": 2429824,
+        "value": 3.807149,
+        "stated": 3807149,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525042469/d912273d10k.htm",
-          "label": "FY2024 Form 10-K, consolidated statements of cash flows (in thousands)",
-          "quote": "Investments Purchased ( 2,429,824 ) ( 5,010,341 ) ( 5,228,723 ) Cash Proceeds from Sale of Investments 4,342,636 7,189,240 10,368,172"
+          "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
+          "label": "FY2025 Form 10-K, consolidated statements of cash flows (in thousands)",
+          "quote": "Investments Purchased ( 3,807,149 ) ( 2,429,824 ) ( 5,010,341 ) Cash Proceeds from Sale of Investments 6,679,186 4,342,636 7,189,240"
         },
-        "note": "Blackstone's own investment purchases (shown) and sale proceeds (4,342,636) are inside operating cash flow."
+        "note": "Blackstone's own investment purchases (shown) and sale proceeds (6,679,186) are inside operating cash flow."
       }
     }
   },
-  "paidOut": 9.809715,
-  "paidOutFormula": "13.229968 − 3.481662 + 0.061409",
+  "paidOut": 9.902807,
+  "paidOutFormula": "14.450265 − 4.663161 + 0.115703",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
     "financeReceivablesInOCF": false,
     "interestDividendsReceivedInOCF": null,
     "revenueIncludesExcise": false,
-    "nonCashRevenue": 0.751998
+    "nonCashRevenue": 0.891367
   },
-  "notes": "Asset manager: normal formula, sector flagged. Amounts in thousands. Operating cash flow includes Blackstone's own investment purchases and sale proceeds and fund consolidation effects, so single-year paidOut is noisy (see other.investmentsInOCF).",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Asset manager: normal formula, sector flagged. Amounts in thousands. Operating cash flow includes Blackstone's own investment purchases and sale proceeds (net inflow of about 2.87bn in 2025) and fund consolidation effects, so single-year paidOut is noisy (see otherNamedItems.investmentsInOCF).",
+  "researchedAt": "2026-11-24"
 }

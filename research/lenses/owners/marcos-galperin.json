@@ -2,48 +2,48 @@
   "id": "marcos-galperin",
   "company": "MercadoLibre",
   "nbim": {
-    "pct": 0.61,
-    "marketValueUSD": 0.527,
-    "asOf": "2024-12-31",
+    "pct": 1.02,
+    "marketValueUSD": 0.874,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"3m6forcvg4b2\",\"cc\":\"US\",\"n\":\"MercadoLibre Inc\",\"a\":{\"e\":526946142,\"n\":5984711761},\"at\":0,\"o\":0.61,\"eq\":{\"vid\":\"MELI\",\"v\":0.61,\"s\":\"Consumer Discretionary\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"3m6forcvg4b2\",\"cc\":\"US\",\"n\":\"MercadoLibre Inc\",\"a\":{\"e\":874167920,\"n\":8650328648},\"at\":0,\"o\":1.02,\"eq\":{\"vid\":\"MELI\",\"v\":1.02,\"s\":\"Consumer Discretionary\"}}"
     }
   },
   "calpers": {
-    "shares": 79983,
-    "asOf": "2024-12-31",
+    "shares": 89188,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "MERCADOLIBRE INC COM 58733R102 136006293 79983"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "MERCADOLIBRE INC COM 58733R102 154164134 89188"
     },
     "derived": {
-      "pct": 0.158,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.176,
+      "method": "CalPERS shares ÷ shares outstanding (89,188 ÷ 50,696,802)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "As of February 21, 2025, there were 50,697,375 shares of the registrant's Common Stock, $0.001 par value per share, outstanding."
+          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000029/meli-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+          "quote": "50,696,802 shares of the issuer's common stock, $0.001 par value, were outstanding as of November 4, 2026."
         }
       ]
     }
   },
   "holdersOfRecord": {
     "count": 198,
-    "asOf": "2025-01-31",
+    "asOf": "2026-01-31",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of January 31, 2025, we had 198 holders of record of our common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of January 31, 2026, we had 198 holders of record of our common stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;MercadoLibre Inc;Consumer Discretionary;5984711761;526946142;0.61%;0.61%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the Q3 2026 10-Q cover count at November 4, 2026, the same count used in the marketcap lens.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,31 @@
+{
+  "id": "meg-whitman",
+  "company": "eBay",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 12300,
+    "asOf": "2025-12-31",
+    "basis": "approximately 12,300 people globally",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital Management",
+      "quote": "As of December 31, 2025, we employed approximately 12,300 people globally, of which, approximately 7,200 were located in the United States."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "the median employee's annual total compensation",
+    "value": 180276,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278126000285/e26002_ebay-def14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "2025 Ratio Calculation • This year, the median employee's annual total compensation was $180,276. • Mr. Iannone's annual total compensation, as reported in the 2025 Summary Compensation Table, was $28,463,890."
+    }
+  },
+  "notes": "Employees: approximate year-end count from the FY2025 10-K (about 7,200 in the United States). Payroll: the 10-K gives no total of salaries, benefits or personnel costs, so the 2026 proxy's CEO pay ratio median for 2025 is used (ratio 158:1).",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "phil-knight",
+  "company": "Nike",
+  "classes": [
+    {
+      "label": "Class B common stock",
+      "shares": 1203921077,
+      "sharesAsOf": "2026-09-28",
+      "pricedAs": "NKE",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000193/nke-20260831.htm",
+        "label": "Form 10-Q for the quarter ended August 31, 2026, cover page",
+        "quote": "As of September 28, 2026, the number of shares of the Registrant's Common Stock outstanding were: Class A 281,387,752 Class B 1,203,921,077 1,485,308,829"
+      }
+    },
+    {
+      "label": "Class A common stock",
+      "shares": 281387752,
+      "sharesAsOf": "2026-09-28",
+      "pricedAs": "NKE",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class A is not publicly traded and converts into Class B one-for-one (FY2026 10-K: \"The Class A Common Stock is not publicly traded, but each share is convertible upon request of the holder into one share of Class B Common Stock.\")",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000193/nke-20260831.htm",
+        "label": "Form 10-Q for the quarter ended August 31, 2026, cover page",
+        "quote": "As of September 28, 2026, the number of shares of the Registrant's Common Stock outstanding were: Class A 281,387,752 Class B 1,203,921,077 1,485,308,829"
+      }
+    }
+  ],
+  "notes": "Class B is listed on the NYSE as NKE; Class A (mostly held by Swoosh, LLC and other Knight entities) is unlisted and priced through Class B. The 10-Q cover (September 28, 2026) is newer than the FY2026 10-K cover (July 8, 2026). The 300,000 redeemable preferred shares held by Sojitz America (par value $1 each) are a fixed-claim security and are left out.",
+  "researchedAt": "2026-11-24"
+}

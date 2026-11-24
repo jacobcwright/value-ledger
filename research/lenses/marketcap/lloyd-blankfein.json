@@ -1,0 +1,22 @@
+{
+  "id": "lloyd-blankfein",
+  "company": "Goldman Sachs",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 288434583,
+      "sharesAsOf": "2026-10-16",
+      "pricedAs": "GS",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000532/gs-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 16, 2026, there were 288,434,583 shares of the registrant's common stock outstanding."
+      }
+    }
+  ],
+  "notes": "Common stock only, listed on the NYSE as GS. Goldman Sachs also has several series of non-cumulative preferred stock outstanding (some listed as depositary shares); they are fixed-claim securities, not common equity, and are left out.",
+  "researchedAt": "2026-11-24"
+}

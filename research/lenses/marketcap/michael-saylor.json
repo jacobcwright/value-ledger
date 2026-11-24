@@ -1,0 +1,36 @@
+{
+  "id": "michael-saylor",
+  "company": "Strategy",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 402714357,
+      "sharesAsOf": "2026-10-25",
+      "pricedAs": "MSTR",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000060/mstr-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 25, 2026, the registrant had 402,714,357 and 19,640,250 shares of class A common stock and class B common stock outstanding, respectively."
+      }
+    },
+    {
+      "label": "Class B common stock",
+      "shares": 19640250,
+      "sharesAsOf": "2026-10-25",
+      "pricedAs": "MSTR",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B has no public market and converts into Class A one-for-one (FY2025 10-K: \"Each share of class B common stock is convertible at any time, at the option of the holder, into one share of class A common stock.\")",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000060/mstr-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 25, 2026, the registrant had 402,714,357 and 19,640,250 shares of class A common stock and class B common stock outstanding, respectively."
+      }
+    }
+  ],
+  "notes": "Common equity only. Class A trades on Nasdaq as MSTR; Class B (almost all held by Michael Saylor through Alcantara LLC) is unlisted. Strategy's perpetual preferred stocks (STRF, STRC, STRE, STRK, STRD; STRK is convertible into Class A at 0.1 share each) are fixed-claim securities, some in mezzanine equity, and are left out, as are its convertible notes. Share counts rose sharply through 2026 because of at-the-market Class A sales.",
+  "researchedAt": "2026-11-24"
+}

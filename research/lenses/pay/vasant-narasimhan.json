@@ -1,0 +1,31 @@
+{
+  "id": "vasant-narasimhan",
+  "company": "Novartis",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 75267,
+    "asOf": "2025-12-31",
+    "basis": "full-time equivalent employees at year end",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+      "label": "FY2025 Form 20-F, Item 6.D Employees",
+      "quote": "The table below sets forth the breakdown of the total year-end number of our full-time equivalent employees by main category of activity and geographic area for the past three years. ... Total 27 288 20 015 16 487 11 477 75 267"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "total personnel costs for continuing operations",
+    "value": 13.2,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+      "label": "FY2025 Form 20-F, note 24 Post-employment benefits for employees (total personnel costs)",
+      "quote": "The Company's total personnel costs for continuing operations amounted to USD 13.2 billion in 2025 (2024: USD 12.7 billion; 2023: USD 12.7 billion)."
+    }
+  },
+  "notes": "Employees: Novartis reports full-time equivalents, not a head count (75,267 at December 31, 2025: marketing and sales 27,288; research and development 20,015; production and supply 16,487; general and administration 11,477). Payroll: the 20-F's total personnel costs for continuing operations, stated rounded to USD 0.1 billion. As a foreign private issuer Novartis has no CEO pay ratio disclosure.",
+  "researchedAt": "2026-11-24"
+}

@@ -1,80 +1,80 @@
 {
   "id": "jennifer-hyman",
   "company": "Rent the Runway",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2025-01-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2026-01-31",
   "currency": "USD",
   "unit": "billions",
   "sector": "retail",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 0.3062,
-      "stated": 306.2,
+      "value": 0.3298,
+      "stated": 329.8,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832725000056/wdq-20250131.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
-        "quote": "Revenue: Subscription and Reserve rental revenue $ 265.5 $ 264.9 $ 268.6 Other revenue 40.7 33.3 27.8 Total revenue, net 306.2 298.2 296.4 Costs and expenses:",
+        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm",
+        "label": "Fiscal 2025 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Subscription and Reserve rental revenue $ 286.0 $ 265.5 $ 264.9 Other revenue 43.8 40.7 33.3 Total revenue, net 329.8 306.2 298.2",
         "xbrl": {
           "cik": "0001468327",
           "concept": "us-gaap:Revenues",
-          "end": "2025-01-31",
-          "value": 306200000
+          "end": "2026-01-31",
+          "value": 329800000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 0.0129,
-      "stated": 12.9,
+      "value": 0.0035,
+      "stated": 3.5,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832725000056/wdq-20250131.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Net cash (used in) provided by operating activities 12.9 ( 15.7 ) ( 47.7 ) INVESTING ACTIVITIES",
+        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm",
+        "label": "Fiscal 2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash (used in) provided by operating activities 3.5 12.9 ( 15.7 ) INVESTING ACTIVITIES",
         "xbrl": {
           "cik": "0001468327",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2025-01-31",
-          "value": 12900000
+          "end": "2026-01-31",
+          "value": 3500000
         }
       }
     },
     "capex": {
-      "value": 0.0536,
+      "value": 0.0805,
       "components": [
-        "rental product 0.0492",
-        "fixed and intangible assets 0.0044"
+        "rental product 0.0759",
+        "fixed and intangible assets 0.0046"
       ],
       "derived": {
         "method": "sum of components",
         "inputs": [
           {
             "name": "rental product",
-            "value": 0.0492,
-            "stated": 49.2,
+            "value": 0.0759,
+            "stated": 75.9,
             "source": {
               "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832725000056/wdq-20250131.htm",
-              "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-              "quote": "INVESTING ACTIVITIES Purchases of rental product ( 49.2 ) ( 77.9 ) ( 62.1 )",
+              "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm",
+              "label": "Fiscal 2025 Form 10-K, consolidated statements of cash flows (in millions)",
+              "quote": "INVESTING ACTIVITIES Purchases of rental product ( 75.9 ) ( 49.2 ) ( 77.9 )",
               "xbrl": {
                 "cik": "0001468327",
                 "concept": "us-gaap:PaymentsToAcquireOtherProductiveAssets",
-                "end": "2025-01-31",
-                "value": 49200000
+                "end": "2026-01-31",
+                "value": 75900000
               }
             }
           },
           {
             "name": "fixed and intangible assets",
-            "value": 0.0044,
-            "stated": 4.4,
+            "value": 0.0046,
+            "stated": 4.6,
             "source": {
               "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832725000056/wdq-20250131.htm",
-              "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-              "quote": "Purchases of fixed and intangible assets ( 4.4 ) ( 4.6 ) ( 8.9 )"
+              "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm",
+              "label": "Fiscal 2025 Form 10-K, consolidated statements of cash flows (in millions)",
+              "quote": "Purchases of fixed and intangible assets ( 4.6 ) ( 4.4 ) ( 4.6 )"
             }
           }
         ]
@@ -86,34 +86,45 @@
       "stated": 0.1,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832725000056/wdq-20250131.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Interest paid on loans $ - $ 9.6 $ 19.8 Interest paid on financing leases 0.1 0.2 0.1"
+        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm",
+        "label": "Fiscal 2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Interest paid on loans $ - $ - $ 9.6 Interest paid on financing leases 0.1 0.1 0.2"
       },
-      "note": "No cash interest on loans in FY2024 (\"$ -\"; companyfacts InterestPaidNet = 0); 0.1m of finance-lease interest."
+      "note": "No cash interest on loans in fiscal 2025 (\"$ -\"; companyfacts InterestPaidNet = 0; interest was paid in kind, 22.2m accrued); 0.1m of finance-lease interest."
     },
     "taxesPaid": {
-      "value": null,
+      "value": 0.00026,
       "inOCF": true,
-      "source": null,
-      "note": "Not disclosed: the cash-flow statement and supplemental table show no income taxes paid (income tax expense was 0.3m). Under US GAAP it would sit inside operating cash flow, so paidOut is unaffected."
+      "stated": 0.26,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm",
+        "label": "Fiscal 2025 Form 10-K, income taxes note, taxes paid by jurisdiction (in millions)",
+        "quote": "Total State and Local taxes paid, net of refunds received 0.22 Foreign: Ireland 0.04 Total Taxes Paid, net of refund received $ 0.26",
+        "xbrl": {
+          "cik": "0001468327",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2026-01-31",
+          "value": 260000
+        }
+      }
     },
     "otherNamedItems": {
       "proceedsFromRentalProductSold": {
-        "value": 0.0281,
-        "stated": 28.1,
+        "value": 0.0284,
+        "stated": 28.4,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832725000056/wdq-20250131.htm",
-          "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-          "quote": "Proceeds from liquidation of rental product 5.4 4.6 8.8 Proceeds from sale of rental product 28.1 23.3 17.9"
+          "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm",
+          "label": "Fiscal 2025 Form 10-K, consolidated statements of cash flows (in millions)",
+          "quote": "Proceeds from liquidation of rental product 2.6 5.4 4.6 Proceeds from sale of rental product 28.4 28.1 23.3"
         },
         "note": "Included in revenue but classified in investing, so it overstates paidOut by up to this amount."
       }
     }
   },
-  "paidOut": 0.3469,
-  "paidOutFormula": "0.3062 − 0.0129 + 0.0536",
+  "paidOut": 0.4068,
+  "paidOutFormula": "0.3298 − 0.0035 + 0.0805",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -121,8 +132,8 @@
     "interestDividendsReceivedInOCF": null,
     "revenueIncludesExcise": false,
     "nonCashRevenue": null,
-    "rentalProductInCapex": 0.0492
+    "rentalProductInCapex": 0.0759
   },
-  "notes": "Judgement call: purchases of rental product (garments bought from designers, 49.2m) are counted as capex. PAIDOUT.md excludes lease fleets, but the pilot's reason (captive-finance assets bought largely from the group itself) does not fit: these are payments to outside suppliers and are RTR's main purchase. Excluding them gives paidOut 0.2977bn. Known bias: revenue includes 28.1m of proceeds from rental product sold that the company classifies in investing, not operating, so paidOut is overstated by up to 28.1m.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended January 31, 2026. Judgement call: purchases of rental product (garments bought from designers, 75.9m) are counted as capex. PAIDOUT.md excludes lease fleets, but the pilot's reason (captive-finance assets bought largely from the group itself) does not fit: these are payments to outside suppliers and are RTR's main purchase. Excluding them gives paidOut 0.3309bn. Known bias: revenue includes 28.4m of proceeds from rental product sold that the company classifies in investing, not operating, so paidOut is overstated by up to 28.4m. Net income (22.6m) includes a non-cash 96.3m Gain on Debt Restructuring, which does not affect operating cash flow. Income taxes paid (0.26m) are inside operating cash flow.",
+  "researchedAt": "2026-11-24"
 }

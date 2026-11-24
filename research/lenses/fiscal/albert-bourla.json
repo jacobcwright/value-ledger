@@ -1,44 +1,44 @@
 {
   "id": "albert-bourla",
   "company": "Pfizer",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 3.61,
+      "value": 4.69,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid/(received) during the period for: Income taxes $ 3,605 $ 3,147 $ 7,867 Interest paid 3,227 [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information, cash income taxes paid",
+        "quote": "Cash paid/(received) during the period for: Income taxes $ 4,688 $ 3,605 $ 3,147 Interest paid 2,739 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000078003",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 3605000000
+          "end": "2025-12-31",
+          "value": 4688000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 10.82,
+      "value": 10.44,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development expenses 10,822 10,679 11,428 1 (7) Acquired in-process research and [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+        "label": "FY2025 Form 10-K, MD&A, research and development expenses",
+        "quote": "Research and development expenses 10,437 10,822 10,679 (4) 1 Acquired in-process research and development expenses 1,613 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000078003",
           "concept": "us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost",
-          "end": "2024-12-31",
-          "value": 10822000000
+          "end": "2025-12-31",
+          "value": 10437000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the caption does not say whether refunds are netted.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet, the caption does not say whether refunds are netted. R&D excludes acquired in-process research and development expenses ($1,613 million in 2025), which are reported on a separate line.",
+  "researchedAt": "2026-11-24"
 }

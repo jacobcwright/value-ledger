@@ -1,0 +1,22 @@
+{
+  "id": "jensen-huang",
+  "company": "NVIDIA",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 24100000000,
+      "sharesAsOf": "2026-08-21",
+      "pricedAs": "NVDA",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+        "label": "Form 10-Q for the quarter ended July 26, 2026, cover page",
+        "quote": "The number of shares of common stock, $0.001 par value, outstanding as of August 21, 2026, was 24.1 billion."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as NVDA. The latest 10-Q cover (quarter ended July 26, 2026; no later 10-Q was on EDGAR at the time of research) states the count only rounded to 24.1 billion, so the share count carries up to about ±0.2% rounding. The precise count in the 2026 proxy was 24,312,141,810 at March 23, 2026; it is older and was reduced by buybacks since.",
+  "researchedAt": "2026-11-24"
+}

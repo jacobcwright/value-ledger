@@ -1,0 +1,22 @@
+{
+  "id": "jeff-bezos",
+  "company": "Amazon",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 10813138306,
+      "sharesAsOf": "2026-10-21",
+      "pricedAs": "AMZN",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "10,813,138,306 shares of common stock, par value $0.01 per share, outstanding as of October 21, 2026"
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as AMZN. The 10-Q for the quarter ended September 30, 2026 (filed October 30, 2026) has the latest count; the FY2025 10-K cover (10,734,920,870 at January 28, 2026) is older. Amazon has 500 million authorized preferred shares; the 10-K says none was outstanding for any year presented.",
+  "researchedAt": "2026-11-24"
+}

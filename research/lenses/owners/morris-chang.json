@@ -2,18 +2,18 @@
   "id": "morris-chang",
   "company": "TSMC",
   "nbim": {
-    "pct": 1.8,
-    "marketValueUSD": 15.368,
-    "asOf": "2024-12-31",
+    "pct": 1.7,
+    "marketValueUSD": 33.525,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"udca2lrd7lw7\",\"cc\":\"TW\",\"n\":\"Taiwan Semiconductor Manufacturing Co Ltd\",\"a\":{\"e\":15368120434,\"n\":174541122608},\"at\":0,\"o\":1.8,\"eq\":{\"vid\":\"2330\",\"v\":1.8,\"s\":\"Technology\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"udca2lrd7lw7\",\"cc\":\"TW\",\"n\":\"Taiwan Semiconductor Manufacturing Co Ltd\",\"a\":{\"e\":33525417924,\"n\":331750768360},\"at\":0,\"o\":1.7,\"eq\":{\"vid\":\"2330\",\"v\":1.7,\"s\":\"Technology\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": null,
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;Taiwan;Taiwan Semiconductor Manufacturing Co Ltd;Technology;174541122608;15368120434;1.8%;1.8%\". NBIM: Matched to \"Taiwan Semiconductor Manufacturing Co Ltd\" (TWSE 2330), not the unrelated \"Taiwan Semiconductor Co Ltd\" (5425). CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of TSMC. Holders of record: The 2024 Form 20-F gives only the ADS record holders (Cede & Co. and 173 other registered shareholders, February 28, 2025). The 2024 English annual report has no shareholder count in the cached text.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK), matched to \"Taiwan Semiconductor Manufacturing Co Ltd\" (TWSE 2330). CalPERS: its Form 13F for the quarter ended September 30, 2026 lists no TSMC shares or ADSs (searched by issuer name). Holders of record: the FY2025 Form 20-F gives only the ADS record holders (Cede & Co. and 173 other registered shareholders, February 28, 2026), not a count for all common shares.",
+  "researchedAt": "2026-11-24"
 }

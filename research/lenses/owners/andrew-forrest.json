@@ -2,27 +2,27 @@
   "id": "andrew-forrest",
   "company": "Fortescue",
   "nbim": {
-    "pct": 0.72,
-    "marketValueUSD": 0.252,
-    "asOf": "2024-12-31",
+    "pct": 0.65,
+    "marketValueUSD": 0.266,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"2wyc02j0eqy6\",\"cc\":\"AU\",\"n\":\"Fortescue Ltd\",\"a\":{\"e\":251615146,\"n\":2857681276},\"at\":0,\"o\":0.72,\"eq\":{\"vid\":\"FMG\",\"v\":0.72,\"s\":\"Basic Materials\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"2wyc02j0eqy6\",\"cc\":\"AU\",\"n\":\"Fortescue Ltd\",\"a\":{\"e\":265699113,\"n\":2629225573},\"at\":0,\"o\":0.65,\"eq\":{\"vid\":\"FMG\",\"v\":0.65,\"s\":\"Basic Materials\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": {
-    "count": 183276,
-    "asOf": "2025-08-20",
+    "count": 168739,
+    "asOf": "2026-08-17",
     "source": {
       "hostType": "exchange",
-      "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-      "label": "FY25 Annual Report (ASX release), shareholder information, distribution of shareholders",
-      "quote": "Range Shareholders number 1 to 1,000 119,599 1,001 to 5,000 47,181 5,001 to 10,000 9,476 10,001 to 100,000 6,708 100,001 and Over 312 Total 183,276"
+      "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+      "label": "FY26 Annual Report and Appendix 4E (ASX, 20 August 2026), shareholder information, holding distribution",
+      "quote": "Holding distribution Range Number of holders 1 to 1,000 110,271 1,001 to 5,000 43,244 5,001 to 10,000 8,720 10,001 to 100,000 6,209 100,001 and Over 295 Total 168,739"
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Oceania;Australia;Fortescue Ltd;Basic Materials;2857681276;251615146;0.72%;0.72%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Fortescue. Holders of record: Distribution table in the shareholder-information section headed 'Top 20 holders of ordinary shares at 20 August 2025'; the distribution table carries no separate date, so asOf is taken from that section heading.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: its Form 13F information table for the quarter ended September 30, 2026 has no Fortescue row (searched by name); Form 13F covers only U.S.-listed securities. Holders of record: holding distribution table in the FY26 annual report's shareholder information, which is headed with the top-20 holders 'at 17 August 2026'; the distribution table carries no separate date, so asOf is taken from that heading.",
+  "researchedAt": "2026-11-24"
 }

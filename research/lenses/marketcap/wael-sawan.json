@@ -1,0 +1,22 @@
+{
+  "id": "wael-sawan",
+  "company": "Shell",
+  "classes": [
+    {
+      "label": "Ordinary shares of €0.07 each",
+      "shares": 5729497530,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "SHEL.L",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026068044/quarterlyexhibit992-q32026.htm",
+        "label": "Q3 2026 Unaudited Condensed Interim Financial Report (Form 6-K exhibit 99.2), Note 4 Share capital",
+        "quote": "4. Share capital ISSUED AND FULLY PAID ORDINARY SHARES OF €0.07 EACH ISSUED AND FULLY PAID ORDINARY SHARES OF €0.07 EACH Number of shares Nominal value ($ million) At January 1, 2026 5,718,636,398 477 Shares issued 1 228,003,843 19 Repurchases of shares (217,142,711) (18) At September 30, 2026 5,729,497,530 478"
+      }
+    }
+  ],
+  "notes": "One class of ordinary shares. The London Stock Exchange line (SHEL.L, quoted in pence sterling) is used: Shell is incorporated in England and Wales, and the 20-F lists London and Euronext Amsterdam (SHELL) as primary markets for the ordinary shares; the NYSE line (SHEL) is ADSs, each representing two ordinary shares, so it is not used. The count is issued and fully paid shares at September 30, 2026 from the Q3 2026 interim report (filed October 29, 2026), which is newer than the 20-F; it includes 228,003,843 shares issued in 2026 for the acquisition of ARC Resources, and shares repurchased are cancelled (no treasury holding is reported). Shares held by employee share plan trusts (28.74 million at December 31, 2025) are part of the issued count. The price pipeline must convert SHEL.L from pence to pounds.",
+  "researchedAt": "2026-11-24"
+}

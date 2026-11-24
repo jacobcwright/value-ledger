@@ -1,126 +1,102 @@
 {
   "id": "joaquin-duato",
   "company": "Johnson & Johnson",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-29",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-28",
   "currency": "USD",
   "unit": "billions",
   "sector": "pharma",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 88.821,
-      "stated": 88821,
+      "value": 94.193,
+      "stated": 94193,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
-        "quote": "Sales to customers $ 88,821 85,159 79,990",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of earnings (in millions)",
+        "quote": "Sales to customers $ 94,193 88,821 85,159",
         "xbrl": {
           "cik": "0000200406",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "end": "2024-12-29",
-          "value": 88821000000
+          "end": "2025-12-28",
+          "value": 94193000000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 24.266,
-      "stated": 24266,
+      "value": 24.53,
+      "stated": 24530,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Net cash flows from operating activities 24,266 22,791 21,194",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash flows from operating activities 24,530 24,266 22,791",
         "xbrl": {
           "cik": "0000200406",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-29",
-          "value": 24266000000
+          "end": "2025-12-28",
+          "value": 24530000000
         }
       }
     },
     "capex": {
-      "value": 4.424,
+      "value": 4.832,
       "components": [
-        "PP&E 4.424"
+        "PP&E 4.832"
       ],
-      "stated": 4424,
+      "stated": 4832,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Cash flows from investing activities Additions to property, plant and equipment ( 4,424 ) ( 4,543 ) ( 4,009 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Additions to property, plant and equipment ( 4,832 ) ( 4,424 ) ( 4,543 )",
         "xbrl": {
           "cik": "0000200406",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-12-29",
-          "value": 4424000000
+          "end": "2025-12-28",
+          "value": 4832000000
         }
-      },
-      "excludes": [
-        {
-          "name": "acquired in-process R&D assets (asset acquisitions, Note 18)",
-          "value": 1.783,
-          "stated": 1783,
-          "source": {
-            "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-            "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-            "quote": "Acquired in-process research and development assets (Note 18) ( 1,783 ) ( 470 ) -"
-          }
-        },
-        {
-          "name": "other investing, including capitalized licenses and milestones (net, mixed line)",
-          "value": 0.174,
-          "stated": 174,
-          "source": {
-            "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-            "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-            "quote": "Other (including capitalized licenses and milestones) ( 174 ) 12 ( 229 )"
-          }
-        }
-      ]
+      }
     },
     "interestPaid": {
-      "value": 1.911,
+      "value": 1.863,
       "inOCF": true,
-      "stated": 1911,
+      "stated": 1863,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid during the year for: Interest $ 1,990 1,836 982 Interest, net of amount capitalized 1,911 1,766 933 Income taxes, inclusive of discontinued operations 6,714 8,574 5,223",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow data (in millions)",
+        "quote": "Cash paid during the year for: Interest $ 1,977 1,990 1,836 Interest, net of amount capitalized 1,863 1,911 1,766 Income taxes, inclusive of discontinued operations 6,539 6,714 8,574",
         "xbrl": {
           "cik": "0000200406",
           "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-12-29",
-          "value": 1911000000
+          "end": "2025-12-28",
+          "value": 1863000000
         }
       }
     },
     "taxesPaid": {
-      "value": 6.714,
+      "value": 6.539,
       "inOCF": true,
-      "stated": 6714,
+      "stated": 6539,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid during the year for: Interest $ 1,990 1,836 982 Interest, net of amount capitalized 1,911 1,766 933 Income taxes, inclusive of discontinued operations 6,714 8,574 5,223",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow data (in millions)",
+        "quote": "Cash paid during the year for: Interest $ 1,977 1,990 1,836 Interest, net of amount capitalized 1,863 1,911 1,766 Income taxes, inclusive of discontinued operations 6,539 6,714 8,574",
         "xbrl": {
           "cik": "0000200406",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-29",
-          "value": 6714000000
+          "end": "2025-12-28",
+          "value": 6539000000
         }
       },
-      "note": "Includes discontinued operations and $2.0bn of TCJA payments on foreign undistributed earnings."
+      "note": "Includes discontinued operations and $2.5bn of TCJA payments on foreign undistributed earnings (Note 8)."
     }
   },
-  "paidOut": 68.979,
-  "paidOutFormula": "88.821 − 24.266 + 4.424",
+  "paidOut": 74.495,
+  "paidOutFormula": "94.193 − 24.530 + 4.832",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -129,6 +105,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Fiscal year ended December 29, 2024. Capex is PP&E only. Acquired in-process R&D (1,783) is treated as acquisitions (asset acquisitions in Note 18), and the net \"Other\" investing line (174, which includes capitalized licenses and milestones) is mixed and not used.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 28, 2025 (FY2025 Form 10-K, accession 0000200406-26-000016). Capex is PP&E only. Acquisitions of businesses (including Intra-Cellular Therapies) and acquired in-process R&D are treated as acquisitions and excluded; the net 'Other' investing line, which mixes capitalized licenses and milestones with other items, is not used. Interest and taxes paid are inside operating cash flow.",
+  "researchedAt": "2026-11-24"
 }

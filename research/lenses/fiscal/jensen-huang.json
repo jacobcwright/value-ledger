@@ -1,44 +1,44 @@
 {
   "id": "jensen-huang",
   "company": "NVIDIA",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-01-26",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-25",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 15.12,
+      "value": 20.29,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
-        "label": "FY2025 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes, net $ 15,118 $ 6,549 $ 1,404 Cash paid for interest [USD millions; FY2025 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "label": "FY2026 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes, net $ 20,288 $ 15,118 $ 6,549 [USD millions; FY2026 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001045810",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2025-01-26",
-          "value": 15118000000
+          "end": "2026-01-25",
+          "value": 20288000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 12.91,
+      "value": 18.5,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
-        "label": "FY2025 Form 10-K, research and development expense",
-        "quote": "Research and development 12,914 8,675 7,339 Sales, general and administrative [USD millions; FY2025 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "label": "FY2026 Form 10-K, research and development expense",
+        "quote": "Research and development 18,497 12,914 8,675 [USD millions; FY2026 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001045810",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2025-01-26",
-          "value": 12914000000
+          "end": "2026-01-25",
+          "value": 18497000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented; the income-tax note's new table by jurisdiction gives the same total (federal 16,755; California 1,049; other states 1,041; Israel 1,287; other foreign 156 million).",
+  "researchedAt": "2026-11-24"
 }

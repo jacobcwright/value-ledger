@@ -1,0 +1,22 @@
+{
+  "id": "walt-disney",
+  "company": "The Walt Disney Company",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 1708029668,
+      "sharesAsOf": "2026-11-11",
+      "pricedAs": "DIS",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000066/dis-20261003.htm",
+        "label": "FY2026 Form 10-K, cover page",
+        "quote": "There were 1,708,029,668 shares of common stock outstanding as of November 11, 2026."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the New York Stock Exchange as DIS. The FY2026 10-K cover (filed November 17, 2026) is the latest count; the most recent 10-Q is for the quarter ended June 27, 2026, so it is older.",
+  "researchedAt": "2026-11-24"
+}

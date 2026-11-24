@@ -6,9 +6,9 @@
       "label": "Long-lived assets",
       "unit": "currency-millions",
       "currency": "USD",
-      "period": "as of July 31, 2024",
+      "period": "as of July 31, 2026",
       "tier": "filing",
-      "definition": "Property and equipment, net, plus operating lease right-of-use assets, by geographic area (10-K Note 18). Columns are FY2024 then FY2023; the FY2024 value is recorded."
+      "definition": "Property and equipment, net, plus operating lease right-of-use assets, by geographic area (10-K Note 19, Segment Information). Columns are FY2026 then FY2025; the FY2026 value is recorded."
     }
   },
   "usStates": null,
@@ -17,28 +17,28 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "longLivedAssets": 438.9
+        "longLivedAssets": 759
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000029/panw-20240731.htm",
-        "label": "Palo Alto Networks Form 10-K for fiscal 2024 (year ended July 31, 2024), Note 18, long-lived assets by geographic area",
-        "quote": "long-lived assets, which consist of property and equipment, net and operating lease right-of-use assets, by geographic area (in millions): Year Ended July 31, 2024 2023 Long-lived assets: United States $ 438.9 $ 400.4"
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000023/panw-20260731.htm",
+        "label": "Palo Alto Networks Form 10-K for fiscal 2026 (year ended July 31, 2026), Note 19, long-lived assets by geographic area",
+        "quote": "The following table presents our long-lived assets, which consist of property and equipment, net and operating lease right-of-use assets, by geographic area (in millions): Year Ended July 31, 2026 2025 Long-lived assets: United States $ 759 $ 418"
       }
     },
     {
       "iso2": "IL",
       "name": "Israel",
       "values": {
-        "longLivedAssets": 141.1
+        "longLivedAssets": 222
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000029/panw-20240731.htm",
-        "label": "Palo Alto Networks Form 10-K for fiscal 2024 (year ended July 31, 2024), Note 18, long-lived assets by geographic area",
-        "quote": "long-lived assets, which consist of property and equipment, net and operating lease right-of-use assets, by geographic area (in millions): Year Ended July 31, 2024 2023 Long-lived assets: United States $ 438.9 $ 400.4 Israel 141.1 76.8"
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000023/panw-20260731.htm",
+        "label": "Palo Alto Networks Form 10-K for fiscal 2026 (year ended July 31, 2026), Note 19, long-lived assets by geographic area",
+        "quote": "The following table presents our long-lived assets, which consist of property and equipment, net and operating lease right-of-use assets, by geographic area (in millions): Year Ended July 31, 2026 2025 Long-lived assets: United States $ 759 $ 418 Israel 222 162"
       }
     }
   ],
@@ -47,14 +47,14 @@
       "name": "Other countries",
       "countries": null,
       "values": {
-        "longLivedAssets": 167.0
+        "longLivedAssets": 242
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000029/panw-20240731.htm",
-        "label": "Palo Alto Networks Form 10-K for fiscal 2024 (year ended July 31, 2024), Note 18, long-lived assets by geographic area",
-        "quote": "long-lived assets, which consist of property and equipment, net and operating lease right-of-use assets, by geographic area (in millions): Year Ended July 31, 2024 2023 Long-lived assets: United States $ 438.9 $ 400.4 Israel 141.1 76.8 Other countries 167.0 140.6"
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000023/panw-20260731.htm",
+        "label": "Palo Alto Networks Form 10-K for fiscal 2026 (year ended July 31, 2026), Note 19, long-lived assets by geographic area",
+        "quote": "The following table presents our long-lived assets, which consist of property and equipment, net and operating lease right-of-use assets, by geographic area (in millions): Year Ended July 31, 2026 2025 Long-lived assets: United States $ 759 $ 418 Israel 222 162 Other countries 242 154"
       }
     }
   ],
@@ -68,12 +68,12 @@
       "description": "Corporate headquarters in Santa Clara, California, about 941,000 square feet leased.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000029/panw-20240731.htm",
-        "label": "Palo Alto Networks Form 10-K for fiscal 2024 (year ended July 31, 2024), Item 2. Properties",
-        "quote": "Our corporate headquarters is located in Santa Clara, California, where we lease approximately 941,000 square feet of space under three lease agreements that expire in July 2028"
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000023/panw-20260731.htm",
+        "label": "Palo Alto Networks Form 10-K for fiscal 2026 (year ended July 31, 2026), Item 2. Properties",
+        "quote": "Our corporate headquarters is located in Santa Clara, California, where we lease approximately 941,000 square feet of space under three lease agreements that expire in July 2040"
       }
     }
   ],
-  "notes": "Palo Alto Networks publishes no state or country impact report that was found. The FY2024 10-K gives a global workforce of 15,289 with no geographic split; Item 2 names the leased Santa Clara HQ (~941,000 sq ft, plus 10.4 owned acres next to it), leased space \"around the world, including Israel and India\", and co-located data centers in the United States, Europe and Asia, with no figures. The only geographic footprint figures are long-lived assets (PP&E plus operating lease ROU assets) for the U.S., Israel and other countries.",
-  "researchedAt": "2026-11-23"
+  "notes": "Palo Alto Networks publishes no state or country impact report that was found. The FY2026 10-K gives a global workforce of 21,921 (July 31, 2026) with no geographic split; Item 2 names the leased Santa Clara HQ (~941,000 sq ft, leases now running to July 2040, plus 24.9 owned acres next to it), leased space \"around the world, including Israel and India\", and data centers under co-location arrangements in the United States, Europe and Asia, with no figures. The only geographic footprint figures are long-lived assets (PP&E plus operating lease ROU assets) for the U.S., Israel and other countries, now printed in whole $ millions (total $1,223 million, at July 31, 2026, against $734 million a year earlier).",
+  "researchedAt": "2026-11-24"
 }

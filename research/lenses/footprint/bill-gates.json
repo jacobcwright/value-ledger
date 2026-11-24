@@ -5,14 +5,14 @@
     "employees": {
       "label": "Full-time employees",
       "unit": "people",
-      "period": "as of June 30, 2024",
+      "period": "as of June 30, 2026",
       "tier": "filing",
-      "definition": "People employed on a full-time basis, split by the 10-K into the U.S. and internationally (approximate, as stated)."
+      "definition": "People employed on a full-time basis, split by the FY2026 10-K into the U.S. and internationally (approximate, as stated)."
     },
     "datacenterStaff": {
       "label": "Datacenter operations staff",
       "unit": "people",
-      "period": "as of 2025 (fact sheets published October 2025; newer than the FY2024 snapshot)",
+      "period": "as of 2025 (fact sheets published October 2025; the latest edition as of Nov 24, 2026)",
       "tier": "company-published",
       "definition": "People employed at Microsoft's operational datacenters in that state or country, as stated in each local datacenter fact sheet (\"Our operational datacenters employ approximately N people\"). Approximate; not total Microsoft employment there."
     }
@@ -115,14 +115,14 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "employees": 126000
+        "employees": 121000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-        "label": "FY2024 Form 10-K, Item 1, Human Capital Resources",
-        "quote": "As of June 30, 2024, we employed approximately 228,000 people on a full-time basis, 126,000 in the U.S. and 102,000 internationally."
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "label": "FY2026 Form 10-K, Item 1, Human Capital Resources",
+        "quote": "As of June 30, 2026, we employed approximately 223,000 people on a full-time basis, 121,000 in the U.S. and 102,000 internationally."
       }
     },
     {
@@ -304,9 +304,9 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-        "label": "FY2024 Form 10-K, Item 1, Human Capital Resources",
-        "quote": "As of June 30, 2024, we employed approximately 228,000 people on a full-time basis, 126,000 in the U.S. and 102,000 internationally."
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "label": "FY2026 Form 10-K, Item 1, Human Capital Resources",
+        "quote": "As of June 30, 2026, we employed approximately 223,000 people on a full-time basis, 121,000 in the U.S. and 102,000 internationally."
       }
     }
   ],
@@ -317,12 +317,12 @@
       "state": "WA",
       "iso2": "US",
       "type": "headquarters",
-      "description": "Corporate headquarters; about 15 million square feet in King County used for engineering, sales, marketing and operations.",
+      "description": "Corporate headquarters; about 14 million square feet in King County used for engineering, sales, marketing and operations.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-        "label": "FY2024 Form 10-K, Item 2, Properties",
-        "quote": "Our corporate headquarters are located in Redmond, Washington. We have approximately 15 million square feet of space located in King County, Washington that is used for engineering, sales, marketing, and operations, among other general and administrative purposes."
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "label": "FY2026 Form 10-K, Item 2, Properties",
+        "quote": "Our corporate headquarters are located in Redmond, Washington. We have approximately 14 million square feet of space located in King County, Washington that is used for engineering, sales, marketing, and operations, among other general and administrative purposes."
       }
     },
     {
@@ -334,8 +334,8 @@
       "description": "Foreign regional operations center through which Microsoft produces and distributes products and services.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
-        "label": "FY2024 Form 10-K, Item 7, effective tax rate",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "label": "FY2026 Form 10-K, Item 7, effective tax rate",
         "quote": "earnings taxed at lower rates in foreign jurisdictions resulting from producing and distributing our products and services through our foreign regional operations center in Ireland"
       }
     },
@@ -438,6 +438,6 @@
       }
     }
   ],
-  "notes": "Microsoft publishes no fifty-state jobs/investment report. The closest is local.microsoft.com's set of state and country 'Microsoft datacenters in …' fact sheets (published October 2025), which give approximate operational datacenter headcount; the state map covers only the seven states whose sheet states a current headcount (AZ, IL, IA, TX, VA, WA, WY). The CA, GA, NC, OH and WI sheets give only a per-building figure ('each datacenter facility employs 50 employees per building') or future hiring, so they are omitted; the India and UK sheets give no headcount; Canada and Denmark give only future headcount; Finland gives a per-building figure; the Greece, Indonesia, Spain, Sweden and Taiwan sheets gave no current headcount in the text extracted. Localized sheets are quoted in their original language. The county-level EY-commissioned datacenter infographics (e.g. Central Washington, Mecklenburg County VA) are sub-state and were not used as state rows. Total employment is only split U.S. vs international in the FY2024 10-K (126,000 / 102,000); the 10-K's long-lived-asset split (U.S. $186,106m vs other countries $115,263m, June 30, 2024) was not recorded as a row because it would duplicate the U.S. country row from a different passage, and it is dominated by goodwill and intangibles. Azure datacenter regions per country were not recorded: Microsoft's geographies pages are current (2026) and do not state a count per country, so any count would be our own tally. No taxes-by-country report was found.",
-  "researchedAt": "2026-11-23"
+  "notes": "Microsoft publishes no fifty-state jobs/investment report. The closest is local.microsoft.com's set of state and country 'Microsoft datacenters in …' fact sheets (published October 2025), which give approximate operational datacenter headcount; no newer edition found (checked 2026-11-24: the datacenter operations fact-sheet hub still links the October 2025 sheets). The state map covers only the seven states whose sheet states a current headcount (AZ, IL, IA, TX, VA, WA, WY). The CA, GA, NC, OH and WI sheets give only a per-building figure ('each datacenter facility employs 50 employees per building') or future hiring, so they are omitted; the India and UK sheets give no headcount; Canada and Denmark give only future headcount; Finland gives a per-building figure; the Greece, Indonesia, Spain, Sweden and Taiwan sheets gave no current headcount in the text extracted. Localized sheets are quoted in their original language. The county-level EY-commissioned datacenter infographics (e.g. Central Washington, Mecklenburg County VA) are sub-state and were not used as state rows. Total employment is only split U.S. vs international in the FY2026 10-K (121,000 / 102,000 of ~223,000 full-time employees at June 30, 2026); the 10-K's long-lived-asset split by U.S. and other countries was not recorded as a row because it would duplicate the U.S. country row from a different passage and is dominated by goodwill and intangibles. Azure datacenter regions per country were not recorded: Microsoft's geographies pages do not state a count per country, so any count would be our own tally. No taxes-by-country report was found.",
+  "researchedAt": "2026-11-24"
 }

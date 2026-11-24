@@ -1,0 +1,31 @@
+{
+  "id": "n-r-narayana-murthy",
+  "company": "Infosys",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
+  "currency": "USD",
+  "employees": {
+    "value": 328594,
+    "asOf": "2026-03-31",
+    "basis": "employees, of which 310,887 were professionals involved in service delivery to clients, including trainees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067491/000119312526270520/infy-20260331.htm",
+      "label": "FY2026 Form 20-F, Item 6.D Employees",
+      "quote": "As of March 31, 2026, we had 328,594 employees, of which 310,887 were professionals involved in service delivery to clients, including trainees."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Employee benefit costs",
+    "value": 10.882,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067491/000119312526270520/infy-20260331.htm",
+      "label": "FY2026 Form 20-F, note 2.13 Expenses by nature (dollars in millions)",
+      "quote": "2.13 Expenses by nature (Dollars in millions) Year ended March 31, 2026 2025 2024 Employee benefit costs 10,882 10,165 9,981"
+    }
+  },
+  "notes": "Employees: year-end head count at March 31, 2026, including trainees. Payroll: note 2.13's 'Employee benefit costs' (salaries and bonus 10,444 plus contributions to funds, share-based payments and staff welfare, per note 2.14.4), in USD as presented in the 20-F.",
+  "researchedAt": "2026-11-24"
+}

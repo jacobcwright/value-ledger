@@ -1,8 +1,8 @@
 {
  "id": "andrew-forrest",
  "company": "Fortescue Ltd",
- "fiscalYear": "FY2025",
- "fiscalYearEnd": "2025-06-30",
+ "fiscalYear": "FY2026",
+ "fiscalYearEnd": "2026-06-30",
  "currency": "USD",
  "unit": "billions",
  "statedUnit": "US$ million",
@@ -10,143 +10,143 @@
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 15.541,
-   "stated": 15541,
+   "value": 16.966,
+   "stated": 16966,
    "divisor": 1000,
    "source": {
     "hostType": "exchange",
-    "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-    "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated income statement (US$m; 2025, 2024)",
-    "quote": "Operating sales revenue 3 15,541 18,220"
+    "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+    "label": "FY26 Annual Report and Appendix 4E (ASX, 20 August 2026), consolidated income statement (US$m; 2026, 2025)",
+    "quote": "Operating sales revenue 3 16,966 15,541 Cost of sales 5 (10,155) (9,102)"
    }
   },
   "operatingCashFlow": {
-   "value": 6.474,
-   "stated": 6474,
+   "value": 6.836,
+   "stated": 6836,
    "divisor": 1000,
    "source": {
     "hostType": "exchange",
-    "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-    "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
-    "quote": "Interest received 174 238 Interest paid (326) (343) Income tax paid (1,641) (2,665) Net cash inflow from operating activities 9(c) 6,474 7,919"
+    "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+    "label": "FY26 Annual Report and Appendix 4E (ASX, 20 August 2026), consolidated statement of cash flows, year ended 30 June 2026 (US$m; 2026, 2025)",
+    "quote": "Interest received 172 174 Interest paid (288) (326) Income tax paid (1,821) (1,641) Net cash inflow from operating activities 9(c) 6,836 6,474"
    }
   },
   "capex": {
-   "value": 3.263,
+   "value": 3.181,
    "components": [
-    "PP&E - Fortescue 3.028",
-    "PP&E - joint operations 0.235"
+    "PP&E - Fortescue 3.033",
+    "PP&E - joint operations 0.148"
    ],
    "parts": [
     {
      "label": "PP&E - Fortescue",
-     "value": 3.028,
-     "stated": 3028,
+     "value": 3.033,
+     "stated": 3033,
      "divisor": 1000,
      "source": {
       "hostType": "exchange",
-      "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-      "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
-      "quote": "Payments for property, plant and equipment - Fortescue (3,028) (2,547)"
+      "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+      "label": "FY26 Annual Report and Appendix 4E (ASX, 20 August 2026), consolidated statement of cash flows, year ended 30 June 2026 (US$m; 2026, 2025)",
+      "quote": "Payments for property, plant and equipment - Fortescue (3,033) (3,028)"
      }
     },
     {
      "label": "PP&E - joint operations",
-     "value": 0.235,
-     "stated": 235,
+     "value": 0.148,
+     "stated": 148,
      "divisor": 1000,
      "source": {
       "hostType": "exchange",
-      "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-      "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
-      "quote": "Payments for property, plant and equipment - joint operations (235) (287)"
+      "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+      "label": "FY26 Annual Report and Appendix 4E (ASX, 20 August 2026), consolidated statement of cash flows, year ended 30 June 2026 (US$m; 2026, 2025)",
+      "quote": "Payments for property, plant and equipment - joint operations (148) (235)"
      }
     }
    ],
-   "note": "Gross of 'Receipt of government grants' (3). No separate intangibles line. Excludes 'Payments for asset acquisition' (170), 'Payments of deposits' (457), equity-accounted investments (19) and financial assets (21). Fortescue's own 'capital expenditure' (3,930) adds investments, asset acquisitions and financial assets, so it is not used."
+   "note": "No government grants were received in FY26 and there is no separate intangibles line. Excludes 'Payments for asset acquisition' (74), 'Payments of deposits' (358), equity-accounted investments (2) and financial assets. Fortescue's own 'capital expenditure' (3,640) adds deposits, investments, asset acquisitions and financial assets, so it is not used."
   },
   "interestPaid": {
-   "value": 0.035,
+   "value": 0.043,
    "components": [
-    "finance costs paid (financing) 0.035"
+    "finance costs paid (financing) 0.043"
    ],
    "parts": [
     {
      "label": "finance costs paid (financing)",
-     "value": 0.035,
-     "stated": 35,
+     "value": 0.043,
+     "stated": 43,
      "divisor": 1000,
      "source": {
       "hostType": "exchange",
-      "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-      "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
-      "quote": "Repayment of leases (406) (135) Finance costs paid (35) (38) Dividends paid (2,851) (4,140)"
+      "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+      "label": "FY26 Annual Report and Appendix 4E (ASX, 20 August 2026), consolidated statement of cash flows, year ended 30 June 2026 (US$m; 2026, 2025)",
+      "quote": "Repayment of leases (150) (406) Finance costs paid (43) (35) Dividends paid (2,529) (2,851)"
      }
     }
    ],
    "inOCF": false,
-   "location": "Interest paid (326) is in operating activities; only 'Finance costs paid' (35) is in financing and is added",
+   "location": "Interest paid (288) is in operating activities; only 'Finance costs paid' (43) is in financing and is added",
    "inOCFPortion": {
-    "value": 0.326,
-    "stated": 326,
+    "value": 0.288,
+    "stated": 288,
     "divisor": 1000,
     "source": {
      "hostType": "exchange",
-     "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-     "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
-     "quote": "Interest received 174 238 Interest paid (326) (343) Income tax paid (1,641) (2,665)"
+     "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+     "label": "FY26 Annual Report and Appendix 4E (ASX, 20 August 2026), consolidated statement of cash flows, year ended 30 June 2026 (US$m; 2026, 2025)",
+     "quote": "Interest received 172 174 Interest paid (288) (326) Income tax paid (1,821) (1,641)"
     }
    },
-   "note": "Judgement call: 'Finance costs paid' sits in financing and is treated as a payment to lenders outside OCF, so it is added (0.3% of paidOut). Interest paid of 326 (incl. lease interest) is inside OCF and is already counted."
+   "note": "Judgement call: 'Finance costs paid' sits in financing and is treated as a payment to lenders outside OCF, so it is added (0.3% of paidOut). Interest paid of 288 (incl. lease interest) is inside OCF and is already counted."
   },
   "taxesPaid": {
-   "value": 1.641,
-   "stated": 1641,
+   "value": 1.821,
+   "stated": 1821,
    "divisor": 1000,
    "source": {
     "hostType": "exchange",
-    "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-    "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
-    "quote": "Interest paid (326) (343) Income tax paid (1,641) (2,665) Net cash inflow from operating activities 9(c) 6,474 7,919"
+    "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+    "label": "FY26 Annual Report and Appendix 4E (ASX, 20 August 2026), consolidated statement of cash flows, year ended 30 June 2026 (US$m; 2026, 2025)",
+    "quote": "Interest paid (288) (326) Income tax paid (1,821) (1,641) Net cash inflow from operating activities 9(c) 6,836 6,474"
    },
    "inOCF": true,
    "location": "operating activities"
   },
   "leasePrincipalPaid": {
-   "value": 0.406,
-   "stated": 406,
+   "value": 0.15,
+   "stated": 150,
    "divisor": 1000,
    "source": {
     "hostType": "exchange",
-    "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-    "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
-    "quote": "Repayment of leases (406) (135) Finance costs paid (35) (38)"
+    "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+    "label": "FY26 Annual Report and Appendix 4E (ASX, 20 August 2026), consolidated statement of cash flows, year ended 30 June 2026 (US$m; 2026, 2025)",
+    "quote": "Repayment of leases (150) (406) Finance costs paid (43) (35)"
    },
    "added": false,
-   "note": "AASB 16 lease principal in financing (ore carriers etc.); noted, not added (3.3% of paidOut)."
+   "note": "AASB 16 lease principal in financing (ore carriers etc.); noted, not added (1.1% of paidOut)."
   }
  },
- "paidOut": 12.365,
- "paidOutFormula": "15,541 − 6,474 + 3,263 (3,028 PP&E Fortescue + 235 PP&E joint operations) + 35 (finance costs paid, financing) = 12,365 US$ million",
+ "paidOut": 13.354,
+ "paidOutFormula": "16,966 − 6,836 + 3,181 (3,033 PP&E Fortescue + 148 PP&E joint operations) + 43 (finance costs paid, financing) = 13,354 US$ million",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
   "financeReceivablesInOCF": false,
   "interestDividendsReceivedInOCF": {
-   "value": 0.174,
-   "stated": 174,
+   "value": 0.172,
+   "stated": 172,
    "divisor": 1000,
    "source": {
     "hostType": "exchange",
-    "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-    "label": "FY25 Annual Report and Appendix 4E (ASX), consolidated statement of cash flows, year ended 30 June 2025 (US$m; 2025, 2024)",
-    "quote": "Interest received 174 238 Interest paid (326) (343)"
+    "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+    "label": "FY26 Annual Report and Appendix 4E (ASX, 20 August 2026), consolidated statement of cash flows, year ended 30 June 2026 (US$m; 2026, 2025)",
+    "quote": "Interest received 172 174 Interest paid (288) (326)"
    },
-   "note": "Interest received sits inside OCF, lowering paidOut by this amount (1.4%)."
+   "note": "Interest received sits inside OCF, lowering paidOut by this amount (1.3%)."
   },
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "AASB/IFRS, reported in US$. Direct-method cash-flow statement: interest received, interest paid and income tax paid are inside operating activities. 'Finance costs paid' (35) in financing is added as interest outside OCF (judgement call). Revenue is operating sales revenue (other income of 82 excluded). Lease principal (406) noted, not added.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended 30 June 2026. AASB/IFRS, reported in US$. Direct-method cash-flow statement: interest received, interest paid and income tax paid are inside operating activities. 'Finance costs paid' (43) in financing is added as interest outside OCF (judgement call). Revenue is operating sales revenue (other income of 85 excluded). Lease principal (150) noted, not added.",
+ "researchedAt": "2026-11-24"
 }

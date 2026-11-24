@@ -2,54 +2,54 @@
   "id": "michael-saylor",
   "company": "Strategy",
   "nbim": {
-    "pct": 0.72,
-    "marketValueUSD": 0.514,
-    "asOf": "2024-12-31",
+    "pct": 1.17,
+    "marketValueUSD": 0.357,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"3q5wsay2m8cx\",\"cc\":\"US\",\"n\":\"MicroStrategy Inc\",\"a\":{\"e\":514056095,\"n\":5838314996},\"at\":0,\"o\":0.72,\"eq\":{\"vid\":\"MSTR\",\"v\":0.42,\"s\":\"Technology\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"3q5wsay2m8cx\",\"cc\":\"US\",\"n\":\"Strategy Inc\",\"a\":{\"e\":357277867,\"n\":3535443129},\"at\":0,\"o\":1.17,\"eq\":{\"vid\":\"MSTR\",\"v\":0.78,\"s\":\"Technology\"}}"
     }
   },
   "calpers": {
-    "shares": 264713,
-    "asOf": "2024-12-31",
+    "shares": 374740,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "MICROSTRATEGY INC CL A NEW 594972408 76666179 264713"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "STRATEGY INC CL A NEW 594972408 57368947 374740"
     },
     "derived": {
-      "pct": 0.103,
-      "method": "CalPERS shares ÷ shares outstanding (all classes)",
+      "pct": 0.089,
+      "method": "CalPERS shares ÷ shares outstanding, all classes (374,740 ÷ (402,714,357 Class A + 19,640,250 Class B) = 374,740 ÷ 422,354,607)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "As of February 4, 2025 , the registrant had 237,711,607 and 19,640,250 shares of class A common stock and class B common stock outstanding, respectively."
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000060/mstr-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+          "quote": "As of October 25, 2026, the registrant had 402,714,357 and 19,640,250 shares of class A common stock and class B common stock outstanding, respectively."
         },
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-          "label": "FY2024 Form 10-K, share class rights",
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+          "label": "FY2025 Form 10-K, share class rights",
           "quote": "Holders of class A common stock generally have the same rights, including rights to dividends, as holders of class B common stock, except that holders of class A common stock have one vote per share while holders of class B common stock have ten votes per share."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 825,
-    "asOf": "2025-02-04",
+    "count": 762,
+    "asOf": "2026-02-13",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of February 4, 2025, there were approximately 825 stockholders of record of our class A common stock and two stockholders of record of our class B common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of February 13, 2026, there were approximately 762 stockholders of record of our class A common stock and two stockholders of record of our class B common stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;MicroStrategy Inc;Technology;5838314996;514056095;0.42%;0.72%\". NBIM: NBIM lists the company under its 2024 name, \"MicroStrategy Inc\" (renamed Strategy in 2025). CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS: CalPERS holds class A; denominator is class A plus class B. Holders of record: Class A only; class B has two holders of record.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); NBIM now lists it as \"Strategy Inc\". CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026, issuer 'STRATEGY INC' (formerly MicroStrategy; same CUSIP 594972408). Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. CalPERS holds class A; the denominator is class A plus class B from the Q3 2026 10-Q cover at October 25, 2026, the same count used in the marketcap lens. Holders of record: class A only; class B has two holders of record.",
+  "researchedAt": "2026-11-24"
 }

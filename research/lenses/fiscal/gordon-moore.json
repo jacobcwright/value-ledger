@@ -1,44 +1,44 @@
 {
   "id": "gordon-moore",
   "company": "Intel",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-28",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-27",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 2.2,
+      "value": 2.3,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid during the year for: ... Income taxes, net of refunds $ 2,202 $ 2,621 $ 4,282 See accompanying [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "FY2025 Form 10-K, Note 8 Income Taxes, income taxes paid (in millions)",
+        "quote": "presents income taxes paid (net of refunds received) for the year ended December 27, 2025: Year Ended (In Millions) Dec 27, 2025 Federal taxes $ 1,393 State taxes ( 7 ) Foreign taxes: China 276 Israel 197 Other foreign jurisdictions 440 Total cash taxes paid $ 2,299",
         "xbrl": {
           "cik": "0000050863",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-28",
-          "value": 2202000000
+          "end": "2025-12-27",
+          "value": 2299000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 16.55,
+      "value": 13.77,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 16,546 31.2 % 16,046 29.6 % 17,528 27.8 % [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+        "label": "FY2025 Form 10-K, MD&A consolidated results of operations, research and development expense",
+        "quote": "Research and development 13,774 26.1 % 16,546 31.2 % 16,046 29.6 % [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000050863",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-28",
-          "value": 16546000000
+          "end": "2025-12-27",
+          "value": 13774000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the income-tax note's 2025 by-jurisdiction table (federal 1,393, state −7, China 276, Israel 197, other foreign 440; total 2,299 million).",
+  "researchedAt": "2026-11-24"
 }

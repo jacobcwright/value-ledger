@@ -1,0 +1,36 @@
+{
+  "id": "stephen-a-schwarzman",
+  "company": "Blackstone",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 751115317,
+      "sharesAsOf": "2026-10-30",
+      "pricedAs": "BX",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526451802/d179995d10q.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 30, 2026, there were 751,115,317 shares of common stock of the registrant outstanding."
+      }
+    },
+    {
+      "label": "Blackstone Holdings Partnership Units held by limited partners",
+      "shares": 443682239,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "BX",
+      "perListedUnit": 1,
+      "pricedAsReason": "The partnership units are unlisted and exchangeable for common stock one-for-one (FY2025 10-K, Item 12: \"the partnership units of Blackstone Holdings are exchangeable for shares of our common stock on a one-for-one basis\"); they share in dividends and distributions with the common stock.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526451802/d179995d10q.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, Note 13 Earnings Per Share and Stockholders' Equity, shares eligible for dividends and distributions",
+        "quote": "As of September 30, 2026, the total shares of common stock and Blackstone Holdings Partnership Units entitled to participate in dividends and distributions were as follows: $ Shares/Units Common Stock Outstanding 760,147,136 Unvested Participating Common Stock 39,575,922 Total Participating Common Stock 799,723,058 Participating Blackstone Holdings Partnership Units 443,682,239 1,243,405,297"
+      }
+    }
+  ],
+  "notes": "Common stock is listed on the NYSE as BX; the 10-Q cover count at October 30, 2026 is the latest. JUDGMENT CALL: the Blackstone Holdings Partnership Units held by limited partners are included as a second class because they are the other half of the economic interest in Blackstone (noncontrolling interests in Blackstone Holdings, exchangeable one-for-one for common stock and paid the same distributions), and the leader's ownership figure is measured on common stock plus these units; the count is the participating units at September 30, 2026, the latest stated. A market cap on common stock alone would leave them out. Unvested participating common stock (39,575,922 at September 30, 2026) is not counted separately because the cover count is of shares outstanding. The single share each of Series I and Series II preferred stock carry votes only and are left out.",
+  "researchedAt": "2026-11-24"
+}

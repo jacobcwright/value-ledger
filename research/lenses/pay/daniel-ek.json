@@ -1,0 +1,31 @@
+{
+  "id": "daniel-ek",
+  "company": "Spotify Technology",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "EUR",
+  "employees": {
+    "value": 7287,
+    "asOf": "2025-12-31",
+    "basis": "full-time employees on average during 2025",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+      "label": "FY2025 Form 20-F, Item 6.D Employees",
+      "quote": "In 2025, 2024, and 2023, we had 7,287, 7,691, and 9,123 full-time employees on average, respectively."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Personnel expenses, Total",
+    "value": 1.924,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+      "label": "FY2025 Form 20-F, Note 5 Personnel expenses (€ millions)",
+      "quote": "5. Personnel expenses 2025 2024 2023 (in € millions, except employee data) Wages and salaries 1,202 1,187 1,558 Social costs and payroll taxes 311 444 254 Contributions to retirement plans 53 52 55 Share-based compensation 248 267 321 Other employee benefits 110 138 157 Total 1,924 2,088 2,345 Average full-time employees 7,287 7,691 9,123"
+    }
+  },
+  "notes": "Employees: Spotify reports only an annual average of full-time employees (7,287 in 2025), not a year-end head count, so the average is used. Payroll: Note 5's total personnel expenses (€1,924 million: wages and salaries, social costs and payroll taxes, retirement contributions, €248 million of share-based compensation and other benefits), in billions of EUR. Social costs fell in 2025 largely because they include payroll taxes on share-based awards, which move with the share price.",
+  "researchedAt": "2026-11-24"
+}

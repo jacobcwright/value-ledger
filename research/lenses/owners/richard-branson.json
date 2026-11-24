@@ -4,15 +4,15 @@
   "nbim": null,
   "calpers": null,
   "holdersOfRecord": {
-    "count": 63,
-    "asOf": "2025-02-14",
+    "count": 84,
+    "asOf": "2026-03-23",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of February 14, 2025, there were 63 holders of record of our shares of common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of March 23, 2026, there were 84 holders of record of our shares of common stock."
     }
   },
-  "notes": "NBIM: NBIM's year-end 2024 equity list has no line for Virgin Galactic. CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Virgin Galactic.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: NBIM's equity holdings file at June 30, 2026 has no line for Virgin Galactic (searched by name). CalPERS: the information table of its Form 13F for the quarter ended September 30, 2026 lists no Virgin Galactic shares (searched by issuer name).",
+  "researchedAt": "2026-11-24"
 }

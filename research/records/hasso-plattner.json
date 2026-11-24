@@ -1,13 +1,13 @@
 {
   "id": "hasso-plattner",
   "company": "SAP SE",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "EUR",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-02-07",
+    "asOf": "2026-02-05",
     "leader": {
       "name": "Hasso Plattner",
       "relation": "co-founder",
@@ -18,10 +18,10 @@
       "derived": null,
       "family": null,
       "source": {
-        "hostType": "company",
-        "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-integrated-report.pdf",
-        "label": "SAP Integrated Report 2024, Report by the Supervisory Board (PDF p. 28)",
-        "quote": "In 2024, the Supervisory Board also bade farewell to its long-serving chairperson, Hasso Plattner – the last founding shareholder still active at the Company – who stepped down at the end of the Annual General Meeting of Shareholders on May 15, 2024."
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/sap-20251231x20f.htm",
+        "label": "FY2025 Form 20-F, Item 6 Compensation Report, Supervisory Board compensation table",
+        "quote": "Prof. Dr. h. c. mult. Hasso Plattner (Chairperson until 5/15/2024)"
       }
     },
     "largestHolders": [
@@ -31,9 +31,9 @@
         "pctEconomic": 6.3,
         "asOf": "2024-02-02",
         "source": {
-          "hostType": "company",
-          "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf",
-          "label": "SAP 2024 Annual Report on Form 20-F, Item 7 Major Shareholders (PDF p. 125)",
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/sap-20251231x20f.htm",
+          "label": "FY2025 Form 20-F, Item 7 Major Shareholders",
           "quote": "BlackRock, Inc. 3 76,782,227 6.3 ... The foregoing information is based on a Schedule 13G filed by BlackRock, Inc. on February 2, 2024."
         }
       },
@@ -43,74 +43,74 @@
         "pctEconomic": 5.1,
         "asOf": "2022-02-11",
         "source": {
-          "hostType": "company",
-          "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf",
-          "label": "SAP 2024 Annual Report on Form 20-F, Item 7 Major Shareholders (PDF p. 125)",
-          "quote": "Dietmar Hopp, collectively1 62,548,065 5.1 ... The foregoing information is based on a Schedule 13G filed by Dietmar Hopp and other affiliated persons and companies on February 11, 2022."
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/sap-20251231x20f.htm",
+          "label": "FY2025 Form 20-F, Item 7 Major Shareholders",
+          "quote": "Major Shareholders Ordinary Shares Beneficially Owned Number % of Outstanding Dietmar Hopp, collectively 1 62,548,065 5.1 ... The foregoing information is based on a Schedule 13G filed by Dietmar Hopp and other affiliated persons and companies on February 11, 2022."
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of ordinary bearer shares; 'None of the major shareholders have special voting rights.' Because the shares are bearer shares, SAP 'generally cannot determine the identity of its shareholders'; the major-shareholder table lists only holders known to own 5% or more as of February 7, 2025 (Dietmar Hopp collectively 5.1%, BlackRock 6.3%). Executive and Supervisory Board members as a group held 63,787 shares (0.0%)."
+      "note": "One class of ordinary bearer shares; 'None of the major shareholders have special voting rights.' Because the shares are bearer shares, SAP 'generally cannot determine the identity of its shareholders'; the FY2025 20-F major-shareholder table lists only holders known to own 5% or more as of February 5, 2026 (Dietmar Hopp collectively 5.1%, BlackRock 6.3%). Executive and Supervisory Board members as a group held 83,326 shares (0.0%)."
     }
   },
   "cash": {
     "dividends": {
-      "value": 2.57,
+      "value": 2.74,
       "source": {
-        "hostType": "company",
-        "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf",
-        "label": "SAP 2024 Annual Report on Form 20-F, consolidated statements of cash flows (PDF p. 174)",
-        "quote": "Dividends paid (E.2) –2,565 –2,395 –2,865 Dividends paid on non-controlling interests –1 –13 –12 [€ millions, 2024, 2023, 2022]",
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/sap-20251231x20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statements of cash flows",
+        "quote": "Dividends paid (E.2) - 2,743 - 2,565 - 2,395 Dividends paid on non-controlling interests - 2 - 1 - 13 [€ millions, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001000184",
           "concept": "ifrs-full:DividendsPaidToEquityHoldersOfParentClassifiedAsFinancingActivities",
-          "end": "2024-12-31",
-          "value": 2565000000
+          "end": "2025-12-31",
+          "value": 2743000000
         }
       }
     },
     "buybacks": {
-      "value": 2.11,
+      "value": 1.94,
       "source": {
-        "hostType": "company",
-        "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf",
-        "label": "SAP 2024 Annual Report on Form 20-F, consolidated statements of cash flows (PDF p. 174)",
-        "quote": "Purchase of treasury shares (E.2) –2,106 –949 –1,500 [€ millions, 2024, 2023, 2022]",
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/sap-20251231x20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statements of cash flows",
+        "quote": "Purchase of treasury shares (E.2) - 1,937 - 2,106 - 949 [€ millions, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001000184",
           "concept": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares",
-          "end": "2024-12-31",
-          "value": 2106000000
+          "end": "2025-12-31",
+          "value": 1937000000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 2.39,
+      "value": 1.7,
       "source": {
-        "hostType": "company",
-        "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf",
-        "label": "SAP 2024 Annual Report on Form 20-F, Note (B.2) Employee Benefits Expenses (PDF p. 189)",
-        "quote": "Employee Benefits Expenses € millions 2024 2023 2022 Salaries 12,244 12,128 11,369 Social security expenses 2,003 1,919 1,779 Share-based payment expenses 2,385 2,220 1,431",
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/sap-20251231x20f.htm",
+        "label": "FY2025 Form 20-F, Note (B.2) Employee Benefits Expenses",
+        "quote": "Employee Benefits Expenses € millions 2025 2024 2023 Salaries 12,066 12,244 12,128 Social security expenses 1,981 2,003 1,919 Share-based payment expenses 1,695 2,385 2,220",
         "xbrl": {
           "cik": "0001000184",
           "concept": "ifrs-full:ExpenseFromSharebasedPaymentTransactionsInWhichGoodsOrServicesReceivedDidNotQualifyForRecognitionAsAssets",
-          "end": "2024-12-31",
-          "value": 2385000000
+          "end": "2025-12-31",
+          "value": 1695000000
         }
       }
     },
     "plan": {
-      "text": "Under the Own SAP plan, employees can buy SAP shares monthly; SAP matches 40% of the investment (100% from October to December 2024) and adds €20 a month for non-executives.",
+      "text": "Under the Own SAP plan, employees can buy SAP shares monthly; SAP matches 40% of the investment and adds €20 a month for non-executives. Employees bought 3.8 million shares through it in 2025.",
       "source": {
-        "hostType": "company",
-        "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf",
-        "label": "SAP 2024 Annual Report on Form 20-F, Note (B.3) Share-Based Payments, Own SAP Plan (PDF p. 192)",
-        "quote": "Under the share purchase plan Own, employees have the opportunity to purchase, on a monthly basis, SAP shares without any required holding period. ... SAP matches the employee investment by 40% and adds a subsidy of €20 per month for non-executives. To recognize the employees’ contribution to SAP’s success in 2024, SAP’s contribution was temporarily increased from 40% to 100% from October to December 2024."
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/sap-20251231x20f.htm",
+        "label": "FY2025 Form 20-F, Note (B.3) Share-Based Payments, Own SAP Plan",
+        "quote": "Under the share purchase plan Own, employees have the opportunity to purchase, on a monthly basis, SAP shares without any required holding period. ... SAP matches the employee investment by 40 % and adds a subsidy of € 20 per month for non-executives. ... Numbers of Shares Purchased Millions 2025 2024 2023 Own 3.8 4.9 6.5"
       }
     }
   },
@@ -119,37 +119,37 @@
     "segments": [
       {
         "name": "Germany",
-        "value": 5.36
+        "value": 5.83
       },
       {
         "name": "Rest of EMEA",
-        "value": 10.22
+        "value": 11.2
       },
       {
         "name": "United States",
-        "value": 11.06
+        "value": 11.54
       },
       {
         "name": "Rest of Americas",
-        "value": 2.75
+        "value": 2.96
       },
       {
         "name": "Japan",
-        "value": 1.39
+        "value": 1.57
       },
       {
         "name": "Rest of APJ",
-        "value": 3.4
+        "value": 3.71
       }
     ],
-    "total": 34.18,
+    "total": 36.8,
     "source": {
-      "hostType": "company",
-      "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-annual-report-form-20f.pdf",
-      "label": "SAP 2024 Annual Report on Form 20-F, Note (A.1) Revenue, Geographic Information, Total Revenue by Region (PDF p. 183)",
-      "quote": "Total Revenue by Region € millions 2024 2023 2022 Germany 5,359 4,921 4,469 Rest of EMEA 10,216 9,083 8,440 EMEA 15,575 14,004 12,909 United States 11,056 10,204 9,799 Rest of Americas 2,752 2,558 2,427 Americas 13,808 12,762 12,227 Japan 1,388 1,243 1,218 Rest of APJ 3,404 3,199 3,166 APJ 4,793 4,441 4,384 SAP Group 34,176 31,207 29,520"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/sap-20251231x20f.htm",
+      "label": "FY2025 Form 20-F, Note (A.1) Revenue, Total Revenue by Region",
+      "quote": "Total Revenue by Region € millions 2025 2024 2023 Germany 5,828 5,359 4,921 Rest of EMEA 11,197 10,216 9,083 EMEA 17,025 15,575 14,004 United States 11,537 11,056 10,204 Rest of Americas 2,962 2,752 2,558 Americas 14,499 13,808 12,762 Japan 1,569 1,388 1,243 Rest of APJ 3,707 3,404 3,199 APJ 5,276 4,793 4,441 SAP Group 36,800 34,176 31,207"
     }
   },
-  "notes": "Fiscal year ended December 31, 2024. Sources are SAP's own PDF copies of the 2024 Annual Report on Form 20-F (filed with the SEC on February 27, 2025, accession 0001104659-25-017815) and the 2024 Integrated Report, both on sap.com; www.sec.gov was not contacted. Dividends, buybacks and stock comp are cross-checked against the SEC XBRL companyfacts API (CIK 0001000184). EUR, converted exactly from € millions. LEADER: Hasso Plattner, a cofounder, left the Supervisory Board on May 15, 2024. The 20-F major-shareholder table (as of February 7, 2025) covers 5% holders and current board members only and does not list him or his foundation or family vehicles, and the 20-F says parties related through him are no longer treated as related parties after May 15, 2024. No holding is reported, so status is 'no-reported-stake'. This does not mean he holds no SAP shares; the filing simply gives no figure. HOLDERS: percentages are '% of Outstanding' ordinary shares as reported to SAP. Dietmar Hopp's 5.1% rests on a Schedule 13G filed February 11, 2022, and BlackRock's 6.3% on a 13G filed February 2, 2024; asOf uses those filing dates because the 20-F gives no event dates. Dietmar Hopp is another SAP cofounder, not part of Plattner's holdings. BUYBACKS: €2,106 million 'Purchase of treasury shares' in the cash-flow statement, under the €5 billion programme announced May 16, 2023 (10,865,684 shares, about €2 billion in 2024). STOCK COMP: €2,385 million total share-based payment expense, of which €1,591 million equity-settled and €794 million cash-settled (Note B.3). Note B.3 adds that SAP 'additionally' recognised €309 million of accelerated share-based payment expense from its 2024 transformation programme, classified as restructuring expense; the wording indicates it is in addition to the recorded figure. GEOGRAPHY: the six country/sub-region rows; EMEA, Americas and APJ subtotals are not repeated.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Source is the FY2025 Annual Report on Form 20-F as filed on EDGAR (February 26, 2026, accession 0001104659-26-020058); dividends, buybacks and stock comp match SEC XBRL companyfacts (CIK 0001000184). EUR, converted exactly from € millions. LEADER: Hasso Plattner, a cofounder, left the Supervisory Board on May 15, 2024; the FY2025 20-F mentions him only in historical compensation tables (as Supervisory Board chairperson until May 15, 2024, and as a former Executive Board member). Its major-shareholder table (as of February 5, 2026) covers 5% holders and current board members only and does not list him, his foundation or family vehicles. No holding is reported, so status is 'no-reported-stake'. This does not mean he holds no SAP shares; the filing simply gives no figure. HOLDERS: percentages are '% of Outstanding' ordinary shares as reported to SAP. Dietmar Hopp's 5.1% rests on a Schedule 13G filed February 11, 2022, and BlackRock's 6.3% on a 13G filed February 2, 2024 (BlackRock told SAP it still holds more than 5% but gave no count); asOf uses those filing dates because the 20-F gives no event dates. Dietmar Hopp is another SAP cofounder, not part of Plattner's holdings. BUYBACKS: €1,937 million 'Purchase of treasury shares' in the 2025 cash-flow statement. SAP announced a new buyback of up to €10 billion in January 2026, after the fiscal year. STOCK COMP: €1,695 million total share-based payment expense (equity- and cash-settled). GEOGRAPHY: the six country/sub-region rows; EMEA, Americas and APJ subtotals are not repeated.",
+  "researchedAt": "2026-11-24"
 }

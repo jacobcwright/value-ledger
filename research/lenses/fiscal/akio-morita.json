@@ -1,44 +1,32 @@
 {
   "id": "akio-morita",
   "company": "Sony",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-03-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
   "currency": "JPY",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 300.53,
+      "value": 234.34,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2025 Form 20-F, cash income taxes paid",
-        "quote": "Income taxes paid 25 ( 297,881 ) ( 293,997 ) ( 300,529 ) Other ( 97,372 ) ( 80,237 ) 24,301 [JPY millions; FY2025 is the 3rd figure in the row]",
-        "xbrl": {
-          "cik": "0000313838",
-          "concept": "ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities",
-          "end": "2025-03-31",
-          "value": 300529000000
-        }
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2026 Form 20-F (fiscal year ended March 31, 2026), consolidated statements of cash flows, cash income taxes paid",
+        "quote": "Income taxes paid 25 ( 231,545 ) ( 308,392 ) ( 234,338 ) [JPY millions; FY2026 is the 3rd figure in the row]"
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 734.58,
+      "value": 762.03,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm",
-        "label": "FY2025 Form 20-F, research and development expense",
-        "quote": "(2) Research and development expenditures Research and development expenditures recognized as an expense for the fiscal years ended March 31, 2023, 2024 and 2025 were 735,698 million yen, 742,772 million yen and 734,578 million yen, respectively.",
-        "xbrl": {
-          "cik": "0000313838",
-          "concept": "ifrs-full:ResearchAndDevelopmentExpense",
-          "end": "2025-03-31",
-          "value": 734578000000
-        }
+        "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm",
+        "label": "FY2026 Form 20-F (fiscal year ended March 31, 2026), Note 23 Supplemental consolidated statements of income information, research and development expenditures",
+        "quote": "Research and development expenditures from continuing operations in the consolidated statements of income recognized as an expense for the fiscal years ended March 31, 2024, 2025 and 2026 were 742,772 million yen, 734,578 million yen and 762,027 million yen, respectively."
       }
     }
   },
-  "notes": "Taxes: ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities, the caption does not say whether refunds are netted. R&D is research and development costs recognised as an expense.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended March 31, 2026. Taxes: the continuing-operations cash-flow line 'Income taxes paid'; the caption does not say whether refunds are netted. R&D is research and development expenditures of continuing operations recognised as an expense. No xbrl objects: companyfacts has no facts for this fiscal year.",
+  "researchedAt": "2026-11-24"
 }

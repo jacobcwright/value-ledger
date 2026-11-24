@@ -1,0 +1,22 @@
+{
+  "id": "andrew-forrest",
+  "company": "Fortescue Ltd",
+  "classes": [
+    {
+      "label": "Ordinary shares",
+      "shares": 3075383164,
+      "sharesAsOf": "2026-06-30",
+      "pricedAs": "FMG.AX",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "exchange",
+        "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+        "label": "FY26 Annual Report and Appendix 4E (ASX, 20 August 2026), note on contributed equity, movements in ordinary shares (issued shares, treasury shares, net)",
+        "quote": "At 30 June 2026 3,078,964,918 (3,581,754) 3,075,383,164"
+      }
+    }
+  ],
+  "notes": "One class of ordinary shares, listed on the ASX as FMG. The count is issued shares (3,078,964,918) less treasury shares held by the employee share trust (3,581,754) at 30 June 2026, as the annual report's equity note states it; the issued count has not changed since 1 July 2024 (employee awards are met from shares bought on market), and the November 2026 substantial-holder notices measure voting power against the same issued base.",
+  "researchedAt": "2026-11-24"
+}

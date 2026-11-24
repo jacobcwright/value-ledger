@@ -1,28 +1,28 @@
 {
   "id": "phil-knight",
   "company": "Nike",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-05-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-05-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 1.23,
+      "value": 1.27,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
-        "label": "FY2025 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid during the year for: ... Income taxes 1,226 1,299 1,517 Non-cash additions to property, plant [USD millions; FY2025 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/nke-20260531.htm",
+        "label": "FY2026 Form 10-K, Note 7 Income Taxes, cash paid for income taxes",
+        "quote": "TOTAL CASH PAID FOR INCOME TAXES $ 1,270 [USD millions, fiscal 2026]",
         "xbrl": {
           "cik": "0000320187",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2025-05-31",
-          "value": 1226000000
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2026-05-31",
+          "value": 1270000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line; the 10-K says R&D costs sit inside operating overhead expense without giving an amount.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended May 31, 2026. Taxes: cash paid for income taxes, net of refunds received (us-gaap:IncomeTaxesPaidNet), from the by-jurisdiction table in Note 7 (ASU 2023-09); it includes $268 million for the final transition-tax installment and $260 million of estimated payments toward an expected IRS resolution for fiscal 2017-2019. R&D not reported as a separate line in the FY2026 10-K.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,44 +1,44 @@
 {
   "id": "larry-ellison",
   "company": "Oracle",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-05-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-05-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 3.56,
+      "value": 3.7,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes $ 3,560 $ 3,009 $ 2,567 Cash paid for interest [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "label": "FY2026 Form 10-K, supplemental schedule of cash flow data, cash income taxes paid",
+        "quote": "Cash paid for income taxes $ 3,704 $ 4,020 $ 3,560 [USD millions; FY2026 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001341439",
           "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-05-31",
-          "value": 3560000000
+          "end": "2026-05-31",
+          "value": 3704000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 8.92,
+      "value": 10.27,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 8,915 8,623 7,219 General and administrative 1,548 1,579 [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of operations, research and development",
+        "quote": "Research and development 10,272 9,860 8,915 [USD millions; FY2026 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001341439",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-05-31",
-          "value": 8915000000
+          "end": "2026-05-31",
+          "value": 10272000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended May 31, 2026. Taxes: us-gaap:IncomeTaxesPaid; the income-tax note's ASU 2023-09 table gives the same $3,704 million as 'Total cash paid for income taxes, net of refunds received' (federal $2,460 million, state $249 million, foreign: a $262 million net refund in Korea, Japan $203 million, India $193 million and other $861 million).",
+  "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,31 @@
+{
+  "id": "richard-branson",
+  "company": "Virgin Galactic Holdings",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 694,
+    "asOf": "2025-12-31",
+    "basis": "694 employees across the globe",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, we had 694 employees across the globe."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "annual total compensation of the employee who represents our median compensated employee (other than our Chief Executive Officer)",
+    "value": 180630,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000046/spce-20260421.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "For 2025, our last completed fiscal year: • the annual total compensation of the employee who represents our median compensated employee (other than our Chief Executive Officer) was $180,630; and • the annual total compensation of our Chief Executive Officer, as reported in the Summary Compensation Table included above, was $10,745,916."
+    }
+  },
+  "notes": "Employees: year-end count from the FY2025 10-K. Payroll: the 10-K gives no total of salaries, benefits or personnel costs, so the 2026 proxy's CEO pay ratio median for 2025 is used (ratio 59:1). The proxy says the employee population other than the CEO was 693 full-time employees at December 31, 2025.",
+  "researchedAt": "2026-11-24"
+}

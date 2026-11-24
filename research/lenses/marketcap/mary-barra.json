@@ -1,0 +1,22 @@
+{
+  "id": "mary-barra",
+  "company": "General Motors",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 843549423,
+      "sharesAsOf": "2026-10-09",
+      "pricedAs": "GM",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000059/gm-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 9, 2026 there were 843,549,423 shares of common stock outstanding."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the NYSE as GM. The count fell from 903,967,853 at January 15, 2026 (FY2025 10-K cover) after continued buybacks.",
+  "researchedAt": "2026-11-24"
+}

@@ -1,32 +1,32 @@
 {
   "id": "andrew-forrest",
   "company": "Fortescue Ltd",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-06-30",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-06-30",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 1.64,
+      "value": 1.82,
       "source": {
         "hostType": "exchange",
-        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-        "label": "FY25 Annual Report, consolidated statement of cash flows",
-        "quote": "Income tax paid (1,641) (2,665) [US$m, FY25 and FY24]"
+        "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+        "label": "FY26 Annual Report and Appendix 4E (ASX, 20 August 2026), consolidated statement of cash flows",
+        "quote": "Income tax paid (1,821) (1,641) [US$m, FY26 and FY25]"
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 0.55,
+      "value": 0.39,
       "source": {
         "hostType": "exchange",
-        "url": "https://announcements.asx.com.au/asxpdf/20250826/pdf/06nb2wg528z4fy.pdf",
-        "label": "FY25 Annual Report, note 06 Other expenses",
-        "quote": "Research expenditure 551 495 [US$m, FY25 and FY24]"
+        "url": "https://announcements.asx.com.au/asxpdf/20260820/pdf/072z15p1mvfkg7.pdf",
+        "label": "FY26 Annual Report and Appendix 4E (ASX, 20 August 2026), note 06 Other expenses",
+        "quote": "06 Other expenses 2026 2025 US$m US$m Administration expenses 579 433 Research expenditure 391 551"
       }
     }
   },
-  "notes": "R&D: Fortescue reports 'Research expenditure' (US$551m, of which US$483m in Fortescue Energy) within other expenses; its policy states research costs are expensed as incurred. There is no line called research and development.",
-  "researchedAt": "2026-11-23"
+  "notes": "R&D: Fortescue reports 'Research expenditure' (US$391m in FY26, of which US$159m in Metals and US$232m in Energy) within other expenses; research costs are expensed as incurred. There is no line called research and development.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,26 +1,26 @@
 {
   "id": "james-quincey",
   "company": "The Coca-Cola Company",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-03-03",
+    "asOf": "2026-03-02",
     "leader": {
       "name": "James Quincey",
-      "relation": "ceo",
+      "relation": "chair",
       "status": "holds",
       "pctEconomic": null,
       "pctVoting": null,
-      "shares": 4099518,
+      "shares": 4461496,
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
-        "label": "2025 proxy statement, beneficial ownership of Directors and executive officers",
-        "quote": "all as of March 3, 2025 ... James Quincey 4,099,518 * Includes 44,678 shares held by a family member, 200 shares of restricted stock, 8,065 shares credited to Mr. Quincey under The Coca-Cola Company 401(k) Plan ... and 3,704,229 shares that may be acquired upon the exercise of options ... * Less than 1% of outstanding shares of Common Stock."
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+        "label": "2026 proxy statement (DEF 14A), beneficial ownership of Directors and executive officers",
+        "quote": "all as of March 2, 2026 ... James Quincey 4,461,496 * Includes 44,678 shares held by a family member, 200 shares of restricted stock, 8,944 shares credited to Mr. Quincey under The Coca-Cola Company 401(k) Plan ... and 3,879,031 shares that may be acquired upon the exercise of options ... * Less than 1% of outstanding shares of Common Stock."
       }
     },
     "largestHolders": [
@@ -28,12 +28,12 @@
         "name": "Berkshire Hathaway Inc.",
         "type": "company",
         "pctEconomic": 9.29,
-        "asOf": "2024-12-31",
+        "asOf": "2025-12-31",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
-          "label": "2025 proxy statement, Principal Shareowners (owners of more than 5%)",
-          "quote": "Berkshire Hathaway Inc.(1) 3555 Farnam Street, Omaha, Nebraska 68131 400,000,000 9.29% ... (1) Berkshire Hathaway Inc., a diversified holding company, has informed the Company that, as of December 31, 2024, it held an aggregate of 400,000,000 shares of Common Stock through subsidiaries."
+          "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Principal Shareowners (owners of more than 5%)",
+          "quote": "Berkshire Hathaway Inc. (1) 3555 Farnam Street, Omaha, Nebraska 68131 400,000,000 9.29 % ... (1) Berkshire Hathaway Inc., a diversified holding company, has informed the Company that, as of December 31, 2025, it held an aggregate of 400,000,000 shares of Common Stock through subsidiaries."
         }
       },
       {
@@ -43,9 +43,9 @@
         "asOf": "2023-12-29",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
-          "label": "2025 proxy statement, Principal Shareowners (owners of more than 5%)",
-          "quote": "The Vanguard Group(2) 100 Vanguard Blvd., Malvern, Pennsylvania 19355 370,726,586 8.61% ... (2) The information is based on a Schedule 13G/A filed by The Vanguard Group with the SEC on February 13, 2024, reporting beneficial ownership as of December 29, 2023."
+          "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Principal Shareowners (owners of more than 5%)",
+          "quote": "The Vanguard Group (2) 100 Vanguard Blvd., Malvern, Pennsylvania 19355 370,726,586 8.61 % ... (2) The information is based on a Schedule 13G/A filed by The Vanguard Group with the SEC on February 13, 2024, reporting beneficial ownership as of December 29, 2023."
         }
       },
       {
@@ -55,9 +55,9 @@
         "asOf": "2023-12-31",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/21344/000155837025003056/ko-20250430xdef14a.htm",
-          "label": "2025 proxy statement, Principal Shareowners (owners of more than 5%)",
-          "quote": "BlackRock, Inc.(3) 50 Hudson Yards, New York, New York 10001 313,228,689 7.28% ... (3) The information is based on a Schedule 13G/A filed by BlackRock, Inc. with the SEC on January 26, 2024, reporting beneficial ownership as of December 31, 2023."
+          "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+          "label": "2026 proxy statement (DEF 14A), Principal Shareowners (owners of more than 5%)",
+          "quote": "BlackRock, Inc. (3) 50 Hudson Yards, New York, New York 10001 313,228,689 7.28 % ... (3) The information is based on a Schedule 13G/A filed by BlackRock, Inc. with the SEC on January 26, 2024, reporting beneficial ownership as of December 31, 2023."
         }
       }
     ],
@@ -69,59 +69,59 @@
   },
   "cash": {
     "dividends": {
-      "value": 8.36,
+      "value": 8.78,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Dividends (8,359) (7,952) (7,616) [Financing Activities; in millions; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Dividends ( 8,779 ) ( 8,359 ) ( 7,952 ) [Financing Activities; in millions; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0000021344",
           "concept": "us-gaap:PaymentsOfDividends",
-          "end": "2024-12-31",
-          "value": 8359000000
+          "end": "2025-12-31",
+          "value": 8779000000
         }
       }
     },
     "buybacks": {
-      "value": 1.8,
+      "value": 0.75,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Purchases of stock for treasury (1,795) (2,289) (1,418) [Financing Activities; in millions; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Purchases of stock for treasury ( 746 ) ( 1,795 ) ( 2,289 ) [Financing Activities; in millions; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0000021344",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2024-12-31",
-          "value": 1795000000
+          "end": "2025-12-31",
+          "value": 746000000
         }
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.29,
+      "value": 0.28,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Stock-based compensation expense 286 254 356 [Operating Activities; in millions; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation expense 279 286 254 [Operating Activities; in millions; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0000021344",
           "concept": "us-gaap:ShareBasedCompensation",
-          "end": "2024-12-31",
-          "value": 286000000
+          "end": "2025-12-31",
+          "value": 279000000
         }
       }
     },
     "plan": {
-      "text": "Shareowners approved a Global Employee Stock Purchase Plan in May 2024.",
+      "text": "Shareowners approved a Global Employee Stock Purchase Plan in May 2024; it grants matching share awards.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 13 Stock-Based Compensation Plans",
-        "quote": "The Coca-Cola Company 2024 Equity Plan (“2024 Plan”) and the Global Employee Stock Purchase Plan (“GESPP”) were approved by shareowners on May 1, 2024."
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 13 Stock-Based Compensation Plans",
+        "quote": "Effective May 1, 2024, shareowners approved the Global Employee Stock Purchase Plan (\"GESPP\"). The GESPP provides for grants of matching share awards."
       }
     }
   },
@@ -130,21 +130,21 @@
     "segments": [
       {
         "name": "United States",
-        "value": 18.36
+        "value": 19.13
       },
       {
         "name": "International",
-        "value": 28.7
+        "value": 28.81
       }
     ],
-    "total": 47.06,
+    "total": 47.94,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/ko-20241231.htm",
-      "label": "FY2024 Form 10-K, Note 20 Operating Segments, Geographic Data",
-      "quote": "Geographic Data The following table provides information related to our net operating revenues (in millions): Year Ended December 31, 2024 ... United States $ 18,362 ... International 28,699 ... Net operating revenues $ 47,061"
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+      "label": "FY2025 Form 10-K, Note 20 Operating Segments, Geographic and Customer Data",
+      "quote": "Geographic and Customer Data The following table provides information related to our net operating revenues (in millions): Year Ended December 31, 2025 2024 2023 United States $ 19,127 $ 18,362 $ 16,550 International 28,814 28,699 29,204 Net operating revenues $ 47,941 $ 47,061 $ 45,754"
     }
   },
-  "notes": "Fiscal year ended December 31, 2024. Sources: FY2024 Form 10-K (accession 0000021344-25-000011) and 2025 proxy statement (DEF 14A, accession 0001558370-25-003056, ownership as of March 3, 2025). James Quincey (Chairman and CEO) beneficially owns 4,099,518 shares, less than 1% (marked * in the proxy), so pctEconomic is null; the figure includes 3,704,229 shares under options exercisable by May 2, 2025 and excludes 30,582 cash-settled share units. 5% HOLDERS: Berkshire's 9.29% reflects what it told the company as of December 31, 2024; Vanguard's and BlackRock's rest on Schedule 13G/As reporting holdings at the end of 2023, and the proxy computes all three percentages on the assumption the holders still owned those shares on March 3, 2025 (proxy footnote 4). The proxy's 5% table and directors' table are separate; none overlap. DIVIDENDS: the cash-flow line is dividends to Coca-Cola shareowners ($8,359m, matching the equity statement); $28m of dividends paid to noncontrolling interests is a separate line and excluded. GEOGRAPHY: the 10-K's own United States / International geographic data; the operating segments are not used.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Sources: FY2025 Form 10-K (accession 0001628280-26-010047) and 2026 proxy statement (DEF 14A, accession 0001104659-26-028215, ownership as of March 2, 2026). LEADER: the proxy says Henrique Braun succeeded James Quincey as CEO effective March 31, 2026 and Quincey continues as Executive Chairman of the Board, so relation is now 'chair'. Quincey beneficially owns 4,461,496 shares, less than 1% (marked * in the proxy), so pctEconomic is null; the figure includes 3,879,031 shares under options exercisable by May 1, 2026 and excludes 35,443 cash-settled Supplemental 401(k) share units. 5% HOLDERS: Berkshire's 9.29% reflects what it told the company as of December 31, 2025; Vanguard's and BlackRock's still rest on Schedule 13G/As reporting holdings at the end of 2023, and the proxy computes all three percentages on the assumption the holders still owned those shares on March 2, 2026 (proxy footnote 4). DIVIDENDS: the cash-flow line is dividends to Coca-Cola shareowners ($8,779m, matching the equity statement). GEOGRAPHY: the 10-K's own United States / International geographic data; the operating segments are not used.",
+  "researchedAt": "2026-11-24"
 }

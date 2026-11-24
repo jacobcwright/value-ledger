@@ -3,59 +3,35 @@
   "company": "GE Aerospace",
   "metrics": {
     "investment": {
-      "label": "Planned 2024 investment in facilities",
+      "label": "Planned 2026 investment in U.S. facilities",
       "unit": "currency-millions",
       "currency": "USD",
-      "period": "2024 plan, announced March 12, 2024",
+      "period": "2026 plan, announced March 9, 2026",
       "tier": "company-published",
-      "definition": "Planned 2024 capital investment by site or state as named in GE Aerospace's March 12, 2024 release (part of 'nearly $450 million' for '22 GE Aerospace facilities across 14 states', plus about $100 million at international sites). Plans, not actual spend; only the sites the release itemises."
+      "definition": "Planned 2026 investment at a U.S. site as itemised in GE Aerospace's March 9, 2026 release (part of 'another $1 billion' for 'sites across more than 30 communities in 17 states'). Plans, not actual spend. A state row is used only where the release's itemised site is the only site GE Aerospace's investment map shows in that state; other itemised sites are recorded as sites."
     },
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "as of December 31, 2024",
+      "period": "as of December 31, 2025",
       "tier": "filing",
-      "definition": "People employed by GE Aerospace and consolidated affiliates in the United States, per the 2024 Form 10-K (approximately)."
+      "definition": "People employed by GE Aerospace and consolidated affiliates in the United States, per the 2025 Form 10-K (approximately)."
     }
   },
   "usStates": [
     {
-      "state": "AL",
-      "values": {
-        "investment": 54
-      },
-      "plus": {},
-      "source": {
-        "hostType": "company",
-        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
-        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
-        "quote": "$54 million to Auburn, Ala. , site for additional additive (3D printing) machines and tooling"
-      }
-    },
-    {
       "state": "MA",
       "values": {
-        "investment": 30
+        "investment": 40
       },
-      "plus": {},
+      "plus": {
+        "investment": true
+      },
       "source": {
         "hostType": "company",
-        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
-        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
-        "quote": "$30 million to Lynn, Mass. , site for investment in engine assembly and testing"
-      }
-    },
-    {
-      "state": "NC",
-      "values": {
-        "investment": 46
-      },
-      "plus": {},
-      "source": {
-        "hostType": "company",
-        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
-        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
-        "quote": "$46 million to four North Carolina facilities that produce parts and assemble engines"
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-another-1b-us-manufacturing",
+        "label": "GE Aerospace press release, \"GE Aerospace to Invest Another $1B in U.S. Manufacturing\" (March 9, 2026)",
+        "quote": "$40+ million for Lynn, Mass. , to refresh machinery, expand test cell capacity and flexibility to meet delivery pace, and make building upgrades."
       }
     }
   ],
@@ -64,33 +40,18 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "employees": 28000
+        "employees": 30000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
-        "label": "GE Aerospace 2024 Form 10-K, Human Capital",
-        "quote": "At December 31, 2024, GE Aerospace and consolidated affiliates employed approximately 53,000 people, of whom approximately 28,000 were employed in the United States."
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/ge-20251231.htm",
+        "label": "GE Aerospace 2025 Form 10-K, Human Capital",
+        "quote": "At December 31, 2025, GE Aerospace and consolidated affiliates employed approximately 57,000 people, of whom approximately 30,000 were employed in the United States."
       }
     }
   ],
-  "regions": [
-    {
-      "name": "International sites in North America, Europe and India",
-      "countries": null,
-      "values": {
-        "investment": 100
-      },
-      "plus": {},
-      "source": {
-        "hostType": "company",
-        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
-        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
-        "quote": "GE Aerospace also plans to invest approximately $100 million at some of its international sites in North America, Europe and India."
-      }
-    }
-  ],
+  "regions": null,
   "sites": [
     {
       "name": "Headquarters",
@@ -101,9 +62,9 @@
       "description": "Principal executive offices at 1 Neumann Way, Evendale; executive offices also in Washington, DC and Norwalk, CT.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
-        "label": "GE Aerospace 2024 Form 10-K, Item 1",
-        "quote": "GE Aerospace’s principal executive offices are at 1 Neumann Way, Evendale, OH 45215; we also maintain executive offices in Washington, DC and Norwalk, CT."
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/ge-20251231.htm",
+        "label": "GE Aerospace 2025 Form 10-K, Item 1",
+        "quote": "GE Aerospace's principal executive offices are at 1 Neumann Way, Evendale, OH 45215; we also maintain executive offices in Washington, DC and Norwalk, CT."
       }
     },
     {
@@ -126,12 +87,12 @@
       "state": "MA",
       "iso2": "US",
       "type": "plant",
-      "description": "Engine assembly and testing for U.S. and allied military helicopter and fighter jet engines; $30 million planned in 2024.",
+      "description": "Defense engine site; more than $40 million planned in 2026 to refresh machinery, expand test cell capacity and make building upgrades.",
       "source": {
         "hostType": "company",
-        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
-        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
-        "quote": "$30 million to Lynn, Mass. , site for investment in engine assembly and testing that supports the production of U.S. and allied military helicopter and fighter jet engines."
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-another-1b-us-manufacturing",
+        "label": "GE Aerospace press release, \"GE Aerospace to Invest Another $1B in U.S. Manufacturing\" (March 9, 2026)",
+        "quote": "$40+ million for Lynn, Mass. , to refresh machinery, expand test cell capacity and flexibility to meet delivery pace, and make building upgrades."
       }
     },
     {
@@ -154,12 +115,12 @@
       "state": "NC",
       "iso2": "US",
       "type": "plant",
-      "description": "More than $7 million planned in 2024 for tooling and equipment to increase engine assembly capacity.",
+      "description": "Engine assembly site; $20 million planned in 2026 for specialized tooling, engine line assembly systems and building upgrades for narrowbody and widebody engines.",
       "source": {
         "hostType": "company",
-        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
-        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
-        "quote": "Durham will receive more than $7 million for tooling and equipment to increase the assembly capacity of engines;"
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-another-1b-us-manufacturing",
+        "label": "GE Aerospace press release, \"GE Aerospace to Invest Another $1B in U.S. Manufacturing\" (March 9, 2026)",
+        "quote": "$20 million for Durham, N.C. , for specialized tooling, engine line assembly systems, and building upgrades to support the increased assembly of narrowbody and widebody engines."
       }
     },
     {
@@ -191,19 +152,48 @@
       }
     },
     {
-      "name": "Greater Cincinnati facilities",
-      "place": "Greater Cincinnati region",
+      "name": "Cincinnati sites",
+      "place": "Cincinnati, OH",
       "iso2": "US",
       "type": "plant",
-      "description": "$107 million planned in 2024 for additive machines, tooling and test-cell upgrades for commercial and military engines.",
+      "description": "Home to GE Aerospace's headquarters; $115 million planned in 2026 to modernize infrastructure, increase test cell capacity and expand 3D metal printing.",
       "source": {
         "hostType": "company",
-        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
-        "label": "GE Aerospace press release, \"GE Aerospace to invest over $650 million in manufacturing facilities and supply chain in 2024\" (March 12, 2024)",
-        "quote": "$107 million to facilities in the greater Cincinnati region ."
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-another-1b-us-manufacturing",
+        "label": "GE Aerospace press release, \"GE Aerospace to Invest Another $1B in U.S. Manufacturing\" (March 9, 2026)",
+        "quote": "This includes $115M in Cincinnati, Ohio—home to GE Aerospace's headquarters— to modernize infrastructure, increase test cell capacity, and expand advanced 3D metal printing capabilities."
+      },
+      "state": "OH"
+    },
+    {
+      "name": "Madisonville site",
+      "place": "Madisonville, KY",
+      "state": "KY",
+      "iso2": "US",
+      "type": "plant",
+      "description": "Defense parts site; $10 million planned in 2026 for new machines, inspection equipment, tooling and facility upgrades.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-another-1b-us-manufacturing",
+        "label": "GE Aerospace press release, \"GE Aerospace to Invest Another $1B in U.S. Manufacturing\" (March 9, 2026)",
+        "quote": "$10 million for Madisonville, Ky. , to invest in new machines increasing part production, inspection equipment, tooling, and facility upgrades."
+      }
+    },
+    {
+      "name": "Lafayette site",
+      "place": "Lafayette, IN",
+      "state": "IN",
+      "iso2": "US",
+      "type": "plant",
+      "description": "Engine assembly site; $7 million planned in 2026 for tools, equipment and facility upgrades for narrowbody engine deliveries.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-another-1b-us-manufacturing",
+        "label": "GE Aerospace press release, \"GE Aerospace to Invest Another $1B in U.S. Manufacturing\" (March 9, 2026)",
+        "quote": "$7 million for Lafayette, Ind. , in new tools, equipment, and facility upgrades that support engine assembly and increase capacity to meet 2026 narrowbody engine deliveries."
       }
     }
   ],
-  "notes": "State rows are only the states GE Aerospace itemised in its March 12, 2024 investment release: Alabama (Auburn $54M), Massachusetts (Lynn $30M) and North Carolina (four facilities $46M: Asheville $11M, Durham >$7M, West Jefferson ~$5M, Wilmington $22M). The release says nearly $450M goes to 22 facilities across 14 states but names only these; the other 11 states have no published amount. Greater Cincinnati ($107M) is a metro area spanning Ohio and Kentucky, so it is recorded as a site, not a state row. The release also cites $100M for U.S. suppliers (not by state) and about $100M for international sites in North America, Europe and India (region row, no country split). The March 12, 2025 release (nearly $1B plan) was also read: it itemises sites (e.g. Greater Cincinnati $113M, Muskegon MI $70M, Auburn AL $51M, Huntsville AL $22M, Asheville NC $20M, Durham NC $16M, West Jefferson NC $13M, West Chester OH $14M, Batesville MS $11M, Lafayette IN $5M) but not state totals, so state values would need summing; it was not used, to keep one plan year. The release's 'interactive map' link now shows the 2026 plan and was not used. 10-K: ~53,000 employees, ~28,000 in the U.S. (US country row); manufacturing and service operations at 67 facilities in 22 states and Puerto Rico and 67 facilities in 24 other countries, with no breakdown by state or country.",
-  "researchedAt": "2026-11-23"
+  "notes": "Investment is the 2026 plan from GE Aerospace's March 9, 2026 release (newer than the March 2024 and March 2025 plans): another $1 billion for U.S. sites 'across more than 30 communities in 17 states', of which the release itemises Cincinnati, OH ($115M), Lynn, MA ($40M+), Madisonville, KY ($10M), Durham, NC ($20M) and Lafayette, IN ($7M), plus $200M for LEAP durability kits and more than $100M for suppliers (no site or state given). GE Aerospace's interactive investment map (geaerospace.com/manufacturing) shows site amounts only in page code, so it was used only to check which states have more than one site: Massachusetts shows one, so Lynn is a state row (MA, '$40+', marked plus); Kentucky, North Carolina, Indiana and Ohio show several, so those amounts are recorded as sites, not state values, and nothing was summed. The 2024 plan's Alabama and North Carolina state rows and its 'about $100 million at international sites in North America, Europe and India' region row were removed: the 2026 release itemises no Alabama or international amount and gives no North Carolina total. The Auburn, Asheville, West Jefferson and Wilmington sites keep their March 12, 2024 release descriptions (2024 plan amounts). 10-K (FY2025): ~57,000 employees, ~30,000 in the U.S. (US country row); manufacturing and service operations at 70 facilities in 23 states and Puerto Rico and 62 facilities in 23 other countries, with no breakdown by state or country.",
+  "researchedAt": "2026-11-24"
 }

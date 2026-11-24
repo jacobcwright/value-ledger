@@ -1,44 +1,44 @@
 {
   "id": "pascal-soriot",
   "company": "AstraZeneca",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 2.75,
+      "value": 2.85,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231x20f.htm",
-        "label": "FY2024 Form 20-F, cash income taxes paid",
-        "quote": "Tax paid ( 2,750 ) ( 2,366 ) ( 1,623 ) Net cash inflow [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465926019130/azn-20251231xex15d1.htm",
+        "label": "FY2025 Annual Report and Form 20-F (Exhibit 15.1), consolidated statement of cash flows, tax paid",
+        "quote": "Interest paid (1,316) (1,313) (1,081) Tax paid (2,845) (2,750) (2,366) Net cash inflow [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000901832",
           "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
-          "end": "2024-12-31",
-          "value": 2750000000
+          "end": "2025-12-31",
+          "value": 2845000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 13.58,
+      "value": 14.23,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231x20f.htm",
-        "label": "FY2024 Form 20-F, research and development expense",
-        "quote": "Research and development expense 2 ( 13,583 ) ( 10,935 ) ( 9,762 ) Selling, [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465926019130/azn-20251231xex15d1.htm",
+        "label": "FY2025 Annual Report and Form 20-F (Exhibit 15.1), consolidated statement of comprehensive income, research and development expense",
+        "quote": "Research and development expense 3 (14,232) (13,583) (10,935) Selling, [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000901832",
           "concept": "ifrs-full:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 13583000000
+          "end": "2025-12-31",
+          "value": 14232000000
         }
       }
     }
   },
-  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, the caption does not say whether refunds are netted.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities ('Tax paid' in operating cash flow), the caption does not say whether refunds are netted.",
+  "researchedAt": "2026-11-24"
 }

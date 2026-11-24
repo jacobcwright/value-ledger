@@ -1,0 +1,38 @@
+{
+  "id": "hasso-plattner",
+  "company": "SAP SE",
+  "classes": [
+    {
+      "label": "Ordinary shares (issued less treasury shares)",
+      "shares": 1154200000,
+      "sharesAsOf": "2026-06-30",
+      "pricedAs": "SAP.DE",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "Issued ordinary shares at June 30, 2026 (millions, as stated)",
+          "value": 1228500000,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926087251/tm2621275d1_ex99-2.htm",
+            "label": "Half-Year Report 2026 (Form 6-K, July 28, 2026), Note (E.1) Total Equity, Number of Shares",
+            "quote": "Number of Shares millions Issued Capital Treasury Shares ... 6/30/2026 1,228.5 -74.3"
+          }
+        },
+        {
+          "label": "Treasury shares at June 30, 2026 (subtracted; millions, as stated)",
+          "value": -74300000,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926087251/tm2621275d1_ex99-2.htm",
+            "label": "Half-Year Report 2026 (Form 6-K, July 28, 2026), Note (E.1) Total Equity, Number of Shares",
+            "quote": "Number of Shares millions Issued Capital Treasury Shares ... 6/30/2026 1,228.5 -74.3"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "One class of ordinary bearer shares, priced from the primary listing on Xetra/Frankfurt (SAP.DE, EUR) rather than the NYSE ADR (SAP, 1 ADR = 1 share). Shares = 1,228.5 million issued − 74.3 million treasury = 1,154.2 million at June 30, 2026, from the Half-Year Report 2026 equity note, which states both parts (rounded to 0.1 million) but not the difference. The 20-F cover count (1,228,504,232 at December 31, 2025, including 60,945,184 treasury shares) is not used because SAP has been buying back heavily under its €10 billion program announced in January 2026; the Q3 2026 statement (October 26, 2026) gives 25,205,983 shares repurchased under the program by September 30, 2026, against 16.3 million by June 30, but no share count, so the edition-date count is somewhat lower than recorded.",
+  "researchedAt": "2026-11-24"
+}

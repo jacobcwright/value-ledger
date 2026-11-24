@@ -1,28 +1,28 @@
 {
   "id": "arthur-blank",
   "company": "Home Depot",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2025-02-02",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2026-02-01",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 3.65,
+      "value": 4.85,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes $ 3,653 $ 5,023 $ 5,435 Cash paid for [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+        "label": "Fiscal 2025 Form 10-K, Note 6 Income Taxes, income taxes paid (in millions)",
+        "quote": "The following table presents income taxes paid: in millions Fiscal Fiscal Fiscal 2025 2024 2023 Federal $ 3,590 $ 2,475 $ 3,737 ... Total income taxes paid $ 4,848 $ 3,653 $ 5,023 [USD millions; fiscal 2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000354950",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2025-02-02",
-          "value": 3653000000
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2026-02-01",
+          "value": 4848000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line in the FY2024 10-K (retailer).",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: total income taxes paid from the Fiscal 2025 10-K income-tax note by jurisdiction (federal 3,590, domestic state and local 799, foreign 459; total 4,848 million), tagged us-gaap:IncomeTaxesPaidNet. R&D not reported as a separate line in the Fiscal 2025 10-K (retailer).",
+  "researchedAt": "2026-11-24"
 }

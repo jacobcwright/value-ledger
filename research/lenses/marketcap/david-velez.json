@@ -1,0 +1,36 @@
+{
+  "id": "david-velez",
+  "company": "Nu Holdings (Nubank)",
+  "classes": [
+    {
+      "label": "Class A ordinary shares",
+      "shares": 3815933617,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "NU",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426005272/nufs3q26_6k.htm",
+        "label": "Unaudited interim condensed consolidated financial statements for the nine months ended September 30, 2026 (Form 6-K), Note 31 Equity",
+        "quote": "Class A Ordinary shares Class B Ordinary shares Total ... Shares authorized and fully issued as of September 30, 2026 3,815,933,617 1,022,600,698 4,838,534,315"
+      }
+    },
+    {
+      "label": "Class B ordinary shares",
+      "shares": 1022600698,
+      "sharesAsOf": "2026-09-30",
+      "pricedAs": "NU",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted (the FY2025 20-F lists only Class A on the NYSE) and converts one-for-one: \"Each outstanding Class B ordinary share is convertible at any time at the option of the holder into one Class A ordinary share\" (FY2025 20-F, Item 10.B).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426005272/nufs3q26_6k.htm",
+        "label": "Unaudited interim condensed consolidated financial statements for the nine months ended September 30, 2026 (Form 6-K), Note 31 Equity",
+        "quote": "Class A Ordinary shares Class B Ordinary shares Total ... Shares authorized and fully issued as of September 30, 2026 3,815,933,617 1,022,600,698 4,838,534,315"
+      }
+    }
+  ],
+  "notes": "Class A trades on the NYSE as NU (direct listing of the ordinary shares, not ADRs; Brazilian BDRs are not used). Class B (20 votes per share) is unlisted and priced through Class A. Counts are shares authorized and fully issued at September 30, 2026 from Nu's Q3 2026 interim statements (filed on Form 6-K), which deduct the 40,659,600 Class A shares repurchased in 2026; they are newer than the 20-F cover count (3,833,072,934 Class A and 1,022,600,698 Class B at December 31, 2025).",
+  "researchedAt": "2026-11-24"
+}

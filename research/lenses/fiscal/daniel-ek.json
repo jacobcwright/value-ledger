@@ -1,44 +1,44 @@
 {
   "id": "daniel-ek",
   "company": "Spotify Technology",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "EUR",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.05,
+      "value": 0.09,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm",
-        "label": "FY2024 Form 20-F, cash income taxes paid",
-        "quote": "Income tax paid ( 53 ) ( 43 ) ( 43 ) Net cash flows from [EUR millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "label": "FY2025 Form 20-F, consolidated statement of cash flows, cash income taxes paid",
+        "quote": "Income tax paid ( 86 ) ( 53 ) ( 43 ) Net cash flows from operating activities [EUR millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001639920",
           "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
-          "end": "2024-12-31",
-          "value": 53000000
+          "end": "2025-12-31",
+          "value": 86000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 1.49,
+      "value": 1.39,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000163992025000003/ck0001639920-20241231.htm",
-        "label": "FY2024 Form 20-F, research and development expense",
-        "quote": "Research and development 1,486 1,725 1,387 (239) (14) % 338 24 % As a percentage [EUR millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "label": "FY2025 Form 20-F, Item 5 operating expenses, research and development",
+        "quote": "Research and development 1,393 1,486 1,725 (93) (6) % (239) (14) % As a percentage of revenue [EUR millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001639920",
           "concept": "ifrs-full:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 1486000000
+          "end": "2025-12-31",
+          "value": 1393000000
         }
       }
     }
   },
-  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, the caption does not say whether refunds are netted.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities; the caption does not say whether refunds are netted.",
+  "researchedAt": "2026-11-24"
 }

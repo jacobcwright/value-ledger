@@ -2,48 +2,48 @@
   "id": "lloyd-blankfein",
   "company": "Goldman Sachs",
   "nbim": {
-    "pct": 0.84,
-    "marketValueUSD": 1.566,
-    "asOf": "2024-12-31",
+    "pct": 0.83,
+    "marketValueUSD": 2.57,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"4wyz1cvskd4l\",\"cc\":\"US\",\"n\":\"Goldman Sachs Group Inc/The\",\"a\":{\"e\":1565974835,\"n\":17785324298},\"at\":0,\"o\":0.84,\"eq\":{\"vid\":\"GS\",\"v\":0.87,\"s\":\"Financials\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"4wyz1cvskd4l\",\"cc\":\"US\",\"n\":\"Goldman Sachs Group Inc/The\",\"a\":{\"e\":2569840602,\"n\":25429857672},\"at\":0,\"o\":0.83,\"eq\":{\"vid\":\"GS\",\"v\":0.86,\"s\":\"Financials\"}}"
     }
   },
   "calpers": {
-    "shares": 534972,
-    "asOf": "2024-12-31",
+    "shares": 776723,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "GOLDMAN SACHS GROUP INC COM 38141G104 306335667 534972"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "GOLDMAN SACHS GROUP INC COM 38141G104 699330320 776723"
     },
     "derived": {
-      "pct": 0.171,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.269,
+      "method": "CalPERS shares ÷ shares outstanding (776,723 ÷ 288,434,583)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "As of February 7, 2025, there were 312,039,033 shares of the registrant's common stock outstanding."
+          "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000532/gs-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+          "quote": "As of October 16, 2026, there were 288,434,583 shares of the registrant's common stock outstanding."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 5251,
-    "asOf": "2025-02-07",
+    "count": 5524,
+    "asOf": "2026-02-06",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698225000005/gs-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of February 7, 2025, there were 5,251 holders of record of our common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of February 6, 2026, there were 5,524 holders of record of our common stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Goldman Sachs Group Inc/The;Financials;17785324298;1565974835;0.87%;0.84%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the Q3 2026 10-Q cover count at October 16, 2026, the same count used in the marketcap lens.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,22 @@
+{
+  "id": "meg-whitman",
+  "company": "eBay",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 439000000,
+      "sharesAsOf": "2026-10-23",
+      "pricedAs": "EBAY",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000212/ebay-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 23, 2026, there were 439 million shares of the registrant's common stock, $0.001 par value, outstanding, which is the only class of common or voting stock of the registrant issued."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as EBAY. eBay's cover pages state the count only to the nearest million (the XBRL cover tag is also scaled to millions), so the share count is rounded; the 2026 proxy gives an exact 445,011,181 shares at April 15, 2026, before later buybacks.",
+  "researchedAt": "2026-11-24"
+}

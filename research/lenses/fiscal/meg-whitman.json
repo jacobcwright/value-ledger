@@ -1,28 +1,28 @@
 {
   "id": "meg-whitman",
   "company": "eBay",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.72,
+      "value": 1.46,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for: ... Income taxes $ 722 $ 746 $ 540 The following table [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm",
+        "label": "FY2025 Form 10-K, income taxes note, cash paid for income taxes",
+        "quote": "The following table summarizes the cash paid for income taxes for the periods indicated (in millions): Year Ended December 31, 2025 Federal (United States) $ 1,139 State 102 Foreign (International) (1) 216 Total (2) $ 1,457 [USD millions; FY2025 only]",
         "xbrl": {
           "cik": "0001065088",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 722000000
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-12-31",
+          "value": 1457000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line. eBay reports 'Product development' ($1,479 million; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), which the 10-K does not call research and development, so it is not recorded.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: from the ASU 2023-09 table of cash paid for income taxes by jurisdiction (net of refunds received, per its footnote), tagged us-gaap:IncomeTaxesPaidNet; the supplemental cash-flow disclosures now show only interest. R&D not reported as a separate line. eBay reports 'Product development' ($1,642 million in 2025; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), which the 10-K does not call research and development, so it is not recorded.",
+  "researchedAt": "2026-11-24"
 }

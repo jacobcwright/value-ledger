@@ -1,104 +1,104 @@
 {
  "id": "gordon-moore",
  "company": "Intel",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-28",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-27",
  "currency": "USD",
  "unit": "billions",
  "sector": "tech",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 53.101,
-   "stated": 53101,
+   "value": 52.853,
+   "stated": 52853,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-    "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
-    "quote": "Net revenue $ 53,101 $ 54,228 $ 63,054 Cost of sales 35,756 32,517 36,188",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of operations (in millions)",
+    "quote": "Net revenue $ 52,853 $ 53,101 $ 54,228 Cost of sales 34,478 35,756 32,517",
     "xbrl": {
      "cik": "0000050863",
      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-     "end": "2024-12-28",
-     "value": 53101000000
+     "end": "2025-12-27",
+     "value": 52853000000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 8.288,
-   "stated": 8288,
+   "value": 9.697,
+   "stated": 9697,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-    "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-    "quote": "Net cash provided by (used for) operating activities 8,288 11,471 15,433",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Net cash provided by (used for) operating activities 9,697 8,288 11,471",
     "xbrl": {
      "cik": "0000050863",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-28",
-     "value": 8288000000
+     "end": "2025-12-27",
+     "value": 9697000000
     }
    }
   },
   "capex": {
-   "value": 23.944,
-   "components": [
-    "PP&E 23.944"
-   ],
-   "stated": 23944,
+   "value": 14.646,
+   "note": "Gross; not netted against 1,577 of capital-related government incentives received. Excludes 3,026 of PP&E additions paid to capital vendors under extended payment terms, which Intel reports in financing activities (\"Additions to property, plant and equipment ( 3,026 ) ( 1,178 ) —\"), as in the prior edition.",
+   "stated": 14646,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-    "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-    "quote": "Additions to property, plant, and equipment ( 23,944 ) ( 25,750 ) ( 24,844 ) Proceeds from capital-related government incentives 1,936 1,011 246",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Cash flows provided by (used for) investing activities: Additions to property, plant and equipment ( 14,646 ) ( 23,944 ) ( 25,750 ) Proceeds from capital-related government incentives 1,577 1,936 1,011",
     "xbrl": {
      "cik": "0000050863",
      "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-     "end": "2024-12-28",
-     "value": 23944000000
+     "end": "2025-12-27",
+     "value": 14646000000
     }
    },
-   "note": "Gross; not netted against 1,936 of capital-related government incentives received."
+   "components": [
+    "PP&E 14.646"
+   ]
   },
   "interestPaid": {
-   "value": 0.987,
-   "stated": 987,
+   "value": 1.106,
+   "stated": 1106,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow disclosure (in millions)",
-    "quote": "Cash paid during the year for: Interest, net of capitalized interest $ 987 $ 613 $ 459 Income taxes, net of refunds $ 2,202 $ 2,621 $ 4,282",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+    "label": "FY2025 Form 10-K, supplemental cash-flow disclosure (in millions)",
+    "quote": "Cash paid during the year for: Interest, net of capitalized interest $ 1,106 $ 987 $ 613",
     "xbrl": {
      "cik": "0000050863",
      "concept": "us-gaap:InterestPaidNet",
-     "end": "2024-12-28",
-     "value": 987000000
+     "end": "2025-12-27",
+     "value": 1106000000
     }
    },
    "note": "inside operating cash flow (US GAAP)"
   },
   "taxesPaid": {
-   "value": 2.202,
-   "stated": 2202,
+   "value": 2.299,
+   "stated": 2299,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow disclosure (in millions)",
-    "quote": "Cash paid during the year for: Interest, net of capitalized interest $ 987 $ 613 $ 459 Income taxes, net of refunds $ 2,202 $ 2,621 $ 4,282",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+    "label": "FY2025 Form 10-K, Note 8 Income Taxes, income taxes paid (in millions)",
+    "quote": "presents income taxes paid (net of refunds received) for the year ended December 27, 2025: Year Ended (In Millions) Dec 27, 2025 Federal taxes $ 1,393 State taxes ( 7 ) Foreign taxes: China 276 Israel 197 Other foreign jurisdictions 440 Total cash taxes paid $ 2,299",
     "xbrl": {
      "cik": "0000050863",
      "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-12-28",
-     "value": 2202000000
+     "end": "2025-12-27",
+     "value": 2299000000
     }
    },
    "note": "inside operating cash flow (US GAAP)"
   }
  },
- "paidOut": 68.757,
- "paidOutFormula": "revenue 53,101 − operating cash flow 8,288 + capex 23,944 (USD millions, as stated)",
+ "paidOut": 57.802,
+ "paidOutFormula": "revenue 52,853 − operating cash flow 9,697 + capex 14,646 (USD millions, as stated)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
@@ -107,6 +107,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Inputs copied from the pilot. Fiscal year ended December 28, 2024. Capex is gross additions to PP&E (23,944), not netted against 1,936 of capital-related government incentives received. Intel reports no separate intangible-purchase line. Interest and taxes paid are inside operating cash flow (US GAAP).",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 27, 2025 (FY2025 Form 10-K, accession 0000050863-26-000011). Capex is gross additions to PP&E, not netted against 1,577 of capital-related government incentives. Capex excludes 3,026 of PP&E additions paid to capital vendors under extended payment terms (over 90 days), which Intel reports in financing activities (1,178 in 2024); including them would raise paidOut to 60.828. Intel reports no separate intangible-purchase line. Interest and taxes paid are inside operating cash flow (US GAAP); income taxes paid now come from the income-tax note. Divestiture proceeds (6,157 net) are investing and excluded.",
+ "researchedAt": "2026-11-24"
 }

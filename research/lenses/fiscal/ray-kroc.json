@@ -1,28 +1,28 @@
 {
   "id": "ray-kroc",
   "company": "McDonald’s",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 2.97,
+      "value": 2.69,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000012/mcd-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Income taxes paid 2,974 2,993 3,024 See Notes to consolidated financial [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+        "label": "FY2025 Form 10-K, Income Taxes note, income taxes paid by location",
+        "quote": "Total income taxes paid, net $ 2,688 [USD millions, 2025]",
         "xbrl": {
           "cik": "0000063908",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 2974000000
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-12-31",
+          "value": 2688000000
         }
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line in the FY2024 10-K.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the income-tax note's table by location of payment (Federal 1,326, State 252, foreign 1,110; USD millions); it includes $429 million for purchases of federal transferable energy credits. R&D not reported as a separate line in the FY2025 10-K.",
+  "researchedAt": "2026-11-24"
 }

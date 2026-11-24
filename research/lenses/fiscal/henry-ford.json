@@ -1,44 +1,44 @@
 {
   "id": "henry-ford",
   "company": "Ford Motor Company",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 1.22,
+      "value": 0.62,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes was $ 801 million, $ 1,027 million, and $ 1,218 million in 2022, 2023, and 2024, respectively.",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 7 Income Taxes, cash paid for income taxes, net of refunds (in millions)",
+        "quote": "Cash paid for income taxes, net of refunds, for the year ended December 31, 2025, were as follows (in millions): 2025 Cash paid for income taxes, net of refunds U.S. federal $ 52 U.S. state and local 42 Foreign Mexico 158 Other (a) 370 Total $ 622",
         "xbrl": {
           "cik": "0000037996",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 1218000000
+          "end": "2025-12-31",
+          "value": 622000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 8.0,
+      "value": 9.4,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Engineering, research, development, and advertising expenses for the years ended December 31 were as follows (in billions): 2022 2023 2024 Engineering, research, and development $ 7.8 $ 8.2 $ 8.0",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 2 Summary of Significant Accounting Policies, research and development expense",
+        "quote": "2023 2024 2025 Engineering, research, and development $ 8.2 $ 8.0 $ 9.4 [in billions; 2025 is the 3rd figure]",
         "xbrl": {
           "cik": "0000037996",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 8000000000
+          "end": "2025-12-31",
+          "value": 9400000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the caption does not say whether refunds are netted. R&D line is Ford's 'Engineering, research, and development' expense, stated in billions.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the income-tax note's 2025 by-jurisdiction table (U.S. federal 52, U.S. state and local 42, Mexico 158, other 370; total 622 million). R&D line is Ford's 'Engineering, research, and development' expense, stated in billions.",
+  "researchedAt": "2026-11-24"
 }

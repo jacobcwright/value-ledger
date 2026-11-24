@@ -1,0 +1,50 @@
+{
+  "id": "michael-dell",
+  "company": "Dell Technologies",
+  "classes": [
+    {
+      "label": "Class C Common Stock",
+      "shares": 315433188,
+      "sharesAsOf": "2026-09-01",
+      "pricedAs": "DELL",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
+        "label": "Form 10-Q for the quarter ended July 31, 2026, cover page",
+        "quote": "As of September 1, 2026, there were 635,812,750 shares of the registrant's common stock outstanding, consisting of 315,433,188 outstanding shares of Class C Common Stock, 276,744,341 outstanding shares of Class A Common Stock, and 43,635,221 outstanding shares of Class B Common Stock."
+      }
+    },
+    {
+      "label": "Class A Common Stock",
+      "shares": 276744341,
+      "sharesAsOf": "2026-09-01",
+      "pricedAs": "DELL",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class A is unlisted (held by Michael Dell and the SLD Trust) and converts 1:1 into Class C at any time; all classes share equally in dividends and earnings.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
+        "label": "Form 10-Q for the quarter ended July 31, 2026, cover page",
+        "quote": "As of September 1, 2026, there were 635,812,750 shares of the registrant's common stock outstanding, consisting of 315,433,188 outstanding shares of Class C Common Stock, 276,744,341 outstanding shares of Class A Common Stock, and 43,635,221 outstanding shares of Class B Common Stock."
+      }
+    },
+    {
+      "label": "Class B Common Stock",
+      "shares": 43635221,
+      "sharesAsOf": "2026-09-01",
+      "pricedAs": "DELL",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted (held by Silver Lake funds) and converts 1:1 into Class C at any time; all classes share equally in dividends and earnings.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
+        "label": "Form 10-Q for the quarter ended July 31, 2026, cover page",
+        "quote": "As of September 1, 2026, there were 635,812,750 shares of the registrant's common stock outstanding, consisting of 315,433,188 outstanding shares of Class C Common Stock, 276,744,341 outstanding shares of Class A Common Stock, and 43,635,221 outstanding shares of Class B Common Stock."
+      }
+    }
+  ],
+  "notes": "Counts are from the cover of the 10-Q for the quarter ended July 31, 2026 (filed September 2026), newer than the Fiscal 2026 10-K cover (645,748,451 shares at March 9, 2026). Only Class C is listed (NYSE: DELL). Classes A and B are priced through DELL because the 10-K's conversion rights let any holder convert them into Class C 'on a one -to-one basis', and Note 14 says all classes share equally in dividends and undistributed earnings. No Class D shares are outstanding.",
+  "researchedAt": "2026-11-24"
+}

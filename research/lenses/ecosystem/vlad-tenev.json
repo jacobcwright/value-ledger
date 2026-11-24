@@ -1,8 +1,8 @@
 {
   "id": "vlad-tenev",
   "company": "Robinhood",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ecosystem": {
@@ -10,35 +10,35 @@
     "measure": null,
     "platformRevenue": {
       "label": "Total net revenues",
-      "value": 2.95,
+      "value": 4.47,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 7 MD&A overview",
-        "quote": "total net revenues increased 58% to $2.95 billion compared to $1.87 billion",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 7 MD&A overview",
+        "quote": "total net revenues increased 52% to $4.47 billion compared to $2.95 billion",
         "xbrl": {
           "cik": "0001783879",
           "concept": "us-gaap:Revenues",
-          "end": "2024-12-31",
-          "value": 2951000000
+          "end": "2025-12-31",
+          "value": 4473000000
         }
       }
     },
     "payouts": null,
     "clientAssets": {
-      "label": "Assets Under Custody (AUC)",
-      "value": 192.9,
-      "asOf": "2024-12-31",
+      "label": "Total Platform Assets (previously reported as Assets Under Custody)",
+      "value": 322.1,
+      "asOf": "2025-12-31",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 7 MD&A overview and key performance metrics",
-        "quote": "AUC increased 88% to $192.9 billion compared to $102.6 billion, driven by continued Net Deposits and higher equity and cryptocurrency valuations"
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 7 MD&A overview and key performance metrics",
+        "quote": "Total Platform Assets increased 67% to $322.1 billion (1) compared to $192.9 billion , driven by continued Net Deposits, acquired assets, and higher equity valuations"
       }
     },
     "studies": [],
-    "notes": "AUC is a stock, defined in the 10-K as: \"We define AUC as the sum of the fair value of all equities, options, cryptocurrency, futures (including options on futures, swaps, and event contracts), and cash held by users in their accounts, net of receivables from users, as of a stated date or period end on a trade date basis.\" The 10-K defines Notional Trading Volume (\"the aggregate dollar value (purchase price or sale price as applicable) of trades executed in that asset class over a specified period of time\") but reports no annual dollar total for it, only growth in average volume per trader, so measure is null. The 10-K also reports Net Deposits of $50.5 billion for 2024; that is net client money moved onto the platform, not volume transacted through it, so it is not used as a measure. No take rate should be computed on AUC."
+    "notes": "Total Platform Assets is a stock, defined in the FY2025 10-K as \"the sum of the fair value of all equities, options, cryptocurrency, futures (including options on futures and swaps, including event contracts), cash held by users in their accounts, net of receivables from users (previously reported as Assets Under Custody), and any such assets managed by RIAs using TradePMR's platform that are not custodied by Robinhood\"; from June 2025 it includes cryptocurrency on Bitstamp, so it is broader than the FY2024 AUC figure ($192.9 billion). The 10-K defines Notional Trading Volume (\"the aggregate dollar value (purchase price or sale price as applicable) of trades executed in that asset class on our platforms over a specified period of time\") but this lens does not use it as a measure: it is not third parties' sales, and the FY2024 edition found no annual dollar total. The 10-K also reports Net Deposits of $68.1 billion for 2025; that is net client money moved onto the platform, not volume transacted through it, so it is not used as a measure. No take rate should be computed on Total Platform Assets."
   },
   "notes": "Ecosystem lens only. Total net revenues include transaction-based revenues and net interest revenues.",
-  "researchedAt": "2026-11-23"
+  "researchedAt": "2026-11-24"
 }

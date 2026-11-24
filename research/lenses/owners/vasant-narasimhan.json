@@ -2,27 +2,27 @@
   "id": "vasant-narasimhan",
   "company": "Novartis",
   "nbim": {
-    "pct": 2.29,
-    "marketValueUSD": 4.907,
-    "asOf": "2024-12-31",
+    "pct": 2.26,
+    "marketValueUSD": 7.206,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"2pkl8m878i2g\",\"cc\":\"CH\",\"n\":\"Novartis AG\",\"a\":{\"e\":4907196715,\"n\":55732750611},\"at\":0,\"o\":2.29,\"eq\":{\"vid\":\"NOVN\",\"v\":2.29,\"s\":\"Health Care\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"2pkl8m878i2g\",\"cc\":\"CH\",\"n\":\"Novartis AG\",\"a\":{\"e\":7205921557,\"n\":71306196768},\"at\":0,\"o\":2.26,\"eq\":{\"vid\":\"NOVN\",\"v\":2.26,\"s\":\"Health Care\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": {
-    "count": 186096,
-    "asOf": "2024-12-31",
+    "count": 184000,
+    "asOf": "2025-12-31",
     "source": {
-      "hostType": "company",
-      "url": "https://www.novartis.com/sites/novartis_com/files/novartis-20-f-2024.pdf",
-      "label": "Annual Report 2024 (Form 20-F), Item 6, Number of registered shareholders/shares",
-      "quote": "1–100 39 042 0.10 ... 101–1 000 108 290 1.97 ... 1 001–10 000 35 269 4.41 ... 10 001–100 000 2 986 3.42 ... 100 001–1 000 000 428 5.90 ... 1 000 001–5 000 000 57 5.54 5 000 001 or more 24 34.14 ... Total registered shareholders/shares 2 186 096 55.48"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+      "label": "FY2025 Form 20-F, Item 6.C, number of registered shareholders",
+      "quote": "As at December 31, 2025, Novartis AG had approximately 184 000 registered shareholders."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Europe;Switzerland;Novartis AG;Health Care;55732750611;4907196715;2.29%;2.29%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Novartis. Holders of record: Registered shareholders as of December 31, 2024 (table footnote 1). In 'Total registered shareholders/shares 2 186 096' the leading 2 is footnote marker 2; the bands sum to 186,096. Unregistered shares were 44.52% of capital, so total holders are more.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); NBIM's separate bond rows for Novartis Capital Corp and Novartis Finance SA are not counted. CalPERS: its Form 13F information table for the quarter ended September 30, 2026 lists no Novartis shares or ADRs (searched by name), so calpers is null. Holders of record: approximate number of shareholders in the Share Register at December 31, 2025 (rounded by Novartis); the 20-F says registered shareholders represent about 56.0% of issued shares, so total holders are more.",
+  "researchedAt": "2026-11-24"
 }

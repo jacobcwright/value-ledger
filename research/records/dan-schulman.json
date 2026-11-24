@@ -1,14 +1,13 @@
 {
   "id": "dan-schulman",
   "company": "PayPal",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
-
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-04-09",
+    "asOf": "2026-03-25",
     "leader": {
       "name": "Dan Schulman",
       "relation": "former-ceo",
@@ -23,94 +22,112 @@
       {
         "name": "The Vanguard Group",
         "type": "asset-manager",
-        "pctEconomic": 9.21,
-        "asOf": "2023-12-29",
+        "pctEconomic": 10.05,
+        "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1633917/000119312525087307/d905217ddef14a.htm",
-          "label": "2025 proxy statement, Five Percent Owners of Common Stock (footnote 1)",
-          "quote": "The Vanguard Group 100 Vanguard Blvd. Malvern, PA 19355 90,024,391 1 9.21% ... Based solely on information on Schedule 13G/A (Amendment No. 8) filed with the SEC on February 13, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/1633917/000119312526145721/d59508ddef14a.htm",
+          "label": "2026 proxy statement, Five Percent Owners of Common Stock (footnote 1)",
+          "quote": "The Vanguard Group 100 Vanguard Blvd. Malvern, PA 19355 90,375,902 1 10.05% ... 1 Based solely on information on Schedule 13G/A (Amendment No. 9) filed with the SEC on January 30, 2026."
         }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 7.42,
-        "asOf": "2023-12-31",
+        "pctEconomic": 8.06,
+        "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1633917/000119312525087307/d905217ddef14a.htm",
-          "label": "2025 proxy statement, Five Percent Owners of Common Stock (footnote 2)",
-          "quote": "BlackRock, Inc. 50 Hudson Yards New York, NY 10001 72,523,555 2 7.42% ... Based solely on information on Schedule 13G/A (Amendment No. 6) filed with the SEC on January 26, 2024."
+          "url": "https://www.sec.gov/Archives/edgar/data/1633917/000119312526145721/d59508ddef14a.htm",
+          "label": "2026 proxy statement, Five Percent Owners of Common Stock (footnote 2)",
+          "quote": "BlackRock, Inc. 50 Hudson Yards New York, NY 10001 72,523,555 2 8.06% ... 2 Based solely on information on Schedule 13G/A (Amendment No. 6) filed with the SEC on January 26, 2024."
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock. The 2025 proxy lists two holders above 5%: The Vanguard Group (9.21%) and BlackRock (7.42%)."
+      "note": "One class of common stock. The 2026 proxy lists two holders above 5%: The Vanguard Group (10.05%) and BlackRock (8.06%)."
     }
   },
-
   "cash": {
     "dividends": {
-      "value": 0,
+      "value": 0.13,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 5 Dividend Policy",
-        "quote": "We have never paid any cash dividends and we currently do not anticipate paying any cash dividends in the foreseeable future."
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Payments of dividends to stockholders (130) — — [in millions, 2025, 2024, 2023]",
+        "xbrl": {
+          "cik": "0001633917",
+          "concept": "us-gaap:PaymentsOfDividends",
+          "end": "2025-12-31",
+          "value": 130000000
+        }
       }
     },
     "buybacks": {
       "value": 6.05,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Purchases of treasury stock (6,047) (5,002) (4,199) [in millions, 2024, 2023, 2022]",
-        "xbrl": { "cik": "0001633917", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-12-31", "value": 6047000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Purchases of treasury stock (6,052) (6,047) (5,002) [in millions, 2025, 2024, 2023]",
+        "xbrl": {
+          "cik": "0001633917",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2025-12-31",
+          "value": 6052000000
+        }
       }
     }
   },
-
   "workers": {
     "stockComp": {
-      "value": 1.23,
+      "value": 1.0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Stock-based compensation 1,230 1,475 1,261 [in millions, 2024, 2023, 2022]",
-        "xbrl": { "cik": "0001633917", "concept": "us-gaap:ShareBasedCompensation", "end": "2024-12-31", "value": 1230000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation 1,002 1,230 1,475 [in millions, 2025, 2024, 2023]",
+        "xbrl": {
+          "cik": "0001633917",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2025-12-31",
+          "value": 1002000000
+        }
       }
     },
     "plan": {
       "text": "Employees can buy PayPal stock through the Employee Stock Purchase Plan at 85% of the lower of the market price at the start of the offering period or on the purchase date.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
-        "label": "FY2024 Form 10-K, Note 15 Stock-Based and Employee Savings Plans",
-        "quote": "Under the terms of the Employee Stock Purchase Plan (“ESPP”), shares of our common stock may be purchased over an offering period with a maximum duration of two years at 85% of the lower of the fair market value on the first day of the applicable offering period or"
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 15 Stock-Based and Employee Savings Plans",
+        "quote": "shares of our common stock may be purchased over an offering period with a maximum duration of two years at 85% of the lower of the fair market value on the first day of the applicable offering period or on the last business day of each six-month purchase period within the offering period."
       }
     }
   },
-
   "geography": {
     "basis": "Revenue disaggregated by primary geographical market",
     "segments": [
-      { "name": "U.S.", "value": 18.27 },
-      { "name": "Other countries", "value": 13.53 }
+      {
+        "name": "U.S.",
+        "value": 18.87
+      },
+      {
+        "name": "Other countries",
+        "value": 14.3
+      }
     ],
-    "total": 31.80,
+    "total": 33.17,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
-      "label": "FY2024 Form 10-K, Note 2 Revenue, Disaggregation of Revenue",
-      "quote": "Primary geographical markets U.S. $ 18,267 ... Other countries(1) 13,530 ... Total net revenues(2) $ 31,797 ... (1) No single country included in the other countries category generated more than 10% of total net revenues. [in millions, 2024]"
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+      "label": "FY2025 Form 10-K, Note 2 Revenue, Disaggregation of Revenue",
+      "quote": "Year Ended December 31, 2025 2024 2023 (In millions) Primary geographical markets U.S. $ 18,868 $ 18,267 $ 17,253 Other countries(1) 14,304 13,530 12,518 Total net revenues(2) $ 33,172"
     }
   },
-
-  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). SCHULMAN: he was CEO until September 2023 (the 2025 proxy's pay-versus-performance section says 'Mr. Schulman served as the PEO in 2023' before Mr. Chriss took over on September 27, 2023). He is not a director or named executive officer in the 2025 proxy and is not in its security ownership tables, so his status is no-reported-stake. HOLDERS: the proxy gives the 5% owners as of December 31, 2024, but bases them solely on Schedules 13G/A filed in January and February 2024, so they are stale. The holding dates come from those 13Gs: Vanguard, December 29, 2023 (https://www.sec.gov/Archives/edgar/data/1633917/000110465924021682/tv01668-paypalholdingsinc.htm); BlackRock, December 31, 2023 (https://www.sec.gov/Archives/edgar/data/1633917/000108636424004846/us70450y1038_012624.txt). DIVIDENDS: none; the cash-flow statement has no dividend line. BUYBACKS exclude $351m of tax withholdings on net share settlement of equity awards.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025 (data.js fy 'Dec 2025'). Financial figures are from the FY2025 Form 10-K (accession 0001633917-26-000024, filed February 3, 2026) and match SEC XBRL; ownership is from the 2026 proxy (DEF 14A filed April 7, 2026, accession 0001193125-26-145721), shares as of March 25, 2026 (899,673,971 outstanding). SCHULMAN: he was CEO until September 2023 (the 2026 proxy's pay-versus-performance notes say 'Mr. Schulman served as the Principal Executive Officer (\"PEO\") in 2023 from January 1 through September 26'). He is not a director or named executive officer in the 2026 proxy and is not in its security ownership tables, so his status is no-reported-stake. The company's CEO has changed again: the proxy says the Board 'appointed Enrique Lores as PayPal's President and CEO effective March 1' 2026, succeeding Alex Chriss. HOLDERS: the proxy bases Vanguard's 10.05% on a Schedule 13G/A filed January 30, 2026, and adds that a later 13G/A (Amendment No. 10, filed March 27, 2026) reports The Vanguard Group 'does not beneficially own any shares' after an internal reorganization that disaggregated its beneficial ownership; the table's figure is kept as the proxy lists it. BlackRock's 8.06% still rests on a Schedule 13G/A filed January 26, 2024, so it is stale. The proxy gives filing dates, not holding dates, so asOf is null. DIVIDENDS: PayPal began a quarterly dividend in October 2025; the first, $0.14 per share (about $130 million), was paid December 10, 2025. BUYBACKS exclude $383 million of tax withholdings on net share settlement of equity awards. STOCK COMP is the cash-flow add-back; the equity statement shows $1,135 million of stock-based compensation.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,22 @@
+{
+  "id": "n-r-narayana-murthy",
+  "company": "Infosys",
+  "classes": [
+    {
+      "label": "Equity shares (outstanding, net of treasury shares)",
+      "shares": 4046940812,
+      "sharesAsOf": "2026-03-31",
+      "pricedAs": "INFY.NS",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067491/000119312526270520/infy-20260331.htm",
+        "label": "FY2026 Form 20-F, consolidated balance sheets, share capital",
+        "quote": "Share capital - ₹ 5 /- ($ 0.16 ) par value 4,800,000,000 ( 4,800,000,000 ) equity shares authorized, issued and outstanding 4,046,940,812 ( 4,143,607,528 ) equity shares fully paid up, net of 8,650,911 ( 9,655,927 ) treasury shares each as of March 31, 2026 (March 31, 2025), respectively"
+      }
+    }
+  ],
+  "notes": "One class of equity shares, priced from the primary listing on the National Stock Exchange of India (INFY.NS, INR) rather than the NYSE ADSs (INFY, one ADS = one share). The count is the balance sheet's 4,046,940,812 shares outstanding net of 8,650,911 treasury shares at March 31, 2026, after the fiscal 2026 buyback of 100,000,000 shares. The 20-F also gives 4,056,360,091 registered equity shares issued and outstanding at May 20, 2026, but that figure appears to include treasury shares (the March 31 issued total, 405,55,91,723, equals the net count plus treasury), so the net March 31 count is used; shares issued under employee plans after March 31 are not counted.",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "michael-saylor",
+  "company": "Strategy",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 1539,
+    "asOf": "2025-12-31",
+    "basis": "total employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Employees",
+      "quote": "As of December 31, 2025, we had a total of 1,539 employees, of whom 448 were based in the United States and 1,091 were based internationally."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "total compensation for our median employee in 2025",
+    "value": 82083,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526186895/d944734ddef14a.htm",
+      "label": "2026 annual-meeting proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "The total compensation for our median employee in 2025, as determined under Item 402 of Regulation S-K, was $82,083."
+    }
+  },
+  "notes": "Employees: total head count at December 31, 2025 (448 U.S., 1,091 international). Payroll: the 10-K discloses no total staff cost, so the CEO pay ratio median for 2025 from the April 2026 annual-meeting proxy is used (CEO Phong Q. Le, ratio 168 to 1); the median employee was picked from all 1,539 workers employed at December 31, 2025, with foreign pay converted at fixed internal rates.",
+  "researchedAt": "2026-11-24"
+}

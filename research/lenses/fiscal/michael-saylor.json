@@ -1,44 +1,44 @@
 {
   "id": "michael-saylor",
   "company": "Strategy",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.0,
+      "value": 0.01,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid during the year for income taxes, net of tax refunds $ 1,059 $ 30,318 $ 21,973 The accompanying [USD thousands; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information",
+        "quote": "Cash paid during the year for income taxes, net of tax refunds $ 13,132 $ 1,059 $ 30,318 [USD thousands; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001050446",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 1059000
+          "end": "2025-12-31",
+          "value": 13132000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 0.12,
+      "value": 0.09,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 118,486 120,530 General and administrative 140,537 [USD thousands; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/mstr-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations",
+        "quote": "Research and development 93,860 118,486 120,530 General and administrative 151,909 [USD thousands; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001050446",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 118486000
+          "end": "2025-12-31",
+          "value": 93860000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented. Taxes: 1,059,000 USD as filed, which rounds to 0.00 billion.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented in the supplemental cash-flow information (13,132 thousand USD).",
+  "researchedAt": "2026-11-24"
 }

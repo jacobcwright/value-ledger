@@ -1,0 +1,22 @@
+{
+  "id": "david-calhoun",
+  "company": "Boeing",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 792449940,
+      "sharesAsOf": "2026-10-20",
+      "pricedAs": "BA",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/ba-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 20, 2026, there were 792,449,940 shares of common stock, $5.00 par value, issued and outstanding."
+      }
+    }
+  ],
+  "notes": "Common stock only, listed on the New York Stock Exchange as BA. The 5,750,000 shares of 6.00% Series A Mandatory Convertible Preferred Stock (liquidation preference $1,000 each, mandatory conversion into common stock by October 15, 2027) are preferred stock and are left out. The Q3 2026 10-Q cover (filed October 27, 2026) is the latest count, newer than the FY2025 10-K cover (785,347,096 at January 23, 2026).",
+  "researchedAt": "2026-11-24"
+}

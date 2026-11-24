@@ -1,142 +1,142 @@
 {
-  "id": "ray-kroc",
-  "company": "McDonald’s",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
-  "currency": "USD",
-  "unit": "billions",
-  "sector": "restaurants",
-  "comparable": true,
-  "inputs": {
-    "revenue": {
-      "value": 25.92,
-      "stated": 25920,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000012/mcd-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of income (in millions)",
-        "quote": "Total revenues 25,920 25,494 23,183",
-        "xbrl": {
-          "cik": "0000063908",
-          "concept": "us-gaap:Revenues",
-          "end": "2024-12-31",
-          "value": 25920000000
-        }
-      },
-      "note": "Includes revenues from franchised restaurants (rent and royalties from franchisees; see other.franchisedRevenues)."
-    },
-    "operatingCashFlow": {
-      "value": 9.447,
-      "stated": 9447,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000012/mcd-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Cash provided by operations 9,447 9,612 7,387",
-        "xbrl": {
-          "cik": "0000063908",
-          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": 9447000000
-        }
-      }
-    },
-    "capex": {
-      "value": 2.775,
-      "components": [
-        "capital expenditures 2.775"
-      ],
-      "stated": 2775,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000012/mcd-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Investing activities Capital expenditures ( 2,775 ) ( 2,357 ) ( 1,899 )",
-        "xbrl": {
-          "cik": "0000063908",
-          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "end": "2024-12-31",
-          "value": 2775000000
-        }
-      },
-      "excludes": [
-        {
-          "name": "purchases of restaurant businesses (acquisitions from franchisees)",
-          "value": 0.669,
-          "stated": 669,
-          "source": {
-            "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000012/mcd-20241231.htm",
-            "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-            "quote": "Purchases of restaurant businesses ( 669 ) ( 441 ) ( 807 )",
-            "xbrl": {
-              "cik": "0000063908",
-              "concept": "us-gaap:PaymentsToAcquireOtherProductiveAssets",
-              "end": "2024-12-31",
-              "value": 669000000
-            }
-          }
-        }
-      ]
-    },
-    "interestPaid": {
-      "value": 1.523,
-      "inOCF": true,
-      "stated": 1523,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000012/mcd-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Supplemental cash flow disclosures Interest paid $ 1,523 $ 1,287 $ 1,184 Income taxes paid 2,974 2,993 3,024",
-        "xbrl": {
-          "cik": "0000063908",
-          "concept": "us-gaap:InterestPaidNet",
-          "end": "2024-12-31",
-          "value": 1523000000
-        }
-      }
-    },
-    "taxesPaid": {
-      "value": 2.974,
-      "inOCF": true,
-      "stated": 2974,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000012/mcd-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Supplemental cash flow disclosures Interest paid $ 1,523 $ 1,287 $ 1,184 Income taxes paid 2,974 2,993 3,024",
-        "xbrl": {
-          "cik": "0000063908",
-          "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2024-12-31",
-          "value": 2974000000
-        }
-      },
-      "note": "companyfacts also has IncomeTaxesPaidNet 3,000,000,000 (a rounded note figure); the statement value 2,974 is used."
-    },
-    "otherNamedItems": {
-      "franchisedRevenues": {
-        "value": 15.715,
-        "stated": 15715,
-        "source": {
-          "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000012/mcd-20241231.htm",
-          "label": "FY2024 Form 10-K, management's discussion and analysis (in millions)",
-          "quote": "Revenues Revenues from franchised restaurants $ 15,715 2 % $ 15,437 9 % $ 14,106"
-        }
-      }
+ "id": "ray-kroc",
+ "company": "McDonald’s",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
+ "currency": "USD",
+ "unit": "billions",
+ "sector": "restaurants",
+ "comparable": true,
+ "inputs": {
+  "revenue": {
+   "value": 26.885,
+   "stated": 26885,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of income (in millions)",
+    "quote": "Other revenues 647 423 316 Total revenues 26,885 25,920 25,494",
+    "xbrl": {
+     "cik": "0000063908",
+     "concept": "us-gaap:Revenues",
+     "end": "2025-12-31",
+     "value": 26885000000
     }
+   },
+   "note": "Includes revenues from franchised restaurants (rent and royalties from franchisees; see other.franchisedRevenues)."
   },
-  "paidOut": 19.248,
-  "paidOutFormula": "25.92 − 9.447 + 2.775",
-  "altPaidOut": null,
-  "salesEnabled": null,
-  "flags": {
-    "financeReceivablesInOCF": false,
-    "interestDividendsReceivedInOCF": null,
-    "revenueIncludesExcise": false,
-    "nonCashRevenue": null
+  "operatingCashFlow": {
+   "value": 10.551,
+   "stated": 10551,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Cash provided by operations 10,551 9,447 9,612",
+    "xbrl": {
+     "cik": "0000063908",
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "end": "2025-12-31",
+     "value": 10551000000
+    }
+   }
   },
-  "notes": "Purchases of restaurant businesses (669) are acquisitions of franchisee restaurants and are excluded from capex. Franchisees' own sales and spending are outside McDonald's accounts.",
-  "researchedAt": "2026-11-23"
+  "capex": {
+   "value": 3.365,
+   "components": [
+    "capital expenditures 3.365"
+   ],
+   "stated": 3365,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Investing activities Capital expenditures ( 3,365 ) ( 2,775 ) ( 2,357 )",
+    "xbrl": {
+     "cik": "0000063908",
+     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+     "end": "2025-12-31",
+     "value": 3365000000
+    }
+   },
+   "excludes": [
+    {
+     "name": "purchases of restaurant businesses (acquisitions from franchisees)",
+     "value": 0.354,
+     "stated": 354,
+     "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+      "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+      "quote": "Purchases of restaurant businesses ( 354 ) ( 669 ) ( 441 )",
+      "xbrl": {
+       "cik": "0000063908",
+       "concept": "us-gaap:PaymentsToAcquireOtherProductiveAssets",
+       "end": "2025-12-31",
+       "value": 354000000
+      }
+     }
+    }
+   ]
+  },
+  "interestPaid": {
+   "value": 1.555,
+   "inOCF": true,
+   "stated": 1555,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+    "quote": "Supplemental cash flow disclosures Interest paid $ 1,555 $ 1,523 $ 1,287",
+    "xbrl": {
+     "cik": "0000063908",
+     "concept": "us-gaap:InterestPaidNet",
+     "end": "2025-12-31",
+     "value": 1555000000
+    }
+   }
+  },
+  "taxesPaid": {
+   "value": 2.688,
+   "inOCF": true,
+   "stated": 2688,
+   "source": {
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+    "label": "FY2025 Form 10-K, Income Taxes note, income taxes paid by location (in millions)",
+    "quote": "Income taxes paid (net of refunds), classified by location of payment, were as follows: In millions 2025 Federal (1) $ 1,326 State 252 Foreign United Kingdom 357 France 156 Other foreign jurisdictions 597 Total income taxes paid, net $ 2,688",
+    "xbrl": {
+     "cik": "0000063908",
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2025-12-31",
+     "value": 2688000000
+    }
+   },
+   "note": "From FY2025 the total is in the income-tax note's table by jurisdiction (ASU 2023-09), not the supplemental cash-flow disclosures. It includes $429 million paid to buy federal transferable energy credits (note footnote 1)."
+  },
+  "otherNamedItems": {
+   "franchisedRevenues": {
+    "value": 16.548,
+    "stated": 16548,
+    "source": {
+     "hostType": "sec",
+     "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+     "label": "FY2025 Form 10-K, management's discussion and analysis (in millions)",
+     "quote": "Revenues Revenues from franchised restaurants $ 16,548 5 % $ 15,715 2 % $ 15,437"
+    }
+   }
+  }
+ },
+ "paidOut": 19.699,
+ "paidOutFormula": "revenue 26,885 − operating cash flow 10,551 + capex 3,365 (USD millions, as stated)",
+ "altPaidOut": null,
+ "salesEnabled": null,
+ "flags": {
+  "financeReceivablesInOCF": false,
+  "interestDividendsReceivedInOCF": null,
+  "revenueIncludesExcise": false,
+  "nonCashRevenue": null
+ },
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 10-K, accession 0000063908-26-000035). Purchases of restaurant businesses (354) are acquisitions of franchisee restaurants and are excluded from capex. Franchisees' own sales and spending are outside McDonald's accounts. Interest and income taxes paid are inside operating cash flow.",
+ "researchedAt": "2026-11-24"
 }

@@ -1,28 +1,22 @@
 {
   "id": "michael-o-leary",
   "company": "Ryanair",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-03-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
   "currency": "EUR",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.08,
+      "value": 0.25,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm",
-        "label": "FY2025 Form 20-F, cash income taxes paid",
-        "quote": "Income tax (paid) 12 ( 84.9 ) ( 49.1 ) ( 4.1 ) Net cash from [EUR millions; FY2025 is the 1st figure in the row]",
-        "xbrl": {
-          "cik": "0001038683",
-          "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
-          "end": "2025-03-31",
-          "value": 84900000
-        }
+        "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+        "label": "FY2026 Form 20-F, consolidated statements of cash flows, income tax paid",
+        "quote": "Income tax (paid) 12 ( 251.5 ) ( 84.9 ) ( 49.1 ) Net cash from operating activities [EUR millions; FY2026 is the 1st figure in the row]"
       }
     }
   },
   "rnd": null,
-  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, the caption does not say whether refunds are netted. R&D not reported as a separate line (airline).",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended March 31, 2026. Taxes: 'Income tax (paid)' in operating activities of the IFRS cash-flow statement; the caption does not say whether refunds are netted. Companyfacts has no FY2026 facts for Ryanair, so there is no xbrl object. R&D not reported as a separate line (airline).",
+  "researchedAt": "2026-11-24"
 }

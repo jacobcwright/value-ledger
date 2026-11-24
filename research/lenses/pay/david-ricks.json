@@ -1,0 +1,31 @@
+{
+  "id": "david-ricks",
+  "company": "Eli Lilly",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 50000,
+    "asOf": "2025-12-31",
+    "basis": "approximately 50,000 people, including approximately 27,000 employees outside the U.S.",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "At the end of 2025, we employed approximately 50,000 people, including approximately 27,000 employees outside the U.S."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Median Employee Annual Total Compensation",
+    "value": 125100,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000029/lly-20260317.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "CEO Pay Ratio: CEO Annual Total Compensation* $36,698,337 Median Employee Annual Total Compensation $125,100 CEO to Median Employee Pay Ratio 293:1"
+    }
+  },
+  "notes": "Employees: an approximate year-end count from the FY2025 10-K. Payroll: the 10-K discloses no total staff cost, so the 2026 proxy's CEO pay ratio median is used; it is for 2025, the same year (median identified from the employee population of approximately 51,000 at October 31, 2025).",
+  "researchedAt": "2026-11-24"
+}

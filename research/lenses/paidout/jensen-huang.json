@@ -1,101 +1,90 @@
 {
   "id": "jensen-huang",
   "company": "NVIDIA",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-01-26",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-25",
   "currency": "USD",
   "unit": "billions",
   "sector": "tech",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 130.497,
-      "stated": 130497,
+      "value": 215.938,
+      "stated": 215938,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of income (in millions)",
-        "quote": "Revenue $ 130,497 $ 60,922 $ 26,974",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of income (in millions)",
+        "quote": "Revenue $ 215,938 $ 130,497 $ 60,922",
         "xbrl": {
           "cik": "0001045810",
           "concept": "us-gaap:Revenues",
-          "end": "2025-01-26",
-          "value": 130497000000
+          "end": "2026-01-25",
+          "value": 215938000000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 64.089,
-      "stated": 64089,
+      "value": 102.718,
+      "stated": 102718,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Net cash provided by operating activities 64,089 28,090 5,641",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by operating activities 102,718 64,089 28,090",
         "xbrl": {
           "cik": "0001045810",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2025-01-26",
-          "value": 64089000000
+          "end": "2026-01-25",
+          "value": 102718000000
         }
       }
     },
     "capex": {
-      "value": 3.236,
+      "value": 6.042,
       "components": [
-        "property and equipment and intangible assets (combined line) 3.236"
+        "property and equipment and intangible assets (combined line) 6.042"
       ],
-      "stated": 3236,
+      "stated": 6042,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
-        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Purchases related to property and equipment and intangible assets ( 3,236 ) ( 1,069 ) ( 1,833 )",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Purchases related to property and equipment and intangible assets ( 6,042 ) ( 3,236 ) ( 1,069 )",
         "xbrl": {
           "cik": "0001045810",
           "concept": "us-gaap:PaymentsToAcquireProductiveAssets",
-          "end": "2025-01-26",
-          "value": 3236000000
+          "end": "2026-01-25",
+          "value": 6042000000
         }
       }
     },
     "interestPaid": {
-      "value": 0.246,
+      "value": null,
       "inOCF": true,
-      "stated": 246,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
-        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid for income taxes, net $ 15,118 $ 6,549 $ 1,404 Cash paid for interest $ 246 $ 252 $ 254",
-        "xbrl": {
-          "cik": "0001045810",
-          "concept": "us-gaap:InterestPaidNet",
-          "end": "2025-01-26",
-          "value": 246000000
-        }
-      }
+      "source": null,
+      "note": "The FY2026 10-K no longer prints cash paid for interest in the supplemental cash-flow disclosures (only 'Cash paid for income taxes, net'), and no other interest-paid figure is stated; interest expense was $259 million. Interest paid is inside operating cash flow (US GAAP), so paidOut is unaffected."
     },
     "taxesPaid": {
-      "value": 15.118,
+      "value": 20.288,
       "inOCF": true,
-      "stated": 15118,
+      "stated": 20288,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
-        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid for income taxes, net $ 15,118 $ 6,549 $ 1,404 Cash paid for interest $ 246 $ 252 $ 254",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "label": "FY2026 Form 10-K, supplemental disclosures of cash flow information (in millions)",
+        "quote": "Supplemental disclosures of cash flow information: Cash paid for income taxes, net $ 20,288 $ 15,118 $ 6,549",
         "xbrl": {
           "cik": "0001045810",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2025-01-26",
-          "value": 15118000000
+          "end": "2026-01-25",
+          "value": 20288000000
         }
       }
     }
   },
-  "paidOut": 69.644,
-  "paidOutFormula": "130.497 − 64.089 + 3.236",
+  "paidOut": 119.262,
+  "paidOutFormula": "215.938 − 102.718 + 6.042",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -104,6 +93,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Fiscal year ended January 26, 2025. Capex is reported as one combined property, equipment and intangible assets line.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended January 25, 2026 (FY2026 Form 10-K, accession 0001045810-26-000021). Capex is reported as one combined property, equipment and intangible assets line. The $13,000 million paid for Groq, Inc. and $1,535 million of acquisitions are investing outflows for businesses and assets acquired, not capex, and are excluded. Taxes paid are inside operating cash flow; interest paid is no longer disclosed (see inputs.interestPaid).",
+  "researchedAt": "2026-11-24"
 }

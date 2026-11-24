@@ -1,50 +1,50 @@
 {
   "id": "david-velez",
   "company": "Nu Holdings (Nubank)",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2024-12-31",
+    "asOf": "2026-03-01",
     "leader": {
       "name": "David Vélez",
       "relation": "co-founder",
       "status": "holds",
       "pctEconomic": null,
-      "pctVoting": 75.2,
+      "pctVoting": 74.4,
       "derived": {
-        "pctEconomic": 19.46,
-        "method": "(6,379,354 Class A + 931,124,498 Class B beneficially owned) / (3,768,057,942 Class A + 1,050,600,698 Class B outstanding), all as of December 31, 2024 = 937,503,852 / 4,818,658,640. Computed, not stated in the filing. No options or RSUs are included in his row (footnote 2 lists only shares held of record).",
+        "pctEconomic": 18.64,
+        "method": "(3,088,117 Class A + 903,124,498 Class B beneficially owned) / (3,837,998,543 Class A + 1,022,600,698 Class B outstanding), all as of March 1, 2026 = 906,212,615 / 4,860,599,241. Computed, not stated in the filing. No options or RSUs are included in his row (footnote 2 lists only shares held of record).",
         "inputs": [
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-            "label": "FY2024 Form 20-F, Item 7.A Major Shareholders, share counts outstanding",
-            "quote": "The percentages of beneficial ownership in the table below are calculated on the basis of the following numbers of shares outstanding: 3,768,057,942 Class A ordinary shares and 1,050,600,698 Class B ordinary shares."
+            "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+            "label": "FY2025 Form 20-F, Item 7.A Major Shareholders, share counts outstanding",
+            "quote": "The percentages of beneficial ownership in the table below are calculated on the basis of the following numbers of shares outstanding as of March 1, 2026: 3,837,998,543 Class A ordinary shares and 1,022,600,698 Class B ordinary shares."
           },
           {
             "hostType": "sec",
-            "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-            "label": "FY2024 Form 20-F, Item 7.A Major Shareholders, David Vélez Osorno row",
-            "quote": "David Vélez Osorno(2) 6,379,354 0.2% 931,124,498 88.6% 75.2% [Class A shares, %, Class B shares, %, % of total voting power]"
+            "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+            "label": "FY2025 Form 20-F, Item 7.A Major Shareholders, David Vélez Osorno row",
+            "quote": "David Vélez Osorno(2) 3,088,117 0.1% 903,124,498 88.3% 74.4% [Class A shares, %, Class B shares, %, % of total voting power]"
           }
         ]
       },
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "FY2024 Form 20-F, Item 7.A Major Shareholders (printed pp. 285-286)",
-        "quote": "David Vélez Osorno(2) 6,379,354 0.2% 931,124,498 88.6% 75.2% ... (2) Consists of (i) 5,198,366 Class A shares and 929,624,498 Class B shares held of record by Rua California Ltd., a company controlled by David Vélez Osorno, who holds 100% of its shares, (ii) 1,180,988 Class A shares held of record by David Vélez Osorno, and 1,500,000 Class B shares held of record by Mariel Lorena Reyes Milk, the wife of Mr. Vélez."
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "FY2025 Form 20-F, Item 7.A Major Shareholders",
+        "quote": "David Vélez Osorno(2) 3,088,117 0.1% 903,124,498 88.3% 74.4% ... (2) Consists of (i) 2,389,203 Class A ordinary shares of David Vélez Osorno and (ii) 698,914 Class A ordinary Shares and 901,624,498 Class B shares held of record by Rua California Ltd., a company controlled by David Vélez Osorno, who holds 100% of its shares, and (iii) 1,500,000 Class B shares held of record by Mariel Lorena Reyes Milk, the wife of Mr. Vélez."
       }
     },
     "largestHolders": null,
     "structure": {
       "dualClass": true,
       "controlled": true,
-      "note": "Class B ordinary shares carry 20 votes each and Class A one vote. David Vélez beneficially owns 88.6% of Class B, which the 20-F says represents 75.2% of the voting power; Nu is a 'controlled company' under NYSE rules."
+      "note": "Class B ordinary shares carry 20 votes each and Class A one vote. David Vélez beneficially owns 88.3% of Class B, which the 20-F says represents 74.4% of the voting power; Nu is a 'controlled company' under NYSE rules."
     }
   },
   "cash": {
@@ -52,8 +52,8 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "FY2024 Form 20-F, Item 8.A Dividend and Dividend Policy",
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "FY2025 Form 20-F, Item 8.A Dividend and Dividend Policy",
         "quote": "We have never declared or paid any cash dividends on our share capital. Nu has not adopted a dividend policy with respect to future declarations and payment of dividends."
       }
     },
@@ -61,62 +61,48 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "FY2024 Form 20-F, consolidated statements of cash flows, financing activities (no share repurchase line)",
-        "quote": "Cash flows from financing activities ... Proceeds from borrowings and financing 25 1,309,890 ... Payments of borrowings and financing 25 (580,642) ... Lease payments (7,053) ... Exercise of stock options 32 5,546 ... Cash flows generated from financing activities 727,741 [note numbers 25 and 32; 2024, US$ thousands]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "FY2025 Form 20-F, consolidated statements of cash flows, financing activities (no share repurchase line)",
+        "quote": "Cash flows in financing activities Proceeds from borrowings and financing 24 2,823,472 1,309,890 469,501 Payments of borrowings and financing 24 ( 532,755 ) ( 580,642 ) ( 46,501 ) Lease payments ( 6,708 ) ( 7,053 ) ( 6,933 ) Exercise of stock options 31 6,221 5,546 9,148 Cash flows generated from (used in) financing activities 2,290,230 727,741 425,215 [note numbers 24 and 31; 2025, 2024, 2023, US$ thousands]"
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.37,
+      "value": 0.33,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "FY2024 Form 20-F, Note 10 Share-based payments (printed p. F-53)",
-        "quote": "SOP and RSU expenses and related corporate and social security taxes expenses 393,788 ... RSUs and SOPs grant - business combination 5,480 ... Awards expenses and related taxes 8,936 ... Fair value adjustment - hedge of corporate and social security taxes (note 20) (35,535) ... Total share-based compensation expenses (note 8) 372,669 [2024, US$ thousands]",
-        "xbrl": {
-          "cik": "0001691493",
-          "concept": "ifrs-full:ExpenseFromSharebasedPaymentTransactionsWithEmployees",
-          "end": "2024-12-31",
-          "value": -372669000
-        }
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "FY2025 Form 20-F, Note 10 Share-based payments",
+        "quote": "Awards expenses and related taxes 2,575 8,936 19,814 Fair value adjustment - hedge of corporate and social security taxes (note 20) ( 29,517 ) ( 35,535 ) ( 33,703 ) Total share-based compensation expenses (note 8) 329,456 372,669 255,614 [2025, 2024, 2023, US$ thousands]"
       }
     },
     "plan": null
   },
   "geography": {
-    "basis": "Revenue per geographical area (interest income on credit card, loans and other receivables, interchange, recharge, rewards and late fees, insurance commission and other fees)",
+    "basis": "Revenue per geographical area (interest income on credit card, loan and other receivables, credit and prepaid card income, late fees, insurance commission and other fees and commission income)",
     "segments": [
       {
         "name": "Brazil",
-        "value": 8.41
+        "value": 11.04
       },
       {
         "name": "Mexico",
-        "value": 0.52
+        "value": 0.81
       },
       {
-        "name": "Colombia",
-        "value": 0.11
-      },
-      {
-        "name": "Cayman Islands",
-        "value": 0.01
-      },
-      {
-        "name": "United States",
-        "value": 0.0
+        "name": "Other countries",
+        "value": 0.24
       }
     ],
-    "total": 9.05,
+    "total": 12.08,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-      "label": "FY2024 Form 20-F, Note 35 Segment information, b) Information about geographical area (printed p. F-124)",
-      "quote": "The table below shows the revenue and non-current assets per geographical area: ... Brazil 8,409,961 ... Mexico 523,112 ... Colombia 111,854 ... Cayman Islands 6,188 ... Uruguay - ... Germany - ... United States 142 ... Total 9,051,257 [2024 revenue, US$ thousands]"
+      "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+      "label": "FY2025 Form 20-F, Note 34 Segment information, b) Information about geographical area",
+      "quote": "The table below shows the revenue and non-current assets per geographical area: ... Revenue (i) Non-current assets (ii) 2025 2024 2023 2025 2024 Brazil 11,038,313 8,409,961 5,728,748 852,770 583,713 Mexico 808,113 523,112 354,884 60,303 42,915 Other countries 237,340 118,184 76,382 147,761 98,469 Total 12,083,766 9,051,257 6,160,014 1,060,834 725,097 [revenue columns first; US$ thousands]"
     }
   },
-  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). Nu reports under IFRS in US dollars, in thousands; values are converted to billions. Source is the FY2024 Form 20-F (filed April 16, 2025, accession 0001292814-25-001517). OWNERSHIP is as of December 31, 2024. LEADER: the 20-F states Vélez's holding by class (0.2% of Class A, 88.6% of Class B) and his voting power (75.2%) but not a percentage of all shares, so pctEconomic is null and leader.derived gives 19.46% from the stated counts, for an editor to approve. His figure includes 1,500,000 Class B shares held by his wife and the shares of Rua California Ltd., which the 20-F also lists separately as a 5% holder; Rua California is not added as a holder because it is inside his figure. HOLDERS: largestHolders is null. The other 5% holders are given only as percentages of Class A, not of all shares, and are not converted here: BlackRock 266,236,594 Class A (7.1%, 13G filed November 8, 2024); SC US (TTGP), LTD. (Sequoia) 252,320,306 (6.7%, 13G/A filed February 14, 2024); Capital Research Global Investors 247,998,790 (6.6%, 13G filed November 12, 2024); Baillie Gifford & Co 210,103,451 (5.6%, 13G filed November 4, 2024). Co-founder Cristina Junqueira holds 9,898,161 Class A (0.3%) and 119,476,200 Class B (11.4%), 9.7% of votes. STOCK COMP: 0.37 is Nu's 'Total share-based compensation expenses' for 2024 ($372.7 million). It includes related corporate and social security taxes and a $35.5 million hedge fair-value adjustment. The cash-flow add-back for share-based payments is $272.4 million. The XBRL fact is filed with a negative sign (-372,669,000), so the xbrl value is cited as filed. GEOGRAPHY: the geographic table totals $9.05 billion, below the $11.52 billion total revenue in the income statement, because it covers only the revenue types listed in its footnote (interest income on credit card, loans and other receivables, interchange, recharge, rewards and late fees, insurance commission and other fees and commission income). The 20-F does not reconcile the two totals. United States revenue was $142 thousand (0.00 billion). BUYBACKS: none; the financing section has no repurchase line. PLAN: none described in the sections read.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025 (matches data.js fy 'Dec 2025'). Nu reports under IFRS in US dollars, in thousands; values are converted to billions. Source is the FY2025 Form 20-F (filed April 8, 2026, accession 0001292814-26-002166). SEC companyfacts has no FY2025 facts for Nu, so no xbrl objects are recorded. LEADER: the 20-F's Item 7.A table (as of March 1, 2026) gives Vélez's holding by class (0.1% of Class A, 88.3% of Class B) and his voting power (74.4%) but not a percentage of all shares, so pctEconomic is null and leader.derived gives 18.64% from the stated counts, for an editor to approve. His figure includes 1,500,000 Class B shares held by his wife and the shares of Rua California Ltd., which the 20-F also lists separately as a 5% holder; Rua California is not added as a holder because it is inside his figure. HOLDERS: largestHolders is null. The other 5% holders are given only as percentages of Class A, not of all shares, and are not converted here: BlackRock 266,236,594 Class A (6.9%, 13G filed November 8, 2024) and Baillie Gifford & Co 265,160,474 (6.9%, 13G filed April 30, 2025); Sequoia and Capital Research no longer appear. Co-founder Cristina Junqueira holds 11,427,060 Class A (0.3%) and 119,476,200 Class B (11.7%), 9.9% of votes. STOCK COMP: 0.33 is Nu's 'Total share-based compensation expenses' for 2025 ($329.5 million). It includes related corporate and social security taxes and a $29.5 million hedge fair-value adjustment. The cash-flow add-back for share-based payments is $271.8 million. GEOGRAPHY: the geographic table totals $12.08 billion, below the $15.77 billion total revenue in the income statement, because it covers only the revenue types listed in its footnote; the 20-F does not reconcile the two totals. It now groups everything outside Brazil and Mexico as 'Other countries'. BUYBACKS: none in 2025; the financing section has no repurchase line. Nu began repurchasing Class A shares in 2026 (40,659,600 shares by September 30, 2026, per its Q3 2026 interim statements). PLAN: none described in the sections read.",
+  "researchedAt": "2026-11-24"
 }

@@ -45,18 +45,27 @@
    "components": [
     "PP&E (net of sales, excluding finance leases) 8.527"
    ],
-   "stated": 8527,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
-    "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
-    "quote": "Purchases of property and equipment excluding finance leases, net of sales ( 8,527 ) ( 11,342 ) ( 8,899 )",
-    "xbrl": {
-     "cik": "0001318605",
-     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-     "end": "2025-12-31",
-     "value": 8527000000
-    }
+   "derived": {
+    "method": "sum of the components below (the FY2025 cash-flow statement has no intangible-asset purchase line)",
+    "inputs": [
+     {
+      "component": "PP&E (net of sales, excluding finance leases)",
+      "value": 8.527,
+      "stated": 8527,
+      "source": {
+       "hostType": "sec",
+       "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+       "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+       "quote": "Purchases of property and equipment excluding finance leases, net of sales ( 8,527 ) ( 11,342 ) ( 8,899 )",
+       "xbrl": {
+        "cik": "0001318605",
+        "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "end": "2025-12-31",
+        "value": 8527000000
+       }
+      }
+     }
+    ]
    }
   },
   "interestPaid": {

@@ -1,0 +1,31 @@
+{
+  "id": "lloyd-blankfein",
+  "company": "Goldman Sachs",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 47400,
+    "asOf": "2025-12-31",
+    "basis": "headcount",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Business, human capital",
+      "quote": "As of December 2025, we had headcount of 47,400, offices in over 35 countries, and 50% of our headcount was based in the Americas, 20% in Europe, Middle East and Africa (EMEA) and 30% in Asia."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Compensation and benefits",
+    "value": 18.906,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+      "label": "FY2025 Form 10-K, consolidated statements of earnings, operating expenses (in millions)",
+      "quote": "Operating expenses Compensation and benefits 18,906 16,706 15,499 [in millions, 2025, 2024, 2023]"
+    }
+  },
+  "notes": "Employees: year-end headcount (rounded to the nearest hundred in the 10-K). Payroll: the income statement's 'Compensation and benefits' line. The 2026 proxy also reports a 2025 median compensation amount of $160,667, not used because a total is disclosed.",
+  "researchedAt": "2026-11-24"
+}

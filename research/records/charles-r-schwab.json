@@ -20,7 +20,7 @@
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/316709/000119312526142826/d930509ddef14a.htm",
         "label": "2026 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management",
-        "quote": "This table shows common stock that is beneficially owned by (i) the company's directors, named executive officers, and directors and executive officers as a group in each case as of the close of business on March 3, 2026 and (ii) any other known beneficial owner of more than 5% of the outstanding common stock based on the owner's most recent Schedule 13D/13G filed with the SEC. ... Charles R. Schwab 102,195,300 4 844,613 103,039,913 5.9 % ... (4) Includes 55,746,284 shares held by trusts for which Mr. Schwab serves as trustee, 9,509,797 shares held by trusts for which Mr. Schwab's spouse serves as trustee, 30,483,368 shares held by family limited partnerships"
+        "quote": "as of the close of business on March 3, 2026 ... Charles R. Schwab 102,195,300 4 844,613 103,039,913 5.9 % ... (4) Includes 55,746,284 shares held by trusts for which Mr. Schwab serves as trustee, 9,509,797 shares held by trusts for which Mr. Schwab's spouse serves as trustee"
       }
     },
     "largestHolders": [
@@ -81,7 +81,7 @@
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
-        "label": "FY2025 Form 10-K, Note 21 Employee Incentive, Retirement, Deferred Compensation, and Career Transition Plans",
+        "label": "FY2025 Form 10-K, Note 21 Employee Incentive, Retirement, Deferred Compensation, and Career Achievement Plans",
         "quote": "Stock option expense 24 47 33 Employee stock purchase plan expense 29 24 25 Total share-based compensation expense $ 317 $ 337 $ 320 [in millions, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0000316709",

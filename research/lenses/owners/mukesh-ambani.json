@@ -2,27 +2,27 @@
   "id": "mukesh-ambani",
   "company": "Reliance Industries",
   "nbim": {
-    "pct": 0.8,
-    "marketValueUSD": 1.546,
-    "asOf": "2024-12-31",
+    "pct": 0.78,
+    "marketValueUSD": 1.445,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"yfcqg4i4h8aa\",\"cc\":\"IN\",\"n\":\"Reliance Industries Ltd\",\"a\":{\"e\":1546290655,\"n\":17561764167},\"at\":0,\"o\":0.8,\"eq\":{\"vid\":\"500325\",\"v\":0.8,\"s\":\"Energy\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"yfcqg4i4h8aa\",\"cc\":\"IN\",\"n\":\"Reliance Industries Ltd\",\"a\":{\"e\":1445142860,\"n\":14300410923},\"at\":0,\"o\":0.78,\"eq\":{\"vid\":\"500325\",\"v\":0.78,\"s\":\"Energy\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": {
-    "count": 4765728,
-    "asOf": "2025-03-31",
+    "count": 4421289,
+    "asOf": "2026-03-31",
     "source": {
       "hostType": "company",
-      "url": "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf",
-      "label": "Integrated Annual Report 2024-25, Corporate Governance Report, Distribution of shareholding",
-      "quote": "Distribution of shareholding as on March 31, 2025 ... Total (A) + (B) + (C) 47,65,728 1353,23,72,898 100.00"
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/reports/RIL-Integrated-Annual-Report-2025-26.pdf",
+      "label": "Integrated Annual Report 2025-26, Corporate Governance Report, Distribution of shareholding",
+      "quote": "Distribution of shareholding as on March 31, 2026 ... Total (A) + (B) + (C) 44,21,289 1353,24,72,634 100.00%"
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Asia;India;Reliance Industries Ltd;Energy;17561764167;1546290655;0.8%;0.8%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Reliance Industries. Holders of record: Indian digit grouping: 47,65,728 = 4,765,728 shareholders. Includes 1 custodian holding the shares underlying the GDRs.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: its Form 13F for the quarter ended September 30, 2026 lists no shares or depositary receipts of Reliance Industries (the only 'Reliance' row, RELIANCE INC, is the U.S. steel company), and 13F covers only U.S.-listed securities; RIL's GDRs are not U.S.-listed. Holders of record: Indian digit grouping: 44,21,289 = 4,421,289 shareholders at March 31, 2026 (down from 47,65,728 a year earlier); includes 1 custodian holding the shares underlying the GDRs.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,44 +1,44 @@
 {
   "id": "vlad-tenev",
   "company": "Robinhood",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.02,
+      "value": 0.1,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes, net of refund received $ 4 $ 9 $ 18 See Accompanying Notes to the [USD millions; FY2024 is the 3rd figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes, net of refund received $ 9 $ 18 $ 95 See Accompanying Notes to the [USD millions; FY2025 is the 3rd figure in the row]",
         "xbrl": {
           "cik": "0001783879",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 18000000
+          "end": "2025-12-31",
+          "value": 95000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 0.32,
+      "value": 0.36,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development costs recorded in operating expenses under ASC 730 were $ 381 million, $ 349 million, and $ 323 million for the years ended December 31, 2022, 2023, and 2024.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000023/hood-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 2, research and development costs",
+        "quote": "Research and development costs recorded in operating expenses under ASC 730 were $ 349 million, $ 323 million, and $ 355 million for the years ended December 31, 2023, 2024, and 2025.",
         "xbrl": {
           "cik": "0001783879",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 323000000
+          "end": "2025-12-31",
+          "value": 355000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented ($95 million: U.S. federal 49, U.S. state and local 45, foreign 1, per the income-tax note).",
+  "researchedAt": "2026-11-24"
 }

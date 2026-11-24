@@ -1,111 +1,111 @@
 {
  "id": "indra-nooyi",
  "company": "PepsiCo",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-28",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-27",
  "currency": "USD",
  "unit": "billions",
  "sector": "consumer",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 91.854,
-   "stated": 91854,
+   "value": 93.925,
+   "stated": 93925,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of operations (in millions)",
-    "quote": "Net Revenue $ 91,854 $ 91,471 $ 86,392 Cost of sales",
+    "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of income (in millions)",
+    "quote": "Net Revenue $ 93,925 $ 91,854 $ 91,471 Cost of sales",
     "xbrl": {
      "cik": "0000077476",
      "concept": "us-gaap:Revenues",
-     "end": "2024-12-28",
-     "value": 91854000000
+     "end": "2025-12-27",
+     "value": 93925000000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 12.507,
-   "stated": 12507,
+   "value": 12.087,
+   "stated": 12087,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Net Cash Provided by Operating Activities 12,507 13,442 10,811 Investing Activities",
+    "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Net Cash Provided by Operating Activities 12,087 12,507 13,442 Investing Activities",
     "xbrl": {
      "cik": "0000077476",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-28",
-     "value": 12507000000
+     "end": "2025-12-27",
+     "value": 12087000000
     }
    }
   },
   "capex": {
-   "value": 5.318,
+   "value": 4.415,
    "components": [
-    "capital spending 5.318"
+    "capital spending 4.415"
    ],
-   "stated": 5318,
+   "stated": 4415,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Investing Activities Capital spending ( 5,318 ) ( 5,518 ) ( 5,207 )",
+    "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+    "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Investing Activities Capital spending (4,415) (5,318) (5,518)",
     "xbrl": {
      "cik": "0000077476",
      "concept": "us-gaap:PaymentsToAcquireProductiveAssets",
-     "end": "2024-12-28",
-     "value": 5318000000
+     "end": "2025-12-27",
+     "value": 4415000000
     }
    },
    "excluded": {
-    "value": 0.256,
-    "stated": 256,
+    "value": 3.391,
+    "stated": 3391,
     "source": {
      "hostType": "sec",
-     "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-     "label": "FY2024 Form 10-K, consolidated statement of cash flows (in millions)",
-     "quote": "Acquisitions, net of cash acquired, investments in noncontrolled affiliates and purchases of intangible and other assets ( 256 ) ( 314 ) ( 873 )"
+     "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+     "label": "FY2025 Form 10-K, consolidated statement of cash flows (in millions)",
+     "quote": "Acquisitions, net of cash acquired, investments in noncontrolled affiliates and purchases of intangible and other assets (3,391) (256) (314)"
     }
    }
   },
   "interestPaid": {
-   "value": 1.585,
-   "stated": 1585,
+   "value": 1.748,
+   "stated": 1748,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Interest paid (a) $ 1,585 $ 1,401 $ 1,043 Income taxes paid, net of refunds (b) $ 3,064 $ 2,532 $ 2,766",
+    "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+    "label": "FY2025 Form 10-K, supplemental cash-flow information (in millions)",
+    "quote": "Interest paid $ 1,748 $ 1,585 $ 1,401 Income taxes paid, net of refunds (a) $ 3,083 $ 3,064 $ 2,532",
     "xbrl": {
      "cik": "0000077476",
      "concept": "us-gaap:InterestPaidNet",
-     "end": "2024-12-28",
-     "value": 1585000000
+     "end": "2025-12-27",
+     "value": 1748000000
     }
    }
   },
   "taxesPaid": {
-   "value": 3.064,
-   "stated": 3064,
+   "value": 3.083,
+   "stated": 3083,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Interest paid (a) $ 1,585 $ 1,401 $ 1,043 Income taxes paid, net of refunds (b) $ 3,064 $ 2,532 $ 2,766",
+    "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+    "label": "FY2025 Form 10-K, supplemental cash-flow information (in millions)",
+    "quote": "Interest paid $ 1,748 $ 1,585 $ 1,401 Income taxes paid, net of refunds (a) $ 3,083 $ 3,064 $ 2,532",
     "xbrl": {
      "cik": "0000077476",
      "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-12-28",
-     "value": 3064000000
+     "end": "2025-12-27",
+     "value": 3083000000
     }
    }
   }
  },
- "paidOut": 84.665,
- "paidOutFormula": "revenue 91,854 − operating cash flow 12,507 + capex 5,318 (USD millions, as stated)",
+ "paidOut": 86.253,
+ "paidOutFormula": "revenue 93,925 − operating cash flow 12,087 + capex 4,415 (USD millions, as stated)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
@@ -114,6 +114,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Fiscal year ended December 28, 2024. Intangible purchases are reported only combined with acquisitions and affiliate investments (256), so that line is excluded.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 27, 2025 (FY2025 Form 10-K, accession 0000077476-26-000007). Intangible purchases are reported only combined with acquisitions and affiliate investments (3,391, larger in 2025 because of acquisitions), so that line is excluded.",
+ "researchedAt": "2026-11-24"
 }

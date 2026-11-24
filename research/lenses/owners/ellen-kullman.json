@@ -2,48 +2,48 @@
   "id": "ellen-kullman",
   "company": "DuPont",
   "nbim": {
-    "pct": 0.44,
-    "marketValueUSD": 0.14,
-    "asOf": "2024-12-31",
+    "pct": 0.62,
+    "marketValueUSD": 0.115,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"4ycl0026iozd\",\"cc\":\"US\",\"n\":\"DuPont de Nemours Inc\",\"a\":{\"e\":140039911,\"n\":1590482286},\"at\":0,\"o\":0.44,\"eq\":{\"vid\":\"DD\",\"v\":0.44,\"s\":\"Industrials\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"4ycl0026iozd\",\"cc\":\"US\",\"n\":\"DuPont de Nemours Inc\",\"a\":{\"e\":114628686,\"n\":1134308160},\"at\":0,\"o\":0.62,\"eq\":{\"vid\":\"DD\",\"v\":0.62,\"s\":\"Industrials\"}}"
     }
   },
   "calpers": {
-    "shares": 695837,
-    "asOf": "2024-12-31",
+    "shares": 264848,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "DUPONT DE NEMOURS INC COM 26614N102 53057571 695837"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "DUPONT DE NEMOURS INC COMMON STOCK 26614N201 34401107 264848"
     },
     "derived": {
-      "pct": 0.166,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.2,
+      "method": "CalPERS shares ÷ shares outstanding (264,848 ÷ 132,532,338; both after the June 2026 1-for-3 reverse split)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "The registrant had 418,049,127 shares of common stock, $0.01 par value, outstanding at February 12, 2025."
+          "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000060/dd-20260930.htm",
+          "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+          "quote": "The registrant had 132,532,338 shares of common stock, $0.01 par value, outstanding at October 30, 2026."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 60030,
-    "asOf": "2025-01-31",
+    "count": 55987,
+    "asOf": "2026-01-31",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "At January 31, 2025, there were 60,030 stockholders of record."
+      "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "At January 31, 2026, there were 55,987 stockholders of record."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;DuPont de Nemours Inc;Industrials;1590482286;140039911;0.44%;0.44%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); NBIM's separate row for Qnity Electronics Inc (the November 2025 spin-off) is not counted. CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. DuPont's CUSIP changed from 26614N102 to 26614N201 with the 1-for-3 reverse stock split effective June 24, 2026, so the row is found under the new CUSIP; CalPERS's separate Qnity Electronics row is not counted. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the Q3 2026 10-Q cover count at October 30, 2026 (post-split), the same count used in the marketcap lens.",
+  "researchedAt": "2026-11-24"
 }

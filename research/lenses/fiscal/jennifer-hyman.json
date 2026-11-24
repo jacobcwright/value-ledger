@@ -1,12 +1,28 @@
 {
   "id": "jennifer-hyman",
   "company": "Rent the Runway",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2025-01-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2026-01-31",
   "currency": "USD",
   "unit": "billions",
-  "taxes": null,
+  "taxes": {
+    "cashTaxesPaid": {
+      "value": 0.00026,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000020/wdq-20260131.htm",
+        "label": "Fiscal 2025 Form 10-K, income taxes note, taxes paid by jurisdiction",
+        "quote": "The following table sets forth total taxes paid, net of refunds received, by jurisdiction: ... Total State and Local taxes paid, net of refunds received 0.22 Foreign: Ireland 0.04 Total Taxes Paid, net of refund received $ 0.26 [USD millions]",
+        "xbrl": {
+          "cik": "0001468327",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2026-01-31",
+          "value": 260000
+        }
+      }
+    }
+  },
   "rnd": null,
-  "notes": "Cash income taxes paid are not disclosed in the FY2024 10-K (no supplemental cash-flow line or tax-note figure). R&D not reported as a separate line in the FY2024 10-K.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended January 31, 2026. Taxes: total taxes paid, net of refunds received ($0.26 million: state and local 0.22, Ireland 0.04), from the new by-jurisdiction table in the income-tax note (RTR adopted ASU 2023-09 for fiscal 2025); stored in billions as 0.00026. No federal income tax was paid. R&D is not reported as a separate line; the 'Technology' expense line (39.3m) covers technology payroll, professional services and software fees and is not labelled research and development.",
+  "researchedAt": "2026-11-24"
 }

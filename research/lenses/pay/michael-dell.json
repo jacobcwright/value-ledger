@@ -1,0 +1,31 @@
+{
+  "id": "michael-dell",
+  "company": "Dell Technologies",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-30",
+  "currency": "USD",
+  "employees": {
+    "value": 97000,
+    "asOf": "2026-01-30",
+    "basis": "approximately 97,000 employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+      "label": "Fiscal 2026 Form 10-K, Item 1 Human Capital",
+      "quote": "As of January 30, 2026, we had approximately 97,000 employees."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "Annual total compensation for our median employee excluding our CEO (Fiscal 2026)",
+    "value": 78796,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526226734/d132444ddef14a.htm",
+      "label": "2026 proxy statement (DEF 14A), Pay Ratio Disclosure",
+      "quote": "For Fiscal 2026, as determined under Item 402(u) of the SEC's Regulation S-K: the annual total compensation for our CEO was $3,382,209; the annual total compensation for our median employee excluding our CEO was $78,796"
+    }
+  },
+  "notes": "Employees: approximate year-end count from the Fiscal 2026 10-K. Payroll: the 10-K discloses no total staff cost, so the proxy's CEO pay ratio median is used. It is Fiscal 2026 pay of the same median employee Dell identified for Fiscal 2024 (from total target cash compensation at January 22, 2024); Dell says its headcount reductions did not significantly change the disclosure.",
+  "researchedAt": "2026-11-24"
+}

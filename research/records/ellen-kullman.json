@@ -1,13 +1,13 @@
 {
   "id": "ellen-kullman",
   "company": "DuPont",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-03-14",
+    "asOf": "2026-04-07",
     "leader": {
       "name": "Ellen Kullman",
       "relation": "former-ceo",
@@ -17,56 +17,56 @@
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000119312525071813/d862604ddef14a.htm",
-        "label": "2025 proxy statement, Beneficial Ownership of Company Stock",
-        "quote": "The following table presents the beneficial ownership of DuPont’s Common Stock as of March 14, 2025, except as noted, for (i) each director and director nominee of the Company, (ii) each of DuPont’s current named executive officers, (iii) all directors and executive officers as a group, and (iv) each person beneficially owning more than 5% of the outstanding shares of DuPont’s Common Stock."
+        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000119312526151204/d11932ddef14a.htm",
+        "label": "2026 proxy statement, Beneficial Ownership of Company Stock",
+        "quote": "The following table presents the beneficial ownership of DuPont's common stock as of April 7, 2026, except as noted, for (i) each director and director nominee of the Company, (ii) each of DuPont's current named executive officers, (iii) all directors and executive officers as a group, and (iv) each person who was known to us as the beneficial owner of more than 5% of the outstanding shares of DuPont's common stock."
       }
     },
     "largestHolders": [
       {
         "name": "The Vanguard Group",
         "type": "asset-manager",
-        "pctEconomic": 11.48,
+        "pctEconomic": 11.72,
         "asOf": "2023-12-29",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1666700/000119312525071813/d862604ddef14a.htm",
-          "label": "2025 proxy statement, Beneficial Ownership of Company Stock",
-          "quote": "The Vanguard Group 48,043,862 (f) 11.48% ... (f) Based on Amendment No. 7 to Schedule 13G filed by The Vanguard Group on February 13, 2024 with the SEC reporting beneficial ownership as of December 29, 2023."
+          "url": "https://www.sec.gov/Archives/edgar/data/1666700/000119312526151204/d11932ddef14a.htm",
+          "label": "2026 proxy statement, Beneficial Ownership of Company Stock",
+          "quote": "The Vanguard Group 48,043,862 (f) 11.72% ... (f) Based on Amendment No. 7 to Schedule 13G filed by The Vanguard Group on February 13, 2024 with the SEC reporting beneficial ownership as of December 29, 2023."
         }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 7.26,
+        "pctEconomic": 7.41,
         "asOf": "2023-12-31",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1666700/000119312525071813/d862604ddef14a.htm",
-          "label": "2025 proxy statement, Beneficial Ownership of Company Stock",
-          "quote": "BlackRock, Inc. 30,389,248 (g) 7.26% ... (g) Based on Amendment No. 4 to Schedule 13G filed by BlackRock, Inc. on January 26, 2024 with the SEC reporting beneficial ownership as of December 31, 2023."
+          "url": "https://www.sec.gov/Archives/edgar/data/1666700/000119312526151204/d11932ddef14a.htm",
+          "label": "2026 proxy statement, Beneficial Ownership of Company Stock",
+          "quote": "BlackRock, Inc. 30,389,248 (g) 7.41% ... (g) Based on Amendment No. 4 to Schedule 13G filed by BlackRock, Inc. on January 26, 2024 with the SEC reporting beneficial ownership as of December 31, 2023."
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock; 418,495,029 shares were outstanding on March 14, 2025. Vanguard and BlackRock are the only holders above 5% listed in the proxy."
+      "note": "One class of common stock; 409,877,186 shares were outstanding on April 7, 2026 (before the 1-for-3 reverse stock split effective June 24, 2026). Vanguard and BlackRock are the only holders above 5% listed in the proxy."
     }
   },
   "cash": {
     "dividends": {
-      "value": 0.64,
+      "value": 0.6,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Dividends paid to stockholders (635) (651) (652) [Financing Activities; in millions; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Dividends paid to stockholders ( 597 ) ( 635 ) ( 651 ) [Financing Activities; in millions; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001666700",
           "concept": "us-gaap:PaymentsOfDividendsCommonStock",
-          "end": "2024-12-31",
-          "value": 635000000
+          "end": "2025-12-31",
+          "value": 597000000
         }
       }
     },
@@ -74,62 +74,62 @@
       "value": 0.5,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Purchases of common stock and forward contracts (500) (2,000) (4,375) [Financing Activities; in millions; 2024, 2023, 2022]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Purchases of common stock and forward contracts ( 500 ) ( 500 ) ( 2,000 ) [Financing Activities; in millions; 2025, 2024, 2023]"
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.08,
+      "value": 0.04,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Stock based compensation 77 74 75 [Operating Activities; in millions; 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock based compensation 38 56 57 [Operating Activities, continuing operations; in millions; 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001666700",
           "concept": "us-gaap:ShareBasedCompensation",
-          "end": "2024-12-31",
-          "value": 77000000
+          "end": "2025-12-31",
+          "value": 38000000
         }
       }
     },
     "plan": null
   },
   "geography": {
-    "basis": "Net trade revenue by geographic region; sales are attributed to geographic regions based on customer location",
+    "basis": "Net trade revenue by geographic region (continuing operations); sales are attributed to geographic regions based on customer location",
     "segments": [
       {
         "name": "United States",
-        "value": 4.1
+        "value": 3.19
       },
       {
         "name": "Canada",
-        "value": 0.27
+        "value": 0.23
       },
       {
         "name": "EMEA (Europe, Middle East and Africa)",
-        "value": 2.15
+        "value": 1.47
       },
       {
         "name": "Asia Pacific",
-        "value": 5.37
+        "value": 1.64
       },
       {
         "name": "Latin America",
-        "value": 0.5
+        "value": 0.33
       }
     ],
-    "total": 12.39,
+    "total": 6.85,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670025000005/dd-20241231.htm",
-      "label": "FY2024 Form 10-K, Note 23 Segments and Geographic Regions",
-      "quote": "Sales are attributed to geographic regions based on customer location ... Net Trade Revenue by Geographic Region 2024 ... United States $ 4,102 ... Canada 273 ... EMEA 1 2,146 ... Asia Pacific 2 5,368 ... Latin America 497 ... Total $ 12,386 [in millions]"
+      "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+      "label": "FY2025 Form 10-K, Note 23 Segments and Geographic Regions",
+      "quote": "Sales are attributed to geographic regions based on customer location ... Net Trade Revenue by Geographic Region 2025 2024 2023 ... United States $ 3,188 $ 3,139 $ 2,917 Canada 227 232 229 EMEA 1 1,468 1,379 1,383 Asia Pacific 2 1,640 1,647 1,754 Latin America 326 322 331 Total $ 6,849 $ 6,719 $ 6,614 [in millions]"
     }
   },
-  "notes": "Fiscal year ended December 31, 2024. Sources: FY2024 Form 10-K of DuPont de Nemours, Inc. (CIK 1666700, accession 0001666700-25-000005) and its 2025 proxy statement (DEF 14A, accession 0001193125-25-071813, ownership as of March 14, 2025). Ellen Kullman is a former CEO of the predecessor E. I. du Pont de Nemours and Company (EIDP); the 10-K describes today's DuPont de Nemours, Inc. as the product of the DWDP Merger with EIDP. She does not appear anywhere in the 2025 proxy, whose table covers current directors and nominees, current named executive officers and more-than-5% holders, so status is no-reported-stake. 5% HOLDERS: both rest on Schedule 13G amendments reporting holdings at the end of 2023, so they are stale relative to the March 2025 share count. DIVIDENDS: $635 million paid to stockholders; $26 million of distributions to noncontrolling interests is a separate line and excluded. BUYBACKS: the cash-flow line 'Purchases of common stock and forward contracts' ($500m) is cash paid to repurchase DuPont's own stock; the $21 million excise tax paid on treasury stock purchases is a separate line and not included. No XBRL fact for this line was found in the SEC companyfacts API, so it has no xbrl object. STOCK COMP: $77 million is from the FY2024 10-K. SEC XBRL shows that a later 10-K (accession 0001666700-26-000013) restated 2024 to $56 million; the original figure is used to match the FY2024 snapshot. GEOGRAPHY: the FY2024 10-K's net trade revenue table, before any later recast. No broad employee stock purchase plan was identified in the 10-K, so plan is null.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Sources: FY2025 Form 10-K of DuPont de Nemours, Inc. (CIK 1666700, accession 0001666700-26-000013, filed February 17, 2026) and its 2026 proxy statement (DEF 14A, accession 0001193125-26-151204, ownership as of April 7, 2026). Ellen Kullman is a former CEO of the predecessor E. I. du Pont de Nemours and Company (EIDP). She does not appear anywhere in the 2026 proxy, whose table covers current directors and nominees, current named executive officers and more-than-5% holders, so status is no-reported-stake. COMPANY CHANGES: on November 1, 2025 DuPont completed the spin-off of its electronics business as Qnity Electronics, Inc.; the Electronics, Aramids (sold April 1, 2026) and earlier M&M businesses are reported as discontinued operations, so the FY2025 10-K recasts net sales to $6,849 million (continuing operations) and figures here are not comparable with the FY2024 edition ($12,386 million). DuPont also effected a 1-for-3 reverse stock split on June 24, 2026 (Q3 2026 10-Q); the proxy share counts are before it, and percentages are unaffected. 5% HOLDERS: both rest on Schedule 13G amendments reporting holdings at the end of 2023, so they are stale relative to the April 2026 share count. DIVIDENDS: $597 million paid to stockholders; distributions to noncontrolling interests ($9 million) are a separate line and excluded. BUYBACKS: the cash-flow line 'Purchases of common stock and forward contracts' ($500m) is cash paid to repurchase DuPont's own stock (tagged with a company-specific XBRL concept, so no xbrl object); the $8 million excise tax paid on treasury stock purchases is a separate line and not included. STOCK COMP: the continuing-operations cash-flow add-back ($38 million; the FY2025 10-K recast 2024 to $56 million). GEOGRAPHY: continuing operations; China/Hong Kong was $708 million within Asia Pacific. No broad employee stock purchase plan was identified in the 10-K, so plan is null.",
+  "researchedAt": "2026-11-24"
 }

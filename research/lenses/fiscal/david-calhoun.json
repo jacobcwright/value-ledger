@@ -1,44 +1,44 @@
 {
   "id": "david-calhoun",
   "company": "Boeing",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.19,
+      "value": 0.28,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Net income tax payments/(refunds) were $ 187 , $ 204 and ($ 1,317 ) in 2024, 2023 and 2022, respectively. [USD millions]",
+        "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 6 Income Taxes, net income tax payments (dollars in millions)",
+        "quote": "Net income tax payments in 2025 were as follows: Year ended December 31, 2025 U.S. federal $ 37 U.S. state ( 5 ) Non-U.S. Germany 83 Other 160 Total Non-U.S. 243 Total net income tax payments $ 275",
         "xbrl": {
           "cik": "0000012927",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 187000000
+          "end": "2025-12-31",
+          "value": 275000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 3.81,
+      "value": 3.62,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/12927/000001292725000015/ba-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development expense, net ( 3,812 ) ( 3,377 ) ( 2,852 ) Gain on [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of operations, research and development expense",
+        "quote": "Research and development expense, net ( 3,615 ) ( 3,812 ) ( 3,377 ) Gain on dispositions, net [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000012927",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 3812000000
+          "end": "2025-12-31",
+          "value": 3615000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented. R&D line is 'Research and development expense, net' (net of credits as presented).",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the income-tax note's 2025 by-jurisdiction table (U.S. federal 37, U.S. state −5, Germany 83, other non-U.S. 160; total 275 million). R&D line is 'Research and development expense, net' (net of credits as presented).",
+  "researchedAt": "2026-11-24"
 }

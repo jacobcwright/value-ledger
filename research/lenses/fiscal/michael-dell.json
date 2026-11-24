@@ -1,44 +1,44 @@
 {
   "id": "michael-dell",
   "company": "Dell Technologies",
-  "fiscalYear": "FY2025",
-  "fiscalYearEnd": "2025-01-31",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-01-30",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.56,
+      "value": 1.26,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
-        "label": "FY2025 Form 10-K, cash income taxes paid",
-        "quote": "Income tax paid $ 555 $ 1,379 $ 1,208 Interest paid $ 1,304 [USD millions; FY2025 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+        "label": "FY2026 Form 10-K, Note 20 Supplemental Consolidated Financial Information, income taxes paid",
+        "quote": "Income Taxes Paid ... U.S. federal $ 366 U.S. state and local 176 Foreign: Singapore 192 Other foreign jurisdictions 527 Income taxes paid, net of refunds $ 1,261 [USD millions, fiscal year ended January 30, 2026]",
         "xbrl": {
           "cik": "0001571996",
           "concept": "us-gaap:IncomeTaxesPaid",
-          "end": "2025-01-31",
-          "value": 555000000
+          "end": "2026-01-30",
+          "value": 1261000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 3.06,
+      "value": 3.14,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm",
-        "label": "FY2025 Form 10-K, research and development expense",
-        "quote": "Research and development 3,061 3.2 % 9 % 2,801 3.2 % 1 % 2,779 2.7 % [USD millions; FY2025 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+        "label": "FY2026 Form 10-K, consolidated statements of income, research and development expense",
+        "quote": "Research and development 3,142 3,061 2,801 [USD millions; FY2026 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001571996",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2025-01-31",
-          "value": 3061000000
+          "end": "2026-01-30",
+          "value": 3142000000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended January 30, 2026. Taxes: the cash-flow supplemental 'Income tax paid' (us-gaap:IncomeTaxesPaid); the new ASU 2023-09 table in Note 20 states the same 1,261 million as 'Income taxes paid, net of refunds' (U.S. federal 366, state and local 176, Singapore 192, other foreign 527).",
+  "researchedAt": "2026-11-24"
 }

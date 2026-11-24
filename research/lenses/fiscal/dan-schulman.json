@@ -1,23 +1,23 @@
 {
   "id": "dan-schulman",
   "company": "PayPal",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 1.03,
+      "value": 1.1,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes, net $ 1,027 $ 2,118 $ 878 The table below [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash-flow information",
+        "quote": "Cash paid for income taxes, net $ 1,099 $ 1,027 $ 2,118 The table below [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001633917",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 1027000000
+          "end": "2025-12-31",
+          "value": 1099000000
         }
       }
     }
@@ -27,12 +27,12 @@
       "value": 1.5,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391725000019/pypl-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1 Business, Research and development",
-        "quote": "Our total research and development expense was $1.5 billion, $1.6 billion, and $1.7 billion in 2024, 2023, and 2022, respectively."
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Business, Research and development",
+        "quote": "Our total research and development expense was $1.5 billion in both 2025 and 2024 and $1.6 billion in 2023."
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented. R&D: PayPal's income statement shows 'Technology and development', but Item 1 states total research and development expense of $1.5 billion (stated to one decimal); no XBRL fact for this sentence.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented (the FY2025 10-K still prints the supplemental cash-flow line). R&D: PayPal's income statement shows 'Technology and development', but Item 1 states total research and development expense of $1.5 billion (stated to one decimal); no XBRL fact for this sentence.",
+  "researchedAt": "2026-11-24"
 }

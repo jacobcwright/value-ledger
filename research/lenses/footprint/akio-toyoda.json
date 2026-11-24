@@ -5,14 +5,14 @@
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "as of Mar 31, 2025",
+      "period": "as of Mar 31, 2026",
       "tier": "filing",
-      "definition": "Consolidated employees by geographic location (20-F Item 6.D; total 383,853). 'Other' consists of Central and South America, Oceania, Africa and the Middle East."
+      "definition": "Consolidated employees by geographic location (20-F Item 6.D; total 390,927). 'Other' consists of Central and South America, Oceania, Africa and the Middle East."
     },
     "production": {
       "label": "Vehicle production",
       "unit": "count",
-      "period": "fiscal 2025 (year to Mar 31, 2025)",
+      "period": "fiscal 2026 (year to Mar 31, 2026)",
       "tier": "filing",
       "definition": "Worldwide vehicle unit production by geographic market, excluding unconsolidated affiliates but including Daihatsu and Hino (20-F table in thousands of units; stored as whole units). 'Other' consists of Central and South America and Africa."
     },
@@ -20,16 +20,16 @@
       "label": "Total investment in the U.S. (cumulative)",
       "unit": "currency-billions",
       "currency": "USD",
-      "period": "as published Fall 2023 (undated cumulative figure)",
+      "period": "as published Sep 2026 (cumulative since 1986)",
       "tier": "company-published",
-      "definition": "Toyota's 'Toyota in the U.S. By the Numbers' total investment, from its operations map data sheet (Fall 2023 edition)."
+      "definition": "Toyota's 2026 Country Contribution sheet for the United States: '$50B invested since 1986 in manufacturing, R&D, operations'."
     },
     "usEmployment": {
-      "label": "Total employment in the U.S.",
+      "label": "Toyota team members in the U.S.",
       "unit": "people",
-      "period": "as published Fall 2023",
+      "period": "as published Sep 2026",
       "tier": "company-published",
-      "definition": "Toyota's 'Toyota in the U.S. By the Numbers' total employment, from its operations map data sheet (Fall 2023 edition)."
+      "definition": "Toyota's 2026 Country Contribution sheet for the United States: direct employment, '47,500+ Toyota Team Members at U.S. plants & corporate offices' (excludes the 145,500+ dealer and related jobs the sheet lists separately)."
     }
   },
   "usStates": null,
@@ -38,30 +38,32 @@
       "iso2": "JP",
       "name": "Japan",
       "values": {
-        "employees": 203504,
-        "production": 4000000
+        "employees": 207137,
+        "production": 4149000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-        "label": "FY2025 Form 20-F, Item 6.D (Employees) and Item 4.B (production)",
-        "quote": "Location | | Number of Employees | … Japan | | 203,504 … The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … Japan | | | | 3,789 | | | | 4,042 | | | | 4,000 [production table in thousands of units]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+        "label": "FY2026 Form 20-F, Item 6.D (Employees) and Item 4.B (production)",
+        "quote": "Location | Number of Employees … Japan | 207,137 … The following table shows Toyota's worldwide vehicle unit production by geographic market for the periods shown. … Japan 4,042 | 4,000 | 4,149 [production table in thousands of units; columns: fiscal 2024 | 2025 | 2026]"
       }
     },
     {
       "iso2": "US",
       "name": "United States",
       "values": {
-        "usInvestment": 39,
-        "usEmployment": 49000
+        "usInvestment": 50,
+        "usEmployment": 47500
       },
-      "plus": {},
+      "plus": {
+        "usEmployment": true
+      },
       "source": {
         "hostType": "company",
-        "url": "https://www.toyota.com/content/dam/tusa/assets/pdfs/toyota-operations-map-fall-2023.pdf",
-        "label": "Toyota operations map data sheet, Fall 2023: Toyota in the U.S. By the Numbers",
-        "quote": "Toyota in the U.S. … Total Investment … Total Employment … $39 BILLION … 49,000"
+        "url": "https://global.toyota/pages/global_toyota/sustainability/contribution/2026_contribution_us_02.pdf",
+        "label": "Toyota 2026 Country Contribution: United States (global.toyota), Introduction and Economic Contribution",
+        "quote": "$50B INVESTED SINCE 1986 IN MANUFACTURING, R&D, OPERATIONS … DIRECT 47,500+ Toyota Team Members at U.S. plants & corporate offices"
       }
     }
   ],
@@ -70,73 +72,73 @@
       "name": "North America",
       "countries": null,
       "values": {
-        "employees": 65294,
-        "production": 1958000
+        "employees": 65411,
+        "production": 2050000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-        "label": "FY2025 Form 20-F, Items 6.D and 4.B",
-        "quote": "Location | | Number of Employees | … North America | | 65,294 … The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … North America | | | | 1,768 | | | | 1,976 | | | | 1,958 [production table in thousands of units]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+        "label": "FY2026 Form 20-F, Items 6.D and 4.B",
+        "quote": "Location | Number of Employees … North America | 65,411 … The following table shows Toyota's worldwide vehicle unit production by geographic market for the periods shown. … North America 1,976 | 1,958 | 2,050 [production table in thousands of units; columns: fiscal 2024 | 2025 | 2026]"
       }
     },
     {
       "name": "Europe",
       "countries": null,
       "values": {
-        "employees": 24366,
-        "production": 811000
+        "employees": 24741,
+        "production": 815000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-        "label": "FY2025 Form 20-F, Items 6.D and 4.B",
-        "quote": "Location | | Number of Employees | … Europe | | 24,366 … The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … Europe | | | | 771 | | | | 846 | | | | 811 [production table in thousands of units]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+        "label": "FY2026 Form 20-F, Items 6.D and 4.B",
+        "quote": "Location | Number of Employees … Europe | 24,741 … The following table shows Toyota's worldwide vehicle unit production by geographic market for the periods shown. … Europe 846 | 811 | 815 [production table in thousands of units; columns: fiscal 2024 | 2025 | 2026]"
       }
     },
     {
       "name": "Asia",
       "countries": null,
       "values": {
-        "employees": 65749,
-        "production": 1790000
+        "employees": 66331,
+        "production": 1802000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-        "label": "FY2025 Form 20-F, Items 6.D and 4.B",
-        "quote": "Location | | Number of Employees | … Asia | | 65,749 … The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … Asia. | | | | 1,859 | | | | 1,876 | | | | 1,790 [production table in thousands of units]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+        "label": "FY2026 Form 20-F, Items 6.D and 4.B",
+        "quote": "Location | Number of Employees … Asia | 66,331 … The following table shows Toyota's worldwide vehicle unit production by geographic market for the periods shown. … Asia. 1,876 | 1,790 | 1,802 [production table in thousands of units; columns: fiscal 2024 | 2025 | 2026]"
       }
     },
     {
       "name": "Other: Central and South America, Oceania, Africa and the Middle East",
       "countries": null,
       "values": {
-        "employees": 24940
+        "employees": 27307
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-        "label": "FY2025 Form 20-F, Item 6.D (Employees)",
-        "quote": "Location | | Number of Employees | … Other* | | 24,940 … “Other” consists of Central and South America, Oceania, Africa and the Middle East."
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+        "label": "FY2026 Form 20-F, Item 6.D (Employees)",
+        "quote": "Location | Number of Employees … Other* | 27,307 … \"Other\" consists of Central and South America, Oceania, Africa and the Middle East."
       }
     },
     {
       "name": "Other: Central and South America and Africa",
       "countries": null,
       "values": {
-        "production": 491000
+        "production": 477000
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-        "label": "FY2025 Form 20-F, Item 4.B (vehicle unit production by geographic market)",
-        "quote": "The following table shows Toyota’s worldwide vehicle unit production by geographic market for the periods shown. … Other* | | | | 507 | | | | 523 | | | | 491 … “Other” consists of Central and South America and Africa. [production table in thousands of units]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+        "label": "FY2026 Form 20-F, Item 4.B (vehicle unit production by geographic market)",
+        "quote": "The following table shows Toyota's worldwide vehicle unit production by geographic market for the periods shown. … Other* 523 | 491 | 477 … \"Other\" consists of Central and South America and Africa. [production table in thousands of units; columns: fiscal 2024 | 2025 | 2026]"
       }
     }
   ],
@@ -147,12 +149,12 @@
       "state": null,
       "iso2": "JP",
       "type": "headquarters",
-      "description": "Research and development; 22,930 employees on 2,725 thousand square meters.",
+      "description": "Research and development; 23,479 employees on 2,725 thousand square meters.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-        "label": "FY2025 Form 20-F, Item 4.D (Property, Plants and Equipment)",
-        "quote": "Toyota Head Office and Technical Center | | Toyota City, Aichi Pref. | | | 2,725 | | | | 22,930 | | | Research and Development"
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+        "label": "FY2026 Form 20-F, Item 4.D (Property, Plants and Equipment)",
+        "quote": "Toyota Head Office and Technical Center Toyota City, Aichi Pref. | 2,725 | 23,479 | Research and Development"
       }
     },
     {
@@ -161,12 +163,12 @@
       "state": null,
       "iso2": "JP",
       "type": "manufacturing plant",
-      "description": "Automobiles; 8,078 employees.",
+      "description": "Automobiles; 8,035 employees.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-        "label": "FY2025 Form 20-F, Item 4.D (Property, Plants and Equipment)",
-        "quote": "Motomachi Plant | | Toyota City, Aichi Pref. | | | 1,575 | | | | 8,078 | | | Automobiles"
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+        "label": "FY2026 Form 20-F, Item 4.D (Property, Plants and Equipment)",
+        "quote": "Motomachi Plant Toyota City, Aichi Pref. | 1,575 | 8,035 | Automobiles"
       }
     },
     {
@@ -175,12 +177,12 @@
       "state": null,
       "iso2": "JP",
       "type": "manufacturing plant",
-      "description": "Automobiles; 6,519 employees.",
+      "description": "Automobiles; 6,564 employees.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-        "label": "FY2025 Form 20-F, Item 4.D (Property, Plants and Equipment)",
-        "quote": "Tahara Plant | | Tahara City, Aichi Pref. | | | 4,029 | | | | 6,519 | | | Automobiles"
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+        "label": "FY2026 Form 20-F, Item 4.D (Property, Plants and Equipment)",
+        "quote": "Tahara Plant Tahara City, Aichi Pref. | 4,029 | 6,564 | Automobiles"
       }
     },
     {
@@ -189,12 +191,12 @@
       "state": "KY",
       "iso2": "US",
       "type": "manufacturing plant",
-      "description": "Automobiles; 9,308 employees on 5,161 thousand square meters.",
+      "description": "Automobiles; 9,636 employees on 5,161 thousand square meters.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-        "label": "FY2025 Form 20-F, Item 4.D (Property, Plants and Equipment)",
-        "quote": "Toyota Motor Manufacturing, Kentucky, Inc. | | Kentucky, U.S.A. | | | 5,161 | | | | 9,308 | | | Automobiles"
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+        "label": "FY2026 Form 20-F, Item 4.D (Property, Plants and Equipment)",
+        "quote": "Toyota Motor Manufacturing, Kentucky, Inc. Kentucky, U.S.A. | 5,161 | 9,636 | Automobiles"
       }
     },
     {
@@ -203,12 +205,12 @@
       "state": "IN",
       "iso2": "US",
       "type": "manufacturing plant",
-      "description": "Automobiles; 7,410 employees on 4,359 thousand square meters.",
+      "description": "7,380+ employees; $8.2B current investment (as listed Nov 2026).",
       "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-        "label": "FY2025 Form 20-F, Item 4.D (Property, Plants and Equipment)",
-        "quote": "Toyota Motor Manufacturing, Indiana, Inc. | | Indiana, U.S.A. | | | 4,359 | | | | 7,410 | | | Automobiles"
+        "hostType": "company",
+        "url": "https://pressroom.toyota.com/facility/toyota-motor-manufacturing-indiana/",
+        "label": "Toyota USA Newsroom facility page: Toyota Motor Manufacturing Indiana (TMMI)",
+        "quote": "7,380+ … Employees … $8.2B … Current Investment … Location: Princeton, Indiana"
       }
     },
     {
@@ -231,12 +233,12 @@
       "state": "NC",
       "iso2": "US",
       "type": "manufacturing plant",
-      "description": "Battery plant; 1,935 employees on 7,400 thousand square meters (production started April 2025).",
+      "description": "Battery plant; 2,675 employees on 7,400 thousand square meters.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-        "label": "FY2025 Form 20-F, Item 4.D (Property, Plants and Equipment)",
-        "quote": "Toyota Battery Manufacturing, Inc. | | North Carolina, U.S.A. | | | 7,400 | | | | 1,935 | | | Automobiles"
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+        "label": "FY2026 Form 20-F, Item 4.D (Property, Plants and Equipment)",
+        "quote": "Toyota Battery Manufacturing, Inc. North Carolina, U.S.A. | 7,400 | 2,675 | Automobiles"
       }
     },
     {
@@ -287,12 +289,12 @@
       "state": null,
       "iso2": "CA",
       "type": "manufacturing plant",
-      "description": "Automobiles; 8,074 employees.",
+      "description": "Automobiles; 8,298 employees.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-        "label": "FY2025 Form 20-F, Item 4.D (Property, Plants and Equipment)",
-        "quote": "Toyota Motor Manufacturing Canada, Inc. | | Ontario, Canada | | | 4,752 | | | | 8,074 | | | Automobiles"
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+        "label": "FY2026 Form 20-F, Item 4.D (Property, Plants and Equipment)",
+        "quote": "Toyota Motor Manufacturing Canada, Inc. Ontario, Canada | 4,752 | 8,298 | Automobiles"
       }
     },
     {
@@ -301,15 +303,15 @@
       "state": null,
       "iso2": "MX",
       "type": "manufacturing plant",
-      "description": "Automobiles; 2,865 employees.",
+      "description": "Automobiles; 2,823 employees.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312525142326/d925022d20f.htm",
-        "label": "FY2025 Form 20-F, Item 4.D (Property, Plants and Equipment)",
-        "quote": "Toyota Motor Manufacturing, De Guanajuato, S.A. de C.V. | | Guanajuato, Mexico | | | 6,091 | | | | 2,865 | | | Automobiles"
+        "url": "https://www.sec.gov/Archives/edgar/data/1094517/000119312526264811/d101983d20f.htm",
+        "label": "FY2026 Form 20-F, Item 4.D (Property, Plants and Equipment)",
+        "quote": "Toyota Motor Manufacturing, De Guanajuato, S.A. de C.V. Guanajuato, Mexico | 6,091 | 2,823 | Automobiles"
       }
     }
   ],
-  "notes": "No U.S. state breakdown with values was found. Toyota's per-state fact sheets (toyota.com/.../ops-map/us<xx>/state-<name>.pdf) now return 404; the current operations map embeds only counts of dealerships, offices and facilities per state in page code, not visible text, so they were not used. Toyota's U.S. economic studies by the Center for Automotive Research are older (2015 data) and were not used. Plant sites use the 20-F Item 4.D table (employees as of March 31, 2025) where the plant is listed (Toyota City head office, Motomachi, Tahara, Kentucky, Indiana, North Carolina battery, Canada, Guanajuato); Texas, West Virginia, Alabama and Mississippi come from Toyota USA Newsroom facility pages (read Nov 2026, later than FY2025). Plant figures stay in sites, not state values; Kentucky and Alabama each have more than one Toyota site. The U.S. country row is Toyota's own 'Toyota in the U.S.' totals from the Fall 2023 operations map (cumulative investment $39 billion; employment 49,000); the latest country-contribution sheet says '$50B invested since 1986' but that is a 2026 figure. Japan and the four regions are from the FY2025 20-F; the two 'Other' groups have different definitions for employees and production, so they are separate regions. Production is stored as whole units from a table in thousands. Toyota has over 50 overseas manufacturing companies in 27 countries and regions, listed by name on global.toyota without counts per country, so no plants-per-country figure is given.",
-  "researchedAt": "2026-11-23"
+  "notes": "No U.S. state breakdown with values was found. Toyota's per-state fact sheets (toyota.com/.../ops-map/us<xx>/state-<name>.pdf) return 404; the current operations map embeds only counts of dealerships, offices and facilities per state in page code, not visible text, so they were not used, and its Operations Data Sheet link still points to the Fall 2023 edition (checked 2026-11-24). The U.S. country row now uses Toyota's newer 2026 Country Contribution sheet for the United States (global.toyota, dated Sep 2026): '$50B invested since 1986 in manufacturing, R&D, operations' and '47,500+ Toyota Team Members at U.S. plants & corporate offices' (direct; the sheet also lists 145,500+ dealer and related jobs, not recorded). It replaces the Fall 2023 operations sheet's $39 billion total investment and 49,000 total employment. Plant sites use the FY2026 20-F Item 4.D table (employees as of March 31, 2026) where the plant is listed (Toyota City head office, Motomachi, Tahara, Kentucky, North Carolina battery, Canada, Guanajuato); Indiana is no longer in that table, so it now comes from its Toyota USA Newsroom facility page, as do Texas, West Virginia, Alabama and Mississippi (read Nov 2026). Plant figures stay in sites, not state values; Kentucky and Alabama each have more than one Toyota site. Japan and the four regions are from the FY2026 20-F (employees at March 31, 2026; production in the year to March 31, 2026); the two 'Other' groups have different definitions for employees and production, so they are separate regions. Production is stored as whole units from a table in thousands. Hino ceased to be a consolidated subsidiary on April 1, 2026, after the year end, so FY2026 figures still include it. Toyota has more than 50 overseas manufacturing organizations in 27 countries and regions besides Japan, listed by name on global.toyota without counts per country, so no plants-per-country figure is given.",
+  "researchedAt": "2026-11-24"
 }

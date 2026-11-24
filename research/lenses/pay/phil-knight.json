@@ -1,0 +1,31 @@
+{
+  "id": "phil-knight",
+  "company": "Nike",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-05-31",
+  "currency": "USD",
+  "employees": {
+    "value": 73000,
+    "asOf": "2026-05-31",
+    "basis": "approximately 73,000 employees worldwide, including retail and part-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/nke-20260531.htm",
+      "label": "FY2026 Form 10-K, Item 1, Employee Base",
+      "quote": "As of May 31, 2026, we had approximately 73,000 employees worldwide, including retail and part-time employees."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "annual total compensation of the median employee",
+    "value": 48695,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000089/nke-20260715.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO pay ratio",
+      "quote": "For fiscal 2026, our last completed fiscal year: • The employee identified at the median of all NIKE employees (other than our CEO) was a retail employee in the United Kingdom; • The annual total compensation of the median employee was $48,695;"
+    }
+  },
+  "notes": "Employees: approximate head count at May 31, 2026, including retail and part-time staff (down from about 77,800 a year earlier). Payroll: the 10-K discloses no total staff cost, so the July 2026 proxy's CEO pay ratio median for fiscal 2026 is used (a retail employee in the United Kingdom; ratio 746 to 1 for CEO Elliott Hill).",
+  "researchedAt": "2026-11-24"
+}

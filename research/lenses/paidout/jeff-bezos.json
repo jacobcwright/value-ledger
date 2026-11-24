@@ -1,98 +1,98 @@
 {
   "id": "jeff-bezos",
   "company": "Amazon",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "sector": "retail",
   "comparable": true,
   "inputs": {
     "revenue": {
-      "value": 637.959,
-      "stated": 637959,
+      "value": 716.924,
+      "stated": 716924,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of operations (in millions)",
-        "quote": "Net product sales $ 242,901 $ 255,887 $ 272,311 Net service sales 271,082 318,898 365,648 Total net sales 513,983 574,785 637,959 [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations (in millions)",
+        "quote": "Net product sales $ 255,887 $ 272,311 $ 296,266 Net service sales 318,898 365,648 420,658 Total net sales 574,785 637,959 716,924 [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001018724",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "end": "2024-12-31",
-          "value": 637959000000
+          "end": "2025-12-31",
+          "value": 716924000000
         }
       }
     },
     "operatingCashFlow": {
-      "value": 115.877,
-      "stated": 115877,
+      "value": 139.514,
+      "stated": 139514,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "Net cash provided by (used in) operating activities 46,752 84,946 115,877 INVESTING ACTIVITIES: [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "Net cash provided by (used in) operating activities 84,946 115,877 139,514 INVESTING ACTIVITIES: [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001018724",
           "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-          "end": "2024-12-31",
-          "value": 115877000000
+          "end": "2025-12-31",
+          "value": 139514000000
         }
       }
     },
     "capex": {
-      "value": 82.999,
+      "value": 131.819,
       "components": [
-        "purchases of property and equipment (gross) 82.999"
+        "purchases of property and equipment (gross) 131.819"
       ],
-      "stated": 82999,
+      "stated": 131819,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows (in millions)",
-        "quote": "INVESTING ACTIVITIES: Purchases of property and equipment ( 63,645 ) ( 52,729 ) ( 82,999 ) Proceeds from property and equipment sales and incentives 5,324 4,596 5,341 [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (in millions)",
+        "quote": "INVESTING ACTIVITIES: Purchases of property and equipment ( 52,729 ) ( 82,999 ) ( 131,819 ) Proceeds from property and equipment sales and incentives 4,596 5,341 3,499 [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001018724",
           "concept": "us-gaap:PaymentsToAcquireProductiveAssets",
-          "end": "2024-12-31",
-          "value": 82999000000
+          "end": "2025-12-31",
+          "value": 131819000000
         }
       }
     },
     "interestPaid": {
-      "value": 2.364,
+      "value": 1.949,
       "inOCF": true,
       "derived": {
         "method": "cash paid for interest on debt (net of capitalized interest) + on finance leases + on financing obligations",
         "inputs": [
           {
-            "value": 1.858,
-            "stated": 1858,
+            "value": 1.458,
+            "stated": 1458,
             "source": {
               "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
-              "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-              "quote": "SUPPLEMENTAL CASH FLOW INFORMATION: Cash paid for interest on debt, net of capitalized interest $ 1,561 $ 2,608 $ 1,858 Cash paid for operating leases $ 8,633 $ 10,453 $ 12,341 Cash paid for interest on finance leases $ 374 $ 308 $ 287 Cash paid for interest on financing obligations $ 207 $ 196 $ 219 [in millions, 2022, 2023, 2024]"
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+              "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+              "quote": "SUPPLEMENTAL CASH FLOW INFORMATION: Cash paid for interest on debt, net of capitalized interest $ 2,608 $ 1,858 $ 1,458 Cash paid for operating leases 10,453 12,341 15,038 Cash paid for interest on finance leases 308 287 295 Cash paid for interest on financing obligations 196 219 196 [in millions, 2023, 2024, 2025]"
             }
           },
           {
-            "value": 0.287,
-            "stated": 287,
+            "value": 0.295,
+            "stated": 295,
             "source": {
               "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
-              "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-              "quote": "SUPPLEMENTAL CASH FLOW INFORMATION: Cash paid for interest on debt, net of capitalized interest $ 1,561 $ 2,608 $ 1,858 Cash paid for operating leases $ 8,633 $ 10,453 $ 12,341 Cash paid for interest on finance leases $ 374 $ 308 $ 287 Cash paid for interest on financing obligations $ 207 $ 196 $ 219 [in millions, 2022, 2023, 2024]"
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+              "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+              "quote": "SUPPLEMENTAL CASH FLOW INFORMATION: Cash paid for interest on debt, net of capitalized interest $ 2,608 $ 1,858 $ 1,458 Cash paid for operating leases 10,453 12,341 15,038 Cash paid for interest on finance leases 308 287 295 Cash paid for interest on financing obligations 196 219 196 [in millions, 2023, 2024, 2025]"
             }
           },
           {
-            "value": 0.219,
-            "stated": 219,
+            "value": 0.196,
+            "stated": 196,
             "source": {
               "hostType": "sec",
-              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
-              "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-              "quote": "SUPPLEMENTAL CASH FLOW INFORMATION: Cash paid for interest on debt, net of capitalized interest $ 1,561 $ 2,608 $ 1,858 Cash paid for operating leases $ 8,633 $ 10,453 $ 12,341 Cash paid for interest on finance leases $ 374 $ 308 $ 287 Cash paid for interest on financing obligations $ 207 $ 196 $ 219 [in millions, 2022, 2023, 2024]"
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+              "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+              "quote": "SUPPLEMENTAL CASH FLOW INFORMATION: Cash paid for interest on debt, net of capitalized interest $ 2,608 $ 1,858 $ 1,458 Cash paid for operating leases 10,453 12,341 15,038 Cash paid for interest on finance leases 308 287 295 Cash paid for interest on financing obligations 196 219 196 [in millions, 2023, 2024, 2025]"
             }
           }
         ]
@@ -100,25 +100,25 @@
       "note": "Amazon tags these with company extensions, so there is no companyfacts InterestPaidNet fact."
     },
     "taxesPaid": {
-      "value": 12.308,
+      "value": 8.295,
       "inOCF": true,
-      "stated": 12308,
+      "stated": 8295,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
-        "label": "FY2024 Form 10-K, supplemental cash flow information (in millions)",
-        "quote": "Cash paid for income taxes, net of refunds $ 6,035 $ 11,179 $ 12,308 [in millions, 2022, 2023, 2024]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash flow information (in millions)",
+        "quote": "Cash paid for income taxes, net of refunds 11,179 12,308 8,295 [in millions, 2023, 2024, 2025]",
         "xbrl": {
           "cik": "0001018724",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 12308000000
+          "end": "2025-12-31",
+          "value": 8295000000
         }
       }
     }
   },
-  "paidOut": 605.081,
-  "paidOutFormula": "637.959 − 115.877 + 82.999",
+  "paidOut": 709.229,
+  "paidOutFormula": "716.924 − 139.514 + 131.819",
   "altPaidOut": null,
   "salesEnabled": null,
   "flags": {
@@ -127,6 +127,6 @@
     "revenueIncludesExcise": false,
     "nonCashRevenue": null
   },
-  "notes": "Capex is gross \"Purchases of property and equipment\" (82,999); the cash-flow statement also shows 5,341 of proceeds from property and equipment sales and incentives, which are not netted. Equipment acquired under finance leases (non-cash) is excluded. Not a marketplace for salesEnabled: Amazon does not disclose third-party GMV.",
-  "researchedAt": "2026-11-23"
+  "notes": "Capex is gross \"Purchases of property and equipment\" (131,819); the cash-flow statement also shows 3,499 of proceeds from property and equipment sales and incentives, which are not netted. Equipment acquired under finance leases (non-cash, 2,911 in 2025) is excluded. Interest and income taxes paid are inside operating cash flow, so they are not added. Not a marketplace for salesEnabled: Amazon does not disclose third-party GMV.",
+  "researchedAt": "2026-11-24"
 }

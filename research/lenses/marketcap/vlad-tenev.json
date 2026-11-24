@@ -1,0 +1,36 @@
+{
+  "id": "vlad-tenev",
+  "company": "Robinhood",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 793425151,
+      "sharesAsOf": "2026-10-21",
+      "pricedAs": "HOOD",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000167/hood-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 21, 2026, the numbers of shares of the issuer's Class A and Class B common stock outstanding were 793,425,151 and 107,066,126 ."
+      }
+    },
+    {
+      "label": "Class B common stock",
+      "shares": 107066126,
+      "sharesAsOf": "2026-10-21",
+      "pricedAs": "HOOD",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted and converts 1:1 into Class A; both classes have identical economic rights",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000167/hood-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 21, 2026, the numbers of shares of the issuer's Class A and Class B common stock outstanding were 793,425,151 and 107,066,126 ."
+      }
+    }
+  ],
+  "notes": "Class A trades on Nasdaq as HOOD; Class B (ten votes, held by the founders) is unlisted and is priced through HOOD. No Class C shares are outstanding. Counts are from the Q3 2026 Form 10-Q cover (filed October 28, 2026).",
+  "researchedAt": "2026-11-24"
+}

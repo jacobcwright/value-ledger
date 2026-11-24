@@ -5,14 +5,14 @@
     "stores": {
       "label": "Retail units",
       "unit": "count",
-      "period": "as of January 19, 2026 (current location-facts page; newer than the FY2025 snapshot)",
+      "period": "as of January 19, 2026 (current location-facts page)",
       "tier": "company-published",
       "definition": "Total retail units in the state (Walmart supercenters, discount stores, Neighborhood Markets and Sam's Clubs), per the location-facts footnote \"Total retail units as of January 19, 2026.\""
     },
     "employees": {
       "label": "Associates",
       "unit": "people",
-      "period": "as of July 25, 2025 (newer than the FY2025 snapshot)",
+      "period": "as of July 25, 2025",
       "tier": "company-published",
       "definition": "\"Number of associates in the state, as of July 25, 2025.\""
     },
@@ -20,7 +20,7 @@
       "label": "Average hourly wage, full-time hourly field associates",
       "unit": "currency-per-hour",
       "currency": "USD",
-      "period": "as of July 25, 2025 (newer than the FY2025 snapshot)",
+      "period": "as of July 25, 2025",
       "tier": "company-published",
       "definition": "Average wage \"For full-time hourly field associates, as of July 25, 2025.\" Value is US dollars per hour, not millions."
     },
@@ -36,7 +36,7 @@
       "label": "Taxes collected from customers and paid",
       "unit": "currency-millions",
       "currency": "USD",
-      "period": "FYE 2026 (fiscal year ended Jan 31, 2026; newer than the FY2025 snapshot)",
+      "period": "FYE 2026 (fiscal year ended Jan 31, 2026)",
       "tier": "company-published",
       "definition": "\"Collected on behalf of state and local tax jurisdictions as part of transactional sales of taxable goods and services for FYE 2026.\" Published rounded; converted to millions."
     },
@@ -44,16 +44,16 @@
       "label": "Taxes paid directly by Walmart",
       "unit": "currency-millions",
       "currency": "USD",
-      "period": "FYE 2026 (fiscal year ended Jan 31, 2026; newer than the FY2025 snapshot)",
+      "period": "FYE 2026 (fiscal year ended Jan 31, 2026)",
       "tier": "company-published",
       "definition": "\"State and Local Taxes (including but not limited to: Income Tax, Property Tax, and Sales Tax) paid directly by Walmart to state and local tax jurisdictions in addition to the taxes collected and paid on behalf of customers for FYE 2026.\""
     },
     "intlUnits": {
       "label": "Retail units (Walmart International)",
       "unit": "count",
-      "period": "as of January 31, 2025 (fiscal 2025 Q4)",
+      "period": "as of October 31, 2026 (fiscal 2027 Q3; the latest edition)",
       "tier": "company-published",
-      "definition": "Walmart International retail and wholesale units by country, from the company's quarterly \"Unit counts by country\" schedule; includes all banners (e.g. Bodega Aurrera, Lider, Game, Makro). The FY2025 10-K notes international unit counts other than Canada are as of December 31, 2024."
+      "definition": "Walmart International retail and wholesale units by country, from the company's quarterly \"Unit counts by country\" schedule; includes all banners (e.g. Bodega Aurrera, Lider, Game, Makro). International total 5,808 at Oct 31, 2026."
     }
   },
   "usStates": [
@@ -63,8 +63,8 @@
         "stores": 144,
         "employees": 42661,
         "averageWage": 18.73,
-        "supplierSpend": 1900.0,
-        "taxesCollected": 1000.0,
+        "supplierSpend": 1900,
+        "taxesCollected": 1000,
         "taxesPaid": 170.8
       },
       "plus": {},
@@ -99,7 +99,7 @@
         "stores": 126,
         "employees": 37856,
         "averageWage": 19.85,
-        "supplierSpend": 1600.0,
+        "supplierSpend": 1600,
         "taxesCollected": 593.7,
         "taxesPaid": 134.7
       },
@@ -117,7 +117,7 @@
         "stores": 128,
         "employees": 60383,
         "averageWage": 18.65,
-        "supplierSpend": 13500.0,
+        "supplierSpend": 13500,
         "taxesCollected": 662.1,
         "taxesPaid": 422.9
       },
@@ -135,8 +135,8 @@
         "stores": 302,
         "employees": 102909,
         "averageWage": 21.24,
-        "supplierSpend": 36500.0,
-        "taxesCollected": 1500.0,
+        "supplierSpend": 36500,
+        "taxesCollected": 1500,
         "taxesPaid": 965.5
       },
       "plus": {},
@@ -153,7 +153,7 @@
         "stores": 104,
         "employees": 29576,
         "averageWage": 20.53,
-        "supplierSpend": 3200.0,
+        "supplierSpend": 3200,
         "taxesCollected": 463.3,
         "taxesPaid": 154.4
       },
@@ -171,7 +171,7 @@
         "stores": 32,
         "employees": 8860,
         "averageWage": 19.31,
-        "supplierSpend": 1300.0,
+        "supplierSpend": 1300,
         "taxesCollected": 111.3,
         "taxesPaid": 42.2
       },
@@ -225,8 +225,8 @@
         "stores": 389,
         "employees": 120498,
         "averageWage": 19.23,
-        "supplierSpend": 8800.0,
-        "taxesCollected": 1300.0,
+        "supplierSpend": 8800,
+        "taxesCollected": 1300,
         "taxesPaid": 509.1
       },
       "plus": {},
@@ -243,7 +243,7 @@
         "stores": 209,
         "employees": 65369,
         "averageWage": 18.93,
-        "supplierSpend": 26200.0,
+        "supplierSpend": 26200,
         "taxesCollected": 990.2,
         "taxesPaid": 268.4
       },
@@ -261,7 +261,7 @@
         "stores": 11,
         "employees": 4498,
         "averageWage": 21.42,
-        "supplierSpend": 278.0,
+        "supplierSpend": 278,
         "taxesCollected": 86.9,
         "taxesPaid": 27.1
       },
@@ -281,7 +281,7 @@
         "averageWage": 18.55,
         "supplierSpend": 752.4,
         "taxesCollected": 176.6,
-        "taxesPaid": 47.0
+        "taxesPaid": 47
       },
       "plus": {},
       "source": {
@@ -297,7 +297,7 @@
         "stores": 177,
         "employees": 58326,
         "averageWage": 19.71,
-        "supplierSpend": 65900.0,
+        "supplierSpend": 65900,
         "taxesCollected": 914.8,
         "taxesPaid": 427.9
       },
@@ -315,7 +315,7 @@
         "stores": 126,
         "employees": 44731,
         "averageWage": 19.58,
-        "supplierSpend": 1200.0,
+        "supplierSpend": 1200,
         "taxesCollected": 477.2,
         "taxesPaid": 216.1
       },
@@ -351,8 +351,8 @@
         "stores": 82,
         "employees": 23249,
         "averageWage": 18.53,
-        "supplierSpend": 1000.0,
-        "taxesCollected": 353.0,
+        "supplierSpend": 1000,
+        "taxesCollected": 353,
         "taxesPaid": 110.4
       },
       "plus": {},
@@ -369,9 +369,9 @@
         "stores": 101,
         "employees": 31175,
         "averageWage": 18.96,
-        "supplierSpend": 1000.0,
+        "supplierSpend": 1000,
         "taxesCollected": 338.9,
-        "taxesPaid": 139.0
+        "taxesPaid": 139
       },
       "plus": {},
       "source": {
@@ -423,7 +423,7 @@
         "stores": 58,
         "employees": 17770,
         "averageWage": 19.18,
-        "supplierSpend": 4100.0,
+        "supplierSpend": 4100,
         "taxesCollected": 196.2,
         "taxesPaid": 106.3
       },
@@ -441,7 +441,7 @@
         "stores": 48,
         "employees": 13492,
         "averageWage": 19.61,
-        "supplierSpend": 9500.0,
+        "supplierSpend": 9500,
         "taxesCollected": 133.5,
         "taxesPaid": 65.1
       },
@@ -459,7 +459,7 @@
         "stores": 117,
         "employees": 36371,
         "averageWage": 18.43,
-        "supplierSpend": 4000.0,
+        "supplierSpend": 4000,
         "taxesCollected": 349.8,
         "taxesPaid": 205.1
       },
@@ -477,7 +477,7 @@
         "stores": 78,
         "employees": 25205,
         "averageWage": 19.77,
-        "supplierSpend": 11900.0,
+        "supplierSpend": 11900,
         "taxesCollected": 284.3,
         "taxesPaid": 142.9
       },
@@ -495,8 +495,8 @@
         "stores": 86,
         "employees": 26441,
         "averageWage": 18.67,
-        "supplierSpend": 2300.0,
-        "taxesCollected": 473.0,
+        "supplierSpend": 2300,
+        "taxesCollected": 473,
         "taxesPaid": 96.1
       },
       "plus": {},
@@ -513,7 +513,7 @@
         "stores": 156,
         "employees": 47812,
         "averageWage": 18.46,
-        "supplierSpend": 9400.0,
+        "supplierSpend": 9400,
         "taxesCollected": 999.8,
         "taxesPaid": 141.6
       },
@@ -549,8 +549,8 @@
         "stores": 47,
         "employees": 13537,
         "averageWage": 19.5,
-        "supplierSpend": 1100.0,
-        "taxesCollected": 143.0,
+        "supplierSpend": 1100,
+        "taxesCollected": 143,
         "taxesPaid": 46.5
       },
       "plus": {},
@@ -603,7 +603,7 @@
         "stores": 71,
         "employees": 25436,
         "averageWage": 20.24,
-        "supplierSpend": 15500.0,
+        "supplierSpend": 15500,
         "taxesCollected": 213.7,
         "taxesPaid": 178.2
       },
@@ -639,9 +639,9 @@
         "stores": 111,
         "employees": 39410,
         "averageWage": 20.51,
-        "supplierSpend": 17100.0,
-        "taxesCollected": 562.0,
-        "taxesPaid": 243.0
+        "supplierSpend": 17100,
+        "taxesCollected": 562,
+        "taxesPaid": 243
       },
       "plus": {},
       "source": {
@@ -657,7 +657,7 @@
         "stores": 214,
         "employees": 62378,
         "averageWage": 18.96,
-        "supplierSpend": 9100.0,
+        "supplierSpend": 9100,
         "taxesCollected": 900.3,
         "taxesPaid": 220.5
       },
@@ -693,9 +693,9 @@
         "stores": 169,
         "employees": 58293,
         "averageWage": 19.17,
-        "supplierSpend": 9400.0,
+        "supplierSpend": 9400,
         "taxesCollected": 628.4,
-        "taxesPaid": 266.0
+        "taxesPaid": 266
       },
       "plus": {},
       "source": {
@@ -729,9 +729,9 @@
         "stores": 43,
         "employees": 12276,
         "averageWage": 20.51,
-        "supplierSpend": 1300.0,
+        "supplierSpend": 1300,
         "taxesCollected": 1.1,
-        "taxesPaid": 86.0
+        "taxesPaid": 86
       },
       "plus": {},
       "source": {
@@ -747,8 +747,8 @@
         "stores": 159,
         "employees": 59978,
         "averageWage": 20.01,
-        "supplierSpend": 17500.0,
-        "taxesCollected": 459.0,
+        "supplierSpend": 17500,
+        "taxesCollected": 459,
         "taxesPaid": 351.6
       },
       "plus": {},
@@ -783,8 +783,8 @@
         "stores": 122,
         "employees": 37387,
         "averageWage": 19.2,
-        "supplierSpend": 2900.0,
-        "taxesCollected": 453.0,
+        "supplierSpend": 2900,
+        "taxesCollected": 453,
         "taxesPaid": 172.5
       },
       "plus": {},
@@ -819,8 +819,8 @@
         "stores": 150,
         "employees": 46695,
         "averageWage": 18.49,
-        "supplierSpend": 4700.0,
-        "taxesCollected": 1200.0,
+        "supplierSpend": 4700,
+        "taxesCollected": 1200,
         "taxesPaid": 144.2
       },
       "plus": {},
@@ -837,8 +837,8 @@
         "stores": 595,
         "employees": 178823,
         "averageWage": 18.92,
-        "supplierSpend": 106800.0,
-        "taxesCollected": 2300.0,
+        "supplierSpend": 106800,
+        "taxesCollected": 2300,
         "taxesPaid": 668.4
       },
       "plus": {},
@@ -855,7 +855,7 @@
         "stores": 60,
         "employees": 21023,
         "averageWage": 20.08,
-        "supplierSpend": 2800.0,
+        "supplierSpend": 2800,
         "taxesCollected": 292.2,
         "taxesPaid": 125.7
       },
@@ -891,7 +891,7 @@
         "stores": 148,
         "employees": 45106,
         "averageWage": 19.34,
-        "supplierSpend": 4000.0,
+        "supplierSpend": 4000,
         "taxesCollected": 417.8,
         "taxesPaid": 218.3
       },
@@ -909,9 +909,9 @@
         "stores": 64,
         "employees": 23058,
         "averageWage": 20.97,
-        "supplierSpend": 2500.0,
+        "supplierSpend": 2500,
         "taxesCollected": 372.2,
-        "taxesPaid": 92.0
+        "taxesPaid": 92
       },
       "plus": {},
       "source": {
@@ -945,7 +945,7 @@
         "stores": 97,
         "employees": 33718,
         "averageWage": 19.3,
-        "supplierSpend": 6600.0,
+        "supplierSpend": 6600,
         "taxesCollected": 284.9,
         "taxesPaid": 109.7
       },
@@ -981,28 +981,28 @@
       "iso2": "CL",
       "name": "Chile",
       "values": {
-        "intlUnits": 398
+        "intlUnits": 402
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
-        "quote": "Chile (Entered January 2009) 398"
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
+        "quote": "Chile (Entered January 2009) 402"
       }
     },
     {
       "iso2": "CR",
       "name": "Costa Rica",
       "values": {
-        "intlUnits": 333
+        "intlUnits": 349
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
-        "quote": "Costa Rica (Entered September 2005) 333"
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
+        "quote": "Costa Rica (Entered September 2005) 349"
       }
     },
     {
@@ -1014,8 +1014,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
         "quote": "El Salvador (Entered September 2005) 102"
       }
     },
@@ -1023,14 +1023,14 @@
       "iso2": "GT",
       "name": "Guatemala",
       "values": {
-        "intlUnits": 272
+        "intlUnits": 286
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
-        "quote": "Guatemala (Entered September 2005) 272"
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
+        "quote": "Guatemala (Entered September 2005) 286"
       }
     },
     {
@@ -1042,8 +1042,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
         "quote": "Honduras (Entered September 2005) 114"
       }
     },
@@ -1051,56 +1051,56 @@
       "iso2": "MX",
       "name": "Mexico",
       "values": {
-        "intlUnits": 3155
+        "intlUnits": 3389
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
-        "quote": "Mexico (Entered November 1991) 3,155"
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
+        "quote": "Mexico (Entered November 1991) 3,389"
       }
     },
     {
       "iso2": "NI",
       "name": "Nicaragua",
       "values": {
-        "intlUnits": 104
+        "intlUnits": 106
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
-        "quote": "Nicaragua (Entered September 2005) 104"
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
+        "quote": "Nicaragua (Entered September 2005) 106"
       }
     },
     {
       "iso2": "CA",
       "name": "Canada",
       "values": {
-        "intlUnits": 403
+        "intlUnits": 401
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
-        "quote": "Canada (Entered November 1994) 403"
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
+        "quote": "Canada (Entered November 1994) 401"
       }
     },
     {
       "iso2": "CN",
       "name": "China",
       "values": {
-        "intlUnits": 336
+        "intlUnits": 340
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
-        "quote": "China (Entered August 1996) 336"
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
+        "quote": "China (Entered August 1996) 340"
       }
     },
     {
@@ -1112,8 +1112,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
         "quote": "India (Entered May 2009) 26"
       }
     },
@@ -1121,28 +1121,28 @@
       "iso2": "ZA",
       "name": "South Africa",
       "values": {
-        "intlUnits": 290
+        "intlUnits": 263
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
-        "quote": "South Africa (Entered June 2011) 290"
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
+        "quote": "South Africa (Entered June 2011) 263"
       }
     },
     {
       "iso2": "BW",
       "name": "Botswana",
       "values": {
-        "intlUnits": 10
+        "intlUnits": 9
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
-        "quote": "Botswana 10"
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
+        "quote": "Botswana 9"
       }
     },
     {
@@ -1154,8 +1154,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
         "quote": "Lesotho 3"
       }
     },
@@ -1168,8 +1168,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
         "quote": "Malawi 2"
       }
     },
@@ -1177,14 +1177,14 @@
       "iso2": "MZ",
       "name": "Mozambique",
       "values": {
-        "intlUnits": 5
+        "intlUnits": 4
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
-        "quote": "Mozambique 5"
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
+        "quote": "Mozambique 4"
       }
     },
     {
@@ -1196,8 +1196,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
         "quote": "Namibia 5"
       }
     },
@@ -1210,8 +1210,8 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
         "quote": "Eswatini 1"
       }
     },
@@ -1219,14 +1219,14 @@
       "iso2": "ZM",
       "name": "Zambia",
       "values": {
-        "intlUnits": 7
+        "intlUnits": 6
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/9939/unit_count_square_footage/Unit+Counts+and+Square+Footage+%28FY25+Q4%29.pdf",
-        "label": "Walmart Unit Counts and Square Footage, Q4 fiscal 2025 (as of Jan 31, 2025), \"Unit counts by country\"",
-        "quote": "Zambia 7"
+        "url": "https://stock.walmart.com/_assets/_6eff40d47b6de9e4a6d86158aa985c07/walmart/db/938/10001/unit_count_square_footage/Unit_Counts_and_Square_Footage_%28FY27_Q3%29.pdf",
+        "label": "Walmart Unit Counts and Square Footage, Q3 fiscal 2027 (as of Oct 31, 2026), \"Unit counts by country\"",
+        "quote": "Zambia 6"
       }
     }
   ],
@@ -1241,12 +1241,12 @@
       "description": "Owned office facilities in Bentonville, Arkansas, that serve as Walmart's principal office.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
-        "label": "Walmart FY2025 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+        "label": "Walmart FY2026 Form 10-K, Item 2 Properties",
         "quote": "We own office facilities in Bentonville, Arkansas, that serve as our principal office and own and lease office facilities throughout the U.S. and internationally for operations as well as for field and market management."
       }
     }
   ],
-  "notes": "U.S. state rows (50 states + DC) come from Walmart's corporate location-facts pages (corporate.walmart.com/about/location-facts/united-states/<state>). The pages render their numbers from a single company-hosted data file, locations.js, which is the document cited and quoted; the state pages themselves ship empty placeholders. The footnotes on the state pages date each measure differently and all but supplier spend are newer than the Jan 2025 snapshot: retail units as of Jan 19, 2026; associates and average wage as of Jul 25, 2025; taxes for FYE 2026; supplier spend FYE 2025 (Dun & Bradstreet). No archived FY2025 edition was used (archives are mirrors). Money values are published rounded ('$1.9 B', '$170.8 M', or exact dollars such as '$183,718' for Delaware and '$340,126' for Montana taxes collected) and are stored in USD millions; quotes carry a bracketed conversion where it changes the number. 'N/A' entries were omitted, not zeroed. totalRetailUnits is used as published, not summed from formats (Alabama's formats sum to 143 vs 144 published). averageWage uses a nonstandard unit (USD per hour) because no listed unit fits. The data file has copy errors in prose (Alaska's description mentions Texas) but stateID/state fields match every key and no two states share an identical stats block. Puerto Rico is also in the file (not a state; omitted from usStates and countries). Country rows are Walmart International unit counts from the Q4 FY2025 'Unit Counts and Square Footage' PDF on stock.walmart.com; the FY2025 10-K no longer prints a by-country table (Item 2 gives only segment totals: Walmart U.S. 4,605, Sam's Club U.S. 600, International 5,566). U.S. total units 5,205 are not repeated as a country row. Walmart's country location-facts pages give current (2026) unit totals only, no associates.",
-  "researchedAt": "2026-11-23"
+  "notes": "U.S. state rows (50 states + DC) come from Walmart's corporate location-facts pages (corporate.walmart.com/about/location-facts/united-states/<state>). The pages render their numbers from a single company-hosted data file, locations.js, which is the document cited and quoted; the state pages themselves ship empty placeholders. No newer edition found (checked 2026-11-24): the re-fetched locations.js carries the same figures for every state, and the state-page footnotes still date them retail units as of Jan 19, 2026; associates and average wage as of Jul 25, 2025; taxes for FYE 2026 (fiscal year ended Jan 31, 2026); supplier spend FYE 2025 (Dun & Bradstreet). Money values are published rounded ('$1.9 B', '$170.8 M', or exact dollars such as '$183,718' for Delaware and '$340,126' for Montana taxes collected) and are stored in USD millions; quotes carry a bracketed conversion where it changes the number. 'N/A' entries were omitted, not zeroed. totalRetailUnits is used as published, not summed from formats (Alabama's formats sum to 143 vs 144 published). averageWage uses a nonstandard unit (USD per hour) because no listed unit fits. The data file has copy errors in prose (Alaska's description mentions Texas) but stateID/state fields match every key and no two states share an identical stats block. Puerto Rico is also in the file (not a state; omitted from usStates and countries). Country rows are Walmart International unit counts from the newest quarterly 'Unit Counts and Square Footage' PDF on stock.walmart.com (Q3 fiscal 2027, as of Oct 31, 2026; the 18 country totals sum to the 5,808 international total); this is newer than the fiscal year of the FY2026 10-K (year ended Jan 31, 2026), whose Item 2 still gives only segment totals (Walmart U.S. 4,611, Sam's Club U.S. 601, International 5,743) and no by-country table. U.S. total units (5,211 at Oct 31, 2026) are not repeated as a country row. Walmart's country location-facts pages give current unit totals only, no associates.",
+  "researchedAt": "2026-11-24"
 }

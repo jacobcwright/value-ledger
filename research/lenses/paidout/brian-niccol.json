@@ -1,98 +1,98 @@
 {
- "id": "brian-niccol",
- "company": "Chipotle Mexican Grill",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
- "currency": "USD",
- "unit": "billions",
- "sector": "restaurants",
- "comparable": true,
- "inputs": {
-  "revenue": {
-   "value": 11.313853,
-   "stated": 11313853,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of operations (in thousands)",
-    "quote": "Delivery service revenue 66,469 67,525 76,651 Total revenue 11,313,853 9,871,649 8,634,652",
-    "xbrl": {
-     "cik": "0001058090",
-     "concept": "us-gaap:Revenues",
-     "end": "2024-12-31",
-     "value": 11313853000
+  "id": "brian-niccol",
+  "company": "Chipotle Mexican Grill",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "unit": "billions",
+  "sector": "restaurants",
+  "comparable": true,
+  "inputs": {
+    "revenue": {
+      "value": 11.925601,
+      "stated": 11925601,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of income (in thousands)",
+        "quote": "Delivery service revenue 59,550 66,469 67,525 Total revenue 11,925,601 11,313,853 9,871,649",
+        "xbrl": {
+          "cik": "0001058090",
+          "concept": "us-gaap:Revenues",
+          "end": "2025-12-31",
+          "value": 11925601000
+        }
+      }
+    },
+    "operatingCashFlow": {
+      "value": 2.113926,
+      "stated": 2113926,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of cash flows (in thousands)",
+        "quote": "Net cash provided by operating activities 2,113,926 2,105,076 1,783,477",
+        "xbrl": {
+          "cik": "0001058090",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "end": "2025-12-31",
+          "value": 2113926000
+        }
+      }
+    },
+    "capex": {
+      "value": 0.666336,
+      "components": [
+        "leasehold improvements and PP&E 0.666336"
+      ],
+      "stated": 666336,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statement of cash flows (in thousands)",
+        "quote": "Purchases of leasehold improvements, property and equipment ( 666,336 ) ( 593,603 ) ( 560,731 )",
+        "xbrl": {
+          "cik": "0001058090",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "end": "2025-12-31",
+          "value": 666336000
+        }
+      }
+    },
+    "interestPaid": {
+      "value": null,
+      "inOCF": true,
+      "source": null,
+      "note": "Not disclosed in the FY2025 filing; Chipotle has no borrowings, and under US GAAP interest paid would sit inside operating cash flow, so the formula does not need it."
+    },
+    "taxesPaid": {
+      "value": 0.423481,
+      "stated": 423481,
+      "inOCF": true,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm",
+        "label": "FY2025 Form 10-K, supplemental cash-flow information (in thousands)",
+        "quote": "Supplemental disclosures of cash flow information Income taxes paid $ 423,481 $ 532,862 $ 400,229",
+        "xbrl": {
+          "cik": "0001058090",
+          "concept": "us-gaap:IncomeTaxesPaidNet",
+          "end": "2025-12-31",
+          "value": 423481000
+        }
+      }
     }
-   }
   },
-  "operatingCashFlow": {
-   "value": 2.105076,
-   "stated": 2105076,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
-    "quote": "Net cash provided by operating activities 2,105,076 1,783,477 1,323,179",
-    "xbrl": {
-     "cik": "0001058090",
-     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2024-12-31",
-     "value": 2105076000
-    }
-   }
+  "paidOut": 10.478011,
+  "paidOutFormula": "11.925601 − 2.113926 + 0.666336",
+  "altPaidOut": null,
+  "salesEnabled": null,
+  "flags": {
+    "financeReceivablesInOCF": false,
+    "interestDividendsReceivedInOCF": null,
+    "revenueIncludesExcise": false,
+    "nonCashRevenue": null
   },
-  "capex": {
-   "value": 0.593603,
-   "components": [
-    "leasehold improvements and PP&E 0.593603"
-   ],
-   "stated": 593603,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
-    "label": "FY2024 Form 10-K, consolidated statement of cash flows (in thousands)",
-    "quote": "Purchases of leasehold improvements, property and equipment ( 593,603 ) ( 560,731 ) ( 479,164 )",
-    "xbrl": {
-     "cik": "0001058090",
-     "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-     "end": "2024-12-31",
-     "value": 593603000
-    }
-   }
-  },
-  "interestPaid": {
-   "value": null,
-   "inOCF": true,
-   "source": null,
-   "note": "Not disclosed in the filing or companyfacts; under US GAAP it would sit inside operating cash flow, so the formula does not need it."
-  },
-  "taxesPaid": {
-   "value": 0.532862,
-   "stated": 532862,
-   "inOCF": true,
-   "source": {
-    "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm",
-    "label": "FY2024 Form 10-K, supplemental cash-flow information (in thousands)",
-    "quote": "Income taxes paid $ 532,862 $ 400,229 $ 275,796",
-    "xbrl": {
-     "cik": "0001058090",
-     "concept": "us-gaap:IncomeTaxesPaidNet",
-     "end": "2024-12-31",
-     "value": 532862000
-    }
-   }
-  }
- },
- "paidOut": 9.80238,
- "paidOutFormula": "revenue 11,313,853 − operating cash flow 2,105,076 + capex 593,603 (USD thousands, as stated)",
- "altPaidOut": null,
- "salesEnabled": null,
- "flags": {
-  "financeReceivablesInOCF": false,
-  "interestDividendsReceivedInOCF": null,
-  "revenueIncludesExcise": false,
-  "nonCashRevenue": null
- },
- "notes": "No borrowings and no cash interest disclosed; companyfacts has no InterestPaidNet fact. It would sit inside operating cash flow, so paidOut is unaffected.",
- "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. No borrowings and no cash interest disclosed. It would sit inside operating cash flow, so paidOut is unaffected. Interest and other income ($73.7 million) is received inside operating cash flow but is not revenue.",
+  "researchedAt": "2026-11-24"
 }

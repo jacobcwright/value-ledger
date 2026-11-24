@@ -1,0 +1,31 @@
+{
+  "id": "wael-sawan",
+  "company": "Shell",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 85000,
+    "asOf": "2025-12-31",
+    "basis": "people employed on a full- or part-time basis",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026017024/shel-20251231.htm",
+      "label": "FY2025 Form 20-F, Strategic Report, Our people, employee overview",
+      "quote": "We employed 85,000 people on a full- or part-time basis as of December 31, 2025."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Employee costs, Total",
+    "value": 14.079,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026017024/shel-20251231.htm",
+      "label": "FY2025 Form 20-F, Note 33 Employees ($ million)",
+      "quote": "33. Employees Employee costs $ million 2025 2024 2023 Remuneration ... 11,183 11,907 11,456 Social security contributions ... 1,047 1,124 1,085 Retirement benefits (see Note 24) 1,075 809 1,324 Share-based compensation (see Note 28) 774 732 700 Total ... 14,079 14,572 14,565"
+    }
+  },
+  "notes": "Employees: year-end count from the FY2025 20-F (85,000, down from 96,000 at the end of 2024; 72,000 in Shell excluding portfolio companies, which employed 13,000). Note 33 also gives an average headcount of 88,000. Payroll: Note 33's total employee costs ($14,079 million: remuneration, social security contributions, retirement benefits and share-based compensation), excluding employees seconded to joint ventures and associates; from 2025 remuneration and social security include additional categories of employee-related costs, with prior years revised.",
+  "researchedAt": "2026-11-24"
+}

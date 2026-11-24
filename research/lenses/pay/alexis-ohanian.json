@@ -1,0 +1,31 @@
+{
+  "id": "alexis-ohanian",
+  "company": "Reddit",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 2555,
+    "asOf": "2025-12-31",
+    "basis": "full-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000022/rddt-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1A Risk Factors",
+      "quote": "the number of full-time employees increasing to 2,555 as of December 31, 2025 from 2,233 as of December 31, 2024"
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "2025 total compensation for our median employee",
+    "value": 274953,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000060/rddt-20260423.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "The 2025 total compensation for our median employee was $274,953."
+    }
+  },
+  "notes": "Employees: full-time employees at December 31, 2025, from the FY2025 10-K. Payroll: the 10-K gives no total of salaries and benefits, so the CEO pay ratio disclosure's 2025 median employee pay is used (median employee identified among all employees worldwide at December 31, 2025, including part-time and temporary). The median includes stock awards at grant-date value.",
+  "researchedAt": "2026-11-24"
+}

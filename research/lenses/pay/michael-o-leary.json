@@ -1,0 +1,31 @@
+{
+  "id": "michael-o-leary",
+  "company": "Ryanair",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-03-31",
+  "currency": "EUR",
+  "employees": {
+    "value": 25711,
+    "asOf": "2026-03-31",
+    "basis": "a team of aviation professionals at year end",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+      "label": "FY2026 Form 20-F, Note 17 Staff numbers and costs",
+      "quote": "At March 31, 2026 the Company had a team of 25,711 aviation professionals (2025: 25,952 ; 2024: 27,076 )."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Staff costs",
+    "value": 1.8565,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1038683/000110465926076131/tmb-20260331x20f.htm",
+      "label": "FY2026 Form 20-F, Note 17 Staff numbers and costs (€M)",
+      "quote": "The aggregate payroll costs of these persons were as follows: ... Staff and related costs 1,609.2 1,537.1 1,335.4 Social welfare costs 210.9 182.7 156.1 Other pension costs 21.4 18.5 12.4 Share based payments 15.0 12.8 ( 3.9 ) 1,856.5 1,751.1 1,500.0"
+    }
+  },
+  "notes": "Employees: the year-end team at March 31, 2026 from Note 17; the same note gives an average weekly staff number of 27,392 for the year. Payroll: Note 17's aggregate payroll costs (€1,856.5m: staff and related costs, social welfare, other pension and share-based payments), which equals the income statement's 'Staff costs'. It excludes staff costs capitalized into assets. Ryanair is a foreign private issuer and has no CEO pay ratio.",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "jennifer-hyman",
+  "company": "Rent the Runway",
+  "classes": [
+    {
+      "label": "Class A common stock",
+      "shares": 33774121,
+      "sharesAsOf": "2026-09-04",
+      "pricedAs": "RENT",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1468327/000146832726000088/rent-20260731.htm",
+        "label": "Form 10-Q for the quarter ended July 31, 2026, cover page",
+        "quote": "The registrant had outstandi n g 33,774,121 shares of Class A common stock as of September 4, 2026."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on Nasdaq as RENT; no Class B or preferred shares are outstanding (all Class B converted into Class A on October 28, 2025, and the authorized Class B and preferred were eliminated in July 2026). The count is from the cover of the Form 10-Q for the quarter ended July 31, 2026 (filed September 11, 2026), the latest filing; the 10-Q for the quarter ended October 31, 2026 had not been filed. The cover's text is quoted as extracted ('outstandi n g' is split in the HTML).",
+  "researchedAt": "2026-11-24"
+}

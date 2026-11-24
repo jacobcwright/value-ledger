@@ -2,48 +2,48 @@
   "id": "albert-bourla",
   "company": "Pfizer",
   "nbim": {
-    "pct": 1.53,
-    "marketValueUSD": 2.298,
-    "asOf": "2024-12-31",
+    "pct": 1.03,
+    "marketValueUSD": 1.41,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"3btflcmvh0eh\",\"cc\":\"US\",\"n\":\"Pfizer Inc\",\"a\":{\"e\":2297790308,\"n\":26096808749},\"at\":0,\"o\":1.53,\"eq\":{\"vid\":\"PFE\",\"v\":1.53,\"s\":\"Health Care\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"3btflcmvh0eh\",\"cc\":\"US\",\"n\":\"Pfizer Inc\",\"a\":{\"e\":1410238939,\"n\":13955019423},\"at\":0,\"o\":1.03,\"eq\":{\"vid\":\"PFE\",\"v\":1.03,\"s\":\"Health Care\"}}"
     }
   },
   "calpers": {
-    "shares": 16073641,
-    "asOf": "2024-12-31",
+    "shares": 17073601,
+    "asOf": "2026-09-30",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907925000004/informationtable.xml",
-      "label": "CalPERS Form 13F, Q4 2024",
-      "quote": "PFIZER INC COM 717081103 426433696 16073641"
+      "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
+      "label": "CalPERS Form 13F, Q3 2026, information table",
+      "quote": "PFIZER INC COM 717081103 486939101 17073601"
     },
     "derived": {
-      "pct": 0.284,
-      "method": "CalPERS shares ÷ shares outstanding",
+      "pct": 0.3,
+      "method": "CalPERS shares ÷ shares outstanding (17,073,601 ÷ 5,699,853,733)",
       "inputs": [
         {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-          "label": "FY2024 Form 10-K, cover page",
-          "quote": "The number of shares outstanding of the registrant's common stock as of February 20, 2025 was 5,667,340,414 shares of common stock, all of one class."
+          "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/pfe-20260927.htm",
+          "label": "Form 10-Q for the quarter ended September 27, 2026, cover page",
+          "quote": "At October 28, 2026, 5,699,853,733 shares of the issuer's voting common stock were outstanding."
         }
       ]
     }
   },
   "holdersOfRecord": {
-    "count": 113116,
-    "asOf": "2025-02-20",
+    "count": 106369,
+    "asOf": "2026-02-19",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000054/pfe-20241231.htm",
-      "label": "FY2024 Form 10-K, Item 5",
-      "quote": "As of February 20, 2025, there were 113,116 holders of record of our common stock."
+      "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 5",
+      "quote": "As of February 19, 2026, there were 106,369 holders of record of our common stock."
     }
   },
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"North America;United States;Pfizer Inc;Health Care;26096808749;2297790308;1.53%;1.53%\". CalPERS: the source is CalPERS's 13F-HR/A (restatement) for the quarter ended December 31, 2024, filed April 23, 2025; its information table is identical to the original 13F-HR filed February 12, 2025. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026. Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The denominator is the Q3 2026 10-Q cover count (October 28, 2026), the same count used in the marketcap lens.",
+  "researchedAt": "2026-11-24"
 }

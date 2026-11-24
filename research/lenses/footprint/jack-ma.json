@@ -5,9 +5,9 @@
     "employeeShare": {
       "label": "Share of full-time employees by work location",
       "unit": "percent",
-      "period": "FY2025 (year ended Mar 31, 2025)",
+      "period": "FY2026 (year ended Mar 31, 2026)",
       "tier": "company-published",
-      "definition": "Percentage of full-time employees of all consolidated entities of Alibaba Group by work location, from the ESG report's KPI table (total 124,320 full-time employees at Mar 31, 2025; Sun Art and Intime removed)."
+      "definition": "Percentage of full-time employees of all consolidated entities of Alibaba Group by work location, from the ESG report's KPI table (total 131,462 employees at Mar 31, 2026; Sun Art and Intime removed)."
     }
   },
   "usStates": null,
@@ -16,14 +16,14 @@
       "iso2": "CN",
       "name": "Chinese Mainland",
       "values": {
-        "employeeShare": 86.8
+        "employeeShare": 88.5
       },
       "plus": {},
       "source": {
         "hostType": "exchange",
-        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0626/2025062601088.pdf",
-        "label": "Alibaba Group FY2025 Environmental, Social and Governance Report (HKEX filing, June 26, 2025), Social KPI table",
-        "quote": "Percentages of employees by work location … Chinese Mainland % 84.9 86.6 86.8 [columns: years ended March 31, 2023, 2024 and 2025; the last value is FY2025]"
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0618/2026061800880.pdf",
+        "label": "Alibaba Group FY2026 Environmental, Social and Governance Report (HKEX filing, June 18, 2026), Social KPI table",
+        "quote": "Percentages of employees by work location … Chinese mainland % 84.9 86.6 86.8 88.5 [columns: years ended March 31, 2023, 2024, 2025 and 2026; the last value is FY2026]"
       }
     }
   ],
@@ -36,28 +36,28 @@
         "TW"
       ],
       "values": {
-        "employeeShare": 1.1
+        "employeeShare": 1
       },
       "plus": {},
       "source": {
         "hostType": "exchange",
-        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0626/2025062601088.pdf",
-        "label": "Alibaba Group FY2025 Environmental, Social and Governance Report (HKEX filing, June 26, 2025), Social KPI table",
-        "quote": "Percentages of employees by work location … Hong Kong, Macao, and Taiwan % 0.9 1.1 1.1 [columns: years ended March 31, 2023, 2024 and 2025; the last value is FY2025]"
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0618/2026061800880.pdf",
+        "label": "Alibaba Group FY2026 Environmental, Social and Governance Report (HKEX filing, June 18, 2026), Social KPI table",
+        "quote": "Percentages of employees by work location … Hong Kong, Macao, and Taiwan % 0.9 1.1 1.1 1.0 [columns: years ended March 31, 2023, 2024, 2025 and 2026; the last value is FY2026]"
       }
     },
     {
       "name": "Other countries and regions",
       "countries": null,
       "values": {
-        "employeeShare": 12.1
+        "employeeShare": 10.5
       },
       "plus": {},
       "source": {
         "hostType": "exchange",
-        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0626/2025062601088.pdf",
-        "label": "Alibaba Group FY2025 Environmental, Social and Governance Report (HKEX filing, June 26, 2025), Social KPI table",
-        "quote": "Percentages of employees by work location … Other countries and regions % 14.2 12.3 12.1 [columns: years ended March 31, 2023, 2024 and 2025; the last value is FY2025]"
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0618/2026061800880.pdf",
+        "label": "Alibaba Group FY2026 Environmental, Social and Governance Report (HKEX filing, June 18, 2026), Social KPI table",
+        "quote": "Percentages of employees by work location … Other countries and regions % 14.2 12.3 12.1 10.5 [columns: years ended March 31, 2023, 2024, 2025 and 2026; the last value is FY2026]"
       }
     }
   ],
@@ -71,12 +71,12 @@
       "description": "Principal executive offices of major businesses, 960-1 West Wen Yi Road, Yu Hang District, Hangzhou.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-ex15_5.htm",
-        "label": "Alibaba Group 2025 Hong Kong Annual Report (adjusted version), exhibit 15.5 to Form 20-F for FY2025",
-        "quote": "of major businesses within Alibaba Group are located at 960-1 West Wen Yi Road, Yu Hang District, Hangzhou 311121, People's Republic of China."
+        "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
+        "label": "Alibaba Group Form 20-F for the fiscal year ended March 31, 2026, Item 4 (Information on the Company)",
+        "quote": "The principal executive offices of major businesses within Alibaba Group are located at 960-1 West Wen Yi Road, Yu Hang District, Hangzhou 311121, People's Republic of China."
       }
     }
   ],
-  "notes": "Alibaba publishes no state or country economic-impact data. The FY2025 20-F (via its Hong Kong annual report exhibit) says only \"Substantially all of our employees are based in China\" (124,320 full-time employees at Mar 31, 2025), that owned facilities total ~18.3 million sq m, and that it maintains data centers in Chinese Mainland, Hong Kong SAR, Indonesia, Malaysia, Thailand, Philippines, Singapore, UAE, Germany, the UK, Japan, South Korea, Mexico and the United States, with no figures per country, so those are not rows. The ESG report KPI table gives employee shares by work location (percentages, not headcounts); the percent rows list three values under four year headers, and the layout aligns them with FY2023-FY2025, so the last value is FY2025. Headcounts by location are not derived.",
-  "researchedAt": "2026-11-23"
+  "notes": "Alibaba publishes no state or country economic-impact data. The FY2026 20-F (year ended Mar 31, 2026) gives 131,462 full-time employees at Mar 31, 2026 with no country split, owned facilities of ~18.7 million sq m, and data centers in Chinese Mainland, Hong Kong SAR, Indonesia, Malaysia, Thailand, Philippines, Singapore, UAE, Germany, the UK, Japan, South Korea, Mexico and the United States, with no figures per country, so those are not rows. The FY2026 ESG report (HKEX, June 18, 2026; the same report is furnished as Exhibit 99.2 to a June 18, 2026 Form 6-K, but that PDF's text layer is font-encoded and unreadable, so the HKEX copy is cited) gives employee shares by work location (percentages, not headcounts); the percent rows list four values under five year headers (FY2022-FY2026), and the layout aligns them with FY2023-FY2026, so the last value is FY2026; the three shares sum to 100.0. Headcounts by location are not derived. The HQ site is now quoted from the 20-F itself (the FY2026 filing carries no Hong Kong annual report exhibit).",
+  "researchedAt": "2026-11-24"
 }

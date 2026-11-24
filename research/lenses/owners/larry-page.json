@@ -19,7 +19,7 @@
       "hostType": "sec",
       "url": "https://www.sec.gov/Archives/edgar/data/919079/000091907926000013/form13fInfoTable.xml",
       "label": "CalPERS Form 13F, Q3 2026, information table",
-      "quote": "ALPHABET INC CAP STK CL C 02079K107 3808351484 11176708 ... ALPHABET INC CAP STK CL A 02079K305 5714826440 16609005"
+      "quote": "ALPHABET INC CAP STK CL C 02079K107 3808351484 11176708 ... ALPHABET INC CAP STK CL A 02079K305 5714826440 16609005 [Class A 16,609,005 + Class C 11,176,708 = 27,785,713 shares]"
     },
     "derived": {
       "pct": 0.226,

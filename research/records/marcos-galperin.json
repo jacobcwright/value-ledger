@@ -1,13 +1,13 @@
 {
   "id": "marcos-galperin",
   "company": "MercadoLibre",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-04-14",
+    "asOf": "2026-04-14",
     "leader": {
       "name": "Marcos Galperin",
       "relation": "co-founder",
@@ -18,22 +18,22 @@
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000020/meli-20250428.htm",
-        "label": "2025 proxy statement (DEF 14A), Beneficial Ownership of Our Common Stock",
-        "quote": "Marcos Galperin(4) 35 * ... * Indicates less than 1% ownership. ... 4.Represents shares of common stock owned directly by Mr. Galperin from a pro rata distribution from Kaszek Ventures Opportunity II, L.P., of which he is a non-managing member."
+        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000010/meli-20260423.htm",
+        "label": "2026 proxy statement (DEF 14A), Beneficial Ownership of Our Common Stock",
+        "quote": "Marcos Galperin (4) 35 * ... * Indicates less than 1% ownership. ... 4. Represents shares of common stock owned directly by Mr. Galperin from a pro rata distribution from Kaszek Ventures Opportunity II, L.P., of which he is a non-managing member."
       }
     },
     "largestHolders": [
       {
         "name": "Baillie Gifford & Co.",
         "type": "asset-manager",
-        "pctEconomic": 9.25,
+        "pctEconomic": 7.46,
         "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000020/meli-20250428.htm",
-          "label": "2025 proxy statement (DEF 14A), Beneficial Ownership of Our Common Stock",
-          "quote": "Baillie Gifford & Co.(2) 4,689,139 9.25 ... 2.According to a Schedule 13G/A filed on November 4, 2024 by Baillie Gifford & Co. ... Baillie Gifford is the beneficial owner of 4,689,139 shares of our common stock."
+          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000010/meli-20260423.htm",
+          "label": "2026 proxy statement (DEF 14A), Beneficial Ownership of Our Common Stock",
+          "quote": "Baillie Gifford & Co. (2) 3,784,477 7.46 ... 2. According to a Schedule 13G/A filed on April 30, 2025 by Baillie Gifford & Co. ... Baillie Gifford is the beneficial owner of 3,784,477 shares of our common stock."
         }
       },
       {
@@ -43,16 +43,16 @@
         "asOf": "2024-10-31",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000020/meli-20250428.htm",
-          "label": "2025 proxy statement (DEF 14A), Beneficial Ownership of Our Common Stock",
-          "quote": "Galperin Trust(3) 3,550,136 7.00 ... 3.According to a Schedule 13D/A filed on November 1, 2024 jointly by Meliga No. 1 LP, Meliga No.1 Corp., Galperin Trust /SD, Corpag Trust South Dakota Inc., and Volorama Stichting ... the beneficial owners of an aggregate of 3,550,136 shares"
+          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000010/meli-20260423.htm",
+          "label": "2026 proxy statement (DEF 14A), Beneficial Ownership of Our Common Stock",
+          "quote": "Galperin Trust (3) 3,550,136 7.00 ... 3. According to a Schedule 13D/A filed on November 1, 2024 jointly by Meliga No. 1 LP, Meliga No.1 Corp., Galperin Trust /SD, Corpag Trust South Dakota Inc., and Volorama Stichting ... the beneficial owners of an aggregate of 3,550,136 shares"
         }
       }
     ],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock; percentages are based on 50,697,375 shares outstanding on April 14, 2025. The proxy lists two holders of more than 5%: Baillie Gifford (9.25%) and the Galperin Trust group (7.00%). Marcos Galperin directly owns 35 shares; all directors and executive officers as a group own less than 1%."
+      "note": "One class of common stock; percentages are based on 50,697,182 shares outstanding on April 14, 2026. The proxy lists two holders of more than 5%: Baillie Gifford (7.46%) and the Galperin Trust group (7.00%). Marcos Galperin directly owns 35 shares; all directors and executive officers as a group own less than 1%."
     }
   },
   "cash": {
@@ -60,8 +60,8 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 7 Liquidity, Cash Dividends",
+        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 7 Liquidity, Cash Dividends",
         "quote": "Our board of directors suspended the payment of dividends on our common stock as of the first quarter of 2018 after reviewing our capital allocation process"
       }
     },
@@ -69,13 +69,13 @@
       "value": 0.001,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Common Stock repurchased (1) (356) (148) [in millions, 2024, 2023, 2022]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Payments of finance lease liabilities ( 57 ) ( 51 ) ( 33 ) Common Stock repurchased ( 1 ) ( 1 ) ( 356 ) [in millions, 2025, 2024, 2023]",
         "xbrl": {
           "cik": "0001099590",
           "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-          "end": "2024-12-31",
+          "end": "2025-12-31",
           "value": 1000000
         }
       }
@@ -86,9 +86,9 @@
       "value": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 7A and Note 17 Long Term Retention Program",
-        "quote": "We are also exposed to market risks arising from our long-term retention programs (“LTRPs”). These market risks arise from our obligations to pay employees cash payments in amounts that vary based on the market price of our stock."
+        "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows; consolidated statement of equity",
+        "quote": "Long term retention program (\"LTRP\") accrued compensation 303 261 167 ... Stock-based compensation - restricted shares issued - - 1 - - - 1"
       }
     },
     "plan": null
@@ -98,29 +98,29 @@
     "segments": [
       {
         "name": "Brazil",
-        "value": 11.41
+        "value": 15.2
       },
       {
         "name": "Mexico",
-        "value": 4.66
+        "value": 6.48
       },
       {
         "name": "Argentina",
-        "value": 3.82
+        "value": 5.96
       },
       {
         "name": "Other Countries",
-        "value": 0.89
+        "value": 1.26
       }
     ],
-    "total": 20.78,
+    "total": 28.89,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm",
-      "label": "FY2024 Form 10-K, Note 10 Segments",
-      "quote": "Year Ended December 31, 2024 Brazil Mexico Argentina Other Countries Total (In millions) ... Net revenues and financial income 11,406 4,664 3,818 889 20,777"
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+      "label": "FY2025 Form 10-K, Note 8 Segments",
+      "quote": "Year Ended December 31, 2025 Brazil Mexico Argentina Other Countries Total (In millions) Net service revenues and financial income $ 12,846 $ 5,699 $ 5,646 $ 1,095 $ 25,286 Net product revenues 2,355 776 316 160 3,607 Net revenues and financial income 15,201 6,475 5,962 1,255 28,893"
     }
   },
-  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). Sources: FY2024 Form 10-K (accession 0001099590-25-000007), 2025 proxy statement (DEF 14A, accession 0001099590-25-000020), and the Schedule 13D/A on the Galperin Trust (accession 0001437749-24-033000, filed November 1, 2024), all read on EDGAR. LEADER: the proxy shows Marcos Galperin directly owning just 35 shares (marked *, less than 1%), received in a distribution from Kaszek Ventures. GALPERIN TRUST: the proxy lists 'Galperin Trust' separately at 3,550,136 shares (7.00%) and does not attribute it to Marcos Galperin. The 13D/A describes Galperin Trust /SD only as 'an irrevocable trust formed under the laws of South Dakota and was established for the benefit of certain individuals and certain charitable organizations', restructured 'in the context of estate planning transactions', with Corpag Trust South Dakota Inc. as trustee. The earlier Schedule 13D (filed May 24, 2024; accession 0001437749-24-018325) and Schedule 13G/A (filed July 1, 2024; accession 0001437749-24-021748) were also read on EDGAR. None of these documents names the beneficiaries or links the trust to Marcos Galperin or his family. It is therefore listed as a holder of type 'other', not as his stake or as a family holding, and not added to his figure. HOLDERS: Baillie Gifford's 13G/A filing date (November 4, 2024) is given, not its as-of date, so asOf is null. BUYBACKS: the cash-flow line shows $1 million of repurchases in 2024 (versus $356 million in 2023), recorded as 0.001 billion rather than rounded to 0.00 so it is not shown as zero. STOCK COMP: null. The 10-K says no stock options were granted from 2007 through 2024 and there was no stock-option expense from 2019 through 2024; employee long-term pay is the cash-settled LTRP, under which certain employees receive cash payments over six years, half of the target award varying with the share price; in 2024 the company paid $160 million of LTRP ($61 million fixed, $99 million variable). Because it is a cash bonus for certain employees rather than stock, workers.plan is null. The cash-flow statement shows 'Long term retention program (“LTRP”) accrued compensation 261' ($ millions, 2024), but that accrual includes the fixed cash portion, so it is not recorded as share-based compensation. GEOGRAPHY: segment revenues are from external customers and sum to the $20,777 million total.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Sources: FY2025 Form 10-K (accession 0001099590-26-000006, filed February 25, 2026) and 2026 proxy statement (DEF 14A, accession 0001099590-26-000010, filed April 23, 2026), read on EDGAR; the Galperin Trust holding still rests on the Schedule 13D/A filed November 1, 2024. LEADER: Marcos Galperin was CEO through 2025; on January 1, 2026 Ariel Szarfsztejn became CEO and Galperin became Executive Chairman (2026 proxy letter). The proxy shows him directly owning just 35 shares (marked *, less than 1%), received in a distribution from Kaszek Ventures. GALPERIN TRUST: the proxy lists 'Galperin Trust' separately at 3,550,136 shares (7.00%) and does not attribute it to Marcos Galperin. The 13D/A describes Galperin Trust /SD only as an irrevocable South Dakota trust 'established for the benefit of certain individuals and certain charitable organizations', with Corpag Trust South Dakota Inc. as trustee, and names no beneficiaries. It is therefore listed as a holder of type 'other', not as his stake or as a family holding, and not added to his figure. HOLDERS: Baillie Gifford's 13G/A filing date (April 30, 2025) is given, not its as-of date, so asOf is null. BUYBACKS: the cash-flow line shows $1 million of repurchases in 2025 (as in 2024), recorded as 0.001 billion rather than rounded to 0.00 so it is not shown as zero. STOCK COMP: null. Employee long-term pay is the cash-settled LTRP, under which certain employees receive cash payments over six years, half varying with the share price; in 2025 the company paid $238 million of LTRP ($82 million fixed, $156 million variable). The 10-K says there were no outstanding stock options at December 31, 2025. The equity statement shows $1 million of 'Stock-based compensation - restricted shares issued', but the 10-K states no share-based compensation expense, and the cash-flow line 'Long term retention program (\"LTRP\") accrued compensation 303' ($ millions, 2025) includes the fixed cash portion, so neither is recorded as share-based compensation. workers.plan is null because the LTRP is a cash bonus for certain employees rather than stock. GEOGRAPHY: segment revenues are from external customers and sum to the $28,893 million total.",
+  "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,31 @@
+{
+  "id": "jane-fraser",
+  "company": "Citigroup",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 226000,
+    "asOf": "2025-12-31",
+    "basis": "approximately 226,000 full-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/c-20251231.htm",
+      "label": "FY2025 Form 10-K, Human Capital Resources and Management",
+      "quote": "At December 31, 2025, Citi had approximately 226,000 full-time employees, compared to approximately 229,000 at December 31, 2024."
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Compensation and benefits",
+    "value": 29.639,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/c-20251231.htm",
+      "label": "FY2025 Form 10-K, consolidated statement of income, operating expenses (in millions)",
+      "quote": "Operating expenses (1) Compensation and benefits $ 29,639 $ 28,542 $ 29,232 [in millions of dollars, 2025, 2024, 2023]"
+    }
+  },
+  "notes": "Employees: approximate full-time count at December 31, 2025, from the FY2025 10-K (about 31% based in the U.S.). Payroll: the income statement's 'Compensation and benefits' line. The 2026 proxy also reports a 2025 median employee annual total compensation of $73,145, not used because a total is disclosed.",
+  "researchedAt": "2026-11-24"
+}

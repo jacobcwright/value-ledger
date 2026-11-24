@@ -1,0 +1,31 @@
+{
+  "id": "larry-ellison",
+  "company": "Oracle",
+  "fiscalYear": "FY2026",
+  "fiscalYearEnd": "2026-05-31",
+  "currency": "USD",
+  "employees": {
+    "value": 141000,
+    "asOf": "2026-05-31",
+    "basis": "approximately 141,000 full-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+      "label": "FY2026 Form 10-K, Item 1 Human Capital, Workforce",
+      "quote": "As of May 31, 2026, we employed approximately 141,000 full-time employees, of which approximately 49,000 were employed in the U.S. and approximately 92,000 were employed internationally."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "the fiscal 2026 total compensation of our median global employee",
+    "value": 94740,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "The fiscal 2026 total compensation of Mr. Magouyrk was $627,472,419, the fiscal 2026 total compensation of Mr. Sicilia was $256,606,752 and the fiscal 2026 total compensation of our median global employee was $94,740."
+    }
+  },
+  "notes": "Employees: approximate full-time count at May 31, 2026 from the FY2026 10-K (the proxy's pay-ratio section counts approximately 143,950 employees on the same date, including other than full-time staff). Payroll: the 10-K gives no total of salaries, benefits or personnel costs, so the 2026 proxy's CEO pay ratio median for fiscal 2026 is used; it is the same year as the head count. Oracle identified the median from base salaries and wage rates of its May 31, 2026 employee population, excluding about 5% of employees in eleven countries. The ratios are 6,623:1 (Magouyrk) and 2,709:1 (Sicilia).",
+  "researchedAt": "2026-11-24"
+}

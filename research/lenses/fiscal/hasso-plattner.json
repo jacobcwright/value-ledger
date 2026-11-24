@@ -1,44 +1,44 @@
 {
   "id": "hasso-plattner",
   "company": "SAP SE",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "EUR",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 2.28,
+      "value": 2.2,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465925017815/sap-20241224x20f.htm",
-        "label": "FY2024 Form 20-F, cash income taxes paid",
-        "quote": "Income taxes paid, net of refunds 2 - 2,277 - 2,161 - 1,642 Net cash flows from [EUR millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/sap-20251231x20f.htm",
+        "label": "FY2025 Form 20-F, consolidated statements of cash flows, cash income taxes paid",
+        "quote": "Income taxes paid, net of refunds 2 - 2,198 - 2,277 - 2,161 [EUR millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001000184",
           "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
-          "end": "2024-12-31",
-          "value": 2277000000
+          "end": "2025-12-31",
+          "value": 2198000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 6.51,
+      "value": 6.63,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465925017815/sap-20241224x20f.htm",
-        "label": "FY2024 Form 20-F, research and development expense",
-        "quote": "The R&D expense rose 3% to €6,514 million in 2024 from €6,324 million in 2023.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/sap-20251231x20f.htm",
+        "label": "FY2025 Form 20-F, Item 5 operating results, research and development expense",
+        "quote": "The R&D expense rose 2% to €6,633 million in 2025 from €6,514 million in 2024.",
         "xbrl": {
           "cik": "0001000184",
           "concept": "ifrs-full:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 6514000000
+          "end": "2025-12-31",
+          "value": 6633000000
         }
       }
     }
   },
-  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, net of refunds as presented. R&D quoted from the 20-F's operating review of the IFRS R&D expense line.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, net of refunds as presented. R&D quoted from the 20-F's operating review of the IFRS R&D expense line.",
+  "researchedAt": "2026-11-24"
 }

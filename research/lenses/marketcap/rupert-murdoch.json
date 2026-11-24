@@ -1,0 +1,36 @@
+{
+  "id": "rupert-murdoch",
+  "company": "News Corp",
+  "classes": [
+    {
+      "label": "Class A Common Stock (non-voting)",
+      "shares": 358254762,
+      "sharesAsOf": "2026-10-30",
+      "pricedAs": "NWSA",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000250/nws-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 30, 2026, 358,254,762 shares of Class A Common Stock and 178,920,372 shares of Class B Common Stock were outstanding."
+      }
+    },
+    {
+      "label": "Class B Common Stock (voting)",
+      "shares": 178920372,
+      "sharesAsOf": "2026-10-30",
+      "pricedAs": "NWS",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000250/nws-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 30, 2026, 358,254,762 shares of Class A Common Stock and 178,920,372 shares of Class B Common Stock were outstanding."
+      }
+    }
+  ],
+  "notes": "Two listed classes from the Q3 FY2027 Form 10-Q cover (quarter ended September 30, 2026, filed November 5, 2026): Class A trades on Nasdaq as NWSA and Class B as NWS. News Corp also has CHESS Depositary Interests over both classes on the ASX; the Nasdaq lines are used.",
+  "researchedAt": "2026-11-24"
+}

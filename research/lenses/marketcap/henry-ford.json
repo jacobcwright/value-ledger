@@ -1,0 +1,36 @@
+{
+  "id": "henry-ford",
+  "company": "Ford Motor Company",
+  "classes": [
+    {
+      "label": "Common Stock",
+      "shares": 3922365390,
+      "sharesAsOf": "2026-10-26",
+      "pricedAs": "F",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000191/f-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 26, 2026, Ford Motor Company had outstanding 3,922,365,390 shares of Common Stock and 70,852,076 shares of Class B Stock."
+      }
+    },
+    {
+      "label": "Class B Stock",
+      "shares": 70852076,
+      "sharesAsOf": "2026-10-26",
+      "pricedAs": "F",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B Stock has no quoted market; the FY2025 10-K cover says \"shares of Class B Stock may be converted at any time into an equal number of shares of Common Stock for the purpose of effecting the sale or other disposition of such shares of Common Stock\", and the two classes share equally in dividends, so it is priced as Common Stock (F).",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000191/f-20260930.htm",
+        "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+        "quote": "As of October 26, 2026, Ford Motor Company had outstanding 3,922,365,390 shares of Common Stock and 70,852,076 shares of Class B Stock."
+      }
+    }
+  ],
+  "notes": "Common Stock is listed on the New York Stock Exchange as F. Class B Stock (held almost entirely by a Ford family voting trust) is unlisted and converts one-for-one into Common Stock on sale. Counts are from the Q3 2026 10-Q cover (filed October 29, 2026), newer than the FY2025 10-K cover. Treasury shares are excluded.",
+  "researchedAt": "2026-11-24"
+}

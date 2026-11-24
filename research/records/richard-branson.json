@@ -1,13 +1,13 @@
 {
   "id": "richard-branson",
   "company": "Virgin Galactic Holdings",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-03-31",
+    "asOf": "2026-03-31",
     "leader": {
       "name": "Richard Branson",
       "relation": "founder",
@@ -17,16 +17,16 @@
       "family": null,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000063/spce-20250415.htm",
-        "label": "2025 proxy statement (DEF 14A), Security Ownership of Certain Beneficial Owners and Management (printed p. 75)",
-        "quote": "The following table sets forth information with respect to the beneficial ownership of our common stock as of March 31, 2025 for: ... each person who is known to be the beneficial owner of more than 5% of shares of our outstanding common stock; ... each of our current named executive officers and directors; and ... all of our executive officers and directors as a group. ... The beneficial ownership of our voting securities is based on 39,991,026 shares of our common stock issued and outstanding as of March 31, 2025."
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000046/spce-20260421.htm",
+        "label": "2026 proxy statement, Security Ownership of Certain Beneficial Owners and Management (Branson not listed)",
+        "quote": "beneficial ownership of our common stock as of March 31, 2026 for: • each person who is known to be the beneficial owner of more than 5% of shares of our outstanding common stock; • each of our current named executive officers and directors; and • all of our executive officers and directors as a group."
       }
     },
     "largestHolders": [],
     "structure": {
       "dualClass": false,
       "controlled": false,
-      "note": "One class of common stock with one vote per share. The 2025 proxy lists no holder of more than 5%. Virgin Investments Limited (VIL), whose board nominees the proxy calls the 'VG designees', keeps contractual rights under a 2019 Stockholders' Agreement: it may designate two directors (currently Craig Kreeger and Luigi Brambilla) while it beneficially owns at least 1,434,880 shares, and while it can designate two directors its consent is needed for certain corporate actions. The proxy does not state how many shares VIL holds."
+      "note": "One class of common stock with one vote per share (81,409,340 shares outstanding on March 31, 2026). The 2026 proxy lists no holder of more than 5%. Virgin Investments Limited (VIL) keeps contractual rights under a 2019 Stockholders' Agreement: it may designate two directors (currently Craig Kreeger and Luigi Brambilla, with Allison Belzberg nominated to replace Mr. Brambilla) while it beneficially owns at least 1,434,880 shares, and the 10-K says VIL 'has significant ability to control the direction of our business'. The proxy does not state how many shares VIL holds."
     }
   },
   "cash": {
@@ -34,40 +34,48 @@
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows, financing activities (no dividend line)",
-        "quote": "Cash flows from financing activities: Payments of finance lease obligations (193) (235) Proceeds from issuance of common stock 137,796 484,145 Withholding taxes paid on behalf of employees on net settled stock-based awards (1,207) (3,240) Transaction costs related to issuance of common stock (2,054) (5,239) Other financing activities (2) — Net cash provided by financing activities 134,340 475,431 [in thousands, 2024, 2023]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (no dividend line)",
+        "quote": "Cash flows from financing activities: Proceeds from issuance of long-term debt 212,496 - Repurchase of convertible debt ( 320,601 ) - Debt issuance costs ( 1,827 ) - Payments of finance lease obligations ( 211 ) ( 193 ) Proceeds from issuance of common stock pursuant to at-the-market offering 121,643 137,796 [in thousands, 2025, 2024]"
       }
     },
     "buybacks": {
       "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows, financing activities (no share repurchase line)",
-        "quote": "Cash flows from financing activities: Payments of finance lease obligations (193) (235) Proceeds from issuance of common stock 137,796 484,145 Withholding taxes paid on behalf of employees on net settled stock-based awards (1,207) (3,240) Transaction costs related to issuance of common stock (2,054) (5,239) Other financing activities (2) — Net cash provided by financing activities 134,340 475,431 [in thousands, 2024, 2023]"
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows (no share repurchase line)",
+        "quote": "Cash flows from financing activities: Proceeds from issuance of long-term debt 212,496 - Repurchase of convertible debt ( 320,601 ) - Debt issuance costs ( 1,827 ) - Payments of finance lease obligations ( 211 ) ( 193 ) Proceeds from issuance of common stock pursuant to at-the-market offering 121,643 137,796 [in thousands, 2025, 2024]"
       }
     }
   },
   "workers": {
     "stockComp": {
-      "value": 0.03,
+      "value": 0.02,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Stock-based compensation 29,752 44,258 [in thousands, 2024, 2023]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock-based compensation 18,698 29,752 [in thousands, 2025, 2024]",
         "xbrl": {
           "cik": "0001706946",
           "concept": "us-gaap:ShareBasedCompensation",
-          "end": "2024-12-31",
-          "value": 29752000
+          "end": "2025-12-31",
+          "value": 18698000
         }
       }
     },
-    "plan": null
+    "plan": {
+      "text": "Eligible employees can buy Virgin Galactic stock at 85% of market value through an Employee Stock Purchase Plan adopted in 2025.",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+        "label": "FY2025 Form 10-K, Note on stock-based compensation, Employee Stock Purchase Plan",
+        "quote": "The Company has adopted an ESPP and the plan is considered compensatory. Eligible employees of the Company who elect to participate are granted an option to purchase common stock under the ESPP at 85% of the fair market value of the common stock on the first or last day of the offering period, whichever is lower."
+      }
+    }
   },
   "geography": null,
-  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). Financial figures are from the FY2024 Form 10-K (accession 0001706946-25-000038), reported in thousands; stock comp matches SEC XBRL ($29.75 million, shown as 0.03 billion). Ownership is from the 2025 proxy statement (DEF 14A filed April 15, 2025, accession 0001706946-25-000063). Share counts reflect the 1-for-20 reverse stock split of June 2024. LEADER: Richard Branson, whom the 10-K calls 'our Founder', is not a director or officer and is not listed in the ownership table, which shows no 5% holder at all. VIRGIN GROUP: the brief asked for Virgin Group's holding in the 2025 proxy. None is disclosed. The proxy says only that VIL keeps two board designees 'for as long as VIL beneficially owns 1,434,880 or more shares' (25% of what Vieco USA held after the 2019 business combination, with shares distributed to a third party still counted as VIL's), and that Messrs. Kreeger and Brambilla currently serve as the VG designees. That is a threshold, not a reported holding, so no family/Virgin figure is recorded and no percentage is derived from it. VIL's exact stake would need its own Schedule 13D/A filings, which were not read. largestHolders is empty because the proxy names no 5% holder. GEOGRAPHY: null. The 10-K reports one operating segment and gives no revenue by geography; total 2024 revenue was $7.0 million. DIVIDENDS AND BUYBACKS: the 2024 financing section has no dividend or repurchase line, so both are 0; the 10-K also says 'We do not intend to pay cash dividends for the foreseeable future.' PLAN: no employee stock purchase plan is described in the documents read.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Financial figures are from the FY2025 Form 10-K (accession 0001706946-26-000019, filed March 30, 2026), reported in thousands; stock comp matches SEC XBRL ($18.70 million, shown as 0.02 billion). Ownership is from the 2026 proxy statement (DEF 14A filed April 21, 2026, accession 0001706946-26-000046), as of March 31, 2026. LEADER: Richard Branson, whom the 10-K calls 'our Founder', is not a director or officer and is not listed in the ownership table, which shows no 5% holder at all. VIRGIN GROUP: no Virgin Investments Limited (VIL) holding is disclosed in the 2026 proxy. It says only that VIL keeps two board designees 'for as long as VIL beneficially owns 1,434,880 or more shares'. That is a threshold, not a reported holding, so no family/Virgin figure is recorded and no percentage is derived from it. VIL's exact stake would need its own Schedule 13D/A filings, which were not read. largestHolders is empty because the proxy names no 5% holder. GEOGRAPHY: null. The 10-K reports one operating segment and gives no revenue by geography; total 2025 revenue was $1.5 million (the company is in its pre-commercial service phase with no spaceflight revenue). DIVIDENDS AND BUYBACKS: the 2025 financing section has no dividend or share repurchase line, so both are 0 (the $320.6 million 'Repurchase of convertible debt' is debt, not stock); the 10-K also says 'We do not intend to pay cash dividends for the foreseeable future.' PLAN: a 2025 Employee Stock Purchase Plan was adopted (S-8 filed June 2025); employees bought 197,156 shares through it in 2025. Share counts grew sharply through at-the-market sales, a registered offering, pre-funded warrant exercises and a debt exchange, from 73,326,504 at December 31, 2025 to 151,681,991 at November 5, 2026.",
+  "researchedAt": "2026-11-24"
 }

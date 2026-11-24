@@ -1,0 +1,31 @@
+{
+  "id": "james-quincey",
+  "company": "The Coca-Cola Company",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 65900,
+    "asOf": "2025-12-31",
+    "basis": "approximately 65,900 employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital Management",
+      "quote": "As of December 31, 2025 and 2024, our Company had approximately 65,900 and 69,700 employees, respectively, of which approximately 8,900 were located in the United States."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "median annual total compensation of all employees (other than the CEO) of the Company and its consolidated subsidiaries",
+    "value": 17947,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "For 2025, the median annual total compensation of all employees (other than the CEO) of the Company and its consolidated subsidiaries was $17,947."
+    }
+  },
+  "notes": "Employees: approximate year-end count from the FY2025 10-K; the drop from about 69,700 is mainly 2025 divestitures. Payroll: the 10-K gives no total of salaries, benefits or personnel costs, so the proxy's CEO pay ratio median for 2025 (same year as the head count) is used. Most employees are outside the United States (about 8,900 are U.S.-based), and the median is converted to U.S. dollars, which is why it is low.",
+  "researchedAt": "2026-11-24"
+}

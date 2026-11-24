@@ -1,44 +1,30 @@
 {
   "id": "richard-branson",
   "company": "Virgin Galactic Holdings",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
-    "cashTaxesPaid": {
-      "value": 0.0,
-      "source": {
-        "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash payments for: Income taxes $ 329 $ 658 Interest 10,625 15,938 [USD thousands; FY2024 is the 1st figure in the row]",
-        "xbrl": {
-          "cik": "0001706946",
-          "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 329000
-        }
-      }
-    }
+    "cashTaxesPaid": null
   },
   "rnd": {
     "expense": {
-      "value": 0.15,
+      "value": 0.08,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694625000038/spce-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 152,678 295,140 Selling, general and administrative [USD thousands; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1706946/000170694626000019/spce-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations, research and development",
+        "quote": "Research and development 80,466 152,678 Selling, general and administrative [USD thousands; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001706946",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 152678000
+          "end": "2025-12-31",
+          "value": 80466000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the caption does not say whether refunds are netted. Taxes: 329,000 USD as filed, which rounds to 0.00 billion.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: null. The FY2025 10-K no longer prints a cash income-tax line in the supplemental cash-flow disclosures (only interest), and the income-tax note says cash paid for income taxes, net of refunds, 'was not material' for 2025 outside the 2024 foreign amount, with no figure. Income tax expense was $52 thousand. R&D: $80.5 million (us-gaap:ResearchAndDevelopmentExpense).",
+  "researchedAt": "2026-11-24"
 }

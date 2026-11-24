@@ -1,8 +1,8 @@
 {
   "id": "david-velez",
   "company": "Nu Holdings (Nubank)",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "ecosystem": {
@@ -13,42 +13,36 @@
         "quote": "Purchase volume is defined as the total value of transactions that are authorized through our credit and prepaid cards only; it does not include other payment methods that we offer such as Pix, WhatsApp payments or traditional wire transfers.",
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-          "label": "FY2024 Form 20-F, Item 5, key business metrics, footnote 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+          "label": "FY2025 Form 20-F, Item 5, key business metrics, footnote 3",
           "quote": "Purchase volume is defined as the total value of transactions that are authorized through our credit and prepaid cards only; it does not include other payment methods that we offer such as Pix, WhatsApp payments or traditional wire transfers."
         }
       },
-      "value": 125.6,
+      "value": 141.7,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "FY2024 Form 20-F, Item 5, Purchase Volume",
-        "quote": "PV reached US$125.6 billion in the year ended December 31, 2024, an increase of 13.1% compared to US$111.1 billion in the year ended December 31, 2023."
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "FY2025 Form 20-F, Item 5, Purchase Volume",
+        "quote": "PV reached US$141.7 billion in the year ended December 31, 2025, an increase of 13% compared to US$ 125.6 billion in the year ended December 31, 2024."
       }
     },
     "platformRevenue": {
       "label": "Total revenue",
-      "value": 11.52,
+      "value": 15.77,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm",
-        "label": "FY2024 Form 20-F, Item 3.D risk factors",
-        "quote": "our total revenue increased by 43.4%, reaching US$11,517.1 million in 2024 from US$8,029.0 million in 2023.",
-        "xbrl": {
-          "cik": "0001691493",
-          "concept": "ifrs-full:Revenue",
-          "end": "2024-12-31",
-          "value": 11517075000
-        }
+        "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+        "label": "FY2025 Form 20-F, Item 3.D risk factors",
+        "quote": "our total revenue increased by 37%, reaching US$15,774.7 million in 2025 from US$11,517.1 million in 2024."
       }
     },
     "payouts": null,
     "clientAssets": null,
     "studies": [],
-    "notes": "Total revenue is mostly interest income on credit cards and loans, not fees on purchase volume, so Revenue / PV is not Nubank's take on card spending. The revenue directly tied to PV is interchange: the 20-F says \"For the year ended December 31, 2024, total interchange fees was US$1,380.5 million, equivalent to 1.1% of PV\" (the filing's sentence then says \"over the year ended December 31, 2023\", which appears to be a drafting slip). PV covers credit and prepaid cards only and excludes Pix.",
+    "notes": "Total revenue is mostly interest income on credit cards and loans, not fees on purchase volume, so Revenue / PV is not Nubank's take on card spending. The revenue directly tied to PV is card income: the 20-F says \"For the year ended December 31, 2025, total credit and prepaid cards income was US$1,720.3 million, equivalent to 1.2% of PV\" (the sentence then says \"over the year ended December 31, 2024\", which appears to be a drafting slip). PV covers credit and prepaid cards only and excludes Pix.",
     "ratioComparable": false,
     "ratioNote": "Nubank revenue is mostly interest income; only interchange fees relate to purchase volume."
   },
-  "notes": "Ecosystem lens only. PV is reported in US dollars converted from local currencies.",
-  "researchedAt": "2026-11-23"
+  "notes": "Ecosystem lens only. PV is reported in US dollars converted from local currencies (FY2025 Form 20-F).",
+  "researchedAt": "2026-11-24"
 }

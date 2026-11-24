@@ -5,14 +5,14 @@
   "fiscalYearEnd": "2025-11-28",
   "currency": "USD",
   "employees": {
-    "value": 31375,
-    "asOf": "2026-01-26",
-    "basis": "employees eligible to be granted awards from the 2019 Plan (total employees, including 8 executive officers)",
+    "value": 31360,
+    "asOf": "2025-11-28",
+    "basis": "people employed",
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000043/adbe-20260227.htm",
-      "label": "2026 proxy statement (DEF 14A), proposal to amend the 2019 Equity Incentive Plan, Eligibility",
-      "quote": "As of January 26, 2026, we had a total of 31,375 employees, including 8 executive officers, and 10 non-employee directors and 5 consultants, who would be eligible to be granted awards from the 2019 Plan."
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+      "label": "FY2025 Form 10-K, Item 1, Human Capital",
+      "quote": "As of November 28, 2025, we employed 31,360 people, of which 50% were in the United States and 50% were in our international locations."
     }
   },
   "payroll": {
@@ -26,6 +26,6 @@
       "quote": "The fiscal year 2025 annual total compensation of our CEO was $51,173,935 and the annual total compensation of our median compensated employee was $235,989"
     }
   },
-  "notes": "Employees: the FY2025 10-K's human capital section states no head count, so the count is the proxy's total of 31,375 employees at January 26, 2026, about two months after the November 28, 2025 year end. Payroll: the 10-K gives no total of salaries and benefits, so the CEO pay ratio disclosure's fiscal 2025 median employee pay is used.",
+  "notes": "Employees: year-end count from the FY2025 10-K (people employed at November 28, 2025). Payroll: the 10-K gives no total of salaries and benefits, so the CEO pay ratio disclosure's fiscal 2025 median employee pay is used.",
   "researchedAt": "2026-11-24"
 }

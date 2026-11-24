@@ -1,38 +1,38 @@
 {
   "id": "mary-barra",
   "company": "General Motors",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 1.48,
+      "value": 1.55,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes, net $ 1,475 $ 1,726 $ 1,191 Cash paid for interest [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 17 Income Taxes, Income Taxes Paid",
+        "quote": "Income Taxes Paid Year Ended December 31, 2025 U.S. federal $ 277 U.S. state 314 Non-U.S. 957 Total income taxes paid, net $ 1,548 [USD millions; FY2025 only]",
         "xbrl": {
           "cik": "0001467858",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 1475000000
+          "end": "2025-12-31",
+          "value": 1548000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 9.2,
+      "value": 8.5,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm",
-        "label": "FY2024 Form 10-K, note 1, Research and development expenditures",
-        "quote": "Research and development expenditures, which are expensed as incurred in Automotive and other cost of sales, were $ 9.2 billion, $ 9.9 billion and $ 9.8 billion in the years ended December 31, 2024, 2023 and 2022."
+        "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm",
+        "label": "FY2025 Form 10-K, Note 2 Significant Accounting Policies, Research and Development Expenditures",
+        "quote": "Research and development expenditures, which are expensed as incurred in Automotive and other cost of sales, were $ 8.5 billion, $ 9.2 billion, and $ 9.9 billion in the years ended December 31, 2025, 2024, and 2023."
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented. R&D: expensed within Automotive and other cost of sales, stated as $9.2 billion; no separate XBRL fact.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds, from the income-tax note's table by jurisdiction (U.S. federal 277, U.S. state 314, non-U.S. 957). R&D: expensed within Automotive and other cost of sales, stated as $8.5 billion; no separate XBRL fact.",
+  "researchedAt": "2026-11-24"
 }

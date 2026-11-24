@@ -1,44 +1,44 @@
 {
   "id": "wael-sawan",
   "company": "Shell",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 12.0,
+      "value": 11.64,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
-        "label": "FY2024 Form 20-F, cash income taxes paid",
-        "quote": "Tax paid ( 12,002 ) ( 13,712 ) ( 13,120 ) Cash flow from [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026017024/shel-20251231.htm",
+        "label": "FY2025 Form 20-F, Consolidated Statement of Cash Flows, tax paid",
+        "quote": "Tax paid ( 11,638 ) ( 12,002 ) ( 13,712 ) Cash flow from operating activities [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001306965",
           "concept": "ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities",
-          "end": "2024-12-31",
-          "value": 12002000000
+          "end": "2025-12-31",
+          "value": 11638000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 1.1,
+      "value": 1.17,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm",
-        "label": "FY2024 Form 20-F, research and development expense",
-        "quote": "Research and development 1,099 1,287 Total operating expenses* 36,917 [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1306965/000162828026017024/shel-20251231.htm",
+        "label": "FY2025 Form 20-F, Consolidated Statement of Income, research and development",
+        "quote": "Selling, distribution and administrative expenses 7 12,607 12,439 13,433 Research and development 7 1,170 1,099 1,287 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001306965",
           "concept": "ifrs-full:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 1099000000
+          "end": "2025-12-31",
+          "value": 1170000000
         }
       }
     }
   },
-  "notes": "Taxes: ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities, the caption does not say whether refunds are netted.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Taxes: ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities; the caption does not say whether refunds are netted.",
+  "researchedAt": "2026-11-24"
 }

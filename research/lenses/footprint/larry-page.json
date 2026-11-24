@@ -6,14 +6,14 @@
       "label": "Economic activity Google helped provide",
       "unit": "currency-billions",
       "currency": "USD",
-      "period": "calendar 2024 (2024 report, published April 2025)",
+      "period": "calendar 2025 (2025 report, published April 2026)",
       "tier": "company-published",
       "definition": "Google's own estimate of the economic activity that Google Search, Google Ads, Google Cloud, AdSense/AdMob, Ad Grants, YouTube and Google Play helped provide for a state's businesses, nonprofits, publishers, creators and developers. Modeled by the Google Economics team (e.g. $8 of profit per $1 of Google Ads spend), not measured output, not GDP and not Google's own spending. States reported in millions are converted to billions (shown in square brackets in the quote)."
     },
     "businesses": {
       "label": "Businesses using Google's free tools",
       "unit": "count",
-      "period": "calendar 2024",
+      "period": "calendar 2025",
       "tier": "company-published",
       "definition": "Businesses in the state that \"used Google's tools at no cost to receive phone calls, bookings, reviews, requests for directions, or other direct connections to their customers\". Always reported as \"more than\"."
     },
@@ -21,26 +21,26 @@
       "label": "Cumulative Google investment in the state",
       "unit": "currency-billions",
       "currency": "USD",
-      "period": "cumulative, from the year the state's first data center was built through the 2024 report",
+      "period": "cumulative, from the year the state's first data center was built through the 2025 report",
       "tier": "company-published",
-      "definition": "Google's statement that it \"has invested more than\" (Georgia: \"has committed more than ... of investment\") the amount in the state since its data center(s) there were built. Reported only for the 13 states with Google data centers; cumulative, not annual."
+      "definition": "Google's statement that it \"has invested more than\" (Georgia: \"has committed more than ... of investment\") the amount in the state since its data center(s) there were built. The 2025 report says \"Investment methodology now reflects total data center investment (construction, server and networking infrastructure)\", so these figures are on a broader basis than the 2024 edition's and are not comparable with it. Reported only for the 13 states with Google data centers; cumulative, not annual."
     },
     "longLivedAssets": {
       "label": "Long-lived assets",
       "unit": "currency-millions",
       "currency": "USD",
-      "period": "as of Dec 31, 2024",
+      "period": "as of Dec 31, 2025",
       "tier": "filing",
-      "definition": "Property and equipment, net, plus operating lease assets, by geographic area (10-K Note 15). Columns are 2023 then 2024; the 2024 value is recorded."
+      "definition": "Property and equipment, net, plus operating lease assets, by geographic area (10-K Note 15). Columns are 2024 then 2025; the 2025 value is recorded."
     }
   },
   "usStates": [
     {
       "state": "AL",
       "values": {
-        "economicActivity": 2.1,
-        "businesses": 281000,
-        "investment": 1
+        "economicActivity": 2.6,
+        "businesses": 282000,
+        "investment": 2
       },
       "plus": {
         "businesses": true,
@@ -48,47 +48,243 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Alabama",
-        "quote": "In 2024, Google helped provide $2.1 billion of economic activity for tens of thousands of Alabama businesses, nonprofits, publishers, creators, and developers … More than 281,000 Alabama businesses used Google’s tools at no cost … Since the Jackson County, Alabama data center was built in 2018, Google has invested more than $1 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Alabama",
+        "quote": "In 2025, Google helped provide $2.6 billion of economic activity for tens of thousands of Alabama businesses, nonprofits, publishers, creators, and developers … More than 282,000 Alabama businesses used Google’s tools at no cost … Since the Jackson County, Alabama data center was built in 2018, Google has invested more than $2 billion in the state"
       }
     },
     {
       "state": "AK",
       "values": {
-        "economicActivity": 0.187,
-        "businesses": 53000
+        "economicActivity": 0.239,
+        "businesses": 54000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Alaska",
-        "quote": "In 2024, Google helped provide $187 million of economic activity for thousands of Alaska businesses, nonprofits, publishers, creators, and developers [$0.187 billion] … More than 53,000 Alaska businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Alaska",
+        "quote": "In 2025, Google helped provide $239 million of economic activity for thousands of Alaska businesses, nonprofits, publishers, creators, and developers [$0.239 billion] … More than 54,000 Alaska businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "AZ",
       "values": {
-        "economicActivity": 12.4,
-        "businesses": 371000
+        "economicActivity": 18.2,
+        "businesses": 384000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Arizona",
-        "quote": "In 2024, Google helped provide $12.4 billion of economic activity for tens of thousands of Arizona businesses, nonprofits, publishers, creators, and developers … More than 371,000 Arizona businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Arizona",
+        "quote": "In 2025, Google helped provide $18.2 billion of economic activity for tens of thousands of Arizona businesses, nonprofits, publishers, creators, and developers … More than 384,000 Arizona businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "AR",
       "values": {
-        "economicActivity": 3.2,
+        "economicActivity": 5,
+        "businesses": 179000
+      },
+      "plus": {
+        "businesses": true
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Arkansas",
+        "quote": "In 2025, Google helped provide $5 billion of economic activity for thousands of Arkansas businesses, nonprofits, publishers, creators, and developers … More than 179,000 Arkansas businesses used Google’s tools at no cost"
+      }
+    },
+    {
+      "state": "CA",
+      "values": {
+        "economicActivity": 223,
+        "businesses": 2200000
+      },
+      "plus": {
+        "businesses": true
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: California",
+        "quote": "In 2025, Google helped provide $223 billion of economic activity for hundreds of thousands of California businesses, nonprofits, publishers, creators, and developers … More than 2.2 million California businesses used Google’s tools at no cost [2,200,000]"
+      }
+    },
+    {
+      "state": "CO",
+      "values": {
+        "economicActivity": 16.3,
+        "businesses": 393000
+      },
+      "plus": {
+        "businesses": true
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Colorado",
+        "quote": "In 2025, Google helped provide $16.3 billion of economic activity for tens of thousands of Colorado businesses, nonprofits, publishers, creators, and developers … More than 393,000 Colorado businesses used Google’s tools at no cost"
+      }
+    },
+    {
+      "state": "CT",
+      "values": {
+        "economicActivity": 13.7,
+        "businesses": 244000
+      },
+      "plus": {
+        "businesses": true
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Connecticut",
+        "quote": "In 2025, Google helped provide $13.7 billion of economic activity for tens of thousands of Connecticut businesses, nonprofits, publishers, creators, and developers … More than 244,000 Connecticut businesses used Google’s tools at no cost"
+      }
+    },
+    {
+      "state": "DE",
+      "values": {
+        "economicActivity": 15.2,
+        "businesses": 63000
+      },
+      "plus": {
+        "businesses": true
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Delaware",
+        "quote": "In 2025, Google helped provide $15.2 billion of economic activity for tens of thousands of Delaware businesses, nonprofits, publishers, creators, and developers … More than 63,000 Delaware businesses used Google’s tools at no cost"
+      }
+    },
+    {
+      "state": "FL",
+      "values": {
+        "economicActivity": 58.7,
+        "businesses": 1400000
+      },
+      "plus": {
+        "businesses": true
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Florida",
+        "quote": "In 2025, Google helped provide $58.7 billion of economic activity for hundreds of thousands of Florida businesses, nonprofits, publishers, creators, and developers … More than 1.4 million Florida businesses used Google’s tools at no cost [1,400,000]"
+      }
+    },
+    {
+      "state": "GA",
+      "values": {
+        "economicActivity": 19.3,
+        "businesses": 635000,
+        "investment": 3
+      },
+      "plus": {
+        "businesses": true,
+        "investment": true
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Georgia",
+        "quote": "In 2025, Google helped provide $19.3 billion of economic activity for tens of thousands of Georgia businesses, nonprofits, publishers, creators, and developers … More than 635,000 Georgia businesses used Google’s tools at no cost … Since the Douglas County, Georgia data center was built in 2003, Google has committed more than $3 billion of investment in the state"
+      }
+    },
+    {
+      "state": "HI",
+      "values": {
+        "economicActivity": 0.644,
+        "businesses": 85000
+      },
+      "plus": {
+        "businesses": true
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Hawaii",
+        "quote": "In 2025, Google helped provide $644 million of economic activity for thousands of Hawaii businesses, nonprofits, publishers, creators, and developers [$0.644 billion] … More than 85,000 Hawaii businesses used Google’s tools at no cost"
+      }
+    },
+    {
+      "state": "ID",
+      "values": {
+        "economicActivity": 1.7,
+        "businesses": 123000
+      },
+      "plus": {
+        "businesses": true
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Idaho",
+        "quote": "In 2025, Google helped provide $1.7 billion of economic activity for thousands of Idaho businesses, nonprofits, publishers, creators, and developers … More than 123,000 Idaho businesses used Google’s tools at no cost"
+      }
+    },
+    {
+      "state": "IL",
+      "values": {
+        "economicActivity": 37.3,
+        "businesses": 755000
+      },
+      "plus": {
+        "businesses": true
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Illinois",
+        "quote": "In 2025, Google helped provide $37.3 billion of economic activity for tens of thousands of Illinois businesses, nonprofits, publishers, creators, and developers … More than 755,000 Illinois businesses used Google’s tools at no cost"
+      }
+    },
+    {
+      "state": "IN",
+      "values": {
+        "economicActivity": 8.5,
+        "businesses": 374000
+      },
+      "plus": {
+        "businesses": true
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Indiana",
+        "quote": "In 2025, Google helped provide $8.5 billion of economic activity for tens of thousands of Indiana businesses, nonprofits, publishers, creators, and developers … More than 374,000 Indiana businesses used Google’s tools at no cost"
+      }
+    },
+    {
+      "state": "IA",
+      "values": {
+        "economicActivity": 2.7,
+        "businesses": 202000,
+        "investment": 20
+      },
+      "plus": {
+        "businesses": true,
+        "investment": true
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Iowa",
+        "quote": "In 2025, Google helped provide $2.7 billion of economic activity for thousands of Iowa businesses, nonprofits, publishers, creators, and developers … More than 202,000 Iowa businesses used Google’s tools at no cost … Since the Council Bluffs, Iowa data center was built in 2007, Google has invested more than $20 billion in the state"
+      }
+    },
+    {
+      "state": "KS",
+      "values": {
+        "economicActivity": 2.5,
         "businesses": 177000
       },
       "plus": {
@@ -96,211 +292,15 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Arkansas",
-        "quote": "In 2024, Google helped provide $3.2 billion of economic activity for thousands of Arkansas businesses, nonprofits, publishers, creators, and developers … More than 177,000 Arkansas businesses used Google’s tools at no cost"
-      }
-    },
-    {
-      "state": "CA",
-      "values": {
-        "economicActivity": 192,
-        "businesses": 2160000
-      },
-      "plus": {
-        "businesses": true
-      },
-      "source": {
-        "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: California",
-        "quote": "In 2024, Google helped provide $192 billion of economic activity for hundreds of thousands of California businesses, nonprofits, publishers, creators, and developers … More than 2.16 million California businesses used Google’s tools at no cost [2,160,000]"
-      }
-    },
-    {
-      "state": "CO",
-      "values": {
-        "economicActivity": 13.7,
-        "businesses": 381000
-      },
-      "plus": {
-        "businesses": true
-      },
-      "source": {
-        "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Colorado",
-        "quote": "In 2024, Google helped provide $13.7 billion of economic activity for tens of thousands of Colorado businesses, nonprofits, publishers, creators, and developers … More than 381,000 Colorado businesses used Google’s tools at no cost"
-      }
-    },
-    {
-      "state": "CT",
-      "values": {
-        "economicActivity": 13.4,
-        "businesses": 239000
-      },
-      "plus": {
-        "businesses": true
-      },
-      "source": {
-        "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Connecticut",
-        "quote": "In 2024, Google helped provide $13.4 billion of economic activity for tens of thousands of Connecticut businesses, nonprofits, publishers, creators, and developers … More than 239,000 Connecticut businesses used Google’s tools at no cost"
-      }
-    },
-    {
-      "state": "DE",
-      "values": {
-        "economicActivity": 11.8,
-        "businesses": 61000
-      },
-      "plus": {
-        "businesses": true
-      },
-      "source": {
-        "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Delaware",
-        "quote": "In 2024, Google helped provide $11.8 billion of economic activity for thousands of Delaware businesses, nonprofits, publishers, creators, and developers … More than 61,000 Delaware businesses used Google’s tools at no cost"
-      }
-    },
-    {
-      "state": "FL",
-      "values": {
-        "economicActivity": 49.5,
-        "businesses": 1380000
-      },
-      "plus": {
-        "businesses": true
-      },
-      "source": {
-        "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Florida",
-        "quote": "In 2024, Google helped provide $49.5 billion of economic activity for hundreds of thousands of Florida businesses, nonprofits, publishers, creators, and developers … More than 1.38 million Florida businesses used Google’s tools at no cost [1,380,000]"
-      }
-    },
-    {
-      "state": "GA",
-      "values": {
-        "economicActivity": 17.7,
-        "businesses": 620000,
-        "investment": 1.2
-      },
-      "plus": {
-        "businesses": true,
-        "investment": true
-      },
-      "source": {
-        "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Georgia",
-        "quote": "In 2024, Google helped provide $17.7 billion of economic activity for tens of thousands of Georgia businesses, nonprofits, publishers, creators, and developers … More than 620,000 Georgia businesses used Google’s tools at no cost … Since the Douglas County, Georgia data center was built in 2003, Google has committed more than $1.2 billion of investment in the state"
-      }
-    },
-    {
-      "state": "HI",
-      "values": {
-        "economicActivity": 0.544,
-        "businesses": 82000
-      },
-      "plus": {
-        "businesses": true
-      },
-      "source": {
-        "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Hawaii",
-        "quote": "In 2024, Google helped provide $544 million of economic activity for thousands of Hawaii businesses, nonprofits, publishers, creators, and developers [$0.544 billion] … More than 82,000 Hawaii businesses used Google’s tools at no cost"
-      }
-    },
-    {
-      "state": "ID",
-      "values": {
-        "economicActivity": 1.7,
-        "businesses": 119000
-      },
-      "plus": {
-        "businesses": true
-      },
-      "source": {
-        "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Idaho",
-        "quote": "In 2024, Google helped provide $1.7 billion of economic activity for thousands of Idaho businesses, nonprofits, publishers, creators, and developers … More than 119,000 Idaho businesses used Google’s tools at no cost"
-      }
-    },
-    {
-      "state": "IL",
-      "values": {
-        "economicActivity": 35.9,
-        "businesses": 744000
-      },
-      "plus": {
-        "businesses": true
-      },
-      "source": {
-        "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Illinois",
-        "quote": "In 2024, Google helped provide $35.9 billion of economic activity for tens of thousands of Illinois businesses, nonprofits, publishers, creators, and developers … More than 744,000 Illinois businesses used Google’s tools at no cost"
-      }
-    },
-    {
-      "state": "IN",
-      "values": {
-        "economicActivity": 6.3,
-        "businesses": 368000
-      },
-      "plus": {
-        "businesses": true
-      },
-      "source": {
-        "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Indiana",
-        "quote": "In 2024, Google helped provide $6.3 billion of economic activity for tens of thousands of Indiana businesses, nonprofits, publishers, creators, and developers … More than 368,000 Indiana businesses used Google’s tools at no cost"
-      }
-    },
-    {
-      "state": "IA",
-      "values": {
-        "economicActivity": 2.1,
-        "businesses": 199000,
-        "investment": 6.8
-      },
-      "plus": {
-        "businesses": true,
-        "investment": true
-      },
-      "source": {
-        "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Iowa",
-        "quote": "In 2024, Google helped provide $2.1 billion of economic activity for thousands of Iowa businesses, nonprofits, publishers, creators, and developers … More than 199,000 Iowa businesses used Google’s tools at no cost … Since the Council Bluffs, Iowa data center was built in 2007, Google has invested more than $6.8 billion in the state"
-      }
-    },
-    {
-      "state": "KS",
-      "values": {
-        "economicActivity": 2.1,
-        "businesses": 176000
-      },
-      "plus": {
-        "businesses": true
-      },
-      "source": {
-        "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Kansas",
-        "quote": "In 2024, Google helped provide $2.1 billion of economic activity for thousands of Kansas businesses, nonprofits, publishers, creators, and developers … More than 176,000 Kansas businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Kansas",
+        "quote": "In 2025, Google helped provide $2.5 billion of economic activity for tens of thousands of Kansas businesses, nonprofits, publishers, creators, and developers … More than 177,000 Kansas businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "KY",
       "values": {
-        "economicActivity": 2.9,
+        "economicActivity": 3.2,
         "businesses": 248000
       },
       "plus": {
@@ -308,111 +308,113 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Kentucky",
-        "quote": "In 2024, Google helped provide $2.9 billion of economic activity for tens of thousands of Kentucky businesses, nonprofits, publishers, creators, and developers … More than 248,000 Kentucky businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Kentucky",
+        "quote": "In 2025, Google helped provide $3.2 billion of economic activity for tens of thousands of Kentucky businesses, nonprofits, publishers, creators, and developers … More than 248,000 Kentucky businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "LA",
       "values": {
-        "economicActivity": 2.1,
-        "businesses": 270000
+        "economicActivity": 2.6,
+        "businesses": 275000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Louisiana",
-        "quote": "In 2024, Google helped provide $2.1 billion of economic activity for tens of thousands of Louisiana businesses, nonprofits, publishers, creators, and developers … More than 270,000 Louisiana businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Louisiana",
+        "quote": "In 2025, Google helped provide $2.6 billion of economic activity for tens of thousands of Louisiana businesses, nonprofits, publishers, creators, and developers … More than 275,000 Louisiana businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "ME",
       "values": {
         "economicActivity": 1.3,
-        "businesses": 98000
+        "businesses": 100000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Maine",
-        "quote": "In 2024, Google helped provide $1.3 billion of economic activity for thousands of Maine businesses, nonprofits, publishers, creators, and developers … More than 98,000 Maine businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Maine",
+        "quote": "In 2025, Google helped provide $1.3 billion of economic activity for thousands of Maine businesses, nonprofits, publishers, creators, and developers … More than 100,000 Maine businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "MD",
       "values": {
-        "economicActivity": 9,
-        "businesses": 340000
+        "economicActivity": 8.5,
+        "businesses": 346000
       },
       "plus": {
+        "economicActivity": true,
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Maryland",
-        "quote": "In 2024, Google helped provide $9 billion of economic activity for tens of thousands of Maryland businesses, nonprofits, publishers, creators, and developers … More than 340,000 Maryland businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Maryland",
+        "quote": "In 2025, Google helped provide more than $8.5 billion of economic activity for tens of thousands of Maryland businesses, nonprofits, publishers, creators, and developers … More than 346,000 Maryland businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "MA",
       "values": {
-        "economicActivity": 38,
-        "businesses": 424000
+        "economicActivity": 33.9,
+        "businesses": 431000
       },
       "plus": {
+        "economicActivity": true,
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Massachusetts",
-        "quote": "In 2024, Google helped provide $38 billion of economic activity for tens of thousands of Massachusetts businesses, nonprofits, publishers, creators, and developers … More than 424,000 Massachusetts businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Massachusetts",
+        "quote": "In 2025, Google helped provide more than $33.9 billion of economic activity for tens of thousands of Massachusetts businesses, nonprofits, publishers, creators, and developers … More than 431,000 Massachusetts businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "MI",
       "values": {
-        "economicActivity": 17.5,
-        "businesses": 556000
+        "economicActivity": 19.8,
+        "businesses": 565000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Michigan",
-        "quote": "In 2024, Google helped provide $17.5 billion of economic activity for tens of thousands of Michigan businesses, nonprofits, publishers, creators, and developers … More than 556,000 Michigan businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Michigan",
+        "quote": "In 2025, Google helped provide $19.8 billion of economic activity for tens of thousands of Michigan businesses, nonprofits, publishers, creators, and developers … More than 565,000 Michigan businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "MN",
       "values": {
-        "economicActivity": 14.3,
-        "businesses": 354000
+        "economicActivity": 14.8,
+        "businesses": 359000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Minnesota",
-        "quote": "In 2024, Google helped provide $14.3 billion of economic activity for tens of thousands of Minnesota businesses, nonprofits, publishers, creators, and developers … More than 354,000 Minnesota businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Minnesota",
+        "quote": "In 2025, Google helped provide $14.8 billion of economic activity for tens of thousands of Minnesota businesses, nonprofits, publishers, creators, and developers … More than 359,000 Minnesota businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "MS",
       "values": {
-        "economicActivity": 0.379,
+        "economicActivity": 0.448,
         "businesses": 159000
       },
       "plus": {
@@ -420,49 +422,49 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Mississippi",
-        "quote": "In 2024, Google helped provide $379 million of economic activity for thousands of Mississippi businesses, nonprofits, publishers, creators, and developers [$0.379 billion] … More than 159,000 Mississippi businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Mississippi",
+        "quote": "In 2025, Google helped provide $448 million of economic activity for thousands of Mississippi businesses, nonprofits, publishers, creators, and developers [$0.448 billion] … More than 159,000 Mississippi businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "MO",
       "values": {
-        "economicActivity": 7.5,
-        "businesses": 356000
+        "economicActivity": 8.6,
+        "businesses": 359000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Missouri",
-        "quote": "In 2024, Google helped provide $7.5 billion of economic activity for tens of thousands of Missouri businesses, nonprofits, publishers, creators, and developers … More than 356,000 Missouri businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Missouri",
+        "quote": "In 2025, Google helped provide $8.6 billion of economic activity for tens of thousands of Missouri businesses, nonprofits, publishers, creators, and developers … More than 359,000 Missouri businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "MT",
       "values": {
-        "economicActivity": 0.615,
-        "businesses": 86000
+        "economicActivity": 0.961,
+        "businesses": 88000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Montana",
-        "quote": "In 2024, Google helped provide $615 million of economic activity for thousands of Montana businesses, nonprofits, publishers, creators, and developers [$0.615 billion] … More than 86,000 Montana businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Montana",
+        "quote": "In 2025, Google helped provide $961 million of economic activity for thousands of Montana businesses, nonprofits, publishers, creators, and developers [$0.961 billion] … More than 88,000 Montana businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "NE",
       "values": {
-        "economicActivity": 4.4,
-        "businesses": 123000,
-        "investment": 4.7
+        "economicActivity": 4.2,
+        "businesses": 126000,
+        "investment": 15
       },
       "plus": {
         "economicActivity": true,
@@ -471,17 +473,17 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Nebraska",
-        "quote": "In 2024, Google helped provide more than $4.4 billion of economic activity for thousands of Nebraska businesses, nonprofits, publishers, creators, and developers … More than 123,000 Nebraska businesses used Google’s tools at no cost … Since the Papillion, Nebraska data center was built in 2019, the Omaha, Nebraska data center was built in 2022, and the development of a new data center in Lincoln, Nebraska was announced in 2023, Google has invested more than $4.7 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Nebraska",
+        "quote": "$4.2+ billion of economic activity In 2025, Google helped provide more than $4.2 of economic activity for thousands of Nebraska businesses, nonprofits, publishers, creators, and developers … More than 126,000 Nebraska businesses used Google’s tools at no cost … Since the Papillion, Nebraska data center was built in 2019, the Omaha, Nebraska data center was built in 2022, and the development of a new data center in Lincoln, Nebraska was announced in 2023, Google has invested more than $15 billion in the state"
       }
     },
     {
       "state": "NV",
       "values": {
-        "economicActivity": 7.4,
-        "businesses": 162000,
-        "investment": 2.3
+        "economicActivity": 7.7,
+        "businesses": 168000,
+        "investment": 6
       },
       "plus": {
         "businesses": true,
@@ -489,16 +491,16 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Nevada",
-        "quote": "In 2024, Google helped provide $7.4 billion of economic activity for tens of thousands of Nevada businesses, nonprofits, publishers, creators, and developers … More than 162,000 Nevada businesses used Google’s tools at no cost … Since the Henderson, Nevada data center was built in 2019, and the Storey County, Nevada data center was built in 2021, Google has invested more than $2.3 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Nevada",
+        "quote": "In 2025, Google helped provide $7.7 billion of economic activity for tens of thousands of Nevada businesses, nonprofits, publishers, creators, and developers … More than 168,000 Nevada businesses used Google’s tools at no cost … Since the Henderson, Nevada data center was built in 2019, and the Storey County, Nevada data center was built in 2021, Google has invested more than $6 billion in the state"
       }
     },
     {
       "state": "NH",
       "values": {
-        "economicActivity": 1.4,
-        "businesses": 94000
+        "economicActivity": 1.7,
+        "businesses": 96000
       },
       "plus": {
         "economicActivity": true,
@@ -506,65 +508,65 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: New Hampshire",
-        "quote": "In 2024, Google helped provide more than $1.4 billion of economic activity for thousands of New Hampshire businesses, nonprofits, publishers, creators, and developers … More than 94,000 New Hampshire businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: New Hampshire",
+        "quote": "In 2025, Google helped provide more than $1.7 billion of economic activity for thousands of New Hampshire businesses, nonprofits, publishers, creators, and developers … More than 96,000 New Hampshire businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "NJ",
       "values": {
-        "economicActivity": 24.2,
-        "businesses": 535000
+        "economicActivity": 26.6,
+        "businesses": 549000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: New Jersey",
-        "quote": "In 2024, Google helped provide $24.2 billion of economic activity for tens of thousands of New Jersey businesses, nonprofits, publishers, creators, and developers … More than 535,000 New Jersey businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: New Jersey",
+        "quote": "In 2025, Google helped provide $26.6 billion of economic activity for tens of thousands of New Jersey businesses, nonprofits, publishers, creators, and developers … More than 549,000 New Jersey businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "NY",
       "values": {
-        "economicActivity": 120.6,
-        "businesses": 1170000
+        "economicActivity": 137.3,
+        "businesses": 1100000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: New York",
-        "quote": "In 2024, Google helped provide $120.6 billion of economic activity for hundreds of thousands of New York businesses, nonprofits, publishers, creators, and developers … More than 1.17 million New York businesses used Google’s tools at no cost [1,170,000]"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: New York",
+        "quote": "In 2025, Google helped provide $137.3 billion of economic activity for hundreds of thousands of New York businesses, nonprofits, publishers, creators, and developers … More than 1.1 million New York businesses used Google’s tools at no cost [1,100,000]"
       }
     },
     {
       "state": "NM",
       "values": {
-        "economicActivity": 0.658,
-        "businesses": 119000
+        "economicActivity": 0.86,
+        "businesses": 121000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: New Mexico",
-        "quote": "In 2024, Google helped provide $658 million of economic activity for thousands of New Mexico businesses, nonprofits, publishers, creators, and developers [$0.658 billion] … More than 119,000 New Mexico businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: New Mexico",
+        "quote": "In 2025, Google helped provide $860 million of economic activity for thousands of New Mexico businesses, nonprofits, publishers, creators, and developers [$0.86 billion] … More than 121,000 New Mexico businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "NC",
       "values": {
-        "economicActivity": 13.1,
-        "businesses": 616000,
-        "investment": 1.2
+        "economicActivity": 14.9,
+        "businesses": 632000,
+        "investment": 4
       },
       "plus": {
         "businesses": true,
@@ -572,15 +574,15 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: North Carolina",
-        "quote": "In 2024, Google helped provide $13.1 billion of economic activity for tens of thousands of North Carolina businesses, nonprofits, publishers, creators, and developers … More than 616,000 North Carolina businesses used Google’s tools at no cost … Since the Lenoir, North Carolina data center was built in 2007, Google has invested more than $1.2 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: North Carolina",
+        "quote": "In 2025, Google helped provide $14.9 billion of economic activity for tens of thousands of North Carolina businesses, nonprofits, publishers, creators, and developers … More than 632,000 North Carolina businesses used Google’s tools at no cost … Since the Lenoir, North Carolina data center was built in 2007, Google has invested more than $4 billion in the state"
       }
     },
     {
       "state": "ND",
       "values": {
-        "economicActivity": 0.816,
+        "economicActivity": 0.909,
         "businesses": 57000
       },
       "plus": {
@@ -588,17 +590,17 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: North Dakota",
-        "quote": "In 2024, Google helped provide $816 million of economic activity for thousands of North Dakota businesses, nonprofits, publishers, creators, and developers [$0.816 billion] … More than 57,000 North Dakota businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: North Dakota",
+        "quote": "In 2025, Google helped provide $909 million of economic activity for thousands of North Dakota businesses, nonprofits, publishers, creators, and developers [$0.909 billion] … More than 57,000 North Dakota businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "OH",
       "values": {
-        "economicActivity": 19.2,
-        "businesses": 642000,
-        "investment": 7.2
+        "economicActivity": 21.7,
+        "businesses": 648000,
+        "investment": 20
       },
       "plus": {
         "businesses": true,
@@ -606,17 +608,17 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Ohio",
-        "quote": "In 2024, Google helped provide $19.2 billion of economic activity for tens of thousands of Ohio businesses, nonprofits, publishers, creators, and developers … More than 642,000 Ohio businesses used Google’s tools at no cost … Since the New Albany, Ohio data center was built in 2019, and two new data centers in Columbus and Lancaster, Ohio were built in 2023, Google has invested more than $7.2 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Ohio",
+        "quote": "In 2025, Google helped provide $21.7 billion of economic activity for tens of thousands of Ohio businesses, nonprofits, publishers, creators, and developers … More than 648,000 Ohio businesses used Google’s tools at no cost … Since the New Albany, Ohio data center was built in 2019, and two new data centers in Columbus and Lancaster, Ohio were built in 2023, Google has invested more than $20 billion in the state"
       }
     },
     {
       "state": "OK",
       "values": {
-        "economicActivity": 2.2,
-        "businesses": 235000,
-        "investment": 5.7
+        "economicActivity": 2.6,
+        "businesses": 237000,
+        "investment": 15
       },
       "plus": {
         "businesses": true,
@@ -624,17 +626,17 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Oklahoma",
-        "quote": "In 2024, Google helped provide $2.2 billion of economic activity for tens of thousands of Oklahoma businesses, nonprofits, publishers, creators, and developers … More than 235,000 Oklahoma businesses used Google’s tools at no cost … Since the Mayes County, Oklahoma data center was built in 2007, Google has invested more than $5.7 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Oklahoma",
+        "quote": "In 2025, Google helped provide $2.6 billion of economic activity for tens of thousands of Oklahoma businesses, nonprofits, publishers, creators, and developers … More than 237,000 Oklahoma businesses used Google’s tools at no cost … Since the Mayes County, Oklahoma data center was built in 2007, Google has invested more than $15 billion in the state"
       }
     },
     {
       "state": "OR",
       "values": {
-        "economicActivity": 8.6,
-        "businesses": 276000,
-        "investment": 2.4
+        "economicActivity": 9.3,
+        "businesses": 282000,
+        "investment": 7
       },
       "plus": {
         "businesses": true,
@@ -642,31 +644,31 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Oregon",
-        "quote": "In 2024, Google helped provide $8.6 billion of economic activity for tens of thousands of Oregon businesses, nonprofits, publishers, creators, and developers … More than 276,000 Oregon businesses used Google’s tools at no cost … Since The Dalles, Oregon data center was opened in 2006, Google has invested more than $2.4 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Oregon",
+        "quote": "In 2025, Google helped provide $9.3 billion of economic activity for tens of thousands of Oregon businesses, nonprofits, publishers, creators, and developers … More than 282,000 Oregon businesses used Google’s tools at no cost … Since The Dalles, Oregon data center was opened in 2006, Google has invested more than $7 billion in the state"
       }
     },
     {
       "state": "PA",
       "values": {
-        "economicActivity": 19.7,
-        "businesses": 759000
+        "economicActivity": 22.5,
+        "businesses": 767000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Pennsylvania",
-        "quote": "In 2024, Google helped provide $19.7 billion of economic activity for tens of thousands of Pennsylvania businesses, nonprofits, publishers, creators, and developers … More than 759,000 Pennsylvania businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Pennsylvania",
+        "quote": "In 2025, Google helped provide $22.5 billion of economic activity for tens of thousands of Pennsylvania businesses, nonprofits, publishers, creators, and developers … More than 767,000 Pennsylvania businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "RI",
       "values": {
-        "economicActivity": 1.53,
+        "economicActivity": 2.2,
         "businesses": 67000
       },
       "plus": {
@@ -674,17 +676,17 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Rhode Island",
-        "quote": "In 2024, Google helped provide $1.53 billion of economic activity for thousands of Rhode Island businesses, nonprofits, publishers, creators, and developers … More than 67,000 Rhode Island businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Rhode Island",
+        "quote": "In 2025, Google helped provide $2.2 billion of economic activity for thousands of Rhode Island businesses, nonprofits, publishers, creators, and developers … More than 67,000 Rhode Island businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "SC",
       "values": {
-        "economicActivity": 6.4,
-        "businesses": 299000,
-        "investment": 4.5
+        "economicActivity": 7.2,
+        "businesses": 307000,
+        "investment": 13
       },
       "plus": {
         "businesses": true,
@@ -692,33 +694,33 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: South Carolina",
-        "quote": "In 2024, Google helped provide $6.4 billion of economic activity for tens of thousands of South Carolina businesses, nonprofits, publishers, creators, and developers … More than 299,000 South Carolina businesses used Google’s tools at no cost … Since the Berkeley County, South Carolina data center was built in 2007, Google has invested more than $4.5 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: South Carolina",
+        "quote": "In 2025, Google helped provide $7.2 billion of economic activity for tens of thousands of South Carolina businesses, nonprofits, publishers, creators, and developers … More than 307,000 South Carolina businesses used Google’s tools at no cost … Since the Berkeley County, South Carolina data center was built in 2007, Google has invested more than $13 billion in the state"
       }
     },
     {
       "state": "SD",
       "values": {
-        "economicActivity": 0.395,
-        "businesses": 62000
+        "economicActivity": 0.461,
+        "businesses": 63000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: South Dakota",
-        "quote": "In 2024, Google helped provide $395 million of economic activity for thousands of South Dakota businesses, nonprofits, publishers, creators, and developers [$0.395 billion] … More than 62,000 South Dakota businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: South Dakota",
+        "quote": "In 2025, Google helped provide $461 million of economic activity for thousands of South Dakota businesses, nonprofits, publishers, creators, and developers [$0.461 billion] … More than 63,000 South Dakota businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "TN",
       "values": {
-        "economicActivity": 10.6,
-        "businesses": 403000,
-        "investment": 2.5
+        "economicActivity": 11.4,
+        "businesses": 409000,
+        "investment": 6
       },
       "plus": {
         "businesses": true,
@@ -726,17 +728,17 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Tennessee",
-        "quote": "In 2024, Google helped provide $10.6 billion of economic activity for tens of thousands of Tennessee businesses, nonprofits, publishers, creators, and developers … More than 403,000 Tennessee businesses used Google’s tools at no cost … Since the Montgomery County, Tennessee data center was built in 2018, Google has invested more than $2.5 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Tennessee",
+        "quote": "In 2025, Google helped provide $11.4 billion of economic activity for tens of thousands of Tennessee businesses, nonprofits, publishers, creators, and developers … More than 409,000 Tennessee businesses used Google’s tools at no cost … Since the Montgomery County, Tennessee data center was built in 2018, Google has invested more than $6 billion in the state"
       }
     },
     {
       "state": "TX",
       "values": {
-        "economicActivity": 50.3,
-        "businesses": 1620000,
-        "investment": 2.7
+        "economicActivity": 55.7,
+        "businesses": 1600000,
+        "investment": 9
       },
       "plus": {
         "businesses": true,
@@ -744,25 +746,25 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Texas",
-        "quote": "In 2024, Google helped provide $50.3 billion of economic activity for hundreds of thousands of Texas businesses, nonprofits, publishers, creators, and developers … More than 1.62 million Texas businesses used Google’s tools at no cost [1,620,000] … Since the Midlothian, Texas data center was built in 2019, and the development of a new data center in Red Oak, Texas was announced in 2023, Google has invested more than $2.7 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Texas",
+        "quote": "In 2025, Google helped provide $55.7 billion of economic activity for hundreds of thousands of Texas businesses, nonprofits, publishers, creators, and developers … More than 1.6 million Texas businesses used Google’s tools at no cost [1,600,000] … Since the Midlothian, Texas data center was built in 2019, and the development of a new data center in Red Oak, Texas was announced in 2023, Google has invested more than $9 billion in the state"
       }
     },
     {
       "state": "UT",
       "values": {
-        "economicActivity": 11.9,
-        "businesses": 193000
+        "economicActivity": 13,
+        "businesses": 204000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Utah",
-        "quote": "In 2024, Google helped provide $11.9 billion of economic activity for tens of thousands of Utah businesses, nonprofits, publishers, creators, and developers … More than 193,000 Utah businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Utah",
+        "quote": "In 2025, Google helped provide $13 billion of economic activity for tens of thousands of Utah businesses, nonprofits, publishers, creators, and developers … More than 204,000 Utah businesses used Google’s tools at no cost"
       }
     },
     {
@@ -777,17 +779,17 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Vermont",
-        "quote": "In 2024, Google helped provide more than $1.7 billion of economic activity for thousands of Vermont businesses, nonprofits, publishers, creators, and developers … More than 52,000 Vermont businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Vermont",
+        "quote": "In 2025, Google helped provide more than $1.7 billion of economic activity for thousands of Vermont businesses, nonprofits, publishers, creators, and developers … More than 52,000 Vermont businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "VA",
       "values": {
-        "economicActivity": 12.1,
-        "businesses": 467000,
-        "investment": 4.5
+        "economicActivity": 15.6,
+        "businesses": 472000,
+        "investment": 15
       },
       "plus": {
         "businesses": true,
@@ -795,89 +797,91 @@
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Virginia",
-        "quote": "In 2024, Google helped provide $12.1 billion of economic activity for tens of thousands of Virginia businesses, nonprofits, publishers, creators, and developers … More than 467,000 Virginia businesses used Google’s tools at no cost … Since the Loudoun County, Virginia data center was built in 2018, and the new data center in Prince William County, Virginia was built in 2023, Google has invested more than $4.5 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Virginia",
+        "quote": "In 2025, Google helped provide $15.6 billion of economic activity for tens of thousands of Virginia businesses, nonprofits, publishers, creators, and developers … More than 472,000 Virginia businesses used Google’s tools at no cost … Since the Loudoun County, Virginia data center was built in 2018, and the new data center in Prince William County, Virginia was built in 2023, Google has invested more than $15 billion in the state"
       }
     },
     {
       "state": "WA",
       "values": {
-        "economicActivity": 44.6,
-        "businesses": 447000
+        "economicActivity": 42.8,
+        "businesses": 459000
       },
       "plus": {
+        "economicActivity": true,
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Washington",
-        "quote": "In 2024, Google helped provide $44.6 billion of economic activity for tens of thousands of Washington businesses, nonprofits, publishers, creators, and developers … More than 447,000 Washington businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Washington",
+        "quote": "In 2025, Google helped provide more than $42.8 billion of economic activity for tens of thousands of Washington businesses, nonprofits, publishers, creators, and developers … More than 459,000 Washington businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "DC",
       "values": {
-        "economicActivity": 7.7,
-        "businesses": 58000
+        "economicActivity": 6.1,
+        "businesses": 59000
       },
       "plus": {
+        "economicActivity": true,
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Washington, D.C.",
-        "quote": "In 2024, Google helped provide $7.7 billion of economic activity for tens of thousands of Washington, D.C. businesses, nonprofits, publishers, creators, and developers … More than 58,000 Washington, D.C. businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Washington, D.C.",
+        "quote": "In 2025, Google helped provide more than $6.1 billion of economic activity for thousands of Washington, D.C. businesses, nonprofits, publishers, creators, and developers … More than 59,000 Washington, D.C. businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "WV",
       "values": {
-        "economicActivity": 0.382,
-        "businesses": 97000
+        "economicActivity": 0.459,
+        "businesses": 95000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: West Virginia",
-        "quote": "In 2024, Google helped provide $382 million of economic activity for thousands of West Virginia businesses, nonprofits, publishers, creators, and developers [$0.382 billion] … More than 97,000 West Virginia businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: West Virginia",
+        "quote": "In 2025, Google helped provide $459 million of economic activity for thousands of West Virginia businesses, nonprofits, publishers, creators, and developers [$0.459 billion] … More than 95,000 West Virginia businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "WI",
       "values": {
-        "economicActivity": 13.4,
-        "businesses": 365000
+        "economicActivity": 14.8,
+        "businesses": 370000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Wisconsin",
-        "quote": "In 2024, Google helped provide $13.4 billion of economic activity for tens of thousands of Wisconsin businesses, nonprofits, publishers, creators, and developers … More than 365,000 Wisconsin businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Wisconsin",
+        "quote": "In 2025, Google helped provide $14.8 billion of economic activity for tens of thousands of Wisconsin businesses, nonprofits, publishers, creators, and developers … More than 370,000 Wisconsin businesses used Google’s tools at no cost"
       }
     },
     {
       "state": "WY",
       "values": {
-        "economicActivity": 1.9,
-        "businesses": 48000
+        "economicActivity": 3.8,
+        "businesses": 49000
       },
       "plus": {
         "businesses": true
       },
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Wyoming",
-        "quote": "In 2024, Google helped provide $1.9 billion of economic activity for thousands of Wyoming businesses, nonprofits, publishers, creators, and developers … More than 48,000 Wyoming businesses used Google’s tools at no cost"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Wyoming",
+        "quote": "In 2025, Google helped provide $3.8 billion of economic activity for tens of thousands of Wyoming businesses, nonprofits, publishers, creators, and developers … More than 49,000 Wyoming businesses used Google’s tools at no cost"
       }
     }
   ],
@@ -886,14 +890,14 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "longLivedAssets": 138993
+        "longLivedAssets": 195337
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
-        "label": "Alphabet Inc. Form 10-K for fiscal 2024, long-lived assets by geographic area",
-        "quote": "The following table presents long-lived assets by geographic area, which includes property and equipment, net and operating lease assets (in millions): As of December 31, 2023 2024 Long-lived assets: United States $ 110,053 $ 138,993"
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "label": "Alphabet Inc. Form 10-K for fiscal 2025, long-lived assets by geographic area",
+        "quote": "The following table presents long-lived assets by geographic area, which includes property and equipment, net and operating lease assets (in millions): As of December 31, 2024 2025 Long-lived assets: United States $ 138,993 $ 195,337"
       }
     }
   ],
@@ -902,14 +906,14 @@
       "name": "International",
       "countries": null,
       "values": {
-        "longLivedAssets": 45631
+        "longLivedAssets": 66481
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
-        "label": "Alphabet Inc. Form 10-K for fiscal 2024, long-lived assets by geographic area",
-        "quote": "The following table presents long-lived assets by geographic area, which includes property and equipment, net and operating lease assets (in millions): As of December 31, 2023 2024 Long-lived assets: United States $ 110,053 $ 138,993 International 38,383 45,631"
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "label": "Alphabet Inc. Form 10-K for fiscal 2025, long-lived assets by geographic area",
+        "quote": "The following table presents long-lived assets by geographic area, which includes property and equipment, net and operating lease assets (in millions): As of December 31, 2024 2025 Long-lived assets: United States $ 138,993 $ 195,337 International 45,631 66,481"
       }
     }
   ],
@@ -923,8 +927,8 @@
       "description": "Our headquarters are located in Mountain View, California.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
-        "label": "Alphabet Inc. Form 10-K for fiscal 2024, Item 2. Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "label": "Alphabet Inc. Form 10-K for fiscal 2025, Item 2. Properties",
         "quote": "Our headquarters are located in Mountain View, California. We own and lease office facilities and data centers around the world, primarily in Asia, Europe, and North America."
       }
     },
@@ -937,9 +941,9 @@
       "description": "The Council Bluffs, Iowa data center was built in 2007",
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Iowa",
-        "quote": "Since the Council Bluffs, Iowa data center was built in 2007, Google has invested more than $6.8 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Iowa",
+        "quote": "Since the Council Bluffs, Iowa data center was built in 2007, Google has invested more than $20 billion in the state"
       }
     },
     {
@@ -951,9 +955,9 @@
       "description": "The New Albany, Ohio data center was built in 2019",
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Ohio",
-        "quote": "Since the New Albany, Ohio data center was built in 2019, and two new data centers in Columbus and Lancaster, Ohio were built in 2023, Google has invested more than $7.2 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Ohio",
+        "quote": "Since the New Albany, Ohio data center was built in 2019, and two new data centers in Columbus and Lancaster, Ohio were built in 2023, Google has invested more than $20 billion in the state"
       }
     },
     {
@@ -965,9 +969,9 @@
       "description": "The Mayes County, Oklahoma data center was built in 2007",
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Oklahoma",
-        "quote": "Since the Mayes County, Oklahoma data center was built in 2007, Google has invested more than $5.7 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Oklahoma",
+        "quote": "Since the Mayes County, Oklahoma data center was built in 2007, Google has invested more than $15 billion in the state"
       }
     },
     {
@@ -979,9 +983,9 @@
       "description": "The Papillion, Nebraska data center was built in 2019",
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Nebraska",
-        "quote": "Since the Papillion, Nebraska data center was built in 2019, the Omaha, Nebraska data center was built in 2022, and the development of a new data center in Lincoln, Nebraska was announced in 2023, Google has invested more than $4.7 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Nebraska",
+        "quote": "Since the Papillion, Nebraska data center was built in 2019, the Omaha, Nebraska data center was built in 2022, and the development of a new data center in Lincoln, Nebraska was announced in 2023, Google has invested more than $15 billion in the state"
       }
     },
     {
@@ -993,9 +997,9 @@
       "description": "The Berkeley County, South Carolina data center was built in 2007",
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: South Carolina",
-        "quote": "Since the Berkeley County, South Carolina data center was built in 2007, Google has invested more than $4.5 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: South Carolina",
+        "quote": "Since the Berkeley County, South Carolina data center was built in 2007, Google has invested more than $13 billion in the state"
       }
     },
     {
@@ -1007,9 +1011,9 @@
       "description": "The Loudoun County, Virginia data center was built in 2018",
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Virginia",
-        "quote": "Since the Loudoun County, Virginia data center was built in 2018, and the new data center in Prince William County, Virginia was built in 2023, Google has invested more than $4.5 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Virginia",
+        "quote": "Since the Loudoun County, Virginia data center was built in 2018, and the new data center in Prince William County, Virginia was built in 2023, Google has invested more than $15 billion in the state"
       }
     },
     {
@@ -1021,9 +1025,9 @@
       "description": "The Dalles, Oregon data center was opened in 2006",
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Oregon",
-        "quote": "Since The Dalles, Oregon data center was opened in 2006, Google has invested more than $2.4 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Oregon",
+        "quote": "Since The Dalles, Oregon data center was opened in 2006, Google has invested more than $7 billion in the state"
       }
     },
     {
@@ -1035,9 +1039,9 @@
       "description": "The Montgomery County, Tennessee data center was built in 2018",
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Tennessee",
-        "quote": "Since the Montgomery County, Tennessee data center was built in 2018, Google has invested more than $2.5 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Tennessee",
+        "quote": "Since the Montgomery County, Tennessee data center was built in 2018, Google has invested more than $6 billion in the state"
       }
     },
     {
@@ -1049,9 +1053,9 @@
       "description": "The Midlothian, Texas data center was built in 2019",
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Texas",
-        "quote": "Since the Midlothian, Texas data center was built in 2019, and the development of a new data center in Red Oak, Texas was announced in 2023, Google has invested more than $2.7 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Texas",
+        "quote": "Since the Midlothian, Texas data center was built in 2019, and the development of a new data center in Red Oak, Texas was announced in 2023, Google has invested more than $9 billion in the state"
       }
     },
     {
@@ -1063,9 +1067,9 @@
       "description": "The Henderson, Nevada data center was built in 2019",
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Nevada",
-        "quote": "Since the Henderson, Nevada data center was built in 2019, and the Storey County, Nevada data center was built in 2021, Google has invested more than $2.3 billion in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Nevada",
+        "quote": "Since the Henderson, Nevada data center was built in 2019, and the Storey County, Nevada data center was built in 2021, Google has invested more than $6 billion in the state"
       }
     },
     {
@@ -1077,9 +1081,9 @@
       "description": "The Douglas County, Georgia data center was built in 2003",
       "source": {
         "hostType": "company",
-        "url": "https://storage.googleapis.com/eir-national-report/2024.pdf",
-        "label": "Google, 2024 U.S. Google Economic Impact Report, state page: Georgia",
-        "quote": "Since the Douglas County, Georgia data center was built in 2003, Google has committed more than $1.2 billion of investment in the state"
+        "url": "https://storage.googleapis.com/eir-national-report/2025.pdf",
+        "label": "Google, 2025 U.S. Google Economic Impact Report, state page: Georgia",
+        "quote": "Since the Douglas County, Georgia data center was built in 2003, Google has committed more than $3 billion of investment in the state"
       }
     }
   ],

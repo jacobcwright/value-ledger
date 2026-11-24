@@ -1,14 +1,13 @@
 {
   "id": "henry-ford",
   "company": "Ford Motor Company",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
-
   "ownership": {
     "basis": "economic",
-    "asOf": "2025-02-01",
+    "asOf": "2026-02-01",
     "leader": {
       "name": "Henry Ford",
       "relation": "founder",
@@ -21,18 +20,18 @@
         "label": "Class B voting trust (trustees Edsel B. Ford II, William Clay Ford, Jr., Benson Ford, Jr. and Alfred B. Ford), holding 99.90% of Class B Stock; Class B carries 40% of the general voting power",
         "pctEconomic": null,
         "classBShares": 70778212,
-        "classBPct": 99.90,
+        "classBPct": 99.9,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/37996/000110465925029100/tm2416981-6_def14a.htm",
-          "label": "2025 proxy statement, Five Percent Beneficial Owners of Class B Stock (as of February 1, 2025)",
-          "quote": "Voting Trust**** Ford Estates, 2000 Brush, Detroit, MI 48226 70,778,212 99.90 % ... **** These shares of Class B Stock are held in a voting trust of which Edsel B. Ford II, William Clay Ford, Jr., Benson Ford, Jr., and Alfred B. Ford are the trustees."
+          "url": "https://www.sec.gov/Archives/edgar/data/37996/000155278126000164/e26003_f-def14a.htm",
+          "label": "2026 proxy statement, Five Percent Beneficial Owners of Class B Stock (as of February 1, 2026)",
+          "quote": "Voting Trust**** Ford Estates, 2000 Brush, Detroit, MI 48226 70,778,212 99.90% ... **** These shares of Class B Stock are held in a voting trust of which Edsel B. Ford II, William Clay Ford, Jr., Benson Ford, Jr., and Alfred B. Ford are the trustees."
         }
       },
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
-        "label": "FY2024 Form 10-K, Item 1 Business",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+        "label": "FY2025 Form 10-K, Item 1 Business",
         "quote": "We acquired the business of a Michigan company, also known as Ford Motor Company, which had been incorporated in 1903 to produce and sell automobiles designed and engineered by Henry Ford."
       }
     },
@@ -40,102 +39,128 @@
       {
         "name": "The Vanguard Group",
         "type": "asset-manager",
-        "pctEconomic": 10.3,
-        "asOf": "2024-12-31",
+        "pctEconomic": 11.68,
+        "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/37996/000110465925029100/tm2416981-6_def14a.htm",
-          "label": "2025 proxy statement, Five Percent Beneficial Owners of Common Stock (footnote 3); percent of common stock",
-          "quote": "The Vanguard Group and certain of its affiliates ... 402,083,783 10.3 % ... 3 Based on a review of the Schedule 13G/A filed on January 8, 2025 by The Vanguard Group."
+          "url": "https://www.sec.gov/Archives/edgar/data/37996/000155278126000164/e26003_f-def14a.htm",
+          "label": "2026 proxy statement, Five Percent Beneficial Owners of Common Stock (footnote 3); percent of common stock",
+          "quote": "Pursuant to SEC filings, the Company was notified that as of December 31, 2025, the entities included in the table below had more than a 5% ownership interest of Ford common stock ... The Vanguard Group and certain of its affiliates ... 457,660,261 3 11.68% ... 3. Based on a review of the Schedule 13G/A filed on April 30, 2025 by The Vanguard Group."
         }
       },
       {
         "name": "State Street Corporation",
         "type": "asset-manager",
-        "pctEconomic": 8.38,
-        "asOf": "2023-12-31",
+        "pctEconomic": 8.41,
+        "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/37996/000110465925029100/tm2416981-6_def14a.htm",
-          "label": "2025 proxy statement, Five Percent Beneficial Owners of Common Stock (footnotes 1-2); percent of common stock",
-          "quote": "State Street Corporation and certain of its affiliates ... 329,385,396 8.38 % ... 1 State Street Bank and Trust Company is the trustee for Ford common stock in the Ford defined contribution plans master trust, which beneficially owns 4.47% of the common stock of Ford."
+          "url": "https://www.sec.gov/Archives/edgar/data/37996/000155278126000164/e26003_f-def14a.htm",
+          "label": "2026 proxy statement, Five Percent Beneficial Owners of Common Stock (footnotes 1-2); percent of common stock",
+          "quote": "State Street Corporation and certain of its affiliates 1 ... 329,385,396 2 8.41% ... 1. State Street Bank and Trust Company is the trustee for Ford common stock in the Ford defined contribution plans master trust, which beneficially owns 3.5% of the common stock of Ford. ... 2. Based on a review of the Schedule 13G/A filed on January 29, 2024 by State Street Corporation."
         }
       },
       {
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
-        "pctEconomic": 7.2,
-        "asOf": "2023-12-31",
+        "pctEconomic": 8.36,
+        "asOf": null,
         "source": {
           "hostType": "sec",
-          "url": "https://www.sec.gov/Archives/edgar/data/37996/000110465925029100/tm2416981-6_def14a.htm",
-          "label": "2025 proxy statement, Five Percent Beneficial Owners of Common Stock (footnote 4); percent of common stock",
-          "quote": "BlackRock, Inc. and certain of its affiliates ... 282,647,800 7.2 % ... 4 Based on a review of the Schedule 13G/A filed on January 26, 2024 by BlackRock, Inc."
+          "url": "https://www.sec.gov/Archives/edgar/data/37996/000155278126000164/e26003_f-def14a.htm",
+          "label": "2026 proxy statement, Five Percent Beneficial Owners of Common Stock (footnote 4); percent of common stock",
+          "quote": "BlackRock, Inc. and certain of its affiliates ... 327,601,371 4 8.36% ... 4. Based on a review of the Schedule 13G/A filed on July 17, 2025 by BlackRock, Inc."
         }
       }
     ],
     "structure": {
       "dualClass": true,
       "controlled": false,
-      "note": "Holders of common stock have 60% of the general voting power and holders of Class B Stock the remaining 40%. At the March 12, 2025 record date there were 3,905,695,396 common shares and 70,852,076 Class B shares outstanding, and each Class B share had 36.75 votes. A voting trust whose trustees are Edsel B. Ford II, William Clay Ford, Jr., Benson Ford, Jr. and Alfred B. Ford holds 99.90% of Class B. Both classes share equally in dividends. The 40% Class B vote is below 50%, so the company is not majority-controlled."
+      "note": "Holders of common stock have 60% of the general voting power and holders of Class B Stock the remaining 40%. At the March 16, 2026 record date there were 3,940,230,185 common shares and 70,852,076 Class B shares outstanding, and each Class B share had 37.075 votes. A voting trust whose trustees are Edsel B. Ford II, William Clay Ford, Jr., Benson Ford, Jr. and Alfred B. Ford holds 99.90% of Class B. Both classes share equally in dividends. The 40% Class B vote is below 50%, so the company is not majority-controlled."
     }
   },
-
   "cash": {
     "dividends": {
-      "value": 3.12,
+      "value": 2.99,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Cash payments for dividends and dividend equivalents (2,009) (4,995) (3,118) [in millions, 2022, 2023, 2024]",
-        "xbrl": { "cik": "0000037996", "concept": "us-gaap:PaymentsOfDividendsCommonStock", "end": "2024-12-31", "value": 3118000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Cash payments for dividends and dividend equivalents ( 4,995 ) ( 3,118 ) ( 2,989 ) [in millions, 2023, 2024, 2025]",
+        "xbrl": {
+          "cik": "0000037996",
+          "concept": "us-gaap:PaymentsOfDividendsCommonStock",
+          "end": "2025-12-31",
+          "value": 2989000000
+        }
       }
     },
     "buybacks": {
-      "value": 0.43,
+      "value": 0,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Purchases of common stock (484) (335) (426) [in millions, 2022, 2023, 2024]",
-        "xbrl": { "cik": "0000037996", "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock", "end": "2024-12-31", "value": 426000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Purchases of common stock ( 335 ) ( 426 ) — [in millions, 2023, 2024, 2025; none in 2025]",
+        "xbrl": {
+          "cik": "0000037996",
+          "concept": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+          "end": "2025-12-31",
+          "value": 0
+        }
       }
     }
   },
-
   "workers": {
     "stockComp": {
       "value": 0.51,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
-        "label": "FY2024 Form 10-K, consolidated statements of cash flows",
-        "quote": "Stock compensation (Note 6) 336 460 511 [in millions, 2022, 2023, 2024]",
-        "xbrl": { "cik": "0000037996", "concept": "us-gaap:ShareBasedCompensation", "end": "2024-12-31", "value": 511000000 }
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of cash flows",
+        "quote": "Stock compensation (Note 6) 460 511 510 [in millions, 2023, 2024, 2025]",
+        "xbrl": {
+          "cik": "0000037996",
+          "concept": "us-gaap:ShareBasedCompensation",
+          "end": "2025-12-31",
+          "value": 510000000
+        }
       }
     },
     "plan": null
   },
-
   "geography": {
     "basis": "Total Company revenues by country of domicile and other countries where major subsidiaries are domiciled (where-sold basis)",
     "segments": [
-      { "name": "United States", "value": 124.97 },
-      { "name": "Canada", "value": 13.41 },
-      { "name": "United Kingdom", "value": 9.94 },
-      { "name": "Mexico", "value": 2.63 },
-      { "name": "All Other", "value": 34.04 }
+      {
+        "name": "United States",
+        "value": 122.57
+      },
+      {
+        "name": "Canada",
+        "value": 14.55
+      },
+      {
+        "name": "United Kingdom",
+        "value": 12.3
+      },
+      {
+        "name": "Mexico",
+        "value": 2.46
+      },
+      {
+        "name": "All Other",
+        "value": 35.38
+      }
     ],
-    "total": 184.99,
+    "total": 187.27,
     "source": {
       "hostType": "sec",
-      "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
-      "label": "FY2024 Form 10-K, Note 25 Segment Information, Geographic Information",
-      "quote": "(in millions) ... United States $ 105,481 $ 41,925 $ 116,995 $ 42,235 $ 124,968 $ 45,392 Canada 12,590 5,739 13,391 6,147 13,412 6,548 United Kingdom 8,220 1,264 8,968 1,868 9,936 2,174 Mexico 1,813 4,255 2,774 5,222 2,634 4,352 All Other 29,953 6,854 34,063 6,733 34,042 6,409 Total Company $ 158,057 $ 60,037 $ 176,191 $ 62,205 $ 184,992 $ 64,875 [columns: 2022, 2023, 2024, each Revenues then Long-Lived Assets]"
+      "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm",
+      "label": "FY2025 Form 10-K, Note 25 Segment Information, Geographic Information",
+      "quote": "(in millions): 2023 2024 2025 ... United States $ 116,995 $ 42,235 $ 124,968 $ 45,392 $ 122,574 $ 44,994 Canada 13,391 6,147 13,412 6,548 14,548 8,567 United Kingdom 8,968 1,868 9,936 2,174 12,298 2,260 Mexico 2,774 5,222 2,634 4,352 2,463 3,515 All Other 34,063 6,733 34,042 6,409 35,384 6,492 Total Company $ 176,191 $ 62,205 $ 184,992 $ 64,875 $ 187,267 $ 65,828 [revenues and long-lived assets per year; 2025 revenues are the 5th column]"
     }
   },
-
-  "notes": "Fiscal year ended December 31, 2024 (matches data.js fy 'Dec 2024'). Ford's 10-K columns run 2022, 2023, 2024 (left to right). HENRY FORD: deceased founder, so pctEconomic is null. FAMILY: the 2025 proxy (filed March 28, 2025) lists a voting trust with 70,778,212 Class B shares (99.90% of Class B) as of February 1, 2025. Its trustees are Edsel B. Ford II, William Clay Ford, Jr., Benson Ford, Jr. and Alfred B. Ford. The proxy names William Clay Ford, Jr. as a Ford family member and refers to 'the Ford family's more than 121 years of active involvement with and stewardship of the Company'. Holders of Class B Stock together have 40% of the general voting power. The proxy gives no percentage of all shares for the trust, so family.pctEconomic is null rather than derived. For reference, the trust's 70,778,212 Class B shares compare with 3,905,695,396 common plus 70,852,076 Class B shares outstanding at March 12, 2025. Individual Class B holders listed in the proxy (Edsel B. Ford II 6.62%, Lynn F. Alandt 9.05%, David P. Larsen as trustee 14.73%) are not added, because they overlap the voting trust's total. Ford family directors' own common-stock holdings are not added either. HOLDERS: percentages are of common stock only (Class B is under 2% of all shares). The proxy says that as of December 31, 2024 these entities had more than 5%, but the share counts come from Schedules 13G/A with these event dates: Vanguard, 12/31/2024 (filed January 8, 2025: https://www.sec.gov/Archives/edgar/data/37996/000093247125000033/xslSCHEDULE_13G_X01/primary_doc.xml); State Street, 12/31/2023 (filed January 29, 2024: https://www.sec.gov/Archives/edgar/data/37996/000009375124000310/Ford_Motor_Co.txt); BlackRock, December 31, 2023 (filed January 26, 2024: https://www.sec.gov/Archives/edgar/data/37996/000108636424004592/us3453708600_012624.txt). State Street's 8.38% includes the 4.47% it holds as trustee of the Ford defined contribution plans master trust, which is held for employees. DIVIDENDS are payments on Common and Class B Stock, including dividend equivalents; 2024 included a $0.18 supplemental dividend. PLAN: null; no broad employee stock purchase plan is described in the 10-K. STOCK COMP: the cash-flow add-back of $511m is pre-tax; Note 6 reports RSU/RSS compensation cost of $411m net of a $100m tax benefit.",
-  "researchedAt": "2026-11-23"
+  "notes": "Fiscal year ended December 31, 2025. Filings: FY2025 Form 10-K (accession 0000037996-26-000015, filed February 11, 2026) and the 2026 proxy statement (accession 0001552781-26-000164, filed March 27, 2026), both read on www.sec.gov. Ford's 10-K columns run 2023, 2024, 2025 (left to right). HENRY FORD: deceased founder, so pctEconomic is null. FAMILY: the 2026 proxy lists a voting trust with 70,778,212 Class B shares (99.90% of Class B) as of February 1, 2026. Its trustees are Edsel B. Ford II, William Clay Ford, Jr., Benson Ford, Jr. and Alfred B. Ford. The proxy names William Clay Ford, Jr. (Executive Chair) as a Ford family member and refers to 'the Ford family's more than 121 years of active involvement with and stewardship of the Company'. Holders of Class B Stock together have 40% of the general voting power. The proxy gives no percentage of all shares for the trust, so family.pctEconomic is null rather than derived. For reference, the trust's 70,778,212 Class B shares compare with 3,940,230,185 common plus 70,852,076 Class B shares outstanding at March 16, 2026. Individual Class B holders listed in the proxy (Edsel B. Ford II 6.56%, Lynn F. Alandt 8.84%, David P. Larsen as trustee 14.52%) are not added, because they overlap the voting trust's total. Ford family directors' own common-stock holdings are not added either. HOLDERS: percentages are of common stock only (Class B is under 2% of all shares). The proxy says that as of December 31, 2025 these entities had more than 5%, but the share counts come from Schedules 13G/A filed on different dates (Vanguard April 30, 2025; State Street January 29, 2024, stale; BlackRock July 17, 2025), so asOf is null. State Street's 8.41% includes the 3.5% it holds as trustee of the Ford defined contribution plans master trust, which is held for employees. DIVIDENDS are payments on Common and Class B Stock, including dividend equivalents. BUYBACKS: none in 2025 (the cash-flow line shows a dash). PLAN: null; no broad employee stock purchase plan is described in the 10-K. STOCK COMP: the cash-flow add-back of $510m is pre-tax.",
+  "researchedAt": "2026-11-24"
 }

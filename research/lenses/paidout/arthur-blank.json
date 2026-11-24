@@ -1,101 +1,101 @@
 {
  "id": "arthur-blank",
  "company": "Home Depot",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2025-02-02",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2026-02-01",
  "currency": "USD",
  "unit": "billions",
  "sector": "retail",
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 159.514,
-   "stated": 159514,
+   "value": 164.683,
+   "stated": 164683,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
-    "label": "Fiscal 2024 Form 10-K, consolidated statement of operations (in millions)",
-    "quote": "Fiscal 2024 2023 2022 Net sales $ 159,514 $ 152,669 $ 157,403",
+    "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+    "label": "Fiscal 2025 Form 10-K, consolidated statement of operations (in millions)",
+    "quote": "Net sales $ 164,683 $ 159,514 $ 152,669",
     "xbrl": {
      "cik": "0000354950",
      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-     "end": "2025-02-02",
-     "value": 159514000000
+     "end": "2026-02-01",
+     "value": 164683000000
     }
    }
   },
   "operatingCashFlow": {
-   "value": 19.81,
-   "stated": 19810,
+   "value": 16.325,
+   "stated": 16325,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
-    "label": "Fiscal 2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Net cash provided by operating activities 19,810 21,172 14,615",
+    "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+    "label": "Fiscal 2025 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Net cash provided by operating activities 16,325 19,810 21,172",
     "xbrl": {
      "cik": "0000354950",
      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-     "end": "2025-02-02",
-     "value": 19810000000
+     "end": "2026-02-01",
+     "value": 16325000000
     }
    }
   },
   "capex": {
-   "value": 3.485,
+   "value": 3.679,
    "components": [
-    "capital expenditures 3.485"
+    "PP&E 3.679"
    ],
-   "stated": 3485,
+   "stated": 3679,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
-    "label": "Fiscal 2024 Form 10-K, consolidated statement of cash flows (in millions)",
-    "quote": "Capital expenditures ( 3,485 ) ( 3,226 ) ( 3,119 )",
+    "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+    "label": "Fiscal 2025 Form 10-K, consolidated statement of cash flows (in millions)",
+    "quote": "Capital expenditures ( 3,679 ) ( 3,485 ) ( 3,226 )",
     "xbrl": {
      "cik": "0000354950",
      "concept": "us-gaap:PaymentsToAcquireProductiveAssets",
-     "end": "2025-02-02",
-     "value": 3485000000
+     "end": "2026-02-01",
+     "value": 3679000000
     }
    }
   },
   "interestPaid": {
-   "value": 2.199,
-   "stated": 2199,
+   "value": 2.405,
+   "stated": 2405,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
-    "label": "Fiscal 2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Cash paid for income taxes $ 3,653 $ 5,023 $ 5,435 Cash paid for interest, net of interest capitalized 2,199 1,809 1,449",
+    "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+    "label": "Fiscal 2025 Form 10-K, supplemental cash-flow disclosures (in millions)",
+    "quote": "Supplemental Disclosures: Cash paid for interest, net of interest capitalized 2,405 2,199 1,809",
     "xbrl": {
      "cik": "0000354950",
      "concept": "us-gaap:InterestPaidNet",
-     "end": "2025-02-02",
-     "value": 2199000000
+     "end": "2026-02-01",
+     "value": 2405000000
     }
    }
   },
   "taxesPaid": {
-   "value": 3.653,
-   "stated": 3653,
+   "value": 4.848,
+   "stated": 4848,
    "inOCF": true,
    "source": {
     "hostType": "sec",
-    "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000085/hd-20250202.htm",
-    "label": "Fiscal 2024 Form 10-K, supplemental cash-flow information (in millions)",
-    "quote": "Cash paid for income taxes $ 3,653 $ 5,023 $ 5,435 Cash paid for interest, net of interest capitalized 2,199 1,809 1,449",
+    "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+    "label": "Fiscal 2025 Form 10-K, Note 6 Income Taxes, income taxes paid (in millions)",
+    "quote": "The following table presents income taxes paid: in millions Fiscal Fiscal Fiscal 2025 2024 2023 Federal $ 3,590 $ 2,475 $ 3,737 ... Total income taxes paid $ 4,848 $ 3,653 $ 5,023",
     "xbrl": {
      "cik": "0000354950",
-     "concept": "us-gaap:IncomeTaxesPaid",
-     "end": "2025-02-02",
-     "value": 3653000000
+     "concept": "us-gaap:IncomeTaxesPaidNet",
+     "end": "2026-02-01",
+     "value": 4848000000
     }
    }
   }
  },
- "paidOut": 143.189,
- "paidOutFormula": "revenue 159,514 − operating cash flow 19,810 + capex 3,485 (USD millions, as stated)",
+ "paidOut": 152.037,
+ "paidOutFormula": "revenue 164,683 − operating cash flow 16,325 + capex 3,679 (USD millions, as stated)",
  "altPaidOut": null,
  "salesEnabled": null,
  "flags": {
@@ -104,6 +104,6 @@
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "Fiscal 2024 is the 53 weeks ended February 2, 2025. Payments for businesses acquired (17,644) excluded.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal 2025 is the 52 weeks ended February 1, 2026 (Fiscal 2025 Form 10-K, accession 0001628280-26-019436). Payments for businesses acquired, net (5,410, mainly GMS Inc.) excluded. Interest and income taxes paid are inside operating cash flow; income taxes paid are now in the income-tax note (ASU 2023-09), not the supplemental cash-flow lines.",
+ "researchedAt": "2026-11-24"
 }

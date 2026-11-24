@@ -5,24 +5,24 @@
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "2024",
+      "period": "2025",
       "tier": "company-published",
-      "definition": "'# of Employees' by country in Nasdaq's 2024 Tax Transparency table (total 9,138)."
+      "definition": "'# of Employees' by country in Nasdaq's 2025 Tax Transparency table (total 9,506)."
     },
     "incomeTaxPaid": {
       "label": "Corporate income tax paid",
       "unit": "currency-millions",
       "currency": "USD",
-      "period": "2024",
+      "period": "2025",
       "tier": "company-published",
-      "definition": "'Corporate Income Tax Paid on a Cash Basis, Net of Refund ($ in Millions)' by country in Nasdaq's 2024 Tax Transparency table (total $358 million; totals may not sum due to rounding)."
+      "definition": "'Corporate Income Tax Paid on a Cash Basis, Net of Refund ($ in Millions)' by country in Nasdaq's 2025 Tax Transparency table (total $373 million; totals may not sum due to rounding)."
     },
     "regionEmployees": {
       "label": "Employees",
       "unit": "people",
-      "period": "2024",
+      "period": "2025",
       "tier": "company-published",
-      "definition": "'Total number of <region> employees' in the Regional Breakdown of Workforce by Gender table (total 9,138)."
+      "definition": "'Total number of <region> employees' in the Regional Breakdown of Workforce by Gender table (total 9,506)."
     }
   },
   "usStates": null,
@@ -31,15 +31,15 @@
       "iso2": "AU",
       "name": "Australia",
       "values": {
-        "employees": 290,
-        "incomeTaxPaid": 17
+        "employees": 303,
+        "incomeTaxPaid": 18
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Australia 290 140 52 17"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Australia 303 152 57 18"
       }
     },
     {
@@ -52,54 +52,54 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Belgium 3 0 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Belgium 3 0 0 0"
       }
     },
     {
       "iso2": "BR",
       "name": "Brazil",
       "values": {
-        "employees": 13,
-        "incomeTaxPaid": 0
+        "employees": 10,
+        "incomeTaxPaid": 1
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Brazil 13 1 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Brazil 10 1 0 1"
       }
     },
     {
       "iso2": "CA",
       "name": "Canada",
       "values": {
-        "employees": 1433,
-        "incomeTaxPaid": 5
+        "employees": 1619,
+        "incomeTaxPaid": 100
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Canada 1,433 185 43 5"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Canada 1,619 60 30 100"
       }
     },
     {
       "iso2": "CL",
       "name": "Chile",
       "values": {
-        "employees": 12,
+        "employees": 14,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Chile 12 0 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Chile 14 0 0 0"
       }
     },
     {
@@ -112,24 +112,24 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … China 2 0 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … China 2 0 0 0"
       }
     },
     {
       "iso2": "CO",
       "name": "Colombia",
       "values": {
-        "employees": 32,
+        "employees": 31,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Colombia 32 1 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Colombia 31 0 1 0"
       }
     },
     {
@@ -137,14 +137,14 @@
       "name": "Denmark",
       "values": {
         "employees": 41,
-        "incomeTaxPaid": 9
+        "incomeTaxPaid": 10
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Denmark 41 51 39 9"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Denmark 41 56 39 10"
       }
     },
     {
@@ -157,24 +157,24 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Estonia 23 6 2 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Estonia 23 7 3 0"
       }
     },
     {
       "iso2": "FI",
       "name": "Finland",
       "values": {
-        "employees": 42,
-        "incomeTaxPaid": 8
+        "employees": 43,
+        "incomeTaxPaid": 6
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Finland 42 38 18 8"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Finland 43 41 15 6"
       }
     },
     {
@@ -182,104 +182,89 @@
       "name": "France",
       "values": {
         "employees": 127,
-        "incomeTaxPaid": 1
+        "incomeTaxPaid": 2
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … France 127 0 (1) 1"
-      }
-    },
-    {
-      "iso2": "GE",
-      "name": "Georgia",
-      "values": {
-        "employees": 30,
-        "incomeTaxPaid": 0
-      },
-      "plus": {},
-      "source": {
-        "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Georgia 30 0 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … France 127 0 14 2"
       }
     },
     {
       "iso2": "DE",
       "name": "Germany",
       "values": {
-        "employees": 27,
+        "employees": 23,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Germany 27 0 (1) 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Germany 23 0 3 0"
       }
     },
     {
       "iso2": "HK",
       "name": "Hong Kong",
       "values": {
-        "employees": 69,
+        "employees": 71,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Hong Kong 69 0 1 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Hong Kong 71 0 2 0"
       }
     },
     {
       "iso2": "IS",
       "name": "Iceland",
       "values": {
-        "employees": 18,
+        "employees": 16,
         "incomeTaxPaid": 1
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Iceland 18 13 7 1"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Iceland 16 15 8 1"
       }
     },
     {
       "iso2": "IN",
       "name": "India",
       "values": {
-        "employees": 1651,
-        "incomeTaxPaid": 4
+        "employees": 1837,
+        "incomeTaxPaid": 5
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … India 1,651 0 13 4"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … India 1,837 0 20 5"
       }
     },
     {
       "iso2": "IE",
       "name": "Ireland",
       "values": {
-        "employees": 15,
-        "incomeTaxPaid": 1
+        "employees": 10,
+        "incomeTaxPaid": 2
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Ireland 15 30 5 1"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Ireland 10 17 5 2"
       }
     },
     {
@@ -292,9 +277,9 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Israel 23 0 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Israel 23 0 1 0"
       }
     },
     {
@@ -307,24 +292,24 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Italy 6 0 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Italy 6 0 0 0"
       }
     },
     {
       "iso2": "JP",
       "name": "Japan",
       "values": {
-        "employees": 31,
+        "employees": 30,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Japan 31 0 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Japan 30 0 1 0"
       }
     },
     {
@@ -337,24 +322,24 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Latvia 17 5 2 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Latvia 17 6 2 0"
       }
     },
     {
       "iso2": "LT",
       "name": "Lithuania",
       "values": {
-        "employees": 532,
+        "employees": 611,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Lithuania 532 5 (2) 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Lithuania 611 6 8 0"
       }
     },
     {
@@ -367,174 +352,174 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Luxembourg 0 (12) 12 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Luxembourg 0 -2 2 0"
       }
     },
     {
       "iso2": "MX",
       "name": "Mexico",
       "values": {
-        "employees": 208,
+        "employees": 230,
         "incomeTaxPaid": 1
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Mexico 208 0 (1) 1"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Mexico 230 0 3 1"
       }
     },
     {
       "iso2": "NL",
       "name": "Netherlands",
       "values": {
-        "employees": 4,
+        "employees": 3,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Netherlands 4 18 3 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Netherlands 3 19 -1 0"
       }
     },
     {
       "iso2": "NO",
       "name": "Norway",
       "values": {
-        "employees": 20,
-        "incomeTaxPaid": 2
+        "employees": 13,
+        "incomeTaxPaid": 8
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Norway 20 21 31 2"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Norway 13 21 22 8"
       }
     },
     {
       "iso2": "PH",
       "name": "Philippines",
       "values": {
-        "employees": 411,
+        "employees": 515,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Philippines 411 0 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Philippines 515 0 1 0"
       }
     },
     {
       "iso2": "PL",
       "name": "Poland",
       "values": {
-        "employees": 113,
+        "employees": 140,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Poland 113 0 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Poland 140 0 2 0"
       }
     },
     {
       "iso2": "PT",
       "name": "Portugal",
       "values": {
-        "employees": 34,
+        "employees": 71,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Portugal 34 0 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Portugal 71 0 1 0"
       }
     },
     {
       "iso2": "SA",
       "name": "Saudi Arabia",
       "values": {
-        "employees": 1,
+        "employees": 2,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Saudi Arabia 1 0 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Saudi Arabia 2 0 0 0"
       }
     },
     {
       "iso2": "SG",
       "name": "Singapore",
       "values": {
-        "employees": 72,
+        "employees": 61,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Singapore 72 17 1 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Singapore 61 13 3 0"
       }
     },
     {
       "iso2": "KR",
       "name": "South Korea",
       "values": {
-        "employees": 6,
+        "employees": 9,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … South Korea 6 1 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … South Korea 9 1 0 0"
       }
     },
     {
       "iso2": "ES",
       "name": "Spain",
       "values": {
-        "employees": 19,
+        "employees": 21,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Spain 19 0 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Spain 21 0 1 0"
       }
     },
     {
       "iso2": "SE",
       "name": "Sweden",
       "values": {
-        "employees": 798,
-        "incomeTaxPaid": 13
+        "employees": 755,
+        "incomeTaxPaid": 33
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Sweden 798 362 85 13"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Sweden 755 430 173 33"
       }
     },
     {
@@ -547,69 +532,69 @@
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Turkey 1 0 0 0"
-      }
-    },
-    {
-      "iso2": "GB",
-      "name": "United Kingdom",
-      "values": {
-        "employees": 341,
-        "incomeTaxPaid": 11
-      },
-      "plus": {},
-      "source": {
-        "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … United Kingdom 341 66 38 11"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Turkey 1 0 0 0"
       }
     },
     {
       "iso2": "UA",
       "name": "Ukraine",
       "values": {
-        "employees": 189,
+        "employees": 162,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … Ukraine 189 0 1 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … Ukraine 162 0 1 0"
       }
     },
     {
       "iso2": "AE",
       "name": "United Arab Emirates",
       "values": {
-        "employees": 13,
+        "employees": 14,
         "incomeTaxPaid": 0
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … United Arab Emirates 13 0 0 0"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … United Arab Emirates 14 0 1 0"
+      }
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "values": {
+        "employees": 324,
+        "incomeTaxPaid": 6
+      },
+      "plus": {},
+      "source": {
+        "hostType": "company",
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … United Kingdom 324 71 24 6"
       }
     },
     {
       "iso2": "US",
       "name": "United States",
       "values": {
-        "employees": 2471,
-        "incomeTaxPaid": 283
+        "employees": 2325,
+        "incomeTaxPaid": 179
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Data Tables: 2024 Tax Transparency (GRI 207-4)",
-        "quote": "2024 Tax Transparency … United States 2,471 6,451 1,101 283"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Data Tables: 2025 Tax Transparency (GRI 207-4)",
+        "quote": "2025 Tax Transparency … United States 2,325 7,350 1,703 179"
       }
     }
   ],
@@ -618,42 +603,42 @@
       "name": "Americas",
       "countries": null,
       "values": {
-        "regionEmployees": 4169
+        "regionEmployees": 4229
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Workforce Data Tables: Regional Breakdown of Workforce by Gender",
-        "quote": "Total number of Americas employees 4,169"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Workforce Data Tables: Regional Breakdown of Workforce by Gender",
+        "quote": "Total number of Americas employees 4,229"
       }
     },
     {
       "name": "EMEA",
       "countries": null,
       "values": {
-        "regionEmployees": 2437
+        "regionEmployees": 2449
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Workforce Data Tables: Regional Breakdown of Workforce by Gender",
-        "quote": "Total number of EMEA employees 2,437"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Workforce Data Tables: Regional Breakdown of Workforce by Gender",
+        "quote": "Total number of EMEA employees 2,449"
       }
     },
     {
       "name": "Asia",
       "countries": null,
       "values": {
-        "regionEmployees": 2532
+        "regionEmployees": 2828
       },
       "plus": {},
       "source": {
         "hostType": "company",
-        "url": "https://www.nasdaq.com/nasdaq-2024-sustainability-report",
-        "label": "Nasdaq 2024 Sustainability Report, Workforce Data Tables: Regional Breakdown of Workforce by Gender",
-        "quote": "Total number of Asia employees 2,532"
+        "url": "https://www.nasdaq.com/nasdaq-2025-sustainability-report",
+        "label": "Nasdaq 2025 Sustainability Report, Workforce Data Tables: Regional Breakdown of Workforce by Gender",
+        "quote": "Total number of Asia employees 2,828"
       }
     }
   ],
@@ -667,8 +652,8 @@
       "description": "Leased U.S. headquarters",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
-        "label": "Nasdaq Form 10-K for fiscal year ended December 31, 2024, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm",
+        "label": "Nasdaq Form 10-K for fiscal year ended December 31, 2025, Item 2 Properties",
         "quote": "Our U.S. headquarters are located in New York, New York, and our European headquarters are located in Stockholm, Sweden."
       }
     },
@@ -680,12 +665,12 @@
       "description": "Leased European headquarters",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019325000008/ndaq-20241231.htm",
-        "label": "Nasdaq Form 10-K for fiscal year ended December 31, 2024, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/1120193/000162828026007703/ndaq-20251231.htm",
+        "label": "Nasdaq Form 10-K for fiscal year ended December 31, 2025, Item 2 Properties",
         "quote": "Our U.S. headquarters are located in New York, New York, and our European headquarters are located in Stockholm, Sweden."
       }
     }
   ],
-  "notes": "Nasdaq's 2024 Sustainability Report publishes a country-by-country tax transparency table (GRI 207-4) with employees, third-party revenue, profit before tax and cash corporate income tax for 39 countries; employees and tax paid are recorded here (revenue and profit by country are in the same table but are not repeated). A value of 0 means the table prints 0 (amounts are rounded to $ millions). The 10-K's 9,162 headcount includes part-time staff and non-wholly owned subsidiaries, so it differs from the 9,138 in the sustainability report. The report also has a Workforce by Gender and Country table (countries with over 50 employees) whose totals match the tax table. No state-level data is published. Nasdaq owns no real property (10-K Item 2).",
-  "researchedAt": "2026-11-23"
+  "notes": "Nasdaq's 2025 Sustainability Report publishes a country-by-country tax transparency table (GRI 207-4) with employees, third-party revenue, profit before tax and cash corporate income tax for 38 countries; employees and tax paid are recorded here (revenue and profit by country are in the same table but are not repeated). Georgia, listed in the 2024 table, is not in the 2025 table and its row was removed. A value of 0 means the table prints 0 (amounts are rounded to $ millions). The 10-K's 9,525 headcount at Dec 31, 2025 includes part-time staff and non-wholly owned subsidiaries, so it differs from the 9,506 in the sustainability report. The report also has a Workforce by Gender and Country table (countries with over 50 employees). No state-level data is published. Nasdaq owns no real property (FY2025 10-K Item 2).",
+  "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,22 @@
+{
+  "id": "joaquin-duato",
+  "company": "Johnson & Johnson",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 2407310266,
+      "sharesAsOf": "2026-10-15",
+      "pricedAs": "JNJ",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000197/jnj-20260927.htm",
+        "label": "Form 10-Q for the quarter ended September 27, 2026, cover page",
+        "quote": "On October 15, 2026, 2,407,310,266 shares of Common Stock, $1.00 par value, were outstanding."
+      }
+    }
+  ],
+  "notes": "One class of common stock (the 2026 proxy: 'Our common stock is the only class of shares outstanding'), listed on the NYSE as JNJ.",
+  "researchedAt": "2026-11-24"
+}

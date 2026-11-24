@@ -1,44 +1,44 @@
 {
   "id": "vasant-narasimhan",
   "company": "Novartis AG",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 2.26,
+      "value": 2.56,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
-        "label": "FY2024 Form 20-F, cash income taxes paid",
-        "quote": "Income taxes paid -2 258 -2 787 Payments out of provisions and [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+        "label": "FY2025 Form 20-F, cash income taxes paid",
+        "quote": "Income taxes paid 23.2 - 2 562 - 2 258 - 2 787 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001114448",
           "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
-          "end": "2024-12-31",
-          "value": 2258000000
+          "end": "2025-12-31",
+          "value": 2562000000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 10.02,
+      "value": 11.2,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000137036825000004/nvs-20241231.htm",
-        "label": "FY2024 Form 20-F, research and development expense",
-        "quote": "Research and development -10 022 -11 371 12 12 Other income 1 175 1 772 [USD millions; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
+        "label": "FY2025 Form 20-F, research and development expense",
+        "quote": "Research and development - 11 200 - 10 022 - 11 371 [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001114448",
           "concept": "ifrs-full:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 10022000000
+          "end": "2025-12-31",
+          "value": 11200000000
         }
       }
     }
   },
-  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, the caption does not say whether refunds are netted.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, continuing operations; the caption does not say whether refunds are netted.",
+  "researchedAt": "2026-11-24"
 }

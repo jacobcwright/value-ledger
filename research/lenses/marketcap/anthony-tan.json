@@ -1,0 +1,36 @@
+{
+  "id": "anthony-tan",
+  "company": "Grab Holdings",
+  "classes": [
+    {
+      "label": "Class A ordinary shares (in issue, excluding treasury shares)",
+      "shares": 3973517000,
+      "sharesAsOf": "2026-06-30",
+      "pricedAs": "GRAB",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000131/ck0001855612-20260630_d2.htm",
+        "label": "Interim report for the six months ended June 30, 2026 (Form 6-K filed August 13, 2026, Exhibit 99.1), Note 6 Capital and reserves (in thousands of shares)",
+        "quote": "The movement in GHL ordinary shares during the six months ended June 30, 2026 is as follows: (in thousands of shares) Class A ordinary shares Class B ordinary shares ... In issue at June 30 3,973,517 117,785 Ordinary shares held as treasury shares 16,076 -"
+      }
+    },
+    {
+      "label": "Class B ordinary shares",
+      "shares": 117785000,
+      "sharesAsOf": "2026-06-30",
+      "pricedAs": "GRAB",
+      "perListedUnit": 1,
+      "pricedAsReason": "Class B is unlisted and convertible into Class A one-for-one (FY2025 20-F: \"Each Class B Ordinary Share will be convertible into one Class A Ordinary Share at any time by the holder thereof.\")",
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000131/ck0001855612-20260630_d2.htm",
+        "label": "Interim report for the six months ended June 30, 2026 (Form 6-K filed August 13, 2026, Exhibit 99.1), Note 6 Capital and reserves (in thousands of shares)",
+        "quote": "The movement in GHL ordinary shares during the six months ended June 30, 2026 is as follows: (in thousands of shares) Class A ordinary shares Class B ordinary shares ... In issue at June 30 3,973,517 117,785 Ordinary shares held as treasury shares 16,076 -"
+      }
+    }
+  ],
+  "notes": "Class A trades on Nasdaq as GRAB (directly, not as ADSs). Counts are from the interim report for the six months ended June 30, 2026, the latest filing with a share count; it states them in thousands, so the shares are rounded to the nearest thousand. 'In issue at June 30' excludes the 16,076 thousand Class A shares held in treasury (the report adds them back to reach 3,989,593 thousand fully paid). The Class B figure includes 12,564 thousand restricted Class B shares issued but not fully vested. The 25,999,981 Class A shares issuable on warrants (at January 31, 2026) and the convertible notes are excluded. The FY2025 20-F count (3,972,725,983 Class A and 127,755,800 Class B at January 31, 2026) is older; since then Grab has bought back shares under its $500 million (February 2026) and $750 million (August 2026) programmes, so the November 2026 count may be lower.",
+  "researchedAt": "2026-11-24"
+}

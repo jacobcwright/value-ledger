@@ -1,0 +1,53 @@
+{
+  "id": "mary-barra",
+  "company": "General Motors",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 156000,
+    "asOf": "2025-12-31",
+    "basis": "approximately 88,000 hourly and approximately 68,000 salaried employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1, Employees",
+      "quote": "At December 31, 2025, we employed approximately 88,000 (56%) hourly employees and approximately 68,000 (44%) salaried employees."
+    },
+    "computedFrom": [
+      {
+        "label": "hourly employees",
+        "value": 88000,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm",
+          "label": "FY2025 Form 10-K, Item 1, Employees",
+          "quote": "At December 31, 2025, we employed approximately 88,000 (56%) hourly employees and approximately 68,000 (44%) salaried employees."
+        }
+      },
+      {
+        "label": "salaried employees",
+        "value": 68000,
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm",
+          "label": "FY2025 Form 10-K, Item 1, Employees",
+          "quote": "At December 31, 2025, we employed approximately 88,000 (56%) hourly employees and approximately 68,000 (44%) salaried employees."
+        }
+      }
+    ]
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "median employee earned",
+    "value": 89785,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000022/gm-20260420.htm",
+      "label": "2026 proxy statement (DEF 14A), Pay Ratio",
+      "quote": "Based on our calculation, we can reasonably estimate that our median employee earned $89,785 in 2025."
+    }
+  },
+  "notes": "Employees: the FY2025 10-K states hourly and salaried counts separately (approximately 88,000 hourly, 56%, and 68,000 salaried, 44%) but no total, so the head count is the sum of the two parts (computedFrom); source quotes the sentence that states both. Substantially all of the approximately 47,000 hourly U.S. employees are represented by unions. Payroll: the 10-K gives no total of salaries, wages or personnel costs, so the 2026 proxy's CEO pay ratio median for 2025 is used (ratio 333:1).",
+  "researchedAt": "2026-11-24"
+}

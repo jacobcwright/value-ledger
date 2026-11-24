@@ -1,8 +1,8 @@
 {
  "id": "anthony-tan",
  "company": "Grab Holdings",
- "fiscalYear": "FY2024",
- "fiscalYearEnd": "2024-12-31",
+ "fiscalYear": "FY2025",
+ "fiscalYearEnd": "2025-12-31",
  "currency": "USD",
  "unit": "billions",
  "statedUnit": "US$ million",
@@ -10,149 +10,161 @@
  "comparable": true,
  "inputs": {
   "revenue": {
-   "value": 2.797,
-   "stated": 2797,
+   "value": 3.37,
+   "stated": 3370,
    "divisor": 1000,
    "source": {
-    "hostType": "company",
-    "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-    "label": "FY2024 Form 20-F (2024 Annual Report), consolidated statement of profit or loss and other comprehensive income (in $ millions; 2024, 2023, 2022)",
-    "quote": "Revenue 20 2,797 2,359 1,433 Cost of revenue 21(iii) (1,623) (1,499) (1,356)"
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+    "label": "FY2025 Form 20-F, consolidated statement of profit or loss and other comprehensive income (in $ millions; 2025, 2024, 2023)",
+    "quote": "Revenue 19 3,370 2,797 2,359 Cost of revenue 20 ( 1,914 ) ( 1,623 ) ( 1,499 )",
+    "xbrl": {
+     "cik": "0001855612",
+     "concept": "ifrs-full:Revenue",
+     "end": "2025-12-31",
+     "value": 3370000000
+    }
    }
   },
   "operatingCashFlow": {
-   "value": 0.852,
-   "stated": 852,
+   "value": 0.079,
+   "stated": 79,
    "divisor": 1000,
    "source": {
-    "hostType": "company",
-    "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-    "label": "FY2024 Form 20-F (2024 Annual Report), consolidated statement of cash flows (in $ millions; 2024, 2023, 2022)",
-    "quote": "Cash from/ (used in) operations 910 131 (772) Income tax paid (58) (45) (26) Net cash from/ (used in) operating activities 852 86 (798)"
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+    "label": "FY2025 Form 20-F, consolidated statement of cash flows (in $ millions; 2025, 2024, 2023)",
+    "quote": "Cash from operations 168 910 131 Income tax paid ( 89 ) ( 58 ) ( 45 ) Net cash from operating activities 79 852 86"
    }
   },
   "capex": {
-   "value": 0.113,
+   "value": 0.123,
    "components": [
-    "PP&E 0.077",
-    "intangibles 0.036"
+    "PP&E 0.097",
+    "intangibles 0.026"
    ],
    "parts": [
     {
      "label": "PP&E",
-     "value": 0.077,
-     "stated": 77,
+     "value": 0.097,
+     "stated": 97,
      "divisor": 1000,
      "source": {
-      "hostType": "company",
-      "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-      "label": "FY2024 Form 20-F (2024 Annual Report), consolidated statement of cash flows (in $ millions; 2024, 2023, 2022)",
-      "quote": "Acquisition of property, plant and equipment (77) (71) (58)"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+      "label": "FY2025 Form 20-F, consolidated statement of cash flows (in $ millions; 2025, 2024, 2023)",
+      "quote": "Acquisition of property, plant and equipment ( 97 ) ( 77 ) ( 71 )"
      }
     },
     {
      "label": "intangibles",
-     "value": 0.036,
-     "stated": 36,
+     "value": 0.026,
+     "stated": 26,
      "divisor": 1000,
      "source": {
-      "hostType": "company",
-      "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-      "label": "FY2024 Form 20-F (2024 Annual Report), consolidated statement of cash flows (in $ millions; 2024, 2023, 2022)",
-      "quote": "Purchase of intangible assets (36) (21) (16)"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+      "label": "FY2025 Form 20-F, consolidated statement of cash flows (in $ millions; 2025, 2024, 2023)",
+      "quote": "Purchase of intangible assets ( 26 ) ( 36 ) ( 21 )"
      }
     }
    ],
-   "note": "Excludes acquisitions of subsidiaries (23), associates and joint venture (43), and other investments."
+   "note": "Excludes acquisitions of subsidiaries (100), additional interests in associates and joint venture (145), and other investments (609)."
   },
   "interestPaid": {
-   "value": 0.034,
-   "stated": 34,
+   "value": 0.026,
+   "stated": 26,
    "divisor": 1000,
    "source": {
-    "hostType": "company",
-    "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-    "label": "FY2024 Form 20-F (2024 Annual Report), consolidated statement of cash flows (in $ millions; 2024, 2023, 2022)",
-    "quote": "Deposits released/ (pledged) 49 (1) (3) Interest paid (34) (80) (160) Net cash used in financing activities (771) (770) (1,122)"
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+    "label": "FY2025 Form 20-F, consolidated statement of cash flows (in $ millions; 2025, 2024, 2023)",
+    "quote": "Deposits released/ (pledged) 16 49 ( 1 ) Interest paid ( 26 ) ( 34 ) ( 80 ) Net cash from/ (used in) financing activities 1,095 ( 771 ) ( 770 )"
    },
    "inOCF": false,
    "location": "financing activities"
   },
   "taxesPaid": {
-   "value": 0.058,
-   "stated": 58,
+   "value": 0.089,
+   "stated": 89,
    "divisor": 1000,
    "source": {
-    "hostType": "company",
-    "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-    "label": "FY2024 Form 20-F (2024 Annual Report), consolidated statement of cash flows (in $ millions; 2024, 2023, 2022)",
-    "quote": "Income tax paid (58) (45) (26) Net cash from/ (used in) operating activities 852 86 (798)"
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+    "label": "FY2025 Form 20-F, consolidated statement of cash flows (in $ millions; 2025, 2024, 2023)",
+    "quote": "Income tax paid ( 89 ) ( 58 ) ( 45 ) Net cash from operating activities 79 852 86",
+    "xbrl": {
+     "cik": "0001855612",
+     "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+     "end": "2025-12-31",
+     "value": 89000000
+    }
    },
    "inOCF": true,
    "location": "operating activities"
   },
   "leasePrincipalPaid": {
-   "value": 0.046,
-   "stated": 46,
+   "value": 0.052,
+   "stated": 52,
    "divisor": 1000,
    "source": {
-    "hostType": "company",
-    "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-    "label": "FY2024 Form 20-F (2024 Annual Report), consolidated statement of cash flows (in $ millions; 2024, 2023, 2022)",
-    "quote": "Payment of lease liabilities (46) (39) (35)"
+    "hostType": "sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+    "label": "FY2025 Form 20-F, consolidated statement of cash flows (in $ millions; 2025, 2024, 2023)",
+    "quote": "Payment of lease liabilities ( 52 ) ( 46 ) ( 39 )"
    },
    "added": false,
-   "note": "IFRS 16 lease principal in financing; noted, not added (2.2% of paidOut)."
+   "note": "IFRS 16 lease principal in financing; noted, not added (1.5% of paidOut)."
   }
  },
- "paidOut": 2.092,
- "paidOutFormula": "2,797 − 852 + 113 (77 PP&E + 36 intangibles) + 34 (interest paid, financing) = 2,092 US$ million",
+ "paidOut": 3.44,
+ "paidOutFormula": "3,370 − 79 + 123 (97 PP&E + 26 intangibles) + 26 (interest paid, financing) = 3,440 US$ million",
  "altPaidOut": null,
  "salesEnabled": {
-  "value": 15.56,
+  "value": 18.77,
   "measure": "On-demand GMV",
-  "measureValue": 18.36,
-  "platformRevenue": 2.8,
-  "formula": "18.36 − 2.8 = 15.56 (US$ billions), both inputs as stored in research/lenses/ecosystem/anthony-tan.json (not re-sourced)",
-  "note": "Biases: platformRevenue (total revenue 2,797) includes the financial services (253) and others (4) segments, which sit outside on-demand GMV, so salesEnabled is understated by about 0.26bn. On-demand GMV includes sales made through offline stores reported under deliveries (Jaya Grocer, a majority-owned supermarket chain, i.e. first-party sales) and is gross of taxes, tips, tolls, surcharges and fees; the first-party amount is not stated, so it is not subtracted (overstates)."
+  "measureValue": 22.14,
+  "platformRevenue": 3.37,
+  "formula": "22.14 − 3.37 = 18.77 (US$ billions), both inputs as stored in research/lenses/ecosystem/anthony-tan.json (not re-sourced)",
+  "note": "Biases: platformRevenue (total revenue 3,370) includes the financial services and others segments, which sit outside on-demand GMV, so salesEnabled is understated. On-demand GMV includes sales made through offline stores reported under deliveries (Jaya Grocer and, from March 2025, Everrise, majority-owned supermarket chains, i.e. first-party sales) and is gross of taxes, tips, tolls, surcharges and fees; the first-party amount is not stated, so it is not subtracted (overstates)."
  },
  "flags": {
   "financeReceivablesInOCF": {
-   "value": 0.567,
+   "value": -0.383,
    "components": [
-    "loan receivables in the financial services segment −0.276",
-    "deposits from customers in the banking business +0.843"
+    "loan receivables in the financial services segment −0.691",
+    "deposits from customers in the banking business +0.308"
    ],
    "parts": [
     {
-     "value": -0.276,
-     "stated": -276,
+     "value": -0.691,
+     "stated": -691,
      "divisor": 1000,
      "source": {
-      "hostType": "company",
-      "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-      "label": "FY2024 Form 20-F (2024 Annual Report), consolidated statement of cash flows (in $ millions; 2024, 2023, 2022)",
-      "quote": "- Loan receivables in the financial services segment (276) (184) (110)"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+      "label": "FY2025 Form 20-F, consolidated statement of cash flows (in $ millions; 2025, 2024, 2023)",
+      "quote": "- Loan receivables in the financial services segment ( 691 ) ( 276 ) ( 184 )"
      }
     },
     {
-     "value": 0.843,
-     "stated": 843,
+     "value": 0.308,
+     "stated": 308,
      "divisor": 1000,
      "source": {
-      "hostType": "company",
-      "url": "https://s205.q4cdn.com/179588156/files/doc_financials/2024/ar/0a47172d-73db-40cf-b942-918bc1caf2bf.pdf",
-      "label": "FY2024 Form 20-F (2024 Annual Report), consolidated statement of cash flows (in $ millions; 2024, 2023, 2022)",
-      "quote": "- Deposits from customers in the banking business 843 364 3"
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm",
+      "label": "FY2025 Form 20-F, consolidated statement of cash flows (in $ millions; 2025, 2024, 2023)",
+      "quote": "- Deposits from customers in the banking business 308 843 364"
      }
     }
    ],
-   "note": "Lending growth and digital-bank deposit inflows (the banking business, e.g. GXS Bank and GXBank) sit inside OCF. Net, they raise OCF by 567 and so lower paidOut by 0.567bn (27%). Excluding both, paidOut would be 2.659bn."
+   "note": "Lending growth and digital-bank deposit inflows (the banking business) sit inside OCF. Net, they lower OCF by 383 and so raise paidOut by 0.383bn (11%). Excluding both, OCF would be 462 and paidOut 3.057bn."
   },
   "interestDividendsReceivedInOCF": false,
   "revenueIncludesExcise": false,
   "nonCashRevenue": null
  },
- "notes": "IFRS, US$. Income tax paid is inside OCF; interest paid (34) is in financing and is added; interest received (191) is in investing, so it does not lower OCF. OCF includes the financial-services loan book growth (276 outflow) and banking-business customer deposits (843 inflow): flagged, not adjusted, and material (net 0.567bn vs paidOut 2.092bn). Revenue is after partner and consumer incentives, so incentives paid to drivers and merchants are not in revenue or in paidOut; driver and merchant earnings in Grab's agent-model businesses are captured in salesEnabled instead. Lease principal (46) noted, not added.",
- "researchedAt": "2026-11-23"
+ "notes": "Fiscal year ended December 31, 2025 (FY2025 Form 20-F on sec.gov). IFRS, US$. Income tax paid is inside OCF; interest paid (26) is in financing and is added; interest received (171) is in investing, so it does not lower OCF. OCF (79) is depressed by the financial-services loan book growth (691 outflow), partly offset by banking-business customer deposits (308 inflow): flagged, not adjusted, and material (net −0.383bn vs paidOut 3.440bn). Revenue is after partner and consumer incentives (partner 1,002 and consumer 1,268 in 2025), so incentives paid to drivers and merchants are not in revenue or in paidOut; driver and merchant earnings in Grab's agent-model businesses are captured in salesEnabled instead. Lease principal (52) noted, not added.",
+ "researchedAt": "2026-11-24"
 }

@@ -1,0 +1,22 @@
+{
+  "id": "albert-bourla",
+  "company": "Pfizer",
+  "classes": [
+    {
+      "label": "Common stock",
+      "shares": 5699853733,
+      "sharesAsOf": "2026-10-28",
+      "pricedAs": "PFE",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "source": {
+        "hostType": "sec",
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/pfe-20260927.htm",
+        "label": "Form 10-Q for the quarter ended September 27, 2026, cover page",
+        "quote": "At October 28, 2026, 5,699,853,733 shares of the issuer's voting common stock were outstanding."
+      }
+    }
+  ],
+  "notes": "One class of common stock, listed on the NYSE as PFE. The 10-K cover states 'The registrant has no non-voting common stock.'",
+  "researchedAt": "2026-11-24"
+}

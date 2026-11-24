@@ -1,0 +1,31 @@
+{
+  "id": "ellen-kullman",
+  "company": "DuPont de Nemours",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "USD",
+  "employees": {
+    "value": 15000,
+    "asOf": "2025-12-31",
+    "basis": "approximately 15,000 people worldwide, including approximately 1,700 dedicated to the Aramids Business",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000013/dd-20251231.htm",
+      "label": "FY2025 Form 10-K, Item 1 Human Capital",
+      "quote": "As of December 31, 2025, the Company employed approximately 15,000 people worldwide, approximately 1,700 of which are dedicated to the Aramids Business."
+    }
+  },
+  "payroll": {
+    "method": "median-pay",
+    "label": "annual total compensation for the median employee",
+    "value": 85492,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1666700/000119312526151204/d11932ddef14a.htm",
+      "label": "2026 proxy statement (DEF 14A), CEO Pay Ratio",
+      "quote": "The annual total compensation for the median employee was $85,492, determined in the same manner used to calculate total compensation for purposes of the Summary Compensation Table"
+    }
+  },
+  "notes": "Employees: approximate count at December 31, 2025, after the Qnity spin-off; it includes about 1,700 people in the Aramids business, which was sold on April 1, 2026. Payroll: the 10-K discloses no total staff cost, so the 2026 proxy's CEO pay ratio median for 2025 is used (same year as the head count); the median employee was identified from all employees worldwide as of November 2, 2025, using base pay.",
+  "researchedAt": "2026-11-24"
+}

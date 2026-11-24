@@ -1,0 +1,31 @@
+{
+  "id": "morris-chang",
+  "company": "TSMC",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
+  "currency": "TWD",
+  "employees": {
+    "value": 90557,
+    "asOf": "2025-12-31",
+    "basis": "full-time employees",
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+      "label": "FY2025 Form 20-F, Item 6.D Employees",
+      "quote": "The following table sets out, as of the dates indicated, the number of our full-time employees serving in the capacities indicated. ... Total 76,478 83,825 90,557 [2023, 2024, 2025]"
+    }
+  },
+  "payroll": {
+    "method": "personnel-expense",
+    "label": "Employee benefits expenses",
+    "value": 396.1148,
+    "source": {
+      "hostType": "sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+      "label": "FY2025 Form 20-F, notes to consolidated financial statements, c. Employee benefits expenses (NT$ million)",
+      "quote": "c. Employee benefits expenses ... Other employee benefits 233,517.3 293,968.0 387,600.3 $ 239,708.6 $ 301,822.1 $ 396,114.8 [2023, 2024, 2025]"
+    }
+  },
+  "notes": "Employees: full-time employees at December 31, 2025, from the 20-F's Item 6.D table (consolidated). Payroll: the IFRS note's total employee benefits expense for 2025 (NT$396,114.8 million: post-employment benefits 6,964.3, share-based payments 1,550.2 and other employee benefits 387,600.3, which include employee profit-sharing bonuses), recognized in cost of revenue (235,604.0) and operating expenses (160,510.8). TSMC is a foreign private issuer and has no CEO pay ratio.",
+  "researchedAt": "2026-11-24"
+}
