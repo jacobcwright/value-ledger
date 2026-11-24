@@ -33,7 +33,7 @@
 .ranking th[data-col] {width:11%}
 .ranking th[data-col="paidout"] {width:14%}
 /* The longest header wraps onto two lines instead of running into its neighbour */
-.ranking thead th[data-col="paidout"],.ranking thead th[data-col="multiple"] {white-space:normal}
+.ranking thead th[data-col] {white-space:normal}
 .ranking th[data-col="paidout"] button,.ranking th[data-col="multiple"] button {text-align:right}
 .ranking .col-company {width:15%}
 .ranking .col-industry {width:11%}
@@ -143,3 +143,4 @@
 @media (prefers-reduced-motion:reduce) {
   .search, .filter select, .ranking tr.entry, .ranking th button::after, .detail-profile, .detail-profile::after, .empty button {transition:none}
 }
+

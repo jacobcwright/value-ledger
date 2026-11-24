@@ -6,6 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import {execFileSync} from "node:child_process";
+import crypto from "node:crypto";
 // Yahoo answers curl but rate-limits Node's fetch fingerprint, so prices go through curl.
 const curl = url => execFileSync("curl", ["-sSfL", "--max-time", "60", "-A", "Mozilla/5.0", url], {encoding: "utf8"});
 
@@ -34,6 +35,10 @@ for (const sym of [...symbols].sort()) {
   // re-request exactly that session so the quote is a one-bar response
   const url = `https://query2.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?period1=${res.timestamp[k]}&period2=${res.timestamp[k] + 3600}&interval=1d`;
   const raw = curl(url); await sleep(600);
+  // Yahoo rate-limits bursts, so verify-quotes checks against this response, saved to its cache under the same key.
+  const cacheDir = path.join(root, "research/.cache");
+  fs.mkdirSync(cacheDir, {recursive: true});
+  fs.writeFileSync(path.join(cacheDir, crypto.createHash("sha1").update(url).digest("hex") + ".txt"), raw);
   const m = raw.match(/"close":\[[^\]]*\]/);
   const close = res.indicators.quote[0].close[k];
   let currency = res.meta.currency, divisor = 1;
