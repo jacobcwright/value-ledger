@@ -194,19 +194,6 @@
       "state": "KY"
     },
     {
-      "name": "Saarlouis Body and Assembly Plant",
-      "place": "Saarlouis",
-      "iso2": "DE",
-      "type": "assembly-plant",
-      "description": "Approximate current total employees: 6,190.",
-      "source": {
-        "hostType": "company",
-        "url": "https://corporate.ford.com/operations/locations/global-plants.html",
-        "label": "Ford Motor Company, Global Offices & Plants (corporate.ford.com)",
-        "quote": "Germany - Saarlouis Body and Assembly Plant Address Saarlouis, Germany Employment Approximate current total employees: 6,190"
-      }
-    },
-    {
       "name": "Hermosillo Stamping and Assembly Plant",
       "place": "Hermosillo, Sonora",
       "iso2": "MX",
@@ -259,6 +246,6 @@
       }
     }
   ],
-  "notes": "Ford publishes no state-by-state jobs or investment table that was found. Its corporate.ford.com Global Offices & Plants page lists each plant with approximate employees (U.S., Canadian and Mexican plants marked \"Headcount data from June 2026\"; others undated; rechecked 2026-11-24 with the same figures); per-state totals are not derived from it, so selected plants appear as sites. The FY2025 10-K gives ~169,000 employees worldwide with no regional split, says Ford and consolidated entities use over 409 operations facilities across 27 countries and 42 manufacturing and assembly plants, and names joint-venture plants (e.g. Türkiye, Thailand, China) without counts. Ford's corporate economic-impact page (corporate.ford.com/social-impact/economic-impact.html) returned only site navigation in its static HTML when last checked, so its body could not be read; no state-level U.S. investment figures were found on the Ford pages that could be read. Long-lived assets by country (Dec 31, 2025): U.S., Canada, UK, Mexico and All Other.",
+  "notes": "Ford publishes no state-by-state jobs or investment table that was found. Its corporate.ford.com Global Offices & Plants page lists each plant with approximate employees (U.S., Canadian and Mexican plants marked \"Headcount data from June 2026\"; others undated; rechecked 2026-11-24 with the same figures); per-state totals are not derived from it, so selected plants appear as sites. The FY2025 10-K gives ~169,000 employees worldwide with no regional split, says Ford and consolidated entities use over 409 operations facilities across 27 countries and 42 manufacturing and assembly plants, and names joint-venture plants (e.g. Türkiye, Thailand, China) without counts. Ford's corporate economic-impact page (corporate.ford.com/social-impact/economic-impact.html) returned only site navigation in its static HTML in the earlier research (not rechecked in this refresh), so its body could not be read; no state-level U.S. investment figures were found on the Ford pages that could be read. Long-lived assets by country (Dec 31, 2025): U.S., Canada, UK, Mexico and All Other. The Saarlouis Body and Assembly Plant site was removed: the FY2025 10-K says Ford ceased Focus production there in the fourth quarter of 2025 and plans to repurpose the facility into a technical center (the plants page still lists it).",
   "researchedAt": "2026-11-24"
 }

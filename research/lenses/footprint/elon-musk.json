@@ -5,7 +5,7 @@
     "employees": {
       "label": "Tesla employees",
       "unit": "people",
-      "period": "2021 (most recent Tesla-published state study; no newer edition found, checked 2026-11-24)",
+      "period": "2021 (most recent Tesla-published state study)",
       "tier": "company-commissioned",
       "definition": "Tesla employees in California, from 'The economic contributions of Tesla to the California economy, 2018–2021', an IHS Markit study (October 2022) hosted by Tesla."
     }

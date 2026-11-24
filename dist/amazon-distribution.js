@@ -14,9 +14,9 @@ const amazonOwnership = {
   // Form 10-Q for the quarter ended Sep 30, 2026, cover page: shares outstanding as of Oct 21, 2026 (the marketcap lens uses the same count).
   sharesOutstanding:10_813_138_306,
   sharesAsOf:"October 21, 2026",
-  // TODO: set to research/lenses/marketcap/_prices.json → symbols.AMZN.close (the Nov 20, 2026 close) once prices run.
+  // Stamped by scripts/build-edition.mjs from research/lenses/marketcap/_prices.json (symbols.AMZN.close).
   // 219.39 is the old Dec 31, 2024 close, kept only as a placeholder until then.
-  price:219.39,
+  price:246.82,
   priceAsOf:"November 20, 2026",
   registeredShareholders:12_165,
   registeredAsOf:"January 28, 2026",

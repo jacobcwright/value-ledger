@@ -15,7 +15,7 @@
       "unit": "people",
       "period": "calendar 2025",
       "tier": "company-published",
-      "definition": "Jobs supported by visitor spending on Airbnb in Canada, from Airbnb's internal analysis using the IMPLAN economic model ('more than 100,000 estimated jobs nationwide in 2025'). Estimate."
+      "definition": "Jobs supported by visitor spending on Airbnb, from Airbnb's internal analysis using the IMPLAN economic impact model: Canada ('more than 100,000 estimated jobs nationwide in 2025') and Vietnam ('supported more than 85,000 jobs' in 2025). Estimate; not the Oxford Economics study."
     },
     "jobsSupportedOE": {
       "label": "Jobs supported (Oxford Economics study)",
@@ -1620,6 +1620,22 @@
         "label": "Airbnb Newsroom Canada, \"Travel boom: 2025 was a record year for Canadian domestic travel\" (Apr 29, 2026)",
         "quote": "The influx of visitor spending helped support more than 100,000 estimated jobs nationwide in 2025, contributing to over $7.7 billion in labour income."
       }
+    },
+    {
+      "iso2": "VN",
+      "name": "Vietnam",
+      "values": {
+        "jobsSupported": 85000
+      },
+      "plus": {
+        "jobsSupported": true
+      },
+      "source": {
+        "hostType": "company",
+        "url": "https://www.airbnb.com/e/ppap_vietnamimpact",
+        "label": "Airbnb Asia Pacific economic impact page, Vietnam (Airbnb internal IMPLAN analysis; 2025 data)",
+        "quote": "In 2025, spending associated with Airbnb stays in Vietnam contributed an estimated VND 10.2 trillion to GDP, supported more than 85,000 jobs, and generated VND 5.2 trillion in labour income"
+      }
     }
   ],
   "regions": null,
@@ -1639,6 +1655,6 @@
       }
     }
   ],
-  "notes": "usStates: two rows per state (50 states and DC), both from Airbnb-authored Flourish maps embedded in Airbnb newsroom posts; the rows sit in each chart's data <script> block. (1) The 2025 U.S. economic impact map (news.airbnb.com/hosts-and-guests-boost-us-economy-by-a-record-93b-in-2025, Apr 15, 2026): jobs supported, GDP and total tax revenue by state, internal IMPLAN estimates, replacing the 2024 map. (2) The 2025 tourism-tax map (news.airbnb.com/hosts-and-guests-generated-17-3b-in-tourism-taxes-for-communities-around-the-world, Apr 6, 2026): taxes Airbnb collected and remitted on behalf of hosts, now for every state, replacing the 2024 newsroom list of 19 states and DC. State sums fall short of the national headlines (jobs about 1.07 million vs 'more than 1.1 million'; GDP about $91.9 billion vs 'more than $93 billion in economic activity'; tax about $23.8 billion vs 'over $26 billion'); tourism taxes sum to $2,710.6 million vs 'approximately $2.7 billion'. Countries: jobs supported in 9 Asia-Pacific countries from Airbnb's Oxford Economics-commissioned 2024 study (company-commissioned); the country pages were re-read on 2026-11-24 and still report 2024, so no newer edition was found. Thailand is 'Nearly 110,000', recorded as 110,000; Vietnam's page reports 2025, not 2024, and stays omitted so the study's countries share one year. Canada's 'more than 100,000 estimated jobs nationwide in 2025' (plus) is from Airbnb's internal IMPLAN analysis in its 2025 Canada release (company-published). Local-currency GDP figures per country were not recorded, to avoid mixing currencies. 10-K Item 2 names only the San Francisco headquarters.",
+  "notes": "usStates: two rows per state (50 states and DC), both from Airbnb-authored Flourish maps embedded in Airbnb newsroom posts; the rows sit in each chart's data <script> block. (1) The 2025 U.S. economic impact map (news.airbnb.com/hosts-and-guests-boost-us-economy-by-a-record-93b-in-2025, Apr 15, 2026): jobs supported, GDP and total tax revenue by state, internal IMPLAN estimates, replacing the 2024 map. (2) The 2025 tourism-tax map (news.airbnb.com/hosts-and-guests-generated-17-3b-in-tourism-taxes-for-communities-around-the-world, Apr 6, 2026): taxes Airbnb collected and remitted on behalf of hosts, now for every state, replacing the 2024 newsroom list of 19 states and DC. State sums fall short of the national headlines (jobs about 1.07 million vs 'more than 1.1 million'; GDP about $91.9 billion vs 'more than $93 billion in economic activity'; tax about $23.8 billion vs 'over $26 billion'); tourism taxes sum to $2,710.6 million vs 'approximately $2.7 billion'. Countries: jobs supported in 9 Asia-Pacific countries from Airbnb's Oxford Economics-commissioned 2024 study (company-commissioned); the country pages were re-read on 2026-11-24 and still report 2024, so no newer edition was found. Thailand is 'Nearly 110,000', recorded as 110,000. Vietnam's page is not part of that study: it reports 2025 from Airbnb's internal IMPLAN analysis ('supported more than 85,000 jobs'), and is now added under the same internal-analysis metric as Canada. Canada's 'more than 100,000 estimated jobs nationwide in 2025' (plus) is from Airbnb's internal IMPLAN analysis in its 2025 Canada release (company-published), replacing the 2024 release's 'over 105,000'. Local-currency GDP figures per country were not recorded, to avoid mixing currencies. 10-K Item 2 names only the San Francisco headquarters.",
   "researchedAt": "2026-11-24"
 }
