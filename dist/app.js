@@ -17,7 +17,10 @@ function externalLink(url, label) {
   if (!url?.startsWith("https://")) return escapeHtml(label);
   return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`;
 }
-const metrics = {cap:"Value created",jobs:"People employed",payroll:"Estimated annual pay to workers"};
+const metrics = {cap:"Value created",jobs:"People employed",paidout:"Paid out & sales enabled",payroll:"Estimated annual pay to workers"};
+// The ranking's columns, in table order. Estimated pay is no longer a column: it sits inside paid out,
+// so it is shown on its own in each profile and never added to it.
+const columns = ["cap","jobs","paidout"];
 const sortedByCap = [...leaders].sort((a,b) => b.cap - a.cap);
 // List-wide headline figures ("$35.5 trillion", "15 million", "$985 billion"). The key line under the
 // title, the "How value spreads" story and the <head> meta copy all use this one rounding, so they always match.
@@ -49,15 +52,50 @@ for (const industry of [...new Set(leaders.map(leader => leader.sector))].sort()
 function searchable(value) {
   return value.normalize("NFD").replace(/\p{Diacritic}/gu,"").toLowerCase();
 }
-const metricFormat = {cap:compactMoney,jobs:value => integer.format(value),payroll:compactMoney};
+// "Paid out & sales enabled" comes from dist/paidout.json (written by scripts/build-companies.mjs), in USD:
+// paid out, adjusted for customer lending where the company discloses it, plus sales enabled for marketplaces.
+// Banks and brokers are not comparable. The column is never summed across the 100: one company's payment is
+// another's revenue.
+let paidOut = null;
+const paidOutReady = fetch("paidout.json")
+  .then(response => response.ok ? response.json() : null)
+  .catch(() => null)
+  .then(list => { paidOut = list && typeof list === "object" ? list : {}; return paidOut; });
+const finiteNumber = value => typeof value === "number" && Number.isFinite(value);
+// {comparable, total, base, sales, adjusted, fiscalYear} for a leader, or null while loading or when there is no figure.
+function paidOutFor(leader) {
+  const entry = paidOut && paidOut[leader.id];
+  if (!entry) return null;
+  if (entry.comparable === false) return {comparable:false,total:null,fiscalYear:entry.fiscalYear || ""};
+  const adjusted = finiteNumber(entry.adjustedUsd);
+  const base = adjusted ? entry.adjustedUsd : entry.usd;
+  if (!finiteNumber(base)) return null;
+  const sales = finiteNumber(entry.salesEnabledUsd) ? entry.salesEnabledUsd : 0;
+  return {comparable:true,total:base + sales,base,sales,adjusted,fiscalYear:entry.fiscalYear || ""};
+}
+const metricValue = (leader,metric) => metric === "paidout" ? paidOutFor(leader)?.total ?? null : leader[metric];
+function paidOutCell(leader) {
+  const figure = paidOutFor(leader);
+  if (!paidOut) return '<span class="po-pending" aria-label="Loading">…</span>';
+  if (figure && !figure.comparable) return '<span class="po-nc">Not comparable</span>';
+  if (!figure) return '<span class="po-none" aria-label="Not available">—</span>';
+  return compactMoney(figure.total) + (figure.sales ? '<sup class="po-mark" title="Includes sales enabled on its platform">†</sup><span class="visually-hidden"> (includes sales enabled)</span>' : "");
+}
+const metricFormat = {cap:leader => compactMoney(leader.cap),jobs:leader => integer.format(leader.jobs),paidout:paidOutCell};
 const searchIndex = new Map(leaders.map(leader => [leader,searchable([leader.name,leader.company,leader.ticker,leader.sector].join(" "))]));
-// Each ranking is computed once from data.js; ties fall back to market value.
-const rankings = Object.fromEntries(Object.keys(metrics).map(metric => [metric,[...leaders].sort((a,b) => b[metric] - a[metric] || b.cap - a.cap)]));
+// Each ranking is computed from data.js (and paidout.json, once it arrives); ties fall back to market value.
+// Leaders without a figure (not comparable, or not available) sort last.
+const rankBy = metric => [...leaders].sort((a,b) => {
+  const x = metricValue(a,metric), y = metricValue(b,metric);
+  if (x == null || y == null) return (x == null) - (y == null) || b.cap - a.cap;
+  return y - x || b.cap - a.cap;
+});
+const rankings = Object.fromEntries(columns.map(metric => [metric,rankBy(metric)]));
 // One expanded row at a time, like the Forbes list. It stays open across re-renders while it is still shown.
 let openId = null;
 function rankingRow(leader,rank,metric) {
   const open = leader.id === openId;
-  const figures = Object.keys(metrics).map(key => `<td class="number${key === metric ? " active-col" : ""}">${metricFormat[key](leader[key])}</td>`).join("");
+  const figures = columns.map(key => `<td class="number${key === metric ? " active-col" : ""}">${metricFormat[key](leader)}</td>`).join("");
   return `<tr class="entry${open ? " is-open" : ""}" data-id="${leader.id}">
       <td class="rank">${rank}</td>
       <td class="name"><button type="button" class="row-toggle" aria-expanded="${open}" aria-controls="detail-${leader.id}"><span class="name-text">${escapeHtml(leader.name)}</span><span class="name-company">${escapeHtml(leader.company)}</span></button></td>
@@ -67,9 +105,19 @@ function rankingRow(leader,rank,metric) {
     </tr>
     <tr class="detail" id="detail-${leader.id}"${open ? "" : " hidden"}><td colspan="7"><div class="detail-panel">
       <img class="portrait" src="${leader.image}" alt="" width="96" height="96" loading="lazy" decoding="async">
-      <div class="detail-text"><p class="detail-name">${escapeHtml(leader.name)}</p><p class="detail-role">${escapeHtml(leader.role)} · ${escapeHtml(leader.company)}</p><p class="detail-line">Employs ${integer.format(leader.jobs)} people who earn an estimated ${compactMoney(leader.payroll)} a year.</p></div>
+      <div class="detail-text"><p class="detail-name">${escapeHtml(leader.name)}</p><p class="detail-role">${escapeHtml(leader.role)} · ${escapeHtml(leader.company)}</p><p class="detail-line">${detailLine(leader)}</p></div>
       <a class="detail-profile" href="#leader/${leader.id}">View profile</a>
     </div></td></tr>`;
+}
+// The open row's one line: what the company paid out, in USD, in its own fiscal year.
+function detailLine(leader) {
+  const figure = paidOutFor(leader);
+  if (figure?.comparable) {
+    const year = figure.fiscalYear ? ` in ${escapeHtml(figure.fiscalYear)}` : "";
+    return `Paid ${compactMoney(figure.base)} to employees, suppliers, partners, lenders and governments${year}${figure.adjusted ? ", adjusted for customer lending" : ""}.`
+      + (figure.sales ? ` Its platform enabled ${compactMoney(figure.sales)} in sales for others.` : "");
+  }
+  return `Employs ${integer.format(leader.jobs)} people who earn an estimated ${compactMoney(leader.payroll)} a year.`;
 }
 function render() {
   const search = searchable(query.value.trim());
@@ -153,6 +201,11 @@ rows.addEventListener("keydown",event => {
   row.querySelector(".row-toggle").focus();
 });
 render();
+// paidout.json arrives after the first render: rank by it, then redraw the table.
+paidOutReady.then(() => {
+  rankings.paidout = rankBy("paidout");
+  render();
+});
 
 const dialog = byId("profile");
 let profileGlobe, previousHash = "#ranking";
@@ -192,13 +245,15 @@ function openProfile(leader, section) {
   const figures = [
     ["cap",metrics.cap,compactMoney(leader.cap),"Market capitalization, year-end 2024"],
     ["jobs",metrics.jobs,integer.format(leader.jobs),"Directly, worldwide · " + escapeHtml(leader.fy)],
-    ["payroll",metrics.payroll,compactMoney(leader.payroll),"At " + dollars.format(leader.wage) + " per person"]
+    ["paidout",metrics.paidout,'<span id="stat-paidout">…</span>','<span id="stat-paidout-note">To employees, suppliers, partners, lenders and governments</span>'],
+    ["payroll",metrics.payroll,compactMoney(leader.payroll),"At " + dollars.format(leader.wage) + " per person · part of paid out, never added to it"]
   ];
   updateProfileNav(leader);
+  dialog.dataset.leader = leader.id;
   byId("profile-body").innerHTML = `
     <header class="profile-title">${portrait(leader,true)}<div class="profile-heading"><p class="eyebrow">NO. ${rank} BY VALUE CREATED <span aria-hidden="true">·</span> ${escapeHtml(leader.sector.toUpperCase())}</p><h2 id="profile-title">${escapeHtml(leader.name)}</h2><p class="profile-role">${escapeHtml(leader.role)} · <strong>${escapeHtml(leader.company)}</strong> <span class="profile-ticker">${escapeHtml(leader.ticker)}</span></p></div></header>
     <dl class="profile-stats">${figures.map(([key,label,value,note]) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong>${value}</strong><span>${note}</span></dd></div>`).join("")}</dl>
-    <p class="profile-lenses">Value created is measured here as market value, which counts only what owners keep. The sections below show more of the value ${escapeHtml(leader.company)} created; each stands on its own and they are never added together. <a href="/methodology">Methodology</a></p>
+    <p class="profile-lenses">Value created is measured here as market value, which counts only what owners keep. The sections below show more of the value ${escapeHtml(leader.company)} created, each on its own. Only paid out combines figures, and only its own parts; it never adds estimated pay, market value or another lens. <a href="/methodology">Methodology</a></p>
     ${!isAmazon && typeof companyValueSlot === "function" ? companyValueSlot(leader) : ""}
     ${isAmazon ? '<p class="amazon-profile-links"><button type="button" id="show-amazon-map">Explore where Amazon creates value</button></p>' : ""}
     ${isAmazon ? amazonDistribution(leader) : ""}
@@ -229,6 +284,18 @@ function openProfile(leader, section) {
     </div>`;
   if (!dialog.open) dialog.showModal();
   dialog.scrollTop = 0;
+  paidOutReady.then(() => {
+    const value = byId("stat-paidout"), note = byId("stat-paidout-note");
+    if (!value || dialog.dataset.leader !== leader.id) return;
+    const figure = paidOutFor(leader);
+    value.textContent = figure?.comparable ? compactMoney(figure.total) : figure ? "Not comparable" : "—";
+    value.parentElement.classList.toggle("is-text",!figure?.comparable);
+    // Pay sits inside paid out only where paid out is shown.
+    if (!figure?.comparable) document.querySelector("#profile-body .stat-payroll dd span").textContent = "At " + dollars.format(leader.wage) + " per person";
+    note.textContent = !figure ? "Not available"
+      : !figure.comparable ? "A bank’s or broker’s cash flows are mostly customers’ deposits and loans"
+      : [figure.fiscalYear,figure.adjusted ? "adjusted for customer lending" : "",figure.sales ? `incl. ${compactMoney(figure.sales)} sales enabled` : ""].filter(Boolean).join(" · ");
+  });
   const distribution = byId("amazon-distribution");
   if (distribution) bindAmazonDistribution(distribution);
   if (section === "distribution" && distribution) {

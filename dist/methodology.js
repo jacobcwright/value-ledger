@@ -4,7 +4,7 @@
 (() => {
   const byId = id => document.getElementById(id);
   const escapeHtml = value => String(value).replace(/[&<>"']/g, character => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[character]);
-  const names = {ownership:"Ownership",workers:"Workers",cash:"Cash to shareholders",geography:"Sales by region",ecosystem:"Ecosystem",taxes:"Taxes",rnd:"R&D",footprint:"Footprint"};
+  const names = {ownership:"Ownership",workers:"Workers",cash:"Cash to shareholders",paidout:"Paid out",geography:"Sales by region",ecosystem:"Ecosystem",taxes:"Taxes",rnd:"R&D",footprint:"Footprint"};
   const rows = byId("coverage-rows");
 
   function renderCoverage(coverage) {

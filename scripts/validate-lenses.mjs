@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 // Validates research/lenses/ecosystem/<id>.json and research/lenses/fiscal/<id>.json against
-// research/LENSES.md, with the same source rules as validate-records.mjs.
+// research/LENSES.md, research/lenses/paidout/<id>.json against research/PAIDOUT.md (including its
+// arithmetic), research/lenses/owners/<id>.json, and the shared _fx.json and _managers.json, all with the
+// same source rules as validate-records.mjs.
 // Usage: node scripts/validate-lenses.mjs [--xbrl] [--links] [--json] [ids...]
 //   --xbrl   re-fetch every figure that cites an SEC XBRL fact and confirm the value
 //   --links  confirm every source URL responds (GET < 400)
@@ -157,14 +159,304 @@ async function verifyFact(f) {
   return `value ${f.value} for ${f.concept} @ ${f.end} not found (filed values at that date: ${[...new Set(near)].join(", ") || "none"})`;
 }
 
+// ---- Paid out & sales enabled (research/PAIDOUT.md) and owners (NBIM, CalPERS, holders of record) ----
+// These two lenses have their own file shapes, so they are validated here but not through lensDirs and
+// fileLenses (whose header rules and one-key-per-lens layout they don't follow). The build publishes them
+// with its own functions; the arithmetic helpers below are shared so the validator and the build agree.
+export const extraLensDirs = {paidout: path.join(root, "research/lenses/paidout"), owners: path.join(root, "research/lenses/owners")};
+const fxFile = path.join(extraLensDirs.paidout, "_fx.json");
+const managersFile = path.join(extraLensDirs.owners, "_managers.json");
+const BANK_LIKE = ["bank", "broker", "insurer"];
+// Equal within rounding: research files store billions to at most 6 decimals.
+export const sameAmount = (a, b) => typeof a === "number" && typeof b === "number" && Math.abs(a - b) <= Math.max(1e-6, 1e-7 * Math.abs(b));
+
+// Every {url} object anywhere in a node (sources, derived inputs, definitions) must pass the source rules.
+function sourcesIn(node, where, errs, facts, links) {
+  if (Array.isArray(node)) return node.forEach((child, i) => sourcesIn(child, `${where}[${i}]`, errs, facts, links));
+  if (!node || typeof node !== "object") return;
+  if (typeof node.url === "string") return checkSource(node, where, errs, facts, links);
+  for (const [key, value] of Object.entries(node)) sourcesIn(value, `${where}.${key}`, errs, facts, links);
+}
+// A sourced number: { value, source }. Negative values allowed where a cash flow can be negative.
+// The documents behind one figure, as [{label, value, source}]: its own source, or the components it is
+// summed from (derived.inputs or parts). Empty when nothing backs it.
+export function figureSources(f) {
+  if (!f || typeof f !== "object") return [];
+  if (f.source && typeof f.source === "object") return [{label: "", value: f.value, source: f.source}];
+  const items = Array.isArray(f.parts) && f.parts.length ? f.parts : Array.isArray(f.derived?.inputs) ? f.derived.inputs : [];
+  return items.filter(item => item && typeof item === "object")
+    .map(item => typeof item.url === "string" ? {label: "", value: null, source: item} : {label: String(item.label || item.component || ""), value: typeof item.value === "number" ? item.value : null, source: item.source})
+    .filter(item => item.source && typeof item.source === "object");
+}
+// A sourced number: { value, source } or { value, derived: { inputs } } or { value, parts }. Negative values
+// allowed where a cash flow can be negative. Summed components must add up to the value.
+function sourcedNumber(f, where, errs, {min = 0, nullable = false} = {}) {
+  if (f == null) { if (!nullable) errs.push(`${where} missing`); return; }
+  if (typeof f !== "object") return errs.push(`${where} must be an object`);
+  if (f.value === null && nullable) return;
+  num(f.value, `${where}.value`, errs, {nullable: false, min, max: 1e7});
+  const backing = figureSources(f);
+  if (!backing.length) return errs.push(`${where}: no source (source, derived.inputs or parts)`);
+  if (!f.source && backing.every(item => typeof item.value === "number") && /sum|\+/.test(String(f.derived?.method || "+")) && !f.derived?.method?.includes("−")) {
+    const total = backing.reduce((sum, item) => sum + item.value, 0);
+    if (!sameAmount(total, f.value) && Math.abs(total - f.value) > 0.0005 * Math.max(1, Math.abs(f.value))) errs.push(`${where}: components add up to ${total}, not ${f.value}`);
+  }
+}
+const depreciation = inputs => inputs.depreciationAmortization || inputs.da;
+
+// Paid out = revenue − operating cash flow + capex (+ interest and/or income taxes paid, only where the filer
+// classifies them outside operating cash flow). Takes {revenue, operatingCashFlow, capex, interestPaid, taxesPaid}
+// as plain numbers or null, plus the inOCF flags. Returns null when an input is missing.
+export function paidOutFrom({revenue, operatingCashFlow, capex, interestPaid, interestInOCF, taxesPaid, taxesInOCF}) {
+  if (![revenue, operatingCashFlow, capex].every(v => typeof v === "number")) return null;
+  let total = revenue - operatingCashFlow + capex;
+  // An add-back the filer doesn't state separately (BYD merges interest with dividends) is left out; the
+  // build shows a caveat that paid out is understated by it.
+  if (interestInOCF === false && typeof interestPaid === "number") total += interestPaid;
+  if (taxesInOCF === false && typeof taxesPaid === "number") total += taxesPaid;
+  return total;
+}
+// Banks and brokers: operating costs paid, excluding interest = noninterest expense − D&A − stock comp + income taxes paid.
+export function altPaidOutFrom({noninterestExpense, depreciationAmortization, stockComp, taxesPaid}) {
+  if (![noninterestExpense, depreciationAmortization, stockComp, taxesPaid].every(v => typeof v === "number")) return null;
+  return noninterestExpense - depreciationAmortization - stockComp + taxesPaid;
+}
+const OCF_DIRECTION = text => {
+  const lowers = /\b(lower|lowers|lowering)\s+(OCF|operating cash flow)\b/i.test(text), raises = /\b(raise|raises|raising)\s+(OCF|operating cash flow)\b/i.test(text);
+  return lowers === raises ? null : lowers ? "lowers" : "raises";
+};
+// A part's label, or the line name its quote starts with ("- Loan receivables in the financial services segment (276) …").
+const lineName = quote => {
+  let line = String(quote || "").replace(/^[\s\-–•]+/, "");
+  const figure = line.match(/\s+\(?\s*[–-]?\d[\d,.]*\s*\)?(?=\s|$)/);
+  if (figure) line = line.slice(0, figure.index);
+  line = line.trim();
+  return line ? line.charAt(0).toUpperCase() + line.slice(1) : "";
+};
+const partLabel = part => part.label ? String(part.label) : lineName(part.source?.quote) || "Customer financing inside operating cash flow";
+// Judgement calls, named here so they are visible: the disclosed line is not customer lending alone.
+const LENDING_NOT_SEPARABLE = {"ginni-rometty": "IBM reports financing receivables in one line with trade receivables, so the lending part can't be separated."};
+// Customer lending (finance receivables, lease fleets, loan books) booked inside operating cash flow, read from
+// whichever of the three shapes a file uses. Returns {status, effect, parts, note}:
+//   status "none": not flagged · "adjusted": amount disclosed · "not-disclosed": flagged, no amount · "not-separable": see above.
+//   effect: how much the lending flows RAISED paid out (positive when they lowered operating cash flow); adjusted = paidOut − effect.
+//   parts: [{label, effect, source}], one per disclosed line.
+// Throws when a flagged file matches no known shape, so a new shape can't slip through unadjusted and uncaveated.
+export function lendingGrowth(rec) {
+  const id = rec.id, flag = rec.flags?.financeReceivablesInOCF;
+  const fromInputs = rec.inputs?.financeReceivablesChangeInOCF;
+  const fromOther = rec.inputs?.otherNamedItems?.financingReceivablesChangeInOCF;
+  if (!flag) return {status: "none", effect: 0, parts: [], note: ""};
+  if (LENDING_NOT_SEPARABLE[id]) return {status: "not-separable", effect: null, parts: [], note: LENDING_NOT_SEPARABLE[id]};
+  // 1. inputs.financeReceivablesChangeInOCF: a magnitude plus effectOnOCF.
+  if (flag === true && fromInputs && typeof fromInputs === "object") {
+    if (typeof fromInputs.value !== "number") return {status: "not-disclosed", effect: null, parts: [], note: String(fromInputs.note || "")};
+    const direction = fromInputs.effectOnOCF;
+    if (direction !== "lowers" && direction !== "raises") throw new Error(`paidout/${id}: inputs.financeReceivablesChangeInOCF.effectOnOCF must be "lowers" or "raises"`);
+    const effect = direction === "lowers" ? Math.abs(fromInputs.value) : -Math.abs(fromInputs.value);
+    const label = fromInputs.derivation || fromInputs.computedFrom ? "Loan originations net of repayments" : lineName(fromInputs.source?.quote) || "Customer financing inside operating cash flow";
+    return {status: "adjusted", effect, parts: [{label, effect, source: fromInputs.source}], note: String(fromInputs.note || "")};
+  }
+  // 2. inputs.otherNamedItems.financingReceivablesChangeInOCF: signed as in the cash-flow statement (an outflow is negative).
+  if (flag === true && fromOther && typeof fromOther === "object" && typeof fromOther.value === "number") {
+    const effect = -fromOther.value;
+    const stated = OCF_DIRECTION(String(fromOther.note || ""));
+    if (stated && (stated === "lowers") !== (effect > 0)) throw new Error(`paidout/${id}: financingReceivablesChangeInOCF sign disagrees with its note`);
+    return {status: "adjusted", effect, parts: [{label: lineName(fromOther.source?.quote) || "Financing receivables", effect, source: fromOther.source}], note: String(fromOther.note || "")};
+  }
+  // 3. An object in flags: { value, parts?, note }. No direction field, so the note states it; signed parts
+  //    (any negative) follow the cash-flow statement, unsigned parts are magnitudes in the note's direction.
+  if (flag && typeof flag === "object") {
+    if (typeof flag.value !== "number") return {status: "not-disclosed", effect: null, parts: [], note: String(flag.note || "")};
+    const direction = OCF_DIRECTION(String(flag.note || ""));
+    if (!direction) throw new Error(`paidout/${id}: flags.financeReceivablesInOCF has an amount but its note doesn't say whether it lowers or raises operating cash flow`);
+    const effect = direction === "lowers" ? Math.abs(flag.value) : -Math.abs(flag.value);
+    const raw = Array.isArray(flag.parts) ? flag.parts : [];
+    const signed = raw.some(part => part.value < 0);
+    const parts = raw.length
+      ? raw.map(part => ({label: partLabel(part), effect: signed ? -part.value : (direction === "lowers" ? 1 : -1) * Math.abs(part.value), source: part.source}))
+      : [{label: lineName(flag.source?.quote) || "Customer financing inside operating cash flow", effect, source: flag.source}];
+    if (!sameAmount(parts.reduce((sum, part) => sum + part.effect, 0), effect)) throw new Error(`paidout/${id}: flags.financeReceivablesInOCF parts don't add up to its value in the note's direction`);
+    return {status: "adjusted", effect, parts, note: String(flag.note || "")};
+  }
+  if (flag === true) return {status: "not-disclosed", effect: null, parts: [], note: ""};
+  throw new Error(`paidout/${id}: flags.financeReceivablesInOCF has an unknown shape`);
+}
+// Sales enabled: the marketplace's own gross volume − its revenue (− its own first-party sales where stated).
+export function salesEnabledFrom({measureValue, platformRevenue, firstPartySales = 0}) {
+  if (![measureValue, platformRevenue, firstPartySales].every(v => typeof v === "number")) return null;
+  return measureValue - platformRevenue - firstPartySales;
+}
+// Calendar year whose average rate applies: fiscal years ending January–June use the prior year (_fx.json notes).
+export const fxYear = fiscalYearEnd => { const [y, m] = String(fiscalYearEnd).split("-").map(Number); return m <= 6 ? y - 1 : y; };
+let fxCache;
+export function fxRates() {
+  fxCache ??= JSON.parse(fs.readFileSync(fxFile, "utf8"));
+  return fxCache;
+}
+export const managersList = () => JSON.parse(fs.readFileSync(managersFile, "utf8"));
+
+export function validatePaidoutFile(id) {
+  const file = path.join(extraLensDirs.paidout, id + ".json");
+  const result = {dirKey: "paidout", id, file, exists: fs.existsSync(file), errs: [], warns: [], facts: [], links: []};
+  if (!result.exists) return result;
+  const {errs, warns, facts} = result, links = new Set();
+  let rec;
+  try { rec = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { errs.push(`invalid JSON (${e.message})`); return result; }
+  result.record = rec;
+  if (!ids.has(rec.id)) errs.push(`id "${rec.id}" not in data.js`);
+  if (path.basename(file, ".json") !== rec.id) errs.push("file name must equal id");
+  for (const k of ["company", "fiscalYear", "fiscalYearEnd", "currency", "unit", "researchedAt", "sector"]) if (rec[k] == null) errs.push(`missing ${k}`);
+  if (rec.unit !== "billions") errs.push(`unit must be "billions"`);
+  if (!/^[A-Z]{3}$/.test(rec.currency || "")) errs.push("currency must be an ISO code");
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(rec.fiscalYearEnd || "")) errs.push("fiscalYearEnd must be YYYY-MM-DD");
+  if (typeof rec.comparable !== "boolean") errs.push("comparable must be true or false");
+  if (BANK_LIKE.includes(rec.sector) && rec.comparable !== false) errs.push(`sector ${rec.sector} must have comparable:false`);
+  const inputs = rec.inputs && typeof rec.inputs === "object" ? rec.inputs : (errs.push("inputs missing"), {});
+  sourcedNumber(inputs.revenue, "inputs.revenue", errs);
+  sourcedNumber(inputs.operatingCashFlow, "inputs.operatingCashFlow", errs, {min: -1e7});
+  for (const key of ["interestPaid", "taxesPaid"]) {
+    const f = inputs[key];
+    if (f == null) continue;
+    sourcedNumber(f, `inputs.${key}`, errs, {min: -1e7, nullable: true});
+    if (typeof f.value === "number" && typeof f.inOCF !== "boolean") errs.push(`inputs.${key}.inOCF must be true or false`);
+  }
+  if (rec.comparable) {
+    sourcedNumber(inputs.capex, "inputs.capex", errs);
+    if (typeof rec.paidOut !== "number") errs.push("paidOut must be a number when comparable");
+    const computed = paidOutFrom({revenue: inputs.revenue?.value, operatingCashFlow: inputs.operatingCashFlow?.value, capex: inputs.capex?.value,
+      interestPaid: inputs.interestPaid?.value, interestInOCF: inputs.interestPaid?.inOCF, taxesPaid: inputs.taxesPaid?.value, taxesInOCF: inputs.taxesPaid?.inOCF});
+    if (computed == null) errs.push("paidOut cannot be computed from the inputs");
+    else if (!sameAmount(computed, rec.paidOut)) errs.push(`paidOut ${rec.paidOut} ≠ revenue − operating cash flow + capex (+ add-backs) = ${computed}`);
+  } else {
+    if (rec.paidOut !== null) errs.push("paidOut must be null when not comparable");
+    for (const [key, f] of [["noninterestExpense", inputs.noninterestExpense], ["depreciationAmortization (or da)", depreciation(inputs)], ["stockComp", inputs.stockComp], ["taxesPaid", inputs.taxesPaid], ["interestPaid", inputs.interestPaid]]) sourcedNumber(f, `inputs.${key}`, errs);
+    const computed = altPaidOutFrom({noninterestExpense: inputs.noninterestExpense?.value, depreciationAmortization: depreciation(inputs)?.value, stockComp: inputs.stockComp?.value, taxesPaid: inputs.taxesPaid?.value});
+    if (typeof rec.altPaidOut !== "number") errs.push("altPaidOut must be a number when not comparable");
+    else if (computed == null || !sameAmount(computed, rec.altPaidOut)) errs.push(`altPaidOut ${rec.altPaidOut} ≠ noninterest expense − D&A − stock comp + taxes paid = ${computed}`);
+  }
+  if (!rec.flags || typeof rec.flags !== "object") errs.push("flags missing");
+  else {
+    for (const k of ["interestDividendsReceivedInOCF", "nonCashRevenue"]) {
+      const v = rec.flags[k];
+      if (v != null && v !== false && typeof v !== "number" && !(typeof v === "object" && (v.value === null || typeof v.value === "number"))) errs.push(`flags.${k} must be a number, { value, source } or null`);
+    }
+    if (rec.flags.revenueIncludesExcise != null && typeof rec.flags.revenueIncludesExcise !== "boolean") errs.push("flags.revenueIncludesExcise must be boolean");
+    if (rec.comparable) { try { lendingGrowth(rec); } catch (e) { errs.push(e.message.replace(/^paidout\/[^:]+: /, "")); } }
+  }
+  const se = rec.salesEnabled;
+  if (se != null) {
+    if (rec.sector !== "marketplace") errs.push("salesEnabled is for marketplaces only (sector: marketplace)");
+    for (const k of ["value", "measureValue", "platformRevenue"]) num(se[k], `salesEnabled.${k}`, errs, {nullable: false, max: 1e7});
+    if (!se.measure) errs.push("salesEnabled.measure missing");
+    const computed = salesEnabledFrom({measureValue: se.measureValue, platformRevenue: se.platformRevenue, firstPartySales: se.firstPartySales ? se.firstPartySales.value : 0});
+    if (computed == null || !sameAmount(computed, se.value)) errs.push(`salesEnabled.value ${se.value} ≠ measure − platform revenue${se.firstPartySales ? " − first-party sales" : ""} = ${computed}`);
+    const eco = path.join(lensDirs.ecosystem, rec.id + ".json");
+    if (!fs.existsSync(eco)) errs.push("salesEnabled needs research/lenses/ecosystem/<id>.json");
+    else {
+      const e = JSON.parse(fs.readFileSync(eco, "utf8")).ecosystem || {};
+      if (!sameAmount(e.measure?.value, se.measureValue)) errs.push(`salesEnabled.measureValue ${se.measureValue} ≠ ecosystem.measure.value ${e.measure?.value}`);
+      if (!sameAmount(e.platformRevenue?.value, se.platformRevenue)) errs.push(`salesEnabled.platformRevenue ${se.platformRevenue} ≠ ecosystem.platformRevenue.value ${e.platformRevenue?.value}`);
+    }
+  }
+  if (rec.currency !== "USD") {
+    const rate = fxRates().rates?.[rec.currency]?.[String(fxYear(rec.fiscalYearEnd))];
+    if (!rate || typeof rate.perUSD !== "number" || !(rate.perUSD > 0)) errs.push(`no ${rec.currency} rate for ${fxYear(rec.fiscalYearEnd)} in _fx.json`);
+  }
+  sourcesIn(rec, "", errs, facts, links);
+  if (rec.researchedAt && !/^\d{4}-\d{2}-\d{2}$/.test(rec.researchedAt)) warns.push("researchedAt should be YYYY-MM-DD");
+  result.links = [...links];
+  return result;
+}
+
+export function validateOwnersFile(id) {
+  const file = path.join(extraLensDirs.owners, id + ".json");
+  const result = {dirKey: "owners", id, file, exists: fs.existsSync(file), errs: [], warns: [], facts: [], links: []};
+  if (!result.exists) return result;
+  const {errs, facts} = result, links = new Set();
+  let rec;
+  try { rec = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { errs.push(`invalid JSON (${e.message})`); return result; }
+  result.record = rec;
+  if (!ids.has(rec.id)) errs.push(`id "${rec.id}" not in data.js`);
+  if (path.basename(file, ".json") !== rec.id) errs.push("file name must equal id");
+  if (!rec.company) errs.push("missing company");
+  for (const k of ["nbim", "calpers", "holdersOfRecord"]) if (rec[k] === undefined) errs.push(`${k} missing (use null when there is none)`);
+  const date = (v, where) => { if (!/^\d{4}-\d{2}-\d{2}$/.test(v || "")) errs.push(`${where} must be YYYY-MM-DD`); };
+  if (rec.nbim) {
+    num(rec.nbim.pct, "nbim.pct", errs, {nullable: false, max: 100});
+    date(rec.nbim.asOf, "nbim.asOf");
+    if (!rec.nbim.source) errs.push("nbim.source missing");
+  }
+  if (rec.calpers) {
+    const c = rec.calpers;
+    if (!Number.isInteger(c.shares) || c.shares <= 0) errs.push("calpers.shares must be a positive integer");
+    date(c.asOf, "calpers.asOf");
+    if (!c.source) errs.push("calpers.source missing");
+    if (!c.derived || typeof c.derived !== "object") errs.push("calpers.derived missing");
+    else {
+      num(c.derived.pct, "calpers.derived.pct", errs, {nullable: false, max: 100});
+      if (!c.derived.method) errs.push("calpers.derived.method missing");
+      if (!Array.isArray(c.derived.inputs) || !c.derived.inputs.length) errs.push("calpers.derived.inputs must list the share-count source");
+    }
+    if (c.basis != null && c.basis !== "class") errs.push(`calpers.basis must be "class" or absent`);
+    if (c.basis === "class" && !c.classLabel) errs.push("calpers.classLabel missing (required with basis: class)");
+  }
+  if (rec.holdersOfRecord) {
+    if (!Number.isInteger(rec.holdersOfRecord.count) || rec.holdersOfRecord.count <= 0) errs.push("holdersOfRecord.count must be a positive integer");
+    date(rec.holdersOfRecord.asOf, "holdersOfRecord.asOf");
+    if (!rec.holdersOfRecord.source) errs.push("holdersOfRecord.source missing");
+  }
+  sourcesIn(rec, "", errs, facts, links);
+  result.links = [...links];
+  return result;
+}
+
+// The shared files: FX rates and the asset-manager list.
+export function validateSharedFiles() {
+  const out = [];
+  for (const [label, file, check] of [
+    ["paidout/_fx", fxFile, (data, errs, facts, links) => {
+      for (const [currency, years] of Object.entries(data.rates || {})) for (const [year, rate] of Object.entries(years)) {
+        if (!(typeof rate.perUSD === "number" && rate.perUSD > 0)) errs.push(`${currency} ${year}: perUSD must be a positive number`);
+        if (rate.calendarYear !== Number(year)) errs.push(`${currency} ${year}: calendarYear must equal its key`);
+        sourcesIn(rate.source, `${currency}.${year}.source`, errs, facts, links);
+        if (rate.source?.hostType !== "regulator") errs.push(`${currency} ${year}: FX source must be a regulator (Federal Reserve or IRS)`);
+      }
+    }],
+    ["owners/_managers", managersFile, (data, errs, facts, links) => {
+      if (!Array.isArray(data)) return errs.push("must be an array");
+      data.forEach((m, i) => {
+        if (!m.name || !m.investsFor) errs.push(`[${i}] name and investsFor required`);
+        if (!Array.isArray(m.matches) || !m.matches.length) errs.push(`[${i}] matches must list holder names`);
+        sourcesIn(m.source, `[${i}].source`, errs, facts, links);
+        if (!m.source) errs.push(`[${i}] source missing`);
+      });
+    }]
+  ]) {
+    const errs = [], facts = [], links = new Set();
+    if (!fs.existsSync(file)) { out.push({label, errs: ["missing"], facts, links: []}); continue; }
+    try { check(JSON.parse(fs.readFileSync(file, "utf8")), errs, facts, links); } catch (e) { errs.push(`invalid JSON (${e.message})`); }
+    out.push({label, errs, facts, links: [...links]});
+  }
+  return out;
+}
+
 // Every leader id that has at least one lens file.
 export function lensIds() {
   const found = new Set();
-  for (const dir of Object.values(lensDirs)) {
+  for (const dir of [...Object.values(lensDirs), ...Object.values(extraLensDirs)]) {
     if (!fs.existsSync(dir)) continue;
     for (const f of fs.readdirSync(dir)) if (f.endsWith(".json") && !f.startsWith("_")) found.add(path.basename(f, ".json"));
   }
   return [...found].sort();
+}
+
+async function extraChecks(r, checkXbrl, checkLinks) {
+  if (checkXbrl) for (const fact of r.facts) { const e = await verifyFact(fact); if (e) r.errs.push(`xbrl ${fact.where}: ${e}`); }
+  if (checkLinks) for (const url of r.links) {
+    try { const res = await fetch(url, {headers: {"User-Agent": UA}, redirect: "follow"}); if (res.status >= 400) r.errs.push(`link ${res.status}: ${url}`); }
+    catch (e) { r.errs.push(`link error: ${url} (${e.message})`); }
+  }
 }
 
 async function main() {
@@ -200,6 +492,27 @@ async function main() {
         l.warns.forEach(w => console.log("      warn:  " + w));
       }
     }
+    // Paid out and owners: one lens per file.
+    for (const [dirKey, validate] of [["paidout", validatePaidoutFile], ["owners", validateOwnersFile]]) {
+      const r = validate(id);
+      if (!r.exists) continue;
+      files++;
+      await extraChecks(r, checkXbrl, checkLinks);
+      if (r.errs.length) failed++;
+      if (asJson) { console.log(JSON.stringify({id, file: dirKey, ok: !r.errs.length, errs: r.errs, warns: r.warns})); continue; }
+      const facts = r.facts.length ? `, ${r.facts.length} xbrl facts${checkXbrl ? " checked" : ""}` : "";
+      console.log(`${r.errs.length ? "✗" : "✓"} ${dirKey}/${id}  (${r.links.length} sources${facts})`);
+      r.errs.forEach(e => console.log("    error: " + e));
+      r.warns.forEach(w => console.log("    warn:  " + w));
+    }
+  }
+  if (!only.length) for (const r of validateSharedFiles()) {
+    files++;
+    await extraChecks(r, checkXbrl, checkLinks);
+    if (r.errs.length) failed++;
+    if (asJson) { console.log(JSON.stringify({file: r.label, ok: !r.errs.length, errs: r.errs})); continue; }
+    console.log(`${r.errs.length ? "✗" : "✓"} ${r.label}  (${r.links.length} sources)`);
+    r.errs.forEach(e => console.log("    error: " + e));
   }
   if (!asJson) console.log(`\n${files - failed}/${files} lens files valid`);
   process.exit(failed ? 1 : 0);
