@@ -91,12 +91,21 @@ const marketHeat = {
 };
 const amazonSalesTotal = amazonMarkets.reduce((sum,market) => sum + market.sales,0);
 
+const amazonLayers = ["markets","states","sites"];
+const amazonShare = sales => 100 * sales / amazonSalesTotal;
+const amazonSiteCountry = site => site.place.split(", ").pop();
+
 function amazonFootprint() {
   return `
     <section class="amazon-footprint" id="amazon-footprint" aria-labelledby="amazon-footprint-title">
       <header class="amazon-map-header">
-        <div><h3 id="amazon-footprint-title">Where Amazon creates value</h3><p id="amazon-layer-description">Amazon’s 2024 net sales by market</p></div>
-        <div class="amazon-map-switch" role="group" aria-label="Globe layer">
+        <div class="amazon-map-heading">
+          <p class="amazon-map-kicker">Reach</p>
+          <h3 id="amazon-footprint-title">Where Amazon creates value</h3>
+          <p class="amazon-map-lede"><span id="amazon-layer-description">Amazon’s 2024 net sales by market</span></p>
+          <p class="amazon-map-takeaway" id="amazon-layer-takeaway"></p>
+        </div>
+        <div class="amazon-map-switch" role="group" aria-label="Globe layer" style="--active:0">
           <button type="button" data-layer="markets" aria-pressed="true">Markets</button>
           <button type="button" data-layer="states" aria-pressed="false">U.S. states</button>
           <button type="button" data-layer="sites" aria-pressed="false">Sites</button>
@@ -105,20 +114,21 @@ function amazonFootprint() {
       <div class="amazon-map-layout" id="amazon-map-layout">
         <div class="amazon-world">
           <canvas id="amazon-globe" tabindex="0" aria-label="Amazon globe. Use the arrow keys to rotate, plus or minus to zoom, or choose an entry in the list."></canvas>
+          <p class="amazon-globe-hint" aria-hidden="true">Drag to rotate · Select a pin</p>
           <div class="amazon-heat-legend" id="amazon-legend"></div>
           <div class="zoom" aria-label="Globe zoom">
             <button type="button" data-zoom="-1" aria-label="Zoom out">−</button><button type="button" data-zoom="1" aria-label="Zoom in">+</button>
           </div>
         </div>
         <div class="amazon-map-panel">
-          <div id="amazon-map-list" class="amazon-map-list" aria-label="Globe locations"></div>
+          <div id="amazon-map-list" class="amazon-map-list" role="group" aria-label="Globe locations"></div>
           <div id="amazon-map-detail" class="amazon-map-detail" aria-live="polite"></div>
         </div>
       </div>
       ${amazonStatesView()}
       <footer class="amazon-map-notes">
         <p id="amazon-map-note">Hotter colors show higher net sales. Amazon reports sales by country storefront or, for AWS, by selling entity. Site output figures are shown where disclosed in the Sites layer.</p>
-        <div id="amazon-map-source">${externalLink(amazonSources.annual,"2024 annual report, Note 10")}</div>
+        <div id="amazon-map-source" class="amazon-map-source">${externalLink(amazonSources.annual,"2024 annual report, Note 10")}</div>
       </footer>
     </section>`;
 }
@@ -130,25 +140,71 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
   const note = byId("amazon-map-note");
   const source = byId("amazon-map-source");
   const statesView = byId("amazon-states-view");
+  const layout = byId("amazon-map-layout");
+  const switcher = root.querySelector(".amazon-map-switch");
+  const takeaway = byId("amazon-layer-takeaway");
   let layer, globe, entries;
 
-  function choose(index) {
+  // Restart a short CSS entrance animation on an element.
+  function enter(element) {
+    element.classList.remove("amazon-enter");
+    void element.offsetWidth;
+    element.classList.add("amazon-enter");
+  }
+
+  function choose(index, focus = false) {
     const item = entries[index];
     if (!item) return;
-    list.querySelectorAll("button[data-entry]").forEach((button,i) => button.setAttribute("aria-pressed",String(i === index)));
+    list.querySelectorAll("button[data-entry]").forEach((button,i) => {
+      button.setAttribute("aria-pressed",String(i === index));
+      if (i === index && focus) button.focus();
+    });
     if (layer === "markets") {
-      detail.innerHTML = `<h4>${item.name}</h4><strong>${compactMoney(item.sales)}</strong>
-        <p>${decimal.format(100 * item.sales / amazonSalesTotal)}% of Amazon’s 2024 net sales.</p>
+      const share = amazonShare(item.sales);
+      const color = marketHeat[item.id]?.color || "#82908c";
+      detail.innerHTML = `<p class="amazon-detail-kicker"><i aria-hidden="true" style="--dot:${color}"></i>2024 net sales</p>
+        <h4>${item.name}</h4><strong>${compactMoney(item.sales)}</strong>
+        <span class="amazon-detail-share" aria-hidden="true" style="--share:${share}%;--dot:${color}"><span></span></span>
+        <p>${decimal.format(share)}% of Amazon’s 2024 net sales.</p>
         ${item.id === "other" ? "<p>Amazon reports these markets as a group in its annual report.</p>" : ""}
-        ${item.id === "US" ? '<button type="button" class="map-scope-link" data-open-states>Explore all 50 states</button>' : ""}
-        <button type="button" class="map-scope-link" data-sites-in="${item.id}">Explore sites in ${item.id === "other" ? "other markets" : "this market"}</button>`;
+        <div class="amazon-detail-actions">
+          ${item.id === "US" ? '<button type="button" class="map-scope-link" data-open-states>Explore all 50 states</button>' : ""}
+          <button type="button" class="map-scope-link" data-sites-in="${item.id}">Explore sites in ${item.id === "other" ? "other markets" : "this market"}</button>
+        </div>`;
     } else {
-      detail.innerHTML = `<h4>${item.name}</h4>
-        ${item.metric ? `<strong>${item.metric}</strong><p>${item.basis}</p>` : ""}
+      const type = amazonSiteTypes[item.type];
+      detail.innerHTML = `<p class="amazon-detail-kicker"><i aria-hidden="true" style="--dot:${type.color}"></i>${type.label} · ${item.place}</p>
+        <h4>${item.name}</h4>
+        ${item.metric ? `<strong>${item.metric}</strong><p class="amazon-detail-basis">${item.basis}</p>` : ""}
         <p>${item.description}</p>
         ${externalLink(item.url,"Site source")}`;
     }
+    enter(detail);
     globe.select(item.lat == null ? -1 : index);
+  }
+
+  // Fade the bottom edge of the list while more rows are hidden below it.
+  function updateListFade() {
+    list.classList.toggle("has-more",list.scrollHeight - list.scrollTop - list.clientHeight > 4);
+  }
+  list.addEventListener("scroll",updateListFade,{passive:true});
+  const listObserver = new ResizeObserver(updateListFade);
+  listObserver.observe(list);
+
+  function setTakeaway(scope, scopeName) {
+    if (layer === "markets") {
+      const outside = amazonMarkets.filter(market => market.id !== "US").reduce((sum,market) => sum + market.sales,0);
+      takeaway.innerHTML = `<b>${compactMoney(amazonSalesTotal)}</b> in 2024 net sales, with <b>${decimal.format(amazonShare(outside))}%</b> from markets outside the United States.`;
+    } else if (layer === "states") {
+      const top = amazonStateData.reduce((best,state) => state.gdp > best.gdp ? state : best);
+      takeaway.innerHTML = `${top.name} leads with <b>${compactMoney(top.gdp)}${top.gdpPlus ? "+" : ""}</b> in estimated GDP contribution from 2010 through 2025.`;
+    } else {
+      const count = entries.length, plural = count === 1 ? "" : "s";
+      const countries = new Set(entries.map(amazonSiteCountry)).size;
+      takeaway.innerHTML = scopeName
+        ? `<b>${count}</b> selected site${plural} in ${scope.country === "other" ? "other markets" : scopeName}.`
+        : `<b>${count}</b> selected sites in <b>${countries}</b> countries, from fulfillment centers to cloud regions and offices.`;
+    }
   }
 
   function show(next, scope = {}) {
@@ -157,10 +213,13 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
     layer = next;
     const isMarket = layer === "markets", isStates = layer === "states";
     root.querySelectorAll("[data-layer]").forEach(button => button.setAttribute("aria-pressed",String(button.dataset.layer === layer)));
-    byId("amazon-map-layout").hidden = isStates;
+    switcher.style.setProperty("--active",amazonLayers.indexOf(layer));
+    layout.hidden = isStates;
     statesView.hidden = !isStates;
+    enter(isStates ? statesView : layout);
     if (isStates) {
       byId("amazon-layer-description").textContent = "Amazon’s economic impact across all 50 states";
+      setTakeaway();
       note.textContent = "Dollar figures cover 2010 through December 2025. Employment figures are snapshots. GDP contribution is an estimate from Amazon’s economic-impact study with Keystone Strategy, based on U.S. Bureau of Economic Analysis methods. A plus sign indicates a rounded lower bound.";
       source.innerHTML = externalLink(amazonStateSource,"Amazon’s state investment and impact report");
       return;
@@ -170,20 +229,35 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
     ));
     const scopeName = scope.state ? amazonStateData.find(state => state.id === scope.state).name : amazonMarkets.find(market => market.id === scope.country)?.name;
     byId("amazon-layer-description").textContent = isMarket ? "Amazon’s 2024 net sales by market" : "Selected warehouses, cloud regions, and offices";
+    setTakeaway(scope,scopeName);
+    const mapped = amazonMarkets.filter(market => marketHeat[market.id]);
+    const low = Math.min(...mapped.map(market => market.sales)), high = Math.max(...mapped.map(market => market.sales));
     byId("amazon-legend").innerHTML = isMarket
-      ? '<span class="amazon-heat-scale"></span><span>Lower to higher net sales</span>'
-      : Object.values(amazonSiteTypes).map(type => `<span><i style="--dot:${type.color}"></i>${type.label}</span>`).join("");
+      ? `<span class="amazon-legend-title">2024 net sales</span><span class="amazon-heat-scale"></span>
+        <span class="amazon-legend-range"><span>${compactMoney(low)}</span><span>${compactMoney(high)}</span></span>`
+      : `<span class="amazon-legend-title">Site type</span>` + Object.entries(amazonSiteTypes).map(([key,type]) => {
+          const count = entries.filter(site => site.type === key).length;
+          return `<span class="amazon-legend-item${count ? "" : " is-empty"}"><i style="--dot:${type.color}"></i>${type.label}<em>${count}</em></span>`;
+        }).join("");
     note.textContent = isMarket
       ? "Hotter colors show higher net sales. Amazon reports sales by country storefront or, for AWS, by selling entity. Other markets are grouped in its filing."
       : "Site figures show the measure Amazon disclosed, such as shipping capacity, jobs, or an investment commitment. The figures cover different dates and scopes.";
     source.innerHTML = isMarket ? externalLink(amazonSources.annual,"2024 annual report, Note 10") : "";
-    list.innerHTML = (scopeName ? `<div class="amazon-list-scope"><span>${scopeName}</span><button type="button" data-all-sites>Show all sites</button></div>` : "") + entries.map((item,index) => {
+    list.setAttribute("aria-label",isMarket ? "Markets by 2024 net sales" : scopeName ? `Selected sites in ${scopeName}` : "Selected sites");
+    list.classList.toggle("is-markets",isMarket);
+    list.innerHTML = (scopeName ? `<div class="amazon-list-scope"><span>Showing <strong>${scopeName}</strong></span><button type="button" data-all-sites>Show all sites</button></div>` : "") + entries.map((item,index) => {
       const color = isMarket ? marketHeat[item.id]?.color || "#82908c" : amazonSiteTypes[item.type].color;
+      if (isMarket) {
+        const share = amazonShare(item.sales);
+        return `<button type="button" data-entry="${index}" aria-pressed="false" style="--dot:${color};--share:${share}%">
+          <i aria-hidden="true"></i><strong>${item.name}</strong><b>${compactMoney(item.sales)}</b>
+          <span class="amazon-row-bar" aria-hidden="true"><span></span></span><small class="amazon-row-share">${decimal.format(share)}%<span class="amazon-sr"> of net sales</span></small></button>`;
+      }
       return `<button type="button" data-entry="${index}" aria-pressed="false" style="--dot:${color}">
-        <i aria-hidden="true"></i><span><strong>${item.name}</strong>${isMarket ? "" : `<small>${item.place} · ${amazonSiteTypes[item.type].label}</small>`}</span>
-        ${isMarket ? `<b>${compactMoney(item.sales)}</b>` : ""}</button>`;
+        <i aria-hidden="true"></i><span><strong>${item.name}</strong><small>${item.place} · ${amazonSiteTypes[item.type].label}</small></span></button>`;
     }).join("");
     list.scrollTop = 0;
+    updateListFade();
     const heat = isMarket ? new Map(amazonMarkets.flatMap(market => (amazonMarketMask[market.id] || []).map(index => [index,marketHeat[market.id]]))) : null;
     const markers = entries.filter(item => item.lat != null).map(item => [item.name,item.lat,item.lon]);
     globe = createGlobe(canvas,markers,choose,{
@@ -210,7 +284,27 @@ function bindAmazonFootprint(root, initialLayer = "markets") {
     if (target.dataset.zoom) globe.magnify(Number(target.dataset.zoom) * .15);
     if (target.dataset.sitesIn || target.dataset.sitesState || target.hasAttribute("data-all-sites")) list.querySelector("[data-entry]")?.focus();
   });
+
+  // Arrow keys move between layers in the switch and between rows in the list.
+  switcher.addEventListener("keydown",event => {
+    const step = {ArrowLeft:-1,ArrowRight:1}[event.key];
+    if (!step) return;
+    event.preventDefault();
+    const next = amazonLayers[(amazonLayers.indexOf(layer) + step + amazonLayers.length) % amazonLayers.length];
+    show(next);
+    switcher.querySelector(`[data-layer="${next}"]`).focus();
+  });
+  list.addEventListener("keydown",event => {
+    const current = event.target.closest("button[data-entry]");
+    if (!current) return;
+    const index = Number(current.dataset.entry), last = entries.length - 1;
+    const next = {ArrowDown:Math.min(last,index + 1),ArrowUp:Math.max(0,index - 1),Home:0,End:last}[event.key];
+    if (next == null) return;
+    event.preventDefault();
+    choose(next,true);
+  });
+
   bindAmazonStates(statesView);
   show(initialLayer);
-  return {destroy() { globe?.destroy(); }};
+  return {destroy() { globe?.destroy(); listObserver.disconnect(); }};
 }
