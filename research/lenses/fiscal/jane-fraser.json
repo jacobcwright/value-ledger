@@ -23,6 +23,6 @@
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the line does not say whether refunds are netted. R&D not reported as a separate line (bank).",
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the caption does not say whether refunds are netted. R&D not reported as a separate line (bank).",
   "researchedAt": "2026-11-23"
 }

@@ -23,6 +23,6 @@
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted. R&D not reported as a separate line. Netflix reports 'Technology and development' ($2,925,295 thousand; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), but the 10-K describes it as costs for technology personnel improving the service and does not call it research and development, so it is not recorded.",
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line. Netflix reports 'Technology and development' ($2,925,295 thousand; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), but the 10-K describes it as costs for technology personnel improving the service and does not call it research and development, so it is not recorded.",
   "researchedAt": "2026-11-23"
 }

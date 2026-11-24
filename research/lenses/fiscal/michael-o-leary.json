@@ -23,6 +23,6 @@
     }
   },
   "rnd": null,
-  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, net of refunds as presented. R&D not reported as a separate line (airline).",
+  "notes": "Taxes: ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities, the caption does not say whether refunds are netted. R&D not reported as a separate line (airline).",
   "researchedAt": "2026-11-23"
 }

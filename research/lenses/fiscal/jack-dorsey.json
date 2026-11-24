@@ -23,6 +23,6 @@
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted. R&D not reported as a separate line. Block reports 'Product development' ($2,914,415 thousand; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), which the 10-K describes as engineering, data science and design personnel and infrastructure costs without calling it research and development, so it is not recorded.",
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line. Block reports 'Product development' ($2,914,415 thousand; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), which the 10-K describes as engineering, data science and design personnel and infrastructure costs without calling it research and development, so it is not recorded.",
   "researchedAt": "2026-11-23"
 }

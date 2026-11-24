@@ -39,6 +39,6 @@
       }
     }
   },
-  "notes": "Taxes: ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities, the line does not say whether refunds are netted.",
+  "notes": "Taxes: ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities, the caption does not say whether refunds are netted.",
   "researchedAt": "2026-11-23"
 }

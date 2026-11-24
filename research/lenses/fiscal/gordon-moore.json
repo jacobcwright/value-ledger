@@ -12,7 +12,7 @@
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
         "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Income taxes, net of refunds $ 2,202 $ 2,621 $ 4,282 See accompanying [USD millions; FY2024 is the 1st figure in the row]",
+        "quote": "Cash paid during the year for: ... Income taxes, net of refunds $ 2,202 $ 2,621 $ 4,282 See accompanying [USD millions; FY2024 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000050863",
           "concept": "us-gaap:IncomeTaxesPaidNet",

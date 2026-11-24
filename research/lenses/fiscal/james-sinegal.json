@@ -12,7 +12,7 @@
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
         "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Income taxes, net $ 2,319 $ 2,234 $ 1,940 SUPPLEMENTAL [USD millions; FY2024 is the 1st figure in the row]",
+        "quote": "Cash paid during the year for: ... Income taxes, net $ 2,319 $ 2,234 $ 1,940 SUPPLEMENTAL [USD millions; FY2024 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000909832",
           "concept": "us-gaap:IncomeTaxesPaid",

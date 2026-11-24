@@ -12,7 +12,7 @@
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm",
         "label": "FY2025 Form 10-K, cash income taxes paid",
-        "quote": "Income taxes 1,226 1,299 1,517 Non-cash additions to property, plant [USD millions; FY2025 is the 1st figure in the row]",
+        "quote": "Cash paid during the year for: ... Income taxes 1,226 1,299 1,517 Non-cash additions to property, plant [USD millions; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000320187",
           "concept": "us-gaap:IncomeTaxesPaid",
@@ -23,6 +23,6 @@
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted. R&D not reported as a separate line; the 10-K says R&D costs sit inside operating overhead expense without giving an amount.",
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line; the 10-K says R&D costs sit inside operating overhead expense without giving an amount.",
   "researchedAt": "2026-11-23"
 }

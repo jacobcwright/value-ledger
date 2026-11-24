@@ -12,7 +12,7 @@
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000037/ebay-20241231.htm",
         "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Income taxes $ 722 $ 746 $ 540 The following table [USD millions; FY2024 is the 1st figure in the row]",
+        "quote": "Cash paid for: ... Income taxes $ 722 $ 746 $ 540 The following table [USD millions; FY2024 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001065088",
           "concept": "us-gaap:IncomeTaxesPaid",
@@ -23,6 +23,6 @@
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted. R&D not reported as a separate line. eBay reports 'Product development' ($1,479 million; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), which the 10-K does not call research and development, so it is not recorded.",
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line. eBay reports 'Product development' ($1,479 million; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL), which the 10-K does not call research and development, so it is not recorded.",
   "researchedAt": "2026-11-23"
 }

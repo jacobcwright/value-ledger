@@ -24,7 +24,7 @@
   },
   "rnd": {
     "expense": {
-      "value": 8.91,
+      "value": 8.92,
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
@@ -39,6 +39,6 @@
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted.",
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted.",
   "researchedAt": "2026-11-23"
 }

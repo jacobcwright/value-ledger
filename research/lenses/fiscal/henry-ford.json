@@ -39,6 +39,6 @@
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the line does not say whether refunds are netted. R&D line is Ford's 'Engineering, research, and development' expense, stated in billions.",
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the caption does not say whether refunds are netted. R&D line is Ford's 'Engineering, research, and development' expense, stated in billions.",
   "researchedAt": "2026-11-23"
 }

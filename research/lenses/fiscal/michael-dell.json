@@ -39,6 +39,6 @@
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted.",
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted.",
   "researchedAt": "2026-11-23"
 }

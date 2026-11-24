@@ -23,6 +23,6 @@
     }
   },
   "rnd": null,
-  "notes": "Taxes: ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities, the line does not say whether refunds are netted. R&D not reported as a separate line; the 20-F describes R&D activities without an expense figure.",
+  "notes": "Taxes: ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities, the caption does not say whether refunds are netted. R&D not reported as a separate line; the 20-F describes R&D activities without an expense figure.",
   "researchedAt": "2026-11-23"
 }

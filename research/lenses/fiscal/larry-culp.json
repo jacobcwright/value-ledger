@@ -39,6 +39,6 @@
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the line does not say whether refunds are netted. Taxes: 'Cash income taxes paid' from the income-tax note; per its footnote it includes taxes paid to taxing authorities.",
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, the caption does not say whether refunds are netted. Taxes: 'Cash income taxes paid' from the income-tax note; per its footnote it includes taxes paid to taxing authorities.",
   "researchedAt": "2026-11-23"
 }

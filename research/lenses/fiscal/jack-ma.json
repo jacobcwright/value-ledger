@@ -23,6 +23,6 @@
     }
   },
   "rnd": null,
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted. R&D not reported as a separate line. Alibaba reports 'Product development expenses' (RMB57,151 million for FY2025; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL). The 20-F says they primarily include costs for research and development personnel and development of new technologies, but it does not say the line is R&D, so it is not recorded under the ‘only if the filing says it is R&D’ rule.",
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the caption does not say whether refunds are netted. R&D not reported as a separate line. Alibaba reports 'Product development expenses' (RMB57,151 million for FY2025; tagged us-gaap:ResearchAndDevelopmentExpense in XBRL). The 20-F says they primarily include costs for research and development personnel and development of new technologies, but it does not say the line is R&D, so it is not recorded under the ‘only if the filing says it is R&D’ rule.",
   "researchedAt": "2026-11-23"
 }

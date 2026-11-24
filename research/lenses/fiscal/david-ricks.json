@@ -12,7 +12,7 @@
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/lly-20241231.htm",
         "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash payments of income taxes $ 6,562.1 $ 5,558.8 $ 2,672.9 As of December 31, [USD millions; FY2024 is the 1st figure in the row]",
+        "quote": "Cash payments of U.S. federal, state, and foreign income taxes, net of refunds, were as follows: ... Cash payments of income taxes $ 6,562.1 $ 5,558.8 $ 2,672.9 As of December 31, [USD millions; FY2024 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0000059478",
           "concept": "us-gaap:IncomeTaxesPaid",
@@ -39,6 +39,6 @@
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaid, the line does not say whether refunds are netted.",
+  "notes": "Taxes: us-gaap:IncomeTaxesPaid, net of refunds as presented.",
   "researchedAt": "2026-11-23"
 }
