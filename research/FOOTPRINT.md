@@ -14,7 +14,7 @@ Write one file per leader at `research/lenses/footprint/<id>.json`. All the rule
     "employees": { "label": "Associates", "unit": "people", "period": "as of …", "tier": "company-published", "definition": "…" },
     "taxes":     { "label": "Income taxes paid", "unit": "currency-millions", "currency": "EUR", "period": "FY2024", "tier": "company-published", "definition": "…" }
     // unit: count | people | currency-millions | currency-billions | percent
-    // tier: filing (10-K/20-F/annual report) | company-published (the company's own site or report) | company-commissioned (a study it paid for)
+    // tier: filing (10-K/20-F/annual report) | company-published (the company’s own site or report) | company-commissioned (a study it paid for) | regulator (government data about the company, e.g. FDIC branch and deposit data for banks)
   },
   "usStates": [                        // U.S. states and DC, postal codes; null if nothing is published by state
     { "state": "AR", "values": { "stores": 136, "employees": 56000 }, "plus": {},   // plus: { "employees": true } when the source says "56,000+"
