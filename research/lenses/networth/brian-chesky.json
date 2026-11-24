@@ -1,0 +1,19 @@
+{
+  "id": "brian-chesky",
+  "name": "Brian Chesky",
+  "netWorth": {
+    "value": 9.2,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 311,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"brian-chesky\",\"rank\":311,\"listUri\":\"billionaires\",\"visible\":true,\"position\":315,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":9200.0,\"finalWorthBillions\":9.2,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Brian Chesky\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Brian Chesky\" at rank 311 (ranks are shared on ties), net worth $9.2B, source \"Airbnb\".",
+  "researchedAt": "2026-11-24"
+}

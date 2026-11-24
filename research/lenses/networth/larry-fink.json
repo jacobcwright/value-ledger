@@ -1,0 +1,19 @@
+{
+  "id": "larry-fink",
+  "name": "Larry Fink",
+  "netWorth": {
+    "value": 1.2,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 2623,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"larry-fink\",\"rank\":2623,\"listUri\":\"billionaires\",\"visible\":true,\"position\":2665,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":1200.0,\"finalWorthBillions\":1.2,\"category\":\"Finance & Investments\",\"otherCompensation\":0,\"person\":{\"name\":\"Larry Fink\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Larry Fink\" at rank 2623 (ranks are shared on ties), net worth $1.2B, source \"money management\".",
+  "researchedAt": "2026-11-24"
+}

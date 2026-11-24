@@ -1,0 +1,19 @@
+{
+  "id": "eric-yuan",
+  "name": "Eric Yuan",
+  "netWorth": {
+    "value": 4.7,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 767,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"eric-yuan\",\"rank\":767,\"listUri\":\"billionaires\",\"visible\":true,\"position\":788,\"premiumProfile\":false,\"imageExists\":false,\"embargo\":false,\"finalWorth\":4700.0,\"finalWorthBillions\":4.7,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Eric Yuan & family\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Eric Yuan & family\" at rank 767 (ranks are shared on ties), net worth $4.7B, source \"Zoom Video Communications\". Forbes lists this as a family fortune (\"& family\"); the figure covers wealth Forbes attributes to him and his family, not him alone.",
+  "researchedAt": "2026-11-24"
+}

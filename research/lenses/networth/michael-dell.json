@@ -1,0 +1,19 @@
+{
+  "id": "michael-dell",
+  "name": "Michael Dell",
+  "netWorth": {
+    "value": 97.7,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 17,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"michael-dell\",\"rank\":17,\"listUri\":\"billionaires\",\"visible\":true,\"position\":17,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":97700.0,\"finalWorthBillions\":97.7,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Michael Dell\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Michael Dell\" at rank 17 (ranks are shared on ties), net worth $97.7B, source \"Dell Technologies\".",
+  "researchedAt": "2026-11-24"
+}

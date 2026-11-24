@@ -1,0 +1,19 @@
+{
+  "id": "tobias-lutke",
+  "name": "Tobias Lütke",
+  "netWorth": {
+    "value": 8.9,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 337,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"tobi-lutke\",\"rank\":337,\"listUri\":\"billionaires\",\"visible\":true,\"position\":339,\"premiumProfile\":false,\"imageExists\":false,\"embargo\":false,\"finalWorth\":8900.0,\"finalWorthBillions\":8.9,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Tobi Lutke\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Tobi Lutke\" at rank 337 (ranks are shared on ties), net worth $8.9B, source \"E-commerce\". Forbes lists him as \"Tobi Lutke\" (source \"E-commerce\").",
+  "researchedAt": "2026-11-24"
+}

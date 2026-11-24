@@ -1,0 +1,19 @@
+{
+  "id": "larry-ellison",
+  "name": "Larry Ellison",
+  "netWorth": {
+    "value": 192.0,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 4,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"larry-ellison\",\"rank\":4,\"listUri\":\"billionaires\",\"visible\":true,\"position\":4,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":192000.0,\"finalWorthBillions\":192.0,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Larry Ellison\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Larry Ellison\" at rank 4 (ranks are shared on ties), net worth $192.0B, source \"Oracle\".",
+  "researchedAt": "2026-11-24"
+}

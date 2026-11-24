@@ -1,0 +1,19 @@
+{
+  "id": "lloyd-blankfein",
+  "name": "Lloyd Blankfein",
+  "netWorth": {
+    "value": 1.6,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 2110,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"lloyd-blankfein\",\"rank\":2110,\"listUri\":\"billionaires\",\"visible\":true,\"position\":2120,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":1600.0,\"finalWorthBillions\":1.6,\"category\":\"Finance & Investments\",\"otherCompensation\":0,\"person\":{\"name\":\"Lloyd Blankfein\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Lloyd Blankfein\" at rank 2110 (ranks are shared on ties), net worth $1.6B, source \"Banking\".",
+  "researchedAt": "2026-11-24"
+}

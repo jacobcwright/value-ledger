@@ -1,0 +1,19 @@
+{
+  "id": "lei-jun",
+  "name": "Lei Jun",
+  "netWorth": {
+    "value": 43.5,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 32,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"lei-jun\",\"rank\":32,\"listUri\":\"billionaires\",\"visible\":true,\"position\":32,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":43500.0,\"finalWorthBillions\":43.5,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Lei Jun\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Lei Jun\" at rank 32 (ranks are shared on ties), net worth $43.5B, source \"Smartphones, automobiles\".",
+  "researchedAt": "2026-11-24"
+}

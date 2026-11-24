@@ -1,0 +1,19 @@
+{
+  "id": "ma-huateng",
+  "name": "Ma Huateng",
+  "netWorth": {
+    "value": 56.2,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 29,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"ma-huateng\",\"rank\":29,\"listUri\":\"billionaires\",\"visible\":true,\"position\":29,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":56200.0,\"finalWorthBillions\":56.2,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Ma Huateng\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Ma Huateng\" at rank 29 (ranks are shared on ties), net worth $56.2B, source \"Online games\".",
+  "researchedAt": "2026-11-24"
+}

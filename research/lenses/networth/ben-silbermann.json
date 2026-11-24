@@ -1,0 +1,19 @@
+{
+  "id": "ben-silbermann",
+  "name": "Ben Silbermann",
+  "netWorth": {
+    "value": 1.9,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 1850,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"ben-silbermann\",\"rank\":1850,\"listUri\":\"billionaires\",\"visible\":true,\"position\":1922,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"bio\":\"Pinterest wasn't an overnight success. Silbermann and his cofounder, Evan Sharp, spent several years fooling around with a shopping app called Tote before shifting to digital pinup boards. Things clicked: A year after a desktop version of the photo bookmarking site launched, Silbermann made the inaugural list of Under 30 in 2012. Pinterest had a $270 million valuation at the time. Silbermann remains CEO of the company, which saw monthly users rise 37% last year to 459 million, due to a burst of new interest in the lifestyle app during the pandemic. The publicly traded company was recently worth $30 billion.\",\"finalWorth\":1900.0,\"finalWorthBillions\":1.9,\"category\":\"Media & Entertainment\",\"otherCompensation\":0,\"person\":{\"name\":\"Ben Silbermann\",\"uri\":\"ben-silbermann\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5a9046cf4bbe6f0fa8265d45/416x416.jpg?background=000000&cropX1=150&cropX2=1533&cropY1=42&cropY2=1425\"},\"personName\":\"Ben Silbermann\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Ben Silbermann\" at rank 1850 (ranks are shared on ties), net worth $1.9B, source \"Social media\".",
+  "researchedAt": "2026-11-24"
+}

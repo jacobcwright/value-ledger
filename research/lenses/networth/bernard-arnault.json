@@ -1,0 +1,19 @@
+{
+  "id": "bernard-arnault",
+  "name": "Bernard Arnault",
+  "netWorth": {
+    "value": 178.0,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 5,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"bernard-arnault\",\"rank\":5,\"listUri\":\"billionaires\",\"visible\":true,\"position\":5,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":178000.0,\"finalWorthBillions\":178.0,\"category\":\"Fashion & Retail\",\"otherCompensation\":0,\"person\":{\"name\":\"Bernard Arnault & family\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Bernard Arnault & family\" at rank 5 (ranks are shared on ties), net worth $178.0B, source \"LVMH\". Forbes lists this as a family fortune (\"& family\"); the figure covers wealth Forbes attributes to him and his family, not him alone.",
+  "researchedAt": "2026-11-24"
+}

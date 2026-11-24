@@ -1,0 +1,19 @@
+{
+  "id": "mark-zuckerberg",
+  "name": "Mark Zuckerberg",
+  "netWorth": {
+    "value": 216.0,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 2,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"mark-zuckerberg\",\"rank\":2,\"listUri\":\"billionaires\",\"visible\":true,\"position\":2,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"bio\":\"Zuckerberg made the first ever Under 30 list in 2012, eight years after he started Facebook in his Harvard dorm room. At the time, his social network had amassed 845 million users and was readying for its $100 billion May 2012 IPO. Now called Meta, the company has 3.6 billion users across its Facebook, Instagram and WhatsApp as its market cap hovers around $1 trillion. But amid declining interest from young users and a tarnished brand, Zuckerberg is shifting his focus to virtual reality and a still unproven idea for a metaverse.\",\"finalWorth\":216000.0,\"finalWorthBillions\":216.0,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Mark Zuckerberg\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Mark Zuckerberg\" at rank 2 (ranks are shared on ties), net worth $216.0B, source \"Facebook\".",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "david-baszucki",
+  "name": "David Baszucki",
+  "netWorth": {
+    "value": 3.7,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 979,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"david-baszucki\",\"rank\":979,\"listUri\":\"billionaires\",\"visible\":true,\"position\":982,\"premiumProfile\":false,\"imageExists\":false,\"embargo\":false,\"finalWorth\":3700.0,\"finalWorthBillions\":3.7,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"David Baszucki\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"David Baszucki\" at rank 979 (ranks are shared on ties), net worth $3.7B, source \"Online games\".",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "elon-musk",
+  "name": "Elon Musk",
+  "netWorth": {
+    "value": 342.0,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 1,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"elon-musk\",\"rank\":1,\"listUri\":\"billionaires\",\"visible\":true,\"position\":1,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":342000.0,\"finalWorthBillions\":342.0,\"category\":\"Automotive\",\"otherCompensation\":0,\"person\":{\"name\":\"Elon Musk\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Elon Musk\" at rank 1 (ranks are shared on ties), net worth $342.0B, source \"Tesla, SpaceX\".",
+  "researchedAt": "2026-11-24"
+}

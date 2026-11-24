@@ -1,0 +1,19 @@
+{
+  "id": "kiran-mazumdar-shaw",
+  "name": "Kiran Mazumdar-Shaw",
+  "netWorth": {
+    "value": 3.1,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 1172,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"kiran-mazumdar-shaw\",\"rank\":1172,\"listUri\":\"billionaires\",\"visible\":true,\"position\":1199,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":3100.0,\"finalWorthBillions\":3.1,\"category\":\"Healthcare\",\"otherCompensation\":0,\"person\":{\"name\":\"Kiran Mazumdar-Shaw\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Kiran Mazumdar-Shaw\" at rank 1172 (ranks are shared on ties), net worth $3.1B, source \"Biopharmaceuticals\".",
+  "researchedAt": "2026-11-24"
+}

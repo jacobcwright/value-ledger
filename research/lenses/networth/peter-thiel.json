@@ -1,0 +1,19 @@
+{
+  "id": "peter-thiel",
+  "name": "Peter Thiel",
+  "netWorth": {
+    "value": 16.3,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 131,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"peter-thiel\",\"rank\":131,\"listUri\":\"billionaires\",\"visible\":true,\"position\":131,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"bio\":\"Although Peter Thiel remains the best-known investor at Founders Fund, he helped recruit another big-name member of the so-called \\\"PayPal Mafia\\\" to join the firm in 2019: Keith Rabois defected from Khosla Ventures in February. Thiel made his name as a venture capitalist due to an early bet on Facebook, but he could have two more big IPOs on the horizon this year: portfolio companies Airbnb and Palantir have both reportedly discussed going public in 2019. As a cofounder of Palantir, Thiel owns an estimated 10% of the data-mining startup, which was last valued at $20 billion.\",\"finalWorth\":16300.0,\"finalWorthBillions\":16.3,\"category\":\"Finance & Investments\",\"otherCompensation\":0,\"person\":{\"name\":\"Peter Thiel\",\"uri\":\"peter-thiel\",\"imageExists\":true,\"squareImage\":\"//specials-images.forbesimg.com/imageserve/5a836fff31358e4955ad6549/416x416.jpg?background=000000&cropX1=234&cropX2=790&cropY1=7&cropY2=563\"},\"personName\":\"Peter Thiel\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Peter Thiel\" at rank 131 (ranks are shared on ties), net worth $16.3B, source \"Facebook, investments\".",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "andrew-forrest",
+  "name": "Andrew Forrest",
+  "netWorth": {
+    "value": 14.4,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 160,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"andrew-forrest\",\"rank\":160,\"listUri\":\"billionaires\",\"visible\":true,\"position\":161,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":14400.0,\"finalWorthBillions\":14.4,\"category\":\"Metals & Mining\",\"otherCompensation\":0,\"person\":{\"name\":\"Andrew Forrest & family\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Andrew Forrest & family\" at rank 160 (ranks are shared on ties), net worth $14.4B, source \"Mining\". Forbes lists this as a family fortune (\"& family\"); the figure covers wealth Forbes attributes to him and his family, not him alone.",
+  "researchedAt": "2026-11-24"
+}

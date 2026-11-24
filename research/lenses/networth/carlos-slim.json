@@ -1,0 +1,19 @@
+{
+  "id": "carlos-slim",
+  "name": "Carlos Slim",
+  "netWorth": {
+    "value": 82.5,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 19,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"carlos-slim-helu\",\"rank\":19,\"listUri\":\"billionaires\",\"visible\":true,\"position\":19,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":82500.0,\"finalWorthBillions\":82.5,\"category\":\"Telecom\",\"otherCompensation\":0,\"person\":{\"name\":\"Carlos Slim Helu & family\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Carlos Slim Helu & family\" at rank 19 (ranks are shared on ties), net worth $82.5B, source \"Telecom\". Forbes lists this as a family fortune (\"& family\"); the figure covers wealth Forbes attributes to him and his family, not him alone. Forbes lists him as \"Carlos Slim Helu & family\".",
+  "researchedAt": "2026-11-24"
+}

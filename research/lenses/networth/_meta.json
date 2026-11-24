@@ -1,0 +1,34 @@
+{
+  "list": "Forbes 2025 World's Billionaires",
+  "netWorthMeasuredAsOf": "2025-03-07",
+  "measurementDate": {
+    "value": "2025-03-07",
+    "source": {
+      "hostType": "publisher",
+      "url": "https://bacon.forbes.com/bacon-forbes-prd/billionaires-2025-directory/payload.json",
+      "label": "Forbes 2025 World's Billionaires list page data (methodology section), served from Forbes' own CDN",
+      "quote": "is a snapshot of wealth using stock prices and exchange rates from March 7, 2025."
+    }
+  },
+  "methodology": {
+    "url": "https://bacon.forbes.com/bacon-forbes-prd/billionaires-2025-directory/payload.json",
+    "listTitle": {
+      "hostType": "publisher",
+      "url": "https://bacon.forbes.com/bacon-forbes-prd/billionaires-2025-directory/payload.json",
+      "label": "Forbes 2025 World's Billionaires list page data (metadata section)",
+      "quote": "Forbes 2025 Billionaires List - The Richest People In The World Ranked"
+    },
+    "familyRule": {
+      "hostType": "publisher",
+      "url": "https://bacon.forbes.com/bacon-forbes-prd/billionaires-2025-directory/payload.json",
+      "label": "Forbes 2025 World's Billionaires list page data (methodology section)",
+      "quote": "We list individuals rather than multigenerational families who share fortunes, though we include wealth belonging to a billionaire"
+    }
+  },
+  "listData": {
+    "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+    "entries": 3028,
+    "notes": "Forbes' own list JSON (the endpoint its list page calls). The response's count field is 3028 and all 3,028 entries carry year 2025. Net worths are finalWorthBillions (USD billions); rank is the list rank, shared on ties. Entries carry a date field of 1743483660000 (2025-04-01, the list's publication date), except one entry (Amos Hostetter, Jr., not one of the 100). The live forbes.com/billionaires/ page now serves the 2026 list, so the 2025 methodology was read from the billionaires-2025-directory payload, whose metadata title confirms it is the 2025 list."
+  },
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "jeff-bezos",
+  "name": "Jeff Bezos",
+  "netWorth": {
+    "value": 215.0,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 3,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"jeff-bezos\",\"rank\":3,\"listUri\":\"billionaires\",\"visible\":true,\"position\":3,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":215000.0,\"finalWorthBillions\":215.0,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Jeff Bezos\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Jeff Bezos\" at rank 3 (ranks are shared on ties), net worth $215.0B, source \"Amazon\".",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "david-velez",
+  "name": "David Vélez",
+  "netWorth": {
+    "value": 10.7,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 236,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"david-velez\",\"rank\":236,\"listUri\":\"billionaires\",\"visible\":true,\"position\":246,\"premiumProfile\":false,\"imageExists\":false,\"embargo\":false,\"finalWorth\":10700.0,\"finalWorthBillions\":10.7,\"category\":\"Finance & Investments\",\"otherCompensation\":0,\"person\":{\"name\":\"David Velez & family\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"David Velez & family\" at rank 236 (ranks are shared on ties), net worth $10.7B, source \"Fintech\". Forbes lists this as a family fortune (\"& family\"); the figure covers wealth Forbes attributes to him and his family, not him alone. Forbes lists him as \"David Velez & family\" (no accent).",
+  "researchedAt": "2026-11-24"
+}

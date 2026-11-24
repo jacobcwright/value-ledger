@@ -1,0 +1,19 @@
+{
+  "id": "shigeru-miyamoto",
+  "name": "Shigeru Miyamoto",
+  "netWorth": {
+    "value": null,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": null,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": null
+    }
+  },
+  "reason": "not on the 2025 list",
+  "notes": "No entry among the 3,028 people on the list; searched name tokens and the source/organization/employment fields for the company.",
+  "researchedAt": "2026-11-24"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "marc-benioff",
+  "name": "Marc Benioff",
+  "netWorth": {
+    "value": 9.8,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 280,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"marc-benioff\",\"rank\":280,\"listUri\":\"billionaires\",\"visible\":true,\"position\":280,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":9800.0,\"finalWorthBillions\":9.8,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Marc Benioff\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Marc Benioff\" at rank 280 (ranks are shared on ties), net worth $9.8B, source \"Business software\".",
+  "researchedAt": "2026-11-24"
+}

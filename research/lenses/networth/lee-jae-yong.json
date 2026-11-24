@@ -1,0 +1,19 @@
+{
+  "id": "lee-jae-yong",
+  "name": "Lee Jae-yong",
+  "netWorth": {
+    "value": 8.2,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 369,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"jay-y-lee\",\"rank\":369,\"listUri\":\"billionaires\",\"visible\":true,\"position\":375,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":8200.0,\"finalWorthBillions\":8.2,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Jay Y. Lee\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Jay Y. Lee\" at rank 369 (ranks are shared on ties), net worth $8.2B, source \"Samsung\". Forbes lists him as \"Jay Y. Lee\" (uri jay-y-lee, source \"Samsung\"); the entry's bio reads \"Jay Y. Lee is the executive chairman of Samsung Electronics\". Lee Boo-jin, Lee Seo-hyun and Hong Ra-hee are separate Samsung entries and are not included.",
+  "researchedAt": "2026-11-24"
+}

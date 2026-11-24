@@ -1,0 +1,19 @@
+{
+  "id": "rupert-murdoch",
+  "name": "Rupert Murdoch",
+  "netWorth": {
+    "value": 23.0,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 87,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"rupert-murdoch\",\"rank\":87,\"listUri\":\"billionaires\",\"visible\":true,\"position\":87,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":23000.0,\"finalWorthBillions\":23.0,\"category\":\"Media & Entertainment\",\"otherCompensation\":0,\"person\":{\"name\":\"Rupert Murdoch & family\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Rupert Murdoch & family\" at rank 87 (ranks are shared on ties), net worth $23.0B, source \"Newspapers, TV network\". Forbes lists this as a family fortune (\"& family\"); the figure covers wealth Forbes attributes to him and his family, not him alone.",
+  "researchedAt": "2026-11-24"
+}

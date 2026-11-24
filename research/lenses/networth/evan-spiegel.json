@@ -1,0 +1,19 @@
+{
+  "id": "evan-spiegel",
+  "name": "Evan Spiegel",
+  "netWorth": {
+    "value": 2.9,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 1265,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"evan-spiegel\",\"rank\":1265,\"listUri\":\"billionaires\",\"visible\":true,\"position\":1296,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"bio\":\"The kids loved Snapchat and its central premise: disappearing photos. By the time he made the Forbes Under 30 list in 2014, Spiegel's app had 50 million users, their median age around 18. Facebook liked Snapchat too: Zuckerberg offered $3 billion for the company but Spiegel declined. Snap now has over 500 million users and Spiegel, who is still CEO and a billionaire, has plunged Snap into augmented reality technology, where digital images and environments are placed in real-life surroundings.\",\"finalWorth\":2900.0,\"finalWorthBillions\":2.9,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Evan Spiegel\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Evan Spiegel\" at rank 1265 (ranks are shared on ties), net worth $2.9B, source \"Snapchat\".",
+  "researchedAt": "2026-11-24"
+}

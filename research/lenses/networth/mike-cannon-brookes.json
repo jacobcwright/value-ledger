@@ -1,0 +1,19 @@
+{
+  "id": "mike-cannon-brookes",
+  "name": "Mike Cannon-Brookes",
+  "netWorth": {
+    "value": 14.9,
+    "asOf": "2025-03-07",
+    "list": "Forbes 2025 World's Billionaires",
+    "rank": 146,
+    "source": {
+      "hostType": "publisher",
+      "url": "https://www.forbes.com/forbesapi/person/billionaires/2025/position/true.json?limit=3100",
+      "label": "Forbes 2025 World's Billionaires list",
+      "quote": "\"uri\":\"mike-cannon-brookes\",\"rank\":146,\"listUri\":\"billionaires\",\"visible\":true,\"position\":148,\"premiumProfile\":false,\"imageExists\":true,\"embargo\":false,\"finalWorth\":14900.0,\"finalWorthBillions\":14.9,\"category\":\"Technology\",\"otherCompensation\":0,\"person\":{\"name\":\"Mike Cannon-Brookes\""
+    }
+  },
+  "reason": null,
+  "notes": "Listed as \"Mike Cannon-Brookes\" at rank 146 (ranks are shared on ties), net worth $14.9B, source \"Software\".",
+  "researchedAt": "2026-11-24"
+}
