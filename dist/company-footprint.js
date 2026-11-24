@@ -216,10 +216,13 @@ function companyFootprintModel(record, leader) {
 }
 
 // ---- "How we got these numbers" -------------------------------------------------------------
+// Never throws: company-value.js builds the whole provenance block (and the lens tabs) around this call.
 function companyFootprintProof(record, leader) {
   if (!leader || leader.id === "jeff-bezos") return [];
-  let model;
-  try { model = companyFootprintModel(record,leader); } catch { return []; }
+  try { return cfProofGroups(record,leader); } catch (error) { console.error(error); return []; }
+}
+function cfProofGroups(record, leader) {
+  const model = companyFootprintModel(record,leader);
   if (!model) return [];
   const title = `Where ${leader.company} creates value`;
   const definitions = keys => keys.map(key => {
@@ -552,7 +555,7 @@ function cfBindPanel(root, model, shapes, initialLayer) {
   const layers = model.layers.map(([layer]) => layer);
   const company = escapeHtml(model.company);
   let layer, globe = null, entries = [], positions = [], globeIndex = [], entryOfGlobe = [], states = null, scope = {}, mappable = true;
-  measureWrap.hidden = model.placeKeys.length < 2;
+  if (measureWrap) measureWrap.hidden = model.placeKeys.length < 2;
 
   function enter(element) {
     element.classList.remove("amazon-enter");
@@ -644,7 +647,9 @@ function cfBindPanel(root, model, shapes, initialLayer) {
 
   function setTakeaway() {
     if (layer === "countries") {
-      const key = measure.value, m = model.metrics[key], tops = entries.filter(entry => !entry.sub), top = tops[0];
+      const key = measure.value, m = model.metrics[key], tops = entries.filter(entry => !entry.sub).length ? entries.filter(entry => !entry.sub) : entries;
+      // When a measure exists only for provinces or states inside a country, those are what it ranks.
+      const top = [...tops].sort((a,b) => b.cell.value - a.cell.value)[0];
       const countries = tops.filter(entry => entry.kind === "country").length, regions = tops.length - countries;
       const among = [countries && `${countries} ${countries === 1 ? "country" : "countries"}`,regions && `${regions} ${regions === 1 ? "region" : "regions"}`].filter(Boolean).join(" and ");
       lede.textContent = `${m.label} by ${countries ? "country" : "region"}${countries && regions ? " and region" : ""}`;
@@ -859,6 +864,14 @@ async function bindCompanyFootprint(simple, leader, section) {
   holder.innerHTML = cfPanel(model,shapes);
   const root = holder.firstElementChild;
   simple.replaceWith(root);
-  const controller = cfBindPanel(root,model,shapes,section === "states" ? "states" : null);
+  let controller;
+  try {
+    controller = cfBindPanel(root,model,shapes,section === "states" ? "states" : null);
+  } catch (error) {
+    // Data the panel can't draw: put the simple globe (still running) back rather than leave an empty panel.
+    console.error(error);
+    root.replaceWith(simple);
+    return null;
+  }
   return {root,controller,focusTarget:controller.focusTarget};
 }

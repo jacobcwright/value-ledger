@@ -128,7 +128,31 @@ function validRecord(id) {
 // ---- Footprint -------------------------------------------------------------------------------
 // The published lens: only rows that validate and (with the gate on) cite a verified source, each with
 // only the fields the site shows. Returns {footprint, stats} or null when there is no file.
-const footprintStats = {files: 0, published: 0, rows: 0, unverified: 0, invalid: 0, metricsDropped: 0, skipped: []};
+const footprintStats = {files: 0, published: 0, rows: 0, unverified: 0, stale: 0, invalid: 0, metricsDropped: 0, skipped: []};
+// A footprint row usually cites a document the records already cite (a 10-K), which verified.json may mark ok
+// from an earlier run that never saw the footprint quotes. So a footprint row also needs verified.json's quote
+// count for its URL to equal the number of quotes citing that URL now (counted the way verify-quotes.mjs counts
+// them); otherwise its quote has not been checked yet and the row waits for the next verify-quotes run.
+const citedQuotes = new Map();
+function countQuotes(dir) {
+  if (!fs.existsSync(dir)) return;
+  for (const entry of fs.readdirSync(dir, {withFileTypes: true})) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) { countQuotes(full); continue; }
+    if (!entry.name.endsWith(".json")) continue;
+    let data;
+    try { data = JSON.parse(fs.readFileSync(full, "utf8")); } catch { continue; }
+    (function walk(node) {
+      if (Array.isArray(node)) return node.forEach(walk);
+      if (!node || typeof node !== "object") return;
+      if (typeof node.url === "string" && typeof node.quote === "string") citedQuotes.set(node.url, (citedQuotes.get(node.url) || 0) + 1);
+      Object.values(node).forEach(walk);
+    })(data);
+  }
+}
+countQuotes(path.join(root, "research/records"));
+countQuotes(path.join(root, "research/lenses"));
+const quotesChecked = source => verified?.[source.url]?.quotes === citedQuotes.get(source.url);
 const cleanSource = source => ({hostType: source.hostType, url: source.url, label: String(source.label), quote: String(source.quote)});
 function footprintFor(id) {
   if (SKIP_FOOTPRINT.has(id)) return null;
@@ -150,6 +174,7 @@ function footprintFor(id) {
       const row = rec[layer][index];
       if (errs.length) { footprintStats.invalid++; continue; }
       if (verified && FOOTPRINT_GATE && !passes(row.source)) { footprintStats.unverified++; continue; }
+      if (verified && FOOTPRINT_GATE && !quotesChecked(row.source)) { footprintStats.stale++; continue; }
       const values = {}, plus = {};
       for (const [key, value] of Object.entries(row.values || {})) {
         if (badMetrics.has(key) || drops.includes(key) || typeof value !== "number" || !Number.isFinite(value)) continue;
@@ -290,7 +315,7 @@ console.log(`Published ${published.length} leaders to dist/companies/ (${recordC
 console.log(`  lenses: ${[...RECORD_LENSES, ...ADDED_LENSES].map(key => `${key} ${withLens(key)}`).join(" · ")}`);
 console.log(verified ? `  gate: research/verified.json, ${blockedTotal} unverified figure${blockedTotal === 1 ? "" : "s"} published as null` : "  gate: off (no research/verified.json)");
 if (footprintStats.files) {
-  const gateNote = !verified ? "no gate file" : FOOTPRINT_GATE ? `${footprintStats.unverified} rows dropped as unverified` : "GATE OFF (FOOTPRINT_GATE=off): do not commit this output";
+  const gateNote = !verified ? "no gate file" : FOOTPRINT_GATE ? `${footprintStats.unverified} rows dropped as unverified, ${footprintStats.stale} more whose quotes verify-quotes has not checked yet` : "GATE OFF (FOOTPRINT_GATE=off): do not commit this output";
   console.log(`  footprint: ${footprintStats.published}/${footprintStats.files} files published, ${footprintStats.rows} rows; ${gateNote}; ${footprintStats.invalid} invalid rows dropped${footprintStats.metricsDropped ? `, ${footprintStats.metricsDropped} invalid metrics dropped` : ""} (details: node scripts/validate-footprint.mjs)`);
   for (const [id, reasons] of footprintStats.skipped) console.log(`  ✗ footprint/${id}: ${reasons.slice(0, 3).join("; ")}`);
 }
