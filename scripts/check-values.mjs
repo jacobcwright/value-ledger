@@ -63,6 +63,16 @@ const visit = (node, file, trail) => {
   for (const [k, v] of Object.entries(node)) if (k !== "source") visit(v, file, trail ? `${trail}.${k}` : k);
 };
 for (const f of files) visit(JSON.parse(fs.readFileSync(f, "utf8")), f, "");
+// Exchange rates: perUSD must equal a rate printed in its quote, or its inverse (the Fed prints EUR, GBP, AUD, NZD as USD per unit).
+const fxPath = path.join(root, "research/lenses/paidout/_fx.json");
+if (fs.existsSync(fxPath)) {
+  const fx = JSON.parse(fs.readFileSync(fxPath, "utf8"));
+  for (const [cur, years] of Object.entries(fx.rates || {})) for (const [year, rate] of Object.entries(years)) {
+    const nums = (rate.source?.quote?.match(/\d[\d,]*\.\d+/g) || []).map(t => Number(t.replace(/,/g, "")));
+    const ok = nums.some(n => Math.abs(n - rate.perUSD) / rate.perUSD < 5e-4 || Math.abs(1 / n - rate.perUSD) / rate.perUSD < 5e-4);
+    if (!ok) problems.push(`_fx.json ${cur} ${year} perUSD ${rate.perUSD} not found (directly or inverted) in its quote`);
+  }
+}
 problems.forEach(p => console.log("✗ " + p));
 console.log(`\n${problems.length} figure(s) whose value is not visible in their quote`);
 process.exit(problems.length ? 1 : 0);
