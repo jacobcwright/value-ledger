@@ -10,12 +10,46 @@
 //   Sites: pins at the state or country centroid (country-mask.js), since sites carry only a place name.
 // Every number links to its source, and every figure joins "How we got these numbers" (companyFootprintProof).
 // A leader with no footprint rows keeps the simple "Operating footprint" globe from app.js.
+//
+// On-demand map scripts. The home page loads only this file and amazon-footprint.js; the globe (globe.js),
+// the country and market masks and the U.S. state shapes (amazon-state-data.js, amazon-state-map.js) are
+// injected with <script src> the first time a profile needs them (the CSP allows same-origin scripts).
+// app.js calls createGlobe() synchronously for the simple globe, so until globe.js arrives createGlobe is a
+// stand-in that loads it and then draws; globe.js's own declaration replaces the stand-in when it runs.
+
+const mapScriptLoads = new Map();
+function mapScript(file) {
+  if (!mapScriptLoads.has(file)) mapScriptLoads.set(file,new Promise((resolve,reject) => {
+    const script = document.createElement("script");
+    script.src = file;
+    script.async = false;
+    script.onload = resolve;
+    script.onerror = () => { mapScriptLoads.delete(file); script.remove(); reject(new Error(`Could not load ${file}`)); };
+    document.head.append(script);
+  }));
+  return mapScriptLoads.get(file);
+}
+// Each file at most once, fetched in parallel, run in the order given.
+const mapScripts = files => Promise.all(files.map(mapScript));
+if (typeof createGlobe === "undefined") {
+  window.createGlobe = function lazyGlobe(canvas, sites, choose, options) {
+    let real = null, dead = false;
+    const queued = [];
+    mapScripts(["globe.js"]).then(() => {
+      if (dead || !canvas.isConnected || window.createGlobe === lazyGlobe) return;
+      real = window.createGlobe(canvas,sites,choose,options);
+      for (const call of queued.splice(0)) call(real);
+    }).catch(error => console.error(error));
+    const later = name => (...args) => { if (real) real[name](...args); else queued.push(globe => globe[name](...args)); };
+    return {select:later("select"),magnify:later("magnify"),destroy() { dead = true; real?.destroy(); }};
+  };
+}
 
 const cfScale = {"count-thousands":1e3,"people-thousands":1e3,"currency-thousands":1e3,"currency-millions":1e6,"currency-billions":1e9,"square-feet-millions":1e6};
 const cfCompact = new Intl.NumberFormat("en-US",{notation:"compact",maximumFractionDigits:1});
-// Gold ramp for the dark map (the same steps as the Amazon state map). The globe skips the darkest step,
-// which would read as missing land among the cream dots.
-const cfRamp = typeof stateHeatRamp !== "undefined" ? stateHeatRamp : ["#665041","#8c6443","#b07b48","#cf9557","#e8b374","#ffd298"];
+// Gold ramp for the dark map (the same steps as stateHeatRamp in amazon-state-map.js, which loads on demand).
+// The globe skips the darkest step, which would read as missing land among the cream dots.
+const cfRamp = ["#665041","#8c6443","#b07b48","#cf9557","#e8b374","#ffd298"];
 const cfGlobeRamp = cfRamp.slice(1);
 const cfSiteColors = ["#ffd084","#b5a5f5","#82d7d4","#f2a7c3"];
 const cfOtherColor = "#c4d4cc";
@@ -167,11 +201,9 @@ function cfBandLabel(bands, index, metric) {
 }
 
 // ---- Model --------------------------------------------------------------------------------
-const cfStateNames = (() => {
-  const names = {DC:"District of Columbia"};
-  if (typeof amazonStateData !== "undefined" && typeof statePostal !== "undefined") for (const state of amazonStateData) names[statePostal[state.id]] = state.name;
-  return names;
-})();
+// Postal code -> name, kept here (not read from amazon-state-data.js) because the model also feeds "How we got
+// these numbers", which renders before the map scripts load. Same names as amazonStateData, plus DC.
+const cfStateNames = {AK:"Alaska",AL:"Alabama",AR:"Arkansas",AZ:"Arizona",CA:"California",CO:"Colorado",CT:"Connecticut",DC:"District of Columbia",DE:"Delaware",FL:"Florida",GA:"Georgia",HI:"Hawaii",IA:"Iowa",ID:"Idaho",IL:"Illinois",IN:"Indiana",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",MA:"Massachusetts",MD:"Maryland",ME:"Maine",MI:"Michigan",MN:"Minnesota",MO:"Missouri",MS:"Mississippi",MT:"Montana",NC:"North Carolina",ND:"North Dakota",NE:"Nebraska",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NV:"Nevada",NY:"New York",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VA:"Virginia",VT:"Vermont",WA:"Washington",WI:"Wisconsin",WV:"West Virginia",WY:"Wyoming"};
 
 function companyFootprintModel(record, leader) {
   const fp = record && typeof record === "object" ? record.footprint : null;
@@ -886,6 +918,9 @@ async function bindCompanyFootprint(simple, leader, section) {
   let model;
   try { model = companyFootprintModel(record,leader); } catch { model = null; }
   if (!model) return null;
+  const globeLayers = model.layers.some(([layer]) => layer !== "states");
+  await mapScripts([...globeLayers ? ["globe.js","country-mask.js"] : [],...model.stateKeys.length ? ["amazon-state-data.js","amazon-state-map.js"] : []]);
+  if (!simple.isConnected) return null;
   const shapes = model.stateKeys.length ? cfStateShapes(model) : [];
   const holder = document.createElement("div");
   holder.innerHTML = cfPanel(model,shapes);

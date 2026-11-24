@@ -124,7 +124,7 @@ function amazonFootprint() {
           <div id="amazon-map-detail" class="amazon-map-detail" aria-live="polite"></div>
         </div>
       </div>
-      ${amazonStatesView()}
+      ${typeof amazonStatesView === "function" ? amazonStatesView() : '<div id="amazon-states-view" class="amazon-states-view" hidden></div>'}
       <footer class="amazon-map-notes">
         <p id="amazon-map-note">Sales are by country storefront, or by selling entity for AWS. Other markets are grouped in Amazon’s filing.</p>
         <div id="amazon-map-source" class="amazon-map-source">${externalLink(amazonSources.annual,"2024 annual report, Note 10")}</div>
@@ -132,7 +132,26 @@ function amazonFootprint() {
     </section>`;
 }
 
+// The globe, market mask and state map load on demand (mapScripts in company-footprint.js); the header, layer
+// switch and panel shell render at once, so app.js can scroll to the panel and focus the switch straight away.
+// Returns the controller synchronously, as app.js expects; it binds once the scripts have arrived.
 function bindAmazonFootprint(root, initialLayer = "markets") {
+  let controller = null, dead = false;
+  const files = ["globe.js","amazon-market-mask.js","amazon-state-data.js","amazon-state-map.js"];
+  const ready = typeof mapScripts === "function" ? mapScripts(files) : Promise.resolve();
+  ready.then(() => {
+    if (dead || !root.isConnected) return;
+    const placeholder = byId("amazon-states-view");
+    if (placeholder && !placeholder.firstElementChild) placeholder.outerHTML = amazonStatesView();
+    const focused = root.contains(document.activeElement) && document.activeElement.matches("[data-layer]");
+    controller = amazonBindFootprint(root,initialLayer);
+    // A deep link focused the switch before the panel was bound: keep focus on the layer now shown.
+    if (focused) root.querySelector("[data-layer][aria-pressed='true']")?.focus({preventScroll:true});
+  }).catch(error => console.error(error));
+  return {destroy() { dead = true; controller?.destroy(); }};
+}
+
+function amazonBindFootprint(root, initialLayer) {
   const canvas = root.querySelector("canvas");
   const list = byId("amazon-map-list");
   const detail = byId("amazon-map-detail");

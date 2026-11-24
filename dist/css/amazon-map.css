@@ -120,22 +120,28 @@
   .amazon-map-header {flex-direction:column;align-items:flex-start}
 }
 
-/* Narrow panels (phones, and a narrow dialog): one column, read top to bottom with a thumb.
-   --fp-stacked tells the scripts that the detail card follows the selected row instead of sitting under the list. */
+/* Narrow panels (phones, a narrow dialog): a full-width switch, larger text and 44px targets. */
 @container fp (max-width:699px) {
   .amazon-map-header {align-items:stretch;padding:var(--space-4) var(--space-4) var(--space-4)}
   .amazon-map-takeaway {font-size:var(--text-base)}
   .amazon-map-switch {width:100%}
   .amazon-map-switch button {padding:0 var(--space-2);font-size:14px}
+  .amazon-world .zoom button {width:var(--tap);height:var(--tap)}
+  .amazon-map-list > button {min-height:48px}
+}
+/* Phone-width panels: one column, read top to bottom with a thumb.
+   --fp-stacked tells the scripts that the detail card follows the selected row instead of sitting under the list. */
+@container fp (max-width:599px) {
   .amazon-map-layout {grid-template-columns:minmax(0,1fr);height:auto}
   .amazon-world canvas {height:clamp(260px,86cqi,380px)}
   .amazon-world .zoom {top:var(--space-3);bottom:auto}
-  .amazon-world .zoom button {width:var(--tap);height:var(--tap)}
-  /* The legend leaves the globe and wraps as a band below it. */
+  /* The legend leaves the globe and wraps as a band below it: title, then the scale with its range under it,
+     or the site types side by side. */
   .amazon-heat-legend {position:static;display:flex;flex-wrap:wrap;align-items:center;gap:6px var(--space-4);max-width:none;margin:0;padding:var(--space-3) var(--space-4);font-size:13px;background:var(--map);border:0;border-top:1px solid var(--map-line);border-radius:0}
   .amazon-heat-legend > * {flex:none}
   .amazon-legend-title {flex-basis:100%;font-size:11px}
-  .amazon-heat-scale,.amazon-legend-range {width:min(220px,100%)}
+  .amazon-heat-scale {width:min(220px,100%)}
+  .amazon-legend-range {flex-basis:100%;width:auto;max-width:220px}
   .amazon-map-panel {--fp-stacked:1;padding:var(--space-3) var(--space-3) var(--space-4);overflow:visible;border-left:0;border-top:1px solid var(--map-line)}
   /* Every row shows: no list scrolling inside the page's scroll. */
   .amazon-map-list,.amazon-map-list.is-markets {max-height:none;overflow:visible;padding:0;gap:4px}
@@ -146,6 +152,8 @@
   .amazon-map-list small {font-size:13px}
   /* The card opens under its row, joined to it. */
   .amazon-map-list > .amazon-map-detail {margin:-5px 0 var(--space-2);border-color:var(--map-line-2);border-top:0;border-radius:0 0 var(--radius) var(--radius);box-shadow:inset 3px 0 0 var(--gold)}
+}
+@container fp (max-width:699px) {
   .amazon-map-detail {padding:var(--space-3) var(--space-4) var(--space-4)}
   .amazon-map-detail p {font-size:14px}
   .amazon-map-detail .amazon-detail-basis {font-size:13px}
