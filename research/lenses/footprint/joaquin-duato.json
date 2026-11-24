@@ -5,23 +5,23 @@
     "mfgFacilities": {
       "label": "Manufacturing facilities",
       "unit": "count",
-      "period": "fiscal 2024 (10-K for year ended Dec 29, 2024)",
+      "period": "fiscal 2025 (10-K for year ended Dec 28, 2025)",
       "tier": "filing",
-      "definition": "Manufacturing facilities operated by the Company's subsidiaries, by major geographic area (64 worldwide). Excludes office and warehouse facilities and contract manufacturers."
+      "definition": "Manufacturing facilities operated by the Company's subsidiaries, by major geographic area (63 worldwide, approximately 10.4 million square feet). Excludes office, research and development and warehouse facilities and contract manufacturers."
     },
     "employees": {
       "label": "Employees",
       "unit": "people",
-      "period": "2024 (as reported in the 2025 Health for Humanity Report's 2024 column)",
+      "period": "2025 (2025 Health for Humanity Report, published June 15, 2026)",
       "tier": "company-published",
-      "definition": "Individuals working full-time or part-time, excluding fixed-term employees, interns and co-ops; contingent workers, contractors and subcontractors excluded; total 137,925 in 2024."
+      "definition": "Individuals working full-time or part-time, excluding fixed-term employees, interns and co-ops; contingent workers, contractors and subcontractors excluded; Intra-Cellular and Halda Therapeutics headcount excluded; total 139,769 in 2025."
     },
     "supplierSpendPct": {
       "label": "Share of supplier spend contracted",
       "unit": "percent",
-      "period": "2024 (2025 Health for Humanity Report, 2024 column)",
+      "period": "2025 (2025 Health for Humanity Report, published June 15, 2026)",
       "tier": "company-published",
-      "definition": "Supplier spend contracted by region, as a percentage of total Johnson & Johnson supplier spend ($31.7 billion in 2024)."
+      "definition": "Supplier spend contracted by region, as a percentage of total Johnson & Johnson supplier spend ($32.3 billion in 2025)."
     }
   },
   "usStates": null,
@@ -30,14 +30,14 @@
       "iso2": "US",
       "name": "United States",
       "values": {
-        "mfgFacilities": 23
+        "mfgFacilities": 22
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-        "label": "Johnson & Johnson Form 10-K for fiscal year 2024",
-        "quote": "The locations of the manufacturing facilities by major geographic areas of the world are as follows: … United States | 23 | 2,892"
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+        "label": "Johnson & Johnson Form 10-K for fiscal year 2025, Item 2 Properties",
+        "quote": "The locations of the manufacturing facilities by major geographic areas of the world are as follows: Geographic Area Number of Facilities Square Feet (in thousands) United States 22 3,037"
       }
     }
   ],
@@ -46,14 +46,14 @@
       "name": "Asia Pacific",
       "countries": null,
       "values": {
-        "employees": 24445,
-        "supplierSpendPct": 6
+        "employees": 23744,
+        "supplierSpendPct": 5
       },
       "plus": {},
       "source": {
         "hostType": "company",
         "url": "https://healthforhumanityreport.jnj.com/2025/_assets/downloads/consolidated-2025-health-for-humanity-report-jnj.pdf?h=qt9wSHOx",
-        "label": "Johnson & Johnson 2025 Health for Humanity Report (performance data, 2024 column)",
+        "label": "Johnson & Johnson 2025 Health for Humanity Report, published June 15, 2026 (performance data, 2025 column)",
         "quote": "[Employees by region; columns 2025 2024 2023] Asia Pacific 23,744 24,445 24,378 … [Supplier spend contracted by region; columns 2025 2024 2023] Asia Pacific 5% 6% 6%"
       }
     },
@@ -61,14 +61,14 @@
       "name": "Europe, Middle East & Africa",
       "countries": null,
       "values": {
-        "employees": 39023,
-        "supplierSpendPct": 35
+        "employees": 39151,
+        "supplierSpendPct": 32
       },
       "plus": {},
       "source": {
         "hostType": "company",
         "url": "https://healthforhumanityreport.jnj.com/2025/_assets/downloads/consolidated-2025-health-for-humanity-report-jnj.pdf?h=qt9wSHOx",
-        "label": "Johnson & Johnson 2025 Health for Humanity Report (performance data, 2024 column)",
+        "label": "Johnson & Johnson 2025 Health for Humanity Report, published June 15, 2026 (performance data, 2025 column)",
         "quote": "[Employees by region; columns 2025 2024 2023] Europe, Middle East & Africa 39,151 39,023 38,379 … [Supplier spend contracted by region; columns 2025 2024 2023] Europe, Middle East & Africa 32% 35% 34%"
       }
     },
@@ -76,14 +76,14 @@
       "name": "Latin America",
       "countries": null,
       "values": {
-        "employees": 27687,
-        "supplierSpendPct": 2
+        "employees": 27412,
+        "supplierSpendPct": 3
       },
       "plus": {},
       "source": {
         "hostType": "company",
         "url": "https://healthforhumanityreport.jnj.com/2025/_assets/downloads/consolidated-2025-health-for-humanity-report-jnj.pdf?h=qt9wSHOx",
-        "label": "Johnson & Johnson 2025 Health for Humanity Report (performance data, 2024 column)",
+        "label": "Johnson & Johnson 2025 Health for Humanity Report, published June 15, 2026 (performance data, 2025 column)",
         "quote": "[Employees by region; columns 2025 2024 2023] Latin America 27,412 27,687 23,539 … [Supplier spend contracted by region; columns 2025 2024 2023] Latin America 3% 2% 2%"
       }
     },
@@ -91,14 +91,14 @@
       "name": "North America",
       "countries": null,
       "values": {
-        "employees": 46770,
-        "supplierSpendPct": 58
+        "employees": 49462,
+        "supplierSpendPct": 60
       },
       "plus": {},
       "source": {
         "hostType": "company",
         "url": "https://healthforhumanityreport.jnj.com/2025/_assets/downloads/consolidated-2025-health-for-humanity-report-jnj.pdf?h=qt9wSHOx",
-        "label": "Johnson & Johnson 2025 Health for Humanity Report (performance data, 2024 column)",
+        "label": "Johnson & Johnson 2025 Health for Humanity Report, published June 15, 2026 (performance data, 2025 column)",
         "quote": "[Employees by region; columns 2025 2024 2023] North America 49,462 46,770 48,061 … [Supplier spend contracted by region; columns 2025 2024 2023] North America 60% 58% 58%"
       }
     },
@@ -106,14 +106,14 @@
       "name": "Europe",
       "countries": null,
       "values": {
-        "mfgFacilities": 21
+        "mfgFacilities": 22
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-        "label": "Johnson & Johnson Form 10-K for fiscal year 2024",
-        "quote": "The locations of the manufacturing facilities by major geographic areas of the world are as follows: … Europe | 21 | 4,521"
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+        "label": "Johnson & Johnson Form 10-K for fiscal year 2025, Item 2 Properties",
+        "quote": "The locations of the manufacturing facilities by major geographic areas of the world are as follows: Geographic Area Number of Facilities Square Feet (in thousands) United States 22 3,037 Europe 22 5,035"
       }
     },
     {
@@ -125,23 +125,23 @@
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-        "label": "Johnson & Johnson Form 10-K for fiscal year 2024",
-        "quote": "The locations of the manufacturing facilities by major geographic areas of the world are as follows: … Western Hemisphere, excluding U.S. | 7 | 898"
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+        "label": "Johnson & Johnson Form 10-K for fiscal year 2025, Item 2 Properties",
+        "quote": "The locations of the manufacturing facilities by major geographic areas of the world are as follows: Geographic Area Number of Facilities Square Feet (in thousands) … Western Hemisphere, excluding U.S. 7 1,054"
       }
     },
     {
       "name": "Africa, Asia and Pacific",
       "countries": null,
       "values": {
-        "mfgFacilities": 13
+        "mfgFacilities": 12
       },
       "plus": {},
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-        "label": "Johnson & Johnson Form 10-K for fiscal year 2024",
-        "quote": "The locations of the manufacturing facilities by major geographic areas of the world are as follows: … Africa, Asia and Pacific | 13 | 1,296"
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+        "label": "Johnson & Johnson Form 10-K for fiscal year 2025, Item 2 Properties",
+        "quote": "The locations of the manufacturing facilities by major geographic areas of the world are as follows: Geographic Area Number of Facilities Square Feet (in thousands) … Africa, Asia and Pacific 12 1,237"
       }
     }
   ],
@@ -155,12 +155,12 @@
       "description": "Principal executive offices at One Johnson & Johnson Plaza.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000038/jnj-20241229.htm",
-        "label": "Johnson & Johnson Form 10-K for fiscal year 2024",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+        "label": "Johnson & Johnson Form 10-K for fiscal year 2025, cover page",
         "quote": "One Johnson & Johnson Plaza New Brunswick, New Jersey 08933 (Address of principal executive offices)"
       }
     }
   ],
-  "notes": "J&J publishes no state or country breakdown. Regions come from two sources on different bases: (1) the FY2024 10-K Item 2 manufacturing-facility counts by major geographic area (U.S. 23, Europe 21, Western Hemisphere ex-U.S. 7, Africa/Asia/Pacific 13; total 64); (2) the 2025 Health for Humanity Report performance-data tables, using the 2024 column, for employees by region (total 137,925) and supplier spend contracted by region. The 10-K's own employees-by-region chart is an image with no text values, and the 2024 Health for Humanity Report URLs now redirect to the 2025 edition, so the 2025 edition's prior-year column was used. The HFH regions (Asia Pacific, EMEA, Latin America, North America) and the 10-K regions are differently defined and do not list member countries, so countries is null for every region. The 10-K headcount (139,800 employees; 138,100 FTE) differs from the HFH 137,925 because of definitions and dates.",
-  "researchedAt": "2026-11-23"
+  "notes": "J&J publishes no state or country breakdown. Regions come from two sources on different bases: (1) the FY2025 10-K Item 2 manufacturing-facility counts by major geographic area (U.S. 22, Europe 22, Western Hemisphere ex-U.S. 7, Africa/Asia/Pacific 12; total 63); (2) the 2025 Health for Humanity Report (the edition covering 2025, published June 15, 2026 at the same URL that previously served the edition covering 2024), using its 2025 column, for employees by region (total 139,769) and supplier spend contracted by region (total $32.3 billion). The HFH regions (Asia Pacific, EMEA, Latin America, North America) and the 10-K regions are differently defined and do not list member countries, so countries is null for every region. The 10-K headcount (approximately 138,200 employees) differs from the HFH 139,769 because of definitions and dates (the HFH excludes fixed-term staff and recently acquired companies).",
+  "researchedAt": "2026-11-24"
 }

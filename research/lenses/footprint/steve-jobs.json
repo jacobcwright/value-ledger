@@ -842,8 +842,8 @@
       "description": "The Company's headquarters is located in Cupertino, California.",
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
-        "label": "FY2024 Form 10-K, Item 2 Properties",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+        "label": "FY2026 Form 10-K, Item 2 Properties",
         "quote": "The Company’s headquarters is located in Cupertino, California."
       }
     },
@@ -946,6 +946,6 @@
       }
     }
   ],
-  "notes": "Apple's only state-by-state publication is the Job Creation page (apple.com/job-creation), which is still live but dated: its footnote says direct employees are as of December 31, 2016 and the page was updated May 2017. It is eight years older than the FY2024 (Sep 2024) snapshot, and no newer state edition was found; the February 2025 $500 billion release names states but gives no per-state figures. The page's 'App Store ecosystem jobs' per state are an estimate by the Progressive Policy Institute (Michael Mandel), not an Apple count, so they are left out. The 51 state cards sum to 77,822 Apple employees, against the page's headline of 80,000 U.S. employees, versus 164,000 worldwide full-time equivalent employees in the FY2024 10-K. The current retail store list (apple.com/retail/storelist) names stores by state and country but states no counts, so no store counts by country were recorded, and the 10-K gives no geographic breakdown of employees or facilities. Sites come from the 10-K (Cupertino headquarters), the Job Creation page (2017 descriptions) and the February 24, 2025 newsroom release.",
-  "researchedAt": "2026-11-23"
+  "notes": "Apple's only state-by-state publication is the Job Creation page (apple.com/job-creation), which is still live but dated: its footnote says direct employees are as of December 31, 2016 and the page was updated May 2017. It is nine years older than the FY2026 (Sep 2026) edition year, and no newer edition found (checked 2026-11-24; the page itself is unchanged and still says 'Page updated May 2017'); the February 2025 $500 billion release and the August 2025 $600 billion American Manufacturing Program release name states but give no per-state figures. The page's 'App Store ecosystem jobs' per state are an estimate by the Progressive Policy Institute (Michael Mandel), not an Apple count, so they are left out. The 51 state cards sum to 77,822 Apple employees, against the page's headline of 80,000 U.S. employees, versus approximately 167,000 worldwide full-time equivalent employees as of September 26, 2026 in the FY2026 10-K. The current retail store list (apple.com/retail/storelist) names stores by state and country but states no counts, so no store counts by country were recorded, and the 10-K gives no geographic breakdown of employees or facilities. Sites come from the FY2026 10-K (Cupertino headquarters), the Job Creation page (2017 descriptions) and the February 24, 2025 newsroom release.",
+  "researchedAt": "2026-11-24"
 }

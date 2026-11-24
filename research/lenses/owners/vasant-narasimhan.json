@@ -14,15 +14,15 @@
   },
   "calpers": null,
   "holdersOfRecord": {
-    "count": 184000,
+    "count": 184137,
     "asOf": "2025-12-31",
     "source": {
       "hostType": "sec",
       "url": "https://www.sec.gov/Archives/edgar/data/1114448/000111444826000004/nvs-20251231.htm",
-      "label": "FY2025 Form 20-F, Item 6.C, number of registered shareholders",
-      "quote": "As at December 31, 2025, Novartis AG had approximately 184 000 registered shareholders."
+      "label": "FY2025 Form 20-F, Item 6.C, registered shareholders by number of shares held",
+      "quote": "Registered shareholders by number of shares held As at December 31, 2025 ... 1-100 42 973 0.11 101-1 000 104 632 1.95 1 001-10 000 33 266 4.30 10 001-100 000 2 779 3.29 100 001-1 000 000 401 5.84 1 000 001-5 000 000 64 6.40 5 000 001 or more 22 34.08 Total registered shareholders/shares 1 184 137 55.97"
     }
   },
-  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); NBIM's separate bond rows for Novartis Capital Corp and Novartis Finance SA are not counted. CalPERS: its Form 13F information table for the quarter ended September 30, 2026 lists no Novartis shares or ADRs (searched by name), so calpers is null. Holders of record: approximate number of shareholders in the Share Register at December 31, 2025 (rounded by Novartis); the 20-F says registered shareholders represent about 56.0% of issued shares, so total holders are more.",
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); NBIM's separate bond rows for Novartis Capital Corp and Novartis Finance SA are not counted. CalPERS: its Form 13F information table for the quarter ended September 30, 2026 lists no Novartis shares or ADRs (searched by name), so calpers is null. Holders of record: registered shareholders at December 31, 2025 (table total; in 'Total registered shareholders/shares 1 184 137' the leading 1 is footnote marker 1, and the bands sum to 184,137; the text also says 'approximately 184 000'). Registered shares were 55.97% of share capital and unregistered shares 44.03%, so total holders are more.",
   "researchedAt": "2026-11-24"
 }

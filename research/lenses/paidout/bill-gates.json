@@ -76,7 +76,7 @@
    "source": {
     "hostType": "sec",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
-    "label": "FY2026 Form 10-K, Note 11 Debt",
+    "label": "FY2026 Form 10-K, Note 10 Debt",
     "quote": "Cash paid for interest on our debt for fiscal years 2026, 2025, and 2024 was $1.5 billion, $1.6 billion, and $1.7 billion, respectively.",
     "xbrl": {
      "cik": "0000789019",
@@ -93,7 +93,7 @@
    "source": {
     "hostType": "sec",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
-    "label": "FY2026 Form 10-K, Note 12 Income Taxes, income taxes paid by jurisdiction (in millions)",
+    "label": "FY2026 Form 10-K, Note 11 Income Taxes, income taxes paid by jurisdiction (in millions)",
     "quote": "Income taxes paid, net of refunds, pursuant to the disclosure requirements of ASU 2023-09 in fiscal year 2026 were as follows: (In millions) Year Ended June 30 2026 U.S. federal $ 6,246 U.S. state and local 2,917 Foreign Ireland 6,495 Other 5,530 Income taxes paid, net of refunds $ 21,188",
     "xbrl": {
      "cik": "0000789019",

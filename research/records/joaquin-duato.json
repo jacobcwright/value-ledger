@@ -41,7 +41,7 @@
         "name": "BlackRock, Inc.",
         "type": "asset-manager",
         "pctEconomic": 7.7,
-        "asOf": "2023-12-31",
+        "asOf": null,
         "source": {
           "hostType": "sec",
           "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000063/jnj-20260309.htm",
@@ -53,7 +53,7 @@
         "name": "State Street Corporation",
         "type": "asset-manager",
         "pctEconomic": 5.5,
-        "asOf": "2023-12-31",
+        "asOf": null,
         "source": {
           "hostType": "sec",
           "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000063/jnj-20260309.htm",
@@ -146,6 +146,6 @@
       "quote": "Sales to Customers ... (Dollars in Millions) 2025 2024 2023 ... United States $ 53,752 50,302 46,444 ... Europe 21,535 20,212 20,410 ... Western Hemisphere excluding U.S. 4,875 4,714 4,549 ... Asia-Pacific, Africa 14,031 13,593 13,756 ... Worldwide total $ 94,193 88,821 85,159"
     }
   },
-  "notes": "Fiscal year 2025 ended December 28, 2025 (52-week year). Sources: FY2025 Form 10-K (accession 0000200406-26-000016, filed February 11, 2026) and 2026 proxy (DEF 14A, accession 0000200406-26-000063, filed March 11, 2026); ownership as of February 24, 2026, when 2,408,613,219 shares were outstanding. DUATO: Chairman and CEO; less than 1% (the proxy says each listed individual owns less than 1%; no percentage is given), so pctEconomic is null. His 1,407,667 shares include 1,051,370 shares underlying options or stock units exercisable or vesting within 60 days. Because Mr. Duato and Mr. Wolk serve as trustees of Johnson Family Trusts, they are deemed to 'control' an additional 4,869,671 shares in which they have no economic interest; those shares are not in his figure. HOLDERS: the proxy bases the 5% holders solely on Schedule 13G filings. Vanguard's is an amendment filed February 5, 2026 (the proxy does not state the holding date, so asOf is null); BlackRock's and State Street's still rest on filings from January 2024 (holdings at December 31, 2023, as recorded from those 13Gs in the prior edition) and are stale. BUYBACKS: the 10-K says its open-market common stock purchases 'are made as part of a systematic plan to meet the needs of the Company's compensation programs'; the $5,953m is the full cash-flow line. STOCK COMP: the cash-flow add-back of $1,354m; the stock-compensation note gives the compensation cost charged against income as $1.4 billion. PLAN: null; no broad employee stock purchase plan is described in the 10-K. GEOGRAPHY values are rounded from millions.",
+  "notes": "Fiscal year 2025 ended December 28, 2025 (52-week year). Sources: FY2025 Form 10-K (accession 0000200406-26-000016, filed February 11, 2026) and 2026 proxy (DEF 14A, accession 0000200406-26-000063, filed March 11, 2026); ownership as of February 24, 2026, when 2,408,613,219 shares were outstanding. DUATO: Chairman and CEO; less than 1% (the proxy says each listed individual owns less than 1%; no percentage is given), so pctEconomic is null. His 1,407,667 shares include 1,051,370 shares underlying options or stock units exercisable or vesting within 60 days. Because Mr. Duato and Mr. Wolk serve as trustees of Johnson Family Trusts, they are deemed to 'control' an additional 4,869,671 shares in which they have no economic interest; those shares are not in his figure. HOLDERS: the proxy bases the 5% holders solely on Schedule 13G filings. Vanguard's is an amendment filed February 5, 2026 (the proxy does not state the holding date, so asOf is null); BlackRock's and State Street's still rest on filings from January 2024 and are stale; the proxy gives only filing dates, so asOf is null for all three. BUYBACKS: the 10-K says its open-market common stock purchases 'are made as part of a systematic plan to meet the needs of the Company's compensation programs'; the $5,953m is the full cash-flow line. STOCK COMP: the cash-flow add-back of $1,354m; the stock-compensation note gives the compensation cost charged against income as $1.4 billion. PLAN: null; no broad employee stock purchase plan is described in the 10-K. GEOGRAPHY values are rounded from millions.",
   "researchedAt": "2026-11-24"
 }

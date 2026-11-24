@@ -109,7 +109,7 @@
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
-        "label": "FY2026 Form 10-K, Note 18 Employee Stock and Savings Plans",
+        "label": "FY2026 Form 10-K, Note 17 Employee Stock and Savings Plans",
         "quote": "Employee Stock Purchase Plan We have an ESPP for all eligible employees. Shares of our common stock may be purchased by employees at three-month intervals at 90% of the fair market value on the last trading day of each three-month period."
       }
     }
@@ -130,7 +130,7 @@
     "source": {
       "hostType": "sec",
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
-      "label": "FY2026 Form 10-K, Note 19 Segment Information and Geographic Data",
+      "label": "FY2026 Form 10-K, Note 18 Segment Information and Geographic Data",
       "quote": "Revenue, classified by the major geographic areas in which our customers were located, was as follows: (In millions) Year Ended June 30, 2026 2025 2024 United States (a) $ 170,794 $ 144,546 $ 124,704 Other countries 161,045 137,178 120,418 Total $ 331,839"
     }
   },

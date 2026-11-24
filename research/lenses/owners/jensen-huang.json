@@ -23,13 +23,13 @@
     },
     "derived": {
       "pct": 0.231,
-      "method": "CalPERS shares ÷ shares outstanding (55,777,974 ÷ 24.1 billion)",
+      "method": "CalPERS shares ÷ shares outstanding (55,777,974 ÷ 24,147 million)",
       "inputs": [
         {
           "hostType": "sec",
           "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
-          "label": "Form 10-Q for the quarter ended July 26, 2026, cover page",
-          "quote": "The number of shares of common stock, $0.001 par value, outstanding as of August 21, 2026, was 24.1 billion."
+          "label": "Form 10-Q for the quarter ended July 26, 2026, condensed consolidated statement of shareholders' equity (shares in millions)",
+          "quote": "Condensed Consolidated Statements of Shareholders ' Equity ... Common Stock Outstanding ... Shares ... (In millions, except per share data) ... Balances as of Jul 26, 2026 24,147 $ 24 $ 9,828 $ ( 25 ) $ 219,157 $ 228,984"
         }
       ]
     }
@@ -44,6 +44,6 @@
       "quote": "As of February 20, 2026, we had approximately 1,226 registered shareholders, not including those shares held in street or nominee name."
     }
   },
-  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026; Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the latest 10-Q cover count (quarter ended July 26, 2026; 24.1 billion at August 21, 2026, rounded by NVIDIA to a tenth of a billion), the same count used in the marketcap lens.",
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK). CalPERS: the source is the information table of CalPERS's Form 13F for the quarter ended September 30, 2026; Form 13F covers only U.S.-listed securities, and the quoted row gives issuer, class, CUSIP, value in dollars and shares. The CalPERS percentage divides its September 30, 2026 shares by the 24,147 million shares outstanding at July 26, 2026 in the latest 10-Q's statement of shareholders' equity (the cover gives only a rounded 24.1 billion at August 21, 2026), the same count used in the marketcap lens.",
   "researchedAt": "2026-11-24"
 }

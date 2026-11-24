@@ -94,8 +94,8 @@
       }
     },
     "financeReceivablesChangeInOCF": {
-      "value": -0.05729,
-      "stated": -57290,
+      "value": 0.05729,
+      "stated": 57290,
       "source": {
         "hostType": "sec",
         "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm",
