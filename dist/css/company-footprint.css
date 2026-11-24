@@ -9,7 +9,7 @@
 .cf-when {color:var(--muted);font:400 var(--text-sm)/1.45 var(--sans);font-variant-numeric:var(--figures);white-space:normal}
 .cf-period {font-variant-numeric:var(--figures)}
 .cf-tag {display:inline-block;margin-left:6px;padding:0 6px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--card);color:var(--muted);font:700 12px/1.5 var(--sans);letter-spacing:.04em;vertical-align:1px;white-space:nowrap}
-.cf-tag.cf-older {border-color:var(--share-2);color:var(--ink)}
+.cf-tag.cf-older {border-color:var(--line-strong);color:var(--ink)}
 .state-heat-title .cf-period {font-weight:500;color:var(--muted)}
 .cf-legend-period {flex-basis:100%;color:var(--muted);font-size:12.5px}
 .cf-legend-period .cf-tag {margin-left:4px;font-size:11.5px}

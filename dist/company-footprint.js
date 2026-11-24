@@ -816,7 +816,9 @@ function cfBindPanel(root, model, shapes, initialLayer) {
         ${mappable ? `<span class="amazon-legend-key"><span class="cf-legend-steps" style="--bands:${bands.length}">${bands.map(band => `<i style="--dot:${band.color}"></i>`).join("")}</span>
         ${bands.length > 1 ? `<span class="amazon-legend-range"><span>${escapeHtml(cfTick(m,Math.min(...rows.filter(r => !r.sub).map(r => r.cell.value))))}</span><span>${escapeHtml(cfTick(m,Math.max(...rows.filter(r => !r.sub).map(r => r.cell.value))))}</span></span>` : ""}</span>`
         : '<span class="cf-legend-note">Listed, not mapped: these shares are not parts of one total.</span>'}`;
-      markers = rows.map(row => ({color:row.color,rgb:cfRgb(row.color),glow:.22 + .08 * row.bandIndex,radius:3.4 + .55 * row.bandIndex}));
+      // Many countries: smaller pins, so the shaded land (which carries the value) stays readable.
+      const crowded = rows.length > 20;
+      markers = rows.map(row => ({color:row.color,rgb:cfRgb(row.color),glow:.22 + .08 * row.bandIndex,radius:crowded ? 2.4 + .3 * row.bandIndex : 3.4 + .55 * row.bandIndex}));
     } else {
       entries = model.sites.filter(site => (!scope.country || site.iso2 === scope.country) && (!scope.state || site.state === scope.state))
         .map(site => ({...site,color:cfPinColor}));
