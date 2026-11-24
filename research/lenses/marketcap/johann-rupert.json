@@ -1,0 +1,52 @@
+{
+  "id": "johann-rupert",
+  "company": "Richemont",
+  "classes": [
+    {
+      "label": "'A' registered shares (excluding treasury shares)",
+      "shares": 534582089,
+      "sharesAsOf": "2026-03-31",
+      "pricedAs": "CFR.SW",
+      "perListedUnit": 1,
+      "pricedAsReason": null,
+      "computedFrom": [
+        {
+          "label": "'A' shares issued",
+          "value": 537582089,
+          "source": {
+            "hostType": "company",
+            "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+            "label": "Annual Report and Accounts 2026, note 30.1 Share capital",
+            "quote": "Authorised, issued and fully paid 537 582 089 ʻAʼ registered shares with a par value of CHF 1.00 each 320 320 537 582 089 ʻBʼ registered shares with a par value of CHF 0.10 each 32 32"
+          }
+        },
+        {
+          "label": "'A' treasury shares held at 31 March 2026 (3.0 million, as rounded in the note)",
+          "value": -3000000,
+          "source": {
+            "hostType": "company",
+            "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+            "label": "Annual Report and Accounts 2026, note 30.2 Treasury shares",
+            "quote": "Number of treasury shares ... Balance at 31 March 3.0 3.4 [millions, 2026, 2025]"
+          }
+        }
+      ]
+    },
+    {
+      "label": "'B' registered shares (unlisted)",
+      "shares": 537582089,
+      "sharesAsOf": "2026-03-31",
+      "pricedAs": "CFR.SW",
+      "perListedUnit": 0.1,
+      "pricedAsReason": "The 'B' shares are unlisted and all held by Compagnie Financière Rupert; each has one-tenth of the par value of an 'A' share and receives one-tenth of its dividend and liquidation proceeds, so one 'B' share is priced as 0.1 listed 'A' share.",
+      "source": {
+        "hostType": "company",
+        "url": "https://www.richemont.com/media/ud3bety3/richemont-fy26-annual-report.pdf",
+        "label": "Annual Report and Accounts 2026, note 30.1 Share capital",
+        "quote": "Authorised, issued and fully paid 537 582 089 ʻAʼ registered shares with a par value of CHF 1.00 each 320 320 537 582 089 ʻBʼ registered shares with a par value of CHF 0.10 each 32 32"
+      }
+    }
+  ],
+  "notes": "Richemont's 'A' shares are listed on the SIX Swiss Exchange (CFR.SW, CHF); the primary line is used rather than the JSE depositary receipts. 'A' shares exclude treasury shares: issued 537,582,089 minus the 3.0 million held in treasury at 31 March 2026 (note 30.2 rounds to 0.1 million, so the count is accurate to about ±50,000). The FY2027 interim report (30 September 2026) gives only a weighted-average share count (588.3 million 'A'-equivalents), not a period-end treasury count, so the March 2026 annual report is used. 'B' shares are priced at one-tenth of an 'A' share, per note 29 (\"Holders of ‘A’ and ‘B’ shares enjoy the same dividend rights, but due to the differing par values of the two classes of shares, ‘B’ shareholders receive one-tenth of the dividend per share paid to the ‘A’ shareholders.\").",
+  "researchedAt": "2026-11-24"
+}

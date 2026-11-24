@@ -1,44 +1,44 @@
 {
   "id": "evan-spiegel",
   "company": "Snap",
-  "fiscalYear": "FY2024",
-  "fiscalYearEnd": "2024-12-31",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "2025-12-31",
   "currency": "USD",
   "unit": "billions",
   "taxes": {
     "cashTaxesPaid": {
-      "value": 0.02,
+      "value": 0.03,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
-        "label": "FY2024 Form 10-K, cash income taxes paid",
-        "quote": "Cash paid for income taxes, net $ 24,686 $ 30,924 $ 12,087 Cash paid for [USD thousands; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440826000013/snap-20251231.htm",
+        "label": "FY2025 Form 10-K, cash income taxes paid",
+        "quote": "Cash paid for income taxes, net $ 26,716 $ 24,686 $ 30,924 Cash paid for [USD thousands; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001564408",
           "concept": "us-gaap:IncomeTaxesPaidNet",
-          "end": "2024-12-31",
-          "value": 24686000
+          "end": "2025-12-31",
+          "value": 26716000
         }
       }
     }
   },
   "rnd": {
     "expense": {
-      "value": 1.69,
+      "value": 1.79,
       "source": {
         "hostType": "sec",
-        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm",
-        "label": "FY2024 Form 10-K, research and development expense",
-        "quote": "Research and development 1,691,683 1,910,862 2,109,800 Sales and marketing 1,063,675 [USD thousands; FY2024 is the 1st figure in the row]",
+        "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440826000013/snap-20251231.htm",
+        "label": "FY2025 Form 10-K, consolidated statements of operations, research and development expense",
+        "quote": "Research and development 1,793,601 1,691,683 1,910,862 Sales and marketing 1,021,305 [USD thousands; FY2025 is the 1st figure in the row]",
         "xbrl": {
           "cik": "0001564408",
           "concept": "us-gaap:ResearchAndDevelopmentExpense",
-          "end": "2024-12-31",
-          "value": 1691683000
+          "end": "2025-12-31",
+          "value": 1793601000
         }
       }
     }
   },
-  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented.",
-  "researchedAt": "2026-11-23"
+  "notes": "Taxes: us-gaap:IncomeTaxesPaidNet, net of refunds as presented (the FY2025 10-K still prints the supplemental cash-flow line).",
+  "researchedAt": "2026-11-24"
 }

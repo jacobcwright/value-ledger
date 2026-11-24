@@ -2,18 +2,18 @@
   "id": "johann-rupert",
   "company": "Richemont",
   "nbim": {
-    "pct": 1.09,
-    "marketValueUSD": 1.773,
-    "asOf": "2024-12-31",
+    "pct": 1.08,
+    "marketValueUSD": 2.676,
+    "asOf": "2026-06-30",
     "source": {
       "hostType": "company",
-      "url": "https://www.nbim.no/api/investments/v2/2024-12-31.json",
-      "label": "NBIM equity holdings, year-end 2024",
-      "quote": "{\"id\":\"4g9dy6lc1do4\",\"cc\":\"CH\",\"n\":\"Cie Financiere Richemont SA\",\"a\":{\"e\":1773204240,\"n\":20138901171},\"at\":0,\"o\":1.09,\"eq\":{\"vid\":\"CFR\",\"v\":1.09,\"s\":\"Consumer Discretionary\"}}"
+      "url": "https://www.nbim.no/api/investments/v2/2026-06-30.json",
+      "label": "NBIM equity holdings, 2026-06-30",
+      "quote": "{\"id\":\"4g9dy6lc1do4\",\"cc\":\"CH\",\"n\":\"Cie Financiere Richemont SA\",\"a\":{\"e\":2675605638,\"n\":26476455598},\"at\":0,\"o\":1.08,\"eq\":{\"vid\":\"CFR\",\"v\":1.08,\"s\":\"Consumer Discretionary\"}}"
     }
   },
   "calpers": null,
   "holdersOfRecord": null,
-  "notes": "NBIM: the quote is this company's row in NBIM's year-end 2024 holdings data file (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK); the same line in NBIM's equity CSV download (https://www.nbim.no/api/investments/v2/report/?assetType=eq&date=2024-12-31&fileType=csv) reads \"Europe;Switzerland;Cie Financiere Richemont SA;Consumer Discretionary;20138901171;1773204240;1.09%;1.09%\". CalPERS: its Form 13F for the quarter ended December 31, 2024 lists no shares or ADRs of Richemont. Holders of record: The FY2025 annual report states no number of shareholders.",
-  "researchedAt": "2026-11-23"
+  "notes": "NBIM: the quote is this company's equity row in NBIM's holdings data file at June 30, 2026 (\"o\" = ownership %, \"eq.v\" = voting %, \"a.e\" = market value in USD, \"a.n\" = in NOK), 'Cie Financiere Richemont SA'; the separate 'Richemont International Holding SA' row is a bond holding and is not counted. CalPERS: its Form 13F for the quarter ended September 30, 2026 lists no Richemont shares or ADRs (searched by issuer name). Holders of record: the FY2026 annual report states no number of shareholders.",
+  "researchedAt": "2026-11-24"
 }
