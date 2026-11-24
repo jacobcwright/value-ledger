@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T05:45:07.267Z",
+  "generatedAt": "2026-11-24T05:47:12.132Z",
   "sources": {
     "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf": {
       "ok": true,
@@ -27,8 +27,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm": {
       "ok": true,
-      "reason": "all 14 quotes found (squashed, exact, fragments, numbers-in-context)",
-      "quotes": 14,
+      "reason": "all 15 quotes found (squashed, exact, fragments, numbers-in-context)",
+      "quotes": 15,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/313838/000119312525143137/d820387d20f.htm": {
@@ -117,8 +117,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1506293/000150629325000022/pins-20241231.htm": {
       "ok": true,
-      "reason": "all 9 quotes found (exact, fragments, squashed)",
-      "quotes": 9,
+      "reason": "all 10 quotes found (exact, fragments, squashed)",
+      "quotes": 10,
       "failed": []
     },
     "https://lvmh-com.cdn.prismic.io/lvmh-com/Z-PY3HdAxsiBv6wN_UniversalRegistrationDocument2024.pdf": {
@@ -147,8 +147,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000010/abnb-20241231.htm": {
       "ok": true,
-      "reason": "all 13 quotes found (exact, squashed)",
-      "quotes": 13,
+      "reason": "all 14 quotes found (exact, squashed)",
+      "quotes": 14,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1166691/000130817925000504/cmcsa012438-def14a.htm": {
@@ -159,8 +159,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1166691/000116669125000011/cmcsa-20241231.htm": {
       "ok": true,
-      "reason": "all 21 quotes found (squashed, exact, fragments)",
-      "quotes": 21,
+      "reason": "all 22 quotes found (squashed, exact, fragments)",
+      "quotes": 22,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/70858/000119312525050578/d897280ddef14a.htm": {
@@ -255,8 +255,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000033/rblx-20241231.htm": {
       "ok": true,
-      "reason": "all 16 quotes found (exact, fragments)",
-      "quotes": 16,
+      "reason": "all 17 quotes found (exact, fragments)",
+      "quotes": 17,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/12927/000119312525049921/d816992ddef14a.htm": {
@@ -285,8 +285,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/nuform20f_2024.htm": {
       "ok": true,
-      "reason": "all 21 quotes found (exact, fragments, squashed)",
-      "quotes": 21,
+      "reason": "all 22 quotes found (exact, fragments, squashed)",
+      "quotes": 22,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1666700/000119312525071813/d862604ddef14a.htm": {
@@ -321,8 +321,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1585521/000158552125000042/zm-20250131.htm": {
       "ok": true,
-      "reason": "all 13 quotes found (exact, squashed, fragments)",
-      "quotes": 13,
+      "reason": "all 14 quotes found (exact, squashed, fragments)",
+      "quotes": 14,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1564408/000156440825000019/snap-20241231.htm": {
@@ -387,8 +387,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm": {
       "ok": true,
-      "reason": "all 15 quotes found (exact, squashed, fragments)",
-      "quotes": 15,
+      "reason": "all 16 quotes found (exact, squashed, fragments)",
+      "quotes": 16,
       "failed": []
     },
     "https://uploads.vw-mms.de/system/production/documents/cws/002/931/file_en/953dcbb8e57270df70ca288218092dba4721fd63/2025-03-11-volkswagen-group-annual-report-2024-en.pdf": {
@@ -459,8 +459,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1512673/000162828025007376/sq-20241231.htm": {
       "ok": true,
-      "reason": "all 16 quotes found (exact, squashed, fragments)",
-      "quotes": 16,
+      "reason": "all 17 quotes found (exact, squashed, fragments)",
+      "quotes": 17,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-ex15_5.htm": {
@@ -573,8 +573,8 @@
     },
     "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2024.pdf": {
       "ok": true,
-      "reason": "all 15 quotes found (fragments, exact)",
-      "quotes": 15,
+      "reason": "all 31 quotes found (fragments, exact)",
+      "quotes": 31,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/40545/000130817925000114/ge4356871-def14a.htm": {
@@ -621,8 +621,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm": {
       "ok": true,
-      "reason": "all 13 quotes found (squashed, exact, fragments)",
-      "quotes": 13,
+      "reason": "all 14 quotes found (squashed, exact, fragments)",
+      "quotes": 14,
       "failed": []
     },
     "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2025/novo-nordisk-remuneration-report-2024.pdf": {
@@ -729,8 +729,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm": {
       "ok": true,
-      "reason": "all 12 quotes found (squashed, exact, fragments)",
-      "quotes": 12,
+      "reason": "all 13 quotes found (squashed, exact, fragments)",
+      "quotes": 13,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000084/gm-20250422.htm": {
@@ -777,8 +777,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000034/dell-20250131.htm": {
       "ok": true,
-      "reason": "all 9 quotes found (squashed, exact, fragments)",
-      "quotes": 9,
+      "reason": "all 10 quotes found (squashed, exact, fragments)",
+      "quotes": 10,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1038683/000155837025007966/tmb-20250331x20f.htm": {
@@ -795,8 +795,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1050446/000095017025021814/mstr-20241231.htm": {
       "ok": true,
-      "reason": "all 12 quotes found (exact, fragments)",
-      "quotes": 12,
+      "reason": "all 13 quotes found (exact, fragments)",
+      "quotes": 13,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000058/team-20251014.htm": {
@@ -807,8 +807,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm": {
       "ok": true,
-      "reason": "all 14 quotes found (exact, squashed, fragments)",
-      "quotes": 14,
+      "reason": "all 15 quotes found (exact, squashed, fragments)",
+      "quotes": 15,
       "failed": []
     },
     "https://investor.tsmc.com/sites/ir/sec-filings/2024%2020-F.pdf": {
@@ -873,8 +873,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm": {
       "ok": true,
-      "reason": "all 15 quotes found (exact, squashed, fragments)",
-      "quotes": 15,
+      "reason": "all 16 quotes found (exact, squashed, fragments)",
+      "quotes": 16,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/320187/000032018725000048/nke-20250717.htm": {
@@ -885,8 +885,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/320187/000032018725000047/nke-20250531.htm": {
       "ok": true,
-      "reason": "all 29 quotes found (squashed, exact, fragments)",
-      "quotes": 29,
+      "reason": "all 30 quotes found (squashed, exact, fragments)",
+      "quotes": 30,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/63908/000155837025004544/mcd-20250520xdef14a.htm": {
@@ -1017,8 +1017,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm": {
       "ok": true,
-      "reason": "all 13 quotes found (exact, squashed, fragments)",
-      "quotes": 13,
+      "reason": "all 14 quotes found (exact, squashed, fragments)",
+      "quotes": 14,
       "failed": []
     },
     "https://www.sec.gov/Archives/edgar/data/1306965/000130696525000007/shel-20241231.htm": {
@@ -1053,8 +1053,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm": {
       "ok": true,
-      "reason": "all 30 quotes found (exact, squashed, fragments)",
-      "quotes": 30,
+      "reason": "all 32 quotes found (exact, squashed, fragments)",
+      "quotes": 32,
       "failed": []
     },
     "https://www.nber.org/system/files/working_papers/w10433/w10433.pdf": {
@@ -1065,8 +1065,8 @@
     },
     "https://www.sec.gov/Archives/edgar/data/1855612/000185561225000013/ck0001855612-20241231.htm": {
       "ok": true,
-      "reason": "all 6 quotes found (exact)",
-      "quotes": 6,
+      "reason": "all 7 quotes found (exact)",
+      "quotes": 7,
       "failed": []
     },
     "https://blogs.microsoft.com/blog/2025/03/24/microsoft-at-50-the-journey-and-future-of-the-partner-ecosystem/": {
