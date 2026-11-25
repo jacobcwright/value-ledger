@@ -471,7 +471,8 @@ const capFirst = text => text.charAt(0).toUpperCase() + text.slice(1);
 const OTHERS_NOTE = {under1: "Exact stake not disclosed", shares: "Exact stake not disclosed", deceased: "No personal stake reported", "no-reported-stake": "No reported stake"};
 const STAKE_NOTE = {deceased: "Deceased; no personal stake reported", "no-reported-stake": "No reported stake", shares: "Shares disclosed, no percentage"};
 function headlineFor(leader, out, networth) {
-  const cap = leader.cap;
+  // Serial founders: the primary company's ownership applies to its own value only; ventures are added below.
+  const cap = leader.primaryCap ?? leader.cap;
   let stakes = null;
   if (leader.id === "jeff-bezos") {
     // Amazon's ownership is its case study (amazon-distribution.js): Bezos's direct shares ÷ shares outstanding,
@@ -520,7 +521,34 @@ function headlineFor(leader, out, networth) {
     netWorth: networth ? {value: networth.value, asOf: networth.asOf, sourceUrl: networth.source.url, sourceLabel: networth.publisher,
       ...(networth.withFamily ? {withFamily: true} : {})} : null
   });
+  if (leader.ventures?.length) combineVentures(leader, entry);
   headlineList[leader.id] = entry;
+}
+// Value created for a serial founder = the primary company + every other listed company they founded
+// (research/lenses/ventures). Held by others and their stake add up company by company, and only when every
+// company's split is known exactly; otherwise the combined split is left out rather than half-computed.
+function combineVentures(leader, entry) {
+  const rec = JSON.parse(fs.readFileSync(path.join(root, "research/lenses/ventures", leader.id + ".json"), "utf8"));
+  const primary = {company: leader.company, valueUsd: leader.primaryCap, stakeUsd: entry.stakeUsd, stakePct: entry.stakePct, stakeLabel: entry.stakeLabel};
+  const parts = [primary, ...leader.ventures.map(v => {
+    const src = rec.ventures.find(x => x.company === v.company) || {};
+    const pct = src.leaderStake?.pctEconomic ?? src.leaderStake?.derived?.pctEconomic;
+    // only stakes measured the same way as the primary company's (own vs family) are added together
+    const sameBasis = (src.leaderStake?.basis === "family") === (entry.stakeBasis === "family") && src.leaderStake?.basis !== "other";
+    return {company: v.company, valueUsd: v.cap, stakeUsd: typeof pct === "number" && sameBasis ? round6(v.cap * pct / 100) : null, stakePct: typeof pct === "number" ? pct : null,
+      stakeLabel: src.leaderStake?.label || null, includes: src.includes || null};
+  })];
+  const exact = entry.heldByOthersBound == null && typeof entry.heldByOthersUsd === "number" && parts.every(p => typeof p.stakeUsd === "number");
+  entry.parts = parts;
+  entry.valueCreatedUsd = leader.cap;
+  if (exact) {
+    const stake = parts.reduce((t, p) => t + p.stakeUsd, 0);
+    Object.assign(entry, {stakeUsd: round6(stake), stakePct: round4(100 * stake / leader.cap), heldByOthersUsd: round6(leader.cap - stake),
+      heldByOthersPct: Math.round(1000 * (leader.cap - stake) / leader.cap) / 10, combined: true});
+  } else {
+    Object.assign(entry, {heldByOthersUsd: null, heldByOthersPct: null, heldByOthersBound: null, heldByOthersNote: `Not disclosed for every company`,
+      combined: false});
+  }
 }
 // The page must run the same ownership function, loaded before company-value.js; fail the build if either drifts.
 {
@@ -607,6 +635,10 @@ function rankingFor(id) {
     out.marketcap = {asOf: prices.asOf, classes: mc.classes, notes: mc.notes || "",
       prices: symbols.map(s => ({symbol: s, ...prices.symbols[s]})), fx: currencies.map(c => ({currency: c, ...prices.fx[c]}))};
   }
+  const ventures = read(`research/lenses/ventures/${id}.json`);
+  if (ventures) out.ventures = {list: ventures.ventures.map(v => ({company: v.company, ticker: v.ticker || null, includes: v.includes || null, founded: v.founded, classes: v.classes, leaderStake: v.leaderStake || null,
+      prices: [...new Set(v.classes.map(c => c.pricedAs))].map(sym => ({symbol: sym, ...prices.symbols[sym]}))})),
+    notCounted: ventures.notCounted || [], notes: ventures.notes || ""};
   if (pay) out.pay = {fiscalYear: pay.fiscalYear, fiscalYearEnd: pay.fiscalYearEnd, currency: pay.currency, employees: pay.employees, payroll: pay.payroll, notes: pay.notes || ""};
   return out;
 }

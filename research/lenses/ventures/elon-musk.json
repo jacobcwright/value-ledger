@@ -1,0 +1,122 @@
+{
+  "id": "elon-musk",
+  "ventures": [
+    {
+      "company": "SpaceX",
+      "ticker": "SPCX",
+      "founded": {
+        "year": 2002,
+        "role": "founder",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+          "label": "IPO prospectus (Form 424B4, June 12, 2026), cover page and Business",
+          "quote": "Founded in 2002, SpaceX is the only company building the integrated hardware and software infrastructure of the future across space, connectivity, and AI ... Elon Musk, our founder, Chief Executive Officer, Chief Technical Officer and Chairman of our board"
+        }
+      },
+      "includes": "xAI (X.AI Holdings Corp., acquired February 2, 2026), which had acquired X Holdings Corp. (formerly Twitter) in March 2025; Cursor (Anysphere, Inc., acquired August 14, 2026)",
+      "classes": [
+        {
+          "label": "Class A common stock",
+          "shares": 8246541218,
+          "sharesAsOf": "2026-10-15",
+          "pricedAs": "SPCX",
+          "perListedUnit": 1,
+          "pricedAsReason": null,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+            "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+            "quote": "As of October 15, 2026, the registrant had 8,246,541,218 shares of Class A common stock and 5,334,522,491 shares of Class B common stock outstanding."
+          }
+        },
+        {
+          "label": "Class B common stock (10 votes per share, unlisted)",
+          "shares": 5334522491,
+          "sharesAsOf": "2026-10-15",
+          "pricedAs": "SPCX",
+          "perListedUnit": 1,
+          "pricedAsReason": "Class B is unlisted (only Class A is registered on Nasdaq as SPCX) and is convertible at any time at the holder's option into one share of Class A common stock",
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+            "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+            "quote": "As of October 15, 2026, the registrant had 8,246,541,218 shares of Class A common stock and 5,334,522,491 shares of Class B common stock outstanding."
+          }
+        }
+      ],
+      "leaderStake": {
+        "label": "Elon Musk (directly and through trusts of which he is trustee)",
+        "pctEconomic": null,
+        "pctVoting": 84.4,
+        "asOf": "2026-05-01",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+          "label": "IPO prospectus (Form 424B4, June 12, 2026), Security Ownership of Certain Beneficial Owners and Management (after this offering, no exercise)",
+          "quote": "The percentage ownership information after this offering shown in the table is based on 7,488,063,555 shares of our Class A common stock and 5,602,790,410 shares of our Class B common stock outstanding as of May 1, 2026 ... Elon Musk (1) | 849,494,440 | 11.3 % | 5,569,053,075 | 93.6 % | 84.4 %"
+        },
+        "derived": {
+          "pctEconomic": 46.36,
+          "method": "(849,494,440 Class A + 5,569,053,075 Class B − 350,000,000 Class B underlying options not yet exercised) ÷ (7,488,063,555 Class A + 5,602,790,410 Class B outstanding), as of May 1, 2026 after the IPO. Both classes share equally in dividends and liquidation.",
+          "inputs": [
+            {
+              "hostType": "sec",
+              "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+              "label": "IPO prospectus (Form 424B4, June 12, 2026), Security Ownership of Certain Beneficial Owners and Management (after this offering, no exercise)",
+              "quote": "The percentage ownership information after this offering shown in the table is based on 7,488,063,555 shares of our Class A common stock and 5,602,790,410 shares of our Class B common stock outstanding as of May 1, 2026 ... Elon Musk (1) | 849,494,440 | 11.3 % | 5,569,053,075 | 93.6 % | 84.4 %"
+            }
+          ]
+        },
+        "basis": "own"
+      },
+      "notes": "Class A and Class B share equally in dividends and liquidation; Class B carries 10 votes and elects 51% of the board. No preferred or Class C shares are outstanding after the June 2026 IPO (the 10-Q reports none). The Class B cover count appears to include restricted Class B shares issued to Musk under performance awards (the prospectus footnote counts 1,302,072,285 restricted Class B shares held of record by him). The stake is the prospectus table as adjusted for the IPO: 849,494,440 Class A (11.3% of the class) and 5,569,053,075 Class B (93.6% of the class, including 350,000,000 Class B shares underlying options exercisable within 60 days), 84.4% of combined voting power. The prospectus cover gives 82.4% on a different basis; the table figure is used. No proxy has been filed since the IPO, and Musk's June 17, 2026 Form 4 reports holdings consistent with the table. The prospectus gives no economic percentage, so pctEconomic is null."
+    }
+  ],
+  "notCounted": [
+    {
+      "company": "Neuralink",
+      "reason": "Private company with no market price",
+      "founded": {
+        "year": 2016,
+        "role": "founder",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+          "label": "SpaceX IPO prospectus (Form 424B4, June 12, 2026), Management (Elon Musk biography)",
+          "quote": "Mr. Musk is also a founder and Chief Executive Officer of Neuralink Corp., a company focused on developing brain-machine interfaces, and The Boring Company, an infrastructure company."
+        }
+      }
+    },
+    {
+      "company": "The Boring Company",
+      "reason": "Private company with no market price",
+      "founded": {
+        "year": 2017,
+        "role": "founder",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+          "label": "SpaceX IPO prospectus (Form 424B4, June 12, 2026), Management (Elon Musk biography)",
+          "quote": "Mr. Musk is also a founder and Chief Executive Officer of Neuralink Corp., a company focused on developing brain-machine interfaces, and The Boring Company, an infrastructure company."
+        }
+      }
+    },
+    {
+      "company": "PayPal",
+      "reason": "Already on the list under Dan Schulman",
+      "founded": {
+        "year": null,
+        "role": "co-founder",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+          "label": "SpaceX IPO prospectus (Form 424B4, June 12, 2026), Management (Elon Musk biography)",
+          "quote": "Mr. Musk co-founded PayPal, an electronic payment system, which was acquired by eBay in October 2002, and Zip2 Corporation, a provider of Internet enterprise software and services, which was acquired by Compaq in March 1999."
+        }
+      }
+    }
+  ],
+  "notes": "Tesla, the primary company, stays in research/lenses/marketcap. SpaceX listed on Nasdaq and Nasdaq Texas in June 2026 (Class A only, symbol SPCX). It absorbed xAI, and with it X (formerly Twitter), on February 2, 2026, so X is counted inside SpaceX and not separately. The prospectus biography also names Zip2 Corporation, which he co-founded and which Compaq acquired in March 1999. Apart from Tesla and PayPal (already on the list), no other company in that biography is listed today. The founder wording for Neuralink and The Boring Company comes from SpaceX's prospectus, not from either company's own filing; both are private. The years are the incorporation years in each company's own Form D: Neuralink Corp. (https://www.sec.gov/Archives/edgar/data/1708503/000170850317000001/xslFormDX01/primary_doc.xml, \"Within Last Five Years (Specify Year) 2016\") and TBC - The Boring Co (https://www.sec.gov/Archives/edgar/data/1737630/000173763018000001/xslFormDX01/primary_doc.xml, \"Within Last Five Years (Specify Year) 2017\"). The prospectus gives no year for PayPal, so its year is null. Musk’s economic share of SpaceX is derived from the prospectus table (shares he owns outright ÷ all shares outstanding), because the prospectus states only class and voting percentages.",
+  "researchedAt": "2026-11-24"
+}

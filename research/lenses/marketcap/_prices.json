@@ -548,6 +548,45 @@
     "quote": "\"close\":[13.4399995803833]"
    }
   },
+  "FOX": {
+   "close": 56.13999938964844,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/FOX?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, FOX close on 2026-11-20",
+    "quote": "\"close\":[56.13999938964844]"
+   }
+  },
+  "FOXA": {
+   "close": 62.90999984741211,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/FOXA?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, FOXA close on 2026-11-20",
+    "quote": "\"close\":[62.90999984741211]"
+   }
+  },
+  "GCARSOA1.MX": {
+   "close": 184.00999450683594,
+   "currency": "MXN",
+   "divisor": 1,
+   "exchange": "Mexico",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GCARSOA1.MX?period1=1795181400&period2=1795185000&interval=1d",
+    "label": "Yahoo Finance chart data, GCARSOA1.MX close on 2026-11-20",
+    "quote": "\"close\":[184.00999450683594]"
+   }
+  },
   "GE": {
    "close": 309.6199951171875,
    "currency": "USD",
@@ -559,6 +598,19 @@
     "url": "https://query2.finance.yahoo.com/v8/finance/chart/GE?period1=1795185000&period2=1795188600&interval=1d",
     "label": "Yahoo Finance chart data, GE close on 2026-11-20",
     "quote": "\"close\":[309.6199951171875]"
+   }
+  },
+  "GFINBURO.MX": {
+   "close": 47.56999969482422,
+   "currency": "MXN",
+   "divisor": 1,
+   "exchange": "Mexico",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GFINBURO.MX?period1=1795181400&period2=1795185000&interval=1d",
+    "label": "Yahoo Finance chart data, GFINBURO.MX close on 2026-11-20",
+    "quote": "\"close\":[47.56999969482422]"
    }
   },
   "GM": {
@@ -1248,6 +1300,19 @@
     "url": "https://query2.finance.yahoo.com/v8/finance/chart/SPCE?period1=1795185000&period2=1795188600&interval=1d",
     "label": "Yahoo Finance chart data, SPCE close on 2026-11-20",
     "quote": "\"close\":[1.0399999618530273]"
+   }
+  },
+  "SPCX": {
+   "close": 127.79000091552734,
+   "currency": "USD",
+   "divisor": 1,
+   "exchange": "NasdaqGS",
+   "session": "2026-11-20",
+   "source": {
+    "hostType": "market-data",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SPCX?period1=1795185000&period2=1795188600&interval=1d",
+    "label": "Yahoo Finance chart data, SPCX close on 2026-11-20",
+    "quote": "\"close\":[127.79000091552734]"
    }
   },
   "SPOT": {

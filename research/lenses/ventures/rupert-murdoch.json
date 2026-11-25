@@ -1,0 +1,83 @@
+{
+  "id": "rupert-murdoch",
+  "ventures": [
+    {
+      "company": "Fox Corporation",
+      "ticker": "FOXA",
+      "founded": {
+        "year": 2018,
+        "role": "founder",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1754301/000119312523240548/d492569dex991.htm",
+          "label": "Form 8-K of September 22, 2023, Exhibit 99.1 (joint Fox Corporation and News Corp press release)",
+          "quote": "Fox Corporation (FOX) (Nasdaq: FOXA, FOX) and News Corporation (News Corp) (Nasdaq: NWS, NWSA; ASX: NWS, NWSLV) announced today that Rupert Murdoch is stepping down as chairman of each board ... We thank him for his vision, his pioneering spirit, his steadfast determination, and the enduring legacy he leaves to the companies he founded"
+        }
+      },
+      "includes": "FOX News Media, FOX Sports, Tubi Media Group, FOX Entertainment and FOX Television Stations; Roku, Inc. (acquired November 6, 2026)",
+      "classes": [
+        {
+          "label": "Class A Common Stock (non-voting)",
+          "shares": 346052650,
+          "sharesAsOf": "2026-11-06",
+          "pricedAs": "FOXA",
+          "perListedUnit": 1,
+          "pricedAsReason": null,
+          "computedFrom": [
+            {
+              "label": "Class A shares outstanding at October 28, 2026 (10-Q cover)",
+              "value": 201552650,
+              "source": {
+                "hostType": "sec",
+                "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026068670/fox-20260930.htm",
+                "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+                "quote": "As of October 28, 2026, 201,552,650 shares of Class A Common Stock, par value $0.01 per share, and 220,248,764 shares of Class B Common Stock, par value $0.01 per share, were outstanding."
+              }
+            },
+            {
+              "label": "Class A shares issued to former Roku stockholders at the November 6, 2026 closing (approximate)",
+              "value": 144500000,
+              "source": {
+                "hostType": "sec",
+                "url": "https://www.sec.gov/Archives/edgar/data/1754301/000119312526451888/d141597d8k.htm",
+                "label": "Form 8-K of November 6, 2026, Item 2.01 (completion of the Roku acquisition)",
+                "quote": "FOX will issue approximately 144.5 million shares of FOX Class A Common Stock and pay aggregate cash consideration of approximately $14.1 billion to former Roku stockholders in connection with the Mergers, exclusive of shares issuable and cash payable in connection with outstanding vested or converted Roku equity awards and Dissenting Shares."
+              }
+            }
+          ]
+        },
+        {
+          "label": "Class B Common Stock (voting)",
+          "shares": 220248764,
+          "sharesAsOf": "2026-10-28",
+          "pricedAs": "FOX",
+          "perListedUnit": 1,
+          "pricedAsReason": null,
+          "source": {
+            "hostType": "sec",
+            "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026068670/fox-20260930.htm",
+            "label": "Form 10-Q for the quarter ended September 30, 2026, cover page",
+            "quote": "As of October 28, 2026, 201,552,650 shares of Class A Common Stock, par value $0.01 per share, and 220,248,764 shares of Class B Common Stock, par value $0.01 per share, were outstanding."
+          }
+        }
+      ],
+      "leaderStake": {
+        "label": "LGC Holdco, LLC (trusts associated with Lachlan, Grace and Chloe Murdoch)",
+        "pctEconomic": null,
+        "pctVoting": 38.76,
+        "asOf": "2026-09-14",
+        "source": {
+          "hostType": "sec",
+          "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026062480/fox-20260917.htm",
+          "label": "2026 proxy statement (DEF 14A), Security Ownership of Fox Corporation",
+          "quote": "LGC Holdco, LLC (7) c/o Maupin, Cox & LeGoy 4785 Caughlin Parkway Reno, Nevada 89519 19,000 85,372,810 - * 38.76% ... The applicable percentage of ownership is based on 201,424,858 shares of Class A Common Stock and 220,248,764 shares of Class B Common Stock outstanding as of September 14, 2026"
+        },
+        "basis": "other"
+      },
+      "notes": "Two listed classes that share equally in dividends: non-voting Class A (FOXA) and voting Class B (FOX), both on the Nasdaq Global Select Market; no preferred or series common stock is outstanding. Class A is the 10-Q cover count plus the approximately 144.5 million Class A shares the November 6, 2026 Form 8-K says FOX will issue to former Roku stockholders. That sum is approximate. It excludes shares issuable for Roku equity awards and Dissenting Shares, and no filing yet states the post-closing total. Class B is unchanged by the merger. The stake is LGC Holdco's: 19,000 Class A shares (under 1%) and 85,372,810 Class B shares (38.76% of the voting class). Its Class B figure is as of the June 16, 2026 Schedule 13D/A, as the proxy footnote says. pctVoting is that Class B percentage, since Class A votes only in limited circumstances. The proxy gives no economic percentage, so pctEconomic is null. In September 2025, as part of the resolution of the Murdoch Family Trust litigation, LGC Holdco acquired additional shares from departing trust beneficiaries. LGC Holdco is managed by Cruden 2, LLC, whose managing director, appointed by Lachlan Murdoch, decides how its shares are voted and sold. Lachlan Murdoch disclaims beneficial ownership. 37,002,060 of its Class B shares are pledged. The proxy does not list Rupert Murdoch, who has been Chairman Emeritus since November 2023, as a holder."
+    }
+  ],
+  "notCounted": [],
+  "notes": "News Corp, the primary company, stays in research/lenses/marketcap. The 2023 press release (filed by Fox as Exhibit 99.1) calls Fox and News Corp the companies Rupert Murdoch founded. Fox Corporation itself was incorporated in Delaware in 2018. It became a standalone public company on March 19, 2019, when Twenty-First Century Fox, Inc. (21CF) spun it off to 21CF stockholders (FY2026 Form 10-K, Item 1), so `founded.year` is the incorporation year of the current company. Murdoch ran its predecessor 21CF as Chief Executive Officer from 1979 to 2015 (2023 proxy statement).",
+  "researchedAt": "2026-11-24"
+}

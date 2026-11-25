@@ -731,9 +731,12 @@ function cvRankingProof(leader, record) {
   const payText = !finiteNumber(leader.payroll) ? "The company reports no staff-cost total, and no median pay."
     : leader.payBasis === "median-pay" ? `${integer.format(leader.jobs)} people × ${dollars.format(leader.wage)} median pay (the proxy statement’s CEO pay ratio disclosure). The median is not an average, so this understates total pay where pay is skewed.`
     : `Total staff costs as reported (${escapeHtml(pay?.payroll?.label || "personnel expense")}), converted to USD at the fiscal year’s average rate.`;
+  const vs = r.ventures;
+  const ventureSources = vs ? vs.list.flatMap(v => [...src(v.founded?.source),...v.classes.flatMap(c => c.computedFrom ? c.computedFrom.flatMap(part => src(part.source)) : src(c.source)),...src(v.leaderStake?.source),...v.prices.flatMap(p => src(p.source))]) : [];
+  const ventureText = vs ? ` Also founded and counted: ${vs.list.map(v => `${escapeHtml(v.company)}${v.includes ? " (" + escapeHtml(v.includes) + ")" : ""}`).join(", ")}, valued the same way.` + (vs.notCounted.length ? ` Not counted, because they have no market price: ${vs.notCounted.map(n => escapeHtml(n.company)).join(", ")}.` : "") : "";
   return [
-    cvProof(metrics.cap,compactMoney(leader.cap),edition.pricesAsOfLabel,mc ? "derived" : "market",[...shareSources,...priceSources],
-      mc ? `Market value: shares outstanding × closing price on ${edition.pricesAsOfLabel}, in USD at that day’s Federal Reserve rate. ${classes}.` : "Market capitalization."),
+    cvProof(metrics.cap,compactMoney(leader.cap),edition.pricesAsOfLabel,mc ? "derived" : "market",[...shareSources,...priceSources,...ventureSources],
+      (mc ? `Market value: shares outstanding × closing price on ${edition.pricesAsOfLabel}, in USD at that day’s Federal Reserve rate. ${classes}.` : "Market capitalization.") + ventureText),
     cvProof(metrics.jobs,integer.format(leader.jobs),leader.fy,"record",pay ? src(pay.employees.source) : [],pay ? `${escapeHtml(pay.employees.basis || "Employees")}, as reported.` : "Direct employees worldwide, as reported."),
     cvProof(metrics.payroll,finiteNumber(leader.payroll) ? compactMoney(leader.payroll) : "Not disclosed",pay?.payroll?.period || leader.fy,finiteNumber(leader.payroll) ? (leader.payBasis === "median-pay" ? "derived" : "record") : "record",pay?.payroll ? src(pay.payroll.source) : [],payText)
   ];

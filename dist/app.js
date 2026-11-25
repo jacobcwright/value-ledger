@@ -133,7 +133,7 @@ function rankingRow(leader,rank,metric) {
       <td class="rank">${rank}</td>
       <td class="name"><button type="button" class="row-toggle" aria-expanded="${open}" aria-controls="detail-${leader.id}"><span class="name-text">${escapeHtml(leader.name)}</span><span class="name-company">${escapeHtml(leader.company)}</span></button></td>
       ${figures}
-      <td class="company">${escapeHtml(leader.company)}</td>
+      <td class="company"${leader.ventures ? ` title="${escapeHtml([leader.company,...leader.ventures.map(v => v.company)].join(", "))}"` : ""}>${escapeHtml([leader.company,...(leader.ventures || []).map(v => v.company)].join(" + "))}</td>
       <td class="industry">${escapeHtml(leader.sector)}</td>
     </tr>
     <tr class="detail" id="detail-${leader.id}"${open ? "" : " hidden"}><td colspan="7"><div class="detail-panel">
@@ -376,6 +376,10 @@ chipRow.addEventListener("click",event => {
 dialog.addEventListener("scrollend",() => { chipLock = 0; updateActiveChip(); });
 window.addEventListener("resize",() => { if (dialog.open) observeChips(); });
 
+// A serial founder's value created, company by company: "Tesla $1.37T + SpaceX $1.74T".
+function companyParts(leader) {
+  return [[leader.company,leader.primaryCap],...leader.ventures.map(v => [v.company,v.cap])].map(([name,value]) => `${escapeHtml(name)} ${compactMoney(value)}`).join(" + ");
+}
 // The four headline figures, side by side: value created · held by others · paid out & sales enabled · their
 // stake. Before headline.json arrives the last three show a placeholder; a leader missing from it shows "—".
 function headlineStats(leader) {
@@ -383,7 +387,7 @@ function headlineStats(leader) {
   const entry = headline ? headline[leader.id] : null;
   const pending = '<span class="stat-pending" aria-label="Loading">…</span>';
   const cell = (key, label, value, notes, text = false) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong${text ? ' class="is-text"' : ""}>${value}</strong>${notes.filter(Boolean).map(note => `<span>${note}</span>`).join("")}</dd></div>`;
-  const cells = [cell("cap",metrics.cap,compactMoney(leader.cap),["Market value, " + edition.pricesAsOfLabel])];
+  const cells = [cell("cap",metrics.cap,compactMoney(leader.cap),[leader.ventures ? companyParts(leader) : "","Market value, " + edition.pricesAsOfLabel])];
   // Held by others: value created × the ownership headline's "Everyone else".
   if (loading) cells.push(cell("others","Held by others",pending,[""]));
   else if (entry && finiteNumber(entry.heldByOthersUsd) && entry.heldByOthersBound) {
@@ -392,7 +396,7 @@ function headlineStats(leader) {
     cells.push(cell("others","Held by others",`<span class="stat-bound">${gt99 ? "More than" : "At least"} </span>${compactMoney(entry.heldByOthersUsd)}`,
       [gt99 ? `More than 99% of shares; ${escapeHtml(leader.name)} holds under 1%` : `No 5% stake by ${escapeHtml(leader.name)} or family is reported in ${cvPossessiveName(leader.company)} proxy`]));
   }
-  else if (entry && finiteNumber(entry.heldByOthersUsd)) cells.push(cell("others","Held by others",compactMoney(entry.heldByOthersUsd),[`${headlinePercent(entry.heldByOthersPct)} of shares, owned by index funds, pensions, savers and others`]));
+  else if (entry && finiteNumber(entry.heldByOthersUsd)) cells.push(cell("others","Held by others",compactMoney(entry.heldByOthersUsd),[entry.parts ? `${headlinePercent(entry.heldByOthersPct)} of value created across ${entry.parts.length} companies, owned by index funds, pensions, savers and others` : `${headlinePercent(entry.heldByOthersPct)} of shares, owned by index funds, pensions, savers and others`]));
   else cells.push(cell("others","Held by others","—",[escapeHtml(entry?.heldByOthersNote || "No stake disclosed")]));
   // Paid out & sales enabled, per year (the company's fiscal year), in USD.
   let paid, paidNote, paidText = false;
@@ -414,7 +418,9 @@ function headlineStats(leader) {
   else if (["own","derived","family"].includes(entry?.stakeBasis) && finiteNumber(entry.stakeUsd)) {
     const derived = entry.stakeBasis === "derived" ? ` <span class="cv-derived"${entry.stakeMethod ? ` title="${escapeHtml(entry.stakeMethod)}"` : ""}>derived</span>` : "";
     const includes = entry.stakeIncludesLeader ? ` · includes ${escapeHtml(leader.name)}’s own` : "";
-    cells.push(cell("stake",label,compactMoney(entry.stakeUsd),[`${headlinePercent(entry.stakePct)} of shares${includes}${derived}`,netWorth]));
+    const share = entry.parts && entry.combined ? `${headlinePercent(entry.stakePct)} of value created, across ${entry.parts.length} companies`
+      : entry.parts ? `${headlinePercent(entry.stakePct)} of ${cvPossessiveName(leader.company)} shares only` : `${headlinePercent(entry.stakePct)} of shares`;
+    cells.push(cell("stake",label,compactMoney(entry.stakeUsd),[`${share}${includes}${derived}`,netWorth]));
   } else if (entry?.stakeBasis === "under1" && finiteNumber(entry.stakeBelowUsd)) {
     cells.push(cell("stake",label,`Under 1% (&lt;&nbsp;${compactMoney(entry.stakeBelowUsd)})`,["Exact stake not disclosed",netWorth],true));
   } else cells.push(cell("stake",label,"—",[escapeHtml(entry?.stakeNote || "No stake disclosed"),netWorth]));
@@ -435,7 +441,7 @@ function openProfile(leader, section) {
   dialog.dataset.leader = leader.id;
   byId("profile-body").innerHTML = `
     <div class="profile-section profile-overview" id="profile-overview" data-chip="Overview">
-      <header class="profile-title">${portrait(leader,true)}<div class="profile-heading"><p class="eyebrow">NO. ${rank} BY VALUE CREATED <span aria-hidden="true">·</span> ${escapeHtml(leader.sector.toUpperCase())}</p><h2 id="profile-title">${escapeHtml(leader.name)}</h2><p class="profile-role">${escapeHtml(leader.role)} · <strong>${escapeHtml(leader.company)}</strong> <span class="profile-ticker">${escapeHtml(leader.ticker)}</span></p></div></header>
+      <header class="profile-title">${portrait(leader,true)}<div class="profile-heading"><p class="eyebrow">NO. ${rank} BY VALUE CREATED <span aria-hidden="true">·</span> ${escapeHtml(leader.sector.toUpperCase())}</p><h2 id="profile-title">${escapeHtml(leader.name)}</h2><p class="profile-role">${escapeHtml(leader.role)} · <strong>${escapeHtml(leader.company)}</strong> <span class="profile-ticker">${escapeHtml(leader.ticker)}</span>${(leader.ventures || []).map(v => ` + <strong>${escapeHtml(v.company)}</strong>${v.ticker ? ` <span class="profile-ticker">${escapeHtml(v.ticker)}</span>` : ""}`).join("")}</p></div></header>
       <dl class="profile-stats profile-headline" id="profile-headline" aria-label="The headline">${headlineStats(leader)}</dl>
       <dl class="profile-stats profile-stats-workers" aria-label="Workers">${workerFigures.map(([key,label,value,note]) => `<div class="stat-${key}"><dt>${label}</dt><dd><strong>${value}</strong><span>${note}</span></dd></div>`).join("")}</dl>
       <div class="profile-overview-more">

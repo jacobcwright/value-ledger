@@ -19,6 +19,10 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const symbols = new Set();
 for (const f of fs.readdirSync(dir).filter(f => f.endsWith(".json") && !f.startsWith("_")))
   for (const c of JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")).classes || []) if (c.pricedAs) symbols.add(c.pricedAs);
+// serial founders' other listed companies (research/lenses/ventures) are priced the same way
+const venturesDir = path.join(root, "research/lenses/ventures");
+if (fs.existsSync(venturesDir)) for (const f of fs.readdirSync(venturesDir).filter(f => f.endsWith(".json") && !f.startsWith("_")))
+  for (const v of JSON.parse(fs.readFileSync(path.join(venturesDir, f), "utf8")).ventures || []) for (const c of v.classes || []) if (c.pricedAs) symbols.add(c.pricedAs);
 
 const out = {asOf: date, about: "Closing prices on the edition date (Yahoo Finance chart data, the exchange's official close for that session) and Federal Reserve H.10 noon buying rates in New York for the same day. Pence-quoted London lines (GBp) are divided by 100.", symbols: {}, fx: {}};
 const day0 = Date.parse(date + "T00:00:00Z") / 1000;

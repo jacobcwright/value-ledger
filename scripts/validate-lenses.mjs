@@ -168,7 +168,7 @@ async function verifyFact(f) {
 // These two lenses have their own file shapes, so they are validated here but not through lensDirs and
 // fileLenses (whose header rules and one-key-per-lens layout they don't follow). The build publishes them
 // with its own functions; the arithmetic helpers below are shared so the validator and the build agree.
-export const extraLensDirs = {paidout: path.join(root, "research/lenses/paidout"), owners: path.join(root, "research/lenses/owners"), networth: path.join(root, "research/lenses/networth"), marketcap: path.join(root, "research/lenses/marketcap"), pay: path.join(root, "research/lenses/pay")};
+export const extraLensDirs = {paidout: path.join(root, "research/lenses/paidout"), owners: path.join(root, "research/lenses/owners"), networth: path.join(root, "research/lenses/networth"), marketcap: path.join(root, "research/lenses/marketcap"), pay: path.join(root, "research/lenses/pay"), ventures: path.join(root, "research/lenses/ventures")};
 const fxFile = path.join(extraLensDirs.paidout, "_fx.json");
 const managersFile = path.join(extraLensDirs.owners, "_managers.json");
 const BANK_LIKE = ["bank", "broker", "insurer"];
@@ -494,6 +494,52 @@ export function validateMarketcapFile(id) {
   return result;
 }
 
+// Serial founders' other listed companies (research/VENTURES.md): each venture is priced like the marketcap lens,
+// carries its own founding source and the leader's stake; private companies are named in notCounted, never valued.
+export function validateVenturesFile(id) {
+  const file = path.join(extraLensDirs.ventures, id + ".json");
+  const result = {dirKey: "ventures", id, file, exists: fs.existsSync(file), errs: [], warns: [], facts: [], links: []};
+  if (!result.exists) return result;
+  const {errs, warns, facts} = result, links = new Set();
+  let rec;
+  try { rec = JSON.parse(fs.readFileSync(file, "utf8")); } catch (e) { errs.push(`invalid JSON (${e.message})`); return result; }
+  result.record = rec;
+  if (!ids.has(rec.id)) errs.push(`id "${rec.id}" not in data.js`);
+  if (path.basename(file, ".json") !== rec.id) errs.push("file name must equal id");
+  if (!Array.isArray(rec.ventures)) errs.push("ventures must be an array");
+  for (const [v, venture] of (rec.ventures || []).entries()) {
+    const w = `ventures[${v}]`;
+    if (!venture.company) errs.push(`${w}.company missing`);
+    if (!venture.founded || !Number.isInteger(venture.founded.year)) errs.push(`${w}.founded.year missing`);
+    else checkSource(venture.founded.source, `${w}.founded`, errs, facts, links);
+    if (!Array.isArray(venture.classes) || !venture.classes.length) errs.push(`${w}.classes must be a non-empty array`);
+    for (const [i, c] of (venture.classes || []).entries()) {
+      const cw = `${w}.classes[${i}]`;
+      if (!c.label) errs.push(`${cw}.label missing`);
+      num(c.shares, `${cw}.shares`, errs, {nullable: false, min: 1, max: 1e13});
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(c.sharesAsOf || "")) errs.push(`${cw}.sharesAsOf must be YYYY-MM-DD`);
+      if (!c.pricedAs) errs.push(`${cw}.pricedAs missing`);
+      if (c.computedFrom) c.computedFrom.forEach((part, k) => checkSource(part.source, `${cw}.computedFrom[${k}]`, errs, facts, links));
+      else checkSource(c.source, cw, errs, facts, links);
+    }
+    const st = venture.leaderStake;
+    if (st) {
+      if (!st.label) errs.push(`${w}.leaderStake.label missing`);
+      if (!["own", "family", "other"].includes(st.basis)) errs.push(`${w}.leaderStake.basis must be own | family | other (a holder that isn't the leader or their family)`);
+      num(st.pctEconomic, `${w}.leaderStake.pctEconomic`, errs, {min: 0, max: 100});
+      if (st.derived) { num(st.derived.pctEconomic, `${w}.leaderStake.derived.pctEconomic`, errs, {nullable: false, min: 0, max: 100}); if (!st.derived.method) errs.push(`${w}.leaderStake.derived.method missing`); (st.derived.inputs || []).forEach((src, k) => checkSource(src, `${w}.leaderStake.derived.inputs[${k}]`, errs, facts, links)); }
+      checkSource(st.source, `${w}.leaderStake`, errs, facts, links);
+    }
+  }
+  for (const [i, n] of (rec.notCounted || []).entries()) {
+    if (!n.company || !n.reason) errs.push(`notCounted[${i}] needs company and reason`);
+    if (n.founded?.source) checkSource(n.founded.source, `notCounted[${i}].founded`, errs, facts, links);
+    for (const k of ["value", "valuation", "valueUsd"]) if (n[k] != null) errs.push(`notCounted[${i}].${k}: private companies are never valued`);
+  }
+  result.links = [...links];
+  return result;
+}
+
 // Employees and pay. payroll.method: "personnel-expense" (total staff costs as reported, billions of currency)
 // or "median-pay" (the CEO pay ratio disclosure's median employee pay, in units of currency; the build multiplies it by employees).
 const PAY_METHODS = ["personnel-expense", "median-pay"];
@@ -612,7 +658,7 @@ async function main() {
       }
     }
     // Paid out, owners and net worth: one lens per file.
-    for (const [dirKey, validate] of [["paidout", validatePaidoutFile], ["owners", validateOwnersFile], ["networth", validateNetworthFile], ["marketcap", validateMarketcapFile], ["pay", validatePayFile]]) {
+    for (const [dirKey, validate] of [["paidout", validatePaidoutFile], ["owners", validateOwnersFile], ["networth", validateNetworthFile], ["marketcap", validateMarketcapFile], ["pay", validatePayFile], ["ventures", validateVenturesFile]]) {
       const r = validate(id);
       if (!r.exists) continue;
       files++;

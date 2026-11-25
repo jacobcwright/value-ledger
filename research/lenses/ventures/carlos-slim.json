@@ -1,0 +1,98 @@
+{
+  "id": "carlos-slim",
+  "ventures": [
+    {
+      "company": "Grupo Carso",
+      "ticker": "GCARSO A1",
+      "founded": {
+        "year": 1980,
+        "role": "founder",
+        "source": {
+          "hostType": "company",
+          "url": "https://www.carso.com.mx/wp-content/uploads/2026/05/Reporte-Anual-2025-Grupo-CarsoOK.pdf",
+          "label": "Reporte Anual 2025 (CNBV/BMV annual report), Historia y desarrollo de la emisora; Accionistas",
+          "quote": "La Sociedad fue constituida en México, D. F. (actualmente Ciudad de México), el 22 de octubre de 1980, con una duración de 99 años, bajo la denominación de Grupo Galas, S. A. ... El Ing. Carlos Slim Helú y los seis integrantes de su familia inmediata son los principales accionistas de GCarso"
+        }
+      },
+      "includes": "Grupo Sanborns (Sanborns, Sears México), Grupo Condumex, Carso Infraestructura y Construcción and Carso Energy",
+      "classes": [
+        {
+          "label": "Serie A-1 ordinary shares",
+          "shares": 2252216966,
+          "sharesAsOf": "2026-09-30",
+          "pricedAs": "GCARSOA1.MX",
+          "perListedUnit": 1,
+          "pricedAsReason": null,
+          "source": {
+            "hostType": "company",
+            "url": "https://www.carso.com.mx/wp-content/uploads/2026/10/Reporte-3T26-GCarso-1.pdf",
+            "label": "Reporte trimestral 3T 2026 (BMV quarterly report), [700000] Datos informativos del Estado de situación financiera",
+            "quote": "Numero de acciones en circulación 2,252,216,966 2,253,533,644"
+          }
+        }
+      ],
+      "leaderStake": {
+        "label": "Carlos Slim Helú and the six members of his immediate family, as a group (direct and indirect)",
+        "pctEconomic": 76,
+        "pctVoting": null,
+        "asOf": "2026-04-30",
+        "source": {
+          "hostType": "company",
+          "url": "https://www.carso.com.mx/wp-content/uploads/2026/05/Reporte-Anual-2025-Grupo-CarsoOK.pdf",
+          "label": "Reporte Anual 2025 (CNBV/BMV annual report), Administradores y accionistas",
+          "quote": "al día 30 de abril de 2026, fecha de celebración de la asamblea de accionistas de GCarso ... El Ing. Carlos Slim Helú y los seis integrantes de su familia inmediata son los principales accionistas de GCarso al ser beneficiarios, directa o indirectamente, del 76% aproximadamente de su capital social."
+        },
+        "basis": "family"
+      },
+      "notes": "One class of shares: Serie A-1, ordinary, with no variable capital and no convertible securities outstanding. The count is the shares outstanding at September 30, 2026, net of the 8,949,450 shares repurchased, per the 3T26 report. The 76% is approximate and is the family group's stake. The report also names Carlos Slim Helú individually among directors holding more than 1% but less than 10%; that figure is part of the group and is not added. Grupo Carso is not majority-owned by América Móvil. Grupo Sanborns is excluded: Grupo Carso holds 99.97% of it (2025 annual report, subsidiaries table) after its December 2022 tender offer for the BMV-listed shares, so its value is already inside Grupo Carso."
+    },
+    {
+      "company": "Grupo Financiero Inbursa",
+      "ticker": "GFINBUR O",
+      "founded": {
+        "year": 1985,
+        "role": "founder",
+        "source": {
+          "hostType": "company",
+          "url": "https://www.inbursa.com/sites/gfi/document/gfi-anual2025.pdf",
+          "label": "Reporte Anual 2025 (CNBV/BMV annual report), Historia y desarrollo de la emisora; Participación accionaria",
+          "quote": "Inbursa se constituyó el 20 de mayo de 1985, como una sociedad mercantil bajo la denominación social de Promotora Carso, S.A. de C.V. ... los accionistas de control de dicho grupo participaron en la intermediación financiera especializada mediante la constitución, adquisición y/o administración de diversas entidades financieras que posteriormente fueron incorporadas al grupo"
+        }
+      },
+      "includes": "Banco Inbursa, Seguros Inbursa, Inversora Bursátil (constituted in 1965), Afore Inbursa and Operadora Inbursa",
+      "classes": [
+        {
+          "label": "Serie O ordinary shares",
+          "shares": 6048606935,
+          "sharesAsOf": "2025-12-31",
+          "pricedAs": "GFINBURO.MX",
+          "perListedUnit": 1,
+          "pricedAsReason": null,
+          "source": {
+            "hostType": "company",
+            "url": "https://www.inbursa.com/sites/gfi/document/gfi-anual2025.pdf",
+            "label": "Reporte Anual 2025 (CNBV/BMV annual report), Acciones representativas del capital social",
+            "quote": "Las acciones en circulación de Inbursa durante los últimos tres años se integran como sigue: Número de Acciones 2025 2024 2023 Acciones en circulación 6,048,606,935 6,082,085,930 6,102,118,842"
+          }
+        }
+      ],
+      "leaderStake": {
+        "label": "Carlos Slim Helú and members of his family in the direct descending line, as a group (direct and indirect)",
+        "pctEconomic": 62.53,
+        "pctVoting": null,
+        "asOf": "2026-04-28",
+        "source": {
+          "hostType": "company",
+          "url": "https://www.inbursa.com/sites/gfi/document/gfi-anual2025.pdf",
+          "label": "Reporte Anual 2025 (CNBV/BMV annual report), Participación accionaria de los consejeros y accionistas",
+          "quote": "El Ing. Carlos Slim Helú y miembros de su familia en línea recta descendente, como Grupo de Personas, son los accionistas de Control de Inbursa y ejercen Influencia Significativa sobre la misma al ser beneficiarios, de manera directa e indirecta del 62.53% del capital social en circulación de Inbursa"
+        },
+        "basis": "family"
+      },
+      "notes": "One class of shares: Serie O, ordinary. The count is shares outstanding at December 31, 2025 (6,667,027,948 issued less 618,421,013 repurchased). It is the latest count in a text document. The 3T26 BMV report gives none, and the 3T26 press release is a scanned image. Inbursa paid MXN 3,154,514,023 for repurchases in the first nine months of 2026 (3T26 BMV report, cash-flow statement), so the current count is somewhat lower. The ownership section is undated. asOf is the April 28, 2026 date of the report's audit opinion. Inbursa is not majority-owned by Grupo Carso or América Móvil: the controlling holders are Slim family members, and Criteria Caixa holds 5% to 10%."
+    }
+  ],
+  "notCounted": [],
+  "notes": "América Móvil, the primary company, stays in research/lenses/marketcap. Neither company's own documents call Carlos Slim Helú their founder. Their annual reports give the incorporation dates (Grupo Galas, now Grupo Carso, on October 22, 1980; Promotora Carso, now Grupo Financiero Inbursa, on May 20, 1985) and name Slim and his family as the controlling shareholders. Inbursa's report also says its controlling shareholders built the group by constituting and acquiring the financial firms in it. The founding attribution is from Slim's official biography at carlosslim.com (https://carlosslim.com/biografia.html), which is not a company site: \"Funda Inversora Bursátil\" (1965), \"Se crea Grupo Galas, hoy Grupo Carso\" (1980), and he \"crea Grupo Financiero Inbursa\". Other listed Slim-related companies were not added. Minera Frisco and Inmuebles Carso were spun off from Grupo Carso in 2010, and Frisco was originally acquired, not founded. Grupo Sanborns is 99.97% owned by Grupo Carso.",
+  "researchedAt": "2026-11-24"
+}

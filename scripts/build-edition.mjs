@@ -21,19 +21,29 @@ const src = fs.readFileSync(dataPath, "utf8");
 const lines = src.split("\n");
 const problems = [], stats = {cap: 0, pay: 0, payNull: 0};
 
-function capFor(id) {
-  const f = `research/lenses/marketcap/${id}.json`;
-  if (!fs.existsSync(path.join(root, f))) return null;
-  const rec = read(f);
+// Σ shares × perListedUnit × close ÷ FX for one company's share classes, in USD.
+function priced(id, classes) {
   let usd = 0;
-  for (const c of rec.classes) {
+  for (const c of classes) {
     const p = prices.symbols[c.pricedAs];
     if (!p || p.error) throw new Error(`${id}: no ${edition.pricesAsOf} close for ${c.pricedAs} in _prices.json (run scripts/refresh-prices.mjs)`);
     const perUSD = p.currency === "USD" ? 1 : prices.fx[p.currency]?.perUSD;
     if (!perUSD) throw new Error(`${id}: no H.10 rate for ${p.currency}`);
     usd += c.shares * (c.perListedUnit ?? 1) * (p.close / (p.divisor || 1)) / perUSD;
   }
-  return {cap: Math.round(usd / 1e8) / 10, capUrl: rec.classes[0].source?.url || rec.classes[0].computedFrom?.[0]?.source?.url};
+  return usd;
+}
+function capFor(id) {
+  const f = `research/lenses/marketcap/${id}.json`;
+  if (!fs.existsSync(path.join(root, f))) return null;
+  const rec = read(f);
+  const primary = priced(id, rec.classes);
+  // Serial founders (research/lenses/ventures): value created adds every other listed company they founded.
+  const vf = `research/lenses/ventures/${id}.json`;
+  const ventures = fs.existsSync(path.join(root, vf)) ? read(vf).ventures.map(v => ({company: v.company, ticker: v.ticker || null, cap: Math.round(priced(id, v.classes) / 1e8) / 10})) : [];
+  const total = primary + ventures.reduce((t, v) => t + v.cap * 1e9, 0);
+  return {cap: Math.round(total / 1e8) / 10, capUrl: rec.classes[0].source?.url || rec.classes[0].computedFrom?.[0]?.source?.url,
+    ...(ventures.length ? {primaryCap: Math.round(primary / 1e8) / 10, ventures} : {primaryCap: undefined, ventures: undefined})};
 }
 function payFor(id) {
   const f = `research/lenses/pay/${id}.json`;

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T19:52:49.243Z",
+  "generatedAt": "2026-11-25T00:24:58.916Z",
   "sources": {
     "https://rilstaticasset.akamaized.net/sites/default/files/2025-08/RIL-Integrated-Annual-Report-2024-25.pdf": {
       "ok": true,
@@ -3622,6 +3622,90 @@
     "https://www.sec.gov/Archives/edgar/data/1050446/000119312526186895/d944734ddef14a.htm": {
       "ok": true,
       "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/FOX?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/FOXA?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/GCARSOA1.MX?period1=1795181400&period2=1795185000&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/GFINBURO.MX?period1=1795181400&period2=1795185000&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://query2.finance.yahoo.com/v8/finance/chart/SPCX?period1=1795185000&period2=1795188600&interval=1d": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.carso.com.mx/wp-content/uploads/2026/05/Reporte-Anual-2025-Grupo-CarsoOK.pdf": {
+      "ok": true,
+      "reason": "all 2 quotes found (fragments)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.carso.com.mx/wp-content/uploads/2026/10/Reporte-3T26-GCarso-1.pdf": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.inbursa.com/sites/gfi/document/gfi-anual2025.pdf": {
+      "ok": true,
+      "reason": "all 3 quotes found (fragments, exact)",
+      "quotes": 3,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm": {
+      "ok": true,
+      "reason": "all 6 quotes found (fragments, exact)",
+      "quotes": 6,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1754301/000119312523240548/d492569dex991.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1754301/000162828026068670/fox-20260930.htm": {
+      "ok": true,
+      "reason": "all 2 quotes found (exact)",
+      "quotes": 2,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1754301/000119312526451888/d141597d8k.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (exact)",
+      "quotes": 1,
+      "failed": []
+    },
+    "https://www.sec.gov/Archives/edgar/data/1754301/000162828026062480/fox-20260917.htm": {
+      "ok": true,
+      "reason": "all 1 quotes found (fragments)",
       "quotes": 1,
       "failed": []
     }
